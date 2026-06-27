@@ -1,0 +1,8 @@
+data/articles.json
+data/cache.json
+output/
+deploy/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
