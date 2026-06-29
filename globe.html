@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ChainLens — AI-powered world news aggregator</title>
-  <meta name="description" content="ChainLens — AI-powered world news aggregator" />
+  <title>AstroAxis — AI-powered world news aggregator</title>
+  <meta name="description" content="AstroAxis — AI-powered world news aggregator" />
+  <link rel="canonical" href="https://lazycat00x.github.io/astroaxis-site/" />
   <style>
     :root {
       --bg: #050611;
@@ -83,7 +84,7 @@
       cursor: grab;
       touch-action: none;
       z-index: 0;
-      filter: saturate(1.14) contrast(1.06) drop-shadow(0 0 34px rgba(34, 211, 238, 0.18));
+      filter: drop-shadow(0 0 34px rgba(34, 211, 238, 0.18));
     }
 
     #globe-canvas:active { cursor: grabbing; }
@@ -91,16 +92,16 @@
 
     .filter-bar {
       position: fixed;
-      bottom: 40px;
+      bottom: clamp(12px, 4vh, 40px);
       left: 50%;
       transform: translateX(-50%);
       z-index: 10;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 8px;
-      width: min(920px, calc(100vw - 32px));
-      padding: 10px 12px;
+      gap: clamp(4px, 0.8vw, 8px);
+      width: min(920px, calc(100vw - 16px));
+      padding: clamp(6px, 0.8vh, 10px) clamp(8px, 1vw, 12px);
       border: 1px solid rgba(103, 232, 249, 0.24);
       border-radius: 999px;
       background: linear-gradient(180deg, rgba(8, 14, 31, 0.72), rgba(3, 6, 18, 0.58));
@@ -114,15 +115,15 @@
       border: 1px solid rgba(136, 136, 160, 0.28);
       border-radius: 999px;
       background: rgba(15, 22, 44, 0.64);
-      color: rgba(238, 247, 255, 0.80);
+      color: rgba(238, 247, 255, 0.7);
       cursor: pointer;
       font: inherit;
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      padding: 8px 12px;
-      text-transform: uppercase;
+      font-size: clamp(9px, 1.2vw, 13px);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
       transition: border-color 160ms ease, color 160ms ease, background 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+      padding: clamp(5px, 0.6vh, 8px) clamp(6px, 0.8vw, 11px);
     }
 
     .filter-btn:hover,
@@ -164,21 +165,107 @@
     .tooltip-summary { margin-top: 10px; padding-left: 18px; color: rgba(228, 228, 236, 0.82); font-size: 13px; line-height: 1.55; }
     .tooltip-summary li { margin: 5px 0; }
 
+    /* Zoom-in country label — subtle, don't block the view */
+    .country-label {
+      position: fixed;
+      top: 95px;
+      right: clamp(16px, 4vw, 48px);
+      left: auto;
+      bottom: auto;
+      transform: none;
+      z-index: 4;
+      pointer-events: none;
+      text-align: right;
+      opacity: 0;
+      transition: opacity 320ms ease;
+      will-change: opacity;
+    }
+    .country-label.visible { opacity: 1; }
+    .country-label .country-name {
+      display: block;
+      font-size: clamp(16px, 2vw, 28px);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      background: linear-gradient(135deg, #f7ffff 0%, #67e8f9 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      text-shadow: 0 0 40px rgba(34, 211, 238, 0.15);
+    }
+    .country-label .country-count {
+      display: block;
+      margin-top: 2px;
+      font-size: clamp(11px, 1.2vw, 15px);
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      color: rgba(136, 146, 182, 0.7);
+      text-shadow: none;
+    }
+
     .hud {
       position: absolute;
       left: clamp(20px, 5vw, 72px);
-      top: clamp(24px, 6vh, 72px);
-      z-index: 2;
+      top: 68px;
+      z-index: 4;
       pointer-events: none;
-      max-width: min(780px, calc(100vw - 40px));
-      padding: clamp(16px, 2.6vw, 24px);
+      max-width: clamp(210px, 22vw, 320px);
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .hud-content-inner {
       border: 1px solid rgba(103, 232, 249, 0.12);
       border-radius: 28px;
+      padding: clamp(16px, 2.6vw, 24px);
       background: linear-gradient(135deg, rgba(5, 11, 28, 0.50), rgba(5, 8, 20, 0.18));
       box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 0 44px rgba(34, 211, 238, 0.08);
       backdrop-filter: blur(10px);
       -webkit-backdrop-filter: blur(10px);
       text-shadow: 0 0 24px rgba(34, 211, 238, 0.28);
+    }
+    .hud.collapsed {
+      transform: translateX(-120%);
+      opacity: 0;
+    }
+    .hud-toggle {
+      position: fixed;
+      left: 10px;
+      top: 96px;
+      z-index: 12;
+      pointer-events: auto;
+      background: rgba(7,10,22,0.85);
+      border: 1px solid rgba(103,232,249,0.35);
+      border-radius: 0 8px 8px 0;
+      color: var(--cyan);
+      cursor: pointer;
+      font-size: 13px;
+      padding: 7px 5px;
+      line-height: 1;
+      transition: background 0.2s, color 0.2s;
+    }
+    .hud-toggle:hover { background: rgba(34,211,238,0.25); color: #fff; }
+    /* ── Legend items inside hud ── */
+    .hud-legend {
+      margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 10px;
+      pointer-events: auto;
+    }
+    .hud-legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 11px;
+      color: rgba(238,247,255,0.6);
+      letter-spacing: 0.03em;
+    }
+    .hud-legend-dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      box-shadow: 0 0 6px currentColor;
     }
 
     .eyebrow {
@@ -284,18 +371,22 @@
 
     .hint {
       position: absolute;
-      right: clamp(16px, 4vw, 52px);
+      left: clamp(16px, 4vw, 52px);
       bottom: clamp(16px, 4vh, 42px);
       z-index: 2;
       color: rgba(136, 136, 160, 0.75);
-      font-size: 12px;
+      font-size: 11px;
       letter-spacing: 0.08em;
       pointer-events: none;
+      max-width: calc(100vw - clamp(32px, 8vw, 104px) - clamp(210px, 22vw, 320px));
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     .scroll-hint {
       position: fixed;
-      bottom: 12px;
+      bottom: clamp(4px, 1.5vh, 12px);
       left: 50%;
       transform: translateX(-50%);
       z-index: 8;
@@ -321,42 +412,935 @@
       .subline { max-width: 330px; }
       .hint { display: none; }
       .filter-bar { border-radius: 22px; bottom: 12px; padding: 8px; }
+      .filter-btn { font-size: clamp(9px, 1.2vw, 13px); padding: clamp(5px, 0.6vh, 9px) clamp(8px, 1vw, 14px); }
+    }
+    @media (max-width: 640px) {
       .filter-btn { font-size: 10px; padding: 7px 9px; }
     }
   </style>
+  <!-- Timeline + Feed styles -->
+  <style>
+    .top-nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 20;
+      display: flex; align-items: center; gap: 8px;
+      padding: 10px clamp(14px,3vw,28px);
+      background: linear-gradient(180deg, rgba(3,6,18,0.88) 0%, rgba(3,6,18,0.72) 70%, transparent);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      pointer-events: auto;
+    }
+    .top-nav .logo { font-size: 18px; font-weight: 800; background: linear-gradient(135deg,#67e8f9,#a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-right: 16px; white-space: nowrap; }
+    .nav-btn {
+      background: transparent; border: 1px solid rgba(136,136,160,0.25); border-radius: 999px;
+      color: rgba(238,247,255,0.65); cursor: pointer; font: inherit; font-size: 12px; font-weight: 600;
+      padding: 6px 14px; transition: all .2s; letter-spacing: .04em;
+    }
+    .nav-btn:hover { border-color: rgba(34,211,238,0.5); color: #eef7ff; }
+    .nav-btn.active { background: rgba(34,211,238,0.15); border-color: #22d3ee; color: #eaffff; }
+    .lang-btn {
+      margin-left: auto; background: transparent; border: 1px solid rgba(136,136,160,0.2); border-radius: 999px;
+      color: rgba(238,247,255,0.6); cursor: pointer; font: inherit; font-size: 11px; font-weight: 600;
+      padding: 5px 10px; transition: all .2s;
+    }
+    .lang-btn:hover { border-color: rgba(167,139,250,0.5); color: #eef7ff; }
+    .lang-dropdown {
+      display: none; position: absolute; top: 100%; right: 10px; margin-top: 4px;
+      background: rgba(7,10,22,0.95); border: 1px solid rgba(136,136,160,0.25); border-radius: 12px;
+      backdrop-filter: blur(16px); overflow: hidden; min-width: 120px;
+    }
+    .lang-dropdown.open { display: block; }
+    .lang-option {
+      display: block; width: 100%; padding: 8px 14px; border: none; background: transparent;
+      color: rgba(238,247,255,0.7); cursor: pointer; font: inherit; font-size: 13px; text-align: left;
+      transition: background .15s;
+    }
+    .lang-option:hover { background: rgba(99,102,241,0.2); color: #fff; }
+    .lang-option.active { color: #67e8f9; font-weight: 600; }
+
+    .view-panel {
+      display: none; position: fixed; top: 52px; left: 0; right: 0; bottom: 0;
+      overflow-y: auto; z-index: 8; padding: 24px clamp(14px,4vw,48px) 40px;
+    }
+    .view-panel.active { display: block; }
+    #globe-view {
+      top: 0; padding: 0; overflow: hidden;
+    }
+    #globe-view #hero {
+      top: 52px;
+      height: calc(100dvh - 52px);
+    }
+
+    /* Timeline */
+    .timeline-year { margin-bottom: 32px; }
+    .timeline-year h2 { font-size: 22px; font-weight: 700; color: #22d3ee; margin-bottom: 14px; letter-spacing: .06em; }
+    .timeline-event {
+      display: flex; gap: 16px; margin-bottom: 12px; padding: 14px 18px;
+      background: rgba(7,10,22,0.6); border: 1px solid rgba(136,136,160,0.12); border-radius: 12px;
+      transition: all .2s;
+    }
+    .timeline-event:hover { border-color: rgba(99,102,241,0.4); background: rgba(7,10,22,0.8); }
+    .timeline-event .date { font-size: 14px; color: #8892b6; min-width: 60px; font-weight: 600; }
+    .timeline-event .info { flex: 1; }
+    .timeline-event .info h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+    .timeline-event .info p { font-size: 14px; color: rgba(228,228,236,0.7); }
+    .timeline-event .type-badge {
+      font-size: 12px; padding: 3px 10px; border-radius: 4px; font-weight: 600;
+      align-self: center;
+    }
+    .type-badge.finance { background: rgba(34,197,94,0.15); color: #22c55e; }
+    .type-badge.tech { background: rgba(59,130,246,0.15); color: #3b82f6; }
+    .type-badge.politics { background: rgba(234,179,8,0.15); color: #eab308; }
+    .type-badge.climate { background: rgba(249,115,22,0.15); color: #f97316; }
+    .type-badge.crypto { background: rgba(99,102,241,0.15); color: #818cf8; }
+    .type-badge.disaster { background: rgba(239,68,68,0.15); color: #ef4444; }
+
+    /* Feed cards */
+    .feed-grid { display: grid; grid-template-columns: 1fr; gap: 14px; max-width: 900px; margin: 0 auto; }
+    @media(min-width:768px){ .feed-grid { grid-template-columns: 1fr 1fr; } }
+    .feed-card {
+      background: rgba(7,10,22,0.6); border: 1px solid rgba(136,136,160,0.12); border-radius: 14px;
+      padding: 16px; transition: all .2s;
+    }
+    .feed-card:hover { border-color: rgba(99,102,241,0.35); }
+    .feed-card .card-top { display: flex; justify-content: space-between; align-items: start; gap: 8px; margin-bottom: 6px; }
+    .feed-card .card-topic { font-size: 12px; padding: 3px 9px; border-radius: 4px; font-weight: 600; }
+    .feed-card .card-source { font-size: 12px; color: rgba(136,136,160,0.8); }
+    .feed-card h3 { font-size: 16px; font-weight: 600; line-height: 1.4; margin-bottom: 8px; }
+    .feed-card h3 a { color: #eef7ff; text-decoration: none; }
+    .feed-card h3 a:hover { color: #67e8f9; }
+    .feed-card .card-summary { font-size: 14px; color: rgba(228,228,236,0.7); line-height: 1.55; margin-bottom: 8px; }
+    .feed-card .card-summary li { margin: 4px 0; }
+    .feed-card .card-meta { display: flex; justify-content: space-between; font-size: 12px; color: rgba(136,136,160,0.6); border-top: 1px solid rgba(136,136,160,0.08); padding-top: 8px; }
+    .bias-indicator { font-size: 12px; padding: 2px 9px; border-radius: 4px; }
+    .bias-low { background: rgba(34,197,94,0.12); color: #22c55e; }
+    .bias-med { background: rgba(234,179,8,0.12); color: #eab308; }
+    .bias-high { background: rgba(239,68,68,0.12); color: #ef4444; }
+
+    .breach-banner {
+      position: fixed; top: 52px; left: 0; right: 0; z-index: 15;
+      background: linear-gradient(90deg, rgba(239,68,68,0.15), rgba(239,68,68,0.08));
+      border-bottom: 1px solid rgba(239,68,68,0.3);
+      padding: 10px 20px; font-size: 15px; color: #fca5a5; text-align: center;
+      backdrop-filter: blur(8px); display: none; font-weight: 600;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .breach-banner.show { display: block; }
+    .breach-banner strong { color: #ef4444; }
+    
+    /* 3D History canvas */
+    #history3d-canvas {
+      position: absolute; inset: 0; width: 100%; height: 100%; display: block;
+      cursor: grab; touch-action: none;
+    }
+    #history3d-canvas:active { cursor: grabbing; }
+  </style>
 </head>
 <body>
-  <main id="hero" aria-label="ChainLens hologram globe hero">
+
+<!-- Top Navigation -->
+<nav class="top-nav">
+  <span class="logo">◆ AstroAxis</span>
+  <button class="nav-btn active" data-view="globe" data-i18n="nav.globe">Globe</button>
+  <button class="nav-btn" data-view="timeline" data-i18n="nav.timeline">Timeline</button>
+  <button class="nav-btn" data-view="feed" data-i18n="nav.feed">Feed</button>
+  <button class="nav-btn" data-view="history3d" data-i18n="nav.history3d">3D History</button>
+  <div style="position:relative;margin-left:auto">
+    <button class="lang-btn" id="langBtn">🌐 繁</button>
+    <div class="lang-dropdown" id="langDropdown">
+      <button class="lang-option" data-lang="en">English</button>
+      <button class="lang-option active" data-lang="zh-HK">繁體中文</button>
+      <button class="lang-option" data-lang="zh-CN">简体中文</button>
+      <button class="lang-option" data-lang="ja">日本語</button>
+      <button class="lang-option" data-lang="ko">한국어</button>
+    </div>
+  </div>
+</nav>
+
+<!-- Breaking news banner -->
+<div class="breach-banner" id="breachBanner">
+  ⚠️ <strong data-i18n="alert.breaking">BREAKING:</strong> <span id="breachText">Major event detected</span><span id="breachSource" style="color:rgba(255,255,255,0.4);font-weight:400;font-size:13px"></span>
+</div>
+
+<div id="globe-view" class="view-panel active">
+  <main id="hero" aria-label="AstroAxis hologram globe hero">
     <canvas id="globe-canvas"></canvas>
-    <section class="hud" aria-hidden="true">
-      <div class="eyebrow">LIVE SIGNAL MAP</div>
-      <h1>ChainLens</h1>
-      <p class="subline">AI-powered world news aggregator</p>
+    <section class="hud" id="hud-panel" aria-hidden="true">
+      <div id="hud-content">
+      <div class="hud-content-inner">
+      <div class="eyebrow" data-i18n="hud.eyebrow">LIVE SIGNAL MAP</div>
+      <h1>AstroAxis</h1>
+      <p class="subline" data-i18n="hud.subline">AI-powered world news aggregator</p>
+      <div class="hud-legend">
+        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#ff8800"></span>Bitcoin</span>
+        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#9999ff"></span>Ethereum</span>
+        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#22dd66"></span>DeFi</span>
+        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#4499ff"></span>AI</span>
+        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#ff4444"></span>Regulation</span>
+        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#ffdd00"></span>Policy</span>
+        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#7777ff"></span>Crypto</span>
+        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#33eeff"></span>Finance</span>
+        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#bb88ff"></span>Tech</span>
+        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#aaaacc"></span>General</span>
+      </div><!-- /hud-legend -->
+      </div><!-- /hud-content-inner -->
+    </div><!-- /hud-content -->
     </section>
+    <button id="hud-toggle" class="hud-toggle" title="Toggle panel">◀</button>
     <div id="article-tooltip" class="article-tooltip" role="status" aria-live="polite"></div>
+    <div id="country-label" class="country-label"><span class="country-name" id="country-label-name"></span><span class="country-count" id="country-label-count"></span></div>
     <nav class="filter-bar" aria-label="News marker filters">
-      <button class="filter-btn active" data-filter-type="all" data-filter-value="All">All</button>
-      <button class="filter-btn" data-filter-type="region" data-filter-value="Americas">Americas</button>
-      <button class="filter-btn" data-filter-type="region" data-filter-value="Europe">Europe</button>
-      <button class="filter-btn" data-filter-type="region" data-filter-value="Asia">Asia</button>
-      <button class="filter-btn active" data-filter-type="time" data-filter-value="all">ALL TIME</button>
-      <button class="filter-btn" data-filter-type="time" data-filter-value="6h">6H</button>
-      <button class="filter-btn" data-filter-type="time" data-filter-value="24h">24H</button>
-      <button class="filter-btn" data-filter-type="topic" data-filter-value="Bitcoin">Bitcoin</button>
-      <button class="filter-btn" data-filter-type="topic" data-filter-value="DeFi">DeFi</button>
-      <button class="filter-btn" data-filter-type="topic" data-filter-value="AI">AI</button>
-      <button class="filter-btn" data-filter-type="topic" data-filter-value="Regulation">Regulation</button>
+      <button class="filter-btn active" data-filter-type="all" data-filter-value="All" data-i18n="filter.all">All</button>
+      <button class="filter-btn" data-filter-type="region" data-filter-value="Americas" data-i18n="filter.americas">Americas</button>
+      <button class="filter-btn" data-filter-type="region" data-filter-value="Europe" data-i18n="filter.europe">Europe</button>
+      <button class="filter-btn" data-filter-type="region" data-filter-value="Asia" data-i18n="filter.asia">Asia</button>
+      <button class="filter-btn active" data-filter-type="time" data-filter-value="all" data-i18n="filter.alltime">ALL TIME</button>
+      <button class="filter-btn" data-filter-type="time" data-filter-value="6h" data-i18n="filter.6h">6H</button>
+      <button class="filter-btn" data-filter-type="time" data-filter-value="24h" data-i18n="filter.24h">24H</button>
+      <button class="filter-btn" data-filter-type="topic" data-filter-value="Bitcoin" data-i18n="filter.bitcoin">Bitcoin</button>
+      <button class="filter-btn" data-filter-type="topic" data-filter-value="DeFi" data-i18n="filter.defi">DeFi</button>
+      <button class="filter-btn" data-filter-type="topic" data-filter-value="AI" data-i18n="filter.ai">AI</button>
+      <button class="filter-btn" data-filter-type="topic" data-filter-value="Regulation" data-i18n="filter.regulation">Regulation</button>
     </nav>
     <div class="scanline"></div>
     <div class="vignette"></div>
-    <div class="hint">DRAG TO ROTATE · CLICK MARKERS FOR FULL STORY</div>
-    <div class="scroll-hint" aria-hidden="true">↓ scroll for articles</div>
+    <div class="hint" data-i18n="hint.drag">DRAG TO ROTATE · CLICK MARKERS FOR FULL STORY</div>
+    <div class="scroll-hint" aria-hidden="true" data-i18n="hint.scroll">↓ scroll for articles</div>
   </main>
+</div><!-- /globe-view -->
+
+<!-- Timeline Panel -->
+<div id="timeline-view" class="view-panel">
+  <div id="timeline-content" style="max-width:800px;margin:0 auto;padding-top:16px">
+    <div class="timeline-year"><h2>⏳ Loading timeline...</h2></div>
+  </div>
+</div>
+
+<!-- Feed Panel -->
+<div id="feed-view" class="view-panel">
+  <div id="feed-content" style="max-width:900px;margin:0 auto;padding-top:16px">
+    <p style="color:rgba(136,136,160,0.7);text-align:center;padding:40px">Loading articles...</p>
+  </div>
+</div>
+
+<!-- 3D History Timeline Panel -->
+<div id="history3d-view" class="view-panel">
+  <canvas id="history3d-canvas"></canvas>
+  <div id="history3d-tooltip" class="article-tooltip" role="status" aria-live="polite"></div>
+  <div id="history3d-hud" style="position:absolute;top:60px;left:20px;z-index:5;pointer-events:none">
+    <div id="history3d-year-label" style="font-size:14px;color:#8892b6;font-weight:600;letter-spacing:.08em">1900 — 2026</div>
+  </div>
+  <div style="position:absolute;bottom:30px;left:50%;transform:translateX(-50%);z-index:5;font-size:11px;color:rgba(136,136,160,0.5);letter-spacing:.06em;pointer-events:none">
+    DRAG TO ROTATE · SCROLL TO ZOOM · HOVER FOR DETAILS
+  </div>
+</div>
 
   <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
   <script>
+    // ── View switching ──
+    let currentLang = localStorage.getItem('astrolang') || 'zh-HK';
+    const timelineData = {"2024": [{"date":"2024-01-10","title":"Bitcoin ETF Approved","desc":"SEC approves first spot Bitcoin ETFs in the US","type":"finance"},{"date":"2024-03-15","title":"AI Regulation Framework","desc":"EU passes landmark AI Act","type":"tech"},{"date":"2024-07-21","title":"Global Heatwave","desc":"Hottest day on record globally","type":"climate"},{"date":"2024-11-05","title":"US Presidential Election","desc":"2024 United States presidential election","type":"politics"}],"2025":[{"date":"2025-01-20","title":"New Administration","desc":"Inauguration of 47th US President","type":"politics"},{"date":"2025-03-28","title":"AI Export Controls","desc":"US tightens AI chip export restrictions","type":"tech"},{"date":"2025-06-15","title":"Global Trade Realignment","desc":"USMCA renegotiation begins","type":"finance"},{"date":"2025-09-01","title":"Crypto Market Correction","desc":"Bitcoin drops 40% from all-time high","type":"crypto"}],"2026":[{"date":"2026-02-10","title":"AI Model Proliferation","desc":"Multiple nations launch sovereign AI models","type":"tech"},{"date":"2026-04-05","title":"Iran-US Peace Deal","desc":"Historic ceasefire agreement signed","type":"politics"},{"date":"2026-06-24","title":"Venezuela Earthquake","desc":"Dual 7.5 magnitude quakes, 1000+ casualties","type":"disaster"},{"date":"2026-06-27","title":"Binance EU Exit","desc":"Binance fails MiCA license, exits EU market","type":"crypto"}]};
+
+    // ── Full UI translations ──
+    const I18N = {
+      en: {
+        'nav.globe':'Globe','nav.timeline':'Timeline','nav.feed':'Feed','nav.history3d':'3D History',
+        'hud.eyebrow':'LIVE SIGNAL MAP','hud.subline':'AI-powered world news aggregator',
+        'filter.all':'All','filter.americas':'Americas','filter.europe':'Europe','filter.asia':'Asia',
+        'filter.alltime':'ALL TIME','filter.6h':'6H','filter.24h':'24H',
+        'filter.bitcoin':'Bitcoin','filter.defi':'DeFi','filter.ai':'AI','filter.regulation':'Regulation',
+        'hint.drag':'DRAG TO ROTATE · CLICK MARKERS FOR FULL STORY','hint.scroll':'↓ scroll for articles',
+        'feed.title':'AstroAxis Feed','tl.title':'World History Timeline',
+        'alert.breaking':'BREAKING:','bias.none':'Neutral','bias.light':'Slight bias','bias.high':'Biased',
+      },
+      'zh-HK': {
+        'nav.globe':'全球','nav.timeline':'時間軸','nav.feed':'新聞','nav.history3d':'3D歷史',
+        'hud.eyebrow':'即時訊號地圖','hud.subline':'AI 驅動嘅全球新聞聚合',
+        'filter.all':'全部','filter.americas':'美洲','filter.europe':'歐洲','filter.asia':'亞洲',
+        'filter.alltime':'全部時間','filter.6h':'6小時','filter.24h':'24小時',
+        'filter.bitcoin':'Bitcoin','filter.defi':'DeFi','filter.ai':'AI','filter.regulation':'監管',
+        'hint.drag':'拖拽旋轉 · 點擊標記睇全文','hint.scroll':'↓ 向下睇文章',
+        'feed.title':'AstroAxis 新聞','tl.title':'世界歷史時間軸',
+        'alert.breaking':'緊急：','bias.none':'中立','bias.light':'略帶偏頗','bias.high':'偏頗',
+      },
+      'zh-CN': {
+        'nav.globe':'全球','nav.timeline':'时间轴','nav.feed':'新闻','nav.history3d':'3D历史',
+        'hud.eyebrow':'实时信号地图','hud.subline':'AI 驱动的全球新闻聚合',
+        'filter.all':'全部','filter.americas':'美洲','filter.europe':'欧洲','filter.asia':'亚洲',
+        'filter.alltime':'全部时间','filter.6h':'6小时','filter.24h':'24小时',
+        'filter.bitcoin':'比特币','filter.defi':'DeFi','filter.ai':'AI','filter.regulation':'监管',
+        'hint.drag':'拖拽旋转 · 点击标记看全文','hint.scroll':'↓ 向下看文章',
+        'feed.title':'AstroAxis 新闻','tl.title':'世界历史时间轴',
+        'alert.breaking':'紧急：','bias.none':'中立','bias.light':'略有偏见','bias.high':'有偏见',
+      },
+      ja: {
+        'nav.globe':'世界','nav.timeline':'タイムライン','nav.feed':'ニュース','nav.history3d':'3D史',
+        'hud.eyebrow':'ライブシグナルマップ','hud.subline':'AI搭載の世界ニュースアグリゲーター',
+        'filter.all':'すべて','filter.americas':'アメリカ','filter.europe':'ヨーロッパ','filter.asia':'アジア',
+        'filter.alltime':'全期間','filter.6h':'6時間','filter.24h':'24時間',
+        'filter.bitcoin':'ビットコイン','filter.defi':'DeFi','filter.ai':'AI','filter.regulation':'規制',
+        'hint.drag':'ドラッグで回転 · マーカークリックで全文','hint.scroll':'↓ 記事をスクロール',
+        'feed.title':'AstroAxis ニュース','tl.title':'世界史タイムライン',
+        'alert.breaking':'速報：','bias.none':'中立','bias.light':'やや偏り','bias.high':'偏りあり',
+      },
+      ko: {
+        'nav.globe':'세계','nav.timeline':'타임라인','nav.feed':'뉴스','nav.history3d':'3D역사',
+        'hud.eyebrow':'실시간 신호 지도','hud.subline':'AI 기반 세계 뉴스 수집기',
+        'filter.all':'전체','filter.americas':'미주','filter.europe':'유럽','filter.asia':'아시아',
+        'filter.alltime':'전체 기간','filter.6h':'6시간','filter.24h':'24시간',
+        'filter.bitcoin':'비트코인','filter.defi':'DeFi','filter.ai':'AI','filter.regulation':'규제',
+        'hint.drag':'드래그 회전 · 마커 클릭으로 전체 기사','hint.scroll':'↓ 기사 스크롤',
+        'feed.title':'AstroAxis 뉴스','tl.title':'세계 역사 타임라인',
+        'alert.breaking':'속보：','bias.none':'중립','bias.light':'약간 편향','bias.high':'편향',
+      },
+    };
+    const LANG_LABELS = {en:'EN','zh-HK':'繁','zh-CN':'简','ja':'日','ko':'한'};
+
+    function applyLanguage() {
+      const t = I18N[currentLang] || I18N['zh-HK'];
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        if (t[key]) el.textContent = t[key];
+      });
+      document.getElementById('langBtn').textContent = '🌐 ' + (LANG_LABELS[currentLang] || '繁');
+      renderTimeline();
+      renderFeed();
+    }
+
+    document.getElementById('langBtn').addEventListener('click', () => {
+      document.getElementById('langDropdown').classList.toggle('open');
+    });
+    document.querySelectorAll('.lang-option').forEach(opt => {
+      opt.addEventListener('click', () => {
+        currentLang = opt.dataset.lang;
+        localStorage.setItem('astrolang', currentLang);
+        document.querySelectorAll('.lang-option').forEach(o => o.classList.remove('active'));
+        opt.classList.add('active');
+        document.getElementById('langDropdown').classList.remove('open');
+        applyLanguage();
+      });
+    });
+
+    // Defer initial language/render pass until all const data below (TL_TYPE, NEWS_DATA)
+    // has been initialized. Calling applyLanguage() here triggers temporal-dead-zone
+    // ReferenceErrors and aborts the rest of the script before the globe can start.
+
+    // ── Timeline ──
+    // TL_LABELS merged into I18N above
+    const TL_TYPE = {en:{finance:'Finance',tech:'Tech',politics:'Politics',climate:'Climate',crypto:'Crypto',disaster:'Disaster'},'zh-HK':{finance:'金融',tech:'科技',politics:'政治',climate:'氣候',crypto:'加密貨幣',disaster:'災難'},'zh-CN':{finance:'金融',tech:'科技',politics:'政治',climate:'气候',crypto:'加密货币',disaster:'灾难'},ja:{finance:'金融',tech:'技術',politics:'政治',climate:'気候',crypto:'暗号資産',disaster:'災害'},ko:{finance:'금융',tech:'기술',politics:'정치',climate:'기후',crypto:'암호화폐',disaster:'재난'}};
+
+    function renderTimeline() {
+      const t = I18N[currentLang] || I18N['zh-HK'];
+      const types = TL_TYPE[currentLang] || TL_TYPE['en'];
+      let html = `<h2 style="font-size:24px;font-weight:700;margin-bottom:24px;background:linear-gradient(135deg,#67e8f9,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent">${t['tl.title']}</h2>`;
+      Object.keys(timelineData).sort().reverse().forEach(year => {
+        html += `<div class="timeline-year"><h2>${year}</h2>`;
+        timelineData[year].forEach(ev => {
+          html += `<div class="timeline-event">
+            <div class="date">${ev.date}</div>
+            <div class="info"><h3>${ev.title}</h3><p>${ev.desc}</p></div>
+            <span class="type-badge ${ev.type}">${types[ev.type] || ev.type}</span>
+          </div>`;
+        });
+        html += `</div>`;
+      });
+      document.getElementById('timeline-content').innerHTML = html;
+    }
+
+    // ── Feed ──
+    function renderFeed() {
+      const articles = NEWS_DATA.articles || [];
+      // Apply active filters (topic & time)
+      const filtered = articles.filter(a => {
+        // Topic filter
+        if (activeFilters.topic !== 'All' && a.topic !== activeFilters.topic) return false;
+        // Time filter
+        if (activeFilters.time !== 'all') {
+          if (!a.published) return false;
+          const hoursAgo = (Date.now() - Date.parse(a.published)) / (1000 * 60 * 60);
+          if (activeFilters.time === '6h' && hoursAgo > 6) return false;
+          if (activeFilters.time === '24h' && hoursAgo > 24) return false;
+        }
+        return true;
+      });
+      if (!filtered.length) { document.getElementById('feed-content').innerHTML = `<h2 style="font-size:24px;font-weight:700;margin-bottom:20px;background:linear-gradient(135deg,#67e8f9,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent">${I18N[currentLang]?.['feed.title'] || 'AstroAxis Feed'}</h2><p style="color:rgba(136,136,160,0.7);text-align:center;padding:40px">No matching articles.</p>`; return; }
+      let html = `<h2 style="font-size:24px;font-weight:700;margin-bottom:20px;background:linear-gradient(135deg,#67e8f9,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent">${I18N[currentLang]?.['feed.title'] || 'AstroAxis Feed'}</h2><div class="feed-grid">`;
+      filtered.slice(0, 50).forEach(a => {
+        const biasScore = a.bias_score || 0;
+        const biasCls = biasScore === 0 ? 'bias-low' : biasScore < 3 ? 'bias-med' : 'bias-high';
+        const t = I18N[currentLang] || I18N['zh-HK']; const biasLabel = biasScore === 0 ? t['bias.none'] : biasScore < 3 ? t['bias.light'] : t['bias.high'];
+        // Multi-language summary: prefer currentLang, fallback zh-HK, fallback ai_summary string
+        const summaryText = (a.summaries && a.summaries[currentLang]) || (a.summaries && a.summaries['zh-HK']) || a.ai_summary || '';
+        const bullets = summaryText.split('\\n').filter(l => l.includes('•')).map(l => l.replace(/^[•\\s]+/,'').trim()).filter(Boolean).slice(0, 4);
+        html += `<div class="feed-card">
+          <div class="card-top">
+            <span class="card-topic" style="color:#${a.topic === 'AI' ? '3b82f6' : a.topic === 'Bitcoin' ? 'f97316' : a.topic === 'Regulation' ? 'ef4444' : a.topic === 'DeFi' ? '22c55e' : '818cf8'}">${a.topic || 'General'}</span>
+            <span class="bias-indicator ${biasCls}">${biasLabel}</span>
+          </div>
+          <h3><a href="${a.url}" target="_blank" rel="noopener">${a.title}</a></h3>
+          <div class="card-summary"><ul>${bullets.map(b => `<li>${b}</li>`).join('')}</ul></div>
+          <div class="card-meta">
+            <span>${a.source}</span>
+            <span>${a.published ? new Date(a.published).toLocaleDateString() : ''}</span>
+          </div>
+        </div>`;
+      });
+      html += '</div>';
+      document.getElementById('feed-content').innerHTML = html;
+    }
+
+    // ── Breaking news checker ──
+    async function checkBreaking() {
+      try {
+        const articles = NEWS_DATA.articles || [];
+        const recent = articles.filter(a => {
+          if (!a.published) return false;
+          const h = (Date.now() - new Date(a.published).getTime()) / 3600000;
+          return h < 2;
+        });
+        const urgent = recent.filter(a => /earthquake|tsunami|hurricane|attack|war|crash|collapse|explosion|shooting|pandemic/i.test((a.title||'') + ' ' + (a.ai_summary||'')));
+        const banner = document.getElementById('breachBanner');
+        if (urgent.length > 0) {
+          const u = urgent[0];
+          document.getElementById('breachText').textContent = u.title.slice(0, 80);
+          document.getElementById('breachSource').textContent = u.source ? ' · ' + u.source : '';
+          banner.classList.add('show');
+        } else {
+          banner.classList.remove('show');
+        }
+      } catch(e) { console.warn('Breaking check:', e); }
+    }
+
+    // ── 3D History Timeline ──
+    let history3D = null;
+
+    function initHistory3D() {
+      if (history3D) {
+        if (history3D.resize) history3D.resize();
+        if (!history3D.animId && history3D.animate) history3D.animate();
+        return;
+      }
+
+      const canvas = document.getElementById('history3d-canvas');
+      if (!canvas || !window.THREE) return;
+
+      const RECENT_YEARS = [2026, 2025, 2024, 2023, 2022];
+      const yearSet = new Set(RECENT_YEARS);
+      const eventsByYear = {};
+      RECENT_YEARS.forEach(year => { eventsByYear[year] = []; });
+
+      Object.keys(timelineData || {}).forEach(yearKey => {
+        const year = parseInt(yearKey, 10);
+        if (!yearSet.has(year)) return;
+        (timelineData[yearKey] || []).forEach((ev, index) => {
+          eventsByYear[year].push({ ...ev, year, _index: index });
+        });
+      });
+
+      const events = RECENT_YEARS.flatMap(year => eventsByYear[year]);
+      if (!events.length) return;
+
+      const hudLabel = document.getElementById('history3d-year-label');
+      if (hudLabel) {
+        hudLabel.textContent = `CENTER 2026 · OUTER RINGS 2025 → 2022 · ${events.length} EVENTS`;
+      }
+
+      const root = canvas.parentElement || canvas;
+      const getSize = () => ({
+        w: root.clientWidth || window.innerWidth,
+        h: root.clientHeight || window.innerHeight
+      });
+      const initialSize = getSize();
+
+      const scene = new THREE.Scene();
+      scene.background = new THREE.Color(0x03040c);
+      scene.fog = new THREE.FogExp2(0x03040c, 0.035);
+
+      const camera = new THREE.PerspectiveCamera(48, initialSize.w / initialSize.h, 0.1, 80);
+      camera.position.set(0, initialSize.w < 760 ? 8.8 : 9.8, initialSize.w < 760 ? 11.5 : 10.4);
+
+      const renderer = new THREE.WebGLRenderer({
+        canvas,
+        antialias: true,
+        alpha: false,
+        powerPreference: 'high-performance'
+      });
+      renderer.setClearColor(0x03040c, 1);
+      renderer.setSize(initialSize.w, initialSize.h);
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+
+      const clock = new THREE.Clock();
+      const universe = new THREE.Group();
+      universe.rotation.y = -0.22;
+      scene.add(universe);
+
+      scene.add(new THREE.AmbientLight(0x7c8cff, 0.35));
+      const keyLight = new THREE.DirectionalLight(0xffffff, 1.05);
+      keyLight.position.set(4, 8, 5);
+      scene.add(keyLight);
+      const cyanLight = new THREE.PointLight(0x22d3ee, 1.2, 16);
+      cyanLight.position.set(0, 3.5, 0);
+      scene.add(cyanLight);
+
+      const typeOrder = ['politics', 'tech', 'finance', 'disaster', 'climate', 'crypto', 'science', 'sports', 'general'];
+      const typeColors = {
+        politics: '#eab308',
+        tech: '#3b82f6',
+        finance: '#22c55e',
+        disaster: '#ef4444',
+        climate: '#f97316',
+        crypto: '#818cf8',
+        science: '#a78bfa',
+        sports: '#f59e0b',
+        general: '#8892b6'
+      };
+      const yearAccent = ['#67e8f9', '#22d3ee', '#818cf8', '#a78bfa', '#6366f1'];
+      const typeLabelMap = TL_TYPE[currentLang] || TL_TYPE.en || {};
+      const TAU = Math.PI * 2;
+      const sectorSpan = TAU / typeOrder.length;
+      const innerRadius = 0.78;
+      const ringStep = 1.34;
+      const outerRadius = innerRadius + ringStep * (RECENT_YEARS.length - 1);
+
+      function safeText(value) {
+        return String(value || '').replace(/[&<>"']/g, ch => ({
+          '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+        }[ch]));
+      }
+
+      function drawRoundRect(ctx, x, y, w, h, r) {
+        ctx.beginPath();
+        ctx.moveTo(x + r, y);
+        ctx.lineTo(x + w - r, y);
+        ctx.quadraticCurveTo(x + w, y, x + w, y + r);
+        ctx.lineTo(x + w, y + h - r);
+        ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
+        ctx.lineTo(x + r, y + h);
+        ctx.quadraticCurveTo(x, y + h, x, y + h - r);
+        ctx.lineTo(x, y + r);
+        ctx.quadraticCurveTo(x, y, x + r, y);
+        ctx.closePath();
+      }
+
+      function makeTextSprite(text, opts = {}) {
+        const width = opts.width || 640;
+        const height = opts.height || 160;
+        const canvasLabel = document.createElement('canvas');
+        canvasLabel.width = width;
+        canvasLabel.height = height;
+        const ctx = canvasLabel.getContext('2d');
+        ctx.clearRect(0, 0, width, height);
+        if (opts.bg) {
+          drawRoundRect(ctx, 10, 10, width - 20, height - 20, opts.radius || 28);
+          ctx.fillStyle = opts.bg;
+          ctx.fill();
+          ctx.strokeStyle = opts.border || 'rgba(103,232,249,0.25)';
+          ctx.lineWidth = 3;
+          ctx.stroke();
+        }
+        ctx.font = `${opts.weight || 700} ${opts.size || 46}px Inter, Arial, sans-serif`;
+        ctx.textAlign = opts.align || 'center';
+        ctx.textBaseline = 'middle';
+        ctx.shadowColor = opts.shadow || opts.color || '#67e8f9';
+        ctx.shadowBlur = opts.shadowBlur == null ? 14 : opts.shadowBlur;
+        ctx.fillStyle = opts.color || '#eaffff';
+        const maxWidth = width - 54;
+        const label = String(text || '');
+        const metrics = ctx.measureText(label);
+        let display = label;
+        if (metrics.width > maxWidth) {
+          while (display.length > 4 && ctx.measureText(display + '…').width > maxWidth) display = display.slice(0, -1);
+          display += '…';
+        }
+        ctx.fillText(display, opts.align === 'left' ? 32 : width / 2, height / 2 + (opts.yOffset || 0));
+        const texture = new THREE.CanvasTexture(canvasLabel);
+        texture.minFilter = THREE.LinearFilter;
+        texture.magFilter = THREE.LinearFilter;
+        texture.generateMipmaps = false;
+        const material = new THREE.SpriteMaterial({
+          map: texture,
+          transparent: true,
+          opacity: opts.opacity == null ? 0.92 : opts.opacity,
+          depthWrite: false,
+          depthTest: opts.depthTest == null ? false : opts.depthTest
+        });
+        const sprite = new THREE.Sprite(material);
+        sprite.scale.set(opts.scaleX || 1.65, opts.scaleY || 0.42, 1);
+        sprite.userData.texture = texture;
+        return sprite;
+      }
+
+      function circlePoint(radius, angle, y = 0) {
+        return new THREE.Vector3(Math.cos(angle) * radius, y, Math.sin(angle) * radius);
+      }
+
+      const ringGroup = new THREE.Group();
+      const markerGroup = new THREE.Group();
+      const labelGroup = new THREE.Group();
+      const connectorGroup = new THREE.Group();
+      universe.add(ringGroup, connectorGroup, markerGroup, labelGroup);
+
+      // Soft star field behind the orbital history map.
+      const starCount = initialSize.w < 760 ? 90 : 150;
+      const starPositions = new Float32Array(starCount * 3);
+      for (let i = 0; i < starCount; i++) {
+        const angle = Math.random() * TAU;
+        const radius = 9 + Math.random() * 18;
+        starPositions[i * 3] = Math.cos(angle) * radius;
+        starPositions[i * 3 + 1] = -2.8 + Math.random() * 11;
+        starPositions[i * 3 + 2] = Math.sin(angle) * radius;
+      }
+      const stars = new THREE.Points(
+        new THREE.BufferGeometry().setAttribute('position', new THREE.BufferAttribute(starPositions, 3)),
+        new THREE.PointsMaterial({ color: 0x8fbfff, size: 0.035, transparent: true, opacity: 0.55, depthWrite: false })
+      );
+      scene.add(stars);
+
+      // Center = 2026, then each older year expands outward as a concentric ring.
+      RECENT_YEARS.forEach((year, yearIndex) => {
+        const radius = innerRadius + yearIndex * ringStep;
+        const color = new THREE.Color(yearAccent[yearIndex] || '#67e8f9');
+        const ringMaterial = new THREE.MeshBasicMaterial({
+          color,
+          transparent: true,
+          opacity: yearIndex === 0 ? 0.75 : 0.45,
+          blending: THREE.AdditiveBlending,
+          depthWrite: false,
+          side: THREE.DoubleSide
+        });
+        const ring = new THREE.Mesh(new THREE.RingGeometry(radius - 0.022, radius + 0.022, 224, 3), ringMaterial);
+        ring.rotation.x = -Math.PI / 2;
+        ring.userData = { year, radius, baseOpacity: ringMaterial.opacity };
+        ringGroup.add(ring);
+
+        const haloMaterial = new THREE.MeshBasicMaterial({
+          color,
+          transparent: true,
+          opacity: yearIndex === 0 ? 0.08 : 0.045,
+          blending: THREE.AdditiveBlending,
+          depthWrite: false,
+          side: THREE.DoubleSide
+        });
+        const halo = new THREE.Mesh(new THREE.RingGeometry(Math.max(0.04, radius - 0.18), radius + 0.18, 224, 2), haloMaterial);
+        halo.rotation.x = -Math.PI / 2;
+        halo.userData = { pulseOffset: yearIndex * 0.9, baseOpacity: haloMaterial.opacity };
+        ringGroup.add(halo);
+
+        const yearLabel = makeTextSprite(String(year), {
+          color: yearIndex === 0 ? '#ecfeff' : yearAccent[yearIndex],
+          bg: yearIndex === 0 ? 'rgba(4,10,25,0.58)' : 'rgba(4,10,25,0.38)',
+          border: `rgba(${Math.floor(color.r * 255)},${Math.floor(color.g * 255)},${Math.floor(color.b * 255)},0.38)`,
+          width: 520,
+          height: 140,
+          size: yearIndex === 0 ? 48 : 40,
+          scaleX: yearIndex === 0 ? 1.9 : 1.25,
+          scaleY: yearIndex === 0 ? 0.5 : 0.34
+        });
+        yearLabel.position.copy(yearIndex === 0 ? new THREE.Vector3(0, 0.82, 0) : circlePoint(radius + 0.42, -0.18, 0.24));
+        labelGroup.add(yearLabel);
+      });
+
+      const hub = new THREE.Mesh(
+        new THREE.SphereGeometry(0.17, 24, 16),
+        new THREE.MeshBasicMaterial({ color: 0x67e8f9, transparent: true, opacity: 0.95, blending: THREE.AdditiveBlending })
+      );
+      hub.position.y = 0.22;
+      markerGroup.add(hub);
+      const hubGlow = new THREE.Mesh(
+        new THREE.SphereGeometry(0.52, 32, 18),
+        new THREE.MeshBasicMaterial({ color: 0x22d3ee, transparent: true, opacity: 0.1, blending: THREE.AdditiveBlending, depthWrite: false })
+      );
+      hubGlow.position.copy(hub.position);
+      markerGroup.add(hubGlow);
+
+      // Category spokes and legend labels make type distribution visible around every ring.
+      typeOrder.forEach((type, typeIndex) => {
+        const boundary = -Math.PI / 2 + typeIndex * sectorSpan;
+        const centerAngle = boundary + sectorSpan / 2;
+        const spoke = new THREE.Line(
+          new THREE.BufferGeometry().setFromPoints([circlePoint(innerRadius * 0.55, boundary, 0.006), circlePoint(outerRadius + 0.52, boundary, 0.006)]),
+          new THREE.LineBasicMaterial({ color: typeColors[type], transparent: true, opacity: 0.12, blending: THREE.AdditiveBlending, depthWrite: false })
+        );
+        connectorGroup.add(spoke);
+
+        const label = makeTextSprite((typeLabelMap[type] || type).toUpperCase(), {
+          color: typeColors[type],
+          bg: 'rgba(3,6,18,0.34)',
+          border: 'rgba(136,146,182,0.18)',
+          width: 560,
+          height: 130,
+          size: 36,
+          scaleX: 1.18,
+          scaleY: 0.28,
+          opacity: 0.78
+        });
+        label.position.copy(circlePoint(outerRadius + 1.18, centerAngle, 0.3));
+        labelGroup.add(label);
+      });
+
+      // Fixed radial bridges emphasize that zooming out reveals progressively older years.
+      [0.08, 2.18, 4.28].forEach((angle, bridgeIndex) => {
+        const bridge = new THREE.Line(
+          new THREE.BufferGeometry().setFromPoints([circlePoint(innerRadius, angle, -0.012), circlePoint(outerRadius, angle, -0.012)]),
+          new THREE.LineBasicMaterial({ color: bridgeIndex === 0 ? 0x67e8f9 : 0x818cf8, transparent: true, opacity: 0.18, blending: THREE.AdditiveBlending, depthWrite: false })
+        );
+        connectorGroup.add(bridge);
+      });
+
+      const markerGeom = new THREE.SphereGeometry(0.115, 18, 12);
+      const glowGeom = new THREE.SphereGeometry(0.27, 18, 12);
+      const markerMeshes = [];
+      const markerRecords = [];
+
+      function setOrbitPose(record, angle) {
+        const ev = record.event;
+        const typeIndex = Math.max(0, typeOrder.indexOf(ev.type || 'general'));
+        const y = 0.24 + (typeIndex % 3) * 0.055;
+        const pos = circlePoint(record.radius, angle, y);
+        record.mesh.position.copy(pos);
+        record.label.position.copy(circlePoint(record.radius + 0.36, angle, y + 0.34));
+        const attr = record.connector.geometry.attributes.position;
+        attr.setXYZ(0, pos.x, pos.y, pos.z);
+        attr.setXYZ(1, Math.cos(angle) * record.radius, 0.012, Math.sin(angle) * record.radius);
+        attr.needsUpdate = true;
+      }
+
+      RECENT_YEARS.forEach((year, yearIndex) => {
+        const radius = innerRadius + yearIndex * ringStep;
+        const byType = {};
+        typeOrder.forEach(type => { byType[type] = []; });
+        eventsByYear[year].forEach(ev => {
+          const type = typeOrder.includes(ev.type) ? ev.type : 'general';
+          byType[type].push({ ...ev, type });
+        });
+
+        typeOrder.forEach((type, typeIndex) => {
+          const typed = byType[type].sort((a, b) => String(a.date || '').localeCompare(String(b.date || '')));
+          if (!typed.length) return;
+          const sectorStart = -Math.PI / 2 + typeIndex * sectorSpan + sectorSpan * 0.1;
+          const usableSpan = sectorSpan * 0.8;
+          typed.forEach((ev, eventIndex) => {
+            const slot = (eventIndex + 1) / (typed.length + 1);
+            const baseAngle = sectorStart + slot * usableSpan + yearIndex * 0.025;
+            const color = new THREE.Color(typeColors[type] || typeColors.general);
+            const markerMaterial = new THREE.MeshBasicMaterial({
+              color,
+              transparent: true,
+              opacity: 0.96,
+              blending: THREE.AdditiveBlending,
+              depthWrite: false
+            });
+            const marker = new THREE.Mesh(markerGeom, markerMaterial);
+            const glow = new THREE.Mesh(glowGeom, new THREE.MeshBasicMaterial({
+              color,
+              transparent: true,
+              opacity: 0.16,
+              blending: THREE.AdditiveBlending,
+              depthWrite: false
+            }));
+            marker.add(glow);
+            marker.userData = { event: ev, year, type, baseScale: 1, glow };
+            markerGroup.add(marker);
+            markerMeshes.push(marker);
+
+            const connector = new THREE.Line(
+              new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(), new THREE.Vector3()]),
+              new THREE.LineBasicMaterial({ color, transparent: true, opacity: 0.24, blending: THREE.AdditiveBlending, depthWrite: false })
+            );
+            connectorGroup.add(connector);
+
+            const titleLabel = makeTextSprite(ev.title, {
+              color: '#dffbff',
+              bg: 'rgba(3,6,18,0.42)',
+              border: `rgba(${Math.floor(color.r * 255)},${Math.floor(color.g * 255)},${Math.floor(color.b * 255)},0.22)`,
+              width: 760,
+              height: 128,
+              size: 34,
+              scaleX: 1.22,
+              scaleY: 0.28,
+              opacity: 0.72
+            });
+            labelGroup.add(titleLabel);
+
+            const record = {
+              event: ev,
+              year,
+              type,
+              radius,
+              baseAngle,
+              orbitSpeed: (0.008 + yearIndex * 0.003) * (yearIndex % 2 ? -1 : 1),
+              mesh: marker,
+              label: titleLabel,
+              connector
+            };
+            markerRecords.push(record);
+            setOrbitPose(record, baseAngle);
+          });
+        });
+      });
+
+      const tooltip = document.getElementById('history3d-tooltip');
+      const raycaster = new THREE.Raycaster();
+      const pointer = new THREE.Vector2(-10, -10);
+      let hovered = null;
+
+      function updatePointer(event) {
+        const rect = renderer.domElement.getBoundingClientRect();
+        pointer.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+        pointer.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+      }
+
+      function positionTooltip(marker) {
+        if (!tooltip || !marker) return;
+        const rect = renderer.domElement.getBoundingClientRect();
+        const projected = marker.getWorldPosition(new THREE.Vector3()).project(camera);
+        const x = rect.left + (projected.x * 0.5 + 0.5) * rect.width;
+        const y = rect.top + (-projected.y * 0.5 + 0.5) * rect.height;
+        const width = tooltip.offsetWidth || 340;
+        const height = tooltip.offsetHeight || 150;
+        const left = Math.round(Math.min(window.innerWidth - width - 14, Math.max(14, x + 18)));
+        const top = Math.round(Math.min(window.innerHeight - height - 14, Math.max(58, y - height * 0.45)));
+        tooltip.style.transform = `translate3d(${left}px, ${top}px, 0) scale(1)`;
+      }
+
+      function setHovered(marker) {
+        if (hovered === marker) return;
+        if (hovered) hovered.userData.hovered = false;
+        hovered = marker;
+        if (!tooltip) return;
+        if (!marker) {
+          tooltip.classList.remove('visible');
+          return;
+        }
+        marker.userData.hovered = true;
+        const ev = marker.userData.event;
+        const typeLabel = (typeLabelMap[marker.userData.type] || marker.userData.type || 'general').toUpperCase();
+        tooltip.innerHTML = `<div class="tooltip-title">${safeText(ev.title)}</div>
+          <div class="tooltip-source">${safeText(ev.date)} · ${safeText(typeLabel)} · Ring ${safeText(marker.userData.year)}</div>
+          <div style="margin-top:6px;font-size:12px;color:rgba(228,228,236,0.74);line-height:1.45">${safeText(ev.desc)}</div>`;
+        positionTooltip(marker);
+        tooltip.classList.add('visible');
+      }
+
+      renderer.domElement.addEventListener('pointermove', event => {
+        updatePointer(event);
+        if (hovered) positionTooltip(hovered);
+      }, { passive: true });
+
+      renderer.domElement.addEventListener('pointerleave', () => {
+        pointer.set(-10, -10);
+        setHovered(null);
+      }, { passive: true });
+
+      const controls = new THREE.OrbitControls(camera, renderer.domElement);
+      controls.enableDamping = true;
+      controls.dampingFactor = 0.065;
+      controls.enablePan = false;
+      controls.enableZoom = true;
+      controls.minDistance = 3.1;
+      controls.maxDistance = 18;
+      controls.rotateSpeed = 0.34;
+      controls.zoomSpeed = 0.75;
+      controls.target.set(0, 0.05, 0);
+      controls.autoRotate = true;
+      controls.autoRotateSpeed = 0.22;
+      controls.update();
+
+      function resize() {
+        const { w, h } = getSize();
+        camera.aspect = w / h;
+        camera.position.y = w < 760 ? 8.8 : 9.8;
+        camera.position.z = w < 760 ? 11.5 : 10.4;
+        camera.updateProjectionMatrix();
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+        renderer.setSize(w, h);
+      }
+      resize();
+      function animate() {
+        const elapsed = clock.getElapsedTime();
+        const isActive = document.getElementById('history3d-view')?.classList.contains('active');
+
+        ringGroup.children.forEach((child, index) => {
+          if (child.material && child.userData.baseOpacity != null) {
+            child.material.opacity = child.userData.baseOpacity * (0.78 + Math.sin(elapsed * 1.6 + index * 0.32) * 0.22);
+          }
+        });
+        hub.scale.setScalar(1 + Math.sin(elapsed * 2.8) * 0.08);
+        hubGlow.scale.setScalar(1.05 + Math.sin(elapsed * 1.55) * 0.12);
+        universe.rotation.y += 0.00055;
+        stars.rotation.y -= 0.00025;
+
+        markerRecords.forEach((record, index) => {
+          const angle = record.baseAngle + elapsed * record.orbitSpeed;
+          setOrbitPose(record, angle);
+          const marker = record.mesh;
+          const isHovered = marker === hovered;
+          const pulse = 1 + Math.sin(elapsed * 2.3 + index * 0.71) * 0.08;
+          marker.scale.setScalar(isHovered ? 1.9 : pulse);
+          marker.material.opacity = isHovered ? 1 : 0.78 + Math.sin(elapsed * 1.9 + index) * 0.16;
+          marker.userData.glow.material.opacity = isHovered ? 0.42 : 0.13 + Math.sin(elapsed * 1.7 + index) * 0.05;
+          record.label.material.opacity = isHovered ? 1 : 0.52 + Math.sin(elapsed * 1.2 + index) * 0.08;
+          record.connector.material.opacity = isHovered ? 0.62 : 0.18 + Math.sin(elapsed * 1.45 + index) * 0.05;
+        });
+
+        raycaster.setFromCamera(pointer, camera);
+        const hits = raycaster.intersectObjects(markerMeshes, false);
+        setHovered(hits.length ? hits[0].object : null);
+        positionTooltip(hovered);
+
+        controls.autoRotate = !hovered;
+        controls.update();
+        renderer.render(scene, camera);
+        history3D.animId = isActive ? requestAnimationFrame(animate) : null;
+      }
+
+      window.addEventListener('resize', resize, { passive: true });
+      history3D = { scene, camera, renderer, controls, meshes: markerMeshes, animate, resize, tooltip };
+      resize();
+      animate();
+    }
+
+    // Deactivate 3D history when leaving view
+    function stopHistory3D() {
+      if (history3D && history3D.animId) {
+        cancelAnimationFrame(history3D.animId);
+        history3D.animId = null;
+      }
+      // Dispose WebGL context to avoid GPU memory leak on Safari/iOS
+      if (history3D && history3D.renderer) {
+        history3D.renderer.dispose();
+        history3D.renderer.forceContextLoss();
+        history3D.renderer = null;
+      }
+      if (history3D && history3D.scene) {
+        history3D.scene.traverse(obj => {
+          if (obj.geometry) obj.geometry.dispose();
+          if (obj.material) {
+            if (obj.material.map) obj.material.map.dispose();
+            obj.material.dispose();
+          }
+        });
+        history3D.scene = null;
+      }
+      history3D = null;
+    }
+
+    // Update nav click handler to init/stop 3D History
+    document.querySelectorAll('.nav-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
+        const view = document.getElementById(btn.dataset.view + '-view');
+        if (view) view.classList.add('active');
+        if (btn.dataset.view === 'globe' && typeof animate === 'function') { if (window._animId) cancelAnimationFrame(window._animId); animate(); }
+        if (btn.dataset.view === 'history3d') { initHistory3D(); }
+        else { stopHistory3D(); }
+      });
+    });
+    setTimeout(() => { applyLanguage(); checkBreaking(); setInterval(checkBreaking, 300000); }, 100);
+
+    // ── Existing globe code below ──
     // Already available as THREE, THREE.OrbitControls via global
     const NEWS_DATA = {"articles":[{"url":"https://www.coindesk.com/policy/2026/06/27/binance-founder-cz-blames-crypto-s-sour-2026-on-mix-of-ai-global-tension-4-year-cycle","title":"Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle","source":"CoinDesk","topic":"AI","category":"crypto","published":"2026-06-27T13:00:00+00:00","ai_summary":"Original Title: Binance founder CZ blames crypto's sour 2026 on mix of AI, global tension, 4-year cycle  \nSummary:  \n• CZ指加密市場2026年下跌因AI吸走熱錢、地緣緊張及四年週期  \n• 比特幣從去年高位12.6萬美元跌50%至約6萬美元  \n• 他持長遠樂觀，認為AI及預測市場對行業發展有利  \n• 美國《清晰法案》若未通過影響有限，其他國家正推動監管  \n• CZ稱不涉美國政治，但願配合調查，行業會持續增長"},{"url":"https://www.coindesk.com/markets/2026/06/27/strategy-s-valuation-has-fallen-below-the-value-of-its-bitcoin-holdings","title":"Strategy's valuation has fallen below the value of its bitcoin holdings","source":"CoinDesk","topic":"Bitcoin","category":"crypto","published":"2026-06-27T12:08:14+00:00","ai_summary":"Original Title: Strategy's valuation has fallen below the value of its bitcoin holdings\n\nSummary:\n• 策略公司企業價值mNAV跌破1，市場估值低於其持有的比特幣價值\n• 股價跌至約82美元，較2024年11月高位累跌85%，企業價值約504億美元\n• 此前投資者長期給予溢價，公司可靈活集資；現折價發股將稀釋股東\n• 與封閉式基金不同，"},{"url":"https://cointelegraph.com/news/secondfi-two-week-recovery-cardano-wallet-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound","title":"SecondFi targets two-week recovery after Cardano wallet exploit","source":"CoinTelegraph","topic":"Regulation","category":"crypto","published":"2026-06-27T12:00:56+00:00","ai_summary":"Original Title: SecondFi targets two-week recovery after Cardano wallet exploit  \nSummary:  \n• Coinbase 旗下 Base 鏈經歷約 2 小時停機後恢復區塊生產  \n• 團隊未詳細交代停機原因，但已迅速解決問題  \n• 此次中斷屬短期事件，對網絡整體影響有限"},{"url":"https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound","title":"Here’s what happened in crypto today","source":"CoinTelegraph","topic":"Bitcoin","category":"crypto","published":"2026-06-27T11:30:05+00:00","ai_summary":"Original Title: Here’s what happened in crypto today\n\nSummary:\n• 《Crypto Biz》探討「堆疊Sats」的真正成本，包括手續費與時間成本\n• 長期累積比特幣可能因gas費波動而影響總投入成本\n• 文章提醒投資者注意小額買入的隱藏支出，如轉賬費用和交易滑點"},{"url":"https://cointelegraph.com/news/eu-lawmakers-assessing-defi-staking-nft-regulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound","title":"EU lawmakers urge assessing DeFi, staking, NFT regulation","source":"CoinTelegraph","topic":"DeFi","category":"crypto","published":"2026-06-27T08:21:04+00:00","ai_summary":"Original Title: EU lawmakers urge assessing DeFi, staking, NFT regulation  \nSummary:  \n• 美國參議員敦促CFTC調查Polymarket涉欺騙性營銷  \n• 事件反映監管機構對預測市場合規性日益關注  \n• 可能影響相關平台營運及加密市場監管走向"},{"url":"https://www.bloomberg.com/news/videos/2026-06-27/venezuela-struggles-with-earthquake-rescue-efforts-video","title":"Venezuela Struggles with Earthquake Rescue Efforts as Death Toll Nears 1,000","source":"Bloomberg Crypto","topic":"AI","category":"finance","published":"2026-06-27T13:11:17+00:00","ai_summary":"Original Title: Venezuela Struggles with Earthquake Rescue Efforts as Death Toll Nears 1,000\n\nSummary:\n• 委內瑞拉地震死亡人數逼近1000，官方數字或遭低估\n• 救援工作困難，隨更多遺體被發現，死亡數字料續升\n• 政府搜救能力極有限，初期救援主要靠民眾自發\n• 分析憂慮實際死傷遠高於官方公布數字"},{"url":"https://www.bloomberg.com/news/articles/2026-06-27/wall-street-bets-billions-on-power-firms-as-ai-boom-drives-ipo-rush","title":"AI’s Energy Crunch Has Investors Searching for Next IPO Winners","source":"Bloomberg Crypto","topic":"AI","category":"finance","published":"2026-06-27T13:00:00+00:00","ai_summary":"Original Title: AI’s Energy Crunch Has Investors Searching for Next IPO Winners  \nSummary:  \n• AI熱潮引發能源短缺問題  \n• 華爾街豪賭解決能源危機的公司  \n• 部分相關技術尚未完全成熟開發  \n• 投資者積極尋找下個IPO贏家"},{"url":"https://www.bloomberg.com/news/videos/2026-06-27/schrodinger-s-strait-of-hormuz-open-or-closed-video","title":"Schrödinger's Strait of Hormuz: Open or Closed?","source":"Bloomberg Crypto","topic":"AI","category":"finance","published":"2026-06-27T12:54:01+00:00","ai_summary":"Original Title: Schrödinger's Strait of Hormuz: Open or Closed?\nSummary:\n• 霍爾木茲海峽近日有船隻遭襲，但部分船仍繼續通行\n• 日均船隻流量由2月逾140艘，大幅降至目前約30至40艘\n• 船東、船長及能源出口商因安全憂慮重新評估航線風險"},{"url":"https://www.bloomberg.com/news/videos/2026-06-27/msg-mystery-event-ranch-dressing-love-btw-video","title":"MSG Mystery Event, Ranch Dressing Love | BTW: Headlines You Should See","source":"Bloomberg Crypto","topic":"Finance","category":"finance","published":"2026-06-27T12:40:16+00:00","ai_summary":"Original Title: MSG Mystery Event, Ranch Dressing Love | BTW: Headlines You Should See\n\nSummary:\n• BTW節目回顧本週你可能錯過的頭條新聞\n• 內容包括MSG神秘事件及牧場沙拉醬熱潮\n• 主持團隊週末直播剖析重點話題\n• 節目於每週六日上午在彭博電視播出"},{"url":"https://www.bloomberg.com/news/videos/2026-06-27/brutal-heat-wave-scorches-europe-video","title":"Brutal Heat Wave Scorches Europe, Raising Climate Inflation Concerns","source":"Bloomberg Crypto","topic":"Policy","category":"finance","published":"2026-06-27T12:23:01+00:00","ai_summary":"Original Title: Brutal Heat Wave Scorches Europe, Raising Climate Inflation Concerns  \nSummary:  \n• 歐洲遭遇破紀錄熱浪，法國氣溫飆升至攝氏43度以上  \n• 極端高溫事件預計將更頻繁出現，威脅全球糧食與能源供應  \n• 成本急升引發「氣候通脹」擔憂，進一步加重消費者負擔"},{"url":"https://www.bloomberg.com/news/videos/2026-06-27/tech-slump-deepens-video","title":"Tech Slump Deepens","source":"Bloomberg Crypto","topic":"Ethereum","category":"finance","published":"2026-06-27T12:18:47+00:00","ai_summary":"Original Title: Tech Slump Deepens\nSummary:\n• 科技股全周急挫，投資者重新評估AI交易可持續性\n• 半導體成本及記憶體定價上升，引發市場憂慮\n• 美國對先進AI模型出口限制持續收緊，影響行業展望\n• IPO市場降溫，市場質疑AI企業能否創造足夠收入支撐高估值\n• 資本開支增加、回報不確定，令市場波動加劇"},{"url":"https://www.bloomberg.com/news/videos/2026-06-27/why-krugman-thinks-we-need-chinese-auto-tariffs-video","title":"Why Krugman Thinks We Need Chinese Auto Tariffs","source":"Bloomberg Crypto","topic":"AI","category":"finance","published":"2026-06-27T12:04:08+00:00","ai_summary":"Original Title: Why Krugman Thinks We Need Chinese Auto Tariffs\n\nSummary:\n• 美加墨重談USMCA，汽車供應鏈高度整合成核心議題\n• 諾獎得主克魯曼主張對中國汽車設關稅保護本土產業\n• 外交關係專家指北美製造競爭力依賴跨境生產模式\n• 協議支持者警告貿易不確定性將打擊投資與就業\n• 三國年貿易額超萬億美元，關稅爭議風險巨大"},{"url":"https://www.bloomberg.com/news/newsletters/2026-06-27/what-comes-next-for-the-us-mexico-canada-agreement","title":"What Comes Next for the US-Mexico-Canada Agreement","source":"Bloomberg Crypto","topic":"Finance","category":"finance","published":"2026-06-27T12:00:01+00:00","ai_summary":"Original Title: What Comes Next for the US-Mexico-Canada Agreement\n\nSummary:\n• 美墨加協定（USMCA）進入審查階段\n• 三方需重新評估貿易規則與關稅安排\n• 審查結果將影響北美供應鏈及投資\n• 市場關注協定會否修改或延續現狀"},{"url":"https://www.bloomberg.com/news/videos/2026-06-27/carl-richards-on-being-yourself-video","title":"Carl Richards on Being Yourself","source":"Bloomberg Crypto","topic":"Finance","category":"finance","published":"2026-06-27T11:01:55+00:00","ai_summary":"Original Title: Carl Richards on Being Yourself\n\nSummary:\n• Carl Richards分享其非傳統金融背景及創立公司的經歷。\n• 他以簡單草圖解釋財富管理，成功成為《紐約時報》專欄作家。\n• 與Barry探討重新定義財富概念，強調忠於自我價值觀。"},{"url":"https://www.bloomberg.com/news/articles/2026-06-27/bangladesh-gets-1-billion-world-bank-fertilizer-food-loans","title":"Bangladesh Gets $1 Billion World Bank Fertilizer, Food Loans","source":"Bloomberg Crypto","topic":"Regulation","category":"finance","published":"2026-06-27T08:38:38+00:00","ai_summary":"Original Title: Bangladesh Gets $1 Billion World Bank Fertilizer, Food Loans\n\nSummary:\n• 世銀批出逾10億美元貸款，助孟加拉應對化肥市場波動。\n• 貸款分兩筆，分別聚焦化肥供應穩定及糧食安全改善。\n• 目標降低進口依賴，支持農業生產及氣候適應能力。\n• 有助穩定農民生計，緩解全球價格波動對食品的衝擊。"},{"url":"https://www.cnbc.com/2026/06/27/how-kohls-lost-its-way-and-is-trying-to-become-relevant-again.html","title":"How Kohl's lost its way — and is trying to become relevant again","source":"CNBC","topic":"AI","category":"finance","published":"2026-06-27T12:00:01+00:00","ai_summary":"Original Title: How Kohl's lost its way — and is trying to become relevant again  \nSummary:  \n• Kohl's股價五年內跌近70%，因銷售疲弱及偏離核心客群。  \n• 公司曾轉向折扣零售，削減自有品牌，導致客戶流失。  \n• CEO Bender回歸原有策略：自有品牌、優惠券及提升購物體驗。  \n• 投資者仍審慎，惟股價去年已反彈逾130%。  \n• 面對競爭加劇及通脹壓力，Kohl's重新聚焦價值定位。"},{"url":"https://www.cnbc.com/2026/06/27/strong-summer-box-office.html","title":"A surprisingly strong summer box office could mean Hollywood's first $10 billion year since the pandemic","source":"CNBC","topic":"Finance","category":"finance","published":"2026-06-27T12:00:01+00:00","ai_summary":"Original Title: A surprisingly strong summer box office could mean Hollywood's first $10 billion year since the pandemic\n\nSummary:\n• 2026年夏季票房至今達18億美元，僅比2019年同期低2%，有望突破42億美元。\n• 《Michael》、《Toy Story 5》等片帶動，全年票房或七年來首破100億美元大關。\n• 低成本恐怖片《Obsession》及《Backrooms》第二、三週票房竟逆勢增長，口碑強勁。\n• 《Odyssey》（基斯杜化路蘭執導）開畫預測破1億美元，《Spider-Man: Brand New Day》或達2.5億美元。\n• 分析指下半年續有大片接力，夏季票房有望自2023年《Barbie》及《Oppenheimer》後再過40億美元。"},{"url":"https://www.ft.com/content/e5aa937c-bc52-4973-bf21-bfb6afd1d95d","title":"Chipmakers are expensive globally","source":"FT Tech","topic":"AI","category":"tech","published":"2026-06-27T09:30:10+00:00","ai_summary":"Original Title: Chipmakers are expensive globally  \nSummary:  \n• 全球芯片製造商估值偏高  \n• AI相關市場尤為昂貴  \n• 投資者需警惕高估值風險  \n• 市場關注AI半導體需求能否持續支撐股價"},{"url":"https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/","title":"Asian AI startups launch Mythos-like  models as Anthropic’s export ban drags on","source":"TechCrunch","topic":"AI","category":"tech","published":"2026-06-27T12:00:00+00:00","ai_summary":"Original Title: Asian AI startups launch Mythos-like models as Anthropic’s export ban drags on  \nSummary:  \n• 360推出Tulongfeng AI工具，声称可与Anthropic的Mythos模型匹敌  \n• 东京Sakana AI发布Fugu模型，"},{"url":"https://arstechnica.com/cars/2026/06/apple-and-audi-alumni-have-made-a-luxe-ev-based-on-the-moon-buggy/","title":"Apple and Audi alumni have made a luxe EV based on the moon buggy","source":"ArsTechnica","topic":"Regulation","category":"tech","published":"2026-06-27T11:07:05+00:00","ai_summary":"Original Title: Apple and Audi alumni have made a luxe EV based on the moon buggy  \nSummary:  \n• 前Apple及Audi設計師打造電動越野車Amble One，靈感來自月球車  \n• 車重低於450公斤，符合歐洲輕型車輛法規，續航逾60英里  \n• 定價2.5萬美元，限速40英里，五小時家用插座充飽電  \n• 目標取代家庭第二輛車，主打度假村、私人莊園短途移動  \n• 首批酒店交付2027年中，消費者預購2028年開始，已獲逾1,000萬歐元訂單"},{"url":"https://www.wired.com/story/save-on-some-stellar-pants-during-a-rare-duer-sale/","title":"Duer’s Wear-Everywhere Pants Are on Sale This Weekend","source":"Wired","topic":"Tech","category":"tech","published":"2026-06-27T11:01:00+00:00","ai_summary":"Original Title: Duer’s Wear-Everywhere Pants Are on Sale This Weekend  \nSummary:  \n• Duer戶外服飾於美國國慶前促銷，褲子低至65折，最高35%off。  \n• 品牌擅長將Tencel布料及三重縫線融入經典剪裁，舒適又耐用。  \n• 推薦No Sweat Relaxed Taper褲，像運動褲般舒適，但適合商務及露營。  \n• Pima棉T恤及Pique Polo衫透氣耐洗，經多次機洗仍保持版型。  \n• 折扣約20-35%，適合夏季旅行或露營裝備入手。"},{"url":"https://www.wired.com/story/i-tried-deleteme-the-original-data-broker-removal-service/","title":"Does DeleteMe Actually Get Your Info off the Internet? I Tried It","source":"Wired","topic":"Tech","category":"tech","published":"2026-06-27T10:31:00+00:00","ai_summary":"Original Title: Does DeleteMe Actually Get Your Info off the Internet? I Tried It\n\nSummary:\n• DeleteMe 等服務代你向資料經紀人要求刪除個人信息，但非銀彈\n• 美國無聯邦隱私法，各州法規不一，刪除請求可能被拒或需跟進\n• 作者使用後垃圾來電減少，Google 搜尋結果中住址被移除\n• 不同服務更新頻率和策略有別，DeleteMe 採謹慎逐一處理\n• 數據刪除是長期過程，平均用戶使用三年，不能期望即時見效"},{"url":"https://www.wired.com/story/security-news-this-week-lastpass-users-had-their-data-stolen-again/","title":"Security News This Week: LastPass Users Had Their Data Stolen—Again","source":"Wired","topic":"Regulation","category":"tech","published":"2026-06-27T10:30:00+00:00","ai_summary":"Original Title: Security News This Week: LastPass Users Had Their Data Stolen—Again  \nSummary:  \n• LastPass因合作商Klue被入侵，用戶姓名、電話等資料外洩，但密碼庫未受影響。  \n• 前白宮顧問John Bolton就非法保留機密資料認罪，達成認罪協議或可免監禁。  \n• 歐洲刑警與微軟等聯手打擊Amadey及StealC惡意軟件，扣押326台伺服器及142個域名。  \n• 澳洲ASIO發現國家級黑客已入侵關鍵基建，正準備破壞行動。"},{"url":"https://www.wired.com/story/rei-4th-of-july-sale-2026/","title":"The 37 Best Outdoor Deals From the REI 4th of July Sale","source":"Wired","topic":"Ethereum","category":"tech","published":"2026-06-27T10:06:00+00:00","ai_summary":"Original Title: The 37 Best Outdoor Deals From the REI 4th of July Sale  \nSummary:  \n• REI 7月4日促銷由6月26日至7月6日，部分優惠只到7月2日。  \n• 非會員可購物，會員享10%回贈及一件正價貨品20%折扣。  \n• 重點折扣：REI Rainier雨衣50美元（半價），Arc'teryx Beta AR女裝近半價。  \n• REI 650羽絨外套70美元、Mountain Hardwear Ghost Whisperer女裝245美元。"},{"url":"https://www.wired.com/story/why-venezuelas-second-earthquake-so-damaging-to-buildings/","title":"Why Venezuela’s Second Earthquake Was So Damaging to Buildings","source":"Wired","topic":"Regulation","category":"tech","published":"2026-06-27T09:00:00+00:00","ai_summary":"Original Title: Why Venezuela’s Second Earthquake Was So Damaging to Buildings  \nSummary:  \n• 委內瑞拉6月24日發生罕見「雙地震」，7.2級和7.5級僅相隔39秒  \n• 兩次淺層地震（10-20公里深）使能量更猛烈，造成建築嚴重損毀  \n• 首震已令結構受損，次震無間隔修復，導致建築共振崩塌  \n• 每個建築有自然震動頻率，若與地震波吻合會大幅放大搖晃  \n• 土壤類型影響震波傳導，但委國建築規範不如墨西哥詳細，加劇災情"},{"url":"https://www.bloomberg.com/news/articles/2026-06-27/iran-us-trade-accusations-of-violating-ceasefire-after-strikes","title":"US-Iran Truce Tested by Attacks on Bahrain, Hit on Hormuz Tanker","source":"Bloomberg","topic":"AI","category":"finance","published":"2026-06-27T08:45:11+00:00","ai_summary":"Original Title: US-Iran Truce Tested by Attacks on Bahrain, Hit on Hormuz Tanker\nSummary:\n• 巴林遭伊朗無人機襲擊，霍爾木茲海峽油輪被擊中\n• 美伊本月初簽署臨時和平協議，停火受考驗\n• 新一輪緊張局勢威脅中東穩定與航運安全\n• 襲擊事件可能影響美伊後續談判進程"},{"url":"https://www.bloomberg.com/news/articles/2026-06-27/venezuela-quakes-push-fragile-health-system-to-the-brink","title":"Venezuela Quakes Push Fragile Health System to the Brink","source":"Bloomberg","topic":"AI","category":"finance","published":"2026-06-27T13:12:30+00:00","ai_summary":"Original Title: Venezuela Quakes Push Fragile Health System to the Brink\n\nSummary:\n• 委內瑞拉沿海拉瓜伊拉州發生地震，災民湧入醫療中心\n• 本已脆弱的醫療系統被推至崩潰邊緣\n• 地震進一步加劇當地醫療資源短缺與壓力"},{"url":"https://www.bloomberg.com/news/articles/2026-06-27/california-leaders-agree-to-351-billion-budget-software-tax","title":"California Leaders Agree to $351 Billion Budget, Software Tax","source":"Bloomberg","topic":"Finance","category":"finance","published":"2026-06-27T13:08:06+00:00","ai_summary":"Original Title: California Leaders Agree to $351 Billion Budget, Software Tax  \nSummary:  \n• 加州領袖達成3517億美元預算協議  \n• 新預算部分依賴數碼軟件銷售稅  \n• 州長紐森與民主黨議員共同推動  \n• 稅收政策影響科技企業成本"},{"url":"https://www.bloomberg.com/news/articles/2026-06-27/australia-to-strengthen-enforcement-of-under-16-social-media-ban","title":"Australia to Strengthen Enforcement of Under-16 Social Media Ban","source":"Bloomberg","topic":"Finance","category":"finance","published":"2026-06-27T12:30:00+00:00","ai_summary":"Original Title: Australia to Strengthen Enforcement of Under-16 Social Media Ban  \nSummary:  \n• 澳洲將加強執行全球首項16歲以下社交媒體禁令  \n• 賦予網絡安全監管機構更大權力，提高違規罰款上限  \n• 總理阿爾巴尼斯指大型科企未充分配合法規要求"},{"url":"https://www.bloomberg.com/news/articles/2026-06-27/ship-struck-in-hormuz-as-naval-authorities-raise-threat-level","title":"Tanker Struck in Hormuz as Navies Lift Threat Level to Ships","source":"Bloomberg","topic":"AI","category":"finance","published":"2026-06-27T10:38:24+00:00","ai_summary":"Original Title: Tanker Struck in Hormuz as Navies Lift Threat Level to Ships\nSummary:\n• 霍爾木茲海峽有油輪遇襲，航運威脅級別上調\n• 海軍加強該區警戒，顯示全球能源要道緊張升溫\n• 襲擊事件凸顯關鍵航道安全風險急增"},{"url":"https://www.bloomberg.com/news/articles/2026-06-27/trump-kicks-off-sales-pitch-for-iran-deal-few-americans-like","title":"Trump Kicks Off Sales Pitch for Iran Deal Few Americans Like","source":"Bloomberg","topic":"Finance","category":"finance","published":"2026-06-27T12:00:00+00:00","ai_summary":"Original Title: Trump Kicks Off Sales Pitch for Iran Deal Few Americans Like\n\nSummary:\n• 特朗普為伊朗協議展開推銷，但美國民意普遍不支持\n• 協議條款解凍德黑蘭數十億美元資金，引發爭議\n• 華府官員數週前敲定結束伊朗戰爭的協議\n• 特朗普面臨向公眾解釋該協議條款的難題"},{"url":"https://www.bloomberg.com/news/articles/2026-06-27/china-russia-conduct-joint-air-patrol-across-regional-seas","title":"China, Russia Conduct Joint Air Patrol Across Regional Seas","source":"Bloomberg","topic":"AI","category":"finance","published":"2026-06-27T11:27:34+00:00","ai_summary":"Original Title: China, Russia Conduct Joint Air Patrol Across Regional Seas  \nSummary:  \n• 中俄6月27日在日本海、東海及西太上空進行聯合戰略巡航  \n• 中國國防部證實此次聯合空中行動  \n• 巡航範圍涵蓋多個區域海域，顯示兩國軍事合作深化"},{"url":"https://www.bloomberg.com/news/articles/2026-06-27/us-signals-it-may-pull-bosnia-envoy-support-as-talks-stall","title":"US Signals It May Pull Bosnia Envoy Support as Talks Stall","source":"Bloomberg","topic":"Finance","category":"finance","published":"2026-06-27T11:09:35+00:00","ai_summary":"Original Title: US Signals It May Pull Bosnia Envoy Support as Talks Stall\n\nSummary:\n• 美國警告若月底前不任命其支持的候選人，將撤回對波斯尼亞高級代表辦事處的支持\n• 談判陷入僵局，華府以撤銷外交支援施壓各方盡快達成共識\n• 此舉可能影響波斯尼亞的國際監督機制及政治穩定\n• 候選人任命爭議反映美國與歐盟在巴爾幹地區影響力角力"},{"url":"https://www.bloomberg.com/news/articles/2026-06-27/trump-visit-to-india-in-2027-in-the-works-rubio-tells-ians","title":"Trump Visit to India in 2027 in the Works, Rubio Tells IANS","source":"Bloomberg","topic":"Regulation","category":"finance","published":"2026-06-27T08:54:48+00:00","ai_summary":"Original Title: Trump Visit to India in 2027 in the Works, Rubio Tells IANS  \nSummary:  \n• 美國正籌劃特朗普2027年初訪問印度  \n• 國務卿魯比奧透露將敲定雙邊貿易協議  \n• 協議料在未來數周或數月內完成  \n• 此舉旨在深化美印經貿合作關係"},{"url":"https://www.bloomberg.com/news/videos/2026-06-27/us-pet-market-set-to-surpass-250-billion-video","title":"US Pet Market Set to Surpass $250 Billion","source":"Bloomberg Crypto","topic":"AI","category":"finance","published":"2026-06-27T13:38:53+00:00","ai_summary":"Original Title: US Pet Market Set to Surpass $250 Billion  \nSummary:  \n• 美國寵物市場未來十年預計從1500億增至2500億美元  \n• 消費者對寵物支出已超越基本預防護理範圍  \n• 分析師指寵物零售將成增長焦點領域  \n• 節目邀狗記者Brutus帶來另類市場洞察"},{"url":"https://www.coindesk.com/business/2026/06/27/tether-putting-usd23-billion-gold-stockpile-to-work-with-bullion-backed-loans","title":"Tether putting $23 billion gold stockpile to work with bullion-backed loans","source":"CoinDesk","topic":"Ethereum","category":"crypto","published":"2026-06-27T15:00:00+00:00","ai_summary":"Original Title: Tether putting $23 billion gold stockpile to work with bullion-backed loans  \nSummary:  \n• Tether與Ledn合作，推出黃金抵押貸款，XAUT持有人可借入資金  \n• Tether持有約230億美元實體黃金，每個XAUT代幣對應一盎司金條  \n• 模式仿效Ledn的比特幣抵押貸款，客戶毋須出售資產即可獲取流動性  \n• 黃金貸款傳統上僅限央行及大型機構，代幣化後降低參與門檻  \n• Tether正利用USDT利潤拓展業務至金融、能源及AI等領域"},{"url":"https://www.coindesk.com/markets/2026/06/27/polymarket-hack-updated-to-usd3-1-million-days-after-the-platform-promised-users-full-refunds","title":"Polymarket hack updated to $3.1 million days after the platform promised users full refunds","source":"CoinDesk","topic":"Trading","category":"crypto","published":"2026-06-27T14:13:22+00:00","ai_summary":"Original Title: Polymarket hack updated to $3.1 million days after the platform promised users full refunds  \nSummary:  \n• 黑客從11個錢包盜取約310萬美元PUSD代幣，從Polygon橋接至以太坊  \n• Polymarket稱第三方供應商被入侵植入惡意腳本，已移除並承諾全額退款  \n• 平台近期接連發生安全事件，三月及十二月亦曾出現漏洞  \n• 聯邦當局正調查Polymarket涉誤導性社交媒體宣傳行為"},{"url":"https://www.coindesk.com/business/2026/06/27/coinbase-and-okx-try-to-lure-in-binance-s-450m-eu-users-after-failing-to-secure-a-mica-license","title":"Coinbase and OKX try to lure in Binance’s EU users after it failed to secure a MiCA license","source":"CoinDesk","topic":"Regulation","category":"crypto","published":"2026-06-27T14:11:45+00:00","ai_summary":"Original Title: Coinbase and OKX try to lure in Binance’s EU users after it failed to secure a MiCA license  \nSummary:  \n• Coinbase與OKX趁Binance未獲MiCA牌照，向歐盟用戶推轉移獎勵  \n• Binance因牌照問題，7月1日起暫停部分歐盟加密服務  \n• Coinbase提供5%轉移獎金，OKX提供高達8%存款匹配  \n• Binance撤回希臘申請，但稱數月內仍可獲MiCA授權"},{"url":"https://decrypt.co/372205/billionaire-jeremy-grantham-dismisses-bitcoin-crypto","title":"Billionaire Jeremy Grantham Dismisses Bitcoin, Says Crypto Will Fade 'With a Whimper'","source":"Decrypt","topic":"Bitcoin","category":"crypto","published":"2026-06-27T14:34:32+00:00","ai_summary":"Original Title: Billionaire Jeremy Grantham Dismisses Bitcoin, Says Crypto Will Fade 'With a Whimper'\nSummary:\n• 億萬富豪Jeremy Grantham看淡Bitcoin前景\n• 他認為加密貨幣最終會「悄然消失」\n• Grantham對比特幣的持久力缺乏信心\n• 預測加密貨幣將隨時間逐漸淡出市場"},{"url":"https://www.bloomberg.com/news/videos/2026-06-27/pointed-news-quiz-reddit-music-ya-novels-video","title":"Pointed News Quiz | Reddit, Music, YA Novels","source":"Bloomberg Crypto","topic":"AI","category":"finance","published":"2026-06-27T15:11:03+00:00","ai_summary":"Original Title: Pointed News Quiz | Reddit, Music, YA Novels  \nSummary:  \n• 《彭博本週末》節目推出每週問答遊戲「Pointed」  \n• 主持人大衛古拉、魯芬尼及馬特奧參與對決  \n• 玩家需押注積分、運用槓桿技巧作答  \n• 每週新題目可於Bloomberg.com遊玩"},{"url":"https://www.bloomberg.com/news/articles/2026-06-27/ecb-s-schnabel-sees-upside-inflation-risks-despite-peace-deal","title":"ECB’s Schnabel Sees Upside Inflation Risks Despite Peace Deal","source":"Bloomberg Crypto","topic":"Policy","category":"finance","published":"2026-06-27T14:14:45+00:00","ai_summary":"Original Title: ECB’s Schnabel Sees Upside Inflation Risks Despite Peace Deal  \nSummary:  \n• 歐央行理事Schnabel警告通脹壓力可能高於預期  \n• 即使美伊和談重開霍爾木茲海峽，風險仍存  \n• 能源供應緩解不足以令物價顯著回落  \n• 市場關注歐元區未來或需繼續收緊政策"},{"url":"https://www.bloomberg.com/news/videos/2026-06-27/sen-armstrong-permitting-is-key-to-lower-energy-costs-video","title":"Sen. Armstrong: Permitting Is Key to Lower Energy Costs","source":"Bloomberg Crypto","topic":"Policy","category":"finance","published":"2026-06-27T14:06:53+00:00","ai_summary":"Original Title: Sen. Armstrong: Permitting Is Key to Lower Energy Costs  \nSummary:  \n• 參議員阿姆斯特朗稱，改革許可流程是降低能源與住房成本的關鍵  \n• 他反對增加聯邦開支，認為監管延誤造成基建瓶頸  \n• 這些瓶頸直接推高消費者價格，影響能源與房屋市場"},{"url":"https://www.bloomberg.com/news/videos/2026-06-27/america-s-farmers-need-usmca-more-than-ever-video","title":"America’s Farmers Need USMCA More Than Ever","source":"Bloomberg Crypto","topic":"AI","category":"finance","published":"2026-06-27T14:03:52+00:00","ai_summary":"Original Title: America’s Farmers Need USMCA More Than Ever\n\nSummary:\n• 美國農民愈來愈依賴加拿大及墨西哥出口市場，以應對貿易爭端及成本上升。\n• 自NAFTA生效，美國對加墨出口增長約600%，貿易協議對農業至關重要。\n• 農民正面對財務壓力及微弱希望，期望新談判能維持協議穩定性。\n• 農民重點非擴大協議，而是避免新干擾，保護已脆弱的農業經濟。"},{"url":"https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/","title":"The fittest founder in the room got cancer. Here’s how he used AI to fight back.","source":"TechCrunch","topic":"Policy","category":"tech","published":"2026-06-27T14:00:00+00:00","ai_summary":"Original Title: The fittest founder in the room got cancer. Here’s how he used AI to fight back.\n\nSummary:\n• 極注重健康的創業者意外確診罕見淋巴瘤，因及時發現而幸運\n• 面對兩種化療方案，他徵集12位專家意見，選取成功率85%的進取療法\n• 治療期間以AI（Claude）分析血液、掃描及穿戴數據，協助提出關鍵問題\n• AI助他辨識PET掃描偽陽性，避免不必要的放療，確認無活躍病灶"},{"url":"https://www.bloomberg.com/news/videos/2026-06-27/ai-deepfake-political-ads-raise-concerns-video","title":"AI Deepfake Political Ads Raise Concerns Ahead of Midterms","source":"Bloomberg","topic":"AI","category":"finance","published":"2026-06-27T15:06:57+00:00","ai_summary":"Original Title: AI Deepfake Political Ads Raise Concerns Ahead of Midterms  \nSummary:  \n• AI生成深偽政治廣告在中期選舉中激增，引發關注  \n• 例子包括假冒 Billie Eilish 及德州參選人的深偽影片  \n• 業界投入大量資金資助中期選舉，影響選舉誠信  \n• 專家警告深偽技術可能誤導選民，破壞民主過程"},{"url":"https://www.bloomberg.com/news/articles/2026-06-27/canada-s-world-cup-dilemma-visit-la-to-cheer-team-or-boycott-us","title":"Canada’s World Cup Dilemma: Visit LA to Cheer Team or Boycott US","source":"Bloomberg","topic":"Finance","category":"finance","published":"2026-06-27T15:00:00+00:00","ai_summary":"Original Title: Canada’s World Cup Dilemma: Visit LA to Cheer Team or Boycott US\n\nSummary:\n• 加拿大球迷面臨兩難：赴美為國家隊打氣，抑或杯葛美國。\n• 政治緊張局勢影響球迷選擇，愛國心與旅遊意願衝突。\n• 世界盃賽事在洛杉磯舉行，部分人憂慮赴美支持球隊的含義。\n• 事件反映加美關係變化，體育與政治界線日趨模糊。"},{"url":"https://www.bloomberg.com/news/articles/2026-06-27/bolivia-s-rodrigo-paz-pushes-mining-hydrocarbons-reform-after-blockades","title":"Bolivia’s Paz Pushes Industry Reforms After 53 Days of Protests","source":"Bloomberg","topic":"Macro","category":"finance","published":"2026-06-27T14:30:00+00:00","ai_summary":"Original Title: Bolivia’s Paz Pushes Industry Reforms After 53 Days of Protests\n\nSummary:\n• 玻利維亞歷經53天抗議封鎖，經濟受重創後逐漸恢復正常。\n• 總統帕斯重返兩個月前的改革議程，試圖修改民族主義法律。\n• 改革針對主導關鍵行業的國家主義法規，引發社會分歧。\n• 抗議活動雖平息，但改革能否順利推行仍是未知之數。"}],"sourceLocations":{"CoinDesk":[40.7,-74.0,"New York"],"CoinTelegraph":[51.5,-0.1,"London"],"The Block":[40.7,-74.0,"New York"],"Decrypt":[37.8,-122.4,"San Francisco"],"Blockworks":[40.7,-74.0,"New York"],"Bloomberg Crypto":[40.7,-74.0,"New York"],"Bloomberg":[40.7,-74.0,"New York"],"CNBC":[40.9,-73.9,"Englewood Cliffs"],"WSJ Markets":[40.7,-74.0,"New York"],"FT Tech":[51.5,-0.1,"London"],"TechCrunch":[37.8,-122.4,"San Francisco"],"ArsTechnica":[42.4,-71.1,"Boston"],"Wired":[37.8,-122.4,"San Francisco"],"Chainlink (Chinese)":[31.2,121.5,"Shanghai"],"Unchained":[40.7,-74.0,"New York"],"DL News":[51.5,-0.1,"London"],"Bankless":[37.8,-122.4,"San Francisco"],"動區動趨 (BlockTempo)":[25.0,121.5,"Taipei"],"區塊客 (Blockcast)":[25.0,121.5,"Taipei"],"科技新報":[25.0,121.5,"Taipei"],"Reuters":[51.5,-0.1,"London"],"香港經濟日報":[22.3,114.2,"Hong Kong"],"鉅亨網":[25.0,121.5,"Taipei"]}};
 
@@ -412,19 +1396,32 @@
       // ── South America ──
       { re: /委內瑞拉|Venezuela|Caracas/gi,                          loc: [8.0, -66.0, 'Venezuela'] },
       { re: /玻利維亞|Bolivia|La\s*Paz/gi,                            loc: [-17.0, -65.0, 'Bolivia'] },
-      { re: /巴西|Brazil|Rio|Sao\s*Paulo|Brasilia/gi,               loc: [-15.0, -50.0, 'Brazil'] },
+      { re: /巴西|Brazil|Rio|Sao\s*Paulo|Brasilia|São Paulo/gi,      loc: [-15.0, -50.0, 'Brazil'] },
       { re: /阿根廷|Argentina|Buenos\s*Aires/gi,                     loc: [-38.0, -63.0, 'Argentina'] },
       { re: /哥倫比亞|Colombia|Bogota/gi,                            loc: [4.0, -72.0, 'Colombia'] },
+      { re: /智利|Chile|Santiago/gi,                                   loc: [-33.0, -70.0, 'Chile'] },
+      { re: /秘魯|Peru|Lima/gi,                                        loc: [-12.0, -77.0, 'Peru'] },
+      { re: /烏拉圭|Uruguay|Montevideo/gi,                            loc: [-34.0, -56.0, 'Uruguay'] },
+      { re: /巴拉圭|Paraguay|Asunción/gi,                              loc: [-25.0, -57.0, 'Paraguay'] },
+      { re: /厄瓜多爾|Ecuador|Quito/gi,                                loc: [-1.0, -78.0, 'Ecuador'] },
 
       // ── Africa ──
-      { re: /尼日利亞|Nigeria|Lagos/gi,                              loc: [8.0, 8.0, 'Nigeria'] },
-      { re: /南非|South\s*Africa|Johannesburg|Cape\s*Town/gi,        loc: [-30.0, 25.0, 'South Africa'] },
-      { re: /肯亞|Kenya|Nairobi/gi,                                  loc: [-1.0, 36.0, 'Kenya'] },
-      { re: /埃及|Egypt|Cairo/gi,                                    loc: [27.0, 30.0, 'Egypt'] },
+      { re: /尼日利亞|Nigeria|Lagos|Abuja/gi,                         loc: [8.0, 8.0, 'Nigeria'] },
+      { re: /南非|South\s*Africa|Johannesburg|Cape\s*Town|Pretoria/gi, loc: [-30.0, 25.0, 'South Africa'] },
+      { re: /肯亞|Kenya|Nairobi/gi,                                   loc: [-1.0, 36.0, 'Kenya'] },
+      { re: /埃及|Egypt|Cairo/gi,                                     loc: [27.0, 30.0, 'Egypt'] },
+      { re: /加納|Ghana|Accra/gi,                                      loc: [5.0, -0.1, 'Ghana'] },
+      { re: /埃塞俄比亞|Ethiopia|Addis\s*Ababa/gi,                    loc: [9.0, 38.0, 'Ethiopia'] },
+      { re: /坦桑尼亞|Tanzania|Dodoma|Dar es Salaam/gi,               loc: [-6.0, 35.0, 'Tanzania'] },
+      { re: /安哥拉|Angola|Luanda/gi,                                  loc: [-12.0, 17.0, 'Angola'] },
+      { re: /摩洛哥|Morocco|Casablanca|Rabat/gi,                      loc: [31.0, -7.0, 'Morocco'] },
+      { re: /突尼斯|Tunisia|Tunis/gi,                                  loc: [34.0, 9.0, 'Tunisia'] },
 
       // ── Oceania ──
-      { re: /澳洲|Australia|Sydney|Melbourne/gi,                    loc: [-25.0, 135.0, 'Australia'] },
-      { re: /新西蘭|New\s*Zealand|Auckland/gi,                       loc: [-41.0, 174.0, 'New Zealand'] },
+      { re: /澳洲|Australia|Sydney|Melbourne|Brisbane|Perth/gi,       loc: [-25.0, 135.0, 'Australia'] },
+      { re: /新西蘭|New\s*Zealand|Auckland|Wellington/gi,             loc: [-41.0, 174.0, 'New Zealand'] },
+      { re: /斐濟|Fiji|Suva/gi,                                        loc: [-18.0, 178.0, 'Fiji'] },
+      { re: /巴布亞新幾內亞|Papua New Guinea|Port Moresby/gi,         loc: [-6.0, 147.0, 'Papua New Guinea'] },
 
       // ── Broad catch-alls (last resort) ──
       { re: /中東|Middle\s*East/gi,                                  loc: [25.0, 45.0, 'Middle East'] },
@@ -448,13 +1445,17 @@
     const scene = new THREE.Scene();
     scene.fog = new THREE.FogExp2(0x000005, 0.018);
 
-    const camera = new THREE.PerspectiveCamera(36, window.innerWidth / window.innerHeight, 0.1, 120);
+    const camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 0.1, 120);
     camera.position.set(0, 1.2, 12.2);
 
-    const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: 'high-performance' });
+    const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: 'high-performance', preserveDrawingBuffer: true });
     renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.5));
     renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.setClearColor(0x000000, 1);
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.3;
+    renderer.outputEncoding = THREE.sRGBEncoding;
+    renderer.setClearColor(0x000000, 0);
+    renderer.setClearAlpha(0);
     const clock = new THREE.Clock();
     const globe = new THREE.Group();
     globe.rotation.set(0.03, -0.62, 0);
@@ -485,26 +1486,46 @@
       });
     }
 
-    // Full-sphere wireframe: latitudes -80° to 80°, no opaque surface.
+    // Full-sphere wireframe: merged into 3 LineSegments for draw-call efficiency
     const grid = new THREE.Group();
     const meridianMat = makeLineMaterial({ color: '#22d3ee', opacity: 0.16 });
     const latitudeMat = makeLineMaterial({ color: '#6366f1', opacity: 0.18 });
     const glowGridMat = makeLineMaterial({ color: '#22d3ee', opacity: 0.06 });
 
-    for (let lat = -80; lat <= 80; lat += 10) {
-      const points = [];
-      for (let lon = -180; lon <= 180; lon += 3) points.push(latLonToVec3(lat, lon, R));
-      const line = new THREE.Line(new THREE.BufferGeometry().setFromPoints(points), lat % 20 === 0 ? latitudeMat : glowGridMat);
-      grid.add(line);
+    // Collect all latitude line points into one geometry
+    const latPts = [], latMajorPts = [];
+    for (let lat = -75; lat <= 75; lat += 15) {
+      const pts = [];
+      for (let lon = -180; lon <= 180; lon += 5) pts.push(latLonToVec3(lat, lon, R));
+      const target = lat % 30 === 0 ? latMajorPts : latPts;
+      for (let i = 0; i < pts.length - 1; i++) { target.push(pts[i]); target.push(pts[i+1]); }
     }
+    if (latPts.length) { const g = new THREE.BufferGeometry().setFromPoints(latPts); grid.add(new THREE.LineSegments(g, glowGridMat)); }
+    if (latMajorPts.length) { const g = new THREE.BufferGeometry().setFromPoints(latMajorPts); grid.add(new THREE.LineSegments(g, latitudeMat)); }
 
-    for (let lon = -180; lon < 180; lon += 10) {
-      const points = [];
-      for (let lat = -80; lat <= 80; lat += 2) points.push(latLonToVec3(lat, lon, R));
-      const line = new THREE.Line(new THREE.BufferGeometry().setFromPoints(points), lon % 30 === 0 ? meridianMat : glowGridMat);
-      grid.add(line);
+    // Collect all meridian line points into one geometry
+    const merPts = [], merMajorPts = [];
+    for (let lon = -180; lon < 180; lon += 15) {
+      const pts = [];
+      for (let lat = -80; lat <= 80; lat += 3) pts.push(latLonToVec3(lat, lon, R));
+      const target = lon % 30 === 0 ? merMajorPts : merPts;
+      for (let i = 0; i < pts.length - 1; i++) { target.push(pts[i]); target.push(pts[i+1]); }
     }
+    if (merPts.length) { const g = new THREE.BufferGeometry().setFromPoints(merPts); grid.add(new THREE.LineSegments(g, glowGridMat)); }
+    if (merMajorPts.length) { const g = new THREE.BufferGeometry().setFromPoints(merMajorPts); grid.add(new THREE.LineSegments(g, meridianMat)); }
     globe.add(grid);
+
+    // ── Depth-occlusion sphere: renders to depth buffer only, no color ──
+    // This prevents back-side elements (borders, labels) from showing through
+    const depthSphere = new THREE.Mesh(
+      new THREE.SphereGeometry(R * 1.012, 48, 24),
+      new THREE.MeshBasicMaterial({
+        colorWrite: false, depthWrite: true, depthTest: true,
+        side: THREE.FrontSide
+      })
+    );
+    depthSphere.renderOrder = 1;
+    globe.add(depthSphere);
 
     // Faint sphere-cap aura (transparent wire-only accent; no opaque surface).
     const haloMaterial = new THREE.ShaderMaterial({
@@ -603,11 +1624,11 @@
     // into bright clumps on a small hologram. Simplify in lon/lat space before
     // generating Three.js line geometry so we keep recognizable continents with
     // far fewer overlapping neon segments.
-    const COASTLINE_SIMPLIFY_TOLERANCE = 0.32; // degrees; ~35km at equator
-    const LAND_TEXTURE_SIMPLIFY_TOLERANCE = 0.18;
+    const COASTLINE_SIMPLIFY_TOLERANCE = 0.5; // degrees; ~55km at equator
+    const LAND_TEXTURE_SIMPLIFY_TOLERANCE = 0.25;
     const MIN_OUTLINE_AREA = 0.12;
 
-    const textureSize = window.innerWidth < 768 ? 1024 : 2048;
+    const textureSize = window.innerWidth < 768 ? 1024 : (window.innerWidth < 1440 ? 2048 : 4096);
     const landCanvas = document.createElement('canvas');
     landCanvas.width = textureSize;
     landCanvas.height = textureSize / 2;
@@ -979,16 +2000,16 @@
 
 
     const topicColors = {
-      Bitcoin: '#f97316',
-      Ethereum: '#818cf8',
-      DeFi: '#22c55e',
-      AI: '#3b82f6',
-      Regulation: '#ef4444',
-      Policy: '#eab308',
-      Crypto: '#6366f1',
-      Finance: '#22d3ee',
-      Tech: '#a78bfa',
-      General: '#8888a0'
+      Bitcoin: '#ff8800',
+      Ethereum: '#9999ff',
+      DeFi: '#22dd66',
+      AI: '#4499ff',
+      Regulation: '#ff4444',
+      Policy: '#ffdd00',
+      Crypto: '#7777ff',
+      Finance: '#33eeff',
+      Tech: '#bb88ff',
+      General: '#aaaacc'
     };
 
     function regionFor(lat, lon) {
@@ -1009,89 +2030,355 @@
 
     const markerGroup = new THREE.Group();
     const markerMeshes = [];
-    const markerGeometry = new THREE.SphereGeometry(0.095, 16, 12);
-    const glowGeometry = new THREE.SphereGeometry(0.19, 16, 12);
+    const markerGeometry = new THREE.SphereGeometry(0.095, 28, 20);
+    const glowGeometry = new THREE.SphereGeometry(0.19, 28, 20);
 
+    // Build position + color arrays for instancing
+    const markerPositions = [];
+    const markerColors = [];
+    const markerData = [];
+    const dummy = new THREE.Object3D();
+
+    // Group articles by their base location for clustering
+    const locationGroups = {};
     NEWS_DATA.articles.slice(0, 100).forEach((article, index) => {
       if (!article.ai_summary) return;
-
-      // 1) Try content-based geo-tagging first
       let baseLat, baseLon, city;
       const geoMatch = detectGeoLocation(article);
       if (geoMatch) {
         [baseLat, baseLon, city] = geoMatch;
       } else {
-        // 2) Fall back to source location
         const srcLoc = NEWS_DATA.sourceLocations[article.source];
         if (!srcLoc) return;
         [baseLat, baseLon, city] = srcLoc;
       }
-
-      // Jitter to avoid overlap (tighter spread than before: ±0.8° lat, ±1.2° lon)
-      const latOffset = (Math.random() - 0.5) * 1.6;
-      const lonOffset = (Math.random() - 0.5) * 2.4;
-      const lat = THREE.MathUtils.clamp(baseLat + latOffset, -90, 90);
-      const lon = THREE.MathUtils.clamp(baseLon + lonOffset, -180, 180);
-
-      const topic = topicColors[article.topic] ? article.topic : (topicColors[article.category] ? article.category : 'General');
-      const color = new THREE.Color(topicColors[topic] || topicColors.General);
-      const markerMaterial = new THREE.MeshBasicMaterial({
-        color,
-        transparent: true,
-        opacity: 0.96,
-        blending: THREE.AdditiveBlending,
-        depthWrite: false
-      });
-      const glowMaterial = new THREE.MeshBasicMaterial({
-        color,
-        transparent: true,
-        opacity: 0.18,
-        blending: THREE.AdditiveBlending,
-        depthWrite: false
-      });
-      const marker = new THREE.Mesh(markerGeometry, markerMaterial);
-      const glow = new THREE.Mesh(glowGeometry, glowMaterial);
-      marker.add(glow);
-      marker.position.copy(latLonToVec3(lat, lon, R * 1.035));
-      marker.userData = {
-        article,
-        topic,
-        region: regionFor(baseLat, baseLon),
-        city,
-        baseScale: 1,
-        glow
-      };
-      markerGroup.add(marker);
-      markerMeshes.push(marker);
+      const key = `${baseLat.toFixed(1)},${baseLon.toFixed(1)}`;
+      if (!locationGroups[key]) locationGroups[key] = [];
+      locationGroups[key].push({ article, baseLat, baseLon, city, index });
     });
+
+    // Create ONE cluster marker per location group
+    // with size proportional to article count
+    const countSprites = [];
+    Object.values(locationGroups).forEach((group) => {
+      const { baseLat, baseLon, city } = group[0];
+      const groupSize = group.length;
+
+      // Determine dominant topic color
+      const topicCounts = {};
+      let dominantTopic = 'General';
+      group.forEach(item => {
+        const t = topicColors[item.article.topic] ? item.article.topic : (topicColors[item.article.category] ? item.article.category : 'General');
+        topicCounts[t] = (topicCounts[t] || 0) + 1;
+      });
+      let maxCnt = 0;
+      Object.entries(topicCounts).forEach(([t, c]) => { if (c > maxCnt) { maxCnt = c; dominantTopic = t; } });
+      const color = new THREE.Color(topicColors[dominantTopic] || topicColors.General);
+
+      // Cluster marker at centroid, size scales with count
+      const pos = latLonToVec3(baseLat, baseLon, R * 1.035);
+      const clusterScale = 1 + Math.min(groupSize - 1, 8) * 0.12;
+
+      markerPositions.push(pos);
+      markerColors.push(color);
+      markerData.push({
+        articles: group.map(g => g.article),
+        cities: [...new Set(group.map(g => g.city))],
+        topic: dominantTopic,
+        city: group.length === 1 ? city : city + ' +' + (groupSize - 1),
+        color,
+        region: regionFor(baseLat, baseLon),
+        baseScale: clusterScale,
+        count: groupSize,
+        _groupSize: groupSize,
+      });
+
+      // Count sprite for clusters with >1 article
+      if (groupSize > 1) {
+        const c = document.createElement('canvas');
+        c.width = 128; c.height = 64;
+        const cx = c.getContext('2d');
+        const fsize = groupSize > 99 ? 28 : 32;
+        cx.font = `bold ${fsize}px Inter, sans-serif`;
+        cx.textAlign = 'center';
+        cx.textBaseline = 'middle';
+        cx.shadowColor = 'rgba(0,0,0,0.9)';
+        cx.shadowBlur = 10;
+        cx.fillStyle = '#ffffff';
+        cx.fillText(String(groupSize), 64, 34);
+        cx.shadowBlur = 0;
+        const tex = new THREE.CanvasTexture(c);
+        tex.minFilter = THREE.LinearFilter;
+        const spriteMat = new THREE.SpriteMaterial({ map: tex, transparent: true, opacity: 0.95, depthWrite: false, depthTest: false });
+        const sprite = new THREE.Sprite(spriteMat);
+        sprite.renderOrder = 10;
+        sprite.position.copy(pos);
+        sprite.position.setLength(R * 1.075);
+        const s = Math.min(0.8, 0.25 + groupSize * 0.05);
+        sprite.scale.set(s, s * 0.5, 1);
+        countSprites.push(sprite);
+      }
+    });
+    // Add count sprites to marker group
+    countSprites.forEach(s => markerGroup.add(s));
+
+    // Instanced mesh for cluster markers
+    const count = markerPositions.length;
+    const markerMat = new THREE.MeshBasicMaterial({
+      transparent: true, opacity: 1.0, blending: THREE.AdditiveBlending, depthWrite: false
+    });
+    const instancedMarkers = new THREE.InstancedMesh(markerGeometry, markerMat, count);
+    const colorAttr = new THREE.InstancedBufferAttribute(new Float32Array(count * 3), 3);
+    // Build scale array for per-instance size
+    const scaleAttr = new THREE.InstancedBufferAttribute(new Float32Array(count), 1);
+    const originalPositions = markerPositions.map(p => p.clone());
+    for (let i = 0; i < count; i++) {
+      dummy.position.copy(markerPositions[i]);
+      dummy.scale.set(markerData[i].baseScale, markerData[i].baseScale, markerData[i].baseScale);
+      dummy.updateMatrix();
+      instancedMarkers.setMatrixAt(i, dummy.matrix);
+      colorAttr.setXYZ(i, markerColors[i].r, markerColors[i].g, markerColors[i].b);
+      scaleAttr.setXYZ(i, markerData[i].baseScale);
+    }
+    instancedMarkers.instanceColor = colorAttr;
+    instancedMarkers.instanceMatrix.needsUpdate = true;
+    markerGroup.add(instancedMarkers);
+
+    // Instanced mesh for glows
+    const glowMat = new THREE.MeshBasicMaterial({
+      transparent: true, opacity: 0.28, blending: THREE.AdditiveBlending, depthWrite: false
+    });
+    const instancedGlows = new THREE.InstancedMesh(glowGeometry, glowMat, count);
+    for (let i = 0; i < count; i++) {
+      dummy.position.copy(markerPositions[i]);
+      dummy.scale.set(markerData[i].baseScale * 2, markerData[i].baseScale * 2, markerData[i].baseScale * 2);
+      dummy.updateMatrix();
+      instancedGlows.setMatrixAt(i, dummy.matrix);
+    }
+    instancedGlows.instanceColor = colorAttr;
+    instancedGlows.instanceMatrix.needsUpdate = true;
+    markerGroup.add(instancedGlows);
+
+    // Per-instance state for animation + interaction
+    markerMeshes.length = 0;
+    for (let i = 0; i < count; i++) {
+      const data = markerData[i];
+      data.matrixIndex = i;
+      data.instanceScale = 1;
+      data.instanceOpacity = 1.0;
+      data.glowOpacity = 0.28;
+      markerMeshes.push(data);
+    }
     globe.add(markerGroup);
+    globe.add(continentGroup);
+
+    // ── Country labels on zoom ──
+    let countryLookup = [];
+    const countryNameEl = document.getElementById('country-label-name');
+    const countryCountEl = document.getElementById('country-label-count');
+    const countryLabelEl = document.getElementById('country-label');
+    let lastCountryLabel = null;
+    const ZOOM_THRESHOLD = 18;
+
+    // Ray-casting point-in-polygon in 2D lon/lat space
+    function pointInRing(lon, lat, ring) {
+      let inside = false;
+      for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+        const xi = ring[i][0], yi = ring[i][1];
+        const xj = ring[j][0], yj = ring[j][1];
+        if ((yi > lat) !== (yj > lat) && lon < ((xj - xi) * (lat - yi)) / (yj - yi) + xi) inside = !inside;
+      }
+      return inside;
+    }
+    function findCountry(lon, lat) {
+      for (const entry of countryLookup) {
+        // Bbox pre-filter
+        if (lon < entry.bbox[0] || lon > entry.bbox[2] || lat < entry.bbox[1] || lat > entry.bbox[3]) continue;
+        let found = false;
+        for (const poly of entry.polys) {
+          if (!pointInRing(lon, lat, poly[0])) continue;
+          let inHole = false;
+          for (let k = 1; k < poly.length; k++) { if (pointInRing(lon, lat, poly[k])) { inHole = true; break; } }
+          if (!inHole) { found = true; break; }
+        }
+        if (found) return entry;
+      }
+      return null;
+    }
+
+    async function loadCountries() {
+      try {
+        const resp = await fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json');
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const data = await resp.json();
+        const countries = topojson.feature(data, data.objects.countries);
+        countries.features.forEach(f => {
+          if (!f.properties || !f.properties.name) return;
+          const polys = f.geometry.type === 'Polygon' ? [f.geometry.coordinates] : f.geometry.coordinates;
+          // Compute centroid + bounding box from vertex average
+          let sumLon = 0, sumLat = 0, cnt = 0;
+          let minLon = 180, maxLon = -180, minLat = 90, maxLat = -90;
+          polys.forEach(poly => poly[0].forEach(([lon, lat]) => {
+            sumLon += lon; sumLat += lat; cnt++;
+            if (lon < minLon) minLon = lon;
+            if (lon > maxLon) maxLon = lon;
+            if (lat < minLat) minLat = lat;
+            if (lat > maxLat) maxLat = lat;
+          }));
+          countryLookup.push({
+            name: f.properties.name,
+            centroid: [sumLon / cnt, sumLat / cnt],
+            polys,
+            bbox: [minLon, minLat, maxLon, maxLat],
+            count: 0
+          });
+        });
+        // Assign articles to countries (with bbox pre-filter)
+        for (let i = 0; i < count; i++) {
+          const pos = markerPositions[i];
+          if (!pos) continue;
+          const nx = pos.x / (R * 1.035), ny = pos.y / (R * 1.035), nz = pos.z / (R * 1.035);
+          const lat = 90 - THREE.MathUtils.radToDeg(Math.acos(Math.min(1, Math.max(-1, ny))));
+          const lon = THREE.MathUtils.radToDeg(Math.atan2(nz, -nx)) - 180;
+          const country = findCountry(lon, lat);
+          if (country) country.count++;
+        }
+        console.log(`Loaded ${countryLookup.length} countries, ${markerPositions.length} articles mapped`);
+        // Render borders + labels AFTER data is loaded (async fix)
+        renderCountryBorders();
+      } catch (e) { console.warn('Country labels unavailable:', e); }
+    }
+    loadCountries();
+
+    // ── Render country boundary lines (called from loadCountries after data ready) ──
+    function renderCountryBorders() {
+      const borderGroup = new THREE.Group();
+      const borderMat = new THREE.LineBasicMaterial({
+        color: 0xffffff, transparent: true, opacity: 0.75, depthWrite: false, depthTest: true
+      });
+      const borderGlowMat = new THREE.LineBasicMaterial({
+        color: 0x22d3ee, transparent: true, opacity: 0.40, depthWrite: false, depthTest: true
+      });
+      countryLookup.forEach(entry => {
+        entry.polys.forEach(poly => {
+          const ring = poly[0];
+          if (!ring || ring.length < 4) return;
+          const pts = ring.map(([lon, lat]) => latLonToVec3(lat, lon, R * 1.025));
+          pts.push(pts[0]);
+          const geom = new THREE.BufferGeometry().setFromPoints(pts);
+          const line = new THREE.Line(geom, borderMat);
+          borderGroup.add(line);
+          const glowPts = ring.map(([lon, lat]) => latLonToVec3(lat, lon, R * 1.018));
+          glowPts.push(glowPts[0]);
+          const glowGeom = new THREE.BufferGeometry().setFromPoints(glowPts);
+          const glowLine = new THREE.Line(glowGeom, borderGlowMat);
+          borderGroup.add(glowLine);
+        });
+      });
+      globe.add(borderGroup);
+      // ── Country name sprites on globe surface ──
+      const labelGroup = new THREE.Group();
+      countryLookup.forEach(entry => {
+        const [lon, lat] = entry.centroid;
+        const pos = latLonToVec3(lat, lon, R * 1.045);
+        // Create fresh canvas per country to avoid texture cross-contamination
+        const c = document.createElement('canvas');
+        c.width = 1024; c.height = 160;
+        const cx = c.getContext('2d');
+        // Calculate label size from country bounding box area — subtle variation
+        const area = (entry.bbox[2] - entry.bbox[0]) * (entry.bbox[3] - entry.bbox[1]);
+        const scaleFactor = Math.sqrt(Math.abs(area)) / 6;
+        const labelScale = Math.min(1.6, Math.max(0.6, scaleFactor));
+        const fontSize = Math.round(30 + 14 * Math.min(1, scaleFactor));
+        cx.font = `bold ${fontSize}px Inter, sans-serif`;
+        cx.textAlign = 'center';
+        cx.textBaseline = 'middle';
+        cx.shadowColor = 'rgba(0,0,0,0.9)';
+        cx.shadowBlur = 18;
+        cx.fillStyle = '#ffffff';
+        cx.fillText(entry.name, 512, 80);
+        cx.shadowBlur = 0;
+        const tex = new THREE.CanvasTexture(c);
+        tex.minFilter = THREE.LinearFilter;
+        const mat = new THREE.SpriteMaterial({ map: tex, transparent: true, opacity: 0, depthWrite: false, depthTest: false });
+        const sprite = new THREE.Sprite(mat);
+        sprite.position.copy(pos);
+        sprite.scale.set(labelScale * 2.2, labelScale * 0.55, 1);
+        sprite.userData.entry = entry;
+        sprite.userData.baseScale = labelScale * 2.2;
+        labelGroup.add(sprite);
+      });
+      globe.add(labelGroup);
+      // Store label group for opacity animation in animate loop
+      window._countryLabels = labelGroup;
+      console.log(`Rendered ${countryLookup.length} country boundaries + labels`);
+    }
+    // renderCountryBorders() called from loadCountries() after async fetch completes
+
+    // Share single uTime across all shader materials
+    const _uTime = { value: 0 };
+    haloMaterial.uniforms.uTime = _uTime;
+    continentMaterial.uniforms.uTime = _uTime;
+    continentGlowMaterial.uniforms.uTime = _uTime;
+    ringMat.uniforms.uTime = _uTime;
+    ringParticleMat.uniforms.uTime = _uTime;
+    starMaterial.uniforms.uTime = _uTime;
+
+    // Track invisible instances for filtering
+    const invisibleFlags = new Uint8Array(count);
 
     const tooltip = document.getElementById('article-tooltip');
     const raycaster = new THREE.Raycaster();
     const pointer = new THREE.Vector2(-10, -10);
-    let hoveredMarker = null;
+    let hoveredIdx = -1;
+    let hoveredData = null;
+    let stickyTooltip = null; // when set, tooltip stays visible after click
     let activeFilters = { time: 'all', region: 'All', topic: 'All' };
 
-    function markerMatchesFilter(marker) {
-      if (activeFilters.region !== 'All' && marker.userData.region !== activeFilters.region) return false;
-      if (activeFilters.topic !== 'All' && marker.userData.topic !== activeFilters.topic) return false;
+    function markerMatchesFilter(data) {
+      if (activeFilters.region !== 'All' && data.region !== activeFilters.region) return false;
+      if (activeFilters.topic !== 'All' && data.topic !== activeFilters.topic) return false;
       if (activeFilters.time !== 'all') {
-        const published = marker.userData.article.published;
-        if (!published) return false;
-        const pubTime = Date.parse(published);
-        if (isNaN(pubTime)) return false;
-        const hoursAgo = (Date.now() - pubTime) / (1000 * 60 * 60);
-        if (activeFilters.time === '6h' && hoursAgo > 6) return false;
-        if (activeFilters.time === '24h' && hoursAgo > 24) return false;
+        // Check if any article in the cluster matches the time filter
+        const matchesTime = data.articles.some(a => {
+          const published = a.published;
+          if (!published) return false;
+          const pubTime = Date.parse(published);
+          if (isNaN(pubTime)) return false;
+          const hoursAgo = (Date.now() - pubTime) / (1000 * 60 * 60);
+          if (activeFilters.time === '6h' && hoursAgo > 6) return false;
+          if (activeFilters.time === '24h' && hoursAgo > 24) return false;
+          return true;
+        });
+        if (!matchesTime) return false;
       }
       return true;
     }
 
     function applyFilter() {
-      markerMeshes.forEach(marker => {
-        marker.visible = markerMatchesFilter(marker);
-      });
-      if (hoveredMarker && !hoveredMarker.visible) setHoveredMarker(null);
+      const dummy = new THREE.Object3D();
+      for (let i = 0; i < count; i++) {
+        const visible = markerMatchesFilter(markerData[i]);
+        invisibleFlags[i] = visible ? 0 : 1;
+        // Physically hide filtered-out markers / restore visible ones
+        instancedMarkers.getMatrixAt(i, dummy.matrix);
+        dummy.matrix.decompose(dummy.position, dummy.quaternion, dummy.scale);
+        if (visible) {
+          dummy.position.copy(originalPositions[i]);
+        } else {
+          dummy.position.set(0, -100, 0);
+        }
+        dummy.updateMatrix();
+        instancedMarkers.setMatrixAt(i, dummy.matrix);
+        instancedGlows.setMatrixAt(i, dummy.matrix);
+      }
+      instancedMarkers.instanceMatrix.needsUpdate = true;
+      instancedGlows.instanceMatrix.needsUpdate = true;
+      if (hoveredData && !markerMatchesFilter(hoveredData)) {
+        hoveredIdx = -1;
+        hoveredData = null;
+        tooltip.classList.remove('visible');
+      }
     }
 
     function escapeHtml(value) {
@@ -1100,67 +2387,119 @@
 
     let hoverCooldown = null;
 
-    function setHoveredMarker(marker) {
-      if (hoveredMarker === marker) return;
-      if (hoverCooldown) { clearTimeout(hoverCooldown); hoverCooldown = null; }
-      if (hoveredMarker) hoveredMarker.scale.setScalar(hoveredMarker.userData.baseScale);
-      const wasHovering = !!hoveredMarker;
-      hoveredMarker = marker;
-      if (!marker) {
-        tooltip.classList.remove('visible');
-        if (wasHovering) {
-          hoverCooldown = setTimeout(() => { controls.autoRotate = true; }, 500);
-        }
-        return;
-      }
-      if (!wasHovering) controls.autoRotate = false;
-      const article = marker.userData.article;
-      const bullets = summaryBullets(article.ai_summary);
-      tooltip.innerHTML = `
-        <div class="tooltip-title">${escapeHtml(article.title)}</div>
-        <div class="tooltip-source">${escapeHtml(article.source)} · ${escapeHtml(marker.userData.city)} · ${escapeHtml(marker.userData.topic)}</div>
-        <ul class="tooltip-summary">${bullets.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul>
-      `;
-      tooltip.style.transition = 'none';
-      positionTooltip(marker);
-      tooltip.classList.add('visible');
-      // Force reflow then restore transition
-      tooltip.offsetHeight;
-      tooltip.style.transition = '';
-    }
-
     function updatePointer(event) {
       const rect = renderer.domElement.getBoundingClientRect();
       pointer.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
       pointer.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
     }
 
-    function positionTooltip(marker) {
-      if (!marker) return;
-      const world = marker.getWorldPosition(new THREE.Vector3()).project(camera);
-      const x = (world.x * 0.5 + 0.5) * window.innerWidth;
-      const y = (-world.y * 0.5 + 0.5) * window.innerHeight;
-      const offset = 18;
-      const width = tooltip.offsetWidth || 320;
-      const height = tooltip.offsetHeight || 170;
-      const left = Math.round(Math.min(window.innerWidth - width - 14, Math.max(14, x + offset)));
-      const top = Math.round(Math.min(window.innerHeight - height - 14, Math.max(14, y - height * 0.45)));
-      tooltip.style.transform = `translate3d(${left}px, ${top}px, 0) scale(1)`;
-    }
-
     renderer.domElement.addEventListener('pointermove', event => {
       updatePointer(event);
-      if (hoveredMarker) positionTooltip(hoveredMarker);
+      raycaster.setFromCamera(pointer, camera);
+      const hits = raycaster.intersectObject(instancedMarkers);
+      if (hits.length && hits[0].instanceId !== undefined) {
+        const idx = hits[0].instanceId;
+        if (invisibleFlags[idx]) return;
+        const data = markerData[idx];
+        if (data !== hoveredData) {
+          hoveredIdx = idx;
+          hoveredData = data;
+          // Pause auto-rotate while hovering a marker
+          if (controls.autoRotate) controls.autoRotate = false;
+          const cnt = data.articles.length;
+          const first = data.articles[0];
+          let html;
+          if (cnt > 1) {
+            html = `<div class="tooltip-title">📦 ${cnt} articles &middot; ${escapeHtml(data.city)}</div>`;
+            html += `<div class="tooltip-source">${escapeHtml(data.topic)} &middot; ${escapeHtml(data.region)}</div>`;
+            html += '<div class="tooltip-summary" style="margin-top:6px;padding-left:0">';
+            data.articles.slice(0, 6).forEach(a => {
+              html += `<div style="font-size:12px;padding:4px 0;border-bottom:1px solid rgba(255,255,255,0.06)">${escapeHtml(a.title)}</div>`;
+            });
+            if (cnt > 6) html += `<div style="font-size:11px;color:rgba(136,146,182,0.6);margin-top:4px">+ ${cnt - 6} more</div>`;
+            html += '</div>';
+          } else {
+            const bullets = summaryBullets(first.ai_summary);
+            html = `<div class="tooltip-title">${escapeHtml(first.title)}</div>`;
+            html += `<div class="tooltip-source">${escapeHtml(first.source)} &middot; ${escapeHtml(data.city)} &middot; ${escapeHtml(data.topic)}</div>`;
+            html += `<ul class="tooltip-summary">${bullets.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul>`;
+          }
+          tooltip.innerHTML = html;
+          tooltip.style.transition = 'none';
+          // Position tooltip using instanced mesh position
+          const dummy = new THREE.Object3D();
+          instancedMarkers.getMatrixAt(idx, dummy.matrix);
+          dummy.matrix.decompose(dummy.position, dummy.quaternion, dummy.scale);
+          const world = dummy.position.clone().project(camera);
+          // Smart tooltip position: left side markers get tooltip on right, right side markers get tooltip on left
+          const tooltipW = 340;
+          const txScreen = (world.x * 0.5 + 0.5) * window.innerWidth;
+          const tyScreen = (-world.y * 0.5 + 0.5) * window.innerHeight;
+          const offsetX = txScreen < window.innerWidth / 2 ? txScreen + 18 : txScreen - tooltipW - 18;
+          const clampedX = Math.max(8, Math.min(offsetX, window.innerWidth - tooltipW - 8));
+          tooltip.style.transform = `translate3d(${clampedX}px, ${Math.max(tyScreen - 80, 14)}px, 0) scale(1)`;
+          tooltip.offsetHeight;
+          tooltip.style.transition = '';
+          tooltip.classList.add('visible');
+        }
+      } else if (hoveredData) {
+        if (stickyTooltip !== null) return; // don't clear sticky picker
+        hoveredIdx = -1;
+        hoveredData = null;
+        tooltip.classList.remove('visible');
+        // Resume auto-rotate
+        if (!controls.autoRotate) controls.autoRotate = true;
+      }
     }, { passive: true });
 
     renderer.domElement.addEventListener('pointerleave', () => {
       pointer.set(-10, -10);
-      setHoveredMarker(null);
+      if (hoveredData) { 
+        hoveredIdx = -1; hoveredData = null; tooltip.classList.remove('visible');
+        if (!controls.autoRotate) controls.autoRotate = true;
+      }
     }, { passive: true });
 
+    // ── Click cluster → open articles or show picker ──
     renderer.domElement.addEventListener('click', () => {
-      if (hoveredMarker && hoveredMarker.userData.article.url) {
-        window.open(hoveredMarker.userData.article.url, '_blank', 'noopener,noreferrer');
+      // If sticky picker is shown and clicking empty space, close it
+      if (stickyTooltip !== null && (!hoveredData || hoveredData === null)) {
+        stickyTooltip = null;
+        hoveredIdx = -1;
+        hoveredData = null;
+        tooltip.classList.remove('visible');
+        if (!controls.autoRotate) controls.autoRotate = true;
+        return;
+      }
+      if (!hoveredData || !hoveredData.articles) return;
+      const articles = hoveredData.articles;
+      if (articles.length === 1) {
+        window.location.href = articles[0].url;
+      } else {
+        stickyTooltip = hoveredIdx;
+        // Show sticky article picker in tooltip
+        let html = `<div class="tooltip-title" style="margin-bottom:8px">📦 ${articles.length} articles · ${escapeHtml(hoveredData.city)}</div>`;
+        articles.forEach((a, i) => {
+          const color = topicColors[a.topic] || topicColors.General;
+          html += `<a href="${escapeHtml(a.url)}" target="_blank" rel="noopener" style="display:block;padding:6px 8px;margin:2px 0;border-radius:6px;background:rgba(255,255,255,0.04);color:#eef7ff;text-decoration:none;font-size:13px;line-height:1.35;border-left:3px solid ${color};transition:background .15s" onmouseover="this.style.background='rgba(255,255,255,0.1)'" onmouseout="this.style.background='rgba(255,255,255,0.04)'">${escapeHtml(a.title)}<br><span style="font-size:11px;color:rgba(136,146,182,0.7)">${escapeHtml(a.source)}</span></a>`;
+        });
+        tooltip.innerHTML = html;
+        tooltip.style.transition = 'none';
+        // Position at current hover position
+        const dummy = new THREE.Object3D();
+        instancedMarkers.getMatrixAt(hoveredIdx, dummy.matrix);
+        dummy.matrix.decompose(dummy.position, dummy.quaternion, dummy.scale);
+        const world = dummy.position.clone().project(camera);
+        const txScreen = (world.x * 0.5 + 0.5) * window.innerWidth;
+        const tyScreen = (-world.y * 0.5 + 0.5) * window.innerHeight;
+        const tooltipW = 360;
+        const offsetX = txScreen < window.innerWidth / 2 ? txScreen + 18 : txScreen - tooltipW - 18;
+        const clampedX = Math.max(8, Math.min(offsetX, window.innerWidth - tooltipW - 8));
+        tooltip.style.transform = `translate3d(${clampedX}px, ${Math.max(tyScreen - 80, 14)}px, 0)`;
+        tooltip.offsetHeight;
+        tooltip.style.transition = '';
+        tooltip.classList.add('visible');
+        // Don't clear hoveredData so tooltip stays
       }
     });
 
@@ -1203,6 +2542,7 @@
           }
         }
         applyFilter();
+        renderFeed();
       });
     });
     applyFilter();
@@ -1211,13 +2551,15 @@
     controls.enableDamping = true;
     controls.dampingFactor = 0.055;
     controls.enablePan = false;
-    controls.enableZoom = false;
+    controls.enableZoom = true;
+    controls.minDistance = 5;
+    controls.maxDistance = 15;
     controls.enableRotate = true;
     controls.minPolarAngle = 0;
     controls.maxPolarAngle = Math.PI;
     controls.rotateSpeed = 0.26;
     controls.autoRotate = true;
-    controls.autoRotateSpeed = 1.8;
+    controls.autoRotateSpeed = 1.0;
     controls.target.set(0, -0.4, 0);
     controls.update();
 
@@ -1228,40 +2570,172 @@
       camera.position.z = w < 768 ? 13.8 : 12.2;
       camera.position.y = w < 768 ? 1.6 : 1.2;
       camera.updateProjectionMatrix();
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
       renderer.setSize(w, h);
-      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.5));
       globe.scale.setScalar(w < 768 ? 0.82 : Math.min(1.06, Math.max(0.92, h / 960)));
     }
     window.addEventListener('resize', resize, { passive: true });
     resize();
 
+    // Expose Three.js objects for browser debug/remote inspection
+    window._cam = camera;
+    window._ctrl = controls;
+    window._globe = globe;
+    window._scene = scene;
+    window._renderer2 = renderer;
+
+    // ── HUD toggle ──
+    const hudPanel = document.getElementById('hud-panel');
+    const hudToggle = document.getElementById('hud-toggle');
+    if (hudToggle && hudPanel) {
+      hudToggle.addEventListener('click', () => {
+        hudPanel.classList.toggle('collapsed');
+        hudToggle.textContent = hudPanel.classList.contains('collapsed') ? '▶' : '◀';
+      });
+    }
+
     function animate() {
       const elapsed = clock.getElapsedTime();
-      const delta = clock.getDelta();
 
       const pulse = 1 + Math.sin(elapsed * 1.1) * 0.006;
       grid.scale.setScalar(pulse);
       continentGroup.scale.setScalar(1 + Math.sin(elapsed * 0.9 + 0.8) * 0.0035);
 
-      haloMaterial.uniforms.uTime.value = elapsed;
-      continentMaterial.uniforms.uTime.value = elapsed;
-      continentGlowMaterial.uniforms.uTime.value = elapsed;
-      ringMat.uniforms.uTime.value = elapsed;
-      ringParticleMat.uniforms.uTime.value = elapsed;
-      starMaterial.uniforms.uTime.value = elapsed;
+      _uTime.value = elapsed;
 
-      raycaster.setFromCamera(pointer, camera);
-      const hits = raycaster.intersectObjects(markerMeshes.filter(marker => marker.visible), false);
-      setHoveredMarker(hits.length ? hits[0].object : null);
-      markerMeshes.forEach((marker, index) => {
-        if (!marker.visible) return;
-        const isHovered = marker === hoveredMarker;
-        const target = isHovered ? 1.85 : 1 + Math.sin(elapsed * 2.6 + index * 0.47) * 0.09;
-        marker.scale.lerp(new THREE.Vector3(target, target, target), 0.18);
-        marker.material.opacity = isHovered ? 1 : 0.82 + Math.sin(elapsed * 2.2 + index) * 0.12;
-        marker.userData.glow.material.opacity = isHovered ? 0.36 : 0.14 + Math.sin(elapsed * 1.8 + index) * 0.05;
-      });
-      positionTooltip(hoveredMarker);
+      // Update instanced marker pulse via instance matrix
+      const dummy = new THREE.Object3D();
+      let needsUpdate = false;
+      // Distance-based size cap: markers stay readable but never overwhelm the view
+      const camDist = camera.position.distanceTo(controls.target);
+      const distScale = Math.min(2.5, 12 / camDist);
+      for (let i = 0; i < count; i++) {
+        const data = markerData[i];
+        const isHovered = data === hoveredData;
+        const target = isHovered ? 1.85 : 1 + Math.sin(elapsed * 2.6 + i * 0.47) * 0.09;
+        const prev = data.instanceScale;
+        data.instanceScale += (target - prev) * 0.18;
+        const s = data.instanceScale * distScale;
+        const op = isHovered ? 1 : 0.82 + Math.sin(elapsed * 2.2 + i) * 0.12;
+        data.instanceOpacity += (op - data.instanceOpacity) * 0.18;
+        const gop = isHovered ? 0.50 : 0.22 + Math.sin(elapsed * 1.8 + i) * 0.08;
+        // Cluster density: reduce glow in large clusters so additive blending doesn't bloom
+        const clusterDensity = Math.min(1, 4 / (data._groupSize || 1));
+        data.glowOpacity += (gop * clusterDensity - data.glowOpacity) * 0.18;
+
+        if (Math.abs(s - prev) > 0.001) {
+          instancedMarkers.getMatrixAt(i, dummy.matrix);
+          const pos = new THREE.Vector3().setFromMatrixPosition(dummy.matrix);
+          dummy.position.copy(pos);
+          dummy.scale.set(s, s, s);
+          dummy.updateMatrix();
+          instancedMarkers.setMatrixAt(i, dummy.matrix);
+          // Also update glow instance with same distance-scaled size
+          instancedGlows.getMatrixAt(i, dummy.matrix);
+          const glowPos = new THREE.Vector3().setFromMatrixPosition(dummy.matrix);
+          dummy.position.copy(glowPos);
+          const glowS = s * 2.0; // glow is 2x marker size
+          dummy.scale.set(glowS, glowS, glowS);
+          dummy.updateMatrix();
+          instancedGlows.setMatrixAt(i, dummy.matrix);
+          needsUpdate = true;
+        }
+      }
+      if (needsUpdate) {
+        instancedMarkers.instanceMatrix.needsUpdate = true;
+        instancedGlows.instanceMatrix.needsUpdate = true;
+      }
+
+      // ── Country label on zoom ──
+      // camDist already computed above for marker size cap
+      if (camDist < ZOOM_THRESHOLD && countryLookup.length) {
+        // Ray from camera through screen center → globe surface
+        const centerNdc = new THREE.Vector3(0, 0, 0.5);
+        centerNdc.unproject(camera);
+        const rayDir = centerNdc.sub(camera.position).normalize();
+        const globeCenter = new THREE.Vector3(0, -0.8, 0);
+        const toCam = new THREE.Vector3().copy(camera.position).sub(globeCenter);
+        const a = rayDir.dot(rayDir);
+        const b = 2 * rayDir.dot(toCam);
+        const c = toCam.dot(toCam) - R * R;
+        const disc = b * b - 4 * a * c;
+        if (disc >= 0) {
+          const t = (-b - Math.sqrt(disc)) / (2 * a);
+          if (t > 0) {
+            // World → globe local space (undo rotation + translation)
+            const hitWorld = new THREE.Vector3().copy(camera.position).add(rayDir.clone().multiplyScalar(t));
+            const local = hitWorld.sub(globeCenter).applyQuaternion(globe.quaternion.clone().invert());
+            const nx = local.x / R, ny = local.y / R, nz = local.z / R;
+            const lat = 90 - THREE.MathUtils.radToDeg(Math.acos(Math.min(1, Math.max(-1, ny))));
+            let lon = THREE.MathUtils.radToDeg(Math.atan2(nz, -nx)) - 180;
+            // Normalize to -180..180 so findCountry matches country bboxes correctly
+            while (lon < -180) lon += 360;
+            while (lon > 180) lon -= 360;
+            const country = findCountry(lon, lat);
+            if (country && country !== lastCountryLabel) {
+              countryNameEl.textContent = country.name;
+              countryCountEl.textContent = country.count + ' article' + (country.count !== 1 ? 's' : '');
+              countryLabelEl.classList.add('visible');
+              lastCountryLabel = country;
+            } else if (!country && lastCountryLabel) {
+              countryLabelEl.classList.remove('visible');
+              lastCountryLabel = null;
+            }
+          }
+        }
+      } else if (lastCountryLabel) {
+        countryLabelEl.classList.remove('visible');
+        lastCountryLabel = null;
+      }
+
+      // ── Country label sprite opacity & size by zoom ──
+      const labelGroup = window._countryLabels;
+      if (labelGroup) {
+        const globeCenter = new THREE.Vector3(0, -0.8, 0);
+        labelGroup.children.forEach(sprite => {
+          // Compute world position via globe's world matrix
+          const worldPos = new THREE.Vector3();
+          worldPos.copy(sprite.position);
+          globe.localToWorld(worldPos);
+          // Check if on front face
+          const toSprite = new THREE.Vector3().copy(worldPos).sub(globeCenter);
+          const toCam = new THREE.Vector3().copy(camera.position).sub(globeCenter);
+          const facing = toSprite.dot(toCam);
+          // Front face only
+          if (facing <= 0) { sprite.material.opacity = 0; return; }
+
+          // Project to screen to check visible size
+          worldPos.project(camera);
+          const screenX = (worldPos.x * 0.5 + 0.5) * window.innerWidth;
+          const screenY = (-worldPos.y * 0.5 + 0.5) * window.innerHeight;
+          // Skip if outside viewport (with margin)
+          if (screenX < -300 || screenX > window.innerWidth + 300 ||
+              screenY < -300 || screenY > window.innerHeight + 300) {
+            sprite.material.opacity = 0; return;
+          }
+
+          // Compute screen-space label width (approximate)
+          const spriteWorldSize = sprite.userData.baseScale || sprite.scale.x;
+          const labelWidth = spriteWorldSize * 600 / camDist; // ~pixels on screen
+          // Hide if label would be wider than 35% of viewport
+          if (labelWidth > window.innerWidth * 0.35) {
+            sprite.material.opacity = 0; return;
+          }
+
+          // Distance fade: labels visible across full zoom range
+          const opacity = Math.min(0.85, Math.max(0.12,
+            1 - Math.abs(camDist - 8) / 14
+          ));
+          sprite.material.opacity = opacity;
+
+          // Larger screen size for readability across zoom levels
+          const screenScale = 0.5 + 0.5 * Math.min(1, labelWidth / 140);
+          const finalScale = spriteWorldSize * screenScale * 0.45;
+          // Skip if label would be too small to read (< 0.5 world units)
+          if (finalScale < 0.5) { sprite.material.opacity = 0; return; }
+          sprite.scale.set(finalScale, finalScale * 0.30, 1);
+        });
+      }
 
       controls.update();
       renderer.render(scene, camera);

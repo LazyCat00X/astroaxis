@@ -110,17 +110,25 @@ def parse_date(entry):
 
 def classify_article(title, summary, source_name, category):
     """Assign a topic tag based on keywords."""
+    import re
     t = (title or "") + " " + (summary or "")
     t_lower = t.lower()
-    
+
+    def match_text(keyword):
+        """Match with word boundaries for short keywords, substring for long."""
+        if len(keyword) <= 3:
+            # Short keywords need word boundaries to avoid false positives
+            return bool(re.search(r'\b' + re.escape(keyword) + r'\b', t_lower))
+        return keyword in t_lower
+
     topics = {
         "Bitcoin": ["bitcoin", "btc", "satoshi"],
-        "Ethereum": ["ethereum", "eth", "vitalik"],
+        "Ethereum": ["ethereum", "vitalik", "以太坊"],
         "DeFi": ["defi", "lending", "liquidity", "yield", "compound", "aave", "uniswap"],
         "NFT": ["nft", "nfts", "collectible"],
         "Regulation": ["sec", "regulation", "cftc", "compliance", "lawsuit", "legal"],
         "Policy": ["fed", "federal reserve", "interest rate", "inflation", "monetary"],
-        "AI": ["ai", "artificial intelligence", "gpt", "llm", "machine learning", "deep learning"],
+        "AI": ["artificial intelligence", "gpt", "llm", "machine learning", "deep learning", "neural network"],
         "Trading": ["trading", "market", "price", "volatility", "arbitrage"],
         "Macro": ["economy", "gdp", "recession", "jobs", "employment", "treasury"],
         "World": ["world", "global", "international", "diplomatic", "foreign"],
@@ -130,10 +138,10 @@ def classify_article(title, summary, source_name, category):
         "Sports": ["sports", "sport", "soccer", "football", "olympic", "nba", "tennis", "athlete"],
         "Entertainment": ["entertainment", "movie", "film", "music", "celebrity", "tv", "television", "hollywood"],
     }
-    
+
     for topic, keywords in topics.items():
         for kw in keywords:
-            if kw in t_lower:
+            if match_text(kw):
                 return topic
     return category.capitalize()
 

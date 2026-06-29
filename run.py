@@ -21,7 +21,7 @@ log = logging.getLogger("pipeline")
 
 
 def run():
-    log.info("=== ChainLens Pipeline Start ===")
+    log.info("=== AstroAxis Pipeline Start ===")
 
     # Step 1: Crawl
     log.info("--- Step 1: Crawling feeds ---")

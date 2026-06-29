@@ -1,63 +1,126 @@
 #!/usr/bin/env python3
-"""LLM summarizer — summarize + translate articles to Traditional Chinese."""
-
-import json
-import logging
-import os
-import time
+"""AstroAxis pipeline: Verify -> Neutralize -> Multi-language -> Source."""
+import json, logging, os, time
 from pathlib import Path
-
 import requests
 
 DATA_DIR = Path(__file__).parent / "data"
 ARTICLES_FILE = DATA_DIR / "articles.json"
+log = logging.getLogger("pipeline")
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-)
-log = logging.getLogger("summarizer")
-
-# DeepSeek API
 API_URL = "https://api.deepseek.com/v1/chat/completions"
-
-# Read API key from .env
-API_KEY = ""
-env_paths = [
-    Path(__file__).parent.parent.parent / ".hermes-luna" / ".env",
-    Path.home() / ".hermes-luna" / ".env",
-]
-for env_file in env_paths:
-    if env_file.exists():
-        with open(env_file) as f:
-            for line in f:
-                if line.startswith("DEEPSEEK_API_KEY="):
-                    API_KEY = line.split("=", 1)[1].strip()
-                    break
-    if API_KEY:
-        break
-
 MODEL = "deepseek-v4-flash"
-MAX_ARTICLES_PER_RUN = int(os.environ.get("MAX_ARTICLES_PER_RUN", "30"))
+MAX_PER_RUN = int(os.environ.get("MAX_ARTICLES_PER_RUN", "10"))
 
-SYSTEM_PROMPT = """You are a professional financial news translator and summarizer. Your task:
+def get_api_key():
+    KEY = ""
+    for p in [Path(__file__).parent / ".env",
+              Path(__file__).parent.parent.parent / ".hermes-luna" / ".env",
+              Path.home() / ".hermes-luna" / ".env"]:
+        if p.exists():
+            with open(p) as f:
+                for line in f:
+                    if line.startswith("DEEPSEEK_API_KEY="):
+                        KEY = line.split("=", 1)[1].strip()
+                        break
+        if KEY:
+            break
+    return KEY
 
-1. Read the article title and content
-2. Write a concise 3-5 bullet point summary in Traditional Chinese (香港繁體)
-3. Keep each bullet point under 80 characters (Chinese characters)
-4. Focus on key facts: what happened, why it matters, market impact
-5. Be objective and factual — no editorializing
-6. If the article is in Chinese, still summarize in Traditional Chinese
-7. Include the original title in English (if English) or Chinese (if Chinese)
+API_KEY = get_api_key()
 
-Output format:
-Original Title: <original title>
-Summary:
-• <point 1>
-• <point 2>
-• <point 3>
-"""
+def call(system, user, temp=0.2, max_tok=500):
+    if not API_KEY:
+        return None
+    payload = {"model": MODEL, "temperature": temp, "max_tokens": max_tok,
+               "messages": [{"role": "system", "content": system},
+                            {"role": "user", "content": user}]}
+    for _ in range(2):
+        try:
+            r = requests.post(API_URL, json=payload,
+                headers={"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}, timeout=60)
+            r.raise_for_status()
+            return r.json()["choices"][0]["message"]["content"].strip()
+        except Exception as e:
+            log.warning("API error: %s", e)
+            time.sleep(5)
+    return None
 
+# ── Step 1: Verify ──
+VERIFY = """You are a fact-checker. Assess the article:
+1. Source credibility
+2. Specific evidence/citations
+3. Opinion vs reporting
+4. Loaded language
+Output EXACTLY:
+Credibility: HIGH|MEDIUM|LOW|UNVERIFIABLE
+Reasoning: <1-2 sentences>
+Has_Citations: YES|NO
+Is_Opinion: YES|NO
+Bias_Flag: YES|NO"""
+
+# ── Step 2: Neutralize ──
+NEUTRAL = """Rewrite ONLY the verifiable facts from this article in strictly neutral language:
+- No emotional words
+- No editorial opinions  
+- No speculation
+- Keep only: who, what, when, where
+- Max 120 words
+- Output the neutral text only, no headers"""
+
+# ── Step 3: Multi-language ──
+MULTI = """Translate this neutral news summary into ALL 5 languages. Keep facts identical.
+
+[zh-HK]
+• <Traditional Chinese>
+
+[EN]
+• <English>
+
+[zh-CN]
+• <Simplified Chinese>
+
+[JA]
+• <Japanese>
+
+[KO]
+• <Korean>"""
+
+def verify(title, text):
+    t = text[:4000] if text else ""
+    result = call(VERIFY, f"Title: {title}\n\n{t}", 0.1, 250)
+    if not result:
+        return {"credibility": "ERROR"}
+    out = {}
+    for line in result.split("\n"):
+        if ":" in line:
+            k, v = line.split(":", 1)
+            out[k.strip()] = v.strip()
+    return out
+
+def neutralize(title, text):
+    t = text[:5000] if text else ""
+    result = call(NEUTRAL, f"Title: {title}\n\n{t}", 0.15, 400)
+    return result or "(neutralize failed)"
+
+def translate(neutral, title):
+    result = call(MULTI, f"Title: {title}\n\nNeutral:\n{neutral}", 0.2, 700)
+    if not result:
+        return {"zh-HK": neutral}
+    langs = {}; cur = None
+    for line in result.split("\n"):
+        ls = line.strip()
+        if ls.startswith("[zh-HK]"): cur = "zh-HK"
+        elif ls.startswith("[EN]"): cur = "en"
+        elif ls.startswith("[zh-CN]"): cur = "zh-CN"
+        elif ls.startswith("[JA]"): cur = "ja"
+        elif ls.startswith("[KO]"): cur = "ko"
+        elif cur and ls:
+            langs[cur] = (langs.get(cur, "") + "\n" + ls).strip()
+    if "zh-HK" not in langs or not langs["zh-HK"]:
+        return {"zh-HK": result}
+    return langs
 
 def load_articles():
     if ARTICLES_FILE.exists():
@@ -65,99 +128,57 @@ def load_articles():
             return json.load(f)
     return []
 
-
 def save_articles(articles):
     ARTICLES_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(ARTICLES_FILE, "w") as f:
         json.dump(articles, f, ensure_ascii=False, indent=2)
 
-
-def summarize_text(title, text, max_retries=2):
-    """Call DeepSeek API to summarize + translate."""
-    if not API_KEY:
-        log.error("No API key found")
-        return None
-
-    # Truncate text to avoid token limits
-    if len(text) > 6000:
-        text = text[:6000] + "..."
-
-    payload = {
-        "model": MODEL,
-        "messages": [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": f"Title: {title}\n\nContent:\n{text}"}
-        ],
-        "temperature": 0.3,
-        "max_tokens": 500,
-    }
-
-    headers = {
-        "Authorization": f"Bearer {API_KEY}",
-        "Content-Type": "application/json",
-    }
-
-    for attempt in range(max_retries):
-        try:
-            resp = requests.post(API_URL, json=payload, headers=headers, timeout=60)
-            resp.raise_for_status()
-            data = resp.json()
-            content = data["choices"][0]["message"]["content"]
-            return content.strip()
-        except requests.exceptions.Timeout:
-            log.warning("Timeout on attempt %d/%d", attempt + 1, max_retries)
-            if attempt < max_retries - 1:
-                time.sleep(5)
-        except Exception as e:
-            log.error("API error: %s", e)
-            if attempt < max_retries - 1:
-                time.sleep(5)
-    return None
-
-
 def run():
     articles = load_articles()
     if not articles:
-        log.info("No articles to summarize")
         return 0
-
-    # Find unsummarized articles, prioritize recent ones
-    pending = [a for a in articles if not a.get("summarized")]
+    pending = [a for a in articles if not a.get("summarized") or a.get("needs_multilang")]
     pending.sort(key=lambda a: a.get("published", ""), reverse=True)
-    pending = pending[:MAX_ARTICLES_PER_RUN]
-
+    pending = pending[:MAX_PER_RUN]
     if not pending:
-        log.info("All articles already summarized")
+        log.info("All done")
         return 0
-
     count = 0
-    for article in pending:
-        text = article.get("full_text", "") or article.get("summary", "")
-        title = article.get("title", "")
-
+    for art in pending:
+        text = art.get("full_text", "") or art.get("summary", "")
+        title = art.get("title", "")
+        url = art.get("url", "")
         if not text:
-            log.info("No text for: %s", title)
-            article["summarized"] = True
-            article["ai_summary"] = "(no content available)"
+            art["summarized"] = True
+            art["ai_summary"] = "(no content)"
             continue
-
-        log.info("Summarizing: %s", title[:60])
-        result = summarize_text(title, text)
-
-        if result:
-            article["ai_summary"] = result
-            article["summarized"] = True
+        log.info("── %s ──", title[:50])
+        log.info("  Step 1/3: Verify")
+        v = verify(title, text)
+        art["verification"] = v
+        cred = v.get("Credibility", "UNKNOWN")
+        log.info("    -> %s", cred)
+        if cred in ("LOW", "UNVERIFIABLE"):
+            art["summarized"] = True
+            art["ai_summary"] = f"[Skipped: {cred}]"
+            art["summaries"] = {"zh-HK": f"[此文可信度評級為 {cred}，暫不處理]"}
             count += 1
-        else:
-            log.warning("Failed to summarize: %s", title[:60])
-
-        # Rate limit: 1 request every 2 seconds
+            continue
+        log.info("  Step 2/3: Neutralize")
+        neutral = neutralize(title, text)
+        art["neutral_text"] = neutral
+        log.info("  Step 3/3: Translate")
+        summaries = translate(neutral, title)
+        art["summaries"] = summaries
+        art["ai_summary"] = summaries.get("zh-HK", summaries.get("en", ""))
+        art["summarized"] = True
+        art["source_url"] = url
+        log.info("  ✅ %s", ", ".join(summaries.keys()))
+        count += 1
         time.sleep(2)
-
     save_articles(articles)
-    log.info("Summarized %d articles", count)
+    log.info("Done: %d articles", count)
     return count
-
 
 if __name__ == "__main__":
     run()
