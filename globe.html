@@ -720,6 +720,12 @@
 
 <!-- 3D History Timeline Panel -->
 <div id="history3d-view" class="view-panel" role="tabpanel" aria-label="3D History timeline view">
+  <div id="history3d-loading" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:2;pointer-events:none">
+    <div style="text-align:center">
+      <div style="font-size:32px;margin-bottom:10px">🔄</div>
+      <div style="color:rgba(238,247,255,.5);font-size:13px;letter-spacing:.06em">Loading 3D History...</div>
+    </div>
+  </div>
   <canvas id="history3d-canvas" role="application" aria-label="Interactive 3D history timeline. Use scroll to zoom, drag to rotate."></canvas>
   <div id="history3d-tooltip" class="article-tooltip" role="status" aria-live="polite"></div>
   <div id="history3d-hud" style="position:absolute;top:60px;left:20px;z-index:5;pointer-events:none">
@@ -891,7 +897,14 @@
         return true;
       });
       if (!filtered.length) { document.getElementById('feed-content').innerHTML = `<h2 style="font-size:24px;font-weight:700;margin-bottom:20px;background:linear-gradient(135deg,#67e8f9,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent">${I18N[currentLang]?.['feed.title'] || 'AstroAxis Feed'}</h2><p style="color:rgba(136,136,160,0.7);text-align:center;padding:40px">No matching articles.</p>`; return; }
-      let html = `<h2 style="font-size:24px;font-weight:700;margin-bottom:20px;background:linear-gradient(135deg,#67e8f9,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent">${I18N[currentLang]?.['feed.title'] || 'AstroAxis Feed'}</h2><div class="feed-grid">`;
+      let html = `<h2 style="font-size:24px;font-weight:700;margin-bottom:8px;background:linear-gradient(135deg,#67e8f9,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent">${I18N[currentLang]?.['feed.title'] || 'AstroAxis Feed'}</h2>`;
+      // Active filter pills
+      const pills = [];
+      if(activeFilters.topic !== 'All') pills.push(`<span style="display:inline-block;padding:2px 10px;border-radius:999px;font-size:11px;background:rgba(34,211,238,.15);color:#67e8f9;border:1px solid rgba(34,211,238,.3);margin-right:4px">${activeFilters.topic}</span>`);
+      if(activeFilters.time !== 'all') pills.push(`<span style="display:inline-block;padding:2px 10px;border-radius:999px;font-size:11px;background:rgba(99,102,241,.15);color:#a78bfa;border:1px solid rgba(99,102,241,.3);margin-right:4px">${activeFilters.time.toUpperCase()}</span>`);
+      if(activeFilters.region !== 'All') pills.push(`<span style="display:inline-block;padding:2px 10px;border-radius:999px;font-size:11px;background:rgba(245,158,11,.15);color:#f59e0b;border:1px solid rgba(245,158,11,.3);margin-right:4px">${activeFilters.region}</span>`);
+      if(pills.length){ html += `<div style="margin-bottom:16px">${pills.join('')} · ${filtered.length} result${filtered.length!==1?'s':''}</div>`; }
+      html += `<div class="feed-grid">`;
       filtered.slice(0, 50).forEach(a => {
         const biasScore = a.bias_score || 0;
         const biasCls = biasScore === 0 ? 'bias-low' : biasScore < 3 ? 'bias-med' : 'bias-high';
@@ -950,6 +963,9 @@
 
       const canvas = document.getElementById('history3d-canvas');
       if (!canvas || !window.THREE) return;
+      // Hide loading indicator
+      const loadingEl = document.getElementById('history3d-loading');
+      if(loadingEl) loadingEl.style.display = 'none';
 
       const RECENT_YEARS = [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017];
       const yearSet = new Set(RECENT_YEARS);
@@ -1456,6 +1472,9 @@
         history3D.scene = null;
       }
       history3D = null;
+      // Restore loading indicator for next visit
+      const loadingEl = document.getElementById('history3d-loading');
+      if(loadingEl) loadingEl.style.display = 'flex';
     }
 
     // Update nav click handler to init/stop 3D History
