@@ -140,6 +140,41 @@
     .filter-btn[data-filter-type="topic"][data-filter-value="AI"].active { border-color: rgba(59, 130, 246, 0.85); box-shadow: 0 0 20px rgba(59, 130, 246, 0.2); }
     .filter-btn[data-filter-type="topic"][data-filter-value="Regulation"].active { border-color: rgba(239, 68, 68, 0.85); box-shadow: 0 0 20px rgba(239, 68, 68, 0.2); }
 
+    /* ── Keyboard focus styles ── */
+    :focus-visible {
+      outline: 2px solid #67e8f9;
+      outline-offset: 2px;
+      border-color: #67e8f9 !important;
+    }
+    .filter-btn:focus-visible,
+    .nav-btn:focus-visible,
+    .lang-btn:focus-visible,
+    .lang-option:focus-visible,
+    .hud-toggle:focus-visible {
+      outline: 2px solid #67e8f9;
+      outline-offset: 2px;
+      z-index: 25;
+      position: relative;
+    }
+    .feed-card h3 a:focus-visible {
+      outline: 2px solid #67e8f9;
+      outline-offset: 3px;
+      border-radius: 4px;
+    }
+    /* Skip hidden panels */
+    .view-panel:not(.active) :focus-visible {
+      outline: none !important;
+    }
+    /* Screen-reader only utility */
+    .sr-only {
+      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+    }
+    #a11y-live {
+      position: fixed; top: 0; left: 0; width: 1px; height: 1px;
+      overflow: hidden; clip: rect(0,0,0,0); z-index: -1;
+    }
+
     .article-tooltip {
       position: fixed;
       left: 0;
@@ -536,21 +571,48 @@
 </head>
 <body>
 
+<!-- Loading Spinner -->
+<div id="loading-overlay" style="position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;background:#02030a;transition:opacity .5s">
+<div style="text-align:center">
+<svg width="64" height="64" viewBox="0 0 64 64" style="animation:spin .8s linear infinite"><circle cx="32" cy="32" r="28" fill="none" stroke="url(#g)" stroke-width="3" stroke-dasharray="120 56"/><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#67e8f9"/><stop offset="50%" stop-color="#6366f1"/><stop offset="100%" stop-color="#a78bfa"/></linearGradient></defs></svg>
+<div style="color:rgba(238,247,255,.6);font-size:13px;margin-top:18px;letter-spacing:.08em">ASTROAXIS</div>
+<div id="loading-status" style="color:rgba(136,146,182,.5);font-size:11px;margin-top:6px">Initializing globe...</div>
+</div>
+</div>
+@keyframes spin {to{transform:rotate(360deg)}}
+
+<!-- Onboarding Tutorial Overlay -->
+<div id="onboarding-overlay" style="display:none;position:fixed;inset:0;z-index:99;background:rgba(2,3,10,.88);backdrop-filter:blur(6px);align-items:center;justify-content:center;flex-direction:column;gap:14px">
+<div style="max-width:420px;text-align:center;padding:32px 28px;border:1px solid rgba(103,232,249,.24);border-radius:24px;background:linear-gradient(180deg,rgba(7,10,22,.94),rgba(3,6,16,.88))">
+<div style="font-size:40px;margin-bottom:10px">🌍</div>
+<h2 style="font-size:22px;font-weight:700;background:linear-gradient(135deg,#67e8f9,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:14px">Welcome to AstroAxis</h2>
+<div id="onboarding-steps" style="color:rgba(228,228,236,.78);font-size:14px;line-height:2;margin-bottom:10px">
+  <div>🖱 <b>Drag</b> to rotate the globe</div>
+  <div>🔍 <b>Scroll</b> to zoom in/out</div>
+  <div>📍 <b>Click markers</b> to read full stories</div>
+  <div>🔽 <b>Bottom bar</b> to filter by topic & time</div>
+  <div>📑 <b>Top tabs</b> to switch views</div>
+  <div>☆ <b>Bookmark</b> articles to save</div>
+</div>
+<button id="onboarding-close" style="background:rgba(34,211,238,.15);border:1px solid rgba(34,211,238,.5);color:#eaffff;border-radius:999px;padding:10px 36px;cursor:pointer;font:inherit;font-size:14px;font-weight:600;transition:all .2s" onmouseover="this.style.background='rgba(34,211,238,.25)'" onmouseout="this.style.background='rgba(34,211,238,.15)'">Got it! →</button>
+</div>
+</div>
+
 <!-- Top Navigation -->
-<nav class="top-nav">
+<nav class="top-nav" role="tablist" aria-label="View navigation">
   <span class="logo">◆ AstroAxis</span>
-  <button class="nav-btn active" data-view="globe" data-i18n="nav.globe">Globe</button>
-  <button class="nav-btn" data-view="timeline" data-i18n="nav.timeline">Timeline</button>
-  <button class="nav-btn" data-view="feed" data-i18n="nav.feed">Feed</button>
-  <button class="nav-btn" data-view="history3d" data-i18n="nav.history3d">3D History</button>
+  <button class="nav-btn active" data-view="globe" data-i18n="nav.globe" role="tab" aria-selected="true" tabindex="0">Globe</button>
+  <button class="nav-btn" data-view="timeline" data-i18n="nav.timeline" role="tab" aria-selected="false" tabindex="-1">Timeline</button>
+  <button class="nav-btn" data-view="feed" data-i18n="nav.feed" role="tab" aria-selected="false" tabindex="-1">Feed</button>
+  <button class="nav-btn" data-view="history3d" data-i18n="nav.history3d" role="tab" aria-selected="false" tabindex="-1">3D History</button>
   <div style="position:relative;margin-left:auto">
-    <button class="lang-btn" id="langBtn">🌐 繁</button>
-    <div class="lang-dropdown" id="langDropdown">
-      <button class="lang-option" data-lang="en">English</button>
-      <button class="lang-option active" data-lang="zh-HK">繁體中文</button>
-      <button class="lang-option" data-lang="zh-CN">简体中文</button>
-      <button class="lang-option" data-lang="ja">日本語</button>
-      <button class="lang-option" data-lang="ko">한국어</button>
+    <button class="lang-btn" id="langBtn" aria-haspopup="listbox" aria-expanded="false" aria-label="Select language">🌐 繁</button>
+    <div class="lang-dropdown" id="langDropdown" role="listbox" aria-label="Language selection">
+      <button class="lang-option" data-lang="en" role="option" aria-selected="false">English</button>
+      <button class="lang-option active" data-lang="zh-HK" role="option" aria-selected="true">繁體中文</button>
+      <button class="lang-option" data-lang="zh-CN" role="option" aria-selected="false">简体中文</button>
+      <button class="lang-option" data-lang="ja" role="option" aria-selected="false">日本語</button>
+      <button class="lang-option" data-lang="ko" role="option" aria-selected="false">한국어</button>
     </div>
   </div>
 </nav>
@@ -560,10 +622,10 @@
   ⚠️ <strong data-i18n="alert.breaking">BREAKING:</strong> <span id="breachText">Major event detected</span><span id="breachSource" style="color:rgba(255,255,255,0.4);font-weight:400;font-size:13px"></span>
 </div>
 
-<div id="globe-view" class="view-panel active">
+<div id="globe-view" class="view-panel active" role="tabpanel" aria-label="Globe view">
   <main id="hero" aria-label="AstroAxis hologram globe hero">
-    <canvas id="globe-canvas"></canvas>
-    <section class="hud" id="hud-panel" aria-hidden="true">
+    <canvas id="globe-canvas" role="application" aria-label="Interactive 3D globe with news markers. Use keyboard arrows to rotate, +/- to zoom, and Tab to navigate filters."></canvas>
+    <section class="hud" id="hud-panel">
       <div id="hud-content">
       <div class="hud-content-inner">
       <div class="eyebrow" data-i18n="hud.eyebrow">LIVE SIGNAL MAP</div>
@@ -608,30 +670,33 @@
 </div><!-- /globe-view -->
 
 <!-- Timeline Panel -->
-<div id="timeline-view" class="view-panel">
+<div id="timeline-view" class="view-panel" role="tabpanel" aria-label="Timeline view">
   <div id="timeline-content" style="max-width:800px;margin:0 auto;padding-top:16px">
     <div class="timeline-year"><h2>⏳ Loading timeline...</h2></div>
   </div>
 </div>
 
 <!-- Feed Panel -->
-<div id="feed-view" class="view-panel">
+<div id="feed-view" class="view-panel" role="tabpanel" aria-label="News feed view">
   <div id="feed-content" style="max-width:900px;margin:0 auto;padding-top:16px">
     <p style="color:rgba(136,136,160,0.7);text-align:center;padding:40px">Loading articles...</p>
   </div>
 </div>
 
 <!-- 3D History Timeline Panel -->
-<div id="history3d-view" class="view-panel">
-  <canvas id="history3d-canvas"></canvas>
+<div id="history3d-view" class="view-panel" role="tabpanel" aria-label="3D History timeline view">
+  <canvas id="history3d-canvas" role="application" aria-label="Interactive 3D history timeline. Use scroll to zoom, drag to rotate."></canvas>
   <div id="history3d-tooltip" class="article-tooltip" role="status" aria-live="polite"></div>
   <div id="history3d-hud" style="position:absolute;top:60px;left:20px;z-index:5;pointer-events:none">
-    <div id="history3d-year-label" style="font-size:14px;color:#8892b6;font-weight:600;letter-spacing:.08em">1900 — 2026</div>
+    <div id="history3d-year-label" style="font-size:14px;color:#8892b6;font-weight:600;letter-spacing:.08em"></div>
   </div>
-  <div style="position:absolute;bottom:30px;left:50%;transform:translateX(-50%);z-index:5;font-size:11px;color:rgba(136,136,160,0.5);letter-spacing:.06em;pointer-events:none">
+  <div style="position:absolute;bottom:30px;left:50%;transform:translateX(-50%);z-index:5;font-size:11px;color:rgba(136,136,160,0.5);letter-spacing:.06em;pointer-events:none" data-i18n="history3d.hint">
     DRAG TO ROTATE · SCROLL TO ZOOM · HOVER FOR DETAILS
   </div>
 </div>
+
+<!-- Screen reader announcements (visually hidden) -->
+<div id="a11y-live" aria-live="polite" aria-atomic="true"></div>
 
   <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
@@ -652,6 +717,9 @@
         'hint.drag':'DRAG TO ROTATE · CLICK MARKERS FOR FULL STORY','hint.scroll':'↓ scroll for articles',
         'feed.title':'AstroAxis Feed','tl.title':'World History Timeline',
         'alert.breaking':'BREAKING:','bias.none':'Neutral','bias.light':'Slight bias','bias.high':'Biased',
+        'country.articles':'article','country.articles_plural':'articles',
+        'history3d.hint':'DRAG TO ROTATE · SCROLL TO ZOOM · HOVER FOR DETAILS',
+        'history3d.label':'CENTER {year} · OUTER RINGS {years} → {lastYear} · {count} EVENTS',
       },
       'zh-HK': {
         'nav.globe':'全球','nav.timeline':'時間軸','nav.feed':'新聞','nav.history3d':'3D歷史',
@@ -662,6 +730,9 @@
         'hint.drag':'拖拽旋轉 · 點擊標記睇全文','hint.scroll':'↓ 向下睇文章',
         'feed.title':'AstroAxis 新聞','tl.title':'世界歷史時間軸',
         'alert.breaking':'緊急：','bias.none':'中立','bias.light':'略帶偏頗','bias.high':'偏頗',
+        'country.articles':'篇文章','country.articles_plural':'篇文章',
+        'history3d.hint':'拖拽旋轉 · 滾輪縮放 · 懸停睇詳情',
+        'history3d.label':'中心 {year} · 外環 {years} → {lastYear} · {count} 事件',
       },
       'zh-CN': {
         'nav.globe':'全球','nav.timeline':'时间轴','nav.feed':'新闻','nav.history3d':'3D历史',
@@ -672,6 +743,9 @@
         'hint.drag':'拖拽旋转 · 点击标记看全文','hint.scroll':'↓ 向下看文章',
         'feed.title':'AstroAxis 新闻','tl.title':'世界历史时间轴',
         'alert.breaking':'紧急：','bias.none':'中立','bias.light':'略有偏见','bias.high':'有偏见',
+        'country.articles':'篇文章','country.articles_plural':'篇文章',
+        'history3d.hint':'拖拽旋转 · 滚轮缩放 · 悬停看详情',
+        'history3d.label':'中心 {year} · 外环 {years} → {lastYear} · {count} 事件',
       },
       ja: {
         'nav.globe':'世界','nav.timeline':'タイムライン','nav.feed':'ニュース','nav.history3d':'3D史',
@@ -682,6 +756,9 @@
         'hint.drag':'ドラッグで回転 · マーカークリックで全文','hint.scroll':'↓ 記事をスクロール',
         'feed.title':'AstroAxis ニュース','tl.title':'世界史タイムライン',
         'alert.breaking':'速報：','bias.none':'中立','bias.light':'やや偏り','bias.high':'偏りあり',
+        'country.articles':'記事','country.articles_plural':'記事',
+        'history3d.hint':'ドラッグで回転 · スクロールでズーム · ホバーで詳細',
+        'history3d.label':'中心 {year} · 外側リング {years} → {lastYear} · {count} イベント',
       },
       ko: {
         'nav.globe':'세계','nav.timeline':'타임라인','nav.feed':'뉴스','nav.history3d':'3D역사',
@@ -692,6 +769,9 @@
         'hint.drag':'드래그 회전 · 마커 클릭으로 전체 기사','hint.scroll':'↓ 기사 스크롤',
         'feed.title':'AstroAxis 뉴스','tl.title':'세계 역사 타임라인',
         'alert.breaking':'속보：','bias.none':'중립','bias.light':'약간 편향','bias.high':'편향',
+        'country.articles':'기사','country.articles_plural':'기사',
+        'history3d.hint':'드래그 회전 · 스크롤 줌 · 호버 상세',
+        'history3d.label':'중심 {year} · 바깥 링 {years} → {lastYear} · {count} 이벤트',
       },
     };
     const LANG_LABELS = {en:'EN','zh-HK':'繁','zh-CN':'简','ja':'日','ko':'한'};
@@ -708,16 +788,26 @@
     }
 
     document.getElementById('langBtn').addEventListener('click', () => {
-      document.getElementById('langDropdown').classList.toggle('open');
+      const dd = document.getElementById('langDropdown');
+      const isOpen = dd.classList.toggle('open');
+      document.getElementById('langBtn').setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      if (isOpen) dd.querySelector('.lang-option.active')?.focus();
     });
     document.querySelectorAll('.lang-option').forEach(opt => {
       opt.addEventListener('click', () => {
         currentLang = opt.dataset.lang;
         localStorage.setItem('astrolang', currentLang);
-        document.querySelectorAll('.lang-option').forEach(o => o.classList.remove('active'));
+        document.querySelectorAll('.lang-option').forEach(o => {
+          o.classList.remove('active');
+          o.setAttribute('aria-selected', 'false');
+        });
         opt.classList.add('active');
+        opt.setAttribute('aria-selected', 'true');
+        document.documentElement.lang = currentLang;
         document.getElementById('langDropdown').classList.remove('open');
+        document.getElementById('langBtn').setAttribute('aria-expanded', 'false');
         applyLanguage();
+        a11yAnnounce('Language changed to ' + (LANG_LABELS[currentLang] || currentLang));
       });
     });
 
@@ -842,7 +932,13 @@
 
       const hudLabel = document.getElementById('history3d-year-label');
       if (hudLabel) {
-        hudLabel.textContent = `CENTER 2026 · OUTER RINGS 2025 → 2022 · ${events.length} EVENTS`;
+        const t = I18N[currentLang] || I18N['zh-HK'];
+        const yearsList = RECENT_YEARS.slice(1).join(' → ');
+        hudLabel.textContent = (t['history3d.label'] || 'CENTER {year} · OUTER RINGS {years} → {lastYear} · {count} EVENTS')
+          .replace('{year}', RECENT_YEARS[0])
+          .replace('{years}', yearsList)
+          .replace('{lastYear}', RECENT_YEARS[RECENT_YEARS.length - 1])
+          .replace('{count}', events.length);
       }
 
       const root = canvas.parentElement || canvas;
@@ -1328,17 +1424,95 @@
     // Update nav click handler to init/stop 3D History
     document.querySelectorAll('.nav-btn').forEach(btn => {
       btn.addEventListener('click', () => {
-        document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.nav-btn').forEach(b => {
+          b.classList.remove('active');
+          b.setAttribute('aria-selected', 'false');
+          b.tabIndex = -1;
+        });
         btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
+        btn.tabIndex = 0;
+        btn.focus();
         document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
         const view = document.getElementById(btn.dataset.view + '-view');
         if (view) view.classList.add('active');
         if (btn.dataset.view === 'globe' && typeof animate === 'function') { if (window._animId) cancelAnimationFrame(window._animId); animate(); }
         if (btn.dataset.view === 'history3d') { initHistory3D(); }
         else { stopHistory3D(); }
+        // Screen reader announcement
+        const t = I18N[currentLang] || I18N['zh-HK'];
+        const viewName = btn.textContent.trim();
+        a11yAnnounce('Switched to ' + viewName + ' view');
       });
     });
-    setTimeout(() => { applyLanguage(); checkBreaking(); setInterval(checkBreaking, 300000); }, 100);
+
+    // ── A11y announcement helper ──
+    function a11yAnnounce(msg) {
+      const el = document.getElementById('a11y-live');
+      if (!el) return;
+      el.textContent = '';
+      requestAnimationFrame(() => { el.textContent = msg; });
+    }
+
+    // ── Keyboard navigation ──
+    document.addEventListener('keydown', (e) => {
+      // Number keys 1-4: switch views
+      const viewMap = { '1': 'globe', '2': 'timeline', '3': 'feed', '4': 'history3d' };
+      if (e.key in viewMap && !e.ctrlKey && !e.metaKey && !e.altKey) {
+        const target = viewMap[e.key];
+        const btn = document.querySelector(`.nav-btn[data-view="${target}"]`);
+        if (btn && !btn.classList.contains('active')) { btn.click(); e.preventDefault(); }
+        return;
+      }
+
+      // Escape: close tooltip, sticky picker, lang dropdown
+      if (e.key === 'Escape') {
+        const dd = document.getElementById('langDropdown');
+        if (dd && dd.classList.contains('open')) {
+          dd.classList.remove('open');
+          document.getElementById('langBtn').setAttribute('aria-expanded', 'false');
+          e.preventDefault();
+          return;
+        }
+        stickyTooltip = null;
+        hoveredIdx = -1;
+        hoveredData = null;
+        const tt = document.getElementById('article-tooltip');
+        if (tt) tt.classList.remove('visible');
+        if (!controls.autoRotate) controls.autoRotate = true;
+        e.preventDefault();
+        return;
+      }
+
+      // Arrow keys on globe view: rotate globe via OrbitControls
+      const globeView = document.getElementById('globe-view');
+      if (globeView && globeView.classList.contains('active')) {
+        const step = 0.08;
+        if (e.key === 'ArrowLeft') { controls.target.y += step * 1.2; e.preventDefault(); }
+        if (e.key === 'ArrowRight') { controls.target.y -= step * 1.2; e.preventDefault(); }
+        if (e.key === 'ArrowUp') { controls.target.x -= step * 1.5; e.preventDefault(); }
+        if (e.key === 'ArrowDown') { controls.target.x += step * 1.5; e.preventDefault(); }
+      }
+
+      // +/- zoom for globe view
+      if (e.key === '+' || e.key === '=') {
+        const camDist = camera.position.distanceTo(controls.target);
+        const newDist = Math.max(controls.minDistance, camDist - 0.5);
+        camera.position.copy(controls.target).add(
+          camera.position.clone().sub(controls.target).normalize().multiplyScalar(newDist)
+        );
+        e.preventDefault();
+      }
+      if (e.key === '-') {
+        const camDist = camera.position.distanceTo(controls.target);
+        const newDist = Math.min(controls.maxDistance, camDist + 0.5);
+        camera.position.copy(controls.target).add(
+          camera.position.clone().sub(controls.target).normalize().multiplyScalar(newDist)
+        );
+        e.preventDefault();
+      }
+    });
+    setTimeout(() => { document.documentElement.lang = currentLang; applyLanguage(); checkBreaking(); setInterval(checkBreaking, 300000); }, 100);
 
     // ── Existing globe code below ──
     // Already available as THREE, THREE.OrbitControls via global
@@ -2543,6 +2717,9 @@
         }
         applyFilter();
         renderFeed();
+        // Screen reader announcement
+        const btnText = button.textContent.trim();
+        a11yAnnounce('Filter: ' + btnText);
       });
     });
     applyFilter();
@@ -2674,7 +2851,9 @@
             const country = findCountry(lon, lat);
             if (country && country !== lastCountryLabel) {
               countryNameEl.textContent = country.name;
-              countryCountEl.textContent = country.count + ' article' + (country.count !== 1 ? 's' : '');
+              const t = I18N[currentLang] || I18N['zh-HK'];
+              const label = country.count === 1 ? (t['country.articles'] || 'article') : (t['country.articles_plural'] || 'articles');
+              countryCountEl.textContent = country.count + ' ' + label;
               countryLabelEl.classList.add('visible');
               lastCountryLabel = country;
             } else if (!country && lastCountryLabel) {
@@ -2741,6 +2920,108 @@
       renderer.render(scene, camera);
       requestAnimationFrame(animate);
     }
+
+    // ── Loading Sequence ──
+    (function(){
+      const overlay = document.getElementById('loading-overlay');
+      const status = document.getElementById('loading-status');
+      if(!overlay) return;
+      let steps = ['Loading data...','Building globe...','Rendering markers...'];
+      let i = 0;
+      const tick = setInterval(() => {
+        if(i < steps.length){ status.textContent = steps[i]; i++; }
+      }, 400);
+      const checkReady = () => {
+        if(typeof globeGroup !== 'undefined' && globeGroup && globeGroup.children.length > 0) {
+          clearInterval(tick);
+          overlay.style.opacity = '0';
+          setTimeout(() => { overlay.remove(); }, 600);
+          if(!localStorage.getItem('astroaxis_seen_onboarding')) {
+            setTimeout(() => {
+              const ob = document.getElementById('onboarding-overlay');
+              if(ob){ ob.style.display = 'flex'; }
+            }, 400);
+          }
+          return;
+        }
+        requestAnimationFrame(checkReady);
+      };
+      requestAnimationFrame(checkReady);
+    })();
+
+    // ── Onboarding ──
+    document.getElementById('onboarding-close')?.addEventListener('click', () => {
+      document.getElementById('onboarding-overlay').style.display = 'none';
+      localStorage.setItem('astroaxis_seen_onboarding', '1');
+    });
+
+    // ── Bookmarks (localStorage) ──
+    function getBookmarks(){ try{return JSON.parse(localStorage.getItem('astroaxis_bookmarks')||'[]');}catch(e){return[];} }
+    function saveBookmarks(b){ localStorage.setItem('astroaxis_bookmarks', JSON.stringify(b)); }
+    function toggleBookmark(url, title, source) {
+      let bm = getBookmarks();
+      const idx = bm.findIndex(b => b.url === url);
+      if(idx >= 0){ bm.splice(idx,1); } else { bm.push({url,title,source,time:Date.now()}); }
+      saveBookmarks(bm);
+      renderFeed();
+    }
+    function isBookmarked(url){ return getBookmarks().some(b => b.url === url); }
+    function shareArticle(url, title) {
+      if(navigator.share){ navigator.share({title,url}); }
+      else { navigator.clipboard.writeText(url).then(() => { const t=document.createElement('div');t.textContent='📋 Link copied!';t.style.cssText='position:fixed;bottom:100px;left:50%;transform:translateX(-50%);background:rgba(34,211,238,.2);border:1px solid #67e8f9;border-radius:12px;padding:10px 20px;color:#eaffff;z-index:100;font-size:13px;font-weight:600';document.body.appendChild(t);setTimeout(()=>t.remove(),1500); }).catch(()=>{ window.open(url,'_blank'); }); }
+    }
+
+    // ── renderFeed override with bookmark + share ──
+    const _origRenderFeed = renderFeed;
+    renderFeed = function() {
+      _origRenderFeed();
+      const cards = document.querySelectorAll('#feed-content .feed-card');
+      cards.forEach(card => {
+        const link = card.querySelector('h3 a');
+        if(!link) return;
+        const url = link.href;
+        const title = link.textContent.replace(/'/g,"\\u2019");
+        const meta = card.querySelector('.card-meta');
+        if(!meta || meta.querySelector('.action-btns')) return;
+        const isBm = isBookmarked(url);
+        const btns = document.createElement('span');
+        btns.className = 'action-btns';
+        btns.style.cssText = 'display:flex;gap:6px;align-items:center';
+        const bmBtn = document.createElement('button');
+        bmBtn.className = 'bm-btn';
+        bmBtn.title = 'Bookmark';
+        bmBtn.style.cssText = 'background:transparent;border:1px solid '+(isBm?'rgba(245,158,11,.5)':'rgba(136,136,160,.2)')+';border-radius:14px;color:'+(isBm?'#f59e0b':'rgba(238,247,255,.4)')+';cursor:pointer;font-size:15px;padding:1px 7px;line-height:1.4;transition:all .15s';
+        bmBtn.textContent = isBm ? '★' : '☆';
+        bmBtn.onclick = function(e){ e.preventDefault(); e.stopPropagation(); toggleBookmark(url, title, ''); };
+        const shareBtn = document.createElement('button');
+        shareBtn.className = 'share-btn';
+        shareBtn.title = 'Share';
+        shareBtn.style.cssText = 'background:transparent;border:1px solid rgba(136,136,160,.2);border-radius:14px;color:rgba(238,247,255,.4);cursor:pointer;font-size:14px;padding:1px 7px;line-height:1.4;transition:all .15s';
+        shareBtn.textContent = '↗';
+        shareBtn.onclick = function(e){ e.preventDefault(); e.stopPropagation(); shareArticle(url, title); };
+        btns.appendChild(bmBtn);
+        btns.appendChild(shareBtn);
+        meta.appendChild(btns);
+      });
+    };
+
+    // ── Filter clear-all button ──
+    (function(){
+      const fb = document.querySelector('.filter-bar');
+      if(!fb) return;
+      const clear = document.createElement('button');
+      clear.className = 'filter-btn';
+      clear.textContent = '✕ Clear';
+      clear.style.cssText = 'color:rgba(239,68,68,.7);border-color:rgba(239,68,68,.2)';
+      clear.onclick = () => {
+        document.querySelectorAll('.filter-btn.active').forEach(b => b.classList.remove('active'));
+        document.querySelector('.filter-btn[data-filter-value="All"]')?.classList.add('active');
+        document.querySelector('.filter-btn[data-filter-type="time"][data-filter-value="all"]')?.classList.add('active');
+        activeFilters = {topic:'All',time:'all',region:'All'};
+        renderFeed();
+      };
+      fb.appendChild(clear);
+    })();
 
     animate();
   </script>

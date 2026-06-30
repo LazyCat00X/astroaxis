@@ -10,7 +10,7 @@ log = logging.getLogger("pipeline")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
 API_URL = "https://api.deepseek.com/v1/chat/completions"
-MODEL = "deepseek-v4-flash"
+MODEL = "deepseek-chat"
 MAX_PER_RUN = int(os.environ.get("MAX_ARTICLES_PER_RUN", "10"))
 
 def get_api_key():
@@ -36,14 +36,38 @@ def call(system, user, temp=0.2, max_tok=500):
     payload = {"model": MODEL, "temperature": temp, "max_tokens": max_tok,
                "messages": [{"role": "system", "content": system},
                             {"role": "user", "content": user}]}
-    for _ in range(2):
+    status = 0
+    for attempt in range(5):
         try:
             r = requests.post(API_URL, json=payload,
-                headers={"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}, timeout=60)
+                headers={"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}, timeout=120)
+            status = r.status_code
             r.raise_for_status()
-            return r.json()["choices"][0]["message"]["content"].strip()
+            data = r.json()
+            content = data.get("choices", [{}])[0].get("message", {}).get("content")
+            if content and content.strip():
+                return content.strip()
+            log.warning("API returned empty content (attempt %d/%d)", attempt + 1, 5)
+            if status == 429:
+                time.sleep(15 * (attempt + 1))
+            else:
+                time.sleep(5)
+        except requests.exceptions.HTTPError as e:
+            status = e.response.status_code if e.response is not None else 0
+            log.warning("API error (attempt %d/%d): %s", attempt + 1, 5, e)
+            if status == 429:
+                # Rate limit — exponential backoff
+                time.sleep(15 * (attempt + 1))
+            elif status >= 500:
+                time.sleep(10)
+            else:
+                # 4xx other than 429 — likely permanent, give up
+                if attempt < 2:
+                    time.sleep(5)
+                else:
+                    return None
         except Exception as e:
-            log.warning("API error: %s", e)
+            log.warning("API error (attempt %d/%d): %s", attempt + 1, 5, e)
             time.sleep(5)
     return None
 
