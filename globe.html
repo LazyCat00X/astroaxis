@@ -1544,7 +1544,6 @@
       }
 
       // Arrow keys: Left/Right rotate, Up/Down zoom
-      const globeView = document.getElementById('globe-view');
       if (globeView && globeView.classList.contains('active')) {
         const step = 0.08;
         if (e.key === 'ArrowLeft') { controls.target.y += step * 1.2; e.preventDefault(); }
