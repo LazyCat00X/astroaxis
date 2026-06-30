@@ -2932,7 +2932,7 @@
         if(i < steps.length){ status.textContent = steps[i]; i++; }
       }, 400);
       const checkReady = () => {
-        if(typeof globeGroup !== 'undefined' && globeGroup && globeGroup.children.length > 0) {
+        if(typeof globe !== 'undefined' && globe && globe.children.length > 0) {
           clearInterval(tick);
           overlay.style.opacity = '0';
           setTimeout(() => { overlay.remove(); }, 600);
