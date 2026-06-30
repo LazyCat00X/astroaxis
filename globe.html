@@ -914,7 +914,7 @@
       const canvas = document.getElementById('history3d-canvas');
       if (!canvas || !window.THREE) return;
 
-      const RECENT_YEARS = [2026, 2025, 2024, 2023, 2022];
+      const RECENT_YEARS = [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017];
       const yearSet = new Set(RECENT_YEARS);
       const eventsByYear = {};
       RECENT_YEARS.forEach(year => { eventsByYear[year] = []; });
@@ -990,12 +990,12 @@
         sports: '#f59e0b',
         general: '#8892b6'
       };
-      const yearAccent = ['#67e8f9', '#22d3ee', '#818cf8', '#a78bfa', '#6366f1'];
+      const yearAccent = ['#67e8f9', '#22d3ee', '#818cf8', '#a78bfa', '#6366f1', '#f59e0b', '#f97316', '#ef4444', '#22c55e', '#8892b6'];
       const typeLabelMap = TL_TYPE[currentLang] || TL_TYPE.en || {};
       const TAU = Math.PI * 2;
       const sectorSpan = TAU / typeOrder.length;
       const innerRadius = 0.78;
-      const ringStep = 1.34;
+      const ringStep = 1.08;
       const outerRadius = innerRadius + ringStep * (RECENT_YEARS.length - 1);
 
       function safeText(value) {
