@@ -463,6 +463,7 @@
       .filter-btn { font-size: 10px; padding: 7px 9px; }
     }
     @keyframes spin {to{transform:rotate(360deg)}}
+    @keyframes interestPulse {0%,100%{box-shadow:0 0 18px rgba(34,211,238,.45),inset 0 0 12px rgba(34,211,238,.1)}50%{box-shadow:0 0 28px rgba(34,211,238,.65),inset 0 0 18px rgba(34,211,238,.18)}}
   </style>
   <!-- Timeline + Feed styles -->
   <style>
@@ -2962,22 +2963,29 @@
       const overlay = document.getElementById('loading-overlay');
       const status = document.getElementById('loading-status');
       if(!overlay) return;
+      const startTime = Date.now();
+      const MIN_DISPLAY = 1200; // minimum 1.2s visible
       let steps = ['Loading data...','Building globe...','Rendering markers...'];
       let i = 0;
       const tick = setInterval(() => {
         if(i < steps.length){ status.textContent = steps[i]; i++; }
       }, 400);
+      const hideOverlay = () => {
+        clearInterval(tick);
+        overlay.style.opacity = '0';
+        setTimeout(() => { overlay.remove(); }, 600);
+        if(!localStorage.getItem('astroaxis_seen_onboarding')) {
+          setTimeout(() => {
+            const ob = document.getElementById('onboarding-overlay');
+            if(ob){ ob.style.display = 'flex'; }
+          }, 400);
+        }
+      };
       const checkReady = () => {
         if(typeof globe !== 'undefined' && globe && globe.children.length > 0) {
-          clearInterval(tick);
-          overlay.style.opacity = '0';
-          setTimeout(() => { overlay.remove(); }, 600);
-          if(!localStorage.getItem('astroaxis_seen_onboarding')) {
-            setTimeout(() => {
-              const ob = document.getElementById('onboarding-overlay');
-              if(ob){ ob.style.display = 'flex'; }
-            }, 400);
-          }
+          const elapsed = Date.now() - startTime;
+          if(elapsed >= MIN_DISPLAY) { hideOverlay(); return; }
+          setTimeout(hideOverlay, MIN_DISPLAY - elapsed);
           return;
         }
         requestAnimationFrame(checkReady);
@@ -3082,9 +3090,11 @@
       // Highlight top interest on next visit
       const interests = getInterests();
       const topTopic = Object.entries(interests).sort((a,b)=>b[1]-a[1])[0];
-      if(topTopic){
+      if(topTopic && topTopic[1] >= 2){
         const btn = document.querySelector(`.filter-btn[data-filter-value="${topTopic[0]}"]`);
-        if(btn){ btn.style.boxShadow = '0 0 14px rgba(34,211,238,.35)'; btn.style.borderColor = 'rgba(34,211,238,.5)'; }
+        if(btn){
+          btn.style.cssText += ';box-shadow:0 0 18px rgba(34,211,238,.45),inset 0 0 12px rgba(34,211,238,.1)!important;border-color:rgba(34,211,238,.65)!important;background:rgba(34,211,238,.18)!important;animation:interestPulse 2.2s ease-in-out infinite';
+        }
       }
     })();
 
