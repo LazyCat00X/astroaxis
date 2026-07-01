@@ -700,7 +700,7 @@
     <div class="scanline"></div>
     <div class="vignette"></div>
     <div class="hint" data-i18n="hint.drag">🖱 DRAG · A/D ←→ SPIN · W/S ↑↓ TILT · Q/E ZOOM · 1-4 VIEWS</div>
-    <div style="position:fixed;bottom:4px;left:8px;z-index:99;font-size:9px;color:rgba(136,146,182,0.3);pointer-events:none">v20260702-03</div>
+    <div style="position:fixed;bottom:4px;left:8px;z-index:99;font-size:9px;color:rgba(136,146,182,0.3);pointer-events:none">v20260702-04</div>
     <div class="scroll-hint" aria-hidden="true" data-i18n="hint.scroll">↓ scroll for articles</div>
   </main>
 </div><!-- /globe-view -->
@@ -1518,21 +1518,12 @@
       requestAnimationFrame(() => { el.textContent = msg; });
     }
 
-    // ── Keyboard state tracking (hold multiple keys for diagonal movement) ──
-    const keysDown = new Set();
-    const ORBIT_MAP = {
-      'ArrowLeft': ['orbit', -1, 0], 'a': ['orbit', -1, 0],
-      'ArrowRight':['orbit', 1, 0],  'd': ['orbit', 1, 0],
-      'ArrowUp':   ['orbit', 0, -1], 'w': ['orbit', 0, -1],
-      'ArrowDown': ['orbit', 0, 1],  's': ['orbit', 0, 1],
-      'q': ['zoom', -1], '+': ['zoom', -1], '=': ['zoom', -1],
-      'e': ['zoom', 1], '-': ['zoom', 1],
-    };
-
+    // ── Keyboard navigation ──
     document.addEventListener('keydown', (e) => {
       if (e.key === 'F7') { e.preventDefault(); return; }
 
       // Number keys 1-4: switch views
+      const globeView = document.getElementById('globe-view');
       const viewMap = { '1': 'globe', '2': 'timeline', '3': 'feed', '4': 'history3d' };
       if (e.key in viewMap && !e.ctrlKey && !e.metaKey && !e.altKey) {
         const target = viewMap[e.key];
@@ -1555,17 +1546,38 @@
         e.preventDefault(); return;
       }
 
-      // Track orbit/zoom keys
-      if (e.key in ORBIT_MAP && !e.repeat) {
-        keysDown.add(e.key);
-        e.preventDefault();
-        pauseAutoRotate();
+      // Globe camera orbit
+      if (globeView && globeView.classList.contains('active')) {
+        const K = 0.25; // step size
+        const isOrbit = e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'ArrowRight' || e.key === 'd'
+                     || e.key === 'ArrowUp' || e.key === 'w' || e.key === 'ArrowDown' || e.key === 's';
+        const isZoom  = e.key === 'q' || e.key === '+' || e.key === '=' || e.key === 'e' || e.key === '-';
+        if (isOrbit || isZoom) {
+          try {
+            const off = camera.position.clone().sub(controls.target);
+            const dist = off.length();
+            let phi = Math.acos(THREE.MathUtils.clamp(off.y / dist, -1, 1));
+            let theta = Math.atan2(off.x, off.z);
+            if (e.key === 'ArrowLeft'  || e.key === 'a') theta -= K;
+            if (e.key === 'ArrowRight' || e.key === 'd') theta += K;
+            if (e.key === 'ArrowUp'    || e.key === 'w') phi = Math.max(0.15, phi - K);
+            if (e.key === 'ArrowDown'  || e.key === 's') phi = Math.min(Math.PI - 0.15, phi + K);
+            let newDist = dist;
+            if (e.key === 'q' || e.key === '+' || e.key === '=') newDist = Math.max(controls.minDistance, dist - 1.5);
+            if (e.key === 'e' || e.key === '-') newDist = Math.min(controls.maxDistance, dist + 1.5);
+            camera.position.x = controls.target.x + newDist * Math.sin(phi) * Math.sin(theta);
+            camera.position.y = controls.target.y + newDist * Math.cos(phi);
+            camera.position.z = controls.target.z + newDist * Math.sin(phi) * Math.cos(theta);
+            camera.lookAt(controls.target);
+            controls.update();
+          } catch(err) { console.warn('orbit:', err.message); }
+          e.preventDefault();
+          pauseAutoRotate();
+        }
       }
-    }, {capture: true});
 
-    document.addEventListener('keyup', (e) => {
-      if (e.key in ORBIT_MAP) {
-        keysDown.delete(e.key);
+      // Block unhandled keys in globe view
+      if (!e.defaultPrevented && globeView && globeView.classList.contains('active') && !e.ctrlKey && !e.metaKey && !e.altKey) {
         e.preventDefault();
       }
     }, {capture: true});
@@ -3047,29 +3059,6 @@
           if (finalScale < 0.5) { sprite.material.opacity = 0; return; }
           sprite.scale.set(finalScale, finalScale * 0.30, 1);
         });
-      }
-
-      // ── Process held keys each frame (enables diagonal movement) ──
-      if (keysDown.size > 0) {
-        const STEP = 0.04; // per-frame step (at ~60fps = smooth)
-        let dTheta = 0, dPhi = 0, dZoom = 0;
-        keysDown.forEach(key => {
-          const action = ORBIT_MAP[key];
-          if (!action) return;
-          if (action[0] === 'orbit') { dTheta += action[1] * STEP; dPhi += action[2] * STEP; }
-          else if (action[0] === 'zoom') { dZoom += action[1]; }
-        });
-        const offset = camera.position.clone().sub(controls.target);
-        const dist = offset.length();
-        let phi = Math.acos(THREE.MathUtils.clamp(offset.y / dist, -1, 1));
-        let theta = Math.atan2(offset.x, offset.z);
-        theta += dTheta;
-        phi = Math.max(0.15, Math.min(Math.PI - 0.15, phi + dPhi));
-        const newDist = Math.max(controls.minDistance, Math.min(controls.maxDistance, dist + dZoom * 1.5));
-        camera.position.x = controls.target.x + newDist * Math.sin(phi) * Math.sin(theta);
-        camera.position.y = controls.target.y + newDist * Math.cos(phi);
-        camera.position.z = controls.target.z + newDist * Math.sin(phi) * Math.cos(theta);
-        camera.lookAt(controls.target);
       }
 
       controls.update();
