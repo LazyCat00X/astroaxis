@@ -699,7 +699,7 @@
     </nav>
     <div class="scanline"></div>
     <div class="vignette"></div>
-    <div class="hint" data-i18n="hint.drag">🖱 DRAG · WASD/←→ ROTATE · ↑↓ ZOOM · 1-4 VIEWS</div>
+    <div class="hint" data-i18n="hint.drag">🖱 DRAG · A/D ←→ SPIN · W/S ↑↓ TILT · Q/E ZOOM · 1-4 VIEWS</div>
     <div class="scroll-hint" aria-hidden="true" data-i18n="hint.scroll">↓ scroll for articles</div>
   </main>
 </div><!-- /globe-view -->
@@ -757,7 +757,7 @@
         'filter.all':'All','filter.americas':'Americas','filter.europe':'Europe','filter.asia':'Asia',
         'filter.alltime':'ALL TIME','filter.6h':'6H','filter.24h':'24H',
         'filter.bitcoin':'Bitcoin','filter.defi':'DeFi','filter.ai':'AI','filter.regulation':'Regulation',
-        'hint.drag':'DRAG · WASD/ARROWS ROTATE · ↑↓ ZOOM · 1-4 VIEWS','hint.scroll':'↓ scroll for articles',
+        'hint.drag':'DRAG · A/D SPIN · W/S TILT · Q/E ZOOM · 1-4 VIEWS','hint.scroll':'↓ scroll for articles',
         'feed.title':'AstroAxis Feed','tl.title':'World History Timeline',
         'alert.breaking':'BREAKING:','bias.none':'Neutral','bias.light':'Slight bias','bias.high':'Biased',
         'country.articles':'article','country.articles_plural':'articles',
@@ -770,7 +770,7 @@
         'filter.all':'全部','filter.americas':'美洲','filter.europe':'歐洲','filter.asia':'亞洲',
         'filter.alltime':'全部時間','filter.6h':'6小時','filter.24h':'24小時',
         'filter.bitcoin':'Bitcoin','filter.defi':'DeFi','filter.ai':'AI','filter.regulation':'監管',
-        'hint.drag':'拖拽 · WASD/箭咀旋轉 · ↑↓縮放 · 1-4切換','hint.scroll':'↓ 向下睇文章',
+        'hint.drag':'拖拽 · A/D 左右轉 · W/S 上下傾 · Q/E 縮放 · 1-4切換','hint.scroll':'↓ 向下睇文章',
         'feed.title':'AstroAxis 新聞','tl.title':'世界歷史時間軸',
         'alert.breaking':'緊急：','bias.none':'中立','bias.light':'略帶偏頗','bias.high':'偏頗',
         'country.articles':'篇文章','country.articles_plural':'篇文章',
@@ -783,7 +783,7 @@
         'filter.all':'全部','filter.americas':'美洲','filter.europe':'欧洲','filter.asia':'亚洲',
         'filter.alltime':'全部时间','filter.6h':'6小时','filter.24h':'24小时',
         'filter.bitcoin':'比特币','filter.defi':'DeFi','filter.ai':'AI','filter.regulation':'监管',
-        'hint.drag':'拖拽 · WASD/箭头旋转 · ↑↓缩放 · 1-4切换','hint.scroll':'↓ 向下看文章',
+        'hint.drag':'拖拽 · A/D 左右转 · W/S 上下倾 · Q/E 缩放 · 1-4切换','hint.scroll':'↓ 向下看文章',
         'feed.title':'AstroAxis 新闻','tl.title':'世界历史时间轴',
         'alert.breaking':'紧急：','bias.none':'中立','bias.light':'略有偏见','bias.high':'有偏见',
         'country.articles':'篇文章','country.articles_plural':'篇文章',
@@ -1552,35 +1552,40 @@
         return;
       }
 
-      // Arrow keys: Left/Right rotate, Up/Down zoom
-      // WASD alt keys (A/D rotate, W/S zoom) for systems where arrow keys are intercepted
+      // Globe controls: A/← → spin, W/↑ tilt up, S/↓ tilt down, Q/E zoom
       if (globeView && globeView.classList.contains('active')) {
         const isLeft  = e.key === 'ArrowLeft'  || e.key === 'a';
         const isRight = e.key === 'ArrowRight' || e.key === 'd';
         const isUp    = e.key === 'ArrowUp'    || e.key === 'w';
         const isDown  = e.key === 'ArrowDown'  || e.key === 's';
+        const isZoomIn  = e.key === 'q' || e.key === '+' || e.key === '=';
+        const isZoomOut = e.key === 'e' || e.key === '-';
+        // Spin left/right
         if (isLeft)  { globe.rotation.y -= 0.12; }
         if (isRight) { globe.rotation.y += 0.12; }
+        // Tilt up/down (rotate camera around center)
         if (isUp || isDown) {
+          const offset = camera.position.clone().sub(controls.target);
+          const dist = offset.length();
+          let phi = Math.acos(offset.y / dist);
+          phi += isUp ? -0.15 : 0.15;
+          phi = Math.max(0.15, Math.min(Math.PI - 0.15, phi));
+          const theta = Math.atan2(offset.x, offset.z);
+          camera.position.x = controls.target.x + dist * Math.sin(phi) * Math.sin(theta);
+          camera.position.y = controls.target.y + dist * Math.cos(phi);
+          camera.position.z = controls.target.z + dist * Math.sin(phi) * Math.cos(theta);
+          camera.lookAt(controls.target);
+        }
+        // Zoom in/out
+        if (isZoomIn || isZoomOut) {
           const dir = camera.position.clone().sub(controls.target).normalize();
-          const delta = isUp ? -0.8 : 0.8;
+          const delta = isZoomOut ? 0.8 : -0.8;
           const newDist = camera.position.distanceTo(controls.target) + delta;
           if (newDist >= controls.minDistance && newDist <= controls.maxDistance) {
             camera.position.copy(controls.target).addScaledVector(dir, newDist);
           }
         }
-        if (isLeft || isRight || isUp || isDown) { e.preventDefault(); controls.update(); }
-      }
-
-      // +/- zoom for globe view (keep for numpad/non-arrow users)
-      if (e.key === '+' || e.key === '=' || e.key === '-') {
-        const dir = camera.position.clone().sub(controls.target).normalize();
-        const delta = (e.key === '-') ? 0.8 : -0.8;
-        const newDist = camera.position.distanceTo(controls.target) + delta;
-        if (newDist >= controls.minDistance && newDist <= controls.maxDistance) {
-          camera.position.copy(controls.target).addScaledVector(dir, newDist);
-        }
-        e.preventDefault(); controls.update();
+        if (isLeft || isRight || isUp || isDown || isZoomIn || isZoomOut) { e.preventDefault(); controls.update(); }
       }
       // Block unhandled keys in globe view to prevent browser focus nav
       if (!e.defaultPrevented && globeView && globeView.classList.contains('active') && !e.ctrlKey && !e.metaKey && !e.altKey) {
