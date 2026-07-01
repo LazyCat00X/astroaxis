@@ -1560,20 +1560,26 @@
         const isDown  = e.key === 'ArrowDown'  || e.key === 's';
         const isZoomIn  = e.key === 'q' || e.key === '+' || e.key === '=';
         const isZoomOut = e.key === 'e' || e.key === '-';
-        // Orbit left/right → update target azimuth (camera orbits around globe)
-        if (isLeft)  { targetAzimuth -= 0.12; }
-        if (isRight) { targetAzimuth += 0.12; }
-        // Tilt up/down → update target phi
-        if (isUp || isDown) {
-          targetPhi += isUp ? -0.12 : 0.12;
-          targetPhi = Math.max(0.15, Math.min(Math.PI - 0.15, targetPhi));
+        // Orbit camera around globe (spherical coords)
+        if (isLeft || isRight || isUp || isDown || isZoomIn || isZoomOut) {
+          const offset = camera.position.clone().sub(controls.target);
+          const dist = offset.length();
+          let phi = Math.acos(THREE.MathUtils.clamp(offset.y / dist, -1, 1));
+          let theta = Math.atan2(offset.x, offset.z);
+          if (isLeft)  theta -= 0.12;
+          if (isRight) theta += 0.12;
+          if (isUp)    phi = Math.max(0.15, phi - 0.12);
+          if (isDown)  phi = Math.min(Math.PI - 0.15, phi + 0.12);
+          const newDist = isZoomIn ? Math.max(controls.minDistance, dist - 0.8)
+                       : isZoomOut ? Math.min(controls.maxDistance, dist + 0.8) : dist;
+          camera.position.x = controls.target.x + newDist * Math.sin(phi) * Math.sin(theta);
+          camera.position.y = controls.target.y + newDist * Math.cos(phi);
+          camera.position.z = controls.target.z + newDist * Math.sin(phi) * Math.cos(theta);
+          camera.lookAt(controls.target);
+          e.preventDefault();
+          controls.update();
+          pauseAutoRotate();
         }
-        // Zoom → update target distance
-        if (isZoomIn || isZoomOut) {
-          const delta = isZoomOut ? 0.8 : -0.8;
-          targetDist = Math.max(controls.minDistance, Math.min(controls.maxDistance, targetDist + delta));
-        }
-        if (isLeft || isRight || isUp || isDown || isZoomIn || isZoomOut) { e.preventDefault(); pauseAutoRotate(); }
       }
       // Block unhandled keys in globe view to prevent browser focus nav
       if (!e.defaultPrevented && globeView && globeView.classList.contains('active') && !e.ctrlKey && !e.metaKey && !e.altKey) {
@@ -2816,19 +2822,6 @@
     controls.target.set(0, -0.4, 0);
     controls.update();
 
-    // ── Smooth motion targets (camera orbits around globe, lerped in animation loop) ──
-    let targetAzimuth = Math.atan2(
-      camera.position.x - controls.target.x,
-      camera.position.z - controls.target.z
-    );
-    let targetPhi = Math.acos(
-      THREE.MathUtils.clamp(
-        (camera.position.y - controls.target.y) / camera.position.distanceTo(controls.target),
-        -1, 1
-      )
-    );
-    let targetDist = camera.position.distanceTo(controls.target);
-
     // ── Auto-rotation pause/resume: idle 25s → auto-resume ──
     let autoRotateTimer = null;
     function pauseAutoRotate() {
@@ -3074,32 +3067,6 @@
       }
 
       controls.update();
-
-      // ── Smooth camera orbit (only when user is interacting, no autoRotate) ──
-      if (!controls.autoRotate) {
-        const LERP = 0.14;
-        const curOffset = camera.position.clone().sub(controls.target);
-        const curDist = curOffset.length();
-        const curAzimuth = Math.atan2(curOffset.x, curOffset.z);
-        const curPhi = Math.acos(THREE.MathUtils.clamp(curOffset.y / curDist, -1, 1));
-        const newDist = curDist + (targetDist - curDist) * LERP;
-        const newAzimuth = curAzimuth + (targetAzimuth - curAzimuth) * LERP;
-        const newPhi = curPhi + (targetPhi - curPhi) * LERP;
-        camera.position.x = controls.target.x + newDist * Math.sin(newPhi) * Math.sin(newAzimuth);
-        camera.position.y = controls.target.y + newDist * Math.cos(newPhi);
-        camera.position.z = controls.target.z + newDist * Math.sin(newPhi) * Math.cos(newAzimuth);
-        camera.lookAt(controls.target);
-        targetAzimuth = newAzimuth;
-        targetPhi = newPhi;
-        targetDist = newDist;
-      } else {
-        // Auto-rotating: sync targets to current camera (no lerp interference)
-        const off = camera.position.clone().sub(controls.target);
-        targetAzimuth = Math.atan2(off.x, off.z);
-        targetDist = off.length();
-        targetPhi = Math.acos(THREE.MathUtils.clamp(off.y / targetDist, -1, 1));
-      }
-
       renderer.render(scene, camera);
       requestAnimationFrame(animate);
     }
