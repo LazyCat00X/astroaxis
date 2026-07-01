@@ -1553,31 +1553,16 @@
         const dbg = document.getElementById('orbit-dbg');
         if (dbg) { dbg.textContent = 'KEY: ' + e.key; dbg.style.background = '#0f0'; setTimeout(()=>{dbg.style.background='rgba(0,0,0,.7)';},200); }
         
-        const isOrbit = e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'ArrowRight' || e.key === 'd'
-                     || e.key === 'ArrowUp' || e.key === 'w' || e.key === 'ArrowDown' || e.key === 's';
-        const isZoom  = e.key === 'q' || e.key === '+' || e.key === '=' || e.key === 'e' || e.key === '-';
-        if (isOrbit || isZoom) {
-          const center = new THREE.Vector3(0, -0.4, 0); // globe center (same as controls.target)
-          const off = camera.position.clone().sub(center);
-          const dist = off.length();
-          let phi = Math.acos(THREE.MathUtils.clamp(off.y / dist, -1, 1));
-          let theta = Math.atan2(off.x, off.z);
-          if (e.key === 'ArrowLeft'  || e.key === 'a') theta -= K;
-          if (e.key === 'ArrowRight' || e.key === 'd') theta += K;
-          if (e.key === 'ArrowUp'    || e.key === 'w') phi = Math.max(0.15, phi - K);
-          if (e.key === 'ArrowDown'  || e.key === 's') phi = Math.min(Math.PI - 0.15, phi + K);
-          let newDist = dist;
-          if (e.key === 'q' || e.key === '+' || e.key === '=') newDist = Math.max(controls.minDistance, dist - 1.5);
-          if (e.key === 'e' || e.key === '-') newDist = Math.min(controls.maxDistance, dist + 1.5);
-          camera.position.x = center.x + newDist * Math.sin(phi) * Math.sin(theta);
-          camera.position.y = center.y + newDist * Math.cos(phi);
-          camera.position.z = center.z + newDist * Math.sin(phi) * Math.cos(theta);
-          camera.lookAt(center);
-          // Sync controls to new camera position so mouse drag works from here
-          controls.target.copy(center);
-          controls.update();
-          // Force-enable damping reset
-          if (controls.sphericalDelta) controls.sphericalDelta.set(0, 0, 0);
+        let orbitDelta = null; // {dTheta, dPhi, dZoom}
+        if (e.key === 'ArrowLeft'  || e.key === 'a') orbitDelta = {dTheta: -K, dPhi: 0, dZoom: 0};
+        if (e.key === 'ArrowRight' || e.key === 'd') orbitDelta = {dTheta: K, dPhi: 0, dZoom: 0};
+        if (e.key === 'ArrowUp'    || e.key === 'w') orbitDelta = {dTheta: 0, dPhi: -K, dZoom: 0};
+        if (e.key === 'ArrowDown'  || e.key === 's') orbitDelta = {dTheta: 0, dPhi: K, dZoom: 0};
+        if (e.key === 'q' || e.key === '+' || e.key === '=') orbitDelta = {dTheta: 0, dPhi: 0, dZoom: -1.5};
+        if (e.key === 'e' || e.key === '-') orbitDelta = {dTheta: 0, dPhi: 0, dZoom: 1.5};
+        if (orbitDelta) {
+          // Store for animation loop to apply after controls.update()
+          window.__orbitDelta = orbitDelta;
           e.preventDefault();
           pauseAutoRotate();
         }
@@ -3069,6 +3054,26 @@
       }
 
       controls.update();
+
+      // Apply keyboard orbit (after controls.update() so it doesn't get overridden)
+      if (window.__orbitDelta) {
+        const d = window.__orbitDelta;
+        const center = new THREE.Vector3(0, -0.4, 0);
+        const off = camera.position.clone().sub(center);
+        const dist = off.length();
+        let phi = Math.acos(THREE.MathUtils.clamp(off.y / dist, -1, 1));
+        let theta = Math.atan2(off.x, off.z);
+        theta += d.dTheta;
+        phi = Math.max(0.15, Math.min(Math.PI - 0.15, phi + d.dPhi));
+        const newDist = Math.max(controls.minDistance, Math.min(controls.maxDistance, dist + d.dZoom));
+        camera.position.x = center.x + newDist * Math.sin(phi) * Math.sin(theta);
+        camera.position.y = center.y + newDist * Math.cos(phi);
+        camera.position.z = center.z + newDist * Math.sin(phi) * Math.cos(theta);
+        camera.lookAt(center);
+        controls.target.copy(center);
+        window.__orbitDelta = null;
+      }
+
       renderer.render(scene, camera);
       requestAnimationFrame(animate);
     }
