@@ -1518,22 +1518,54 @@
     }
 
     // ── Keyboard navigation ──
-    // DEBUG: visible key overlay (remove after debugging)
+    // DEBUG: visible key overlay + persistent log (remove after debugging)
     (function(){
       const dbg = document.createElement('div');
       dbg.id = 'keydbg';
-      dbg.style.cssText = 'position:fixed;top:60px;right:10px;z-index:999;background:rgba(0,0,0,.85);color:#0f0;font:12px monospace;padding:8px 12px;border-radius:6px;border:1px solid #0f0;max-width:300px;pointer-events:none';
+      dbg.style.cssText = 'position:fixed;top:60px;right:10px;z-index:999;background:rgba(0,0,0,.85);color:#0f0;font:12px monospace;padding:8px 12px;border-radius:6px;border:1px solid #0f0;max-width:340px;pointer-events:none';
       document.body.appendChild(dbg);
+      
+      // Download button
+      const btn = document.createElement('button');
+      btn.textContent = '📥 LOG';
+      btn.style.cssText = 'position:fixed;top:60px;right:10px;z-index:1000;background:#0f0;color:#000;font:11px monospace;padding:2px 8px;border-radius:4px;border:none;cursor:pointer;pointer-events:auto;display:none';
+      btn.onclick = function(){
+        const log = JSON.parse(localStorage.getItem('keydbg_log')||'[]');
+        const text = log.join('\n');
+        const blob = new Blob([text], {type:'text/plain'});
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'astroaxis-keylog-' + new Date().toISOString().slice(0,19).replace(/:/g,'-') + '.txt';
+        a.click();
+      };
+      document.body.appendChild(btn);
+      // Show download button after first keypress
+      document.addEventListener('keydown', function(){ btn.style.display = 'block'; }, {once: true, capture: true});
+      
       window._keydbg = dbg;
       window._keylog = [];
+      // Load previous log
+      try {
+        const saved = JSON.parse(localStorage.getItem('keydbg_log')||'[]');
+        window._keylog = saved.slice(-100); // keep last 100
+      } catch(e) {}
     })();
     function dbgLog(msg) {
-      window._keylog.unshift(msg);
+      const ts = new Date().toISOString().slice(11,23);
+      const entry = ts + ' ' + msg;
+      window._keylog.unshift(entry);
       if(window._keylog.length > 5) window._keylog.pop();
+      // Save full log to localStorage (keep last 500 entries)
+      try {
+        let full = JSON.parse(localStorage.getItem('keydbg_log')||'[]');
+        full.push(entry);
+        if(full.length > 500) full = full.slice(-500);
+        localStorage.setItem('keydbg_log', JSON.stringify(full));
+      } catch(e) {}
       const el = document.getElementById('keydbg');
       if(el) el.textContent = window._keylog.join('\n');
     }
-    dbgLog('⌨ DEBUG READY — press keys');
+    dbgLog('⌨ DEBUG READY — press keys, click 📥 LOG to download');
 
     document.addEventListener('keydown', (e) => {
       const gv = document.getElementById('globe-view');
