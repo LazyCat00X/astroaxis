@@ -1585,7 +1585,7 @@
             camera.position.copy(controls.target).addScaledVector(dir, newDist);
           }
         }
-        if (isLeft || isRight || isUp || isDown || isZoomIn || isZoomOut) { e.preventDefault(); controls.update(); }
+        if (isLeft || isRight || isUp || isDown || isZoomIn || isZoomOut) { e.preventDefault(); controls.update(); pauseAutoRotate(); }
       }
       // Block unhandled keys in globe view to prevent browser focus nav
       if (!e.defaultPrevented && globeView && globeView.classList.contains('active') && !e.ctrlKey && !e.metaKey && !e.altKey) {
@@ -2712,8 +2712,6 @@
         hoveredIdx = -1;
         hoveredData = null;
         tooltip.classList.remove('visible');
-        // Resume auto-rotate
-        if (!controls.autoRotate) controls.autoRotate = true;
       }
     }, { passive: true });
 
@@ -2721,7 +2719,6 @@
       pointer.set(-10, -10);
       if (hoveredData) { 
         hoveredIdx = -1; hoveredData = null; tooltip.classList.remove('visible');
-        if (!controls.autoRotate) controls.autoRotate = true;
       }
     }, { passive: true });
 
@@ -2733,7 +2730,7 @@
         hoveredIdx = -1;
         hoveredData = null;
         tooltip.classList.remove('visible');
-        if (!controls.autoRotate) controls.autoRotate = true;
+        pauseAutoRotate(); // restart idle timer
         return;
       }
       if (!hoveredData || !hoveredData.articles) return;
@@ -2830,6 +2827,17 @@
     controls.autoRotateSpeed = 1.0;
     controls.target.set(0, -0.4, 0);
     controls.update();
+
+    // ── Auto-rotation pause/resume: idle 25s → auto-resume ──
+    let autoRotateTimer = null;
+    function pauseAutoRotate() {
+      if (controls.autoRotate) controls.autoRotate = false;
+      clearTimeout(autoRotateTimer);
+      autoRotateTimer = setTimeout(() => { controls.autoRotate = true; }, 25000);
+    }
+    // Hook into pointer drag start / scroll to pause auto-rotate
+    renderer.domElement.addEventListener('pointerdown', () => pauseAutoRotate(), { passive: true });
+    renderer.domElement.addEventListener('wheel', () => pauseAutoRotate(), { passive: true });
 
     // ── History Rings (zoom out to see) ──
     const historyGroup = new THREE.Group();
