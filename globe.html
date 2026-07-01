@@ -1571,11 +1571,16 @@
             theta += d.dTheta;
             phi = Math.max(0.15, Math.min(Math.PI - 0.15, phi + d.dPhi));
             const newDist = Math.max(controls.minDistance, Math.min(controls.maxDistance, dist + d.dZoom));
-            camera.position.x = center.x + newDist * Math.sin(phi) * Math.sin(theta);
-            camera.position.y = center.y + newDist * Math.cos(phi);
-            camera.position.z = center.z + newDist * Math.sin(phi) * Math.cos(theta);
+            camera.position.set(
+              center.x + newDist * Math.sin(phi) * Math.sin(theta),
+              center.y + newDist * Math.cos(phi),
+              center.z + newDist * Math.sin(phi) * Math.cos(theta)
+            );
             camera.lookAt(center);
             controls.target.copy(center);
+            controls.update();
+            // Force immediate render so animation loop can't override
+            renderer.render(scene, camera);
           });
           e.preventDefault();
           pauseAutoRotate();
