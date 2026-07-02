@@ -1171,16 +1171,6 @@
       const configuredSources = 35; // from source_locs.json
       const activeSources = allSourceSet.size;
       const sourceHealth = activeSources >= 20 ? '🟢' : activeSources >= 10 ? '🟡' : '🔴';
-      html += `<div class="stats-bar">
-        <div class="stat-chip">${pipelineStatus} <span style="color:${pipelineColor}">${pipelineLabel}</span></div>
-        <div class="stat-chip">📰 ${filtered.length} articles</div>
-        <div class="stat-chip">${sourceHealth} ${activeSources}/${configuredSources} sources</div>
-        ${topTopics.map(([t,c]) => {
-          const pct = Math.round(c/maxCount*100);
-          const tc = t==='AI'?'#3b82f6':t==='Bitcoin'?'#f97316':t==='Regulation'?'#ef4444':t==='DeFi'?'#22c55e':t==='Crypto'?'#818cf8':t==='Finance'?'#10b981':t==='Tech'?'#6366f1':'#8892b6';
-          return `<div class="stat-chip"><span style="color:${tc};font-weight:600">${t}</span> ${c}<span class="stat-bar-bg"><span class="stat-bar-fill" style="width:${pct}%;background:${tc}"></span></span></div>`;
-        }).join('')}
-      </div>`;
       // Trend: compare 24h vs 48h
       const now = Date.now();
       const recent24 = articles.filter(a => { if(!a.published) return false; return (now - Date.parse(a.published)) < 86400000; });
