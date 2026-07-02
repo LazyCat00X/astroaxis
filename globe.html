@@ -1242,6 +1242,24 @@
       });
       html += '</div>';
       document.getElementById('feed-content').innerHTML = html;
+      // Update JSON-LD with current articles
+      try {
+        const newsLD = document.getElementById('news-jsonld');
+        if (newsLD) {
+          const ld = JSON.parse(newsLD.textContent);
+          ld.itemListElement = filtered.slice(0, 10).map((a, i) => ({
+            "@type": "ListItem", "position": i + 1,
+            "item": {
+              "@type": "NewsArticle",
+              "headline": a.title,
+              "url": a.url,
+              "datePublished": a.published || '',
+              "description": (a.ai_summary || '').slice(0, 160)
+            }
+          }));
+          newsLD.textContent = JSON.stringify(ld, null, 2);
+        }
+      } catch(e) {}
       if(wrap) { requestAnimationFrame(() => { wrap.classList.remove('filtering'); }); }
       // Stagger card entrance animation
       const cards = document.querySelectorAll('#feed-content .feed-card');
