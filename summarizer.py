@@ -199,8 +199,11 @@ def run():
         art["source_url"] = url
         log.info("  ✅ %s", ", ".join(summaries.keys()))
         count += 1
+        # Save after each article so partial progress isn't lost on timeout
+        save_articles(articles)
         time.sleep(2)
-    save_articles(articles)
+    if count == 0:
+        save_articles(articles)  # save any skipped articles
     log.info("Done: %d articles", count)
     return count
 
