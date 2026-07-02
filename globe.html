@@ -572,13 +572,7 @@
     }
     .breach-banner.show { display: block; }
     .breach-banner strong { color: #ef4444; }
-    
-    /* 3D History canvas */
-    #history3d-canvas {
-      position: absolute; inset: 0; width: 100%; height: 100%; display: block;
-      cursor: grab; touch-action: none;
-    }
-    #history3d-canvas:active { cursor: grabbing; }
+  
     /* Error banner */
     .error-banner {
       position: fixed; top: 52px; left: 0; right: 0; z-index: 16;
@@ -634,7 +628,6 @@
   <button class="nav-btn active" data-view="globe" data-i18n="nav.globe" role="tab" aria-selected="true" tabindex="-1">Globe</button>
   <button class="nav-btn" data-view="timeline" data-i18n="nav.timeline" role="tab" aria-selected="false" tabindex="-1">Timeline</button>
   <button class="nav-btn" data-view="feed" data-i18n="nav.feed" role="tab" aria-selected="false" tabindex="-1">Feed</button>
-  <button class="nav-btn" data-view="history3d" data-i18n="nav.history3d" role="tab" aria-selected="false" tabindex="-1">3D History</button>
   <div style="position:relative;margin-left:auto">
     <button class="lang-btn" id="langBtn" aria-haspopup="listbox" aria-expanded="false" aria-label="Select language">🌐 繁</button>
     <div class="lang-dropdown" id="langDropdown" role="listbox" aria-label="Language selection">
@@ -699,7 +692,7 @@
     </nav>
     <div class="scanline"></div>
     <div class="vignette"></div>
-    <div class="hint" data-i18n="hint.drag">🖱 DRAG · A/D ←→ SPIN · W/S ↑↓ TILT · Q/E ZOOM · 1-4 VIEWS</div>
+    <div class="hint" data-i18n="hint.drag">🖱 DRAG · A/D ←→ SPIN · W/S ↑↓ TILT · Q/E ZOOM · 1-3 VIEWS</div>
     <div class="scroll-hint" aria-hidden="true" data-i18n="hint.scroll">↓ scroll for articles</div>
   </main>
 </div><!-- /globe-view -->
@@ -715,24 +708,6 @@
 <div id="feed-view" class="view-panel" role="tabpanel" aria-label="News feed view">
   <div id="feed-content" style="max-width:900px;margin:0 auto;padding-top:16px">
     <p style="color:rgba(136,136,160,0.7);text-align:center;padding:40px">Loading articles...</p>
-  </div>
-</div>
-
-<!-- 3D History Timeline Panel -->
-<div id="history3d-view" class="view-panel" role="tabpanel" aria-label="3D History timeline view">
-  <div id="history3d-loading" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:2;pointer-events:none">
-    <div style="text-align:center">
-      <div style="font-size:32px;margin-bottom:10px">🔄</div>
-      <div style="color:rgba(238,247,255,.5);font-size:13px;letter-spacing:.06em">Loading 3D History...</div>
-    </div>
-  </div>
-  <canvas id="history3d-canvas" role="application" aria-label="Interactive 3D history timeline. Use scroll to zoom, drag to rotate."></canvas>
-  <div id="history3d-tooltip" class="article-tooltip" role="status" aria-live="polite"></div>
-  <div id="history3d-hud" style="position:absolute;top:60px;left:20px;z-index:5;pointer-events:none">
-    <div id="history3d-year-label" style="font-size:14px;color:#8892b6;font-weight:600;letter-spacing:.08em"></div>
-  </div>
-  <div style="position:absolute;bottom:30px;left:50%;transform:translateX(-50%);z-index:5;font-size:11px;color:rgba(136,136,160,0.5);letter-spacing:.06em;pointer-events:none" data-i18n="history3d.hint">
-    DRAG TO ROTATE · SCROLL TO ZOOM · HOVER FOR DETAILS
   </div>
 </div>
 
@@ -752,46 +727,46 @@
     // ── Full UI translations ──
     const I18N = {
       en: {
-        'nav.globe':'Globe','nav.timeline':'Timeline','nav.feed':'Feed','nav.history3d':'3D History',
+        'nav.globe':'Globe','nav.timeline':'Timeline','nav.feed':'Feed',
         'hud.eyebrow':'LIVE SIGNAL MAP','hud.subline':'AI-powered world news aggregator',
         'filter.all':'All','filter.americas':'Americas','filter.europe':'Europe','filter.asia':'Asia',
         'filter.alltime':'ALL TIME','filter.6h':'6H','filter.24h':'24H',
         'filter.bitcoin':'Bitcoin','filter.defi':'DeFi','filter.ai':'AI','filter.regulation':'Regulation',
-        'hint.drag':'DRAG · A/D SPIN · W/S TILT · Q/E ZOOM · 1-4 VIEWS','hint.scroll':'↓ scroll for articles',
+        'hint.drag':'DRAG · A/D SPIN · W/S TILT · Q/E ZOOM · 1-3 VIEWS','hint.scroll':'↓ scroll for articles',
         'feed.title':'AstroAxis Feed','tl.title':'World History Timeline',
         'alert.breaking':'BREAKING:','bias.none':'Neutral','bias.light':'Slight bias','bias.high':'Biased',
         'country.articles':'article','country.articles_plural':'articles',
-        'history3d.hint':'DRAG TO ROTATE · SCROLL TO ZOOM · HOVER FOR DETAILS',
-        'history3d.label':'CENTER {year} · OUTER RINGS {years} → {lastYear} · {count} EVENTS',
+        
+        
       },
       'zh-HK': {
-        'nav.globe':'全球','nav.timeline':'時間軸','nav.feed':'新聞','nav.history3d':'3D歷史',
+        'nav.globe':'全球','nav.timeline':'時間軸','nav.feed':'新聞',
         'hud.eyebrow':'即時訊號地圖','hud.subline':'AI 驅動嘅全球新聞聚合',
         'filter.all':'全部','filter.americas':'美洲','filter.europe':'歐洲','filter.asia':'亞洲',
         'filter.alltime':'全部時間','filter.6h':'6小時','filter.24h':'24小時',
         'filter.bitcoin':'Bitcoin','filter.defi':'DeFi','filter.ai':'AI','filter.regulation':'監管',
-        'hint.drag':'拖拽 · A/D 左右轉 · W/S 上下傾 · Q/E 縮放 · 1-4切換','hint.scroll':'↓ 向下睇文章',
+        'hint.drag':'拖拽 · A/D 左右轉 · W/S 上下傾 · Q/E 縮放 · 1-3切換','hint.scroll':'↓ 向下睇文章',
         'feed.title':'AstroAxis 新聞','tl.title':'世界歷史時間軸',
         'alert.breaking':'緊急：','bias.none':'中立','bias.light':'略帶偏頗','bias.high':'偏頗',
         'country.articles':'篇文章','country.articles_plural':'篇文章',
-        'history3d.hint':'拖拽旋轉 · 滾輪縮放 · 懸停睇詳情',
-        'history3d.label':'中心 {year} · 外環 {years} → {lastYear} · {count} 事件',
+        
+        
       },
       'zh-CN': {
-        'nav.globe':'全球','nav.timeline':'时间轴','nav.feed':'新闻','nav.history3d':'3D历史',
+        'nav.globe':'全球','nav.timeline':'时间轴','nav.feed':'新闻',
         'hud.eyebrow':'实时信号地图','hud.subline':'AI 驱动的全球新闻聚合',
         'filter.all':'全部','filter.americas':'美洲','filter.europe':'欧洲','filter.asia':'亚洲',
         'filter.alltime':'全部时间','filter.6h':'6小时','filter.24h':'24小时',
         'filter.bitcoin':'比特币','filter.defi':'DeFi','filter.ai':'AI','filter.regulation':'监管',
-        'hint.drag':'拖拽 · A/D 左右转 · W/S 上下倾 · Q/E 缩放 · 1-4切换','hint.scroll':'↓ 向下看文章',
+        'hint.drag':'拖拽 · A/D 左右转 · W/S 上下倾 · Q/E 缩放 · 1-3切换','hint.scroll':'↓ 向下看文章',
         'feed.title':'AstroAxis 新闻','tl.title':'世界历史时间轴',
         'alert.breaking':'紧急：','bias.none':'中立','bias.light':'略有偏见','bias.high':'有偏见',
         'country.articles':'篇文章','country.articles_plural':'篇文章',
-        'history3d.hint':'拖拽旋转 · 滚轮缩放 · 悬停看详情',
-        'history3d.label':'中心 {year} · 外环 {years} → {lastYear} · {count} 事件',
+        
+        
       },
       ja: {
-        'nav.globe':'世界','nav.timeline':'タイムライン','nav.feed':'ニュース','nav.history3d':'3D史',
+        'nav.globe':'世界','nav.timeline':'タイムライン','nav.feed':'ニュース',
         'hud.eyebrow':'ライブシグナルマップ','hud.subline':'AI搭載の世界ニュースアグリゲーター',
         'filter.all':'すべて','filter.americas':'アメリカ','filter.europe':'ヨーロッパ','filter.asia':'アジア',
         'filter.alltime':'全期間','filter.6h':'6時間','filter.24h':'24時間',
@@ -800,11 +775,11 @@
         'feed.title':'AstroAxis ニュース','tl.title':'世界史タイムライン',
         'alert.breaking':'速報：','bias.none':'中立','bias.light':'やや偏り','bias.high':'偏りあり',
         'country.articles':'記事','country.articles_plural':'記事',
-        'history3d.hint':'ドラッグで回転 · スクロールでズーム · ホバーで詳細',
-        'history3d.label':'中心 {year} · 外側リング {years} → {lastYear} · {count} イベント',
+        
+        
       },
       ko: {
-        'nav.globe':'세계','nav.timeline':'타임라인','nav.feed':'뉴스','nav.history3d':'3D역사',
+        'nav.globe':'세계','nav.timeline':'타임라인','nav.feed':'뉴스',
         'hud.eyebrow':'실시간 신호 지도','hud.subline':'AI 기반 세계 뉴스 수집기',
         'filter.all':'전체','filter.americas':'미주','filter.europe':'유럽','filter.asia':'아시아',
         'filter.alltime':'전체 기간','filter.6h':'6시간','filter.24h':'24시간',
@@ -813,8 +788,8 @@
         'feed.title':'AstroAxis 뉴스','tl.title':'세계 역사 타임라인',
         'alert.breaking':'속보：','bias.none':'중립','bias.light':'약간 편향','bias.high':'편향',
         'country.articles':'기사','country.articles_plural':'기사',
-        'history3d.hint':'드래그 회전 · 스크롤 줌 · 호버 상세',
-        'history3d.label':'중심 {year} · 바깥 링 {years} → {lastYear} · {count} 이벤트',
+        
+        
       },
     };
     const LANG_LABELS = {en:'EN','zh-HK':'繁','zh-CN':'简','ja':'日','ko':'한'};
@@ -951,533 +926,8 @@
       } catch(e) { console.warn('Breaking check:', e); }
     }
 
-    // ── 3D History Timeline ──
-    let history3D = null;
-
-    function initHistory3D() {
-      if (history3D) {
-        if (history3D.resize) history3D.resize();
-        if (!history3D.animId && history3D.animate) history3D.animate();
-        return;
-      }
-
-      const canvas = document.getElementById('history3d-canvas');
-      if (!canvas || !window.THREE) return;
-      // Hide loading indicator
-      const loadingEl = document.getElementById('history3d-loading');
-      if(loadingEl) loadingEl.style.display = 'none';
-
-      const RECENT_YEARS = [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017];
-      const yearSet = new Set(RECENT_YEARS);
-      const eventsByYear = {};
-      RECENT_YEARS.forEach(year => { eventsByYear[year] = []; });
-
-      Object.keys(timelineData || {}).forEach(yearKey => {
-        const year = parseInt(yearKey, 10);
-        if (!yearSet.has(year)) return;
-        (timelineData[yearKey] || []).forEach((ev, index) => {
-          eventsByYear[year].push({ ...ev, year, _index: index });
-        });
-      });
-
-      const events = RECENT_YEARS.flatMap(year => eventsByYear[year]);
-      if (!events.length) return;
-
-      const hudLabel = document.getElementById('history3d-year-label');
-      if (hudLabel) {
-        const t = I18N[currentLang] || I18N['zh-HK'];
-        const yearsList = RECENT_YEARS.slice(1).join(' → ');
-        hudLabel.textContent = (t['history3d.label'] || 'CENTER {year} · OUTER RINGS {years} → {lastYear} · {count} EVENTS')
-          .replace('{year}', RECENT_YEARS[0])
-          .replace('{years}', yearsList)
-          .replace('{lastYear}', RECENT_YEARS[RECENT_YEARS.length - 1])
-          .replace('{count}', events.length);
-      }
-
-      const root = canvas.parentElement || canvas;
-      const getSize = () => ({
-        w: root.clientWidth || window.innerWidth,
-        h: root.clientHeight || window.innerHeight
-      });
-      const initialSize = getSize();
-
-      const scene = new THREE.Scene();
-      scene.background = new THREE.Color(0x03040c);
-      scene.fog = new THREE.FogExp2(0x03040c, 0.035);
-
-      const camera = new THREE.PerspectiveCamera(48, initialSize.w / initialSize.h, 0.1, 80);
-      camera.position.set(0, initialSize.w < 760 ? 8.8 : 9.8, initialSize.w < 760 ? 11.5 : 10.4);
-
-      const renderer = new THREE.WebGLRenderer({
-        canvas,
-        antialias: true,
-        alpha: false,
-        powerPreference: 'high-performance'
-      });
-      renderer.setClearColor(0x03040c, 1);
-      renderer.setSize(initialSize.w, initialSize.h);
-      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
-
-      const clock = new THREE.Clock();
-      const universe = new THREE.Group();
-      universe.rotation.y = -0.22;
-      scene.add(universe);
-
-      scene.add(new THREE.AmbientLight(0x7c8cff, 0.35));
-      const keyLight = new THREE.DirectionalLight(0xffffff, 1.05);
-      keyLight.position.set(4, 8, 5);
-      scene.add(keyLight);
-      const cyanLight = new THREE.PointLight(0x22d3ee, 1.2, 16);
-      cyanLight.position.set(0, 3.5, 0);
-      scene.add(cyanLight);
-
-      const typeOrder = ['politics', 'tech', 'finance', 'disaster', 'climate', 'crypto', 'science', 'sports', 'general'];
-      const typeColors = {
-        politics: '#eab308',
-        tech: '#3b82f6',
-        finance: '#22c55e',
-        disaster: '#ef4444',
-        climate: '#f97316',
-        crypto: '#818cf8',
-        science: '#a78bfa',
-        sports: '#f59e0b',
-        general: '#8892b6'
-      };
-      const yearAccent = ['#67e8f9', '#22d3ee', '#818cf8', '#a78bfa', '#6366f1', '#f59e0b', '#f97316', '#ef4444', '#22c55e', '#8892b6'];
-      const typeLabelMap = TL_TYPE[currentLang] || TL_TYPE.en || {};
-      const TAU = Math.PI * 2;
-      const sectorSpan = TAU / typeOrder.length;
-      const innerRadius = 0.78;
-      const ringStep = 1.08;
-      const outerRadius = innerRadius + ringStep * (RECENT_YEARS.length - 1);
-
-      function safeText(value) {
-        return String(value || '').replace(/[&<>"']/g, ch => ({
-          '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
-        }[ch]));
-      }
-
-      function drawRoundRect(ctx, x, y, w, h, r) {
-        ctx.beginPath();
-        ctx.moveTo(x + r, y);
-        ctx.lineTo(x + w - r, y);
-        ctx.quadraticCurveTo(x + w, y, x + w, y + r);
-        ctx.lineTo(x + w, y + h - r);
-        ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
-        ctx.lineTo(x + r, y + h);
-        ctx.quadraticCurveTo(x, y + h, x, y + h - r);
-        ctx.lineTo(x, y + r);
-        ctx.quadraticCurveTo(x, y, x + r, y);
-        ctx.closePath();
-      }
-
-      function makeTextSprite(text, opts = {}) {
-        const width = opts.width || 640;
-        const height = opts.height || 160;
-        const canvasLabel = document.createElement('canvas');
-        canvasLabel.width = width;
-        canvasLabel.height = height;
-        const ctx = canvasLabel.getContext('2d');
-        ctx.clearRect(0, 0, width, height);
-        if (opts.bg) {
-          drawRoundRect(ctx, 10, 10, width - 20, height - 20, opts.radius || 28);
-          ctx.fillStyle = opts.bg;
-          ctx.fill();
-          ctx.strokeStyle = opts.border || 'rgba(103,232,249,0.25)';
-          ctx.lineWidth = 3;
-          ctx.stroke();
-        }
-        ctx.font = `${opts.weight || 700} ${opts.size || 46}px Inter, Arial, sans-serif`;
-        ctx.textAlign = opts.align || 'center';
-        ctx.textBaseline = 'middle';
-        ctx.shadowColor = opts.shadow || opts.color || '#67e8f9';
-        ctx.shadowBlur = opts.shadowBlur == null ? 14 : opts.shadowBlur;
-        ctx.fillStyle = opts.color || '#eaffff';
-        const maxWidth = width - 54;
-        const label = String(text || '');
-        const metrics = ctx.measureText(label);
-        let display = label;
-        if (metrics.width > maxWidth) {
-          while (display.length > 4 && ctx.measureText(display + '…').width > maxWidth) display = display.slice(0, -1);
-          display += '…';
-        }
-        ctx.fillText(display, opts.align === 'left' ? 32 : width / 2, height / 2 + (opts.yOffset || 0));
-        const texture = new THREE.CanvasTexture(canvasLabel);
-        texture.minFilter = THREE.LinearFilter;
-        texture.magFilter = THREE.LinearFilter;
-        texture.generateMipmaps = false;
-        const material = new THREE.SpriteMaterial({
-          map: texture,
-          transparent: true,
-          opacity: opts.opacity == null ? 0.92 : opts.opacity,
-          depthWrite: false,
-          depthTest: opts.depthTest == null ? false : opts.depthTest
-        });
-        const sprite = new THREE.Sprite(material);
-        sprite.scale.set(opts.scaleX || 1.65, opts.scaleY || 0.42, 1);
-        sprite.userData.texture = texture;
-        return sprite;
-      }
-
-      function circlePoint(radius, angle, y = 0) {
-        return new THREE.Vector3(Math.cos(angle) * radius, y, Math.sin(angle) * radius);
-      }
-
-      const ringGroup = new THREE.Group();
-      const markerGroup = new THREE.Group();
-      const labelGroup = new THREE.Group();
-      const connectorGroup = new THREE.Group();
-      universe.add(ringGroup, connectorGroup, markerGroup, labelGroup);
-
-      // Soft star field behind the orbital history map.
-      const starCount = initialSize.w < 760 ? 90 : 150;
-      const starPositions = new Float32Array(starCount * 3);
-      for (let i = 0; i < starCount; i++) {
-        const angle = Math.random() * TAU;
-        const radius = 9 + Math.random() * 18;
-        starPositions[i * 3] = Math.cos(angle) * radius;
-        starPositions[i * 3 + 1] = -2.8 + Math.random() * 11;
-        starPositions[i * 3 + 2] = Math.sin(angle) * radius;
-      }
-      const stars = new THREE.Points(
-        new THREE.BufferGeometry().setAttribute('position', new THREE.BufferAttribute(starPositions, 3)),
-        new THREE.PointsMaterial({ color: 0x8fbfff, size: 0.035, transparent: true, opacity: 0.55, depthWrite: false })
-      );
-      scene.add(stars);
-
-      // Center = 2026, then each older year expands outward as a concentric ring.
-      RECENT_YEARS.forEach((year, yearIndex) => {
-        const radius = innerRadius + yearIndex * ringStep;
-        const color = new THREE.Color(yearAccent[yearIndex] || '#67e8f9');
-        const ringMaterial = new THREE.MeshBasicMaterial({
-          color,
-          transparent: true,
-          opacity: yearIndex === 0 ? 0.75 : 0.45,
-          blending: THREE.AdditiveBlending,
-          depthWrite: false,
-          side: THREE.DoubleSide
-        });
-        const ring = new THREE.Mesh(new THREE.RingGeometry(radius - 0.022, radius + 0.022, 224, 3), ringMaterial);
-        ring.rotation.x = -Math.PI / 2;
-        ring.userData = { year, radius, baseOpacity: ringMaterial.opacity };
-        ringGroup.add(ring);
-
-        const haloMaterial = new THREE.MeshBasicMaterial({
-          color,
-          transparent: true,
-          opacity: yearIndex === 0 ? 0.08 : 0.045,
-          blending: THREE.AdditiveBlending,
-          depthWrite: false,
-          side: THREE.DoubleSide
-        });
-        const halo = new THREE.Mesh(new THREE.RingGeometry(Math.max(0.04, radius - 0.18), radius + 0.18, 224, 2), haloMaterial);
-        halo.rotation.x = -Math.PI / 2;
-        halo.userData = { pulseOffset: yearIndex * 0.9, baseOpacity: haloMaterial.opacity };
-        ringGroup.add(halo);
-
-        const yearLabel = makeTextSprite(String(year), {
-          color: yearIndex === 0 ? '#ecfeff' : yearAccent[yearIndex],
-          bg: yearIndex === 0 ? 'rgba(4,10,25,0.58)' : 'rgba(4,10,25,0.38)',
-          border: `rgba(${Math.floor(color.r * 255)},${Math.floor(color.g * 255)},${Math.floor(color.b * 255)},0.38)`,
-          width: 520,
-          height: 140,
-          size: yearIndex === 0 ? 48 : 40,
-          scaleX: yearIndex === 0 ? 1.9 : 1.25,
-          scaleY: yearIndex === 0 ? 0.5 : 0.34
-        });
-        yearLabel.position.copy(yearIndex === 0 ? new THREE.Vector3(0, 0.82, 0) : circlePoint(radius + 0.42, -0.18, 0.24));
-        labelGroup.add(yearLabel);
-      });
-
-      const hub = new THREE.Mesh(
-        new THREE.SphereGeometry(0.17, 24, 16),
-        new THREE.MeshBasicMaterial({ color: 0x67e8f9, transparent: true, opacity: 0.95, blending: THREE.AdditiveBlending })
-      );
-      hub.position.y = 0.22;
-      markerGroup.add(hub);
-      const hubGlow = new THREE.Mesh(
-        new THREE.SphereGeometry(0.52, 32, 18),
-        new THREE.MeshBasicMaterial({ color: 0x22d3ee, transparent: true, opacity: 0.1, blending: THREE.AdditiveBlending, depthWrite: false })
-      );
-      hubGlow.position.copy(hub.position);
-      markerGroup.add(hubGlow);
-
-      // Category spokes and legend labels make type distribution visible around every ring.
-      typeOrder.forEach((type, typeIndex) => {
-        const boundary = -Math.PI / 2 + typeIndex * sectorSpan;
-        const centerAngle = boundary + sectorSpan / 2;
-        const spoke = new THREE.Line(
-          new THREE.BufferGeometry().setFromPoints([circlePoint(innerRadius * 0.55, boundary, 0.006), circlePoint(outerRadius + 0.52, boundary, 0.006)]),
-          new THREE.LineBasicMaterial({ color: typeColors[type], transparent: true, opacity: 0.12, blending: THREE.AdditiveBlending, depthWrite: false })
-        );
-        connectorGroup.add(spoke);
-
-        const label = makeTextSprite((typeLabelMap[type] || type).toUpperCase(), {
-          color: typeColors[type],
-          bg: 'rgba(3,6,18,0.34)',
-          border: 'rgba(136,146,182,0.18)',
-          width: 560,
-          height: 130,
-          size: 36,
-          scaleX: 1.18,
-          scaleY: 0.28,
-          opacity: 0.78
-        });
-        label.position.copy(circlePoint(outerRadius + 1.18, centerAngle, 0.3));
-        labelGroup.add(label);
-      });
-
-      // Fixed radial bridges emphasize that zooming out reveals progressively older years.
-      [0.08, 2.18, 4.28].forEach((angle, bridgeIndex) => {
-        const bridge = new THREE.Line(
-          new THREE.BufferGeometry().setFromPoints([circlePoint(innerRadius, angle, -0.012), circlePoint(outerRadius, angle, -0.012)]),
-          new THREE.LineBasicMaterial({ color: bridgeIndex === 0 ? 0x67e8f9 : 0x818cf8, transparent: true, opacity: 0.18, blending: THREE.AdditiveBlending, depthWrite: false })
-        );
-        connectorGroup.add(bridge);
-      });
-
-      const markerGeom = new THREE.SphereGeometry(0.115, 18, 12);
-      const glowGeom = new THREE.SphereGeometry(0.27, 18, 12);
-      const markerMeshes = [];
-      const markerRecords = [];
-
-      function setOrbitPose(record, angle) {
-        const ev = record.event;
-        const typeIndex = Math.max(0, typeOrder.indexOf(ev.type || 'general'));
-        const y = 0.24 + (typeIndex % 3) * 0.055;
-        const pos = circlePoint(record.radius, angle, y);
-        record.mesh.position.copy(pos);
-        record.label.position.copy(circlePoint(record.radius + 0.36, angle, y + 0.34));
-        const attr = record.connector.geometry.attributes.position;
-        attr.setXYZ(0, pos.x, pos.y, pos.z);
-        attr.setXYZ(1, Math.cos(angle) * record.radius, 0.012, Math.sin(angle) * record.radius);
-        attr.needsUpdate = true;
-      }
-
-      RECENT_YEARS.forEach((year, yearIndex) => {
-        const radius = innerRadius + yearIndex * ringStep;
-        const byType = {};
-        typeOrder.forEach(type => { byType[type] = []; });
-        eventsByYear[year].forEach(ev => {
-          const type = typeOrder.includes(ev.type) ? ev.type : 'general';
-          byType[type].push({ ...ev, type });
-        });
-
-        typeOrder.forEach((type, typeIndex) => {
-          const typed = byType[type].sort((a, b) => String(a.date || '').localeCompare(String(b.date || '')));
-          if (!typed.length) return;
-          const sectorStart = -Math.PI / 2 + typeIndex * sectorSpan + sectorSpan * 0.1;
-          const usableSpan = sectorSpan * 0.8;
-          typed.forEach((ev, eventIndex) => {
-            const slot = (eventIndex + 1) / (typed.length + 1);
-            const baseAngle = sectorStart + slot * usableSpan + yearIndex * 0.025;
-            const color = new THREE.Color(typeColors[type] || typeColors.general);
-            const markerMaterial = new THREE.MeshBasicMaterial({
-              color,
-              transparent: true,
-              opacity: 0.96,
-              blending: THREE.AdditiveBlending,
-              depthWrite: false
-            });
-            const marker = new THREE.Mesh(markerGeom, markerMaterial);
-            const glow = new THREE.Mesh(glowGeom, new THREE.MeshBasicMaterial({
-              color,
-              transparent: true,
-              opacity: 0.16,
-              blending: THREE.AdditiveBlending,
-              depthWrite: false
-            }));
-            marker.add(glow);
-            marker.userData = { event: ev, year, type, baseScale: 1, glow };
-            markerGroup.add(marker);
-            markerMeshes.push(marker);
-
-            const connector = new THREE.Line(
-              new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(), new THREE.Vector3()]),
-              new THREE.LineBasicMaterial({ color, transparent: true, opacity: 0.24, blending: THREE.AdditiveBlending, depthWrite: false })
-            );
-            connectorGroup.add(connector);
-
-            const titleLabel = makeTextSprite(ev.title, {
-              color: '#dffbff',
-              bg: 'rgba(3,6,18,0.42)',
-              border: `rgba(${Math.floor(color.r * 255)},${Math.floor(color.g * 255)},${Math.floor(color.b * 255)},0.22)`,
-              width: 760,
-              height: 128,
-              size: 34,
-              scaleX: 1.22,
-              scaleY: 0.28,
-              opacity: 0.72
-            });
-            labelGroup.add(titleLabel);
-
-            const record = {
-              event: ev,
-              year,
-              type,
-              radius,
-              baseAngle,
-              orbitSpeed: (0.008 + yearIndex * 0.003) * (yearIndex % 2 ? -1 : 1),
-              mesh: marker,
-              label: titleLabel,
-              connector
-            };
-            markerRecords.push(record);
-            setOrbitPose(record, baseAngle);
-          });
-        });
-      });
-
-      const tooltip = document.getElementById('history3d-tooltip');
-      const raycaster = new THREE.Raycaster();
-      const pointer = new THREE.Vector2(-10, -10);
-      let hovered = null;
-
-      function updatePointer(event) {
-        const rect = renderer.domElement.getBoundingClientRect();
-        pointer.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
-        pointer.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
-      }
-
-      function positionTooltip(marker) {
-        if (!tooltip || !marker) return;
-        const rect = renderer.domElement.getBoundingClientRect();
-        const projected = marker.getWorldPosition(new THREE.Vector3()).project(camera);
-        const x = rect.left + (projected.x * 0.5 + 0.5) * rect.width;
-        const y = rect.top + (-projected.y * 0.5 + 0.5) * rect.height;
-        const width = tooltip.offsetWidth || 340;
-        const height = tooltip.offsetHeight || 150;
-        const left = Math.round(Math.min(window.innerWidth - width - 14, Math.max(14, x + 18)));
-        const top = Math.round(Math.min(window.innerHeight - height - 14, Math.max(58, y - height * 0.45)));
-        tooltip.style.transform = `translate3d(${left}px, ${top}px, 0) scale(1)`;
-      }
-
-      function setHovered(marker) {
-        if (hovered === marker) return;
-        if (hovered) hovered.userData.hovered = false;
-        hovered = marker;
-        if (!tooltip) return;
-        if (!marker) {
-          tooltip.classList.remove('visible');
-          return;
-        }
-        marker.userData.hovered = true;
-        const ev = marker.userData.event;
-        const typeLabel = (typeLabelMap[marker.userData.type] || marker.userData.type || 'general').toUpperCase();
-        tooltip.innerHTML = `<div class="tooltip-title">${safeText(ev.title)}</div>
-          <div class="tooltip-source">${safeText(ev.date)} · ${safeText(typeLabel)} · Ring ${safeText(marker.userData.year)}</div>
-          <div style="margin-top:6px;font-size:12px;color:rgba(228,228,236,0.74);line-height:1.45">${safeText(ev.desc)}</div>`;
-        positionTooltip(marker);
-        tooltip.classList.add('visible');
-      }
-
-      renderer.domElement.addEventListener('pointermove', event => {
-        updatePointer(event);
-        if (hovered) positionTooltip(hovered);
-      }, { passive: true });
-
-      renderer.domElement.addEventListener('pointerleave', () => {
-        pointer.set(-10, -10);
-        setHovered(null);
-      }, { passive: true });
-
-      const controls = new THREE.OrbitControls(camera, renderer.domElement);
-      controls.enableDamping = true;
-      controls.dampingFactor = 0.065;
-      controls.enablePan = false;
-      controls.enableZoom = true;
-      controls.minDistance = 3.1;
-      controls.maxDistance = 18;
-      controls.rotateSpeed = 0.34;
-      controls.zoomSpeed = 0.75;
-      controls.target.set(0, 0.05, 0);
-      controls.autoRotate = true;
-      controls.autoRotateSpeed = 0.22;
-      controls.update();
-
-      function resize() {
-        const { w, h } = getSize();
-        camera.aspect = w / h;
-        camera.position.y = w < 760 ? 8.8 : 9.8;
-        camera.position.z = w < 760 ? 11.5 : 10.4;
-        camera.updateProjectionMatrix();
-        renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
-        renderer.setSize(w, h);
-      }
-      resize();
-      function animate() {
-        const elapsed = clock.getElapsedTime();
-        const isActive = document.getElementById('history3d-view')?.classList.contains('active');
-
-        ringGroup.children.forEach((child, index) => {
-          if (child.material && child.userData.baseOpacity != null) {
-            child.material.opacity = child.userData.baseOpacity * (0.78 + Math.sin(elapsed * 1.6 + index * 0.32) * 0.22);
-          }
-        });
-        hub.scale.setScalar(1 + Math.sin(elapsed * 2.8) * 0.08);
-        hubGlow.scale.setScalar(1.05 + Math.sin(elapsed * 1.55) * 0.12);
-        universe.rotation.y += 0.00055;
-        stars.rotation.y -= 0.00025;
-
-        markerRecords.forEach((record, index) => {
-          const angle = record.baseAngle + elapsed * record.orbitSpeed;
-          setOrbitPose(record, angle);
-          const marker = record.mesh;
-          const isHovered = marker === hovered;
-          const pulse = 1 + Math.sin(elapsed * 2.3 + index * 0.71) * 0.08;
-          marker.scale.setScalar(isHovered ? 1.9 : pulse);
-          marker.material.opacity = isHovered ? 1 : 0.78 + Math.sin(elapsed * 1.9 + index) * 0.16;
-          marker.userData.glow.material.opacity = isHovered ? 0.42 : 0.13 + Math.sin(elapsed * 1.7 + index) * 0.05;
-          record.label.material.opacity = isHovered ? 1 : 0.52 + Math.sin(elapsed * 1.2 + index) * 0.08;
-          record.connector.material.opacity = isHovered ? 0.62 : 0.18 + Math.sin(elapsed * 1.45 + index) * 0.05;
-        });
-
-        raycaster.setFromCamera(pointer, camera);
-        const hits = raycaster.intersectObjects(markerMeshes, false);
-        setHovered(hits.length ? hits[0].object : null);
-        positionTooltip(hovered);
-
-        controls.autoRotate = !hovered;
-        controls.update();
-        renderer.render(scene, camera);
-        history3D.animId = isActive ? requestAnimationFrame(animate) : null;
-      }
-
-      window.addEventListener('resize', resize, { passive: true });
-      history3D = { scene, camera, renderer, controls, meshes: markerMeshes, animate, resize, tooltip };
-      resize();
-      animate();
-    }
-
     // Deactivate 3D history when leaving view
-    function stopHistory3D() {
-      if (history3D && history3D.animId) {
-        cancelAnimationFrame(history3D.animId);
-        history3D.animId = null;
-      }
-      // Dispose WebGL context to avoid GPU memory leak on Safari/iOS
-      if (history3D && history3D.renderer) {
-        history3D.renderer.dispose();
-        history3D.renderer.forceContextLoss();
-        history3D.renderer = null;
-      }
-      if (history3D && history3D.scene) {
-        history3D.scene.traverse(obj => {
-          if (obj.geometry) obj.geometry.dispose();
-          if (obj.material) {
-            if (obj.material.map) obj.material.map.dispose();
-            obj.material.dispose();
-          }
-        });
-        history3D.scene = null;
-      }
-      history3D = null;
-      // Restore loading indicator for next visit
-      const loadingEl = document.getElementById('history3d-loading');
-      if(loadingEl) loadingEl.style.display = 'flex';
-    }
-
-    // Update nav click handler to init/stop 3D History
+    // Update nav click handler
     document.querySelectorAll('.nav-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('.nav-btn').forEach(b => {
@@ -1500,8 +950,7 @@
         const view = document.getElementById(btn.dataset.view + '-view');
         if (view) view.classList.add('active');
         if (btn.dataset.view === 'globe' && typeof animate === 'function') { if (window._animId) cancelAnimationFrame(window._animId); animate(); }
-        if (btn.dataset.view === 'history3d') { initHistory3D(); }
-        else { stopHistory3D(); }
+
         // Screen reader announcement
         const t = I18N[currentLang] || I18N['zh-HK'];
         const viewName = btn.textContent.trim();
@@ -1521,9 +970,9 @@
     document.addEventListener('keydown', (e) => {
       if (e.key === 'F7') { e.preventDefault(); return; }
 
-      // Number keys 1-4: switch views
+      // Number keys 1-3: switch views
       const globeView = document.getElementById('globe-view');
-      const viewMap = { '1': 'globe', '2': 'timeline', '3': 'feed', '4': 'history3d' };
+      const viewMap = { '1': 'globe', '2': 'timeline', '3': 'feed' };
       if (e.key in viewMap && !e.ctrlKey && !e.metaKey && !e.altKey) {
         const target = viewMap[e.key];
         const btn = document.querySelector(`.nav-btn[data-view="${target}"]`);
@@ -1531,6 +980,30 @@
         e.preventDefault(); return;
       }
 
+      // Key 4: zoom out to history rings distance
+      if (e.key === '4' && !e.ctrlKey && !e.metaKey && !e.altKey && globeView && globeView.classList.contains('active')) {
+        const center = new THREE.Vector3(0, -0.4, 0);
+        const dir = camera.position.clone().sub(center).normalize();
+        const TARGET_DIST = 20;
+        const duration = 800;
+        const startDist = camera.position.distanceTo(center);
+        const startTime = performance.now();
+        function zoomAnim(now) {
+          const elapsed = now - startTime;
+          const t = Math.min(1, elapsed / duration);
+          const eased = 1 - Math.pow(1 - t, 3); // ease-out cubic
+          const dist = startDist + (TARGET_DIST - startDist) * eased;
+          camera.position.copy(center.clone().add(dir.clone().multiplyScalar(dist)));
+          camera.lookAt(center);
+          controls.target.copy(center);
+          controls.update();
+          renderer.render(scene, camera);
+          if (t < 1) requestAnimationFrame(zoomAnim);
+        }
+        requestAnimationFrame(zoomAnim);
+        pauseAutoRotate();
+        e.preventDefault(); return;
+      }
       // Escape
       if (e.key === 'Escape') {
         const dd = document.getElementById('langDropdown');
@@ -1548,7 +1021,7 @@
       // Globe camera orbit
       if (globeView && globeView.classList.contains('active')) {
         const K = 0.25;
-        
+      
         let orbitDelta = null;
         if (e.key === 'ArrowLeft'  || e.key === 'a') orbitDelta = {dTheta: -K, dPhi: 0, dZoom: 0};
         if (e.key === 'ArrowRight' || e.key === 'd') orbitDelta = {dTheta: K, dPhi: 0, dZoom: 0};
