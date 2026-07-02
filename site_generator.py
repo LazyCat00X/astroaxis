@@ -19,7 +19,7 @@ log = logging.getLogger("sitegen")
 
 SITE_TITLE = "AstroAxis 鏈聞"
 SITE_DESCRIPTION = "全球加密貨幣與金融新聞・AI 摘要・繁體中文"
-BASE_URL = "https://kevyn-news.pages.dev"
+BASE_URL = "https://lazycat00x.github.io/astroaxis-site"
 
 HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="zh-HK">
