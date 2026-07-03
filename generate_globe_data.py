@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
-"""Generate globe.html with fresh article data for AstroAxis deploy."""
-import json, re, os, sys
+"""Generate deploy/index.html + data files for AstroAxis.
+
+globe.html now uses dynamic fetch('news-data.json') and fetch('timeline-data.json')
+instead of inline injection. This script writes those JSON files into deploy/ and
+copies globe.html as deploy/index.html.
+"""
+import json, re, sys
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
+DEPLOY_DIR = BASE_DIR / "deploy"
 SRC_LOCS_PATHS = [
     DATA_DIR / "source_locs.json",
     Path("/tmp/source_locs.json"),
@@ -57,11 +63,11 @@ def load_source_locs():
             with open(path) as f:
                 return json.load(f)
     # Try extracting from existing deploy/index.html
-    deploy_html = BASE_DIR / "deploy" / "index.html"
+    deploy_html = DEPLOY_DIR / "index.html"
     if deploy_html.exists():
         with open(deploy_html) as f:
             html = f.read()
-        m = re.search(r'"sourceLocations":(\{[^}]+?\})', html)
+        m = re.search(r'"sourceLocations":(\{[^}]+\})', html)
         if m:
             try:
                 return json.loads(m.group(1))
@@ -84,29 +90,6 @@ def main():
     summarized.sort(key=lambda a: a.get("published", ""), reverse=True)
     summarized = summarized[:100]
 
-    # Read globe template
-    with open(BASE_DIR / "globe.html") as f:
-        html = f.read()
-
-    # Find NEWS_DATA using brace counting (handles nested {})
-    marker = "const NEWS_DATA = "
-    start = html.find(marker)
-    if start == -1:
-        print("ERROR: Could not find NEWS_DATA in globe.html", file=sys.stderr)
-        sys.exit(1)
-    data_start = html.index("{", start)
-    depth = 0
-    end = data_start
-    for ch in html[data_start:]:
-        end += 1
-        if ch == "{":
-            depth += 1
-        elif ch == "}":
-            depth -= 1
-        if depth == 0:
-            break
-    old_text = html[start:end]
-
     # Build article payload
     articles_out = []
     for a in summarized:
@@ -122,42 +105,38 @@ def main():
         })
 
     source_locs = load_source_locs()
-    news_data = json.dumps(
-        {"articles": articles_out, "sourceLocations": source_locs},
-        ensure_ascii=False,
-    )
-    html = html.replace(old_text, f"const NEWS_DATA = {news_data};")
+    news_data = {
+        "articles": articles_out,
+        "sourceLocations": source_locs,
+    }
 
-    # ── Inject timeline data (recent 5 years for speed) ──
+    # Write news-data.json to deploy directory
+    DEPLOY_DIR.mkdir(parents=True, exist_ok=True)
+    news_json_path = DEPLOY_DIR / "news-data.json"
+    with open(news_json_path, "w") as f:
+        json.dump(news_data, f, ensure_ascii=False)
+    print(f"Wrote {len(articles_out)} articles to {news_json_path}")
+
+    # Write timeline-data.json to deploy directory
     timeline_file = DATA_DIR / "timeline_recent.json"
     if timeline_file.exists():
         with open(timeline_file) as f:
             timeline_data = json.load(f)
-        timeline_json = json.dumps(timeline_data, ensure_ascii=False)
-        # Replace hardcoded timelineData using brace counting
-        tl_marker = "const timelineData = "
-        tl_start = html.find(tl_marker)
-        if tl_start >= 0:
-            tl_brace = html.index("{", tl_start)
-            depth = 0
-            tl_end = tl_brace
-            for ch in html[tl_brace:]:
-                tl_end += 1
-                if ch == "{": depth += 1
-                elif ch == "}": depth -= 1
-                if depth == 0: break
-            html = html.replace(html[tl_start:tl_end], f"{tl_marker}{timeline_json}")
-            total_events = sum(len(v) for v in timeline_data.values())
-            print(f"Injected timeline: {total_events} events, {len(timeline_data)} years")
-        else:
-            print("WARNING: Could not find timelineData in globe.html", file=sys.stderr)
+        tl_path = DEPLOY_DIR / "timeline-data.json"
+        with open(tl_path, "w") as f:
+            json.dump(timeline_data, f, ensure_ascii=False)
+        total_events = sum(len(v) for v in timeline_data.values())
+        print(f"Wrote timeline: {total_events} events, {len(timeline_data)} years")
     else:
-        print("WARNING: data/timeline.json not found, using hardcoded timeline", file=sys.stderr)
+        print("WARNING: data/timeline_recent.json not found, skipping timeline", file=sys.stderr)
 
-    with open(BASE_DIR / "deploy" / "index.html", "w") as f:
+    # Copy globe.html as deploy/index.html (no inline injection needed)
+    with open(BASE_DIR / "globe.html") as f:
+        html = f.read()
+    index_path = DEPLOY_DIR / "index.html"
+    with open(index_path, "w") as f:
         f.write(html)
-
-    print(f"Generated globe with {len(articles_out)} articles, {len(source_locs)} source locations")
+    print(f"Copied globe.html -> {index_path}")
 
 
 if __name__ == "__main__":

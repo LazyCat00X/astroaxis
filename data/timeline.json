@@ -283,13 +283,6 @@
       "type": "politics"
     },
     {
-      "date": "2014-06-29",
-      "title": "The Islamic State of Iraq and the Levant self-declares its caliphate in Syria an",
-      "desc": "The Islamic State of Iraq and the Levant self-declares its caliphate in Syria and northern Iraq.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2014-02-20",
       "title": "Ukraine Revolution",
       "desc": "Euromaidan protests lead to Ukrainian president ousted",
@@ -302,6 +295,13 @@
       "title": "Nelson Mandela Dies",
       "desc": "Anti-apartheid icon dies at 95",
       "type": "politics"
+    },
+    {
+      "date": "2013-07-03",
+      "title": "President of Egypt Mohamed Morsi is removed from office by the military after fo",
+      "desc": "President of Egypt Mohamed Morsi is removed from office by the military after four days of protests all over the country calling for his resignation, to which he did not respond. The president of the ",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "2013-06-06",
@@ -328,13 +328,6 @@
       "title": "Higgs Boson Discovery",
       "desc": "CERN announces discovery of the Higgs boson particle",
       "type": "science"
-    },
-    {
-      "date": "2012-06-29",
-      "title": "A derecho sweeps across the eastern United States, leaving at least 22 people de",
-      "desc": "A derecho sweeps across the eastern United States, leaving at least 22 people dead and millions without power.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "2012-01-18",
@@ -431,13 +424,6 @@
       "type": "tech"
     },
     {
-      "date": "2007-06-29",
-      "title": "Apple Inc. releases its first mobile phone, the iPhone.",
-      "desc": "Apple Inc. releases its first mobile phone, the iPhone.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2007-01-09",
       "title": "iPhone Unveiled",
       "desc": "Steve Jobs introduces the first iPhone",
@@ -446,9 +432,9 @@
   ],
   "2006": [
     {
-      "date": "2006-06-29",
-      "title": "Hamdan v. Rumsfeld: The U.S. Supreme Court rules that President George W. Bush's",
-      "desc": "Hamdan v. Rumsfeld: The U.S. Supreme Court rules that President George W. Bush's plan to try Guantanamo Bay detainees in military tribunals violates U.S. and international law.",
+      "date": "2006-07-03",
+      "title": "The Valencia Metro derailment kills 41 people.",
+      "desc": "The Valencia Metro derailment kills 41 people.",
       "type": "tech",
       "source": "wikipedia"
     }
@@ -505,15 +491,6 @@
       "title": "Columbia Disaster",
       "desc": "Space Shuttle Columbia disintegrates on re-entry",
       "type": "disaster"
-    }
-  ],
-  "2002": [
-    {
-      "date": "2002-06-29",
-      "title": "Naval clashes between South Korea and North Korea lead to the death of six South",
-      "desc": "Naval clashes between South Korea and North Korea lead to the death of six South Korean sailors and sinking of a North Korean vessel.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "2001": [
@@ -592,26 +569,21 @@
       "type": "tech"
     }
   ],
+  "1996": [
+    {
+      "date": "1996-07-03",
+      "title": "British Prime Minister John Major announced the Stone of Scone would be returned",
+      "desc": "British Prime Minister John Major announced the Stone of Scone would be returned to Scotland.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1995": [
     {
       "date": "1995-12-14",
       "title": "Dayton Agreement",
       "desc": "Peace agreement ends Bosnian War",
       "type": "politics"
-    },
-    {
-      "date": "1995-06-29",
-      "title": "Space Shuttle program: STS-71 Mission (Atlantis) docks with the Russian space st",
-      "desc": "Space Shuttle program: STS-71 Mission (Atlantis) docks with the Russian space station Mir for the first time.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1995-06-29",
-      "title": "The Sampoong Department Store collapses in the Seocho District of Seoul, South K",
-      "desc": "The Sampoong Department Store collapses in the Seocho District of Seoul, South Korea, killing 502 and injuring 937.",
-      "type": "disaster",
-      "source": "wikipedia"
     },
     {
       "date": "1995-04-19",
@@ -734,6 +706,20 @@
       "title": "Morris Worm",
       "desc": "First major internet worm infects 6000 computers",
       "type": "tech"
+    },
+    {
+      "date": "1988-07-03",
+      "title": "United States Navy warship USS Vincennes shoots down Iran Air Flight 655 over th",
+      "desc": "United States Navy warship USS Vincennes shoots down Iran Air Flight 655 over the Persian Gulf, killing all 290 people aboard.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1988-07-03",
+      "title": "The Fatih Sultan Mehmet Bridge in Istanbul, Turkey is completed, providing the s",
+      "desc": "The Fatih Sultan Mehmet Bridge in Istanbul, Turkey is completed, providing the second connection between the continents of Europe and Asia over the Bosphorus.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1987": [
@@ -742,13 +728,6 @@
       "title": "Black Monday",
       "desc": "Global stock market crash, Dow drops 22.6%",
       "type": "finance"
-    },
-    {
-      "date": "1987-06-29",
-      "title": "Vincent van Gogh's painting, the Le Pont de Trinquetaille, is bought for $20.4 m",
-      "desc": "Vincent van Gogh's painting, the Le Pont de Trinquetaille, is bought for $20.4 million at an auction in London, England.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1987-06-28",
@@ -829,6 +808,13 @@
   ],
   "1979": [
     {
+      "date": "1979-07-03",
+      "title": "U.S. President Jimmy Carter signs the first directive for secret aid to the oppo",
+      "desc": "U.S. President Jimmy Carter signs the first directive for secret aid to the opponents of the pro-Soviet regime in Kabul.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1979-04-01",
       "title": "Iran Islamic Republic",
       "desc": "Iran becomes Islamic Republic after referendum",
@@ -877,20 +863,6 @@
       "type": "science"
     },
     {
-      "date": "1976-06-29",
-      "title": "The Seychelles become independent from the United Kingdom.",
-      "desc": "The Seychelles become independent from the United Kingdom.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1976-06-29",
-      "title": "The Conference of Communist and Workers Parties of Europe convenes in East Berli",
-      "desc": "The Conference of Communist and Workers Parties of Europe convenes in East Berlin.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1976-06-28",
       "title": "Angola Mercenaries Trial",
       "desc": "US and UK mercenaries sentenced to death in Angola",
@@ -898,13 +870,6 @@
     }
   ],
   "1975": [
-    {
-      "date": "1975-06-29",
-      "title": "Pope Paul VI ordains some 350 priests in St. Peter's Square in the largest ordin",
-      "desc": "Pope Paul VI ordains some 350 priests in St. Peter's Square in the largest ordination in history",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1975-04-30",
       "title": "Vietnam War Ends",
@@ -926,20 +891,6 @@
       "type": "politics"
     },
     {
-      "date": "1974-06-29",
-      "title": "Vice President Isabel Perón assumes powers and duties as Acting President of Arg",
-      "desc": "Vice President Isabel Perón assumes powers and duties as Acting President of Argentina, while her husband President Juan Perón is terminally ill.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1974-06-29",
-      "title": "Mikhail Baryshnikov defects from the Soviet Union to Canada while on tour with t",
-      "desc": "Mikhail Baryshnikov defects from the Soviet Union to Canada while on tour with the Kirov Ballet.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1974-02-01",
       "title": "Brazil Oil Crisis",
       "desc": "First oil shock hits Brazil, triggering economic changes",
@@ -954,6 +905,13 @@
       "type": "finance"
     },
     {
+      "date": "1973-07-03",
+      "title": "David Bowie retires his stage persona Ziggy Stardust with the surprise announcem",
+      "desc": "David Bowie retires his stage persona Ziggy Stardust with the surprise announcement that it is \"the last show that we'll ever do\" on the last day of the Ziggy Stardust Tour.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1973-06-28",
       "title": "NI Assembly Elections",
       "desc": "Northern Ireland Assembly elections held",
@@ -966,20 +924,6 @@
       "title": "Munich Massacre",
       "desc": "Palestinian terrorists kill Israeli athletes at Olympics",
       "type": "disaster"
-    },
-    {
-      "date": "1972-06-29",
-      "title": "The United States Supreme Court rules in the case Furman v. Georgia that arbitra",
-      "desc": "The United States Supreme Court rules in the case Furman v. Georgia that arbitrary and inconsistent imposition of the death penalty violates the Eighth and Fourteenth Amendments and constitutes cruel ",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1972-06-29",
-      "title": "A Convair CV-580 and De Havilland Canada DHC-6 Twin Otter collide above Lake Win",
-      "desc": "A Convair CV-580 and De Havilland Canada DHC-6 Twin Otter collide above Lake Winnebago near Appleton, Wisconsin, killing 13.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1972-02-21",
@@ -1000,11 +944,20 @@
       "title": "Bretton Woods Ends",
       "desc": "Nixon ends gold standard, floating exchange rates begin",
       "type": "finance"
+    }
+  ],
+  "1970": [
+    {
+      "date": "1970-07-03",
+      "title": "The Troubles: The \"Falls Curfew\" begins in Belfast, Northern Ireland.",
+      "desc": "The Troubles: The \"Falls Curfew\" begins in Belfast, Northern Ireland.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
-      "date": "1971-06-29",
-      "title": "Prior to re-entry (following a record-setting stay aboard the Soviet Union's Sal",
-      "desc": "Prior to re-entry (following a record-setting stay aboard the Soviet Union's Salyut 1 space station), the crew capsule of the Soyuz 11 spacecraft depressurizes, killing the three cosmonauts on board. ",
+      "date": "1970-07-03",
+      "title": "Dan-Air Flight 1903 crashes into the Les Agudes mountain in the Montseny Massif ",
+      "desc": "Dan-Air Flight 1903 crashes into the Les Agudes mountain in the Montseny Massif near the village of Arbúcies in Catalonia, Spain, killing all 112 people aboard.",
       "type": "tech",
       "source": "wikipedia"
     }
@@ -1055,6 +1008,13 @@
       "title": "Che Guevara Killed",
       "desc": "Revolutionary Che Guevara executed in Bolivia",
       "type": "politics"
+    },
+    {
+      "date": "1967-07-03",
+      "title": "The Aden Emergency: The Battle of the Crater in which the British Argyll and Sut",
+      "desc": "The Aden Emergency: The Battle of the Crater in which the British Argyll and Sutherland Highlanders retake the Crater district following the Arab Police mutiny.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1967-06-05",
@@ -1183,13 +1143,6 @@
       "type": "politics"
     },
     {
-      "date": "1956-06-29",
-      "title": "The Federal Aid Highway Act of 1956 is signed by U.S. President Dwight D. Eisenh",
-      "desc": "The Federal Aid Highway Act of 1956 is signed by U.S. President Dwight D. Eisenhower, officially creating the United States Interstate Highway System.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1956-06-28",
       "title": "Poznań Protests",
       "desc": "Polish workers protests against communist government",
@@ -1246,10 +1199,17 @@
       "type": "science"
     },
     {
-      "date": "1952-06-29",
-      "title": "The first Miss Universe pageant is held. Armi Kuusela from Finland wins the titl",
-      "desc": "The first Miss Universe pageant is held. Armi Kuusela from Finland wins the title of Miss Universe 1952.",
-      "type": "general",
+      "date": "1952-07-03",
+      "title": "The Constitution of Puerto Rico is approved by the United States Congress.",
+      "desc": "The Constitution of Puerto Rico is approved by the United States Congress.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1952-07-03",
+      "title": "The SS United States sets sail on her maiden voyage to Southampton. During the v",
+      "desc": "The SS United States sets sail on her maiden voyage to Southampton. During the voyage, the ship takes the Blue Riband away from the RMS Queen Mary.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -1273,13 +1233,6 @@
       "title": "China Enters Korean War",
       "desc": "Chinese forces engage UN troops in Korea",
       "type": "politics"
-    },
-    {
-      "date": "1950-06-29",
-      "title": "Korean War: U.S. President Harry S. Truman authorizes a sea blockade of Korea.",
-      "desc": "Korean War: U.S. President Harry S. Truman authorizes a sea blockade of Korea.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1950-06-28",
@@ -1362,13 +1315,6 @@
       "type": "disaster"
     },
     {
-      "date": "1945-06-29",
-      "title": "The Soviet Union annexes the Czechoslovak province of Carpathian Ruthenia.",
-      "desc": "The Soviet Union annexes the Czechoslovak province of Carpathian Ruthenia.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1945-06-28",
       "title": "Poland Government",
       "desc": "Soviet-backed government formed in Poland",
@@ -1387,6 +1333,13 @@
       "title": "Hitler Assassination Attempt",
       "desc": "Operation Valkyrie: von Stauffenberg tries to kill Hitler",
       "type": "politics"
+    },
+    {
+      "date": "1944-07-03",
+      "title": "World War II: The Minsk Offensive clears German troops from the city.",
+      "desc": "World War II: The Minsk Offensive clears German troops from the city.",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "1944-06-06",
@@ -1409,6 +1362,15 @@
       "type": "politics"
     }
   ],
+  "1940": [
+    {
+      "date": "1940-07-03",
+      "title": "World War II: The Royal Navy attacks the French naval squadron in Algeria, to en",
+      "desc": "World War II: The Royal Navy attacks the French naval squadron in Algeria, to ensure that it will not fall under German control. Of the four French battleships present, one is sunk, two are damaged, a",
+      "type": "politics",
+      "source": "wikipedia"
+    }
+  ],
   "1939": [
     {
       "date": "1939-09-01",
@@ -1421,6 +1383,22 @@
       "title": "Molotov-Ribbentrop Pact",
       "desc": "Germany and USSR sign non-aggression pact",
       "type": "politics"
+    }
+  ],
+  "1938": [
+    {
+      "date": "1938-07-03",
+      "title": "World speed record for a steam locomotive is set in England, by the Mallard, whi",
+      "desc": "World speed record for a steam locomotive is set in England, by the Mallard, which reaches a speed of 125.88 miles per hour (202.58 km/h).",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1938-07-03",
+      "title": "United States President Franklin D. Roosevelt dedicates the Eternal Light Peace ",
+      "desc": "United States President Franklin D. Roosevelt dedicates the Eternal Light Peace Memorial and lights the eternal flame at Gettysburg Battlefield.",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "1937": [
@@ -1495,13 +1473,6 @@
       "type": "general"
     },
     {
-      "date": "1927-06-29",
-      "title": "The Bird of Paradise, a U.S. Army Air Corps Fokker tri-motor, completes the firs",
-      "desc": "The Bird of Paradise, a U.S. Army Air Corps Fokker tri-motor, completes the first transpacific flight, from the mainland United States to Hawaii.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1927-05-20",
       "title": "Lindbergh Flies Atlantic",
       "desc": "Charles Lindbergh completes first solo transatlantic flight",
@@ -1536,13 +1507,6 @@
       "title": "USSR Founded",
       "desc": "Soviet Union officially established",
       "type": "politics"
-    },
-    {
-      "date": "1922-06-29",
-      "title": "France grants \"one square kilometer\" at Vimy Ridge \"freely, and for all time, to",
-      "desc": "France grants \"one square kilometer\" at Vimy Ridge \"freely, and for all time, to the Government of Canada, the free use of the land exempt from all taxes\".",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1922-06-28",
@@ -1607,24 +1571,6 @@
       "type": "politics"
     }
   ],
-  "1916": [
-    {
-      "date": "1916-06-29",
-      "title": "British diplomat turned Irish nationalist Roger Casement is sentenced to death f",
-      "desc": "British diplomat turned Irish nationalist Roger Casement is sentenced to death for his part in the Easter Rising.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
-  "1915": [
-    {
-      "date": "1915-06-29",
-      "title": "The North Saskatchewan River flood of 1915 is the worst flood in Edmonton histor",
-      "desc": "The North Saskatchewan River flood of 1915 is the worst flood in Edmonton history.",
-      "type": "climate",
-      "source": "wikipedia"
-    }
-  ],
   "1914": [
     {
       "date": "1914-07-28",
@@ -1641,10 +1587,10 @@
   ],
   "1913": [
     {
-      "date": "1913-06-29",
-      "title": "The Bulgarian army launches attacks against Serbian positions, triggering the Se",
-      "desc": "The Bulgarian army launches attacks against Serbian positions, triggering the Second Balkan War.",
-      "type": "tech",
+      "date": "1913-07-03",
+      "title": "Confederate veterans at the Great Reunion of 1913 reenact Pickett's Charge; upon",
+      "desc": "Confederate veterans at the Great Reunion of 1913 reenact Pickett's Charge; upon reaching the high-water mark of the Confederacy they are met by the outstretched hands of friendship from Union survivo",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -1674,6 +1620,15 @@
       "title": "Nakhla Meteorite",
       "desc": "Meteorite falls in Egypt, first to suggest signs of water on Mars",
       "type": "science"
+    }
+  ],
+  "1908": [
+    {
+      "date": "1908-07-03",
+      "title": "Start of the Young Turk Revolution in the Ottoman Empire, forcing Sultan Abdul H",
+      "desc": "Start of the Young Turk Revolution in the Ottoman Empire, forcing Sultan Abdul Hamid II leads to restore the Constitution of 1876 and reconvene the parliament.",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "1905": [

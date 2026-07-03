@@ -9,9 +9,12 @@ ARTICLES_FILE = DATA_DIR / "articles.json"
 log = logging.getLogger("pipeline")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
-API_URL = "https://api.deepseek.com/v1/chat/completions"
-MODEL = "deepseek-chat"
-MAX_PER_RUN = int(os.environ.get("MAX_ARTICLES_PER_RUN", "10"))
+# GitHub Models API (free) - https://models.github.ai/inference
+API_URL = "https://models.github.ai/inference/chat/completions"
+MODEL = "openai/gpt-4o-mini"  # Free, fast, good quality
+MAX_PER_RUN = int(os.environ.get("MAX_ARTICLES_PER_RUN", "30"))
+# Rate limit handling (GitHub free tier: 15 RPM)
+RATE_LIMIT_DELAY = 4  # seconds between API calls (60s/15 = 4s)
 
 def get_api_key():
     KEY = ""
@@ -21,7 +24,7 @@ def get_api_key():
         if p.exists():
             with open(p) as f:
                 for line in f:
-                    if line.startswith("DEEPSEEK_API_KEY="):
+                    if line.startswith("GITHUB_MODELS_TOKEN="):
                         KEY = line.split("=", 1)[1].strip()
                         break
         if KEY:
@@ -201,7 +204,7 @@ def run():
         count += 1
         # Save after each article so partial progress isn't lost on timeout
         save_articles(articles)
-        time.sleep(2)
+        time.sleep(RATE_LIMIT_DELAY)
     if count == 0:
         save_articles(articles)  # save any skipped articles
     log.info("Done: %d articles", count)

@@ -13,9 +13,12 @@ echo "[$(date -u)] Pipeline done."
 # Step 2: Copy to deploy repo
 cp output/index.html deploy/index.html
 
-# Step 3: Commit and push
+# Step 3: Generate external news JSON
+python3 generate_news_json.py
+
+# Step 4: Commit and push
 cd deploy
-git add index.html
+git add index.html news-data.json
 # Only commit if there are changes
 if git diff --cached --quiet; then
     echo "[$(date -u)] No changes to deploy."

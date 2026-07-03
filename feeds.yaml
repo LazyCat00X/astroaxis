@@ -140,7 +140,11 @@ sources:
     url: https://time.com/feed/
     category: general
     lang: en
-  - name: The Economist
-    url: https://www.economist.com/feeds/print-sections/77/business.xml
-    category: general
+  - name: Financial Times
+    url: https://www.ft.com/rss/home
+    category: finance
+    lang: en
+  - name: MarketWatch
+    url: https://www.marketwatch.com/rss/topstories
+    category: finance
     lang: en

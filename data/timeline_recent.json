@@ -1,180 +1,28 @@
 {
-  "2017": [
+  "2026": [
     {
-      "date": "2017-12-17",
-      "title": "Bitcoin Futures Launch",
-      "desc": "CME launches Bitcoin futures, BTC peaks near $20K",
+      "date": "2026-06-27",
+      "title": "Binance EU Exit",
+      "desc": "Binance fails MiCA license, withdraws from EU market",
       "type": "crypto"
     },
     {
-      "date": "2017-09-15",
-      "title": "Bitcoin China Ban",
-      "desc": "China orders closure of all crypto exchanges",
-      "type": "crypto"
-    },
-    {
-      "date": "2017-06-01",
-      "title": "US Withdraws Paris Accord",
-      "desc": "Trump announces US withdrawal from climate agreement",
-      "type": "politics"
-    }
-  ],
-  "2018": [
-    {
-      "date": "2018-06-12",
-      "title": "Trump-Kim Summit",
-      "desc": "First US-North Korea summit in Singapore",
-      "type": "politics"
-    },
-    {
-      "date": "2018-02-06",
-      "title": "Falcon Heavy Launch",
-      "desc": "SpaceX launches Falcon Heavy, world's most powerful rocket",
-      "type": "tech"
-    }
-  ],
-  "2019": [
-    {
-      "date": "2019-12-01",
-      "title": "COVID-19 First Cases",
-      "desc": "First cases of novel coronavirus detected in Wuhan",
+      "date": "2026-06-24",
+      "title": "Venezuela Earthquake",
+      "desc": "Dual 7.5M earthquakes, 1400+ casualties",
       "type": "disaster"
     },
     {
-      "date": "2019-04-15",
-      "title": "Notre Dame Fire",
-      "desc": "Major fire devastates Notre Dame Cathedral in Paris",
-      "type": "disaster"
-    },
-    {
-      "date": "2019-01-01",
-      "title": "Chang'e 4 Moon Landing",
-      "desc": "China lands first spacecraft on far side of Moon",
-      "type": "science"
-    }
-  ],
-  "2020": [
-    {
-      "date": "2020-03-11",
-      "title": "COVID-19 Pandemic",
-      "desc": "WHO declares COVID-19 a global pandemic",
-      "type": "disaster"
-    },
-    {
-      "date": "2020-01-31",
-      "title": "Brexit",
-      "desc": "United Kingdom officially leaves the European Union",
+      "date": "2026-04-05",
+      "title": "Iran-US Peace Deal",
+      "desc": "Historic ceasefire signed between US and Iran",
       "type": "politics"
     },
     {
-      "date": "2020-01-03",
-      "title": "Qasem Soleimani Killed",
-      "desc": "US drone strike kills Iranian general in Baghdad",
-      "type": "politics"
-    }
-  ],
-  "2021": [
-    {
-      "date": "2021-11-10",
-      "title": "Bitcoin ATH $69K",
-      "desc": "Bitcoin reaches all-time high of $69,000",
-      "type": "crypto"
-    },
-    {
-      "date": "2021-08-15",
-      "title": "Taliban Take Kabul",
-      "desc": "Taliban seizes Afghan capital, US withdrawal ends",
-      "type": "politics"
-    },
-    {
-      "date": "2021-02-18",
-      "title": "Mars Landing",
-      "desc": "NASA Perseverance rover lands on Mars",
-      "type": "science"
-    },
-    {
-      "date": "2021-01-06",
-      "title": "US Capitol Attack",
-      "desc": "Supporters of President Trump storm the Capitol",
-      "type": "politics"
-    }
-  ],
-  "2022": [
-    {
-      "date": "2022-11-30",
-      "title": "ChatGPT Launched",
-      "desc": "OpenAI releases ChatGPT, sparking AI revolution",
+      "date": "2026-02-10",
+      "title": "AI Model Proliferation",
+      "desc": "Multiple nations launch sovereign AI models",
       "type": "tech"
-    },
-    {
-      "date": "2022-09-08",
-      "title": "Queen Elizabeth II Dies",
-      "desc": "Longest-reigning British monarch dies at 96",
-      "type": "politics"
-    },
-    {
-      "date": "2022-02-24",
-      "title": "Russia Invades Ukraine",
-      "desc": "Full-scale invasion begins, major European conflict",
-      "type": "politics"
-    },
-    {
-      "date": "2022-01-05",
-      "title": "Bitcoin Crashes",
-      "desc": "Bitcoin drops 50% from Nov 2021 high of $69K",
-      "type": "crypto"
-    }
-  ],
-  "2023": [
-    {
-      "date": "2023-10-07",
-      "title": "Israel-Gaza War",
-      "desc": "Hamas attack triggers major conflict",
-      "type": "politics"
-    },
-    {
-      "date": "2023-07-19",
-      "title": "Global Temperature Record",
-      "desc": "Hottest month ever recorded globally",
-      "type": "climate"
-    },
-    {
-      "date": "2023-05-06",
-      "title": "King Charles Coronation",
-      "desc": "Charles III crowned King of the United Kingdom",
-      "type": "politics"
-    },
-    {
-      "date": "2023-03-14",
-      "title": "GPT-4 Released",
-      "desc": "OpenAI releases GPT-4, advancing AI capabilities",
-      "type": "tech"
-    }
-  ],
-  "2024": [
-    {
-      "date": "2024-11-05",
-      "title": "US Presidential Election",
-      "desc": "2024 United States presidential election",
-      "type": "politics"
-    },
-    {
-      "date": "2024-07-21",
-      "title": "Global Heatwave Record",
-      "desc": "Hottest day on record globally",
-      "type": "climate"
-    },
-    {
-      "date": "2024-03-15",
-      "title": "EU AI Act Passed",
-      "desc": "European Parliament passes landmark AI regulation",
-      "type": "tech"
-    },
-    {
-      "date": "2024-01-10",
-      "title": "Bitcoin ETF Approved",
-      "desc": "SEC approves first spot Bitcoin ETFs",
-      "type": "finance"
     }
   ],
   "2025": [
@@ -203,30 +51,82 @@
       "type": "politics"
     }
   ],
-  "2026": [
+  "2024": [
     {
-      "date": "2026-06-27",
-      "title": "Binance EU Exit",
-      "desc": "Binance fails MiCA license, withdraws from EU market",
-      "type": "crypto"
-    },
-    {
-      "date": "2026-06-24",
-      "title": "Venezuela Earthquake",
-      "desc": "Dual 7.5M earthquakes, 1400+ casualties",
-      "type": "disaster"
-    },
-    {
-      "date": "2026-04-05",
-      "title": "Iran-US Peace Deal",
-      "desc": "Historic ceasefire signed between US and Iran",
+      "date": "2024-11-05",
+      "title": "US Presidential Election",
+      "desc": "2024 United States presidential election",
       "type": "politics"
     },
     {
-      "date": "2026-02-10",
-      "title": "AI Model Proliferation",
-      "desc": "Multiple nations launch sovereign AI models",
+      "date": "2024-07-21",
+      "title": "Global Heatwave Record",
+      "desc": "Hottest day on record globally",
+      "type": "climate"
+    },
+    {
+      "date": "2024-03-15",
+      "title": "EU AI Act Passed",
+      "desc": "European Parliament passes landmark AI regulation",
       "type": "tech"
+    },
+    {
+      "date": "2024-01-10",
+      "title": "Bitcoin ETF Approved",
+      "desc": "SEC approves first spot Bitcoin ETFs",
+      "type": "finance"
+    }
+  ],
+  "2023": [
+    {
+      "date": "2023-10-07",
+      "title": "Israel-Gaza War",
+      "desc": "Hamas attack triggers major conflict",
+      "type": "politics"
+    },
+    {
+      "date": "2023-07-19",
+      "title": "Global Temperature Record",
+      "desc": "Hottest month ever recorded globally",
+      "type": "climate"
+    },
+    {
+      "date": "2023-05-06",
+      "title": "King Charles Coronation",
+      "desc": "Charles III crowned King of the United Kingdom",
+      "type": "politics"
+    },
+    {
+      "date": "2023-03-14",
+      "title": "GPT-4 Released",
+      "desc": "OpenAI releases GPT-4, advancing AI capabilities",
+      "type": "tech"
+    }
+  ],
+  "2022": [
+    {
+      "date": "2022-11-30",
+      "title": "ChatGPT Launched",
+      "desc": "OpenAI releases ChatGPT, sparking AI revolution",
+      "type": "tech"
+    },
+    {
+      "date": "2022-09-08",
+      "title": "Queen Elizabeth II Dies",
+      "desc": "Longest-reigning British monarch dies at 96",
+      "type": "politics"
+    },
+    {
+      "date": "2022-02-24",
+      "title": "Russia Invades Ukraine",
+      "desc": "Full-scale invasion begins, major European conflict",
+      "type": "politics"
+    },
+    {
+      "date": "2022-01-05",
+      "title": "Bitcoin Crashes",
+      "desc": "Bitcoin drops 50% from Nov 2021 high of $69K",
+      "type": "crypto"
     }
   ]
 }

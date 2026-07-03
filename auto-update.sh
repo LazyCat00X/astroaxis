@@ -19,9 +19,15 @@ MAX_ARTICLES_PER_RUN=30 python3 summarizer.py 2>&1 | tail -3
 # Step 4: Generate fresh globe data for deploy
 python3 generate_globe_data.py
 
-# Step 5: Deploy to GitHub Pages
+# Step 5: Generate external JSON for frontend fetch
+python3 generate_news_json.py
+
+# Step 6: Generate sitemap for SEO
+python3 generate_sitemap.py
+
+# Step 7: Deploy to GitHub Pages
 cd deploy
-git add index.html
+git add index.html news-data.json sitemap.xml robots.txt
 if git diff --cached --quiet; then
     echo "No changes to deploy."
 else

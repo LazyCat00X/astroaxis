@@ -121,22 +121,37 @@ def classify_article(title, summary, source_name, category):
             return bool(re.search(r'\b' + re.escape(keyword) + r'\b', t_lower))
         return keyword in t_lower
 
+    # Source-based override: Bloomberg general articles shouldn't be AI-tagged
+    # Only crypto/finance-specific Bloomberg articles get crypto/finance tags
+    if source_name == "Bloomberg Crypto":
+        # Bloomberg Crypto feed is specifically crypto news
+        pass  # Use normal keyword matching
+    elif source_name == "Bloomberg":
+        # Bloomberg general feed - check for specific keywords, not generic "AI" in headlines
+        if not any(kw in t_lower for kw in ["bitcoin", "ethereum", "crypto", "blockchain", "defi", "nft", "trading", "fed", "interest rate", "inflation", "gdp", "market"]):
+            # Generic Bloomberg article - use category-based default
+            if category == "finance":
+                return "Finance"
+            elif category == "general":
+                return "World"
+
     topics = {
         "Bitcoin": ["bitcoin", "btc", "satoshi"],
         "Ethereum": ["ethereum", "vitalik", "以太坊"],
         "DeFi": ["defi", "lending", "liquidity", "yield", "compound", "aave", "uniswap"],
         "NFT": ["nft", "nfts", "collectible"],
-        "Regulation": ["sec", "regulation", "cftc", "compliance", "lawsuit", "legal"],
-        "Policy": ["fed", "federal reserve", "interest rate", "inflation", "monetary"],
-        "AI": ["artificial intelligence", "gpt", "llm", "machine learning", "deep learning", "neural network"],
-        "Trading": ["trading", "market", "price", "volatility", "arbitrage"],
-        "Macro": ["economy", "gdp", "recession", "jobs", "employment", "treasury"],
-        "World": ["world", "global", "international", "diplomatic", "foreign"],
-        "Politics": ["politics", "political", "election", "government", "parliament", "president", "congress", "senate", "democrat", "republican", "vote", "voting"],
+        "Regulation": ["sec", "regulation", "cftc", "compliance", "lawsuit", "legal", "mica"],
+        "Policy": ["fed", "federal reserve", "interest rate", "inflation", "monetary", "ecb", "central bank"],
+        "AI": ["artificial intelligence", "gpt", "llm", "machine learning", "deep learning", "neural network", "chatgpt", "claude", "openai", "anthropic"],
+        "Trading": ["trading", "price", "volatility", "arbitrage", "etf", "flows"],
+        "Macro": ["economy", "gdp", "recession", "jobs", "employment", "treasury", "fiscal"],
+        "World": ["world", "global", "international", "diplomatic", "foreign", "geopolitics", "war", "conflict", "treaty"],
+        "Politics": ["politics", "political", "election", "government", "parliament", "president", "congress", "senate", "democrat", "republican", "vote", "voting", "trump", "biden"],
         "Health": ["health", "disease", "hospital", "medical", "covid", "pandemic", "vaccine", "outbreak"],
-        "Science": ["science", "scientist", "research", "study", "discovery", "nasa", "space"],
-        "Sports": ["sports", "sport", "soccer", "football", "olympic", "nba", "tennis", "athlete"],
-        "Entertainment": ["entertainment", "movie", "film", "music", "celebrity", "tv", "television", "hollywood"],
+        "Science": ["science", "scientist", "research", "study", "discovery", "nasa", "space", "earthquake"],
+        "Sports": ["sports", "sport", "soccer", "football", "olympic", "nba", "tennis", "athlete", "world cup"],
+        "Entertainment": ["entertainment", "movie", "film", "music", "celebrity", "tv", "television", "hollywood", "box office"],
+        "Finance": ["market", "stock", "bond", "investor", "ipo", "hedge", "fund", "portfolio", "dividend", "earnings", "revenue"],
     }
 
     for topic, keywords in topics.items():
