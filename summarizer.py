@@ -24,11 +24,14 @@ def get_api_key():
         if p.exists():
             with open(p) as f:
                 for line in f:
-                    if line.startswith("GITHUB_MODELS_TOKEN="):
+                    if line.startswith("MODELS_API_TOKEN="):
                         KEY = line.split("=", 1)[1].strip()
                         break
         if KEY:
             break
+    # Fallback to environment variable (for GitHub Actions)
+    if not KEY:
+        KEY = os.environ.get("MODELS_API_TOKEN", "")
     return KEY
 
 API_KEY = get_api_key()

@@ -32,7 +32,7 @@ jobs:
       - name: Fetch timeline events
         run: python3 timeline_fetcher.py
         env:
-          GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_MODELS_TOKEN }}
+          MODELS_API_TOKEN: ${{ secrets.MODELS_API_TOKEN }}
       
       - name: Crawl news articles
         run: python3 crawler.py
@@ -40,7 +40,7 @@ jobs:
       - name: Summarize articles
         run: MAX_ARTICLES_PER_RUN=30 python3 summarizer.py
         env:
-          GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_MODELS_TOKEN }}
+          MODELS_API_TOKEN: ${{ secrets.MODELS_API_TOKEN }}
       
       - name: Generate data files
         run: |
