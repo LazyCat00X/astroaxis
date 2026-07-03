@@ -1,6 +1,52 @@
 {
   "articles": [
     {
+      "url": "https://techcrunch.com/2026/07/03/the-dune-keypad-device-can-be-your-meeting-controller-and-more/",
+      "title": "The Dune keypad device can be your meeting controller and more",
+      "source": "TechCrunch",
+      "topic": "Tech",
+      "category": "tech",
+      "published": "2026-07-03T18:28:30+00:00",
+      "ai_summary": "標題：Dune 鍵盤設備可以成為您的會議控制器及更多功能\n中立：\nProject Mirage 開發了一款名為 Dune 的設備，這是一個三鍵鋁製鍵盤，能夠連接到 MacBook 的 USB-C 端口。它的零售價格為 119 美元，旨在控制各種應用程序，根據當前活動的應用程序改變功能。該設備與 M2 Air 或更高版本以及 M1 Pro 或更高版本的 MacBook 型號兼容，運行 macOS 15 Sequoia 或更高版本。Dune 包含一個伴隨應用程序，用於配置快捷鍵和與日曆同步。用戶可以創建自定義快捷鍵或使用市場上現有的快捷鍵。該設備不需要電池，並從 MacBook 獲取電源。",
+      "summaries": {
+        "zh-HK": "標題：Dune 鍵盤設備可以成為您的會議控制器及更多功能\n中立：\nProject Mirage 開發了一款名為 Dune 的設備，這是一個三鍵鋁製鍵盤，能夠連接到 MacBook 的 USB-C 端口。它的零售價格為 119 美元，旨在控制各種應用程序，根據當前活動的應用程序改變功能。該設備與 M2 Air 或更高版本以及 M1 Pro 或更高版本的 MacBook 型號兼容，運行 macOS 15 Sequoia 或更高版本。Dune 包含一個伴隨應用程序，用於配置快捷鍵和與日曆同步。用戶可以創建自定義快捷鍵或使用市場上現有的快捷鍵。該設備不需要電池，並從 MacBook 獲取電源。",
+        "en": "Title: The Dune keypad device can be your meeting controller and more\nNeutral:\nProject Mirage has developed a device called Dune, a three-key aluminum keypad that connects to MacBook USB-C ports. It retails for $119 and is designed to control various applications, changing functions based on the active app. The device is compatible with M2 Air or later and M1 Pro or later MacBook models running macOS 15 Sequoia or later. Dune includes a companion app for configuring shortcuts and syncing with calendars. Users can create custom shortcuts or use pre-existing ones from a marketplace. The device does not require a battery and draws power from the MacBook.",
+        "zh-CN": "标题：Dune 键盘设备可以成为您的会议控制器及更多功能\n中立：\nProject Mirage 开发了一款名为 Dune 的设备，这是一款三键铝制键盘，能够连接到 MacBook 的 USB-C 端口。它的零售价格为 119 美元，旨在控制各种应用程序，根据当前活动的应用程序改变功能。该设备与 M2 Air 或更高版本以及 M1 Pro 或更高版本的 MacBook 型号兼容，运行 macOS 15 Sequoia 或更高版本。Dune 包含一个伴随应用程序，用于配置快捷键和与日历同步。用户可以创建自定义快捷键或使用市场上现有的快捷键。该设备不需要电池，并从 MacBook 获取电源。",
+        "ja": "タイトル：Dune キーパッドデバイスは会議コントローラーやその他の機能を提供します\n中立：\nProject Mirage は Dune というデバイスを開発しました。これは、MacBook の USB-C ポートに接続する三つのキーを持つアルミニウム製のキーパッドです。価格は119ドルで、さまざまなアプリケーションを制御するために設計されており、アクティブなアプリに基づいて機能が変わります。このデバイスは、macOS 15 Sequoia 以降を実行している M2 Air またはそれ以降、M1 Pro またはそれ以降の MacBook モデルと互換性があります。Dune には、"
+      }
+    },
+    {
+      "url": "https://www.wired.com/story/nuclear-startups-hit-milestone-why-it-matters/",
+      "title": "3 Nuclear Startups Hit a Big Milestone. Why It Matters—and Why It Doesn’t",
+      "source": "Wired",
+      "topic": "Tech",
+      "category": "tech",
+      "published": "2026-07-03T18:13:15+00:00",
+      "ai_summary": "標題：三家核能初創公司達成重大里程碑。這為什麼重要——以及為什麼不重要\n中立：\n三家核能初創公司，Valar Atomics、Antares Nuclear 和 Deployable Energy，在能源部啟動的試點計劃中實現了其反應堆的臨界性。該計劃旨在推進新核反應堆設計的發展。建立該計劃的行政命令由唐納德·特朗普總統於2025年5月頒布，臨界性達成的截止日期定於7月4日。這些反應堆在全國實驗室進行測試，包括洛斯阿拉莫斯國家實驗室和猶他州的一個州資助實驗室。這些初創公司正在與核能監管委員會協調，為未來的商業化進程導航。",
+      "summaries": {
+        "zh-HK": "標題：三家核能初創公司達成重大里程碑。這為什麼重要——以及為什麼不重要\n中立：\n三家核能初創公司，Valar Atomics、Antares Nuclear 和 Deployable Energy，在能源部啟動的試點計劃中實現了其反應堆的臨界性。該計劃旨在推進新核反應堆設計的發展。建立該計劃的行政命令由唐納德·特朗普總統於2025年5月頒布，臨界性達成的截止日期定於7月4日。這些反應堆在全國實驗室進行測試，包括洛斯阿拉莫斯國家實驗室和猶他州的一個州資助實驗室。這些初創公司正在與核能監管委員會協調，為未來的商業化進程導航。",
+        "en": "Title: 3 Nuclear Startups Hit a Big Milestone. Why It Matters—and Why It Doesn’t\nNeutral:\nThree nuclear startups, Valar Atomics, Antares Nuclear, and Deployable Energy, achieved criticality in their reactors as part of a pilot program initiated by the Department of Energy. This program aims to advance the development of new nuclear reactor designs. The executive order establishing the program was issued by President Donald Trump in May 2025, with a deadline for reaching criticality set for July 4. The reactors were tested at national laboratories, including Los Alamos National Laboratory and a state-funded lab in Utah. The startups are working to navigate regulatory processes with the Nuclear Regulatory Commission for future commercialization.",
+        "zh-CN": "标题：三家核能初创公司达成重大里程碑。这为什么重要——以及为什么不重要\n中立：\n三家核能初创公司，Valar Atomics、Antares Nuclear 和 Deployable Energy，在能源部启动的试点计划中实现了其反应堆的临界性。该计划旨在推进新核反应堆设计的发展。建立该计划的行政命令由唐纳德·特朗普总统于2025年5月颁布，临界性达成的截止日期定于7月4日。这些反应堆在全国实验室进行测试，包括洛斯阿拉莫斯国家实验室和犹他州的一个州资助实验室。这些初创公司正在与核能监管委员会协调，为未来的商业化进程导航。",
+        "ja": "タイトル：3つの核スタートアップが大きなマイルストーンを達成。なぜそれが重要なのか、そしてなぜ重要でないのか\n中立：\n3つの核スタートアップ、Valar Atomics、Antares Nuclear、Deployable Energyが、エネルギー省が開始したパイロットプログラムの一環として、反応炉の臨界状態を達成しました。このプログラムは、新しい核反応炉設計の開発を進めることを目的としています。このプログラムを設立するための大統領令は、2025年5月にドナルド・トランプ大"
+      }
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-07-03/burnham-rules-out-uk-election-if-he-takes-power-from-starmer",
+      "title": "Burnham Rules Out UK Election If He Takes Power From Starmer",
+      "source": "Bloomberg",
+      "topic": "Finance",
+      "category": "finance",
+      "published": "2026-07-03T18:08:27+00:00",
+      "ai_summary": "標題：伯納姆排除若接替史達默將舉行英國大選\n中立：\n安迪·伯納姆表示，如果他成為首相，接替基爾·史達默，他將不會召開英國大選。",
+      "summaries": {
+        "zh-HK": "標題：伯納姆排除若接替史達默將舉行英國大選\n中立：\n安迪·伯納姆表示，如果他成為首相，接替基爾·史達默，他將不會召開英國大選。",
+        "en": "Title: Burnham Rules Out UK Election If He Takes Power From Starmer\nNeutral:\nAndy Burnham stated that he would not call a UK general election if he becomes the prime minister, succeeding Keir Starmer.",
+        "zh-CN": "标题：伯纳姆排除若接替斯塔默将举行英国大选\n中立：\n安迪·伯纳姆表示，如果他成为首相，接替基尔·斯塔默，他将不会召开英国大选。",
+        "ja": "タイトル：バーンハム、スターマーから権力を引き継いだ場合、英国選挙を行わないと表明\n中立：\nアンディ・バーンハムは、キール・スターマーに代わって首相になった場合、英国の総選挙を呼びかけないと述べました。",
+        "ko": "제목: 번햄, 스타머로부터 권력을 인수할 경우 영국 선거를 배제\n중립:\n앤디 번햄은 키어 스타머를 이어 총리가 된다면 영국 총선을 소집하지 않겠다고 밝혔다."
+      }
+    },
+    {
       "url": "https://decrypt.co/372738/zcash-ironwood-upgrade-developers-restore-confidence-zec-crash",
       "title": "Zcash Ironwood Upgrade Nears as Developers Work to Restore Confidence After ZEC Crash",
       "source": "Decrypt",
@@ -30,6 +76,22 @@
         "zh-CN": "标题：CryptoQuant表示比特币和山寨币的交易所存款激增，预示着未来的波动性将增加\n中立：\n根据CryptoQuant的数据，比特币存入交易所的数量达到了近49,000 BTC。今年仅观察到四次这一水平。",
         "ja": "タイトル：CryptoQuantがビットコインとアルトコインの取引所への預金が急増していると発表、今後のボラティリティの上昇を示唆\n中立：\nCryptoQuantによると、取引所へのビットコインの預金はほぼ49,000 BTCに達しました。このレベルは、今年に入ってから他に4回しか観測されていません。",
         "ko": "제목: CryptoQuant, 비트코인 및 알트코인 거래소 예치금 급증, 향후 변동성 증가 시사\n중립:\nCryptoQuant에 따르면, 거래소에 대한 비트코인 예치금이 거의 49,000 BTC에 도달했습니다. 올해 이 수준은 단 4회만 관찰되었습니다."
+      }
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-07-03/sqm-codelco-venture-maps-path-to-higher-lithium-output-in-chile",
+      "title": "SQM-Codelco Venture Maps Path to Higher Lithium Output in Chile",
+      "source": "Bloomberg Crypto",
+      "topic": "Finance",
+      "category": "finance",
+      "published": "2026-07-03T17:52:25+00:00",
+      "ai_summary": "標題：SQM-Codelco 合作計劃提升智利鋰產量\n中立：\n智利礦業公司 SQM 和 Codelco 正在合作，計劃將其合資企業的鋰產量提高超過 70%。這一舉措旨在滿足未來電池的需求。",
+      "summaries": {
+        "zh-HK": "標題：SQM-Codelco 合作計劃提升智利鋰產量\n中立：\n智利礦業公司 SQM 和 Codelco 正在合作，計劃將其合資企業的鋰產量提高超過 70%。這一舉措旨在滿足未來電池的需求。",
+        "en": "Title: SQM-Codelco Venture Maps Path to Higher Lithium Output in Chile\nNeutral:\nChilean mining companies SQM and Codelco are collaborating to increase lithium output at their partnership by over 70%. This initiative is focused on meeting future battery demand.",
+        "zh-CN": "标题：SQM-Codelco 合作计划提升智利锂产量\n中立：\n智利矿业公司 SQM 和 Codelco 正在合作，计划将其合资企业的锂产量提高超过 70%。这一举措旨在满足未来电池的需求。",
+        "ja": "タイトル：SQM-Codelco 共同事業がチリにおけるリチウム生産の増加を目指す\n中立：\nチリの鉱業会社SQMとCodelcoは、パートナーシップにおけるリチウム生産を70％以上増加させるために協力しています。この取り組みは、将来のバッテリー需要に応えることを目的としています。",
+        "ko": "제목: SQM-Codelco 합작 투자, 칠레에서 리튬 생산 증가 경로 모색\n중립:\n칠레의 광산 회사 SQM과 Codelco는 파트너십에서 리튬 생산을 70% 이상 증가시키기 위해 협력하고 있습니다. 이 이니셔티브는 미래 배터리 수요를 충족하는 데 중점을 두고 있습니다."
       }
     },
     {
@@ -77,6 +139,22 @@
         "en": "Title: Burnham rules out calling early election as PM\nNeutral:\nAndy Burnham stated he will not call an early general election if he becomes prime minister later in July 2026. He is the sole candidate to replace Sir Keir Starmer as the leader of the Labour Party. The last general election occurred on 4 July 2024, and the next election must be called by August 2029. Burnham participated in an online AMA session on Reddit, where he addressed various topics, including policies on refugees and the state pension. He also expressed intentions to negotiate a closer relationship with the EU. Burnham has only given one media interview since announcing his candidacy.",
         "zh-CN": "标题：伯纳姆排除提前选举的可能性\n中立：\n安迪·伯纳姆表示，如果他在2026年7月成为首相，他将不会召开提前的全国大选。他是唯一一位候选人，取代基尔·斯塔默爵士成为工党领袖。上次全国大选于2024年7月4日举行，下一次选举必须在2029年8月之前召开。伯纳姆参加了一个在线AMA会议，在会议中他讨论了各种主题，包括难民政策和国家养老金。他还表达了与欧盟谈判更密切关系的意图。自宣布参选以来，伯纳姆仅接受了一次媒体采访。",
         "ja": "タイトル：バーンハム氏、首相就任後の早期選挙を否定\n中立：\nアンディ・バーンハム氏は、2026年7月に首相になった場合、早期の総選挙を呼びかけないと述べました。彼は、労働党のリーダーとしてキール・スターマー卿を置き換える唯一の候補者です。前回の総選挙は2024年7月4日に行われ、次回の選挙は2029年8月までに呼びかける必要があります。バーンハム氏は、RedditでのオンラインAMAセッションに参加し、難民政策や国家年金など、さまざまなトピックについて言及しました。また、EUとのより密接な関係を交渉する意向も示しました。バーンハム氏は、"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/pakistan-bus-crash-kills-40?traffic_source=rss",
+      "title": "Pakistan bus crash kills 40",
+      "source": "Al Jazeera",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-03T17:44:02+00:00",
+      "ai_summary": "標題：巴基斯坦巴士事故造成40人死亡\n中立：\n2026年7月3日，巴基斯坦西南部發生巴士事故，至少40人喪生，另有8人受傷。據報導，該巴士載著從另一輛故障車輛轉乘的乘客，當時跌入一個岩石峽谷。救援隊已被派往現場。",
+      "summaries": {
+        "zh-HK": "標題：巴基斯坦巴士事故造成40人死亡\n中立：\n2026年7月3日，巴基斯坦西南部發生巴士事故，至少40人喪生，另有8人受傷。據報導，該巴士載著從另一輛故障車輛轉乘的乘客，當時跌入一個岩石峽谷。救援隊已被派往現場。",
+        "en": "Title: Pakistan bus crash kills 40\nNeutral:\nAt least 40 people were killed and eight others injured in a bus crash in southwestern Pakistan on July 3, 2026. The bus was reportedly carrying passengers from another vehicle that had broken down when it fell into a rocky ravine. Rescue teams were deployed to the scene.",
+        "zh-CN": "标题：巴基斯坦巴士事故造成40人死亡\n中立：\n2026年7月3日，巴基斯坦西南部发生巴士事故，至少40人遇难，另有8人受伤。报道称，该巴士载着从另一辆故障车辆转乘的乘客，跌入一个岩石峡谷。救援队已被派往现场。",
+        "ja": "タイトル：パキスタンのバス事故で40人死亡\n中立：\n2026年7月3日、パキスタン南西部でバス事故が発生し、少なくとも40人が死亡し、8人が負傷しました。このバスは、故障した別の車両から乗客を乗せていたと報じられており、岩の渓谷に転落しました。救助隊が現場に派遣されました。",
+        "ko": "제목: 파키스탄 버스 사고로 40명 사망\n중립:\n2026년 7월 3일, 파키스탄 남서부에서 발생한 버스 사고로 최소 40명이 사망하고 8명이 부상을 입었습니다. 이 버스는 고장난 다른 차량에서 승객을 태우고 있었던 것으로 전해지며, 바위가 많은 협곡으로 떨어졌습니다. 구조팀이 현장에 파견되었습니다."
       }
     },
     {
@@ -1461,84 +1539,6 @@
         "ja": "• タイトル：ファラージ氏、仮想通貨ロビー活動疑惑で英国基準監視機関に報告される\n中立：労働党議員がナイジェル・ファラージ氏を英国基準監視機関に報告した。告発は、リフォームUK党首であるファラージ氏が、イングランド銀行に政策に関して連絡したと主張している。その政策は、彼の最大の寄付者（テザーの主要投資家）に経済的利益をもたらす可能性がある。監視機関は報告書を受け取った。",
         "ko": "• 제목: 파라지, 암호화폐 로비 의혹으로 영국 기준 감시 기관에 신고되다\n중립: 노동당 의원이 나이절 파라지를 영국 기준 감시 기관에 신고했다. 고발장은 리폼 UK 대표인 파라지가 잉글랜드 은행에 정책과 관련해 연락했다고 주장한다. 해당 정책은 그의 최대 후원자(테더의 주요 투자자)에게 재정적 이익을 줄 수 있다. 감시 기관은 신고를 접수했다."
       }
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-07-03/america250-vs-freedom-250-the-rival-party-planners-shaping-usa-s-250th",
-      "title": "The Rival Organizations Fighting to Shape America's 250th Birthday",
-      "source": "Bloomberg",
-      "topic": "Finance",
-      "category": "finance",
-      "published": "2026-07-03T13:06:14+00:00",
-      "ai_summary": "• 標題：爭相塑造美國250歲生日的競爭組織\n中立：\n美國政府啟動了兩項為國家250週年籌劃活動的工作。一項是「America250」，另一項是「Freedom 250」。Big Take播客報導了與這些組織相關的資金爭鬥和裙帶關係指控。",
-      "summaries": {
-        "zh-HK": "• 標題：爭相塑造美國250歲生日的競爭組織\n中立：\n美國政府啟動了兩項為國家250週年籌劃活動的工作。一項是「America250」，另一項是「Freedom 250」。Big Take播客報導了與這些組織相關的資金爭鬥和裙帶關係指控。",
-        "en": "• Title: The Rival Organizations Fighting to Shape America's 250th Birthday\nNeutral:\nThe US government launched two efforts to plan events for the nation’s 250th anniversary. One is America250, and the other is Freedom 250. The Big Take podcast reported on funding battles and cronyism allegations related to these organizations.",
-        "zh-CN": "• 标题：争夺塑造美国250岁生日的竞争组织\n中立：\n美国政府启动了两项为国家250周年筹划活动的工作。一项是“America250”，另一项是“Freedom 250”。Big Take播客报道了与这些组织相关的资金争斗和裙带关系指控。",
-        "ja": "• タイトル：アメリカ建国250周年を巡る競合組織\n中立：\n米国政府は建国250周年のイベントを計画するため、2つの取り組みを開始した。1つは「America250」、もう1つは「Freedom 250」である。Big Takeポッドキャストは、これらの組織に関連する資金争いや縁故採用の疑惑について報じた。",
-        "ko": "• 제목: 미국 250주년 기념 행사를 주도하려는 경쟁 조직들\n중립:\n미국 정부는 건국 250주년 기념 행사를 계획하기 위해 두 가지 노력을 시작했다. 하나는 'America250'이고, 다른 하나는 'Freedom 250'이다. Big Take 팟캐스트는 이들 조직과 관련된 자금 확보 경쟁 및 연고주의 의혹을 보도했다."
-      }
-    },
-    {
-      "url": "https://blockcast.it/2026/07/03/bitcoin-faces-summer-liquidity-test-key-cost-basis-in-focus/",
-      "title": "比特幣面臨「夏季量縮」大考驗！分析：站穩「這條成本線」多頭才有戲唱",
-      "source": "區塊客 (Blockcast)",
-      "topic": "Bitcoin",
-      "category": "crypto",
-      "published": "2026-07-03T13:03:38+00:00",
-      "ai_summary": "標題：比特幣面臨「夏季量縮」大考驗！分析：站穩「這條成本線」多頭才有戲唱\n中立摘要：\nGlassnode 報告指出，比特幣在夏季流動性低迷期間，正於短期持有者成本基礎附近交易。這間鏈上數據公司表示，交易量下降、資金流入放緩，市場參與度減弱。Glassnode 指出，賣壓已逐漸減輕，但新的買入需求仍不足以將價格推升至關鍵阻力位之上。短期持有者成本基礎代表持有比特幣少於約 155 天的投資者的平均買入價格。Glassnode 表示，比特幣價格目前在此水平附近波動。數據顯示，長期持有者持續增加其比特幣持倉。Glassnode 補充，現貨 ETF 資金流尚未穩定，現貨交易量仍低於先前牛市水平。",
-      "summaries": {
-        "zh-HK": "標題：比特幣面臨「夏季量縮」大考驗！分析：站穩「這條成本線」多頭才有戲唱\n中立摘要：\nGlassnode 報告指出，比特幣在夏季流動性低迷期間，正於短期持有者成本基礎附近交易。這間鏈上數據公司表示，交易量下降、資金流入放緩，市場參與度減弱。Glassnode 指出，賣壓已逐漸減輕，但新的買入需求仍不足以將價格推升至關鍵阻力位之上。短期持有者成本基礎代表持有比特幣少於約 155 天的投資者的平均買入價格。Glassnode 表示，比特幣價格目前在此水平附近波動。數據顯示，長期持有者持續增加其比特幣持倉。Glassnode 補充，現貨 ETF 資金流尚未穩定，現貨交易量仍低於先前牛市水平。",
-        "en": "Title: Bitcoin Faces Major \"Summer Volume Drought\" Test! Analysis: Bulls Need to Hold This Cost Line to Have a Chance\nNeutral Summary:\nGlassnode reported that Bitcoin is trading near the short-term holder cost basis during a period of low summer liquidity. The on-chain data firm stated that trading volume has declined, capital inflows have slowed, and market participation has weakened. Glassnode noted that selling pressure has gradually decreased, but new buying demand remains insufficient to push prices above key resistance levels. The short-term holder cost basis represents the average purchase price of investors holding Bitcoin for less than approximately 155 days. Glassnode said Bitcoin’s price is currently oscillating around this level. Data showed long-term holders continue to increase their Bitcoin positions. Glassnode added that spot ETF capital flows have not yet stabilized, and spot trading volumes remain below previous bull market levels.",
-        "zh-CN": "标题：比特币面临「夏季量缩」大考验！分析：站稳「这条成本线」多头才有戏唱\n中立摘要：\nGlassnode 报告指出，比特币在夏季流动性低迷期间，正于短期持有者成本基础附近交易。这家链上数据公司表示，交易量下降、资金流入放缓，市场参与度减弱。Glassnode 指出，卖压已逐渐减轻，但新的买入需求仍不足以将价格推升至关键阻力位之上。短期持有者成本基础代表持有比特币少于约 155 天的投资者的平均买入价格。Glassnode 表示，比特币价格目前在此水平附近波动。数据显示，长期持有者持续增加其比特币持仓。Glassnode 补充，现货 ETF 资金流尚未稳定，现货交易量仍低于先前牛市水平。",
-        "ja": "タイトル：ビットコイン、「夏の出来高減少」という大きな試練に直面！分析：「このコストライン」を堅持すれば強気派にチャンスあり\n中立な要約：\nGlassnodeは、ビットコインが夏季の低流動性期間中に短期保有者のコストベース付近で取引されていると報告した。このオンチェーンデータ企業は、取引量が減少し、資金流入が鈍化し、市場参加が弱まっていると述べた。Glassnodeは、売り圧力は徐々に減少しているが、価格を重要なレジスタンスレベル以上に押し上げるのに十分な新たな買い需要は依然として不足している"
-      }
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-07-03/turkey-arrests-comedian-deniz-goktas-for-insulting-erdogan-religion",
-      "title": "Turkey Arrests Comedian for Insulting Erdogan, Religion",
-      "source": "Bloomberg",
-      "topic": "Finance",
-      "category": "finance",
-      "published": "2026-07-03T13:03:20+00:00",
-      "ai_summary": "• 土耳其以侮辱埃爾多安及宗教為由拘捕喜劇演員\n土耳其當局以侮辱總統雷傑普·塔伊普·埃爾多安及煽動公眾仇恨的罪名，拘捕了棟篤笑喜劇演員托尼·阿卡爾蘇。拘捕行動在土耳其境內進行。有關指控與他在一次表演中發表的宗教相關笑話有關。",
-      "summaries": {
-        "zh-HK": "• 土耳其以侮辱埃爾多安及宗教為由拘捕喜劇演員\n土耳其當局以侮辱總統雷傑普·塔伊普·埃爾多安及煽動公眾仇恨的罪名，拘捕了棟篤笑喜劇演員托尼·阿卡爾蘇。拘捕行動在土耳其境內進行。有關指控與他在一次表演中發表的宗教相關笑話有關。",
-        "en": "• Turkey Arrests Comedian for Insulting Erdogan, Religion\nTurkish authorities arrested stand-up comedian Tony Akarsu on charges of insulting President Recep Tayyip Erdogan and inciting public hatred. The arrest occurred in Turkey. The charges relate to jokes about religion made during a performance.",
-        "zh-CN": "• 土耳其以侮辱埃尔多安及宗教为由逮捕喜剧演员\n土耳其当局以侮辱总统雷杰普·塔伊普·埃尔多安及煽动公众仇恨的罪名，逮捕了单口喜剧演员托尼·阿卡尔苏。逮捕行动在土耳其境内进行。相关指控与他一次表演中发表的宗教相关笑话有关。",
-        "ja": "• トルコ、エルドアン大統領と宗教への侮辱でコメディアンを逮捕\nトルコ当局は、スタンダップコメディアンのトニー・アカルス氏を、レジェップ・タイイップ・エルドアン大統領への侮辱と公衆の憎悪を扇動した容疑で逮捕した。逮捕はトルコ国内で行われた。容疑は、公演中に宗教に関するジョークを述べたことに関連している。",
-        "ko": "• 튀르키예, 에르도안 대통령 및 종교 모욕 혐의로 코미디언 체포\n튀르키예 당국은 스탠드업 코미디언 토니 아카르수를 레제프 타이이프 에르도안 대통령 모욕 및 공공 증오 선동 혐의로 체포했다. 체포는 튀르키예에서 이루어졌다. 해당 혐의는 공연 중 종교에 관한 농담을 한 것과 관련이 있다."
-      }
-    },
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3359361/carlsons-split-republicans-deepen-rifts-us-right-chinese-think-tank-says?utm_source=rss_feed",
-      "title": "Carlson’s split with Republicans to deepen rifts in US right, Chinese think tank says",
-      "source": "SCMP",
-      "topic": "World",
-      "category": "general",
-      "published": "2026-07-03T13:00:16+00:00",
-      "ai_summary": "標題：中國智庫稱卡爾森與共和黨分裂將加深美國右翼內部分歧\n中立摘要：保守派評論員、前霍士新聞主持人塔克·卡爾森與總統特朗普及共和黨決裂。卡爾森對政府決定與伊朗開戰表示不滿。在週三接受《哥倫比亞新聞評論》訪問時，卡爾森表示計劃協助創立一個新政黨，但不會以候選人身份參選。中國現代國際關係研究院（CICIR）——隸屬中國國家安全部的智庫——在週四發表文章指出，卡爾森的分裂標誌著特朗普第二任期內美國右翼內部出現裂痕。",
-      "summaries": {
-        "zh-HK": "標題：中國智庫稱卡爾森與共和黨分裂將加深美國右翼內部分歧\n中立摘要：保守派評論員、前霍士新聞主持人塔克·卡爾森與總統特朗普及共和黨決裂。卡爾森對政府決定與伊朗開戰表示不滿。在週三接受《哥倫比亞新聞評論》訪問時，卡爾森表示計劃協助創立一個新政黨，但不會以候選人身份參選。中國現代國際關係研究院（CICIR）——隸屬中國國家安全部的智庫——在週四發表文章指出，卡爾森的分裂標誌著特朗普第二任期內美國右翼內部出現裂痕。",
-        "en": "Title: Carlson’s split with Republicans to deepen rifts in US right, Chinese think tank says\nNeutral: Tucker Carlson, a conservative commentator and former Fox News host, split with President Donald Trump and the Republican Party. Carlson expressed dissatisfaction with the administration's decision to go to war with Iran. In an interview with the Columbia Journalism Review on Wednesday, Carlson said he planned to help launch a new political party but not run as a candidate. The China Institutes of Contemporary International Relations (CICIR), a think tank under China's Ministry of State Security, published an article on Thursday stating that Carlson's break marks a rift within the American right during Trump's second term.",
-        "zh-CN": "标题：中国智库称卡尔森与共和党分裂将加深美国右翼内部分歧\n中立摘要：保守派评论员、前福克斯新闻主持人塔克·卡尔森与总统特朗普及共和党决裂。卡尔森对政府决定与伊朗开战表示不满。在周三接受《哥伦比亚新闻评论》采访时，卡尔森表示计划协助创立一个新政党，但不会以候选人身份参选。中国现代国际关系研究院（CICIR）——隶属中国国家安全部的智库——在周四发表文章指出，卡尔森的分裂标志着特朗普第二任期内美国右翼内部出现裂痕。",
-        "ja": "タイトル：中国シンクタンク、カールソンの共和党分裂が米国右派の亀裂を深めると指摘\n中立要約：保守派コメンテーターで元フォックスニュース司会者のタッカー・カールソンが、ドナルド・トランプ大統領および共和党と決別した。カールソンは、政権のイランとの戦争決定に不満を表明。水曜日にコロンビア・ジャーナリズム・レビューのインタビューで、カールソンは新政党の立ち上げを支援する計画だが、候補者として出馬はしないと述べた。中国国家安全部傘下のシンクタンクである中国現代国際関係研究院（CICIR）は木曜日に記事を発表し、カールソンの決別はトランプ第2期における米国右派内の亀裂を示すものだと述べた。",
-        "ko": "제목: 중국 싱크탱크 \"칼슨의 공화당 분열, 미국 우익 내 균열 심화\"\n중립 요약: 보수 성향 논평가이자 전 폭스뉴"
-      }
-    },
-    {
-      "url": "https://time.com/article/2026/07/02/human-vapor-netflix/",
-      "title": "Human Vapor Reboots a Classic Japanese Movie With an Anti-Authority Edge",
-      "source": "Time",
-      "topic": "World",
-      "category": "general",
-      "published": "2026-07-03T13:00:03+00:00",
-      "ai_summary": "標題：《Human Vapor》重啟經典日本電影，注入反權威色彩\n摘要：\n文章介紹Netflix劇集《Human Vapor》，這是由Netflix與東寶合作，韓國編劇延尚昊與日本導演片山慎三共同創作的作品。該劇改編自1960年日本電影《氣體人》，由本多豬四郎執導，圓谷英二負責特效。原版電影屬於東寶「變身人類系列」。1960年電影中，土屋嘉男飾演的圖書館員水野因實驗獲得氣體能力，並搶劫銀行。重啟版由蒼井優飾演記者京子。原版電影中還有三橋達也飾演的刑警岡本，以及佐田啟子飾演的記者京子。",
-      "summaries": {
-        "zh-HK": "標題：《Human Vapor》重啟經典日本電影，注入反權威色彩\n摘要：\n文章介紹Netflix劇集《Human Vapor》，這是由Netflix與東寶合作，韓國編劇延尚昊與日本導演片山慎三共同創作的作品。該劇改編自1960年日本電影《氣體人》，由本多豬四郎執導，圓谷英二負責特效。原版電影屬於東寶「變身人類系列」。1960年電影中，土屋嘉男飾演的圖書館員水野因實驗獲得氣體能力，並搶劫銀行。重啟版由蒼井優飾演記者京子。原版電影中還有三橋達也飾演的刑警岡本，以及佐田啟子飾演的記者京子。",
-        "en": "Title: Human Vapor Reboots a Classic Japanese Movie With an Anti-Authority Edge\nNeutral:\nThe article describes the Netflix series \"Human Vapor,\" a collaboration between Netflix and Toho, created by Korean showrunner Yeon Sang-ho and Japanese director Shinzo Katayama. It is a reboot of the 1960 Japanese film \"The Human Vapor,\" directed by Ishirō Honda with special effects by Eiji Tsuburaya. The original film is part of Toho's \"Transforming Human Series.\" In the 1960 film, Mizuno (Yoshio Tsuchiya) is a librarian who gains gaseous powers from an experiment and commits bank robberies. The reboot features reporter Kyoko Kono (Yû Aoi). The original film includes detective Okamoto (Tatsuya Mihashi) and reporter Kyoko Kono (Keiko Sata).",
-        "zh-CN": "标题：《Human Vapor》重启经典日本电影，注入反权威色彩\n摘要：\n文章介绍Netflix剧集《Human Vapor》，这是由Netflix与东宝合作，韩国编剧延尚昊与日本导演片山慎三共同创作的作品。该剧改编自1960年日本电影《气体人》，由本多猪四郎执导，圆谷英二负责特效。原版电影属于东宝“变身人类系列”。1960年电影中，土屋嘉男饰演的图书馆员水野因实验获得气体能力，并抢劫银行。重启版由苍井优饰演记者京子。原版电影中还有三桥达也饰演的刑警冈本，以及佐田启子饰演的记者京子。",
-        "ja": "タイトル：『ヒューマン・ヴェイパー』が古典的日本映画をリブート、反権威のエッジを加える\n要約：\nこの記事は、Netflixと東宝が協力し、韓国のショーランナー延尚昊（ヨン・サンホ）と日本の監督片山慎三が制作したNetflixシリーズ『ヒューマン・ヴェイパー』について説明しています。本作は、1960年の日本映画『ガス人間第一号』（監督：本多猪四郎、特撮：円谷英二）のリブートです。オリジナル映画は東宝の「変身人間シリーズ」の一部です。1960年の映画では、土屋嘉"
-      }
     }
   ],
   "sourceLocations": {
@@ -1718,5 +1718,5 @@
       "London"
     ]
   },
-  "updated": "2026-07-03T18:11:17.249053+00:00"
+  "updated": "2026-07-03T22:42:16.862244+00:00"
 }
