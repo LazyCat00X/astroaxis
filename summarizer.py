@@ -11,10 +11,10 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 
 # GitHub Models API (free) - https://models.github.ai/inference
 API_URL = "https://models.github.ai/inference/chat/completions"
-MODEL = "openai/gpt-4o-mini"  # Free, fast, good quality
+MODEL = "meta/llama-3.1-8b-instruct"  # Lighter model, potentially better rate limits
 MAX_PER_RUN = int(os.environ.get("MAX_ARTICLES_PER_RUN", "3"))  # Reduced for GitHub Actions
 # Rate limit handling (GitHub Actions has stricter limits)
-RATE_LIMIT_DELAY = 8  # seconds between API calls (conservative for Actions)
+RATE_LIMIT_DELAY = 10  # seconds between API calls (very conservative)
 
 def get_api_key():
     KEY = ""
