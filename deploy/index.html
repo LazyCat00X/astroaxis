@@ -27,6 +27,7 @@
   }
   </script>
   <link rel="canonical" href="https://lazycat00x.github.io/astroaxis-site/" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='none' stroke='%2322d3ee' stroke-width='3'/%3E%3Ccircle cx='50' cy='50' r='30' fill='none' stroke='%236366f1' stroke-width='2' opacity='0.6'/%3E%3Ccircle cx='35' cy='40' r='4' fill='%2367e8f9'/%3E%3Ccircle cx='62' cy='55' r='3' fill='%23a78bfa'/%3E%3Ccircle cx='45' cy='65' r='3' fill='%23f59e0b'/%3E%3C/svg%3E" />
   <!-- Open Graph / Social -->
   <meta property="og:title" content="AstroAxis — AI-powered world news aggregator" />
   <meta property="og:type" content="website" />
@@ -150,6 +151,13 @@
       box-shadow: 0 22px 80px rgba(0, 0, 0, 0.32), 0 0 42px rgba(34, 211, 238, 0.14), inset 0 1px 0 rgba(255,255,255,0.08), inset 0 0 28px rgba(99, 102, 241, 0.08);
     }
 
+    .filter-sep {
+      width: 1px;
+      height: 18px;
+      background: rgba(136, 136, 160, 0.22);
+      flex-shrink: 0;
+      margin: 0 2px;
+    }
     .filter-btn {
       appearance: none;
       border: 1px solid rgba(136, 136, 160, 0.28);
@@ -736,7 +744,7 @@
   <button class="nav-btn" data-view="timeline" data-i18n="nav.timeline" role="tab" aria-selected="false" tabindex="-1">Timeline</button>
   <button class="nav-btn" data-view="feed" data-i18n="nav.feed" role="tab" aria-selected="false" tabindex="-1">Feed</button>
   <span class="search-wrap">
-    <input type="text" class="history-search" id="historySearch" placeholder="🔍 Search articles & events..." aria-label="Search news articles and timeline events" autocomplete="off" spellcheck="false">
+    <input type="text" class="history-search" id="historySearch" placeholder="🔍 Search..." aria-label="Search news articles and timeline events" autocomplete="off" spellcheck="false">
     <div class="search-recent" id="searchRecent" role="listbox" aria-label="Recent searches"></div>
   </span>
   <div style="position:relative;margin-left:auto">
@@ -770,18 +778,7 @@
       <div class="eyebrow" data-i18n="hud.eyebrow">LIVE SIGNAL MAP</div>
       <h1>AstroAxis</h1>
       <p class="subline" data-i18n="hud.subline">AI-powered world news aggregator</p>
-      <div class="hud-legend">
-        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#ff8800"></span>Bitcoin</span>
-        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#9999ff"></span>Ethereum</span>
-        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#22dd66"></span>DeFi</span>
-        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#4499ff"></span>AI</span>
-        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#ff4444"></span>Regulation</span>
-        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#ffdd00"></span>Policy</span>
-        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#7777ff"></span>Crypto</span>
-        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#33eeff"></span>Finance</span>
-        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#bb88ff"></span>Tech</span>
-        <span class="hud-legend-item"><span class="hud-legend-dot" style="background:#aaaacc"></span>General</span>
-      </div><!-- /hud-legend -->
+      <!-- legend removed: redundant with bottom filter bar -->
       </div><!-- /hud-content-inner -->
     </div><!-- /hud-content -->
     </section>
@@ -790,12 +787,15 @@
     <div id="country-label" class="country-label"><span class="country-name" id="country-label-name"></span><span class="country-markerCount" id="country-label-markerCount"></span></div>
     <nav class="filter-bar" aria-label="News marker filters">
       <button class="filter-btn active" data-filter-type="all" data-filter-value="All" data-i18n="filter.all">All</button>
+      <span class="filter-sep" aria-hidden="true"></span>
       <button class="filter-btn" data-filter-type="region" data-filter-value="Americas" data-i18n="filter.americas">Americas</button>
       <button class="filter-btn" data-filter-type="region" data-filter-value="Europe" data-i18n="filter.europe">Europe</button>
       <button class="filter-btn" data-filter-type="region" data-filter-value="Asia" data-i18n="filter.asia">Asia</button>
+      <span class="filter-sep" aria-hidden="true"></span>
       <button class="filter-btn active" data-filter-type="time" data-filter-value="all" data-i18n="filter.alltime">ALL TIME</button>
       <button class="filter-btn" data-filter-type="time" data-filter-value="6h" data-i18n="filter.6h">6H</button>
       <button class="filter-btn" data-filter-type="time" data-filter-value="24h" data-i18n="filter.24h">24H</button>
+      <span class="filter-sep" aria-hidden="true"></span>
       <button class="filter-btn" data-filter-type="topic" data-filter-value="Bitcoin" data-i18n="filter.bitcoin">Bitcoin</button>
       <button class="filter-btn" data-filter-type="topic" data-filter-value="DeFi" data-i18n="filter.defi">DeFi</button>
       <button class="filter-btn" data-filter-type="topic" data-filter-value="AI" data-i18n="filter.ai">AI</button>
@@ -805,7 +805,8 @@
     <div class="vignette"></div>
     <div class="hint" data-i18n="hint.drag">🖱 DRAG · A/D ←→ SPIN · W/S ↑↓ TILT · Q/E ZOOM · 1-3 VIEWS</div>
     <div class="scroll-hint" aria-hidden="true" data-i18n="hint.scroll">↓ scroll for articles</div>
-  </main>
+  <div style="position:fixed;bottom:4px;left:8px;z-index:99;font-size:9px;color:rgba(136,146,182,0.3);pointer-events:none">v20260704-01</div>
+</main>
 </div><!-- /globe-view -->
 
 <!-- Timeline Panel -->
@@ -1221,7 +1222,7 @@
           <div class="card-thumb placeholder" aria-hidden="true" style="background:${thumbBg}">${(a.topic||'G')[0]}</div>
           <div class="card-top">
             <span class="card-topic" style="color:#${a.topic === 'AI' ? '3b82f6' : a.topic === 'Bitcoin' ? 'f97316' : a.topic === 'Regulation' ? 'ef4444' : a.topic === 'DeFi' ? '22c55e' : '818cf8'}">${a.topic || 'General'}</span>
-            <span class="bias-indicator ${biasCls}">${biasLabel}</span>
+
           </div>
           <h3><a href="${a.url}" target="_blank" rel="noopener">${a.title}</a></h3>
           <div class="card-summary"><ul>${bullets.map(b => `<li>${b}</li>`).join('')}</ul></div>
