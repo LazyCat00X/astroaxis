@@ -2,22 +2,22 @@ name: AstroAxis Pipeline
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Every hour
+    - cron: '0 */2 * * *'  # Every 2 hours
   workflow_dispatch:  # Manual trigger
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15  # Prevent 5h runs
+    timeout-minutes: 12
     permissions:
       contents: write
-      pages: write
     
     steps:
-      - name: Checkout
+      - name: Checkout source repo
         uses: actions/checkout@v4
         with:
           ref: main
+          token: ${{ secrets.DEPLOY_TOKEN }}
       
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -32,57 +32,54 @@ jobs:
       
       - name: Fetch timeline events
         run: python3 timeline_fetcher.py
-        env:
-          MODELS_API_TOKEN: ${{ secrets.MODELS_API_TOKEN }}
       
       - name: Crawl news articles
         run: python3 crawler.py
       
       - name: Summarize articles
         run: |
-          export MAX_ARTICLES_PER_RUN=2
-          timeout 12m python3 summarizer.py || echo "Summarize timed out, using cached data"
+          export MAX_ARTICLES_PER_RUN=15
+          timeout 8m python3 summarizer.py || echo "Summarize timed out, using cached data"
         env:
           MODELS_API_TOKEN: ${{ secrets.MODELS_API_TOKEN }}
       
       - name: Generate data files
         run: |
           python3 generate_globe_data.py
-          python3 generate_news_json.py
           python3 generate_sitemap.py
       
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages (astroaxis-site)
         run: |
-          # Clone the Pages repo with deploy token
           git clone https://x-access-token:${{ secrets.DEPLOY_TOKEN }}@github.com/LazyCat00X/astroaxis-site.git pages-repo
           cd pages-repo
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Copy generated files from main repo
           cp ../deploy/index.html .
           cp ../deploy/news-data.json .
           cp ../deploy/timeline-data.json .
-          cp ../deploy/sitemap.xml .
-          cp ../deploy/robots.txt .
+          cp ../sitemap.xml .
+          # Static assets (may not exist — ignore errors)
+          cp ../deploy/og-image.png . 2>/dev/null || true
+          cp ../deploy/robots.txt . 2>/dev/null || echo "User-agent: *" > robots.txt
           
-          git add index.html news-data.json timeline-data.json sitemap.xml robots.txt
+          git add -A
           if git diff --cached --quiet; then
             echo "No changes to deploy"
           else
-            git commit -m "auto: hourly update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git commit -m "auto: pipeline update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push origin main
+            echo "Deployed!"
           fi
       
-      - name: Sync data back to repo
+      - name: Sync data back to source repo
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/articles.json data/timeline.json data/timeline_recent.json
+          git add data/articles.json data/timeline.json data/cache.json
           if git diff --cached --quiet; then
             echo "No data changes"
           else
             git commit -m "auto: sync data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git pull --rebase origin main || true
             git push origin main
           fi
