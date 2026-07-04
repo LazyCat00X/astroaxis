@@ -28,3 +28,5 @@ sitemap.xml
 
 # Deploy dir
 deploy/
+history_rings_preview.png
+*.preview.png
