@@ -8,6 +8,7 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15  # Prevent 5h runs
     permissions:
       contents: write
       pages: write
@@ -38,7 +39,7 @@ jobs:
         run: python3 crawler.py
       
       - name: Summarize articles
-        run: MAX_ARTICLES_PER_RUN=30 python3 summarizer.py
+        run: MAX_ARTICLES_PER_RUN=10 python3 summarizer.py  # Reduce for speed
         env:
           MODELS_API_TOKEN: ${{ secrets.MODELS_API_TOKEN }}
       
