@@ -37,7 +37,7 @@ jobs:
       
       - name: Summarize articles
         run: |
-          export MAX_ARTICLES_PER_RUN=15
+          export MAX_ARTICLES_PER_RUN=30
           timeout 8m python3 summarizer.py || echo "Summarize timed out, using cached data"
         env:
           MODELS_API_TOKEN: ${{ secrets.MODELS_API_TOKEN }}
