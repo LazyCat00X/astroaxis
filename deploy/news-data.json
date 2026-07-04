@@ -1,6 +1,210 @@
 {
   "articles": [
     {
+      "url": "https://www.aljazeera.com/sports/2026/7/4/cape-verde-fans-overjoyed-with-teams-world-cup-run-despite-argentina-loss?traffic_source=rss",
+      "title": "Cape Verde fans overjoyed with team’s World Cup run despite Argentina loss",
+      "source": "Al Jazeera",
+      "topic": "World",
+      "category": "general",
+      "published": "2026-07-04T09:42:30+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/4/thousands-gather-as-khamenei-funeral-ceremonies-open-in-tehran?traffic_source=rss",
+      "title": "Thousands gather as Khamenei funeral ceremonies open in Tehran",
+      "source": "Al Jazeera",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-04T09:35:45+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.wired.com/story/food-preservatives-may-increase-the-risk-of-high-blood-pressure-and-cardiovascular-disease/",
+      "title": "Food Preservatives May Increase the Risk of High Blood Pressure and Cardiovascular Disease",
+      "source": "Wired",
+      "topic": "Health",
+      "category": "tech",
+      "published": "2026-07-04T09:30:00+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.nytimes.com/2026/07/04/world/americas/mexicos-secret-12th-man-in-the-world-cup-baby-jesus.html",
+      "title": "Mexico’s Secret 12th Man in the World Cup: Baby Jesus",
+      "source": "New York Times",
+      "topic": "World",
+      "category": "general",
+      "published": "2026-07-04T09:24:53+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/cj4g0n0p15xo?at_medium=RSS&at_campaign=rss",
+      "title": "The massive scramble behind the scenes before the new PM arrives",
+      "source": "BBC World",
+      "topic": "Macro",
+      "category": "general",
+      "published": "2026-07-04T09:22:20+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/7/4/armed-fighters-attack-multiple-towns-across-mali?traffic_source=rss",
+      "title": "Armed fighters attack multiple towns across Mali",
+      "source": "Al Jazeera",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-04T09:14:56+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c621je3we82o?at_medium=RSS&at_campaign=rss",
+      "title": "Eight of the 10 most populous countries are not in the World Cup",
+      "source": "BBC World",
+      "topic": "World",
+      "category": "general",
+      "published": "2026-07-04T09:09:18+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.wired.com/story/best-july-fourth-mattress-deals-2026/",
+      "title": "The Best Fourth of July Mattress Sales on Beds We Actually Sleep On (2026)",
+      "source": "Wired",
+      "topic": "Tech",
+      "category": "tech",
+      "published": "2026-07-04T09:08:00+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.nytimes.com/2026/07/04/world/africa/rwanda-july-4-liberation-day.html",
+      "title": "In Rwanda, July 4 Is Liberation Day From Genocide",
+      "source": "New York Times",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-04T09:01:42+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.nytimes.com/2026/07/04/world/middleeast/iran-supreme-leader-funeral-divisions.html",
+      "title": "Momentary Unity at a Funeral Masks Deep Divisions Among Iran’s Leaders",
+      "source": "New York Times",
+      "topic": "Politics",
+      "category": "general",
+      "published": "2026-07-04T09:01:35+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.nytimes.com/2026/07/04/world/americas/world-cup-mexico-tourism-trump.html",
+      "title": "Trump’s Travel Crackdown Has a Winner: Mexican Tourism",
+      "source": "New York Times",
+      "topic": "World",
+      "category": "general",
+      "published": "2026-07-04T09:00:07+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.wired.com/story/scientists-have-identified-a-new-fossil-species-of-axolotl-in-mexico/",
+      "title": "Scientists Have Identified a New Fossil Species of Axolotl in Mexico",
+      "source": "Wired",
+      "topic": "Science",
+      "category": "tech",
+      "published": "2026-07-04T09:00:00+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.npr.org/2026/07/04/nx-s1-5877727/swing-voters-america-250-midterms",
+      "title": "'Cautiously optimistic':  Swing voters describe their view of America at 250",
+      "source": "NPR",
+      "topic": "Politics",
+      "category": "general",
+      "published": "2026-07-04T09:00:00+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/7/4/saudi-led-coalition-pledges-unprecedented-force-against-houthi-threats?traffic_source=rss",
+      "title": "Saudi-led coalition pledges ‘unprecedented’ force against Houthi threats",
+      "source": "Al Jazeera",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-04T08:59:17+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.nytimes.com/live/2026/07/04/world/iran-funeral-ayatollah-khamenei/iran-projecting-unity-to-the-world-pursues-a-crackdown-at-home",
+      "title": "Iran, projecting unity to the world, pursues a crackdown at home.",
+      "source": "New York Times",
+      "topic": "World",
+      "category": "general",
+      "published": "2026-07-04T08:57:41+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-07-04/french-aircraft-carrier-set-to-head-home-after-hormuz-deployment",
+      "title": "French Aircraft Carrier Set to Head Home After Hormuz Deployment",
+      "source": "Bloomberg",
+      "topic": "Finance",
+      "category": "finance",
+      "published": "2026-07-04T08:52:36+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-07-04/mali-hit-by-several-attacks-targeting-major-towns-army-says",
+      "title": "Mali Hit by Several Attacks Targeting Major Towns, Army Says",
+      "source": "Bloomberg",
+      "topic": "Finance",
+      "category": "finance",
+      "published": "2026-07-04T08:38:50+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
       "url": "https://www.nytimes.com/live/2026/07/04/world/iran-funeral-ayatollah-khamenei/heres-the-latest",
       "title": "Here’s the latest.",
       "source": "New York Times",
@@ -77,6 +281,18 @@
       "topic": "Finance",
       "category": "finance",
       "published": "2026-07-04T08:07:28+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/video/2026/7/4/video-world-cup-2026-highlights?traffic_source=rss",
+      "title": "Watch World Cup Day 23: Argentina and Egypt survive thrillers to advance",
+      "source": "Al Jazeera",
+      "topic": "World",
+      "category": "general",
+      "published": "2026-07-04T08:00:41+00:00",
       "ai_summary": "(neutralize failed)",
       "summaries": {
         "zh-HK": "(neutralize failed)"
@@ -981,222 +1197,6 @@
       "summaries": {
         "zh-HK": "(neutralize failed)"
       }
-    },
-    {
-      "url": "https://www.aljazeera.com/sports/2026/7/4/egypt-coach-dedicates-world-cup-win-to-palestine-as-arab-world-celebrates?traffic_source=rss",
-      "title": "Egypt coach dedicates World Cup win to Palestine as Gaza celebrates",
-      "source": "Al Jazeera",
-      "topic": "World",
-      "category": "general",
-      "published": "2026-07-04T00:20:08+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.bbc.co.uk/news/articles/clyery8p047o?at_medium=RSS&at_campaign=rss",
-      "title": "Trump's new take on 250 years of American expansionism",
-      "source": "BBC World",
-      "topic": "Politics",
-      "category": "general",
-      "published": "2026-07-04T00:10:22+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.aljazeera.com/sports/2026/7/4/england-vs-mexico-world-cup-knockout-match-to-go-ahead-as-scheduled?traffic_source=rss",
-      "title": "England vs Mexico World Cup knockout match to go ahead as scheduled",
-      "source": "Al Jazeera",
-      "topic": "World",
-      "category": "general",
-      "published": "2026-07-04T00:07:04+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-07-04/energy-hungry-asia-is-already-drawing-lessons-from-iran-crisis",
-      "title": "Energy-Hungry Asia Is Already Drawing Lessons From Iran Crisis",
-      "source": "Bloomberg Crypto",
-      "topic": "World",
-      "category": "finance",
-      "published": "2026-07-04T00:00:00+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.aljazeera.com/news/liveblog/2026/7/4/iran-war-live-millions-expected-in-tehran-for-funeral-of-ali-khamenei?traffic_source=rss",
-      "title": "Iran war live: Millions expected in Tehran for funeral of Ali Khamenei",
-      "source": "Al Jazeera",
-      "topic": "World",
-      "category": "general",
-      "published": "2026-07-04T00:00:00+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/quakes-reduce-venezuela-tourist-town-to-rubble-leaving-economy-in-tatters?traffic_source=rss",
-      "title": "Quakes reduce Venezuela tourist town to rubble, leaving economy in tatters",
-      "source": "Al Jazeera",
-      "topic": "Macro",
-      "category": "general",
-      "published": "2026-07-03T23:57:24+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.bbc.co.uk/news/articles/cp8lnnr080go?at_medium=RSS&at_campaign=rss",
-      "title": "Russia looks to students to make up for mounting losses in Ukraine",
-      "source": "BBC World",
-      "topic": "World",
-      "category": "general",
-      "published": "2026-07-03T23:24:20+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvgmz3jyq9qo?at_medium=RSS&at_campaign=rss",
-      "title": "England-Mexico kick-off unchanged after Fifa U-turn",
-      "source": "BBC World",
-      "topic": "Sports",
-      "category": "general",
-      "published": "2026-07-03T23:12:04+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.bbc.co.uk/news/articles/cdx7d254lrjo?at_medium=RSS&at_campaign=rss",
-      "title": "China's internet got so mad about a celebrity's 'bad' singing, her concert was cancelled",
-      "source": "BBC World",
-      "topic": "Entertainment",
-      "category": "general",
-      "published": "2026-07-03T22:46:42+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.aljazeera.com/sports/2026/7/3/egypt-say-dallas-police-officer-pushed-player-team-director-at-world-cup?traffic_source=rss",
-      "title": "Egypt say Dallas police officer pushed player, team director at World Cup",
-      "source": "Al Jazeera",
-      "topic": "World",
-      "category": "general",
-      "published": "2026-07-03T22:20:04+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.scmp.com/news/china/military/article/3359352/can-taiwan-fix-its-military-manpower-shortage-training-reservists-advanced-weapons?utm_source=rss_feed",
-      "title": "Can Taiwan fix its military manpower shortage by training reservists in advanced weapons?",
-      "source": "SCMP",
-      "topic": "General",
-      "category": "general",
-      "published": "2026-07-03T22:00:19+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/venezuelas-rodriguez-blames-propaganda-for-quake-response-backlash-2?traffic_source=rss",
-      "title": "Venezuela’s Rodriguez blames ‘propaganda’ for quake response backlash",
-      "source": "Al Jazeera",
-      "topic": "Politics",
-      "category": "general",
-      "published": "2026-07-03T21:49:17+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/venezuelas-rodriguez-blames-propaganda-for-quake-response-backlash?traffic_source=rss",
-      "title": "Venezuela’s Rodriguez blames ‘propaganda’ for quake response backlash",
-      "source": "Al Jazeera",
-      "topic": "Politics",
-      "category": "general",
-      "published": "2026-07-03T21:36:31+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://cointelegraph.com/markets/sol-rallies-as-solana-memecoins-prediction-market-activity-surge-are-bulls-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "title": "SOL rallies as Solana memecoins, prediction market activity surge: Are bulls back?",
-      "source": "CoinTelegraph",
-      "topic": "Trading",
-      "category": "crypto",
-      "published": "2026-07-03T21:36:02+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.aljazeera.com/news/2026/7/3/thousands-forced-to-evacuate-in-colorado-as-wildfire-spreads?traffic_source=rss",
-      "title": "Thousands forced to evacuate in Colorado as wildfire spreads",
-      "source": "Al Jazeera",
-      "topic": "General",
-      "category": "general",
-      "published": "2026-07-03T21:32:05+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.bbc.co.uk/news/articles/c20y2lkgz13o?at_medium=RSS&at_campaign=rss",
-      "title": "How to walk 30 minutes a day - your tips after NHS reward scheme announced",
-      "source": "BBC World",
-      "topic": "General",
-      "category": "general",
-      "published": "2026-07-03T21:31:05+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3359270/us-has-failed-understand-china?utm_source=rss_feed",
-      "title": "The US has failed to understand China",
-      "source": "SCMP",
-      "topic": "Macro",
-      "category": "general",
-      "published": "2026-07-03T21:30:06+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.bbc.co.uk/news/articles/c0qy2zxjkwvo?at_medium=RSS&at_campaign=rss",
-      "title": "Starmer tells of 'intensely personal' decision to quit and warns Burnham in first interview since resigning",
-      "source": "BBC World",
-      "topic": "Politics",
-      "category": "general",
-      "published": "2026-07-03T21:26:53+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
     }
   ],
   "sourceLocations": {
@@ -1376,5 +1376,5 @@
       "London"
     ]
   },
-  "updated": "2026-07-04T09:02:46.785491+00:00"
+  "updated": "2026-07-04T10:02:50.714418+00:00"
 }
