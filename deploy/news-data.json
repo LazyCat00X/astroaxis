@@ -1368,22 +1368,6 @@
       }
     },
     {
-      "url": "https://www.theblock.co/post/407147/samsung-dunamu-say-they-were-listed-as-ousd-stablecoin-consortium-members-without-official-consultation-report?utm_source=rss&utm_medium=rss",
-      "title": "Samsung, Dunamu say they were listed as OUSD stablecoin consortium members without official consultation: report",
-      "source": "The Block",
-      "topic": "Crypto",
-      "category": "crypto",
-      "published": "2026-07-03T14:32:14+00:00",
-      "ai_summary": "• 三星和Dunamu表示，他們在未經事先諮詢的情況下被列為OUSD穩定幣聯盟成員。此消息由一家韓國新聞媒體報導。",
-      "summaries": {
-        "zh-HK": "• 三星和Dunamu表示，他們在未經事先諮詢的情況下被列為OUSD穩定幣聯盟成員。此消息由一家韓國新聞媒體報導。",
-        "en": "• Samsung and Dunamu stated they were listed as members of the OUSD stablecoin consortium without prior consultation. This was reported by a South Korean news outlet.",
-        "zh-CN": "• 三星和Dunamu表示，他们在未经事先咨询的情况下被列为OUSD稳定币联盟成员。此消息由一家韩国新闻媒体报道。",
-        "ja": "• サムスンとDunamuは、事前の協議なしにOUSDステーブルコインコンソーシアムのメンバーとしてリストされたと述べた。これは韓国のニュースメディアによって報じられた。",
-        "ko": "• 삼성과 두나무는 사전 협의 없이 OUSD 스테이블코인 컨소시엄의 회원으로 등재되었다고 밝혔다. 이는 한국의 한 뉴스 매체가 보도한 내용이다."
-      }
-    },
-    {
       "url": "https://www.theblock.co/post/407075/grvt-and-the-rise-of-composable-onchain-wealth?utm_source=rss&utm_medium=rss",
       "title": "Grvt and the Rise of Composable Onchain Wealth",
       "source": "The Block",
@@ -1437,6 +1421,22 @@
       "ai_summary": "[Skipped: LOW]",
       "summaries": {
         "zh-HK": "[此文可信度評級為 LOW，暫不處理]"
+      }
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-07-03/fed-and-ecb-seen-diverging-in-french-snapshot-of-war-aftermath",
+      "title": "Fed and ECB Seen Diverging in French Snapshot of War Aftermath",
+      "source": "Bloomberg Crypto",
+      "topic": "Policy",
+      "category": "finance",
+      "published": "2026-07-03T14:19:08+00:00",
+      "ai_summary": "標題：法國對戰後局勢的快照顯示聯儲局與歐洲央行政策或將分歧\n中立摘要：兩位法國首席經濟學家預期，聯儲局將於2025年加息。此評估是在週四美國勞動市場數據公佈後作出的。",
+      "summaries": {
+        "zh-HK": "標題：法國對戰後局勢的快照顯示聯儲局與歐洲央行政策或將分歧\n中立摘要：兩位法國首席經濟學家預期，聯儲局將於2025年加息。此評估是在週四美國勞動市場數據公佈後作出的。",
+        "en": "Title: Fed and ECB Seen Diverging in French Snapshot of War Aftermath\nNeutral: The Federal Reserve is expected to raise interest rates in 2025, according to two French chief economists. This assessment follows the release of U.S. labor market data on Thursday.",
+        "zh-CN": "标题：法国对战后局势的快照显示美联储与欧洲央行政策或现分歧\n中立摘要：两位法国首席经济学家预期，美联储将于2025年加息。此评估是在周四美国劳动力市场数据公布后作出的。",
+        "ja": "タイトル：フランスの戦後スナップショットでFRBとECBの政策乖離が見込まれる\n中立要約：2人のフランス人チーフエコノミストによると、FRBは2025年に利上げを行うと予想されている。この評価は、木曜日に発表された米国の労働市場データを受けたものである。",
+        "ko": "제목: 프랑스의 전후 상황 스냅샷, 연준과 ECB 정책 차이 전망\n중립 요약: 두 명의 프랑스 수석 경제학자에 따르면, 연준은 2025년에 금리를 인상할 것으로 예상된다. 이 평가는 목요일 발표된 미국 노동 시장 데이터 이후 나온 것이다."
       }
     }
   ],
@@ -1617,5 +1617,5 @@
       "London"
     ]
   },
-  "updated": "2026-07-04T06:54:11.447921+00:00"
+  "updated": "2026-07-04T06:55:05.432027+00:00"
 }
