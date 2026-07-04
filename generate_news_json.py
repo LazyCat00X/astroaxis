@@ -47,7 +47,7 @@ def main():
     # Filter summarized articles
     summarized = [a for a in articles if a.get("summarized") and a.get("ai_summary")]
     summarized.sort(key=lambda a: a.get("published", ""), reverse=True)
-    summarized = summarized[:100]
+    summarized = summarized[:500]
     
     # Build output
     articles_out = []
