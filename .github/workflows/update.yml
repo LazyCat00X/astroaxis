@@ -81,5 +81,6 @@ jobs:
             echo "No data changes"
           else
             git commit -m "auto: sync data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git pull --rebase origin main || true
             git push origin main
           fi
