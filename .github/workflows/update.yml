@@ -38,10 +38,12 @@ jobs:
       - name: Crawl news articles
         run: python3 crawler.py
       
-      - name: Summarize articles (skip - rate limit issues)
+      - name: Summarize articles
         run: |
-          echo "Skipping AI summarization due to GitHub Actions rate limits"
-          # Use existing cached summaries from crawler
+          export MAX_ARTICLES_PER_RUN=3
+          timeout 10m python3 summarizer.py || echo "Summarize timed out, using cached data"
+        env:
+          MODELS_API_TOKEN: ${{ secrets.MODELS_API_TOKEN }}
       
       - name: Generate data files
         run: |
