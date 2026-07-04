@@ -40,10 +40,10 @@ jobs:
       
       - name: Summarize articles
         run: |
-          export MAX_ARTICLES_PER_RUN=5
-          timeout 10m python3 summarizer.py || echo "Summarize timed out, using cached data"
+          export MAX_ARTICLES_PER_RUN=2
+          timeout 12m python3 summarizer.py || echo "Summarize timed out, using cached data"
         env:
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          MODELS_API_TOKEN: ${{ secrets.MODELS_API_TOKEN }}
       
       - name: Generate data files
         run: |

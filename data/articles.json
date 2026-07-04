@@ -9134,8 +9134,16 @@
     "topic": "Bitcoin",
     "published": "2026-07-04T05:02:44+00:00",
     "crawled": "2026-07-04T11:10:29.803189+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "(neutralize failed)",
+    "verification": {
+      "credibility": "ERROR"
+    },
+    "neutral_text": "(neutralize failed)",
+    "summaries": {
+      "zh-HK": "(neutralize failed)"
+    },
+    "source_url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   },
   {
     "url": "https://cointelegraph.com/news/crypto-biz-bitcoin-maximalism-meets-capital-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -9162,8 +9170,16 @@
     "topic": "Finance",
     "published": "2026-07-04T10:33:09+00:00",
     "crawled": "2026-07-04T11:10:32.837998+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "(neutralize failed)",
+    "verification": {
+      "credibility": "ERROR"
+    },
+    "neutral_text": "(neutralize failed)",
+    "summaries": {
+      "zh-HK": "(neutralize failed)"
+    },
+    "source_url": "https://www.bloomberg.com/news/articles/2026-07-04/tankers-u-turn-in-hormuz-with-some-taking-iran-route-instead"
   },
   {
     "url": "https://techcrunch.com/2026/07/03/chevy-built-an-all-american-ev-truck-why-is-nobody-buying-it/",
@@ -9176,8 +9192,16 @@
     "topic": "Tech",
     "published": "2026-07-03T16:30:00+00:00",
     "crawled": "2026-07-04T11:10:36.581131+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "(neutralize failed)",
+    "verification": {
+      "credibility": "ERROR"
+    },
+    "neutral_text": "(neutralize failed)",
+    "summaries": {
+      "zh-HK": "(neutralize failed)"
+    },
+    "source_url": "https://techcrunch.com/2026/07/03/chevy-built-an-all-american-ev-truck-why-is-nobody-buying-it/"
   },
   {
     "url": "https://www.wired.com/story/where-nasa-posts-its-best-space-photos/",
@@ -9190,8 +9214,16 @@
     "topic": "Science",
     "published": "2026-07-04T11:00:00+00:00",
     "crawled": "2026-07-04T11:10:38.042396+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "(neutralize failed)",
+    "verification": {
+      "credibility": "ERROR"
+    },
+    "neutral_text": "(neutralize failed)",
+    "summaries": {
+      "zh-HK": "(neutralize failed)"
+    },
+    "source_url": "https://www.wired.com/story/where-nasa-posts-its-best-space-photos/"
   },
   {
     "url": "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start/",
@@ -9204,8 +9236,16 @@
     "topic": "Tech",
     "published": "2026-07-03T16:30:00+00:00",
     "crawled": "2026-07-04T11:10:38.042523+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• <Traditional Chinese> 谷歌深智（Google DeepMind）與倫敦為基員工之間就工會化談判於2025年5月展開，此前公司最初",
+    "verification": {
+      "credibility": "ERROR"
+    },
+    "neutral_text": "Negotiations between Google DeepMind and London-based employees regarding unionization began in May 2025, after the company initially denied",
+    "summaries": {
+      "zh-HK": "• <Traditional Chinese> 谷歌深智（Google DeepMind）與倫敦為基員工之間就工會化談判於2025年5月展開，此前公司最初"
+    },
+    "source_url": "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start/"
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-03/colombian-president-asks-trump-to-remove-him-from-sanctions-list",
@@ -9260,8 +9300,16 @@
     "topic": "General",
     "published": "2026-07-04T11:00:03+00:00",
     "crawled": "2026-07-04T11:10:59.601996+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "(neutralize failed)",
+    "verification": {
+      "credibility": "ERROR"
+    },
+    "neutral_text": "(neutralize failed)",
+    "summaries": {
+      "zh-HK": "(neutralize failed)"
+    },
+    "source_url": "https://time.com/article/2026/07/04/america-s-greatest-strength/"
   },
   {
     "url": "https://time.com/article/2026/07/02/screwworm-us-texas-what-to-know/",

@@ -9,12 +9,12 @@ ARTICLES_FILE = DATA_DIR / "articles.json"
 log = logging.getLogger("pipeline")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
-# OpenRouter API (free models available)
-API_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = "meta-llama/llama-3.1-8b-instruct:free"  # Free via OpenRouter
-MAX_PER_RUN = int(os.environ.get("MAX_ARTICLES_PER_RUN", "5"))  # Can process more with OpenRouter
-# Rate limit handling (OpenRouter: ~20 RPM for free tier)
-RATE_LIMIT_DELAY = 3  # seconds between API calls
+# GitHub Models API (free) - https://models.github.ai/inference
+API_URL = "https://models.github.ai/inference/chat/completions"
+MODEL = "openai/gpt-4o-mini"  # Free, fast
+MAX_PER_RUN = int(os.environ.get("MAX_ARTICLES_PER_RUN", "2"))  # Very conservative
+# Rate limit handling (GitHub Actions has very strict limits)
+RATE_LIMIT_DELAY = 15  # Very long delay between calls
 
 def get_api_key():
     KEY = ""
@@ -24,14 +24,14 @@ def get_api_key():
         if p.exists():
             with open(p) as f:
                 for line in f:
-                    if line.startswith("OPENROUTER_API_KEY="):
+                    if line.startswith("MODELS_API_TOKEN="):
                         KEY = line.split("=", 1)[1].strip()
                         break
         if KEY:
             break
     # Fallback to environment variable (for GitHub Actions)
     if not KEY:
-        KEY = os.environ.get("OPENROUTER_API_KEY", "")
+        KEY = os.environ.get("MODELS_API_TOKEN", "")
     return KEY
 
 API_KEY = get_api_key()
@@ -43,9 +43,7 @@ def call(system, user, temp=0.2, max_tok=500):
                "messages": [{"role": "system", "content": system},
                             {"role": "user", "content": user}]}
     headers = {"Authorization": f"Bearer {API_KEY}",
-               "Content-Type": "application/json",
-               "HTTP-Referer": "https://github.com/LazyCat00X/astroaxis",
-               "X-Title": "AstroAxis News Summarizer"}
+               "Content-Type": "application/json"}
     status = 0
     for attempt in range(5):
         try:
