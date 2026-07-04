@@ -88,7 +88,7 @@ def main():
     # Filter to summarized only
     summarized = [a for a in articles if a.get("summarized") and a.get("ai_summary")]
     summarized.sort(key=lambda a: a.get("published", ""), reverse=True)
-    summarized = summarized[:100]
+    summarized = summarized[:500]
 
     # Build article payload
     articles_out = []

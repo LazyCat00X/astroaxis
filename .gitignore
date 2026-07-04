@@ -17,3 +17,11 @@ cron.log
 
 # Cache
 .cache/
+
+# Deploy artifacts — these are pushed to astroaxis-site repo separately
+index.html
+news-data.json
+timeline-data.json
+og-image.png
+robots.txt
+sitemap.xml
