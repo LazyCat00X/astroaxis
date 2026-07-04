@@ -1,6 +1,366 @@
 {
   "articles": [
     {
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvgmz3jyq9qo?at_medium=RSS&at_campaign=rss",
+      "title": "England-Mexico kick-off unchanged after Fifa U-turn",
+      "source": "BBC World",
+      "topic": "Sports",
+      "category": "general",
+      "published": "2026-07-03T23:12:04+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/7/3/egypt-say-dallas-police-officer-pushed-player-team-director-at-world-cup?traffic_source=rss",
+      "title": "Egypt say Dallas police officer pushed player, team director at World Cup",
+      "source": "Al Jazeera",
+      "topic": "World",
+      "category": "general",
+      "published": "2026-07-03T22:20:04+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.scmp.com/news/china/military/article/3359352/can-taiwan-fix-its-military-manpower-shortage-training-reservists-advanced-weapons?utm_source=rss_feed",
+      "title": "Can Taiwan fix its military manpower shortage by training reservists in advanced weapons?",
+      "source": "SCMP",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-03T22:00:19+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/venezuelas-rodriguez-blames-propaganda-for-quake-response-backlash-2?traffic_source=rss",
+      "title": "Venezuela’s Rodriguez blames ‘propaganda’ for quake response backlash",
+      "source": "Al Jazeera",
+      "topic": "Politics",
+      "category": "general",
+      "published": "2026-07-03T21:49:17+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/venezuelas-rodriguez-blames-propaganda-for-quake-response-backlash?traffic_source=rss",
+      "title": "Venezuela’s Rodriguez blames ‘propaganda’ for quake response backlash",
+      "source": "Al Jazeera",
+      "topic": "Politics",
+      "category": "general",
+      "published": "2026-07-03T21:36:31+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://cointelegraph.com/markets/sol-rallies-as-solana-memecoins-prediction-market-activity-surge-are-bulls-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "SOL rallies as Solana memecoins, prediction market activity surge: Are bulls back?",
+      "source": "CoinTelegraph",
+      "topic": "Trading",
+      "category": "crypto",
+      "published": "2026-07-03T21:36:02+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/7/3/thousands-forced-to-evacuate-in-colorado-as-wildfire-spreads?traffic_source=rss",
+      "title": "Thousands forced to evacuate in Colorado as wildfire spreads",
+      "source": "Al Jazeera",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-03T21:32:05+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c20y2lkgz13o?at_medium=RSS&at_campaign=rss",
+      "title": "How to walk 30 minutes a day - your tips after NHS reward scheme announced",
+      "source": "BBC World",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-03T21:31:05+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3359270/us-has-failed-understand-china?utm_source=rss_feed",
+      "title": "The US has failed to understand China",
+      "source": "SCMP",
+      "topic": "Macro",
+      "category": "general",
+      "published": "2026-07-03T21:30:06+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c0qy2zxjkwvo?at_medium=RSS&at_campaign=rss",
+      "title": "Starmer tells of 'intensely personal' decision to quit and warns Burnham in first interview since resigning",
+      "source": "BBC World",
+      "topic": "Politics",
+      "category": "general",
+      "published": "2026-07-03T21:26:53+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "title": "The only AI glossary you’ll need this year",
+      "source": "TechCrunch",
+      "topic": "DeFi",
+      "category": "tech",
+      "published": "2026-07-03T21:20:00+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/news/longform/2026/7/3/a-nightmare-strugging-with-the-aftermath-of-venezuelas-earthquakes?traffic_source=rss",
+      "title": "‘A nightmare’: Strugging with the aftermath of Venezuela’s earthquakes",
+      "source": "Al Jazeera",
+      "topic": "Science",
+      "category": "general",
+      "published": "2026-07-03T21:17:40+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bloomberg.com/news/videos/2026-07-03/masters-in-business-with-mamoon-hamid-video",
+      "title": "Venture Capital During the AI Revolution: Masters in Business with Mamoon Hamid",
+      "source": "Bloomberg Crypto",
+      "topic": "Finance",
+      "category": "finance",
+      "published": "2026-07-03T21:13:04+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://decrypt.co/372750/claude-fable-5-not-nerfed-router-paranoid",
+      "title": "Claude Fable 5 Isn't Nerfed. The Router Is Just Paranoid",
+      "source": "Decrypt",
+      "topic": "AI",
+      "category": "crypto",
+      "published": "2026-07-03T21:06:03+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/7/3/nasa-launches-robotic-mission-to-save-telescope-falling-back-to-earth?traffic_source=rss",
+      "title": "NASA launches robotic mission to save telescope falling back to Earth",
+      "source": "Al Jazeera",
+      "topic": "Science",
+      "category": "general",
+      "published": "2026-07-03T21:05:39+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/7/3/egypt-beat-australia-on-penalties-to-win-first-world-cup-knockout-match?traffic_source=rss",
+      "title": "Salah awaits Messi as Egypt beat Australia on penalties at World Cup",
+      "source": "Al Jazeera",
+      "topic": "World",
+      "category": "general",
+      "published": "2026-07-03T21:05:06+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://decrypt.co/372749/senator-gillibrand-ban-trump-elected-officials-launching-meme-coins",
+      "title": "Senator Gillibrand Seeks to Ban Trump, Elected Officials From Launching Meme Coins",
+      "source": "Decrypt",
+      "topic": "Politics",
+      "category": "crypto",
+      "published": "2026-07-03T21:03:33+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.npr.org/2026/07/03/nx-s1-5877361/taylor-swift-travis-kelce-wedding-msg",
+      "title": "Taylor Swift and Travis Kelce fans gather for glimpse of top secret wedding",
+      "source": "NPR",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-03T21:03:00+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/massive-wildfire-spreads-in-portugal-amid-extreme-heat-and-strong-wind?traffic_source=rss",
+      "title": "Massive wildfire spreads in Portugal amid extreme heat and strong wind",
+      "source": "Al Jazeera",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-03T21:01:17+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c20y2p9qqqko?at_medium=RSS&at_campaign=rss",
+      "title": "Anguished families left to identify Venezuela quake victims at makeshift morgue",
+      "source": "BBC World",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-03T21:00:53+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bloomberg.com/jp/news/newsletters/2026-07-03/THMAC1KGCTG300",
+      "title": "1ドル200円の円安シナリオ、高市氏インド訪問、W杯ピッチ外の戦い─1週間のニュース5選",
+      "source": "Bloomberg Crypto",
+      "topic": "Finance",
+      "category": "finance",
+      "published": "2026-07-03T21:00:01+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/7/3/dutch-football-association-to-sue-over-racist-slurs-after-world-cup-exit?traffic_source=rss",
+      "title": "Dutch football association to sue over racist slurs after World Cup exit",
+      "source": "Al Jazeera",
+      "topic": "World",
+      "category": "general",
+      "published": "2026-07-03T20:58:14+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.npr.org/2026/07/03/nx-s1-5879278/irans-control-of-the-strait-of-hormuz-remains-a-powerful-bargaining-chip",
+      "title": "Iran's control of the Strait of Hormuz remains a powerful bargaining chip",
+      "source": "NPR",
+      "topic": "World",
+      "category": "general",
+      "published": "2026-07-03T20:51:04+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-07-03/brazil-justice-allows-jair-bolsonaro-to-remain-on-house-arrest",
+      "title": "Brazil Justice Allows Bolsonaro to Remain on House Arrest",
+      "source": "Bloomberg",
+      "topic": "Finance",
+      "category": "finance",
+      "published": "2026-07-03T20:43:21+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-07-03/trump-says-he-pardoned-six-people-pursued-for-fixing-their-car",
+      "title": "Trump Pardons Six People Pursued for ‘Fixing Their Car’",
+      "source": "Bloomberg",
+      "topic": "Finance",
+      "category": "finance",
+      "published": "2026-07-03T20:00:11+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-july-2026-on-netflix-hulu-hbo-max-and-more-58d07528?mod=mw_rss_topstories",
+      "title": "Here’s what’s worth streaming in July 2026 on Netflix, Hulu, HBO Max and more",
+      "source": "MarketWatch",
+      "topic": "Finance",
+      "category": "finance",
+      "published": "2026-07-03T20:00:00+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/video/inside-story/2026/7/3/is-chinas-new-ethnic-unity-law-a-step-towards-forced-assimilation-2?traffic_source=rss",
+      "title": "Is China’s new ethnic unity law a step towards forced assimilation?",
+      "source": "Al Jazeera",
+      "topic": "Politics",
+      "category": "general",
+      "published": "2026-07-03T19:59:27+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/mamdani-calls-for-unity-on-americas-250th-birthday?traffic_source=rss",
+      "title": "Mamdani calls for unity on America’s 250th birthday",
+      "source": "Al Jazeera",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-03T19:58:44+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.npr.org/2026/07/03/nx-s1-5822582/demise-and-possible-resurrection-of-primm-nevada",
+      "title": "A family steps in to save the dying casino town of Primm, Nevada",
+      "source": "NPR",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-03T19:55:39+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/economy/2026/7/3/us-heatwave-raises-alarms-over-ai-data-centre-energy-demands?traffic_source=rss",
+      "title": "US heatwave raises alarms over AI data centre energy demands",
+      "source": "Al Jazeera",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-03T19:48:44+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
       "url": "https://techcrunch.com/2026/07/03/the-dune-keypad-device-can-be-your-meeting-controller-and-more/",
       "title": "The Dune keypad device can be your meeting controller and more",
       "source": "TechCrunch",
@@ -1078,467 +1438,6 @@
       "summaries": {
         "zh-HK": "[此文可信度評級為 LOW，暫不處理]"
       }
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-07-03/fed-and-ecb-seen-diverging-in-french-snapshot-of-war-aftermath",
-      "title": "Fed and ECB Seen Diverging in French Snapshot of War Aftermath",
-      "source": "Bloomberg Crypto",
-      "topic": "Policy",
-      "category": "finance",
-      "published": "2026-07-03T14:19:08+00:00",
-      "ai_summary": "標題：法國對戰後局勢的快照顯示聯儲局與歐洲央行政策或將分歧\n中立摘要：兩位法國首席經濟學家預期，聯儲局將於2025年加息。此評估是在週四美國勞動市場數據公佈後作出的。",
-      "summaries": {
-        "zh-HK": "標題：法國對戰後局勢的快照顯示聯儲局與歐洲央行政策或將分歧\n中立摘要：兩位法國首席經濟學家預期，聯儲局將於2025年加息。此評估是在週四美國勞動市場數據公佈後作出的。",
-        "en": "Title: Fed and ECB Seen Diverging in French Snapshot of War Aftermath\nNeutral: The Federal Reserve is expected to raise interest rates in 2025, according to two French chief economists. This assessment follows the release of U.S. labor market data on Thursday.",
-        "zh-CN": "标题：法国对战后局势的快照显示美联储与欧洲央行政策或现分歧\n中立摘要：两位法国首席经济学家预期，美联储将于2025年加息。此评估是在周四美国劳动力市场数据公布后作出的。",
-        "ja": "タイトル：フランスの戦後スナップショットでFRBとECBの政策乖離が見込まれる\n中立要約：2人のフランス人チーフエコノミストによると、FRBは2025年に利上げを行うと予想されている。この評価は、木曜日に発表された米国の労働市場データを受けたものである。",
-        "ko": "제목: 프랑스의 전후 상황 스냅샷, 연준과 ECB 정책 차이 전망\n중립 요약: 두 명의 프랑스 수석 경제학자에 따르면, 연준은 2025년에 금리를 인상할 것으로 예상된다. 이 평가는 목요일 발표된 미국 노동 시장 데이터 이후 나온 것이다."
-      }
-    },
-    {
-      "url": "https://www.bbc.co.uk/news/articles/cpd357j7020o?at_medium=RSS&at_campaign=rss",
-      "title": "Three men found not guilty of Lyra McKee murder",
-      "source": "BBC World",
-      "topic": "General",
-      "category": "general",
-      "published": "2026-07-03T14:18:14+00:00",
-      "ai_summary": "三名男子被裁定謀殺記者萊拉·麥基罪名不成立\n三名被控在北愛爾蘭謀殺記者萊拉·麥基的男子，於2026年7月3日被判無罪。29歲的麥基於2019年4月在倫敦德里市克里根區遭槍擊身亡。新愛爾蘭共和軍已承認責任。38歲的彼得·卡瓦納、25歲的喬丹·加雷思·迪瓦恩及58歲的保羅·麥金泰爾，被控共同謀殺罪。檢方指控他們陪同一名獨行槍手前往射擊地點。這場無陪審團審訊歷時兩年，並於4月結束。史密斯夫人法官保留判決。",
-      "summaries": {
-        "zh-HK": "三名男子被裁定謀殺記者萊拉·麥基罪名不成立\n三名被控在北愛爾蘭謀殺記者萊拉·麥基的男子，於2026年7月3日被判無罪。29歲的麥基於2019年4月在倫敦德里市克里根區遭槍擊身亡。新愛爾蘭共和軍已承認責任。38歲的彼得·卡瓦納、25歲的喬丹·加雷思·迪瓦恩及58歲的保羅·麥金泰爾，被控共同謀殺罪。檢方指控他們陪同一名獨行槍手前往射擊地點。這場無陪審團審訊歷時兩年，並於4月結束。史密斯夫人法官保留判決。",
-        "en": "Three men found not guilty of Lyra McKee murder\nThree men accused of murdering journalist Lyra McKee in Northern Ireland were found not guilty on 3 July 2026. McKee, 29, died after being shot in the Creggan area of Londonderry in April 2019. The New IRA claimed responsibility. Peter Cavanagh, 38, Jordan Gareth Devine, 25, and Paul McIntyre, 58, faced a joint enterprise murder charge. The prosecution alleged they accompanied a lone gunman to a firing point. The non-jury trial lasted two years and ended in April. Judge Mrs Justice Smyth reserved her judgement.",
-        "zh-CN": "三名男子被裁定谋杀记者莱拉·麦基罪名不成立\n三名被控在北爱尔兰谋杀记者莱拉·麦基的男子，于2026年7月3日被判无罪。29岁的麦基于2019年4月在伦敦德里市克里根区遭枪击身亡。新爱尔兰共和军已承认责任。38岁的彼得·卡瓦纳、25岁的乔丹·加雷思·迪瓦恩及58岁的保罗·麦金泰尔，被控共同谋杀罪。检方指控他们陪同一名独行枪手前往射击地点。这场无陪审团审讯历时两年，并于4月结束。史密斯夫人法官保留判决。",
-        "ja": "ライラ・マッキー殺害事件、3人の男に無罪判決\n北アイルランドで記者ライラ・マッキーを殺害したとして告発された3人の男が、2026年7月3日に無罪となった。29歳のマッキーは、2019年4月にロンドンデリーのクレガン地区で銃撃され死亡した。ニューIRAが犯行声明を出した。ピーター・キャバナー（38歳）、ジョーダン・ガレス・ディバイン（25歳）、ポール・マッキンタイア（58歳）は、共同謀議殺人罪で起訴された。検察は、彼らが単独の銃撃犯を発射地点に同行させたと主張した。陪審員なしの裁判は2年間続き、4月に終結した。スマイス裁判官は判決を保留した。",
-        "ko": "라이라 매키 살해 사건, 3명 무죄 판결\n북아일랜드에서 기자 라이라 매키를 살해한 혐"
-      }
-    },
-    {
-      "url": "https://www.marketwatch.com/story/a-looming-ai-disappointment-and-rising-yields-why-one-research-firm-is-hitting-the-brakes-on-u-s-stocks-4bfaa67b?mod=mw_rss_topstories",
-      "title": "A looming AI disappointment and rising yields. Why one research firm is hitting the brakes on U.S. stocks.",
-      "source": "MarketWatch",
-      "topic": "DeFi",
-      "category": "finance",
-      "published": "2026-07-03T14:17:00+00:00",
-      "ai_summary": "• 標題：人工智能可能令人失望及收益率上升。一家研究機構為何對美國股市踩下煞車。\n中立摘要：宏觀研究委員會（MacroResearchBoard）就未來12個月的美國股市發出警告。該機構指出，人工智能相關的潛在失望情緒以及收益率上升是影響因素。此警告適用於目前由科技股主導的市場。",
-      "summaries": {
-        "zh-HK": "• 標題：人工智能可能令人失望及收益率上升。一家研究機構為何對美國股市踩下煞車。\n中立摘要：宏觀研究委員會（MacroResearchBoard）就未來12個月的美國股市發出警告。該機構指出，人工智能相關的潛在失望情緒以及收益率上升是影響因素。此警告適用於目前由科技股主導的市場。",
-        "en": "• Title: A looming AI disappointment and rising yields. Why one research firm is hitting the brakes on U.S. stocks.\nNeutral: MacroResearchBoard issued a warning regarding U.S. stocks over the next 12 months. The firm cited a potential AI-related disappointment and rising yields as factors. The warning applies to a market currently dominated by technology stocks.",
-        "zh-CN": "• 标题：人工智能可能令人失望及收益率上升。一家研究机构为何对美国股市踩下刹车。\n中立摘要：宏观研究委员会（MacroResearchBoard）就未来12个月的美国股市发出警告。该机构指出，人工智能相关的潜在失望情绪以及收益率上升是影响因素。此警告适用于目前由科技股主导的市场。",
-        "ja": "• タイトル：迫るAI失望と利回り上昇。ある調査会社が米国株にブレーキをかける理由。\n中立要約：マクロリサーチボード（MacroResearchBoard）は、今後12か月の米国株に関する警告を発しました。同社は、AI関連の潜在的な失望と利回り上昇を要因として挙げています。この警告は、現在テクノロジー株が支配する市場に適用されます。",
-        "ko": "• 제목: 다가오는 AI 실망감과 수익률 상승. 한 리서치 회사가 미국 주식에 브레이크를 거는 이유.\n중립 요약: 매크로리서치보드(MacroResearchBoard)가 향후 12개월간 미국 주식에 대해 경고를 발령했습니다. 이 회사는 AI 관련 잠재적 실망감과 수익률 상승을 요인으로 지목했습니다. 이 경고는 현재 기술주가 주도하는 시장에 적용됩니다."
-      }
-    },
-    {
-      "url": "https://www.marketwatch.com/story/we-were-stunned-my-daughter-39-said-her-mother-in-law-gives-her-more-money-than-we-do-do-i-call-her-out-b63d087c?mod=mw_rss_topstories",
-      "title": "‘We were stunned’: My daughter, 39, said her mother-in-law gives her more money than we do. Do I call her out?",
-      "source": "MarketWatch",
-      "topic": "Finance",
-      "category": "finance",
-      "published": "2026-07-03T14:15:00+00:00",
-      "ai_summary": "標題：「我哋好震驚」：我個女39歲，話奶奶畀佢嘅錢多過我哋。我應唔應該同佢講清楚？\n中立摘要：\n一名39歲女子從父母那裡收到100美元生日禮物。她告訴父母，奶奶寄了400美元給她。父母正在考慮是否要與她討論此事。",
-      "summaries": {
-        "zh-HK": "標題：「我哋好震驚」：我個女39歲，話奶奶畀佢嘅錢多過我哋。我應唔應該同佢講清楚？\n中立摘要：\n一名39歲女子從父母那裡收到100美元生日禮物。她告訴父母，奶奶寄了400美元給她。父母正在考慮是否要與她討論此事。",
-        "en": "Title: ‘We were stunned’: My daughter, 39, said her mother-in-law gives her more money than we do. Do I call her out?\nNeutral:\nA 39-year-old woman received a $100 birthday gift from her parents. She told them her mother-in-law had sent her $400. The parents are considering whether to address this with her.",
-        "zh-CN": "标题：「我们很震惊」：我女儿39岁，说婆婆给她的钱比我们多。我该不该跟她说清楚？\n中立摘要：\n一名39岁女子从父母那里收到100美元生日礼物。她告诉父母，婆婆寄了400美元给她。父母正在考虑是否要与她讨论此事。",
-        "ja": "タイトル：「私たちは驚いた」：39歳の娘が、義母からもらうお金は私たちよりも多いと言いました。私は彼女に指摘すべきでしょうか？\n中立な要約：\n39歳の女性が両親から100ドルの誕生日プレゼントを受け取りました。彼女は両親に、義母から400ドルが送られたと話しました。両親はこれについて彼女と話し合うべきかどうか検討しています。",
-        "ko": "제목: '우리는 충격을 받았습니다': 39세 딸이 시어머니가 우리보다 더 많은 돈을 준다고 말했습니다. 제가 그녀에게 따져야 할까요?\n중립 요약:\n한 39세 여성이 부모님으로부터 100달러의 생일 선물을 받았습니다. 그녀는 부모님에게 시어머니가 400달러를 보냈다고 말했습니다. 부모님은 이 문제를 그녀와 논의할지 고려하고 있습니다."
-      }
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-07-03/gfl-environmental-weighs-take-private-amid-interest-from-buyout-firms",
-      "title": "GFL Environmental Weighs Take-Private Amid Interest From Buyout Firms",
-      "source": "Bloomberg Crypto",
-      "topic": "Finance",
-      "category": "finance",
-      "published": "2026-07-03T14:05:15+00:00",
-      "ai_summary": "• 標題：GFL Environmental 考慮私有化，收購公司表達興趣\n中立：\n據知情人士透露，GFL Environmental Inc. 在收到收購公司的興趣後，正考慮進行潛在的私有化交易。",
-      "summaries": {
-        "zh-HK": "• 標題：GFL Environmental 考慮私有化，收購公司表達興趣\n中立：\n據知情人士透露，GFL Environmental Inc. 在收到收購公司的興趣後，正考慮進行潛在的私有化交易。",
-        "en": "• Title: GFL Environmental Weighs Take-Private Amid Interest From Buyout Firms\nNeutral:\nGFL Environmental Inc. is considering a potential take-private transaction after receiving interest from buyout firms, according to people familiar with the matter.",
-        "zh-CN": "• 标题：GFL Environmental 考虑私有化，收购公司表达兴趣\n中立：\n据知情人士透露，GFL Environmental Inc. 在收到收购公司的兴趣后，正考虑进行潜在的私有化交易。",
-        "ja": "• タイトル：GFL Environmental、買収企業からの関心を受け非公開化を検討\n中立：\n関係筋によると、GFL Environmental Inc.は買収企業からの関心を受けて、潜在的な非公開化取引を検討している。",
-        "ko": "• 제목: GFL Environmental, 사모펀드 관심 속 비상장 전환 검토\n중립:\n소식통에 따르면, GFL Environmental Inc.는 사모펀드로부터 관심을 받은 후 잠재적인 비상장 전환 거래를 고려하고 있습니다."
-      }
-    },
-    {
-      "url": "https://www.aljazeera.com/news/2026/7/3/election-wins-prove-pro-palestine-us-campus-protests-didnt-fail-activists?traffic_source=rss",
-      "title": "Election wins prove pro-Palestine US campus protests didn’t fail: Activists",
-      "source": "Al Jazeera",
-      "topic": "Politics",
-      "category": "general",
-      "published": "2026-07-03T14:03:35+00:00",
-      "ai_summary": "標題：選舉勝利證明親巴勒斯坦美國校園抗議並未失敗：活動人士\n中立摘要：2026年6月18日，曾參與哥倫比亞大學親巴勒斯坦抗議活動的活動人士Darializa Avila Chevalier，在紐約贏得民主黨國會初選。2023年因撰寫捍衛巴勒斯坦權利支持者的信件而被律師事務所解僱的Melat Kiros，於2026年7月2日在科羅拉多州贏得初選。Avila Chevalier在2024年抗議期間被捕。哥倫比亞大學學生於2024年設立首個抗議營地。數百名學生被捕。唐納德·特朗普於2025年重返白宮。",
-      "summaries": {
-        "zh-HK": "標題：選舉勝利證明親巴勒斯坦美國校園抗議並未失敗：活動人士\n中立摘要：2026年6月18日，曾參與哥倫比亞大學親巴勒斯坦抗議活動的活動人士Darializa Avila Chevalier，在紐約贏得民主黨國會初選。2023年因撰寫捍衛巴勒斯坦權利支持者的信件而被律師事務所解僱的Melat Kiros，於2026年7月2日在科羅拉多州贏得初選。Avila Chevalier在2024年抗議期間被捕。哥倫比亞大學學生於2024年設立首個抗議營地。數百名學生被捕。唐納德·特朗普於2025年重返白宮。",
-        "en": "Title: Election wins prove pro-Palestine US campus protests didn’t fail: Activists\nNeutral: Darializa Avila Chevalier, an activist who participated in pro-Palestine protests at Columbia University, won a Democratic congressional primary in New York on June 18, 2026. Melat Kiros, fired from her law firm in 2023 for a letter defending Palestinian rights supporters, won a Colorado primary on July 2, 2026. Avila Chevalier was arrested in 2024 during protests. Columbia students set up the first encampment in 2024. Hundreds of students were arrested. Donald Trump returned to the White House in 2025.",
-        "zh-CN": "标题：选举胜利证明亲巴勒斯坦美国校园抗议并未失败：活动人士\n中立摘要：2026年6月18日，曾参与哥伦比亚大学亲巴勒斯坦抗议活动的活动人士Darializa Avila Chevalier，在纽约赢得民主党国会初选。2023年因撰写捍卫巴勒斯坦权利支持者的信件而被律师事务所解雇的Melat Kiros，于2026年7月2日在科罗拉多州赢得初选。Avila Chevalier在2024年抗议期间被捕。哥伦比亚大学学生于2024年设立首个抗议营地。数百名学生被捕。唐纳德·特朗普于2025年重返白宫。",
-        "ja": "タイトル：選挙勝利は親パレスチナ米キャンパス抗議が失敗しなかったことを証明：活動家\n中立：2026年6月18日、コロンビア大学での親パレスチナ抗議に参加した活動家Darializa Avila Chevalierが、ニューヨーク州の民主党下院予備選で勝利した。2023年にパレスチナ権利支持者を擁護する手紙を理由に法律事務所を解雇されたMelat Kirosは、2026年7月2日にコロラド州の予備選で勝利した。Avila Chevalierは2024年の抗議中に逮捕された。コロンビア大学の学生は2024年に最初のキャンプを設置した。数百人の学生が逮捕された。ドナルド・トランプは2025年にホワイトハウスに復帰した。",
-        "ko": "제목: 선거 승리는 친팔레스타인 미국 캠퍼스 시위가 실패하지 않았음을 증명한다:"
-      }
-    },
-    {
-      "url": "https://www.aljazeera.com/sports/2026/7/3/osaka-defeats-kasatkina-to-make-wimbledon-round-of-16?traffic_source=rss",
-      "title": "Osaka defeats Kasatkina to make Wimbledon round of 16",
-      "source": "Al Jazeera",
-      "topic": "General",
-      "category": "general",
-      "published": "2026-07-03T14:03:25+00:00",
-      "ai_summary": "標題：大坂直美擊敗卡薩堅娜 晉級溫布頓16強\n中性報導：大坂直美於2026年7月3日在溫布頓以6-1、6-3擊敗達莉亞·卡薩堅娜。14號種子大坂直美首次晉級第四圈。賽事在1號球場舉行。28歲的大坂直美是來自日本的四屆大滿貫冠軍。卡薩堅娜是未獲種子的澳洲選手。大坂直美下一圈將面對艾蓮娜·莎巴蘭卡或耶蓮娜·奧絲達賓高。",
-      "summaries": {
-        "zh-HK": "標題：大坂直美擊敗卡薩堅娜 晉級溫布頓16強\n中性報導：大坂直美於2026年7月3日在溫布頓以6-1、6-3擊敗達莉亞·卡薩堅娜。14號種子大坂直美首次晉級第四圈。賽事在1號球場舉行。28歲的大坂直美是來自日本的四屆大滿貫冠軍。卡薩堅娜是未獲種子的澳洲選手。大坂直美下一圈將面對艾蓮娜·莎巴蘭卡或耶蓮娜·奧絲達賓高。",
-        "en": "Title: Osaka defeats Kasatkina to make Wimbledon round of 16\nNeutral: Naomi Osaka defeated Daria Kasatkina 6-1, 6-3 on July 3, 2026, at Wimbledon. Osaka, seeded 14th, advanced to the fourth round for the first time. The match took place on Court One. Osaka is a 28-year-old four-time Grand Slam champion from Japan. Kasatkina is an unseeded Australian. Osaka will face either Aryna Sabalenka or Jelena Ostapenko in the next round.",
-        "zh-CN": "标题：大坂直美击败卡萨金娜 晋级温布尔登16强\n中性报道：大坂直美于2026年7月3日在温布尔登以6-1、6-3击败达莉亚·卡萨金娜。14号种子大坂直美首次晋级第四轮。比赛在1号球场举行。28岁的大坂直美是来自日本的四届大满贯冠军。卡萨金娜是未获种子的澳大利亚选手。大坂直美下一轮将面对阿丽娜·萨巴伦卡或叶莲娜·奥斯塔彭科。",
-        "ja": "タイトル：大坂なおみ、カサトキナを破りウィンブルドン16強入り\n中立的な内容：大坂なおみは2026年7月3日、ウィンブルドンでダリア・カサトキナを6-1、6-3で破った。第14シードの大坂は、初めて4回戦に進出した。試合はセンターコート1で行われた。大坂は28歳で、日本出身の四大大会優勝者である。カサトキナはシード外のオーストラリア人選手。大坂は次のラウンドでアリーナ・サバレンカまたはエレナ・オスタペンコと対戦する。",
-        "ko": "제목: 오사카, 카사트키나 꺾고 윔블던 16강 진출\n중립적 내용: 나오미 오사카가 2026년 7월 3일 윔블던에서 다리아 카사트키나를 6-1, 6-3으로 물리쳤다. 14번 시드의 오사카는 처음으로 4라운드에 진출했다. 경기는 1번 코트에서 열렸다. 오사카는 28세의 일본 출신 4회"
-      }
-    },
-    {
-      "url": "https://www.bbc.co.uk/news/articles/c8e2j0z7xgxo?at_medium=RSS&at_campaign=rss",
-      "title": "UK in talks with Pakistan about deporting grooming gang leader",
-      "source": "BBC World",
-      "topic": "Politics",
-      "category": "general",
-      "published": "2026-07-03T14:02:25+00:00",
-      "ai_summary": "標題：英國與巴基斯坦商討驅逐性侵集團頭目\n中立摘要：\n英國政府官員正與巴基斯坦商討驅逐沙比爾·艾哈邁德。艾哈邁德於2012年因強姦及性侵女童被判罪，本週獲釋出獄。他擁有英國及巴基斯坦雙重國籍，定罪後英國護照被撤銷。一項1971年的法律禁止將其驅逐。首相施紀賢要求內政大臣審視此案。市長安迪·伯納姆呼籲驅逐。唐寧街十號發言人證實與巴方進行討論。艾哈邁德週四離開監獄，現居於24小時有人看管的住所，並佩戴GPS追蹤器。",
-      "summaries": {
-        "zh-HK": "標題：英國與巴基斯坦商討驅逐性侵集團頭目\n中立摘要：\n英國政府官員正與巴基斯坦商討驅逐沙比爾·艾哈邁德。艾哈邁德於2012年因強姦及性侵女童被判罪，本週獲釋出獄。他擁有英國及巴基斯坦雙重國籍，定罪後英國護照被撤銷。一項1971年的法律禁止將其驅逐。首相施紀賢要求內政大臣審視此案。市長安迪·伯納姆呼籲驅逐。唐寧街十號發言人證實與巴方進行討論。艾哈邁德週四離開監獄，現居於24小時有人看管的住所，並佩戴GPS追蹤器。",
-        "en": "Title: UK in talks with Pakistan about deporting grooming gang leader\nNeutral:\nUK government officials are in talks with Pakistan about deporting Shabir Ahmed. Ahmed was convicted in 2012 for rape and sexual offences against girls. He was released from prison this week. Ahmed held dual British-Pakistani citizenship. His UK passport was removed after conviction. A 1971 law bars his removal. Prime Minister Keir Starmer asked the home secretary to review the case. Andy Burnham called for deportation. A No 10 spokesperson confirmed discussions with Pakistani counterparts. Ahmed left prison on Thursday and is in 24-hour staffed accommodation with a GPS tag.",
-        "zh-CN": "标题：英国与巴基斯坦商讨驱逐性侵团伙头目\n中立摘要：\n英国政府官员正与巴基斯坦商讨驱逐沙比尔·艾哈迈德。艾哈迈德于2012年因强奸及性侵女童被判罪，本周获释出狱。他拥有英国及巴基斯坦双重国籍，定罪后英国护照被撤销。一项1971年的法律禁止将其驱逐。首相基尔·斯塔默要求内政大臣审查此案。市长安迪·伯纳姆呼吁驱逐。唐宁街十号发言人证实与巴方进行讨论。艾哈迈德周四离开监狱，现居于24小时有人看管的住所，并佩戴GPS追踪器。",
-        "ja": "タイトル：英国、集団性的暴行の首謀者をパキスタンに強制送還する協議中\n中立要約：\n英国政府当局は、シャビール・アハメドをパキスタンに強制送還する協議を行っている。アハメドは2012年に少女への強姦および性的暴行で有罪判決を受け、今週刑務所から釈放された。アハメドは英国とパキスタンの二重国籍を有していた。有罪判決後、英国のパスポートは剥奪された。1971年の法律により、彼の送還は禁止されている。キア・スターマー首相は内務大臣に事件の再検討を要請した。アンディ・バーナムは送還を求めた。首相官邸報道官はパキスタン側との協議を確認した。アハメドは木曜日に刑務所を出所し、24時間体制のスタッフが常駐する宿泊施設にGPSタグを装着して滞在している。",
-        "ko": "제목:"
-      }
-    },
-    {
-      "url": "https://www.ft.com/content/3ed70f64-7443-4241-ac0f-38eabe218913",
-      "title": "‘It’s whack-a-mole’: how Europe’s smart border melted down",
-      "source": "Financial Times",
-      "topic": "Finance",
-      "category": "finance",
-      "published": "2026-07-03T14:00:58+00:00",
-      "ai_summary": "標題：「打地鼠」：歐洲智能邊境如何崩潰\n中立：歐盟的出入境系統（EES）於2008年首次提出，是一個旨在登記非歐盟旅客的自動化邊境系統。其實施已多次延遲。截至2024年，該系統仍未投入運作。這些延誤已在邊境口岸為旅客造成混亂。該系統的目的是通過追蹤出入境記錄來加強安全。",
-      "summaries": {
-        "zh-HK": "標題：「打地鼠」：歐洲智能邊境如何崩潰\n中立：歐盟的出入境系統（EES）於2008年首次提出，是一個旨在登記非歐盟旅客的自動化邊境系統。其實施已多次延遲。截至2024年，該系統仍未投入運作。這些延誤已在邊境口岸為旅客造成混亂。該系統的目的是通過追蹤出入境記錄來加強安全。",
-        "en": "Title: ‘It’s whack-a-mole’: how Europe’s smart border melted down\nNeutral: The European Union's Entry/Exit System (EES), first proposed in 2008, is an automated border system designed to register non-EU travelers. Its implementation has been delayed multiple times. As of 2024, the system is not operational. The delays have caused disruptions for travelers at border points. The system's purpose is to enhance security by tracking entries and exits.",
-        "zh-CN": "标题：「打地鼠」：欧洲智能边境如何崩溃\n中立：欧盟的出入境系统（EES）于2008年首次提出，是一个旨在登记非欧盟旅客的自动化边境系统。其实施已多次延迟。截至2024年，该系统仍未投入运作。这些延误已在边境口岸为旅客造成混乱。该系统的目的是通过追踪出入境记录来加强安全。",
-        "ja": "タイトル：「モグラ叩き」：欧州のスマートボーダーが崩壊した経緯\n中立：欧州連合の出入国システム（EES）は2008年に初めて提案され、非EU旅行者を登録するための自動化された国境システムです。その導入は何度も延期されています。2024年現在、このシステムは稼働していません。これらの遅延により、国境地点で旅行者に混乱が生じています。このシステムの目的は、出入国を追跡することでセキュリティを強化することです。",
-        "ko": "제목: '두더지 잡기': 유럽의 스마트 국경이 붕괴된 과정\n중립: 유럽연합의 출입국 시스템(EES)은 2008년에 처음 제안되었으며, 비EU 여행자를 등록하도록 설계된 자동화된 국경 시스템입니다. 그 시행은 여러 차례 연기되었습니다. 2024년 현재, 이 시스템은 작동하지 않습니다. 이러한 지연은 국경 지점에서 여행자들에게 혼란을 초래했습니다. 이 시스템의 목적은 출입국을 추적하여 보안을 강화하는 것입니다."
-      }
-    },
-    {
-      "url": "https://www.scmp.com/news/china/science/article/3359363/chinas-satellite-engine-smashes-record-leaves-us-rival-far-behind?utm_source=rss_feed",
-      "title": "China’s satellite engine smashes record, leaves US rival far behind",
-      "source": "SCMP",
-      "topic": "World",
-      "category": "general",
-      "published": "2026-07-03T14:00:10+00:00",
-      "ai_summary": "標題：中國衛星引擎破紀錄，將美國對手遠遠拋離\n中立摘要：來自西安的中國航天推進技術研究院團隊研製出一款升級版衛星引擎。該引擎產生750牛頓推力。在6月底的首次飛行中，它透過五次軌道提升機動，持續點火11,617秒（3.2小時），將通信技術試驗衛星26A送入約35,800公里的軌道。該引擎在測試期間連續運作超過14小時。美國製造的R-42DM引擎和歐洲的Leros-1B引擎通常設計運作時間約為7小時。",
-      "summaries": {
-        "zh-HK": "標題：中國衛星引擎破紀錄，將美國對手遠遠拋離\n中立摘要：來自西安的中國航天推進技術研究院團隊研製出一款升級版衛星引擎。該引擎產生750牛頓推力。在6月底的首次飛行中，它透過五次軌道提升機動，持續點火11,617秒（3.2小時），將通信技術試驗衛星26A送入約35,800公里的軌道。該引擎在測試期間連續運作超過14小時。美國製造的R-42DM引擎和歐洲的Leros-1B引擎通常設計運作時間約為7小時。",
-        "en": "Title: China’s satellite engine smashes record, leaves US rival far behind\nNeutral: A Chinese team from the China Academy of Aerospace Propulsion Technology in Xi’an developed an upgraded satellite engine. The engine produced 750 newtons of thrust. During its maiden flight in late June, it fired for 11,617 seconds (3.2 hours) across five orbit-raising manoeuvres, placing Communications Technology Experiment Satellite 26A into orbit at approximately 35,800 km. The engine operated continuously for over 14 hours during testing. The US-made R-42DM and Europe’s Leros-1B engines are typically designed for about seven hours of operation.",
-        "zh-CN": "标题：中国卫星引擎破纪录，将美国对手远远抛离\n中立摘要：来自西安的中国航天推进技术研究院团队研制出一款升级版卫星引擎。该引擎产生750牛顿推力。在6月底的首次飞行中，它通过五次轨道提升机动，持续点火11,617秒（3.2小时），将通信技术试验卫星26A送入约35,800公里的轨道。该引擎在测试期间连续运作超过14小时。美国制造的R-42DM引擎和欧洲的Leros-1B引擎通常设计运作时间约为7小时。",
-        "ja": "タイトル：中国の衛星エンジンが記録を更新、米国のライバルを大きく引き離す\n中立要約：西安にある中国航天推進技術研究院の中国チームが、改良型衛星エンジンを開発した。このエンジンは750ニュートンの推力を発生する。6月下旬の初飛行では、5回の軌道投入操作にわたって11,617秒（3.2時間）燃焼し、通信技術実験衛星26Aを約35,800kmの軌道に投入した。テスト中、エンジンは14時間以上連続運転した。米国製のR-42DMや欧州のLeros-1Bエンジンは、通常約7時間の運転を想定して設計されている。",
-        "ko": "제목: 중국 위성 엔진, 기록 경신…미국 경쟁자 크게 앞질러\n중립 요약: 시안에 있는 중국항천추진기술연구원의 중국 팀이 업그레이드된 위성 엔진을 개발했습니다. 이 엔진은 750뉴턴의 추력을 발생시킵니다. 6월 말 첫 비행에서 5차례의 궤도 상승 기동을 통해 11,617초(3.2시간) 동안 점화되어 통"
-      }
-    },
-    {
-      "url": "https://cointelegraph.com/news/eu-crypto-rulebook-enforcement-challenge-mica-transition-end?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "title": "EU crypto rulebook faces enforcement challenge as MiCA transition ends",
-      "source": "CoinTelegraph",
-      "topic": "Regulation",
-      "category": "crypto",
-      "published": "2026-07-03T13:59:16+00:00",
-      "ai_summary": "• 標題：歐盟加密貨幣規則手冊面臨執行挑戰，MiCA過渡期結束\n中性：\n自過渡期限以來，渣打銀行已被列入歐洲證券及市場管理局（ESMA）首次更新的《加密資產市場》（MiCA）登記冊。此次更新是在MiCA過渡期結束後進行的。",
-      "summaries": {
-        "zh-HK": "• 標題：歐盟加密貨幣規則手冊面臨執行挑戰，MiCA過渡期結束\n中性：\n自過渡期限以來，渣打銀行已被列入歐洲證券及市場管理局（ESMA）首次更新的《加密資產市場》（MiCA）登記冊。此次更新是在MiCA過渡期結束後進行的。",
-        "en": "• Title: EU crypto rulebook faces enforcement challenge as MiCA transition ends\nNeutral:\nStandard Chartered Bank has been added to the European Securities and Markets Authority's (ESMA) first update of the Markets in Crypto-Assets (MiCA) register since the transition deadline. The update follows the end of the MiCA transition period.",
-        "zh-CN": "• 标题：欧盟加密货币规则手册面临执行挑战，MiCA过渡期结束\n中性：\n自过渡期限以来，渣打银行已被列入欧洲证券及市场管理局（ESMA）首次更新的《加密资产市场》（MiCA）登记册。此次更新是在MiCA过渡期结束后进行的。",
-        "ja": "• タイトル：EU暗号資産ルールブック、MiCA移行期間終了で執行課題に直面\nニュートラル：\nスタンダードチャータード銀行は、移行期限以降、欧州証券市場監督局（ESMA）による暗号資産市場（MiCA）登録簿の初回更新に追加されました。この更新は、MiCA移行期間の終了後に行われました。",
-        "ko": "• 제목: EU 암호화폐 규정집, MiCA 전환 종료로 집행 과제 직면\n중립:\n스탠다드차타드 은행이 전환 마감 이후 유럽증권시장감독청(ESMA)의 암호화폐 시장(MiCA) 등록부 첫 업데이트에 추가되었습니다. 이 업데이트는 MiCA 전환 기간 종료 후 이루어졌습니다."
-      }
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-07-03/uk-pauses-controversial-legislation-before-burnham-takes-over",
-      "title": "UK Pauses Controversial Legislation Before Burnham Takes Over",
-      "source": "Bloomberg",
-      "topic": "Finance",
-      "category": "finance",
-      "published": "2026-07-03T13:58:53+00:00",
-      "ai_summary": "[Skipped: LOW]",
-      "summaries": {
-        "zh-HK": "[此文可信度評級為 LOW，暫不處理]"
-      }
-    },
-    {
-      "url": "https://www.blocktempo.com/michael-saylor-bitcoin-governance-nodes-miners-holders-consensus/",
-      "title": "誰能控制比特幣？Michael Saylor：未來只由「這三大核心」說了算",
-      "source": "動區動趨 (BlockTempo)",
-      "topic": "Bitcoin",
-      "category": "crypto",
-      "published": "2026-07-03T13:57:45+00:00",
-      "ai_summary": "標題：誰能控制比特幣？Michael Saylor：未來只由「這三大核心」說了算\n2026年7月3日，Strategy創辦人Michael Saylor在X上發文指出，節點、礦工及持有者決定了比特幣的共識。他表示，政治與法律權力等外部力量無法決定共識，只能透過說服、協調、約束或動員這三個群體來施加二階影響。",
-      "summaries": {
-        "zh-HK": "標題：誰能控制比特幣？Michael Saylor：未來只由「這三大核心」說了算\n2026年7月3日，Strategy創辦人Michael Saylor在X上發文指出，節點、礦工及持有者決定了比特幣的共識。他表示，政治與法律權力等外部力量無法決定共識，只能透過說服、協調、約束或動員這三個群體來施加二階影響。",
-        "en": "Title: Who Can Control Bitcoin? Michael Saylor: The Future Is Determined Only by These \"Three Core Elements\"\nOn July 3, 2026, Michael Saylor, founder of Strategy, posted on X that nodes, miners, and holders determine Bitcoin's consensus. He stated that external forces such as political and legal power cannot settle consensus, only exerting second-order influence by persuading, coordinating, constraining, or mobilizing these three groups.",
-        "zh-CN": "标题：谁能控制比特币？Michael Saylor：未来只由「这三大核心」说了算\n2026年7月3日，Strategy创始人Michael Saylor在X上发文指出，节点、矿工及持有者决定了比特币的共识。他表示，政治与法律权力等外部力量无法决定共识，只能通过说服、协调、约束或动员这三个群体来施加二阶影响。",
-        "ja": "タイトル：誰がビットコインを制御できるのか？マイケル・セイラー：未来は「この3つの中核」だけが決める\n2026年7月3日、Strategyの創設者マイケル・セイラーはXに投稿し、ノード、マイナー、ホルダーがビットコインのコンセンサスを決定すると述べた。政治的・法的権力などの外部勢力はコンセンサスを決定できず、これら3つのグループを説得、調整、制約、または動員することで二次的な影響を及ぼすに過ぎないと述べた。",
-        "ko": "제목: 누가 비트코인을 통제할 수 있을까? 마이클 세일러: 미래는 오직 '이 세 가지 핵심'이 결정한다\n2026년 7월 3일, Strategy의 창립자 마이클 세일러는 X에 노드, 채굴자, 보유자가 비트코인의 합의를 결정한다고 게시했습니다. 그는 정치적·법적 권력과 같은 외부 세력은 합의를 결정할 수 없으며, 이 세 그룹을 설득, 조정, 제약 또는 동원함으로써 2차적 영향만을 행사할 수 있다고 밝혔습니다."
-      }
-    },
-    {
-      "url": "https://www.aljazeera.com/news/2026/7/3/russian-advance-collapses-in-ukraine-as-anxiety-rises-in-moscow?traffic_source=rss",
-      "title": "Russia’s advance collapses in Ukraine, ‘40,000’ troops killed in June",
-      "source": "Al Jazeera",
-      "topic": "General",
-      "category": "general",
-      "published": "2026-07-03T13:57:24+00:00",
-      "ai_summary": "[Skipped: LOW]",
-      "summaries": {
-        "zh-HK": "[此文可信度評級為 LOW，暫不處理]"
-      }
-    },
-    {
-      "url": "https://arstechnica.com/space/2026/07/rocket-report-indian-startup-nears-first-launch-spacexs-millenary-milestone/",
-      "title": "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone",
-      "source": "ArsTechnica",
-      "topic": "Science",
-      "category": "tech",
-      "published": "2026-07-03T13:55:35+00:00",
-      "ai_summary": "• 標題：火箭報告：印度初創公司接近首次發射；SpaceX 達成千年里程碑\n中立：NASA 授予 Rocket Lab 三項使用 Electron 火箭的專屬發射合約。",
-      "summaries": {
-        "zh-HK": "• 標題：火箭報告：印度初創公司接近首次發射；SpaceX 達成千年里程碑\n中立：NASA 授予 Rocket Lab 三項使用 Electron 火箭的專屬發射合約。",
-        "en": "• Title: Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone\nNeutral: NASA awarded Rocket Lab contracts for three dedicated launches using the Electron rocket.",
-        "zh-CN": "• 标题：火箭报告：印度初创公司接近首次发射；SpaceX 达成千年里程碑\n中立：NASA 授予 Rocket Lab 三项使用 Electron 火箭的专属发射合约。",
-        "ja": "• タイトル：ロケットレポート：インドの新興企業が初打ち上げに近づく；SpaceXの千年のマイルストーン\n中立：NASAはRocket Labに対し、Electronロケットを使用した3回の専用打ち上げ契約を授与した。",
-        "ko": "• 제목: 로켓 리포트: 인도 스타트업, 첫 발사 임박; SpaceX의 천년 이정표\n중립: NASA는 Rocket Lab에 Electron 로켓을 사용한 3회의 전용 발사 계약을 체결했습니다."
-      }
-    },
-    {
-      "url": "https://www.marketwatch.com/story/u-s-stocks-have-delivered-8-7-a-year-since-independence-was-declared-in-1776-7513ae04?mod=mw_rss_topstories",
-      "title": "U.S. stocks have delivered 8.7% a year since independence was declared in 1776",
-      "source": "MarketWatch",
-      "topic": "Finance",
-      "category": "finance",
-      "published": "2026-07-03T13:52:00+00:00",
-      "ai_summary": "• 自1776年美國宣佈獨立以來，美國股市平均每年回報率為8.7%。此數字是基於美國獨立宣言以來的數據計算得出。",
-      "summaries": {
-        "zh-HK": "• 自1776年美國宣佈獨立以來，美國股市平均每年回報率為8.7%。此數字是基於美國獨立宣言以來的數據計算得出。",
-        "en": "• Since 1776, U.S. stocks have returned an average of 8.7% per year. This figure is based on data from the declaration of U.S. independence.",
-        "zh-CN": "• 自1776年美国宣布独立以来，美国股市平均每年回报率为8.7%。此数字是基于美国独立宣言以来的数据计算得出。",
-        "ja": "• 1776年のアメリカ独立宣言以来、米国株式は年間平均8.7%のリターンを記録しています。この数字はアメリカ独立宣言以降のデータに基づいています。",
-        "ko": "• 1776년 미국 독립 선언 이후, 미국 주식은 연평균 8.7%의 수익률을 기록했습니다. 이 수치는 미국 독립 선언 이후의 데이터를 기반으로 합니다."
-      }
-    },
-    {
-      "url": "https://www.ft.com/content/054c4a16-e7b6-4bed-a0d0-7ee0ae3e1251",
-      "title": "John Roberts, the US chief justice playing the long game",
-      "source": "Financial Times",
-      "topic": "DeFi",
-      "category": "finance",
-      "published": "2026-07-03T13:51:23+00:00",
-      "ai_summary": "• 標題：美國首席大法官約翰·羅伯茨的長遠佈局\n中立摘要：\n約翰·羅伯茨是美國最高法院的首席大法官。在他的任期內，最高法院作出了與總統唐納德·特朗普立場不一致的裁決。同時，法院也發佈了擴大總統權力範圍的決定。",
-      "summaries": {
-        "zh-HK": "• 標題：美國首席大法官約翰·羅伯茨的長遠佈局\n中立摘要：\n約翰·羅伯茨是美國最高法院的首席大法官。在他的任期內，最高法院作出了與總統唐納德·特朗普立場不一致的裁決。同時，法院也發佈了擴大總統權力範圍的決定。",
-        "en": "• Title: John Roberts, the US chief justice playing the long game\nNeutral:\nJohn Roberts is the Chief Justice of the United States Supreme Court. Under his tenure, the Court has issued rulings that did not align with positions taken by President Donald Trump. The Court has also issued decisions that expanded the scope of presidential power.",
-        "zh-CN": "• 标题：美国首席大法官约翰·罗伯茨的长期博弈\n中立摘要：\n约翰·罗伯茨是美国最高法院的首席大法官。在他的任期内，最高法院作出了与总统唐纳德·特朗普立场不一致的裁决。同时，法院也发布了扩大总统权力范围的判决。",
-        "ja": "• タイトル：長期戦を展開する米国最高裁判所長官ジョン・ロバーツ\n中立要約：\nジョン・ロバーツは米国最高裁判所の長官です。彼の任期中、最高裁判所はドナルド・トランプ大統領の立場と一致しない判決を下しました。また、裁判所は大統領の権限範囲を拡大する決定も発表しています。",
-        "ko": "• 제목: 장기전을 펼치는 미국 대법원장 존 로버츠\n중립 요약:\n존 로버츠는 미국 연방대법원의 대법원장입니다. 그의 임기 동안 대법원은 도널드 트럼프 대통령의 입장과 일치하지 않는 판결을 내렸습니다. 또한 법원은 대통령 권한의 범위를 확대하는 결정도 발표했습니다."
-      }
-    },
-    {
-      "url": "https://www.blocktempo.com/us-stock-funds-see-17-billion-outflow-ai-trade-cooling/",
-      "title": "AI 狂熱降溫？美銀示警：美股基金單週遭提款 172 億美元，機構大戶瘋砍「單一科技股」",
-      "source": "動區動趨 (BlockTempo)",
-      "topic": "Finance",
-      "category": "crypto",
-      "published": "2026-07-03T13:45:29+00:00",
-      "ai_summary": "標題：AI狂熱降溫？美銀示警：美股基金單週遭提款172億美元，機構大戶瘋砍「單一科技股」\n根據美銀報告引用EPFR Global數據，截至2026年7月1日當週，美股基金錄得172億美元的資金淨流出。這是自2026年3月以來的最大單週流出。機構投資者連續第四週成為淨賣家。單一股票淨流出達99至100億美元，是自2008年以來的第四大單週金額。零售客戶在連續六週賣出後轉為淨買家。被動型ETF錄得約42億美元的資金淨流入。",
-      "summaries": {
-        "zh-HK": "標題：AI狂熱降溫？美銀示警：美股基金單週遭提款172億美元，機構大戶瘋砍「單一科技股」\n根據美銀報告引用EPFR Global數據，截至2026年7月1日當週，美股基金錄得172億美元的資金淨流出。這是自2026年3月以來的最大單週流出。機構投資者連續第四週成為淨賣家。單一股票淨流出達99至100億美元，是自2008年以來的第四大單週金額。零售客戶在連續六週賣出後轉為淨買家。被動型ETF錄得約42億美元的資金淨流入。",
-        "en": "Title: AI Hype Cooling? Bank of America Warns: US Stock Funds See $17.2 Billion Weekly Outflow, Institutional Investors Heavily Dump \"Single Tech Stocks\"\nAccording to a Bank of America report citing EPFR Global data, for the week ending July 1, 2026, U.S. stock funds saw net outflows of $17.2 billion. This was the largest single-week outflow since March 2026. Institutional investors were net sellers for the fourth consecutive week. Single-stock net outflows reached $9.9–10 billion, the fourth-largest weekly amount since 2008. Retail clients became net buyers after six weeks of selling. Passive ETFs saw net inflows of approximately $4.2 billion.",
-        "zh-CN": "标题：AI狂热降温？美银示警：美股基金单周遭提款172亿美元，机构大户疯砍“单一科技股”\n根据美银报告引用EPFR Global数据，截至2026年7月1日当周，美股基金录得172亿美元的资金净流出。这是自2026年3月以来的最大单周流出。机构投资者连续第四周成为净卖家。单一股票净流出达99至100亿美元，是自2008年以来的第四大单周金额。零售客户在连续六周卖出后转为净买家。被动型ETF录得约42亿美元的资金净流入。",
-        "ja": "タイトル：AI熱狂の冷え込み？米銀が警告：米国株ファンド、週間で172億ドルの資金流出、機関投資家が「単一ハイテク株」を大量売却\nバンク・オブ・アメリカのレポートがEPFRグローバルのデータを引用したところによると、2026年7月1日までの週に、米国株ファンドは172億ドルの純流出を記録した。これは2026年3月以来の最大の週間流出額である。機関投資家は4週連続で純売り手となった。単一株式の純流出額は99～100億ドルに達し、2008年以来4番目に大きい週間金額となった。個人投資家は6週間の売り越しを経て、純買い手に転じた。パッシブETFは約42億ドルの純流入を記録した。",
-        "ko": "제목: AI 열풍 식나? BOA 경고: 미국 주식 펀드, 주간 172억 달러 유출…기관 투자자 '단일 기술"
-      }
-    },
-    {
-      "url": "https://www.nytimes.com/2026/07/03/world/asia/pakistan-bus-crash.html",
-      "title": "Bus Plunges 70 Feet Into a Ravine in Pakistan, Killing 40",
-      "source": "New York Times",
-      "topic": "General",
-      "category": "general",
-      "published": "2026-07-03T13:38:27+00:00",
-      "ai_summary": "• 一輛載有48名乘客的巴士在巴基斯坦墜落70英尺深的峽谷。事故發生在一條連接兩個省會的高速公路上。四十人死亡。",
-      "summaries": {
-        "zh-HK": "• 一輛載有48名乘客的巴士在巴基斯坦墜落70英尺深的峽谷。事故發生在一條連接兩個省會的高速公路上。四十人死亡。",
-        "en": "• A bus carrying 48 passengers fell 70 feet into a ravine in Pakistan. The incident occurred on a highway connecting two provincial capitals. Forty people died.",
-        "zh-CN": "• 一辆载有48名乘客的巴士在巴基斯坦坠落70英尺深的峡谷。事故发生在一条连接两个省会的高速公路上。四十人死亡。",
-        "ja": "• パキスタンで48人の乗客を乗せたバスが70フィートの渓谷に転落した。事故は2つの州都を結ぶ高速道路で発生した。40人が死亡した。",
-        "ko": "• 파키스탄에서 48명의 승객을 태운 버스가 70피트 깊이의 협곡으로 추락했습니다. 사고는 두 개의 주도를 연결하는 고속도로에서 발생했습니다. 40명이 사망했습니다."
-      }
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-07-03/eu-will-weigh-irish-probe-in-russian-alumina-sanctions-decision",
-      "title": "EU Will Weigh Irish Probe in Russian Alumina Sanctions Decision",
-      "source": "Bloomberg",
-      "topic": "Finance",
-      "category": "finance",
-      "published": "2026-07-03T13:37:51+00:00",
-      "ai_summary": "• 標題：歐盟將權衡愛爾蘭調查，以決定俄羅斯氧化鋁制裁方案\n中立摘要：歐盟正等待愛爾蘭對出口至俄羅斯的氧化鋁調查結果出爐，之後才會就涉及該材料的潛在貿易制裁作出決定。",
-      "summaries": {
-        "zh-HK": "• 標題：歐盟將權衡愛爾蘭調查，以決定俄羅斯氧化鋁制裁方案\n中立摘要：歐盟正等待愛爾蘭對出口至俄羅斯的氧化鋁調查結果出爐，之後才會就涉及該材料的潛在貿易制裁作出決定。",
-        "en": "• Title: EU Will Weigh Irish Probe in Russian Alumina Sanctions Decision\nNeutral: The European Union is awaiting the conclusion of an Irish investigation into alumina exports to Russia before deciding on potential trade sanctions involving the material.",
-        "zh-CN": "• 标题：欧盟将权衡爱尔兰调查，以决定俄罗斯氧化铝制裁方案\n中立摘要：欧盟正等待爱尔兰对出口至俄罗斯的氧化铝调查结果出炉，之后才会就涉及该材料的潜在贸易制裁作出决定。",
-        "ja": "• タイトル：EU、ロシア向けアルミナ制裁判断でアイルランド調査を考慮へ\n中立要約：欧州連合（EU）は、アルミナのロシア向け輸出に関するアイルランドの調査結果が出るのを待ってから、同材料に関わる潜在的な貿易制裁について決定する予定である。",
-        "ko": "• 제목: EU, 러시아 알루미나 제재 결정에 아일랜드 조사 반영할 듯\n중립 요약: 유럽연합(EU)은 알루미나의 러시아 수출에 관한 아일랜드의 조사가 종결되기를 기다린 후, 해당 물질과 관련된 잠재적 무역 제재에 대해 결정할 예정이다."
-      }
-    },
-    {
-      "url": "https://www.blocktempo.com/korea-leverage-etf-out-of-control-sk-hynix-surpasses-nvidia/",
-      "title": "全民當賭徒？韓國槓桿 ETF 暴增 800%，SK 海力士「兩倍做多」規模輾壓 Nvidia、特斯拉",
-      "source": "動區動趨 (BlockTempo)",
-      "topic": "Trading",
-      "category": "crypto",
-      "published": "2026-07-03T13:37:10+00:00",
-      "ai_summary": "[Skipped: LOW]",
-      "summaries": {
-        "zh-HK": "[此文可信度評級為 LOW，暫不處理]"
-      }
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-07-03/brazil-politics-bolsonaro-adviser-says-fiscal-bill-to-be-focus",
-      "title": "Bolsonaro Adviser Says Fiscal Bill to Be Focus",
-      "source": "Bloomberg",
-      "topic": "Policy",
-      "category": "finance",
-      "published": "2026-07-03T13:34:11+00:00",
-      "ai_summary": "標題：博索納羅顧問表示財政法案將成焦點\n巴西總統候選人弗拉維奧·博索納羅的顧問丹妮埃拉·馬克斯在接受SBT新聞採訪時表示，若其當選，政府將提出一項憲法修正案，重點關注控制開支和債務走勢。",
-      "summaries": {
-        "zh-HK": "標題：博索納羅顧問表示財政法案將成焦點\n巴西總統候選人弗拉維奧·博索納羅的顧問丹妮埃拉·馬克斯在接受SBT新聞採訪時表示，若其當選，政府將提出一項憲法修正案，重點關注控制開支和債務走勢。",
-        "en": "Title: Bolsonaro Adviser Says Fiscal Bill to Be Focus\nDaniella Marques, an adviser to Brazilian presidential candidate Flávio Bolsonaro, stated in an interview with SBT News that, if elected, his government would propose a constitutional amendment focused on controlling spending and the debt trajectory.",
-        "zh-CN": "标题：博索纳罗顾问表示财政法案将成为焦点\n巴西总统候选人弗拉维奥·博索纳罗的顾问丹妮埃拉·马奎斯在接受SBT新闻采访时表示，若其当选，政府将提出一项宪法修正案，重点关注控制开支和债务走势。",
-        "ja": "タイトル：ボルソナロ顧問、財政法案が焦点になると発言\nブラジル大統領候補フラビオ・ボルソナロの顧問ダニエラ・マルケス氏は、SBTニュースのインタビューで、当選した場合、政権は支出と債務の軌道を抑制することに焦点を当てた憲法改正案を提案すると述べた。",
-        "ko": "제목: 볼소나루 고문, 재정 법안이 초점이 될 것이라고 밝혀\n브라질 대통령 후보 플라비우 볼소나루의 고문 다니엘라 마르케스는 SBT 뉴스와의 인터뷰에서, 당선될 경우 그의 정부가 지출과 부채 궤적 통제에 초점을 맞춘 헌법 개정안을 제안할 것이라고 밝혔다."
-      }
-    },
-    {
-      "url": "https://blockcast.it/2026/07/03/michael-burry-bets-against-caterpillar-tesla-nvidia-in-new-ai-bubble-short-positions/",
-      "title": "押注 AI 熱潮翻車！《大賣空》本尊新開 5 檔空單：輝達、特斯拉、半導體 ETF 全上榜",
-      "source": "區塊客 (Blockcast)",
-      "topic": "Trading",
-      "category": "crypto",
-      "published": "2026-07-03T13:31:55+00:00",
-      "ai_summary": "標題：押注AI熱潮翻車！《大賣空》本尊新開5檔空單：輝達、特斯拉、半導體ETF全上榜\n中性摘要：\n米高·貝瑞（Michael Burry）建立了五項資產的空頭持倉：開拓重工公司（Caterpillar Inc.）、輝達公司（Nvidia Corp.）、應用材料公司（Applied Materials Inc.）、特斯拉公司（Tesla Inc.）以及iShares半導體ETF（SOXX）。開拓重工的空單以每股1,060.98美元開倉。貝瑞表示他此前從未做空過開拓重工。iShares半導體ETF追蹤的成份股包括美光（Micron）、超微（AMD）、輝達（Nvidia）、博通（Broadcom）、英特爾（Intel）和應用材料（Applied Materials）。貝瑞發佈了一張圖表，顯示費城半導體指數（Philadelphia Semiconductor Index）高於其200日移動平均線的延伸幅度已達到自2000年科網泡沫以來的最高水平。他沒有做空SpaceX，理由是期權成本過高。",
-      "summaries": {
-        "zh-HK": "標題：押注AI熱潮翻車！《大賣空》本尊新開5檔空單：輝達、特斯拉、半導體ETF全上榜\n中性摘要：\n米高·貝瑞（Michael Burry）建立了五項資產的空頭持倉：開拓重工公司（Caterpillar Inc.）、輝達公司（Nvidia Corp.）、應用材料公司（Applied Materials Inc.）、特斯拉公司（Tesla Inc.）以及iShares半導體ETF（SOXX）。開拓重工的空單以每股1,060.98美元開倉。貝瑞表示他此前從未做空過開拓重工。iShares半導體ETF追蹤的成份股包括美光（Micron）、超微（AMD）、輝達（Nvidia）、博通（Broadcom）、英特爾（Intel）和應用材料（Applied Materials）。貝瑞發佈了一張圖表，顯示費城半導體指數（Philadelphia Semiconductor Index）高於其200日移動平均線的延伸幅度已達到自2000年科網泡沫以來的最高水平。他沒有做空SpaceX，理由是期權成本過高。",
-        "en": "Title: Betting on the AI Boom Backfires! \"The Big Short\" Originator Opens 5 New Short Positions: Nvidia, Tesla, Semiconductor ETF All Listed\nNeutral Summary:\nMichael Burry established short positions in five assets: Caterpillar Inc., Nvidia Corp., Applied Materials Inc., Tesla Inc., and the iShares Semiconductor ETF (SOXX). The short on Caterpillar was initiated at $1,060.98 per share. Burry stated he had not previously shorted Caterpillar. The iShares Semiconductor ETF tracks components including Micron, AMD, Nvidia, Broadcom, Intel, and Applied Materials. Burry posted a chart showing the Philadelphia Semiconductor Index's extension above its 200-day moving average reached its highest level since the 2000 dot-com bubble. He did not short SpaceX, citing high option costs.",
-        "zh-CN": "标题：押注AI热潮翻车！《大卖空》本尊新开5档空单：英伟达、特斯拉、半导体ETF全上榜\n中性摘要：\n迈克尔·贝瑞（Michael Burry）建立了五项资产的空头持仓：卡特彼勒公司（Caterpillar Inc.）、英伟达公司（Nvidia Corp.）、应用材料公司（Applied Materials Inc.）、特斯拉公司（Tesla Inc.）以及iShares半导体ETF（SOXX）。卡特彼勒的空单以每股1,060.98美元开仓。贝瑞表示他此前从未做空过卡特彼勒。iShares半导体ETF追踪的成分股包括美光（Micron）、超威（AMD）、英伟达（Nvidia）、博通（Broadcom）、英特尔（Intel）和应用材料（Applied Materials）。贝瑞发布了一张图表，显示费城半导体指数（Philadelphia Semiconductor Index）高于其200日移动平均线的延伸幅度已达到自2000年互联网泡沫以来的最高水平。他没有做空SpaceX，理由是期权成本过高。",
-        "ja": "タイトル：AIブームに賭けて大失敗！『マネー・ショート』本人が新たに5銘柄の空売りポジション：エヌビディ"
-      }
-    },
-    {
-      "url": "https://www.bloomberg.com/news/videos/2026-07-03/buddhism-china-s-new-soft-power-front-video",
-      "title": "Buddhism: China's New Soft Power Front",
-      "source": "Bloomberg Crypto",
-      "topic": "Finance",
-      "category": "finance",
-      "published": "2026-07-03T13:30:38+00:00",
-      "ai_summary": "• **標題：佛教：中國新軟實力前線**\n中國已撥款資助與佛教相關的項目，包括寺廟和大學。北京正參與有關達賴喇嘛繼任問題的討論。這些行動是中國擴大影響力整體策略的一部分，與印度的軟實力努力形成競爭。（來源：彭博社）",
-      "summaries": {
-        "zh-HK": "• **標題：佛教：中國新軟實力前線**\n中國已撥款資助與佛教相關的項目，包括寺廟和大學。北京正參與有關達賴喇嘛繼任問題的討論。這些行動是中國擴大影響力整體策略的一部分，與印度的軟實力努力形成競爭。（來源：彭博社）",
-        "en": "• **Title: Buddhism: China's New Soft Power Front**\nChina has allocated funds for Buddhist-related projects, including temples and universities. Beijing is involved in discussions regarding the succession of the Dalai Lama. These actions are part of China's broader strategy to increase its influence, which competes with India's soft power efforts. (Source: Bloomberg)",
-        "zh-CN": "• **标题：佛教：中国新软实力前线**\n中国已拨款资助与佛教相关的项目，包括寺庙和大学。北京正参与有关达赖喇嘛继任问题的讨论。这些行动是中国扩大影响力整体策略的一部分，与印度的软实力努力形成竞争。（来源：彭博社）",
-        "ja": "• **タイトル：仏教：中国の新たなソフトパワーの最前線**\n中国は寺院や大学を含む仏教関連プロジェクトに資金を割り当てている。北京はダライ・ラマの後継者問題に関する議論に関与している。これらの行動は、インドのソフトパワー努力と競合する中国の影響力拡大戦略の一環である。（出典：ブルームバーグ）",
-        "ko": "• **제목: 불교: 중국의 새로운 소프트 파워 전선**\n중국은 사원과 대학을 포함한 불교 관련 프로젝트에 자금을 할당했습니다. 베이징은 달라이 라마의 후계 문제에 관한 논의에 참여하고 있습니다. 이러한 조치는 인도의 소프트 파워 노력과 경쟁하는 중국의 영향력 확대 전략의 일부입니다. (출처: 블룸버그)"
-      }
-    },
-    {
-      "url": "https://www.nytimes.com/2026/07/03/world/africa/cape-verde-argentina-world-cup-fans.html",
-      "title": "Cape Verde Faces Argentina’s World Cup Juggernaut. Its Fans Aren’t Stressed.",
-      "source": "New York Times",
-      "topic": "World",
-      "category": "general",
-      "published": "2026-07-03T13:29:04+00:00",
-      "ai_summary": "• 標題：佛得角面對阿根廷世界盃強勢來襲，球迷並不緊張\n中立摘要：佛得角已晉級世界盃。該隊將與衛冕冠軍阿根廷對賽。",
-      "summaries": {
-        "zh-HK": "• 標題：佛得角面對阿根廷世界盃強勢來襲，球迷並不緊張\n中立摘要：佛得角已晉級世界盃。該隊將與衛冕冠軍阿根廷對賽。",
-        "en": "• Title: Cape Verde Faces Argentina’s World Cup Juggernaut. Its Fans Aren’t Stressed.\nNeutral: Cape Verde qualified for the World Cup. The team is scheduled to play against Argentina, the defending champions.",
-        "zh-CN": "• 标题：佛得角面对阿根廷世界杯强势来袭，球迷并不紧张\n中立摘要：佛得角已晋级世界杯。该队将与卫冕冠军阿根廷对阵。",
-        "ja": "• タイトル：カーボベルデ、アルゼンチンのW杯強豪に立ち向かう。ファンはストレスを感じていない。\n中立要約：カーボベルデはW杯出場権を獲得した。同チームは前回王者アルゼンチンと対戦する予定である。",
-        "ko": "• 제목: 카보베르데, 아르헨티나의 월드컵 강호와 맞서다. 팬들은 스트레스 받지 않는다.\n중립 요약: 카보베르데가 월드컵 본선에 진출했다. 이 팀은 디펜딩 챔피언 아르헨티나와 경기를 치를 예정이다."
-      }
-    },
-    {
-      "url": "https://www.aljazeera.com/news/2026/7/3/interpol-names-ukrainian-woman-as-suspect-in-monaco-bombing?traffic_source=rss",
-      "title": "Interpol names Ukrainian woman as suspect in Monaco bombing",
-      "source": "Al Jazeera",
-      "topic": "General",
-      "category": "general",
-      "published": "2026-07-03T13:25:55+00:00",
-      "ai_summary": "標題：國際刑警組織將烏克蘭女子列為摩納哥爆炸案嫌疑人\n中立摘要：國際刑警組織於2026年7月3日發出紅色通緝令，將39歲的烏克蘭籍女子安娜斯塔西婭·貝雷佐夫斯卡列為摩納哥爆炸案嫌疑人。通緝令指出，摩納哥當局指控她涉嫌企圖謀殺、在公共場所放置爆炸裝置以及刑事串謀。爆炸發生於2026年6月29日，地點在一棟公寓大樓入口處，造成三人受傷。摩納哥當局表示，受害者為一個家庭，且似乎是有針對性的襲擊。媒體報導指出，傷者包括烏克蘭裔富豪奧列克桑德·葉爾莫拉耶夫、其伴侶及兒子。其伴侶情況仍然危殆。另有兩人受輕傷。",
-      "summaries": {
-        "zh-HK": "標題：國際刑警組織將烏克蘭女子列為摩納哥爆炸案嫌疑人\n中立摘要：國際刑警組織於2026年7月3日發出紅色通緝令，將39歲的烏克蘭籍女子安娜斯塔西婭·貝雷佐夫斯卡列為摩納哥爆炸案嫌疑人。通緝令指出，摩納哥當局指控她涉嫌企圖謀殺、在公共場所放置爆炸裝置以及刑事串謀。爆炸發生於2026年6月29日，地點在一棟公寓大樓入口處，造成三人受傷。摩納哥當局表示，受害者為一個家庭，且似乎是有針對性的襲擊。媒體報導指出，傷者包括烏克蘭裔富豪奧列克桑德·葉爾莫拉耶夫、其伴侶及兒子。其伴侶情況仍然危殆。另有兩人受輕傷。",
-        "en": "Title: Interpol names Ukrainian woman as suspect in Monaco bombing\nNeutral: Interpol issued a Red Notice on July 3, 2026, naming Anastasiia Berezovska, 39, a Ukrainian national, as the suspect in a bombing in Monaco. The notice states Monaco seeks her for attempted murder, placing an explosive device in a public place, and criminal conspiracy. The explosion occurred on June 29, 2026, at an apartment building entrance, injuring three people. Monaco authorities said the victims are a family and appeared targeted. Media reports identified Ukrainian-born tycoon Oleksandr Yermolaiev, his partner, and son as wounded. The partner remained in critical condition. Two other individuals sustained minor injuries.",
-        "zh-CN": "标题：国际刑警组织将乌克兰女子列为摩纳哥爆炸案嫌疑人\n中立摘要：国际刑警组织于2026年7月3日发出红色通缉令，将39岁的乌克兰籍女子安娜斯塔西娅·贝雷佐夫斯卡列为摩纳哥爆炸案嫌疑人。通缉令指出，摩纳哥当局指控她涉嫌企图谋杀、在公共场所放置爆炸装置以及刑事串谋。爆炸发生于2026年6月29日，地点在一栋公寓大楼入口处，造成三人受伤。摩纳哥当局表示，受害者为一个家庭，且似乎是有针对性的袭击。媒体报道指出，伤者包括乌克兰裔富豪奥列克桑德·叶尔莫拉耶夫、其伴侣及儿子。其伴侣情况仍然危殆。另有两人受轻伤。",
-        "ja": "タイトル：インターポール、モナコ爆破事件の容疑者にウクライナ人女性を指名\n中立要約：インターポールは2026年7月3日、モナコで発生した爆破事件の容疑者として、ウクライナ国籍の39歳の女性アナスタシア・ベレゾフスカを指名するレッドノーティスを発行した。通知によると、モナコ当局は彼女を殺人未遂、公共の場所への爆発装置設置、および犯罪共謀の容疑で訴追している。爆発は2026年6月29日、アパートの建物入口で発生し、3人が負傷した。モナコ当局は、被害者は一家族であり、標的にされた可能性"
-      }
-    },
-    {
-      "url": "https://www.blocktempo.com/microstrategy-new-capital-framework-potential-btc-sale-galaxy-research/",
-      "title": "STRC 優先股暴跌逼 Strategy 打破永不賣幣神話，Galaxy：明智但治標不治本",
-      "source": "動區動趨 (BlockTempo)",
-      "topic": "Bitcoin",
-      "category": "crypto",
-      "published": "2026-07-03T13:24:10+00:00",
-      "ai_summary": "標題：STRC優先股暴跌逼Strategy打破永不賣幣神話，Galaxy：明智但治標不治本\n中立摘要：\n2026年7月3日，Galaxy Research發佈報告，分析Strategy（MSTR）的新資本框架。Strategy於2026年6月29日當週宣佈資本管理調整。STRC優先股於2026年6月26日跌至71.25美元的低位。Strategy行政總裁Phong Le宣佈五項工具：設立12個月現金儲備、自2026年7月1日起將STRC股息率由11.5%上調至12%、授權10億美元優先證券回購及10億美元MSTR普通股回購，並表示可能偶爾出售比特幣。宣佈當日，MSTR股價上升12.6%至92.70美元，STRC上升12.2%至83.70美元。Strategy持有847,363枚比特幣。",
-      "summaries": {
-        "zh-HK": "標題：STRC優先股暴跌逼Strategy打破永不賣幣神話，Galaxy：明智但治標不治本\n中立摘要：\n2026年7月3日，Galaxy Research發佈報告，分析Strategy（MSTR）的新資本框架。Strategy於2026年6月29日當週宣佈資本管理調整。STRC優先股於2026年6月26日跌至71.25美元的低位。Strategy行政總裁Phong Le宣佈五項工具：設立12個月現金儲備、自2026年7月1日起將STRC股息率由11.5%上調至12%、授權10億美元優先證券回購及10億美元MSTR普通股回購，並表示可能偶爾出售比特幣。宣佈當日，MSTR股價上升12.6%至92.70美元，STRC上升12.2%至83.70美元。Strategy持有847,363枚比特幣。",
-        "en": "Title: STRC Preferred Stock Plunge Forces Strategy to Break the Never-Sell-Bitcoin Myth; Galaxy: Wise but Treats Symptoms, Not Root Causes\nNeutral:\nOn July 3, 2026, Galaxy Research released a report analyzing Strategy's (MSTR) new capital framework. Strategy announced a capital management adjustment on the week of June 29, 2026. The STRC preferred stock reached a low of $71.25 on June 26, 2026. Strategy's CEO Phong Le announced five tools: establishing a 12-month cash reserve, raising STRC dividend rate from 11.5% to 12% effective July 1, 2026, authorizing $1 billion in preferred securities repurchases and $1 billion in MSTR common stock repurchases, and stating possible occasional Bitcoin sales. On the announcement day, MSTR stock rose 12.6% to $92.70, and STRC rose 12.2% to $83.70. Strategy holds 847,363 BTC.",
-        "zh-CN": "标题：STRC优先股暴跌逼Strategy打破永不卖币神话，Galaxy：明智但治标不治本\n中立摘要：\n2026年7月3日，Galaxy Research发布报告，分析Strategy（MSTR）的新资本框架。Strategy于2026年6月29日当周宣布资本管理调整。STRC优先股于2026年6月26日跌至71.25美元的低位。Strategy首席执行官Phong Le宣布五项工具：设立12个月现金储备、自2026年7月1日起将STRC股息率由11.5%上调至12%、授权10亿美元优先证券回购及10亿美元MSTR普通股回购，并表示可能偶尔出售比特币。宣布当日，MSTR股价上涨12.6%至92.70美元，STRC上涨12.2%至83.70美元。Strategy持有847,363枚比特币。",
-        "ja": "タイトル：STRC優先株の暴落がStrategyに「ビットコインを決して売らない」神話を破らせる、Galaxy「賢明だが対症療法に過ぎない」\n中立：\n2026年7月3日、Galaxy ResearchはStrategy（MSTR）の新たな資本フレ"
-      }
-    },
-    {
-      "url": "https://cointelegraph.com/news/upbit-clarifies-ousd-role-open-standard-partner-list?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "title": "Upbit says it only expressed interest in future OUSD participation",
-      "source": "CoinTelegraph",
-      "topic": "Regulation",
-      "category": "crypto",
-      "published": "2026-07-03T13:19:49+00:00",
-      "ai_summary": "[Skipped: LOW]",
-      "summaries": {
-        "zh-HK": "[此文可信度評級為 LOW，暫不處理]"
-      }
-    },
-    {
-      "url": "https://www.marketwatch.com/story/she-wants-him-gone-my-friend-took-in-a-homeless-man-as-a-caretaker-after-10-years-how-can-she-evict-him-01672de2?mod=mw_rss_topstories",
-      "title": "‘She wants him gone’: My friend took in a homeless man as a caretaker. After 10 years, how can she evict him?",
-      "source": "MarketWatch",
-      "topic": "Health",
-      "category": "finance",
-      "published": "2026-07-03T13:15:00+00:00",
-      "ai_summary": "標題：「她想他走」：我的朋友收留了一名無家可歸的男子擔任看護。十年後，她該如何將他驅逐？\n一名女子讓一名無家可歸的男子免費住在她家十年，以換取看護及其他工作。她現在想將他驅逐。",
-      "summaries": {
-        "zh-HK": "標題：「她想他走」：我的朋友收留了一名無家可歸的男子擔任看護。十年後，她該如何將他驅逐？\n一名女子讓一名無家可歸的男子免費住在她家十年，以換取看護及其他工作。她現在想將他驅逐。",
-        "en": "Title: ‘She wants him gone’: My friend took in a homeless man as a caretaker. After 10 years, how can she evict him?\nA woman allowed a homeless man to live in her home rent-free for 10 years in exchange for caretaking and other tasks. She now seeks to evict him.",
-        "zh-CN": "标题：「她想他走」：我的朋友收留了一名无家可归的男子担任看护。十年后，她该如何将他驱逐？\n一名女子让一名无家可归的男子免费住在她家十年，以换取看护及其他工作。她现在想将他驱逐。",
-        "ja": "タイトル：「彼に出て行ってほしい」：友人がホームレスの男性を世話人として住まわせた。10年後、どうやって立ち退かせれば？\nある女性が、ホームレスの男性を世話やその他の仕事と引き換えに、10年間家賃無料で自宅に住まわせていた。彼女は今、その男性を立ち退かせようとしている。",
-        "ko": "제목: \"그를 내보내고 싶어 합니다\": 친구가 노숙자를 돌보는 사람으로 들였습니다. 10년 후, 어떻게 퇴거시킬 수 있을까요?\n한 여성이 노숙자 남성을 돌봄 및 기타 일을 조건으로 10년 동안 집세 없이 자신의 집에 살게 했습니다. 그녀는 이제 그를 퇴거시키려고 합니다."
-      }
-    },
-    {
-      "url": "https://decrypt.co/372726/farage-reported-to-uk-standards-watchdog-over-alleged-crypto-lobbying",
-      "title": "Farage Reported to UK Standards Watchdog Over Alleged Crypto Lobbying",
-      "source": "Decrypt",
-      "topic": "Finance",
-      "category": "crypto",
-      "published": "2026-07-03T13:06:56+00:00",
-      "ai_summary": "• 標題：法拉奇被指涉嫌加密貨幣游說，遭舉報至英國標準監管機構\n中立：工黨議員已將奈傑爾·法拉奇舉報至英國標準監管機構。投訴指控法拉奇作為英國改革黨領袖，曾就相關政策聯繫英格蘭銀行。該政策可能使其最大捐贈者（Tether的主要投資者）獲得經濟利益。監管機構已收到該報告。",
-      "summaries": {
-        "zh-HK": "• 標題：法拉奇被指涉嫌加密貨幣游說，遭舉報至英國標準監管機構\n中立：工黨議員已將奈傑爾·法拉奇舉報至英國標準監管機構。投訴指控法拉奇作為英國改革黨領袖，曾就相關政策聯繫英格蘭銀行。該政策可能使其最大捐贈者（Tether的主要投資者）獲得經濟利益。監管機構已收到該報告。",
-        "en": "• Title: Farage Reported to UK Standards Watchdog Over Alleged Crypto Lobbying\nNeutral: Labour MP reported Nigel Farage to the UK standards watchdog. The complaint alleges Farage, as Reform UK leader, contacted the Bank of England regarding policy. The policy could financially benefit his largest donor, a major investor in Tether. The watchdog received the report.",
-        "zh-CN": "• 标题：法拉奇被指涉嫌加密货币游说，遭举报至英国标准监管机构\n中立：工党议员已将奈杰尔·法拉奇举报至英国标准监管机构。投诉指控法拉奇作为英国改革党领袖，曾就相关政策联系英格兰银行。该政策可能使其最大捐赠者（Tether的主要投资者）获得经济利益。监管机构已收到该报告。",
-        "ja": "• タイトル：ファラージ氏、仮想通貨ロビー活動疑惑で英国基準監視機関に報告される\n中立：労働党議員がナイジェル・ファラージ氏を英国基準監視機関に報告した。告発は、リフォームUK党首であるファラージ氏が、イングランド銀行に政策に関して連絡したと主張している。その政策は、彼の最大の寄付者（テザーの主要投資家）に経済的利益をもたらす可能性がある。監視機関は報告書を受け取った。",
-        "ko": "• 제목: 파라지, 암호화폐 로비 의혹으로 영국 기준 감시 기관에 신고되다\n중립: 노동당 의원이 나이절 파라지를 영국 기준 감시 기관에 신고했다. 고발장은 리폼 UK 대표인 파라지가 잉글랜드 은행에 정책과 관련해 연락했다고 주장한다. 해당 정책은 그의 최대 후원자(테더의 주요 투자자)에게 재정적 이익을 줄 수 있다. 감시 기관은 신고를 접수했다."
-      }
     }
   ],
   "sourceLocations": {
@@ -1718,5 +1617,5 @@
       "London"
     ]
   },
-  "updated": "2026-07-03T22:42:16.862244+00:00"
+  "updated": "2026-07-04T04:55:29.593561+00:00"
 }
