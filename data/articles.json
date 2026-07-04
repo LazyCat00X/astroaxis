@@ -1,27 +1,5 @@
 [
   {
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/saudi-deputy-foreign-minister-pays-respects-at-khamenei-funeral?traffic_source=rss",
-    "title": "Saudi deputy foreign minister pays respects at Khamenei funeral",
-    "summary": "Saudi Arabia’s Vice Foreign Minister Walid al-Khuraiji unexpectedly attended the former Supreme Leader&#039;s funeral",
-    "full_text": "Saudi deputy foreign minister pays respects at Khamenei funeral\nSaudi Arabia’s Vice Foreign Minister Walid al-Khuraiji and a delegation unexpectedly attended the funeral of former Supreme Leader Ali Khamenei. In March, Saudi Foreign Minister Prince Faisal bin Farhan Al Saud urged Iran to ‘recalculate’ its strategy following repeated strikes on US bases in the kingdom, saying tolerance for attacks on Gulf states is limited.\nPublished On 3 Jul 2026\nClick here to share on social media\nAdd Al Jazeera on Google",
-    "source": "Al Jazeera",
-    "category": "general",
-    "lang": "en",
-    "topic": "World",
-    "published": "2026-07-03T18:54:27+00:00",
-    "crawled": "2026-07-03T23:13:45.828427+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/saudi-deputy-foreign-minister-pays-respects-at-khamenei-funeral?traffic_source=rss"
-  },
-  {
     "url": "https://www.aljazeera.com/sports/liveblog/2026/7/3/live-argentina-vs-cape-verde-fifa-world-cup-2026?traffic_source=rss",
     "title": "Argentina vs Cape Verde LIVE: FIFA World Cup 2026",
     "summary": "Live coverage and text updates as Lionel Messi&#039;s goal gives Argentina lead against Cape Verde in last-32 knockout stage.",
@@ -7445,17 +7423,9 @@
     "lang": "en",
     "topic": "Bitcoin",
     "published": "2026-07-04T16:00:00+00:00",
-    "crawled": "2026-07-04T17:00:02.793129+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.coindesk.com/markets/2026/07/03/why-bitcoin-s-disconnect-from-record-high-stocks-won-t-last"
+    "crawled": "2026-07-04T17:13:17.131928+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.coindesk.com/business/2026/07/04/trump-s-crypto-token-buyers-are-down-usd3-8-billion-blockchain-data-shows",
@@ -7467,17 +7437,9 @@
     "lang": "en",
     "topic": "Politics",
     "published": "2026-07-04T15:30:52+00:00",
-    "crawled": "2026-07-04T17:00:03.609004+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.coindesk.com/business/2026/07/04/trump-s-crypto-token-buyers-are-down-usd3-8-billion-blockchain-data-shows"
+    "crawled": "2026-07-04T17:13:17.952205+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.coindesk.com/opinion/2026/07/04/europe-led-on-crypto-regulation-now-implementation-must-match-ambition",
@@ -7489,7 +7451,7 @@
     "lang": "en",
     "topic": "Regulation",
     "published": "2026-07-04T14:00:00+00:00",
-    "crawled": "2026-07-04T17:00:04.432118+00:00",
+    "crawled": "2026-07-04T17:13:18.862860+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7497,13 +7459,13 @@
     "url": "https://www.coindesk.com/policy/2026/07/04/eu-moves-to-block-retail-investors-from-explosive-boom-of-multibillion-dollar-prediction-markets",
     "title": "EU moves to block retail investors from explosive boom of multibillion-dollar prediction markets",
     "summary": "",
-    "full_text": "EU moves to block retail investors from explosive boom of multibillion-dollar prediction markets\nThe region's regulators emphasized that a product's actual function as a derivative matters more than its commercial name or labeling when assessing compliance.\nJul 4, 2026, 2:12 p.m.\nJul 4, 2026, 1:56 p.m.\nESMA warns that some prediction-market event contracts may violate the EU's binary options ban if they function as financial instruments for retail clients.\nRegulators emphasized that a product's actual function as a derivative matters more than its commercial name or labeling when assessing compliance.\nFirms offering investment services linked to these products need MiFID II authorization, though they may also face national gambling or MiCA oversight.\nThe European Securities and Markets Authority (ESMA) said some prediction-market contracts may be covered by the European Union’s binary options ban, warning firms that yes-or-no event contracts cannot be marketed, distributed or sold to retail clients when they qualify as financial instruments.\n“This means that the marketing, distribution or sale to retail clients of event contracts that meet the definition of financial instruments is prohibited,” ESMA said in a statement.\nThe regulator targeted contracts whose payout is binary, usually a fixed amount or nothing, and depends on the outcome of a future event.\nESMA said the product label is irrelevant, as a contract sold as an “event contract” can still be a MiFID II financial instrument if its underlying falls within the derivatives categories.\nEvent contracts that qualify as financial instruments are derivatives, ESMA said. That puts them within the scope of national product intervention measures for binary options.\nThe warning comes as prediction markets expand across crypto and traditional finance. Kalshi and Polymarket have been discussed as\npotential M&A targets\nas operational lines blur between exchanges, brokerages and sportsbooks.\nKalshi was valued at $22 billion in its\n, while Jump Trading has moved to\ntake small stakes in Kalshi and Polymarket\nin exchange for liquidity provision.\nESMA said a coupon, reward or interest-like payment on user funds does not change the product's binary structure. Firms must assess legal classification based on the product’s features and functioning, not its commercial name.\nThe restriction is not limited to retail-facing platforms. ESMA said firms offering investment services linked to these products in the EU need MiFID II authorization even if distribution is limited to non-retail clients.\nEvent contracts may also fall under national gambling laws or, if tokenized and not financial instruments, under the block’s Markets in Crypto-Assets (MiCA) framework, ESMA said.\nAI Disclaimer: Parts of this article were generated with the assistance from AI tools and reviewed by our editorial team to ensure accuracy and adherence to\nFor more information, see\nCoinDesk's full AI Policy\nWhy bitcoin's disconnect from record-high stocks won't last\nTrump's crypto token buyers are down $3.8 billion, blockchain data shows\nEurope led on crypto regulation. Now implementation must match ambition\nUK's bold new crypto rules promise to unlock global trading, but huge compliance hurdles still threaten the rollout\nXRP climbs 8% as record holder losses signal better risk-reward for buyers\nBitcoin’s next parabolic run may need $1 trillion in fresh capital\nThis sanctioned Russian stablecoin claims it processes billions, but blockchain analysts disagree\nTrump says there is ‘nothing wrong’ with family’s crypto windfall\nBitcoin whales bought $16.7 billion of bitcoin in 2 weeks even as ETFs bled a record $4 billion\nBitcoin, ether traders aren't fully buying the bounce, options markets show\nBuilding the Zcash Machine: Tachyon and Quantum Readiness\nBuilding the Zcash Machine: Tachyon and Quantum Readiness\nZcash’s Tachyon upgrade aims to scale shielded payments, improve quantum readiness, and test whether its funding, security, and governance can hold.\nZcash’s Tachyon upgrade aims to scale shielded payments, improve quantum readiness, and test whether its funding, security, and governance can hold.\nZcash’s Tachyon upgrade aims to scale shielded payments, improve quantum readiness, and test whether its funding, security, and governance can hold.\nUK's bold new crypto rules promise to unlock global trading, but huge compliance hurdles still threaten the rollout\nTrump says there is ‘nothing wrong’ with family’s crypto windfall\nBinance says MiCA should be judged by who it licenses, not who it excludes",
+    "full_text": "EU moves to block retail investors from explosive boom of multibillion-dollar prediction markets\nThe region's regulators emphasized that a product's actual function as a derivative matters more than its commercial name or labeling when assessing compliance.\n4 lug 2026, 2:12 p.m.\n4 lug 2026, 1:56 p.m.\nCondividi questo articolo\nESMA warns that some prediction-market event contracts may violate the EU's binary options ban if they function as financial instruments for retail clients.\nRegulators emphasized that a product's actual function as a derivative matters more than its commercial name or labeling when assessing compliance.\nFirms offering investment services linked to these products need MiFID II authorization, though they may also face national gambling or MiCA oversight.\nThe European Securities and Markets Authority (ESMA) said some prediction-market contracts may be covered by the European Union’s binary options ban, warning firms that yes-or-no event contracts cannot be marketed, distributed or sold to retail clients when they qualify as financial instruments.\n“This means that the marketing, distribution or sale to retail clients of event contracts that meet the definition of financial instruments is prohibited,” ESMA said in a statement.\nThe regulator targeted contracts whose payout is binary, usually a fixed amount or nothing, and depends on the outcome of a future event.\nESMA said the product label is irrelevant, as a contract sold as an “event contract” can still be a MiFID II financial instrument if its underlying falls within the derivatives categories.\nEvent contracts that qualify as financial instruments are derivatives, ESMA said. That puts them within the scope of national product intervention measures for binary options.\nThe warning comes as prediction markets expand across crypto and traditional finance. Kalshi and Polymarket have been discussed as\npotential M&A targets\nas operational lines blur between exchanges, brokerages and sportsbooks.\nKalshi was valued at $22 billion in its\n, while Jump Trading has moved to\ntake small stakes in Kalshi and Polymarket\nin exchange for liquidity provision.\nESMA said a coupon, reward or interest-like payment on user funds does not change the product's binary structure. Firms must assess legal classification based on the product’s features and functioning, not its commercial name.\nThe restriction is not limited to retail-facing platforms. ESMA said firms offering investment services linked to these products in the EU need MiFID II authorization even if distribution is limited to non-retail clients.\nEvent contracts may also fall under national gambling laws or, if tokenized and not financial instruments, under the block’s Markets in Crypto-Assets (MiCA) framework, ESMA said.\nAI Disclaimer: Parts of this article were generated with the assistance from AI tools and reviewed by our editorial team to ensure accuracy and adherence to\nFor more information, see\nCoinDesk's full AI Policy\nWhy bitcoin's disconnect from record-high stocks won't last\nTrump's crypto token buyers are down $3.8 billion, blockchain data shows\nEurope led on crypto regulation. Now implementation must match ambition\nUK's bold new crypto rules promise to unlock global trading, but huge compliance hurdles still threaten the rollout\nXRP climbs 8% as record holder losses signal better risk-reward for buyers\nBitcoin’s next parabolic run may need $1 trillion in fresh capital\nThis sanctioned Russian stablecoin claims it processes billions, but blockchain analysts disagree\nTrump says there is ‘nothing wrong’ with family’s crypto windfall\nBitcoin whales bought $16.7 billion of bitcoin in 2 weeks even as ETFs bled a record $4 billion\nBitcoin, ether traders aren't fully buying the bounce, options markets show\nBuilding the Zcash Machine: Tachyon and Quantum Readiness\nBuilding the Zcash Machine: Tachyon and Quantum Readiness\nZcash’s Tachyon upgrade aims to scale shielded payments, improve quantum readiness, and test whether its funding, security, and governance can hold.\nZcash’s Tachyon upgrade aims to scale shielded payments, improve quantum readiness, and test whether its funding, security, and governance can hold.\nZcash’s Tachyon upgrade aims to scale shielded payments, improve quantum readiness, and test whether its funding, security, and governance can hold.\nUK's bold new crypto rules promise to unlock global trading, but huge compliance hurdles still threaten the rollout\nTrump says there is ‘nothing wrong’ with family’s crypto windfall\nBinance says MiCA should be judged by who it licenses, not who it excludes",
     "source": "CoinDesk",
     "category": "crypto",
     "lang": "en",
     "topic": "Finance",
     "published": "2026-07-04T13:56:27+00:00",
-    "crawled": "2026-07-04T17:00:05.447923+00:00",
+    "crawled": "2026-07-04T17:13:19.781860+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7511,13 +7473,13 @@
     "url": "https://www.coindesk.com/policy/2026/07/04/uk-s-bold-new-crypto-rules-promise-to-unlock-global-trading-but-huge-compliance-hurdles-still-threaten-the-rollout",
     "title": "UK's bold new crypto rules promise to unlock global trading, but huge compliance hurdles still threaten the rollout",
     "summary": "",
-    "full_text": "UK's bold new crypto rules promise to unlock global trading, but huge compliance hurdles still threaten the rollout\nThe U.K. FCA's crypto framework has been praised for prioritizing global liquidity and institutional adoption, but the authorization process is expected to be daunting.\nJul 4, 2026, 12:00 p.m.\nLondon, U.K. (Cj / Unsplash+)\nIndustry participants say the FCA's approach to preserving global liquidity and overseas-issued stablecoins shows promise.\nUncertainty over international crypto firms and DeFi, coupled with a demanding authorization process, however, could prove a deterrent.\nInstitutional adoption could however be given the required boost through the legal certainty that the framework provides.\nThe U.K.'s Financial Conduct Authority (FCA)\nunveiled its cryptocurrency regulatory framework this week\n, winning early praise for taking an internationally connected approach, but industry participants said significant questions remain before Britain can establish itself as a global crypto hub.\nThe FCA's package of rules creates a framework that preserves access to global liquidity through overseas trading venues and allows non-U.K.-issued stablecoins to circulate, various industry participants have highlighted.\n\"The publication of the FCA's final crypto rules is a major milestone for regulatory clarity and a strong outcome for the U.K.'s competitiveness in digital asset innovation,\" Katie Harries, Coinbase's head of policy for Europe, said in a Telegram message.\nAlso, FCA's new measures around global liquidity and non-domestic stablecoins contrast with what many industry participants view as the more protectionist approach set out by the European Union's (EU) Markets in Crypto-Assets (MiCA) regulation, which effectively encouraged firms to ring-fence European operations and liquidity.\nParticularly, FCA's new Qualifying Cryptoasset Trading Platform (QCATP) model should allow overseas exchanges to serve U.K. customers through locally authorized branches connected to existing global trading infrastructure, according to Christopher Collins, a financial markets and regulation partner at Katten Muchin Rosenman.\n\"The benefit of such an approach is allowing access for U.K. customers to established global liquidity in the offshore trading platform, rather than having a ring-fenced U.K. liquidity pool, which should mean better pricing and outcomes for U.K. customers,\" Collins said in an emailed comment.\nHowever, Collins warned that the framework currently leaves one critical question unanswered.\nThe FCA has said overseas branches will only be authorized where their home jurisdiction provides \"comparable levels of regulatory protection.\" But it has yet to specify which jurisdictions meet that standard.\n\"That isn't enough clarity for firms to build a business model,\" Collins said, arguing that firms need greater certainty before investing in U.K. operations.\nHarries also highlighted DeFi as an unresolved issue, warning that earlier proposals would effectively prevent centralized platforms from offering access to decentralized finance applications.\n\"The U.K.'s future approach to DeFi will be critical,\" she said, arguing such restrictions would leave it out of step with jurisdictions such as the U.S., where policymakers are\nexploring DeFi as part of broader tokenization strategies\nBeyond policy questions, firms face a formidable authorization process.\nThomas Cattee, a partner at Gherson Solicitors, warned there is \"a very high risk of failure\" for firms seeking authorization under the new Financial Services and Markets Act regime.\n\"The existing AML registration process with the FCA, which is much narrower, is already incredibly demanding, with the FCA rejecting or forcing the withdrawal of over 85% of applications,\" he said in an emailed comment. The new framework introduces substantially broader requirements covering Consumer Duty, prudential standards, operational resilience and senior management accountability.\nCattee also cautioned firms against delaying applications, pointing to MiCA's rollout in Europe, where many firms waited until deadlines approached, creating licensing bottlenecks that left some businesses without authorization in time.\nFor institutional investors, however, the new framework represents more significant than just another crypto rulebook.\nSandy Jones, director of digital assets at Baillie Gifford, said regulation does not automatically make crypto safer but provides the legal certainty and standards of governance needed for traditional financial (TradFi) institutions to adopt blockchain-based infrastructure.\n\"The underlying technology is powerful, but it does not create a direct path into mainstream financial markets on its own,\" Jones said. \"You need legal clarity, operational resilience, proper governance and rules that investors and institutions can recognise.\"\nJones also welcomed the FCA's recent refinements to its stablecoin regime, arguing they create robust settlement infrastructure without imposing unnecessary operational friction.\nThe industry's responses suggest the FCA has deliberately positioned the U.K. as a commercially pragmatic alternative to Europe's MiCA regime. But whether that translates into firms choosing Britain over other jurisdictions will depend less on the framework's ambition than on how predictably it is implemented over the coming months.\nThe challenge is ensuring the authorization process and remaining policy gaps do not blunt the potential competitive advantages before they have a chance to take hold.\nAI Disclaimer: Parts of this article were generated with the assistance from AI tools and reviewed by our editorial team to ensure accuracy and adherence to\nFor more information, see\nCoinDesk's full AI Policy\nWhy bitcoin's disconnect from record-high stocks won't last\nTrump's crypto token buyers are down $3.8 billion, blockchain data shows\nEurope led on crypto regulation. Now implementation must match ambition\nEU moves to block retail investors from explosive boom of multibillion-dollar prediction markets\nXRP climbs 8% as record holder losses signal better risk-reward for buyers\nBitcoin’s next parabolic run may need $1 trillion in fresh capital\nThis sanctioned Russian stablecoin claims it processes billions, but blockchain analysts disagree\nTrump says there is ‘nothing wrong’ with family’s crypto windfall\nBitcoin whales bought $16.7 billion of bitcoin in 2 weeks even as ETFs bled a record $4 billion\nBitcoin, ether traders aren't fully buying the bounce, options markets show\nBuilding the Zcash Machine: Tachyon and Quantum Readiness\nBuilding the Zcash Machine: Tachyon and Quantum Readiness\nZcash’s Tachyon upgrade aims to scale shielded payments, improve quantum readiness, and test whether its funding, security, and governance can hold.\nZcash’s Tachyon upgrade aims to scale shielded payments, improve quantum readiness, and test whether its funding, security, and governance can hold.\nZcash’s Tachyon upgrade aims to scale shielded payments, improve quantum readiness, and test whether its funding, security, and governance can hold.\nEU moves to block retail investors from explosive boom of multibillion-dollar prediction markets\nTrump says there is ‘nothing wrong’ with family’s crypto windfall\nBinance says MiCA should be judged by who it licenses, not who it excludes",
+    "full_text": "UK's bold new crypto rules promise to unlock global trading, but huge compliance hurdles still threaten the rollout\nThe U.K. FCA's crypto framework has been praised for prioritizing global liquidity and institutional adoption, but the authorization process is expected to be daunting.\nLondon, U.K. (Cj / Unsplash+)\nIndustry participants say the FCA's approach to preserving global liquidity and overseas-issued stablecoins shows promise.\nUncertainty over international crypto firms and DeFi, coupled with a demanding authorization process, however, could prove a deterrent.\nInstitutional adoption could however be given the required boost through the legal certainty that the framework provides.\nThe U.K.'s Financial Conduct Authority (FCA)\nunveiled its cryptocurrency regulatory framework this week\n, winning early praise for taking an internationally connected approach, but industry participants said significant questions remain before Britain can establish itself as a global crypto hub.\nThe FCA's package of rules creates a framework that preserves access to global liquidity through overseas trading venues and allows non-U.K.-issued stablecoins to circulate, various industry participants have highlighted.\n\"The publication of the FCA's final crypto rules is a major milestone for regulatory clarity and a strong outcome for the U.K.'s competitiveness in digital asset innovation,\" Katie Harries, Coinbase's head of policy for Europe, said in a Telegram message.\nAlso, FCA's new measures around global liquidity and non-domestic stablecoins contrast with what many industry participants view as the more protectionist approach set out by the European Union's (EU) Markets in Crypto-Assets (MiCA) regulation, which effectively encouraged firms to ring-fence European operations and liquidity.\nParticularly, FCA's new Qualifying Cryptoasset Trading Platform (QCATP) model should allow overseas exchanges to serve U.K. customers through locally authorized branches connected to existing global trading infrastructure, according to Christopher Collins, a financial markets and regulation partner at Katten Muchin Rosenman.\n\"The benefit of such an approach is allowing access for U.K. customers to established global liquidity in the offshore trading platform, rather than having a ring-fenced U.K. liquidity pool, which should mean better pricing and outcomes for U.K. customers,\" Collins said in an emailed comment.\nHowever, Collins warned that the framework currently leaves one critical question unanswered.\nThe FCA has said overseas branches will only be authorized where their home jurisdiction provides \"comparable levels of regulatory protection.\" But it has yet to specify which jurisdictions meet that standard.\n\"That isn't enough clarity for firms to build a business model,\" Collins said, arguing that firms need greater certainty before investing in U.K. operations.\nHarries also highlighted DeFi as an unresolved issue, warning that earlier proposals would effectively prevent centralized platforms from offering access to decentralized finance applications.\n\"The U.K.'s future approach to DeFi will be critical,\" she said, arguing such restrictions would leave it out of step with jurisdictions such as the U.S., where policymakers are\nexploring DeFi as part of broader tokenization strategies\nBeyond policy questions, firms face a formidable authorization process.\nThomas Cattee, a partner at Gherson Solicitors, warned there is \"a very high risk of failure\" for firms seeking authorization under the new Financial Services and Markets Act regime.\n\"The existing AML registration process with the FCA, which is much narrower, is already incredibly demanding, with the FCA rejecting or forcing the withdrawal of over 85% of applications,\" he said in an emailed comment. The new framework introduces substantially broader requirements covering Consumer Duty, prudential standards, operational resilience and senior management accountability.\nCattee also cautioned firms against delaying applications, pointing to MiCA's rollout in Europe, where many firms waited until deadlines approached, creating licensing bottlenecks that left some businesses without authorization in time.\nFor institutional investors, however, the new framework represents more significant than just another crypto rulebook.\nSandy Jones, director of digital assets at Baillie Gifford, said regulation does not automatically make crypto safer but provides the legal certainty and standards of governance needed for traditional financial (TradFi) institutions to adopt blockchain-based infrastructure.\n\"The underlying technology is powerful, but it does not create a direct path into mainstream financial markets on its own,\" Jones said. \"You need legal clarity, operational resilience, proper governance and rules that investors and institutions can recognise.\"\nJones also welcomed the FCA's recent refinements to its stablecoin regime, arguing they create robust settlement infrastructure without imposing unnecessary operational friction.\nThe industry's responses suggest the FCA has deliberately positioned the U.K. as a commercially pragmatic alternative to Europe's MiCA regime. But whether that translates into firms choosing Britain over other jurisdictions will depend less on the framework's ambition than on how predictably it is implemented over the coming months.\nThe challenge is ensuring the authorization process and remaining policy gaps do not blunt the potential competitive advantages before they have a chance to take hold.\nAI Disclaimer: Parts of this article were generated with the assistance from AI tools and reviewed by our editorial team to ensure accuracy and adherence to\nFor more information, see\nCoinDesk's full AI Policy\nWhy bitcoin's disconnect from record-high stocks won't last\nTrump's crypto token buyers are down $3.8 billion, blockchain data shows\nEurope led on crypto regulation. Now implementation must match ambition\nEU moves to block retail investors from explosive boom of multibillion-dollar prediction markets\nXRP climbs 8% as record holder losses signal better risk-reward for buyers\nBitcoin’s next parabolic run may need $1 trillion in fresh capital\nThis sanctioned Russian stablecoin claims it processes billions, but blockchain analysts disagree\nTrump says there is ‘nothing wrong’ with family’s crypto windfall\nBitcoin whales bought $16.7 billion of bitcoin in 2 weeks even as ETFs bled a record $4 billion\nBitcoin, ether traders aren't fully buying the bounce, options markets show\nBuilding the Zcash Machine: Tachyon and Quantum Readiness\nBuilding the Zcash Machine: Tachyon and Quantum Readiness\nZcash’s Tachyon upgrade aims to scale shielded payments, improve quantum readiness, and test whether its funding, security, and governance can hold.\nZcash’s Tachyon upgrade aims to scale shielded payments, improve quantum readiness, and test whether its funding, security, and governance can hold.\nZcash’s Tachyon upgrade aims to scale shielded payments, improve quantum readiness, and test whether its funding, security, and governance can hold.\nEU moves to block retail investors from explosive boom of multibillion-dollar prediction markets\nTrump says there is ‘nothing wrong’ with family’s crypto windfall\nBinance says MiCA should be judged by who it licenses, not who it excludes",
     "source": "CoinDesk",
     "category": "crypto",
     "lang": "en",
     "topic": "Regulation",
     "published": "2026-07-04T12:00:00+00:00",
-    "crawled": "2026-07-04T17:00:06.381830+00:00",
+    "crawled": "2026-07-04T17:13:20.604277+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7531,7 +7493,7 @@
     "lang": "en",
     "topic": "Crypto",
     "published": "2026-07-03T09:06:29+00:00",
-    "crawled": "2026-07-04T17:00:06.381939+00:00",
+    "crawled": "2026-07-04T17:13:20.604414+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7545,17 +7507,9 @@
     "lang": "en",
     "topic": "DeFi",
     "published": "2026-07-04T16:47:27+00:00",
-    "crawled": "2026-07-04T17:00:07.058618+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://cointelegraph.com/news/world-cup-drives-prediction-markets-to-record-june-trading-volumes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    "crawled": "2026-07-04T17:13:21.283233+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://cointelegraph.com/markets/bollinger-bands-creator-eyes-bitcoin-bear-market-end-w-shaped-reversal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -7567,7 +7521,7 @@
     "lang": "en",
     "topic": "Bitcoin",
     "published": "2026-07-04T13:09:16+00:00",
-    "crawled": "2026-07-04T17:00:07.114319+00:00",
+    "crawled": "2026-07-04T17:13:22.018449+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7581,7 +7535,7 @@
     "lang": "en",
     "topic": "Crypto",
     "published": "2026-07-04T11:25:34+00:00",
-    "crawled": "2026-07-04T17:00:07.174525+00:00",
+    "crawled": "2026-07-04T17:13:22.071208+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7595,17 +7549,9 @@
     "lang": "en",
     "topic": "DeFi",
     "published": "2026-07-04T16:32:20+00:00",
-    "crawled": "2026-07-04T17:00:07.779816+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.theblock.co/post/407167/aaves-new-monad-market-tops-100-million-in-deposits-two-days-after-launch?utm_source=rss&utm_medium=rss"
+    "crawled": "2026-07-04T17:13:22.672121+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.theblock.co/post/407124/russia-digital-ruble?utm_source=rss&utm_medium=rss",
@@ -7617,7 +7563,7 @@
     "lang": "en",
     "topic": "Policy",
     "published": "2026-07-03T09:16:52+00:00",
-    "crawled": "2026-07-04T17:00:07.809511+00:00",
+    "crawled": "2026-07-04T17:13:22.704951+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7631,7 +7577,7 @@
     "lang": "en",
     "topic": "Bitcoin",
     "published": "2026-07-04T16:57:08+00:00",
-    "crawled": "2026-07-04T17:00:08.484202+00:00",
+    "crawled": "2026-07-04T17:13:23.390444+00:00",
     "summarized": true,
     "ai_summary": "(neutralize failed)",
     "verification": {
@@ -7653,17 +7599,9 @@
     "lang": "en",
     "topic": "AI",
     "published": "2026-07-04T16:07:19+00:00",
-    "crawled": "2026-07-04T17:00:08.576845+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://decrypt.co/372755/perplexity-co-founder-ai-safety-excuse-lock-down-frontier"
+    "crawled": "2026-07-04T17:13:24.598889+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://decrypt.co/372679/inside-the-trading-engine-behind-changenows-fast-seamless-swaps",
@@ -7675,7 +7613,7 @@
     "lang": "en",
     "topic": "Trading",
     "published": "2026-07-04T14:01:03+00:00",
-    "crawled": "2026-07-04T17:00:08.664749+00:00",
+    "crawled": "2026-07-04T17:13:25.828602+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7689,17 +7627,9 @@
     "lang": "en",
     "topic": "World",
     "published": "2026-07-04T16:35:44+00:00",
-    "crawled": "2026-07-04T17:00:16.466039+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.bloomberg.com/news/videos/2026-07-04/uso-marks-85-years-supporting-us-troops-video"
+    "crawled": "2026-07-04T17:13:28.559048+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.bloomberg.com/news/videos/2026-07-04/miss-americana-and-the-football-prince-video",
@@ -7711,17 +7641,9 @@
     "lang": "en",
     "topic": "Sports",
     "published": "2026-07-04T16:19:40+00:00",
-    "crawled": "2026-07-04T17:00:16.579141+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.bloomberg.com/news/videos/2026-07-04/miss-americana-and-the-football-prince-video"
+    "crawled": "2026-07-04T17:13:28.688452+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-04/putin-signs-tax-amendments-aiming-to-boost-domestic-fuel-supply",
@@ -7733,17 +7655,9 @@
     "lang": "en",
     "topic": "Politics",
     "published": "2026-07-04T15:42:48+00:00",
-    "crawled": "2026-07-04T17:00:16.703208+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.bloomberg.com/news/articles/2026-07-04/putin-signs-tax-amendments-aiming-to-boost-domestic-fuel-supply"
+    "crawled": "2026-07-04T17:13:28.970074+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.bloomberg.com/news/videos/2026-07-04/david-rubenstein-s-belief-in-patriotic-philanthropy-video",
@@ -7755,17 +7669,9 @@
     "lang": "en",
     "topic": "Finance",
     "published": "2026-07-04T15:39:27+00:00",
-    "crawled": "2026-07-04T17:00:16.821938+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.bloomberg.com/news/videos/2026-07-04/david-rubenstein-s-belief-in-patriotic-philanthropy-video"
+    "crawled": "2026-07-04T17:13:29.085595+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.bloomberg.com/news/videos/2026-07-04/polls-say-american-pride-depends-on-how-you-ask-video",
@@ -7777,17 +7683,9 @@
     "lang": "en",
     "topic": "Politics",
     "published": "2026-07-04T15:21:20+00:00",
-    "crawled": "2026-07-04T17:00:16.936804+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.bloomberg.com/news/videos/2026-07-04/polls-say-american-pride-depends-on-how-you-ask-video"
+    "crawled": "2026-07-04T17:13:29.201924+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.bloomberg.com/news/videos/2026-07-04/ai-teddy-roosevelt-greets-library-visitors-video",
@@ -7799,7 +7697,7 @@
     "lang": "en",
     "topic": "Politics",
     "published": "2026-07-04T14:59:14+00:00",
-    "crawled": "2026-07-04T17:00:17.064279+00:00",
+    "crawled": "2026-07-04T17:13:29.310435+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7813,7 +7711,7 @@
     "lang": "en",
     "topic": "World",
     "published": "2026-07-04T14:39:50+00:00",
-    "crawled": "2026-07-04T17:00:17.186721+00:00",
+    "crawled": "2026-07-04T17:13:29.482851+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7827,7 +7725,7 @@
     "lang": "en",
     "topic": "Finance",
     "published": "2026-07-04T14:13:49+00:00",
-    "crawled": "2026-07-04T17:00:17.307362+00:00",
+    "crawled": "2026-07-04T17:13:29.597352+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7841,7 +7739,7 @@
     "lang": "en",
     "topic": "Finance",
     "published": "2026-07-04T13:19:19+00:00",
-    "crawled": "2026-07-04T17:00:17.426105+00:00",
+    "crawled": "2026-07-04T17:13:29.713429+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7855,7 +7753,7 @@
     "lang": "en",
     "topic": "Finance",
     "published": "2026-07-04T13:05:21+00:00",
-    "crawled": "2026-07-04T17:00:17.549988+00:00",
+    "crawled": "2026-07-04T17:13:29.825046+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7869,7 +7767,7 @@
     "lang": "en",
     "topic": "Trading",
     "published": "2026-07-04T13:00:00+00:00",
-    "crawled": "2026-07-04T17:00:17.792935+00:00",
+    "crawled": "2026-07-04T17:13:29.943725+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7883,7 +7781,7 @@
     "lang": "en",
     "topic": "Finance",
     "published": "2026-07-04T12:32:22+00:00",
-    "crawled": "2026-07-04T17:00:17.914085+00:00",
+    "crawled": "2026-07-04T17:13:30.057872+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7897,7 +7795,7 @@
     "lang": "en",
     "topic": "Trading",
     "published": "2026-07-04T12:31:06+00:00",
-    "crawled": "2026-07-04T17:00:18.023764+00:00",
+    "crawled": "2026-07-04T17:13:30.169161+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7911,7 +7809,7 @@
     "lang": "en",
     "topic": "Finance",
     "published": "2026-07-04T12:01:00+00:00",
-    "crawled": "2026-07-04T17:00:18.144354+00:00",
+    "crawled": "2026-07-04T17:13:30.404756+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7925,7 +7823,7 @@
     "lang": "en",
     "topic": "Macro",
     "published": "2026-07-04T11:38:05+00:00",
-    "crawled": "2026-07-04T17:00:18.263806+00:00",
+    "crawled": "2026-07-04T17:13:30.517557+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7933,23 +7831,15 @@
     "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
     "title": "Alibaba reportedly bans employees from using Claude Code",
     "summary": "Alibaba has reportedly classified Claude Code as high-risk software.",
-    "full_text": "9:32 AM PDT · July 4, 2026\nSamuel Boivin/NurPhoto / Getty Images\nAlibaba reportedly bans employees from using Claude Code\nChina’s Alibaba will ban employees from using Anthropic’s programming tool Claude Code, starting on July 10, according to\nAnthropic already prohibits Chinese companies, as well as foreign entities owned by those companies, from using its models. The company has reportedly been\nworking to close loopholes\nthat allow Chinese users to access Claude.\n, some of that loophole-closing involved a version of Claude Code that could secretly identify Chinese users. Anthropic’s Thariq Shihipar\nthat this was “an experiment we launched in March that was meant to prevent account abuse from unauthorized resellers and protect against distillation.” (\nis a practice where AI models are trained on the outputs of other models.)\n“The team has landed stronger mitigations since then and we’ve actually been meaning to take this down for a while,” Shihipar said.\nNonetheless, Alibaba has reportedly classified Claude Code as high-risk software and is instructing employees to use the company’s own Qoder tool instead.\nLast chance to save up to $190 on TechCrunch Founder Summit. Join 1,000+ founders and VCs at all stages for real-world scaling insights and connections that move the needle.\nSavings end June 26, 11:59 p.m. PT\nSubscribe for the industry’s biggest tech news\nTechCrunch Daily News\nEvery weekday and Sunday, you can get the best of TechCrunch’s coverage.\nTechCrunch Mobility is your destination for transportation news and insight.\nStartups are the core of TechCrunch, so get our best coverage delivered weekly.\nProvides movers and shakers with the info they need to start their day.\nNo newsletters selected.\nBy submitting your email, you agree to our\nWhat is Mistral AI? Everything to know about the OpenAI competitor\nThe only AI glossary you’ll need this year\nThe browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari\nAlibaba reportedly bans employees from using Claude Code\nWhat is Mistral AI? Everything to know about the OpenAI competitor\nThe only AI glossary you’ll need this year",
+    "full_text": "9:32 AM PDT · July 4, 2026\nSamuel Boivin/NurPhoto / Getty Images\nAlibaba reportedly bans employees from using Claude Code\nChina’s Alibaba will ban employees from using Anthropic’s programming tool Claude Code, starting on July 10, according to\nAnthropic already prohibits Chinese companies, as well as foreign entities owned by those companies, from using its models. The company has reportedly been\nworking to close loopholes\nthat allow Chinese users to access Claude.\n, some of that loophole-closing involved a version of Claude Code that could secretly identify Chinese users. Anthropic’s Thariq Shihipar\nthat this was “an experiment we launched in March that was meant to prevent account abuse from unauthorized resellers and protect against distillation.” (\nis a practice where AI models are trained on the outputs of other models.)\n“The team has landed stronger mitigations since then and we’ve actually been meaning to take this down for a while,” Shihipar said.\nNonetheless, Alibaba has reportedly classified Claude Code as high-risk software and is instructing employees to use the company’s own Qoder tool instead.\nLast chance to save up to $190 on TechCrunch Founder Summit. Join 1,000+ founders and VCs at all stages for real-world scaling insights and connections that move the needle.\nSavings end June 26, 11:59 p.m. PT\nSubscribe for the industry’s biggest tech news\nTechCrunch Daily News\nEvery weekday and Sunday, you can get the best of TechCrunch’s coverage.\nTechCrunch Mobility is your destination for transportation news and insight.\nStartups are the core of TechCrunch, so get our best coverage delivered weekly.\nProvides movers and shakers with the info they need to start their day.\nNo newsletters selected.\nBy submitting your email, you agree to our\nWhat is Mistral AI? Everything to know about the OpenAI competitor\nThe only AI glossary you’ll need this year\nAnthropic is discussing a new custom chip with Samsung\nAlibaba reportedly bans employees from using Claude Code\nWhat is Mistral AI? Everything to know about the OpenAI competitor\nThe only AI glossary you’ll need this year",
     "source": "TechCrunch",
     "category": "tech",
     "lang": "en",
     "topic": "AI",
     "published": "2026-07-04T16:32:08+00:00",
-    "crawled": "2026-07-04T17:00:23.343096+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/"
+    "crawled": "2026-07-04T17:13:37.523624+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
@@ -7961,17 +7851,9 @@
     "lang": "en",
     "topic": "AI",
     "published": "2026-07-04T15:51:32+00:00",
-    "crawled": "2026-07-04T17:00:23.396290+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
+    "crawled": "2026-07-04T17:13:37.585283+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/",
@@ -7983,7 +7865,7 @@
     "lang": "en",
     "topic": "Health",
     "published": "2026-07-04T11:04:31+00:00",
-    "crawled": "2026-07-04T17:00:25.162866+00:00",
+    "crawled": "2026-07-04T17:13:39.824680+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -7997,7 +7879,7 @@
     "lang": "en",
     "topic": "Tech",
     "published": "2026-07-04T11:00:41+00:00",
-    "crawled": "2026-07-04T17:00:26.073727+00:00",
+    "crawled": "2026-07-04T17:13:41.053433+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8011,17 +7893,9 @@
     "lang": "en",
     "topic": "World",
     "published": "2026-07-04T16:00:00+00:00",
-    "crawled": "2026-07-04T17:00:26.830739+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.wired.com/story/livestream-book-club-inside-the-world-of-online-romance-scams/"
+    "crawled": "2026-07-04T17:13:42.214685+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.wired.com/gallery/best-magsafe-wireless-chargers/",
@@ -8033,7 +7907,7 @@
     "lang": "en",
     "topic": "Tech",
     "published": "2026-07-04T11:30:00+00:00",
-    "crawled": "2026-07-04T17:00:27.127627+00:00",
+    "crawled": "2026-07-04T17:13:42.551979+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8047,7 +7921,7 @@
     "lang": "en",
     "topic": "Finance",
     "published": "2026-07-04T11:00:00+00:00",
-    "crawled": "2026-07-04T17:00:28.556056+00:00",
+    "crawled": "2026-07-04T17:13:44.704015+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8061,17 +7935,9 @@
     "lang": "en",
     "topic": "Finance",
     "published": "2026-07-04T16:23:00+00:00",
-    "crawled": "2026-07-04T17:00:28.816417+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.bloomberg.com/news/articles/2026-07-04/hungary-files-constitutional-bill-to-oust-orban-allied-president"
+    "crawled": "2026-07-04T17:13:44.823566+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-04/justice-department-defends-move-to-drop-adani-criminal-charges",
@@ -8083,17 +7949,9 @@
     "lang": "en",
     "topic": "Finance",
     "published": "2026-07-04T16:04:49+00:00",
-    "crawled": "2026-07-04T17:00:28.929360+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.bloomberg.com/news/articles/2026-07-04/justice-department-defends-move-to-drop-adani-criminal-charges"
+    "crawled": "2026-07-04T17:13:44.939797+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.bloomberg.com/news/videos/2026-07-04/trump-puts-himself-center-stage-for-us-independence-day-video",
@@ -8105,17 +7963,9 @@
     "lang": "en",
     "topic": "Finance",
     "published": "2026-07-04T15:44:27+00:00",
-    "crawled": "2026-07-04T17:00:29.043509+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.bloomberg.com/news/videos/2026-07-04/trump-puts-himself-center-stage-for-us-independence-day-video"
+    "crawled": "2026-07-04T17:13:45.060970+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.bloomberg.com/news/features/2026-07-04/nyc-marks-july-4-with-parade-of-military-ships-up-hudson-river",
@@ -8127,7 +7977,7 @@
     "lang": "en",
     "topic": "Finance",
     "published": "2026-07-04T14:29:08+00:00",
-    "crawled": "2026-07-04T17:00:29.164919+00:00",
+    "crawled": "2026-07-04T17:13:45.354775+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8141,7 +7991,7 @@
     "lang": "en",
     "topic": "Finance",
     "published": "2026-07-04T12:50:03+00:00",
-    "crawled": "2026-07-04T17:00:29.284540+00:00",
+    "crawled": "2026-07-04T17:13:45.473727+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8155,7 +8005,7 @@
     "lang": "en",
     "topic": "World",
     "published": "2026-07-01T18:30:51+00:00",
-    "crawled": "2026-07-04T17:00:32.024283+00:00",
+    "crawled": "2026-07-04T17:13:48.139321+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8169,7 +8019,7 @@
     "lang": "en",
     "topic": "Crypto",
     "published": "2026-07-01T19:52:48+00:00",
-    "crawled": "2026-07-04T17:00:35.974763+00:00",
+    "crawled": "2026-07-04T17:13:52.244394+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8183,7 +8033,7 @@
     "lang": "en",
     "topic": "Trading",
     "published": "2026-07-01T18:51:39+00:00",
-    "crawled": "2026-07-04T17:00:35.974810+00:00",
+    "crawled": "2026-07-04T17:13:52.244440+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8197,7 +8047,7 @@
     "lang": "en",
     "topic": "Ethereum",
     "published": "2026-07-01T18:14:22+00:00",
-    "crawled": "2026-07-04T17:00:35.974826+00:00",
+    "crawled": "2026-07-04T17:13:52.244456+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8211,7 +8061,7 @@
     "lang": "en",
     "topic": "World",
     "published": "2026-07-01T17:31:16+00:00",
-    "crawled": "2026-07-04T17:00:35.974875+00:00",
+    "crawled": "2026-07-04T17:13:52.244503+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8225,7 +8075,7 @@
     "lang": "en",
     "topic": "Politics",
     "published": "2026-06-29T18:51:41+00:00",
-    "crawled": "2026-07-04T17:00:36.761205+00:00",
+    "crawled": "2026-07-04T17:13:53.649375+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8239,7 +8089,7 @@
     "lang": "zh",
     "topic": "Bitcoin",
     "published": "2026-07-03T07:12:48+00:00",
-    "crawled": "2026-07-04T17:00:38.419842+00:00",
+    "crawled": "2026-07-04T17:13:55.616022+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8253,17 +8103,9 @@
     "lang": "en",
     "topic": "Finance",
     "published": "2026-07-04T15:05:27+00:00",
-    "crawled": "2026-07-04T17:00:41.028198+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.bbc.co.uk/news/articles/cr5jpzn2814o?at_medium=RSS&at_campaign=rss"
+    "crawled": "2026-07-04T17:14:00.796282+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro?at_medium=RSS&at_campaign=rss",
@@ -8275,7 +8117,7 @@
     "lang": "en",
     "topic": "World",
     "published": "2026-07-04T14:07:31+00:00",
-    "crawled": "2026-07-04T17:00:41.088136+00:00",
+    "crawled": "2026-07-04T17:14:00.857917+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8283,23 +8125,15 @@
     "url": "https://www.bbc.co.uk/news/articles/cvg5zn58nj2o?at_medium=RSS&at_campaign=rss",
     "title": "Dior dress and a man of honour: What we know about Taylor Swift and Travis Kelce's wedding",
     "summary": "The couple tied the knot in New York on Friday, after months of speculation about when, where and how it would happen.",
-    "full_text": "To play this video you need to enable JavaScript in your browser.\nThis video can not be played\nWatch: Taylor Swift and Travis Kelce wed in NYC - here's how the day unfolded\n4 July 2026, 13:05 BST\nUpdated 16 minutes ago\nAfter months of rumours and speculation, superstar couple Taylor Swift and Travis Kelce have finally tied the knot at New York's Madison Square Garden.\nThe news was confirmed on Friday evening by Swift's publicist, and at the same time, giant screens outside the arena lit up with the message: \"JUST&T MARRIED!\"\nSwift, the world's biggest pop star, and Kelce, a three-time Super Bowl champion, got engaged last August, and fans have been wondering when, where and how it would happen ever since.\nWhile many details about the celebrations are still under wraps, here is what we know so far.\nAdam Sandler officiated\nActor Adam Sandler, pictured last year, starred in films including 1996's Happy Gilmore and its 2025 sequel\nIn her song Wi$h Li$t, from her last album, Swift fantasised about settling down with Kelce, sketching out an idyllic future in which they have \"a couple kids\" and \"a driveway with a basketball hoop\".\nThat song was inspired by Adam Sandler's character in his 1996 film Happy Gilmore.\n\"He has this happy place where he goes into... This is where he escapes to mentally in times of stress, pressure, anxiety or chaos,\" Swift told Apple Music's Zane Lowe.\n\"And that chorus of that song is me just describing what my happy place is.\"\nKelce even made a cameo appearance in the Happy Gilmore sequel last year.\nIt made a certain sense, then, that Sandler should be the one to officiate the wedding and help the happy couple on their way to their happy place.\n, the actor also reprised his role from The Wedding Singer by performing his own \"humorous yet touching\" song at Friday's ceremony.\nTravis Kelce appeared alongside Adam Sandler in Happy Gilmore 2 last year\nSandler has previously spoken about his friendship with the couple. \"Taylor's so damn nice to my family and has always been,\"\nhe told Entertainment Tonight\n\"She's ridiculously nice to them and warm, and Travis is such a gentle, nice guy. Funny as hell. He's like the guys I grew up with.\"\nTravis and Taylor may even have got the idea to hire out Madison Square Garden from Sandler's 2002 film Mr Deeds, in which\nhis character took over the venue to propose to his girlfriend\nAs for Sandler's qualifications - any adult\napply for a One-Day Marriage Officiant License to oversee a marriage ceremony in New York State.\nTaylor and Travis wore Dior\nThere are no photos of the wedding dress yet, but we do know who designed it.\n\"The bride and groom's wedding ceremony looks have been created by Christian Dior Haute Couture,\" Swift's spokeswoman revealed on Friday.\n\"They are designed by Jonathan Anderson, Creative Director of Dior Women's, Men's and Haute Couture Collections, in close collaboration with the Bride and Groom.\n\"This is the designer's first couture wedding dress for a world-renowned celebrity.\"\nAnderson, from Northern Ireland, is a former creative director at Loewe, and took over Dior last year.\nIn a statement, Dior said it was \"delighted to confirm it has created the wedding looks for the marriage of Taylor and Travis\", which were \"created in Dior's ateliers at 30 Avenue Montaigne, Paris\" by Anderson \"in close collaboration with the couple\".\nSwift wore Dior at the 2024 MTV Video Music Awards\nSwift has worn Dior before, such as the tartan creation above, which she sported at the 2024 MTV Video Music Awards.\nSwift's publicist also revealed that the couple's shoes were custom made by Christian Louboutin and that Swift wore Cartier jewelry.\nLouboutin has a close association with the singer, after also making\nthe footwear for the European leg of her Eras Tour\nMan of honour instead of maid of honour\nAustin and Taylor pictured in 2014\nSwift did not have a traditional maid of honour, instead choosing her brother Austin as her man of honour.\nAustin, who at 34 is two years younger than Taylor, is an actor and film producer.\nShe has previously described him\nas \"one of my best pals\".\nMeanwhile, Travis's brother, podcast co-host and fellow US football star Jason Kelce, was best man.\nTaylor also dispensed with tradition by not having any bridesmaids, while Travis similarly did not have groomsmen, her spokeswoman said.\nStar-studded guest list\nStranger Things star Millie Bobby Brown was among the celebrities that attended the event\nAbout 1,000 names were reportedly on the guest list, including some of the biggest stars from music, Hollywood and sport.\nSelena Gomez, Camila Cabello, Hugh Grant, Gracie Abrams, Gigi Hadid, Bradley Cooper, Tom Hanks, Millie Bobby Brown, Ellie Goulding, Graham Norton, Dakota Johnson, Steven Spielberg, were among the A-list attendees.\nMany more drove straight in and out, away from the view of media and photographers.\nOther rumoured names include Sabrina Carpenter, Jennifer Lawrence, Lana Del Rey, Lena Dunham, Emma Stone, the Haim sisters, Sir Paul McCartney, Zoe Kravitz, Stevie Nicks, Nicole Kidman, Reese Witherspoon and Greta Gerwig.\nGuests are assumed to be under instructions not to give away details or photos, and rapper Nelly is one of the few to have posted on Instagram, writing: \"S/O [shout out] to @taylorswift & @killatrav..!! Wedding was incredible.\"\nBBC Radio 1 DJ Greg James, whom Swift invited to the wedding live on his programme, wrote on Instagram on Saturday: \"Just&t to say: true to her word, of course the invitation arrived and of course I couldn't tell anyone.\n\"And oh my god, what an unbelievably brilliant night.\"\nWhat happened inside Madison Square Garden?\nScreens outside Madison Square Garden showed the message \"JusT&T married!\"\nApart from what Swift's representative revealed, details of the night have been kept under wraps - although some information has emerged.\nThe hosts of US TV's Good Morning America\n, who were there, confirmed that Fleetwood Mac's Stevie Nicks performed.\nCo-presenter George Stephanopoulos said the event was \"as intimate as it could possibly be given it was Madison Square Garden\".\nHe described the setting as a \"garden inside the Garden\", adding: \"It was just so beautiful. It's hard to imagine that a place that big and a wedding with such stars could feel so personal and so intimate.\"\nAMC Theatres CEO Adam Aron wrote\nin a now-deleted X post that the indoor venue had been transformed into \"an outdoor garden at a lush countryside retreat\", with Kelce wearing a white tuxedo and Swift in \"a stunning white wedding dress with a long veiled train\".\nAnother guest who spoke to the Reuters news agency said the night had been \"incredible\".\n\"They cried, and they laughed and they danced, and they hugged and they kissed,\" they said.\nAn inside source told TMZ that Swift walked down the aisle to one of her songs being played on strings, and that the decor was described as \"Alice in Wonderland meets The Wizard of Oz\".\nElaborate sets were seen being loaded into the venue in the lead up, including a large glitterball, a white staircase railing and items labelled \"garden party\".\nEyebrows were raised at the choice of Madison Square Garden as the venue, but as well as being an iconic location where the worlds of music and sport collide, one possible reason is that the interior could not be photographed by paparazzi or drones.\nAdditional reporting by Mark Savage.\nTaylor Swift marries Travis Kelce in NYC ceremony officiated by Adam Sandler\nIn pictures: Stars and fans celebrate Taylor Swift and Travis Kelce's wedding\nFrom friendship bracelets to wedding rings: A Taylor and Travis timeline",
+    "full_text": "To play this video you need to enable JavaScript in your browser.\nThis video can not be played\nWatch: Taylor Swift and Travis Kelce wed in NYC - here's how the day unfolded\n4 July 2026, 13:05 BST\nUpdated 25 minutes ago\nAfter months of rumours and speculation, superstar couple Taylor Swift and Travis Kelce have finally tied the knot at New York's Madison Square Garden.\nThe news was confirmed on Friday evening by Swift's publicist, and at the same time, giant screens outside the arena lit up with the message: \"JUST&T MARRIED!\"\nSwift, the world's biggest pop star, and Kelce, a three-time Super Bowl champion, got engaged last August, and fans have been wondering when, where and how it would happen ever since.\nWhile many details about the celebrations are still under wraps, here is what we know so far.\nAdam Sandler officiated\nActor Adam Sandler, pictured last year, starred in films including 1996's Happy Gilmore and its 2025 sequel\nIn her song Wi$h Li$t, from her last album, Swift fantasised about settling down with Kelce, sketching out an idyllic future in which they have \"a couple kids\" and \"a driveway with a basketball hoop\".\nThat song was inspired by Adam Sandler's character in his 1996 film Happy Gilmore.\n\"He has this happy place where he goes into... This is where he escapes to mentally in times of stress, pressure, anxiety or chaos,\" Swift told Apple Music's Zane Lowe.\n\"And that chorus of that song is me just describing what my happy place is.\"\nKelce even made a cameo appearance in the Happy Gilmore sequel last year.\nIt made a certain sense, then, that Sandler should be the one to officiate the wedding and help the happy couple on their way to their happy place.\n, the actor also reprised his role from The Wedding Singer by performing his own \"humorous yet touching\" song at Friday's ceremony.\nTravis Kelce appeared alongside Adam Sandler in Happy Gilmore 2 last year\nSandler has previously spoken about his friendship with the couple. \"Taylor's so damn nice to my family and has always been,\"\nhe told Entertainment Tonight\n\"She's ridiculously nice to them and warm, and Travis is such a gentle, nice guy. Funny as hell. He's like the guys I grew up with.\"\nTravis and Taylor may even have got the idea to hire out Madison Square Garden from Sandler's 2002 film Mr Deeds, in which\nhis character took over the venue to propose to his girlfriend\nAs for Sandler's qualifications - any adult\napply for a One-Day Marriage Officiant License to oversee a marriage ceremony in New York State.\nTaylor and Travis wore Dior\nThere are no photos of the wedding dress yet, but we do know who designed it.\n\"The bride and groom's wedding ceremony looks have been created by Christian Dior Haute Couture,\" Swift's spokeswoman revealed on Friday.\n\"They are designed by Jonathan Anderson, Creative Director of Dior Women's, Men's and Haute Couture Collections, in close collaboration with the Bride and Groom.\n\"This is the designer's first couture wedding dress for a world-renowned celebrity.\"\nAnderson, from Northern Ireland, is a former creative director at Loewe, and took over Dior last year.\nIn a statement, Dior said it was \"delighted to confirm it has created the wedding looks for the marriage of Taylor and Travis\", which were \"created in Dior's ateliers at 30 Avenue Montaigne, Paris\" by Anderson \"in close collaboration with the couple\".\nSwift wore Dior at the 2024 MTV Video Music Awards\nSwift has worn Dior before, such as the tartan creation above, which she sported at the 2024 MTV Video Music Awards.\nSwift's publicist also revealed that the couple's shoes were custom made by Christian Louboutin and that Swift wore Cartier jewelry.\nLouboutin has a close association with the singer, after also making\nthe footwear for the European leg of her Eras Tour\nMan of honour instead of maid of honour\nAustin and Taylor pictured in 2014\nSwift did not have a traditional maid of honour, instead choosing her brother Austin as her man of honour.\nAustin, who at 34 is two years younger than Taylor, is an actor and film producer.\nShe has previously described him\nas \"one of my best pals\".\nMeanwhile, Travis's brother, podcast co-host and fellow US football star Jason Kelce, was best man.\nTaylor also dispensed with tradition by not having any bridesmaids, while Travis similarly did not have groomsmen, her spokeswoman said.\nStar-studded guest list\nStranger Things star Millie Bobby Brown was among the celebrities that attended the event\nAbout 1,000 names were reportedly on the guest list, including some of the biggest stars from music, Hollywood and sport.\nSelena Gomez, Camila Cabello, Hugh Grant, Gracie Abrams, Gigi Hadid, Bradley Cooper, Tom Hanks, Millie Bobby Brown, Ellie Goulding, Graham Norton, Dakota Johnson, Steven Spielberg, were among the A-list attendees.\nMany more drove straight in and out, away from the view of media and photographers.\nOther rumoured names include Sabrina Carpenter, Jennifer Lawrence, Lana Del Rey, Lena Dunham, Emma Stone, the Haim sisters, Sir Paul McCartney, Zoe Kravitz, Stevie Nicks, Nicole Kidman, Reese Witherspoon and Greta Gerwig.\nGuests are assumed to be under instructions not to give away details or photos, and rapper Nelly is one of the few to have posted on Instagram, writing: \"S/O [shout out] to @taylorswift & @killatrav..!! Wedding was incredible.\"\nBBC Radio 1 DJ Greg James, whom Swift invited to the wedding live on his programme, wrote on Instagram on Saturday: \"Just&t to say: true to her word, of course the invitation arrived and of course I couldn't tell anyone.\n\"And oh my god, what an unbelievably brilliant night.\"\nWhat happened inside Madison Square Garden?\nScreens outside Madison Square Garden showed the message \"JusT&T married!\"\nApart from what Swift's representative revealed, details of the night have been kept under wraps - although some information has emerged.\nThe hosts of US TV's Good Morning America\n, who were there, confirmed that Fleetwood Mac's Stevie Nicks performed.\nCo-presenter George Stephanopoulos said the event was \"as intimate as it could possibly be given it was Madison Square Garden\".\nHe described the setting as a \"garden inside the Garden\", adding: \"It was just so beautiful. It's hard to imagine that a place that big and a wedding with such stars could feel so personal and so intimate.\"\nAMC Theatres CEO Adam Aron wrote\nin a now-deleted X post that the indoor venue had been transformed into \"an outdoor garden at a lush countryside retreat\", with Kelce wearing a white tuxedo and Swift in \"a stunning white wedding dress with a long veiled train\".\nAnother guest who spoke to the Reuters news agency said the night had been \"incredible\".\n\"They cried, and they laughed and they danced, and they hugged and they kissed,\" they said.\nAn inside source told TMZ that Swift walked down the aisle to one of her songs being played on strings, and that the decor was described as \"Alice in Wonderland meets The Wizard of Oz\".\nElaborate sets were seen being loaded into the venue in the lead up, including a large glitterball, a white staircase railing and items labelled \"garden party\".\nEyebrows were raised at the choice of Madison Square Garden as the venue, but as well as being an iconic location where the worlds of music and sport collide, one possible reason is that the interior could not be photographed by paparazzi or drones.\nAdditional reporting by Mark Savage.\nTaylor Swift marries Travis Kelce in NYC ceremony officiated by Adam Sandler\nIn pictures: Stars and fans celebrate Taylor Swift and Travis Kelce's wedding\nFrom friendship bracelets to wedding rings: A Taylor and Travis timeline",
     "source": "BBC World",
     "category": "general",
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T16:43:46+00:00",
-    "crawled": "2026-07-04T17:00:41.144214+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.bbc.co.uk/news/articles/cvg5zn58nj2o?at_medium=RSS&at_campaign=rss"
+    "crawled": "2026-07-04T17:14:00.917567+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/c8925jnl0z3o?at_medium=RSS&at_campaign=rss",
@@ -8311,7 +8145,7 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T00:43:26+00:00",
-    "crawled": "2026-07-04T17:00:41.200076+00:00",
+    "crawled": "2026-07-04T17:14:01.134474+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8325,7 +8159,7 @@
     "lang": "en",
     "topic": "World",
     "published": "2026-07-04T11:05:51+00:00",
-    "crawled": "2026-07-04T17:00:41.252418+00:00",
+    "crawled": "2026-07-04T17:14:01.330559+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8339,7 +8173,7 @@
     "lang": "en",
     "topic": "World",
     "published": "2026-07-04T11:44:57+00:00",
-    "crawled": "2026-07-04T17:00:41.302354+00:00",
+    "crawled": "2026-07-04T17:14:06.399689+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8353,17 +8187,9 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T15:06:26+00:00",
-    "crawled": "2026-07-04T17:00:41.355838+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.bbc.co.uk/sport/tennis/articles/ce95mxn1rlmo?at_medium=RSS&at_campaign=rss"
+    "crawled": "2026-07-04T17:14:06.454487+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/4/at-least-7-palestinians-killed-by-israeli-forces-over-past-48-hours-in-gaza?traffic_source=rss",
@@ -8375,17 +8201,9 @@
     "lang": "en",
     "topic": "Health",
     "published": "2026-07-04T16:23:48+00:00",
-    "crawled": "2026-07-04T17:00:43.339941+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.aljazeera.com/news/2026/7/4/at-least-7-palestinians-killed-by-israeli-forces-over-past-48-hours-in-gaza?traffic_source=rss"
+    "crawled": "2026-07-04T17:14:09.297719+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/4/iran-promotes-message-of-continuity-and-revenge-at-khamenei-commemoration?traffic_source=rss",
@@ -8397,17 +8215,9 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T15:49:39+00:00",
-    "crawled": "2026-07-04T17:00:43.396625+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.aljazeera.com/news/2026/7/4/iran-promotes-message-of-continuity-and-revenge-at-khamenei-commemoration?traffic_source=rss"
+    "crawled": "2026-07-04T17:14:09.355355+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.aljazeera.com/video/newsfeed/2026/7/4/russian-attacks-leave-trail-of-destruction-across-ukraine?traffic_source=rss",
@@ -8419,17 +8229,9 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T15:46:35+00:00",
-    "crawled": "2026-07-04T17:00:43.503303+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.aljazeera.com/video/newsfeed/2026/7/4/russian-attacks-leave-trail-of-destruction-across-ukraine?traffic_source=rss"
+    "crawled": "2026-07-04T17:14:09.424907+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.aljazeera.com/sports/liveblog/2026/7/4/canada-vs-morocco-live-fifa-world-cup-2026-last-16?traffic_source=rss",
@@ -8441,7 +8243,7 @@
     "lang": "en",
     "topic": "World",
     "published": "2026-07-04T14:00:00+00:00",
-    "crawled": "2026-07-04T17:00:43.565232+00:00",
+    "crawled": "2026-07-04T17:14:09.488460+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8455,7 +8257,7 @@
     "lang": "en",
     "topic": "Health",
     "published": "2026-07-04T13:38:32+00:00",
-    "crawled": "2026-07-04T17:00:43.622726+00:00",
+    "crawled": "2026-07-04T17:14:09.545920+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8469,7 +8271,7 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T12:41:19+00:00",
-    "crawled": "2026-07-04T17:00:43.689640+00:00",
+    "crawled": "2026-07-04T17:14:09.621176+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8483,7 +8285,7 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T12:31:20+00:00",
-    "crawled": "2026-07-04T17:00:43.746652+00:00",
+    "crawled": "2026-07-04T17:14:09.684979+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8497,7 +8299,7 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T12:17:29+00:00",
-    "crawled": "2026-07-04T17:00:43.802557+00:00",
+    "crawled": "2026-07-04T17:14:10.156350+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8511,7 +8313,7 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T12:09:27+00:00",
-    "crawled": "2026-07-04T17:00:43.861464+00:00",
+    "crawled": "2026-07-04T17:14:10.218105+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8525,7 +8327,7 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T11:27:18+00:00",
-    "crawled": "2026-07-04T17:00:43.920199+00:00",
+    "crawled": "2026-07-04T17:14:10.286385+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8539,7 +8341,7 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T11:18:18+00:00",
-    "crawled": "2026-07-04T17:00:43.995619+00:00",
+    "crawled": "2026-07-04T17:14:10.342858+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8553,7 +8355,7 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T11:00:47+00:00",
-    "crawled": "2026-07-04T17:00:44.067282+00:00",
+    "crawled": "2026-07-04T17:14:11.387951+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8567,17 +8369,9 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T16:42:10+00:00",
-    "crawled": "2026-07-04T17:00:45.002958+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.npr.org/2026/07/04/nx-s1-5882179/washingtons-july-4-heat-cancellations"
+    "crawled": "2026-07-04T17:14:12.924162+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.npr.org/2026/07/04/g-s1-129679/chutes-ladders-schistosomiasis-worms-parasites",
@@ -8589,17 +8383,9 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T15:51:49+00:00",
-    "crawled": "2026-07-04T17:00:45.075891+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.npr.org/2026/07/04/g-s1-129679/chutes-ladders-schistosomiasis-worms-parasites"
+    "crawled": "2026-07-04T17:14:13.637927+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.npr.org/2026/07/04/g-s1-131994/chinas-military-promotes-2-new-generals-after-anti-corruption-purge-thins-ranks",
@@ -8611,7 +8397,7 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T14:07:57+00:00",
-    "crawled": "2026-07-04T17:00:45.782961+00:00",
+    "crawled": "2026-07-04T17:14:14.447045+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8625,7 +8411,7 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T12:00:00+00:00",
-    "crawled": "2026-07-04T17:00:46.501366+00:00",
+    "crawled": "2026-07-04T17:14:15.167476+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8639,17 +8425,9 @@
     "lang": "en",
     "topic": "World",
     "published": "2026-07-04T15:00:06+00:00",
-    "crawled": "2026-07-04T17:00:48.153516+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.scmp.com/news/us/article/3359431/us-turns-250-young-asian-americans-weigh-identity-and-china?utm_source=rss_feed"
+    "crawled": "2026-07-04T17:14:16.608247+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.scmp.com/news/china/science/article/3359430/nobel-prize-winning-materials-scientist-omar-yaghi-joins-tsinghua-university-us?utm_source=rss_feed",
@@ -8661,7 +8439,7 @@
     "lang": "en",
     "topic": "AI",
     "published": "2026-07-04T13:00:09+00:00",
-    "crawled": "2026-07-04T17:00:48.223958+00:00",
+    "crawled": "2026-07-04T17:14:16.716949+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8675,7 +8453,7 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T12:32:44+00:00",
-    "crawled": "2026-07-04T17:00:48.294180+00:00",
+    "crawled": "2026-07-04T17:14:16.821530+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8689,7 +8467,7 @@
     "lang": "en",
     "topic": "Health",
     "published": "2026-07-04T12:00:07+00:00",
-    "crawled": "2026-07-04T17:00:48.384972+00:00",
+    "crawled": "2026-07-04T17:14:16.910492+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8703,7 +8481,7 @@
     "lang": "en",
     "topic": "Health",
     "published": "2026-07-04T11:30:06+00:00",
-    "crawled": "2026-07-04T17:00:48.476825+00:00",
+    "crawled": "2026-07-04T17:14:16.999706+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8717,17 +8495,9 @@
     "lang": "en",
     "topic": "World",
     "published": "2026-07-04T15:14:18+00:00",
-    "crawled": "2026-07-04T17:00:49.586405+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.theguardian.com/world/2026/jul/04/el-obeid-aid-workers-sudan-war-drone-strikes"
+    "crawled": "2026-07-04T17:14:18.158629+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.theguardian.com/football/2026/jul/04/how-the-1986-mexico-world-cup-almost-cancelled-after-earthquake-1986",
@@ -8739,7 +8509,7 @@
     "lang": "en",
     "topic": "World",
     "published": "2026-07-04T11:40:31+00:00",
-    "crawled": "2026-07-04T17:00:49.995839+00:00",
+    "crawled": "2026-07-04T17:14:18.287424+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8753,7 +8523,7 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-03T18:32:08+00:00",
-    "crawled": "2026-07-04T17:00:50.943960+00:00",
+    "crawled": "2026-07-04T17:14:19.456315+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8767,17 +8537,9 @@
     "lang": "en",
     "topic": "World",
     "published": "2026-07-04T16:12:23+00:00",
-    "crawled": "2026-07-04T17:00:51.032730+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.nytimes.com/2026/07/04/world/middleeast/the-funeral-of-irans-supreme-leader-ali-khamenei.html"
+    "crawled": "2026-07-04T17:14:19.541051+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.nytimes.com/live/2026/07/04/world/iran-funeral-ayatollah-khamenei/the-funeral-comes-amid-fraught-sluggish-us-iran-peace-talks",
@@ -8789,7 +8551,7 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T13:59:02+00:00",
-    "crawled": "2026-07-04T17:00:51.125213+00:00",
+    "crawled": "2026-07-04T17:14:19.635580+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8803,7 +8565,7 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T13:40:15+00:00",
-    "crawled": "2026-07-04T17:00:51.244147+00:00",
+    "crawled": "2026-07-04T17:14:19.717946+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8817,7 +8579,7 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T13:39:55+00:00",
-    "crawled": "2026-07-04T17:00:51.320603+00:00",
+    "crawled": "2026-07-04T17:14:19.798386+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8831,7 +8593,7 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T11:43:17+00:00",
-    "crawled": "2026-07-04T17:00:51.435574+00:00",
+    "crawled": "2026-07-04T17:14:19.921979+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8845,17 +8607,9 @@
     "lang": "en",
     "topic": "General",
     "published": "2026-07-04T16:01:46+00:00",
-    "crawled": "2026-07-04T17:01:00.509334+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://time.com/article/2026/07/04/adam-sandler-officiated-taylor-swift-s-wedding-what-s-his-connection-to-the-famous-couple-/"
+    "crawled": "2026-07-04T17:14:29.005866+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.ft.com/content/4df67e55-e52b-4ee6-be69-0504b787de69",
@@ -8867,7 +8621,7 @@
     "lang": "en",
     "topic": "Finance",
     "published": "2026-07-04T04:00:34+00:00",
-    "crawled": "2026-07-04T17:01:03.048520+00:00",
+    "crawled": "2026-07-04T17:14:30.493407+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8881,7 +8635,7 @@
     "lang": "en",
     "topic": "Finance",
     "published": "2026-07-04T04:00:21+00:00",
-    "crawled": "2026-07-04T17:01:03.116111+00:00",
+    "crawled": "2026-07-04T17:14:30.562483+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -8895,9 +8649,31 @@
     "lang": "en",
     "topic": "World",
     "published": "2026-07-04T04:00:34+00:00",
-    "crawled": "2026-07-04T17:01:03.182761+00:00",
+    "crawled": "2026-07-04T17:14:30.626821+00:00",
     "summarized": false,
     "ai_summary": ""
+  },
+  {
+    "url": "https://www.marketwatch.com/story/i-claimed-social-security-at-62-at-76-im-working-at-walmart-why-do-i-still-owe-payroll-taxes-8e22a97c?mod=mw_rss_topstories",
+    "title": "‘I claimed Social Security at 62’: At 76, I’m working at Walmart. Why do I still owe payroll taxes?",
+    "summary": "“It seems like half of the workforce at our local Walmart is over 65.”",
+    "full_text": "",
+    "source": "MarketWatch",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Finance",
+    "published": "2026-07-04T17:08:00+00:00",
+    "crawled": "2026-07-04T17:14:32.234935+00:00",
+    "summarized": true,
+    "ai_summary": "(neutralize failed)",
+    "verification": {
+      "credibility": "ERROR"
+    },
+    "neutral_text": "(neutralize failed)",
+    "summaries": {
+      "zh-HK": "(neutralize failed)"
+    },
+    "source_url": "https://www.marketwatch.com/story/i-claimed-social-security-at-62-at-76-im-working-at-walmart-why-do-i-still-owe-payroll-taxes-8e22a97c?mod=mw_rss_topstories"
   },
   {
     "url": "https://www.marketwatch.com/story/whats-a-soft-off-day-how-to-take-one-without-getting-in-trouble-at-work-10706631?mod=mw_rss_topstories",
@@ -8909,17 +8685,9 @@
     "lang": "en",
     "topic": "Finance",
     "published": "2026-07-04T16:27:00+00:00",
-    "crawled": "2026-07-04T17:01:05.416838+00:00",
-    "summarized": true,
-    "ai_summary": "(neutralize failed)",
-    "verification": {
-      "credibility": "ERROR"
-    },
-    "neutral_text": "(neutralize failed)",
-    "summaries": {
-      "zh-HK": "(neutralize failed)"
-    },
-    "source_url": "https://www.marketwatch.com/story/whats-a-soft-off-day-how-to-take-one-without-getting-in-trouble-at-work-10706631?mod=mw_rss_topstories"
+    "crawled": "2026-07-04T17:14:32.308819+00:00",
+    "summarized": false,
+    "ai_summary": ""
   },
   {
     "url": "https://www.marketwatch.com/story/when-it-comes-to-beating-the-stock-market-no-news-really-is-good-news-43328bf0?mod=mw_rss_topstories",
@@ -8931,7 +8699,7 @@
     "lang": "en",
     "topic": "Science",
     "published": "2026-07-04T13:10:00+00:00",
-    "crawled": "2026-07-04T17:01:05.498425+00:00",
+    "crawled": "2026-07-04T17:14:32.386588+00:00",
     "summarized": false,
     "ai_summary": ""
   }
