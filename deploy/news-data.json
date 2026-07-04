@@ -1,12 +1,204 @@
 {
   "articles": [
     {
+      "url": "https://www.scmp.com/news/china/science/article/3359281/renowned-neurobiologist-and-former-taekwondo-captain-chih-ying-su-leaves-us-china?utm_source=rss_feed",
+      "title": "Renowned neurobiologist and former taekwondo captain Chih-Ying Su leaves US for China",
+      "source": "SCMP",
+      "topic": "Health",
+      "category": "general",
+      "published": "2026-07-04T12:00:07+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.nytimes.com/2026/07/04/world/middleeast/iran-supreme-leader-khamenei-son.html",
+      "title": "Will Iran’s New Supreme Leader, Mojtaba Khamenei, Attend His Father’s Funeral?",
+      "source": "New York Times",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-04T11:43:17+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.theguardian.com/football/2026/jul/04/how-the-1986-mexico-world-cup-almost-cancelled-after-earthquake-1986",
+      "title": "How the 1986 Mexico World Cup was almost cancelled after a devastating earthquake",
+      "source": "The Guardian",
+      "topic": "World",
+      "category": "general",
+      "published": "2026-07-04T11:40:31+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-07-04/credit-agricole-increases-bpm-stake-boosting-position-in-italy",
+      "title": "Credit Agricole Increases BPM Stake, Boosting Position in Italy",
+      "source": "Bloomberg Crypto",
+      "topic": "Macro",
+      "category": "finance",
+      "published": "2026-07-04T11:38:05+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3359408/chinese-scientists-brain-mimicking-chip-478-times-faster-nvidia-a100-gpu?utm_source=rss_feed",
+      "title": "Chinese scientists’ brain-mimicking chip ‘up to 478 times faster than Nvidia A100 GPU’",
+      "source": "SCMP",
+      "topic": "Health",
+      "category": "general",
+      "published": "2026-07-04T11:30:06+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.wired.com/gallery/best-magsafe-wireless-chargers/",
+      "title": "15 Best MagSafe Wireless Chargers (2026): Power Banks, Stands, Pads, and Travel Chargers",
+      "source": "Wired",
+      "topic": "Tech",
+      "category": "tech",
+      "published": "2026-07-04T11:30:00+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.theguardian.com/world/2026/jul/04/el-obeid-aid-workers-sudan-war-drone-strikes",
+      "title": "‘The situation is terrible’: aid workers on life in Sudanese city pummelled by drone strikes",
+      "source": "The Guardian",
+      "topic": "World",
+      "category": "general",
+      "published": "2026-07-04T11:28:18+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/7/4/england-mexico-fifa-world-cup-azteca-kickoff-altitude-weather-explained?traffic_source=rss",
+      "title": "England vs Mexico at Azteca: Kickoff, altitude and weather explained",
+      "source": "Al Jazeera",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-04T11:27:18+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://cointelegraph.com/news/revolut-usdt-delisting-regulatory-risk-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Revolut to delist USDT in August, citing regulatory and risk concerns",
+      "source": "CoinTelegraph",
+      "topic": "Crypto",
+      "category": "crypto",
+      "published": "2026-07-04T11:25:34+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/7/4/thousands-protest-in-germany-as-far-right-afd-party-meets?traffic_source=rss",
+      "title": "Thousands protest in Germany as far-right AfD party meets",
+      "source": "Al Jazeera",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-04T11:18:18+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/",
+      "title": "When the ability to smell goes away",
+      "source": "ArsTechnica",
+      "topic": "Health",
+      "category": "tech",
+      "published": "2026-07-04T11:04:31+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/7/4/america250-how-the-us-heatwave-will-affect-fourth-of-july-celebrations?traffic_source=rss",
+      "title": "America250: How the US heatwave will affect Fourth of July celebrations",
+      "source": "Al Jazeera",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-04T11:00:47+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://arstechnica.com/science/2026/07/a-martian-rock-has-lots-of-carbon-on-it-and-its-not-clear-why/",
+      "title": "A martian rock has lots of carbon on it, and it's not clear why",
+      "source": "ArsTechnica",
+      "topic": "Tech",
+      "category": "tech",
+      "published": "2026-07-04T11:00:41+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
       "url": "https://www.scmp.com/news/china/diplomacy/article/3359399/it-wiser-middle-powers-not-take-sides-face-us-china-rivalry?utm_source=rss_feed",
       "title": "Is it wiser for middle powers ‘not to take sides’ in face of US-China rivalry?",
       "source": "SCMP",
       "topic": "World",
       "category": "general",
       "published": "2026-07-04T11:00:05+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://time.com/article/2026/07/04/america-s-greatest-strength/",
+      "title": "America’s Greatest Strength",
+      "source": "Time",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-04T11:00:03+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.wired.com/story/where-nasa-posts-its-best-space-photos/",
+      "title": "Where NASA Posts Its Best Space Photos, and How to Find Them",
+      "source": "Wired",
+      "topic": "Science",
+      "category": "tech",
+      "published": "2026-07-04T11:00:00+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-07-04/trump-seeks-to-put-himself-center-stage-for-us-independence-day",
+      "title": "Trump Seeks to Put Himself Center Stage for US Independence Day",
+      "source": "Bloomberg",
+      "topic": "Finance",
+      "category": "finance",
+      "published": "2026-07-04T11:00:00+00:00",
       "ai_summary": "(neutralize failed)",
       "summaries": {
         "zh-HK": "(neutralize failed)"
@@ -31,6 +223,18 @@
       "topic": "World",
       "category": "general",
       "published": "2026-07-04T10:33:34+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-07-04/tankers-u-turn-in-hormuz-with-some-taking-iran-route-instead",
+      "title": "Tankers U-Turn in Hormuz, With Some Taking Iran Route Instead",
+      "source": "Bloomberg Crypto",
+      "topic": "Finance",
+      "category": "finance",
+      "published": "2026-07-04T10:33:09+00:00",
       "ai_summary": "(neutralize failed)",
       "summaries": {
         "zh-HK": "(neutralize failed)"
@@ -815,6 +1019,18 @@
       }
     },
     {
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Here’s what happened in crypto today",
+      "source": "CoinTelegraph",
+      "topic": "Bitcoin",
+      "category": "crypto",
+      "published": "2026-07-04T05:02:44+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
       "url": "https://www.bloomberg.com/news/videos/2026-07-04/ebola-vaccine-trials-could-start-this-year",
       "title": "Ebola Vaccine Trials Could Start This Year",
       "source": "Bloomberg Crypto",
@@ -977,222 +1193,6 @@
       "topic": "General",
       "category": "general",
       "published": "2026-07-04T04:12:06+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.nytimes.com/2026/07/04/world/asia/australia-china-politics.html",
-      "title": "Australia Tried to Push Back on China. China Pushed Harder.",
-      "source": "New York Times",
-      "topic": "World",
-      "category": "general",
-      "published": "2026-07-04T04:01:06+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.ft.com/content/4787fc56-f131-4b3b-b90d-c22aa68e7354",
-      "title": "Good vibes are masking a reset in markets",
-      "source": "FT Tech",
-      "topic": "Finance",
-      "category": "tech",
-      "published": "2026-07-04T04:00:43+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.ft.com/content/67d7afb6-117c-4335-815c-72000e610b65",
-      "title": "It is investors vs gamers as Sony ditches discs",
-      "source": "FT Tech",
-      "topic": "Finance",
-      "category": "tech",
-      "published": "2026-07-04T04:00:43+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.ft.com/content/bbd9c82a-7154-40a0-ab7b-4b822f554fa8",
-      "title": "Won’t somebody not think of the children?",
-      "source": "FT Tech",
-      "topic": "Tech",
-      "category": "tech",
-      "published": "2026-07-04T04:00:34+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.ft.com/content/3265b413-f8b6-4ee9-a058-5d6689df9100",
-      "title": "My fellow American: who should be remembered for the next 250 years?",
-      "source": "Financial Times",
-      "topic": "Finance",
-      "category": "finance",
-      "published": "2026-07-04T04:00:34+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.ft.com/content/0a7844b1-c91c-473e-a2f9-29d7c964b1cc",
-      "title": "My America: On the strangeness of pledging allegiance to the flag",
-      "source": "Financial Times",
-      "topic": "Finance",
-      "category": "finance",
-      "published": "2026-07-04T04:00:34+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.ft.com/content/260f93d4-c7a2-443b-8c3a-c62bf8c626d0",
-      "title": "My America: Can we keep this great experiment?",
-      "source": "Financial Times",
-      "topic": "Finance",
-      "category": "finance",
-      "published": "2026-07-04T04:00:21+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.ft.com/content/34eb59fa-fc22-4b03-b9e6-205443d19dd1",
-      "title": "Simon Schama: The founding fathers and the battle for America’s future",
-      "source": "Financial Times",
-      "topic": "World",
-      "category": "finance",
-      "published": "2026-07-04T04:00:21+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.ft.com/content/b640ab8d-4273-43be-8206-be750c004665",
-      "title": "Yankee pyramids: the meaning of presidential libraries",
-      "source": "Financial Times",
-      "topic": "Politics",
-      "category": "finance",
-      "published": "2026-07-04T04:00:21+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.scmp.com/news/china/politics/article/3359359/will-reluctance-local-government-undermine-reforms-chinas-hukou-system?utm_source=rss_feed",
-      "title": "Will reluctance from local government undermine reforms to China’s hukou system?",
-      "source": "SCMP",
-      "topic": "Politics",
-      "category": "general",
-      "published": "2026-07-04T04:00:19+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.ft.com/content/2601f17e-001f-4f84-a9cc-9979ef63b898",
-      "title": "What happens when an online game dies?",
-      "source": "FT Tech",
-      "topic": "Science",
-      "category": "tech",
-      "published": "2026-07-04T04:00:12+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.ft.com/content/21b54a7c-79fa-474f-99c4-e79e7cc30a26",
-      "title": "Who really designed that dress? How fashion is reacting to AI",
-      "source": "FT Tech",
-      "topic": "Tech",
-      "category": "tech",
-      "published": "2026-07-04T04:00:12+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.npr.org/2026/07/04/nx-s1-5876246/reflections-on-americas-250th-birthday",
-      "title": "Reflections on America's 250th birthday",
-      "source": "NPR",
-      "topic": "General",
-      "category": "general",
-      "published": "2026-07-04T04:00:00+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://cointelegraph.com/markets/bitcoin-ether-extend-relief-rallies-as-extreme-fear-meets-renewed-etf-buying?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "title": "Bitcoin, Ether extend relief rallies as extreme fear meets renewed ETF buying",
-      "source": "CoinTelegraph",
-      "topic": "Bitcoin",
-      "category": "crypto",
-      "published": "2026-07-04T03:54:18+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.blocktempo.com/samsung-seeks-third-dram-price-hike-ai-squeezes-memory-supply/",
-      "title": "三星傳出 Q3 DRAM 再漲 20%！一年漲三次，AI 排擠產能燒向手機、PC",
-      "source": "動區動趨 (BlockTempo)",
-      "topic": "Trading",
-      "category": "crypto",
-      "published": "2026-07-04T03:53:37+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.blocktempo.com/musk-forbes-innovator-humanoid-robots-streets-billion-2031-abundance-keynes/",
-      "title": "馬斯克預測5年後：全球至少有1億台人形機器人，甚至10億台",
-      "source": "動區動趨 (BlockTempo)",
-      "topic": "Crypto",
-      "category": "crypto",
-      "published": "2026-07-04T03:51:15+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.aljazeera.com/news/2026/7/4/arias-sends-colombia-into-world-cup-last-16-with-1-0-win-over-ghana?traffic_source=rss",
-      "title": "Arias sends Colombia into World Cup last-16 with 1-0 win over Ghana",
-      "source": "Al Jazeera",
-      "topic": "World",
-      "category": "general",
-      "published": "2026-07-04T03:41:22+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.blocktempo.com/ansem-bullpenfi-memecoin-airdrop-market-cap-doubles-350-million-holders/",
-      "title": "迷因幣 ANSEM 空投 12 小時後翻倍破 3.5 億鎂！Ansem 一人握 65% 供給",
-      "source": "動區動趨 (BlockTempo)",
-      "topic": "Finance",
-      "category": "crypto",
-      "published": "2026-07-04T03:41:15+00:00",
       "ai_summary": "(neutralize failed)",
       "summaries": {
         "zh-HK": "(neutralize failed)"
@@ -1376,5 +1376,5 @@
       "London"
     ]
   },
-  "updated": "2026-07-04T11:02:55.824780+00:00"
+  "updated": "2026-07-04T12:08:22.158642+00:00"
 }
