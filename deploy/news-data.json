@@ -1,12 +1,120 @@
 {
   "articles": [
     {
+      "url": "https://www.coindesk.com/policy/2026/07/04/eu-moves-to-block-retail-investors-from-explosive-boom-of-multibillion-dollar-prediction-markets",
+      "title": "EU moves to block retail investors from explosive boom of multibillion-dollar prediction markets",
+      "source": "CoinDesk",
+      "topic": "Finance",
+      "category": "crypto",
+      "published": "2026-07-04T13:56:27+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.nytimes.com/2026/07/04/world/europe/uk-july-fourth-us-independence.html",
+      "title": "In Britain, July 4 Is Mostly Just a Saturday",
+      "source": "New York Times",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-04T13:40:15+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bloomberg.com/news/videos/2026-07-04/wirecutter-taste-tested-31-hot-dogs-sabrett-won-video",
+      "title": "Wirecutter Taste Tested 31 Hot Dogs. Sabrett Won.",
+      "source": "Bloomberg Crypto",
+      "topic": "Finance",
+      "category": "finance",
+      "published": "2026-07-04T13:19:19+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/cr5jpzn2814o?at_medium=RSS&at_campaign=rss",
+      "title": "Prince Harry will not be joined by Meghan and children on London trip",
+      "source": "BBC World",
+      "topic": "Finance",
+      "category": "general",
+      "published": "2026-07-04T13:15:09+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.marketwatch.com/story/when-it-comes-to-beating-the-stock-market-no-news-really-is-good-news-43328bf0?mod=mw_rss_topstories",
+      "title": "When it comes to beating the stock market, no news really is good news",
+      "source": "MarketWatch",
+      "topic": "Science",
+      "category": "finance",
+      "published": "2026-07-04T13:10:00+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://cointelegraph.com/markets/bollinger-bands-creator-eyes-bitcoin-bear-market-end-w-shaped-reversal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Bollinger Bands creator eyes Bitcoin bear-market end, 'W'-shaped reversal",
+      "source": "CoinTelegraph",
+      "topic": "Bitcoin",
+      "category": "crypto",
+      "published": "2026-07-04T13:09:16+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bloomberg.com/news/videos/2026-07-04/burns-america-s-origin-story-matters-in-divided-times-video",
+      "title": "Ken Burns: America's Origin Story Matters in Divided Times",
+      "source": "Bloomberg Crypto",
+      "topic": "Finance",
+      "category": "finance",
+      "published": "2026-07-04T13:05:21+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
       "url": "https://www.scmp.com/news/china/science/article/3359430/nobel-prize-winning-materials-scientist-omar-yaghi-joins-tsinghua-university-us?utm_source=rss_feed",
       "title": "Nobel Prize-winning materials scientist Omar Yaghi joins Tsinghua University from the US",
       "source": "SCMP",
       "topic": "AI",
       "category": "general",
       "published": "2026-07-04T13:00:09+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-07-04/insider-trading-cases-end-as-doj-dud-with-few-prison-sentences",
+      "title": "Insider Trading Cases End as DOJ Dud With Few Prison Sentences",
+      "source": "Bloomberg Crypto",
+      "topic": "Trading",
+      "category": "finance",
+      "published": "2026-07-04T13:00:00+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-07-04/iran-s-envoy-to-china-says-beijing-to-get-hormuz-concessions",
+      "title": "Iran’s Envoy to China Says Beijing to Get Hormuz Concessions",
+      "source": "Bloomberg",
+      "topic": "Finance",
+      "category": "finance",
+      "published": "2026-07-04T12:50:03+00:00",
       "ai_summary": "(neutralize failed)",
       "summaries": {
         "zh-HK": "(neutralize failed)"
@@ -21,6 +129,18 @@
       "published": "2026-07-04T12:49:06+00:00",
       "ai_summary": "(no content)",
       "summaries": {}
+    },
+    {
+      "url": "https://www.aljazeera.com/features/longform/2026/7/4/why-closure-matters-at-the-end-of-life?traffic_source=rss",
+      "title": "Why closure matters at the end of life",
+      "source": "Al Jazeera",
+      "topic": "General",
+      "category": "general",
+      "published": "2026-07-04T12:41:19+00:00",
+      "ai_summary": "(neutralize failed)",
+      "summaries": {
+        "zh-HK": "(neutralize failed)"
+      }
     },
     {
       "url": "https://www.scmp.com/news/china/diplomacy/article/3359426/beijing-sends-new-coastguard-force-waters-east-taiwan?utm_source=rss_feed",
@@ -1075,126 +1195,6 @@
       "summaries": {
         "zh-HK": "(neutralize failed)"
       }
-    },
-    {
-      "url": "https://www.blocktempo.com/trump-pardons-emissions-violators-clean-air-act-sbf-independence-day/",
-      "title": "川普在美國獨立日特赦 11 人，「得罪拜登」有誰？多數因改車觸法",
-      "source": "動區動趨 (BlockTempo)",
-      "topic": "Politics",
-      "category": "crypto",
-      "published": "2026-07-04T06:38:07+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.blocktempo.com/serenity-china-ai-primary-market-funding-shifts-world-models-embodied/",
-      "title": "Serenity：世界模型成 AI 圈最大共識，中國資金棄基礎模型，轉為物理AI",
-      "source": "動區動趨 (BlockTempo)",
-      "topic": "World",
-      "category": "crypto",
-      "published": "2026-07-04T06:30:09+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.aljazeera.com/sports/2026/7/4/france-vs-paraguay-world-cup-round-of-16-mbappe-prediction-kickoff?traffic_source=rss",
-      "title": "France vs Paraguay: World Cup Round of 16 – Mbappe, prediction, kickoff",
-      "source": "Al Jazeera",
-      "topic": "World",
-      "category": "general",
-      "published": "2026-07-04T06:21:44+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.nytimes.com/2026/07/04/world/middleeast/khamenei-funeral-itineray-iran-iraq-shia.html",
-      "title": "Funeral Procession for Khamenei Will Visit 5 Cities in Iran and Iraq",
-      "source": "New York Times",
-      "topic": "General",
-      "category": "general",
-      "published": "2026-07-04T06:17:04+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.npr.org/2026/07/04/nx-s1-5882086/cape-verde-world-cup-ends",
-      "title": "Cape Verde's historic World Cup ride ends after pushing Argentina to the brink",
-      "source": "NPR",
-      "topic": "World",
-      "category": "general",
-      "published": "2026-07-04T05:44:19+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.aljazeera.com/news/2026/7/4/could-israel-really-build-settlements-in-gaza?traffic_source=rss",
-      "title": "Could Israel really build settlements in Gaza?",
-      "source": "Al Jazeera",
-      "topic": "World",
-      "category": "general",
-      "published": "2026-07-04T05:41:23+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.blocktempo.com/allianz-economist-fed-hike-rates-september-europe-us-policy-divergence/",
-      "title": "市場都在等降息，安聯首席經濟學家：聯準會 9 月恐怕會升息",
-      "source": "動區動趨 (BlockTempo)",
-      "topic": "Policy",
-      "category": "crypto",
-      "published": "2026-07-04T05:37:48+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm2jpkkdld4o?at_medium=RSS&at_campaign=rss",
-      "title": "Murals, flags and beef dishes - Messi mania takes hold in Miami",
-      "source": "BBC World",
-      "topic": "World",
-      "category": "general",
-      "published": "2026-07-04T05:37:08+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://www.bbc.co.uk/news/articles/cnv9p35z866o?at_medium=RSS&at_campaign=rss",
-      "title": "The Papers: Storm threat to England match and 'bid to block Miliband'",
-      "source": "BBC World",
-      "topic": "World",
-      "category": "general",
-      "published": "2026-07-04T05:12:12+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
-    },
-    {
-      "url": "https://cointelegraph.com/news/bitcoin-realized-profit-loss-ratio-falls-to-lowest-level-since-2022-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "title": "Bitcoin profit and loss ratio falls to 43-month low",
-      "source": "CoinTelegraph",
-      "topic": "Bitcoin",
-      "category": "crypto",
-      "published": "2026-07-04T05:05:19+00:00",
-      "ai_summary": "(neutralize failed)",
-      "summaries": {
-        "zh-HK": "(neutralize failed)"
-      }
     }
   ],
   "sourceLocations": {
@@ -1374,5 +1374,5 @@
       "London"
     ]
   },
-  "updated": "2026-07-04T13:08:07.261228+00:00"
+  "updated": "2026-07-04T14:08:20.119475+00:00"
 }
