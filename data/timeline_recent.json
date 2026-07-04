@@ -33,6 +33,20 @@
       "type": "crypto"
     },
     {
+      "date": "2025-07-04",
+      "title": "A devastating flood strikes the Texas Hill Country, killing at least 108 people.",
+      "desc": "A devastating flood strikes the Texas Hill Country, killing at least 108 people.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2025-07-04",
+      "title": "The Oasis Live '25 tour begins in Principality Stadium, Cardiff, ending a 16-yea",
+      "desc": "The Oasis Live '25 tour begins in Principality Stadium, Cardiff, ending a 16-year hiatus.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2025-06-15",
       "title": "USMCA Renegotiation",
       "desc": "North American trade deal renegotiation begins",
@@ -63,6 +77,13 @@
       "title": "Global Heatwave Record",
       "desc": "Hottest day on record globally",
       "type": "climate"
+    },
+    {
+      "date": "2024-07-04",
+      "title": "The Labour Party, led by Keir Starmer, wins a landslide majority in the 2024 Uni",
+      "desc": "The Labour Party, led by Keir Starmer, wins a landslide majority in the 2024 United Kingdom general election, ending 14 years of Conservative government.",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "2024-03-15",

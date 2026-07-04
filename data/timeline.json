@@ -33,6 +33,20 @@
       "type": "crypto"
     },
     {
+      "date": "2025-07-04",
+      "title": "A devastating flood strikes the Texas Hill Country, killing at least 108 people.",
+      "desc": "A devastating flood strikes the Texas Hill Country, killing at least 108 people.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2025-07-04",
+      "title": "The Oasis Live '25 tour begins in Principality Stadium, Cardiff, ending a 16-yea",
+      "desc": "The Oasis Live '25 tour begins in Principality Stadium, Cardiff, ending a 16-year hiatus.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2025-06-15",
       "title": "USMCA Renegotiation",
       "desc": "North American trade deal renegotiation begins",
@@ -63,6 +77,13 @@
       "title": "Global Heatwave Record",
       "desc": "Hottest day on record globally",
       "type": "climate"
+    },
+    {
+      "date": "2024-07-04",
+      "title": "The Labour Party, led by Keir Starmer, wins a landslide majority in the 2024 Uni",
+      "desc": "The Labour Party, led by Keir Starmer, wins a landslide majority in the 2024 United Kingdom general election, ending 14 years of Conservative government.",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "2024-03-15",
@@ -267,6 +288,13 @@
       "title": "Pluto Flyby",
       "desc": "New Horizons completes first flyby of Pluto",
       "type": "science"
+    },
+    {
+      "date": "2015-07-04",
+      "title": "Chile claims its first title in international football by defeating Argentina in",
+      "desc": "Chile claims its first title in international football by defeating Argentina in the 2015 Copa América final.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "2014": [
@@ -297,13 +325,6 @@
       "type": "politics"
     },
     {
-      "date": "2013-07-03",
-      "title": "President of Egypt Mohamed Morsi is removed from office by the military after fo",
-      "desc": "President of Egypt Mohamed Morsi is removed from office by the military after four days of protests all over the country calling for his resignation, to which he did not respond. The president of the ",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "2013-06-06",
       "title": "Snowden Leaks",
       "desc": "Edward Snowden reveals global surveillance programs",
@@ -328,6 +349,13 @@
       "title": "Higgs Boson Discovery",
       "desc": "CERN announces discovery of the Higgs boson particle",
       "type": "science"
+    },
+    {
+      "date": "2012-07-04",
+      "title": "The discovery of particles consistent with the Higgs boson at the Large Hadron C",
+      "desc": "The discovery of particles consistent with the Higgs boson at the Large Hadron Collider is announced at CERN.",
+      "type": "science",
+      "source": "wikipedia"
     },
     {
       "date": "2012-01-18",
@@ -378,6 +406,20 @@
   ],
   "2009": [
     {
+      "date": "2009-07-04",
+      "title": "The Statue of Liberty's crown reopens to the public after eight years of closure",
+      "desc": "The Statue of Liberty's crown reopens to the public after eight years of closure due to security concerns following the September 11 attacks.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2009-07-04",
+      "title": "The first of four days of bombings begins on the southern Philippine island grou",
+      "desc": "The first of four days of bombings begins on the southern Philippine island group of Mindanao.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2009-06-25",
       "title": "Michael Jackson Dies",
       "desc": "King of Pop dies at 50",
@@ -414,6 +456,13 @@
       "title": "Lehman Brothers Collapse",
       "desc": "Investment bank fails, triggering global financial crisis",
       "type": "finance"
+    },
+    {
+      "date": "2008-07-04",
+      "title": "A bomb explodes at a concert in Minsk's Independence Square, injuring 50 people.",
+      "desc": "A bomb explodes at a concert in Minsk's Independence Square, injuring 50 people.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "2007": [
@@ -432,9 +481,9 @@
   ],
   "2006": [
     {
-      "date": "2006-07-03",
-      "title": "The Valencia Metro derailment kills 41 people.",
-      "desc": "The Valencia Metro derailment kills 41 people.",
+      "date": "2006-07-04",
+      "title": "Space Shuttle program: Discovery launches STS-121 to the International Space Sta",
+      "desc": "Space Shuttle program: Discovery launches STS-121 to the International Space Station. The event gained wide media attention as it was the only shuttle launch in the program's history to occur on the U",
       "type": "tech",
       "source": "wikipedia"
     }
@@ -453,6 +502,13 @@
       "type": "disaster"
     },
     {
+      "date": "2005-07-04",
+      "title": "The Deep Impact collider hits the comet Tempel 1.",
+      "desc": "The Deep Impact collider hits the comet Tempel 1.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2005-04-19",
       "title": "Benedict XVI Pope",
       "desc": "Joseph Ratzinger elected Pope Benedict XVI",
@@ -465,6 +521,20 @@
       "title": "Indian Ocean Tsunami",
       "desc": "Massive tsunami kills 230K across 14 countries",
       "type": "disaster"
+    },
+    {
+      "date": "2004-07-04",
+      "title": "The cornerstone of the Freedom Tower is laid on the World Trade Center site in N",
+      "desc": "The cornerstone of the Freedom Tower is laid on the World Trade Center site in New York City.",
+      "type": "finance",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2004-07-04",
+      "title": "Greece beats Portugal in the UEFA Euro 2004 Final and becomes European Champion ",
+      "desc": "Greece beats Portugal in the UEFA Euro 2004 Final and becomes European Champion for first time in its history.",
+      "type": "sports",
+      "source": "wikipedia"
     },
     {
       "date": "2004-06-28",
@@ -493,12 +563,28 @@
       "type": "disaster"
     }
   ],
+  "2002": [
+    {
+      "date": "2002-07-04",
+      "title": "A Boeing 707 crashes near Bangui M'Poko International Airport in Bangui, Central",
+      "desc": "A Boeing 707 crashes near Bangui M'Poko International Airport in Bangui, Central African Republic, killing 28.",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "2001": [
     {
       "date": "2001-09-11",
       "title": "9/11 Attacks",
       "desc": "Al-Qaeda terrorists attack World Trade Center and Pentagon",
       "type": "disaster"
+    },
+    {
+      "date": "2001-07-04",
+      "title": "Vladivostok Air Flight 352 crashes on approach to Irkutsk Airport killing all 14",
+      "desc": "Vladivostok Air Flight 352 crashes on approach to Irkutsk Airport killing all 145 people on board.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "2001-01-15",
@@ -547,9 +633,23 @@
       "title": "Russian Default",
       "desc": "Russia defaults on domestic debt, ruble collapses",
       "type": "finance"
+    },
+    {
+      "date": "1998-07-04",
+      "title": "Japan launches the Nozomi probe to Mars, joining the United States and Russia as",
+      "desc": "Japan launches the Nozomi probe to Mars, joining the United States and Russia as a space exploring nation.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1997": [
+    {
+      "date": "1997-07-04",
+      "title": "NASA's Pathfinder space probe lands on the surface of Mars.",
+      "desc": "NASA's Pathfinder space probe lands on the surface of Mars.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1997-07-01",
       "title": "Hong Kong Handover",
@@ -569,15 +669,6 @@
       "type": "tech"
     }
   ],
-  "1996": [
-    {
-      "date": "1996-07-03",
-      "title": "British Prime Minister John Major announced the Stone of Scone would be returned",
-      "desc": "British Prime Minister John Major announced the Stone of Scone would be returned to Scotland.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1995": [
     {
       "date": "1995-12-14",
@@ -593,6 +684,13 @@
     }
   ],
   "1994": [
+    {
+      "date": "1994-07-04",
+      "title": "Rwandan genocide: Kigali, the Rwandan capital, is captured by the Rwandan Patrio",
+      "desc": "Rwandan genocide: Kigali, the Rwandan capital, is captured by the Rwandan Patriotic Front, ending the genocide in the city.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1994-05-10",
       "title": "Mandela President",
@@ -706,20 +804,6 @@
       "title": "Morris Worm",
       "desc": "First major internet worm infects 6000 computers",
       "type": "tech"
-    },
-    {
-      "date": "1988-07-03",
-      "title": "United States Navy warship USS Vincennes shoots down Iran Air Flight 655 over th",
-      "desc": "United States Navy warship USS Vincennes shoots down Iran Air Flight 655 over the Persian Gulf, killing all 290 people aboard.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1988-07-03",
-      "title": "The Fatih Sultan Mehmet Bridge in Istanbul, Turkey is completed, providing the s",
-      "desc": "The Fatih Sultan Mehmet Bridge in Istanbul, Turkey is completed, providing the second connection between the continents of Europe and Asia over the Bosphorus.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1987": [
@@ -780,6 +864,20 @@
   ],
   "1982": [
     {
+      "date": "1982-07-04",
+      "title": "Three Iranian diplomats and a journalist are kidnapped in Lebanon by Phalange fo",
+      "desc": "Three Iranian diplomats and a journalist are kidnapped in Lebanon by Phalange forces, and their fate remains unknown.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1982-07-04",
+      "title": "Space Shuttle program: Columbia lands at Edwards Air Force Base at the end of th",
+      "desc": "Space Shuttle program: Columbia lands at Edwards Air Force Base at the end of the program's final test flight, STS-4. President Ronald Reagan declares the Space Shuttle to be operational.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1982-06-28",
       "title": "Aeroflot Flight 8641",
       "desc": "Plane crash in Belarus kills 132",
@@ -807,13 +905,6 @@
     }
   ],
   "1979": [
-    {
-      "date": "1979-07-03",
-      "title": "U.S. President Jimmy Carter signs the first directive for secret aid to the oppo",
-      "desc": "U.S. President Jimmy Carter signs the first directive for secret aid to the opponents of the pro-Soviet regime in Kabul.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1979-04-01",
       "title": "Iran Islamic Republic",
@@ -853,6 +944,13 @@
       "title": "Elvis Dies",
       "desc": "Elvis Presley dies at Graceland at age 42",
       "type": "general"
+    },
+    {
+      "date": "1977-07-04",
+      "title": "The George Jackson Brigade plants a bomb at the main power substation for the Wa",
+      "desc": "The George Jackson Brigade plants a bomb at the main power substation for the Washington state capitol in Olympia, in solidarity with a prison strike at the Walla Walla State Penitentiary Intensive Se",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1976": [
@@ -861,6 +959,13 @@
       "title": "Viking 1 Lands on Mars",
       "desc": "First US spacecraft to successfully land on Mars",
       "type": "science"
+    },
+    {
+      "date": "1976-07-04",
+      "title": "Israeli commandos raid Entebbe airport in Uganda, rescuing all but four of the p",
+      "desc": "Israeli commandos raid Entebbe airport in Uganda, rescuing all but four of the passengers and crew of an Air France jetliner seized by Palestinian terrorists.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1976-06-28",
@@ -905,10 +1010,10 @@
       "type": "finance"
     },
     {
-      "date": "1973-07-03",
-      "title": "David Bowie retires his stage persona Ziggy Stardust with the surprise announcem",
-      "desc": "David Bowie retires his stage persona Ziggy Stardust with the surprise announcement that it is \"the last show that we'll ever do\" on the last day of the Ziggy Stardust Tour.",
-      "type": "general",
+      "date": "1973-07-04",
+      "title": "Barbados, Guyana, Jamaica, and Trinidad and Tobago sign the Treaty of Chaguarama",
+      "desc": "Barbados, Guyana, Jamaica, and Trinidad and Tobago sign the Treaty of Chaguaramas in Chaguaramas, Trinidad and Tobago establishing the Caribbean Community (CARICOM). It replaces the Caribbean Free Tra",
+      "type": "finance",
       "source": "wikipedia"
     },
     {
@@ -944,22 +1049,6 @@
       "title": "Bretton Woods Ends",
       "desc": "Nixon ends gold standard, floating exchange rates begin",
       "type": "finance"
-    }
-  ],
-  "1970": [
-    {
-      "date": "1970-07-03",
-      "title": "The Troubles: The \"Falls Curfew\" begins in Belfast, Northern Ireland.",
-      "desc": "The Troubles: The \"Falls Curfew\" begins in Belfast, Northern Ireland.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1970-07-03",
-      "title": "Dan-Air Flight 1903 crashes into the Les Agudes mountain in the Montseny Massif ",
-      "desc": "Dan-Air Flight 1903 crashes into the Les Agudes mountain in the Montseny Massif near the village of Arbúcies in Catalonia, Spain, killing all 112 people aboard.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1969": [
@@ -1010,17 +1099,19 @@
       "type": "politics"
     },
     {
-      "date": "1967-07-03",
-      "title": "The Aden Emergency: The Battle of the Crater in which the British Argyll and Sut",
-      "desc": "The Aden Emergency: The Battle of the Crater in which the British Argyll and Sutherland Highlanders retake the Crater district following the Arab Police mutiny.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1967-06-05",
       "title": "Six-Day War",
       "desc": "Israel defeats Egypt, Jordan, Syria in six-day war",
       "type": "politics"
+    }
+  ],
+  "1966": [
+    {
+      "date": "1966-07-04",
+      "title": "U.S. President Lyndon B. Johnson signs the Freedom of Information Act into Unite",
+      "desc": "U.S. President Lyndon B. Johnson signs the Freedom of Information Act into United States law. The act went into effect the next year.",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "1965": [
@@ -1087,6 +1178,13 @@
       "type": "politics"
     },
     {
+      "date": "1961-07-04",
+      "title": "On its maiden voyage, the Soviet nuclear-powered submarine K-19 suffers a comple",
+      "desc": "On its maiden voyage, the Soviet nuclear-powered submarine K-19 suffers a complete loss of coolant to its reactor. The crew are able to effect repairs, but 22 of them die of radiation poisoning over t",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1961-04-12",
       "title": "First Human in Space",
       "desc": "Yuri Gagarin becomes first person to orbit Earth",
@@ -1094,6 +1192,13 @@
     }
   ],
   "1960": [
+    {
+      "date": "1960-07-04",
+      "title": "Due to the post-Independence Day admission of Hawaii as the 50th U.S. state on A",
+      "desc": "Due to the post-Independence Day admission of Hawaii as the 50th U.S. state on August 21, 1959, the 50-star flag of the United States debuts in Philadelphia, almost ten and a half months later (see Fl",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1960-05-01",
       "title": "U-2 Incident",
@@ -1165,6 +1270,13 @@
   ],
   "1954": [
     {
+      "date": "1954-07-04",
+      "title": "Food rationing in Great Britain ends, with the lifting of restrictions on sale a",
+      "desc": "Food rationing in Great Britain ends, with the lifting of restrictions on sale and purchase of meat, 14 years after it began early in World War II, and nearly a decade after the war's end.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1954-05-17",
       "title": "Brown v. Board",
       "desc": "US Supreme Court declares school segregation unconstitutional",
@@ -1199,20 +1311,6 @@
       "type": "science"
     },
     {
-      "date": "1952-07-03",
-      "title": "The Constitution of Puerto Rico is approved by the United States Congress.",
-      "desc": "The Constitution of Puerto Rico is approved by the United States Congress.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1952-07-03",
-      "title": "The SS United States sets sail on her maiden voyage to Southampton. During the v",
-      "desc": "The SS United States sets sail on her maiden voyage to Southampton. During the voyage, the ship takes the Blue Riband away from the RMS Queen Mary.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1952-02-06",
       "title": "Elizabeth Queen",
       "desc": "Princess Elizabeth becomes Queen after father's death",
@@ -1220,6 +1318,20 @@
     }
   ],
   "1951": [
+    {
+      "date": "1951-07-04",
+      "title": "Cold War: A court in Czechoslovakia sentences American journalist William N. Oat",
+      "desc": "Cold War: A court in Czechoslovakia sentences American journalist William N. Oatis to ten years in prison on charges of espionage.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1951-07-04",
+      "title": "William Shockley announces the invention of the junction transistor.",
+      "desc": "William Shockley announces the invention of the junction transistor.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1951-03-29",
       "title": "Rosenberg Spy Case",
@@ -1233,6 +1345,13 @@
       "title": "China Enters Korean War",
       "desc": "Chinese forces engage UN troops in Korea",
       "type": "politics"
+    },
+    {
+      "date": "1950-07-04",
+      "title": "Cold War: Radio Free Europe first broadcasts.",
+      "desc": "Cold War: Radio Free Europe first broadcasts.",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "1950-06-28",
@@ -1295,10 +1414,33 @@
       "type": "politics"
     },
     {
+      "date": "1947-07-04",
+      "title": "The \"Indian Independence Bill\" is presented before the British House of Commons,",
+      "desc": "The \"Indian Independence Bill\" is presented before the British House of Commons, proposing the independence of the Provinces of British India into two sovereign countries: India and Pakistan.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1947-06-05",
       "title": "Marshall Plan",
       "desc": "US announces plan to rebuild post-war Europe",
       "type": "finance"
+    }
+  ],
+  "1946": [
+    {
+      "date": "1946-07-04",
+      "title": "The Kielce pogrom against Jewish Holocaust survivors in Poland.",
+      "desc": "The Kielce pogrom against Jewish Holocaust survivors in Poland.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1946-07-04",
+      "title": "After 381 years of near-continuous colonial rule by various powers, the Philippi",
+      "desc": "After 381 years of near-continuous colonial rule by various powers, the Philippines attains full independence from the United States.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1945": [
@@ -1335,17 +1477,35 @@
       "type": "politics"
     },
     {
-      "date": "1944-07-03",
-      "title": "World War II: The Minsk Offensive clears German troops from the city.",
-      "desc": "World War II: The Minsk Offensive clears German troops from the city.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1944-06-06",
       "title": "D-Day",
       "desc": "Allied forces land in Normandy, liberating Europe",
       "type": "politics"
+    }
+  ],
+  "1943": [
+    {
+      "date": "1943-07-04",
+      "title": "World War II: The Battle of Kursk, the largest full-scale battle in history and ",
+      "desc": "World War II: The Battle of Kursk, the largest full-scale battle in history and the world's largest tank battle, begins in the village of Prokhorovka.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1943-07-04",
+      "title": "World War II: In Gibraltar, a Royal Air Force B-24 Liberator bomber crashes into",
+      "desc": "World War II: In Gibraltar, a Royal Air Force B-24 Liberator bomber crashes into the sea in an apparent accident moments after takeoff, killing sixteen passengers on board, including general Władysław",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
+  "1942": [
+    {
+      "date": "1942-07-04",
+      "title": "World War II: The 250-day Siege of Sevastopol in the Crimea ends when the city f",
+      "desc": "World War II: The 250-day Siege of Sevastopol in the Crimea ends when the city falls to Axis forces.",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "1941": [
@@ -1356,19 +1516,24 @@
       "type": "politics"
     },
     {
+      "date": "1941-07-04",
+      "title": "Nazi crimes against the Polish nation: Nazi troops massacre Polish scientists an",
+      "desc": "Nazi crimes against the Polish nation: Nazi troops massacre Polish scientists and writers in the captured Ukrainian city of Lviv.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1941-07-04",
+      "title": "World War II: The Burning of the Riga synagogues: The Great Choral Synagogue in ",
+      "desc": "World War II: The Burning of the Riga synagogues: The Great Choral Synagogue in German-occupied Riga is burnt with 300 Jews locked in the basement.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1941-06-22",
       "title": "Operation Barbarossa",
       "desc": "Germany invades Soviet Union",
       "type": "politics"
-    }
-  ],
-  "1940": [
-    {
-      "date": "1940-07-03",
-      "title": "World War II: The Royal Navy attacks the French naval squadron in Algeria, to en",
-      "desc": "World War II: The Royal Navy attacks the French naval squadron in Algeria, to ensure that it will not fall under German control. Of the four French battleships present, one is sunk, two are damaged, a",
-      "type": "politics",
-      "source": "wikipedia"
     }
   ],
   "1939": [
@@ -1383,21 +1548,12 @@
       "title": "Molotov-Ribbentrop Pact",
       "desc": "Germany and USSR sign non-aggression pact",
       "type": "politics"
-    }
-  ],
-  "1938": [
-    {
-      "date": "1938-07-03",
-      "title": "World speed record for a steam locomotive is set in England, by the Mallard, whi",
-      "desc": "World speed record for a steam locomotive is set in England, by the Mallard, which reaches a speed of 125.88 miles per hour (202.58 km/h).",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
-      "date": "1938-07-03",
-      "title": "United States President Franklin D. Roosevelt dedicates the Eternal Light Peace ",
-      "desc": "United States President Franklin D. Roosevelt dedicates the Eternal Light Peace Memorial and lights the eternal flame at Gettysburg Battlefield.",
-      "type": "politics",
+      "date": "1939-07-04",
+      "title": "Lou Gehrig, recently diagnosed with Amyotrophic lateral sclerosis, informs a cro",
+      "desc": "Lou Gehrig, recently diagnosed with Amyotrophic lateral sclerosis, informs a crowd at Yankee Stadium that he considers himself \"The luckiest man on the face of the earth\", then announces his retiremen",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -1471,6 +1627,13 @@
       "title": "The Jazz Singer",
       "desc": "First feature-length 'talkie' film released",
       "type": "general"
+    },
+    {
+      "date": "1927-07-04",
+      "title": "First flight of the Lockheed Vega.",
+      "desc": "First flight of the Lockheed Vega.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1927-05-20",
@@ -1551,6 +1714,20 @@
       "type": "politics"
     },
     {
+      "date": "1918-07-04",
+      "title": "Mehmed V died at the age of 73 and Ottoman sultan Mehmed VI ascends to the thron",
+      "desc": "Mehmed V died at the age of 73 and Ottoman sultan Mehmed VI ascends to the throne.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1918-07-04",
+      "title": "World War I: The Battle of Hamel, a successful attack by the Australian Corps ag",
+      "desc": "World War I: The Battle of Hamel, a successful attack by the Australian Corps against German positions near the town of Le Hamel on the Western Front.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1918-03-04",
       "title": "Spanish Flu First Case",
       "desc": "First case of deadly pandemic reported in Kansas",
@@ -1579,6 +1756,13 @@
       "type": "politics"
     },
     {
+      "date": "1914-07-04",
+      "title": "The funeral of Archduke Franz Ferdinand and his wife Sophie takes place in Vienn",
+      "desc": "The funeral of Archduke Franz Ferdinand and his wife Sophie takes place in Vienna, six days after their assassinations in Sarajevo.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1914-06-28",
       "title": "Archduke Franz Ferdinand Assassinated",
       "desc": "Assassination triggers outbreak of World War I",
@@ -1587,10 +1771,10 @@
   ],
   "1913": [
     {
-      "date": "1913-07-03",
-      "title": "Confederate veterans at the Great Reunion of 1913 reenact Pickett's Charge; upon",
-      "desc": "Confederate veterans at the Great Reunion of 1913 reenact Pickett's Charge; upon reaching the high-water mark of the Confederacy they are met by the outstretched hands of friendship from Union survivo",
-      "type": "general",
+      "date": "1913-07-04",
+      "title": "President Woodrow Wilson addresses American Civil War veterans at the Great Reun",
+      "desc": "President Woodrow Wilson addresses American Civil War veterans at the Great Reunion of 1913.",
+      "type": "politics",
       "source": "wikipedia"
     }
   ],
@@ -1616,18 +1800,25 @@
       "type": "politics"
     },
     {
+      "date": "1911-07-04",
+      "title": "A massive heat wave strikes the northeastern United States, killing 380 people i",
+      "desc": "A massive heat wave strikes the northeastern United States, killing 380 people in eleven days and breaking temperature records in several cities.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
       "date": "1911-06-28",
       "title": "Nakhla Meteorite",
       "desc": "Meteorite falls in Egypt, first to suggest signs of water on Mars",
       "type": "science"
     }
   ],
-  "1908": [
+  "1910": [
     {
-      "date": "1908-07-03",
-      "title": "Start of the Young Turk Revolution in the Ottoman Empire, forcing Sultan Abdul H",
-      "desc": "Start of the Young Turk Revolution in the Ottoman Empire, forcing Sultan Abdul Hamid II leads to restore the Constitution of 1876 and reconvene the parliament.",
-      "type": "politics",
+      "date": "1910-07-04",
+      "title": "The Johnson–Jeffries riots occur after African-American boxer Jack Johnson knock",
+      "desc": "The Johnson–Jeffries riots occur after African-American boxer Jack Johnson knocks out white boxer Jim Jeffries in the 15th round. Between 11 and 26 people are killed and hundreds more injured.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -1653,6 +1844,13 @@
       "type": "science"
     },
     {
+      "date": "1903-07-04",
+      "title": "The Philippine–American War is officially concluded.",
+      "desc": "The Philippine–American War is officially concluded.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1903-06-16",
       "title": "Ford Motor Company",
       "desc": "Henry Ford and investors found Ford Motor Company",
@@ -1665,6 +1863,13 @@
       "title": "First Nobel Prizes",
       "desc": "First Nobel Prizes awarded in Stockholm",
       "type": "science"
+    },
+    {
+      "date": "1901-07-04",
+      "title": "William Howard Taft becomes American governor of the Philippines.",
+      "desc": "William Howard Taft becomes American governor of the Philippines.",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "1901-01-01",
