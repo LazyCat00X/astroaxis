@@ -117,18 +117,20 @@ def main():
         json.dump(news_data, f, ensure_ascii=False)
     print(f"Wrote {len(articles_out)} articles to {news_json_path}")
 
-    # Write timeline-data.json to deploy directory
-    timeline_file = DATA_DIR / "timeline_recent.json"
-    if timeline_file.exists():
-        with open(timeline_file) as f:
+    # Write timeline-data.json: use full timeline.json (all years), fallback to timeline_recent.json
+    timeline_full = DATA_DIR / "timeline.json"
+    timeline_recent = DATA_DIR / "timeline_recent.json"
+    timeline_source = timeline_full if timeline_full.exists() else timeline_recent
+    if timeline_source.exists():
+        with open(timeline_source) as f:
             timeline_data = json.load(f)
         tl_path = DEPLOY_DIR / "timeline-data.json"
         with open(tl_path, "w") as f:
             json.dump(timeline_data, f, ensure_ascii=False)
         total_events = sum(len(v) for v in timeline_data.values())
-        print(f"Wrote timeline: {total_events} events, {len(timeline_data)} years")
+        print(f"Wrote timeline: {total_events} events, {len(timeline_data)} years (from {timeline_source.name})")
     else:
-        print("WARNING: data/timeline_recent.json not found, skipping timeline", file=sys.stderr)
+        print("WARNING: no timeline data found, skipping timeline", file=sys.stderr)
 
     # Copy globe.html as deploy/index.html (no inline injection needed)
     with open(BASE_DIR / "globe.html") as f:
