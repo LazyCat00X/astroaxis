@@ -1,245 +1,66 @@
-=== AstroAxis Auto-Update Mon Jun 29 10:00:01 AM UTC 2026 ===
-2026-06-29 18:00:01,769 [INFO] Added 25 historical events from Wikipedia
-2026-06-29 18:00:01,771 [INFO] Timeline saved: 251 events across 101 years (1900-2026)
-2026-06-29 18:01:24,230 [INFO] Fetching: The Economist
-2026-06-29 18:01:24,289 [WARNING] RSS fetch failed: https://www.economist.com/feeds/print-sections/77/business.xml — 403 Client Error: Forbidden for url: https://www.economist.com/feeds/print-sections/77/business.xml
-2026-06-29 18:01:24,329 [INFO] Done: 206 new, 198 skipped, 500 total
-2026-06-29 18:07:57,310 [INFO]   Step 3/3: Translate
-2026-06-29 18:08:04,312 [INFO]   ✅ zh-HK
-2026-06-29 18:08:06,337 [INFO] Done: 29 articles
-Injected timeline: 20 events, 5 years
-Generated globe with 100 articles, 35 source locations
-[main 4e09da2] Update 2026-06-29T10:08:06Z
- 1 file changed, 1 insertion(+), 1 deletion(-)
-To https://github.com/LazyCat00X/chainlens-news.git
-   6b39c6f..4e09da2  main -> main
-Deployed to GitHub Pages.
-=== Done Mon Jun 29 10:08:08 AM UTC 2026 ===
-=== AstroAxis Auto-Update Mon Jun 29 12:00:01 PM UTC 2026 ===
-2026-06-29 20:00:01,692 [INFO] Added 25 historical events from Wikipedia
-2026-06-29 20:00:01,694 [INFO] Timeline saved: 251 events across 101 years (1900-2026)
-2026-06-29 20:00:59,289 [INFO] Fetching: The Economist
-2026-06-29 20:00:59,399 [WARNING] RSS fetch failed: https://www.economist.com/feeds/print-sections/77/business.xml — 403 Client Error: Forbidden for url: https://www.economist.com/feeds/print-sections/77/business.xml
-2026-06-29 20:00:59,440 [INFO] Done: 140 new, 264 skipped, 500 total
-2026-06-29 20:07:54,077 [INFO]   Step 3/3: Translate
-2026-06-29 20:08:01,349 [INFO]   ✅ zh-HK
-2026-06-29 20:08:03,374 [INFO] Done: 29 articles
-Injected timeline: 20 events, 5 years
-Generated globe with 100 articles, 35 source locations
-[main 0f42d3e] Update 2026-06-29T12:08:03Z
- 1 file changed, 1 insertion(+), 1 deletion(-)
-To https://github.com/LazyCat00X/chainlens-news.git
-   6d52857..0f42d3e  main -> main
-Deployed to GitHub Pages.
-=== Done Mon Jun 29 12:08:05 PM UTC 2026 ===
-=== AstroAxis Auto-Update Mon Jun 29 02:00:01 PM UTC 2026 ===
-2026-06-29 22:00:02,474 [INFO] Added 25 historical events from Wikipedia
-2026-06-29 22:00:02,478 [INFO] Timeline saved: 251 events across 101 years (1900-2026)
-2026-06-29 22:01:28,182 [INFO] Fetching: The Economist
-2026-06-29 22:01:28,279 [WARNING] RSS fetch failed: https://www.economist.com/feeds/print-sections/77/business.xml — 403 Client Error: Forbidden for url: https://www.economist.com/feeds/print-sections/77/business.xml
-2026-06-29 22:01:28,326 [INFO] Done: 94 new, 309 skipped, 500 total
-2026-06-29 22:09:22,611 [INFO]   Step 3/3: Translate
-2026-06-29 22:09:30,178 [INFO]   ✅ zh-HK, en, zh-CN
-2026-06-29 22:09:32,203 [INFO] Done: 30 articles
-Injected timeline: 20 events, 5 years
-Generated globe with 93 articles, 35 source locations
-[main 3da5a77] Update 2026-06-29T14:09:32Z
- 1 file changed, 8 insertions(+), 4 deletions(-)
-To https://github.com/LazyCat00X/chainlens-news.git
-   7176d30..3da5a77  main -> main
-Deployed to GitHub Pages.
-=== Done Mon Jun 29 02:09:34 PM UTC 2026 ===
-=== AstroAxis Auto-Update Mon Jun 29 04:00:01 PM UTC 2026 ===
-2026-06-30 00:00:02,250 [INFO] Added 25 historical events from Wikipedia
-2026-06-30 00:00:02,255 [INFO] Timeline saved: 251 events across 101 years (1900-2026)
-2026-06-30 00:01:24,674 [INFO] Fetching: The Economist
-2026-06-30 00:01:24,803 [WARNING] RSS fetch failed: https://www.economist.com/feeds/print-sections/77/business.xml — 403 Client Error: Forbidden for url: https://www.economist.com/feeds/print-sections/77/business.xml
-2026-06-30 00:01:24,861 [INFO] Done: 98 new, 305 skipped, 500 total
-2026-06-30 00:07:39,478 [INFO]   Step 3/3: Translate
-2026-06-30 00:07:45,669 [INFO]   ✅ zh-HK, en, zh-CN, ja, ko
-2026-06-30 00:07:47,690 [INFO] Done: 30 articles
-Injected timeline: 20 events, 5 years
-Generated globe with 100 articles, 35 source locations
-[main 12c5894] Update 2026-06-29T16:07:47Z
- 1 file changed, 1 insertion(+), 1 deletion(-)
-To https://github.com/LazyCat00X/chainlens-news.git
-   6a61d17..12c5894  main -> main
-Deployed to GitHub Pages.
-=== Done Mon Jun 29 04:07:49 PM UTC 2026 ===
-=== AstroAxis Auto-Update Mon Jun 29 06:00:01 PM UTC 2026 ===
-2026-06-30 02:00:02,954 [INFO] Added 25 historical events from Wikipedia
-2026-06-30 02:00:02,964 [INFO] Timeline saved: 251 events across 101 years (1900-2026)
-2026-06-30 02:01:25,971 [INFO] Fetching: The Economist
-2026-06-30 02:01:26,150 [WARNING] RSS fetch failed: https://www.economist.com/feeds/print-sections/77/business.xml — 403 Client Error: Forbidden for url: https://www.economist.com/feeds/print-sections/77/business.xml
-2026-06-30 02:01:26,188 [INFO] Done: 111 new, 295 skipped, 500 total
-2026-06-30 02:07:56,870 [INFO]   Step 3/3: Translate
-2026-06-30 02:08:04,138 [INFO]   ✅ zh-HK
-2026-06-30 02:08:06,159 [INFO] Done: 30 articles
-Injected timeline: 20 events, 5 years
-Generated globe with 100 articles, 35 source locations
-[main bbfd217] Update 2026-06-29T18:08:06Z
- 1 file changed, 1 insertion(+), 1 deletion(-)
-To https://github.com/LazyCat00X/chainlens-news.git
-   12c5894..bbfd217  main -> main
-Deployed to GitHub Pages.
-=== Done Mon Jun 29 06:08:08 PM UTC 2026 ===
-=== AstroAxis Auto-Update Fri Jul  3 08:00:01 AM UTC 2026 ===
-2026-07-03 16:00:01,714 [INFO] Added 18 historical events from Wikipedia
-2026-07-03 16:00:01,724 [INFO] Timeline saved: 244 events across 103 years (1900-2026)
-2026-07-03 16:01:08,026 [INFO] Fetching: Financial Times
-2026-07-03 16:01:12,363 [INFO] Fetching: MarketWatch
-2026-07-03 16:01:15,182 [INFO] Done: 117 new, 320 skipped, 500 total
-2026-07-03 16:06:09,867 [INFO]   Step 3/3: Translate
-2026-07-03 16:06:12,630 [INFO]   ✅ zh-HK, en, zh-CN, ja, ko
-2026-07-03 16:06:14,656 [INFO] Done: 30 articles
-ERROR: Could not find NEWS_DATA in globe.html
-=== AstroAxis Auto-Update Fri Jul  3 10:00:01 AM UTC 2026 ===
-2026-07-03 18:00:01,504 [INFO] Added 18 historical events from Wikipedia
-2026-07-03 18:00:01,505 [INFO] Timeline saved: 244 events across 103 years (1900-2026)
-2026-07-03 18:00:53,685 [INFO] Fetching: Financial Times
-2026-07-03 18:00:55,287 [INFO] Fetching: MarketWatch
-2026-07-03 18:00:57,201 [INFO] Done: 80 new, 358 skipped, 500 total
-2026-07-03 18:05:30,973 [INFO]   Step 1/3: Verify
-2026-07-03 18:05:32,721 [INFO]     -> LOW
-2026-07-03 18:05:32,721 [INFO] Done: 30 articles
-ERROR: Could not find NEWS_DATA in globe.html
-=== AstroAxis Auto-Update Fri Jul  3 12:00:01 PM UTC 2026 ===
-2026-07-03 20:00:01,715 [INFO] Added 18 historical events from Wikipedia
-2026-07-03 20:00:01,717 [INFO] Timeline saved: 244 events across 103 years (1900-2026)
-2026-07-03 20:00:51,567 [INFO] Fetching: Financial Times
-2026-07-03 20:00:52,938 [INFO] Fetching: MarketWatch
-2026-07-03 20:00:55,035 [INFO] Done: 87 new, 352 skipped, 500 total
-2026-07-03 20:05:29,359 [INFO]   Step 3/3: Translate
-2026-07-03 20:05:36,425 [INFO]   ✅ zh-HK, en, zh-CN, ja
-2026-07-03 20:05:38,451 [INFO] Done: 30 articles
-ERROR: Could not find NEWS_DATA in globe.html
-=== AstroAxis Auto-Update Fri Jul  3 04:00:01 PM UTC 2026 ===
-2026-07-04 00:00:02,153 [INFO] Added 18 historical events from Wikipedia
-2026-07-04 00:00:02,154 [INFO] Timeline saved: 244 events across 103 years (1900-2026)
-2026-07-04 00:00:57,159 [INFO] Fetching: Financial Times
-2026-07-04 00:00:58,726 [INFO] Fetching: MarketWatch
-2026-07-04 00:01:00,081 [INFO] Done: 84 new, 354 skipped, 500 total
-2026-07-04 00:06:11,912 [INFO]   Step 3/3: Translate
-2026-07-04 00:06:15,999 [INFO]   ✅ zh-HK, en, zh-CN, ja, ko
-2026-07-04 00:06:18,026 [INFO] Done: 30 articles
-ERROR: Could not find NEWS_DATA in globe.html
-=== AstroAxis Auto-Update Fri Jul  3 06:00:01 PM UTC 2026 ===
-2026-07-04 02:00:01,582 [INFO] Added 18 historical events from Wikipedia
-2026-07-04 02:00:01,584 [INFO] Timeline saved: 244 events across 103 years (1900-2026)
-2026-07-04 02:00:45,176 [INFO] Fetching: Financial Times
-2026-07-04 02:00:46,734 [INFO] Fetching: MarketWatch
-2026-07-04 02:00:48,720 [INFO] Done: 32 new, 405 skipped, 500 total
-2026-07-04 02:11:04,808 [INFO]   Step 3/3: Translate
-2026-07-04 02:11:13,102 [INFO]   ✅ zh-HK, en, zh-CN, ja
-2026-07-04 02:11:17,130 [INFO] Done: 30 articles
-Wrote 100 articles to /home/kevyn/projects/astroaxis/deploy/news-data.json
-Wrote timeline: 20 events, 5 years
-Copied globe.html -> /home/kevyn/projects/astroaxis/deploy/index.html
-Generated /home/kevyn/projects/astroaxis/deploy/news-data.json (100 articles, 35 sources)
-Generated sitemap.xml with 3 URLs
-[main e798329] Update 2026-07-03T18:11:17Z
- 2 files changed, 1725 insertions(+), 4 deletions(-)
-To https://github.com/LazyCat00X/astroaxis.git
-   1e4b88c..e798329  main -> main
-Deployed to GitHub Pages.
-=== Done Fri Jul  3 06:11:19 PM UTC 2026 ===
-=== AstroAxis Auto-Update Sat Jul  4 07:00:01 AM UTC 2026 ===
-2026-07-04 15:00:02,305 [INFO] Added 47 historical events from Wikipedia
-2026-07-04 15:00:02,306 [INFO] Timeline saved: 273 events across 104 years (1900-2026)
-2026-07-04 15:00:48,785 [INFO] Fetching: Financial Times
-2026-07-04 15:00:50,257 [INFO] Fetching: MarketWatch
-2026-07-04 15:00:52,689 [INFO] Done: 50 new, 386 skipped, 500 total
-2026-07-04 15:02:49,600 [INFO]   Step 3/3: Translate
-2026-07-04 15:02:49,600 [INFO]   ✅ zh-HK
-2026-07-04 15:02:53,626 [INFO] Done: 30 articles
-Wrote 100 articles to /home/kevyn/projects/astroaxis/deploy/news-data.json
+=== AstroAxis Auto-Update Sat Jul  4 05:00:01 PM UTC 2026 ===
+2026-07-05 01:00:01,535 [INFO] Added 47 historical events from Wikipedia
+2026-07-05 01:00:01,536 [INFO] Timeline saved: 273 events across 104 years (1900-2026)
+2026-07-05 01:01:01,009 [INFO] Fetching: Financial Times
+2026-07-05 01:01:03,683 [INFO] Fetching: MarketWatch
+2026-07-05 01:01:06,076 [INFO] Done: 92 new, 341 skipped, 500 total
+2026-07-05 01:08:21,895 [INFO]   Step 3/3: Translate
+2026-07-05 01:08:21,895 [INFO]   ✅ zh-HK
+2026-07-05 01:08:36,919 [INFO] Done: 30 articles
+Wrote 243 articles to /home/kevyn/projects/astroaxis/deploy/news-data.json
 Wrote timeline: 23 events, 5 years
 Copied globe.html -> /home/kevyn/projects/astroaxis/deploy/index.html
 Generated /home/kevyn/projects/astroaxis/deploy/news-data.json (100 articles, 35 sources)
 Generated sitemap.xml with 3 URLs
-[main 12454a9] Update 2026-07-04T07:02:53Z
- 2 files changed, 364 insertions(+), 458 deletions(-)
-To https://github.com/LazyCat00X/astroaxis.git
-   21dc89e..12454a9  main -> main
-Deployed to GitHub Pages.
-=== Done Sat Jul  4 07:02:55 AM UTC 2026 ===
-=== AstroAxis Auto-Update Sat Jul  4 08:00:01 AM UTC 2026 ===
-2026-07-04 16:00:02,714 [INFO] Added 47 historical events from Wikipedia
-2026-07-04 16:00:02,716 [INFO] Timeline saved: 273 events across 104 years (1900-2026)
-2026-07-04 16:01:13,880 [INFO] Fetching: Financial Times
-2026-07-04 16:01:15,780 [INFO] Fetching: MarketWatch
-2026-07-04 16:01:17,903 [INFO] Done: 51 new, 384 skipped, 500 total
-2026-07-04 16:03:14,760 [INFO]   Step 3/3: Translate
-2026-07-04 16:03:14,760 [INFO]   ✅ zh-HK
-2026-07-04 16:03:18,785 [INFO] Done: 30 articles
-Wrote 100 articles to /home/kevyn/projects/astroaxis/deploy/news-data.json
+fatal: pathspec 'robots.txt' did not match any files
+=== AstroAxis Auto-Update Sat Jul  4 06:00:01 PM UTC 2026 ===
+2026-07-05 02:00:01,550 [INFO] Added 47 historical events from Wikipedia
+2026-07-05 02:00:01,561 [INFO] Timeline saved: 273 events across 104 years (1900-2026)
+2026-07-05 02:01:01,270 [INFO] Fetching: Financial Times
+2026-07-05 02:01:03,192 [INFO] Fetching: MarketWatch
+2026-07-05 02:01:05,980 [INFO] Done: 54 new, 378 skipped, 500 total
+2026-07-05 02:08:22,064 [INFO]   Step 3/3: Translate
+2026-07-05 02:08:22,064 [INFO]   ✅ zh-HK
+2026-07-05 02:08:37,088 [INFO] Done: 30 articles
+Wrote 209 articles to /home/kevyn/projects/astroaxis/deploy/news-data.json
 Wrote timeline: 23 events, 5 years
 Copied globe.html -> /home/kevyn/projects/astroaxis/deploy/index.html
 Generated /home/kevyn/projects/astroaxis/deploy/news-data.json (100 articles, 35 sources)
 Generated sitemap.xml with 3 URLs
-[main 8c57502] Update 2026-07-04T08:03:18Z
- 2 files changed, 364 insertions(+), 472 deletions(-)
+[main 13795c6] Update 2026-07-04T18:08:37Z
+ 4 files changed, 1388 insertions(+), 11 deletions(-)
+ delete mode 100644 deploy/robots.txt
 To https://github.com/LazyCat00X/astroaxis.git
-   12454a9..8c57502  main -> main
+   2d626ec..13795c6  main -> main
 Deployed to GitHub Pages.
-=== Done Sat Jul  4 08:03:20 AM UTC 2026 ===
-=== AstroAxis Auto-Update Sat Jul  4 09:00:01 AM UTC 2026 ===
-2026-07-04 17:00:02,182 [INFO] Added 47 historical events from Wikipedia
-2026-07-04 17:00:02,184 [INFO] Timeline saved: 273 events across 104 years (1900-2026)
-2026-07-04 17:00:46,394 [INFO] Fetching: Financial Times
-2026-07-04 17:00:47,889 [INFO] Fetching: MarketWatch
-2026-07-04 17:00:49,831 [INFO] Done: 21 new, 414 skipped, 500 total
-2026-07-04 17:02:42,656 [INFO]   Step 3/3: Translate
-2026-07-04 17:02:42,657 [INFO]   ✅ zh-HK
-2026-07-04 17:02:46,681 [INFO] Done: 29 articles
-Wrote 100 articles to /home/kevyn/projects/astroaxis/deploy/news-data.json
+=== Done Sat Jul  4 06:08:39 PM UTC 2026 ===
+=== AstroAxis Auto-Update Sat Jul  4 07:00:01 PM UTC 2026 ===
+2026-07-05 03:00:01,774 [INFO] Added 47 historical events from Wikipedia
+2026-07-05 03:00:01,776 [INFO] Timeline saved: 273 events across 104 years (1900-2026)
+2026-07-05 03:00:55,889 [INFO] Fetching: Financial Times
+2026-07-05 03:00:57,377 [INFO] Fetching: MarketWatch
+2026-07-05 03:00:59,479 [INFO] Done: 29 new, 401 skipped, 500 total
+2026-07-05 03:08:15,280 [INFO]   Step 3/3: Translate
+2026-07-05 03:08:15,280 [INFO]   ✅ zh-HK
+2026-07-05 03:08:30,294 [INFO] Done: 30 articles
+Wrote 192 articles to /home/kevyn/projects/astroaxis/deploy/news-data.json
 Wrote timeline: 23 events, 5 years
 Copied globe.html -> /home/kevyn/projects/astroaxis/deploy/index.html
 Generated /home/kevyn/projects/astroaxis/deploy/news-data.json (100 articles, 35 sources)
 Generated sitemap.xml with 3 URLs
-[main e7862a3] Update 2026-07-04T09:02:46Z
- 2 files changed, 1383 insertions(+), 4 deletions(-)
-To https://github.com/LazyCat00X/astroaxis.git
-   9518bcd..e7862a3  main -> main
-Deployed to GitHub Pages.
-=== Done Sat Jul  4 09:02:48 AM UTC 2026 ===
-=== AstroAxis Auto-Update Sat Jul  4 10:00:01 AM UTC 2026 ===
-2026-07-04 18:00:02,234 [INFO] Added 47 historical events from Wikipedia
-2026-07-04 18:00:02,236 [INFO] Timeline saved: 273 events across 104 years (1900-2026)
-2026-07-04 18:00:46,025 [INFO] Fetching: Financial Times
-2026-07-04 18:00:48,133 [INFO] Fetching: MarketWatch
-2026-07-04 18:00:49,743 [INFO] Done: 29 new, 406 skipped, 500 total
-2026-07-04 18:02:46,586 [INFO]   Step 3/3: Translate
-2026-07-04 18:02:46,586 [INFO]   ✅ zh-HK
-2026-07-04 18:02:50,612 [INFO] Done: 30 articles
-Wrote 100 articles to /home/kevyn/projects/astroaxis/deploy/news-data.json
-Wrote timeline: 23 events, 5 years
+fatal: pathspec 'robots.txt' did not match any files
+=== AstroAxis Auto-Update Sat Jul  4 08:00:01 PM UTC 2026 ===
+2026-07-05 04:00:01,911 [INFO] Added 47 historical events from Wikipedia
+2026-07-05 04:00:01,913 [INFO] Timeline saved: 273 events across 104 years (1900-2026)
+2026-07-05 04:00:46,677 [INFO] Fetching: Financial Times
+2026-07-05 04:00:48,387 [INFO] Fetching: MarketWatch
+2026-07-05 04:00:51,434 [INFO] Done: 28 new, 402 skipped, 500 total
+2026-07-05 04:07:37,149 [INFO]   Step 3/3: Translate
+2026-07-05 04:07:37,149 [INFO]   ✅ zh-HK
+2026-07-05 04:07:52,179 [INFO] Done: 28 articles
+Wrote 211 articles to /home/kevyn/projects/astroaxis/deploy/news-data.json
+Wrote timeline: 273 events, 104 years (from timeline.json)
 Copied globe.html -> /home/kevyn/projects/astroaxis/deploy/index.html
 Generated /home/kevyn/projects/astroaxis/deploy/news-data.json (100 articles, 35 sources)
 Generated sitemap.xml with 3 URLs
-[main bc5cdcf] Update 2026-07-04T10:02:50Z
- 2 files changed, 220 insertions(+), 220 deletions(-)
-To https://github.com/LazyCat00X/astroaxis.git
-   8a32743..bc5cdcf  main -> main
-Deployed to GitHub Pages.
-=== Done Sat Jul  4 10:02:52 AM UTC 2026 ===
-=== AstroAxis Auto-Update Sat Jul  4 11:00:01 AM UTC 2026 ===
-2026-07-04 19:00:02,152 [INFO] Added 47 historical events from Wikipedia
-2026-07-04 19:00:02,154 [INFO] Timeline saved: 273 events across 104 years (1900-2026)
-2026-07-04 19:00:51,606 [INFO] Fetching: Financial Times
-2026-07-04 19:00:53,122 [INFO] Fetching: MarketWatch
-2026-07-04 19:00:54,882 [INFO] Done: 31 new, 403 skipped, 500 total
-2026-07-04 19:02:51,693 [INFO]   Step 3/3: Translate
-2026-07-04 19:02:51,693 [INFO]   ✅ zh-HK
-2026-07-04 19:02:55,718 [INFO] Done: 30 articles
-Wrote 100 articles to /home/kevyn/projects/astroaxis/deploy/news-data.json
-Wrote timeline: 23 events, 5 years
-Copied globe.html -> /home/kevyn/projects/astroaxis/deploy/index.html
-Generated /home/kevyn/projects/astroaxis/deploy/news-data.json (100 articles, 35 sources)
-Generated sitemap.xml with 3 URLs
-[main 7ea6558] Update 2026-07-04T11:02:55Z
- 2 files changed, 1383 insertions(+), 4 deletions(-)
-To https://github.com/LazyCat00X/astroaxis.git
-   7ef773c..7ea6558  main -> main
-Deployed to GitHub Pages.
-=== Done Sat Jul  4 11:02:57 AM UTC 2026 ===
+fatal: pathspec 'robots.txt' did not match any files

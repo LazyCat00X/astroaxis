@@ -810,7 +810,7 @@
     <div class="vignette"></div>
     <div class="hint" data-i18n="hint.drag">🖱 DRAG · A/D ←→ SPIN · W/S ↑↓ TILT · Q/E ZOOM · 1-3 VIEWS</div>
     <div class="scroll-hint" aria-hidden="true" data-i18n="hint.scroll">↓ scroll for articles</div>
-  <div style="position:fixed;bottom:4px;left:8px;z-index:99;font-size:9px;color:rgba(136,146,182,0.3);pointer-events:none">v20260704-01</div>
+  <div style="position:fixed;bottom:4px;left:8px;z-index:99;font-size:9px;color:rgba(136,146,182,0.3);pointer-events:none">v20260705-17</div>
 </main>
 </div><!-- /globe-view -->
 
@@ -2714,9 +2714,74 @@ const GEO_KEYWORDS = [
       }
     }, { passive: true });
 
+    // ── History dot hover: show event tooltip ──
+    let hoveredHistoryDot = null;
+    renderer.domElement.addEventListener('pointermove', event => {
+      if (!historyGroup || !window._historyDots) return;
+      updatePointer(event);
+      raycaster.setFromCamera(pointer, camera);
+      const dotHits = raycaster.intersectObjects(window._historyDots);
+      if (dotHits.length) {
+        const dot = dotHits[0].object;
+        if (dot !== hoveredHistoryDot) {
+          hoveredHistoryDot = dot;
+          const ev = dot.userData._event;
+          if (ev) {
+            const evType = ev.type || 'general';
+            const typeColor = evType==='politics'?'#eab308':evType==='tech'?'#3b82f6':evType==='finance'?'#22c55e':evType==='disaster'?'#ef4444':evType==='crypto'?'#818cf8':evType==='science'?'#a78bfa':evType==='climate'?'#f97316':'#8892b6';
+            let h = '<div class="tooltip-title" style="border-left:3px solid '+typeColor+';padding-left:8px">'+escapeHtml(ev.title||ev.description||'Event')+'</div>';
+            h += '<div class="tooltip-source">'+escapeHtml(evType)+' · '+escapeHtml(String(dot.userData._year||''))+'</div>';
+            if (ev.description && ev.title) h += '<div style="font-size:12px;color:rgba(228,228,236,.7);margin-top:4px">'+escapeHtml(ev.description.slice(0,120))+'</div>';
+            h += '<div style="font-size:11px;color:rgba(136,146,182,.5);margin-top:6px">Click to view timeline →</div>';
+            tooltip.innerHTML = h;
+            tooltip.style.transition = 'none';
+            const wp = dot.position.clone().project(camera);
+            const tx = (wp.x * 0.5 + 0.5) * window.innerWidth;
+            const ty = (-wp.y * 0.5 + 0.5) * window.innerHeight;
+            const tw = 320;
+            const ox = tx < window.innerWidth/2 ? tx+18 : tx-tw-18;
+            tooltip.style.transform = 'translate3d('+Math.max(8,Math.min(ox,window.innerWidth-tw-8))+'px,'+Math.max(ty-60,14)+'px,0) scale(1)';
+            tooltip.offsetHeight;
+            tooltip.style.transition = '';
+            tooltip.classList.add('visible');
+            if (controls.autoRotate) controls.autoRotate = false;
+          }
+        }
+      } else if (hoveredHistoryDot) {
+        hoveredHistoryDot = null;
+        if (!stickyTooltip) tooltip.classList.remove('visible');
+      }
+    }, { passive: true });
+
+    // ── History dot click → jump to timeline view ──
+    renderer.domElement.addEventListener('click', () => {
+      if (hoveredHistoryDot) {
+        const ev = hoveredHistoryDot.userData._event;
+        if (ev && ev.title) {
+          document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+          document.querySelector('[data-view="timeline"]')?.classList.add('active');
+          document.getElementById('globe-view').classList.remove('active');
+          document.getElementById('timeline-view').classList.add('active');
+          setTimeout(() => {
+            const headings = document.querySelectorAll('#timeline-content h3');
+            for (const h of headings) {
+              if (h.textContent.includes(ev.title.slice(0,30))) {
+                h.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                h.style.background = 'rgba(34,211,238,.15)';
+                h.style.transition = 'background 1s';
+                setTimeout(() => h.style.background = '', 2000);
+                break;
+              }
+            }
+          }, 200);
+        }
+      }
+    });
+
     renderer.domElement.addEventListener('pointerleave', () => {
       pointer.set(-10, -10);
-      if (hoveredData) { 
+      hoveredHistoryDot = null;
+      if (hoveredData) {
         hoveredIdx = -1; hoveredData = null; tooltip.classList.remove('visible');
       }
     }, { passive: true });
@@ -2841,118 +2906,278 @@ const GEO_KEYWORDS = [
     // ── History Rings (created after timelineData loads) ──
     historyGroup = new THREE.Group();
     globe.add(historyGroup);
+
+    // ── Earth's rotation axis (glowing cylinder through poles) ──
+    // Core
+    const axisCoreGeo = new THREE.CylinderGeometry(0.02, 0.02, 16, 8);
+    const axisCoreMat = new THREE.MeshBasicMaterial({ color: 0x22d3ee, transparent: true, opacity: 0.9, blending: THREE.AdditiveBlending, depthWrite: false });
+    const axisCore = new THREE.Mesh(axisCoreGeo, axisCoreMat);
+    axisCore.rotation.z = 0.41;
+    axisCoreMat.userData = { _baseOpacity: 0.9 };
+    historyGroup.add(axisCore);
+    // Glow
+    const axisGlowGeo = new THREE.CylinderGeometry(0.08, 0.08, 16, 8);
+    const axisGlowMat = new THREE.MeshBasicMaterial({ color: 0x67e8f9, transparent: true, opacity: 0.15, blending: THREE.AdditiveBlending, depthWrite: false });
+    const axisGlow = new THREE.Mesh(axisGlowGeo, axisGlowMat);
+    axisGlow.rotation.z = 0.41;
+    axisGlowMat.userData = { _baseOpacity: 0.15 };
+    historyGroup.add(axisGlow);
+
+    // Axis glow sprite at north pole tip
+    const tipC = document.createElement('canvas'); tipC.width = 64; tipC.height = 64;
+    const tipCtx = tipC.getContext('2d');
+    const tipGrad = tipCtx.createRadialGradient(32, 32, 0, 32, 32, 32);
+    tipGrad.addColorStop(0, 'rgba(103,232,249,1)');
+    tipGrad.addColorStop(0.4, 'rgba(103,232,249,0.4)');
+    tipGrad.addColorStop(1, 'rgba(103,232,249,0)');
+    tipCtx.fillStyle = tipGrad;
+    tipCtx.fillRect(0, 0, 64, 64);
+    const tipTex = new THREE.CanvasTexture(tipC);
+    const tipSprMat = new THREE.SpriteMaterial({ map: tipTex, transparent: true, opacity: 0.8, blending: THREE.AdditiveBlending, depthWrite: false });
+    tipSprMat.userData = { _baseOpacity: 0.8 };
+    const tipGlow = new THREE.Sprite(tipSprMat);
+    const tipPos = new THREE.Vector3(0, 8, 0);
+    tipPos.applyAxisAngle(new THREE.Vector3(0, 0, 1), 0.41);
+    tipGlow.position.copy(tipPos);
+    tipGlow.scale.set(2.5, 2.5, 1);
+    historyGroup.add(tipGlow);
+
+    // ── Precession cone: edge lines + base ring ──
+    const coneR = 3.5, coneH = 5;
+    const coneGeoPC = new THREE.ConeGeometry(coneR, coneH, 24, 1, true);
+    const coneEdges = new THREE.EdgesGeometry(coneGeoPC, 20);
+    const coneEdgeMat = new THREE.LineBasicMaterial({ color: 0xa78bfa, transparent: true, opacity: 0.35, blending: THREE.AdditiveBlending });
+    const coneLines = new THREE.LineSegments(coneEdges, coneEdgeMat);
+    coneLines.position.set(0, 4.5, 0);
+    coneLines.rotation.z = 0.41;
+    coneEdgeMat.userData = { _baseOpacity: 0.35 };
+    historyGroup.add(coneLines);
+    window._coneEdgeMat = coneEdgeMat;
+    // Base ring
+    const baseRingGeo = new THREE.RingGeometry(coneR * 0.95, coneR * 1.05, 64);
+    const baseRingMat2 = new THREE.MeshBasicMaterial({ color: 0x8b5cf6, transparent: true, opacity: 0.2, side: THREE.DoubleSide, blending: THREE.AdditiveBlending, depthWrite: false });
+    const baseRingMesh = new THREE.Mesh(baseRingGeo, baseRingMat2);
+    const brPos = new THREE.Vector3(0, 2, 0);
+    brPos.applyAxisAngle(new THREE.Vector3(0, 0, 1), 0.41);
+    baseRingMesh.position.copy(brPos);
+    baseRingMesh.lookAt(0, 0, 0);
+    baseRingMesh.rotateX(Math.PI/2);
+    baseRingMat2.userData = { _baseOpacity: 0.2 };
+    historyGroup.add(baseRingMesh);
+    window._baseRingMat = baseRingMat2;
     
-    function initHistoryRings() {
-      const H_RING_BASE = 7.0;
-      const H_RING_STEP = 0.92;
-      const H_YEARS = Object.keys(timelineData || {}).sort().reverse().slice(0, 15);
-      const H_YEAR_COLORS = ['#67e8f9','#22d3ee','#818cf8','#a78bfa','#6366f1','#f59e0b','#f97316','#ef4444','#22c55e','#8892b6'];
+    function initStarField() {
+      // ── AstroAxis Star Field v2: Spiral Timeline + Background Stars ──
+      // Time = radial spiral. 1900 = outermost, 2026 = nearest to globe.
+      // Each event = a star. Same-type = constellation. Background = dust stars.
 
-      // Store all dots by type for connection lines
-      const dotsByType = {};
-      
-      H_YEARS.forEach((year, yi) => {
-        const r = H_RING_BASE + yi * H_RING_STEP;
-        const color = new THREE.Color(H_YEAR_COLORS[yi % H_YEAR_COLORS.length]);
-        const ringMat = new THREE.MeshBasicMaterial({ color, transparent: true, opacity: 0.35, blending: THREE.AdditiveBlending, depthWrite: false, side: THREE.DoubleSide });
-        const ring = new THREE.Mesh(new THREE.RingGeometry(r - 0.015, r + 0.015, 160, 2), ringMat);
-        ring.rotation.x = -Math.PI/2;
-        ringMat.userData = { _baseOpacity: 0.35 };
-        historyGroup.add(ring);
-
-        const c = document.createElement('canvas'); c.width=200; c.height=60;
-        const ctx = c.getContext('2d');
-        ctx.font='bold 28px Inter,sans-serif'; ctx.fillStyle=H_YEAR_COLORS[yi % H_YEAR_COLORS.length]; ctx.textAlign='center';
-        ctx.fillText(year, 100, 42);
-        const tex = new THREE.CanvasTexture(c); tex.minFilter = THREE.LinearFilter;
-        const sprMat = new THREE.SpriteMaterial({ map: tex, transparent: true, opacity: 0.8, depthWrite: false });
-        sprMat.userData = { _baseOpacity: 0.8 };
-        const sprite = new THREE.Sprite(sprMat);
-        sprite.position.set(r + 0.4, 0.12, 0); sprite.scale.set(1.4, 0.42, 1);
-        historyGroup.add(sprite);
-
-        const yrData = (timelineData || {})[String(year)] || [];
-        yrData.forEach((ev, ei) => {
-          const angle = (ei / Math.max(1, yrData.length)) * Math.PI * 2;
-          const dotColor = ev.type==='politics'?'#eab308':ev.type==='tech'?'#3b82f6':ev.type==='finance'?'#22c55e':ev.type==='disaster'?'#ef4444':ev.type==='crypto'?'#818cf8':ev.type==='science'?'#a78bfa':'#8892b6';
-          const dotMat = new THREE.MeshBasicMaterial({ color: new THREE.Color(dotColor), transparent: true, opacity: 0.7, blending: THREE.AdditiveBlending, depthWrite: false });
-          dotMat.userData = { _baseOpacity: 0.7, _baseAngle: angle, _baseY: (ei%3)*0.08-0.05 };
-          const dot = new THREE.Mesh(new THREE.SphereGeometry(0.06, 8, 6), dotMat);
-          dot.position.set(Math.cos(angle)*r, (ei%3)*0.08-0.05, Math.sin(angle)*r);
-          dot.userData = { _event: ev, _year: year, _ringRadius: r, _angle: angle };
-          historyGroup.add(dot);
-          window._historyDots = window._historyDots || [];
-          window._historyDots.push(dot);
-          
-          // Group dots by type for connection lines
-          if (ev.type) {
-            if (!dotsByType[ev.type]) dotsByType[ev.type] = [];
-            dotsByType[ev.type].push({ dot, year: parseInt(year), ev });
-          }
-          
-          dot.callback = () => {
-            const panel = document.getElementById('timeline-view');
-            if (panel) {
-              document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
-              document.querySelector('[data-view="timeline"]')?.classList.add('active');
-              document.getElementById('globe-view').classList.remove('active');
-              document.getElementById('timeline-view').classList.add('active');
-            }
-          };
-        });
+      const MIN_R = 9;
+      const MAX_R = 26;
+      const SPIRAL_TURNS = 2.5; // total spiral rotations across all years
+      const MAX_YEARS = 127; // 1900-2026
+      const NOW_YEAR = new Date().getFullYear();
+      const allYears = Object.keys(timelineData || {}).sort();
+      const allEvents = [];
+      allYears.forEach(yk => {
+        (timelineData[yk] || []).forEach(ev => allEvents.push({ ...ev, _year: parseInt(yk) }));
       });
-      
-      // Create connection lines between same-type events across years
-      window._eventLines = [];
-      const lineColors = {
-        politics: '#eab308',
-        tech: '#3b82f6', 
-        finance: '#22c55e',
-        disaster: '#ef4444',
-        crypto: '#818cf8',
-        science: '#a78bfa',
-        climate: '#f97316'
+      if (!allEvents.length) return;
+
+      const TC = {
+        politics: [0.918,0.698,0.031], tech: [0.231,0.510,0.965],
+        finance: [0.133,0.773,0.369], disaster: [0.937,0.267,0.267],
+        crypto: [0.506,0.506,0.969], science: [0.655,0.545,0.980],
+        climate: [0.976,0.451,0.090], general: [0.533,0.573,0.714],
       };
-      
-      Object.keys(dotsByType).forEach(type => {
-        const dots = dotsByType[type];
-        if (dots.length < 2) return;
-        
-        // Sort by year (most recent first)
-        dots.sort((a, b) => b.year - a.year);
-        
-        // Connect events within 3 years of each other
-        for (let i = 0; i < dots.length - 1; i++) {
-          for (let j = i + 1; j < dots.length; j++) {
-            const yearDiff = dots[i].year - dots[j].year;
-            if (yearDiff > 3) break; // Only connect recent events
-            
-            // Create curved line between dots
-            const start = dots[i].dot.position.clone();
-            const end = dots[j].dot.position.clone();
-            
-            // Create a curved path
-            const mid = new THREE.Vector3().lerpVectors(start, end, 0.5);
-            mid.y += 0.3; // Arc upward
-            
-            const curve = new THREE.QuadraticBezierCurve3(start, mid, end);
-            const points = curve.getPoints(20);
-            const geometry = new THREE.BufferGeometry().setFromPoints(points);
-            
-            const lineMat = new THREE.LineBasicMaterial({
-              color: new THREE.Color(lineColors[type] || '#8892b6'),
-              transparent: true,
-              opacity: 0.15 + Math.random() * 0.15,
-              blending: THREE.AdditiveBlending
-            });
-            
-            const line = new THREE.Line(geometry, lineMat);
-            line.userData = { _type: type, _baseOpacity: lineMat.opacity };
-            historyGroup.add(line);
-            window._eventLines.push(line);
-          }
+
+      // ── Background dust stars (pure decoration) ──
+      const dustGeo = new THREE.BufferGeometry();
+      const dustPositions = [];
+      const dustColors = [];
+      const dustSizes = [];
+      for (let i = 0; i < 2000; i++) {
+        const r = 30 + Math.random() * 40;
+        const phi = Math.acos(1 - 2 * Math.random());
+        const theta = Math.random() * Math.PI * 2;
+        dustPositions.push(r * Math.sin(phi) * Math.cos(theta), r * Math.cos(phi), r * Math.sin(phi) * Math.sin(theta));
+        const brightness = 0.3 + Math.random() * 0.5;
+        const tint = Math.random();
+        if (tint < 0.7) { dustColors.push(brightness, brightness, brightness); }
+        else if (tint < 0.85) { dustColors.push(brightness*0.7, brightness*0.8, brightness); }
+        else { dustColors.push(brightness, brightness*0.8, brightness*0.6); }
+        dustSizes.push(0.5 + Math.random() * 1.5);
+      }
+      dustGeo.setAttribute('position', new THREE.Float32BufferAttribute(dustPositions, 3));
+      dustGeo.setAttribute('color', new THREE.Float32BufferAttribute(dustColors, 3));
+      const dustMat = new THREE.PointsMaterial({ size: 0.08, sizeAttenuation: true, vertexColors: true, transparent: true, opacity: 0.4, blending: THREE.AdditiveBlending, depthWrite: false });
+      const dust = new THREE.Points(dustGeo, dustMat);
+      dustMat.userData = { _baseOpacity: 0.25 };
+      historyGroup.add(dust);
+
+      // ── Event stars on spiral ──
+      const stars = [];
+      const constellations = {};
+      allEvents.forEach((ev, i) => {
+        const yearAgo = Math.max(0, NOW_YEAR - ev._year);
+        const t = Math.min(1, yearAgo / MAX_YEARS); // 0=now, 1=1900
+
+        // Spiral parameters: recent = small r, ancient = large r
+        const r = MIN_R + (MAX_R - MIN_R) * Math.pow(t, 0.5);
+        // Spiral angle: accumulates with time
+        const baseAngle = t * SPIRAL_TURNS * Math.PI * 2;
+        // Spread within same year band
+        const yearFraction = allEvents.filter(e => e._year === ev._year).indexOf(ev);
+        const sameYearCount = allEvents.filter(e => e._year === ev._year).length;
+        const intraOffset = (yearFraction / Math.max(1, sameYearCount)) * 0.8;
+        const angle = baseAngle + intraOffset;
+        // Vertical spread: slight tilt for 3D feel
+        const latSpread = (Math.random() - 0.5) * 3 + (ev._year % 7 - 3) * 0.3;
+        const px = r * Math.cos(angle);
+        const py = latSpread;
+        const pz = r * Math.sin(angle);
+
+        const luminance = 1.0 - t * 0.85;
+        const isCrit = ev.type === 'disaster' || ev.type === 'politics';
+        const isMaj = ev.type === 'tech' || ev.type === 'crypto' || ev.type === 'finance' || ev.type === 'science';
+        const size = isCrit ? 0.20 : isMaj ? 0.12 : 0.06;
+        const color = TC[ev.type] || TC.general;
+
+        stars.push({ px, py, pz, color, size, luminance, ev, yearAgo, isCrit, isMaj,
+          tw: 0.8 + Math.random() * 2.0, tph: Math.random() * 6.28 });
+
+        if (!constellations[ev.type]) constellations[ev.type] = [];
+        constellations[ev.type].push(stars.length - 1);
+      });
+
+      // ── Build star sprites (point light + diffraction spikes) ──
+      window._historyDots = [];
+      window._eventLines = [];
+
+      // Create star texture: bright core + cross spikes (like real stars)
+      function makeStarTexture(colorHex, withSpikes, spikeLen) {
+        var sc = document.createElement('canvas');
+        sc.width = 64; sc.height = 64;
+        var sx = sc.getContext('2d');
+        var cx2 = 32, cy2 = 32;
+        // Core: tiny bright dot (not a big gradient blob)
+        sx.fillStyle = colorHex;
+        sx.beginPath(); sx.arc(cx2, cy2, 1.5, 0, Math.PI*2); sx.fill();
+        // Inner glow: small tight gradient
+        var ig = sx.createRadialGradient(cx2, cy2, 0, cx2, cy2, 4);
+        ig.addColorStop(0, colorHex);
+        ig.addColorStop(0.5, colorHex + '40');
+        ig.addColorStop(1, colorHex + '00');
+        sx.fillStyle = ig; sx.fillRect(0, 0, 64, 64);
+        // Diffraction spikes (cross pattern) for important stars
+        if (withSpikes) {
+          sx.strokeStyle = colorHex;
+          sx.lineCap = 'round';
+          // Horizontal spike
+          var hg = sx.createLinearGradient(cx2-spikeLen, cy2, cx2+spikeLen, cy2);
+          hg.addColorStop(0, colorHex + '00'); hg.addColorStop(0.5, colorHex + 'aa'); hg.addColorStop(1, colorHex + '00');
+          sx.strokeStyle = hg; sx.lineWidth = 0.8;
+          sx.beginPath(); sx.moveTo(cx2-spikeLen, cy2); sx.lineTo(cx2+spikeLen, cy2); sx.stroke();
+          // Vertical spike
+          var vg = sx.createLinearGradient(cx2, cy2-spikeLen, cx2, cy2+spikeLen);
+          vg.addColorStop(0, colorHex + '00'); vg.addColorStop(0.5, colorHex + 'aa'); vg.addColorStop(1, colorHex + '00');
+          sx.strokeStyle = vg;
+          sx.beginPath(); sx.moveTo(cx2, cy2-spikeLen); sx.lineTo(cx2, cy2+spikeLen); sx.stroke();
+        }
+        var tex = new THREE.CanvasTexture(sc);
+        tex.minFilter = THREE.LinearFilter;
+        return tex;
+      }
+
+      var starTexCache = {};
+      stars.forEach(function(s) {
+        // Add star color temperature variety
+        var tempShift = (s.ev._year % 3) / 3; // 0-0.67 based on year
+        var r2 = Math.min(1, s.color[0] + tempShift * 0.15);
+        var g2 = s.color[1];
+        var b2 = Math.min(1, s.color[2] + (1-tempShift) * 0.1);
+        var col = new THREE.Color(r2, g2, b2);
+        var hex = '#' + col.getHexString();
+        var hasSpikes = true; // all stars get spikes
+        var spikeLen = s.isCrit ? 20 : s.isMaj ? 12 : 6;
+        var cacheKey = hex + '_sl' + spikeLen;
+        if (!starTexCache[cacheKey]) {
+          starTexCache[cacheKey] = makeStarTexture(hex, hasSpikes, spikeLen);
+        }
+        var baseOp = Math.min(1.0, s.luminance * 0.85);
+        var sMat = new THREE.SpriteMaterial({ map: starTexCache[cacheKey], transparent: true, opacity: baseOp, blending: THREE.AdditiveBlending, depthWrite: false });
+        sMat.userData = { _baseOpacity: baseOp, _tw: s.tw, _tph: s.tph };
+        var spr = new THREE.Sprite(sMat);
+        spr.position.set(s.px, s.py, s.pz);
+        // Size: critical biggest, but all small — they're distant stars not planets
+        var sprSize = s.isCrit ? 1.4 : s.isMaj ? 0.9 : 0.6;
+        spr.scale.set(sprSize, sprSize, 1);
+        spr.userData = { _event: s.ev, _year: s.ev._year, _luminance: s.luminance, _isStar: true };
+        historyGroup.add(spr);
+        window._historyDots.push(spr);
+      });
+
+      // ── Constellation lines: same type, within 10 years, close distance ──
+      const CLC = { politics: 0xeab308, tech: 0x3b82f6, finance: 0x22c55e, disaster: 0xef4444, crypto: 0x818cf8, science: 0xa78bfa, climate: 0xf97316 };
+      Object.keys(constellations).forEach(type => {
+        const indices = constellations[type];
+        if (indices.length < 2) return;
+        const sorted = indices.map(i => ({ i, year: stars[i].ev._year })).sort((a, b) => b.year - a.year);
+        for (let a = 0; a < sorted.length - 1; a++) {
+          if (sorted[a].year - sorted[a + 1].year > 10) continue;
+          const s1 = stars[sorted[a].i], s2 = stars[sorted[a + 1].i];
+          const dist = Math.hypot(s1.px - s2.px, s1.py - s2.py, s1.pz - s2.pz);
+          if (dist > 8) continue;
+          const pts = [new THREE.Vector3(s1.px, s1.py, s1.pz), new THREE.Vector3(s2.px, s2.py, s2.pz)];
+          const geo = new THREE.BufferGeometry().setFromPoints(pts);
+          const op = Math.min(s1.luminance, s2.luminance) * 0.5;
+          const lMat = new THREE.LineBasicMaterial({ color: CLC[type] || 0x8892b6, transparent: true, opacity: op, blending: THREE.AdditiveBlending });
+          const line = new THREE.Line(geo, lMat);
+          line.userData = { _type: type, _baseOpacity: op };
+          historyGroup.add(line);
+          window._eventLines.push(line);
         }
       });
+
+      // Spiral arm guide lines (3 arms) — thick tubes for visibility
+      for (let arm = 0; arm < 3; arm++) {
+        const armOffset = (arm / 3) * Math.PI * 2;
+        const armPts = [];
+        for (let s = 0; s <= 80; s++) {
+          const t = s / 80;
+          const sr = MIN_R + (MAX_R - MIN_R) * Math.pow(t, 0.5);
+          const sa = t * SPIRAL_TURNS * Math.PI * 2 + armOffset;
+          armPts.push(new THREE.Vector3(sr * Math.cos(sa), Math.sin(t*8)*0.5, sr * Math.sin(sa)));
+        }
+        const curve = new THREE.CatmullRomCurve3(armPts);
+        const tubeGeo = new THREE.TubeGeometry(curve, 80, 0.05, 6, false);
+        const armMat = new THREE.MeshBasicMaterial({ color: 0x5577ff, transparent: true, opacity: 0.4, blending: THREE.AdditiveBlending, depthWrite: false });
+        armMat.userData = { _baseOpacity: 0.4, _isArm: true };
+        const armMesh = new THREE.Mesh(tubeGeo, armMat);
+        historyGroup.add(armMesh);
+      }
+
+      // Decade markers
+      var DECADES = [1900, 1920, 1940, 1960, 1980, 2000, 2020];
+      DECADES.forEach(function(dy) {
+        var dt2 = Math.min(1, (NOW_YEAR - dy) / MAX_YEARS);
+        var dr2 = MIN_R + (MAX_R - MIN_R) * Math.pow(dt2, 0.5);
+        var da2 = dt2 * SPIRAL_TURNS * Math.PI * 2;
+        var dc2 = document.createElement('canvas'); dc2.width = 200; dc2.height = 60;
+        var dctx2 = dc2.getContext('2d');
+        dctx2.font = 'bold 30px Inter,sans-serif';
+        dctx2.fillStyle = 'rgba(200,220,255,1.0)';
+        dctx2.textAlign = 'center';
+        dctx2.fillText(String(dy), 100, 40);
+        var dtex2 = new THREE.CanvasTexture(dc2); dtex2.minFilter = THREE.LinearFilter;
+        var dsm2 = new THREE.SpriteMaterial({ map: dtex2, transparent: true, opacity: 0.6, depthWrite: false, blending: THREE.AdditiveBlending });
+        dsm2.userData = { _baseOpacity: 0.6 };
+        var dspr2 = new THREE.Sprite(dsm2);
+        dspr2.position.set(dr2 * Math.cos(da2) * 1.08, 0.5, dr2 * Math.sin(da2) * 1.08);
+        dspr2.scale.set(2.2, 0.66, 1);
+        historyGroup.add(dspr2);
+      });
+
+      console.log('StarField v3: ' + stars.length + ' stars, ' + window._eventLines.length + ' lines, 2000 dust');
     }
 
     function resize() {
@@ -3018,18 +3243,59 @@ const GEO_KEYWORDS = [
         if (child.material && child.material.userData && child.material.userData._baseOpacity != null) {
           baseOp = child.material.userData._baseOpacity;
         }
-        // Pulse animation for history dots
-        const pulseScale = 1 + Math.sin(elapsed * 2.5 + (child.userData?._event?.date?.slice(5,7)||0) * 0.3) * 0.15;
-        if (child.geometry && child.geometry.type === 'SphereGeometry') {
-          child.scale.setScalar(pulseScale);
-          // Slow orbit around ring
-          if (child.material.userData?._baseAngle) {
-            const a = child.material.userData._baseAngle + elapsed * 0.08;
-            const r = child.position.length();
-            child.position.set(Math.cos(a) * r, child.material.userData._baseY || 0, Math.sin(a) * r);
+        // Twinkle: brightness change only, NO scale change
+        if (child.material && child.material.userData && child.material.userData._tw) {
+          const tw = child.material.userData._tw;
+          const tph = child.material.userData._tph;
+          const bOp = child.material.userData._baseOpacity || 0.5;
+          // Brightness varies between 50%-100% of base, never scales
+          child.material.opacity = bOp * (0.5 + Math.abs(Math.sin(elapsed * tw + tph)) * 0.5) * historyOpacity;
+        }
+        // LOD: distant view = only bright stars visible, close = all
+        if (child.userData && child.userData._isStar && child.material) {
+          const lum = child.userData._luminance || 0.5;
+          const lodThreshold = camDist > 25 ? 0.4 : camDist > 18 ? 0.2 : 0;
+          if (lum < lodThreshold) {
+            child.visible = false;
+          } else {
+            child.visible = true;
           }
         }
-        if (child.material) child.material.opacity = baseOp * historyOpacity;
+        // Fade dust at close range
+        if (child.isPoints && child.material && child.material.userData && child.material.userData._baseOpacity !== undefined) {
+          const dustFade = camDist < 12 ? 0.1 : camDist < 20 ? 0.3 : 1.0;
+          child.material.opacity = (child.material.userData._baseOpacity || 0.25) * dustFade * historyOpacity;
+        }
+        // Pulse: critical events pulse faster/bigger
+        if (child.geometry && child.geometry.type === 'SphereGeometry') {
+          const ev = child.userData?._event;
+          const isCrit = ev && (ev.type === 'disaster' || ev.type === 'politics');
+          const pulseSpeed = isCrit ? 3.5 : 2.0;
+          const pulseAmp = isCrit ? 0.25 : 0.12;
+          const pulseScale = 1 + Math.sin(elapsed * pulseSpeed + child.position.x * 0.5) * pulseAmp;
+          child.scale.setScalar(pulseScale);
+        }
+        // Cone edge + base ring breathing
+        if (child.material === window._coneEdgeMat) {
+          child.material.opacity = (0.25 + Math.sin(elapsed * 0.8) * 0.1) * historyOpacity;
+        }
+        if (child.material === window._baseRingMat) {
+          child.material.opacity = (0.12 + Math.sin(elapsed * 0.8 + 0.5) * 0.06) * historyOpacity;
+        }
+        // Axis tip diamond rotation
+        if (child === window._axisTip) {
+          child.rotation.y = elapsed * 0.5;
+          child.rotation.x = elapsed * 0.3;
+        }
+        // Axis core subtle flicker
+        if (child.geometry && child.geometry.type === 'CylinderGeometry' && child.material.color && child.material.color.getHex() === 0x22d3ee) {
+          child.material.opacity = (0.85 + Math.sin(elapsed * 1.2) * 0.08) * historyOpacity;
+        }
+        // Lines: constellation + arm lines fade based on camDist
+        if (child.material.userData && (child.material.userData._isArm || (child.userData && child.userData._type))) {
+          var _lb = camDist > 15 ? 1.0 : camDist > 10 ? 0.4 : 0.05;
+          if (child.material) child.material.opacity = baseOp * _lb * historyOpacity;
+        } else if (child.material) child.material.opacity = baseOp * historyOpacity;
         if (child.isSprite) child.material.opacity = (child.material.userData?._baseOpacity || 0.8) * historyOpacity;
         });
       }
@@ -3354,7 +3620,7 @@ const GEO_KEYWORDS = [
       applyLanguage();
       checkBreaking();
       setInterval(checkBreaking, 300000);
-      initHistoryRings();  // Create history rings after timelineData loaded
+      initStarField();  // Create history rings after timelineData loaded
       animate();
     }
   </script>
