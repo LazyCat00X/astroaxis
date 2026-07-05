@@ -173,13 +173,13 @@ def run():
         if not zh_summary:
             log.warning("  Summary failed, skipping (will retry next run)")
             continue
-        log.info("  ✓ Summary (%d chars)", len(zh_summary))
+        log.info("  [OK] Summary (%d chars)", len(zh_summary))
 
         # Step 2: Translate to other languages
         time.sleep(RATE_LIMIT_DELAY)
         other_langs = translate_to_langs(zh_summary, title)
         if other_langs:
-            log.info("  ✓ Translations: %s", list(other_langs.keys()))
+            log.info("  [OK] Translations: %s", list(other_langs.keys()))
 
         # Save
         art["summarized"] = True

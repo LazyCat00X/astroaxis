@@ -28,7 +28,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title}</title>
 <meta name="description" content="{description}">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔗</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='none' stroke='%2322d3ee' stroke-width='6'/><circle cx='50' cy='50' r='20' fill='%236366f1' opacity='0.6'/></svg>">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{{box-sizing:border-box;margin:0;padding:0}}
@@ -158,7 +158,7 @@ body{{
     <div class="subtitle">{description}</div>
   </div>
   <div class="meta">
-    🕐 更新於 {updated}
+    更新於 {updated}
   </div>
 </div>
 </header>
@@ -343,7 +343,7 @@ def _write_empty():
         description=SITE_DESCRIPTION,
         updated=now_str,
         filter_buttons="",
-        articles_html='<div class="empty-state"><h2>📡 正在收集新聞...</h2><p>首次運行需爬取文章，請稍後再來</p></div>',
+        articles_html='<div class="empty-state"><h2>正在收集新聞...</h2><p>首次運行需爬取文章，請稍後再來</p></div>',
         source_count=0,
         article_count=0,
     )
