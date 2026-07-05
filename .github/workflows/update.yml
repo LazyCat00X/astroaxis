@@ -74,7 +74,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/articles.json data/timeline.json data/cache.json
+          git add data/articles.json data/timeline.json
           if git diff --cached --quiet; then
             echo "No data changes"
           else
