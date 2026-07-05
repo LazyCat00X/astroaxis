@@ -17,6 +17,7 @@ cron.log
 
 # Cache
 .cache/
+data/cache.json
 
 # Deploy artifacts — managed by GitHub Actions, pushed to astroaxis-site separately
 index.html
