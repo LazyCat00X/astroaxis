@@ -9,8 +9,8 @@ ARTICLES_FILE = DATA_DIR / "articles.json"
 log = logging.getLogger("pipeline")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
-API_URL = "https://models.github.ai/inference/chat/completions"
-MODEL = "openai/gpt-4o-mini"
+API_URL = "https://models.inference.ai.azure.com/chat/completions"
+MODEL = "gpt-4o-mini"
 MAX_PER_RUN = int(os.environ.get("MAX_ARTICLES_PER_RUN", "30"))
 RATE_LIMIT_DELAY = 2  # GitHub Models allows 20k req/min
 
