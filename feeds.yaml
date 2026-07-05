@@ -148,3 +148,53 @@ sources:
     url: https://www.marketwatch.com/rss/topstories
     category: finance
     lang: en
+
+  # ── AI / ML sources (NEW) ──
+  - name: OpenAI Blog
+    url: https://openai.com/blog/rss.xml
+    category: ai
+    lang: en
+  - name: Google AI Blog
+    url: https://blog.google/technology/ai/rss/
+    category: ai
+    lang: en
+
+    url: https://www.anthropic.com/feed.xml
+    category: ai
+    lang: en
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    category: ai
+    lang: en
+  - name: MIT Tech Review AI
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed
+    category: ai
+    lang: en
+
+  # ── Additional Tech sources ──
+  - name: The Verge
+    url: https://www.theverge.com/rss/index.xml
+    category: tech
+    lang: en
+  - name: VentureBeat AI
+    url: https://venturebeat.com/category/ai/feed/
+    category: ai
+    lang: en
+  - name: ArsTechnica AI
+    url: https://feeds.arstechnica.com/arstechnica/features
+    category: tech
+    lang: en
+
+  # ── Dead feed replacements ──
+  - name: Reuters (Google News)
+    url: https://news.google.com/rss/search?q=site:reuters.com+when:1d&hl=en&gl=US&ceid=US:en
+    category: general
+    lang: en
+  - name: AP News (Google News)
+    url: https://news.google.com/rss/search?q=site:apnews.com+when:1d&hl=en&gl=US&ceid=US:en
+    category: general
+    lang: en
+  - name: AI News (Google)
+    url: https://news.google.com/rss/search?q=artificial+intelligence+when:1d&hl=en&gl=US&ceid=US:en
+    category: ai
+    lang: en
