@@ -65,13 +65,6 @@
       "type": "climate"
     },
     {
-      "date": "2024-07-05",
-      "title": "Keir Starmer is appointed Prime Minister by Charles III, becoming the first Labo",
-      "desc": "Keir Starmer is appointed Prime Minister by Charles III, becoming the first Labour prime minister since Gordon Brown in 2010 and the first one to win a general election since Tony Blair at the 2005 ge",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2024-03-15",
       "title": "EU AI Act Passed",
       "desc": "European Parliament passes landmark AI regulation",
@@ -96,13 +89,6 @@
       "title": "Global Temperature Record",
       "desc": "Hottest month ever recorded globally",
       "type": "climate"
-    },
-    {
-      "date": "2023-07-05",
-      "title": "The last Ariane 5 rocket is launched, carrying the Heinrich Hertz and Syracuse 4",
-      "desc": "The last Ariane 5 rocket is launched, carrying the Heinrich Hertz and Syracuse 4B satellites.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "2023-05-06",
@@ -131,10 +117,10 @@
       "type": "politics"
     },
     {
-      "date": "2022-07-05",
-      "title": "British government ministers Sajid Javid and Rishi Sunak resign from the second ",
-      "desc": "British government ministers Sajid Javid and Rishi Sunak resign from the second Johnson ministry, beginning the July 2022 United Kingdom government crisis.",
-      "type": "finance",
+      "date": "2022-07-06",
+      "title": "The Georgia Guidestones, a monument in the United States, are heavily damaged in",
+      "desc": "The Georgia Guidestones, a monument in the United States, are heavily damaged in a bombing, and are dismantled later the same day.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -162,6 +148,13 @@
       "title": "Taliban Take Kabul",
       "desc": "Taliban seizes Afghan capital, US withdrawal ends",
       "type": "politics"
+    },
+    {
+      "date": "2021-07-06",
+      "title": "An Antonov An-26 operating as Petropavlovsk-Kamchatsky Air Flight 251 crashes on",
+      "desc": "An Antonov An-26 operating as Petropavlovsk-Kamchatsky Air Flight 251 crashes on approach to Palana Airport, killing all 28 aboard.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "2021-02-18",
@@ -258,13 +251,6 @@
       "type": "politics"
     },
     {
-      "date": "2016-07-05",
-      "title": "The Juno space probe arrives at Jupiter and begins a 20-month survey of the plan",
-      "desc": "The Juno space probe arrives at Jupiter and begins a 20-month survey of the planet.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2016-06-23",
       "title": "Brexit Vote",
       "desc": "UK votes to leave the European Union",
@@ -325,6 +311,27 @@
       "type": "politics"
     },
     {
+      "date": "2013-07-06",
+      "title": "At least 42 people are killed in a shooting at a school in Yobe State, Nigeria.",
+      "desc": "At least 42 people are killed in a shooting at a school in Yobe State, Nigeria.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2013-07-06",
+      "title": "A Boeing 777 operating as Asiana Airlines Flight 214 crashes at San Francisco In",
+      "desc": "A Boeing 777 operating as Asiana Airlines Flight 214 crashes at San Francisco International Airport, killing three and injuring 181 of the 307 people on board.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2013-07-06",
+      "title": "A 73-car oil train derails in the town of Lac-Mégantic, Quebec and explodes into",
+      "desc": "A 73-car oil train derails in the town of Lac-Mégantic, Quebec and explodes into flames, killing at least 47 people and destroying more than 30 buildings in the town's central area.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "2013-06-06",
       "title": "Snowden Leaks",
       "desc": "Edward Snowden reveals global surveillance programs",
@@ -343,13 +350,6 @@
       "title": "Mayan Calendar Phenomenon",
       "desc": "Global fascination with predicted 'end of the world'",
       "type": "general"
-    },
-    {
-      "date": "2012-07-05",
-      "title": "The Shard in London is inaugurated as the tallest building in Europe, with a hei",
-      "desc": "The Shard in London is inaugurated as the tallest building in Europe, with a height of 310 metres (1,020 ft).",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "2012-07-04",
@@ -406,20 +406,6 @@
   ],
   "2009": [
     {
-      "date": "2009-07-05",
-      "title": "A series of violent riots break out in Ürümqi, the capital city of the Xinjiang ",
-      "desc": "A series of violent riots break out in Ürümqi, the capital city of the Xinjiang Uyghur Autonomous Region in China.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2009-07-05",
-      "title": "The largest hoard of Anglo-Saxon gold ever discovered in Britain, consisting of ",
-      "desc": "The largest hoard of Anglo-Saxon gold ever discovered in Britain, consisting of more than 1,500 items, is found near the village of Hammerwich, near Lichfield, Staffordshire.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2009-06-25",
       "title": "Michael Jackson Dies",
       "desc": "King of Pop dies at 50",
@@ -474,10 +460,10 @@
   ],
   "2006": [
     {
-      "date": "2006-07-05",
-      "title": "North Korea tests four short-range missiles, one medium-range missile and a long",
-      "desc": "North Korea tests four short-range missiles, one medium-range missile and a long-range Taepodong-2. The long-range Taepodong-2 reportedly fails in mid-air over the Sea of Japan.",
-      "type": "tech",
+      "date": "2006-07-06",
+      "title": "The Nathu La pass between India and China, sealed during the Sino-Indian War, re",
+      "desc": "The Nathu La pass between India and China, sealed during the Sino-Indian War, re-opens for trade after 44 years.",
+      "type": "finance",
       "source": "wikipedia"
     }
   ],
@@ -509,13 +495,6 @@
       "type": "disaster"
     },
     {
-      "date": "2004-07-05",
-      "title": "The first direct Indonesian presidential election is held.",
-      "desc": "The first direct Indonesian presidential election is held.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "2004-06-28",
       "title": "Iraq Sovereignty",
       "desc": "Coalition hands sovereignty to interim Iraqi government",
@@ -530,10 +509,10 @@
   ],
   "2003": [
     {
-      "date": "2003-07-05",
-      "title": "The World Health Organization announces that the 2002–2004 SARS outbreak has bee",
-      "desc": "The World Health Organization announces that the 2002–2004 SARS outbreak has been contained.",
-      "type": "tech",
+      "date": "2003-07-06",
+      "title": "The 70-metre Yevpatoria Planetary Radar sends a METI message (Cosmic Call 2) to ",
+      "desc": "The 70-metre Yevpatoria Planetary Radar sends a METI message (Cosmic Call 2) to five stars: Hip 4872, HD 245409, 55 Cancri (HD 75732), HD 10307 and 47 Ursae Majoris (HD 95128). The messages will arriv",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -579,13 +558,6 @@
   ],
   "1999": [
     {
-      "date": "1999-07-05",
-      "title": "U.S. President Bill Clinton imposes trade and economic sanctions against the Tal",
-      "desc": "U.S. President Bill Clinton imposes trade and economic sanctions against the Taliban regime in Afghanistan.",
-      "type": "finance",
-      "source": "wikipedia"
-    },
-    {
       "date": "1999-03-24",
       "title": "Kosovo War",
       "desc": "NATO begins bombing campaign against Yugoslavia",
@@ -610,14 +582,21 @@
       "title": "Russian Default",
       "desc": "Russia defaults on domestic debt, ruble collapses",
       "type": "finance"
+    },
+    {
+      "date": "1998-07-06",
+      "title": "Hong Kong International Airport opens in Chek Lap Kok, Hong Kong, replacing Kai ",
+      "desc": "Hong Kong International Airport opens in Chek Lap Kok, Hong Kong, replacing Kai Tak Airport as the city's international airport.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1997": [
     {
-      "date": "1997-07-05",
-      "title": "Sri Lankan Civil War: Sri Lankan Tamil MP A. Thangathurai is shot dead at Sri Sh",
-      "desc": "Sri Lankan Civil War: Sri Lankan Tamil MP A. Thangathurai is shot dead at Sri Shanmuga Hindu Ladies College in Trincomalee.",
-      "type": "tech",
+      "date": "1997-07-06",
+      "title": "The Troubles: In response to the Drumcree dispute, five days of mass protests, r",
+      "desc": "The Troubles: In response to the Drumcree dispute, five days of mass protests, riots and gun battles begin in Irish nationalist districts of Northern Ireland.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -641,10 +620,10 @@
   ],
   "1996": [
     {
-      "date": "1996-07-05",
-      "title": "Dolly the sheep becomes the first mammal cloned from an adult cell.",
-      "desc": "Dolly the sheep becomes the first mammal cloned from an adult cell.",
-      "type": "general",
+      "date": "1996-07-06",
+      "title": "A McDonnell Douglas MD-88 operating as Delta Air Lines Flight 1288 experiences a",
+      "desc": "A McDonnell Douglas MD-88 operating as Delta Air Lines Flight 1288 experiences a turbine engine failure during takeoff from Pensacola International Airport, killing two and injuring five of the 147 pe",
+      "type": "tech",
       "source": "wikipedia"
     }
   ],
@@ -656,10 +635,10 @@
       "type": "politics"
     },
     {
-      "date": "1995-07-05",
-      "title": "Armenia adopts its constitution, four years after its independence from the Sovi",
-      "desc": "Armenia adopts its constitution, four years after its independence from the Soviet Union.",
-      "type": "general",
+      "date": "1995-07-06",
+      "title": "In the Bosnian War, under the command of General Ratko Mladić, Serbia begins its",
+      "desc": "In the Bosnian War, under the command of General Ratko Mladić, Serbia begins its attack on the Bosnian town of Srebrenica.",
+      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -670,13 +649,6 @@
     }
   ],
   "1994": [
-    {
-      "date": "1994-07-05",
-      "title": "Jeff Bezos founds Amazon.",
-      "desc": "Jeff Bezos founds Amazon.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1994-05-10",
       "title": "Mandela President",
@@ -766,10 +738,10 @@
       "type": "politics"
     },
     {
-      "date": "1989-07-05",
-      "title": "Iran–Contra affair: Oliver North is sentenced by U.S. District Judge Gerhard A. ",
-      "desc": "Iran–Contra affair: Oliver North is sentenced by U.S. District Judge Gerhard A. Gesell to a three-year suspended prison term, two years probation, $150,000 in fines and 1,200 hours community service. ",
-      "type": "tech",
+      "date": "1989-07-06",
+      "title": "The Tel Aviv–Jerusalem bus 405 suicide attack: Sixteen bus passengers are killed",
+      "desc": "The Tel Aviv–Jerusalem bus 405 suicide attack: Sixteen bus passengers are killed when a member of the Palestinian Islamic Jihad took control of the bus and drove it over a cliff.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -797,6 +769,13 @@
       "title": "Morris Worm",
       "desc": "First major internet worm infects 6000 computers",
       "type": "tech"
+    },
+    {
+      "date": "1988-07-06",
+      "title": "The Piper Alpha drilling platform in the North Sea is destroyed by explosions an",
+      "desc": "The Piper Alpha drilling platform in the North Sea is destroyed by explosions and fires. One hundred sixty-seven oil workers are killed, making it the world's worst offshore oil disaster in terms of d",
+      "type": "disaster",
+      "source": "wikipedia"
     }
   ],
   "1987": [
@@ -805,13 +784,6 @@
       "title": "Black Monday",
       "desc": "Global stock market crash, Dow drops 22.6%",
       "type": "finance"
-    },
-    {
-      "date": "1987-07-05",
-      "title": "Sri Lankan Civil War: The LTTE uses suicide attacks on the Sri Lankan Army for t",
-      "desc": "Sri Lankan Civil War: The LTTE uses suicide attacks on the Sri Lankan Army for the first time. The Black Tigers are born and, in the following years, will continue to kill with the tactic.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1987-06-28",
@@ -848,15 +820,6 @@
       "type": "politics"
     }
   ],
-  "1984": [
-    {
-      "date": "1984-07-05",
-      "title": "The United States Supreme Court gives its United States v. Leon decision providi",
-      "desc": "The United States Supreme Court gives its United States v. Leon decision providing a good-faith exception from the Fourth Amendment exclusionary rule against use of evidence obtained through defective",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
   "1983": [
     {
       "date": "1983-09-01",
@@ -872,6 +835,13 @@
     }
   ],
   "1982": [
+    {
+      "date": "1982-07-06",
+      "title": "While attempting to return to Sheremetyevo International Airport, Aeroflot Fligh",
+      "desc": "While attempting to return to Sheremetyevo International Airport, Aeroflot Flight 411, an Ilyushin Il-62, crashes near Mendeleyevo, Moscow Oblast, killing all 90 people on board.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1982-06-28",
       "title": "Aeroflot Flight 8641",
@@ -891,13 +861,6 @@
       "title": "Iran-Iraq War Begins",
       "desc": "Longest conventional war of 20th century starts",
       "type": "politics"
-    },
-    {
-      "date": "1980-07-05",
-      "title": "Swedish tennis player Björn Borg wins his fifth Wimbledon final and becomes the ",
-      "desc": "Swedish tennis player Björn Borg wins his fifth Wimbledon final and becomes the first male tennis player to win the championships five times in a row (1976–1980).",
-      "type": "sports",
-      "source": "wikipedia"
     },
     {
       "date": "1980-05-18",
@@ -946,13 +909,6 @@
       "title": "Elvis Dies",
       "desc": "Elvis Presley dies at Graceland at age 42",
       "type": "general"
-    },
-    {
-      "date": "1977-07-05",
-      "title": "The Pakistan Armed Forces under Muhammad Zia-ul-Haq seize power in Operation Fai",
-      "desc": "The Pakistan Armed Forces under Muhammad Zia-ul-Haq seize power in Operation Fair Play and begin 11 years of martial law. Zulfikar Ali Bhutto, the first elected Prime Minister of Pakistan, is overthro",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1976": [
@@ -971,17 +927,10 @@
   ],
   "1975": [
     {
-      "date": "1975-07-05",
-      "title": "Arthur Ashe becomes the first black man to win the Wimbledon singles title.",
-      "desc": "Arthur Ashe becomes the first black man to win the Wimbledon singles title.",
+      "date": "1975-07-06",
+      "title": "The Comoros declares independence from France.",
+      "desc": "The Comoros declares independence from France.",
       "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1975-07-05",
-      "title": "Cape Verde gains its independence from Portugal.",
-      "desc": "Cape Verde gains its independence from Portugal.",
-      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -1019,20 +968,6 @@
       "type": "finance"
     },
     {
-      "date": "1973-07-05",
-      "title": "A boiling liquid expanding vapor explosion (BLEVE) in Kingman, Arizona, followin",
-      "desc": "A boiling liquid expanding vapor explosion (BLEVE) in Kingman, Arizona, following a fire that broke out as propane was being transferred from a railroad car to a storage tank, kills eleven firefighter",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1973-07-05",
-      "title": "Juvénal Habyarimana seizes power over Rwanda in a coup d'état.",
-      "desc": "Juvénal Habyarimana seizes power over Rwanda in a coup d'état.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1973-06-28",
       "title": "NI Assembly Elections",
       "desc": "Northern Ireland Assembly elections held",
@@ -1065,22 +1000,6 @@
       "title": "Bretton Woods Ends",
       "desc": "Nixon ends gold standard, floating exchange rates begin",
       "type": "finance"
-    },
-    {
-      "date": "1971-07-05",
-      "title": "The Twenty-sixth Amendment to the United States Constitution, lowering the votin",
-      "desc": "The Twenty-sixth Amendment to the United States Constitution, lowering the voting age from 21 to 18 years, is formally certified by President Richard Nixon.",
-      "type": "politics",
-      "source": "wikipedia"
-    }
-  ],
-  "1970": [
-    {
-      "date": "1970-07-05",
-      "title": "Air Canada Flight 621 crashes in Brampton, Ontario, Canada, killing all 109 peop",
-      "desc": "Air Canada Flight 621 crashes in Brampton, Ontario, Canada, killing all 109 people on board.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1969": [
@@ -1131,10 +1050,26 @@
       "type": "politics"
     },
     {
+      "date": "1967-07-06",
+      "title": "Nigerian Civil War: Nigerian forces invade Biafra, beginning the war.",
+      "desc": "Nigerian Civil War: Nigerian forces invade Biafra, beginning the war.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1967-06-05",
       "title": "Six-Day War",
       "desc": "Israel defeats Egypt, Jordan, Syria in six-day war",
       "type": "politics"
+    }
+  ],
+  "1966": [
+    {
+      "date": "1966-07-06",
+      "title": "Malawi becomes a republic, with Hastings Banda as its first President.",
+      "desc": "Malawi becomes a republic, with Hastings Banda as its first President.",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "1965": [
@@ -1157,6 +1092,13 @@
       "title": "Gulf of Tonkin",
       "desc": "US Congress passes resolution escalating Vietnam War",
       "type": "politics"
+    },
+    {
+      "date": "1964-07-06",
+      "title": "Malawi declares its independence from the United Kingdom.",
+      "desc": "Malawi declares its independence from the United Kingdom.",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "1964-06-28",
@@ -1193,9 +1135,16 @@
       "type": "tech"
     },
     {
-      "date": "1962-07-05",
-      "title": "The official independence of Algeria is proclaimed after an eight-year-long war ",
-      "desc": "The official independence of Algeria is proclaimed after an eight-year-long war with France.",
+      "date": "1962-07-06",
+      "title": "As a part of Operation Plowshare, the Sedan nuclear test takes place.",
+      "desc": "As a part of Operation Plowshare, the Sedan nuclear test takes place.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1962-07-06",
+      "title": "The Late Late Show, the world's longest-running chat show by the same broadcaste",
+      "desc": "The Late Late Show, the world's longest-running chat show by the same broadcaster, airs on RTÉ One for the first time.",
       "type": "tech",
       "source": "wikipedia"
     }
@@ -1254,6 +1203,20 @@
       "title": "Sputnik Launched",
       "desc": "First artificial satellite, starts Space Age",
       "type": "science"
+    },
+    {
+      "date": "1957-07-06",
+      "title": "Althea Gibson wins at the Wimbledon Championships, becoming the first black athl",
+      "desc": "Althea Gibson wins at the Wimbledon Championships, becoming the first black athlete to do so.",
+      "type": "sports",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1957-07-06",
+      "title": "John Lennon and Paul McCartney meet for the first time, as teenagers at Woolton ",
+      "desc": "John Lennon and Paul McCartney meet for the first time, as teenagers at Woolton Fete, three years before forming the Beatles.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1956": [
@@ -1285,20 +1248,6 @@
     }
   ],
   "1954": [
-    {
-      "date": "1954-07-05",
-      "title": "The BBC broadcasts its first daily television news bulletin.",
-      "desc": "The BBC broadcasts its first daily television news bulletin.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1954-07-05",
-      "title": "Elvis Presley records his first single, \"That's All Right\", at Sun Records in Me",
-      "desc": "Elvis Presley records his first single, \"That's All Right\", at Sun Records in Memphis, Tennessee.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1954-05-17",
       "title": "Brown v. Board",
@@ -1356,20 +1305,6 @@
       "type": "politics"
     },
     {
-      "date": "1950-07-05",
-      "title": "Korean War: Task Force Smith: American and North Korean forces first clash, in t",
-      "desc": "Korean War: Task Force Smith: American and North Korean forces first clash, in the Battle of Osan.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1950-07-05",
-      "title": "The Knesset of Israel passes the Law of Return which grants all Jews the right t",
-      "desc": "The Knesset of Israel passes the Law of Return which grants all Jews the right to immigrate to the Land of Israel.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1950-06-28",
       "title": "Korean War Massacres",
       "desc": "Communist sympathizers executed as Seoul falls",
@@ -1410,13 +1345,6 @@
       "type": "politics"
     },
     {
-      "date": "1948-07-05",
-      "title": "National Health Service Acts create the national public health system in the Uni",
-      "desc": "National Health Service Acts create the national public health system in the United Kingdom.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1948-06-28",
       "title": "Tito-Stalin Split",
       "desc": "Yugoslavia expelled from Soviet bloc",
@@ -1437,19 +1365,24 @@
       "type": "politics"
     },
     {
+      "date": "1947-07-06",
+      "title": "Referendum held in Sylhet to decide its fate in the Partition of India.",
+      "desc": "Referendum held in Sylhet to decide its fate in the Partition of India.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1947-07-06",
+      "title": "The AK-47 goes into production in the Soviet Union.",
+      "desc": "The AK-47 goes into production in the Soviet Union.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1947-06-05",
       "title": "Marshall Plan",
       "desc": "US announces plan to rebuild post-war Europe",
       "type": "finance"
-    }
-  ],
-  "1946": [
-    {
-      "date": "1946-07-05",
-      "title": "Micheline Bernardini models the first modern bikini at a swimming pool in Paris.",
-      "desc": "Micheline Bernardini models the first modern bikini at a swimming pool in Paris.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1945": [
@@ -1464,13 +1397,6 @@
       "title": "Hiroshima Bombed",
       "desc": "US drops atomic bomb on Hiroshima",
       "type": "disaster"
-    },
-    {
-      "date": "1945-07-05",
-      "title": "The United Kingdom holds its first general election in 10 years, which would be ",
-      "desc": "The United Kingdom holds its first general election in 10 years, which would be won by Clement Attlee's Labour Party.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1945-06-28",
@@ -1493,25 +1419,32 @@
       "type": "politics"
     },
     {
+      "date": "1944-07-06",
+      "title": "Jackie Robinson refuses to move to the back of a bus, leading to his court-marti",
+      "desc": "Jackie Robinson refuses to move to the back of a bus, leading to his court-martial.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1944-07-06",
+      "title": "The Hartford circus fire, one of America's worst fire disasters, kills approxima",
+      "desc": "The Hartford circus fire, one of America's worst fire disasters, kills approximately 168 people and injures over 700 in Hartford, Connecticut.",
+      "type": "disaster",
+      "source": "wikipedia"
+    },
+    {
       "date": "1944-06-06",
       "title": "D-Day",
       "desc": "Allied forces land in Normandy, liberating Europe",
       "type": "politics"
     }
   ],
-  "1943": [
+  "1942": [
     {
-      "date": "1943-07-05",
-      "title": "World War II: An Allied invasion fleet sails for Sicily (Operation Husky, July 1",
-      "desc": "World War II: An Allied invasion fleet sails for Sicily (Operation Husky, July 10, 1943).",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1943-07-05",
-      "title": "World War II: German forces begin a massive offensive against the Soviet Union a",
-      "desc": "World War II: German forces begin a massive offensive against the Soviet Union at the Battle of Kursk, also known as Operation Citadel.",
-      "type": "tech",
+      "date": "1942-07-06",
+      "title": "Anne Frank and her family go into hiding in the \"Secret Annexe\" above her father",
+      "desc": "Anne Frank and her family go into hiding in the \"Secret Annexe\" above her father's office in an Amsterdam warehouse.",
+      "type": "politics",
       "source": "wikipedia"
     }
   ],
@@ -1523,10 +1456,10 @@
       "type": "politics"
     },
     {
-      "date": "1941-07-05",
-      "title": "World War II: Operation Barbarossa: German troops reach the Dnieper river.",
-      "desc": "World War II: Operation Barbarossa: German troops reach the Dnieper river.",
-      "type": "politics",
+      "date": "1941-07-06",
+      "title": "World War II: The German army launches its offensive to encircle several Soviet ",
+      "desc": "World War II: The German army launches its offensive to encircle several Soviet armies near Smolensk.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -1538,10 +1471,10 @@
   ],
   "1940": [
     {
-      "date": "1940-07-05",
-      "title": "World War II: Foreign relations of Vichy France are severed with the United King",
-      "desc": "World War II: Foreign relations of Vichy France are severed with the United Kingdom.",
-      "type": "politics",
+      "date": "1940-07-06",
+      "title": "Story Bridge, a major landmark in Brisbane, as well as Australia's longest canti",
+      "desc": "Story Bridge, a major landmark in Brisbane, as well as Australia's longest cantilever bridge is formally opened.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -1557,6 +1490,13 @@
       "title": "Molotov-Ribbentrop Pact",
       "desc": "Germany and USSR sign non-aggression pact",
       "type": "politics"
+    },
+    {
+      "date": "1939-07-06",
+      "title": "Anti-Jewish legislation in prewar Nazi Germany closes the last remaining Jewish ",
+      "desc": "Anti-Jewish legislation in prewar Nazi Germany closes the last remaining Jewish enterprises.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1937": [
@@ -1565,6 +1505,13 @@
       "title": "Marco Polo Bridge",
       "desc": "Full-scale war between China and Japan begins",
       "type": "politics"
+    },
+    {
+      "date": "1937-07-06",
+      "title": "Spanish Civil War: Battle of Brunete: The battle begins with Spanish Republican ",
+      "desc": "Spanish Civil War: Battle of Brunete: The battle begins with Spanish Republican troops going on the offensive against the Nationalists to relieve pressure on Madrid.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1937-05-06",
@@ -1581,31 +1528,27 @@
       "type": "politics"
     },
     {
+      "date": "1936-07-06",
+      "title": "A major breach of the Manchester, Bolton and Bury Canal in England sends million",
+      "desc": "A major breach of the Manchester, Bolton and Bury Canal in England sends millions of gallons of water cascading 200 feet (61 m) into the River Irwell.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1936-06-28",
       "title": "Mengjiang Founded",
       "desc": "Japanese puppet state established in Inner Mongolia",
       "type": "politics"
     }
   ],
-  "1935": [
+  "1933": [
     {
-      "date": "1935-07-05",
-      "title": "The National Labor Relations Act, which governs labor relations in the United St",
-      "desc": "The National Labor Relations Act, which governs labor relations in the United States, is signed into law by President Franklin D. Roosevelt.",
-      "type": "politics",
-      "source": "wikipedia"
-    }
-  ],
-  "1934": [
-    {
-      "date": "1934-07-05",
-      "title": "\"Bloody Thursday\": The police open fire on striking longshoremen in San Francisc",
-      "desc": "\"Bloody Thursday\": The police open fire on striking longshoremen in San Francisco.",
+      "date": "1933-07-06",
+      "title": "The first Major League Baseball All-Star Game is played in Chicago's Comiskey Pa",
+      "desc": "The first Major League Baseball All-Star Game is played in Chicago's Comiskey Park. The American League defeated the National League 4–2.",
       "type": "general",
       "source": "wikipedia"
-    }
-  ],
-  "1933": [
+    },
     {
       "date": "1933-03-04",
       "title": "FDR Inaugurated",
@@ -1707,6 +1650,13 @@
   ],
   "1919": [
     {
+      "date": "1919-07-06",
+      "title": "The British dirigible R34 lands in New York, completing the first crossing of th",
+      "desc": "The British dirigible R34 lands in New York, completing the first crossing of the Atlantic Ocean by an airship.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1919-06-28",
       "title": "Treaty of Versailles",
       "desc": "Treaty ends WWI, imposes reparations on Germany",
@@ -1727,6 +1677,13 @@
       "type": "politics"
     },
     {
+      "date": "1918-07-06",
+      "title": "The Left SR uprising in Russia starts with the assassination of German ambassado",
+      "desc": "The Left SR uprising in Russia starts with the assassination of German ambassador Wilhelm von Mirbach by Cheka members.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1918-03-04",
       "title": "Spanish Flu First Case",
       "desc": "First case of deadly pandemic reported in Kansas",
@@ -1741,19 +1698,17 @@
       "type": "politics"
     },
     {
+      "date": "1917-07-06",
+      "title": "World War I: Arabian troops led by T. E. Lawrence (\"Lawrence of Arabia\") and Aud",
+      "desc": "World War I: Arabian troops led by T. E. Lawrence (\"Lawrence of Arabia\") and Auda ibu Tayi capture Aqaba from the Ottoman Empire during the Arab Revolt.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1917-06-28",
       "title": "Greece Enters WWI",
       "desc": "Greece joins Allied powers in World War I",
       "type": "politics"
-    }
-  ],
-  "1915": [
-    {
-      "date": "1915-07-05",
-      "title": "The Liberty Bell leaves Philadelphia by special train on its way to the Panama–P",
-      "desc": "The Liberty Bell leaves Philadelphia by special train on its way to the Panama–Pacific International Exposition.  This is the last trip outside Philadelphia that the custodians of the bell intend to p",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1914": [
