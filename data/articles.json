@@ -504,20 +504,6 @@
     "ai_summary": ""
   },
   {
-    "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-    "title": "Why Specialization Is Inevitable",
-    "summary": "",
-    "full_text": "Why Specialization Is Inevitable\nFrancisco de Almeida Rocha Alves\nWhat optimization theory, evolutionary biology, competitive markets, and machine learning all predict — and why the answer is the same\nThose who follow Dharma AI already know that we view specialization as one of the defining principles of effective AI systems, shaping everything from cost and performance to reliability and sovereignty. Few papers have articulated that case as rigorously as the 2026 work by Goldfeder, Wyder, LeCun, and Shwartz-Ziv.\nIn this article, we explore and interpret ideas from\nAI Must Embrace Specialization via Superhuman Adaptable Intelligence\n(Goldfeder, Wyder, LeCun, & Shwartz-Ziv, 2026). The paper's convergence case — spanning optimization theory, biology, organizational economics, and machine learning — provides both the evidential structure and the intellectual foundation for the discussion that follows. The framing, organization, and editorial synthesis presented here are Dharma's.\nThe conventional expectation is reasonable: as AI systems grow more capable, they should also grow more general. Greater capability and broader applicability seem like natural companions — more resources, better methods, and expanded training should produce systems that approach more tasks with increasing confidence.\nThe pattern that actually appears is different. The systems that achieve the most significant results in any given domain tend to be the ones most narrowly focused on it. The breakthrough in protein structure prediction came from a system engineered for a single scientific task. The historical milestones of AI, examined closely, reflect intense domain targeting rather than expanding generality.\nThis pattern recurs. It recurs across domains, across decades, across architectural choices that have almost nothing in common. A pattern this consistent suggests a common cause — one that does not originate inside AI research at all.\nAn Algorithm Wins by Fitting Its Target\nIn 1997, Wolpert and Macready proved something that rarely surfaces in discussions of AI architecture: no single, general-purpose optimization algorithm outperforms all others across all possible problems (Wolpert & Macready, 1997). The proof is mathematical, not philosophical. Averaged across every conceivable problem a learner might face, every algorithm performs equally well — and equally poorly. An algorithm that gains on one distribution of problems necessarily concedes on others. The performance is redistributed, not multiplied.\nThe practical implication is direct: “an algorithm wins by being a good fit for the target problem” (Goldfeder et al., 2026). The theorem does not say generality is impossible — it says generality is not a performance advantage. The consistent structural path to outperformance is concentration: trading breadth for fit.\nThis becomes sharper when finite resources enter the picture. Any real system operates under constraints — finite compute, finite data, finite development time. Given finite energy, an approach that directs available resources toward learning a finite set of tasks will outperform one that distributes those same resources across an unlimited range. The arithmetic is unforgiving: as the task set expands without bound, the resources available per task shrink toward zero. Universal coverage and meaningful performance are, under finite resources, in direct tension.\nThe conclusion the theorem points toward is not that generality is bad. It is narrower and more operational than that: as the paper states, \"universal generality is a theoretical concept, but in practical terms it is a myth\" (Goldfeder et al., 2026). What survives contact with real constraints is not the system that tries to do everything — it is the system that fits its target.\nThe mathematics establishes this as a prediction, not a preference. Whether that prediction holds in the world beyond optimization theory is a different question.\nWhat Biology and Markets Already Know\nTwo other domains arrived at the same prediction before optimization theory gave it a name.\nAs the paper describes the biological case: every performance gain in one niche comes at a cost elsewhere. A generalist carries traits suited to many environments but optimal for none — competence spread too thin to dominate any particular condition. There are no performance gains without trade-offs; the resources invested in one capability are unavailable for another. Selection favors designs matched to local conditions over those optimized for uniform coverage across all possible environments. The organisms that survive to reproduce are not the most generally capable — they are the most specifically matched. The result, accumulated over evolutionary timescales, is not generalists dominating — it is specialists filling niches. As the paper states: \"Specialization is not an accident of biology; it is a predictable consequence of limited resources, competing objectives, and environments that reward performance on a small subset of evolutionarily relevant challenges\" (Goldfeder et al., 2026).\nCompetitive markets follow the same dynamic through different means. Organizations and strategies that fail to meet performance thresholds are eliminated — not through extinction, but through exit, defunding, and replacement by better-matched alternatives. Competition acts as a selection mechanism: it amplifies effective strategies and eliminates ineffective ones. The mechanism has nothing in common with biological selection — no inheritance, no mutation, no evolutionary timescale. The unit of selection is not the organism but the organization, the product, the strategy. Yet the structural pressure is the same: finite resources, performance requirements, and the systematic removal of entities too broadly distributed to excel where it counts. Concentrated capacity outcompetes distributed capacity when performance standards are clear and consistent.\nEvolution and markets operate through entirely different mechanisms — different timescales, different units of selection, different inheritance mechanisms. Yet both produce the same outcome under resource pressure: fit over breadth. The theorem predicts this. Biology and markets arrive at it independently. When a third domain arrives at the same finding through different means entirely, the pattern ceases to look like a theorem and begins to look like something more general about how constrained systems behave.\nMachine Learning Keeps Rediscovering Specialization\nThe same pattern has emerged inside machine learning — not derived from optimization theory, but arrived at through the accumulated experience of building systems and watching what improves them.\nThe clearest form is negative transfer: a measurable degradation that occurs when a system trained on multiple tasks suffers because those tasks compete rather than cooperate (Ruder, 2017). When tasks share structure, training together helps. But when tasks compete for representational capacity, or impose conflicting gradients during training, performance on individual tasks falls below what a dedicated system would achieve. The gain from breadth becomes a cost to depth. It is a documented consequence of dividing finite capacity across tasks that pull against each other. The specialist, facing no such competition, does not pay this cost.\nThe architecture of frontier models offers a different form of evidence. Mixture-of-experts systems achieve their breadth not through uniform generality across all parameters, but by routing each input to a specialized subset of the network — activating different experts for different tasks. The paper's authors read this as a structural concession: a system designed to be general achieving its results by recovering specialization internally. This is an argued interpretation, not a demonstrated theorem — these architectures were designed for computational efficiency, and what they imply about generality's limits is a reasonable ",
-    "source": "Hugging Face Blog",
-    "category": "ai",
-    "lang": "en",
-    "topic": "Ai",
-    "published": "2026-06-30T14:39:11+00:00",
-    "crawled": "2026-07-05T10:41:18.872627+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
     "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
     "title": "Achieving operational excellence with AI",
     "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how work should flow across departments. Both offered a repeatable way to&#8230;",
@@ -570,20 +556,6 @@
     "topic": "AI",
     "published": "2026-06-30T21:50:04+00:00",
     "crawled": "2026-07-05T10:41:20.503690+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
-    "title": "Agriculture is ready for AI, but its data isn’t",
-    "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork.&#160; The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins that leave little room for error. Research shows AI-enabled predictive models can improve crop&#8230;",
-    "full_text": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork.\nThe use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins that leave little room for error.\nshows AI-enabled predictive models can improve crop yield by 26%, reduce water use by 41%, and cut chemical usage by 33%.\nHowever, what AI vendors usually won’t tell you is that these solutions are only effective if you have a clean, solid data foundation. However, at Reltio, we have experience in this area, including leading technology strategy at a major agricultural distributor and building a data platform used by enterprises worldwide–we’ve seen it first hand.\nWhat AI vendors won’t tell you\nVendor conversations in agriculture tend to follow a familiar pattern. The pitch leads with grand promises around using AI to monitor crop health in real time, optimize irrigation, and squeeze more yield from every acre.\nThe promise is compelling, but what rarely comes up is the question of whether the data foundation underneath those promises is accurate and complete. If not, there is a real and significant risk that AI will generate misleading outputs that seem authoritative but inspire action that is, at best, counterproductive.\nFor instance, a yield prediction model fed inconsistent historical data will generate imprecise forecasts. Similarly, a precision irrigation system drawing on fragmented sensor data will make watering decisions that waste resources instead of saving them.\nIn each case, the AI is failing because the data it was trained on was not sufficient to produce trustworthy outputs. In agriculture, every AI hallucination is a liability, and the likelihood of error is high.\nWhy agriculture is a uniquely challenging test case\nThe data landscape across a modern agricultural operation or a large distributor serving thousands of growers is extraordinarily complex.\nModern farming environments make extensive use of IoT devices and machinery. Irrigation systems are automated, tractors navigate fields autonomously, and drones capture field imagery at scale.\nHowever, machine data is disparate by nature. Add in external sources, including weather feeds, U.S. Department of Agriculture data, and third-party market information, and the question of how you bring all of it together into something coherent becomes a significant undertaking.\nAgricultural AI also needs to understand more than just customer attributes; it needs to understand the land: GPS coordinates, farm boundaries, field blocks, and soil variation across a single property. Where do you apply fertilizer, and at what rate, and in which specific area of the farm? Not all parts of a field are the same, and an AI system that treats them as if they are will produce recommendations that are at best imprecise and at worst damaging.\nThere is also a compliance dimension due to the chemicals and the responsibility involved. Operational AI in agriculture needs significantly more checks and governance than it might in a lower-stakes environment. When a flawed recommendation gets acted upon in the field, the consequences can be severe.\nWhat data readiness means in practice\nData readiness is the difference between AI delivering on its promise vs. a “garbage in, garbage out” scenario. Fundamentally, being ready for AI means having a data model that accurately reflects how the business operates.\nFor a company like Wilbur-Ellis, a 104-year-old, family-owned agricultural distributor, that means understanding who your customers are, which fields they farm, which inputs they need, which suppliers those inputs come from, what they paid last season, and how all of that connects to margin. That information needs to be current, consistent, and accessible across the organization, rather than locked in separate systems that were never designed to talk to each other.\nSimilarly, for farming operations themselves, data readiness means having a reliable, connected picture of what is happening across every field: soil health records, input application histories, yield data from previous seasons, equipment performance, and real-time sensor readings from irrigation systems.\nGovernance matters just as much as structure. Prices change, relationships evolve, and suppliers come and go. An AI system drawing on data that was accurate six months ago but has not been maintained will make recommendations based on a version of the business that no longer exists.\nBuilding the foundation that makes AI trustworthy\nThe good news is that the path to data readiness is feasible. It starts with a strong data model: a single, governed source of truth that connects customers, suppliers, products, pricing, orders, and margins in a way that reflects how the organization operates.\nFrom there, it requires data pipelines fast enough to deliver insights when decisions need to be made, governance frameworks that keep that data trustworthy over time, and security controls that ensure sensitive commercial information is accessible to the right people under the right conditions.\nThis is precisely the challenge that Reltio, an SAP company, was built to solve. Reltio enables companies to unify their fragmented data so AI agents and systems can operate from a complete picture of the business. Reltio builds a trusted system of context, known as the context intelligence layer, that brings all entities, relationships, rules together under one roof and makes business data easy to access and interpret.\nFor Wilbur-Ellis, building that trustworthy data foundation has meant being able to ask more complex questions and trust the answers, which is the precondition for any AI system to be genuinely useful.\nHow agriculture can drive real value from AI\nThe question worth asking before the next AI conversation is not whether the use case is promising. It almost certainly is. The question is whether the underlying data foundation is strong enough to make the output trustworthy.\nAgriculture has always required its leaders to make high-stakes decisions under uncertainty, and AI offers the genuine prospect of making those decisions faster and better informed. That prospect is only achievable for organizations that have done the foundational work first, and the businesses that will get the most from AI are the ones investing in that foundation now.\nThis content was produced by Reltio. It was not written by MIT Technology Review’s editorial staff.\nArtificial intelligence\nA startup claims it broke through a bottleneck that’s holding back LLMs\nSubquadratic has now shared more details about its new model. But some are still skeptical.\nA reality check on the AI jobs hysteria\nWhat do the numbers really say about the impact of artificial intelligence on the labor market? The answer might surprise you.\nAnthropic’s Code with Claude showed off coding’s future—whether you like it or not\nAs tools like Claude Code get better, more and more developers are happy to hand off coding tasks to them. The way software gets built has changed for good.\nAI chatbots are giving out people’s real phone numbers\nPeople report that their personal contact info was surfaced by Google AI—and there’s apparently no easy way to prevent it.\nIllustration by Rose Wong\nGet the latest updates from\nMIT Technology Review\nDiscover special offers, top stories,\nupcoming events, and more.\nThank you for submitting your email!\nExplore more newsletters\nIt looks like something went wrong.\nWe’re having trouble saving your preferences.\nTry refreshing this page and updating them one\nmore time. If you continue to get this message,\ncustomer-service@technologyreview.com\nwith a list of newsletters you’d like to receive.",
-    "source": "MIT Tech Review AI",
-    "category": "ai",
-    "lang": "en",
-    "topic": "AI",
-    "published": "2026-06-30T12:00:00+00:00",
-    "crawled": "2026-07-05T10:41:20.634826+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -724,20 +696,6 @@
     "topic": "World",
     "published": "2026-07-03T15:00:00+00:00",
     "crawled": "2026-07-05T10:41:23.018817+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://arstechnica.com/tech-policy/2026/06/trumps-plan-to-redesign-every-gov-website-leads-to-ai-designed-horrors/",
-    "title": "Trump's plan to redesign every .gov website leads to AI-designed horrors",
-    "summary": "A year in, National Design Studio delays plan to update government web standards.",
-    "full_text": "President Donald Trump’s plan to “fill the digital potholes” and use AI to quickly redesign every government website isn’t going very well.\nLast August, Trump created the National Design Studio, or NDS, by\n-like entity that answers only to the president, NDS was tasked with creating new standards to update the US Web Design System (USWDS) and overhaul 27,000 dot-gov websites in just three years. At the end of this so-called “America by Design” initiative, the government’s “design language” would supposedly be more usable and beautiful, Trump expected.\nHowever, that monumental task—assigned to a small team under a short timeframe—was seemingly made harder by DOGE’s deep cuts to agencies previously responsible for improving government websites, including dismantling the\nand restructuring the US Digital Service into DOGE.\nThose teams knew exactly how hard it can be to get every government agency to adopt new web standards. They had spent years trying to push agencies to update their sites to comply with USWDS standards, yet “only 30 percent of government websites used them as of mid-2023,” NextGov\n. Notably, the USWDS team—which was created in 2015 to ensure government websites were accessible and mobile-friendly—was reduced to one full-time employee after Trump took office.\nMost people agree that updating government websites is a worthwhile and necessary endeavor. But about a year into NDS’s existence, the team hasn’t accomplished much.\nIts biggest achievement has been modernizing the federal retirement system. However, former government workers have accused the Trump administration of claiming “false victories and overstated credit,”\nthat the project was underway before NDS was created.\nThe group’s other output has been meager, with few launches and substantial backlash from design experts, who argue that the team relies too heavily on AI and has failed to test sites for compliance with the Americans with Disabilities Act. As scrutiny of NDS has intensified, most agencies are now resisting connecting with the team about adopting new web standards, Ars has learned.\nSingle-page launches, odd redirects\nArs conducted a comprehensive review of launched sites to assess NDS’s progress so far.\nMost of the few dozen websites NDS has launched consist of a single page, where visitors can do little more than fill out a sign-up form. The most useful offering may be TrumpRX, which includes a search tool for comparing drug prices. For anything else, visitors must visit a legacy site.\nThere are also many newly registered domains—like live.gov, onlyfarms.gov, aliens.gov, and why.gov—which currently redirect to legacy sites. Some of those old sites may be updated with NDS’s signature flair, but the ones that don’t look as pretty remain the primary resource for Americans seeking government information or assistance online.\nAt least one website, 250.gov, which celebrates 250 years of US history, curiously redirects to a dot-org rather than a dot-gov, which is unusual for a government site and could erode visitor trust.\nAmong the few larger sites that NDS has launched is its own, ndstudio.gov. Currently, that site catalogs the team’s launches, shares a brief timeline of US design achievements, discusses the team’s AI and accessibility efforts, and encourages talented designers to “apply now.”\nIt also briefly hosted a store marketing a $47 limited edition MAHA poster and a $400 “collector’s edition” with Secretary of Health and Human Services Robert Kennedy, Jr.’s autograph, NextGov reported. The store disappeared after the White House faced questions about where the profits from sales would go. A White House spokesperson told NextGov that the posters were never “actually for sale,” as the store’s items did not include a “purchase button.”\nThe only other site of similar scope is merrychristmas.gov, which, beyond the homepage, includes one page for each of the 12 days of Christmas. An apparent vanity project rather than a government resource, the site is also a celebration of NDS designs and culminates on Christmas with a page praising the group for building sites reflecting “a belief that thoughtful design can strengthen democracy and improve civic life.”\nThese sites are supposed to “delight” Americans, Joe Gebbia, the Airbnb cofounder serving as Trump’s chief design officer,\nin February. The next month, he\nhe wanted visiting government websites to feel like “an Apple Store-like experience.”\nHowever, the rush to launch sites that look as slick as iPhone ads has not always gone smoothly.\nOn TrumpRX.gov, for example, NDS was mocked for using AI to generate an\nthat “showed a child with six toes running towards an American flag without any stars on it,” NextGov reported. (That seemingly contradicts a\nfrom former President Joe Biden that agencies should never update websites to “alarm or frighten your users in ways that erode trust.”)\nA design for CIO.gov was abruptly pulled after critics\npanned it as inaccessible and discovered that NDS had seemingly exposed its design system by accident.\n, an NDS staffer boasted that it was “one of our first deployment[s] that is almost entirely generated by our internal AI agent system” end to end.\nBut commenters pointed to odd coding choices, such as “inconsistent” color labels, as evidence of a rushed rollout, with one LinkedIn user writing, “it’s as if they used an AI with a hangover to generate it!”\nAnother commenter lamented, “this is clearly a design system for AI agents to replicate the look of vs. for humans to implement or understand. It doesn’t have to be this way though.”\nCurrently, that page redirects to councils.gov, but the Wayback Machine still has an\nof the yanked page as of this writing.\nCommercial trackers, accessibility concerns\nPerhaps even more concerning to the public are the projects NDS seemingly completes and never ships. The Drey Dossier, a YouTube investigative outlet,\nwhether the Trump administration may have ulterior motives with the redesign—like surveilling Americans, generating propaganda (most NDS sites explicitly praise Trump), or abusing data access. They have questioned the status of potentially sensitive but unlaunched domains, like vote.gov or passport.gov.\nThis weekend, the Guardian\npublished an investigation\ncorroborating some of the Drey Dossier findings, including that NDS had “built versions of services legally assigned to other agencies,” including passport.gov and vote.gov. Regarding the latter, the Guardian reported that “under the studio’s design, voters would be required to verify their identity through Login.gov, the federal sign-in gateway, and to have their citizenship checked against a database run by the Department of Homeland Security.”\nAny plan for data retention policies remains troublingly unclear, and there’s seemingly been no privacy impact assessment weighing the privacy implications of centralizing so much sensitive data in the White House, the Guardian reported. Notably, “the commission Congress put in charge of vote.gov has not decided to formally participate in the initiative,” the Guardian reported.\nThe Guardian’s reporting also confirmed that four federal sites built by NDS—ndstudio.gov, trumprx.gov, realfood.gov, and trumpaccounts.gov—run “commercial visitor-tracking software” that’s “configured to evade the privacy tools many web users install.”\nNone of those sites “carry the public filings federal privacy law requires under laws including the Privacy Act of 1974 and the E-Government Act of 2002,” the Guardian reported.\nThe trackers were apparently removed after the Guardian contacted the White House. Liz Huston, a White House spokesperson, told the Guardian that “all National Design Studio personnel comply with all legal requirements in their important work to improve how citizens interact with their government.” But she did not comment on what happened with the data that “was collected from users of the government websites while the tools were live, whether it was retain",
-    "source": "ArsTechnica AI",
-    "category": "tech",
-    "lang": "en",
-    "topic": "Politics",
-    "published": "2026-06-30T16:59:02+00:00",
-    "crawled": "2026-07-05T10:41:24.890789+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -1970,34 +1928,6 @@
     "topic": "Finance",
     "published": "2026-07-01T22:33:53+00:00",
     "crawled": "2026-07-05T10:57:15.419210+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.cnbc.com/2026/06/30/jll-investment-arm-industrial-real-estate.html",
-    "title": "How JLL’s investment arm is betting big on industrial real estate",
-    "summary": "Allan Swaringen, CEO of JLL IPT, is \"bullish\" on industrial, as new opportunities continue to present themselves and returns are now better than in multifamily.",
-    "full_text": "Industrial recently replaced residential as JLL Income Property Trust's largest allocation, at 38% of the portfolio.\nIndustrial leasing strengthened to start the year, rising 17.8% during the first quarter of 2026 from the same period in 2025, according to JLL.\nAllan Swaringen, CEO of JLL IPT, calls himself \"bullish\" on industrial, as new opportunities continue to present themselves and returns are now better than in multifamily.\nA version of this article first appeared in the CNBC Property Play newsletter with Diana Olick. Property Play covers new and evolving opportunities for the real estate investor, from individuals to venture capitalists, private equity funds, family offices, institutional investors and large public companies. Sign up to receive future editions, straight to your inbox. Industrial is perhaps the least sexy sector in real estate, but it is fast becoming one of the hottest. Fundamentals are improving, new supply is being absorbed, and global political and economic factors are fueling demand. Industrial recently replaced residential as JLL Income Property Trust's largest allocation. It is 38% of the portfolio, which holds roughly $7 billion of total assets under management. JLL IPT is a daily valued, perpetual life REIT advised by LaSalle and sponsored by JLL. Allan Swaringen, CEO of JLL IPT, calls himself \"bullish\" on industrial, as new opportunities continue to present themselves and returns are now better than in multifamily. \"We can buy warehouses today where the cash-on-cash return is 5.5% to 6.5%, yet apartments today are trading where the cash-on-cash return is 4.5%. It's a better option for us to get higher returns in today's market,\" said Swaringen. Industrial leasing strengthened to start the year, rising 17.8% during the first quarter of 2026 from the same period in 2025, according to JLL. Roughly 145 million square feet of leasing was executed, and 72% of that was new leases. The first quarter historically underperforms the rest of the year, but this Q1 showed outsized strength. Performance was largely driven by ongoing flight-to-quality trends and tenant consolidation into more efficient facilities, according to the report. The national vacancy rate held at 7.5% during the quarter but is expected to move lower, since supply is being absorbed quickly and new construction is flat. Swaringen pointed to three factors behind his bullish position. First, rising energy and transportation costs. Every warehouse in JLL IPT's portfolio, 64 across the country, is within three to five miles of major transportation infrastructure, thereby reducing costs. \"Airports, seaports, interstate highways and rail spurs … if you own warehouses in close proximity to those hubs of transportation, they tend to get higher rent growth in an up market, and they attract tenants in a down market,\" he said. Secondly, against the backdrop of the latest conflicts in the Middle East, increased defense spending and continued efforts to expand domestic manufacturing capacity will likely boost demand for warehouses and industrial facilities across the U.S., he said. Finally, he noted that businesses are increasingly building backup supply chains and storing extra inventory in more places to avoid disruptions from political conflicts as well as climate-related events. This all increases demand for warehouses. As for supply, unlike other sectors, where supply and demand can get out of balance quickly due to long construction timelines, warehouses can be built fast and are therefore much more reactive to supply and demand. \"There was some overbuilding, speculative construction, about a year and a half ago, but absorption really took off last year, and it's seeing the strongest rent growth of really all property types,\" Swaringen said.\nThe private space race is spurring a luxury hotel land grab for Florida oceanfront property\nHow AI may be messing with home prices\nCommercial real estate saw record lending competition in April, according to JLL",
-    "source": "CNBC",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-06-30T15:04:15+00:00",
-    "crawled": "2026-07-05T10:57:15.653383+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.cnbc.com/2026/06/30/medicare-obesity-drug-glp-1-coverage-starting-july-1.html",
-    "title": "Medicare will start covering obesity drugs for the first time. Here's what patients should know",
-    "summary": "The move could unlock millions of new patients for Novo Nordisk and Eli Lilly and expand access to medications that were previously out of reach for seniors.",
-    "full_text": "Starting Wednesday, eligible seniors with Medicare coverage can access GLP-1s for obesity with a copay of just $50 per month through a temporary program called Bridge.\nThe move could unlock a vast new patient population for Novo Nordisk and Eli Lilly and dramatically expand access to medications that were previously out of reach for many older Americans.\nBut the rollout may not be smooth initially, and the future of coverage is unclear after the program expires at the end of 2027.\nFollow your favorite stocks\nGLP-1s for $50 a month?\nCNBC Digital Original Video\nMillions of older Americans in Medicare are about to receive a benefit that has never existed before:\ncoverage of obesity drugs\nStarting Wednesday, eligible beneficiaries can get GLP-1s to treat obesity for a copay of just $50 per month. It's a watershed move that could unlock a vast new patient population for\nand dramatically expand access to medications that were previously out of reach for many people ages 65 and above.\nMedicare Part D, or prescription drug plans, already cover some GLP-1s for conditions like diabetes and cardiovascular disease, but federal law has banned coverage solely for obesity. Medicare's new Bridge demonstration program sidesteps that law to cover the drugs for obesity – at least temporarily – for more beneficiaries, including those who are overweight with conditions like prediabetes or uncontrolled hypertension.\nThere were more than 69 million beneficiaries in Medicare as of about a week ago, and \"several million\" are expected to access the drugs through the Bridge program, said Chris Klomp, director of Medicare and deputy administrator of the Centers for Medicare & Medicaid Services, during the Aspen Ideas Festival last week.\nThere are also many more patients to capture: Roughly 15 million to 20 million older adults in Medicare are estimated to qualify for weight loss drugs, according to Novo and Lilly.\nBut the initial rollout may not be smooth. Providers must submit prior authorization requests to attest that patients meet eligibility requirements, a process some physicians said may be cumbersome. Some doctors also worry the new coverage could spark a surge in demand that will strain busy clinics and pharmacies, and\nothers raised concerns about a lack of broader public awareness\nThere's also a larger question hanging over the Medicare breakthrough: Unless the Trump administration extends or replaces the demonstration program, obesity drug coverage is scheduled to expire at the end of 2027. Covering the drugs permanently would require a change in federal law or at least agreement among private health insurers to provide the medications in Part D plans.\nThat creates uncertainty for patients who may begin treatments that many experts view as lifelong therapies.\n\"It's good news that Medicare is rolling out this program, but it is temporary, so it's really not clear at this point what happens after the end of the 18-month program duration,\" said Juliette Cubanski, director of the Program on Medicare Policy at KFF, a health policy research organization. \"Whether that coverage will continue in some other fashion, or whether people might lose access at that point.\"\nHere's what to know about the long-awaited coverage.\nHow much will this save patients?\nA combination image shows an injection pen of Zepbound, Eli Lilly's weight loss drug, and boxes of Wegovy, made by Novo Nordisk.\nHollie Adams | Reuters\nThe $50 monthly copay is significantly less than what patients without any insurance coverage for obesity drugs typically pay. That price also applies to all doses rather than increasing with a larger dosage, as it does for people paying out of pocket.\nLilly and Novo have both rolled out sweeping cash discounts for their respective drugs for patients willing to pay out of pocket, but those prices can still be unaffordable for some people.\nNovo's Wegovy injections range in price from $199 for a lower dose for the first two months under a limited-time offer, to $399 for the newly launched highest dosage. The KwikPen and single-dose vial formulations of Lilly's Zepbound cost from\n$299 to $699 per month\n, depending on the dose. At the highest dosages, Novo's daily Wegovy pill\n, while Lilly's rival Foundayo tops out at $349.\nCrucially, the $50 monthly copay for GLP-1s will not count toward a patient's Part D deductible, or the $2,100 annual out-of-pocket cap on prescription drug costs, said Rachel Schmidt, a research professor at Georgetown University's McCourt School of Public Policy.\nMany older people may still not be able to afford an extra $600 a year for another prescription, especially as they grapple with rising healthcare costs. A quarter of Medicare beneficiaries had an income\nbelow $24,600 in 2024\nStill, the coverage \"is going to improve access to so many Americans who need these medications, and either are going without or using their hard-earned money in retirement to pay for them,\" said Dr. Holly Lofton, director of the Medical Weight Management Program at NYU Langone\nWho is eligible and how does it work?\nThe Bridge program operates differently from traditional Medicare drug coverage.\nIt's available to Medicare beneficiaries with Part D coverage, but private insurers running those plans don't foot the bill. Bridge is funded by taxpayer dollars and beneficiary copays.\nUnder the program, Part D plans also do not determine eligibility or approve coverage like they typically do. Instead, a healthcare provider must determine whether a person meets\nclinical requirements\nfor coverage based on their body weight and health status.\nEligible patients include those with a body mass index, or BMI, of 35 or higher as well as some people with lower BMIs who have at least one related condition, such as prediabetes, a previous heart attack or stroke, or blocked arteries in their arms or legs.\nThe eligibility criteria open the door to many patients who previously had no Medicare coverage option for obesity drugs.\nNYU Langone's Lofton called the criteria \"appropriate\" and broader than what she's seen with commercial insurance. The inclusion of people with prediabetes represents an effort to prevent diabetes in the Medicare population, \"which will ultimately reduce healthcare costs nationally,\" she added.\nFor patients to get coverage, a provider must first send a prescription to their pharmacy. That triggers a prior authorization request for the Bridge program, which the provider must complete to certify that the individual is eligible. The provider then submits that request directly to Humana, which CMS contracted to process approvals for Bridge.\nOnce a request gets a final sign-off, patients will pay the flat $50 copayment at the pharmacy when they pick up the prescription.\nThe GLP-1s that can be prescribed for obesity include Novo's Wegovy injection and the drug's tablet form as well as Lilly's rival pill Foundayo and its obesity shot Zepbound in the KwikPen formulation.\nLilly chose to only include that form of Zepbound in the program because it contains a month's worth of doses in one pen, making it easier for providers to administer, said Ilya Yuffa, president of Lilly USA and global customer capabilities, in an interview Wednesday.\nHowever, people who already have coverage of a GLP-1 from their Part D plan for a use already covered by Medicare, such as Type 2 diabetes, cardiovascular disease risk reduction or sleep apnea, don't qualify for the Bridge program. Those patients will continue to access the drug through traditional coverage.\nWhat are the potential issues with the program?\nThe launch of Bridge could unleash significant pent-up demand for obesity drugs, potentially creating new pressures for physicians, pharmacies and the prior authorization process, some experts said. That also risks delaying older Americans from getting their hands on the medications.\nThe healthcare system is already stretched thin, with many Medicare beneficiaries facing long waits for appointments with ",
-    "source": "CNBC",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-06-30T14:35:38+00:00",
-    "crawled": "2026-07-05T10:57:15.983297+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -3524,8 +3454,15 @@
     "topic": "Crypto",
     "published": "2026-07-05T11:52:47+00:00",
     "crawled": "2026-07-05T12:21:52.642808+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 南非政府提出在現有稅制下對加密貨幣的稅收指導方針\n• 此指導方針旨在明確加密貨幣的稅務責任和合規要求\n• 美國執法機構已撤回對CLARITY法案的反對意見\n• CLARITY法案旨在為加密貨幣提供更清晰的法律框架和監管指導",
+    "summaries": {
+      "zh-HK": "• 南非政府提出在現有稅制下對加密貨幣的稅收指導方針\n• 此指導方針旨在明確加密貨幣的稅務責任和合規要求\n• 美國執法機構已撤回對CLARITY法案的反對意見\n• CLARITY法案旨在為加密貨幣提供更清晰的法律框架和監管指導",
+      "en": "Title: South Africa proposes crypto tax guidance under existing framework\nSummary:\n• The South African government has proposed tax guidance for cryptocurrencies under the existing tax framework.\n• This guidance aims to clarify the tax obligations and compliance requirements for cryptocurrencies.\n• U.S. law enforcement agencies have withdrawn their opposition to the CLARITY Act.\n• The CLARITY Act aims to provide a clearer legal framework and regulatory guidance for cryptocurrencies.",
+      "zh-CN": "标题：南非在现有框架下提出加密货币税收指导\n摘要：\n• 南非政府提出在现有税制下对加密货币的税收指导方针。\n• 此指导方针旨在明确加密货币的税务责任和合规要求。\n• 美国执法机构已撤回对CLARITY法案的反对意见。\n• CLARITY法案旨在为加密货币提供更清晰的法律框架和监管指导。",
+      "ja": "タイトル：南アフリカ、既存の枠組みの下で暗号通貨の税制ガイダンスを提案\n要約：\n• 南アフリカ政府は、既存の税制の下で暗号通貨に関する税制ガイダンスを提案しました。\n• このガイダンスは、暗号通貨の税務義務とコンプライアンス要件を明確にすることを目的としています。\n• 米国の法執行機関は、CLARITY法案に対する反対意見を撤回しました。\n• CLARITY法案は、暗号通貨に対してより明確な法的枠組みと規制ガイダンスを提供することを目指しています。",
+      "ko": "제목: 남아프리카, 기존 프레임워크 하에 암호화폐 세금 가이드라인 제안\n요약:\n• 남아프리카 정부는 기존 세제 하에 암호화폐에 대한 세금 가이드라인을 제안했습니다.\n• 이 가이드라인은 암호화폐의 세무 의무와 준수 요구 사항을 명확히 하는 것을 목표로 합니다.\n• 미국 법 집행 기관은 CLARITY 법안에 대한 반대 의견을 철회했습니다.\n• CLARITY 법안은 암호화폐에 대해 보다 명확한 법적 프레임워크와 규제 가이드를 제공하는 것을 목표로 하고 있습니다."
+    }
   },
   {
     "url": "https://cointelegraph.com/news/kraken-lets-traders-use-tokenized-stocks-as-collateral-for-leveraged-trades?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -3720,8 +3657,15 @@
     "topic": "World",
     "published": "2026-07-05T12:04:51+00:00",
     "crawled": "2026-07-05T12:21:56.851718+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國總統特朗普本週前往土耳其，參加北約領袖會議  \n• 北約峰會將重點討論防務支出及對烏克蘭的支持  \n• 會議也將受到美伊衝突後果的影響  \n• 對華盛頓對北約長期承諾的質疑將成為討論焦點",
+    "summaries": {
+      "zh-HK": "• 美國總統特朗普本週前往土耳其，參加北約領袖會議  \n• 北約峰會將重點討論防務支出及對烏克蘭的支持  \n• 會議也將受到美伊衝突後果的影響  \n• 對華盛頓對北約長期承諾的質疑將成為討論焦點",
+      "en": "Title: Iran War Looms Over NATO Summit\nSummary:\n• U.S. President Trump travels to Turkey this week for the NATO leaders' meeting\n• The NATO summit will focus on defense spending and support for Ukraine\n• The meeting will also be influenced by the consequences of the U.S.-Iran conflict\n• Questions regarding Washington's long-term commitment to NATO will be a key discussion point",
+      "zh-CN": "标题：伊朗战争笼罩北约峰会\n摘要：\n• 美国总统特朗普本周前往土耳其，参加北约领导人会议\n• 北约峰会将重点讨论防务支出及对乌克兰的支持\n• 会议也将受到美伊冲突后果的影响\n• 对华盛顿对北约长期承诺的质疑将成为讨论焦点",
+      "ja": "タイトル：イラン戦争がNATOサミットに影を落とす\n要約：\n• アメリカのトランプ大統領が今週トルコに向かい、NATO首脳会議に出席\n• NATOサミットでは、防衛費とウクライナへの支援が主な議題となる\n• 会議は米国とイランの対立の影響を受けることになる\n• ワシントンのNATOへの長期的なコミットメントに対する疑問が議論の焦点となる",
+      "ko": "제목: 이란 전쟁이 NATO 정상 회담에 그림자를 드리우다\n요약:\n• 미국 트럼프 대통령이 이번 주 터키로 가서 NATO 정상 회담에 참석\n• NATO 정상 회담은 방위 지출과 우크라이나 지원에 초점을 맞출 것\n• 회의는 미국-이란 갈등의 결과에 영향을 받을 것이다\n• 워싱턴의 NATO에 대한 장기적인 약속에 대한 의문이 주요 논의 주제가 될 것이다"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/videos/2026-07-04/bloomberg-this-weekend-07-04-2026-video",
@@ -4028,8 +3972,15 @@
     "topic": "Regulation",
     "published": "2026-07-05T11:05:22+00:00",
     "crawled": "2026-07-05T12:22:07.400203+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 根據公共雇員環境責任組織的分析，2021年至2025年間，涉及危險化學品的事故數量增加了57%，從83起增至131起  \n• 同期因事故造成的傷亡人數也上升，從60人增至89人  \n• 超過650起事故在2020年4月至2026年5月間發生，其中103起導致死亡，355起造成傷害  \n• 近1.5億人居住在距這些設施3英里內，歷史上被忽視的社區面臨更高的意外釋放風險",
+    "summaries": {
+      "zh-HK": "• 根據公共雇員環境責任組織的分析，2021年至2025年間，涉及危險化學品的事故數量增加了57%，從83起增至131起  \n• 同期因事故造成的傷亡人數也上升，從60人增至89人  \n• 超過650起事故在2020年4月至2026年5月間發生，其中103起導致死亡，355起造成傷害  \n• 近1.5億人居住在距這些設施3英里內，歷史上被忽視的社區面臨更高的意外釋放風險",
+      "en": "Title: Chemical accidents rise as Trump administration proposes weakening safety rules\nSummary:\n• According to an analysis by the Public Employees for Environmental Responsibility, the number of accidents involving hazardous chemicals increased by 57% from 2021 to 2025, rising from 83 to 131 incidents.\n• During the same period, the number of casualties from these accidents also rose, from 60 to 89 people.\n• Over 650 accidents occurred between April 2020 and May 2026, with 103 resulting in fatalities and 355 causing injuries.\n• Nearly 150 million people live within 3 miles of these facilities, with historically marginalized communities facing a higher risk of accidental releases.",
+      "zh-CN": "标题：化学事故上升，特朗普政府提议削弱安全规则\n摘要：\n• 根据公共雇员环境责任组织的分析，2021年至2025年间，涉及危险化学品的事故数量增加了57%，从83起增至131起。\n• 同期因事故造成的伤亡人数也上升，从60人增至89人。\n• 在2020年4月至2026年5月间，发生了超过650起事故，其中103起导致死亡，355起造成伤害。\n• 近1.5亿人居住在这些设施3英里内，历史上被忽视的社区面临更高的意外释放风险。",
+      "ja": "タイトル：トランプ政権が安全規則の緩和を提案する中、化学事故が増加\n要約：\n• 公共雇用者環境責任組織の分析によると、2021年から2025年の間に危険な化学物質に関する事故の数が57％増加し、83件から131件に達した。\n• 同期間中、これらの事故による死傷者数も60人から89人に増加した。\n• 2020年4月から2026年5月の間に650件以上の事故が発生し、そのうち103件が死亡、355件が負傷を引き起こした。\n• 約1億5000万人がこれらの施設から3マイル以内に住んでおり、歴史的に無視されてきたコミュニティは偶発的な放出のリスクが高い。",
+      "ko": "제목: 트럼프 행정부가 안전 규칙 완화를 제안하면서 화학 사고 증가\n요약:\n• 공공 직원 환경 책임 조직의 분석에 따르면, 2021년부터 2025년까지 위험한 화학 물질과 관련된 사고 수가 57% 증가하여 83건에서 131건으로 늘어났다.\n•"
+    }
   },
   {
     "url": "https://arstechnica.com/science/2026/07/the-missing-500-million-cosmic-bombardment-melted-earths-first-crust/",
@@ -4126,8 +4077,15 @@
     "topic": "Finance",
     "published": "2026-07-05T11:14:08+00:00",
     "crawled": "2026-07-05T12:22:09.945331+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 烏克蘭表示在過去48小時內攻擊了克里米亞及其他俄佔地區的16個變電站  \n• 此次攻擊加劇了黑海半島及周邊地區的能源危機  \n• 攻擊目的是削弱俄羅斯在該地區的能源供應能力  \n• 克里米亞自2014年以來一直由俄羅斯控制，烏克蘭持續對其進行軍事行動",
+    "summaries": {
+      "zh-HK": "• 烏克蘭表示在過去48小時內攻擊了克里米亞及其他俄佔地區的16個變電站  \n• 此次攻擊加劇了黑海半島及周邊地區的能源危機  \n• 攻擊目的是削弱俄羅斯在該地區的能源供應能力  \n• 克里米亞自2014年以來一直由俄羅斯控制，烏克蘭持續對其進行軍事行動",
+      "en": "Title: Ukraine Says It Hit Power Substations in Russia-Annexed Crimea\nSummary:\n• Ukraine claims to have attacked 16 power substations in Crimea and other Russian-occupied areas in the past 48 hours\n• The attacks have intensified the energy crisis in the Black Sea peninsula and surrounding regions\n• The aim of the attacks is to weaken Russia's energy supply capabilities in the area\n• Crimea has been under Russian control since 2014, and Ukraine continues military operations against it",
+      "zh-CN": "标题：乌克兰表示在俄罗斯吞并的克里米亚打击了电力变电站\n摘要：\n• 乌克兰声称在过去48小时内攻击了克里米亚及其他俄占地区的16个变电站\n• 此次攻击加剧了黑海半岛及周边地区的能源危机\n• 攻击的目的是削弱俄罗斯在该地区的能源供应能力\n• 自2014年以来，克里米亚一直由俄罗斯控制，乌克兰持续对其进行军事行动",
+      "ja": "タイトル：ウクライナ、ロシア併合のクリミアで電力変電所を攻撃したと発表\n要約：\n• ウクライナは、過去48時間以内にクリミアおよび他のロシア占領地域の16の電力変電所を攻撃したと主張\n• この攻撃は、黒海半島および周辺地域のエネルギー危機を悪化させた\n• 攻撃の目的は、地域におけるロシアのエネルギー供給能力を弱体化させること\n• クリミアは2014年からロシアの支配下にあり、ウクライナは引き続き軍事行動を行っている",
+      "ko": "제목: 우크라이나, 러시아가 병합한 크림에서 전력 변전소를 타격했다고 발표\n요약:\n• 우크라이나는 지난 48시간 동안 크림 및 기타 러시아 점령 지역의 16개 전력 변전소를 공격했다고 주장\n• 이번 공격은 흑해 반도 및 주변 지역의 에너지 위기를 심화시켰다\n• 공격의 목적은 해당 지역에서 러시아의 에너지 공급 능력을 약화시키는 것이다\n• 크림은 2014년부터 러시아의 통제 하에 있으며, 우크라이나는 이에 대한 군사 작전을 지속하고 있다"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-05/vessel-attacked-near-yemen-as-houthis-ban-israeli-ships-in-red-sea",
@@ -4228,20 +4186,6 @@
     "ai_summary": ""
   },
   {
-    "url": "https://www.bankless.com/read/news/dozens-of-major-companies-become-open-usd-launch-partners",
-    "title": "Dozens of Major Companies Become Open USD Launch Partners",
-    "summary": "Some of the biggest names in finance and beyond are joining forces to back the Open USD stablecoin.",
-    "full_text": "- Industry-leading crypto research trusted by finance pros.\nDozens of Major Companies Become Open USD Launch Partners\nSome of the biggest names in finance and beyond are joining forces to back the Open USD stablecoin.\nIndustry-leading crypto research trusted by finance pros.\nSubscribe to Bankless\nA coalition of over 140 companies, including Blackrock, Coinbase, Mastercard, Stripe, and Visa, have\n(OUSD), a new stablecoin effort governed by an independent entity called Open Standard that will distribute its revenues to its member partners.\nOnce live, Open USD will let businesses mint and redeem the stablecoin with no fees or volume caps, while returning most of the reserve earnings back to participating partners minus a management fee.\nUnlike most existing stablecoins, OUSD will be run by Open Standard, a separate company whose board is made up of its partner businesses, intended to keep decisions aligned with the collective network rather than a single corporate issuer.\nThe inaugural partner list spans banks (BBVA, BNY, DBS, Standard Chartered), crypto-native players (Aave, Coinbase, MetaMask, Morpho, Solana), payments giants (American Express, Mastercard, Visa), and tech platforms (DoorDash, Google, Shopify).\nit's making OUSD the default stablecoin for businesses transacting on Stripe, while\nand other chains later this year. Open USD is expected to go live later in 2026.\nIndustry-leading crypto research trusted by finance pros.\nIndustry-leading crypto research trusted by finance pros.\nIt’s time to break up with your bank, and join the movement for a better world.\nUpgrade to Citizenship to listen\nListening to Bankless articles is just the beginning of what you'll unlock with Citizenship...\n100+ Airdrop Hunter Guides\nExclusive Newsletter Analysis\nDaily Token Hub Ratings\nPrivate Discord w/ Bankless team\nBonus Citizen-Only Episodes\nSupport Crypto-Native Media!\nKeep up to date on the hottest ICOs with ICO Watch\nThe Top Airdrop Hunts of the Month: January 2026\nStart the new year by chasing 'drops from these five promising tokenless protocols.\nCheck eligibility for the Exactly Governance Claimable\nEligible wallets had an average value of $18,747\nEARLY ACCESS - The Rise of Robinhood Chain: Tokenized Stocks, Perps, and 27M Users | Johann Kerbrat\nROLLUP: Crypto Bullish Again? | OpenUSD vs USDC | Robinhood Chain | Trump’s $1.4B Haul\nHow Ondo Is Bringing Stocks and Perps Onchain | Ian De Bode\nLatest News & Analysis\neToro Leads $12.5M Round for Onchain Perps Platform Extended\nAfrica's Largest Centralized Exchange Integrates Hyperliquid Perps\nRobinhood Just Revealed Lighter's Master Plan\nSolana Launches Onchain Governance With 100K SOL Entry",
-    "source": "Bankless",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Crypto",
-    "published": "2026-06-30T17:42:32+00:00",
-    "crawled": "2026-07-05T12:22:12.915411+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
     "url": "https://blockcast.it/2026/07/04/venice-ai-raises-65m-sparking-token-equity-debate/",
     "title": "Venice AI 融資 6500 萬美元，股權 + 代幣結構引社群爭議",
     "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"452\" src=\"https://blockcast.it/wp-content/uploads/2026/07/images-13.jpeg\" style=\"display: block; margin: auto; margin-bottom: 5px;\" width=\"678\" /><p>隱私 AI 新創公司 Venice AI 完成 6,500 萬美元 A 輪融資，估價 10 億美元，由 Dragonfly 領投。該公司提供無審查的 AI 服務，年化收入超 7,000 萬美元並已獲利。但其股權加代幣的融資模式引發爭議，社群擔憂股權與代幣持有者利益不一致。</p>\n<p>〈<a href=\"https://blockcast.it/2026/07/04/venice-ai-raises-65m-sparking-token-equity-debate/\">Venice AI 融資 6500 萬美元，股權 + 代幣結構引社群爭議</a>〉這篇文章最早發佈於《<a href=\"https://blockcast.it\">區塊客</a>》。</p>",
@@ -4298,20 +4242,6 @@
     "ai_summary": ""
   },
   {
-    "url": "https://ccc.technews.tw/2026/06/30/shohei-ohtani-lebron-james-rookie-cards-each-sell-over-80-million-sky-high-prices/",
-    "title": "大谷翔平詹姆斯菜鳥球員卡，各逾 8,000 萬天價成交",
-    "summary": "棒球明星大谷翔平與籃球名人詹姆斯兩人稀有的菜鳥球員卡，29 日晚間在拍賣會各以逾 250 萬美元（新台幣 8, [&#8230;]",
-    "full_text": "棒球明星大谷翔平與籃球名人詹姆斯兩人稀有的菜鳥球員卡，29 日晚間在拍賣會各以逾 250 萬美元（新台幣 8,000 萬元）成交，再次傳達熱錢持續湧入高階球員卡市場的強力訊號。\n雅虎新聞報導，當晚成交金額最高的卡屬於NBA明星詹姆斯（LeBron James）2003~2004年菜鳥賽季，由Upper Deck發行的Exquisite Collection系列卡片。這張實戰球衣裁片親簽卡，限量23張的第九張，最後是以293萬美元（約新台幣9,264萬元）售出。\nTHE RECORD CONTINUES! NEW RECORD FOR ANY LEBRON CARD IN A PUBLIC AUCTION AND STILL TIME TO GO!\nCurrent Price: $2,928,000 –\nhttps://t.co/0IC67YxkV9\nThis 2003-04 Upper Deck Exquisite Collection RPA Parallel #78 LeBron James Signed Patch Rookie Card is STILL GOING in Open…\npic.twitter.com/NMsYja5tdk\n儘管據報私下交易曾有更高紀錄，這次的成交金額仍刷新詹姆斯球員卡的公開拍賣成績。詹姆斯這張親簽卡，長期視為現代籃球球員卡最有價值的品項之一，成交結果更強化此卡市場地位。\n另一方面，美國職棒洛杉磯道奇巨星大谷翔平的球員卡也拍出好成績。他的2018年Topps鉻超級亮彩版（Chrome SuperFractor）菜鳥卡，含買家佣金以256萬美元（約新台幣8,094萬元）售出；這張評級9.5分的球員卡是同型唯一，此次交易也創下大谷菜鳥卡的公開拍賣紀錄。\nJUST SOLD: Shohei Ohtani’s 1/1 Rookie Superfractor fetched $2,562,229 at auction last night, making it the second-most expensive Ohtani card ever publicly sold 🤯\npic.twitter.com/pBOBhFuuKR\n這張卡的漲幅令人咋舌：同一張卡2022年成交價為13萬9,200美元（約新台幣440萬元），僅四年便飆漲逾240萬美元（約新台幣7,588萬元）。\n雖然這張鉻超級亮彩版，未能超越大谷另一張2025年Topps Chrome Gold MLB Logoman實戰球衣裁片親簽卡去年12月以300萬美元（約新台幣9,486萬元）成交紀錄，但這次拍賣仍是重要里程碑，據信這是大谷無親簽或無實戰球衣裁片球員卡，首張成交價突破100萬美元。\n對收藏家而言，詹姆斯和大谷早已不只是籃球和棒球偶像，持續刷新天價的球員紀念品更讓他們成為炙手可熱的優質資產。\n大谷翔平場外收入破 32 億全球第一，美媒：棒球界喬丹\n大谷翔平創造 1,300 億日圓經濟奇蹟，日本三本柱引爆跨太平洋商機\n從這裡可透過《Google 新聞》追蹤 TechNews",
-    "source": "科技新報",
-    "category": "tech",
-    "lang": "zh",
-    "topic": "Tech",
-    "published": "2026-06-30T10:15:12+00:00",
-    "crawled": "2026-07-05T12:22:18.743631+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/cly004391wno?at_medium=RSS&at_campaign=rss",
     "title": "Harry Styles beats Taylor Swift's and Coldplay's Wembley records",
     "summary": "The Watermelon Sugar singer is the first artist to perform 12 shows on a single tour at the stadium.",
@@ -4322,8 +4252,15 @@
     "topic": "General",
     "published": "2026-07-05T11:08:38+00:00",
     "crawled": "2026-07-05T12:22:22.181513+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 哈利·史泰爾斯在溫布利體育場完成了12場全場售罄的演出，創下單年及單次演出系列的紀錄  \n• 此次演出超越了酷玩樂隊和泰勒·斯威夫特的紀錄，成為在該場地演出的最多次數的藝術家  \n• 史泰爾斯在最後一場演出中向前樂隊成員致敬，並回顧了他在《X Factor》節目中的經歷  \n• 他的巡演將繼續前往巴西、墨西哥和美國，並於12月在澳大利亞結束",
+    "summaries": {
+      "zh-HK": "• 哈利·史泰爾斯在溫布利體育場完成了12場全場售罄的演出，創下單年及單次演出系列的紀錄  \n• 此次演出超越了酷玩樂隊和泰勒·斯威夫特的紀錄，成為在該場地演出的最多次數的藝術家  \n• 史泰爾斯在最後一場演出中向前樂隊成員致敬，並回顧了他在《X Factor》節目中的經歷  \n• 他的巡演將繼續前往巴西、墨西哥和美國，並於12月在澳大利亞結束",
+      "en": "Title: Harry Styles beats Taylor Swift's and Coldplay's Wembley records\nSummary:\n• Harry Styles completed 12 sold-out shows at Wembley Stadium, setting records for both single-year and single-run performances.\n• This performance surpassed the records of Coldplay and Taylor Swift, making him the artist with the most performances at the venue.\n• Styles paid tribute to former band members during his final show and reflected on his experiences on \"The X Factor.\"\n• His tour will continue to Brazil, Mexico, and the United States, concluding in Australia in December.",
+      "zh-CN": "标题：哈利·史泰爾斯打破泰勒·斯威夫特和酷玩乐队的温布利记录\n摘要：\n• 哈利·史泰尔斯在温布利体育场完成了12场全场售罄的演出，创下单年及单次演出系列的纪录。\n• 此次演出超越了酷玩乐队和泰勒·斯威夫特的纪录，成为在该场地演出的最多次数的艺术家。\n• 史泰尔斯在最后一场演出中向前乐队成员致敬，并回顾了他在《X Factor》节目中的经历。\n• 他的巡演将继续前往巴西、墨西哥和美国，并于12月在澳大利亚结束。",
+      "ja": "タイトル：ハリー・スタイルズがテイラー・スウィフトとコールドプレイのウェンブリー記録を破る\n要約：\n• ハリー・スタイルズはウェンブリー・スタジアムで12回の完売公演を達成し、単年および単一公演シリーズの記録を樹立した。\n• この公演はコールドプレイとテイラー・スウィフトの記録を超え、同会場での最多公演アーティストとなった。\n• スタイルズは最後の公演で元バンドメンバーに敬意を表し、「Xファクター」での経験を振り返った。\n• 彼のツアーはブラジル、メキシコ、アメリカに続き、12月にオーストラリアで終了する。",
+      "ko": "제목: 해리 스타일스, 테일러 스위프트와 콜드플레이의 웸블리 기록을 깨다\n요약:\n• 해리 스타일스는 웸블리 스타디움에서 12회의 매진 공연을 완료하며 단일 연도 및 단일 공연 시리즈 기록을 세웠다.\n• 이번 공연은 콜드플레이와 테일러 스위프트의 기록을 초월하여 해당 장소에서"
+    }
   },
   {
     "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/indonesian-army-recovers-us-pilots-body-from-papua?traffic_source=rss",
@@ -4336,8 +4273,15 @@
     "topic": "General",
     "published": "2026-07-05T12:00:55+00:00",
     "crawled": "2026-07-05T12:22:23.655740+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 印尼軍隊於2026年7月5日從巴布亞地區恢復美國飛行員尼古拉斯·戈塞林的遺體  \n• 戈塞林上週遭分裂主義者「巴庫西普」叛軍殺害  \n• 此次行動由10名成員和三架直升機參與  \n• 巴布亞地區近期局勢動盪，導致軍事行動增加",
+    "summaries": {
+      "zh-HK": "• 印尼軍隊於2026年7月5日從巴布亞地區恢復美國飛行員尼古拉斯·戈塞林的遺體  \n• 戈塞林上週遭分裂主義者「巴庫西普」叛軍殺害  \n• 此次行動由10名成員和三架直升機參與  \n• 巴布亞地區近期局勢動盪，導致軍事行動增加",
+      "en": "Title: Indonesian army recovers US pilot’s body from Papua\nSummary:\n• Indonesian army recovered the body of US pilot Nicholas Gosselin from the Papua region on July 5, 2026\n• Gosselin was killed last week by separatist rebels known as \"Bakusip\"\n• The operation involved 10 members and three helicopters\n• The situation in Papua has been unstable recently, leading to increased military operations",
+      "zh-CN": "标题：印尼军队从巴布亚恢复美国飞行员的遗体\n摘要：\n• 印尼军队于2026年7月5日从巴布亚地区恢复美国飞行员尼古拉斯·戈塞林的遗体\n• 戈塞林上周遭分裂主义者“巴库西普”叛军杀害\n• 此次行动由10名成员和三架直升机参与\n• 巴布亚地区近期局势动荡，导致军事行动增加",
+      "ja": "タイトル：インドネシア軍がパプアで米国パイロットの遺体を回収\n要約：\n• インドネシア軍は2026年7月5日にパプア地域で米国パイロットのニコラス・ゴセリンの遺体を回収した\n• ゴセリンは先週、分離主義者「バクシップ」によって殺害された\n• この作戦には10人のメンバーと3機のヘリコプターが参加した\n• パプア地域は最近不安定な状況にあり、軍事行動が増加している",
+      "ko": "제목: 인도네시아 군대, 파푸아에서 미국 조종사의 시신을 회수하다\n요약:\n• 인도네시아 군대는 2026년 7월 5일 파푸아 지역에서 미국 조종사 니콜라스 고셀린의 시신을 회수했다\n• 고셀린은 지난주 분리주의자 '바쿠시프' 반군에 의해 살해되었다\n• 이번 작전에는 10명의 대원과 3대의 헬리콥터가 참여했다\n• 최근 파푸아 지역의 상황이 불안정해져 군사 작전이 증가하고 있다"
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/5/jailed-gaza-hospital-chief-in-life-threatening-condition-rights-group-says?traffic_source=rss",
@@ -4350,8 +4294,14 @@
     "topic": "Health",
     "published": "2026-07-05T11:24:18+00:00",
     "crawled": "2026-07-05T12:22:23.725423+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 巴勒斯坦醫生侯薩姆·阿布·薩菲亞在以色列被拘留超過555天，健康狀況急劇惡化，權利組織警告其生命危險  \n• 其子艾利亞斯·阿布·薩菲亞發出緊急呼籲，指控以色列當局對其父進行虐待，並表示其面部因酷刑而變形  \n• 阿布·薩菲亞於2024年12月27日在工作時被以色列軍隊逮捕，當時以色列加強了對加沙北部醫療系統的攻擊  \n• 以色列人權醫生組織警告阿布·薩菲亞的生命面臨直接危險，並描述其在獄中遭受的嚴重傷害和虐待情況",
+    "summaries": {
+      "zh-HK": "• 巴勒斯坦醫生侯薩姆·阿布·薩菲亞在以色列被拘留超過555天，健康狀況急劇惡化，權利組織警告其生命危險  \n• 其子艾利亞斯·阿布·薩菲亞發出緊急呼籲，指控以色列當局對其父進行虐待，並表示其面部因酷刑而變形  \n• 阿布·薩菲亞於2024年12月27日在工作時被以色列軍隊逮捕，當時以色列加強了對加沙北部醫療系統的攻擊  \n• 以色列人權醫生組織警告阿布·薩菲亞的生命面臨直接危險，並描述其在獄中遭受的嚴重傷害和虐待情況",
+      "en": "Title: Jailed Gaza hospital chief in life-threatening condition, rights group says\nSummary:\n• Palestinian doctor Hussam Abu Safia has been detained by Israel for over 555 days, with his health deteriorating sharply, rights groups warn of his life-threatening condition.\n• His son, Elias Abu Safia, issued an urgent appeal, accusing Israeli authorities of abusing his father and stating that his face has been disfigured due to torture.\n• Abu Safia was arrested by Israeli forces on December 27, 2024, while at work, as Israel intensified its attacks on the medical system in northern Gaza.\n• Israeli human rights organizations warn that Abu Safia's life is in direct danger, describing the severe injuries and abuse he has suffered in prison.",
+      "zh-CN": "标题：被监禁的加沙医院负责人健康危急，权利组织称\n摘要：\n• 巴勒斯坦医生侯萨姆·阿布·萨菲亚在以色列被拘留超过555天，健康状况急剧恶化，权利组织警告其生命危险。\n• 其子艾利亚斯·阿布·萨菲亚发出紧急呼吁，指控以色列当局对其父进行虐待，并表示其面部因酷刑而变形。\n• 阿布·萨菲亚于2024年12月27日在工作时被以色列军队逮捕，当时以色列加强了对加沙北部医疗系统的攻击。\n• 以色列人权组织警告阿布·萨菲亚的生命面临直接危险，并描述其在监狱中遭受的严重伤害和虐待情况。",
+      "ja": "タイトル：監禁されたガザ病院長が生命の危険にさらされていると権利団体が発表\n要約：\n• パレスチナの医師フサム・アブ・サフィアは、イスラエルに拘留されて555日以上が経過し、健康状態が急激に悪化していると権利団体が警告している。\n• 彼の息子エリアス・アブ・サフィアは緊急の訴えを発表し、イスラエル当局が父親に対して虐待を行っていると非難し、拷問によって顔が変形したと述べた。\n• アブ・サフィアは2024年12月27日に仕事中にイスラエル軍に逮捕され、その時イスラエルはガザ北部の医療システムへの攻撃を強化していた。\n• イスラエルの人権団体は、アブ"
+    }
   },
   {
     "url": "https://www.aljazeera.com/sports/2026/7/5/sooryavanshi-sets-record-for-youngest-india-player-in-international-match?traffic_source=rss",
@@ -4364,8 +4314,15 @@
     "topic": "World",
     "published": "2026-07-05T11:09:31+00:00",
     "crawled": "2026-07-05T12:22:23.786534+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 印度青少年球員Vaibhav Sooryavanshi在2026年7月4日的國際比賽中以15歲99天的年齡創下最年輕國際球員紀錄  \n• Sooryavanshi在對英國的第二場T20比賽中出場，打出14分，並擊出兩個六分球  \n• 英國隊由Jacob Bethell主導，以76不敗的成績幫助球隊以四個 wickets戰勝印度，取得五場系列賽的1-0領先  \n• 比賽在曼徹斯特的老特拉福德球場進行，Sooryavanshi在主要的印度觀眾面前首次亮相",
+    "summaries": {
+      "zh-HK": "• 印度青少年球員Vaibhav Sooryavanshi在2026年7月4日的國際比賽中以15歲99天的年齡創下最年輕國際球員紀錄  \n• Sooryavanshi在對英國的第二場T20比賽中出場，打出14分，並擊出兩個六分球  \n• 英國隊由Jacob Bethell主導，以76不敗的成績幫助球隊以四個 wickets戰勝印度，取得五場系列賽的1-0領先  \n• 比賽在曼徹斯特的老特拉福德球場進行，Sooryavanshi在主要的印度觀眾面前首次亮相",
+      "en": "Title: Sooryavanshi sets record for youngest India player in international match\nSummary:\n• Indian youth player Vaibhav Sooryavanshi set the record for the youngest international player at the age of 15 years and 99 days during an international match on July 4, 2026.\n• Sooryavanshi made his debut in the second T20 match against England, scoring 14 runs and hitting two sixes.\n• The England team, led by Jacob Bethell, secured a victory over India by four wickets, taking a 1-0 lead in the five-match series with a score of 76 not out.\n• The match took place at Old Trafford in Manchester, where Sooryavanshi made his debut in front of a major Indian audience.",
+      "zh-CN": "标题：Sooryavanshi创下印度国际比赛最年轻球员纪录\n摘要：\n• 印度青少年球员Vaibhav Sooryavanshi在2026年7月4日的国际比赛中以15岁99天的年龄创下最年轻国际球员纪录\n• Sooryavanshi在对英国的第二场T20比赛中出场，打出14分，并击出两个六分球\n• 英国队由Jacob Bethell主导，以76不败的成绩帮助球队以四个wickets战胜印度，取得五场系列赛的1-0领先\n• 比赛在曼彻斯特的老特拉福德球场进行，Sooryavanshi在主要的印度观众面前首次亮相",
+      "ja": "タイトル：スーリヤヴァンシが国際試合で最年少のインド選手の記録を樹立\n要約：\n• インドの若手選手ヴァイバフ・スーリヤヴァンシが、2026年7月4日の国際試合で15歳99日で最年少の国際選手の記録を樹立\n• スーリヤヴァンシはイングランドとの第2 T20試合に出場し、14点を獲得し、2本の6点を打ちました\n• イングランドチームはジェイコブ・ベセルの指導の下、76点無失点でインドに4ウィケットで勝利し、5試合のシリーズで1-0のリードを獲得\n• 試合はマンチェスターのオールド・トラフォードで行われ、スーリヤヴァンシは主要なインドの観客の前でデビューしました",
+      "ko": "제목: 수리야반시, 국제 경기에서 최연소 인도 선수 기록 세워"
+    }
   },
   {
     "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/trump-praises-us-military-as-it-marks-250-years-of-independence?traffic_source=rss",
@@ -4378,8 +4335,15 @@
     "topic": "Politics",
     "published": "2026-07-05T11:06:45+00:00",
     "crawled": "2026-07-05T12:22:23.856383+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國總統特朗普在華盛頓特區的演講中讚揚美國軍隊，慶祝獨立250周年 \n• 特朗普表示，國家的力量歸功於他重建的軍隊 \n• 演講與他在選舉期間的反干預立場形成對比 \n• 報導由半島電視台的海蒂·周-卡斯特羅提供",
+    "summaries": {
+      "zh-HK": "• 美國總統特朗普在華盛頓特區的演講中讚揚美國軍隊，慶祝獨立250周年 \n• 特朗普表示，國家的力量歸功於他重建的軍隊 \n• 演講與他在選舉期間的反干預立場形成對比 \n• 報導由半島電視台的海蒂·周-卡斯特羅提供",
+      "en": "Title: Trump praises US military as it marks 250 years of independence\nSummary:\n• President Trump praised the US military in a speech in Washington, D.C., celebrating the 250th anniversary of independence.\n• Trump stated that the strength of the nation is due to the military he rebuilt.\n• The speech contrasts with his anti-intervention stance during the election period.\n• Report provided by Heidy Zhou-Castro of Al Jazeera.",
+      "zh-CN": "标题：特朗普赞扬美国军队，庆祝独立250周年\n摘要：\n• 美国总统特朗普在华盛顿特区的演讲中赞扬美国军队，庆祝独立250周年。\n• 特朗普表示，国家的力量归功于他重建的军队。\n• 演讲与他在选举期间的反干预立场形成对比。\n• 报导由半岛电视台的海蒂·周-卡斯特罗提供。",
+      "ja": "タイトル：トランプ大統領が米軍を称賛、独立250周年を祝う\n要約：\n• トランプ大統領はワシントンD.C.での演説で米軍を称賛し、独立250周年を祝いました。\n• トランプ氏は、国家の力は彼が再建した軍隊のおかげだと述べました。\n• この演説は、選挙期間中の彼の反介入スタンスと対照的です。\n• 報告はアルジャジーラのハイディ・ジョウ＝カストロによるものです。",
+      "ko": "제목: 트럼프, 독립 250주년 기념하며 미국 군대 찬양\n요약:\n• 트럼프 대통령은 워싱턴 D.C.에서의 연설에서 미국 군대를 찬양하며 독립 250주년을 기념했습니다.\n• 트럼프는 국가의 힘이 그가 재건한 군대 덕분이라고 밝혔습니다.\n• 이 연설은 선거 기간 동안의 반개입 입장과 대조를 이룹니다.\n• 보도는 알자지라의 하이디 저우-카스트로가 제공했습니다."
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/5/china-and-russia-to-hold-annual-joint-naval-drills?traffic_source=rss",
@@ -4392,8 +4356,15 @@
     "topic": "General",
     "published": "2026-07-05T11:03:51+00:00",
     "crawled": "2026-07-05T12:22:23.986283+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 中國和俄羅斯海軍將於本週在中國東海岸舉行聯合演習，時間從7月6日至13日。  \n• 中國國防部表示，演習將在青島附近進行，隨後將展開太平洋的聯合海上巡邏。  \n• 俄羅斯太平洋艦隊的巡洋艦、護衛艦、柴油電動潛艇和救援船已抵達青島參加演習。  \n• 兩國海軍將進行偵察、空中和導彈防禦及水面打擊演練，這是自2012年以來的年度聯合海軍演習。",
+    "summaries": {
+      "zh-HK": "• 中國和俄羅斯海軍將於本週在中國東海岸舉行聯合演習，時間從7月6日至13日。  \n• 中國國防部表示，演習將在青島附近進行，隨後將展開太平洋的聯合海上巡邏。  \n• 俄羅斯太平洋艦隊的巡洋艦、護衛艦、柴油電動潛艇和救援船已抵達青島參加演習。  \n• 兩國海軍將進行偵察、空中和導彈防禦及水面打擊演練，這是自2012年以來的年度聯合海軍演習。",
+      "en": "Title: China and Russia to hold annual joint naval drills\nSummary:\n• China and Russia's navies will conduct joint exercises off the eastern coast of China from July 6 to 13.\n• The Chinese Ministry of Defense stated that the drills will take place near Qingdao, followed by joint maritime patrols in the Pacific.\n• The Russian Pacific Fleet's cruisers, frigates, diesel-electric submarines, and rescue ships have arrived in Qingdao for the exercises.\n• The two navies will engage in reconnaissance, air and missile defense, and surface strike drills, marking the annual joint naval exercises since 2012.",
+      "zh-CN": "标题：中俄将举行年度联合海军演习\n摘要：\n• 中国和俄罗斯海军将于本周在中国东海岸举行联合演习，时间从7月6日至13日。\n• 中国国防部表示，演习将在青岛附近进行，随后将展开太平洋的联合海上巡逻。\n• 俄罗斯太平洋舰队的巡洋舰、护卫舰、柴油电动潜艇和救援船已抵达青岛参加演习。\n• 两国海军将进行侦察、空中和导弹防御及水面打击演练，这是自2012年以来的年度联合海军演习。",
+      "ja": "タイトル：中国とロシアが年次共同海軍演習を実施\n要約：\n• 中国とロシアの海軍は、7月6日から13日まで中国の東海岸で共同演習を行う。\n• 中国国防省は、演習は青島近くで行われ、その後太平洋での共同海上巡視が行われると述べた。\n• ロシア太平洋艦隊の巡洋艦、フリゲート艦、ディーゼル電動潜水艦、救助船が青島に到着し、演習に参加する。\n• 両国の海軍は、偵察、空中およびミサイル防衛、表面攻撃の演習を行い、2012年以来の年次共同海軍演習となる。",
+      "ko": "제목: 중국과 러시아, 연례 합동 해군 훈련 실시\n요약:\n• 중국과 러시아 해군은 7월 6일부터 13일까지 중국 동해안에서 합동 훈련을 실시할 예정이다.\n• 중국 국방부는 훈련이 칭다오 근처에서 진행되며, 이후 태평양에서의 합동 해상 순찰이 이어질 것이라고 밝혔다.\n• 러시아 태평양 함대의 순양함, 호위함, 디�"
+    }
   },
   {
     "url": "https://www.aljazeera.com/opinions/2026/7/5/release-dr-hussam-abu-safia-immediately?traffic_source=rss",
@@ -4448,8 +4419,15 @@
     "topic": "Politics",
     "published": "2026-07-05T12:00:06+00:00",
     "crawled": "2026-07-05T12:22:27.961629+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 前眾議院議長南希·佩洛西支持康妮·陳參選加州第11選區，將接替她的國會職位  \n• 康妮·陳是一位47歲的進步派，專注於地方議題，並對中國持較柔和的立場  \n• 陳在上個月的初選中獲得進入11月決選的資格，落後於州參議員斯科特·維納11個百分點  \n• 佩洛西自1987年進入國會，並於2023年卸任議長，預計在明年1月結束其國會生涯",
+    "summaries": {
+      "zh-HK": "• 前眾議院議長南希·佩洛西支持康妮·陳參選加州第11選區，將接替她的國會職位  \n• 康妮·陳是一位47歲的進步派，專注於地方議題，並對中國持較柔和的立場  \n• 陳在上個月的初選中獲得進入11月決選的資格，落後於州參議員斯科特·維納11個百分點  \n• 佩洛西自1987年進入國會，並於2023年卸任議長，預計在明年1月結束其國會生涯",
+      "en": "Title: Could China hawk Nancy Pelosi’s pick for US Congress influence Beijing ties?\nSummary:\n• Former House Speaker Nancy Pelosi endorses Connie Chen for California's 11th congressional district, aiming to succeed her congressional seat\n• Connie Chen is a 47-year-old progressive focused on local issues and holds a softer stance on China\n• Chen qualified for the November runoff in last month's primary, trailing state Senator Scott Wiener by 11 percentage points\n• Pelosi has been in Congress since 1987 and stepped down as Speaker in 2023, expected to end her congressional career in January next year",
+      "zh-CN": "标题：南希·佩洛西的国会候选人会影响与北京的关系吗？\n摘要：\n• 前众议院议长南希·佩洛西支持康妮·陈参选加州第11选区，旨在接替她的国会职位\n• 康妮·陈是一位47岁的进步派，专注于地方议题，并对中国持较柔和的立场\n• 陈在上个月的初选中获得进入11月决选的资格，落后于州参议员斯科特·维纳11个百分点\n• 佩洛西自1987年进入国会，并于2023年卸任议长，预计在明年1月结束其国会生涯",
+      "ja": "タイトル：ナンシー・ペロシの米国議会候補者は北京との関係に影響を与えるか？\n要約：\n• 前下院議長ナンシー・ペロシがカリフォルニア州第11選挙区のコンニ・チェンを支持し、彼女の議会の地位を引き継ぐことを目指す\n• コンニ・チェンは47歳の進歩派で、地域問題に焦点を当て、中国に対してはより穏やかな立場を取っている\n• チェンは先月の予備選挙で11月の決選投票に進出する資格を得たが、州上院議員スコット・ウィーナーに11ポイント差で遅れを取っている\n• ペロシは1987年から議会に在籍し、2023年に議長を辞任し、来年1月に議会生活を終える予定",
+      "ko": "제목: 낸시 펠로시의 미국 의회 후보가 베이징과의 관계에 영향을 미칠 수 있을까?\n요약:\n• 전 하원의장 낸시 펠로시가 캘리포니아 11선거구에 콘니 첸을 지지하며 자신의 의회 자리를 이어받으려 한다"
+    }
   },
   {
     "url": "https://www.scmp.com/news/china/article/3359475/cheers-should-have-limits-chinese-province-calls-foul-fans-japan-world-cup-team?utm_source=rss_feed",
@@ -4560,8 +4538,15 @@
     "topic": "World",
     "published": "2026-07-05T12:00:03+00:00",
     "crawled": "2026-07-05T12:22:39.973712+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 根據《金融時報》調查，美國選民認為特朗普的伊朗戰爭不值得付出代價  \n• 調查顯示，選民對於持續的軍事行動持批評態度  \n• 此調查結果反映出選民對外交政策的擔憂  \n• 特朗普政府的伊朗政策在選舉前夕引發了廣泛討論和關注",
+    "summaries": {
+      "zh-HK": "• 根據《金融時報》調查，美國選民認為特朗普的伊朗戰爭不值得付出代價  \n• 調查顯示，選民對於持續的軍事行動持批評態度  \n• 此調查結果反映出選民對外交政策的擔憂  \n• 特朗普政府的伊朗政策在選舉前夕引發了廣泛討論和關注",
+      "en": "Title: US voters say Trump’s Iran war not worth the cost — FT poll\nSummary:\n• According to a Financial Times poll, US voters believe Trump's Iran war is not worth the cost\n• The survey shows that voters are critical of ongoing military actions\n• This poll reflects voters' concerns about foreign policy\n• Trump's Iran policy has sparked widespread discussion and attention ahead of the elections",
+      "zh-CN": "标题：美国选民认为特朗普的伊朗战争不值得付出代价 — 《金融时报》调查\n摘要：\n• 根据《金融时报》调查，美国选民认为特朗普的伊朗战争不值得付出代价\n• 调查显示，选民对持续的军事行动持批评态度\n• 此调查结果反映出选民对外交政策的担忧\n• 特朗普政府的伊朗政策在选举前夕引发了广泛讨论和关注",
+      "ja": "タイトル：米国有権者はトランプのイラン戦争はコストに見合わないと考えている — FT調査\n要約：\n• フィナンシャル・タイムズの調査によると、米国の有権者はトランプのイラン戦争はコストに見合わないと考えている\n• 調査は、有権者が継続的な軍事行動に批判的であることを示している\n• この調査結果は、有権者の外交政策に対する懸念を反映している\n• トランプ政権のイラン政策は、選挙前に広範な議論と関心を呼び起こしている",
+      "ko": "제목: 미국 유권자들은 트럼프의 이란 전쟁이 비용에 비해 가치가 없다고 말하다 — FT 조사\n요약:\n• 《파이낸셜 타임스》 조사에 따르면, 미국 유권자들은 트럼프의 이란 전쟁이 비용에 비해 가치가 없다고 생각하고 있다\n• 조사 결과, 유권자들은 지속적인 군사 작전에 대해 비판적인 태도를 보이고 있다\n• 이 조사 결과는 유권자들의 외교 정책에 대한 우려를 반영하고 있다\n• 트럼프 정부의 이란 정책은 선거를 앞두고 광범위한 논의와 관심을 불러일으켰다"
+    }
   },
   {
     "url": "https://www.ft.com/content/33da8720-996b-49e3-a34a-61d33095c541",
@@ -4588,8 +4573,15 @@
     "topic": "Finance",
     "published": "2026-07-05T12:04:28+00:00",
     "crawled": "2026-07-05T12:22:41.027988+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 伊朗最高領袖哈梅內伊的葬禮於近日舉行，伊朗領導層展現團結 \n• 重要官員及宗教領袖出席，但哈梅內伊的接班人缺席 \n• 此次葬禮被視為對伊朗政權穩定性的一次考驗 \n• 哈梅內伊於2023年去世，享年84歲，對伊朗的影響深遠",
+    "summaries": {
+      "zh-HK": "• 伊朗最高領袖哈梅內伊的葬禮於近日舉行，伊朗領導層展現團結 \n• 重要官員及宗教領袖出席，但哈梅內伊的接班人缺席 \n• 此次葬禮被視為對伊朗政權穩定性的一次考驗 \n• 哈梅內伊於2023年去世，享年84歲，對伊朗的影響深遠",
+      "en": "Title: Iran leadership shows unity at ayatollah’s funeral, but successor absent\nSummary:\n• The funeral of Iran's Supreme Leader Khamenei was held recently, showcasing unity among Iranian leadership.\n• Key officials and religious leaders attended, but Khamenei's successor was absent.\n• The funeral is seen as a test of the stability of the Iranian regime.\n• Khamenei passed away in 2023 at the age of 84, leaving a profound impact on Iran.",
+      "zh-CN": "标题：伊朗领导层在大阿亚图拉的葬礼上展现团结，但接班人缺席\n摘要：\n• 伊朗最高领袖哈梅内伊的葬礼于近日举行，伊朗领导层展现团结。\n• 重要官员及宗教领袖出席，但哈梅内伊的接班人缺席。\n• 此次葬礼被视为对伊朗政权稳定性的一次考验。\n• 哈梅内伊于2023年去世，享年84岁，对伊朗的影响深远。",
+      "ja": "タイトル：イランの指導者たち、アーヤトラの葬儀で団結を示すも、後継者は不在\n要約：\n• イランの最高指導者ハメネイの葬儀が最近行われ、イランの指導層の団結が示された。\n• 重要な官僚や宗教指導者が出席したが、ハメネイの後継者は不在だった。\n• この葬儀はイラン政権の安定性の試金石と見なされている。\n• ハメネイは2023年に84歳で亡くなり、イランに深い影響を与えた。",
+      "ko": "제목: 이란 지도부, 아야톨라 장례식에서 단결을 보여주지만 후계자는 불참\n요약:\n• 이란 최고 지도자 하메네이의 장례식이 최근 열려 이란 지도부의 단결을 보여주었다.\n• 주요 관료와 종교 지도자들이 참석했지만, 하메네이의 후계자는 불참했다.\n• 이번 장례식은 이란 정권의 안정성에 대한 시험으로 여겨진다.\n• 하메네이는 2023년에 84세로 세상을 떠났으며, 이란에 깊은 영향을 미쳤다."
+    }
   },
   {
     "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-july-2026-on-netflix-hulu-hbo-max-and-more-58d07528?mod=mw_rss_topstories",
@@ -4714,8 +4706,15 @@
     "topic": "World",
     "published": "2026-07-05T12:00:00+00:00",
     "crawled": "2026-07-05T12:22:46.745540+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 微軟的遊戲部門面臨重大變革，因為過去幾年做出了一系列不佳的決策，新的CEO Asha Sharma警告需要進行“重置”並作出“艱難的選擇”  \n• 隨著報導指出即將裁員、關閉工作室和取消遊戲，Ninja Theory可能成為受影響的工作室之一  \n• 微軟的遊戲部門自2001年推出原始Xbox以來，經歷了顯著的衰退，尤其是在2013年Xbox One的失敗推出後  \n• 儘管Game Pass最初受歡迎，但隨著訂閱人數停滯，微軟在訂閱服務上的巨額投資未能帶來預期的增長",
+    "summaries": {
+      "zh-HK": "• 微軟的遊戲部門面臨重大變革，因為過去幾年做出了一系列不佳的決策，新的CEO Asha Sharma警告需要進行“重置”並作出“艱難的選擇”  \n• 隨著報導指出即將裁員、關閉工作室和取消遊戲，Ninja Theory可能成為受影響的工作室之一  \n• 微軟的遊戲部門自2001年推出原始Xbox以來，經歷了顯著的衰退，尤其是在2013年Xbox One的失敗推出後  \n• 儘管Game Pass最初受歡迎，但隨著訂閱人數停滯，微軟在訂閱服務上的巨額投資未能帶來預期的增長",
+      "en": "Title: Xbox is a disaster\nSummary:\n• Microsoft's gaming division is facing significant changes, as a series of poor decisions over the past few years have led new CEO Asha Sharma to warn of a need for a \"reset\" and \"difficult choices.\"\n• With reports indicating upcoming layoffs, studio closures, and game cancellations, Ninja Theory may be one of the affected studios.\n• Microsoft's gaming division has experienced a notable decline since the original Xbox launched in 2001, particularly following the failed launch of the Xbox One in 2013.\n• Although Game Pass was initially popular, Microsoft's massive investment in the subscription service has not yielded the expected growth as subscriber numbers stagnate.",
+      "zh-CN": "标题：Xbox是个灾难\n摘要：\n• 微软的游戏部门面临重大变革，因为过去几年做出了一系列不佳的决策，新的CEO Asha Sharma警告需要进行“重置”并作出“艰难的选择”。\n• 随着报道指出即将裁员、关闭工作室和取消游戏，Ninja Theory可能成为受影响的工作室之一。\n• 微软的游戏部门自2001年推出原始Xbox以来，经历了显著的衰退，尤其是在2013年Xbox One的失败推出后。\n• 尽管Game Pass最初受欢迎，但随着订阅人数停滞，微软在订阅服务上的巨额投资未能带来预期的增长。",
+      "ja": "タイトル：Xboxは災害である\n要約：\n• マイクロソフトのゲーム部門は重大な変革に直面しており、過去数年間の一連の不適切な決定により、新しいCEOのアシャ・シャルマは「リセット」と「困難な選択」が必要であると警告しています。\n• 今後の解雇、スタジオの閉鎖、ゲームのキャンセルが報じられる中、Ninja Theoryが影響を受けるスタジオの一つになる可能性があります。\n• マイクロソフトのゲーム部門は、2001年にオリジナルXboxが発売されて以来、特に2013年のXbox Oneの失敗した発売以降、著しい衰退を経験しています。\n• Game Passは当初人気がありましたが、加入者数が停滞する中、マイクロソフトのサブスクリプションサービスへの巨額投資は期待された成長をもたらしていません。",
+      "ko": "제목: Xbox는 재앙이다\n요약:\n• 마이크로소프트의 게임 부문은 지난 몇 년간의 일련의 잘못된 결정으로 인해 새로운 CEO 아샤 �"
+    }
   },
   {
     "url": "https://arstechnica.com/science/2026/07/editorial-the-most-important-thing-you-can-do-to-protect-science/",
@@ -4756,8 +4755,15 @@
     "topic": "AI",
     "published": "2026-07-05T12:16:17+00:00",
     "crawled": "2026-07-05T12:22:50.998280+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 長蒙特時報刊登讀者來信，討論人工智慧的挑戰與困難  \n• 來信者提到人工智慧在工作場所的影響及其潛在的倫理問題  \n• 許多人對於人工智慧取代人類工作的擔憂日益增加  \n• 文章呼籲對人工智慧的發展進行更深入的討論與監管",
+    "summaries": {
+      "zh-HK": "• 長蒙特時報刊登讀者來信，討論人工智慧的挑戰與困難  \n• 來信者提到人工智慧在工作場所的影響及其潛在的倫理問題  \n• 許多人對於人工智慧取代人類工作的擔憂日益增加  \n• 文章呼籲對人工智慧的發展進行更深入的討論與監管",
+      "en": "Title: Letters: Difficulties with artificial intelligence - Longmont Times-Call\nSummary:\n• Longmont Times-Call published letters from readers discussing the challenges and difficulties of artificial intelligence\n• Correspondents mentioned the impact of artificial intelligence in the workplace and its potential ethical issues\n• Many people are increasingly concerned about artificial intelligence replacing human jobs\n• The article calls for more in-depth discussion and regulation of the development of artificial intelligence",
+      "zh-CN": "标题：信件：人工智能的困难 - 长蒙特时报\n摘要：\n• 长蒙特时报刊登读者来信，讨论人工智慧的挑战与困难\n• 来信者提到人工智慧在工作场所的影响及其潜在的伦理问题\n• 许多人对于人工智慧取代人类工作的担忧日益增加\n• 文章呼吁对人工智慧的发展进行更深入的讨论与监管",
+      "ja": "タイトル：手紙：人工知能の困難 - ロングモント・タイムズコール\n要約：\n• ロングモント・タイムズコールは、人工知能の課題と困難について読者からの手紙を掲載した\n• 投稿者は、職場における人工知能の影響とその潜在的な倫理問題について言及した\n• 多くの人々が人工知能による人間の仕事の置き換えについてますます懸念を抱いている\n• 記事は、人工知能の発展についてより深い議論と規制を求めている",
+      "ko": "제목: 편지: 인공지능의 어려움 - 롱몬트 타임즈콜\n요약:\n• 롱몬트 타임즈콜은 독자들의 편지를 게재하여 인공지능의 도전과 어려움에 대해 논의했다\n• 편지 작성자들은 직장에서의 인공지능 영향과 그 잠재적인 윤리적 문제에 대해 언급했다\n• 많은 사람들이 인공지능이 인간의 일자리를 대체할 것에 대한 우려가 커지고 있다\n• 이 기사는 인공지능 발전에 대한 보다 심도 있는 논의와 규제를 촉구하고 있다"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUUl3UzlPcEh5LS1uQTc0OFVjTU1YcVNHTElOdzN2VEJBd2dUeUllY2RCR05vTDdxN1BwVDdUbXROSDIwMkozeVNJcGs0WTJyUFhmUU01Tmt6YWh0Vjc3VnYtaEZfUEszTldCV1l5d2RVVkFfa2x0VktFZXU5Q2NhRHkxcWRmUlQ1YXRhRndEQ1EyemotcEkyY2xPSHZ1RG5DUTBvV0hmT0ZGTUF2?oc=5",
@@ -4770,8 +4776,15 @@
     "topic": "AI",
     "published": "2026-07-05T12:00:00+00:00",
     "crawled": "2026-07-05T12:22:51.145948+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 新技術如人工智慧在性別偏見方面仍面臨挑戰，未能有效克服舊有模式  \n• 研究顯示，AI系統的訓練數據中存在性別偏見，影響其決策和結果  \n• 專家指出，解決這一問題需要改變數據收集和算法設計的方法  \n• 性別平等的推動者呼籲科技公司在開發AI時更加重視多樣性和包容性",
+    "summaries": {
+      "zh-HK": "• 新技術如人工智慧在性別偏見方面仍面臨挑戰，未能有效克服舊有模式  \n• 研究顯示，AI系統的訓練數據中存在性別偏見，影響其決策和結果  \n• 專家指出，解決這一問題需要改變數據收集和算法設計的方法  \n• 性別平等的推動者呼籲科技公司在開發AI時更加重視多樣性和包容性",
+      "en": "Title: New technology, old patterns: Why artificial intelligence struggles to outgrow gender bias - Straight Arrow News - SAN - Unbiased. Straight Facts.\nSummary:\n• New technologies like artificial intelligence still face challenges with gender bias, failing to effectively overcome old patterns\n• Research shows that training data for AI systems contains gender bias, affecting their decisions and outcomes\n• Experts point out that addressing this issue requires changing the methods of data collection and algorithm design\n• Advocates for gender equality urge tech companies to prioritize diversity and inclusion in AI development",
+      "zh-CN": "标题：新技术，旧模式：为什么人工智能难以摆脱性别偏见 - 直箭新闻 - SAN - 公正。直白的事实。\n摘要：\n• 新技术如人工智慧在性别偏见方面仍面临挑战，未能有效克服旧有模式\n• 研究显示，AI系统的训练数据中存在性别偏见，影响其决策和结果\n• 专家指出，解决这一问题需要改变数据收集和算法设计的方法\n• 性别平等的推动者呼吁科技公司在开发AI时更加重视多样性和包容性",
+      "ja": "タイトル：新技術、古いパターン：なぜ人工知能は性別バイアスを克服できないのか - ストレートアロー・ニュース - SAN - 偏りのない。真実を直言。\n要約：\n• 人工知能のような新技術は、性別バイアスの課題に直面しており、古いパターンを効果的に克服できていない\n• 研究によると、AIシステムのトレーニングデータには性別バイアスが含まれており、その決定や結果に影響を与えている\n• 専門家は、この問題を解決するにはデータ収集とアルゴリズム設計の方法を変える必要があると指摘している\n• 性別平等の推進者は、テクノロジー企業にAI開発において多様性と包括性を重視するよう呼びかけている",
+      "ko": "제목: 새로운 기술, 오래된 패턴: 인공지능이 성별 편견을 극복하기 어려운 이유 - 스트레이트 애로 뉴스 - SAN - 편견 없는. 직설적인 사실.\n요약:\n• 인공지능과 같은 새로운 기술은 여전히 성별 편견 문제에 직면하고 있으며, 오래된 패턴을 효과적으로 극복하지 못하고 있다\n• 연구에 따르면 AI 시스템의 훈련 데이터에는 성별 편견이 포함되어 있어 결정과 결과에 영향을 미친다\n•"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMjZHNF9SMVVFS1ByME14QXluNG9zN2xNUWUtcEVhUWMzSHVUT3IzZDBpU2JfU3pBVGpVUE4tMFhEVTZQMkJGMWd1VEFSX2tUOUszdmxCeWMxZVZmN3lJR2NnMGY0R1NfNzlsRkxsZ241WURRVGk2YnVQWDJVbkxwSUhCNmMwNmt6dkpVQ3FOclhTSlNpdkNjRjduSUswTThKOHA3RdIBpAFBVV95cUxOMjZHNF9SMVVFS1ByME14QXluNG9zN2xNUWUtcEVhUWMzSHVUT3IzZDBpU2JfU3pBVGpVUE4tMFhEVTZQMkJGMWd1VEFSX2tUOUszdmxCeWMxZVZmN3lJR2NnMGY0R1NfNzlsRkxsZ241WURRVGk2YnVQWDJVbkxwSUhCNmMwNmt6dkpVQ3FOclhTSlNpdkNjRjduSUswTThKOHA3RQ?oc=5",
@@ -4812,8 +4825,15 @@
     "topic": "Ai",
     "published": "2026-07-05T12:00:00+00:00",
     "crawled": "2026-07-05T12:22:51.658851+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 科羅拉多州的女性面臨多種疾病，尋求聊天機器人的幫助以獲得答案  \n• 她們使用聊天機器人來獲取健康資訊和建議  \n• 這一趨勢反映了人們對數位醫療資源的需求增加  \n• 專家指出，雖然聊天機器人提供便利，但仍需謹慎對待其建議的準確性",
+    "summaries": {
+      "zh-HK": "• 科羅拉多州的女性面臨多種疾病，尋求聊天機器人的幫助以獲得答案  \n• 她們使用聊天機器人來獲取健康資訊和建議  \n• 這一趨勢反映了人們對數位醫療資源的需求增加  \n• 專家指出，雖然聊天機器人提供便利，但仍需謹慎對待其建議的準確性",
+      "en": "Title: Faced with multiple illnesses, these Colorado women turn to chatbots for answers - KUNC\nSummary:\n• Women in Colorado are facing multiple illnesses and seeking help from chatbots for answers\n• They use chatbots to obtain health information and advice\n• This trend reflects the increasing demand for digital healthcare resources\n• Experts point out that while chatbots provide convenience, caution is still needed regarding the accuracy of their suggestions",
+      "zh-CN": "标题：面对多种疾病，这些科罗拉多州女性求助于聊天机器人 - KUNC\n摘要：\n• 科罗拉多州的女性面临多种疾病，寻求聊天机器人的帮助以获得答案\n• 她们使用聊天机器人来获取健康信息和建议\n• 这一趋势反映了人们对数字医疗资源的需求增加\n• 专家指出，虽然聊天机器人提供便利，但仍需谨慎对待其建议的准确性",
+      "ja": "タイトル：複数の病気に直面しているコロラド州の女性たちがチャットボットに答えを求める - KUNC\n要約：\n• コロラド州の女性たちは複数の病気に直面し、チャットボットからの助けを求めている\n• 彼女たちは健康情報やアドバイスを得るためにチャットボットを使用している\n• この傾向は、デジタル医療リソースへの需要の増加を反映している\n• 専門家は、チャットボットが便利さを提供する一方で、その提案の正確性には注意が必要だと指摘している",
+      "ko": "제목: 여러 질병에 직면한 이 콜로라도 여성들이 챗봇에 답을 구하다 - KUNC\n요약:\n• 콜로라도의 여성들이 여러 질병에 직면하여 챗봇의 도움을 요청하고 있다\n• 그들은 건강 정보와 조언을 얻기 위해 챗봇을 사용하고 있다\n• 이 추세는 디지털 의료 자원에 대한 수요 증가를 반영하고 있다\n• 전문가들은 챗봇이 편리함을 제공하지만, 그들의 제안의 정확성에 대해 주의가 필요하다고 지적하고 있다"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPT0xnWV8yeVV2YlgzeWZkNlV5a3g2SWFJemdKZTgzRlBRS0Vqb3JJOXN4NE02QkY1MFhLc21BRlJmOWNod29lTkEwNnNsc19qRTNuSlhTYjN3WmVONlZRc1FJMTVaUkE0Mk4xV1FpU0RONVFSZnJhSFpGT2ZzTUFuVGphMnc4NktHSTRyS1lyYV8zdjBBc2Mtck02R3RhOGU4dktEOHB3el9ucUh2MWRTdFlDTHJFLWlYaklWYW1YTdIBvwFBVV95cUxOOWFYYUcySUh5MkVWVXhSSHZyek9nWVdiRkZPRk1hTUltTXNpYlFLdUNqRmRfSkplUVRQUWVtbWlvejkzM1FWcE9DWjFNdWFnZFB1RG9ERjJVWmNqUFBoSU9vS1N1RzYyQnFmclFRNGxQZkZVVFo5b2h4SGhGcUs2bTM0WWxubzBNMjRjbjJ0b05Eei1EZXJmNThNQ0lXYWtHQm01U25TVF9Ic3Z1aW4tOXdLLS1PbEYxWXF2U1Judw?oc=5",
@@ -4826,8 +4846,15 @@
     "topic": "Ai",
     "published": "2026-07-05T11:32:53+00:00",
     "crawled": "2026-07-05T12:22:51.824039+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 字節跳動和阿里巴巴在中國禁用AI代理，因應政府對AI技術的監管政策  \n• 這些措施旨在減少AI技術可能帶來的社會風險和倫理問題  \n• 禁用AI代理的決定是在2023年10月作出的，影響了多個應用程序和服務  \n• 企業表示將專注於合規發展，並探索其他技術創新方向",
+    "summaries": {
+      "zh-HK": "• 字節跳動和阿里巴巴在中國禁用AI代理，因應政府對AI技術的監管政策  \n• 這些措施旨在減少AI技術可能帶來的社會風險和倫理問題  \n• 禁用AI代理的決定是在2023年10月作出的，影響了多個應用程序和服務  \n• 企業表示將專注於合規發展，並探索其他技術創新方向",
+      "en": "Title: Are we human? Why ByteDance and Alibaba are disabling AI agents in China - South China Morning Post\nSummary:\n• ByteDance and Alibaba are disabling AI agents in China in response to government regulations on AI technology\n• These measures aim to reduce potential social risks and ethical issues associated with AI technology\n• The decision to disable AI agents was made in October 2023, affecting multiple applications and services\n• Companies state they will focus on compliant development and explore other technological innovation directions",
+      "zh-CN": "标题：我们是人类吗？字节跳动和阿里巴巴为何在中国禁用AI代理 - 南华早报\n摘要：\n• 字节跳动和阿里巴巴在中国禁用AI代理，因应政府对AI技术的监管政策\n• 这些措施旨在减少AI技术可能带来的社会风险和伦理问题\n• 禁用AI代理的决定是在2023年10月作出的，影响了多个应用程序和服务\n• 企业表示将专注于合规发展，并探索其他技术创新方向",
+      "ja": "タイトル：私たちは人間なのか？バイトダンスとアリババが中国でAIエージェントを無効にする理由 - サウスチャイナモーニングポスト\n要約：\n• バイトダンスとアリババは、中国におけるAI技術に対する政府の規制に応じてAIエージェントを無効にしています\n• これらの措置は、AI技術がもたらす可能性のある社会的リスクや倫理的問題を減少させることを目的としています\n• AIエージェントを無効にする決定は2023年10月に下され、複数のアプリケーションやサービスに影響を与えています\n• 企業は、コンプライアンスのある開発に注力し、他の技術革新の方向性を探ると述べています",
+      "ko": "제목: 우리는 인간인가? 바이트댄스와 알리바바가 중국에서 AI 에이전트를 비활성화하는 이유 - 사우스차이나모닝포스트\n요약:\n• 바이트댄스와 알리바바는 중국에서 AI 기술에 대한 정부 규제에 대응하여 AI 에이전트를 비활성화하고 있습니다\n• 이러한 조치는 AI 기술이 초래할 수 있는 사회적 위험과 윤리적 문제를 줄이기 위한 것입니다\n• AI 에이전트를 비활성화하기로 한 결정은 2023년 10월에 내려졌으며, 여러 애플리케이션과 서비스에 영향을 미쳤습니다\n• 기업들은 규정 준수 개발에 집중하고"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOEVncy05YzRvU19tS21LLWtoc2ZWUFhoT1o3NGtKWjhKTTRfNXFiNnBQcU4zcDZqYU9mRUQ3UUdRR2pfSDFIci1WRzJoSlphQ2ZFNW1MNmpXODlkSUZLNXk3azdlaTR1b2V3VjlGa28xV3A0N2xmZTQ2bUlSRFIyRlhIOTlTUWs1WXNIa2xORHhlNHc0cmFGWmdOMEhRWVQwdVl2UWJR?oc=5",
@@ -4840,8 +4867,15 @@
     "topic": "World",
     "published": "2026-07-05T11:52:04+00:00",
     "crawled": "2026-07-05T12:22:51.999233+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 沙烏地阿拉伯呼籲全球對人工智慧恐怖主義威脅作出回應  \n• 此倡議在2023年10月的國際會議上提出，旨在促進各國合作  \n• 沙烏地阿拉伯強調AI技術的快速發展可能被不法分子利用  \n• 政府官員表示，國際社會需共同制定政策以應對潛在風險",
+    "summaries": {
+      "zh-HK": "• 沙烏地阿拉伯呼籲全球對人工智慧恐怖主義威脅作出回應  \n• 此倡議在2023年10月的國際會議上提出，旨在促進各國合作  \n• 沙烏地阿拉伯強調AI技術的快速發展可能被不法分子利用  \n• 政府官員表示，國際社會需共同制定政策以應對潛在風險",
+      "en": "Title: Saudi Arabia Pushes Global Response to AI Terrorism Threat - The Media Line\nSummary:\n• Saudi Arabia calls for a global response to the threat of AI terrorism\n• This initiative was proposed at an international conference in October 2023, aimed at promoting cooperation among nations\n• Saudi Arabia emphasizes that the rapid development of AI technology could be exploited by malicious actors\n• Government officials state that the international community needs to collaboratively develop policies to address potential risks",
+      "zh-CN": "标题：沙烏地阿拉伯呼吁全球应对人工智慧恐怖主义威胁 - 媒体线\n摘要：\n• 沙烏地阿拉伯呼吁全球对人工智慧恐怖主义威胁作出回应\n• 此倡议在2023年10月的国际会议上提出，旨在促进各国合作\n• 沙烏地阿拉伯强调AI技术的快速发展可能被不法分子利用\n• 政府官员表示，国际社会需共同制定政策以应对潜在风险",
+      "ja": "タイトル：サウジアラビア、AIテロリズムの脅威に対する国際的な対応を推進 - メディアライン\n要約：\n• サウジアラビアはAIテロリズムの脅威に対する国際的な対応を呼びかけ\n• このイニシアチブは2023年10月の国際会議で提案され、各国の協力を促進することを目的としている\n• サウジアラビアは、AI技術の急速な発展が悪意のある行為者によって悪用される可能性があると強調\n• 政府関係者は、国際社会が潜在的なリスクに対処するために共同で政策を策定する必要があると述べている",
+      "ko": "제목: 사우디아라비아, AI 테러리즘 위협에 대한 글로벌 대응 촉구 - 미디어라인\n요약:\n• 사우디아라비아는 AI 테러리즘 위협에 대한 글로벌 대응을 촉구\n• 이 이니셔티브는 2023년 10월 국제 회의에서 제안되었으며, 국가 간 협력을 촉진하는 것을 목표로 함\n• 사우디아라비아는 AI 기술의 빠른 발전이 악의적인 행위자에 의해 악용될 수 있음을 강조\n• 정부 관계자들은 국제 사회가 잠재적 위험에 대응하기 위해 공동으로 정책을 개발해야 한다고 언급함"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd0hrVGJEdVV2UnEwM2ZHc0w0MFkxUHhzOXVtS0RDaEFuZi1mSGtnNnUyU2R5eDlRNUFnVm81ekR1UGFpNGoyalR6VmJYMkdlS255OTFHd21EUXEyVWxmcVNEek9FRkJjM3kxMVFWSkJuSkNDZjhYV21EYTczUHpxVm5oNlpWODFjUTFsTkVfTjlJX0t1RmNVeE5Nb08wQ1NXM3A1a0VUaGtLb3E2c3d1TXRNWQ?oc=5",
@@ -4868,8 +4902,15 @@
     "topic": "Politics",
     "published": "2026-07-05T11:02:12+00:00",
     "crawled": "2026-07-05T12:22:52.384679+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 佛羅里達州開始實施人工智慧警務，相關合約由一家與政治有關的公司獲得  \n• 此舉旨在提升執法效率和公共安全  \n• 新系統將於2024年初全面啟用  \n• 當地官員表示，AI技術將有助於減少犯罪率和改善社區關係",
+    "summaries": {
+      "zh-HK": "• 佛羅里達州開始實施人工智慧警務，相關合約由一家與政治有關的公司獲得  \n• 此舉旨在提升執法效率和公共安全  \n• 新系統將於2024年初全面啟用  \n• 當地官員表示，AI技術將有助於減少犯罪率和改善社區關係",
+      "en": "Title: Florida enters new era of AI policing, politically connected firm gets contracts - Orlando Sentinel\nSummary:\n• Florida begins implementing AI policing, with contracts awarded to a politically connected firm\n• The initiative aims to enhance law enforcement efficiency and public safety\n• The new system is set to be fully operational by early 2024\n• Local officials state that AI technology will help reduce crime rates and improve community relations",
+      "zh-CN": "标题：佛罗里达州进入人工智能警务新纪元，政治关联公司获得合同 - 奥兰多哨兵\n摘要：\n• 佛罗里达州开始实施人工智慧警务，相关合约由一家与政治有关的公司获得\n• 此举旨在提升执法效率和公共安全\n• 新系统将于2024年初全面启用\n• 当地官员表示，AI技术将有助于减少犯罪率和改善社区关系",
+      "ja": "タイトル：フロリダ州がAI警察の新時代に突入、政治的に結びついた企業が契約を獲得 - オーランドセンティネル\n要約：\n• フロリダ州がAI警察を導入し、政治的に結びついた企業に契約が授与される\n• この取り組みは、法執行の効率と公共の安全を向上させることを目的としている\n• 新しいシステムは2024年初頭に完全に稼働する予定\n• 地元の公務員は、AI技術が犯罪率を減少させ、コミュニティ関係を改善するのに役立つと述べている",
+      "ko": "제목: 플로리다, AI 경찰의 새로운 시대에 접어들다, 정치적으로 연결된 회사가 계약을 체결하다 - 올랜도 센티넬\n요약:\n• 플로리다주가 AI 경찰을 시행하기 시작했으며, 정치적으로 연결된 회사에 계약이 부여됨\n• 이 조치는 법 집행의 효율성과 공공 안전을 향상시키기 위한 것이다\n• 새로운 시스템은 2024년 초에 전면 가동될 예정이다\n• 지역 공무원들은 AI 기술이 범죄율을 줄이고 지역 사회 관계를 개선하는 데 도움이 될 것이라고 밝혔다"
+    }
   },
   {
     "url": "https://www.coindesk.com/business/2026/07/02/tokenization-s-next-use-case-is-personalized-portfolios-nylim-executive-says",
@@ -5624,8 +5665,15 @@
     "topic": "Ai",
     "published": "2026-07-05T12:15:00+00:00",
     "crawled": "2026-07-05T12:44:57.282928+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Palo Alto Networks和Koi Security因涉嫌在網絡威脅報告中出現AI錯誤而被起訴  \n• 起訴方指控兩家公司未能正確識別和報告網絡威脅  \n• 此事件發生在2023年，涉及的報告影響了客戶的安全決策  \n• 原告要求賠償損失，並強調AI技術的準確性對於網絡安全的重要性",
+    "summaries": {
+      "zh-HK": "• Palo Alto Networks和Koi Security因涉嫌在網絡威脅報告中出現AI錯誤而被起訴  \n• 起訴方指控兩家公司未能正確識別和報告網絡威脅  \n• 此事件發生在2023年，涉及的報告影響了客戶的安全決策  \n• 原告要求賠償損失，並強調AI技術的準確性對於網絡安全的重要性",
+      "en": "Title: Palo Alto Networks and Koi Security sued over alleged AI error in cyber threat report - CTech\nSummary:\n• Palo Alto Networks and Koi Security have been sued over alleged AI errors in a cyber threat report\n• The plaintiffs accuse the two companies of failing to accurately identify and report cyber threats\n• This incident occurred in 2023, and the report affected customers' security decisions\n• The plaintiffs seek damages and emphasize the importance of AI technology accuracy in cybersecurity",
+      "zh-CN": "标题：Palo Alto Networks和Koi Security因涉嫌在网络威胁报告中出现AI错误而被起诉 - CTech\n摘要：\n• Palo Alto Networks和Koi Security因涉嫌在网络威胁报告中出现AI错误而被起诉\n• 起诉方指控两家公司未能正确识别和报告网络威胁\n• 此事件发生在2023年，涉及的报告影响了客户的安全决策\n• 原告要求赔偿损失，并强调AI技术的准确性对于网络安全的重要性",
+      "ja": "タイトル：Palo Alto NetworksとKoi Securityがサイバー脅威報告におけるAIエラーを巡って訴えられる - CTech\n要約：\n• Palo Alto NetworksとKoi Securityは、サイバー脅威報告におけるAIエラーの疑いで訴えられた\n• 原告は、両社がサイバー脅威を正確に特定し報告することに失敗したと主張している\n• この事件は2023年に発生し、報告は顧客のセキュリティ決定に影響を与えた\n• 原告は損害賠償を求め、サイバーセキュリティにおけるAI技術の正確性の重要性を強調している",
+      "ko": "제목: Palo Alto Networks와 Koi Security, 사이버 위협 보고서의 AI 오류로 고소당하다 - CTech\n요약:\n• Palo Alto Networks와 Koi Security는 사이버 위협 보고서에서 AI 오류가 발생했다는 혐의로 고소당했다\n• 원고는 두 회사가 사이버 위협을 정확하게 식별하고 보고하지 못했다고 주장하고 있다\n• 이 사건은 2023년에 발생하였으며, 해당 보고서는 고객의 보안 결정에 영향을 미쳤다\n• 원고는 손해 배상을 요구하며, 사이버 보안에서 AI 기술의 정확성이 중요하다는 점을 강조하고 있다"
+    }
   },
   {
     "url": "https://www.coindesk.com/business/2026/07/05/banks-have-stopped-asking-if-stablecoins-belong-in-finance-now-they-re-considering-how",
@@ -5868,20 +5916,6 @@
     "topic": "World",
     "published": "2026-07-01T10:13:43+00:00",
     "crawled": "2026-07-05T14:18:18.720934+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.cnbc.com/2026/06/30/american-airlines-louge-new-york-jfk.html",
-    "title": "American Airlines brings grab-and-go lounge to New York's JFK",
-    "summary": "American Airlines is opening a grab-and-go lounge at New York's JFK",
-    "full_text": "American Airlines is opening a grab-and-go lounge at New York's John F. Kennedy International Airport.\nThe carrier has a trio of high-end lounges at the airport in Terminal 8 as well as a standard Admirals Club.\nAirlines and credit card companies are looking for more airport spaces to accommodate big spenders without overcrowding their flagship lounges.\nFollow your favorite stocks\nA rendering of American Airlines planned Provisions grab-and-go lounge at New York's John F. Kennedy International Airport\nis planning to open a new grab-and-go lounge at New York's John F. Kennedy International Airport by the end of this year, its first new facility at the airport in more than four years as it continues its fight for high-paying customers to close a profit gap with\nThe new lounge, a 3,700-square-foot space, will include a barista bar with hot and iced coffee drinks as well as hot and cold food travelers can grab.\nAirlines have been adding more of these\nin recent years to give credit card holders and big spenders access to spaces without crowding larger airport clubs. United\nannounced its first in late 2022, for Denver International Airport.\nThe rise of airport lounges\nAirlines and credit card companies alike have raised the entry requirements or scaled back on freebies like guest passes to avoid overcrowding.\nAmerican opened the first of its grab-and-go lounges, which it calls Provisions, at Charlotte Douglas International Airport in North Carolina, last year.\nAmerican operates out of JFK's Terminal 8, which is shared by its Oneworld Alliance partners, Japan Airlines,\n, British Airways and others.\nIt has a trio of high-end lounges for business-class travelers, first-class passengers and other frequent flyer elites for long-haul trips, which the airline opened there in 2022. It also operates an Admirals Club there that is used more for lounge membership customers. American hasn't updated its New York space lately like it has with those in other cities like Chicago and Austin, Texas.\nRead more about airlines' race to win over big spenders\nUnited ditches more economy seats to make room for bigger premium cabins with new layouts\nWhy airline class wars will intensify in 2026\nCaviar and privacy: Airlines' business-class wars are here\nDelta says premium travel is set to overtake coach cabin sales next year\nAmerican Airlines is arriving late to the luxury travel boom. Can it catch up?\nFirst-class seats are getting so fancy they’re holding up new airplanes\nAirlines can’t add high-end seats fast enough as travelers treat themselves to first class\nChoose CNBC as your preferred source on Google and never miss a moment from the most trusted name in business news.",
-    "source": "CNBC",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-06-30T18:00:01+00:00",
-    "crawled": "2026-07-05T14:18:19.677254+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -6288,8 +6322,15 @@
     "topic": "World",
     "published": "2026-07-05T11:34:49+00:00",
     "crawled": "2026-07-05T14:18:51.374779+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 英格蘭國家足球隊將於週日（英國時間週一01:00）在阿茲特克體育場對陣墨西哥，爭奪世界盃八強名額  \n• 墨西哥球迷熱情高漲，阿茲特克體育場周圍已設置大型螢幕，並有許多商販聚集  \n• 英格蘭在阿茲特克體育場的歷史不佳，最後一次造訪是在1986年世界盃四分之一決賽中以1-2敗給阿根廷  \n• 教練托馬斯·圖赫爾表示感受到當地的熱情與緊張氣氛，並強調需要適應高海拔的比賽環境",
+    "summaries": {
+      "zh-HK": "• 英格蘭國家足球隊將於週日（英國時間週一01:00）在阿茲特克體育場對陣墨西哥，爭奪世界盃八強名額  \n• 墨西哥球迷熱情高漲，阿茲特克體育場周圍已設置大型螢幕，並有許多商販聚集  \n• 英格蘭在阿茲特克體育場的歷史不佳，最後一次造訪是在1986年世界盃四分之一決賽中以1-2敗給阿根廷  \n• 教練托馬斯·圖赫爾表示感受到當地的熱情與緊張氣氛，並強調需要適應高海拔的比賽環境",
+      "en": "Title: England fighting history as well as Mexican nation in Azteca cauldron\nSummary:\n• The England national football team will face Mexico at the Azteca Stadium on Sunday (01:00 UK time on Monday) for a spot in the World Cup quarter-finals.\n• Mexican fans are highly enthusiastic, with large screens set up around the Azteca Stadium and many vendors gathering.\n• England has a poor history at the Azteca Stadium, with their last visit resulting in a 1-2 loss to Argentina in the 1986 World Cup quarter-finals.\n• Coach Thomas Tuchel expressed that he feels the local enthusiasm and tense atmosphere, emphasizing the need to adapt to the high-altitude playing conditions.",
+      "zh-CN": "标题：英格兰在阿兹特克火炉中与墨西哥国家队的历史抗争\n摘要：\n• 英格兰国家足球队将于周日（英国时间周一01:00）在阿兹特克体育场对阵墨西哥，争夺世界杯八强名额。\n• 墨西哥球迷热情高涨，阿兹特克体育场周围已设置大型屏幕，并有许多商贩聚集。\n• 英格兰在阿兹特克体育场的历史不佳，最后一次造访是在1986年世界杯四分之一决赛中以1-2败给阿根廷。\n• 教练托马斯·图赫尔表示感受到当地的热情与紧张气氛，并强调需要适应高海拔的比赛环境。",
+      "ja": "タイトル：アステカの熱気の中でメキシコ代表と歴史を戦うイングランド\n要約：\n• イングランド代表は日曜日（英国時間月曜日01:00）にアステカスタジアムでメキシコと対戦し、ワールドカップの準々決勝進出を目指します。\n• メキシコのファンは非常に盛り上がっており、アステカスタジアム周辺には大型スクリーンが設置され、多くの露店が集まっています。\n• イングランドはアステカスタジアムでの歴史が良くなく、最後の訪問は1986年のワールドカップ準々決勝でアルゼンチンに1-2で敗れた時です。\n• コーチのトーマス・トゥヘルは、地元の熱気と緊張感を感じており、高地での試合環境に適応する必要があると強調しました。",
+      "ko": "제목: 아즈텍 화로에서 멕시코 국가와"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
@@ -6302,8 +6343,15 @@
     "topic": "World",
     "published": "2026-07-05T12:29:18+00:00",
     "crawled": "2026-07-05T14:18:51.682009+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 伊朗最高領袖莫赫塔巴·哈梅內伊缺席其父親的葬禮，該葬禮於周日舉行，並有多位高級官員參加，包括伊朗總統馬蘇德·佩澤什基安。  \n• 前最高領袖阿里·哈梅內伊於2月去世，葬禮程序自上週五開始，預計將有1200萬至2000萬人參加。  \n• 哈梅內伊的遺體目前安放在德黑蘭的大清真寺，並將於周一進行遊行。  \n• 美國總統特朗普表示，和平談判因葬禮事件暫停，並對伊朗民眾的哀悼表示驚訝。",
+    "summaries": {
+      "zh-HK": "• 伊朗最高領袖莫赫塔巴·哈梅內伊缺席其父親的葬禮，該葬禮於周日舉行，並有多位高級官員參加，包括伊朗總統馬蘇德·佩澤什基安。  \n• 前最高領袖阿里·哈梅內伊於2月去世，葬禮程序自上週五開始，預計將有1200萬至2000萬人參加。  \n• 哈梅內伊的遺體目前安放在德黑蘭的大清真寺，並將於周一進行遊行。  \n• 美國總統特朗普表示，和平談判因葬禮事件暫停，並對伊朗民眾的哀悼表示驚訝。",
+      "en": "Title: Iran's supreme leader absent as senior officials attend ayatollah's funeral\nSummary:\n• Iran's supreme leader, Ayatollah Ali Khamenei, was absent from his father's funeral held on Sunday, which was attended by several senior officials, including Iranian President Ebrahim Raisi.\n• Former supreme leader Ali Khamenei passed away in February, and the funeral proceedings began last Friday, with an expected attendance of 12 to 20 million people.\n• Khamenei's body is currently laid out at Tehran's Grand Mosque and will be paraded on Monday.\n• U.S. President Trump stated that peace negotiations are on hold due to the funeral events and expressed surprise at the mourning of the Iranian people.",
+      "zh-CN": "标题：伊朗最高领袖缺席高级官员参加阿亚图拉的葬礼\n摘要：\n• 伊朗最高领袖阿亚图拉·哈梅内伊缺席其父亲的葬礼，该葬礼于周日举行，并有多位高级官员参加，包括伊朗总统易卜拉欣·莱希。\n• 前最高领袖阿里·哈梅内伊于2月去世，葬礼程序自上周五开始，预计将有1200万至2000万人参加。\n• 哈梅内伊的遗体目前安放在德黑兰的大清真寺，并将于周一进行游行。\n• 美国总统特朗普表示，和平谈判因葬礼事件暂停，并对伊朗民众的哀悼表示惊讶。",
+      "ja": "タイトル：イランの最高指導者がアヤトラの葬儀に出席せず\n要約：\n• イランの最高指導者アヤトラ・アリー・ハメネイは、日曜日に行われた父親の葬儀に欠席し、イラン大統領エブラヒム・ライシを含む多くの高官が出席した。\n• 前最高指導者アリー・ハメネイは2月に亡くなり、葬儀の手続きは先週の金曜日に始まり、1200万から2000万人の参加が見込まれている。\n• ハメネイの遺体は現在テヘランの大モスクに安置されており、月曜日にパレードが行われる予定。\n• アメリカのトランプ大統領は、葬儀の影響で平和交渉が中断され、イランの人々の哀悼に驚きを表明した。",
+      "ko": "제목: 이란 최고 지도자, 아야톨라의 장례식에 고"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/c621jwpld8zo?at_medium=RSS&at_campaign=rss",
@@ -6511,8 +6559,14 @@
     "topic": "General",
     "published": "2026-07-05T12:27:15+00:00",
     "crawled": "2026-07-05T14:18:57.520966+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 馬里軍方報導，武裝團體於2026年7月5日在該國多個城鎮發動協調攻擊，目標包括軍事基地和俄羅斯部隊。  \n• 攻擊發生在北部的阿古爾霍克、阿內菲斯和高奧，中央的塞瓦雷，以及南部的肯耶羅巴。  \n• 獨立報導無法驗證的聲明中，圖阿雷格主導的阿扎瓦德解放陣線（FLA）和與基地組織有關的JNIM聲稱對這些攻擊負責。  \n• 馬里軍方表示已控制局勢，並報告在塞瓦雷和高奧擊斃多名武裝分子，並在肯耶羅巴的監獄遭到襲擊。",
+    "summaries": {
+      "zh-HK": "• 馬里軍方報導，武裝團體於2026年7月5日在該國多個城鎮發動協調攻擊，目標包括軍事基地和俄羅斯部隊。  \n• 攻擊發生在北部的阿古爾霍克、阿內菲斯和高奧，中央的塞瓦雷，以及南部的肯耶羅巴。  \n• 獨立報導無法驗證的聲明中，圖阿雷格主導的阿扎瓦德解放陣線（FLA）和與基地組織有關的JNIM聲稱對這些攻擊負責。  \n• 馬里軍方表示已控制局勢，並報告在塞瓦雷和高奧擊斃多名武裝分子，並在肯耶羅巴的監獄遭到襲擊。",
+      "en": "Title: What to know about the renewed coordinated attacks across Mali\nSummary:\n• The Malian military reported that armed groups launched coordinated attacks on July 5, 2026, in several towns across the country, targeting military bases and Russian forces.\n• The attacks occurred in the northern towns of Aguelhok, Anefis, and Gao, the central town of Sévaré, and the southern town of Kéniéba.\n• In unverified statements, the Tuareg-led Azawad Liberation Front (FLA) and the al-Qaeda-linked JNIM claimed responsibility for the attacks.\n• The Malian military stated that they have regained control of the situation, reporting the killing of several militants in Sévaré and Gao, and an attack on a prison in Kéniéba.",
+      "zh-CN": "标题：关于马里重新协调攻击的最新消息\n摘要：\n• 马里军方报告称，武装团体于2026年7月5日在该国多个城镇发起协调攻击，目标包括军事基地和俄罗斯部队。\n• 攻击发生在北部的阿古尔霍克、阿内菲斯和高奧，中央的塞瓦雷，以及南部的肯耶罗巴。\n• 独立报道无法验证的声明中，图阿雷格主导的阿扎瓦德解放阵线（FLA）和与基地组织有关的JNIM声称对这些攻击负责。\n• 马里军方表示已控制局势，并报告在塞瓦雷和高奧击毙多名武装分子，并在肯耶罗巴的监狱遭到袭击。",
+      "ja": "タイトル：マリでの再び調整された攻撃について知っておくべきこと\n要約：\n• マリ軍は、武装グループが2026年7月5日に国内の複数の町で調整攻撃を行い、軍事基地やロシア軍を標的にしたと報告しています。\n• 攻撃は北部のアグエルホク、アネフィス、高奧、中央のセヴァレ、南部のケニエバで発生しました。\n• 独立した報道では確認できない声明の中で、トゥアレグ主導のアザワド解放戦線（FLA）とアルカイダに関連するJNIMがこれらの攻撃の責任を主張しています。\n• マリ軍は状況を制圧したと述べ、セヴァレと高奧で数名の武装勢力を撃破し、ケニエバの刑務所が襲撃されたと報告しています。\n[KO"
+    }
   },
   {
     "url": "https://www.npr.org/2026/07/05/g-s1-129643/construction-business-women-kenya",
@@ -6546,8 +6600,15 @@
     "topic": "General",
     "published": "2026-07-05T12:26:06+00:00",
     "crawled": "2026-07-05T14:19:00.115647+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 賓夕法尼亞州提議在阿奇博爾德社區建設六個數據中心，引發抗議活動  \n• 當地居民及外來人士組成聯盟，反對這些建設計劃  \n• 抗議活動不僅限於阿奇博爾德，還擴展至全州其他地區  \n• 抗議者關注數據中心對社區環境和生活質量的影響",
+    "summaries": {
+      "zh-HK": "• 賓夕法尼亞州提議在阿奇博爾德社區建設六個數據中心，引發抗議活動  \n• 當地居民及外來人士組成聯盟，反對這些建設計劃  \n• 抗議活動不僅限於阿奇博爾德，還擴展至全州其他地區  \n• 抗議者關注數據中心對社區環境和生活質量的影響",
+      "en": "Title: Pennsylvania's proposed data centers are bringing strangers together in protest\nSummary:\n• Pennsylvania has proposed the construction of six data centers in the Archbald community, sparking protests\n• Local residents and outsiders have formed an alliance against these construction plans\n• Protests are not limited to Archbald but have expanded to other areas across the state\n• Protesters are concerned about the impact of data centers on community environment and quality of life",
+      "zh-CN": "标题：宾夕法尼亚州提议的数据中心引发抗议，聚集陌生人\n摘要：\n• 宾夕法尼亚州提议在阿奇博尔德社区建设六个数据中心，引发抗议活动\n• 当地居民及外来人士组成联盟，反对这些建设计划\n• 抗议活动不仅限于阿奇博尔德，还扩展至全州其他地区\n• 抗议者关注数据中心对社区环境和生活质量的影响",
+      "ja": "タイトル：ペンシルベニア州の提案されたデータセンターが抗議で人々を結びつける\n要約：\n• ペンシルベニア州はアーチボルドコミュニティに6つのデータセンターを建設する提案をしており、抗議活動を引き起こしている\n• 地元住民と外部の人々がこれらの建設計画に反対するために連盟を結成した\n• 抗議活動はアーチボルドに限らず、州内の他の地域にも広がっている\n• 抗議者はデータセンターがコミュニティの環境と生活の質に与える影響を懸念している",
+      "ko": "제목: 펜실베이니아의 제안된 데이터 센터가 시위로 낯선 사람들을 모으고 있다\n요약:\n• 펜실베이니아주가 아치볼드 커뮤니티에 6개의 데이터 센터 건설을 제안하여 시위가 촉발되었다\n• 지역 주민들과 외부 인사들이 이러한 건설 계획에 반대하는 연합을 결성했다\n• 시위는 아치볼드에 국한되지 않고 주 전역으로 확산되고 있다\n• 시위자들은 데이터 센터가 지역 사회의 환경과 삶의 질에 미치는 영향에 대해 우려하고 있다"
+    }
   },
   {
     "url": "https://www.scmp.com/news/china/article/3359489/2-dead-4-injured-northern-china-truck-collision-triggers-huge-chemical-blast?utm_source=rss_feed",
@@ -6644,8 +6705,15 @@
     "topic": "Finance",
     "published": "2026-07-05T12:00:03+00:00",
     "crawled": "2026-07-05T14:19:20.379611+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 北約的歐洲化對於歐洲未來的安全變得越來越重要  \n• 跨大西洋軍事聯盟將在確保歐洲安全方面發揮關鍵作用  \n• 專家認為，強化北約的歐洲角色能應對當前安全挑戰  \n• 歐洲國家需加強合作以維護地區穩定與安全",
+    "summaries": {
+      "zh-HK": "• 北約的歐洲化對於歐洲未來的安全變得越來越重要  \n• 跨大西洋軍事聯盟將在確保歐洲安全方面發揮關鍵作用  \n• 專家認為，強化北約的歐洲角色能應對當前安全挑戰  \n• 歐洲國家需加強合作以維護地區穩定與安全",
+      "en": "Title: The Europeanisation of Nato is ever more important\nSummary:\n• The Europeanisation of NATO is becoming increasingly important for the future security of Europe\n• The transatlantic military alliance will play a key role in ensuring European security\n• Experts believe that strengthening NATO's European role can address current security challenges\n• European countries need to enhance cooperation to maintain regional stability and security",
+      "zh-CN": "标题：北约的欧洲化变得越来越重要\n摘要：\n• 北约的欧洲化对于欧洲未来的安全变得越来越重要\n• 跨大西洋军事联盟将在确保欧洲安全方面发挥关键作用\n• 专家认为，强化北约的欧洲角色能应对当前安全挑战\n• 欧洲国家需加强合作以维护地区稳定与安全",
+      "ja": "タイトル：NATOの欧州化がますます重要に\n要約：\n• NATOの欧州化は、ヨーロッパの未来の安全にとってますます重要になっている\n• 大西洋横断の軍事同盟は、ヨーロッパの安全を確保する上で重要な役割を果たす\n• 専門家は、NATOの欧州の役割を強化することで現在の安全保障上の課題に対処できると考えている\n• ヨーロッパ諸国は地域の安定と安全を維持するために協力を強化する必要がある",
+      "ko": "제목: NATO의 유럽화가 점점 더 중요해지고 있다\n요약:\n• NATO의 유럽화는 유럽의 미래 안전에 점점 더 중요해지고 있다\n• 대서양 군사 동맹은 유럽의 안전을 보장하는 데 중요한 역할을 할 것이다\n• 전문가들은 NATO의 유럽 역할을 강화하는 것이 현재의 안전 문제에 대응할 수 있다고 믿고 있다\n• 유럽 국가들은 지역의 안정과 안전을 유지하기 위해 협력을 강화해야 한다"
+    }
   },
   {
     "url": "https://www.marketwatch.com/story/hybrids-are-the-breakout-star-of-the-u-s-car-market-as-ev-demand-fades-96dce1c3?mod=mw_rss_topstories",
@@ -6783,8 +6851,15 @@
     "topic": "General",
     "published": "2026-07-05T11:49:46+00:00",
     "crawled": "2026-07-05T14:19:36.680955+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 伊朗與卡塔爾恢復海上貿易，根據伊朗國營媒體報導  \n• 此次貿易恢復的具體時間和細節尚未公開  \n• 伊朗與卡塔爾之間的貿易關係在過去受到地緣政治影響  \n• 恢復貿易被視為兩國加強經濟合作的步驟",
+    "summaries": {
+      "zh-HK": "• 伊朗與卡塔爾恢復海上貿易，根據伊朗國營媒體報導  \n• 此次貿易恢復的具體時間和細節尚未公開  \n• 伊朗與卡塔爾之間的貿易關係在過去受到地緣政治影響  \n• 恢復貿易被視為兩國加強經濟合作的步驟",
+      "en": "Title: Iran and Qatar resume maritime trade, Iranian state media reports - Reuters\nSummary:\n• Iran and Qatar have resumed maritime trade, according to Iranian state media\n• The specific timing and details of the trade resumption have not been disclosed\n• Trade relations between Iran and Qatar have been influenced by geopolitical factors in the past\n• The resumption of trade is seen as a step towards strengthening economic cooperation between the two countries",
+      "zh-CN": "标题：伊朗与卡塔尔恢复海上贸易，伊朗国营媒体报道 - 路透社\n摘要：\n• 伊朗与卡塔尔恢复海上贸易，根据伊朗国营媒体报道\n• 此次贸易恢复的具体时间和细节尚未公开\n• 伊朗与卡塔尔之间的贸易关系在过去受到地缘政治影响\n• 恢复贸易被视为两国加强经济合作的步骤",
+      "ja": "タイトル：イランとカタールが海上貿易を再開、イラン国営メディアが報道 - ロイター\n要約：\n• イランとカタールは海上貿易を再開したと、イラン国営メディアが報じた\n• 貿易再開の具体的な時期や詳細はまだ公開されていない\n• イランとカタールの貿易関係は過去に地政学的要因に影響を受けてきた\n• 貿易の再開は、両国の経済協力を強化する一歩と見なされている",
+      "ko": "제목: 이란과 카타르, 해상 무역 재개 - 이란 국영 언론 보도 - 로이터\n요약:\n• 이란과 카타르가 해상 무역을 재개했다고 이란 국영 언론이 보도함\n• 무역 재개의 구체적인 시기와 세부 사항은 아직 공개되지 않음\n• 이란과 카타르 간의 무역 관계는 과거에 지정학적 요인의 영향을 받음\n• 무역 재개는 두 나라의 경제 협력을 강화하는 단계로 여겨짐"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTXJDdWNKVUJoSFN3a3hIV0UtdFRTSnVwV2kwTDk3QXV2SGFrbFZxN0FJMlYyLXJGcVN2TEVPQ0U5ZzhRRERxRE5aaVdpcjRTZTk1bXlaYWpjMmtPTkx4UnBLaFBUVjE3bkN1UnlvblZOYzBSMHNua3FzdVpUSmFLMmJ2ZkU0cUgtcGRacmRKUFdwYU9Ca2lVLWlZdWJWUndBcGZZczhLMG1PRG4zaEU0dFV3?oc=5",
@@ -6811,8 +6886,15 @@
     "topic": "General",
     "published": "2026-07-05T12:27:00+00:00",
     "crawled": "2026-07-05T14:19:40.219206+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 葡萄牙數百名消防員正在撲滅一場野火，火災發生在當地時間近期  \n• 希臘當局發出警告，指出該地區的煙霧可能含有有毒物質  \n• 當局呼籲居民保持警覺，並避免在受影響地區進行戶外活動  \n• 野火的原因尚未確定，但氣候條件可能加劇了火勢的蔓延",
+    "summaries": {
+      "zh-HK": "• 葡萄牙數百名消防員正在撲滅一場野火，火災發生在當地時間近期  \n• 希臘當局發出警告，指出該地區的煙霧可能含有有毒物質  \n• 當局呼籲居民保持警覺，並避免在受影響地區進行戶外活動  \n• 野火的原因尚未確定，但氣候條件可能加劇了火勢的蔓延",
+      "en": "Title: Hundreds of firefighters battle a wildfire in Portugal, while Greek authorities warn of toxic smoke - AP News\nSummary:\n• Hundreds of firefighters are battling a wildfire in Portugal, which occurred recently.\n• Greek authorities have issued a warning that the smoke in the area may contain toxic substances.\n• Authorities are urging residents to remain vigilant and avoid outdoor activities in affected areas.\n• The cause of the wildfire has not yet been determined, but climate conditions may have exacerbated the spread of the flames.",
+      "zh-CN": "标题：数百名消防员在葡萄牙与野火作斗争，希腊当局警告有毒烟雾 - AP新闻\n摘要：\n• 葡萄牙数百名消防员正在扑灭一场野火，火灾发生在当地时间近期。\n• 希腊当局发出警告，指出该地区的烟雾可能含有有毒物质。\n• 当局呼吁居民保持警觉，并避免在受影响地区进行户外活动。\n• 野火的原因尚未确定，但气候条件可能加剧了火势的蔓延。",
+      "ja": "タイトル：ポルトガルで数百人の消防士が山火事と戦い、ギリシャ当局が有毒煙に警告 - APニュース\n要約：\n• ポルトガルで数百人の消防士が最近発生した山火事に立ち向かっています。\n• ギリシャ当局は、その地域の煙が有毒物質を含む可能性があると警告しています。\n• 当局は住民に警戒を呼びかけ、影響を受けた地域での屋外活動を避けるように求めています。\n• 山火事の原因はまだ特定されていませんが、気候条件が火の広がりを悪化させた可能性があります。",
+      "ko": "제목: 포르투갈에서 수백 명의 소방관이 산불과 싸우고, 그리스 당국은 유독한 연기에 경고 - AP 뉴스\n요약:\n• 포르투갈에서 수백 명의 소방관이 최근 발생한 산불과 싸우고 있습니다.\n• 그리스 당국은 해당 지역의 연기가 유독 물질을 포함할 수 있다고 경고했습니다.\n• 당국은 주민들에게 경계를 유지하고 영향을 받은 지역에서 야외 활동을 피할 것을 촉구하고 있습니다.\n• 산불의 원인은 아직 확인되지 않았지만, 기후 조건이 불길의 확산을 악화시켰을 가능성이 있습니다."
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTWdzVV9MYWJxZFR4WVp4SVFyVWV0dEVpRDhrMXRiU0JQS2c1MmhOenpBSlpjY3NkTnlMa1JCeHN1aG9FUy1fQm04N0xOTlQtTHJLd29GQXl5VVZlT1h3SVdwQlN3SVk0MkNoVEw1TnZYamp6M2MwVnNyV1pnUnN0RDFlMmxmaG9VVnZCUVhvV25fQ1hlU3ZDZVY2aHVDWXJjYmdvUmN2QVNfT0k?oc=5",
@@ -6867,8 +6949,15 @@
     "topic": "Ai",
     "published": "2026-07-05T12:00:00+00:00",
     "crawled": "2026-07-05T14:19:45.422831+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 科學美國雜誌報導，早期研究顯示人工智慧可能對人類技能造成負面影響  \n• 研究發現，使用AI工具可能導致人們在解決問題和批判性思維方面的能力下降  \n• 研究者呼籲對AI的使用進行更深入的探討，以了解其對技能發展的長期影響  \n• 此研究結果引發了對教育和職場中AI應用的廣泛討論和關注",
+    "summaries": {
+      "zh-HK": "• 科學美國雜誌報導，早期研究顯示人工智慧可能對人類技能造成負面影響  \n• 研究發現，使用AI工具可能導致人們在解決問題和批判性思維方面的能力下降  \n• 研究者呼籲對AI的使用進行更深入的探討，以了解其對技能發展的長期影響  \n• 此研究結果引發了對教育和職場中AI應用的廣泛討論和關注",
+      "en": "Title: Is AI ruining our skills? Early results are in—and they’re not good - Scientific American\nSummary:\n• Scientific American reports that early research indicates artificial intelligence may have a negative impact on human skills\n• The study found that the use of AI tools could lead to a decline in problem-solving and critical thinking abilities\n• Researchers are calling for a deeper exploration of AI usage to understand its long-term effects on skill development\n• The findings have sparked widespread discussion and concern regarding the application of AI in education and the workplace",
+      "zh-CN": "标题：人工智能是否正在破坏我们的技能？早期结果显示情况不妙 - 科学美国人\n摘要：\n• 科学美国杂志报道，早期研究显示人工智能可能对人类技能造成负面影响\n• 研究发现，使用AI工具可能导致人们在解决问题和批判性思维方面的能力下降\n• 研究者呼吁对AI的使用进行更深入的探讨，以了解其对技能发展的长期影响\n• 此研究结果引发了对教育和职场中AI应用的广泛讨论和关注",
+      "ja": "タイトル：AIは私たちのスキルを台無しにしているのか？初期結果が出ており、良くない - サイエンティフィック・アメリカン\n要約：\n• サイエンティフィック・アメリカンは、初期の研究が人工知能が人間のスキルに悪影響を及ぼす可能性があることを示していると報告している\n• 研究は、AIツールの使用が問題解決能力や批判的思考能力の低下を引き起こす可能性があることを発見した\n• 研究者たちは、スキル開発に対するAIの長期的な影響を理解するために、AIの使用についてより深く探求することを呼びかけている\n• この研究結果は、教育や職場におけるAIの適用に関する広範な議論と懸念を引き起こしている",
+      "ko": "제목: AI가 우리의 기술을 망치고 있는가? 초기 결과가 나왔고, 좋지 않다 - 사이언티픽 아메리칸\n요약:\n• 사이언티픽 아메리칸은 초기 연구 결과 인공지능이 인간의 기술에 부정적인 영향을 미칠 수 있음을 보고했다\n• 연구에 따르면 AI 도구의 사용이 문제 해결 능력과 비판적 사고 능력의 저하를 초래할 수 있다\n• 연구자들은 기술 개발에 대한 AI의 장기적 영향을 이해하기 위해 AI 사용에 대한"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcml5M3kxbVV0Y0F6YTRyR3hrWUwzWlVUNndkUjMxS2xreVVMRUdySk5Wdm5hQ0I3MHVBNFdhVVUtcnV1X2toNGFYRnRGZGhBYmxTbDdBOTRxckNLZnh1aTFreS0wMjRhc2RXaXJBWktRMGRoWFR3d2Rqd0xDcFlSRzk0X1NoSUNNc2xEOFJRQTZNekxhV216emwtTFdJMVA3MXU2a3FZazhpM0FZTXFXMGN4a2czMjdWZjZIRFZyY08?oc=5",
@@ -6923,7 +7012,14 @@
     "topic": "AI",
     "published": "2026-07-05T12:20:00+00:00",
     "crawled": "2026-07-05T14:19:47.880190+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 阿里巴巴禁止使用Anthropic的Claude Code，原因是發現其存在隱藏的中國檢測後門  \n• 此決定在2023年內部通知中傳達，員工被要求轉用Qoder  \n• 此事件加劇了阿里巴巴與Anthropic之間的緊張關係  \n• 目前尚不清楚該後門的具體影響及其對兩家公司業務的長期影響",
+    "summaries": {
+      "zh-HK": "• 阿里巴巴禁止使用Anthropic的Claude Code，原因是發現其存在隱藏的中國檢測後門  \n• 此決定在2023年內部通知中傳達，員工被要求轉用Qoder  \n• 此事件加劇了阿里巴巴與Anthropic之間的緊張關係  \n• 目前尚不清楚該後門的具體影響及其對兩家公司業務的長期影響",
+      "en": "Title: Alibaba bans Anthropic's Claude Code after an alleged hidden China-detection backdoor is uncovered — employees told to switch to Qoder as the rift between the firms widens - Tom's Hardware\nSummary:\n• Alibaba bans the use of Anthropic's Claude Code due to the discovery of a hidden China-detection backdoor\n• This decision was communicated in an internal notice in 2023, with employees instructed to switch to Qoder\n• This incident has heightened tensions between Alibaba and Anthropic\n• The specific implications of the backdoor and its long-term effects on the businesses of both companies remain unclear",
+      "zh-CN": "标题：阿里巴巴禁止使用Anthropic的Claude Code，因发现其存在隐藏的中国检测后门 — 员工被告知转用Qoder，双方关系进一步恶化 - Tom's Hardware\n摘要：\n• 阿里巴巴禁止使用Anthropic的Claude Code，原因是发现其存在隐藏的中国检测后门\n• 此决定在2023年内部通知中传达，员工被要求转用Qoder\n• 此事件加剧了阿里巴巴与Anthropic之间的紧张关系\n• 目前尚不清楚该后门的具体影响及其对两家公司业务的长期影响",
+      "ja": "タイトル：アリババ、隠れた中国検出バックドアが発見された後、AnthropicのClaude Codeを禁止 — 従業員はQoderに切り替えるよう指示され、両社の亀裂が深まる - Tom's Hardware\n要約：\n• アリババは、隠れた中国検出バックドアが発見されたため、AnthropicのClaude Codeの使用を禁止\n• この決定は2023年の内部通知で伝えられ、従業員はQoderに切り替えるよう指示された\n• この事件はアリババとAnthropicの間の緊張を高めた\n• バックドアの具体的な影響と、両社のビジネスに対する長期的な影響は不明である",
+      "ko": "제목: 알리바바, 숨겨진 중국 탐지 백도어가 발견된 후 Anthropic의 Claude Code 사용 금지 — 직원들에게 Qoder로 전환하라는 지시, 두 회사 간의 갈등 심화 - Tom's Hardware\n요약:\n• 알리바바는 숨겨진 중국 탐지 백도어가 발견되어 Anthropic의 Claude Code 사용을 금지\n• 이 결정은 2023년 내부 공지에서 전달되었으며, 직원들은 Qoder로 전환하라는 지시를 받음\n• 이 사건은 알리바바와 Anthropic 간의 긴장을"
+    }
   }
 ]
