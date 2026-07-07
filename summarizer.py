@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 API_URL = "https://models.inference.ai.azure.com/chat/completions"
 MODEL = "gpt-4o-mini"
 MAX_PER_RUN = int(os.environ.get("MAX_ARTICLES_PER_RUN", "30"))
-RATE_LIMIT_DELAY = 2  # GitHub Models allows 20k req/min
+RATE_LIMIT_DELAY = 0.5  # GitHub Models allows 20k req/min, 0.5s is fine
 
 def get_api_key():
     KEY = ""

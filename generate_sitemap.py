@@ -3,46 +3,72 @@
 import json
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import quote
 
 BASE_URL = "https://lazycat00x.github.io/astroaxis-site/"
+SITE_URL = BASE_URL.rstrip("/")
 
 def generate_sitemap():
     DATA_DIR = Path(__file__).parent / "data"
     DEPLOY_DIR = Path(__file__).parent / "deploy"
     
-    # Load articles
-    articles_file = DATA_DIR / "articles.json"
-    if articles_file.exists():
-        with open(articles_file) as f:
-            articles = json.load(f)
+    # Load articles from deploy/news-data.json (has the actual published data)
+    articles = []
+    news_file = DEPLOY_DIR / "news-data.json"
+    if news_file.exists():
+        with open(news_file) as f:
+            data = json.load(f)
+            articles = data.get("articles", [])
     else:
-        articles = []
+        articles_file = DATA_DIR / "articles.json"
+        if articles_file.exists():
+            with open(articles_file) as f:
+                articles = json.load(f)
     
-    # Generate sitemap XML
     urls = []
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     
     # Main page
     urls.append({
         "loc": BASE_URL,
-        "lastmod": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "lastmod": now,
         "changefreq": "hourly",
         "priority": "1.0"
     })
     
-    # News-data JSON
-    urls.append({
-        "loc": BASE_URL + "news-data.json",
-        "lastmod": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "changefreq": "hourly",
-        "priority": "0.8"
-    })
+    # Article pages
+    import re, hashlib
+    def slugify(title):
+        s = title.lower().strip()
+        s = re.sub(r'[^\w\s-]', '', s)
+        s = re.sub(r'[-\s]+', '-', s)
+        s = s.strip('-')[:80]
+        if not s:
+            s = hashlib.md5(title.encode()).hexdigest()[:12]
+        return s
     
-    # OG image
-    urls.append({
-        "loc": BASE_URL + "og-image.png",
-        "changefreq": "monthly",
-        "priority": "0.5"
-    })
+    slug_counts = {}
+    for a in articles:
+        title = a.get("title", "")
+        url = a.get("url", "")
+        if not title or not url:
+            continue
+        published = a.get("published", "")
+        lastmod = published.replace("+00:00", "Z") if published else now
+        
+        base = slugify(title)
+        if base in slug_counts:
+            slug_counts[base] += 1
+            base = f"{base}-{slug_counts[base]}"
+        else:
+            slug_counts[base] = 1
+        
+        urls.append({
+            "loc": f"{SITE_URL}/articles/{quote(base)}.html",
+            "lastmod": lastmod,
+            "changefreq": "daily",
+            "priority": "0.7"
+        })
     
     # Build XML
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")

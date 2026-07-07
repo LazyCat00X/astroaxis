@@ -45,6 +45,7 @@ jobs:
       - name: Generate data files
         run: |
           python3 generate_globe_data.py
+          python3 generate_articles.py
           python3 generate_sitemap.py
       
       - name: Deploy to GitHub Pages (astroaxis-site)
@@ -59,7 +60,9 @@ jobs:
           cp "$GITHUB_WORKSPACE/deploy/timeline-data.json" .
           cp "$GITHUB_WORKSPACE/sitemap.xml" . 2>/dev/null || true
           cp "$GITHUB_WORKSPACE/deploy/og-image.png" . 2>/dev/null || true
+          cp "$GITHUB_WORKSPACE/deploy/_headers" . 2>/dev/null || true
           cp "$GITHUB_WORKSPACE/deploy/robots.txt" . 2>/dev/null || echo "User-agent: *" > robots.txt
+          cp -r "$GITHUB_WORKSPACE/deploy/articles" . 2>/dev/null || true
           
           git add -A
           if git diff --cached --quiet; then

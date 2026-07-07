@@ -158,7 +158,7 @@ sources:
     url: https://blog.google/technology/ai/rss/
     category: ai
     lang: en
-
+  - name: Anthropic Blog
     url: https://www.anthropic.com/feed.xml
     category: ai
     lang: en

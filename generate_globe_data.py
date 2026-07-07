@@ -85,22 +85,23 @@ def load_articles():
 def main():
     articles = load_articles()
 
-    # Filter to summarized only
-    summarized = [a for a in articles if a.get("summarized") and a.get("ai_summary")]
-    summarized.sort(key=lambda a: a.get("published", ""), reverse=True)
-    summarized = summarized[:500]
+    # Sort newest first, cap at 500
+    articles.sort(key=lambda a: a.get("published", ""), reverse=True)
+    articles = articles[:500]
 
-    # Build article payload
+    # Build article payload — include all articles, summarized or not
     articles_out = []
-    for a in summarized:
+    for a in articles:
+        summary = a.get("ai_summary", "") or a.get("summary", "")
         articles_out.append({
             "url": a["url"],
             "title": a["title"],
             "source": a["source"],
             "topic": a.get("topic", "General"),
             "category": a.get("category", "general"),
+            "lang": a.get("lang", "en"),
             "published": a.get("published", ""),
-            "ai_summary": a.get("ai_summary", ""),
+            "ai_summary": summary,
             "summaries": a.get("summaries", {}),
         })
 
@@ -138,6 +139,32 @@ def main():
     index_path = DEPLOY_DIR / "index.html"
     with open(index_path, "w") as f:
         f.write(html)
+    
+    # Now inject dynamic meta into the copied index.html
+    # Replace <title> and <meta name="description"> with dynamic content
+    latest = articles_out[:5]
+    headlines = [a["title"] for a in latest if a["title"]]
+    if headlines:
+        first = headlines[0][:100]
+        rest = " · ".join(h[:60] for h in headlines[1:4])
+        new_title = f"{first} — AstroAxis"
+        new_desc = f"{rest} — AI-powered world news aggregator with 3D globe, AI summaries, and real-time news"
+        if rest:
+            new_title = f"{first} · {rest} — AstroAxis"
+        
+        with open(index_path) as f:
+            html = f.read()
+        html = html.replace(
+            '<title>AstroAxis — AI-powered world news aggregator</title>',
+            f"<title>{new_title[:120]}</title>"
+        )
+        html = html.replace(
+            'content="AstroAxis — AI-powered world news aggregator with 3D globe, AI summaries, and real-time crypto/finance news"',
+            f'content="{new_desc[:200]}"'
+        )
+        with open(index_path, "w") as f:
+            f.write(html)
+    
     print(f"Copied globe.html -> {index_path}")
 
 

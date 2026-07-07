@@ -228,8 +228,8 @@ def crawl():
         # Polite delay between sources
         time.sleep(0.5)
     
-    # Keep only last 7 days, max 500 articles
-    cutoff = datetime.now(timezone.utc).timestamp() - 7 * 86400
+    # Keep only last 48 hours, max 500 articles
+    cutoff = datetime.now(timezone.utc).timestamp() - 48 * 3600
     articles = [a for a in articles 
                 if datetime.fromisoformat(a["published"]).timestamp() > cutoff]
     articles = articles[-500:]

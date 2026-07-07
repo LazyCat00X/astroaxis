@@ -12,6 +12,9 @@ sys.path.insert(0, str(Path(__file__).parent))
 import crawler
 import summarizer
 import site_generator
+import generate_globe_data
+import generate_articles
+import generate_sitemap
 
 logging.basicConfig(
     level=logging.INFO,
@@ -39,6 +42,12 @@ def run():
     # Step 3: Generate site
     log.info("--- Step 3: Generating site ---")
     output = site_generator.generate()
+    
+    # Step 4: Generate globe data + article pages + sitemap
+    log.info("--- Step 4: Generating deploy files ---")
+    generate_globe_data.main()
+    generate_articles.generate()
+    generate_sitemap.generate_sitemap()
     
     if output:
         log.info("=== Pipeline Complete: %s ===", output)

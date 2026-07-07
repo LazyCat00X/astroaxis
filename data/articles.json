@@ -4440,8 +4440,15 @@
     "topic": "World",
     "published": "2026-07-05T11:00:14+00:00",
     "crawled": "2026-07-05T12:22:28.045256+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 浙江省宣傳部門指責部分中國球迷在上海穿著日本國家隊球衣，為日本隊在世界杯的勝利歡呼，認為這行為接近越界。  \n• 該部門在社交媒體上發文表示，雖然中國球迷可以欣賞其他隊伍的技術，但支持應有“界限”。  \n• 發文指出，部分評論超出了單純的戰術欣賞，並強調球迷的歡呼不應成為攻擊國家尊嚴的工具。  \n• 此事件引發廣泛爭議，有人認為這是個人自由的表現，而另一些人則認為這損害了國家尊嚴。",
+    "summaries": {
+      "zh-HK": "• 浙江省宣傳部門指責部分中國球迷在上海穿著日本國家隊球衣，為日本隊在世界杯的勝利歡呼，認為這行為接近越界。  \n• 該部門在社交媒體上發文表示，雖然中國球迷可以欣賞其他隊伍的技術，但支持應有“界限”。  \n• 發文指出，部分評論超出了單純的戰術欣賞，並強調球迷的歡呼不應成為攻擊國家尊嚴的工具。  \n• 此事件引發廣泛爭議，有人認為這是個人自由的表現，而另一些人則認為這損害了國家尊嚴。",
+      "en": "Title: ‘Cheers should have limits’: Chinese province calls foul on fans of Japan World Cup team\nSummary:\n• The Zhejiang provincial propaganda department accused some Chinese fans of wearing Japanese national team jerseys in Shanghai and cheering for Japan's victories in the World Cup, deeming this behavior close to crossing the line.\n• The department stated on social media that while Chinese fans can appreciate the skills of other teams, support should have \"limits.\"\n• The post pointed out that some comments went beyond mere tactical appreciation and emphasized that fan cheers should not become a tool to attack national dignity.\n• This incident has sparked widespread controversy, with some viewing it as an expression of personal freedom, while others believe it undermines national dignity.",
+      "zh-CN": "标题：‘欢呼应该有界限’：中国省份对日本世界杯球队的球迷提出异议\n摘要：\n• 浙江省宣传部门指责部分中国球迷在上海穿着日本国家队球衣，为日本队在世界杯的胜利欢呼，认为这一行为接近越界。\n• 该部门在社交媒体上表示，虽然中国球迷可以欣赏其他队伍的技术，但支持应该有“界限”。\n• 发文指出，部分评论超出了单纯的战术欣赏，并强调球迷的欢呼不应成为攻击国家尊严的工具。\n• 此事件引发广泛争议，有人认为这是个人自由的表现，而另一些人则认为这损害了国家尊严。",
+      "ja": "タイトル：「応援には限度が必要」：中国の省が日本のワールドカップチームのファンに異議を唱える\n要約：\n• 浙江省の宣伝部門は、一部の中国のファンが上海で日本代表のユニフォームを着て、日本のワールドカップでの勝利を応援していることを非難し、この行為は越境に近いと見なした。\n• この部門はソーシャルメディアで、中国のファンが他のチームの技術を評価することはできるが、応援には「限度」が必要だと述べた。\n• 投稿では、一部のコメントが単なる戦術の評価を超えていることを指摘し、ファンの応援が国家の尊厳を攻撃する道具になってはいけないと強調した。\n• この事件は広範な論争を引き起こし、個人の自由の表現と見る人もいれば、国家の尊厳を損なうと考える人もいる。",
+      "ko": "제목: ‘응원에는 한계가 있어야 한다’: 중국 지방, 일본 월드컵 팀 팬들에 대한 이의 제"
+    }
   },
   {
     "url": "https://www.nytimes.com/2026/07/04/world/europe/uk-july-fourth-us-independence.html",
