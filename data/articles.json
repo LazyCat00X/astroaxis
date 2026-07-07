@@ -476,90 +476,6 @@
     "ai_summary": ""
   },
   {
-    "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-    "title": "How ChatGPT adoption has expanded",
-    "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
-    "full_text": "How ChatGPT adoption has expanded\nA new picture of global AI adoption.\nExplore Signals consumer data\nChatGPT adoption is widening and deepening around the world. New OpenAI Signals data shows that people use ChatGPT more often and for a broader range of tasks over time, while its user base is becoming more global and more diverse.\nUsing aggregated data, OpenAI Signals measures how people interact with Individual ChatGPT plans (these include Free, Go, Plus, and Pro plans) over time. This analysis offers a view into how Individual AI usage is evolving as ChatGPT reaches global scale.\nThe visualizations below highlight several core trends in global AI adoption: how use of ChatGPT deepened since launch, the ways people incorporate ChatGPT into their routines, and how this varies across languages and regions. Together, these findings provide a clearer picture of how people around the world are incorporating ChatGPT into work, learning, and daily life—in other words how AI is benefiting a large swath of humanity.\nChatGPT users deepened and expanded their use over time\nAs individuals use ChatGPT for longer, they both send more messages daily and try more new capabilities. Over time, users both did more things and did things more on ChatGPT. Six months after signing up, users sent 50% more messages per day than they did when they signed up. They also doubled the number of distinct tasks they’ve tried on ChatGPT.\nData is based on a 0.1% sample of users whose accounts were created between 2025-10-15 and 2026-05-01, and includes information on activity through 2026-05-31. Depth measures the number of messages the user has sent in the previous 28 days relative to the number they sent in the 28 days after account creation. Breadth measures the number of cumulative capabilities a user has used, relative to the number they used in the 28 days after account creation. Capabilities are measured using a classifier, which categorizes messages into one of 53 categories. Banned users, users under 18 years of age, and users who do not send any messages for 28 days after account creation are excluded.\nChatGPT adoption accelerated across regions\nChatGPT adoption has grown sharply across every continent since July 2023. In relative terms, the fastest growth has been in Africa and Asia.\nEach series plots the change in the number of weekly active ChatGPT users in each region relative to the baseline rate for that region in July 2023. Users are considered active if they have sent a message in the seven days before the start of each month. Countries in which ChatGPT does not operate are excluded, as are users under 18 years of age.\nA similar pattern appears across country-development groupings: lower-Human Development Index (HDI) countries have seen the fastest relative growth in weekly active users since July 2023. OpenAI has continued to provide low-cost access to ChatGPT through our free and Go plans.\nEach series plots the change in the number of weekly active ChatGPT users by 2023 Human Development Index category,  relative to the baseline rate of usage in each category in July 2023. Users are considered active if they have sent a message in the seven days before the start of each month. Countries in which ChatGPT does not operate are excluded, as are users under 18 years of age.\nChatGPT’s user base became more global and more diverse\nUsage by people with typically-female names\n, now representing most usage globally. Brazil, Colombia, Poland, and Namibia rank among the countries where messages sent by users with typically feminine names most significantly exceed users with typically masculine names. In contrast, Pakistan, Bangladesh, Angola, the Democratic Republic of Congo, and Mali have the most concentrated usage by those with typically masculine names. Overall, this data shows our best estimate of how many people with typically feminine or masculine names are using ChatGPT since we do not collect information on users’ gender.\nData is based on name-to-gender crosswalks, and reflects users active in the seven days before the start of the month. The analysis excludes users whose names are not typically masculine or typically feminine. Countries are omitted when at least half of active users’ names cannot be classified. Users under 18 years of age are excluded.\nNon-English ChatGPT usage grew alongside global usage. Users predominantly using a language other than English now represent over half of active users. The leading non-English languages on ChatGPT are Spanish, Portuguese, and Arabic.\nLanguage is assigned using each user’s most recent available language classification profile. Monthly shares include users active in the seven days preceding the first day of each month who are over  18 years of age.\nUzbek, Kazakh, and Burmese were the languages with the largest percentage increase in their share of active users since July 2023.\nLimited to languages with at least 1 million users active in June 2026. Each series is indexed to its July 2023 share. Usage shares are calculated over the set of users active in the seven days preceding the first day of each month and who are over 18 years of age. The primary language of each user is determined using the language used in the plurality of their messages.\nOpenAI Signals is an ongoing effort to ensure that researchers and policymakers have the best data at their fingertips to understand how AI is affecting and will impact the economy.\nIf you’re a researcher interested in leveraging ChatGPT usage data, download it for your own research and exploration\nIf you want to stay up-to-date on data releases, subscribe for updates\nThis analysis excludes messages from names that are not typically masculine or typically feminine. For more about the methodology we used to determine this please read our full methodology.\nMapping Europe’s AI Workforce Opportunity\nHelping build shared standards for advanced AI\nSupporting Europe’s work in ensuring a trustworthy AI ecosystem",
-    "source": "OpenAI Blog",
-    "category": "ai",
-    "lang": "en",
-    "topic": "AI",
-    "published": "2026-06-30T09:00:00+00:00",
-    "crawled": "2026-07-05T10:41:14.932942+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://openai.com/index/genebench-pro/case-studies",
-    "title": "Inside Genebench-Pro",
-    "summary": "",
-    "full_text": "A closer look at the benchmark, its questions, and supporting materials.\nThese 10 case studies showcase representative questions from GeneBench-Pro. Each case study includes the original prompt, datasets, and supporting materials. For an overview of the benchmark and key findings, see the\nNote: File previews show excerpts from the full datasets.\nSomatic oncology: Structural variant-guided tumor therapy benefit-risk decision\n(opens in a new window)\nEstimate whether a synthetic TXR1-directed inhibitor has positive clinical utility in tumors whose target activation is driven by a structural variant. TXR1, TXR1i, DLR1, and star-allele labels are synthetic benchmark labels.\nThe target subgroup has to be recovered from long-read, expression, tumor-quality, and pharmacogenomic evidence before benefit and toxicity can be interpreted as a treatment decision.\nReleased prompt shown to the model\nA molecular tumor board registry contains trial-eligible advanced solid-tumor cases considered for a TXR1-directed inhibitor. Estimate, for tumors with SV-driven TXR1 target-mediated activation at time zero, the marginal effect of TXR1i versus non-TXR1 systemic therapy on week-16 clinical benefit as if all patients had an assessable week-16 visit. Also estimate the 8-week treatment-limiting toxicity/discontinuation risk under TXR1i in the same target population. Report net clinical utility = benefit risk difference (percentage points) - 0.35 * toxicity risk (percentage points), and choose therapy_class_code 1 if TXR1i has positive net utility and 0 otherwise.\nUse percentage-point units for all non-code quantities. Positive benefit means TXR1i improves week-16 clinical benefit relative to non-TXR1 systemic therapy.\nThese data came from a real experiment; you will be graded not just on numerical correctness but the quality of analytical reasoning you exhibit; do not attempt to take any shortcuts.\nReturn your final answer as exactly one JSON object.\nDo not wrap the JSON in markdown.\nDo not add prose before or after the JSON.\nDo not omit any keys shown in the example.\nReturn the JSON object in your final answer:\n\"toxicity_dropout_risk_pp\"\n\"net_clinical_utility_pp\"\n\"<description of method and QC>\"\nFiles provided to the model\nRegistry covariates, therapy, week-16 assessment, benefit, and early toxicity.\nFunctional genomics: CRISPR target validation: lncRNA transcript or genomic locus?\n(opens in a new window)\nDecide whether an apparent lncRNA dependency is transcript-specific or driven by nearby-locus and neighbor-gene effects.\nTranscript-directed evidence has to survive controls for local DNA-locus perturbation, neighbor-gene repression, guide swaps, GC toxicity, and plate effects.\nReleased prompt shown to the model\nYou are given pooled CRISPRi screening data, guide-level local expression measurements, transcript-targeting CasRx follow-up data, and single-guide follow-up growth measurements for a nominated lncRNA program (LINC473) and a nearby coding gene (KIN1). The identifiers LINC473, KIN1, and ANKRD42 are synthetic benchmark labels; any resemblance to real human genes is coincidental.\nEstimate the requested quantities.\nlncrna_specific_lfc: the pooled-screen matched-control day-10 log2 growth effect expected at 100% effective knockdown of the dominant LINC473 transcript, not local DNA-locus effects.\nneighbor_mediated_lfc: the pooled-screen matched-control day-10 log2 growth effect expected at 100% KIN1 repression in the local LINC473-locus model after accounting for concomitant LINC473 transcript knockdown.\nadvance_target: 1 if the evidence supports advancing LINC473 as a transcript-directed target, else 0.\nall growth effects are log2(day10/day0) competitive-growth effects relative to matched controls;\nmore negative numbers indicate stronger loss of fitness;\nset advance_target to 1 only if lncrna_specific_lfc <= -0.08 and neighbor_mediated_lfc > -0.25; otherwise 0.\nThese data came from a real experiment; you will be graded not just on numerical correctness but the quality of analytical reasoning you exhibit; do not attempt to take any shortcuts.\nReturn your final answer as exactly one JSON object.\nDo not wrap the JSON in markdown.\nDo not add prose before or after the JSON.\nDo not omit any keys shown in the example.\nReturn the JSON object in your final answer:\n\"lncrna_specific_lfc\"\n\"neighbor_mediated_lfc\"\n\"<description of method and QC>\"\nFiles provided to the model\nGuide coordinates, targets, distances, and GC features.\nStatistical genetics: Prioritizing protein drug targets in a linked genetic locus\n(opens in a new window)\nEstimate direct disease effects for two nearby proteins using cis multivariable Mendelian randomization (cis-MVMR) while handling assay scale, allele orientation, winner's curse, LD, and residual local pleiotropy.\nThe two proteins share a correlated locus. The analysis has to move from marginal associations to conditional, LD-aware disease effects on a common protein scale.\nReleased prompt shown to the model\nYou are given association summary statistics and metadata for two nearby proteins (PROTA and PROTB), a binary disease outcome, a locus correlation reference, and protein measurement records.\nGoal: estimate the direct log-odds effect of each protein on the disease outcome per +1 SD increase in log10 concentration, conditional on the other protein.\nInterpretation: theta_PROTA and theta_PROTB use the same log-odds per-SD scale defined in the goal.\nThese data came from a real experiment; you will be graded not just on numerical correctness but the quality of analytical reasoning you exhibit; do not attempt to take any shortcuts.\nReturn your final answer as exactly one JSON object.\nDo not wrap the JSON in markdown.\nDo not add prose before or after the JSON.\nDo not omit any keys shown in the example.\nReturn the JSON object in your final answer:\n\"<description of method and QC>\"\nFiles provided to the model\n0.0032291419740237445\n0.0010638520681901973\n0.0033297592321269802\nScreening-stage protein association summaries for PROTA.\nClinical genomics / carrier screening: DRX1 carrier-screening residual risk under CNV and pseudogene calibration\n(opens in a new window)\nEstimate ancestry-specific carrier frequencies, residual risk after a negative screen, partner carrier frequency, and affected-conceptus risk from carrier-screening assay data.\nThe residual-risk estimate depends on pseudogene-aware carrier calls, founder-haplotype collapse, ancestry-specific assay calibration, and standardization from tested partners back to the full partner roster.\nReleased prompt shown to the model\nUsing cohort_roster.tsv.gz, partner_roster.tsv.gz, calibration_controls.tsv.gz, target_metadata.tsv.gz, and assay_observations.tsv.gz, estimate residual reproductive risk for an autosomal recessive DRX1 condition. Report all quantities on the probability scale, not as percentages: carrier_frequency_afr and carrier_frequency_eur among screening-roster adults; residual_carrier_risk_afr_negative for an AFR screening-roster adult with a negative DRX1 screen; partner_carrier_frequency_full_roster for a uniformly sampled partner_roster.tsv.gz row; and couple_reproductive_risk for an affected conceptus when the index person is AFR and screen-negative and the partner is drawn from partner_roster.tsv.gz. Assume autosomal recessive inheritance with a 1/4 affected-conceptus risk conditional on both biological parents being carriers.\nThese data came from a real experiment; you will be graded not just on numerical correctness but the quality of analytical reasoning you exhibit; do not attempt to take any shortcuts.\nReturn your final answer as exactly one JSON object.\nDo not wrap the JSON in markdown.\nDo not add prose before or after the JSON.\nDo not omit any keys shown in the example.\nReturn the JSON object in your final answer:\n\"carrier_frequency_afr\"\n\"carrier_frequency_eur\"\n\"residual_carrier_risk_afr_negative\"\n\"partner_carrier_frequency_full_roster\"\n\"couple_reproductive_risk\"\n\"<description of metho",
-    "source": "OpenAI Blog",
-    "category": "ai",
-    "lang": "en",
-    "topic": "Ai",
-    "published": "2026-06-30T00:00:00+00:00",
-    "crawled": "2026-07-05T10:41:15.338258+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://openai.com/index/introducing-genebench-pro",
-    "title": "Introducing GeneBench-Pro",
-    "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-    "full_text": "Introducing GeneBench-Pro\nA research-level benchmark measuring how AI agents navigate ambiguity and make consequential judgments in computational biology.\n(opens in a new window)\nScientific data rarely arrive with instructions. Researchers must decide whether a pattern reflects biology or noise, whether the data can support the question being asked, and how each result should change what they do next. AI agents are increasingly capable of executing complex analyses, but real scientific research also depends not simply on recalling facts or following a predefined workflow but also on making these higher-order judgments.\nToday, we’re introducing GeneBench-Pro—a challenging, research-level benchmark for testing whether models can handle the kind of judgment-heavy analysis that real-world computational biology requires. It expands on\n(opens in a new window)\nto cover harder, more realistic tasks across genomics, quantitative biology, and translational medicine, capturing the complexity, iterative nature, and ambiguity of scientific research in computational biology.\nTo date, there have been few convincing assessments of the system-level judgment calls that make real-world computational research difficult. These include handling ambiguity, revising assumptions, choosing the correct analysis path, and knowing when a result is decision-ready. Because these skills are difficult to formalize, they are also difficult to assess rigorously, even as weaknesses in them increasingly constrain overall AI performance.\nGeneBench-Pro is designed to precisely measure these higher-level capabilities. Within GeneBench-Pro, we define “research taste” as the chains of judgment calls that shape an analysis: which questions the data can support, how early diagnostics should change the model or estimand, and when an initial plan needs to be revised. Each GeneBench-Pro problem gives the model a realistic and messy dataset, brief experimental context, and a target estimand tied to a downstream decision. To answer correctly, the model must explore the data, choose an appropriate analytical approach, engage in an iterative process of experimentation, and supply a final answer.\nIn biology, the cost of data generation (e.g., genome sequencing) has fallen dramatically, and\nsome researchers now argue\n(opens in a new window)\nthat the limiting factor is no longer sample collection but downstream computation and analysis. GeneBench-Pro is built to assess progress in addressing that bottleneck, with 129 questions covering a broad range of computational biology settings and methods.\nDomain Atlas: 129 problems in 10 domains and 21 sub-domains\nStatistical genetics n=17\nPopulation genetics n=21\nQuantitative genetics n=17\nRegulatory omics n=17\nFunctional genomics n=9\nClinical, PGx & diagnostics n=26\nMicrobial genomics n=3\nForensic genetics n=2\nAssociation & correction\nHeritability and architecture\nPedigree, IBD, and phasing\nHistory & genealogies\nTrait architecture and variance\nFamily, social, and transmission effects\nPolygenic prediction and genomic selection\nRegulatory QTLs & ASE\nTranscriptome structure\nSpatial and chromatin context\nProteomics and biomarkers\nClinical variant interpretation & penetrance\nPharmacogenomics and treatment response\nPrenatal, reproductive, and clinical-risk genetics\nCancer somatic genomics and liquid biopsy\nMicrobial and metagenomic genomics\nUse the arrow keys to move between benchmark problems. The selected problem’s details appear below.\nClick on a dot above to learn about a benchmark problem.\nThis atlas provides a preview of the breadth of GeneBench-Pro. Visit the\nto explore 10 representative questions in more detail.\nGeneBench-Pro is also designed to avoid common benchmark failures. Many long-horizon biology benchmarks construct multi-step questions around messy historical datasets, where there may be no single correct path through the analysis. An agent might choose one defensible cutoff, while another might choose a different but equally defensible option, reflecting the arbitrary choices made by the benchmark creator more than any fundamental differences in model performance. The reverse can also happen: if a problem is too numerically insensitive, an agent can make fundamental errors in an analysis and still produce a passing result.\nTo avoid these failure modes, each GeneBench-Pro problem is built synthetically: we know the full causal structure and directly simulate the data-generating process. That enables us to tune the complexity of each problem, ensure that reasonable differences in subjective analytical choices still produce accepted numerical results, and verify (through ablation studies) that plausible but incorrect analyses fail. We then audit problem drafts through detailed trace analyses to check for information leakage and unintended solution pathways. This gives us confidence that getting the right answer depends on choosing the correct analytic pathway and not on exploiting a shortcut or matching an arbitrary author preference.\nWe sent 82 of the 129 GeneBench-Pro questions to external domain experts, including graduate students, postdoctoral researchers, industry scientists, and professors. Reviewers assessed each problem’s realism, whether the target answer was identifiable, and whether the methods and estimators were appropriate. Feedback was used to improve problems.\nThe problems I reviewed would have been\nchallenging for a graduate student\nto complete without iterated feedback from an experienced supervisor. The data contained technical and quality control issues that required thoughtful and reflective data analysis with awareness of potential pitfalls to complete successfully; they were not simply applying some off-the-shelf method to clean and well curated data.\nAlexander Strudwick Young, Assistant Professor in Human Genetics at UCLA\nEven if current models aren’t able to reliably run independent analyses from beginning to end, ones that perform well on GeneBench-Pro problems clearly would be able to assist researchers in determining correct workflows and exploring data.\nI could see that greatly improving the pace, thoroughness, and reproducibility of research\nJennifer Grundman, PhD Candidate in Human Genetics at UCLA\nThe problems I reviewed would have been\nchallenging for a graduate student\nto complete without iterated feedback from an experienced supervisor. The data contained technical and quality control issues that required thoughtful and reflective data analysis with awareness of potential pitfalls to complete successfully; they were not simply applying some off-the-shelf method to clean and well curated data.\nAlexander Strudwick Young, Assistant Professor in Human Genetics at UCLA\nEven if current models aren’t able to reliably run independent analyses from beginning to end, ones that perform well on GeneBench-Pro problems clearly would be able to assist researchers in determining correct workflows and exploring data.\nI could see that greatly improving the pace, thoroughness, and reproducibility of research\nJennifer Grundman, PhD Candidate in Human Genetics at UCLA\nAlexander Strudwick Young, Assistant Professor in Human Genetics at UCLA\nJennifer Grundman, PhD Candidate in Human Genetics at UCLA\nAlexander Strudwick Young, Assistant Professor in Human Genetics at UCLA\nJennifer Grundman, PhD Candidate in Human Genetics at UCLA\nEvaluation and grading\nEach GeneBench-Pro problem is a self-contained scientific analysis. Agents receive access to an isolated workspace with a short prompt, data files, and a standard bioinformatics stack including Python, scientific computing libraries, and basic genomics packages like PLINK 2.0 (although the problems do not require domain-specific tooling).\nStructural variant-guided tumor therapy benefit-risk decision\nA molecular tumor board registry contains trial-eligible advanced solid-tumor cases considered for a TXR1-directed inhibitor. Estimate, for tumors with SV-driven TXR1 target-mediated activation ",
-    "source": "OpenAI Blog",
-    "category": "ai",
-    "lang": "en",
-    "topic": "World",
-    "published": "2026-06-30T00:00:00+00:00",
-    "crawled": "2026-07-05T10:41:15.925570+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-    "title": "Core dump epidemiology: fixing an 18-year-old bug",
-    "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-    "full_text": "Core dump epidemiology: fixing an 18-year-old bug\nUsing population-level analysis to debug tricky crashes in our data infrastructure.\nOpenAI’s models and agents increasingly rely on scalable data infrastructure in order to search for relevant data at inference time: when the models are thinking about your question. Some of these services are written in C++, whose low-level control of the system lets us maximize performance and minimize memory usage. Those efficiency benefits are important as we scale, but C++’s lack of memory safety means that bugs can cause crashes by writing to incorrect or non-existent memory addresses.\nA few months ago we observed some crashes from inside the Rockset service, a bespoke part of our ChatGPT data infrastructure which is key to many data plugins and to searching over conversations. In each of these crashes, a normal C++ function seemed to finish and then return to a bogus address, causing the kernel to stop the program because the instruction pointer no longer pointed at code. Sometimes the return address slot in the stack frame was NULL. Sometimes the stack pointer CPU register itself seemed to be off by 8 bytes, as if\nhad somehow been decremented in the middle of normal execution. In both cases the crash happened on return.\nThese are not normal failure modes for application code. A stray write that lands only on a saved return address is possible, but extremely unlikely. A bug that misaligns\nby 8 without involving inline assembly,\n(none of which we use) is even stranger, because compiled code only adjusts that register directly in the function prologue and epilogue. Every hypothesis we (or ChatGPT) could think of had strong evidence against it, so the bug seemed impossible.\nWhat we assumed was one problem eventually turned out to be two unrelated bugs, coincidentally discovered at the same time. First, silent hardware corruption on one Azure host, where the CPU just didn’t do math correctly. Second, an 18-year-old race condition in GNU libunwind, an unnoticed bug in a widely used open source library.\nThis post is the story of how we identified and fixed seemingly inexplicable crashes by thinking like an epidemiologist and building a high-quality data set about the entire population of crashes.\nFirst debugging attempt: carefully examining a few core dumps\nFirst, let’s go deeper on Rockset. It’s a cloud-native data system for search and real-time analytics that we use for many internal use cases at OpenAI, such as sync connectors (Rockset was acquired by OpenAI in 2024). Streaming updates are used to maintain an up-to-date index of a workspace’s knowledge base so that ChatGPT can search for relevant information when answering questions or performing actions.\nRockset’s execution layer is written in C++. The C++ language provides low-level access to the CPU, which is good for performance and efficiency, but it means that application bugs can lead to invalid memory accesses and segfaults. To help track these down we use folly’s fatal signal handler to log a stack trace when a crash happens, and we upload the corresponding core dumps (a snapshot of the state of the program when it crashed) to Azure blob storage for later analysis. All of Rockset’s query processing leaves are replicated, which minimizes the client impact of a crash. However, each segfault corresponds to a bug that needs to be fixed to meet our reliability and quality goals.\nOur initial approach was to treat these cores like a conventional debugging problem: inspect a few core dumps very closely, form hypotheses, and rule them out one by one.\nMost of the crashes occurred in a method called\nDocumentTree::updateDocument\n. In these crashes it appeared that\nhad called some unknown function X, the stack had become corrupted while X was active, then X had returned to an address that wasn’t executable code. In some cases X’s just-popped frame looked valid except that its saved return address was NULL. In other cases the stack pointer itself looked wrong, but the next valid frame still seemed to be\nWe didn’t know when the stack was getting corrupted, which left a huge search space.\nis a large method that undergoes a lot of inlining, so the number of candidates for X was overwhelming.\nWas this a bug in our C++ code? A compiler or linkage issue? A problem in one of our runtime libraries? A Linux kernel bug around signal delivery or context switching? Something even rarer? If this was a stray write, why wasn’t it caught by our ASAN staging environment?\nWe tried to use our application-level logs to identify all occurrences of the problem, but stack-corruption bugs are hard to classify from logs alone because the logged stack traces are themselves corrupted or missing. We weren’t able to construct a log query that didn’t have both false positives and false negatives. We manually inspected more cores and found some additional examples, but that process was too labor-intensive to give us a trustworthy data set.\nAt this stage of the investigation, we (incorrectly) ruled out a hardware bug, because we saw crashes across multiple regions and multiple hardware types, so we were still looking for software-only causes. For a few days, we went super-deep on a single misaligned-\ncrash, reconstructing the pre-crash history using stack and register contents. This produced some possible clues, but because we didn’t let go of our initial conclusions that all of the bugs had the same cause, this didn’t get us unstuck.\nBefore getting to the turning point of our investigation, it’s important to explain what kind of information we were extracting from the core files.\nRockset is compiled with\n-fno-omit-frame-pointer\n, so the active stack frame is always reachable through\n, and callers form a linked list of frame pointers.\n, the AMD64 System V ABI also reserves 128 bytes below\nas the red zone. That region is available to userspace code and, importantly, the kernel promises not to clobber it when it delivers a signal, as part of the ABI contract.\nThe red zone was central to our debugging of a post-return crash, because it preserves some information from before the return. When a\nis triggered, folly’s fatal signal handler runs on the crashing thread’s stack. Stack frames that are no longer active (because their function has returned) will get clobbered by the signal handler, except for the last 128 bytes. That’s why we can say things like “X’s just-popped stack frame looked valid, except for a NULL return address.” The red zone preserves some of the inactive frames, or sometimes just the tail of one inactive frame.\nWe found one misaligned-stack crash in which all of the functions involved were very small. That let us see that\nhad become misaligned during execution of a relatively simple function, and that more calls had succeeded afterward. The program only crashed when the active function finally tried to return. None of those code paths used exceptions, inline assembly,\n, so if the stack pointer truly changed in the way the core suggested, no plausible bug in userspace code explained the issue.\nThat pushed us toward the kernel.\nRockset uses signals more aggressively than most programs. Query execution is broken into many lightweight tasks that exchange data. This is important for handling high-QPS workloads efficiently, but it makes per-query CPU accounting awkward as work for many queries is multiplexed onto the same thread pool.\nOur solution is something we call\ncoarse_thread_cputime_clock\nclock_gettime(CLOCK_THREAD_CPUTIME_ID, ...)\ncheaply enough to sample at every task boundary. The\nAPI can be used to schedule a periodic signal delivery based on several notions of the passage of time, including the accumulation of CPU time. We schedule a signal (SIGUSR2) to be delivered every few milliseconds of CPU time, at which point the signal handler updates a thread-local value. Even though many tasks don’t see the coarse clock advance while they are executing, summing all of the deltas produc",
-    "source": "OpenAI Blog",
-    "category": "ai",
-    "lang": "en",
-    "topic": "AI",
-    "published": "2026-06-30T00:00:00+00:00",
-    "crawled": "2026-07-05T10:41:16.286970+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-    "title": "Mapping Europe’s AI Workforce Opportunity",
-    "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
-    "full_text": "Mapping Europe’s AI Workforce Opportunity\nHow the EU’s mix of occupations and institutions can shape where AI supports growth, redesigns work, and encourages adaptation\n(opens in a new window)\nAI capabilities can cross borders quickly. Jobs do not change in such a frictionless way. Work is shaped by licensing systems, local institutions, and the practical realities of delivering care, education, justice, public services, and other forms of human support. These systems matter because they help determine if and how AI changes the labor market. What will AI’s labor market impact be? Where will the impacts be felt most and when? And how can we ensure that the AI transition works for everyone?\nThese are the questions at the center of OpenAI Economic Research's new report, The AI Jobs Transition Framework for the EU. The report extends the\nAI Jobs Transition Framework\n(opens in a new window)\n, first developed for the United States in April 2026, to the European labor market. It uses the official European Skills, Competences, Qualifications and Occupations (“ESCO”) taxonomy, along with Eurostat employment data, to examine how AI capabilities may translate into different kinds of near-term occupational change across EU member states. Compared with the U.S., the EU has a smaller share of employment in occupations with higher near-term automation potential.\nThe framework identifies four transition archetypes: occupations that may grow with AI, occupations at higher automation potential, occupations likely to reorganize, and occupations with less immediate change. These categories are not employment forecasts. They are a planning map for where different kinds of adjustment pressure and opportunity may emerge.\nApplied to the EU, the framework suggests that AI may increase demand in some occupations, reduce labor needs in others, and reorganize many more:\nAbout 12% of employment is in occupations that\nwith AI as lower costs expand access or make more projects viable.\nAbout 14% is in occupations with\nrelatively higher near-term automation potential\nAnother 27% is in occupations\nlikely to reorganize,\nwhere AI may change workflows and skill needs even when people remain central to delivery.\nThe remaining 47% is in occupations with\nless immediate change\nThe report shows that country-level patterns vary across the EU. Luxembourg, Sweden, and the Netherlands have larger shares in occupations that may grow with AI. Germany, Greece, and Italy have larger employment shares in occupations classified as higher automation potential. These differences reflect differences in the occupational structure across countries.\nFor policymakers, employers, educators, and researchers, the practical implication is to anticipate change and plan for it at a more detailed level. Aggregate employment statistics will reveal major changes only after firms, workers, and institutions have already begun to adapt. Europe has strong occupation, training, vacancy, wage, and official statistical systems. Connecting those systems to measures of AI capability and workplace adoption could help identify where transition pressure and opportunity are emerging before the effects show up in headline labor-market data.\nThe European extension of the AI Jobs Transition Framework is best understood as a map for preparation – a way to ask more useful questions about how AI capability becomes economic change in specific occupations and specific institutional settings. Better evidence gives workers, firms, and policymakers more time to prepare.\nThe report also offers preliminary ideas for public and private institutions working on AI and jobs, including strengthening monitoring capabilities to track labor market change, or establishing national readiness plans to tailor interventions.\nOver the coming months, we will expand and build out these ideas through engagement with stakeholders at both national and EU levels, with the goal of identifying practical ways to ensure that AI supports prosperity and progress across Europe.\nHow ChatGPT adoption has expanded\nHelping build shared standards for advanced AI\nSupporting Europe’s work in ensuring a trustworthy AI ecosystem",
-    "source": "OpenAI Blog",
-    "category": "ai",
-    "lang": "en",
-    "topic": "AI",
-    "published": "2026-06-29T07:00:00+00:00",
-    "crawled": "2026-07-05T10:41:16.806186+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://openai.com/index/hp-frontier-partnership",
-    "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-    "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
-    "full_text": "HP Inc. launches Frontier strategic partnership with OpenAI\nEnterprise transformation rarely starts all at once. More often, it begins when small teams prove a new way of working is possible. That was the case with HP Inc., which just announced it will scale activation of its\nstrategic partnership, following a series of successful pilots across different areas.\nThe strategic partnership extends how HP is deploying frontier capabilities to help its global efforts to enhance customer-facing experiences and accelerate transformation across its operations. Once scaled, the strategic partnership will focus on deploying AI across the organization in areas ranging from customer and partner-facing solutions and experiences, customer telemetry insights and reporting, employee productivity, and software development.\nAs soon as HP began testing OpenAI Frontier in February 2026, the company started exploring different ways it can use the platform. Early signs of success arrived quickly.\nOne engineer used OpenAI models to move through 122 pull requests across 43 projects in a matter of weeks. A security team used these models to remediate several software bugs in a day, work they estimated could otherwise have taken up to a month.\nAs pilot usage deepened, it also became clearer how the tools powered by OpenAI could move from experiment to daily workflows. For enterprise teams, time often disappears as code moves through tests, reviews, security checks, and handoffs across tools and sprint plans. At HP, OpenAI tools helped compress that time into a faster, more collaborative rhythm. “It has been an amazing tool, and I am using it daily,” said one HP engineer.\nFrom pilot wins to enterprise deployment\nThat growing utility across its test cases started to show how these individual wins could become part of a repeatable system HP could scale across the enterprise. Early successes also included HP teams finding immediate value in OpenAI APIs and tools like ChatGPT and Codex inside real everyday work, proving where AI could compress time, reduce friction, and improve execution.\nFrontier will play a critical role in the next phase. As HP expands from pilots to a broader portfolio of agents and AI workflows built across OpenAI tools, the company is using Frontier as a unified platform to understand what is running, what context each system can use, how actions are governed, and how outcomes are evaluated. Frontier gives HP the operating model for that motion: connecting access, context, deployment, and evaluation as the work moves from pilots toward production.\nFrontier as a connective layer\nFor a company as complex and distributed as HP, agents need to know which context to trust, which tools they can access, what actions they are allowed to take, and how their outputs will be evaluated over time.\nThat connective layer under Frontier is already taking shape across several HP workstreams:\nPricing, partner, store, and customer support workflows:\nHP’s channel ecosystem is a major platform opportunity with more than 80% of its business flowing through partners, and 100,000+ partners using the Partner Portal globally. Frontier will help HP create a more consistent self-service layer across store, partner, chat, and voice experiences, giving customers and partners faster ways to get answers, complete routine workflows, and move toward resolution or conversion. For partners, AI agents can provide always-on guidance across program navigation, business information, and various aspects of partner operations management, shortening information-to-action times, improving satisfaction, and reducing manual load.\nWorkforce Experience Platform (WXP) and device context:\nHP’s WXP platform offers a single pane of glass that can manage entire fleets of devices and provide peace of mind for CIOs. Using Frontier, HP is exploring how device telemetry, support knowledge, operational objects, schemas, and runbooks can help AI reason across fleet health signals, investigate crashes, Wi-Fi issues, and app hangs faster, eventually supporting grounded remediation.\nSecurity is both a proof point and a governance layer. HP teams have used ChatGPT to proactively remediate critical vulnerabilities and speed security analysis across tools, with a directional estimate of roughly 82 hours/week of security-team capacity unlocked. As these cases scale, Frontier’s support for permissioning, evaluation, and deployment controls helps HP move quickly and free up human capital while keeping the work reviewable.\nHP is using ChatGPT to support broad knowledge work such as research, analysis, ideation, and workflow automation, while Codex supports modernization, planning, UI scaffolding, and parallel software-delivery tasks.\nBuilding an AI-driven operating model\nWhat makes HP’s work with OpenAI notable is the breadth of the program under one strategic partnership, with the early proof points showing strong momentum. Frontier is helping build a connective tissue that turns pilot momentum into a governed operating model: shared context, clear permissions, evaluation, reusable deployment patterns, and a path from proof of concept to production.\nFor HP, AI is becoming a new layer for how work gets done across the company. With OpenAI Frontier, that layer can be built with the context, governance, and execution capacity needed to move from early wins to enterprise-wide transformation.\nHow agents are transforming work\nOpenAI and Broadcom unveil LLM-optimized inference chip\nDaybreak: Tools for securing every organization in the world",
-    "source": "OpenAI Blog",
-    "category": "ai",
-    "lang": "en",
-    "topic": "AI",
-    "published": "2026-06-28T17:00:00+00:00",
-    "crawled": "2026-07-05T10:41:17.238244+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
     "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
     "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
     "summary": "",
@@ -598,34 +514,6 @@
     "topic": "Ai",
     "published": "2026-06-30T14:39:11+00:00",
     "crawled": "2026-07-05T10:41:18.872627+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://huggingface.co/blog/eee-community-evals",
-    "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
-    "summary": "",
-    "full_text": "Featuring Every Eval Ever Results on Hugging Face Model Pages\nEvery Eval Ever (EEE) and Hugging Face Community Evals are now intercompatible. We enable cross-posting and interpreting evaluation results, while linking to open models, leaderboards, and a unified standardized metadata store.\nin February 2026 as a project of the\n, the first cross-institutional effort to improve how AI evaluation results get reported by both first and third party evaluators. Hugging Face launched\nin February 2026 to decentralize how benchmark scores get reported on the Hub. Combined, they patch gaps in how users, researchers, and policymakers trust, understand, and choose evaluations and models.\nEvaluation results are how we measure model capabilities, compare models against each other, and reason about safety and governance, and yet they are scattered and hard to compare. They live in papers, leaderboards, blog posts, and harness logs, among others, each in its own format. The same model on the same benchmark often returns different scores depending on who ran it and how; LLaMA 65B, for one, has been reported at both 63.7 and 48.8 on\n. These gaps can arise from\nevaluation settings that we found are commonly unreported\nEEE is our fix for the reporting side. It's one JSON schema for an evaluation result that records:\nwhat the metric actually means\n[recommended] companion JSONL file for per-sample outputs.\nThe schema was built with feedback from researchers and policy researchers, and it takes in results from any source, so harness logs, leaderboard scrapes, and paper numbers all end up in the same shape. The\nhas the converters, examples, and a contributor guide. Since launching, the\non Hugging Face has grown to around 229,000 evaluation results across more than 22,000 models and 2,200 benchmarks, pulled from 31 different reporting formats. Reproducing just those runs from scratch would cost somewhere in the hundreds of thousands of dollars, which is a reasonable argument for not letting the data scatter once someone has paid to generate it.\nLearn more about the schema and how to contribute\nNow, it comes with better integration and attribution. Contributors can now send EEE results to Hugging Face Community Evals. We built a converter that takes your EEE records and writes the small YAML files Hugging Face expects, so you don't have to keep the same result in two formats by hand.\nThis is new functionality for everyone who reports or reads evaluations, not only existing EEE contributors. First-party evaluators reporting on their own models and third-party evaluators reporting on someone else's can both submit to Community Evals and to EEE, and anyone browsing the Hub gets results that trace back to a full record. When you submit your data through your organization's official Hugging Face account, your results show up with a\ncheckmark on EvalEval, a signal to readers that the numbers come straight from the source. The rest of this post walks through what Community Evals are and what the converter does.\nHow Hugging Face Community Evals works together with EvalEval\nHugging Face Community Evals has two sides.\nA benchmark lives in a dataset repo that registers itself by adding an\n. Once registered, that dataset page collects and displays a leaderboard of every score reported against it across the Hub. The list of\nA model's scores live in\ninside the model repo. They show up on the model card and feed into the matching benchmark leaderboard. Both the model author's own results and results submitted by anyone else through a pull request get aggregated, and each score carries a badge saying whether it was author-submitted, community-submitted, or independently verified. Anyone can add a score to any model by opening a PR with the right YAML file, and the model author can close PRs or hide results on their own repo.\nHere is what one of these leaderboards looks like:\nCommunity Evals Leaderboard for\nThis is where EEE and Community Evals fit together. When you send a result to both, two things happen: First, your score appears on the Hugging Face model page and gets pulled into the benchmark's leaderboard. And second, it carries a source badge that links straight back to the full EEE record, where the generation config, the harness version, the reproducibility notes, and any instance-level data live.\nAn Evaluation (MMLU-Pro) from EEE Datastore (a) cross-linked at the file level to a Hugging Face model card (b). The Source EvalEval badge links to the full JSON record.\nThe two destinations do different jobs toward the same goal. Hugging Face puts your result where people look at models, with a link back to the source. EEE keeps the full structured record that makes the result interpretable, and powers\nSend your data to both and the same evaluation ends up visible and legible at once, which is the point of reporting one at all.\nYou can see that cross-compatibility below. The same GPQA scores that surface on the model card above also render in Eval Cards, which composes the EEE run data with benchmark and model metadata into one interpretable record. Same evaluation, a different surface:\nHugging Face stores eval scores in the model repo as a YAML under\n. The required fields are just the benchmark dataset, the task, and the value. The source block is the part that creates the backlink to EEE.\nurl: https://huggingface.co/datasets/evaleval/EEE_datastore/blob/main/flat/objects/<xx>/<yy>/<uuid>.json\nThe converter fills this in from your existing records.\n, then drops in the datastore object URL as the source link to the per-record EEE JSON. It currently handles four of the official benchmarks: MMLU-Pro, GPQA, HLE, and GSM8K.\nThe converter does more than reshape fields.\nYou point it at one EEE datastore collection and it downloads that collection along with the records it references, checks the object hashes, and finds the scores that map to a supported benchmark. Before it writes anything live it audits what already exists: it reads every\nYAML on the model's main branch and in open PRs, and compares by dataset and task rather than by filename. If a score is already there it is marked\n, if a different score is there it is flagged as a\n, and if the model repo doesn't resolve on the Hub it is marked\n. Everything else is marked\nNothing gets pushed without your sign-off.\nThe tool writes local YAML previews and a review file you can inspect, shows a report of what is ready and what needs attention, and only opens PRs after you type\nand enter a commit message. Reruns reuse the cached results for a collection unless you pass\nThe converter's review step. Excluded entries (here, models with no matching Hub repo) are listed with their EEE source URLs, and the ready PRs wait on an explicit OPEN PRS confirmation.\nSubmit your full records to\nUtilizing EEE requires only one additional step, which the converter largely automates. The\ncommunity eval converter tool\ncan be found in the GitHub repository. To process a collection, execute the following:\nuv run tools/hf-community-evals/community_evals_converter.py MMLU-Pro \\\n--datastore evaleval/EEE_datastore@main\nReview the previews and the report it generates, then type\nwhen you're ready to submit. Full documentation for the schema, CLI, and converters is at\nevalevalai.com/every_eval_ever/hf-community-evals\nDatasets mentioned in this article\nPapers mentioned in this article\nMore Articles from our Blog\nLetting Large Models Debate: The First Multilingual LLM Debate Competition\nIntroducing the Open Leaderboard for Japanese LLMs!\nUpload images, audio, and videos by dragging in the text input, pasting, or\nTap or paste here to upload images\nDatasets mentioned in this article\nPapers mentioned in this article",
-    "source": "Hugging Face Blog",
-    "category": "ai",
-    "lang": "en",
-    "topic": "Ai",
-    "published": "2026-06-30T00:00:00+00:00",
-    "crawled": "2026-07-05T10:41:19.077202+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://huggingface.co/blog/allenai/discoformer",
-    "title": "DiScoFormer: One transformer for density and score, across distributions",
-    "summary": "",
-    "full_text": "DiScoFormer: One transformer for density and score, across distributions\narxiv.org/abs/2511.05924\nMany problems in machine learning and the sciences come down to the same task: you have a collection of data points and want to recover the distribution they came from—which values are common, and which are rare. Pinning down that distribution means estimating two quantities: the distribution's density and, more useful as dimensionality grows, its score. The density is the smooth version of a histogram—high where points cluster and low where they're scarce. The score—the gradient of the log-density—points in the direction the density rises fastest: move a point along the score and it heads toward a more probable region.\nDiffusion-based generative models (the technology behind AI image generators like Stable Diffusion and DALL-E) start from random noise and repeatedly follow the score, turning that noise into a realistic image. The same score drives Bayesian sampling and the particle simulations used to model systems such as plasma.\nExtracting the density and score from a finite sample is challenging, and today's tools force a trade-off between generalizability and accuracy. One classical approach, kernel density estimation (KDE), computes the density at any location from the data points around it: the closer and more numerous they are, the higher the density. It needs no training and applies to any distribution, but its accuracy falls off sharply as dimensionality grows. Alternatively, neural score-matching models trained to predict the score stay accurate even in high dimensions, but each needs to learn the distribution and must be retrained from scratch for another.\nWe introduce a new solution called the\nDiScoFormer (Density and Score Transformer)\n—one model that, given a set of data points, estimates both the density and the score of the distribution in a single forward pass without retraining.\nTraining a transformer for density and score estimation\nDiScoFormer maps an entire sample to the density and score of the distribution behind it using stacked layers of transformer blocks. The model utilizes cross-attention, which allows it to evaluate density and score at any point—not just where you have data. Score and density share a mathematical relationship: score is the gradient of the logarithm of density. We leverage this by having a shared backbone with two output heads, one for the density and one for the score.\nThis coupling does more than save parameters. The score head has to match the gradient of the log-density head at every query, so any gap between them is a label-free consistency loss. We use this at inference—hold the context fixed, take a few gradient steps on that consistency loss, and DiScoFormer adapts itself to an out-of-distribution input on the spot, no ground-truth density or score required.\nThere's a mathematical reason why the transformer architecture fits this task. Kernel density estimation has a single bandwidth—how far each point's influence reaches, fixed in advance and applied identically everywhere. Attention is a strict generalization of it: we analytically show that a single attention head's weights are nearly a Gaussian kernel over the data, so one cross-attention block can already reproduce KDE's density and score. From there the model goes further, learning several such scales at once and adapting them to the data. DiScoFormer doesn't discard the classical method for a black box but instead includes KDE as a special case and improves on it.\nWhat data did we use to train DiScoFormer? We relied on Gaussian Mixture Models for two primary reasons. Firstly, GMMs are universal density approximators—with enough components they match essentially any smooth distribution to arbitrarily small error. Secondly, GMMs have closed-form densities and scores, so we always have an exact target to supervise against. We employ both of these properties by drawing a new GMM for every batch, giving the model virtually unlimited examples of target distributions and supervising each against a given GMM's exact density and score.\nAcross the board, DiScoFormer beats KDE at both density and score estimation, and the gap widens exactly where KDE struggles. In 100 dimensions, it isn't close—against the best hand-tuned KDE, it cuts score error by about 6.5x and density error by more than 37x, and it keeps improving as you add samples, while KDE runs out of memory. It also travels far outside its training data, staying accurate on mixtures with more modes than it ever saw during training and on non-Gaussian shapes like the Laplace and Student-t. KDE's main advantage remains speed, especially when datasets are small.\nThe part about DiScoFormer that we find most promising is that score estimation is a shared dependency across many fields, such as generative modeling, Bayesian inference, and scientific computing. A pretrained, plug-in estimator that stays accurate in high dimensions and removes the need to retrain per problem could cut that cost across all of them at once—one model, reused everywhere score and density show up.\nread our technical report\nMore from this author\nWhich tokens does a hybrid model predict better?\nMolmoMotion: Language-guided 3D motion forecasting\nUpload images, audio, and videos by dragging in the text input, pasting, or\nTap or paste here to upload images",
-    "source": "Hugging Face Blog",
-    "category": "ai",
-    "lang": "en",
-    "topic": "Ai",
-    "published": "2026-06-29T18:02:48+00:00",
-    "crawled": "2026-07-05T10:41:19.246967+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -696,34 +584,6 @@
     "topic": "AI",
     "published": "2026-06-30T12:00:00+00:00",
     "crawled": "2026-07-05T10:41:20.634826+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
-    "title": "AI agents are not your “coworkers”",
-    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Imagine coming in to work to learn that a new underling will report to you. The worker is not a person but an AI tool—one that your company nonetheless calls Alex, an&#8230;",
-    "full_text": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,\nImagine coming in to work to learn that a new underling will report to you. The worker is not a person but an AI tool—one that your company nonetheless calls Alex, an “employee” with a title and defined responsibilities. How well do you think you would work with Alex?\nIf you’re anything like the managers recently studied by Emma Wiles, a Boston University business professor, treating Alex as a “coworker” and not a software tool would lead you to do a worse job. Wiles\nthat people caught 18% fewer errors when the work was said to have come from an agentic “AI employee” rather than a chatbot. It turns out that what’s in a name matters. A lot.\nThis is an alarming glimpse of the future Silicon Valley is hurling us toward. Last year Nvidia’s CEO, Jensen Huang,\nabout workplaces of “digital humans.” Since April, Microsoft, OpenAI, Anthropic, and Google have all released new tools oriented toward managing teams of AI agents, many of which are explicitly advertised as digital colleagues with the flexibility and cognitive power of actual humans. And nearly a third of the 1,261 managers who participated in Wiles’s study said their companies already frame AI agents as employees (23% even list them on org charts).\nThe technical progress of agentic AI is not all hot air, of course. Agents, which can effectively be thought of as AI tools programmed to work in a loop until they achieve a goal, have become\nat more complicated tasks. But it’s a huge leap to refer to these tools as coworkers or employees, and doing so will set unrealistic expectations for what AI can do while leaving the human employees supposedly responsible for them worse off.\nThat’s partially because, Wiles’s research suggests, it inverts our sense of who’s in charge. When an AI tool was framed as an employee, participants in the study saw themselves as less responsible for its output. They were also 44% more likely to escalate its questionable work to a manager for further review rather than trusting their own corrections (thus negating the time-saving purpose of using the AI agent in the first place).\nThat matters far beyond office culture: As AI agents are embedded into health care, warfare, education, and government, there’s a growing risk they’ll become a convenient place to dump blame for failures that are instead the product of bad human decisions, incentives, and oversight (recall how the bomb strike on a girls’ school in Iran was popularly blamed on Claude, when\npoint to a cascade of human errors).\n“AI agents right now are being marketed as things that can replace humans, and I think that’s just a losing proposition,” says Daron Acemoglu, an economist at MIT who won the Nobel Prize in 2024 and studies AI’s impact on the economy. “They should instead be optimized so that they can improve human capabilities, which is not what they have [been] at the moment.”\nWhat could that look like? Consider a new\nat Stanford, where researchers presented 1,500 workers in 104 jobs with information about what tasks AI could potentially do in their work and then asked what would actually be most helpful and productive. Workers\nwant automation in certain areas: Law clerks thought AI could help ensure that adequate progress was being made across cases, for example. But often the tasks that tech experts deemed most suitable for AI—like verifying customer credit ratings for sales reps—were what the actual workers said they definitely did not want or need an agent to do.\nWhich brings us back to Alex. Calling Alex an employee is easy—and convenient, especially when something goes wrong—but it’s a branding exercise. It doesn’t make the tool more fit for the job, and as Wiles’s research shows, it makes the humans around it worse at theirs. And recall that\nare the ones with the agency that AI is trying to replicate. They deserve better than Alex.\nArtificial intelligence\nA startup claims it broke through a bottleneck that’s holding back LLMs\nSubquadratic has now shared more details about its new model. But some are still skeptical.\nA reality check on the AI jobs hysteria\nWhat do the numbers really say about the impact of artificial intelligence on the labor market? The answer might surprise you.\nAnthropic’s Code with Claude showed off coding’s future—whether you like it or not\nAs tools like Claude Code get better, more and more developers are happy to hand off coding tasks to them. The way software gets built has changed for good.\nAI chatbots are giving out people’s real phone numbers\nPeople report that their personal contact info was surfaced by Google AI—and there’s apparently no easy way to prevent it.\nIllustration by Rose Wong\nGet the latest updates from\nMIT Technology Review\nDiscover special offers, top stories,\nupcoming events, and more.\nThank you for submitting your email!\nExplore more newsletters\nIt looks like something went wrong.\nWe’re having trouble saving your preferences.\nTry refreshing this page and updating them one\nmore time. If you continue to get this message,\ncustomer-service@technologyreview.com\nwith a list of newsletters you’d like to receive.",
-    "source": "MIT Tech Review AI",
-    "category": "ai",
-    "lang": "en",
-    "topic": "Ai",
-    "published": "2026-06-29T18:00:00+00:00",
-    "crawled": "2026-07-05T10:41:20.788199+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
-    "title": "Agent confidence on the technical frontier",
-    "summary": "Enterprise investment in AI is booming. Gartner is calling 2026 an “inflection year” for organizations to align their AI projects with strategic business objectives. As the pressure to prove ROI mounts, executives and technology leaders are looking to agentic AI to drive the measurable financial outcomes their businesses seek. A prime opportunity for AI agents&#8230;",
-    "full_text": "Enterprise investment in AI is booming. Gartner is calling 2026 an “\n” for organizations to align their AI projects with strategic business objectives. As the pressure to prove ROI mounts, executives and technology leaders are looking to agentic AI to drive the measurable financial outcomes their businesses seek.\nA prime opportunity for AI agents exists in the tech function, where IT infrastructure costs are projected to grow two to three times by 2030, even as budgets remain unchanged, according to\n. And in the last 18 months, tech teams—the engineers, developers, architects, and other practitioners who are building, deploying, and continually improving their organizations’ infrastructure and applications—are clearly putting agents to work.\nThe ultimate promise of agents is not only to automate tasks but to manage and coordinate entire workflows, pursuing business goals in a way that allows humans and agents to work together. Given the risks involved in automated decision-making, teams cannot delegate the work that agents do without confidence that they are fully capable of performing the task and that it will do so in a safe, reliable, and secure manner.\nAmong technology experts, our research shows that teams are exceedingly confident about using agentic AI across a significant amount of AI, data, and cloud tasks.\nWhere agent readiness drops is largely due to a lack of business context being supplied to agentic systems. The more complex the task, the more reasoning capability an agent requires and the greater its need for business context. Such context-generation capabilities for agents are still at an early stage of development, especially in situations where enterprise data is difficult to wrangle and connect into the agent lifecycle at the speed and quality in which developers and executives need it. Human oversight is a key factor of success in deploying agentic AI.\nKnowing that tech teams are in a pivotal position to lead this transformation, the experts we interviewed expect agent confidence to accelerate as experience with agents deepens and business environments mature. “As we design agents to operate within the same operational boundaries, identity systems, and governance models that teams already use, they start to behave more like the systems organizations already trust,” says Jeremy Winter, corporate vice president and chief product officer at Microsoft Azure Platform.\nThis report, based on a survey of 300 global technology experts, ranks 101 tasks across AI, data, and cloud workflows based on respondents’ confidence in agents acting on their behalf. It also examines how technology teams view the opportunities and challenges related to agentic AI, along with the potential for the technology to enhance their careers.\nKey findings from the report include:\nConfidence in agents is surging for measurable tasks and growing in areas of complex judgment.\nTechnology experts overwhelmingly believe agents help with everyday work including streamlining processes, improving performance, and reducing repetitive tasks. Confidence is highest for processes like generating reports and boilerplate code, and there is clear opportunity where tasks involve multistep workflows and advanced reasoning to make decisions.\nData workflows are the breakthrough domain.\nTech teams trust agents most where structure can provide a reliable foundation for decisions. This includes areas such as data quality monitoring, visualization anomaly detection, real-time data stream monitoring, and data profiling. This is where domain experts closest to the point of data generation can provide context to allow agents to act and deliver trusted outcomes.\nDownload the full report.\nby Amanda Silver, corporate vice president of Microsoft 365 Core and Work IQ, which underscores the importance of keeping humans in the loop and how systems thinking advances careers. And for a deeper dive into data workflows as a breakthrough use case for agents, check out the\nto hear from Kim Manis, corporate vice president of Product for Microsoft Fabric.\nThis content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.\nArtificial intelligence\nA startup claims it broke through a bottleneck that’s holding back LLMs\nSubquadratic has now shared more details about its new model. But some are still skeptical.\nA reality check on the AI jobs hysteria\nWhat do the numbers really say about the impact of artificial intelligence on the labor market? The answer might surprise you.\nAnthropic’s Code with Claude showed off coding’s future—whether you like it or not\nAs tools like Claude Code get better, more and more developers are happy to hand off coding tasks to them. The way software gets built has changed for good.\nAI chatbots are giving out people’s real phone numbers\nPeople report that their personal contact info was surfaced by Google AI—and there’s apparently no easy way to prevent it.\nIllustration by Rose Wong\nGet the latest updates from\nMIT Technology Review\nDiscover special offers, top stories,\nupcoming events, and more.\nThank you for submitting your email!\nExplore more newsletters\nIt looks like something went wrong.\nWe’re having trouble saving your preferences.\nTry refreshing this page and updating them one\nmore time. If you continue to get this message,\ncustomer-service@technologyreview.com\nwith a list of newsletters you’d like to receive.",
-    "source": "MIT Tech Review AI",
-    "category": "ai",
-    "lang": "en",
-    "topic": "Ai",
-    "published": "2026-06-29T14:44:01+00:00",
-    "crawled": "2026-07-05T10:41:20.960311+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -878,20 +738,6 @@
     "topic": "Politics",
     "published": "2026-06-30T16:59:02+00:00",
     "crawled": "2026-07-05T10:41:24.890789+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://arstechnica.com/gadgets/2026/06/nasas-x-59-frankenjet-tests-supersonic-flight-without-the-sonic-boom/",
-    "title": "NASA's X-59 \"frankenjet\" tests supersonic flight without the sonic boom",
-    "summary": "NASA’s quiet supersonic flight tests could eventually go on a national tour.",
-    "full_text": "More than two decades since the Concorde supersonic airliner last took to the skies, NASA has been flying an experimental aircraft designed to replace loud sonic booms with a quieter thump equivalent to a car door slamming shut 20 feet away. A successful NASA flight test program could influence the design of future supersonic airliners capable of flying overland routes without rattling buildings—and people’s nerves.\nThe Lockheed Martin X-59 Quesst—an acronym for Quiet SuperSonic Technology—first took flight late last year and recently began supersonic test flights. But unlike with many experimental “X-plane” aircraft that may never leave restricted airspace near Edwards Air Force Base in California, NASA plans to eventually take the X-59 on a tour around the United States so residents of various cities and towns can provide feedback on the quieter sonic “thumps” it produces.\n“Usually an X plane is kind of bare-bones—‘cobble it together from a bunch of parts from other airplanes and just demonstrate one thing,’” said\n, a NASA test pilot and aerospace engineer, in an interview with Ars. “We need to demonstrate that one thing, but then we need a plane that’s robust enough that we can fly it all over the place and gather that data.”\nThe move comes at a time when the US Congress has been\nadvancing legislation\nthat could legalize overland supersonic travel. That would reverse a 1973 ban implemented by the US Federal Aviation Administration, which was informed by the public backlash and\nof supersonic flights over Oklahoma City, Chicago, and St. Louis in the 1960s.\nBut even if the X-59 program shows that quieter supersonic travel is possible, any potential revival of commercial supersonic flights would still have to prove financially viable despite challenges such as massive fuel consumption costs.\n, the mission integration manager for NASA’s Quesst mission and former manager of NASA’s Commercial Supersonic Technology project, spoke at length with Ars about the quirks of piloting a supersonic aircraft with no front window, the X-plane’s “frankenjet” design, a harrowing early flight test, and what people around the United States can expect once the X-59 starts doing its national tour.\nNASA’s X-59 quiet supersonic jet flies over the Mojave Desert during its third flight on Thursday, March 26, 2026, from NASA’s Armstrong Flight Research Center in Edwards, California.\nNASA’s X-59 quiet supersonic jet flies over the Mojave Desert during its third flight on Thursday, March 26, 2026, from NASA’s Armstrong Flight Research Center in Edwards, California.\nAn airframe designed for sonic thumps\nThe X-59’s distinctive airframe, developed by Lockheed Martin Skunk Works in partnership with NASA, is most likely to stand out at first glance—especially the\nthat makes up almost a third of the aircraft’s nearly 100-feet length. The nose is designed to help break up the shockwaves that are typically created when an aircraft flies faster than the speed of sound.\n“All the features of the X-59, from its long tapered nose to the engine mounted on top to the shape of the wing—each one of those features was done in one way or another to control the strength of a shockwave,” Coen told Ars.\nA supersonic aircraft typically creates multiple shockwaves emanating outward from the nose, canopy, engine inlet, wings, and tail of the aircraft. Those individual shockwaves “start to pile up on each other” and eventually form two remaining shockwaves that travel down to the ground, Coen explained. People on the ground usually hear the double bang of the two shockwaves as a single sonic boom.\nThe “trick to solving the sonic boom problem” involved creating an airframe design that could make shockwaves of similar strength while spacing them out as equally as possible along the airplane, Coen said. That slows down the process of multiple shockwaves merging into larger ones and allows the atmosphere to weaken the smaller shockwaves to smear out the sharp pressure change into a more gradual increase.\nThe result is that human ears will hear a “thump or a whoosh” as opposed to a typical sonic boom, Coen said. Whereas the Concorde’s\nwas around 105 perceived level in decibels (PldB)—potentially enough to rattle window frames and household items if the supersonic airliner wasn’t banned from overland flights—NASA’s Quesst mission goal is to demonstrate a softer sonic thump closer to 75 PldB.\nOne trade-off of the X-59’s long, tapered nose is that there is no forward window for the pilot. As a\nnotes, the last notable crewed aircraft that flew in the United States without forward-facing windows was Charles Lindbergh’s\nmonoplane that made the first nonstop transatlantic flight in 1927.\nInstead, the X-59 pilot relies on an eXternal Vision System (XVS) developed by NASA Langley Research Center, which uses two high-resolution cameras on the top and bottom of the aircraft to display a forward view to the pilot through a 4K monitor. The same monitor provides additional flight data through augmented reality features to assist with takeoffs and landings.\nThe X-59 also has actual side windows that allow a pilot to check for runway edges when taxiing on the ground, taking off, and landing.\nA close-up of the cockpit view of the eXternal Vision System before it was placed in the X-59. Instead of a front-facing window, the pilot uses monitors for forward-facing visibility.\nLockheed Martin | Garry Tice\nA close-up of the cockpit view of the eXternal Vision System before it was placed in the X-59. Instead of a front-facing window, the pilot uses monitors for forward-facing visibility.\nLockheed Martin | Garry Tice\nAlthough some engineers and project managers were initially concerned about how well the pilots could adapt to the XVS system, Less and\n, the lead X-59 test pilot, had prepared ahead of time by spending hundreds of hours training in an X-59 simulator, with Less having more than 300 hours and Larson spending more than 500 hours. They also practiced an estimated 1,000 simulator landings each.\n“It’s not like hopping in an F-18 or an F-15, where you’ve got great visibility all around, but when we’re in the X-59, this is normal to us,” Less told Ars. “It’s gotten very routine.”\nevaluated the XVS technology’s ability\nto help the pilot easily spot nearby aircraft, performing live flight test scenarios with the hardware installed aboard a NASA Beechcraft King Air. A pilot using the XVS system was often able to spot nearby aircraft faster than a pilot sitting up front and looking out the window, possibly due to the technology’s image-processing capabilities.\n“We’ve been able to show that it’s not only an equivalent level of safety to having a canopy, it’s actually better in some cases,” Less said. “I don’t know if this kind of system will find its way into future airliners—non-supersonic airplanes—just because it may allow you better visibility.”\nLike many experimental aircraft, the X-59 is a “frankenjet” because it uses “off-the-shelf” components from many different aircraft, Less said. For example, the aircraft’s landing gear comes from an F-16 Fighting Falcon jet. The throttle that controls the aircraft’s engine power originated from an F-18 Super Hornet fighter jet that operates from aircraft carriers, whereas the stick comes from an F-117 Nighthawk stealth attack aircraft.\nThe aircraft’s fuel system and hydraulics also incorporate components from F-16 and F-18 fighter jets. The X-59’s\n—capable of providing 22,000 pounds of propulsive energy—is a customized variant of a turbofan engine used in F-18 Super Hornets.\nThe X-59 cockpit is based on the rear cockpit of a T-38 jet trainer, allowing Lockheed to reuse the T-38 canopy and ejection seat for the experimental aircraft. But the result is a relatively small cockpit space for the test pilots Less and Larson, who are both more than 6 feet tall.\n“It does make for a pretty small, cramped cockpit—we’re always complaining about that,” Less told Ars. “Everything is right there at",
-    "source": "ArsTechnica AI",
-    "category": "tech",
-    "lang": "en",
-    "topic": "Science",
-    "published": "2026-06-29T10:30:36+00:00",
-    "crawled": "2026-07-05T10:41:25.235248+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -2758,62 +2604,6 @@
     "ai_summary": ""
   },
   {
-    "url": "https://www.bankless.com/read/news/galaxy-cuts-clarity-act-2026-passage-odds-to-50",
-    "title": "Galaxy Cuts Clarity Act 2026 Passage Chances to \"50-50\"",
-    "summary": "Galaxy lowered its Clarity Act passage odds to 50%, citing Senate calendar constraints and stalled negotiations rather than problems with the bill's substance.",
-    "full_text": "",
-    "source": "Bankless",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Politics",
-    "published": "2026-06-29T18:51:41+00:00",
-    "crawled": "2026-07-05T10:57:29.369100+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.bankless.com/read/the-case-for-a-second-ethereum-r-d-lab",
-    "title": "The Case for a Second Ethereum R&D Lab",
-    "summary": "Making ETH inevitable and scaling Ethereum to the world. Ethlabs's co-founders sat down with Bankless to unpack the new org's mission.",
-    "full_text": "- Industry-leading crypto research trusted by finance pros.\nThe Case for a Second Ethereum R&D Lab\nMaking ETH inevitable and scaling Ethereum to the world. Ethlabs's co-founders sat down with Bankless to unpack the new org's mission.\nIndustry-leading crypto research trusted by finance pros.\nSubscribe to Bankless\nlast week, my piece talked about the\n. Namely the basics of the new organization, and how it's a new independent R&D lab co-founded by former\nFoundation luminaries like Ansgar Dietrichs and Caspar Schwarz-Schilling.\nThat said, both Ansgar and Caspar just came on the podcast to cover the\nof the org and their thinking around it. It's one of the best conversations about Ethereum's direction I've heard in a while.\n: The New Org to Make\nEthlabs is here with a blunt mission: make Ethereum and ethereum:native  win.\nAnsgar and Caspar join\nis narrowing its focus, why Ethereum…\npic.twitter.com/tRPci4mpF2\n— Bankless (@Bankless)\nThe core thesis, as Ansgar laid it out early in the convo, is that Ethereum is at an evolutionary crossroads. The network's first 10 years were about infra, bringing assets onchain, figuring out how DeFi protocols should work, and etc. All of that is done, more or less, as we now have the fundamental rails.\nthe question is whether Ethereum will become a central node that the global economy routes through, or whether we end up in a fragmented multichain world. Ansgar said it will be one or the other, and it's not inevitable which way will win.\nTackling this crux head-on is the strategic case for Ethlabs's existence. The EF, per its new mandate, is doubling down on CROPS, i.e. censorship resistance, open source, privacy, and security, the foundational properties that give Ethereum credible neutrality. Ethlabs exists to complement that vision, not compete with it. In Caspar's framing the EF maintains what makes Ethereum\n, and Ethlabs will work to scale that to the world.\nEnjoying this article?\nSubscribe to Bankless\nIn the episode, Ansgar sketched out Ethlabs's focus areas across three buckets:\n— Anything core protocol, including a push for L1 scaling that Ansgar has been pushing on for a while now. The upcoming Amsterdam hardfork, per the convo, should deliver something like ~4x throughput gains, and Ansgar's broader north star is a permanent 3x-per-year scaling trajectory for Ethereum going forward.\n— Here will come the work that stems from the intersection between the chain and apps. This is where interoperability lives, and both Ansgar and Caspar were emphatic that Ethereum\nbe the central settlement node of the global economy if the UX of moving assets across L2s remains as fragmented as it is today. The superpower of a \"United Chains of Ethereum,\" as Ansgar put it, only materializes if being in that bundle is an obvious no-brainer for any chain launching today. Right now, it isn't.\n— The newest and most explicitly market-facing area of Ethlabs, this area of effort will focus on understanding what DeFi builders, Wall Street, and other finance-adjacent builders actually need from Ethereum, and then propagating those needs back upstream into research and EIPs.\nOne of the more interesting threads in the episode was the discussion around ETH specifically, an area where the EF has historically been reticent.\nAs Ansgar argued, Ethereum and ETH can only win\n, which means every protocol development decision needs to account for its effect on ETH's role and value accrual. He draws the\ncomparison deliberately: Bitcoin's success is partly a matter of inevitability, as there's an aura around it that it will simply\nthere. That's what Ethereum, and ETH, need to build.\nOn the funding and longevity side, Caspar was candid that the org's accountability structure is quite intentional. Ethlabs has solid two-to-three-year runway and a starting team of five, with ambitious but lean hiring plans. Their plan for continued funding is to deliver impactful work, then come back to the community in a year and ask if their track record justifies further support.\nAnsgar noted this accountability loop was a deliberate hedge against the classic nonprofit failure mode of drifting toward irrelevance without any real-world forcing function.\nAlas, can Ethlabs pull off their plans and make a difference? We'll see, though it does seem clear to me that this group of Ethereum diehards is uniquely suited for the work they've set out for themselves. They're poised to have a big impact, and that's something everyone in Ethereum can root for. For now, catch up on all their thinking in\n, out now for everyone!\nEthlabs: The New Org to Make Ethereum Win | Ansgar & Caspar on Bankless\nEthereum has a new R&D lab, and its mission is blunt: make Ethereum and ETH win.\nIndustry-leading crypto research trusted by finance pros.\nIndustry-leading crypto research trusted by finance pros.\nWritten by William M. Peaster\nWilliam M. Peaster, Senior Writer, has been with Bankless since January 2021. Immersed in Ethereum since 2017, he covers the onchain frontier with a particular interest in art, games, and other culture apps. He has a background in creative writing and writes fiction in his free time.\nUpgrade to Citizenship to listen\nListening to Bankless articles is just the beginning of what you'll unlock with Citizenship...\n100+ Airdrop Hunter Guides\nExclusive Newsletter Analysis\nDaily Token Hub Ratings\nPrivate Discord w/ Bankless team\nBonus Citizen-Only Episodes\nSupport Crypto-Native Media!\nKeep up to date on the hottest ICOs with ICO Watch\nThe Top Airdrop Hunts of the Month: January 2026\nStart the new year by chasing 'drops from these five promising tokenless protocols.\nCheck eligibility for the Exactly Governance Claimable\nEligible wallets had an average value of $18,747\nEARLY ACCESS - The Rise of Robinhood Chain: Tokenized Stocks, Perps, and 27M Users | Johann Kerbrat\nROLLUP: Crypto Bullish Again? | OpenUSD vs USDC | Robinhood Chain | Trump’s $1.4B Haul\nHow Ondo Is Bringing Stocks and Perps Onchain | Ian De Bode\nLatest News & Analysis\neToro Leads $12.5M Round for Onchain Perps Platform Extended\nAfrica's Largest Centralized Exchange Integrates Hyperliquid Perps\nRobinhood Just Revealed Lighter's Master Plan\nSolana Launches Onchain Governance With 100K SOL Entry",
-    "source": "Bankless",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Ethereum",
-    "published": "2026-06-29T17:52:40+00:00",
-    "crawled": "2026-07-05T10:57:29.602965+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.bankless.com/read/news/strategy-authorizes-up-to-1-25b-in-btc-sales-for-dividends",
-    "title": "Strategy Authorizes Up to $1.25B in BTC Sales for Dividends",
-    "summary": "Strategy's new framework authorizes selling up to $1.25B of Bitcoin to fund preferred dividends, retiring its long-held \"never sell\" posture.",
-    "full_text": "- Industry-leading crypto research trusted by finance pros.\nStrategy Authorizes Up to $1.25B in BTC Sales for Dividends\nStrategy's new framework authorizes selling up to $1.25B of Bitcoin to fund preferred dividends, retiring its long-held \"never sell\" posture.\nIndustry-leading crypto research trusted by finance pros.\nSubscribe to Bankless\nStrategy adopted a new \"Digital Credit Capital Framework\" Monday that\nformally authorizes the company to\nsell up to $1.25 billion of Bitcoin\nto fund its preferred stock dividends and interest payments.\nStrategy's cash reserve sits at about $2.55 billion as of June 28, earmarked solely for paying preferred dividends and debt interest. Against roughly $1.76 billion in annual dividend and interest obligations, that's about 17.4 months of coverage. Adding the potential $1.25 billion BTC sales grows their coverage to about $3.80 billion, or roughly 25.9 months. Additionally, a policy floor of maintaining at least 12 months of coverage was established.\nThe STRC Dividend Hike:\nStrategy is raising the dividend rate on its variable-rate STRC preferred stock to 12.00% effective July 1, hoping to make it more attractive. Going forward, the company will evaluate the rate monthly based on trading levels, market yields, BTC price and volatility, and reserve coverage.\nTwo Buyback Programs:\nStrategy established a $1.0 billion repurchase program for its preferred securities (prioritizing STRC) and a separate $1.0 billion program for MSTR common stock. Buying back preferred shares at a discount to stated value could reduce future dividend obligations. Neither buyback will be funded from the USD Reserve, though both could be funded through BTC sales.\nAll of Strategy's publicly traded assets (MSTR, STRC, and more) are up roughly 12% on the day, though STRC still has a ~17% gap to close before trading back on par.\nMachine Breaking Down? on Bankless\nStrategy’s structure runs on Bitcoin, MSTR common stock, and STRC preferred, and right now all three are weakening at once.\nIndustry-leading crypto research trusted by finance pros.\nIndustry-leading crypto research trusted by finance pros.\nWritten by David Christopher\nDavid is a writer/analyst at Bankless. Prior to joining Bankless, he worked for a series of early-stage crypto startups and on grants from the Ethereum, Solana, and Urbit Foundations. He graduated from Skidmore College in New York. He currently lives in the Midwest and enjoys NFTs, but no longer participates in them.\nUpgrade to Citizenship to listen\nListening to Bankless articles is just the beginning of what you'll unlock with Citizenship...\n100+ Airdrop Hunter Guides\nExclusive Newsletter Analysis\nDaily Token Hub Ratings\nPrivate Discord w/ Bankless team\nBonus Citizen-Only Episodes\nSupport Crypto-Native Media!\nKeep up to date on the hottest ICOs with ICO Watch\nThe Top Airdrop Hunts of the Month: January 2026\nStart the new year by chasing 'drops from these five promising tokenless protocols.\nCheck eligibility for the Exactly Governance Claimable\nEligible wallets had an average value of $18,747\nEARLY ACCESS - The Rise of Robinhood Chain: Tokenized Stocks, Perps, and 27M Users | Johann Kerbrat\nROLLUP: Crypto Bullish Again? | OpenUSD vs USDC | Robinhood Chain | Trump’s $1.4B Haul\nHow Ondo Is Bringing Stocks and Perps Onchain | Ian De Bode\nLatest News & Analysis\neToro Leads $12.5M Round for Onchain Perps Platform Extended\nAfrica's Largest Centralized Exchange Integrates Hyperliquid Perps\nRobinhood Just Revealed Lighter's Master Plan\nSolana Launches Onchain Governance With 100K SOL Entry",
-    "source": "Bankless",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Bitcoin",
-    "published": "2026-06-29T17:21:33+00:00",
-    "crawled": "2026-07-05T10:57:29.802440+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.bankless.com/read/news/blackrock-adds-ethenas-usde-to-risk-management-platform",
-    "title": "BlackRock Adds Ethena’s USDe to Risk Management Platform",
-    "summary": "BlackRock is adding Ethena’s USDe to Aladdin while making BUIDL the main reserve asset for Ethena’s whitelabel stablecoins.",
-    "full_text": "- Industry-leading crypto research trusted by finance pros.\nBlackRock Adds Ethena’s USDe to Risk Management Platform\nBlackRock is adding Ethena’s USDe to Aladdin while making BUIDL the main reserve asset for Ethena’s whitelabel stablecoins.\nIndustry-leading crypto research trusted by finance pros.\nSubscribe to Bankless\nBlackRock is adding Ethena’s USDe to Aladdin, its institutional risk-management platform used by major asset managers, banks, insurers, and pension funds. The deal also makes BlackRock’s tokenized Treasury fund, BUIDL, the main reserve asset for the stablecoins\ndeploys as a service for companies.\nAladdin is BlackRock’s portfolio management and risk system. Institutions use it to track assets, model risk, monitor exposure, and manage large portfolios. Adding USDe to Aladdin means institutions using the platform will have a more familiar way to view, track, and manage USDe alongside other assets.\nBUIDL, BlackRock’s tokenized Treasury fund, already the default collateral for\nEthena's institutional USDtb stablecoin\n, will now also be  the main reserve asset for the stablecoins Ethena builds for other companies. BUIDL holds tokenized exposure to short-term Treasuries, cash, and repo agreements.\nThe Liquidity Facility:\nEthena is also committing a $100 million liquidity facility through Securitize, the regulated transfer agent for BUIDL. The facility lets eligible BUIDL holders swap BUIDL into supported stablecoins, including USDC and USDtb, and move back into BUIDL\nInstitutional Momentum:\nGlobal asset manager Janus Henderson recently made a strategic investment in ENA,\nVentures disclosed its first Ethena investment alongside a distribution agreement,\nwas named institutional custodian for USDe reserves, and Anchorage Digital expanded its work with the protocol. All this is to say Ethena's working hard to expand its institutional footprint and it looks like its continuing to pay off.\nExcited to announce our collaboration with\n→Integration of USDe into BlackRock's Aladdin platform\n→BUIDL as the primary asset for our whitelabel product\n→Liquidity facility on BlackRock tokenized products\nThe integration of USDe on Aladdin provides unique…\npic.twitter.com/onP6o8hIpp\nIndustry-leading crypto research trusted by finance pros.\nIndustry-leading crypto research trusted by finance pros.\nWritten by David Christopher\nDavid is a writer/analyst at Bankless. Prior to joining Bankless, he worked for a series of early-stage crypto startups and on grants from the Ethereum, Solana, and Urbit Foundations. He graduated from Skidmore College in New York. He currently lives in the Midwest and enjoys NFTs, but no longer participates in them.\nUpgrade to Citizenship to listen\nListening to Bankless articles is just the beginning of what you'll unlock with Citizenship...\n100+ Airdrop Hunter Guides\nExclusive Newsletter Analysis\nDaily Token Hub Ratings\nPrivate Discord w/ Bankless team\nBonus Citizen-Only Episodes\nSupport Crypto-Native Media!\nKeep up to date on the hottest ICOs with ICO Watch\nThe Top Airdrop Hunts of the Month: January 2026\nStart the new year by chasing 'drops from these five promising tokenless protocols.\nCheck eligibility for the Exactly Governance Claimable\nEligible wallets had an average value of $18,747\nEARLY ACCESS - The Rise of Robinhood Chain: Tokenized Stocks, Perps, and 27M Users | Johann Kerbrat\nROLLUP: Crypto Bullish Again? | OpenUSD vs USDC | Robinhood Chain | Trump’s $1.4B Haul\nHow Ondo Is Bringing Stocks and Perps Onchain | Ian De Bode\nLatest News & Analysis\neToro Leads $12.5M Round for Onchain Perps Platform Extended\nAfrica's Largest Centralized Exchange Integrates Hyperliquid Perps\nRobinhood Just Revealed Lighter's Master Plan\nSolana Launches Onchain Governance With 100K SOL Entry",
-    "source": "Bankless",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Crypto",
-    "published": "2026-06-29T17:11:42+00:00",
-    "crawled": "2026-07-05T10:57:30.007318+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
     "url": "https://blockcast.it/2026/07/05/donald-trump-said-nothing-illegal-or-wrong-with-his-crypto-investments/",
     "title": "靠加密貨幣海賺數億美元！川普駁斥「利益衝突」：我又沒犯法",
     "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"960\" src=\"https://blockcast.it/wp-content/uploads/2025/03/Donald-Trump1.jpeg\" style=\"display: block; margin: auto; margin-bottom: 5px;\" width=\"1440\" /><p>美國總統川普 （ Donald Trump ）最新財務申報曝光，年收入逾 22 億 4,000 萬美元，其中數億來自加密貨幣。面對利用職權自肥的質疑，他強力反駁稱完全合法，此現象引發兩黨倫理爭辯。</p>\n<p>〈<a href=\"https://blockcast.it/2026/07/05/donald-trump-said-nothing-illegal-or-wrong-with-his-crypto-investments/\">靠加密貨幣海賺數億美元！川普駁斥「利益衝突」：我又沒犯法</a>〉這篇文章最早發佈於《<a href=\"https://blockcast.it\">區塊客</a>》。</p>",
@@ -2964,20 +2754,6 @@
     "topic": "Tech",
     "published": "2026-06-30T23:20:41+00:00",
     "crawled": "2026-07-05T10:57:38.377400+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://ccc.technews.tw/2026/06/29/steam-machine-born-at-the-wrong-time/",
-    "title": "淺談 Steam Machine：生不逢時",
-    "summary": "市場期待已久的 Steam Machine 日前評測出爐，並開始接受預購。確實 Steam Machine 完 [&#8230;]",
-    "full_text": "市場期待已久的 Steam Machine 日前評測出爐，並開始接受預購。確實 Steam Machine 完美整合 StreamOS，讓玩家在客廳也能暢玩 Steam 帳戶的遊戲。但評測一出，卻遠不如剛曝光時一致好評，澳洲知名硬體 YouTuber Hardware Unboxed 甚至喊出「Impossible to recommend」（不可能推薦），究竟是為什麼？\n無法受認同的原因莫過於超過1,000美元定價，且還是最陽春、不含手把版本（16G記憶體＋512G儲存空間）。若含手把最便宜要價1,128美元。雖然Valve之前就打過預防針，因記憶體和SSD暴漲，Steam Machine價位帶會較接近PC而不是家用主機，但最後價格公布後還是令消費者倒抽一口氣。\n用離譜來形容也不算太誇張的價格曝光後，許多媒體紛紛拿近似價位帶的DIY PC比較，發現DIY PC規格遠高得多，效能也因瓦耗更高遠勝過Steam Machine。\n部分媒體也發現如果拿去跟更便宜的家用主機如PS5 Pro或Xbox比，Steam Machine效能也討不到便宜，甚至部分遊戲表現不如家用主機。\n這點引起不少媒體批評，因Valve宣稱能經FSR輸出和家用主機一樣流暢的4K@60遊戲體驗，但實際測試後發現多數遊戲都必須畫質只設最低且把FSR也開到最低檔才有機會摸到4K@60，但畫質也相當不堪，遊戲體驗自然不好。\n所以過高訂價和極其平庸的效能也讓社群戲稱為「GabeCube」，大概只有Gabe Newell（Valve創辦人）的信徒才想買。\n這市場反應對推出Steam Deck以來頗受好評的Valve算是一大挫敗。但平心而論，Steam Machine設計初衷是讓所謂PC Game走進客廳，所以家用主機才是原本假想敵，這點也從效能和其他家用主機打成五五波可印證。\n但Valve沒想到的是記憶體和SSD價格漲勢如此凶狠，又不像其他OEM和記憶體廠商有長期合作關係，不要說議價，甚至連記憶體都買不到（Valve表示內建16G記憶體可能是8G2或16G1兩種隨機出貨，因無法保證8G或16G記憶體貨況）。加上又不像微軟或Sony掌控遊戲工作室，硬體銷售損失可部分由遊戲收入回補，所以只能硬著頭皮推出完整反映零組件成本的訂價，也造成負面市場反應。\n不過話雖如此，Steam Machine還是預購一空。當然這背後有可能是供貨量很少，一旦訂價踏入PC領域，CP值就會永遠被消費者拿著放大鏡檢視。不過G胖（Gabe Newell在台灣社群的綽號）一向不按牌理出牌，說不定當記憶體價格回穩後，Steam Machine就會降價滿血回歸了。\nValve Steam Machine 實測：客廳體驗極佳，但還做不到「插上就玩」\nXbox Play Anywhere vs. Steam：誰是最佳遊戲平台？\n淺談 Steam Machine & Steam Frame：SteamOS 宇宙成形\n淺談 Arc G3 Extreme：問鼎掌機效能王座？\n從這裡可透過《Google 新聞》追蹤 TechNews",
-    "source": "科技新報",
-    "category": "tech",
-    "lang": "zh",
-    "topic": "Tech",
-    "published": "2026-06-29T00:10:57+00:00",
-    "crawled": "2026-07-05T10:57:38.660368+00:00",
     "summarized": false,
     "ai_summary": ""
   },
@@ -4536,48 +4312,6 @@
     "ai_summary": ""
   },
   {
-    "url": "https://ccc.technews.tw/2026/06/30/every-pay/",
-    "title": "台北捷運多元支付 7/1 正式開通！台新獨家收單「新戶享百元回饋」",
-    "summary": "台北捷運自 7 月 1 日起邁入全面無現金交通時代，由台新銀行提供收付金流服務，民眾無論使用國內外信用卡，只要 [&#8230;]",
-    "full_text": "台北捷運自 7 月 1 日起邁入全面無現金交通時代，由\n提供收付金流服務，民眾無論使用國內外信用卡，只要綁定 Apple Pay、Google Pay、Samsung Pay 皆可感應進站，台新銀行執行長包國儀分享，台新信用卡新戶申辦 Richart 卡，週週最高享百元回饋，領券再享月月 50 點回饋。\n台北捷運自 7 月 1 日全面支援 Visa、Mastercard、JCB、Discover Network 和 Diners Club International 等國際信用卡組織，並能使用簽帳金融卡及電子錢包，例如 Apple Pay、Google Pay、Samsung Pay 等行動支付進站。\n台北捷運表示，Apple Pay 使用者可從「錢包」App 中啟用 Apple Pay「快速交通模式（ECP）」，之後僅需將 iPhone 靠近閘門感應區，即可通過，無需解鎖或將裝置喚醒，而若 iPhone 電量耗盡，已啟用「快速」模式的旅客，還是可以搭乘大眾運輸，並完成付款。\n包國儀指出，台新銀行做為台北捷運多元支付建置合作夥伴，透過整合支付科技與金融服務，協助推動公共運輸支付數位化，今年上半年試營運短短六個月內，累積搭乘人次突破百萬，其中八成使用者為 35 歲以下，九成習慣以手機感應取代實體卡片，顯示行動支付已成為年輕世代通勤主流。\n包國儀分享，這次全面開通的科技亮點，首推果粉期待已久的「Apple Pay 快速交通模式（ECP）」，iPhone 與 Apple Watch 用戶過閘時無須解鎖螢幕，裝置輕靠閘門即可在 1 秒內完成感應通行，尖峰時段也能維持順暢節奏。\n為慶祝通勤新時代來臨，包國儀宣布，台新銀行推出下半年回饋方案，9 月 30 日前新申辦 Richart 卡，新戶首刷享週週最高 125 元刷卡金，卡友於 Richart Life App 領券後，每月感應搭乘滿 3 筆，即贈 50 點台新 Point。\n針對台北捷運正式開通 Visa 感應支付服務，Visa 宣部將從 7 月 1 日至 9 月 30 日期間推出乘車返現活動，民眾只要持有台灣發卡機構發行 Visa 信用卡或簽帳金融卡的持卡人，完成 Visa Select 優選回饋註冊及活動報名後，以 Visa 卡綁定電子錢包搭乘台北捷運，享票價最高 100% 現金回饋。\n廢除簡訊驗證碼打詐！藍新、綠界四大支付「去密碼化」構建數位信任\n保單挑選只看 4% 宣告利率？專家揭露保單數字背後三大吸金盲點\n跨境收款還要等 3 週？將來銀行攜摩根大通跨境匯新臺幣「最快次日到帳」\n從這裡可透過《Google 新聞》追蹤 TechNews",
-    "source": "科技新報",
-    "category": "tech",
-    "lang": "zh",
-    "topic": "Tech",
-    "published": "2026-06-30T08:20:14+00:00",
-    "crawled": "2026-07-05T12:22:19.067578+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://ccc.technews.tw/2026/06/30/tesla-batteries-keep-getting-stolen/",
-    "title": "GTA 新目標？裝滿特斯拉電池貨櫃連續遭竊",
-    "summary": "偷車、偷珠寶、偷飛機在知名遊戲〈俠盜獵車手〉裡已是家常便飯，不過現實世界總是比遊戲更離奇，盜賊們將目標鎖定特斯 [&#8230;]",
-    "full_text": "偷車、偷珠寶、偷飛機在知名遊戲〈俠盜獵車手〉裡已是家常便飯，不過現實世界總是比遊戲更離奇，盜賊們將目標鎖定特斯拉電池。\n滿載特斯拉原廠電池的貨櫃，價值高達數百萬美元，從去年 12 月起到今年 1 月就發生 11 次失竊案，而且他們是直接從特斯拉內華達電池工廠的出貨口，就把整台卡車偷走，能如此瞞天過海，除了經驗老到，可能還有內鬼居中協助。\n3 名嫌犯已經在今年 1 月被逮補，不過整個案件還在調查中，所以相關消息一直沒有曝光。\n「這已經變成歹徒的新風潮」，當地警長哈特利（Sam Hatley）表示，目前警方確定建檔的案件只是其中一部分，今年已經累積了 17 起電池貨櫃竊盜案，還涉及特斯拉之外的公司，正在調查中。\n雖然哈特利警長沒有指名其他公司是誰，不過從地緣關係來看，最有可能的就是特斯拉合作的電池回收廠商 Redwood Material。同時他也指出，案件數量有可能被低估，因為企業通常不太願意揭露自己的產品失竊。\n根據美國運輸研究所統計，從 2022 到 2024 年間，卡車竊盜案數量翻倍成長，從每年 1,500 件增加到接近 3 千件，對所有美國企業造成每天 1,800 萬美元的損失。更值得注意的是，以往卡車竊盜有 95％ 屬於「直接搶劫」，但從 2023 年後，有計劃地「偷卡車」，佔比已經快速增加到 25％ 以上。\n▲ 美國運輸研究所分析卡車竊賊型態變化，可見組織型犯罪快速增加。（Source:\n在特斯拉電池竊案裡，更為明顯。對這家新興、快速成長的公司來說，物流需求極為龐大，在安全管理上就可能會便宜行事，有所疏漏，且工廠成立不久，就雇用了一萬兩千人，別說是卡車司機，連員工自己都並不熟識，就創造了鑽漏洞機會。\n根據警方調查文件，嫌犯使用了假冒文件，偽裝成物流公司，光明正大的從工廠出貨口直接把電池運走。特斯拉今年開始，在工廠大門追加了檢查卡車司機駕照的程序，亡羊補牢，儘管還是有發生竊案，但至少增加了一些難度。\n相較於偷車用電池，竊賊更喜歡偷特斯拉儲能設備 Powerwall，一台卡車裝載的 Powerwall 價值高達 47.5 萬美元，竊賊隨後上網便宜出售賺取價差。但特斯拉很快就鎖定了失竊 Powerwall 的晶片序號，將其鎖定，再也無法使用，最大的受害者成了貪便宜的買家。\n當地汽車零件經銷商曾通報警方與特斯拉，有人表示「這裡有批電池好便宜啊」，隨後被警方證實就是從工廠偷出來的電池。\n順帶一提，在多次 Powerwall 失竊案中發生一起烏龍案例。竊賊開走卡車後才發現燃料不足，只好在距離特斯拉工廠不到 30 公里的加油站停車，又因為不明原因將卡車跟贓物都先棄置在這。警方隨後根據 GPS 信號找到車跟贓物，決定在 Powerwall 上安裝追蹤器，等犯人回來取貨時，循線追查源頭。\n雖然警方已經將釣魚計畫告知特斯拉，然而仍有天兵員工急急忙忙趕去現場將卡車開回，等到在半路被警方攔下時才發現自己搞了大烏龍。警長哈特利拒絕對此行動發表評論。\n事實上，這些被竊的卡車幾乎都裝有 GPS 追蹤，但多數竊賊都知道，因此很快就會將它關閉或破壞。唯獨 1 月 30 日，持著偽造駕照的三名竊賊似乎忘記這個重要步驟，才被警方循線逮捕。\n特斯拉電池連續失竊案，只是冰山一角，巨型電商亞馬遜也在設法運用人工智慧，搭配更嚴格的安檢方式，來確保貨物安全。這些卡車竊案造成鉅額損失，也已經成為美國國會關切議題，議員正準備提案，加強對組織性卡車竊盜案的打擊。\n「2018 年，特斯拉工廠發生多次銅線竊盜案，當時他們就拒絕配合警方行動，這次他們學乖了。」景長哈特利表示，要打擊這些罪犯，必須要企業跟警方全力合作才有機會，避免犯罪集團食髓知味。\nTruckloads of Tesla Batteries Keep Getting Stolen Before They Even Leave the Factory\n從這裡可透過《Google 新聞》追蹤 TechNews",
-    "source": "科技新報",
-    "category": "tech",
-    "lang": "zh",
-    "topic": "Tech",
-    "published": "2026-06-30T02:45:22+00:00",
-    "crawled": "2026-07-05T12:22:19.771808+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://ccc.technews.tw/2026/06/30/your-favorite-codex-shortcuts-are-getting-an-upgrade/",
-    "title": "OpenAI 預告硬體產品 7/15 亮相，Codex 搭快捷鍵體驗升級",
-    "summary": "OpenAI 預告，7 月 15 日將發表與編碼工具 Codex 有關的硬體裝置。 透過 29 日上傳至 X  [&#8230;]",
-    "full_text": "OpenAI 預告，7 月 15 日將發表與編碼工具 Codex 有關的硬體裝置。\n透過 29 日上傳至 X 平台的預告短片，OpenAI 將推出一款方形、配有多個按鍵的裝置，並且寫到「你最喜愛的 Codex 快捷鍵將迎來升級」。\nYour favorite Codex shortcuts are getting an upgrade.\npic.twitter.com/xZ1ydZyt94\n— OpenAI Developers (@OpenAIDevs)\n這款裝置並非 OpenAI 與蘋果前設計長艾夫（Jony Ive）共同打造的神祕 AI 裝置，如同預告短片所呈現的，OpenAI 將要推出的裝置是與總部位於加拿大蒙特婁的 Work Louder 合作打造。Work Louder 主打為內容創作者、設計師、開發者打造高效輸入設備，產品特色包含多功能的快捷鍵、旋鈕及切換開關。\nOpenAI 所展示的裝置輪廓，看起來有點像 Work Louder 的 Creator Micro 2，這是一款配備 13 個按鍵、1 個搖桿以及 1 個觸控感應器的巨集鍵盤。當使用者使用如 Photoshop 等應用程式，可在 Creator Micro 2 各個切換開關指派快捷鍵和自訂動作。Figma 也曾與 Work Louder 合作，推出一款內建預設快捷鍵的巨集鍵盤 Figma Creator Micro。\nOpenAI 與 Work Louder 雙方還未分享更多產品細節，距離正式發表還有 2 週時間，不用等待太久便能得知更多資訊。\nOpenAI is teasing new hardware… for Codex\n從這裡可透過《Google 新聞》追蹤 TechNews",
-    "source": "科技新報",
-    "category": "tech",
-    "lang": "zh",
-    "topic": "AI",
-    "published": "2026-06-30T00:39:25+00:00",
-    "crawled": "2026-07-05T12:22:20.429461+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/cly004391wno?at_medium=RSS&at_campaign=rss",
     "title": "Harry Styles beats Taylor Swift's and Coldplay's Wembley records",
     "summary": "The Watermelon Sugar singer is the first artist to perform 12 shows on a single tour at the stadium.",
@@ -5554,8 +5288,15 @@
     "topic": "Finance",
     "published": "2026-07-05T12:40:28+00:00",
     "crawled": "2026-07-05T12:44:13.692879+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Lisa Mateo在《Bloomberg This Weekend》分享了七月四日週的有趣新聞標題 \n• 內容包括小馬啤酒、家務機器人、裸指甲趨勢及新型螢幕時間助手 \n• 節目於每週六和週日早上7點（美東時間）播出 \n• 主持人包括David Gura和Christina Ruffini",
+    "summaries": {
+      "zh-HK": "• Lisa Mateo在《Bloomberg This Weekend》分享了七月四日週的有趣新聞標題 \n• 內容包括小馬啤酒、家務機器人、裸指甲趨勢及新型螢幕時間助手 \n• 節目於每週六和週日早上7點（美東時間）播出 \n• 主持人包括David Gura和Christina Ruffini",
+      "en": "Title: By The Way: Interesting Headlines You May Have Missed July 4th Week\nSummary:\n• Lisa Mateo shared interesting news headlines from the July 4th week on \"Bloomberg This Weekend\"\n• Topics included Little Pony beer, household robots, the trend of bare nails, and a new screen time assistant\n• The show airs every Saturday and Sunday at 7 AM (Eastern Time)\n• Hosts include David Gura and Christina Ruffini",
+      "zh-CN": "标题：顺便提一下：你可能错过的七月四日周有趣头条\n摘要：\n• Lisa Mateo在《Bloomberg This Weekend》分享了七月四日周的有趣新闻标题\n• 内容包括小马啤酒、家务机器人、裸指甲趋势及新型屏幕时间助手\n• 节目于每周六和周日早上7点（美东时间）播出\n• 主持人包括David Gura和Christina Ruffini",
+      "ja": "タイトル：ところで：7月4日週に見逃したかもしれない興味深いヘッドライン\n要約：\n• リサ・マテオが「Bloomberg This Weekend」で7月4日週の興味深いニュースヘッドラインを共有\n• 内容にはリトルポニーのビール、家庭用ロボット、素爪トレンド、新しいスクリーンタイムアシスタントが含まれています\n• 番組は毎週土曜日と日曜日の午前7時（東部時間）に放送されます\n• ホストにはデイビッド・グラとクリスティーナ・ラフィーニが含まれます",
+      "ko": "제목: 그건 그렇고: 7월 4일 주에 놓쳤을지도 모르는 흥미로운 헤드라인\n요약:\n• 리사 마테오가 \"Bloomberg This Weekend\"에서 7월 4일 주의 흥미로운 뉴스 헤드라인을 공유했습니다\n• 주제에는 리틀 포니 맥주, 가정용 로봇, 맨손 네일 트렌드, 새로운 스크린 타임 도우미가 포함됩니다\n• 이 프로그램은 매주 토요일과 일요일 오전 7시(동부 표준시)에 방송됩니다\n• 진행자는 데이비드 구라와 크리스티나 루피니입니다"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/audio/2026-07-05/what-s-happening-in-em-carry-traders-shift-away-from-dollar",
@@ -5568,8 +5309,15 @@
     "topic": "World",
     "published": "2026-07-05T12:30:00+00:00",
     "crawled": "2026-07-05T12:44:13.775067+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 新興市場交易者正逐漸轉向歐元和澳元等貨幣，以資助在發展中國家的投資 \n• 此趨勢出現於美國美元強勢回升之際 \n• Vinicius Andrade與Kelsey Butler本週討論了這一變化 \n• 交易者的策略調整反映了全球市場的動態變化",
+    "summaries": {
+      "zh-HK": "• 新興市場交易者正逐漸轉向歐元和澳元等貨幣，以資助在發展中國家的投資 \n• 此趨勢出現於美國美元強勢回升之際 \n• Vinicius Andrade與Kelsey Butler本週討論了這一變化 \n• 交易者的策略調整反映了全球市場的動態變化",
+      "en": "Title: What’s Happening in EM: Carry Traders Shift Away From Dollar\nSummary:\n• Emerging market traders are gradually shifting towards currencies like the euro and Australian dollar to fund investments in developing countries.\n• This trend emerges as the US dollar makes a strong comeback.\n• Vinicius Andrade and Kelsey Butler discussed this change this week.\n• The adjustment in traders' strategies reflects the dynamic changes in global markets.",
+      "zh-CN": "标题：新兴市场动态：套利交易者转向其他货币\n摘要：\n• 新兴市场交易者正逐渐转向欧元和澳元等货币，以资助在发展中国家的投资。\n• 此趋势出现在美国美元强势回升之际。\n• Vinicius Andrade与Kelsey Butler本周讨论了这一变化。\n• 交易者的策略调整反映了全球市场的动态变化。",
+      "ja": "タイトル：新興市場の動向：キャリー取引者がドルからシフト\n要約：\n• 新興市場のトレーダーは、発展途上国への投資を資金調達するためにユーロやオーストラリアドルなどの通貨に徐々にシフトしています。\n• この傾向は、米ドルが強力に回復する中で現れています。\n• 今週、Vinicius AndradeとKelsey Butlerがこの変化について議論しました。\n• トレーダーの戦略の調整は、グローバル市場の動的な変化を反映しています。",
+      "ko": "제목: 신흥 시장에서의 동향: 캐리 트레이더들이 달러에서 벗어나고 있다\n요약:\n• 신흥 시장 거래자들은 개발도상국에 대한 투자를 지원하기 위해 유로와 호주 달러와 같은 통화로 점차 이동하고 있습니다.\n• 이 추세는 미국 달러가 강력하게 반등하는 가운데 나타났습니다.\n• Vinicius Andrade와 Kelsey Butler가 이번 주에 이 변화에 대해 논의했습니다.\n• 거래자들의 전략 조정은 글로벌 시장의 역동적인 변화를 반영합니다."
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/videos/2026-07-05/ebola-crisis-exposes-congo-s-fragile-health-system",
@@ -5890,8 +5638,15 @@
     "topic": "Crypto",
     "published": "2026-07-05T14:00:00+00:00",
     "crawled": "2026-07-05T14:18:03.520063+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 全球銀行如渣打銀行和BNY正在將Circle的USDC穩定幣整合進其基礎設施，顯示出對穩定幣的使用討論已從「是否使用」轉向「如何使用」的階段。  \n• 行業高管指出，穩定幣的真正價值在於其周邊的網絡和流動性，而非代幣本身。  \n• 歐洲銀行正在推動開發以歐元計價的穩定幣，以防止結算活動依賴於美元支持的代幣。  \n• Chainalysis預計，到2030年，穩定幣的結算量可能達到每年一萬億美元。",
+    "summaries": {
+      "zh-HK": "• 全球銀行如渣打銀行和BNY正在將Circle的USDC穩定幣整合進其基礎設施，顯示出對穩定幣的使用討論已從「是否使用」轉向「如何使用」的階段。  \n• 行業高管指出，穩定幣的真正價值在於其周邊的網絡和流動性，而非代幣本身。  \n• 歐洲銀行正在推動開發以歐元計價的穩定幣，以防止結算活動依賴於美元支持的代幣。  \n• Chainalysis預計，到2030年，穩定幣的結算量可能達到每年一萬億美元。",
+      "en": "Title: Banks have stopped asking if stablecoins belong in finance, now they're considering how\nSummary:\n• Global banks like Standard Chartered and BNY are integrating Circle's USDC stablecoin into their infrastructure, indicating that discussions about stablecoin usage have shifted from \"whether to use\" to \"how to use.\"\n• Industry executives point out that the true value of stablecoins lies in their surrounding network and liquidity, rather than the tokens themselves.\n• European banks are pushing for the development of euro-denominated stablecoins to prevent settlement activities from relying on dollar-backed tokens.\n• Chainalysis predicts that by 2030, the settlement volume of stablecoins could reach one trillion dollars annually.",
+      "zh-CN": "标题：银行已不再询问稳定币是否属于金融，现在他们在考虑如何使用\n摘要：\n• 全球银行如渣打银行和BNY正在将Circle的USDC稳定币整合进其基础设施，显示出对稳定币的使用讨论已从“是否使用”转向“如何使用”的阶段。\n• 行业高管指出，稳定币的真正价值在于其周边的网络和流动性，而非代币本身。\n• 欧洲银行正在推动开发以欧元计价的稳定币，以防止结算活动依赖于美元支持的代币。\n• Chainalysis预计，到2030年，稳定币的结算量可能达到每年一万亿美元。",
+      "ja": "タイトル：銀行は安定コインが金融に属するかどうかを尋ねるのをやめ、今はどのように使用するかを考えています\n要約：\n• スタンダードチャータード銀行やBNYなどのグローバルバンクは、CircleのUSDC安定コインをそのインフラに統合しており、安定コインの使用に関する議論が「使用するかどうか」から「どのように使用するか」に移行したことを示しています。\n• 業界の幹部は、安定コインの真の価値はトークン自体ではなく、その周辺ネットワークと流動性にあると指摘しています。\n• 欧州の銀行は、ドルに依存しない決済活動を防ぐために、ユーロ建ての安定コインの開発を推進しています。\n• Chainalysisは、2030年までに安定コインの決済量が年間1兆ドルに達する可能性があると予測しています。",
+      "ko": "제목: 은행들은 스테이블코인이 금융에 속하는지 여부를 묻는 것을 중단하고, 이제는 어떻게 사용할지를 고려하고 있습니다\n요약:\n• 스탠다드 차타"
+    }
   },
   {
     "url": "https://www.coindesk.com/opinion/2026/07/05/collateral-not-yield-will-decide-which-stablecoins-win",
@@ -5904,8 +5659,14 @@
     "topic": "DeFi",
     "published": "2026-07-05T13:00:00+00:00",
     "crawled": "2026-07-05T14:18:04.414605+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 隨著收益型穩定幣市場市值預計在2026年超過500億美元，業界正專注於錯誤的指標，認為抵押品才是決定穩定幣成敗的關鍵。  \n• 2025年收益型穩定幣增長約300%，許多平台開始提供3%或4%的收益。  \n• Falcon Finance的首席RWA官員Artem Tolkachev指出，穩定幣的使用性比收益更重要，因為只有被市場接受作為抵押品的穩定幣才能進行交易、借貸和對沖。  \n• 監管機構的最終規則預計將於2026年7月18日公布，這將影響穩定幣的實施和市場接受度。",
+    "summaries": {
+      "zh-HK": "• 隨著收益型穩定幣市場市值預計在2026年超過500億美元，業界正專注於錯誤的指標，認為抵押品才是決定穩定幣成敗的關鍵。  \n• 2025年收益型穩定幣增長約300%，許多平台開始提供3%或4%的收益。  \n• Falcon Finance的首席RWA官員Artem Tolkachev指出，穩定幣的使用性比收益更重要，因為只有被市場接受作為抵押品的穩定幣才能進行交易、借貸和對沖。  \n• 監管機構的最終規則預計將於2026年7月18日公布，這將影響穩定幣的實施和市場接受度。",
+      "en": "Title: Collateral, not yield, will decide which stablecoins win\nSummary:\n• As the market value of yield-bearing stablecoins is expected to exceed $50 billion by 2026, the industry is focusing on the wrong indicators, believing that collateral is the key to the success or failure of stablecoins.\n• Yield-bearing stablecoins are projected to grow by about 300% by 2025, with many platforms starting to offer yields of 3% or 4%.\n• Artem Tolkachev, Chief RWA Officer at Falcon Finance, points out that the usability of stablecoins is more important than yield, as only stablecoins accepted by the market as collateral can be traded, lent, and hedged.\n• The final rules from regulators are expected to be announced on July 18, 2026, which will impact the implementation and market acceptance of stablecoins.",
+      "zh-CN": "标题：抵押品，而非收益，将决定哪些稳定币获胜\n摘要：\n• 随着收益型稳定币市场市值预计在2026年超过500亿美元，业界正专注于错误的指标，认为抵押品才是决定稳定币成败的关键。\n• 2025年收益型稳定币增长约300%，许多平台开始提供3%或4%的收益。\n• Falcon Finance的首席RWA官员Artem Tolkachev指出，稳定币的使用性比收益更重要，因为只有被市场接受作为抵押品的稳定币才能进行交易、借贷和对冲。\n• 监管机构的最终规则预计将于2026年7月18日公布，这将影响稳定币的实施和市场接受度。",
+      "ja": "タイトル：担保、利回りではなく、どのステーブルコインが勝つかを決定する\n要約：\n• 2026年までに利回り型ステーブルコインの市場価値が500億ドルを超えると予想される中、業界は誤った指標に焦点を当てており、担保がステーブルコインの成功または失敗の鍵であると考えています。\n• 2025年までに利回り型ステーブルコインは約300%成長すると予測され、多くのプラットフォームが3%または4%の利回りを提供し始めています。\n• Falcon Financeの最高RWA責任者Artem Tolkachevは、ステーブルコインの使いやすさが利回りよりも重要であると指摘しています。市場で担保として受け入れられるステーブルコインのみが取引、貸出、ヘッジに使用できるからです。\n• 規制当局の最終ル"
+    }
   },
   {
     "url": "https://www.coindesk.com/news-analysis/2026/07/02/kalshi-and-prediction-market-sector-embroiled-in-mixed-bag-of-legal-fights-across-u-s",
@@ -5918,8 +5679,15 @@
     "topic": "Regulation",
     "published": "2026-07-05T13:00:00+00:00",
     "crawled": "2026-07-05T14:18:05.215600+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 預測市場平台Kalshi目前正面臨美國各州的法律挑戰，可能最終上訴至美國最高法院。  \n• 在內華達州和密西根州的法律鬥爭中，Kalshi遭遇困難，並在明尼蘇達州進行了現場辯論。  \n• 北卡羅來納州接近對預測市場收入徵收州稅，Kalshi正努力證明其用戶是購買衍生品而非賭博。  \n• 密西根州法院已對Kalshi發出臨時禁制令，禁止其在該州提供或促進體育博彩。",
+    "summaries": {
+      "zh-HK": "• 預測市場平台Kalshi目前正面臨美國各州的法律挑戰，可能最終上訴至美國最高法院。  \n• 在內華達州和密西根州的法律鬥爭中，Kalshi遭遇困難，並在明尼蘇達州進行了現場辯論。  \n• 北卡羅來納州接近對預測市場收入徵收州稅，Kalshi正努力證明其用戶是購買衍生品而非賭博。  \n• 密西根州法院已對Kalshi發出臨時禁制令，禁止其在該州提供或促進體育博彩。",
+      "en": "Title: Kalshi and prediction market sector embroiled in mixed bag of legal fights across U.S.\nSummary:\n• The prediction market platform Kalshi is currently facing legal challenges across various states in the U.S., which may ultimately be appealed to the U.S. Supreme Court.\n• In the legal battles in Nevada and Michigan, Kalshi has encountered difficulties and has engaged in live debates in Minnesota.\n• North Carolina is nearing the imposition of state taxes on prediction market revenues, and Kalshi is working to prove that its users are purchasing derivatives rather than gambling.\n• A Michigan court has issued a temporary restraining order against Kalshi, prohibiting it from offering or promoting sports betting in the state.",
+      "zh-CN": "标题：Kalshi及预测市场行业在美国各地卷入法律斗争\n摘要：\n• 预测市场平台Kalshi目前正面临美国各州的法律挑战，可能最终上诉至美国最高法院。\n• 在内华达州和密西根州的法律斗争中，Kalshi遭遇困难，并在明尼苏达州进行了现场辩论。\n• 北卡罗来纳州接近对预测市场收入征收州税，Kalshi正努力证明其用户是购买衍生品而非赌博。\n• 密西根州法院已对Kalshi发出临时禁制令，禁止其在该州提供或促进体育博彩。",
+      "ja": "タイトル：Kalshiと予測市場セクターが米国各地での法的闘争に巻き込まれる\n要約：\n• 予測市場プラットフォームKalshiは現在、米国のさまざまな州で法的な課題に直面しており、最終的には米国最高裁判所に上訴される可能性があります。\n• ネバダ州とミシガン州での法的闘争では、Kalshiは困難に直面し、ミネソタ州での公開討論に参加しました。\n• ノースカロライナ州は予測市場の収益に州税を課す方向に進んでおり、Kalshiはそのユーザーがギャンブルではなくデリバティブを購入していることを証明しようとしています。\n• ミシガン州の裁判所はKalshiに対して一時的な差止命令を発出し、同州でのスポーツベッティングの提供または促進を禁止しました。",
+      "ko": "제목: Kalshi와 예측 시장 부문이 미국 전역에서 법적 싸움에 휘말리다\n요약:\n• 예측 시장 플랫폼 Kalshi는 현재 미국의 여러 주에서 법적 도전에 직면"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/videos/2026-07-05/world-cup-attendance-sets-record-video",
@@ -5932,8 +5700,15 @@
     "topic": "World",
     "published": "2026-07-05T13:37:41+00:00",
     "crawled": "2026-07-05T14:18:11.161468+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 據報導，擴大舉辦的國際足總世界杯創下了觀眾人數的新紀錄  \n• 美國男子國家足球隊在16強賽中將對陣比利時，儘管前鋒福拉林·巴洛根因停賽缺席  \n• 法國隊在基利安·姆巴佩的帶領下被視為本屆賽事的熱門球隊  \n• 主辦城市因觀眾和球迷區的擁擠而獲得顯著的旅遊和經濟增長",
+    "summaries": {
+      "zh-HK": "• 據報導，擴大舉辦的國際足總世界杯創下了觀眾人數的新紀錄  \n• 美國男子國家足球隊在16強賽中將對陣比利時，儘管前鋒福拉林·巴洛根因停賽缺席  \n• 法國隊在基利安·姆巴佩的帶領下被視為本屆賽事的熱門球隊  \n• 主辦城市因觀眾和球迷區的擁擠而獲得顯著的旅遊和經濟增長",
+      "en": "Title: World Cup Attendance Sets Record\nSummary:\n• Reports indicate that the expanded FIFA World Cup has set a new record for attendance.\n• The U.S. Men's National Soccer Team will face Belgium in the Round of 16, despite forward Folarin Balogun being suspended.\n• France is considered a favorite in the tournament, led by Kylian Mbappé.\n• Host cities have experienced significant tourism and economic growth due to the crowds and fan zones.",
+      "zh-CN": "标题：世界杯观众人数创下新纪录\n摘要：\n• 据报道，扩大的国际足联世界杯创下了观众人数的新纪录。\n• 美国男子国家足球队将在16强赛中对阵比利时，尽管前锋福拉林·巴洛根因停赛缺席。\n• 法国队在基利安·姆巴佩的带领下被视为本届赛事的热门球队。\n• 主办城市因观众和球迷区的拥挤而获得显著的旅游和经济增长。",
+      "ja": "タイトル：ワールドカップの観客数が記録を更新\n要約：\n• 拡大されたFIFAワールドカップが観客数の新記録を樹立したと報じられています。\n• アメリカ男子サッカーチームは、フォワードのフォラリン・バログンが出場停止のため欠場する中、16強でベルギーと対戦します。\n• フランスはキリアン・ムバッペの指導の下、今大会の優勝候補と見なされています。\n• ホスト都市は、観客やファンゾーンの混雑により、観光と経済の大幅な成長を経験しています。",
+      "ko": "제목: 월드컵 관중 수가 기록을 세우다\n요약:\n• 보도에 따르면, 확대된 FIFA 월드컵이 관중 수의 새로운 기록을 세웠습니다.\n• 미국 남자 축구 국가대표팀은 포워드 포라린 발로군이 출전 정지로 결장하는 가운데 16강에서 벨기에와 맞붙습니다.\n• 프랑스는 킬리안 음바페의 이끌림 아래 이번 대회의 유력한 팀으로 여겨집니다.\n• 주최 도시는 관중과 팬 구역의 혼잡으로 인해 관광 및 경제 성장을 크게 경험하고 있습니다."
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/videos/2026-07-05/america250-looks-beyond-july-4-celebrations",
@@ -5946,8 +5721,15 @@
     "topic": "Politics",
     "published": "2026-07-05T13:07:08+00:00",
     "crawled": "2026-07-05T14:18:11.541073+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國250周年紀念委員會專員雷金納德·布朗在Bloomberg This Weekend表示，該倡議成功吸引美國人參與國家250周年慶祝活動  \n• 布朗指出，這次紀念活動將持續進行，超越今年的慶祝活動  \n• 他提到私人贊助商幫助彌補聯邦資金不足的問題  \n• 布朗形容特朗普政府的Freedom250倡議為互補性質，旨在擴大參與度",
+    "summaries": {
+      "zh-HK": "• 美國250周年紀念委員會專員雷金納德·布朗在Bloomberg This Weekend表示，該倡議成功吸引美國人參與國家250周年慶祝活動  \n• 布朗指出，這次紀念活動將持續進行，超越今年的慶祝活動  \n• 他提到私人贊助商幫助彌補聯邦資金不足的問題  \n• 布朗形容特朗普政府的Freedom250倡議為互補性質，旨在擴大參與度",
+      "en": "Title: America250 Looks Beyond July 4 Celebrations\nSummary:\n• Reggie Brown, a commissioner of the America250 Commission, stated on Bloomberg This Weekend that the initiative has successfully engaged Americans in the national 250th anniversary celebrations.\n• Brown noted that the commemorative activities will continue beyond this year's celebrations.\n• He mentioned that private sponsors are helping to address the issue of insufficient federal funding.\n• Brown described the Trump administration's Freedom250 initiative as complementary, aimed at expanding participation.",
+      "zh-CN": "标题：美国250周年纪念活动超越7月4日庆祝\n摘要：\n• 美国250周年纪念委员会专员雷金纳德·布朗在Bloomberg This Weekend表示，该倡议成功吸引美国人参与国家250周年庆祝活动。\n• 布朗指出，这次纪念活动将持续进行，超越今年的庆祝活动。\n• 他提到私人赞助商帮助弥补联邦资金不足的问题。\n• 布朗形容特朗普政府的Freedom250倡议为互补性质，旨在扩大参与度。",
+      "ja": "タイトル：アメリカ250周年記念は7月4日の祝賀を超えて\n要約：\n• アメリカ250周年記念委員会のコミッショナー、レジー・ブラウンは、Bloomberg This Weekendでこのイニシアチブがアメリカ人を国の250周年記念の祝賀に成功裏に参加させていると述べました。\n• ブラウンは、この記念活動が今年の祝賀を超えて続くことを指摘しました。\n• 彼は、民間のスポンサーが連邦資金不足の問題に対処するのを助けていると述べました。\n• ブラウンは、トランプ政権のFreedom250イニシアチブを補完的なものとし、参加を拡大することを目的としていると説明しました。",
+      "ko": "제목: 아메리카250, 7월 4일 축제를 넘어\n요약:\n• 아메리카250 위원회의 위원인 레지 브라운은 Bloomberg This Weekend에서 이 이니셔티브가 미국인들을 국가 250주년 기념 행사에 성공적으로 참여시켰다고 밝혔습니다.\n• 브라운은 이번 기념 행사가 올해의 축제를 넘어 계속될 것이라고 언급했습니다.\n• 그는 민간 후원자들이 연방 자금 부족 문제를 해결하는 데 도움을 주고 있다고 말했습니다.\n• 브라운은 트럼프 행정부의 Freedom250 이니셔티브를 보완적인 성격으로 설명하며, 참여를 확대하는 것을 목표로 하고 있다고 전"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-05/new-york-thunderstorms-raise-flood-risk-as-heat-dissipates-in-us",
@@ -5960,8 +5742,15 @@
     "topic": "Finance",
     "published": "2026-07-05T13:05:04+00:00",
     "crawled": "2026-07-05T14:18:11.715219+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 紐約市在週日將迎來較涼爽和潮濕的天氣，因為東部的熱穹正在減弱  \n• 這一熱穹曾對電力網絡造成壓力並影響交通  \n• 華盛頓及南部地區的氣溫仍將保持悶熱  \n• 預測顯示，紐約的雷陣雨將增加洪水風險",
+    "summaries": {
+      "zh-HK": "• 紐約市在週日將迎來較涼爽和潮濕的天氣，因為東部的熱穹正在減弱  \n• 這一熱穹曾對電力網絡造成壓力並影響交通  \n• 華盛頓及南部地區的氣溫仍將保持悶熱  \n• 預測顯示，紐約的雷陣雨將增加洪水風險",
+      "en": "Title: New York Thunderstorms Raise Flood Risk as Heat Dissipates in US\nSummary:\n• New York City will experience cooler and more humid weather on Sunday as the heat dome in the east weakens\n• This heat dome had previously stressed the power grid and affected transportation\n• Temperatures in Washington and the southern regions will remain oppressive\n• Forecasts indicate that thunderstorms in New York will increase the risk of flooding",
+      "zh-CN": "标题：纽约雷暴在美国热浪消退时提高洪水风险\n摘要：\n• 纽约市将在周日迎来较凉爽和潮湿的天气，因为东部的热穹正在减弱\n• 这一热穹曾对电力网络造成压力并影响交通\n• 华盛顿及南部地区的气温仍将保持闷热\n• 预测显示，纽约的雷阵雨将增加洪水风险",
+      "ja": "タイトル：ニューヨークの雷雨が米国の熱波が収束する中で洪水リスクを高める\n要約：\n• ニューヨーク市は日曜日に涼しく湿度の高い天候を迎える、東部の熱ドームが弱まるため\n• この熱ドームは以前、電力網に圧力をかけ、交通に影響を与えていた\n• ワシントンや南部地域の気温は依然として蒸し暑いままである\n• 予報によると、ニューヨークの雷雨は洪水のリスクを高める",
+      "ko": "제목: 뉴욕의 천둥번개가 미국의 더위가 사라지면서 홍수 위험을 높이다\n요약:\n• 뉴욕시는 일요일에 동부의 열돔이 약해짐에 따라 더 시원하고 습한 날씨를 경험할 예정이다\n• 이 열돔은 이전에 전력망에 압력을 가하고 교통에 영향을 미쳤다\n• 워싱턴과 남부 지역의 기온은 여전히 무더울 것이다\n• 예보에 따르면, 뉴욕의 천둥번개가 홍수 위험을 증가시킬 것이다"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-05/sk-hynix-seeks-access-to-ai-investors-in-29-billion-us-listing",
@@ -5974,8 +5763,15 @@
     "topic": "World",
     "published": "2026-07-05T13:00:00+00:00",
     "crawled": "2026-07-05T14:18:12.363329+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• SK Hynix計劃在美國進行290億美元的首次公開募股，可能成為外國公司最大規模的首次發行 \n• 此次上市不僅旨在籌集資金，還希望在全球股票市場中競爭，特別是人工智慧計算所需的記憶體晶片 \n• 上市時間為本週，具體日期尚未公布 \n• SK Hynix希望吸引對AI投資感興趣的投資者以增強市場地位",
+    "summaries": {
+      "zh-HK": "• SK Hynix計劃在美國進行290億美元的首次公開募股，可能成為外國公司最大規模的首次發行 \n• 此次上市不僅旨在籌集資金，還希望在全球股票市場中競爭，特別是人工智慧計算所需的記憶體晶片 \n• 上市時間為本週，具體日期尚未公布 \n• SK Hynix希望吸引對AI投資感興趣的投資者以增強市場地位",
+      "en": "Title: SK Hynix Seeks Access to AI Investors in $29 Billion US Listing\nSummary:\n• SK Hynix plans to conduct a $29 billion initial public offering in the US, potentially becoming the largest IPO by a foreign company.\n• The listing aims not only to raise funds but also to compete in the global stock market, particularly for memory chips required for artificial intelligence computing.\n• The listing is scheduled for this week, with the exact date yet to be announced.\n• SK Hynix hopes to attract investors interested in AI investments to strengthen its market position.",
+      "zh-CN": "标题：SK海力士寻求在290亿美元的美国上市中接触AI投资者\n摘要：\n• SK海力士计划在美国进行290亿美元的首次公开募股，可能成为外国公司最大规模的首次发行。\n• 此次上市不仅旨在筹集资金，还希望在全球股票市场中竞争，特别是人工智能计算所需的内存芯片。\n• 上市时间定于本周，具体日期尚未公布。\n• SK海力士希望吸引对AI投资感兴趣的投资者，以增强市场地位。",
+      "ja": "タイトル：SKハイニックス、290億ドルの米国上場でAI投資家へのアクセスを模索\n要約：\n• SKハイニックスは、290億ドルの新規株式公開（IPO）を米国で計画しており、外国企業による最大規模のIPOとなる可能性があります。\n• この上場は資金調達だけでなく、特に人工知能コンピューティングに必要なメモリーチップのために、世界の株式市場で競争することを目指しています。\n• 上場は今週予定されており、具体的な日付はまだ発表されていません。\n• SKハイニックスは、AI投資に関心のある投資家を引き付け、市場での地位を強化したいと考えています。",
+      "ko": "제목: SK 하이닉스, 290억 달러 미국 상장으로 AI 투자자 접근 모색\n요약:\n• SK 하이닉스는 미국에서 290억 달러 규모의 기업공개(IPO)를 계획하고 있으며, 외국 기업 중 최대 규모의 IPO가 될 가능성이 있습니다.\n• 이번 상장은 자금 조달뿐만 아니라 인공지능 컴퓨팅에 필요한 메모리 칩을 위해 글로벌 주식 시장에서 경쟁하기 위한 것입니다.\n• 상장 일정은 이번 주로 예정되어 있으며, 구체적인 날짜는 아직 발표되지 않았습니다.\n• SK 하이닉스는 AI 투자에 관심 있는 투자자들을 유치하여"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/videos/2026-07-05/parents-weigh-new-trump-accounts-for-newborns-video",
@@ -5988,8 +5784,15 @@
     "topic": "Politics",
     "published": "2026-07-05T12:47:16+00:00",
     "crawled": "2026-07-05T14:18:12.555438+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 新推出的特朗普帳戶允許父母為2025年至2028年出生的孩子貢獻1,000美元的政府資助投資  \n• Bloomberg的莎拉·福斯特指出，財務顧問仍然普遍偏好529計劃作為教育儲蓄方案  \n• 對於新帳戶的稅務處理、提款規則和未來投資選擇仍存在疑問  \n• 此消息在Bloomberg This Weekend節目中由大衛·古拉和克里斯蒂娜·魯菲尼討論",
+    "summaries": {
+      "zh-HK": "• 新推出的特朗普帳戶允許父母為2025年至2028年出生的孩子貢獻1,000美元的政府資助投資  \n• Bloomberg的莎拉·福斯特指出，財務顧問仍然普遍偏好529計劃作為教育儲蓄方案  \n• 對於新帳戶的稅務處理、提款規則和未來投資選擇仍存在疑問  \n• 此消息在Bloomberg This Weekend節目中由大衛·古拉和克里斯蒂娜·魯菲尼討論",
+      "en": "Title: Parents Weigh New Trump Accounts for Newborns\nSummary:\n• Newly launched Trump accounts allow parents to contribute $1,000 in government-funded investments for children born between 2025 and 2028\n• Bloomberg's Sarah Foster notes that financial advisors still generally prefer 529 plans as education savings options\n• There are still questions regarding the tax treatment, withdrawal rules, and future investment options for the new accounts\n• This news was discussed by David Gura and Christina Rufini on Bloomberg This Weekend",
+      "zh-CN": "标题：父母考虑为新生儿开设特朗普新账户\n摘要：\n• 新推出的特朗普账户允许父母为2025年至2028年出生的孩子贡献1,000美元的政府资助投资\n• Bloomberg的莎拉·福斯特指出，财务顾问仍然普遍偏好529计划作为教育储蓄方案\n• 对于新账户的税务处理、提款规则和未来投资选择仍存在疑问\n• 此消息在Bloomberg This Weekend节目中由大卫·古拉和克里斯蒂娜·鲁菲尼讨论",
+      "ja": "タイトル：親たちが新生児のためのトランプ新口座を検討\n要約：\n• 新たに導入されたトランプ口座では、2025年から2028年に生まれる子供のために、親が1,000ドルの政府資金による投資を行うことができる\n• Bloombergのサラ・フォスターは、ファイナンシャルアドバイザーが依然として教育貯蓄オプションとして529プランを好む傾向があると指摘している\n• 新口座の税務処理、引き出しルール、将来の投資選択に関しては依然として疑問が残る\n• このニュースは、Bloomberg This Weekendでデビッド・グーラとクリスティーナ・ルフィーニによって議論された",
+      "ko": "제목: 부모들이 신생아를 위한 새로운 트럼프 계좌를 고려하다\n요약:\n• 새로 출시된 트럼프 계좌는 부모가 2025년부터 2028년 사이에 태어나는 자녀를 위해 1,000달러의 정부 자금을 투자할 수 있도록 허용한다\n• 블룸버그의 사라 포스터는 재정 상담사들이 여전히 교육 저축 옵션으로 529 계획을 선호한다고 언급했다\n• 새로운 계좌의 세금 처리, 인출 규칙 및 향후 투자 옵션에 대한 의문이 여전히 존재한다\n• 이 소식은 블룸버그 이번 주말 프로그램에서 데이비드 구라와 크리스"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-05/carry-traders-shift-away-from-dollar-for-emerging-market-bets",
@@ -6002,8 +5805,15 @@
     "topic": "World",
     "published": "2026-07-05T12:30:00+00:00",
     "crawled": "2026-07-05T14:18:12.862287+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 新興市場交易者正在轉向歐元和澳元等貨幣，以資助對發展中國家的投資  \n• 這一趨勢出現於美國美元強勁回升之際  \n• 交易者尋求多樣化資金來源，以減少對美元的依賴  \n• 此變化反映出全球市場對新興市場的持續興趣和潛在機會",
+    "summaries": {
+      "zh-HK": "• 新興市場交易者正在轉向歐元和澳元等貨幣，以資助對發展中國家的投資  \n• 這一趨勢出現於美國美元強勁回升之際  \n• 交易者尋求多樣化資金來源，以減少對美元的依賴  \n• 此變化反映出全球市場對新興市場的持續興趣和潛在機會",
+      "en": "Title: Carry Traders Shift Away From Dollar for Emerging-Market Bets\nSummary:\n• Emerging market traders are turning to currencies like the euro and Australian dollar to fund investments in developing countries\n• This trend emerges as the US dollar makes a strong comeback\n• Traders are seeking to diversify funding sources to reduce reliance on the dollar\n• This shift reflects ongoing global market interest and potential opportunities in emerging markets",
+      "zh-CN": "标题：套利交易者转向新兴市场，远离美元\n摘要：\n• 新兴市场交易者正在转向欧元和澳元等货币，以资助对发展中国家的投资\n• 这一趋势出现在美国美元强劲回升之际\n• 交易者寻求多样化资金来源，以减少对美元的依赖\n• 此变化反映出全球市场对新兴市场的持续兴趣和潜在机会",
+      "ja": "タイトル：キャリー・トレーダーがドルから新興市場への投資にシフト\n要約：\n• 新興市場のトレーダーは、ユーロやオーストラリアドルなどの通貨に目を向け、発展途上国への投資を資金調達している\n• この傾向は、米ドルが強力に回復している時期に現れた\n• トレーダーはドルへの依存を減らすために資金源を多様化しようとしている\n• この変化は、新興市場に対する世界的な市場の関心と潜在的な機会を反映している",
+      "ko": "제목: 캐리 트레이더, 신흥 시장 베팅을 위해 달러에서 멀어지다\n요약:\n• 신흥 시장 거래자들이 유로와 호주 달러와 같은 통화로 전환하여 개발도상국에 대한 투자를 자금 조달하고 있다\n• 이 추세는 미국 달러가 강력하게 반등하는 시점에서 나타났다\n• 거래자들은 달러 의존도를 줄이기 위해 자금 출처를 다양화하려 하고 있다\n• 이러한 변화는 신흥 시장에 대한 글로벌 시장의 지속적인 관심과 잠재적 기회를 반영하고 있다"
+    }
   },
   {
     "url": "https://www.cnbc.com/2026/07/02/jersey-mikes-files-for-ipo.html",
@@ -6212,8 +6022,15 @@
     "topic": "Finance",
     "published": "2026-07-05T13:33:32+00:00",
     "crawled": "2026-07-05T14:18:24.735676+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 意大利科技集團Bending Spoons於本週在納斯達克上市，市值一度超過250億美元 \n• 該公司收購了AOL和Vimeo等品牌，並持有數位品牌如Meetup、Eventbrite和WeTransfer \n• Bending Spoons的策略類似於私募股權，但專注於提升所收購品牌的財務表現 \n• 2025年，Bending Spoons報告營收達到13.1億美元，並擁有超過5億月活躍用戶和900萬月付費客戶",
+    "summaries": {
+      "zh-HK": "• 意大利科技集團Bending Spoons於本週在納斯達克上市，市值一度超過250億美元 \n• 該公司收購了AOL和Vimeo等品牌，並持有數位品牌如Meetup、Eventbrite和WeTransfer \n• Bending Spoons的策略類似於私募股權，但專注於提升所收購品牌的財務表現 \n• 2025年，Bending Spoons報告營收達到13.1億美元，並擁有超過5億月活躍用戶和900萬月付費客戶",
+      "en": "Title: What is Bending Spoons? The little-known AOL and Vimeo owner that’s now public\nSummary:\n• The Italian tech group Bending Spoons went public on Nasdaq this week, with a market value exceeding $25 billion at one point.\n• The company has acquired brands like AOL and Vimeo, and holds digital brands such as Meetup, Eventbrite, and WeTransfer.\n• Bending Spoons' strategy resembles that of private equity, but focuses on enhancing the financial performance of the acquired brands.\n• By 2025, Bending Spoons reported revenues reaching $1.31 billion, with over 500 million monthly active users and 9 million monthly paying customers.",
+      "zh-CN": "标题：什么是Bending Spoons？这个鲜为人知的AOL和Vimeo的拥有者现在上市了\n摘要：\n• 意大利科技集团Bending Spoons于本周在纳斯达克上市，市值一度超过250亿美元。\n• 该公司收购了AOL和Vimeo等品牌，并持有数字品牌如Meetup、Eventbrite和WeTransfer。\n• Bending Spoons的策略类似于私募股权，但专注于提升所收购品牌的财务表现。\n• 到2025年，Bending Spoons报告的营收达到13.1亿美元，拥有超过5亿月活跃用户和900万月付费客户。",
+      "ja": "タイトル：Bending Spoonsとは？今や上場した知られざるAOLとVimeoの所有者\n要約：\n• イタリアのテクノロジーグループBending Spoonsは今週ナスダックに上場し、一時的に市場価値が250億ドルを超えました。\n• 同社はAOLやVimeoなどのブランドを買収し、Meetup、Eventbrite、WeTransferなどのデジタルブランドを保有しています。\n• Bending Spoonsの戦略はプライベートエクイティに似ていますが、買収したブランドの財務パフォーマンスの向上に焦点を当てています。\n• 2025年までに、Bending Spoonsは収益が13.1億ドルに達し、5億人以上の月間アクティブユーザーと900万人の月間有料顧客を持つと報告しています。",
+      "ko": "제목: Bending Spoons란 무엇인가? 이제 공개된 잘 알려지지 않은 AOL 및 Vimeo 소유자\n요약:\n• 이탈리아 기술 그룹 Bending Spoons가 이번 주 나스닥에 상장되었으며, 한때 시가총액이 250억 달러를 초과했습니다.\n• 이 회사는 AOL 및 Vimeo"
+    }
   },
   {
     "url": "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/",
@@ -6226,8 +6043,15 @@
     "topic": "Finance",
     "published": "2026-07-05T12:47:39+00:00",
     "crawled": "2026-07-05T14:18:24.894539+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 根據Crunchbase和PitchBook的數據，2026年已有近90家新創公司達到獨角獸地位，主要與AI相關，但也包括醫療和加密貨幣等行業。  \n• MainFunc是一家成立於2023年的AI工作空間公司，估值26億美元，至今籌集了6.45億美元資金。  \n• Farther是一個財富管理平台，成立於2019年，估值12.5億美元，至今籌集了2.73億美元資金。  \n• MiRus是一家心血管和骨科醫療設備公司，成立於2015年，估值44.1億美元，至今籌集超過10億美元資金。",
+    "summaries": {
+      "zh-HK": "• 根據Crunchbase和PitchBook的數據，2026年已有近90家新創公司達到獨角獸地位，主要與AI相關，但也包括醫療和加密貨幣等行業。  \n• MainFunc是一家成立於2023年的AI工作空間公司，估值26億美元，至今籌集了6.45億美元資金。  \n• Farther是一個財富管理平台，成立於2019年，估值12.5億美元，至今籌集了2.73億美元資金。  \n• MiRus是一家心血管和骨科醫療設備公司，成立於2015年，估值44.1億美元，至今籌集超過10億美元資金。",
+      "en": "Title: Almost 90 new unicorns have been minted so far this year — here they are\nSummary:\n• According to data from Crunchbase and PitchBook, nearly 90 startups have reached unicorn status in 2023, primarily related to AI, but also including sectors like healthcare and cryptocurrency.\n• MainFunc is an AI workspace company founded in 2023, valued at $2.6 billion, and has raised $645 million to date.\n• Farther is a wealth management platform established in 2019, valued at $1.25 billion, and has raised $273 million to date.\n• MiRus is a cardiovascular and orthopedic medical device company founded in 2015, valued at $4.41 billion, and has raised over $1 billion to date.",
+      "zh-CN": "标题：今年迄今为止几乎有90家新独角兽公司诞生——它们在这里\n摘要：\n• 根据Crunchbase和PitchBook的数据，2023年已有近90家初创公司达到了独角兽地位，主要与AI相关，但也包括医疗和加密货币等行业。\n• MainFunc是一家成立于2023年的AI工作空间公司，估值26亿美元，至今筹集了6.45亿美元资金。\n• Farther是一个财富管理平台，成立于2019年，估值12.5亿美元，至今筹集了2.73亿美元资金。\n• MiRus是一家心血管和骨科医疗设备公司，成立于2015年，估值44.1亿美元，至今筹集超过10亿美元资金。",
+      "ja": "タイトル：今年これまでにほぼ90の新しいユニコーン企業が誕生しました — こちらです\n要約：\n• CrunchbaseとPitchBookのデータによると、2023年にはほぼ90のスタートアップがユニコーンの地位に達しており、主にAIに関連していますが、医療や暗号通貨などの分野も含まれています。\n• MainFuncは2023年に設立されたAIワークスペース企業で、評価額は26億ドル、これまでに6.45億ドルを調達しています。\n• Fartherは2019年に設立された資産管理プラットフォームで、評価額は12.5億ドル、これまでに2.73億ドルを調達しています。\n• MiRusは2015年に設立された心血管および整形外科医療機器会社で、評価額は44.1億ドル、これまでに10億ドル以上を調達しています。",
+      "ko": "제목: 올해 지금까지 거의 90개의 새로운 유니콘이 탄생했습니다 — 여기 있습니다"
+    }
   },
   {
     "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
@@ -6314,20 +6138,6 @@
     "ai_summary": ""
   },
   {
-    "url": "https://www.bloomberg.com/news/articles/2026-06-29/south-african-police-on-high-alert-before-anti-migrant-protests",
-    "title": "Anti-Migrant Protests Draw Thousands Across South Africa",
-    "summary": "Thousands of people joined anti-migrant protests in South Africa on Tuesday, watched over by a massive police contingent that was deployed to prevent violence and intimidation.",
-    "full_text": "",
-    "source": "Bloomberg",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-06-29T18:46:21+00:00",
-    "crawled": "2026-07-05T14:18:31.124345+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
     "url": "https://www.bloomberg.com/news/videos/2026-07-05/socialist-gains-test-democratic-party-unity-video",
     "title": "Socialist Gains Test Democratic Party Unity",
     "summary": "Victories by Democratic Socialist candidates are intensifying debate over the Democratic Party's ideological direction, as Dem leaders seek to balance a broader coalition while avoiding internal divisions ahead of the midterm elections. Joining Bloomberg This Weekend for this discussion are Bloomberg News White House Correspondent Jeff Mason, Bloomberg Opinion Columnist Gautam Mukunda, and Politico Reporter Madison Fernandez who explain that Republicans are moving quickly to use the rise of democratic socialism as a political line of attack, creating a new messaging challenge for Democrats. (Source: Bloomberg)",
@@ -6338,8 +6148,15 @@
     "topic": "Finance",
     "published": "2026-07-05T14:05:05+00:00",
     "crawled": "2026-07-05T14:18:31.408944+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 民主社會主義候選人的勝利加劇了民主黨內部的意識形態辯論  \n• 民主黨領導人試圖在擴大聯盟與避免內部分歧之間取得平衡  \n• 共和黨迅速利用民主社會主義的興起作為政治攻擊的手段  \n• 專家指出這為民主黨創造了新的信息挑戰，特別是在期中選舉前夕",
+    "summaries": {
+      "zh-HK": "• 民主社會主義候選人的勝利加劇了民主黨內部的意識形態辯論  \n• 民主黨領導人試圖在擴大聯盟與避免內部分歧之間取得平衡  \n• 共和黨迅速利用民主社會主義的興起作為政治攻擊的手段  \n• 專家指出這為民主黨創造了新的信息挑戰，特別是在期中選舉前夕",
+      "en": "Title: Socialist Gains Test Democratic Party Unity\nSummary:\n• The victory of democratic socialist candidates has intensified ideological debates within the Democratic Party\n• Democratic leaders are trying to balance expanding their coalition with avoiding internal divisions\n• The Republican Party is quickly using the rise of democratic socialism as a political attack tool\n• Experts point out that this creates new messaging challenges for the Democratic Party, especially on the eve of the midterm elections",
+      "zh-CN": "标题：社会主义者的胜利考验民主党的团结\n摘要：\n• 民主社会主义候选人的胜利加剧了民主党内部的意识形态辩论\n• 民主党领导人试图在扩大联盟与避免内部分歧之间取得平衡\n• 共和党迅速利用民主社会主义的兴起作为政治攻击的手段\n• 专家指出这为民主党创造了新的信息挑战，特别是在期中选举前夕",
+      "ja": "タイトル：社会主義者の勝利が民主党の団結を試す\n要約：\n• 民主社会主義候補者の勝利が民主党内のイデオロギー論争を激化させた\n• 民主党の指導者たちは、連合を拡大することと内部の対立を避けることのバランスを取ろうとしている\n• 共和党は、民主社会主義の台頭を政治的攻撃の手段として迅速に利用している\n• 専門家は、これが特に中間選挙の前に民主党に新たなメッセージングの課題を生み出していると指摘している",
+      "ko": "제목: 사회주의자의 승리가 민주당의 단결을 시험하다\n요약:\n• 민주 사회주의 후보의 승리가 민주당 내의 이념적 논쟁을 심화시켰다\n• 민주당 지도자들은 연합을 확장하는 것과 내부 분열을 피하는 것 사이의 균형을 맞추려고 노력하고 있다\n• 공화당은 민주 사회주의의 부상을 정치적 공격 수단으로 빠르게 활용하고 있다\n• 전문가들은 이것이 특히 중간 선거를 앞두고 민주당에 새로운 메시지 도전 과제를 만들어낸다고 지적하고 있다"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-04/putin-trump-discuss-ukraine-iran-in-call-ahead-of-nato-summit",
@@ -6426,20 +6243,6 @@
     "ai_summary": ""
   },
   {
-    "url": "https://chainlinktoday.com/chainlink-labs-charlie-durkin-on-tokenizing-cash-and-the-standards-behind-onchain-capital-markets/",
-    "title": "Chainlink Labs’ Charlie Durkin On Tokenizing Cash And The Standards Behind Onchain Capital Markets",
-    "summary": "<p>On a recent episode of the Crypto Conversation podcast, Chainlink Labs’ Principal Solutions Lead, Charlie Durkin, joined Andy Pickering to discuss how the world’s largest financial institutions are coming onchain – and why the race begins with tokenizing cash. After a decade in traditional finance at Citi, Durkin joined Chainlink last year with the goal [&#8230;]</p>\n<p>The post <a href=\"https://chainlinktoday.com/chainlink-labs-charlie-durkin-on-tokenizing-cash-and-the-standards-behind-onchain-capital-markets/\">Chainlink Labs’ Charlie Durkin On Tokenizing Cash And The Standards Behind Onchain Capital Markets</a> appeared first on <a href=\"https://chainlinktoday.com\">Chainlink Today</a>.</p>",
-    "full_text": "Chainlink Labs’ Charlie Durkin On Tokenizing Cash And The Standards Behind Onchain Capital Markets\nOn a recent episode of the\npodcast, Chainlink Labs’ Principal Solutions Lead, Charlie Durkin, joined Andy Pickering to discuss how the world’s largest financial institutions are coming onchain – and why the race begins with tokenizing cash.\nAfter a decade in traditional finance at Citi, Durkin joined Chainlink last year with the goal of maximizing the efficiencies he first glimpsed working on blockchain proofs of concept in 2017.\nHe described Chainlink as the connectivity layer between disparate blockchain systems and the existing financial world that’s inevitably headed onchain.\n“The economics are just too compelling to ignore,” he said.\n“It’s faster settlement. You have programmability, global liquidity access, 24×7 markets, and, importantly, reduced operational friction.”\nWhile he doesn’t discount the continued wave of tokenized equities, he believes institutions’ primary goal is tokenizing cash onchain for faster settlement.\nThis means stablecoins are becoming foundational market infrastructure. Since, under the GENIUS Act, stablecoins must be backed 1:1 with a high-quality liquid asset, tokenized deposits that allow banks to maintain fractionalized reserves while offering clients instant settlement are also gaining traction.\n“This is where Chainlink comes in force,” Durkin said.\n“We don’t say throw out everything and start new. We say give us an API and we can securely and reliably connect you to the blockchain ecosystem.”\nAs the industry-leading decentralized oracle platform, Chainlink has enabled\nover $31 trillion in transaction value\nthe vast majority of DeFi\n. Chainlink’s highly resilient chain-agnostic infrastructure makes it the top choice for financial institutions such as\nto connect to the blockchain economy.\n“Institutions don’t want 10 blockchains,” Durkin said. “They want one operational framework that will work across all of them.”\nrecent collaboration with the DTCC\nto facilitate near real-time collateral management across financial markets and blockchains offers a glimpse into this future.\nHe likened Chainlink’s data and interoperability standards to how standardized rail gauges enabled industrialization and TCP/IP scaled the internet.\n“You cannot have scale without standards. It just does not exist.”\nDurkin was drawn to Chainlink because of its\ndefense in depth architecture\n. As the only data and interoperability oracle platform meeting SOC 2 Type 2 and ISO/IEC 27001:2022 institutional security standards, Chainlink’s node architecture ensures security by default via multiple independent node operators, cryptographic consensus, and geographic redundancy.\n“In capital markets, speed without security is really just a faster way of losing money,” Durkin stressed.\nLooking 12 to 24 months out, he expects a watershed moment will be the ability for cash to move natively onchain while preserving the singleness of money – a backend shift that will generate few headlines but fundamentally reorder capital markets.\n“Once cash is natively onchain in the institutional world, everything will start to be tokenized.”\nWatch the full interview.\nHave an idea for a story?\nIf you’re interested in submitting content to be considered for publication, please carefully review the Chainlink Today\nContent Submission Guidelines\nto help you get started. We’re excited to hear from you.\nAndrew McCormick: Tokenized Equities, Regulatory Clarity Will Drive Next Wave Of Onchain Finance\nJune 2026 Recap: Chainlink Powers Official FIFA World Cup Prediction Market, Launches Project Pangea\nJune 2026 Recap: Chainlink Powers Official FIFA World Cup Prediction Market,...\nAndrew McCormick: Tokenized Equities, Regulatory Clarity Will Drive Next Wave Of...\nFrom Prediction Markets To Project Pangea: Andrew McCormick Expects Chainlink-Powered Future",
-    "source": "Chainlink (Chinese)",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "World",
-    "published": "2026-06-29T20:03:43+00:00",
-    "crawled": "2026-07-05T14:18:42.611754+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
     "url": "https://blockcast.it/2026/07/05/solana-ecosystem-shows-recovery-signals/",
     "title": "Solana 生態迎復甦訊號：鏈上治理升級，代幣化股票、迷因幣齊升溫",
     "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"800\" src=\"https://blockcast.it/wp-content/uploads/2025/10/solana-2.jpg\" style=\"display: block; margin: auto; margin-bottom: 5px;\" width=\"1200\" /><p>Solana （ SOL ）近一週逆勢上漲近 15%， RWA （現實世界資產）、代幣化股票與 Meme 幣交易同步回溫，加上鏈上治理機制正式升級，帶動市場信心。不過，分析認為生態仍屬局部復甦，距離全面牛市仍有一段距離。</p>\n<p>〈<a href=\"https://blockcast.it/2026/07/05/solana-ecosystem-shows-recovery-signals/\">Solana 生態迎復甦訊號：鏈上治理升級，代幣化股票、迷因幣齊升溫</a>〉這篇文章最早發佈於《<a href=\"https://blockcast.it\">區塊客</a>》。</p>",
@@ -6464,8 +6267,15 @@
     "topic": "General",
     "published": "2026-07-05T12:31:39+00:00",
     "crawled": "2026-07-05T14:18:51.120546+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 英國改革黨領袖奈傑爾·法拉奇被指未申報其盟友提供的福利，該盟友曾在美國被定罪詐騙。  \n• 政府發言人羅伯特·詹里克表示，法拉奇在成為國會議員之前所獲得的支持屬於“純粹的個人性質”，因此不需登記。  \n• 自由民主黨已要求國會標準專員進行調查，法拉奇目前正面臨有關一筆500萬英鎊捐贈的調查，該捐贈未被登記。  \n• 盟友喬治·科特雷爾是一名加密貨幣企業家，曾在英國脫歐公投前作為志願者參與英國獨立黨（UKIP）的活動。",
+    "summaries": {
+      "zh-HK": "• 英國改革黨領袖奈傑爾·法拉奇被指未申報其盟友提供的福利，該盟友曾在美國被定罪詐騙。  \n• 政府發言人羅伯特·詹里克表示，法拉奇在成為國會議員之前所獲得的支持屬於“純粹的個人性質”，因此不需登記。  \n• 自由民主黨已要求國會標準專員進行調查，法拉奇目前正面臨有關一筆500萬英鎊捐贈的調查，該捐贈未被登記。  \n• 盟友喬治·科特雷爾是一名加密貨幣企業家，曾在英國脫歐公投前作為志願者參與英國獨立黨（UKIP）的活動。",
+      "en": "Title: Reform denies rules broken by Farage after benefits from ally not declared\nSummary:\n• Nigel Farage, leader of the Reform Party in the UK, is accused of failing to declare benefits received from an ally who was previously convicted of fraud in the US.\n• Government spokesperson Robert Jenrick stated that the support Farage received before becoming an MP was of a \"purely personal nature\" and therefore did not need to be registered.\n• The Liberal Democrats have called for an investigation by the Parliamentary Commissioner for Standards, as Farage is currently facing scrutiny over a £5 million donation that was not registered.\n• The ally, George Cottrell, is a cryptocurrency entrepreneur who volunteered for the UK Independence Party (UKIP) before the Brexit referendum.",
+      "zh-CN": "标题：改革党否认法拉奇因未申报盟友福利而违反规则\n摘要：\n• 英国改革党领袖奈杰尔·法拉奇被指未申报其盟友提供的福利，该盟友曾在美国被定罪诈骗。\n• 政府发言人罗伯特·詹里克表示，法拉奇在成为国会议员之前所获得的支持属于“纯粹的个人性质”，因此无需登记。\n• 自由民主党已要求国会标准专员进行调查，法拉奇目前正面临有关一笔500万英镑捐赠的调查，该捐赠未被登记。\n• 盟友乔治·科特雷尔是一名加密货币企业家，曾在英国脱欧公投前作为志愿者参与英国独立党（UKIP）的活动。",
+      "ja": "タイトル：改革党は法ラージが盟友からの利益を未申告とする規則違反を否定\n要約：\n• 英国改革党のリーダー、ナイジェル・ファラージは、米国で詐欺罪に有罪判決を受けた盟友からの利益を未申告とされている。\n• 政府のスポークスマン、ロバート・ジェンリックは、ファラージが国会議員になる前に受けた支援は「純粋に個人的な性質のものであり」、したがって登録する必要はないと述べた。\n• 自由民主党は、ファラージが未登録の500万ポンドの寄付に関する調査を受けているため、国会基準委員による調査を要求している。\n• 盟友のジョージ・コトレルは、英国独立党（UKIP）の活動にボランティアとして参加していた暗号通貨起業家である。",
+      "ko": "제목:"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/sport/football/articles/cvg7z7zxkw9o?at_medium=RSS&at_campaign=rss",
@@ -6520,8 +6330,15 @@
     "topic": "General",
     "published": "2026-07-05T13:55:34+00:00",
     "crawled": "2026-07-05T14:18:52.580692+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 英格蘭與墨西哥的世界杯比賽引發對雇主靈活工作的呼籲，特別是在比賽後的工作安排上。  \n• 倫敦的MT Finance Group允許員工在星期一11:00上班，因為公司高層將熬夜觀看比賽。  \n• 曼徹斯特的數位行銷公司MadebyShape則給予員工放假，前提是他們的工作進度正常。  \n• 工會TUC呼籲雇主展現理解，並希望能夠靈活安排工作時間，以應對比賽後的影響。",
+    "summaries": {
+      "zh-HK": "• 英格蘭與墨西哥的世界杯比賽引發對雇主靈活工作的呼籲，特別是在比賽後的工作安排上。  \n• 倫敦的MT Finance Group允許員工在星期一11:00上班，因為公司高層將熬夜觀看比賽。  \n• 曼徹斯特的數位行銷公司MadebyShape則給予員工放假，前提是他們的工作進度正常。  \n• 工會TUC呼籲雇主展現理解，並希望能夠靈活安排工作時間，以應對比賽後的影響。",
+      "en": "Title: 'Start work at 11' - but will other bosses be as flexible over England's 1am match?\nSummary:\n• England's World Cup match against Mexico has sparked calls for flexible working from employers, particularly regarding post-match work arrangements.\n• MT Finance Group in London allows employees to start work at 11:00 on Monday, as company executives will stay up late to watch the match.\n• Digital marketing company MadebyShape in Manchester is giving employees time off, provided their work progress is on track.\n• The TUC union is urging employers to show understanding and hopes for flexible working hours to accommodate the aftermath of the match.",
+      "zh-CN": "标题：'11点上班' - 但其他老板会对英格兰凌晨1点的比赛如此灵活吗？\n摘要：\n• 英格兰与墨西哥的世界杯比赛引发对雇主灵活工作的呼吁，特别是在比赛后的工作安排上。\n• 伦敦的MT Finance Group允许员工在星期一11:00上班，因为公司高层将熬夜观看比赛。\n• 曼彻斯特的数字营销公司MadebyShape则给予员工放假，前提是他们的工作进度正常。\n• 工会TUC呼吁雇主展现理解，并希望能够灵活安排工作时间，以应对比赛后的影响。",
+      "ja": "タイトル：'11時に仕事を始める' - しかし、他の上司はイングランドの午前1時の試合に対して同様に柔軟になるのでしょうか？\n要約：\n• イングランドとメキシコのワールドカップの試合が、特に試合後の勤務体制に関して雇用主に柔軟な働き方を求める声を引き起こしています。\n• ロンドンのMT Finance Groupは、会社の幹部が試合を観るために夜更かしするので、従業員に月曜日の11:00に出勤することを許可しています。\n• マンチェスターのデジタルマーケティング会社MadebyShapeは、従業員が仕事の進捗が正常であれば休暇を与えています。\n• TUC労働組合は雇用主に理解を示すよう呼びかけており、試合後の影響に対応するために柔軟な勤務時間を希望しています。",
+      "ko": "제목: '11시에 출근' - 그러나 다른 사장들도 영국의 오전 1시 경기에서 이렇게 유연할까요?\n요약:\n• 영국과 멕시코의 월드컵 경기가 경기 후 근무 일정에"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/sport/football/articles/c4gy0l7x25wo?at_medium=RSS&at_campaign=rss",
@@ -6632,8 +6449,15 @@
     "topic": "General",
     "published": "2026-07-05T13:48:13+00:00",
     "crawled": "2026-07-05T14:18:56.941123+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 數百萬人於2026年7月5日在德黑蘭參加伊朗已故最高領袖哈梅內伊的葬禮祈禱 \n• 哈梅內伊於2026年2月28日遭美以聯合空襲身亡 \n• 航拍視頻顯示出參加人數的龐大規模 \n• 此次葬禮引發了廣泛的民眾關注和參與",
+    "summaries": {
+      "zh-HK": "• 數百萬人於2026年7月5日在德黑蘭參加伊朗已故最高領袖哈梅內伊的葬禮祈禱 \n• 哈梅內伊於2026年2月28日遭美以聯合空襲身亡 \n• 航拍視頻顯示出參加人數的龐大規模 \n• 此次葬禮引發了廣泛的民眾關注和參與",
+      "en": "Title: Millions attend funeral prayers for Iran’s Khamenei and family\nSummary:\n• Millions attended funeral prayers for Iran's late Supreme Leader Khamenei in Tehran on July 5, 2026.\n• Khamenei was killed in a joint US-Israeli airstrike on February 28, 2026.\n• Aerial footage showed the massive scale of attendees.\n• The funeral garnered widespread public attention and participation.",
+      "zh-CN": "标题：数百万参加伊朗哈梅内伊及其家族的葬礼祈祷\n摘要：\n• 数百万人于2026年7月5日在德黑兰参加伊朗已故最高领袖哈梅内伊的葬礼祈祷。\n• 哈梅内伊于2026年2月28日遭美以联合空袭身亡。\n• 航拍视频显示出参加人数的庞大规模。\n• 此次葬礼引发了广泛的民众关注和参与。",
+      "ja": "タイトル：イランのハメネイとその家族の葬儀に数百万人が参加\n要約：\n• 2026年7月5日、テヘランでイランの故最高指導者ハメネイの葬儀に数百万人が参加した。\n• ハメネイは2026年2月28日に米国とイスラエルの共同空爆で死亡した。\n• 空撮映像は参加者の膨大な規模を示している。\n• この葬儀は広範な公衆の関心と参加を引き起こした。",
+      "ko": "제목: 이란의 하메네이와 가족을 위한 장례 기도에 수백만 명 참석\n요약:\n• 2026년 7월 5일 테헤란에서 이란의 고(故) 최고 지도자 하메네이의 장례 기도에 수백만 명이 참석했다.\n• 하메네이는 2026년 2월 28일 미국과 이스라엘의 공동 공습으로 사망했다.\n• 항공 촬영 영상은 참석자의 대규모를 보여주었다.\n• 이번 장례식은 광범위한 대중의 관심과 참여를 불러일으켰다."
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/5/at-least-15-yemeni-government-troops-killed-in-hodeidah-fighting?traffic_source=rss",
@@ -6646,8 +6470,14 @@
     "topic": "Politics",
     "published": "2026-07-05T13:46:32+00:00",
     "crawled": "2026-07-05T14:18:57.087589+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 在2026年7月5日，葉門霍代達省的衝突中至少有15名政府軍隊成員被殺，與胡塞叛軍交火。  \n• 政府官員瓦利德·阿爾-庫達伊米表示，這些士兵是在保衛其土地和尊嚴時喪生的，並提到胡塞方面有超過50名戰士被擊斃。  \n• 交火發生在傍晚，胡塞叛軍一度佔領了親政府的據點，但在次日黎明前，政府軍發動反擊奪回了這些位置。  \n• 自2015年以來，胡塞叛軍與葉門國際承認的政府持續衝突，並控制了首都薩那及霍代達港。",
+    "summaries": {
+      "zh-HK": "• 在2026年7月5日，葉門霍代達省的衝突中至少有15名政府軍隊成員被殺，與胡塞叛軍交火。  \n• 政府官員瓦利德·阿爾-庫達伊米表示，這些士兵是在保衛其土地和尊嚴時喪生的，並提到胡塞方面有超過50名戰士被擊斃。  \n• 交火發生在傍晚，胡塞叛軍一度佔領了親政府的據點，但在次日黎明前，政府軍發動反擊奪回了這些位置。  \n• 自2015年以來，胡塞叛軍與葉門國際承認的政府持續衝突，並控制了首都薩那及霍代達港。",
+      "en": "Title: At least 15 Yemeni government troops killed in Hodeidah fighting\nSummary:\n• On July 5, 2026, at least 15 members of the Yemeni government forces were killed in clashes in Hodeidah province, engaging in combat with Houthi rebels.\n• Government official Walid Al-Qudaimi stated that these soldiers died while defending their land and dignity, mentioning that over 50 Houthi fighters were killed.\n• The clashes occurred in the evening, with Houthi rebels temporarily occupying pro-government positions, but by dawn the next day, government forces launched a counterattack to reclaim those positions.\n• Since 2015, Houthi rebels have been in ongoing conflict with Yemen's internationally recognized government, controlling the capital Sana'a and the port of Hodeidah.",
+      "zh-CN": "标题：至少15名也门政府军在霍代达的战斗中被杀\n摘要：\n• 在2026年7月5日，叶门霍代达省的冲突中至少有15名政府军队成员被杀，与胡塞叛军交火。\n• 政府官员瓦利德·阿尔-库达伊米表示，这些士兵是在保卫其土地和尊严时丧生的，并提到胡塞方面有超过50名战士被击毙。\n• 交火发生在傍晚，胡塞叛军一度占领了亲政府的据点，但在次日黎明前，政府军发动反击夺回了这些位置。\n• 自2015年以来，胡塞叛军与也门国际承认的政府持续冲突，并控制了首都萨那及霍代达港。",
+      "ja": "タイトル：ホデイダの戦闘で少なくとも15人のイエメン政府軍兵士が死亡\n要約：\n• 2026年7月5日、ホデイダ州での衝突において、少なくとも15人のイエメン政府軍兵士がフーシ派の反乱者との交戦で死亡しました。\n• 政府の公式ウォリード・アル・クダイミは、これらの兵士は自国の土地と尊厳を守るために命を落としたと述べ、フーシ派側で50人以上の戦士が殺されたことを言及しました。\n• 交戦は夕方に発生し、フーシ派の反乱者が一時的に親政府の拠点を占拠しましたが、翌日の夜明け前に政府軍が反撃を開始し、これらの位置を奪還しました。\n• 2015"
+    }
   },
   {
     "url": "https://www.aljazeera.com/video/newsfeed/2026/7/5/dr-hussam-abu-safias-life-in-grave?traffic_source=rss",
@@ -6660,8 +6490,15 @@
     "topic": "General",
     "published": "2026-07-05T13:40:44+00:00",
     "crawled": "2026-07-05T14:18:57.391179+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 加沙醫院主任侯薩姆·阿布·薩菲亞在以色列拘留中，據報導其生命處於「嚴重危險」中  \n• 他在最近一次會見律師時表示「這是你最後一次見到我」  \n• 他的家人指出，阿布·薩菲亞的健康狀況急劇惡化  \n• 巴勒斯坦囚犯當局聲稱他在以色列拘留期間遭受酷刑",
+    "summaries": {
+      "zh-HK": "• 加沙醫院主任侯薩姆·阿布·薩菲亞在以色列拘留中，據報導其生命處於「嚴重危險」中  \n• 他在最近一次會見律師時表示「這是你最後一次見到我」  \n• 他的家人指出，阿布·薩菲亞的健康狀況急劇惡化  \n• 巴勒斯坦囚犯當局聲稱他在以色列拘留期間遭受酷刑",
+      "en": "Title: Dr Hussam Abu Safia’s life in ‘grave danger’\nSummary:\n• Dr. Hussam Abu Safia, the director of a Gaza hospital, is reportedly in \"grave danger\" while in Israeli custody.\n• During a recent meeting with his lawyer, he stated, \"This is the last time you will see me.\"\n• His family has indicated that Abu Safia's health has deteriorated sharply.\n• Palestinian prisoner authorities claim he has been tortured during his detention in Israel.",
+      "zh-CN": "标题：侯萨姆·阿布·萨菲亚医生的生命处于“严重危险”中\n摘要：\n• 加沙医院主任侯萨姆·阿布·萨菲亚在以色列拘留中， reportedly 其生命处于“严重危险”中。\n• 他在最近一次会见律师时表示：“这是你最后一次见到我。”\n• 他的家人指出，阿布·萨菲亚的健康状况急剧恶化。\n• 巴勒斯坦囚犯当局声称他在以色列拘留期间遭受酷刑。",
+      "ja": "タイトル：ハッサム・アブ・サフィア博士の命が「重大な危険」にさらされています\n要約：\n• ガザの病院の院長であるハッサム・アブ・サフィア博士がイスラエルの拘留中に「重大な危険」にさらされていると報告されています。\n• 最近の弁護士との面会で彼は「これが最後の面会になる」と述べました。\n• 彼の家族は、アブ・サフィアの健康状態が急激に悪化していると指摘しています。\n• パレスチナの囚人当局は、彼がイスラエルの拘留中に拷問を受けたと主張しています。",
+      "ko": "제목: 후삼 아부 사피아 박사의 생명이 '심각한 위험'에 처해 있습니다\n요약:\n• 가자 병원의 원장인 후삼 아부 사피아 박사가 이스라엘 구금 중 '심각한 위험'에 처해 있다고 보도되었습니다.\n• 최근 변호사와의 면담에서 그는 \"이것이 당신이 나를 마지막으로 보는 시간입니다\"라고 말했습니다.\n• 그의 가족은 아부 사피아의 건강 상태가 급격히 악화되었다고 지적했습니다.\n• 팔레스타인 수감 당국은 그가 이스라엘 구금 중 고문을 당했다고 주장하고 있습니다."
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/5/what-to-know-about-the-renewed-coordinated-attacks-across-mali?traffic_source=rss",
@@ -6723,8 +6560,15 @@
     "topic": "Regulation",
     "published": "2026-07-05T14:00:28+00:00",
     "crawled": "2026-07-05T14:19:01.941484+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 內蒙古自治區發生一起卡車碰撞事故，造成2人死亡、4人受傷，事故發生於週日中午12點左右  \n• 事故發生在國道331號的西林郭勒盟，涉及一輛運載危險化學品的卡車與另一輛運輸車輛相撞  \n• 碰撞引發爆炸，所有受傷者已被送往醫療機構，當地政府已成立調查小組調查事故原因  \n• 事故現場視頻顯示，燃燒的車輛突然爆炸，火焰直衝天際，濃厚的黃色煙霧從現場升起",
+    "summaries": {
+      "zh-HK": "• 內蒙古自治區發生一起卡車碰撞事故，造成2人死亡、4人受傷，事故發生於週日中午12點左右  \n• 事故發生在國道331號的西林郭勒盟，涉及一輛運載危險化學品的卡車與另一輛運輸車輛相撞  \n• 碰撞引發爆炸，所有受傷者已被送往醫療機構，當地政府已成立調查小組調查事故原因  \n• 事故現場視頻顯示，燃燒的車輛突然爆炸，火焰直衝天際，濃厚的黃色煙霧從現場升起",
+      "en": "Title: 2 dead, 4 injured as northern China truck collision triggers huge chemical blast\nSummary:\n• A truck collision in Inner Mongolia has resulted in 2 deaths and 4 injuries, occurring around noon on Sunday.\n• The incident took place on National Highway 331, involving a truck carrying hazardous chemicals and another transport vehicle.\n• The collision triggered an explosion, and all injured individuals have been sent to medical facilities; local authorities have established an investigation team to look into the cause of the accident.\n• Footage from the scene shows burning vehicles suddenly exploding, with flames shooting into the sky and thick yellow smoke rising from the site.",
+      "zh-CN": "标题：内蒙古卡车碰撞引发巨大化学爆炸，造成2人死亡，4人受伤\n摘要：\n• 内蒙古自治区发生一起卡车碰撞事故，造成2人死亡、4人受伤，事故发生于周日中午12点左右。\n• 事故发生在国道331号的西林郭勒盟，涉及一辆运载危险化学品的卡车与另一辆运输车辆相撞。\n• 碰撞引发爆炸，所有受伤者已被送往医疗机构，当地政府已成立调查小组调查事故原因。\n• 事故现场视频显示，燃烧的车辆突然爆炸，火焰直冲天际，浓厚的黄色烟雾从现场升起。",
+      "ja": "タイトル：北中国のトラック衝突が大規模な化学爆発を引き起こし、2人死亡、4人負傷\n要約：\n• 内モンゴル自治区でトラックの衝突事故が発生し、2人が死亡、4人が負傷しました。事故は日曜日の正午頃に発生しました。\n• 事故は国道331号線の西林郭勒盟で発生し、危険な化学物質を運搬していたトラックと別の輸送車両が衝突しました。\n• 衝突により爆発が引き起こされ、負傷者はすべて医療機関に搬送されました。地元当局は事故原因を調査するための調査チームを設立しました。\n• 現場の映像では、燃えている車両が突然爆発し、炎が空に向かって噴き上がり、濃い黄色の煙が現場から立ち上っています。",
+      "ko": "제목: 북중국 트럭 충돌로 2명 사망, 4명 부상 - 대규모 화학 폭발 발생\n요약:\n• 내몽골 자치구에서 트럭 충돌"
+    }
   },
   {
     "url": "https://www.scmp.com/news/china/military/article/3359485/why-indo-pacific-might-be-back-burner-nato-summit?utm_source=rss_feed",
@@ -6737,8 +6581,15 @@
     "topic": "World",
     "published": "2026-07-05T14:00:11+00:00",
     "crawled": "2026-07-05T14:19:02.219698+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 北約32個成員國將於本週在土耳其首都安卡拉召開年度峰會，主要聚焦烏克蘭和中東的和平問題。  \n• 分析人士指出，烏克蘭和伊朗的衝突，以及美國對歐洲盟友增加國防開支的推動，可能會使對印太地區的討論減少。  \n• 此次峰會將是自2004年伊斯坦堡峰會以來，土耳其首次主辦北約峰會。  \n• 北約領導人面臨壓力，需展示在國防開支目標上的進展，根據協議，成員國承諾到2035年將國防開支提高至國內生產總值的5%。",
+    "summaries": {
+      "zh-HK": "• 北約32個成員國將於本週在土耳其首都安卡拉召開年度峰會，主要聚焦烏克蘭和中東的和平問題。  \n• 分析人士指出，烏克蘭和伊朗的衝突，以及美國對歐洲盟友增加國防開支的推動，可能會使對印太地區的討論減少。  \n• 此次峰會將是自2004年伊斯坦堡峰會以來，土耳其首次主辦北約峰會。  \n• 北約領導人面臨壓力，需展示在國防開支目標上的進展，根據協議，成員國承諾到2035年將國防開支提高至國內生產總值的5%。",
+      "en": "Title: Why the Indo-Pacific might be on the back burner at the Nato summit\nSummary:\n• NATO's 32 member countries will hold their annual summit this week in Ankara, Turkey, focusing primarily on peace issues in Ukraine and the Middle East.\n• Analysts point out that the conflicts in Ukraine and Iran, along with the U.S. push for increased defense spending among European allies, may reduce discussions on the Indo-Pacific region.\n• This summit will be the first NATO summit hosted by Turkey since the Istanbul summit in 2004.\n• NATO leaders are under pressure to demonstrate progress on defense spending targets, as member countries have committed to raising defense spending to 5% of GDP by 2035.",
+      "zh-CN": "标题：为什么印太地区可能在北约峰会上被搁置\n摘要：\n• 北约32个成员国将于本周在土耳其首都安卡拉召开年度峰会，主要聚焦乌克兰和中东的和平问题。\n• 分析人士指出，乌克兰和伊朗的冲突，以及美国对欧洲盟友增加国防开支的推动，可能会使对印太地区的讨论减少。\n• 此次峰会将是自2004年伊斯坦堡峰会以来，土耳其首次主办北约峰会。\n• 北约领导人面临压力，需展示在国防开支目标上的进展，根据协议，成员国承诺到2035年将国防开支提高至国内生产总值的5%。",
+      "ja": "タイトル：なぜインド太平洋がNATOサミットで後回しになる可能性があるのか\n要約：\n• NATOの32か国のメンバーは、今週トルコのアンカラで年次サミットを開催し、主にウクライナと中東の平和問題に焦点を当てます。\n• 分析者は、ウクライナとイランの紛争、及びアメリカがヨーロッパの同盟国に対して防衛費の増加を促していることが、インド太平洋地域に関する議論を減少させる可能性があると指摘しています。\n• 今回のサミットは、2004年のイスタンブールサミット以来、トルコが初めてNATOサミットを主催することになります。\n• NATOの指導者たちは、防衛費の目標に関する進展を示す圧力に直面しており、メンバー国は2035年までに防衛費をGDPの5%に引き上げることを約束しています。",
+      "ko": "제목:"
+    }
   },
   {
     "url": "https://www.theguardian.com/australia-news/2026/jul/06/australian-aged-care-firm-accused-in-class-action-of-charging-residents-for-high-teas-and-classes-they-couldnt-use-ntwnfb",
@@ -6751,8 +6602,15 @@
     "topic": "Regulation",
     "published": "2026-07-05T14:01:28+00:00",
     "crawled": "2026-07-05T14:19:08.691493+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 超過50家Arcare老年護理機構被指控在聯邦法院提起的集體訴訟中，向居民收取無法使用的額外服務費用。  \n• 訴訟聲稱，這些額外服務費用包括高茶和運動課程，且收費對於因身體或認知障礙無法使用這些服務的居民來說是非法的。  \n• 根據老年護理法規，提供者只能在居民同意且能夠使用服務的情況下收取額外費用。  \n• Arcare尚未對法院的指控做出回應，並表示目前不便對此事發表評論。",
+    "summaries": {
+      "zh-HK": "• 超過50家Arcare老年護理機構被指控在聯邦法院提起的集體訴訟中，向居民收取無法使用的額外服務費用。  \n• 訴訟聲稱，這些額外服務費用包括高茶和運動課程，且收費對於因身體或認知障礙無法使用這些服務的居民來說是非法的。  \n• 根據老年護理法規，提供者只能在居民同意且能夠使用服務的情況下收取額外費用。  \n• Arcare尚未對法院的指控做出回應，並表示目前不便對此事發表評論。",
+      "en": "Title: Australian aged care firm accused in class action of charging residents for high teas and classes they couldn’t use\nSummary:\n• Over 50 Arcare aged care facilities are accused in a class action filed in federal court of charging residents for additional services they could not use.\n• The lawsuit claims these additional service fees include high teas and exercise classes, and that charging residents who are unable to use these services due to physical or cognitive impairments is illegal.\n• According to aged care regulations, providers can only charge additional fees if residents agree and are able to use the services.\n• Arcare has not yet responded to the court's allegations and stated that it is currently unable to comment on the matter.",
+      "zh-CN": "标题：澳大利亚老年护理公司在集体诉讼中被指控向居民收取无法使用的高茶和课程费用\n摘要：\n• 超过50家Arcare老年护理机构在联邦法院提起的集体诉讼中被指控向居民收取无法使用的额外服务费用。\n• 诉讼声称，这些额外服务费用包括高茶和运动课程，且向因身体或认知障碍无法使用这些服务的居民收费是非法的。\n• 根据老年护理法规，提供者只能在居民同意且能够使用服务的情况下收取额外费用。\n• Arcare尚未对法院的指控做出回应，并表示目前不便对此事发表评论。",
+      "ja": "タイトル：オーストラリアの高齢者介護会社が、利用できない高茶やクラスの料金を住民に請求したとして集団訴訟で告発される\n要約：\n• 50以上のArcare高齢者介護施設が、連邦裁判所に提起された集団訴訟で、住民に利用できない追加サービス料金を請求したと告発されています。\n• 訴訟では、これらの追加サービス料金には高茶や運動クラスが含まれており、身体的または認知的障害によりこれらのサービスを利用できない住民に対して料金を請求することは違法であると主張されています。\n• 高齢者介護規制によれば、提供者は住民が同意し、サービスを利用できる場合にのみ追加料金を請求することができます。\n• Arcareはまだ裁判所の告発に対して応答しておらず、現在この件についてコメントできないと述べています。",
+      "ko": "제목: 호주 노인 요양 시설, 이용할 수 없는 고급 차와 수업에 대해 주민들에게 요금을 부과한 집단 소송에 고"
+    }
   },
   {
     "url": "https://time.com/article/2026/07/05/france-the-world-cup-favorite-lives-on-with-a-little-love-from-local-fans/",
@@ -6765,8 +6623,15 @@
     "topic": "World",
     "published": "2026-07-05T12:41:33+00:00",
     "crawled": "2026-07-05T14:19:18.532920+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 法國在7月4日於費城舉行的世界杯16強賽中以1-0擊敗巴拉圭，晉級四分之一決賽，將於7月9日在馬薩諸塞州的福克斯堡對陣摩洛哥。  \n• 法國球星姆巴佩在第70分鐘罰入一球，成為世界杯進球領跑者之一。  \n• 比賽中，法國控球率達76%，射門次數為15次，而巴拉圭則為5次。  \n• 法國隊在比賽後表示，無論是進攻還是防守，他們都能應對比賽的挑戰。",
+    "summaries": {
+      "zh-HK": "• 法國在7月4日於費城舉行的世界杯16強賽中以1-0擊敗巴拉圭，晉級四分之一決賽，將於7月9日在馬薩諸塞州的福克斯堡對陣摩洛哥。  \n• 法國球星姆巴佩在第70分鐘罰入一球，成為世界杯進球領跑者之一。  \n• 比賽中，法國控球率達76%，射門次數為15次，而巴拉圭則為5次。  \n• 法國隊在比賽後表示，無論是進攻還是防守，他們都能應對比賽的挑戰。",
+      "en": "Title: France, the World Cup Favorite, Lives On—With a Little Love From Local Fans\nSummary:\n• France defeated Paraguay 1-0 in the World Cup Round of 16 held in Philadelphia on July 4, advancing to the quarter-finals, where they will face Morocco on July 9 in Foxborough, Massachusetts.\n• French star Mbappé scored a penalty in the 70th minute, becoming one of the top scorers in the World Cup.\n• France had a possession rate of 76% during the match, with 15 shots compared to Paraguay's 5.\n• After the match, the French team stated that they are ready to face the challenges of the game, both offensively and defensively.",
+      "zh-CN": "标题：法国，世界杯热门，继续前进——得益于当地球迷的热爱\n摘要：\n• 法国在7月4日于费城举行的世界杯16强赛中以1-0击败巴拉圭，晋级四分之一决赛，将于7月9日在马萨诸塞州的福克斯堡对阵摩洛哥。\n• 法国球星姆巴佩在第70分钟罚入一球，成为世界杯进球领跑者之一。\n• 比赛中，法国控球率达76%，射门次数为15次，而巴拉圭则为5次。\n• 法国队在比赛后表示，无论是进攻还是防守，他们都能应对比赛的挑战。",
+      "ja": "タイトル：フランス、ワールドカップの優勝候補、地元ファンの愛で生き続ける\n要約：\n• フランスは7月4日にフィラデルフィアで行われたワールドカップ16強戦でパラグアイを1-0で破り、準々決勝に進出しました。準々決勝では7月9日にマサチューセッツ州フォックスボロでモロッコと対戦します。\n• フランスのスター選手ムバッペは70分にペナルティを決め、ワールドカップの得点王争いに名を連ねました。\n• 試合中、フランスのボール支配率は76%で、シュート数は15本、パラグアイは5本でした。\n• 試合後、フランスチームは攻撃と守備の両面で試合の挑戦に対応できると述べました。",
+      "ko": "제목: 프랑스, 월드컵 우승 후보, 지역 팬들의 사랑으로 계속 나아가다\n요약:\n• 프랑스는 7월 4일 필라델피아에서 열린 월"
+    }
   },
   {
     "url": "https://www.ft.com/content/14e18591-a2a4-4011-b77d-48fa74dab7f4",
@@ -6793,8 +6658,15 @@
     "topic": "Trading",
     "published": "2026-07-05T13:03:00+00:00",
     "crawled": "2026-07-05T14:19:22.600138+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 混合動力車在美國汽車市場中成為新興明星，隨著電動車需求減少而崛起  \n• 混合動力車不再被視為電動車的過渡選擇，而是因功能和價格而受到青睞  \n• 隨著消費者對經濟實惠和實用性的需求增加，混合動力車的銷量上升  \n• 專家指出，混合動力車的成功反映了市場對多樣化選擇的需求變化",
+    "summaries": {
+      "zh-HK": "• 混合動力車在美國汽車市場中成為新興明星，隨著電動車需求減少而崛起  \n• 混合動力車不再被視為電動車的過渡選擇，而是因功能和價格而受到青睞  \n• 隨著消費者對經濟實惠和實用性的需求增加，混合動力車的銷量上升  \n• 專家指出，混合動力車的成功反映了市場對多樣化選擇的需求變化",
+      "en": "Title: Hybrids are the breakout star of the U.S. car market as EV demand fades\nSummary:\n• Hybrids have emerged as the breakout star in the U.S. car market as demand for electric vehicles declines\n• Hybrids are no longer seen as a transitional choice to EVs, but are favored for their functionality and price\n• With consumers increasingly seeking affordability and practicality, hybrid sales are on the rise\n• Experts note that the success of hybrids reflects a shift in market demand for diverse options",
+      "zh-CN": "标题：混合动力车在美国汽车市场中成为新兴明星，随着电动汽车需求减少而崛起\n摘要：\n• 混合动力车在美国汽车市场中成为新兴明星，随着电动汽车需求减少而崛起\n• 混合动力车不再被视为电动汽车的过渡选择，而是因功能和价格而受到青睐\n• 随着消费者对经济实惠和实用性的需求增加，混合动力车的销量上升\n• 专家指出，混合动力车的成功反映了市场对多样化选择的需求变化",
+      "ja": "タイトル：ハイブリッド車が米国自動車市場の新星に、EV需要が減少する中で\n要約：\n• ハイブリッド車は、電気自動車の需要が減少する中で、米国自動車市場の新星として浮上した\n• ハイブリッド車はもはや電気自動車への過渡的な選択肢とは見なされず、機能性と価格から支持されている\n• 消費者が手頃な価格と実用性を求める中で、ハイブリッド車の販売が増加している\n• 専門家は、ハイブリッド車の成功が多様な選択肢への市場の需要の変化を反映していると指摘している",
+      "ko": "제목: 하이브리드 차량이 전기차 수요 감소 속에서 미국 자동차 시장의 신성으로 떠오르다\n요약:\n• 하이브리드 차량이 전기차 수요가 감소함에 따라 미국 자동차 시장의 신성으로 떠올랐다\n• 하이브리드 차량은 더 이상 전기차로의 과도기적 선택으로 여겨지지 않으며, 기능성과 가격으로 인기를 얻고 있다\n• 소비자들이 경제성과 실용성을 더욱 중시함에 따라 하이브리드 차량의 판매가 증가하고 있다\n• 전문가들은 하이브리드 차량의 성공이 다양한 선택에 대한 시장의 수요 변화 반영하고 있다고 지적하고 있다"
+    }
   },
   {
     "url": "https://www.marketwatch.com/story/why-the-stock-markets-red-hot-momentum-trade-might-be-headed-for-a-violent-unwind-this-month-78a45397?mod=mw_rss_topstories",
@@ -6807,8 +6679,15 @@
     "topic": "Finance",
     "published": "2026-07-05T13:00:00+00:00",
     "crawled": "2026-07-05T14:19:22.712395+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 策略師指出，動能交易在七月通常表現不佳，但今年可能特別波動  \n• 市場已經出現動能交易的初步不穩定跡象  \n• 專家預測這種情況可能在本月加劇  \n• 投資者應對市場變化保持警惕以應對潛在風險",
+    "summaries": {
+      "zh-HK": "• 策略師指出，動能交易在七月通常表現不佳，但今年可能特別波動  \n• 市場已經出現動能交易的初步不穩定跡象  \n• 專家預測這種情況可能在本月加劇  \n• 投資者應對市場變化保持警惕以應對潛在風險",
+      "en": "Title: Why the stock market’s red-hot momentum trade might be headed for a violent unwind this month\nSummary:\n• Strategists point out that momentum trading typically performs poorly in July, but this year may be particularly volatile\n• The market has already shown initial signs of instability in momentum trading\n• Experts predict that this situation may intensify this month\n• Investors should remain vigilant to market changes to address potential risks",
+      "zh-CN": "标题：为什么股市的红热动能交易可能在本月面临剧烈回调\n摘要：\n• 策略师指出，动能交易在七月通常表现不佳，但今年可能特别波动\n• 市场已经出现动能交易的初步不稳定迹象\n• 专家预测这种情况可能在本月加剧\n• 投资者应对市场变化保持警惕以应对潜在风险",
+      "ja": "タイトル：株式市場の熱いモメンタム取引が今月暴力的な反転に向かう可能性\n要約：\n• ストラテジストは、モメンタム取引は通常7月にパフォーマンスが悪いが、今年は特にボラティリティが高い可能性があると指摘\n• 市場はすでにモメンタム取引の初期の不安定な兆候を示している\n• 専門家はこの状況が今月さらに悪化する可能性があると予測\n• 投資家は潜在的なリスクに対処するために市場の変化に警戒を怠らないべき",
+      "ko": "제목: 주식시장의 뜨거운 모멘텀 거래가 이번 달 폭력적인 반전으로 이어질 수 있는 이유\n요약:\n• 전략가들은 모멘텀 거래가 일반적으로 7월에 성과가 좋지 않지만, 올해는 특히 변동성이 클 수 있다고 지적\n• 시장은 이미 모멘텀 거래의 초기 불안정 신호를 보이고 있다\n• 전문가들은 이 상황이 이번 달에 더욱 심화될 것으로 예측하고 있다\n• 투자자들은 잠재적 위험에 대응하기 위해 시장 변화에 경계를 유지해야 한다"
+    }
   },
   {
     "url": "https://www.marketwatch.com/story/we-were-stunned-my-daughter-39-said-her-mother-in-law-gives-her-more-money-than-we-do-do-i-call-her-out-b63d087c?mod=mw_rss_topstories",
@@ -6821,8 +6700,15 @@
     "topic": "Finance",
     "published": "2026-07-05T12:48:00+00:00",
     "crawled": "2026-07-05T14:19:22.855562+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 一名39歲的女性表示，她的婆婆給她的金錢支持超過她的父母。  \n• 她的父母在她生日時送了100美元的禮物。  \n• 她的婆婆則在同一時間給了她400美元。  \n• 文章探討了這位母親是否應該與婆婆對話以解決這一情況。",
+    "summaries": {
+      "zh-HK": "• 一名39歲的女性表示，她的婆婆給她的金錢支持超過她的父母。  \n• 她的父母在她生日時送了100美元的禮物。  \n• 她的婆婆則在同一時間給了她400美元。  \n• 文章探討了這位母親是否應該與婆婆對話以解決這一情況。",
+      "en": "Title: ‘We were stunned’: My daughter, 39, said her mother-in-law gives her more money than we do. Should I confront her?\nSummary:\n• A 39-year-old woman stated that her mother-in-law provides her with more financial support than her own parents.\n• Her parents gifted her $100 on her birthday.\n• In contrast, her mother-in-law gave her $400 at the same time.\n• The article explores whether this mother should have a conversation with her mother-in-law to address the situation.",
+      "zh-CN": "标题：“我们感到震惊”：我39岁的女儿说她的婆婆给她的钱比我们多。我应该和她对峙吗？\n摘要：\n• 一名39岁的女性表示，她的婆婆给她的金钱支持超过她的父母。\n• 她的父母在她生日時送了100美元的礼物。\n• 她的婆婆则在同一时间给了她400美元。\n• 文章探讨了这位母亲是否应该与婆婆对话以解决这一情况。",
+      "ja": "タイトル：「私たちは驚いた」：39歳の娘が、義母が私たちよりも多くのお金をくれると言った。私は彼女に対峙すべきか？\n要約：\n• 39歳の女性は、義母が自分の両親よりも多くの金銭的支援をしてくれると述べた。\n• 彼女の両親は彼女の誕生日に100ドルのギフトを贈った。\n• 一方、義母は同じ時期に400ドルを彼女に渡した。\n• 記事は、この母親が義母と話し合うべきかどうかを探っている。",
+      "ko": "제목: ‘우리는 충격을 받았다’: 39세의 딸이 시어머니가 우리보다 더 많은 돈을 준다고 말했다. 내가 그녀에게 맞서야 할까?\n요약:\n• 39세의 여성은 시어머니가 자신의 부모보다 더 많은 금전적 지원을 해준다고 말했다.\n• 그녀의 부모는 그녀의 생일에 100달러의 선물을 주었다.\n• 반면, 시어머니는 같은 시기에 그녀에게 400달러를 주었다.\n• 이 기사는 이 어머니가 시어머니와 대화하여 이 상황을 해결해야 하는지에 대해 탐구하고 있다."
+    }
   },
   {
     "url": "https://www.theverge.com/tech/959604/sourdough-sidekick-review-king-arthur-starter",
@@ -6835,8 +6721,14 @@
     "topic": "Tech",
     "published": "2026-07-05T14:00:00+00:00",
     "crawled": "2026-07-05T14:19:31.703315+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Sourdough Sidekick是一款自動化的酸麵包發酵劑管理設備，由FirstBuild和King Arthur Baking Company共同開發，於2025年3月啟動眾籌，現已在美國以179.99美元的價格發售。  \n• 該設備能根據使用者設定的烘焙時間，自動定期添加麵粉和水，以確保發酵劑在最佳狀態下準備使用。  \n• 使用者需每週至少烘焙一次，才能充分利用該設備，否則可能會因設計缺陷而感到使用不便。  \n• Sourdough Sidekick不適合放入洗碗機清洗，主要功能是簡化酸麵包的發酵過程。",
+    "summaries": {
+      "zh-HK": "• Sourdough Sidekick是一款自動化的酸麵包發酵劑管理設備，由FirstBuild和King Arthur Baking Company共同開發，於2025年3月啟動眾籌，現已在美國以179.99美元的價格發售。  \n• 該設備能根據使用者設定的烘焙時間，自動定期添加麵粉和水，以確保發酵劑在最佳狀態下準備使用。  \n• 使用者需每週至少烘焙一次，才能充分利用該設備，否則可能會因設計缺陷而感到使用不便。  \n• Sourdough Sidekick不適合放入洗碗機清洗，主要功能是簡化酸麵包的發酵過程。",
+      "en": "Title: The Sourdough Sidekick automates the boring bit of baking\nSummary:\n• The Sourdough Sidekick is an automated sourdough starter management device developed by FirstBuild and King Arthur Baking Company, launched for crowdfunding in March 2025, and is now available in the U.S. for $179.99.\n• The device automatically adds flour and water at regular intervals based on the user's set baking time, ensuring the starter is ready for use at its best.\n• Users need to bake at least once a week to fully utilize the device; otherwise, they may find it inconvenient due to design flaws.\n• The Sourdough Sidekick is not dishwasher safe and is primarily designed to simplify the sourdough fermentation process.",
+      "zh-CN": "标题：酸面包助手自动化烘焙中的无聊环节\n摘要：\n• 酸面包助手是一款自动化的酸面包发酵剂管理设备，由FirstBuild和King Arthur Baking Company共同开发，于2025年3月启动众筹，现已在美国以179.99美元的价格发售。\n• 该设备能根据用户设定的烘焙时间，自动定期添加面粉和水，以确保发酵剂在最佳状态下准备使用。\n• 用户需每周至少烘焙一次，才能充分利用该设备，否则可能会因设计缺陷而感到使用不便。\n• 酸面包助手不适合放入洗碗机清洗，主要功能是简化酸面包的发酵过程。",
+      "ja": "タイトル：サワードウサイドキックがベーキングの退屈な部分を自動化\n要約：\n• サワードウサイドキックは、FirstBuildとキングアーサー・ベイキングカンパニーが共同開発した自動化されたサワードウスターター管理デバイスで、2025年3月にクラウドファンディングを開始し、現在アメリカで179.99ドルで販売されています。\n• このデバイスは、ユーザーが設定したベーキング時間に基づいて、定期的に小麦粉と水を自動的に追加し、スターターが最適な状態で使用できるようにします。\n• ユーザーは、デバイスを最大限に活用するために、週に少なくとも一度はベーキングを行う必要があります。そうしないと、設計上の欠陥により不便を感じる可能性があります。\n• サワードウサイドキックは食器洗い機には対応しておらず、主にサワードウの発酵プロセスを"
+    }
   },
   {
     "url": "https://www.theverge.com/podcast/961470/keurig-coffee-k-up-version-history",
@@ -6849,8 +6741,15 @@
     "topic": "Tech",
     "published": "2026-07-05T13:51:56+00:00",
     "crawled": "2026-07-05T14:19:31.996859+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Keurig公司自推出單杯咖啡機以來，改變了人們對咖啡的飲用方式，並使K-Cups在美國的辦公室和家庭中普及。  \n• 然而，Keurig的便利性也帶來了環境問題和對「好咖啡」概念的挑戰。  \n• Keurig在努力應對這些問題的同時，也試圖跟上不斷變化的咖啡文化。  \n• 此文章為第四季第四集的內容，探討Keurig的歷史及其對咖啡文化的影響。",
+    "summaries": {
+      "zh-HK": "• Keurig公司自推出單杯咖啡機以來，改變了人們對咖啡的飲用方式，並使K-Cups在美國的辦公室和家庭中普及。  \n• 然而，Keurig的便利性也帶來了環境問題和對「好咖啡」概念的挑戰。  \n• Keurig在努力應對這些問題的同時，也試圖跟上不斷變化的咖啡文化。  \n• 此文章為第四季第四集的內容，探討Keurig的歷史及其對咖啡文化的影響。",
+      "en": "Title: How Keurig saved — and ruined — your coffee\nSummary:\n• Keurig has changed the way people consume coffee since the launch of its single-serve coffee machines, making K-Cups popular in offices and homes across the United States.\n• However, the convenience of Keurig has also brought environmental issues and challenged the concept of \"good coffee.\"\n• While addressing these issues, Keurig is also trying to keep up with the evolving coffee culture.\n• This article is part of Season 4, Episode 4, exploring the history of Keurig and its impact on coffee culture.",
+      "zh-CN": "标题：Keurig如何拯救——又毁掉——你的咖啡\n摘要：\n• 自Keurig推出单杯咖啡机以来，改变了人们对咖啡的饮用方式，使K-Cups在美国的办公室和家庭中普及。\n• 然而，Keurig的便利性也带来了环境问题和对“好咖啡”概念的挑战。\n• 在努力应对这些问题的同时，Keurig也试图跟上不断变化的咖啡文化。\n• 本文为第四季第四集的内容，探讨Keurig的历史及其对咖啡文化的影响。",
+      "ja": "タイトル：Keurigがあなたのコーヒーを救い、そして台無しにした方法\n要約：\n• Keurigは、単一サーブのコーヒーメーカーを発売以来、人々のコーヒー消費の仕方を変え、K-Cupsをアメリカのオフィスや家庭で普及させました。\n• しかし、Keurigの便利さは環境問題を引き起こし、「良いコーヒー」の概念に挑戦しています。\n• これらの問題に対処しながら、Keurigは進化するコーヒー文化に追いつこうとしています。\n• この記事はシーズン4のエピソード4の内容で、Keurigの歴史とコーヒー文化への影響を探ります。",
+      "ko": "제목: Keurig가 당신의 커피를 어떻게 구하고 망쳤는가\n요약:\n• Keurig는 단일 서브 커피 머신을 출시한 이후 사람들의 커피 소비 방식을 변화시켰으며, K-Cups를 미국의 사무실과 가정에서 대중화했습니다.\n• 그러나 Keurig의 편리함은 환경 문제를 야기하고 \"좋은 커피\" 개념에 도전하고 있습니다.\n• 이러한 문제를 해결하는 동시에 Keurig는 변화하는 커피 문화에 발맞추기 위해 노력하고 있습니다.\n• 이 기"
+    }
   },
   {
     "url": "https://www.theverge.com/tech/960916/vizio-mini-led-quantum-tv-review",
@@ -6863,8 +6762,15 @@
     "topic": "Entertainment",
     "published": "2026-07-05T13:00:00+00:00",
     "crawled": "2026-07-05T14:19:32.295687+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Vizio於2026年推出65吋Mini LED Quantum電視，售價398美元，為市場上最便宜的量子點電視。  \n• 該電視的操作系統功能良好，但用戶不必使用它，仍可通過外部串流設備觀看內容。  \n• Vizio的廣告部門對其利潤至關重要，因此該電視需要Walmart帳戶以使用某些功能，並同意數據收集政策。  \n• 雖然用戶可避開內建操作系統，但仍會被收集HDMI端口的觀看數據。",
+    "summaries": {
+      "zh-HK": "• Vizio於2026年推出65吋Mini LED Quantum電視，售價398美元，為市場上最便宜的量子點電視。  \n• 該電視的操作系統功能良好，但用戶不必使用它，仍可通過外部串流設備觀看內容。  \n• Vizio的廣告部門對其利潤至關重要，因此該電視需要Walmart帳戶以使用某些功能，並同意數據收集政策。  \n• 雖然用戶可避開內建操作系統，但仍會被收集HDMI端口的觀看數據。",
+      "en": "Title: Vizio accidentally made the best dumb TV on the market\nSummary:\n• Vizio launched a 65-inch Mini LED Quantum TV in 2026, priced at $398, making it the cheapest quantum dot TV on the market.\n• The TV's operating system works well, but users are not required to use it and can still watch content through external streaming devices.\n• Vizio's advertising department is crucial to its profits, so the TV requires a Walmart account to access certain features and agreement to data collection policies.\n• Although users can bypass the built-in operating system, viewing data from the HDMI ports will still be collected.",
+      "zh-CN": "标题：Vizio意外地制造了市场上最好的“傻”电视\n摘要：\n• Vizio于2026年推出65英寸Mini LED量子电视，售价398美元，成为市场上最便宜的量子点电视。\n• 该电视的操作系统功能良好，但用户不必使用它，仍可通过外部串流设备观看内容。\n• Vizio的广告部门对其利润至关重要，因此该电视需要Walmart账户以使用某些功能，并同意数据收集政策。\n• 虽然用户可以避开内建操作系统，但HDMI端口的观看数据仍会被收集。",
+      "ja": "タイトル：Vizioが市場で最高の「ダム」テレビを偶然作成\n要約：\n• Vizioは2026年に65インチのMini LED量子テレビを398ドルで発売し、市場で最も安価な量子ドットテレビとなりました。\n• テレビのオペレーティングシステムは正常に機能しますが、ユーザーはそれを使用する必要はなく、外部ストリーミングデバイスを通じてコンテンツを視聴できます。\n• Vizioの広告部門は利益にとって重要であるため、このテレビは特定の機能を使用するためにWalmartアカウントを必要とし、データ収集ポリシーに同意する必要があります。\n• ユーザーは内蔵オペレーティングシステムを回避できますが、HDMIポートからの視聴データは依然として収集されます。",
+      "ko": "제목: Vizio가 우연히 시장에서 최고의 '덤' TV를 만들다\n요약:\n• Vizio는 2026년에 65인치 Mini LED 양자 TV를 398달러에 출시하여 시장에서 가장 저렴한 양자점 TV가 되었습니다.\n• TV의 운영 체제는 잘 작동하지만 사용자가 이를 사용할 필요는 없으며 외부 스트리밍 장치를 통해 콘텐츠를 시청할 수"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNGpKTHAxUnc3bjEyYzczRHhyc2JxYUdEbWlKY3g5MWlVZWJfT3RSRVl5MDJQemVfTHRydm94TUktcTQ1ZjlSOEkyR2Ital9NUUllbVBLcUZEckxPWk40c0dJTXNKQkQxcWlBOEVNZTFtYnA2X3dTNERvZmJNWDRXTVRxRXc2S0JFX3F4cTRvTXZiUjBKRlEzYUh1VkR0UmxGcUpEWFJ4OU1TWko2VVhaM1A5UVY?oc=5",
@@ -6975,8 +6881,15 @@
     "topic": "World",
     "published": "2026-07-05T13:26:00+00:00",
     "crawled": "2026-07-05T14:19:46.831832+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 《Shark Tank》投資者凱文·歐利瑞表示，如果他今天25歲，會追求兩個快速增長的人工智慧機會  \n• 他提到的機會包括自動化和數據分析領域  \n• 歐利瑞強調這些領域的潛力以及對未來職業的影響  \n• 文章發表於近期，探討年輕人如何在AI浪潮中找到成功的途徑",
+    "summaries": {
+      "zh-HK": "• 《Shark Tank》投資者凱文·歐利瑞表示，如果他今天25歲，會追求兩個快速增長的人工智慧機會  \n• 他提到的機會包括自動化和數據分析領域  \n• 歐利瑞強調這些領域的潛力以及對未來職業的影響  \n• 文章發表於近期，探討年輕人如何在AI浪潮中找到成功的途徑",
+      "en": "Title: Shark Tank's Kevin O'Leary says if he were 25 today, he’d chase these two booming opportunities in the world of AI - Fortune\nSummary:\n• Shark Tank investor Kevin O'Leary states that if he were 25 today, he would pursue two rapidly growing opportunities in artificial intelligence.\n• The opportunities he mentioned include automation and data analytics.\n• O'Leary emphasizes the potential of these fields and their impact on future careers.\n• The article was published recently, exploring how young people can find success in the AI wave.",
+      "zh-CN": "标题：《Shark Tank》投资者凯文·欧利瑞表示，如果他今天25岁，会追求这两个快速增长的人工智能机会 - 财富\n摘要：\n• 《Shark Tank》投资者凯文·欧利瑞表示，如果他今天25岁，会追求两个快速增长的人工智能机会。\n• 他提到的机会包括自动化和数据分析领域。\n• 欧利瑞强调这些领域的潜力以及对未来职业的影响。\n• 文章发表于近期，探讨年轻人如何在AI浪潮中找到成功的途径。",
+      "ja": "タイトル: シャークタンクのケビン・オリーリーが、もし今日25歳だったらAIの世界でこの2つの急成長している機会を追求するだろうと語る - フォーチュン\n要約：\n• シャークタンクの投資家ケビン・オリーリーは、もし今日25歳だったら、人工知能の急成長している2つの機会を追求すると述べています。\n• 彼が言及した機会には、自動化とデータ分析の分野が含まれます。\n• オリーリーは、これらの分野の潜在能力と将来のキャリアへの影響を強調しています。\n• この記事は最近発表され、若者がAIの波の中で成功を見つける方法を探っています。",
+      "ko": "제목: 샤크탱크의 케빈 오리어리가 오늘 25세였다면 AI 세계에서 이 두 가지 급성장 기회를 추구할 것이라고 말하다 - 포춘\n요약:\n• 샤크탱크 투자자 케빈 오리어리는 오늘 25세였다면 인공지능 분야에서 두 가지 급성장 기회를 추구할 것이라고 말했습니다.\n• 그가 언급한 기회에는 자동화와 데이터 분석 분야가 포함됩니다.\n• 오리어리는 이러한 분야의 잠재력과 미래 직업에 미치는 영향을 강조했습니다.\n• 이 기사는 최근에 발표되었으며, 젊은이들이 AI의 물결 속에서"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMmNha2hiZGtiTG9XLVM3T3dTUnJic2pkQzVEWGx6bldOTy1ManJxZHpDSHlQNnpMWHFuZHhUTnVSQ0lvNlg3WnEzRHFEamhEbmIxRzlWTjdaRHQ2TFZNQ2hZaXFweks1VzF2Q0tDT2JMaTFzZ3dueHN3QjgwQll2RDBJc2c?oc=5",
