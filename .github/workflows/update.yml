@@ -62,6 +62,7 @@ jobs:
           cp "$GITHUB_WORKSPACE/deploy/og-image.png" . 2>/dev/null || true
           cp "$GITHUB_WORKSPACE/deploy/_headers" . 2>/dev/null || true
           cp "$GITHUB_WORKSPACE/deploy/robots.txt" . 2>/dev/null || echo "User-agent: *" > robots.txt
+          cp "$GITHUB_WORKSPACE/deploy/googlee83982034a72d0e9.html" . 2>/dev/null || true
           cp -r "$GITHUB_WORKSPACE/deploy/articles" . 2>/dev/null || true
           
           git add -A
