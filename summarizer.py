@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 API_URL = "https://models.inference.ai.azure.com/chat/completions"
 MODEL = "gpt-4o-mini"
 MAX_PER_RUN = int(os.environ.get("MAX_ARTICLES_PER_RUN", "30"))
-RATE_LIMIT_DELAY = 0.5  # GitHub Models allows 20k req/min, 0.5s is fine
+RATE_LIMIT_DELAY = 1.0  # GitHub Models allows 20k req/min, but safe at 1s
 
 def get_api_key():
     KEY = ""
@@ -135,11 +135,18 @@ def run():
     if not articles:
         return 0
 
-    # Reset bad summaries (the "(neutralize failed)" ones)
+    # Reset bad summaries — expand detection
     reset_count = 0
     for a in articles:
         s = a.get("ai_summary", "")
-        if s in ("(neutralize failed)", "(no content)") or (s.startswith("[Skipped:") and len(s) < 30):
+        title = a.get("title", "").lower()
+        # Known bad patterns: wrong content, placeholders, too-short
+        bad_patterns = ["(neutralize failed)", "(no content)", "浙江省宣傳部門"]
+        is_bad = any(bad in s for bad in bad_patterns) or (s.startswith("[Skipped:") and len(s) < 30)
+        # Also reset if summary is way too short or doesn't reference article lang
+        if not is_bad and s and len(s) < 30:
+            is_bad = True
+        if is_bad:
             a["summarized"] = False
             a["ai_summary"] = ""
             a["summaries"] = {}

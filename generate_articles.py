@@ -176,12 +176,20 @@ def generate():
         # Clean summary
         summary_clean = summary
         if not summary_clean or summary_clean == "(no content available)":
-            summary_clean = a.get("summary", "")[:300] or "Read the full article for details."
+            # Better fallback: use RSS summary or title-based description
+            fallback = a.get("summary", "").strip()
+            if fallback and len(fallback) > 20:
+                summary_clean = re.sub(r'<[^>]+>', '', fallback)[:300]
+            else:
+                summary_clean = f"Read {title} on {source}"
         
-        # Strip HTML for meta description
+        # Strip HTML & decode HTML entities for meta description
         meta_desc_raw = re.sub(r'<[^>]+>', '', summary_clean).strip()
+        meta_desc_raw = meta_desc_raw.replace('&nbsp;', ' ').replace('&amp;', '&')
+        meta_desc_raw = re.sub(r'\s+', ' ', meta_desc_raw)
         meta_desc = meta_desc_raw[:200].replace("\n", " ").replace('"', "'")
         
+        summary_html = ""
         # Wrap bullets in <li> if they use •
         if "•" in summary_clean:
             lines = []
@@ -193,6 +201,8 @@ def generate():
                     lines.append(f"<li>{stripped}</li>")
             if lines:
                 summary_html = "<ul>\n" + "\n".join(lines) + "\n</ul>"
+        if not summary_html:
+            summary_html = meta_desc_raw[:500].replace("\n", "<br>")
         
         meta_desc = meta_desc[:160]
         

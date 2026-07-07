@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AstroAxis Pure 2.5D - Canvas 2D + HTML</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      background: #000;
+      color: #fff;
+      font-family: Inter, system-ui, sans-serif;
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+    }
+    
+    #container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    
+    #globe-canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+    
+    #markers-layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      pointer-events: none;
+    }
+    
+    .marker {
+      position: absolute;
+      pointer-events: auto;
+      cursor: pointer;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.3s;
+    }
+    
+    .marker-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #00ff88;
+      box-shadow: 0 0 12px currentColor, 0 0 24px currentColor;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.3); opacity: 0.8; }
+    }
+    
+    .marker-label {
+      position: absolute;
+      top: 16px;
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      font-size: 11px;
+      font-weight: 600;
+      color: #fff;
+      text-shadow: 0 0 8px rgba(0,0,0,0.9);
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    
+    .marker:hover .marker-label {
+      opacity: 1;
+    }
+    
+    .marker-tooltip {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(10, 20, 40, 0.95);
+      border: 1px solid rgba(100, 200, 255, 0.5);
+      border-radius: 8px;
+      padding: 12px;
+      min-width: 200px;
+      font-size: 13px;
+      display: none;
+      z-index: 100;
+      backdrop-filter: blur(10px);
+    }
+    
+    .marker:hover .marker-tooltip {
+      display: block;
+    }
+    
+    .tooltip-title {
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    
+    .tooltip-topic {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    
+    .tooltip-desc {
+      font-size: 12px;
+      line-height: 1.5;
+      color: #b0b8d0;
+    }
+    
+    #stats {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background: rgba(10, 15, 30, 0.9);
+      padding: 16px;
+      border-radius: 8px;
+      border: 1px solid rgba(100, 200, 255, 0.3);
+      font-size: 12px;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <canvas id="globe-canvas"></canvas>
+    <div id="markers-layer"></div>
+  </div>
+  
+  <div id="stats">
+    <div style="color: #64c8ff; font-weight: 700; margin-bottom: 8px;">Pure 2.5D Globe</div>
+    <div>Markers: <span id="marker-count">0</span></div>
+    <div>FPS: <span id="fps">60</span></div>
+    <div style="margin-top: 8px; color: #8892b6; font-size: 11px;">
+      Drag to rotate<br>
+      Scroll to zoom
+    </div>
+  </div>
+
+  <script>
+    const canvas = document.getElementById('globe-canvas');
+    const ctx = canvas.getContext('2d');
+    const markersLayer = document.getElementById('markers-layer');
+    
+    // Resize canvas
+    function resize() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+    resize();
+    window.addEventListener('resize', resize);
+    
+    // Globe parameters
+    const globe = {
+      centerX: 0,
+      centerY: 0,
+      radius: 300,
+      rotationY: 0, // Y-axis rotation (horizontal)
+      rotationX: 0.3, // X-axis rotation (vertical tilt)
+      zoom: 1
+    };
+    
+    // Marker data (sample cities)
+    const markers = [
+      { lat: 40.7128, lon: -74.0060, label: 'New York', topic: 'Finance', desc: 'Wall Street financial district', count: 15 },
+      { lat: 51.5074, lon: -0.1278, label: 'London', topic: 'Politics', desc: 'UK Parliament, Brexit negotiations', count: 12 },
+      { lat: 35.6762, lon: 139.6503, label: 'Tokyo', topic: 'Tech', desc: 'AI and robotics innovation hub', count: 18 },
+      { lat: 37.7749, lon: -122.4194, label: 'San Francisco', topic: 'Tech', desc: 'Silicon Valley tech giants', count: 22 },
+      { lat: 48.8566, lon: 2.3522, label: 'Paris', topic: 'Climate', desc: 'Paris Agreement headquarters', count: 8 },
+      { lat: -33.8688, lon: 151.2093, label: 'Sydney', topic: 'Finance', desc: 'Asia-Pacific financial center', count: 10 },
+      { lat: 55.7558, lon: 37.6173, label: 'Moscow', topic: 'Politics', desc: 'Geopolitical tensions, energy markets', count: 14 },
+      { lat: 22.3193, lon: 114.1694, label: 'Hong Kong', topic: 'Finance', desc: 'International financial hub', count: 16 },
+      { lat: 1.3521, lon: 103.8198, label: 'Singapore', topic: 'Finance', desc: 'Southeast Asian financial center', count: 11 },
+      { lat: 39.9042, lon: 116.4074, label: 'Beijing', topic: 'Politics', desc: 'Central government policy center', count: 20 },
+      { lat: 31.2304, lon: 121.4737, label: 'Shanghai', topic: 'Finance', desc: 'China financial center, stock market', count: 17 },
+      { lat: 37.5665, lon: 126.9780, label: 'Seoul', topic: 'Tech', desc: 'Semiconductor industry hub', count: 14 },
+      { lat: 28.6139, lon: 77.2090, label: 'New Delhi', topic: 'Tech', desc: 'IT services and startup ecosystem', count: 13 },
+      { lat: 19.4326, lon: -99.1332, label: 'Mexico City', topic: 'Politics', desc: 'Latin American political center', count: 7 },
+      { lat: -23.5505, lon: -46.6333, label: 'São Paulo', topic: 'Finance', desc: 'South America economic center', count: 9 }
+    ];
+    
+    const topicColors = {
+      'Finance': '#00ff88',
+      'Politics': '#ff6b6b',
+      'Tech': '#4ecdc4',
+      'Climate': '#ffe66d'
+    };
+    
+    // Convert lat/lon to 3D coordinates
+    function latLonTo3D(lat, lon, radius) {
+      const phi = (90 - lat) * Math.PI / 180;
+      const theta = (lon + 180) * Math.PI / 180;
+      
+      return {
+        x: -radius * Math.sin(phi) * Math.cos(theta),
+        y: radius * Math.cos(phi),
+        z: radius * Math.sin(phi) * Math.sin(theta)
+      };
+    }
+    
+    // Rotate 3D point around Y-axis
+    function rotateY(point, angle) {
+      const cos = Math.cos(angle);
+      const sin = Math.sin(angle);
+      return {
+        x: point.x * cos + point.z * sin,
+        y: point.y,
+        z: -point.x * sin + point.z * cos
+      };
+    }
+    
+    // Rotate 3D point around X-axis
+    function rotateX(point, angle) {
+      const cos = Math.cos(angle);
+      const sin = Math.sin(angle);
+      return {
+        x: point.x,
+        y: point.y * cos - point.z * sin,
+        z: point.y * sin + point.z * cos
+      };
+    }
+    
+    // Project 3D point to 2D screen coordinates
+    function project3DTo2D(point) {
+      const scale = globe.zoom * globe.radius / (globe.radius + point.z);
+      return {
+        x: globe.centerX + point.x * scale,
+        y: globe.centerY - point.y * scale,
+        visible: point.z > -globe.radius * 0.2, // Hide markers on back side
+        scale: scale
+      };
+    }
+    
+    // Draw globe sphere
+    function drawGlobe() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      
+      // Update center
+      globe.centerX = canvas.width / 2;
+      globe.centerY = canvas.height / 2;
+      
+      // Draw atmosphere glow
+      const glowGradient = ctx.createRadialGradient(
+        globe.centerX, globe.centerY, globe.radius * globe.zoom * 0.9,
+        globe.centerX, globe.centerY, globe.radius * globe.zoom * 1.2
+      );
+      glowGradient.addColorStop(0, 'rgba(100, 200, 255, 0.15)');
+      glowGradient.addColorStop(1, 'rgba(100, 200, 255, 0)');
+      
+      ctx.fillStyle = glowGradient;
+      ctx.beginPath();
+      ctx.arc(globe.centerX, globe.centerY, globe.radius * globe.zoom * 1.2, 0, Math.PI * 2);
+      ctx.fill();
+      
+      // Draw globe body
+      const globeGradient = ctx.createRadialGradient(
+        globe.centerX - globe.radius * 0.3,
+        globe.centerY - globe.radius * 0.3,
+        0,
+        globe.centerX,
+        globe.centerY,
+        globe.radius * globe.zoom
+      );
+      globeGradient.addColorStop(0, 'rgba(30, 50, 80, 1)');
+      globeGradient.addColorStop(0.7, 'rgba(15, 30, 60, 1)');
+      globeGradient.addColorStop(1, 'rgba(5, 15, 30, 1)');
+      
+      ctx.fillStyle = globeGradient;
+      ctx.beginPath();
+      ctx.arc(globe.centerX, globe.centerY, globe.radius * globe.zoom, 0, Math.PI * 2);
+      ctx.fill();
+      
+      // Draw grid lines (simplified)
+      ctx.strokeStyle = 'rgba(100, 200, 255, 0.1)';
+      ctx.lineWidth = 1;
+      
+      // Latitude lines
+      for (let lat = -80; lat <= 80; lat += 20) {
+        ctx.beginPath();
+        let started = false;
+        for (let lon = -180; lon <= 180; lon += 5) {
+          const point3D = latLonTo3D(lat, lon, globe.radius);
+          let rotated = rotateY(point3D, globe.rotationY);
+          rotated = rotateX(rotated, globe.rotationX);
+          const projected = project3DTo2D(rotated);
+          
+          if (projected.visible) {
+            if (!started) {
+              ctx.moveTo(projected.x, projected.y);
+              started = true;
+            } else {
+              ctx.lineTo(projected.x, projected.y);
+            }
+          }
+        }
+        ctx.stroke();
+      }
+      
+      // Longitude lines
+      for (let lon = -180; lon < 180; lon += 30) {
+        ctx.beginPath();
+        let started = false;
+        for (let lat = -90; lat <= 90; lat += 5) {
+          const point3D = latLonTo3D(lat, lon, globe.radius);
+          let rotated = rotateY(point3D, globe.rotationY);
+          rotated = rotateX(rotated, globe.rotationX);
+          const projected = project3DTo2D(rotated);
+          
+          if (projected.visible) {
+            if (!started) {
+              ctx.moveTo(projected.x, projected.y);
+              started = true;
+            } else {
+              ctx.lineTo(projected.x, projected.y);
+            }
+          }
+        }
+        ctx.stroke();
+      }
+      
+      // Draw edge highlight
+      const edgeGradient = ctx.createRadialGradient(
+        globe.centerX, globe.centerY, globe.radius * globe.zoom * 0.95,
+        globe.centerX, globe.centerY, globe.radius * globe.zoom
+      );
+      edgeGradient.addColorStop(0, 'rgba(100, 200, 255, 0)');
+      edgeGradient.addColorStop(1, 'rgba(100, 200, 255, 0.4)');
+      
+      ctx.strokeStyle = edgeGradient;
+      ctx.lineWidth = 3;
+      ctx.beginPath();
+      ctx.arc(globe.centerX, globe.centerY, globe.radius * globe.zoom, 0, Math.PI * 2);
+      ctx.stroke();
+    }
+    
+    // Create HTML markers
+    function createMarkers() {
+      markers.forEach((marker, idx) => {
+        const element = document.createElement('div');
+        element.className = 'marker';
+        element.dataset.index = idx;
+        
+        const color = topicColors[marker.topic];
+        element.innerHTML = `
+          <div class="marker-dot" style="background: ${color}; color: ${color};"></div>
+          <div class="marker-label">${marker.label}</div>
+          <div class="marker-tooltip">
+            <div class="tooltip-title">${marker.label}</div>
+            <div class="tooltip-topic" style="background: ${color}20; color: ${color};">${marker.topic}</div>
+            <div class="tooltip-desc">${marker.desc}</div>
+            <div style="margin-top: 8px; font-size: 11px; color: #64c8ff;">${marker.count} articles</div>
+          </div>
+        `;
+        
+        element.addEventListener('click', () => {
+          console.log('Marker clicked:', marker);
+          alert(`📍 ${marker.label}\n${marker.topic}\n${marker.desc}\n${marker.count} articles`);
+        });
+        
+        markersLayer.appendChild(element);
+      });
+    }
+    
+    // Update marker positions
+    function updateMarkers() {
+      let visibleCount = 0;
+      
+      markers.forEach((marker, idx) => {
+        const element = markersLayer.children[idx];
+        
+        // Convert lat/lon to 3D
+        const point3D = latLonTo3D(marker.lat, marker.lon, globe.radius * 1.02);
+        
+        // Apply rotation
+        let rotated = rotateY(point3D, globe.rotationY);
+        rotated = rotateX(rotated, globe.rotationX);
+        
+        // Project to 2D
+        const projected = project3DTo2D(rotated);
+        
+        if (projected.visible) {
+          visibleCount++;
+          element.style.left = projected.x + 'px';
+          element.style.top = projected.y + 'px';
+          element.style.opacity = '1';
+          
+          // Scale based on distance
+          const scale = projected.scale;
+          element.style.transform = `translate(-50%, -50%) scale(${scale})`;
+        } else {
+          element.style.opacity = '0';
+        }
+      });
+      
+      document.getElementById('marker-count').textContent = visibleCount;
+    }
+    
+    // Mouse interaction
+    let isDragging = false;
+    let lastMouse = { x: 0, y: 0 };
+    let velocityY = 0;
+    let velocityX = 0;
+    
+    canvas.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      lastMouse = { x: e.clientX, y: e.clientY };
+      velocityY = 0;
+      velocityX = 0;
+    });
+    
+    canvas.addEventListener('mousemove', (e) => {
+      if (isDragging) {
+        const deltaX = e.clientX - lastMouse.x;
+        const deltaY = e.clientY - lastMouse.y;
+        
+        globe.rotationY += deltaX * 0.005;
+        globe.rotationX += deltaY * 0.005;
+        
+        // Clamp X rotation
+        globe.rotationX = Math.max(-Math.PI / 2, Math.min(Math.PI / 2, globe.rotationX));
+        
+        velocityY = deltaX * 0.005;
+        velocityX = deltaY * 0.005;
+        
+        lastMouse = { x: e.clientX, y: e.clientY };
+      }
+    });
+    
+    canvas.addEventListener('mouseup', () => {
+      isDragging = false;
+    });
+    
+    canvas.addEventListener('mouseleave', () => {
+      isDragging = false;
+    });
+    
+    // Zoom with scroll
+    canvas.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      globe.zoom -= e.deltaY * 0.001;
+      globe.zoom = Math.max(0.5, Math.min(2, globe.zoom));
+    });
+    
+    // Animation loop
+    let lastTime = performance.now();
+    let frameCount = 0;
+    let fps = 60;
+    
+    function animate(currentTime) {
+      // Calculate FPS
+      frameCount++;
+      if (currentTime - lastTime >= 1000) {
+        fps = frameCount;
+        frameCount = 0;
+        lastTime = currentTime;
+        document.getElementById('fps').textContent = fps;
+      }
+      
+      // Apply inertia
+      if (!isDragging) {
+        globe.rotationY += velocityY;
+        globe.rotationX += velocityX;
+        velocityY *= 0.95; // Friction
+        velocityX *= 0.95;
+        
+        // Auto-rotate when idle
+        if (Math.abs(velocityY) < 0.001) {
+          globe.rotationY += 0.002;
+        }
+      }
+      
+      // Clamp X rotation
+      globe.rotationX = Math.max(-Math.PI / 2, Math.min(Math.PI / 2, globe.rotationX));
+      
+      // Draw
+      drawGlobe();
+      updateMarkers();
+      
+      requestAnimationFrame(animate);
+    }
+    
+    // Initialize
+    createMarkers();
+    animate(performance.now());
+  </script>
+</body>
+</html>

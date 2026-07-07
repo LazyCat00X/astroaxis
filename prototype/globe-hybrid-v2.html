@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AstroAxis 2.5D Hybrid Globe v2</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      background: radial-gradient(ellipse at center, #0a0e27 0%, #000000 100%);
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      overflow: hidden;
+      height: 100vh;
+    }
+    
+    #globe-canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    
+    #markers-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      pointer-events: none;
+    }
+    
+    /* Marker Styles */
+    .marker {
+      position: absolute;
+      pointer-events: auto;
+      cursor: pointer;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.3s;
+    }
+    
+    .marker-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      position: relative;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    
+    @keyframes pulse {
+      0%, 100% { 
+        box-shadow: 0 0 10px currentColor, 0 0 20px currentColor;
+        transform: scale(1);
+      }
+      50% { 
+        box-shadow: 0 0 20px currentColor, 0 0 40px currentColor;
+        transform: scale(1.2);
+      }
+    }
+    
+    .marker-pulse-ring {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 2px solid currentColor;
+      transform: translate(-50%, -50%);
+      animation: pulse-ring 2s ease-out infinite;
+      opacity: 0;
+    }
+    
+    @keyframes pulse-ring {
+      0% { 
+        width: 12px;
+        height: 12px;
+        opacity: 1;
+      }
+      100% { 
+        width: 60px;
+        height: 60px;
+        opacity: 0;
+      }
+    }
+    
+    .marker-label {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      font-size: 11px;
+      font-weight: 600;
+      background: rgba(0, 0, 0, 0.85);
+      padding: 4px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(100, 200, 255, 0.3);
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    
+    .marker:hover .marker-label {
+      opacity: 1;
+    }
+    
+    .marker-tooltip {
+      position: absolute;
+      bottom: 35px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(10, 20, 40, 0.95);
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid rgba(100, 200, 255, 0.5);
+      font-size: 13px;
+      min-width: 220px;
+      display: none;
+      z-index: 100;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+    
+    .marker:hover .marker-tooltip {
+      display: block;
+    }
+    
+    .tooltip-title {
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+    
+    .tooltip-topic {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 3px;
+      font-size: 11px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    
+    .tooltip-desc {
+      font-size: 12px;
+      line-height: 1.5;
+      color: #b0b8d0;
+    }
+    
+    /* Control Panel */
+    .control-panel {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background: rgba(10, 15, 30, 0.95);
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid rgba(100, 200, 255, 0.3);
+      z-index: 10;
+      min-width: 280px;
+      backdrop-filter: blur(10px);
+    }
+    
+    .panel-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #64c8ff;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .panel-section {
+      margin-bottom: 16px;
+    }
+    
+    .section-title {
+      font-size: 12px;
+      font-weight: 600;
+      color: #8892b6;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+    }
+    
+    .filter-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    
+    .filter-btn {
+      padding: 6px 12px;
+      border-radius: 6px;
+      border: 1px solid rgba(100, 200, 255, 0.3);
+      background: rgba(100, 200, 255, 0.1);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .filter-btn:hover {
+      background: rgba(100, 200, 255, 0.2);
+      border-color: rgba(100, 200, 255, 0.5);
+    }
+    
+    .filter-btn.active {
+      background: rgba(100, 200, 255, 0.3);
+      border-color: #64c8ff;
+    }
+    
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+    
+    .stat-item {
+      background: rgba(100, 200, 255, 0.05);
+      padding: 8px;
+      border-radius: 6px;
+      border: 1px solid rgba(100, 200, 255, 0.1);
+    }
+    
+    .stat-value {
+      font-size: 20px;
+      font-weight: 700;
+      color: #64c8ff;
+    }
+    
+    .stat-label {
+      font-size: 10px;
+      color: #8892b6;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    
+    .instructions {
+      font-size: 11px;
+      color: #8892b6;
+      line-height: 1.6;
+    }
+    
+    .instructions li {
+      margin-bottom: 4px;
+    }
+    
+    /* Timeline Slider */
+    .timeline-slider {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(10, 15, 30, 0.95);
+      padding: 16px 24px;
+      border-radius: 12px;
+      border: 1px solid rgba(100, 200, 255, 0.3);
+      z-index: 10;
+      min-width: 400px;
+      backdrop-filter: blur(10px);
+    }
+    
+    .slider-label {
+      font-size: 12px;
+      color: #8892b6;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .slider-input {
+      width: 100%;
+      height: 6px;
+      border-radius: 3px;
+      background: rgba(100, 200, 255, 0.1);
+      outline: none;
+      -webkit-appearance: none;
+    }
+    
+    .slider-input::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #64c8ff;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(100, 200, 255, 0.5);
+    }
+    
+    .slider-input::-moz-range-thumb {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #64c8ff;
+      cursor: pointer;
+      border: none;
+      box-shadow: 0 0 10px rgba(100, 200, 255, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <canvas id="globe-canvas"></canvas>
+  <div id="markers-container"></div>
+  
+  <div class="control-panel">
+    <div class="panel-title">
+      🌐 AstroAxis 2.5D
+    </div>
+    
+    <div class="panel-section">
+      <div class="section-title">Filter by Topic</div>
+      <div class="filter-buttons" id="filter-buttons">
+        <button class="filter-btn active" data-topic="all">All</button>
+        <button class="filter-btn" data-topic="Finance">💰 Finance</button>
+        <button class="filter-btn" data-topic="Politics">🏛️ Politics</button>
+        <button class="filter-btn" data-topic="Tech">💻 Tech</button>
+        <button class="filter-btn" data-topic="Climate">🌍 Climate</button>
+      </div>
+    </div>
+    
+    <div class="panel-section">
+      <div class="section-title">Statistics</div>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-value" id="stat-total">0</div>
+          <div class="stat-label">Total</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value" id="stat-visible">0</div>
+          <div class="stat-label">Visible</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value" id="stat-finance">0</div>
+          <div class="stat-label">Finance</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value" id="stat-tech">0</div>
+          <div class="stat-label">Tech</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="panel-section">
+      <div class="section-title">Controls</div>
+      <ul class="instructions">
+        <li>🖱️ Drag to rotate</li>
+        <li>🔍 Scroll to zoom</li>
+        <li>👆 Hover markers for details</li>
+        <li>🎯 Click markers for news</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="timeline-slider">
+    <div class="slider-label">
+      <span>Time Range</span>
+      <span id="time-display">Last 24 Hours</span>
+    </div>
+    <input type="range" class="slider-input" id="time-slider" min="1" max="7" value="1" step="1">
+  </div>
+
+  <script>
+    const canvas = document.getElementById('globe-canvas');
+    const ctx = canvas.getContext('2d');
+    const markersContainer = document.getElementById('markers-container');
+    
+    // Canvas setup
+    function resize() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+    resize();
+    window.addEventListener('resize', resize);
+    
+    // Globe parameters
+    const globe = {
+      x: canvas.width / 2,
+      y: canvas.height / 2,
+      radius: 300,
+      rotationY: 0,
+      rotationX: 0.3,
+      zoom: 1,
+      velocityY: 0,
+      velocityX: 0,
+      friction: 0.95
+    };
+    
+    // News markers data
+    const markers = [
+      { lat: 40.7128, lon: -74.0060, label: 'New York', topic: 'Finance', desc: 'Wall Street financial district, major stock exchanges', count: 15 },
+      { lat: 51.5074, lon: -0.1278, label: 'London', topic: 'Politics', desc: 'UK Parliament, Brexit negotiations ongoing', count: 12 },
+      { lat: 35.6762, lon: 139.6503, label: 'Tokyo', topic: 'Tech', desc: 'Silicon Valley of Japan, AI and robotics hub', count: 18 },
+      { lat: 37.7749, lon: -122.4194, label: 'San Francisco', topic: 'Tech', desc: 'Silicon Valley headquarters, major tech companies', count: 22 },
+      { lat: 48.8566, lon: 2.3522, label: 'Paris', topic: 'Climate', desc: 'Paris Agreement headquarters, climate summit', count: 8 },
+      { lat: -33.8688, lon: 151.2093, label: 'Sydney', topic: 'Finance', desc: 'Asia-Pacific financial center, mining sector', count: 10 },
+      { lat: 55.7558, lon: 37.6173, label: 'Moscow', topic: 'Politics', desc: 'Geopolitical tensions, energy markets impact', count: 14 },
+      { lat: 22.3193, lon: 114.1694, label: 'Hong Kong', topic: 'Finance', desc: 'International financial hub, crypto trading', count: 16 },
+      { lat: 1.3521, lon: 103.8198, label: 'Singapore', topic: 'Finance', desc: 'Southeast Asian financial center, fintech hub', count: 11 },
+      { lat: 19.4326, lon: -99.1332, label: 'Mexico City', topic: 'Politics', desc: 'Latin American politics, trade agreements', count: 7 },
+      { lat: -23.5505, lon: -46.6333, label: 'São Paulo', topic: 'Finance', desc: 'South America economic center, commodities', count: 9 },
+      { lat: 28.6139, lon: 77.2090, label: 'New Delhi', topic: 'Tech', desc: 'IT services hub, startup ecosystem', count: 13 },
+      { lat: 39.9042, lon: 116.4074, label: 'Beijing', topic: 'Politics', desc: 'Central government, policy announcements', count: 20 },
+      { lat: 31.2304, lon: 121.4737, label: 'Shanghai', topic: 'Finance', desc: 'China financial center, stock market', count: 17 },
+      { lat: 37.5665, lon: 126.9780, label: 'Seoul', topic: 'Tech', desc: 'Electronics manufacturing, semiconductor industry', count: 14 }
+    ];
+    
+    const topicColors = {
+      'Finance': '#00ff88',
+      'Politics': '#ff6b6b',
+      'Tech': '#4ecdc4',
+      'Climate': '#ffe66d'
+    };
+    
+    // Filter state
+    let activeFilter = 'all';
+    
+    // Pre-render markers
+    const markerElements = [];
+    markers.forEach((marker, idx) => {
+      const markerEl = document.createElement('div');
+      markerEl.className = 'marker';
+      markerEl.dataset.index = idx;
+      
+      const color = topicColors[marker.topic];
+      markerEl.innerHTML = `
+        <div class="marker-dot" style="background: ${color}; color: ${color};">
+          <div class="marker-pulse-ring"></div>
+        </div>
+        <div class="marker-label">${marker.label}</div>
+        <div class="marker-tooltip">
+          <div class="tooltip-title">${marker.label}</div>
+          <div class="tooltip-topic" style="background: ${color}20; color: ${color};">${marker.topic}</div>
+          <div class="tooltip-desc">${marker.desc}</div>
+          <div style="margin-top: 8px; font-size: 11px; color: #64c8ff;">${marker.count} articles</div>
+        </div>
+      `;
+      
+      markerEl.addEventListener('click', () => {
+        console.log('Marker clicked:', marker);
+        // TODO: Open news feed for this location
+      });
+      
+      markersContainer.appendChild(markerEl);
+      markerElements.push(markerEl);
+    });
+    
+    // Coordinate transformations
+    function latLonTo3D(lat, lon, radius) {
+      const phi = (90 - lat) * Math.PI / 180;
+      const theta = (lon + 180) * Math.PI / 180;
+      return {
+        x: -radius * Math.sin(phi) * Math.cos(theta),
+        y: radius * Math.cos(phi),
+        z: radius * Math.sin(phi) * Math.sin(theta)
+      };
+    }
+    
+    function rotate3D(point, rotY, rotX) {
+      let x = point.x * Math.cos(rotY) - point.z * Math.sin(rotY);
+      let z = point.x * Math.sin(rotY) + point.z * Math.cos(rotY);
+      let y = point.y;
+      
+      const y2 = y * Math.cos(rotX) - z * Math.sin(rotX);
+      const z2 = y * Math.sin(rotX) + z * Math.cos(rotX);
+      
+      return { x, y: y2, z: z2 };
+    }
+    
+    function project(point3D) {
+      const scale = globe.zoom * globe.radius / (globe.radius + point3D.z);
+      return {
+        x: globe.x + point3D.x * scale,
+        y: globe.y - point3D.y * scale,
+        scale: scale,
+        visible: point3D.z > -globe.radius * 0.3
+      };
+    }
+    
+    // Draw globe
+    function drawGlobe() {
+      ctx.fillStyle = '#000010';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      
+      // Atmosphere glow
+      const atmosphereGradient = ctx.createRadialGradient(
+        globe.x, globe.y, globe.radius * globe.zoom * 0.9,
+        globe.x, globe.y, globe.radius * globe.zoom * 1.2
+      );
+      atmosphereGradient.addColorStop(0, 'rgba(100, 200, 255, 0.1)');
+      atmosphereGradient.addColorStop(1, 'rgba(100, 200, 255, 0)');
+      
+      ctx.beginPath();
+      ctx.arc(globe.x, globe.y, globe.radius * globe.zoom * 1.2, 0, Math.PI * 2);
+      ctx.fillStyle = atmosphereGradient;
+      ctx.fill();
+      
+      // Globe body
+      const gradient = ctx.createRadialGradient(
+        globe.x - globe.radius * 0.3,
+        globe.y - globe.radius * 0.3,
+        0,
+        globe.x,
+        globe.y,
+        globe.radius * globe.zoom
+      );
+      gradient.addColorStop(0, 'rgba(30, 50, 80, 1)');
+      gradient.addColorStop(0.7, 'rgba(15, 30, 60, 1)');
+      gradient.addColorStop(1, 'rgba(5, 15, 30, 1)');
+      
+      ctx.beginPath();
+      ctx.arc(globe.x, globe.y, globe.radius * globe.zoom, 0, Math.PI * 2);
+      ctx.fillStyle = gradient;
+      ctx.fill();
+      
+      // Grid lines
+      ctx.strokeStyle = 'rgba(100, 200, 255, 0.15)';
+      ctx.lineWidth = 1;
+      
+      // Latitude lines
+      for (let lat = -80; lat <= 80; lat += 20) {
+        ctx.beginPath();
+        for (let lon = -180; lon <= 180; lon += 5) {
+          const point3D = latLonTo3D(lat, lon, globe.radius);
+          const rotated = rotate3D(point3D, globe.rotationY, globe.rotationX);
+          const projected = project(rotated);
+          
+          if (projected.visible) {
+            if (lon === -180) ctx.moveTo(projected.x, projected.y);
+            else ctx.lineTo(projected.x, projected.y);
+          }
+        }
+        ctx.stroke();
+      }
+      
+      // Longitude lines
+      for (let lon = -180; lon < 180; lon += 30) {
+        ctx.beginPath();
+        for (let lat = -90; lat <= 90; lat += 5) {
+          const point3D = latLonTo3D(lat, lon, globe.radius);
+          const rotated = rotate3D(point3D, globe.rotationY, globe.rotationX);
+          const projected = project(rotated);
+          
+          if (projected.visible) {
+            if (lat === -90) ctx.moveTo(projected.x, projected.y);
+            else ctx.lineTo(projected.x, projected.y);
+          }
+        }
+        ctx.stroke();
+      }
+      
+      // Edge glow
+      const edgeGradient = ctx.createRadialGradient(
+        globe.x, globe.y, globe.radius * globe.zoom * 0.95,
+        globe.x, globe.y, globe.radius * globe.zoom
+      );
+      edgeGradient.addColorStop(0, 'rgba(100, 200, 255, 0)');
+      edgeGradient.addColorStop(1, 'rgba(100, 200, 255, 0.4)');
+      
+      ctx.beginPath();
+      ctx.arc(globe.x, globe.y, globe.radius * globe.zoom, 0, Math.PI * 2);
+      ctx.strokeStyle = edgeGradient;
+      ctx.lineWidth = 4;
+      ctx.stroke();
+    }
+    
+    // Update markers
+    function updateMarkers() {
+      let visibleCount = 0;
+      const topicCounts = { Finance: 0, Politics: 0, Tech: 0, Climate: 0 };
+      
+      markers.forEach((marker, idx) => {
+        const markerEl = markerElements[idx];
+        const point3D = latLonTo3D(marker.lat, marker.lon, globe.radius);
+        const rotated = rotate3D(point3D, globe.rotationY, globe.rotationX);
+        const projected = project(rotated);
+        
+        const matchesFilter = activeFilter === 'all' || marker.topic === activeFilter;
+        
+        if (projected.visible && matchesFilter) {
+          visibleCount++;
+          topicCounts[marker.topic]++;
+          
+          markerEl.style.left = `${projected.x}px`;
+          markerEl.style.top = `${projected.y}px`;
+          markerEl.style.display = 'block';
+          markerEl.style.opacity = '1';
+          
+          // Scale based on article count
+          const scale = 0.8 + (marker.count / 25) * 0.4;
+          markerEl.style.transform = `translate(-50%, -50%) scale(${scale})`;
+        } else {
+          markerEl.style.display = 'none';
+        }
+      });
+      
+      // Update stats
+      document.getElementById('stat-total').textContent = markers.length;
+      document.getElementById('stat-visible').textContent = visibleCount;
+      document.getElementById('stat-finance').textContent = topicCounts.Finance;
+      document.getElementById('stat-tech').textContent = topicCounts.Tech;
+    }
+    
+    // Animation loop
+    function animate() {
+      globe.x = canvas.width / 2;
+      globe.y = canvas.height / 2;
+      
+      // Apply inertia
+      if (!isDragging) {
+        globe.rotationY += globe.velocityY;
+        globe.rotationX += globe.velocityX;
+        globe.velocityY *= globe.friction;
+        globe.velocityX *= globe.friction;
+        
+        // Auto-rotate if velocity is very low
+        if (Math.abs(globe.velocityY) < 0.001) {
+          globe.rotationY += 0.002;
+        }
+      }
+      
+      // Clamp X rotation
+      globe.rotationX = Math.max(-Math.PI / 2, Math.min(Math.PI / 2, globe.rotationX));
+      
+      drawGlobe();
+      updateMarkers();
+      
+      requestAnimationFrame(animate);
+    }
+    
+    // Mouse interaction
+    let isDragging = false;
+    let lastMouse = { x: 0, y: 0 };
+    let lastMoveTime = 0;
+    
+    canvas.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      lastMouse = { x: e.clientX, y: e.clientY };
+      lastMoveTime = Date.now();
+      globe.velocityY = 0;
+      globe.velocityX = 0;
+    });
+    
+    canvas.addEventListener('mousemove', (e) => {
+      if (isDragging) {
+        const deltaX = e.clientX - lastMouse.x;
+        const deltaY = e.clientY - lastMouse.y;
+        const deltaTime = Date.now() - lastMoveTime;
+        
+        globe.rotationY += deltaX * 0.005;
+        globe.rotationX += deltaY * 0.005;
+        
+        // Track velocity for inertia
+        if (deltaTime > 0) {
+          globe.velocityY = deltaX * 0.005 / deltaTime * 16;
+          globe.velocityX = deltaY * 0.005 / deltaTime * 16;
+        }
+        
+        lastMouse = { x: e.clientX, y: e.clientY };
+        lastMoveTime = Date.now();
+      }
+    });
+    
+    canvas.addEventListener('mouseup', () => {
+      isDragging = false;
+    });
+    
+    canvas.addEventListener('mouseleave', () => {
+      isDragging = false;
+    });
+    
+    // Zoom
+    canvas.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      globe.zoom -= e.deltaY * 0.001;
+      globe.zoom = Math.max(0.5, Math.min(2, globe.zoom));
+    });
+    
+    // Filter buttons
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeFilter = btn.dataset.topic;
+      });
+    });
+    
+    // Timeline slider
+    const timeSlider = document.getElementById('time-slider');
+    const timeDisplay = document.getElementById('time-display');
+    const timeLabels = ['Last 24 Hours', 'Last 3 Days', 'Last Week', 'Last 2 Weeks', 'Last Month', 'Last 3 Months', 'All Time'];
+    
+    timeSlider.addEventListener('input', () => {
+      timeDisplay.textContent = timeLabels[timeSlider.value - 1];
+    });
+    
+    // Start
+    animate();
+  </script>
+</body>
+</html>

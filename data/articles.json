@@ -248,8 +248,14 @@
     "topic": "General",
     "published": "2026-07-05T10:31:38+00:00",
     "crawled": "2026-07-05T10:40:57.421005+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 伊朗新最高領袖莫赫塔巴·哈梅內伊在其父親去世後尚未公開露面，但大使表示他健康良好  \n• 哈梅內伊對中國的關係持“積極”看法，與已故父親的觀點一致  \n• 伊朗大使在北京的安全論壇上指出，伊朗將對使用其港口的船隻收取“服務費”，但中國可能會獲得“特殊”待遇  \n• 哈梅內伊於2月28日接任最高領袖，因美以聯軍空襲導致其父阿亞圖拉·阿里·哈梅內伊遇難，並在3月被任命為繼任者",
+    "summaries": {
+      "zh-HK": "• 伊朗新最高領袖莫赫塔巴·哈梅內伊在其父親去世後尚未公開露面，但大使表示他健康良好  \n• 哈梅內伊對中國的關係持“積極”看法，與已故父親的觀點一致  \n• 伊朗大使在北京的安全論壇上指出，伊朗將對使用其港口的船隻收取“服務費”，但中國可能會獲得“特殊”待遇  \n• 哈梅內伊於2月28日接任最高領袖，因美以聯軍空襲導致其父阿亞圖拉·阿里·哈梅內伊遇難，並在3月被任命為繼任者",
+      "en": "Title: Iran’s new Supreme Leader Mojtaba Khamenei holds ‘positive’ view of China, ambassador says\nSummary:\n• Iran's new Supreme Leader Mojtaba Khamenei has not made a public appearance since his father's death, but the ambassador states he is in good health.\n• Khamenei holds a \"positive\" view of relations with China, consistent with his late father's perspective.\n• The Iranian ambassador noted at a security forum in Beijing that Iran will charge a \"service fee\" for ships using its ports, but China may receive \"special\" treatment.\n• Khamenei assumed the role of Supreme Leader on February 28, following the death of his father, Ayatollah Ali Khamenei, due to an airstrike by the US-Israeli coalition, and was appointed as his successor in March.",
+      "zh-CN": "标题：伊朗新最高领袖莫赫塔巴·哈梅内伊对中国持“积极”看法，大使表示\n摘要：\n• 伊朗新最高领袖莫赫塔巴·哈梅内伊在其父亲去世后尚未公开露面，但大使表示他健康良好。\n• 哈梅内伊对中国的关系持“积极”看法，与已故父亲的观点一致。\n• 伊朗大使在北京的安全论坛上指出，伊朗将对使用其港口的船只收取“服务费”，但中国可能会获得“特殊”待遇。\n• 哈梅内伊于2月28日接任最高领袖，因美以联军空袭导致其父阿亚图拉·阿里·哈梅内伊遇难，并在3月被任命为继任者。",
+      "ja": "タイトル：イランの新最高指導者モフタバ・ハメネイは中国に対して「前向き」な見解を持っていると大使が述べる\n要約：\n• イランの新最高指導者モフタバ・ハメネイは父親の死後、公の場に姿を見せていないが、大使は彼が健康であると述べた。\n• ハメネイは中国との関係について「前向き」な見解を持っており、故父の見解と一致している。\n• イランの大使は北京の安全フォーラムで、イランは港を利用する船舶に「サービス料」を請求するが、中国は「特別」な扱いを受ける可能性があると指摘した。\n• ハメネイは2月28日に最高指導者に就任し、米イスラエル連合の空爆により父アヤトラ・アリ"
+    }
   },
   {
     "url": "https://www.scmp.com/news/china/science/article/3359466/chinas-rare-earth-industry-has-critical-weakness-researchers-warn?utm_source=rss_feed",
@@ -1130,8 +1136,15 @@
     "topic": "Sports",
     "published": "2026-07-05T10:40:18+00:00",
     "crawled": "2026-07-05T10:41:37.401075+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 網球賽事最新消息及統計數據由美聯社報導  \n• 報導涵蓋各大賽事的比分及選手表現  \n• 提供即時更新，方便球迷掌握賽事動態  \n• 包括男子和女子網球的最新排名及賽程資訊",
+    "summaries": {
+      "zh-HK": "• 網球賽事最新消息及統計數據由美聯社報導  \n• 報導涵蓋各大賽事的比分及選手表現  \n• 提供即時更新，方便球迷掌握賽事動態  \n• 包括男子和女子網球的最新排名及賽程資訊",
+      "en": "Title: Tennis Scores, News & Stats - AP News\nSummary:\n• Latest tennis news and statistics reported by AP\n• Coverage includes scores and player performances from major tournaments\n• Provides real-time updates for fans to keep track of match dynamics\n• Includes the latest rankings and schedule information for both men's and women's tennis",
+      "zh-CN": "标题：网球比分、新闻与统计 - 美联社新闻\n摘要：\n• 网球赛事最新消息及统计数据由美联社报道\n• 报道涵盖各大赛事的比分及选手表现\n• 提供即时更新，方便球迷掌握赛事动态\n• 包括男子和女子网球的最新排名及赛程信息",
+      "ja": "タイトル：テニスのスコア、ニュース、統計 - APニュース\n要約：\n• APによる最新のテニスニュースと統計\n• 主要トーナメントのスコアと選手のパフォーマンスをカバー\n• ファンが試合の動向を把握できるようリアルタイム更新を提供\n• 男子と女子テニスの最新ランキングとスケジュール情報を含む",
+      "ko": "제목: 테니스 점수, 뉴스 및 통계 - AP 뉴스\n요약:\n• AP에서 보도한 최신 테니스 뉴스 및 통계\n• 주요 대회의 점수 및 선수 성과를 포함한 보도\n• 팬들이 경기 동향을 파악할 수 있도록 실시간 업데이트 제공\n• 남녀 테니스의 최신 랭킹 및 일정 정보 포함"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSFM2cVZ1TDNDd2NRUmttV2hEVzRrMXpta1pqNTYzYUNQNG5oNXhKNVhjZWpKR3ZobWU1MDczdF8tSnkzVUpVTTlLUWU5bEZGRnR3eU9vaXUwaHk3ZTluWm5EMGZSdnB6WXU3TVFBYmo4WXZ6a3pxbVQ2T3I0UmdsWTJyUlI3SmZZRXFKa1BCbkZfTk9UbTJZZnl5TEhodUpVSFQyVHZfTnBYRm5ybWc?oc=5",
@@ -1522,8 +1535,15 @@
     "topic": "Ai",
     "published": "2026-07-05T10:30:00+00:00",
     "crawled": "2026-07-05T10:41:46.903115+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 一項研究顯示，人工智慧初創公司在資金運用上比傳統企業更為精簡。  \n• 這些初創公司在2023年的運營成本較低，顯示出其高效的資源配置。  \n• 數據顯示，AI初創公司在招聘和開支方面的增長速度低於其他行業。  \n• 專家認為，這種精簡運營模式有助於提高競爭力和創新能力。",
+    "summaries": {
+      "zh-HK": "• 一項研究顯示，人工智慧初創公司在資金運用上比傳統企業更為精簡。  \n• 這些初創公司在2023年的運營成本較低，顯示出其高效的資源配置。  \n• 數據顯示，AI初創公司在招聘和開支方面的增長速度低於其他行業。  \n• 專家認為，這種精簡運營模式有助於提高競爭力和創新能力。",
+      "en": "Title: AI Startups Really Do Run Leaner, Here’s The Data - Yahoo! Finance Canada\nSummary:\n• A study shows that AI startups operate with leaner funding compared to traditional businesses.\n• These startups have lower operating costs in 2023, demonstrating their efficient resource allocation.\n• Data indicates that AI startups' growth in hiring and spending is slower than in other industries.\n• Experts believe that this lean operating model helps enhance competitiveness and innovation.",
+      "zh-CN": "标题：人工智能初创公司确实更精简，这里有数据 - Yahoo! Finance Canada\n摘要：\n• 一项研究显示，人工智能初创公司在资金运用上比传统企业更为精简。\n• 这些初创公司在2023年的运营成本较低，显示出其高效的资源配置。\n• 数据显示，AI初创公司在招聘和开支方面的增长速度低于其他行业。\n• 专家认为，这种精简运营模式有助于提高竞争力和创新能力。",
+      "ja": "タイトル：AIスタートアップは本当に効率的に運営されている、データはこちら - Yahoo! Finance Canada\n要約：\n• 研究によると、AIスタートアップは従来の企業に比べて資金の運用がより効率的である。\n• これらのスタートアップは2023年の運営コストが低く、効率的な資源配分を示している。\n• データによれば、AIスタートアップの採用と支出の成長速度は他の業界よりも遅い。\n• 専門家は、この効率的な運営モデルが競争力と革新能力を高めるのに役立つと考えている。",
+      "ko": "제목: AI 스타트업은 정말로 더 효율적으로 운영된다, 데이터는 여기 - Yahoo! Finance Canada\n요약:\n• 연구에 따르면, AI 스타트업은 전통적인 기업에 비해 자금 운용이 더 효율적이다.\n• 이러한 스타트업은 2023년 운영 비용이 낮아 효율적인 자원 배분을 보여준다.\n• 데이터에 따르면, AI 스타트업의 채용 및 지출 증가 속도는 다른 산업보다 느리다.\n• 전문가들은 이러한 효율적인 운영 모델이 경쟁력과 혁신 능력을 높이는 데 도움이 된다고 생각한다."
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOM1I0eTlqYWRLQmtqcU1oQ3dlbjNZYVJ6Qk93Wk5keWM1dDJucXJMT1RWek4zWnpRdFpELW1HWmV6eFpuWUJQbHZwNmdVOVZFYi0xS1NJRUc3d1kxU3ZIejdxS05JZ3c3R0lwNlNVTnF2RU9KbmZST0tBVVpfc3ZYZHNrcw?oc=5",
@@ -1858,8 +1878,11 @@
     "topic": "Trading",
     "published": "2026-07-05T10:17:44+00:00",
     "crawled": "2026-07-05T10:57:12.552004+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• OPEC+主要成員國同意下個月再次小幅提高集體石油生產配額  \n• 此次決定可能會增加市場供應，特別是在美伊和平協議成功的情況下  \n• 增加的配額將有助於應對全球石油需求的回升  \n• 此次會議強調了OPEC+在全球能源市場中的影響力和調整能力",
+    "summaries": {
+      "zh-HK": "• OPEC+主要成員國同意下個月再次小幅提高集體石油生產配額  \n• 此次決定可能會增加市場供應，特別是在美伊和平協議成功的情況下  \n• 增加的配額將有助於應對全球石油需求的回升  \n• 此次會議強調了OPEC+在全球能源市場中的影響力和調整能力"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-04/extreme-heat-breaks-across-eastern-us-severe-thunderstorms-to-follow",
@@ -2698,8 +2721,15 @@
     "topic": "World",
     "published": "2026-07-05T10:33:40+00:00",
     "crawled": "2026-07-05T10:57:41.717759+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 墨西哥與英格蘭將於2026年7月5日在墨西哥城的阿茲特克體育場進行世界盃16強賽  \n• 墨西哥在小組賽中以九分排名第一，並在淘汰賽中以2-0擊敗厄瓜多爾，首次贏得自1986年以來的淘汰賽  \n• 英格蘭在小組賽中以七分排名第一，並在32強賽中以2-1逆轉擊敗剛果民主共和國  \n• 比賽將面臨高海拔和激烈氣候的挑戰，阿茲特克體育場的環境對英格蘭球員可能造成影響",
+    "summaries": {
+      "zh-HK": "• 墨西哥與英格蘭將於2026年7月5日在墨西哥城的阿茲特克體育場進行世界盃16強賽  \n• 墨西哥在小組賽中以九分排名第一，並在淘汰賽中以2-0擊敗厄瓜多爾，首次贏得自1986年以來的淘汰賽  \n• 英格蘭在小組賽中以七分排名第一，並在32強賽中以2-1逆轉擊敗剛果民主共和國  \n• 比賽將面臨高海拔和激烈氣候的挑戰，阿茲特克體育場的環境對英格蘭球員可能造成影響",
+      "en": "Title: Mexico vs England: FIFA World Cup last 16 – Kane, prediction and altitude\nSummary:\n• Mexico will face England on July 5, 2026, at the Azteca Stadium in Mexico City in the World Cup Round of 16\n• Mexico topped their group with nine points and defeated Ecuador 2-0 in the knockout stage, marking their first knockout win since 1986\n• England finished first in their group with seven points and came back to beat the Democratic Republic of the Congo 2-1 in the Round of 32\n• The match will face challenges of high altitude and intense climate, which may affect the English players at the Azteca Stadium",
+      "zh-CN": "标题：墨西哥对英格兰：国际足联世界杯16强 – 凯恩、预测和海拔\n摘要：\n• 墨西哥将于2026年7月5日在墨西哥城的阿兹特克体育场与英格兰进行世界杯16强赛\n• 墨西哥在小组赛中以九分排名第一，并在淘汰赛中以2-0击败厄瓜多尔，首次赢得自1986年以来的淘汰赛\n• 英格兰在小组赛中以七分排名第一，并在32强赛中以2-1逆转击败刚果民主共和国\n• 比赛将面临高海拔和激烈气候的挑战，阿兹特克体育场的环境可能对英格兰球员造成影响",
+      "ja": "タイトル：メキシコ対イングランド：FIFAワールドカップ16強 – ケイン、予測、高度\n要約：\n• メキシコは2026年7月5日にメキシコシティのアステカスタジアムでイングランドとワールドカップ16強戦を行う\n• メキシコはグループリーグで9ポイントを獲得し1位となり、ノックアウトステージでエクアドルを2-0で破り、1986年以来初のノックアウト勝利を収めた\n• イングランドはグループリーグで7ポイントを獲得し1位となり、32強戦でコンゴ民主共和国を2-1で逆転勝利した\n• 試合は高地と厳しい気候の挑戦に直面し、アステカスタジアムの環境がイングランド選手に影響を与える可能性がある",
+      "ko": "제목: 멕시코 대 잉글랜드: FIFA 월드컵 16강 – 케인, 예측 및 고도\n요약:\n• 멕시코는 2026년"
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/5/reform-uks-farage-failed-to-disclose-funds-from-convicted-criminal-report?traffic_source=rss",
@@ -2712,8 +2742,15 @@
     "topic": "Finance",
     "published": "2026-07-05T10:25:04+00:00",
     "crawled": "2026-07-05T10:57:41.791860+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 英國改革黨領袖奈傑爾·法拉奇在當選國會前一年，未披露來自一名已定罪的詐騙犯的資金支持，可能違反國會規定  \n• 該名詐騙犯喬治·科特雷爾於2017年因洗錢陰謀被判入獄，並為法拉奇的社交媒體招聘和支付三名員工  \n• 法拉奇的發言人表示報導“毫無根據”，並聲稱未違反任何國會規則  \n• 自由民主黨議員喬什·巴巴林德已致信國會標準專員，要求對此新指控展開調查",
+    "summaries": {
+      "zh-HK": "• 英國改革黨領袖奈傑爾·法拉奇在當選國會前一年，未披露來自一名已定罪的詐騙犯的資金支持，可能違反國會規定  \n• 該名詐騙犯喬治·科特雷爾於2017年因洗錢陰謀被判入獄，並為法拉奇的社交媒體招聘和支付三名員工  \n• 法拉奇的發言人表示報導“毫無根據”，並聲稱未違反任何國會規則  \n• 自由民主黨議員喬什·巴巴林德已致信國會標準專員，要求對此新指控展開調查",
+      "en": "Title: Reform UK’s Farage failed to disclose funds from convicted criminal: Report\nSummary:\n• Nigel Farage, leader of Reform UK, failed to disclose funding from a convicted fraudster a year before being elected to Parliament, potentially violating parliamentary rules.\n• The fraudster, George Cottrell, was imprisoned in 2017 for a money laundering conspiracy and funded Farage's social media recruitment and paid three staff members.\n• Farage's spokesperson stated the report is \"baseless\" and claimed no parliamentary rules were violated.\n• Liberal Democrat MP Josh Baberland has written to the Parliamentary Standards Commissioner requesting an investigation into the new allegations.",
+      "zh-CN": "标题：英国改革党的法拉奇未披露来自已定罪罪犯的资金：报告\n摘要：\n• 英国改革党领袖奈杰尔·法拉奇在当选国会前一年，未披露来自一名已定罪的诈骗犯的资金支持，可能违反国会规定。\n• 该名诈骗犯乔治·科特雷尔于2017年因洗钱阴谋被判入狱，并为法拉奇的社交媒体招聘和支付三名员工。\n• 法拉奇的发言人表示报道“毫无根据”，并声称未违反任何国会规则。\n• 自由民主党议员乔什·巴巴林德已致信国会标准专员，要求对此新指控展开调查。",
+      "ja": "タイトル：改革UKのファラージ、 convicted criminalからの資金を開示せず：報告\n要約：\n• 改革UKのリーダー、ナイジェル・ファラージは、国会に選出される1年前に、 convicted fraudsterからの資金を開示しなかったため、国会の規則に違反する可能性がある。\n• その詐欺師、ジョージ・コトレルは2017年にマネーロンダリング陰謀で投獄され、ファラージのソーシャルメディアの採用を資金提供し、3人のスタッフに支払った。\n• ファラージのスポークスマンは、報告が「根拠がない」と述べ、国会の規則に違反していないと主張した。\n• 自由民主党の議員ジョシュ・ババリンドは、新たな告発について調査を求めて国会基準委員に手紙を書いた。",
+      "ko": "제목: 영국 개혁당의 파라지는 유죄 판결을 받은 범죄자로부터의 자금을 공개하지 않았다: 보고서\n요약:\n• 영국 개혁당의 리더인 나"
+    }
   },
   {
     "url": "https://www.npr.org/2026/07/04/nx-s1-5882179/washingtons-july-4-heat-cancellations",
@@ -2796,8 +2833,15 @@
     "topic": "General",
     "published": "2026-07-05T10:53:22+00:00",
     "crawled": "2026-07-05T10:57:45.343081+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 俄羅斯軍艦於週日抵達中國青島港，參加聯合海上演習  \n• 參與的艦艇包括“瓦良格”巡洋艦和一艘柴油電動攻擊潛艇  \n• 演習旨在應對安全挑戰，維護地區和平與穩定  \n• 演習結束後，雙方部分部隊將在太平洋進行聯合海上巡邏",
+    "summaries": {
+      "zh-HK": "• 俄羅斯軍艦於週日抵達中國青島港，參加聯合海上演習  \n• 參與的艦艇包括“瓦良格”巡洋艦和一艘柴油電動攻擊潛艇  \n• 演習旨在應對安全挑戰，維護地區和平與穩定  \n• 演習結束後，雙方部分部隊將在太平洋進行聯合海上巡邏",
+      "en": "Title: Russian warships dock in Chinese port ahead of Joint Sea exercises\nSummary:\n• Russian warships arrived at the Chinese port of Qingdao on Sunday to participate in joint maritime exercises\n• The participating vessels include the \"Varyag\" cruiser and a diesel-electric attack submarine\n• The exercises aim to address security challenges and maintain regional peace and stability\n• After the exercises, some forces from both sides will conduct joint maritime patrols in the Pacific",
+      "zh-CN": "标题：俄罗斯军舰在中国港口停靠，准备参加联合海上演习\n摘要：\n• 俄罗斯军舰于周日抵达中国青岛港，参加联合海上演习\n• 参与的舰艇包括“瓦良格”巡洋舰和一艘柴油电动攻击潜艇\n• 演习旨在应对安全挑战，维护地区和平与稳定\n• 演习结束后，双方部分部队将在太平洋进行联合海上巡逻",
+      "ja": "タイトル：ロシアの軍艦が中国の港に接岸、合同海上演習に向けて\n概要：\n• ロシアの軍艦が日曜日に中国の青島港に到着し、合同海上演習に参加\n• 参加する艦艇には「ヴァリャーグ」巡洋艦と1隻のディーゼル電気攻撃潜水艦が含まれる\n• 演習は安全保障上の課題に対処し、地域の平和と安定を維持することを目的としている\n• 演習終了後、双方の一部部隊が太平洋で合同海上パトロールを行う予定",
+      "ko": "제목: 러시아 군함, 합동 해상 훈련을 앞두고 중국 항구에 접안\n요약:\n• 러시아 군함이 일요일에 중국 칭다오 항구에 도착하여 합동 해상 훈련에 참여\n• 참여하는 함선에는 \"바랴그\" 순양함과 1척의 디젤 전기 공격 잠수함이 포함됨\n• 훈련은 안전 문제에 대응하고 지역의 평화와 안정을 유지하는 것을 목표로 함\n• 훈련 종료 후, 양측의 일부 부대가 태평양에서 합동 해상 순찰을 실시할 예정"
+    }
   },
   {
     "url": "https://www.scmp.com/news/us/article/3359431/us-turns-250-young-asian-americans-weigh-identity-and-china?utm_source=rss_feed",
@@ -3328,8 +3372,15 @@
     "topic": "Ai",
     "published": "2026-07-05T10:30:00+00:00",
     "crawled": "2026-07-05T10:58:10.842893+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 根據Forbes報導，AI初創公司在運營上確實較為精簡，數據顯示其成本效率高於傳統企業  \n• 研究分析了多家AI初創公司的財務數據，發現其人力資源和資本支出較低  \n• 報告指出，AI技術的應用使得這些公司能夠以較少的資源達成更高的產出  \n• 專家認為，這種運營模式可能會成為未來創業公司的新標準",
+    "summaries": {
+      "zh-HK": "• 根據Forbes報導，AI初創公司在運營上確實較為精簡，數據顯示其成本效率高於傳統企業  \n• 研究分析了多家AI初創公司的財務數據，發現其人力資源和資本支出較低  \n• 報告指出，AI技術的應用使得這些公司能夠以較少的資源達成更高的產出  \n• 專家認為，這種運營模式可能會成為未來創業公司的新標準",
+      "en": "Title: AI Startups Really Do Run Leaner, Here’s The Data - Forbes\nSummary:\n• According to Forbes, AI startups are indeed operating more leanly, with data showing their cost efficiency surpassing that of traditional businesses.\n• The research analyzed the financial data of several AI startups and found that their human resources and capital expenditures are lower.\n• The report indicates that the application of AI technology allows these companies to achieve higher outputs with fewer resources.\n• Experts believe that this operational model may become the new standard for future startups.",
+      "zh-CN": "标题：AI初创公司确实运营更精简，这里是数据 - 福布斯\n摘要：\n• 根据福布斯的报道，AI初创公司在运营上确实较为精简，数据显示其成本效率高于传统企业。\n• 研究分析了多家AI初创公司的财务数据，发现其人力资源和资本支出较低。\n• 报告指出，AI技术的应用使得这些公司能够以较少的资源达成更高的产出。\n• 专家认为，这种运营模式可能会成为未来创业公司的新标准。",
+      "ja": "タイトル：AIスタートアップは本当に効率的に運営されている、データはこちら - フォーブス\n要約：\n• フォーブスによると、AIスタートアップは確かに運営がより効率的であり、データはそのコスト効率が従来の企業を上回っていることを示しています。\n• 研究は複数のAIスタートアップの財務データを分析し、人材資源と資本支出が低いことを発見しました。\n• 報告書は、AI技術の適用により、これらの企業がより少ないリソースでより高い成果を達成できることを示しています。\n• 専門家は、この運営モデルが将来のスタートアップの新しい標準になる可能性があると考えています。",
+      "ko": "제목: AI 스타트업은 정말로 더 효율적으로 운영된다, 데이터는 여기 - 포브스\n요약:\n• 포브스에 따르면, AI 스타트업은 실제로 더 효율적으로 운영되고 있으며, 데이터는 그들의 비용 효율성이 전통 기업보다 뛰어나다고 보여줍니다.\n• 연구는 여러 AI 스타트업의 재무 데이터를 분석하여 인적 자원과 자본 지출이 낮다는 것을 발견했습니다.\n• 보고서는 AI 기술의 적용이 이러한 기업들이 더 적은 자원으로 더 높은 성과를 달성할 수 있게 한다고 지적합니다.\n• 전문가들은 이러한 운영 모델이 미래 스타트업의 새로운"
+    }
   },
   {
     "url": "https://www.coindesk.com/markets/2026/07/04/bitcoin-jumps-above-usd63-000-reversing-end-june-losses",
@@ -3993,8 +4044,15 @@
     "topic": "Tech",
     "published": "2026-07-05T10:55:02+00:00",
     "crawled": "2026-07-05T12:22:07.648073+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 地球的第一層地殼形成原因仍不明，科學家推測可能與早期小行星撞擊有關。  \n• 根據地質學家Tim Johnson的研究，這些撞擊使早期地殼保持高溫，從而促成了浮力大陸的形成。  \n• 目前已知的最古老大陸岩石約在40.3億年前結晶，地質證據稀少，導致對早期地球的研究存在爭議。  \n• 科學家認為，早期地球的熱量來源未考慮到外部小行星和隕石的撞擊能量，這對於理解地球的熱預算至關重要。",
+    "summaries": {
+      "zh-HK": "• 地球的第一層地殼形成原因仍不明，科學家推測可能與早期小行星撞擊有關。  \n• 根據地質學家Tim Johnson的研究，這些撞擊使早期地殼保持高溫，從而促成了浮力大陸的形成。  \n• 目前已知的最古老大陸岩石約在40.3億年前結晶，地質證據稀少，導致對早期地球的研究存在爭議。  \n• 科學家認為，早期地球的熱量來源未考慮到外部小行星和隕石的撞擊能量，這對於理解地球的熱預算至關重要。",
+      "en": "Title: The missing 500 million: Cosmic bombardment melted Earth's first crust\nSummary:\n• The reason for the formation of Earth's first crust remains unclear, with scientists speculating it may be related to early asteroid impacts.\n• According to geologist Tim Johnson's research, these impacts kept the early crust at high temperatures, facilitating the formation of buoyant continents.\n• The oldest known continental rocks are crystallized around 4.03 billion years ago, with scarce geological evidence leading to controversies in the study of early Earth.\n• Scientists believe that the heat sources of early Earth have not accounted for the impact energy from external asteroids and meteorites, which is crucial for understanding Earth's thermal budget.",
+      "zh-CN": "标题：失踪的5亿：宇宙轰炸融化了地球的第一层地壳\n摘要：\n• 地球的第一层地壳形成原因仍不明，科学家推测可能与早期小行星撞击有关。\n• 根据地质学家Tim Johnson的研究，这些撞击使早期地壳保持高温，从而促成了浮力大陆的形成。\n• 目前已知的最古老大陆岩石约在40.3亿年前结晶，地质证据稀少，导致对早期地球的研究存在争议。\n• 科学家认为，早期地球的热量来源未考虑到外部小行星和陨石的撞击能量，这对于理解地球的热预算至关重要。",
+      "ja": "タイトル：行方不明の5億：宇宙の爆撃が地球の最初の地殻を溶かした\n要約：\n• 地球の最初の地殻の形成理由は依然として不明で、科学者たちは初期の小惑星衝突に関連している可能性があると推測している。\n• 地質学者ティム・ジョンソンの研究によると、これらの衝突は初期の地殻を高温に保ち、浮力のある大陸の形成を促進した。\n• 現在知られている最古の大陸岩石は約40.3億年前に結晶化しており、地質的証拠が乏しいため、初期地球の研究には論争がある。\n• 科学者たちは、初期地球の熱源が外部の小惑星や隕石の衝突エネルギーを考慮していないと考えており、これは地球の熱予算を理解する上で重要である。",
+      "ko": "제목: 사라진 5억: 우"
+    }
   },
   {
     "url": "https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/",
@@ -4021,8 +4079,15 @@
     "topic": "Finance",
     "published": "2026-07-05T11:00:00+00:00",
     "crawled": "2026-07-05T12:22:08.667232+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 2025年1月，加州阿爾塔迪納的伊頓火災摧毀了超過16,000棟建築，造成居民失去家園和社區。  \n• 世界最大的預測市場平台Polymarket上，賭徒對火災的擴展和影響進行下注，總金額達到120萬美元。  \n• 專家和火災倖存者擔心預測市場可能鼓勵縱火等危險行為，並對社會道德提出質疑。  \n• 美國森林服務局表示，將金融利益與野火結果掛鉤可能會導致不當行為，與其使命不符。",
+    "summaries": {
+      "zh-HK": "• 2025年1月，加州阿爾塔迪納的伊頓火災摧毀了超過16,000棟建築，造成居民失去家園和社區。  \n• 世界最大的預測市場平台Polymarket上，賭徒對火災的擴展和影響進行下注，總金額達到120萬美元。  \n• 專家和火災倖存者擔心預測市場可能鼓勵縱火等危險行為，並對社會道德提出質疑。  \n• 美國森林服務局表示，將金融利益與野火結果掛鉤可能會導致不當行為，與其使命不符。",
+      "en": "Title: Prediction Markets Let You Bet on Whether a Wildfire Will Burn Down Your Town\nSummary:\n• In January 2025, the Eaton Fire in Altadena, California, destroyed over 16,000 buildings, leaving residents homeless and communities devastated.\n• On Polymarket, the world's largest prediction market platform, gamblers placed bets totaling $1.2 million on the spread and impact of the fire.\n• Experts and fire survivors are concerned that prediction markets may encourage dangerous behaviors such as arson and raise ethical questions for society.\n• The U.S. Forest Service stated that linking financial incentives to wildfire outcomes could lead to misconduct, which is contrary to its mission.",
+      "zh-CN": "标题：预测市场让你下注是否野火会烧毁你的城镇\n摘要：\n• 2025年1月，加州阿尔塔迪纳的伊顿火灾摧毁了超过16,000栋建筑，造成居民失去家园和社区。\n• 世界最大的预测市场平台Polymarket上，赌徒对火灾的扩展和影响进行下注，总金额达到120万美元。\n• 专家和火灾幸存者担心预测市场可能鼓励纵火等危险行为，并对社会道德提出质疑。\n• 美国森林服务局表示，将金融利益与野火结果挂钩可能会导致不当行为，与其使命不符。",
+      "ja": "タイトル：予測市場があなたの町が野火で焼かれるかどうかに賭けることを可能にする\n要約：\n• 2025年1月、カリフォルニア州アルタディナで発生したイートン火災は16,000棟以上の建物を破壊し、住民を家を失わせ、コミュニティを壊滅させました。\n• 世界最大の予測市場プラットフォームPolymarketでは、ギャンブラーが火災の拡大と影響に対して合計120万ドルの賭けを行いました。\n• 専門家や火災の生存者は、予測市場が放火などの危険な行動を助長する可能性があり、社会の倫理に疑問を投げかけることを懸念しています。\n• アメリカ森林局は、金融インセンティブを野火の結果に結びつけることが不正行為を引き起こす可能性があり、その使命に反すると述べています。",
+      "ko": "제목: 예측 시장이 당신의 마을이 산불로 타버릴지에 베팅할 수 있게 해줍니다\n요약:\n• 2025년 1월, 캘리포니"
+    }
   },
   {
     "url": "https://www.wired.com/gallery/best-wifi-routers/",
@@ -4035,8 +4100,14 @@
     "topic": "Tech",
     "published": "2026-07-05T11:00:00+00:00",
     "crawled": "2026-07-05T12:22:08.868137+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 文章介紹了2026年最佳Wi-Fi路由器，包括TP-Link Archer BE9700和Netgear Orbi 770系列等選擇，適合不同需求和預算的家庭使用。  \n• Asus RT-BE96U被評為最佳選擇，因其卓越的性能和廣泛的覆蓋範圍，適合流媒體、遊戲和大文件下載。  \n• 美國聯邦通信委員會於2023年3月宣布的外國製路由器禁令，可能影響未獲得豁免的公司在美國銷售新路由器，但現有路由器仍可繼續銷售和更新。  \n• 文章更新於2026年7月，增加了Netgear Nighthawk M7的介紹，並對美國政府的外國路由器禁令進行了澄清。",
+    "summaries": {
+      "zh-HK": "• 文章介紹了2026年最佳Wi-Fi路由器，包括TP-Link Archer BE9700和Netgear Orbi 770系列等選擇，適合不同需求和預算的家庭使用。  \n• Asus RT-BE96U被評為最佳選擇，因其卓越的性能和廣泛的覆蓋範圍，適合流媒體、遊戲和大文件下載。  \n• 美國聯邦通信委員會於2023年3月宣布的外國製路由器禁令，可能影響未獲得豁免的公司在美國銷售新路由器，但現有路由器仍可繼續銷售和更新。  \n• 文章更新於2026年7月，增加了Netgear Nighthawk M7的介紹，並對美國政府的外國路由器禁令進行了澄清。",
+      "en": "Title: Best Wi-Fi Routers (2026): My Honest Picks After Testing 40+\nSummary:\n• The article introduces the best Wi-Fi routers of 2026, including options like the TP-Link Archer BE9700 and Netgear Orbi 770 series, suitable for various needs and budgets for home use.\n• The Asus RT-BE96U is rated as the best choice due to its outstanding performance and wide coverage, ideal for streaming, gaming, and large file downloads.\n• The foreign router ban announced by the U.S. Federal Communications Commission in March 2023 may affect companies without exemptions in selling new routers in the U.S., but existing routers can continue to be sold and updated.\n• The article was updated in July 2026, adding an introduction to the Netgear Nighthawk M7 and clarifying the U.S. government's foreign router ban.",
+      "zh-CN": "标题：最佳Wi-Fi路由器（2026）：我在测试40多款后诚实的选择\n摘要：\n• 文章介绍了2026年最佳Wi-Fi路由器，包括TP-Link Archer BE9700和Netgear Orbi 770系列等选择，适合不同需求和预算的家庭使用。\n• Asus RT-BE96U被评为最佳选择，因其卓越的性能和广泛的覆盖范围，适合流媒体、游戏和大文件下载。\n• 美国联邦通信委员会于2023年3月宣布的外国制造路由器禁令，可能影响未获得豁免的公司在美国销售新路由器，但现有路由器仍可继续销售和更新。\n• 文章更新于2026年7月，增加了Netgear Nighthawk M7的介绍，并对美国政府的外国路由器禁令进行了澄清。",
+      "ja": "タイトル：ベストWi-Fiルーター（2026）：40以上のテスト後の私の正直な選択\n要約：\n• 記事では、TP-Link Archer BE9700やNetgear Orbi 770シリーズなど、2026年のベストWi-Fiルーターを紹介しており、さまざまなニーズや予算に応じた家庭向けの選択肢が含まれています。\n• Asus RT-BE96Uは、その優れた性能と広範なカバレッジにより、ストリーミング、ゲーム、大きなファイルのダウンロードに最適な選択肢として評価されています。\n• 2023年3月に米国連邦通信委員会が発表した外国製ルーター禁止令は、免除を受けていない企業が米国で新しいルーターを販売することに影響を与える可能"
+    }
   },
   {
     "url": "https://www.wired.com/story/nuclear-startups-hit-milestone-why-it-matters/",
@@ -4098,8 +4169,15 @@
     "topic": "Finance",
     "published": "2026-07-05T10:48:13+00:00",
     "crawled": "2026-07-05T12:22:10.026097+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 一艘貨船於週日報告在紅海遭到武裝襲擊，增加了中東地區的安全風險  \n• 此事件是近期針對過境船隻的安全威脅的最新案例  \n• 襲擊發生在紅海，該地區對航運活動至關重要  \n• 安全專家表示，該事件可能會影響未來的航運路線和保險成本",
+    "summaries": {
+      "zh-HK": "• 一艘貨船於週日報告在紅海遭到武裝襲擊，增加了中東地區的安全風險  \n• 此事件是近期針對過境船隻的安全威脅的最新案例  \n• 襲擊發生在紅海，該地區對航運活動至關重要  \n• 安全專家表示，該事件可能會影響未來的航運路線和保險成本",
+      "en": "Title: Cargo Ship Reports Attack Off Yemen, Adding to Red Sea Risks\nSummary:\n• A cargo ship reported an armed attack in the Red Sea on Sunday, increasing security risks in the Middle East\n• This incident is the latest case of security threats targeting transit vessels\n• The attack occurred in the Red Sea, a region critical to shipping activities\n• Security experts indicate that this event may impact future shipping routes and insurance costs",
+      "zh-CN": "标题：货船在也门附近报告遭袭，增加红海风险\n摘要：\n• 一艘货船于周日报告在红海遭到武装袭击，增加了中东地区的安全风险\n• 此事件是近期针对过境船只的安全威胁的最新案例\n• 袭击发生在红海，该地区对航运活动至关重要\n• 安全专家表示，该事件可能会影响未来的航运路线和保险成本",
+      "ja": "タイトル：イエメン沖で貨物船が攻撃を報告、紅海のリスクが増加\n要約：\n• 日曜日に貨物船が紅海で武装攻撃を受けたと報告し、中東地域の安全リスクが増加\n• この事件は、通過船舶を標的とした安全脅威の最新のケース\n• 攻撃は紅海で発生し、この地域は航行活動にとって重要\n• 安全専門家は、この事件が将来の航路や保険コストに影響を与える可能性があると指摘",
+      "ko": "제목: 예멘 근처에서 화물선 공격 보고, 홍해 위험 증가\n요약:\n• 일요일에 화물선이 홍해에서 무장 공격을 받았다고 보고하여 중동 지역의 안전 위험이 증가\n• 이 사건은 통과 선박을 겨냥한 안전 위협의 최신 사례\n• 공격은 홍해에서 발생했으며, 이 지역은 해운 활동에 매우 중요\n• 안전 전문가들은 이 사건이 향후 해운 경로와 보험 비용에 영향을 미칠 수 있다고 지적"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-05/nigeria-says-south-african-police-liable-for-deaths-of-citizens",
@@ -4112,8 +4190,15 @@
     "topic": "Finance",
     "published": "2026-07-05T10:43:22+00:00",
     "crawled": "2026-07-05T12:22:10.101664+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 尼日利亞指控南非當局對三名公民的死亡負有刑事責任  \n• 尼日利亞政府警告將動員區域及國際行動  \n• 此舉旨在確保對外國人施暴的責任人受到追究  \n• 事件引發尼日利亞與南非之間的外交緊張關係",
+    "summaries": {
+      "zh-HK": "• 尼日利亞指控南非當局對三名公民的死亡負有刑事責任  \n• 尼日利亞政府警告將動員區域及國際行動  \n• 此舉旨在確保對外國人施暴的責任人受到追究  \n• 事件引發尼日利亞與南非之間的外交緊張關係",
+      "en": "Title: Nigeria Says South African Police Liable for Deaths of Citizens\nSummary:\n• Nigeria accuses South African authorities of criminal responsibility for the deaths of three citizens\n• The Nigerian government warns it will mobilize regional and international action\n• This move aims to ensure accountability for those responsible for violence against foreigners\n• The incident has sparked diplomatic tensions between Nigeria and South Africa",
+      "zh-CN": "标题：尼日利亚指控南非警方对公民死亡负责\n摘要：\n• 尼日利亚指控南非当局对三名公民的死亡负有刑事责任\n• 尼日利亚政府警告将动员区域及国际行动\n• 此举旨在确保对外国人施暴的责任人受到追究\n• 事件引发尼日利亚与南非之间的外交紧张关系",
+      "ja": "タイトル：ナイジェリア、南アフリカ警察が市民の死亡に責任があると主張\n要約：\n• ナイジェリアは南アフリカ当局が3人の市民の死亡に対して刑事責任があると非難\n• ナイジェリア政府は地域および国際的な行動を動員すると警告\n• この措置は外国人に対する暴力の責任者を追及することを目的としている\n• この事件はナイジェリアと南アフリカの間の外交的緊張を引き起こした",
+      "ko": "제목: 나이지리아, 남아프리카 경찰이 시민 사망에 책임이 있다고 주장\n요약:\n• 나이지리아는 남아프리카 당국이 세 명의 시민 사망에 대해 형사 책임이 있다고 비난\n• 나이지리아 정부는 지역 및 국제 행동을 동원할 것이라고 경고\n• 이 조치는 외국인에 대한 폭력의 책임자를 추궁하기 위한 것이다\n• 이 사건은 나이지리아와 남아프리카 간의 외교적 긴장을 촉발했다"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-04/trump-pardons-abramoff-partner-adam-kidan-texan-jack-harvard",
@@ -4377,8 +4462,15 @@
     "topic": "General",
     "published": "2026-07-05T10:56:46+00:00",
     "crawled": "2026-07-05T12:22:24.055876+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 巴勒斯坦醫生侯薩姆·阿布·薩菲亞於2024年12月27日被以色列士兵拘留，並被指控與哈馬斯有關，至今未有任何證據或正式起訴。  \n• 阿布·薩菲亞在2026年6月10日的以色列最高法院聽證會上透過視頻連線出現，當時他被手銬和腳鐐束縛，狀況不佳。  \n• 他的律師在2026年6月訪問他時發現他受到嚴重虐待，並在會面中出現失去意識的情況。  \n• 阿布·薩菲亞的健康狀況被認為危急，律師呼籲立即釋放他，以免喪失這位重要醫生。",
+    "summaries": {
+      "zh-HK": "• 巴勒斯坦醫生侯薩姆·阿布·薩菲亞於2024年12月27日被以色列士兵拘留，並被指控與哈馬斯有關，至今未有任何證據或正式起訴。  \n• 阿布·薩菲亞在2026年6月10日的以色列最高法院聽證會上透過視頻連線出現，當時他被手銬和腳鐐束縛，狀況不佳。  \n• 他的律師在2026年6月訪問他時發現他受到嚴重虐待，並在會面中出現失去意識的情況。  \n• 阿布·薩菲亞的健康狀況被認為危急，律師呼籲立即釋放他，以免喪失這位重要醫生。",
+      "en": "Title: Release Dr Hussam Abu Safia immediately!\nSummary:\n• Palestinian doctor Hussam Abu Safia was detained by Israeli soldiers on December 27, 2024, and accused of being linked to Hamas, with no evidence or formal charges presented to date.\n• Abu Safia appeared via video link at an Israeli Supreme Court hearing on June 10, 2026, while being shackled and in poor condition.\n• His lawyer discovered that he had been severely mistreated during a visit in June 2026, and he lost consciousness during their meeting.\n• Abu Safia's health is considered critical, and his lawyer is calling for his immediate release to prevent the loss of this important doctor.",
+      "zh-CN": "标题：立即释放侯萨姆·阿布·萨菲亚医生！\n摘要：\n• 巴勒斯坦医生侯萨姆·阿布·萨菲亚于2024年12月27日被以色列士兵拘留，并被指控与哈马斯有关，至今未有任何证据或正式起诉。\n• 阿布·萨菲亚在2026年6月10日的以色列最高法院听证会上通过视频连线出现，当时他被手铐和脚镣束缚，状况不佳。\n• 他的律师在2026年6月访问他时发现他受到严重虐待，并在会面中出现失去意识的情况。\n• 阿布·萨菲亚的健康状况被认为危急，律师呼吁立即释放他，以免丧失这位重要医生。",
+      "ja": "タイトル：ハッサム・アブ・サフィア医師を直ちに解放せよ！\n要約：\n• パレスチナの医師ハッサム・アブ・サフィアは、2024年12月27日にイスラエルの兵士に拘束され、ハマスとの関連を指摘されているが、現在まで証拠や正式な起訴はない。\n• アブ・サフィアは2026年6月10日のイスラエル最高裁判所の公聴会にビデオリンクで出席した際、手錠と足枷をつけられ、状態は悪化していた。\n• 彼の弁護士は2026年6月に訪問した際、彼が深刻な虐待を受けていることを発見し、面会中に意識を失った。\n• アブ・サフィアの健康状態は危機的と見なされており、弁護士はこの重要な医師を失わないために直ちに解放するよう求めている。",
+      "ko": "제목"
+    }
   },
   {
     "url": "https://www.npr.org/2026/07/04/nx-s1-5882086/cape-verde-world-cup-ends",
@@ -4441,13 +4533,13 @@
     "published": "2026-07-05T11:00:14+00:00",
     "crawled": "2026-07-05T12:22:28.045256+00:00",
     "summarized": true,
-    "ai_summary": "• 浙江省宣傳部門指責部分中國球迷在上海穿著日本國家隊球衣，為日本隊在世界杯的勝利歡呼，認為這行為接近越界。  \n• 該部門在社交媒體上發文表示，雖然中國球迷可以欣賞其他隊伍的技術，但支持應有“界限”。  \n• 發文指出，部分評論超出了單純的戰術欣賞，並強調球迷的歡呼不應成為攻擊國家尊嚴的工具。  \n• 此事件引發廣泛爭議，有人認為這是個人自由的表現，而另一些人則認為這損害了國家尊嚴。",
+    "ai_summary": "• 浙江省宣傳部門指責部分中國球迷在世界杯期間穿著日本國家隊球衣，並為日本隊加油，認為此行為接近越界  \n• 該部門在社交媒體上發文表示，球迷的支持應有“界限”，不應用來攻擊國家尊嚴  \n• 文章承認日本足球體系有值得學習的優勢，但強調部分評論已超出單純的戰術欣賞  \n• 此事件引發廣泛爭議，有人認為是個人自由問題，另一些人則認為這損害了國家尊嚴",
     "summaries": {
-      "zh-HK": "• 浙江省宣傳部門指責部分中國球迷在上海穿著日本國家隊球衣，為日本隊在世界杯的勝利歡呼，認為這行為接近越界。  \n• 該部門在社交媒體上發文表示，雖然中國球迷可以欣賞其他隊伍的技術，但支持應有“界限”。  \n• 發文指出，部分評論超出了單純的戰術欣賞，並強調球迷的歡呼不應成為攻擊國家尊嚴的工具。  \n• 此事件引發廣泛爭議，有人認為這是個人自由的表現，而另一些人則認為這損害了國家尊嚴。",
-      "en": "Title: ‘Cheers should have limits’: Chinese province calls foul on fans of Japan World Cup team\nSummary:\n• The Zhejiang provincial propaganda department accused some Chinese fans of wearing Japanese national team jerseys in Shanghai and cheering for Japan's victories in the World Cup, deeming this behavior close to crossing the line.\n• The department stated on social media that while Chinese fans can appreciate the skills of other teams, support should have \"limits.\"\n• The post pointed out that some comments went beyond mere tactical appreciation and emphasized that fan cheers should not become a tool to attack national dignity.\n• This incident has sparked widespread controversy, with some viewing it as an expression of personal freedom, while others believe it undermines national dignity.",
-      "zh-CN": "标题：‘欢呼应该有界限’：中国省份对日本世界杯球队的球迷提出异议\n摘要：\n• 浙江省宣传部门指责部分中国球迷在上海穿着日本国家队球衣，为日本队在世界杯的胜利欢呼，认为这一行为接近越界。\n• 该部门在社交媒体上表示，虽然中国球迷可以欣赏其他队伍的技术，但支持应该有“界限”。\n• 发文指出，部分评论超出了单纯的战术欣赏，并强调球迷的欢呼不应成为攻击国家尊严的工具。\n• 此事件引发广泛争议，有人认为这是个人自由的表现，而另一些人则认为这损害了国家尊严。",
-      "ja": "タイトル：「応援には限度が必要」：中国の省が日本のワールドカップチームのファンに異議を唱える\n要約：\n• 浙江省の宣伝部門は、一部の中国のファンが上海で日本代表のユニフォームを着て、日本のワールドカップでの勝利を応援していることを非難し、この行為は越境に近いと見なした。\n• この部門はソーシャルメディアで、中国のファンが他のチームの技術を評価することはできるが、応援には「限度」が必要だと述べた。\n• 投稿では、一部のコメントが単なる戦術の評価を超えていることを指摘し、ファンの応援が国家の尊厳を攻撃する道具になってはいけないと強調した。\n• この事件は広範な論争を引き起こし、個人の自由の表現と見る人もいれば、国家の尊厳を損なうと考える人もいる。",
-      "ko": "제목: ‘응원에는 한계가 있어야 한다’: 중국 지방, 일본 월드컵 팀 팬들에 대한 이의 제"
+      "zh-HK": "• 浙江省宣傳部門指責部分中國球迷在世界杯期間穿著日本國家隊球衣，並為日本隊加油，認為此行為接近越界  \n• 該部門在社交媒體上發文表示，球迷的支持應有“界限”，不應用來攻擊國家尊嚴  \n• 文章承認日本足球體系有值得學習的優勢，但強調部分評論已超出單純的戰術欣賞  \n• 此事件引發廣泛爭議，有人認為是個人自由問題，另一些人則認為這損害了國家尊嚴",
+      "en": "Title: ‘Cheers should have limits’: Chinese province calls foul on fans of Japan World Cup team\nSummary:\n• Zhejiang province's propaganda department criticized some Chinese fans for wearing Japan national team jerseys and cheering for Japan during the World Cup, deeming this behavior close to crossing the line.\n• The department stated on social media that fan support should have \"limits\" and should not be used to attack national dignity.\n• The article acknowledged that there are advantages in the Japanese football system worth learning from, but emphasized that some comments have gone beyond mere tactical appreciation.\n• This incident has sparked widespread controversy, with some viewing it as a matter of personal freedom, while others believe it undermines national dignity.",
+      "zh-CN": "标题：‘欢呼应该有界限’：中国省份对日本世界杯球队的球迷提出指责\n摘要：\n• 浙江省宣传部门指责部分中国球迷在世界杯期间穿着日本国家队球衣，并为日本队加油，认为此行为接近越界。\n• 该部门在社交媒体上发文表示，球迷的支持应有“界限”，不应用来攻击国家尊严。\n• 文章承认日本足球体系有值得学习的优势，但强调部分评论已超出单纯的战术欣赏。\n• 此事件引发广泛争议，有人认为是个人自由问题，另一些人则认为这损害了国家尊严。",
+      "ja": "タイトル：「応援には限度が必要」：中国の省が日本のワールドカップチームのファンに異議を唱える\n要約：\n• 浙江省の宣伝部門は、ワールドカップ期間中に日本代表のユニフォームを着て日本を応援する中国のファンを批判し、この行為は越境に近いと見なしている。\n• 同部門はソーシャルメディアで、ファンの応援には「限度」があり、国家の尊厳を攻撃するために使うべきではないと述べた。\n• 記事は、日本のサッカーシステムには学ぶべき利点があることを認めたが、一部のコメントは単なる戦術的な評価を超えていると強調した。\n• この事件は広範な論争を引き起こし、一部は個人の自由の問題と見なす一方で、他の人々は国家の尊厳を損なうと考えている。",
+      "ko": "제목: ‘응원에는 한계가 있어야 한다’: 중국 지방, 일본 월드컵 팀 팬들에 대한 비판\n요약:\n• 저장성의 선전 부서는 일부 중국 팬들이 월"
     }
   },
   {
@@ -4566,8 +4658,15 @@
     "topic": "Finance",
     "published": "2026-07-05T11:00:03+00:00",
     "crawled": "2026-07-05T12:22:40.513082+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 富裕國家需釋放土地、勞動力、能源和資本以促進經濟增長  \n• 文章強調這些資源的有效利用對於解決全球挑戰至關重要  \n• 具體措施尚未明確，需進一步討論和規劃  \n• 此呼籲旨在應對當前的經濟和環境問題，促進可持續發展",
+    "summaries": {
+      "zh-HK": "• 富裕國家需釋放土地、勞動力、能源和資本以促進經濟增長  \n• 文章強調這些資源的有效利用對於解決全球挑戰至關重要  \n• 具體措施尚未明確，需進一步討論和規劃  \n• 此呼籲旨在應對當前的經濟和環境問題，促進可持續發展",
+      "en": "Title: Rich nations must unleash land, labour, energy and capital\nSummary:\n• Wealthy nations need to unleash land, labour, energy, and capital to promote economic growth\n• The article emphasizes that the effective use of these resources is crucial for addressing global challenges\n• Specific measures have yet to be clarified and require further discussion and planning\n• This call aims to address current economic and environmental issues and promote sustainable development",
+      "zh-CN": "标题：富裕国家需释放土地、劳动力、能源和资本\n摘要：\n• 富裕国家需释放土地、劳动力、能源和资本以促进经济增长\n• 文章强调这些资源的有效利用对于解决全球挑战至关重要\n• 具体措施尚未明确，需进一步讨论和规划\n• 此呼吁旨在应对当前的经济和环境问题，促进可持续发展",
+      "ja": "タイトル：裕福な国々は土地、労働、エネルギー、資本を解放すべき\n要約：\n• 裕福な国々は経済成長を促進するために土地、労働、エネルギー、資本を解放する必要がある\n• この記事は、これらの資源の効果的な利用が世界的な課題に対処するために重要であると強調している\n• 具体的な対策はまだ明確ではなく、さらなる議論と計画が必要である\n• この呼びかけは、現在の経済および環境問題に対処し、持続可能な発展を促進することを目的としている",
+      "ko": "제목: 부유한 국가들은 토지, 노동, 에너지 및 자본을 풀어야 한다\n요약:\n• 부유한 국가들은 경제 성장을 촉진하기 위해 토지, 노동, 에너지 및 자본을 풀어야 한다\n• 이 글은 이러한 자원의 효과적인 사용이 글로벌 문제 해결에 중요하다고 강조하고 있다\n• 구체적인 조치는 아직 명확하지 않으며, 추가 논의와 계획이 필요하다\n• 이 요청은 현재의 경제 및 환경 문제에 대응하고 지속 가능한 발전을 촉진하기 위한 것이다"
+    }
   },
   {
     "url": "https://www.ft.com/content/a3dedf8e-f0fa-4646-a18e-5842c7359e3c",
