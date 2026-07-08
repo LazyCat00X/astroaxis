@@ -270,45 +270,50 @@ def main():
         topics[topic].append(a)
         sources[source].append(a)
 
-    # 1. Generate topic pages
+    # 1. Generate topic pages (subdirectory structure for clean URLs)
     topic_dir = DEPLOY_DIR / "topic"
     topic_dir.mkdir(parents=True, exist_ok=True)
     for topic_name, topic_arts in topics.items():
-        # Limit to 20 most recent articles per topic
+        slug = slugify(topic_name)
+        sub_dir = topic_dir / slug
+        sub_dir.mkdir(parents=True, exist_ok=True)
         sorted_arts = sorted(topic_arts, key=lambda x: x.get("published", ""), reverse=True)[:20]
         html_content = generate_listing_page(topic_name, sorted_arts, "topic")
-        (topic_dir / f"{slugify(topic_name)}.html").write_text(html_content, encoding="utf-8")
+        (sub_dir / "index.html").write_text(html_content, encoding="utf-8")
     # Generate topic index
     topic_index_body = "<h1 class=\"page-title\">Topics</h1>\n<div class=\"card-list\">\n"
     for topic_name in sorted(topics.keys()):
         count = len(topics[topic_name])
         topic_index_body += f"""<article class="card">
-<a class="card-title" href="/topic/{slugify(topic_name)}.html">{html.escape(topic_name)}</a>
+<a class="card-title" href="/topic/{slugify(topic_name)}/">{html.escape(topic_name)}</a>
 <div class="card-meta">{count} article{'s' if count != 1 else ''}</div>
 </article>\n"""
     topic_index_body += "</div>"
-    (topic_dir / "INDEX.html").write_text(
+    (topic_dir / "index.html").write_text(
         page_shell("Topics", topic_index_body, '<a href="/">Home</a> <span>/</span> <span>Topics</span>'),
         encoding="utf-8",
     )
 
-    # 2. Generate source pages
+    # 2. Generate source pages (subdirectory structure for clean URLs)
     source_dir = DEPLOY_DIR / "source"
     source_dir.mkdir(parents=True, exist_ok=True)
     for source_name, source_arts in sources.items():
+        slug = slugify(source_name)
+        sub_dir = source_dir / slug
+        sub_dir.mkdir(parents=True, exist_ok=True)
         sorted_arts = sorted(source_arts, key=lambda x: x.get("published", ""), reverse=True)[:20]
         html_content = generate_listing_page(source_name, sorted_arts, "source")
-        (source_dir / f"{slugify(source_name)}.html").write_text(html_content, encoding="utf-8")
+        (sub_dir / "index.html").write_text(html_content, encoding="utf-8")
     # Generate source index
     source_index_body = "<h1 class=\"page-title\">Sources</h1>\n<div class=\"card-list\">\n"
     for source_name in sorted(sources.keys()):
         count = len(sources[source_name])
         source_index_body += f"""<article class="card">
-<a class="card-title" href="/source/{slugify(source_name)}.html">{html.escape(source_name)}</a>
+<a class="card-title" href="/source/{slugify(source_name)}/">{html.escape(source_name)}</a>
 <div class="card-meta">{count} article{'s' if count != 1 else ''}</div>
 </article>\n"""
     source_index_body += "</div>"
-    (source_dir / "INDEX.html").write_text(
+    (source_dir / "index.html").write_text(
         page_shell("Sources", source_index_body, '<a href="/">Home</a> <span>/</span> <span>Sources</span>'),
         encoding="utf-8",
     )

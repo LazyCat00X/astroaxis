@@ -70,7 +70,34 @@ def generate_sitemap():
             "priority": "0.7"
         })
     
-    # Build XML
+    # Build XML — include topic + source pages
+    topics_seen = set()
+    sources_seen = set()
+    topics_xml = []
+    sources_xml = []
+    for a in articles:
+        topic = a.get("topic", "General") or "General"
+        source = a.get("source", "Unknown") or "Unknown"
+        slug = lambda s: re.sub(r'[^\\w\\s-]', '', s.lower().strip()).replace(' ', '-')[:80]
+        ts = slug(topic)
+        ss = slug(source)
+        if ts and ts not in topics_seen:
+            topics_seen.add(ts)
+            topics_xml.append(f"""  <url>
+    <loc>{SITE_URL}/topic/{quote(ts)}/</loc>
+    <lastmod>{now}</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.6</priority>
+  </url>""")
+        if ss and ss not in sources_seen:
+            sources_seen.add(ss)
+            sources_xml.append(f"""  <url>
+    <loc>{SITE_URL}/source/{quote(ss)}/</loc>
+    <lastmod>{now}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>""")
+    
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     xml = """<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -84,6 +111,8 @@ def generate_sitemap():
     <priority>{u['priority']}</priority>
   </url>
 """
+    xml += "\n".join(topics_xml)
+    xml += "\n".join(sources_xml)
     xml += "</urlset>"
     
     # Write to deploy

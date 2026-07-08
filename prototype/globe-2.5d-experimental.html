@@ -28,9 +28,6 @@
   </script>
   <link rel="canonical" href="https://lazycat00x.github.io/astroaxis-site/" />
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='none' stroke='%2322d3ee' stroke-width='3'/%3E%3Ccircle cx='50' cy='50' r='30' fill='none' stroke='%236366f1' stroke-width='2' opacity='0.6'/%3E%3Ccircle cx='35' cy='40' r='4' fill='%2367e8f9'/%3E%3Ccircle cx='62' cy='55' r='3' fill='%23a78bfa'/%3E%3Ccircle cx='45' cy='65' r='3' fill='%23f59e0b'/%3E%3C/svg%3E" />
-  <link rel="icon" type="image/png" sizes="32x32" href="https://lazycat00x.github.io/astroaxis-site/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="https://lazycat00x.github.io/astroaxis-site/favicon-16x16.png" />
-  <link rel="apple-touch-icon" href="https://lazycat00x.github.io/astroaxis-site/apple-touch-icon.png" />
   <!-- Open Graph / Social -->
   <meta property="og:title" content="AstroAxis — AI-powered world news aggregator" />
   <meta property="og:type" content="website" />
@@ -50,8 +47,471 @@
   <meta name="twitter:title" content="AstroAxis — AI-powered world news aggregator" />
   <meta name="twitter:description" content="Interactive 3D globe with real-time news. AI summaries." />
   <meta name="twitter:image" content="https://lazycat00x.github.io/astroaxis-site/og-image.png" />
-  <style>:root{--bg:#050611;--text:#eef7ff;--muted:#8892b6;--cyan:#22d3ee;--cyan-soft:#67e8f9;--accent:#6366f1;--violet:#a78bfa;--orange:#f59e0b}*{box-sizing:border-box;margin:0;padding:0}html,body{width:100%;min-height:100%;overflow:hidden;background:#000;color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",sans-serif}body{min-height:100dvh;background:radial-gradient(circle at 68% 44%,rgba(34,211,238,0.17),transparent 25%),radial-gradient(circle at 45% 54%,rgba(99,102,241,0.22),transparent 28%),radial-gradient(circle at 18% 24%,rgba(245,158,11,0.08),transparent 22%),linear-gradient(135deg,#02030a 0,#050611 46%,#08091c 100%)}#hero{position:fixed;inset:0;width:100vw;height:100dvh;overflow:hidden;isolation:isolate}#hero::before,#hero::after{content:"";position:absolute;inset:-18%;z-index:0;pointer-events:none;mix-blend-mode:screen}#hero::before{opacity:.48;background:conic-gradient(from 224deg at 61% 45%,transparent 0deg,rgba(34,211,238,0.18) 34deg,transparent 78deg,rgba(99,102,241,0.16) 126deg,transparent 180deg,rgba(34,211,238,0.10) 260deg,transparent 360deg);filter:blur(42px) saturate(1.25);animation:auroraDrift 18s ease-in-out infinite alternate}#hero::after{opacity:.18;background-image:linear-gradient(rgba(255,255,255,0.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.045) 1px,transparent 1px);background-size:78px 78px;mask-image:radial-gradient(circle at 55% 48%,black 0,transparent 68%);transform:perspective(900px) rotateX(63deg) translateY(17%)}#globe-canvas{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:grab;touch-action:none;z-index:0;filter:drop-shadow(0 0 34px rgba(34,211,238,0.18))}#globe-canvas:active{cursor:grabbing}.filter-bar{position:fixed;bottom:clamp(12px,4vh,40px);left:50%;transform:translateX(-50%);z-index:10;display:flex;flex-wrap:wrap;justify-content:center;gap:clamp(4px,0.8vw,8px);width:min(920px,calc(100vw - 16px));padding:clamp(6px,0.8vh,10px) clamp(8px,1vw,12px);border:1px solid rgba(103,232,249,0.24);border-radius:999px;background:linear-gradient(180deg,rgba(8,14,31,0.72),rgba(3,6,18,0.58));backdrop-filter:blur(18px) saturate(1.2);-webkit-backdrop-filter:blur(18px) saturate(1.2);box-shadow:0 22px 80px rgba(0,0,0,0.32),0 0 42px rgba(34,211,238,0.14),inset 0 1px 0 rgba(255,255,255,0.08),inset 0 0 28px rgba(99,102,241,0.08)}.filter-sep{width:1px;height:18px;background:rgba(136,136,160,0.22);flex-shrink:0;margin:0 2px}.filter-btn{appearance:none;border:1px solid rgba(136,136,160,0.28);border-radius:999px;background:rgba(15,22,44,0.64);color:rgba(238,247,255,0.7);cursor:pointer;font:inherit;font-size:clamp(9px,1.2vw,13px);font-weight:600;letter-spacing:.04em;white-space:nowrap;transition:border-color 160ms ease,color 160ms ease,background 160ms ease,box-shadow 160ms ease,transform 160ms ease;padding:clamp(5px,0.6vh,8px) clamp(6px,0.8vw,11px)}.filter-btn:hover,.filter-btn.active{border-color:rgba(34,211,238,0.72);background:rgba(34,211,238,0.14);color:#eaffff;box-shadow:0 0 18px rgba(34,211,238,0.22);transform:translateY(-1px)}.filter-btn[data-filter-type="topic"][data-filter-value="Bitcoin"].active{border-color:rgba(249,115,22,0.85);box-shadow:0 0 20px rgba(249,115,22,0.2)}.filter-btn[data-filter-type="topic"][data-filter-value="DeFi"].active{border-color:rgba(34,197,94,0.85);box-shadow:0 0 20px rgba(34,197,94,0.2)}.filter-btn[data-filter-type="topic"][data-filter-value="AI"].active{border-color:rgba(59,130,246,0.85);box-shadow:0 0 20px rgba(59,130,246,0.2)}.filter-btn[data-filter-type="topic"][data-filter-value="Regulation"].active{border-color:rgba(239,68,68,0.85);box-shadow:0 0 20px rgba(239,68,68,0.2)}:focus-visible{outline:2px solid #67e8f9;outline-offset:2px;border-color:#67e8f9!important}.filter-btn:focus-visible,.keyboard-user :focus-visible{outline:2px solid #22d3ee!important;outline-offset:2px}.nav-btn:focus-visible,.lang-btn:focus-visible,.lang-option:focus-visible,.hud-toggle:focus-visible{outline:2px solid #67e8f9;outline-offset:2px;z-index:25;position:relative}.feed-card h3 a:focus-visible{outline:2px solid #67e8f9;outline-offset:3px;border-radius:4px}.view-panel:not(.active) :focus-visible{outline:none!important}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}#a11y-live{position:fixed;top:0;left:0;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);z-index:-1}.article-tooltip{position:fixed;left:0;top:0;z-index:5;width:min(340px,calc(100vw - 28px));pointer-events:none;opacity:0;transform:translate3d(-999px,-999px,0) scale(0.96);transition:opacity 120ms ease;will-change:transform;border:1px solid rgba(34,211,238,0.34);border-radius:18px;background:linear-gradient(180deg,rgba(7,10,22,0.94),rgba(3,6,16,0.9));box-shadow:0 0 34px rgba(34,211,238,0.18),inset 0 0 24px rgba(99,102,241,0.08);backdrop-filter:blur(16px);padding:14px 16px}.article-tooltip.visible{opacity:1}.tooltip-title{font-size:16px;font-weight:800;line-height:1.35;color:#f7ffff}.tooltip-source{margin-top:5px;color:rgba(136,136,160,0.9);font-size:12px;letter-spacing:.08em;text-transform:uppercase}.tooltip-summary{margin-top:10px;padding-left:18px;color:rgba(228,228,236,0.82);font-size:13px;line-height:1.55}.tooltip-summary li{margin:5px 0}.country-label{position:fixed;top:95px;right:clamp(16px,4vw,48px);left:auto;bottom:auto;transform:none;z-index:4;pointer-events:none;text-align:right;opacity:0;transition:opacity 320ms ease;will-change:opacity;background:rgba(5,6,17,0.7);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:6px 12px;border-radius:8px;border:1px solid rgba(34,211,238,0.15)}.country-label.visible{opacity:1}.country-label .country-name{display:block;font-size:clamp(16px,2vw,28px);font-weight:700;letter-spacing:-0.02em;line-height:1.15;background:linear-gradient(135deg,#f7ffff 0,#67e8f9 100%);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 0 40px rgba(34,211,238,0.15)}.country-label .country-markerCount{display:block;margin-top:2px;font-size:clamp(11px,1.2vw,15px);font-weight:500;letter-spacing:.08em;color:rgba(136,146,182,0.7);text-shadow:none}.hud{position:absolute;left:clamp(20px,5vw,72px);top:68px;z-index:4;pointer-events:none;max-width:clamp(210px,22vw,320px);transition:transform .3s ease,opacity .3s ease}.hud-content-inner{border:1px solid rgba(103,232,249,0.12);border-radius:28px;padding:clamp(16px,2.6vw,24px);background:linear-gradient(135deg,rgba(5,11,28,0.50),rgba(5,8,20,0.18));box-shadow:inset 0 1px 0 rgba(255,255,255,0.06),0 0 44px rgba(34,211,238,0.08);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);text-shadow:0 0 24px rgba(34,211,238,0.28)}.hud.collapsed{transform:translateX(-120%);opacity:0}.hud-toggle{position:fixed;left:10px;top:96px;z-index:12;pointer-events:auto;background:rgba(7,10,22,0.85);border:1px solid rgba(103,232,249,0.35);border-radius:0 8px 8px 0;color:var(--cyan);cursor:pointer;font-size:13px;padding:7px 5px;line-height:1;transition:background .2s,color .2s}.hud-toggle:hover{background:rgba(34,211,238,0.25);color:#fff}.hud-legend{margin-top:14px;display:flex;flex-wrap:wrap;gap:6px 10px;pointer-events:auto}.hud-legend-item{display:inline-flex;align-items:center;gap:5px;font-size:11px;color:rgba(238,247,255,0.6);letter-spacing:.03em}.hud-legend-dot{display:inline-block;width:10px;height:10px;border-radius:50%;flex-shrink:0;box-shadow:0 0 6px currentColor}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--cyan);font-size:12px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;opacity:.9}.eyebrow::before{content:"";width:8px;height:8px;border-radius:999px;background:var(--cyan);box-shadow:0 0 18px var(--cyan),0 0 34px var(--accent);animation:statusPulse 1.8s ease-in-out infinite}h1{margin-top:14px;font-size:clamp(20px,4vw,48px);line-height:.94;letter-spacing:-0.06em;max-width:760px;background:linear-gradient(135deg,#fff 0,#eef7ff 34%,#67e8f9 63%,#a78bfa 100%);-webkit-background-clip:text;background-clip:text;color:transparent}.subline{margin-top:18px;color:rgba(228,228,236,0.68);font-size:clamp(13px,1.45vw,17px);max-width:520px;line-height:1.8}.signal-metrics{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.metric{min-width:108px;padding:10px 12px;border:1px solid rgba(103,232,249,0.14);border-radius:16px;background:rgba(3,9,24,0.42);box-shadow:inset 0 0 18px rgba(34,211,238,0.045)}.metric strong{display:block;color:#f7ffff;font-size:18px;letter-spacing:-0.02em}.metric span{display:block;margin-top:2px;color:rgba(136,146,182,0.86);font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.scanline{position:absolute;inset:0;z-index:1;pointer-events:none;opacity:.12;background:repeating-linear-gradient(to bottom,rgba(255,255,255,0.0) 0,rgba(255,255,255,0.0) 3px,rgba(34,211,238,0.22) 4px,rgba(255,255,255,0.0) 5px);mix-blend-mode:screen}.vignette{position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(circle at 50% 46%,transparent 0,transparent 38%,rgba(0,0,0,0.28) 66%,rgba(0,0,0,0.8) 100%),linear-gradient(90deg,rgba(0,0,0,0.62),transparent 30%,transparent 70%,rgba(0,0,0,0.62))}.hint{position:absolute;left:clamp(16px,4vw,52px);bottom:clamp(16px,4vh,42px);z-index:2;color:rgba(136,136,160,0.75);font-size:11px;letter-spacing:.08em;pointer-events:none;max-width:calc(100vw - clamp(32px,8vw,104px) - clamp(210px,22vw,320px));white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.scroll-hint{position:fixed;bottom:clamp(4px,1.5vh,12px);left:50%;transform:translateX(-50%);z-index:8;color:rgba(136,136,160,0.45);font-size:11px;letter-spacing:.06em;pointer-events:none;animation:scrollPulse 3s ease-in-out infinite}@keyframes scrollPulse{0%,100%{opacity:.35}50%{opacity:.7}}@keyframes statusPulse{0%,100%{transform:scale(0.84);opacity:.65}50%{transform:scale(1.2);opacity:1}}@media(max-width:768px){.hud{top:28px;left:20px;right:20px}.subline{max-width:330px}.hint{display:none}.filter-bar{border-radius:22px;bottom:12px;padding:8px}.filter-btn{font-size:clamp(9px,1.2vw,13px);padding:clamp(5px,0.6vh,9px) clamp(8px,1vw,14px)}}@media(max-width:640px){.filter-btn{font-size:10px;padding:7px 9px}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes interestPulse{0%,100%{box-shadow:0 0 18px rgba(34,211,238,.45),inset 0 0 12px rgba(34,211,238,.1)}50%{box-shadow:0 0 28px rgba(34,211,238,.65),inset 0 0 18px rgba(34,211,238,.18)}}
-@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}</style>
+  <style>
+    :root {
+      --bg: #050611;
+      --text: #eef7ff;
+      --muted: #8892b6;
+      --cyan: #22d3ee;
+      --cyan-soft: #67e8f9;
+      --accent: #6366f1;
+      --violet: #a78bfa;
+      --orange: #f59e0b;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      width: 100%;
+      min-height: 100%;
+      overflow: hidden;
+      background: #000;
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif;
+    }
+
+    body {
+      min-height: 100dvh;
+      background:
+        radial-gradient(circle at 68% 44%, rgba(34, 211, 238, 0.17), transparent 25%),
+        radial-gradient(circle at 45% 54%, rgba(99, 102, 241, 0.22), transparent 28%),
+        radial-gradient(circle at 18% 24%, rgba(245, 158, 11, 0.08), transparent 22%),
+        linear-gradient(135deg, #02030a 0%, #050611 46%, #08091c 100%);
+    }
+
+    #hero {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100dvh;
+      overflow: hidden;
+      isolation: isolate;
+    }
+
+    #hero::before,
+    #hero::after {
+      content: "";
+      position: absolute;
+      inset: -18%;
+      z-index: 0;
+      pointer-events: none;
+      mix-blend-mode: screen;
+    }
+
+    #hero::before {
+      opacity: 0.48;
+      background:
+        conic-gradient(from 224deg at 61% 45%, transparent 0deg, rgba(34, 211, 238, 0.18) 34deg, transparent 78deg, rgba(99, 102, 241, 0.16) 126deg, transparent 180deg, rgba(34, 211, 238, 0.10) 260deg, transparent 360deg);
+      filter: blur(42px) saturate(1.25);
+      animation: auroraDrift 18s ease-in-out infinite alternate;
+    }
+
+    #hero::after {
+      opacity: 0.18;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.045) 1px, transparent 1px);
+      background-size: 78px 78px;
+      mask-image: radial-gradient(circle at 55% 48%, black 0%, transparent 68%);
+      transform: perspective(900px) rotateX(63deg) translateY(17%);
+    }
+
+    #globe-canvas {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      cursor: grab;
+      touch-action: none;
+      z-index: 0;
+      filter: drop-shadow(0 0 34px rgba(34, 211, 238, 0.18));
+    }
+
+    #globe-canvas:active { cursor: grabbing; }
+
+
+    .filter-bar {
+      position: fixed;
+      bottom: clamp(12px, 4vh, 40px);
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: clamp(4px, 0.8vw, 8px);
+      width: min(920px, calc(100vw - 16px));
+      padding: clamp(6px, 0.8vh, 10px) clamp(8px, 1vw, 12px);
+      border: 1px solid rgba(103, 232, 249, 0.24);
+      border-radius: 999px;
+      background: linear-gradient(180deg, rgba(8, 14, 31, 0.72), rgba(3, 6, 18, 0.58));
+      backdrop-filter: blur(18px) saturate(1.2);
+      -webkit-backdrop-filter: blur(18px) saturate(1.2);
+      box-shadow: 0 22px 80px rgba(0, 0, 0, 0.32), 0 0 42px rgba(34, 211, 238, 0.14), inset 0 1px 0 rgba(255,255,255,0.08), inset 0 0 28px rgba(99, 102, 241, 0.08);
+    }
+
+    .filter-sep {
+      width: 1px;
+      height: 18px;
+      background: rgba(136, 136, 160, 0.22);
+      flex-shrink: 0;
+      margin: 0 2px;
+    }
+    .filter-btn {
+      appearance: none;
+      border: 1px solid rgba(136, 136, 160, 0.28);
+      border-radius: 999px;
+      background: rgba(15, 22, 44, 0.64);
+      color: rgba(238, 247, 255, 0.7);
+      cursor: pointer;
+      font: inherit;
+      font-size: clamp(9px, 1.2vw, 13px);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+      transition: border-color 160ms ease, color 160ms ease, background 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+      padding: clamp(5px, 0.6vh, 8px) clamp(6px, 0.8vw, 11px);
+    }
+
+    .filter-btn:hover,
+    .filter-btn.active {
+      border-color: rgba(34, 211, 238, 0.72);
+      background: rgba(34, 211, 238, 0.14);
+      color: #eaffff;
+      box-shadow: 0 0 18px rgba(34, 211, 238, 0.22);
+      transform: translateY(-1px);
+    }
+
+    .filter-btn[data-filter-type="topic"][data-filter-value="Bitcoin"].active { border-color: rgba(249, 115, 22, 0.85); box-shadow: 0 0 20px rgba(249, 115, 22, 0.2); }
+    .filter-btn[data-filter-type="topic"][data-filter-value="DeFi"].active { border-color: rgba(34, 197, 94, 0.85); box-shadow: 0 0 20px rgba(34, 197, 94, 0.2); }
+    .filter-btn[data-filter-type="topic"][data-filter-value="AI"].active { border-color: rgba(59, 130, 246, 0.85); box-shadow: 0 0 20px rgba(59, 130, 246, 0.2); }
+    .filter-btn[data-filter-type="topic"][data-filter-value="Regulation"].active { border-color: rgba(239, 68, 68, 0.85); box-shadow: 0 0 20px rgba(239, 68, 68, 0.2); }
+
+    /* ── Keyboard focus styles ── */
+    :focus-visible {
+      outline: 2px solid #67e8f9;
+      outline-offset: 2px;
+      border-color: #67e8f9 !important;
+    }
+    .filter-btn:focus-visible,
+    .keyboard-user :focus-visible {
+      outline: 2px solid #22d3ee !important; outline-offset: 2px;
+    }
+    .nav-btn:focus-visible,
+    .lang-btn:focus-visible,
+    .lang-option:focus-visible,
+    .hud-toggle:focus-visible {
+      outline: 2px solid #67e8f9;
+      outline-offset: 2px;
+      z-index: 25;
+      position: relative;
+    }
+    .feed-card h3 a:focus-visible {
+      outline: 2px solid #67e8f9;
+      outline-offset: 3px;
+      border-radius: 4px;
+    }
+    /* Skip hidden panels */
+    .view-panel:not(.active) :focus-visible {
+      outline: none !important;
+    }
+    /* Screen-reader only utility */
+    .sr-only {
+      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+    }
+    #a11y-live {
+      position: fixed; top: 0; left: 0; width: 1px; height: 1px;
+      overflow: hidden; clip: rect(0,0,0,0); z-index: -1;
+    }
+
+    .article-tooltip {
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 5;
+      width: min(340px, calc(100vw - 28px));
+      pointer-events: none;
+      opacity: 0;
+      transform: translate3d(-999px, -999px, 0) scale(0.96);
+      transition: opacity 120ms ease;
+      will-change: transform;
+      border: 1px solid rgba(34, 211, 238, 0.34);
+      border-radius: 18px;
+      background: linear-gradient(180deg, rgba(7, 10, 22, 0.94), rgba(3, 6, 16, 0.9));
+      box-shadow: 0 0 34px rgba(34, 211, 238, 0.18), inset 0 0 24px rgba(99, 102, 241, 0.08);
+      backdrop-filter: blur(16px);
+      padding: 14px 16px;
+    }
+
+    .article-tooltip.visible { opacity: 1; }
+    .tooltip-title { font-size: 16px; font-weight: 800; line-height: 1.35; color: #f7ffff; }
+    .tooltip-source { margin-top: 5px; color: rgba(136, 136, 160, 0.9); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; }
+    .tooltip-summary { margin-top: 10px; padding-left: 18px; color: rgba(228, 228, 236, 0.82); font-size: 13px; line-height: 1.55; }
+    .tooltip-summary li { margin: 5px 0; }
+
+    /* Zoom-in country label — subtle, don't block the view */
+    .country-label {
+      position: fixed;
+      top: 95px;
+      right: clamp(16px, 4vw, 48px);
+      left: auto;
+      bottom: auto;
+      transform: none;
+      z-index: 4;
+      pointer-events: none;
+      text-align: right;
+      opacity: 0;
+      transition: opacity 320ms ease;
+      will-change: opacity;
+      background: rgba(5, 6, 17, 0.7);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      padding: 6px 12px;
+      border-radius: 8px;
+      border: 1px solid rgba(34, 211, 238, 0.15);
+    }
+    .country-label.visible { opacity: 1; }
+    .country-label .country-name {
+      display: block;
+      font-size: clamp(16px, 2vw, 28px);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      background: linear-gradient(135deg, #f7ffff 0%, #67e8f9 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      text-shadow: 0 0 40px rgba(34, 211, 238, 0.15);
+    }
+    .country-label .country-markerCount {
+      display: block;
+      margin-top: 2px;
+      font-size: clamp(11px, 1.2vw, 15px);
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      color: rgba(136, 146, 182, 0.7);
+      text-shadow: none;
+    }
+
+    .hud {
+      position: absolute;
+      left: clamp(20px, 5vw, 72px);
+      top: 68px;
+      z-index: 4;
+      pointer-events: none;
+      max-width: clamp(210px, 22vw, 320px);
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .hud-content-inner {
+      border: 1px solid rgba(103, 232, 249, 0.12);
+      border-radius: 28px;
+      padding: clamp(16px, 2.6vw, 24px);
+      background: linear-gradient(135deg, rgba(5, 11, 28, 0.50), rgba(5, 8, 20, 0.18));
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 0 44px rgba(34, 211, 238, 0.08);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      text-shadow: 0 0 24px rgba(34, 211, 238, 0.28);
+    }
+    .hud.collapsed {
+      transform: translateX(-120%);
+      opacity: 0;
+    }
+    .hud-toggle {
+      position: fixed;
+      left: 10px;
+      top: 96px;
+      z-index: 12;
+      pointer-events: auto;
+      background: rgba(7,10,22,0.85);
+      border: 1px solid rgba(103,232,249,0.35);
+      border-radius: 0 8px 8px 0;
+      color: var(--cyan);
+      cursor: pointer;
+      font-size: 13px;
+      padding: 7px 5px;
+      line-height: 1;
+      transition: background 0.2s, color 0.2s;
+    }
+    .hud-toggle:hover { background: rgba(34,211,238,0.25); color: #fff; }
+    /* ── Legend items inside hud ── */
+    .hud-legend {
+      margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 10px;
+      pointer-events: auto;
+    }
+    .hud-legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 11px;
+      color: rgba(238,247,255,0.6);
+      letter-spacing: 0.03em;
+    }
+    .hud-legend-dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      box-shadow: 0 0 6px currentColor;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--cyan);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      opacity: 0.9;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: var(--cyan);
+      box-shadow: 0 0 18px var(--cyan), 0 0 34px var(--accent);
+      animation: statusPulse 1.8s ease-in-out infinite;
+    }
+
+    h1 {
+      margin-top: 14px;
+      font-size: clamp(20px, 4vw, 48px);
+      line-height: 0.94;
+      letter-spacing: -0.06em;
+      max-width: 760px;
+      background: linear-gradient(135deg, #fff 0%, #eef7ff 34%, #67e8f9 63%, #a78bfa 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .subline {
+      margin-top: 18px;
+      color: rgba(228, 228, 236, 0.68);
+      font-size: clamp(13px, 1.45vw, 17px);
+      max-width: 520px;
+      line-height: 1.8;
+    }
+
+    .signal-metrics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 22px;
+    }
+
+    .metric {
+      min-width: 108px;
+      padding: 10px 12px;
+      border: 1px solid rgba(103, 232, 249, 0.14);
+      border-radius: 16px;
+      background: rgba(3, 9, 24, 0.42);
+      box-shadow: inset 0 0 18px rgba(34, 211, 238, 0.045);
+    }
+
+    .metric strong {
+      display: block;
+      color: #f7ffff;
+      font-size: 18px;
+      letter-spacing: -0.02em;
+    }
+
+    .metric span {
+      display: block;
+      margin-top: 2px;
+      color: rgba(136, 146, 182, 0.86);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .scanline {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      opacity: 0.12;
+      background: repeating-linear-gradient(
+        to bottom,
+        rgba(255,255,255,0.0) 0px,
+        rgba(255,255,255,0.0) 3px,
+        rgba(34,211,238,0.22) 4px,
+        rgba(255,255,255,0.0) 5px
+      );
+      mix-blend-mode: screen;
+    }
+
+    .vignette {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      background:
+        radial-gradient(circle at 50% 46%, transparent 0%, transparent 38%, rgba(0,0,0,0.28) 66%, rgba(0,0,0,0.8) 100%),
+        linear-gradient(90deg, rgba(0,0,0,0.62), transparent 30%, transparent 70%, rgba(0,0,0,0.62));
+    }
+
+    .hint {
+      position: absolute;
+      left: clamp(16px, 4vw, 52px);
+      bottom: clamp(16px, 4vh, 42px);
+      z-index: 2;
+      color: rgba(136, 136, 160, 0.75);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      pointer-events: none;
+      max-width: calc(100vw - clamp(32px, 8vw, 104px) - clamp(210px, 22vw, 320px));
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .scroll-hint {
+      position: fixed;
+      bottom: clamp(4px, 1.5vh, 12px);
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 8;
+      color: rgba(136, 136, 160, 0.45);
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      pointer-events: none;
+      animation: scrollPulse 3s ease-in-out infinite;
+    }
+
+    @keyframes scrollPulse {
+      0%, 100% { opacity: 0.35; }
+      50% { opacity: 0.7; }
+    }
+
+    @keyframes statusPulse {
+      0%, 100% { transform: scale(0.84); opacity: 0.65; }
+      50% { transform: scale(1.2); opacity: 1; }
+    }
+
+    @media (max-width: 768px) {
+      .hud { top: 28px; left: 20px; right: 20px; }
+      .subline { max-width: 330px; }
+      .hint { display: none; }
+      .filter-bar { border-radius: 22px; bottom: 12px; padding: 8px; }
+      .filter-btn { font-size: clamp(9px, 1.2vw, 13px); padding: clamp(5px, 0.6vh, 9px) clamp(8px, 1vw, 14px); }
+    }
+    @media (max-width: 640px) {
+      .filter-btn { font-size: 10px; padding: 7px 9px; }
+    }
+    @keyframes spin {to{transform:rotate(360deg)}}
+    @keyframes interestPulse {0%,100%{box-shadow:0 0 18px rgba(34,211,238,.45),inset 0 0 12px rgba(34,211,238,.1)}50%{box-shadow:0 0 28px rgba(34,211,238,.65),inset 0 0 18px rgba(34,211,238,.18)}}
+  </style>
   <!-- Timeline + Feed styles -->
   <style>
     .skip-link {
@@ -205,12 +665,6 @@
     .topic-tag:hover { border-color: rgba(34,211,238,.4) !important; background: rgba(34,211,238,.08) !important; }
     .feed-card .card-top { display: flex; justify-content: space-between; align-items: start; gap: 8px; margin-bottom: 6px; }
     .feed-card .card-topic { font-size: 12px; padding: 3px 9px; border-radius: 4px; font-weight: 600; }
-    .feed-card .trust-badge { font-size: 10px; padding: 2px 6px; border-radius: 3px; font-weight: 700; margin-left: auto; flex-shrink: 0; }
-    .feed-card .trust-badge.high { color: #fbbf24; }
-    .feed-card .trust-badge.medium { color: #67e8f9; }
-    .feed-card .trust-badge.low { color: rgba(136,136,160,0.4); }
-    .load-more-btn { appearance: none; border: 1px solid rgba(99,102,241,0.3); border-radius: 999px; background: rgba(99,102,241,0.1); color: #a78bfa; cursor: pointer; font: inherit; font-size: 13px; font-weight: 600; padding: 10px 28px; transition: all .2s; }
-    .load-more-btn:hover { background: rgba(99,102,241,0.2); border-color: rgba(99,102,241,0.5); }
     .feed-card .card-source { font-size: 12px; color: rgba(136,136,160,0.8); }
     .feed-card h3 { font-size: 16px; font-weight: 600; line-height: 1.4; margin-bottom: 8px; }
     .feed-card h3 a { color: #eef7ff; text-decoration: none; }
@@ -279,6 +733,81 @@
       backdrop-filter: blur(8px); display: none; font-weight: 500;
     }
     .error-banner.show { display: block; }
+    
+    /* CSS3D Marker Styles */
+    .css3d-marker {
+      width: 160px;
+      padding: 12px;
+      background: rgba(10, 20, 40, 0.95);
+      border: 2px solid rgba(100, 200, 255, 0.5);
+      border-radius: 8px;
+      color: #fff;
+      font-size: 13px;
+      cursor: pointer;
+      pointer-events: auto;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(10px);
+    }
+    
+    .css3d-marker:hover {
+      background: rgba(20, 40, 80, 0.95);
+      border-color: #64c8ff;
+      transform: scale(1.1);
+      box-shadow: 0 6px 30px rgba(100, 200, 255, 0.3);
+    }
+    
+    .marker-dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 8px;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    
+    @keyframes pulse {
+      0%, 100% { 
+        box-shadow: 0 0 10px currentColor;
+        transform: scale(1);
+      }
+      50% { 
+        box-shadow: 0 0 20px currentColor, 0 0 30px currentColor;
+        transform: scale(1.2);
+      }
+    }
+    
+    .marker-title {
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .marker-topic {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 3px;
+      font-size: 11px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    
+    .marker-desc {
+      font-size: 12px;
+      line-height: 1.5;
+      color: #b0b8d0;
+      margin-bottom: 6px;
+    }
+    
+    .marker-stats {
+      font-size: 11px;
+      color: #64c8ff;
+      border-top: 1px solid rgba(100, 200, 255, 0.2);
+      padding-top: 6px;
+    }
+    
     /* Mobile fixes */
     @media(max-width:768px){
       .top-nav{gap:4px;padding:8px 10px}
@@ -304,17 +833,12 @@
   </div>
 </noscript>
 
-<!-- Loading Skeleton -->
+<!-- Loading Spinner -->
 <div id="loading-overlay" style="position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;background:#02030a;transition:opacity .5s">
-<div style="text-align:center;width:280px">
+<div style="text-align:center">
 <svg width="64" height="64" viewBox="0 0 64 64" style="animation:spin .8s linear infinite"><circle cx="32" cy="32" r="28" fill="none" stroke="url(#g)" stroke-width="3" stroke-dasharray="120 56"/><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#67e8f9"/><stop offset="50%" stop-color="#6366f1"/><stop offset="100%" stop-color="#a78bfa"/></linearGradient></defs></svg>
-<div id="loading-status" style="color:rgba(136,146,182,.5);font-size:11px;margin-top:14px;letter-spacing:.12em;text-transform:uppercase">Loading</div>
-<!-- Skeleton cards -->
-<div style="margin-top:24px;display:flex;flex-direction:column;gap:12px;align-items:center">
-  <div class="skeleton-bar" style="width:180px;height:12px;border-radius:6px;background:linear-gradient(90deg,rgba(99,102,241,0.08) 25%,rgba(99,102,241,0.2) 50%,rgba(99,102,241,0.08) 75%);background-size:200% 100%;animation:shimmer 1.5s infinite"></div>
-  <div class="skeleton-bar" style="width:240px;height:10px;border-radius:5px;background:linear-gradient(90deg,rgba(99,102,241,0.06) 25%,rgba(99,102,241,0.15) 50%,rgba(99,102,241,0.06) 75%);background-size:200% 100%;animation:shimmer 1.5s infinite 0.2s"></div>
-  <div class="skeleton-bar" style="width:200px;height:10px;border-radius:5px;background:linear-gradient(90deg,rgba(99,102,241,0.06) 25%,rgba(99,102,241,0.15) 50%,rgba(99,102,241,0.06) 75%);background-size:200% 100%;animation:shimmer 1.5s infinite 0.4s"></div>
-</div>
+<div style="color:rgba(238,247,255,.5);font-size:11px;margin-top:14px;letter-spacing:.12em;text-transform:uppercase">Loading world data</div>
+<div id="loading-status" style="color:rgba(136,146,182,.5);font-size:11px;margin-top:6px">Initializing globe...</div>
 </div>
 </div>
 
@@ -430,31 +954,13 @@
 <!-- Screen reader announcements (visually hidden) -->
 <div id="a11y-live" aria-live="polite" aria-atomic="true"></div>
 
-  <script type="importmap">
-  {
-    "imports": {
-      "three": "https://cdn.jsdelivr.net/npm/three@0.174.0/build/three.module.js",
-      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.174.0/examples/jsm/"
-    }
-  }
-</script>
-<link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/three@0.174.0/build/three.module.js" />
-<link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/three@0.174.0/examples/jsm/controls/OrbitControls.js" />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
-  <script defer src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
-  <!-- Cloudflare Web Analytics (replace TOKEN with your CF Web Analytics token) -->
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d3c2a1b4e5f67890"}'></script>
-  <script type="module">
-    import * as THREE from 'three';
-    import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-    window.THREE = THREE;
-    window.OrbitControls = OrbitControls;
-    // ── Three.js load check ──
-    if (typeof THREE === 'undefined') {
-      document.body.innerHTML = '<div style="background:#03040c;color:#eef7ff;min-height:100vh;display:flex;align-items:center;justify-content:center;font-family:Inter,sans-serif;text-align:center;padding:40px"><div><div style="font-size:48px;margin-bottom:16px">&#9888;</div><h1 style="font-size:22px;margin-bottom:8px">Failed to load 3D engine</h1><p style="color:rgba(238,247,255,.6);max-width:400px;line-height:1.6">The 3D globe library (Three.js) could not be loaded. This may be due to a network issue or content blocker.</p></div></div>';
-      throw new Error('Three.js failed to load');
-    }
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+  <!-- Pure 2.5D: Canvas 2D + HTML markers, no Three.js -->
+  <script>
+    // ── Pure 2.5D mode (experimental) ──
+    console.log('AstroAxis Pure 2.5D mode enabled');
     // ── Performance monitoring (Core Web Vitals) ──
     window._perfMetrics = {};
     try {
@@ -580,7 +1086,6 @@
         'filter.bitcoin':'Bitcoin','filter.defi':'DeFi','filter.ai':'AI','filter.regulation':'Regulation',
         'hint.drag':'DRAG · A/D SPIN · W/S TILT · Q/E ZOOM · 1-3 VIEWS','hint.scroll':'↓ scroll for articles',
         'feed.title':'AstroAxis Feed','tl.title':'World History Timeline',
-        'feed.loadMore':'Load More','feed.remaining':'remaining',
         'alert.breaking':'BREAKING:','bias.none':'Neutral','bias.light':'Slight bias','bias.high':'Biased',
         'country.articles':'article','country.articles_plural':'articles',
         
@@ -594,7 +1099,6 @@
         'filter.bitcoin':'Bitcoin','filter.defi':'DeFi','filter.ai':'AI','filter.regulation':'監管',
         'hint.drag':'拖拽 · A/D 左右轉 · W/S 上下傾 · Q/E 縮放 · 1-3切換','hint.scroll':'↓ 向下睇文章',
         'feed.title':'AstroAxis 新聞','tl.title':'世界歷史時間軸',
-        'feed.loadMore':'載入更多','feed.remaining':'篇剩餘',
         'alert.breaking':'緊急：','bias.none':'中立','bias.light':'略帶偏頗','bias.high':'偏頗',
         'country.articles':'篇文章','country.articles_plural':'篇文章',
         
@@ -608,7 +1112,6 @@
         'filter.bitcoin':'比特币','filter.defi':'DeFi','filter.ai':'AI','filter.regulation':'监管',
         'hint.drag':'拖拽 · A/D 左右转 · W/S 上下倾 · Q/E 缩放 · 1-3切换','hint.scroll':'↓ 向下看文章',
         'feed.title':'AstroAxis 新闻','tl.title':'世界历史时间轴',
-        'feed.loadMore':'加载更多','feed.remaining':'篇剩余',
         'alert.breaking':'紧急：','bias.none':'中立','bias.light':'略有偏见','bias.high':'有偏见',
         'country.articles':'篇文章','country.articles_plural':'篇文章',
         
@@ -760,19 +1263,6 @@
       return TOPIC_ICONS[topic] || TOPIC_ICONS['General'];
     }
 
-    // ── Source trust levels ──
-    const TRUST_MAP = {
-      'New York Times': 'high', 'Bloomberg': 'high', 'Reuters': 'high', 'Financial Times': 'high', 'AP News': 'high', 'BBC World': 'high', 'WSJ Markets': 'high', 'NPR': 'high', 'Washington Post': 'high', 'The Guardian': 'high',
-      'CNBC': 'medium', 'MarketWatch': 'medium', 'Nikkei Asia': 'medium', 'SCMP': 'medium', 'Time': 'medium', 'Al Jazeera': 'medium', 'TechCrunch': 'medium', 'ArsTechnica': 'medium', 'Wired': 'medium', 'The Verge': 'medium', 'MIT Tech Review': 'medium', 'Bloomberg Crypto': 'medium',
-      'Reuters (Google News)': 'medium', 'AP News (Google News)': 'medium', 'AI News (Google)': 'medium', 'ArsTechnica AI': 'medium', 'VentureBeat AI': 'medium', 'OpenAI Blog': 'medium', 'Google AI Blog': 'medium', 'Anthropic Blog': 'medium', 'Hugging Face Blog': 'medium',
-    };
-    function trustBadge(source) {
-      const level = TRUST_MAP[source] || 'low';
-      if (level === 'high') return '<span class="trust-badge high" title="Established source">★</span>';
-      if (level === 'medium') return '<span class="trust-badge medium" title="Secondary source">◈</span>';
-      return '<span class="trust-badge low" title="Low trust source">○</span>';
-    }
-
     function renderFeed() {
       const articles = NEWS_DATA.articles || [];
       const wrap = document.getElementById('feed-content');
@@ -884,11 +1374,7 @@
         }
       }
       html += `<div class="feed-grid">`;
-      const pageSize = 30;
-      if (!window._feedPage) window._feedPage = 1;
-      const page = window._feedPage || 1;
-      const visible = filtered.slice(0, page * pageSize);
-      visible.forEach(a => {
+      filtered.slice(0, 50).forEach(a => {
         const biasScore = a.bias_score || 0;
         const biasCls = biasScore === 0 ? 'bias-low' : biasScore < 3 ? 'bias-med' : 'bias-high';
         const t = I18N[currentLang] || I18N['zh-HK']; const biasLabel = biasScore === 0 ? t['bias.none'] : biasScore < 3 ? t['bias.light'] : t['bias.high'];
@@ -897,27 +1383,20 @@
         const bullets = summaryText.split('\\n').filter(l => l.includes('•')).map(l => l.replace(/^[•\\s]+/,'').trim()).filter(Boolean).slice(0, 4);
         const thumbBg = topicGradient(a.topic || 'General');
         html += `<article class="feed-card" role="article" aria-label="${a.title.replace(/"/g,'&quot;')}" style="--thumb-bg:${thumbBg}">
-                  <div class="card-thumb placeholder" aria-hidden="true" style="background:${thumbBg}">${topicIcon(a.topic||'General')}</div>
-                  <div class="card-top">
-                    <a class="card-topic" href="/topic/${slugify(a.topic||'General')}/" style="color:#${a.topic === 'AI' ? '3b82f6' : a.topic === 'Bitcoin' ? 'f97316' : a.topic === 'Regulation' ? 'ef4444' : a.topic === 'DeFi' ? '22c55e' : a.topic === 'Crypto' ? '818cf8' : a.topic === 'Finance' ? '10b981' : a.topic === 'Tech' ? '6366f1' : a.topic === 'World' ? '0ea5e9' : a.topic === 'Politics' ? 'ec4899' : a.topic === 'Science' ? '84cc16' : a.topic === 'Health' ? 'f97316' : '818cf8'};text-decoration:none">${a.topic || 'General'}</a>
-                    ${trustBadge(a.source)}
-                  </div>
-                  <h3><a href="${a.url}" target="_blank" rel="noopener">${a.title}</a></h3>
-                  <div class="card-summary"><ul>${bullets.map(b => `<li>${b}</li>`).join('')}</ul></div>
-                  <div class="card-meta">
-                    <a href="/source/${slugify(a.source||'unknown')}/" style="color:inherit;text-decoration:none">${a.source}</a>
-                    <span>${a.published ? new Date(a.published).toLocaleDateString(currentLang === 'zh-HK' || currentLang === 'zh-CN' ? 'zh-TW' : currentLang, { year: 'numeric', month: 'short', day: 'numeric' }) : ''}</span>
-                  </div>
-                </article>`;
+          <div class="card-thumb placeholder" aria-hidden="true" style="background:${thumbBg}">${topicIcon(a.topic||'General')}</div>
+          <div class="card-top">
+            <span class="card-topic" style="color:#${a.topic === 'AI' ? '3b82f6' : a.topic === 'Bitcoin' ? 'f97316' : a.topic === 'Regulation' ? 'ef4444' : a.topic === 'DeFi' ? '22c55e' : a.topic === 'Crypto' ? '818cf8' : a.topic === 'Finance' ? '10b981' : a.topic === 'Tech' ? '6366f1' : a.topic === 'World' ? '0ea5e9' : a.topic === 'Politics' ? 'ec4899' : a.topic === 'Science' ? '84cc16' : a.topic === 'Health' ? 'f97316' : '818cf8'}">${a.topic || 'General'}</span>
+
+          </div>
+          <h3><a href="${a.url}" target="_blank" rel="noopener">${a.title}</a></h3>
+          <div class="card-summary"><ul>${bullets.map(b => `<li>${b}</li>`).join('')}</ul></div>
+          <div class="card-meta">
+            <span>${a.source}</span>
+            <span>${a.published ? new Date(a.published).toLocaleDateString(currentLang === 'zh-HK' || currentLang === 'zh-CN' ? 'zh-TW' : currentLang, { year: 'numeric', month: 'short', day: 'numeric' }) : ''}</span>
+          </div>
+        </article>`;
       });
       html += '</div>';
-      // Load More button
-      const totalFiltered = filtered.length;
-      if (totalFiltered > page * pageSize) {
-        html += `<div style="text-align:center;margin:24px 0 40px">
-          <button class="load-more-btn" onclick="window._feedPage=(window._feedPage||1)+1;renderFeed()">${I18N[currentLang]?.['feed.loadMore'] || 'Load More'} (${totalFiltered - page * pageSize} ${I18N[currentLang]?.['feed.remaining'] || 'remaining'})</button>
-        </div>`;
-      }
       document.getElementById('feed-content').innerHTML = html;
       // Update JSON-LD with current articles
       try {
@@ -978,10 +1457,8 @@
 
     // Deactivate 3D history when leaving view
     // Update nav click handler
-    // Save view preference on nav click
     document.querySelectorAll('.nav-btn').forEach(btn => {
       btn.addEventListener('click', () => {
-        localStorage.setItem('astroaxis_view', btn.dataset.view);
         document.querySelectorAll('.nav-btn').forEach(b => {
           b.classList.remove('active');
           b.setAttribute('aria-selected', 'false');
@@ -1027,20 +1504,7 @@
     // Announce search results for screen readers
     const _origRenderFeedSR = renderFeed;
     renderFeed = function() {
-      // Reset pagination on filter/search change
-      window._feedPage = 1;
       _origRenderFeedSR();
-      // Trending/Most Read: track article clicks
-      document.querySelectorAll('#feed-content .feed-card h3 a').forEach(function(link) {
-        link.addEventListener('click', function() {
-          try {
-            var clicks = JSON.parse(localStorage.getItem('astroaxis_clicks') || '{}');
-            var url = this.getAttribute('href');
-            clicks[url] = (clicks[url] || 0) + 1;
-            localStorage.setItem('astroaxis_clicks', JSON.stringify(clicks));
-          } catch(e) {}
-        });
-      });
       const cards = document.querySelectorAll('#feed-content .feed-card');
       const sq = window._searchQuery;
       if (sq) {
@@ -1353,7 +1817,7 @@ const GEO_KEYWORDS = [
     // Detect a geo location from article title + summary.
     // Returns [lat, lon, displayName] on first regex match, or null.
     function detectGeoLocation(article) {
-      const text = ((article.title || '') + ' ' + ((article.ai_summary || article.source) || '')).toLowerCase();
+      const text = ((article.title || '') + ' ' + (article.ai_summary || '')).toLowerCase();
       for (const entry of GEO_KEYWORDS) {
         // Clone the regex so we can use .test() without lastIndex issues in a loop
         const re = new RegExp(entry.re.source, entry.re.flags);
@@ -1376,182 +1840,200 @@ const GEO_KEYWORDS = [
     const FPS_THROTTLE = isLowEnd ? 2 : 1; // skip every Nth frame on low-end
 
     const canvas = document.getElementById('globe-canvas');
-    const scene = new THREE.Scene();
-    scene.fog = new THREE.FogExp2(0x000005, 0.018);
-
-    const camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 0.1, 120);
-    camera.position.set(0, 1.2, 12.2);
-
-    const renderer = new THREE.WebGLRenderer({ canvas, antialias: USE_ANTIALIAS, alpha: true, powerPreference: isLowEnd ? 'low-power' : 'high-performance', preserveDrawingBuffer: true });
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, MAX_PIXEL_RATIO));
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.toneMapping = THREE.ACESFilmicToneMapping;
-    renderer.toneMappingExposure = 1.3;
-    renderer.outputColorSpace = THREE.SRGBColorSpace;
-    renderer.setClearColor(0x000000, 0);
-    renderer.setClearAlpha(0);
-    const clock = new THREE.Clock();
-    const globe = new THREE.Group();
-    globe.rotation.set(0.03, -0.62, 0);
-    globe.position.y = -0.8;
-    scene.add(globe);
+    
+    // Pure 2.5D: Canvas 2D context
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    
+    // Camera parameters (simulated)
+    const camera = {
+      fov: 40,
+      position: { x: 0, y: 1.2, z: 12.2 },
+      aspect: window.innerWidth / window.innerHeight
+    };
+    
+    // Globe rotation
+    const globe = {
+      rotation: { x: 0.03, y: -0.62, z: 0 },
+      position: { x: 0, y: -0.8, z: 0 }
+    };
 
     const R = 4.15;
-    const CYAN = new THREE.Color('#22d3ee');
-    const ACCENT = new THREE.Color('#6366f1');
+    const CYAN = '#22d3ee';
+    const ACCENT = '#6366f1';
 
-    function latLonToVec3(lat, lon, radius = R) {
-      const phi = THREE.MathUtils.degToRad(90 - lat);
-      const theta = THREE.MathUtils.degToRad(lon + 180);
-      return new THREE.Vector3(
-        -radius * Math.sin(phi) * Math.cos(theta),
-        radius * Math.cos(phi),
-        radius * Math.sin(phi) * Math.sin(theta)
-      );
+    // Convert lat/lon to 2D canvas coordinates
+    function latLonToCanvas(lat, lon, radius = R) {
+      const phi = (90 - lat) * Math.PI / 180;
+      const theta = (lon + 180) * Math.PI / 180;
+      
+      // 3D coordinates
+      const x = -radius * Math.sin(phi) * Math.cos(theta);
+      const y = radius * Math.cos(phi);
+      const z = radius * Math.sin(phi) * Math.sin(theta);
+      
+      // Apply globe rotation
+      const cosY = Math.cos(globe.rotation.y);
+      const sinY = Math.sin(globe.rotation.y);
+      const cosX = Math.cos(globe.rotation.x);
+      const sinX = Math.sin(globe.rotation.x);
+      
+      // Rotate around Y axis
+      let x2 = x * cosY + z * sinY;
+      let z2 = -x * sinY + z * cosY;
+      let y2 = y;
+      
+      // Rotate around X axis
+      let y3 = y2 * cosX - z2 * sinX;
+      let z3 = y2 * sinX + z2 * cosX;
+      
+      // Apply globe position
+      x2 += globe.position.x;
+      y3 += globe.position.y;
+      
+      // Project to 2D
+      const scale = 100 / (camera.position.z - z3);
+      const screenX = canvas.width / 2 + x2 * scale * 100;
+      const screenY = canvas.height / 2 - y3 * scale * 100;
+      
+      return { x: screenX, y: screenY, z: z3, visible: z3 < 0 };
     }
 
-    function makeLineMaterial({ color = '#22d3ee', opacity = 0.3, additive = true } = {}) {
-      return new THREE.LineBasicMaterial({
-        color,
-        transparent: true,
-        opacity,
-        blending: additive ? THREE.AdditiveBlending : THREE.NormalBlending,
-        depthWrite: false
+    // Draw grid lines
+    function drawGrid() {
+      ctx.strokeStyle = CYAN;
+      ctx.globalAlpha = 0.16;
+      ctx.lineWidth = 1;
+      
+      // Latitude lines
+      for (let lat = -75; lat <= 75; lat += 15) {
+        ctx.beginPath();
+        let started = false;
+        for (let lon = -180; lon <= 180; lon += 5) {
+          const point = latLonToCanvas(lat, lon, R);
+          if (point.visible) {
+            if (!started) {
+              ctx.moveTo(point.x, point.y);
+              started = true;
+            } else {
+              ctx.lineTo(point.x, point.y);
+            }
+          }
+        }
+        ctx.stroke();
+      }
+      
+      // Longitude lines
+      for (let lon = -180; lon < 180; lon += 15) {
+        ctx.beginPath();
+        let started = false;
+        for (let lat = -80; lat <= 80; lat += 3) {
+          const point = latLonToCanvas(lat, lon, R);
+          if (point.visible) {
+            if (!started) {
+              ctx.moveTo(point.x, point.y);
+              started = true;
+            } else {
+              ctx.lineTo(point.x, point.y);
+            }
+          }
+        }
+        ctx.stroke();
+      }
+      
+      ctx.globalAlpha = 1;
+    }
+
+    // ── Draw globe sphere with Canvas 2D ──
+    function drawGlobe() {
+      const centerX = canvas.width / 2;
+      const centerY = canvas.height / 2;
+      const radius = R * 100; // Scale factor
+      
+      // Draw depth occlusion sphere (dark background)
+      ctx.fillStyle = '#000000';
+      ctx.beginPath();
+      ctx.arc(centerX, centerY, radius, 0, Math.PI * 2);
+      ctx.fill();
+      
+      // Draw halo effect (rim lighting)
+      const gradient = ctx.createRadialGradient(centerX, centerY, radius * 0.95, centerX, centerY, radius * 1.05);
+      gradient.addColorStop(0, 'rgba(34, 211, 238, 0)');
+      gradient.addColorStop(0.5, 'rgba(34, 211, 238, 0.15)');
+      gradient.addColorStop(1, 'rgba(99, 102, 241, 0.05)');
+      
+      ctx.fillStyle = gradient;
+      ctx.beginPath();
+      ctx.arc(centerX, centerY, radius * 1.05, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    
+    // ── Draw continent borders ──
+    function drawContinents() {
+      // Simplified continent drawing using Canvas 2D
+      // In full implementation, would use country data from topojson
+      ctx.strokeStyle = 'rgba(34, 211, 238, 0.3)';
+      ctx.lineWidth = 1;
+      
+      // Draw grid lines (already implemented in drawGrid)
+      drawGrid();
+    }
+
+    // ── Continent rendering (Canvas 2D) ──
+    const continentGroup = { children: [] };
+    const landFillGroup = { children: [] };
+    
+    // Simplified continent data loading
+    let countryData = null;
+    
+    async function loadCountries() {
+      try {
+        const resp = await fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json');
+        if (!resp.ok) return;
+        const data = await resp.json();
+        countryData = topojson.feature(data, data.objects.countries);
+        console.log('Loaded', countryData.features.length, 'countries');
+      } catch (e) {
+        console.warn('Failed to load country data:', e);
+      }
+    }
+    
+    function drawCountries() {
+      if (!countryData) return;
+      
+      ctx.strokeStyle = 'rgba(34, 211, 238, 0.4)';
+      ctx.lineWidth = 1;
+      
+      countryData.features.forEach(feature => {
+        if (!feature.geometry) return;
+        
+        const coords = feature.geometry.type === 'Polygon' 
+          ? [feature.geometry.coordinates]
+          : feature.geometry.coordinates;
+        
+        coords.forEach(polygon => {
+          polygon.forEach(ring => {
+            ctx.beginPath();
+            let started = false;
+            
+            ring.forEach(([lon, lat]) => {
+              const point = latLonToCanvas(lat, lon, R);
+              if (point.visible) {
+                if (!started) {
+                  ctx.moveTo(point.x, point.y);
+                  started = true;
+                } else {
+                  ctx.lineTo(point.x, point.y);
+                }
+              }
+            });
+            
+            ctx.stroke();
+          });
+        });
       });
     }
-
-    // Full-sphere wireframe: merged into 3 LineSegments for draw-call efficiency
-    const grid = new THREE.Group();
-    const meridianMat = makeLineMaterial({ color: '#22d3ee', opacity: 0.16 });
-    const latitudeMat = makeLineMaterial({ color: '#6366f1', opacity: 0.18 });
-    const glowGridMat = makeLineMaterial({ color: '#22d3ee', opacity: 0.06 });
-
-    // Collect all latitude line points into one geometry
-    const latPts = [], latMajorPts = [];
-    for (let lat = -75; lat <= 75; lat += 15) {
-      const pts = [];
-      for (let lon = -180; lon <= 180; lon += 5) pts.push(latLonToVec3(lat, lon, R));
-      const target = lat % 30 === 0 ? latMajorPts : latPts;
-      for (let i = 0; i < pts.length - 1; i++) { target.push(pts[i]); target.push(pts[i+1]); }
-    }
-    if (latPts.length) { const g = new THREE.BufferGeometry().setFromPoints(latPts); grid.add(new THREE.LineSegments(g, glowGridMat)); }
-    if (latMajorPts.length) { const g = new THREE.BufferGeometry().setFromPoints(latMajorPts); grid.add(new THREE.LineSegments(g, latitudeMat)); }
-
-    // Collect all meridian line points into one geometry
-    const merPts = [], merMajorPts = [];
-    for (let lon = -180; lon < 180; lon += 15) {
-      const pts = [];
-      for (let lat = -80; lat <= 80; lat += 3) pts.push(latLonToVec3(lat, lon, R));
-      const target = lon % 30 === 0 ? merMajorPts : merPts;
-      for (let i = 0; i < pts.length - 1; i++) { target.push(pts[i]); target.push(pts[i+1]); }
-    }
-    if (merPts.length) { const g = new THREE.BufferGeometry().setFromPoints(merPts); grid.add(new THREE.LineSegments(g, glowGridMat)); }
-    if (merMajorPts.length) { const g = new THREE.BufferGeometry().setFromPoints(merMajorPts); grid.add(new THREE.LineSegments(g, meridianMat)); }
-    globe.add(grid);
-
-    // ── Depth-occlusion sphere: renders to depth buffer only, no color ──
-    // This prevents back-side elements (borders, labels) from showing through
-    const depthSphere = new THREE.Mesh(
-      new THREE.SphereGeometry(R * 1.012, 48, 24),
-      new THREE.MeshBasicMaterial({
-        colorWrite: false, depthWrite: true, depthTest: true,
-        side: THREE.FrontSide
-      })
-    );
-    depthSphere.renderOrder = 1;
-    globe.add(depthSphere);
-
-    // Faint sphere-cap aura (transparent wire-only accent; no opaque surface).
-    const haloMaterial = new THREE.ShaderMaterial({
-      transparent: true,
-      depthWrite: false,
-      blending: THREE.AdditiveBlending,
-      side: THREE.BackSide,
-      uniforms: {
-        uTime: { value: 0 },
-        uCyan: { value: CYAN },
-        uAccent: { value: ACCENT }
-      },
-      vertexShader: `
-        varying vec3 vNormal;
-        varying vec3 vWorld;
-        void main() {
-          vNormal = normalize(normalMatrix * normal);
-          vec4 world = modelMatrix * vec4(position, 1.0);
-          vWorld = world.xyz;
-          gl_Position = projectionMatrix * viewMatrix * world;
-        }
-      `,
-      fragmentShader: `
-        uniform float uTime;
-        uniform vec3 uCyan;
-        uniform vec3 uAccent;
-        varying vec3 vNormal;
-        varying vec3 vWorld;
-        void main() {
-          float rim = pow(1.0 - abs(dot(normalize(vNormal), vec3(0.0, 0.0, 1.0))), 2.3);
-          float pulse = 0.55 + 0.45 * sin(uTime * 1.45 + vWorld.y * 1.6);
-          vec3 color = mix(uAccent, uCyan, 0.62 + 0.22 * sin(uTime));
-          gl_FragColor = vec4(color, rim * 0.105 * pulse);
-        }
-      `
-    });
-    const halo = new THREE.Mesh(new THREE.SphereGeometry(R * 1.006, GLOBE_SEGMENTS, GLOBE_SEGMENTS/2), haloMaterial);
-    globe.add(halo);
-
-    const continentMaterial = new THREE.ShaderMaterial({
-      transparent: true,
-      depthWrite: false,
-      depthTest: false,
-      blending: THREE.AdditiveBlending,
-      uniforms: {
-        uTime: { value: 0 },
-        uOpacity: { value: 0.62 },
-        uColorA: { value: CYAN },
-        uColorB: { value: ACCENT }
-      },
-      vertexShader: `
-        attribute float aProgress;
-        varying float vProgress;
-        varying vec3 vWorld;
-        void main() {
-          vProgress = aProgress;
-          vec4 world = modelMatrix * vec4(position, 1.0);
-          vWorld = world.xyz;
-          gl_Position = projectionMatrix * viewMatrix * world;
-        }
-      `,
-      fragmentShader: `
-        uniform float uTime;
-        uniform float uOpacity;
-        uniform vec3 uColorA;
-        uniform vec3 uColorB;
-        varying float vProgress;
-        varying vec3 vWorld;
-        void main() {
-          // Fade the back half of the transparent globe so the coastlines read cleanly
-          // instead of drawing every far-side continent over the front hemisphere.
-          vec3 normal = normalize(vWorld);
-          vec3 viewDir = normalize(cameraPosition - vWorld);
-          float facing = smoothstep(-0.08, 0.34, dot(normal, viewDir));
-          float limb = 0.38 + 0.62 * smoothstep(-0.02, 0.22, dot(normal, viewDir));
-          float flow = smoothstep(0.92, 1.0, 1.0 - abs(fract(vProgress * 2.4 - uTime * 0.09) - 0.5) * 2.0);
-          float spark = smoothstep(0.975, 1.0, 1.0 - abs(fract(vProgress * 7.0 - uTime * 0.18) - 0.5) * 2.0);
-          vec3 color = mix(uColorB, uColorA, 0.72 + flow * 0.28);
-          float alpha = uOpacity * facing * limb * (0.58 + flow * 0.34 + spark * 0.14);
-          gl_FragColor = vec4(color, alpha);
-        }
-      `
-    });
-
-    const continentGlowMaterial = continentMaterial.clone();
-    continentGlowMaterial.uniforms = THREE.UniformsUtils.clone(continentMaterial.uniforms);
-    continentGlowMaterial.uniforms.uOpacity.value = 0.18;
-    continentGlowMaterial.uniforms.uColorA.value = new THREE.Color('#67e8f9');
-    continentGlowMaterial.uniforms.uColorB.value = new THREE.Color('#818cf8');
-
-    const continentGroup = new THREE.Group();
-    const landFillGroup = new THREE.Group();
 
     // Natural Earth 50m has beautiful source geometry, but its raw coastline
     // vertex density turns intricate regions (fjords, island chains, peninsulas)
@@ -1996,11 +2478,13 @@ const GEO_KEYWORDS = [
       markerPositions = [];
       markerColors = [];
       markerData = [];
+      css3dMarkers = [];
+      
       // Group articles by their base location for clustering
       const locationGroups = {};
-      const _articles = (typeof NEWS_DATA !== 'undefined' && NEWS_DATA.globeArticles) ? NEWS_DATA.globeArticles : [];
-    _articles.forEach((article, index) => {
-      // Globe articles may not have ai_summary — skip only if coordinates missing
+      const _articles = (typeof NEWS_DATA !== 'undefined' && NEWS_DATA.articles) ? NEWS_DATA.articles : [];
+    _articles.slice(0, 100).forEach((article, index) => {
+      if (!article.ai_summary) return;
       let baseLat, baseLon, city;
       const geoMatch = detectGeoLocation(article);
       if (geoMatch) {
@@ -2015,10 +2499,8 @@ const GEO_KEYWORDS = [
       locationGroups[key].push({ article, baseLat, baseLon, city, index });
     });
 
-    // Create ONE cluster marker per location group
-    // with size proportional to article count
-    const countSprites = [];
-    Object.values(locationGroups).forEach((group) => {
+    // Create CSS3D markers for each location group
+    Object.values(locationGroups).forEach((group, idx) => {
       const { baseLat, baseLon, city } = group[0];
       const groupSize = group.length;
 
@@ -2031,14 +2513,58 @@ const GEO_KEYWORDS = [
       });
       let maxCnt = 0;
       Object.entries(topicCounts).forEach(([t, c]) => { if (c > maxCnt) { maxCnt = c; dominantTopic = t; } });
-      const color = new THREE.Color(topicColors[dominantTopic] || topicColors.General);
+      const colorHex = topicColors[dominantTopic] || topicColors.General;
+      const color = new THREE.Color(colorHex);
 
-      // Cluster marker at centroid, size scales with count
+      // Position on globe surface
       const pos = latLonToVec3(baseLat, baseLon, R * 1.035);
       const clusterScale = 1 + Math.min(groupSize - 1, 8) * 0.12;
 
       markerPositions.push(pos);
       markerColors.push(color);
+      
+      // Create HTML element for marker
+      const markerElement = document.createElement('div');
+      markerElement.className = 'css3d-marker';
+      markerElement.id = `news-marker-${idx}`;
+      markerElement.dataset.topic = dominantTopic;
+      markerElement.dataset.city = city;
+      markerElement.dataset.count = groupSize;
+      
+      const summaryText = group[0].article.ai_summary ? 
+        group[0].article.ai_summary.split('•')[1]?.trim().slice(0, 80) + '...' : 
+        'No summary available';
+      
+      markerElement.innerHTML = `
+        <div class="marker-title">
+          <span class="marker-dot" style="background: ${colorHex}; color: ${colorHex};"></span>
+          ${city}
+        </div>
+        <div class="marker-topic" style="background: ${colorHex}20; color: ${colorHex};">${dominantTopic}</div>
+        <div class="marker-desc">${summaryText}</div>
+        <div class="marker-stats">📰 ${groupSize} article${groupSize > 1 ? 's' : ''}</div>
+      `;
+      
+      // Click handler
+      markerElement.addEventListener('click', (e) => {
+        e.stopPropagation();
+        console.log('Marker clicked:', city, groupSize, 'articles');
+        // TODO: Open article list or navigate to feed view
+        alert(`📍 ${city}\n${dominantTopic}\n${groupSize} articles\n\nClick OK to see articles`);
+      });
+      
+      // Create CSS3DObject
+      const css3dObject = new THREE.CSS3DObject(markerElement);
+      css3dObject.position.copy(pos);
+      
+      // Rotate to face outward from globe
+      const lookAtTarget = pos.clone().multiplyScalar(2);
+      css3dObject.lookAt(lookAtTarget);
+      
+      // Scale based on cluster size
+      const scale = clusterScale * 0.015;
+      css3dObject.scale.set(scale, scale, scale);
+      
       markerData.push({
         articles: group.map(g => g.article),
         cities: [...new Set(group.map(g => g.city))],
@@ -2049,45 +2575,26 @@ const GEO_KEYWORDS = [
         baseScale: clusterScale,
         markerCount: groupSize,
         _groupSize: groupSize,
+        css3dObject: css3dObject,
       });
-
-      // Count sprite for clusters with >1 article
-      if (groupSize > 1) {
-        const c = document.createElement('canvas');
-        c.width = 128; c.height = 64;
-        const cx = c.getContext('2d');
-        const fsize = groupSize > 99 ? 28 : 32;
-        cx.font = `bold ${fsize}px Inter, sans-serif`;
-        cx.textAlign = 'center';
-        cx.textBaseline = 'middle';
-        cx.shadowColor = 'rgba(0,0,0,0.9)';
-        cx.shadowBlur = 10;
-        cx.fillStyle = '#ffffff';
-        cx.fillText(String(groupSize), 64, 34);
-        cx.shadowBlur = 0;
-        const tex = new THREE.CanvasTexture(c);
-        tex.minFilter = THREE.LinearFilter;
-        const spriteMat = new THREE.SpriteMaterial({ map: tex, transparent: true, opacity: 0.95, depthWrite: false, depthTest: false });
-        const sprite = new THREE.Sprite(spriteMat);
-        sprite.renderOrder = 10;
-        sprite.position.copy(pos);
-        sprite.position.setLength(R * 1.075);
-        const s = Math.min(0.8, 0.25 + groupSize * 0.05);
-        sprite.scale.set(s, s * 0.5, 1);
-        countSprites.push(sprite);
-      }
+      
+      css3dMarkers.push(css3dObject);
     });
-    // Add count sprites to marker group
-    countSprites.forEach(s => markerGroup.add(s));
-
-    // Instanced mesh for cluster markers
+    
+    // Add CSS3D markers to scene
+    if (css3dRenderer) {
+      css3dMarkers.forEach(marker => {
+        scene.add(marker);
+      });
+    }
+    
+    // Keep WebGL instanced markers for visual effects (glow, pulse)
     markerCount = markerPositions.length;
     const markerMat = new THREE.MeshBasicMaterial({
       transparent: true, opacity: 1.0, blending: THREE.AdditiveBlending, depthWrite: false
     });
     instancedMarkers = new THREE.InstancedMesh(markerGeometry, markerMat, markerCount);
     const colorAttr = new THREE.InstancedBufferAttribute(new Float32Array(markerCount * 3), 3);
-    // Build scale array for per-instance size
     const scaleAttr = new THREE.InstancedBufferAttribute(new Float32Array(markerCount), 1);
     const originalPositions = markerPositions.map(p => p.clone());
     for (let i = 0; i < markerCount; i++) {
@@ -2571,7 +3078,7 @@ const GEO_KEYWORDS = [
     });
     applyFilter();
 
-    const controls = new OrbitControls(camera, renderer.domElement);
+    const controls = new THREE.OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
     controls.dampingFactor = 0.055;
     controls.enablePan = false;
@@ -2884,6 +3391,9 @@ const GEO_KEYWORDS = [
       camera.updateProjectionMatrix();
       renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
       renderer.setSize(w, h);
+      if (css3dRenderer) {
+        css3dRenderer.setSize(w, h);
+      }
       globe.scale.setScalar(w < 768 ? 0.82 : Math.min(1.06, Math.max(0.92, h / 960)));
     }
     window.addEventListener('resize', resize, { passive: true });
@@ -3130,6 +3640,10 @@ const GEO_KEYWORDS = [
 
       if (!window._cameraOverride) controls.update();
       renderer.render(scene, camera);
+      // Temporarily disabled CSS3DRenderer to fix WebGL context lost
+      // if (css3dRenderer && css3dMarkers && css3dMarkers.length > 0) {
+      //   css3dRenderer.render(scene, camera);
+      // }
       requestAnimationFrame(animate);
     }
 
@@ -3322,152 +3836,7 @@ const GEO_KEYWORDS = [
       setInterval(checkBreaking, 300000);
       initStarField();  // Create history rings after timelineData loaded
       animate();
-      // ── Default view: first visit → feed, returning → remembered view ──
-      const savedView = localStorage.getItem('astroaxis_view');
-      if (!savedView || savedView === 'globe') {
-        // First visit: show feed instead of globe
-        setTimeout(() => {
-          const feedBtn = document.querySelector('.nav-btn[data-view="feed"]');
-          if (feedBtn) feedBtn.click();
-        }, 50);
-      } else if (savedView !== 'globe') {
-        setTimeout(() => {
-          const targetBtn = document.querySelector(`.nav-btn[data-view="${savedView}"]`);
-          if (targetBtn) targetBtn.click();
-        }, 50);
-      }
     }
-  </script>
-
-  <!-- ── Hidden analytics panel (Ctrl+Shift+A to toggle) ── -->
-  <style>
-    #astroaxis-analytics-panel {
-      position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-      z-index: 99999; background: rgba(0,0,0,0.85);
-      display: none; align-items: center; justify-content: center;
-      font-family: 'SF Mono','Fira Code','Cascadia Code',monospace;
-    }
-    #astroaxis-analytics-panel.open { display: flex; }
-    #astroaxis-analytics-panel > div {
-      background: #0f172a; border: 1px solid #334155;
-      border-radius: 12px; padding: 28px 36px; max-width: 720px;
-      width: 90%; max-height: 80vh; overflow-y: auto;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.6);
-    }
-    #astroaxis-analytics-panel h2 {
-      color: #67e8f9; font-size: 18px; margin: 0 0 16px 0;
-      letter-spacing: 1px;
-    }
-    #astroaxis-analytics-panel h2 span { color: #64748b; font-weight: normal; }
-    #astroaxis-analytics-panel table {
-      width: 100%; border-collapse: collapse; font-size: 12px;
-    }
-    #astroaxis-analytics-panel th {
-      text-align: left; color: #94a3b8; padding: 6px 8px;
-      border-bottom: 1px solid #1e293b; font-weight: 500;
-    }
-    #astroaxis-analytics-panel td {
-      color: #cbd5e1; padding: 6px 8px; border-bottom: 1px solid #1e293b;
-      max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-    }
-    #astroaxis-analytics-panel .num { color: #a78bfa; text-align: right; font-variant-numeric: tabular-nums; }
-    #astroaxis-analytics-panel .close-btn {
-      float: right; color: #64748b; cursor: pointer; font-size: 20px; line-height: 1;
-    }
-    #astroaxis-analytics-panel .close-btn:hover { color: #f87171; }
-    #astroaxis-analytics-panel .section { margin: 16px 0; }
-    #astroaxis-analytics-panel .stat-grid {
-      display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-      gap: 8px; margin: 10px 0;
-    }
-    #astroaxis-analytics-panel .stat-card {
-      background: #1e293b; border-radius: 8px; padding: 10px 12px; text-align: center;
-    }
-    #astroaxis-analytics-panel .stat-card .val {
-      font-size: 24px; font-weight: bold; color: #67e8f9; display: block;
-    }
-    #astroaxis-analytics-panel .stat-card .label {
-      font-size: 10px; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 2px;
-    }
-  </style>
-  <div id="astroaxis-analytics-panel">
-    <div>
-      <span class="close-btn" onclick="document.getElementById('astroaxis-analytics-panel').classList.remove('open')">✕</span>
-      <h2>📊 AstroAxis <span>Analytics</span></h2>
-      <div id="analytics-content"></div>
-    </div>
-  </div>
-  <script>
-    (function() {
-      // Toggle panel on Ctrl+Shift+A
-      document.addEventListener('keydown', function(e) {
-        if (e.ctrlKey && e.shiftKey && (e.key === 'a' || e.key === 'A')) {
-          e.preventDefault();
-          var panel = document.getElementById('astroaxis-analytics-panel');
-          if (panel.classList.contains('open')) {
-            panel.classList.remove('open');
-          } else {
-            renderAnalytics();
-            panel.classList.add('open');
-          }
-        }
-      });
-      // Also accessible as window.openAnalytics()
-      window.openAnalytics = function() {
-        renderAnalytics();
-        document.getElementById('astroaxis-analytics-panel').classList.add('open');
-      };
-      function renderAnalytics() {
-        var html = '';
-        // ── Overview stats ──
-        var a = (function(){try{return JSON.parse(localStorage.getItem('astroaxis_analytics')||'{}');}catch(e){return{};}})();
-        var clicks = (function(){try{return JSON.parse(localStorage.getItem('astroaxis_clicks')||'{}');}catch(e){return{};}})();
-        var searches = (function(){try{return JSON.parse(localStorage.getItem('astroaxis_searches')||'[]');}catch(e){return[];}})();
-        var visits = a.visits || 0;
-        var totalMin = Math.round((a.totalSeconds||0)/60);
-        var sessions = (a.sessions||[]).length;
-        html += '<div class="stat-grid">';
-        html += '<div class="stat-card"><span class="val">'+visits+'</span><span class="label">Visits</span></div>';
-        html += '<div class="stat-card"><span class="val">'+totalMin+'m</span><span class="label">Total Time</span></div>';
-        html += '<div class="stat-card"><span class="val">'+sessions+'</span><span class="label">Sessions</span></div>';
-        var topArts = 0; for(var k in clicks) topArts++;
-        html += '<div class="stat-card"><span class="val">'+topArts+'</span><span class="label">Articles Clicked</span></div>';
-        html += '<div class="stat-card"><span class="val">'+(searches.length||0)+'</span><span class="label">Searches</span></div>';
-        html += '</div>';
-        // ── Top clicked articles ──
-        var sorted = Object.keys(clicks).sort(function(a,b){return (clicks[b]||0)-(clicks[a]||0);});
-        if (sorted.length > 0) {
-          html += '<div class="section"><h2>🖱️ Top Clicked</h2><table><tr><th>#</th><th>Article</th><th class="num">Clicks</th></tr>';
-          sorted.slice(0, 15).forEach(function(key, i) {
-            // Truncate long titles
-            var label = key.replace(/-/g,' ');
-            if (label.length > 40) label = label.slice(0,40)+'…';
-            html += '<tr><td>'+(i+1)+'</td><td title="'+key.replace(/'/g,'&apos;')+'">'+label+'</td><td class="num">'+(clicks[key]||0)+'</td></tr>';
-          });
-          html += '</table></div>';
-        }
-        // ── Recent searches ──
-        if (searches.length > 0) {
-          html += '<div class="section"><h2>🔍 Recent Searches</h2><table><tr><th>#</th><th>Query</th><th>Results</th></tr>';
-          searches.slice(-10).reverse().forEach(function(s, i) {
-            html += '<tr><td>'+(i+1)+'</td><td>'+(s.q||'')+'</td><td class="num">'+(s.count||0)+'</td></tr>';
-          });
-          html += '</table></div>';
-        }
-        // ── Session history ──
-        if (a.sessions && a.sessions.length > 0) {
-          html += '<div class="section"><h2>⏱️ Recent Sessions</h2><table><tr><th>#</th><th>Duration</th><th>Started</th></tr>';
-          a.sessions.slice(-5).reverse().forEach(function(s, i) {
-            var d = s.duration||0;
-            var durStr = d < 60 ? d+'s' : Math.floor(d/60)+'m '+(d%60)+'s';
-            var startStr = s.start ? new Date(s.start).toLocaleTimeString() : '—';
-            html += '<tr><td>'+(i+1)+'</td><td>'+durStr+'</td><td>'+startStr+'</td></tr>';
-          });
-          html += '</table></div>';
-        }
-        document.getElementById('analytics-content').innerHTML = html || '<p style="color:#64748b;text-align:center;padding:20px;">No analytics data yet.</p>';
-      }
-    })();
   </script>
 </body>
 </html>

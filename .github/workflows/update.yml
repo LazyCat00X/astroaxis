@@ -46,8 +46,8 @@ jobs:
         run: |
           python3 generate_globe_data.py
           python3 generate_articles.py
-          python3 generate_sitemap.py
           python3 generate_content_pages.py
+          python3 generate_sitemap.py
       
       - name: Deploy to GitHub Pages (astroaxis-site)
         run: |
