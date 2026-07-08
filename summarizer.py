@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""AstroAxis summarizer v2: single-pass summarize + translate, quality-gated."""
+"""AstroAxis summarizer v3: single-pass summarize only (no translate)."""
 import json, logging, os, time
 from pathlib import Path
 import requests
@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 API_URL = "https://models.inference.ai.azure.com/chat/completions"
 MODEL = "gpt-4o-mini"
 MAX_PER_RUN = int(os.environ.get("MAX_ARTICLES_PER_RUN", "30"))
-RATE_LIMIT_DELAY = 1.0  # GitHub Models allows 20k req/min, but safe at 1s
+DELAY = 0.5
 
 def get_api_key():
     KEY = ""
@@ -64,7 +64,6 @@ def call(system, user, temp=0.3, max_tok=800):
             time.sleep(3)
     return None
 
-# Single-pass: summarize + translate in one call (saves 2 API calls per article)
 SUMMARY_PROMPT = """You are a neutral news editor. Read the article and write a concise summary.
 
 Rules:
@@ -88,37 +87,14 @@ def summarize_article(title, text):
     result = call(SUMMARY_PROMPT, f"Title: {title}\n\n{t}", 0.3, 400)
     if not result:
         return None
-    # Quality check
     result = result.strip()
     if len(result) < 30:
         log.warning("Summary too short (%d chars), discarding", len(result))
         return None
     if "•" not in result:
-        # Add bullets if missing
         lines = [l.strip() for l in result.split("\n") if l.strip() and not l.strip().startswith("#")]
         result = "\n".join(f"• {l}" for l in lines[:4])
     return result
-
-def translate_to_langs(zh_summary, title):
-    """Translate zh-HK summary to en, zh-CN, ja, ko in one call."""
-    result = call(
-        "Translate the following news summary into 4 languages. Keep bullet format.\n\n[EN]\n[zh-CN]\n[JA]\n[KO]\n\nOutput ALL 4, each section prefixed with [XX].",
-        f"Title: {title}\n\nSummary:\n{zh_summary}",
-        0.2, 600
-    )
-    if not result:
-        return {}
-    langs = {}
-    cur = None
-    for line in result.split("\n"):
-        ls = line.strip()
-        if ls.startswith("[EN]"): cur = "en"
-        elif ls.startswith("[zh-CN]"): cur = "zh-CN"
-        elif ls.startswith("[JA]"): cur = "ja"
-        elif ls.startswith("[KO]"): cur = "ko"
-        elif cur and ls:
-            langs[cur] = (langs.get(cur, "") + "\n" + ls).strip()
-    return langs
 
 def load_articles():
     if ARTICLES_FILE.exists():
@@ -136,15 +112,13 @@ def run():
     if not articles:
         return 0
 
-    # Reset bad summaries — expand detection
+    # Reset bad summaries
     reset_count = 0
     for a in articles:
         s = a.get("ai_summary", "")
         title = a.get("title", "").lower()
-        # Known bad patterns: wrong content, placeholders, too-short
         bad_patterns = ["(neutralize failed)", "(no content)", "浙江省宣傳部門"]
         is_bad = any(bad in s for bad in bad_patterns) or (s.startswith("[Skipped:") and len(s) < 30)
-        # Also reset if summary is way too short or doesn't reference article lang
         if not is_bad and s and len(s) < 30:
             is_bad = True
         if is_bad:
@@ -175,30 +149,20 @@ def run():
             continue
 
         log.info("── %s ──", title[:50])
-
-        # Step 1: Summarize (single pass, zh-HK)
         zh_summary = summarize_article(title, text)
         if not zh_summary:
             log.warning("  Summary failed, skipping (will retry next run)")
             continue
         log.info("  [OK] Summary (%d chars)", len(zh_summary))
 
-        # Step 2: Translate to other languages
-        time.sleep(RATE_LIMIT_DELAY)
-        other_langs = translate_to_langs(zh_summary, title)
-        if other_langs:
-            log.info("  [OK] Translations: %s", list(other_langs.keys()))
-
-        # Save
+        # Save (no multilang translation)
         art["summarized"] = True
         art["ai_summary"] = zh_summary
-        art["summaries"] = {"zh-HK": zh_summary, **other_langs}
+        art["summaries"] = {"zh-HK": zh_summary}
         art.pop("needs_multilang", None)
         count += 1
-
-        # Save after each article (crash-safe)
         save_articles(articles)
-        time.sleep(RATE_LIMIT_DELAY)
+        time.sleep(DELAY)
 
     log.info("Done: %d articles", count)
     return count

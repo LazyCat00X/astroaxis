@@ -105,9 +105,22 @@ def main():
             "summaries": a.get("summaries", {}),
         })
 
+    # Globe payload: latest 100, lightweight (no summaries)
+    globe_articles = [
+        {
+            "url": a["url"],
+            "title": a["title"],
+            "source": a["source"],
+            "topic": a["topic"],
+            "published": a["published"],
+        }
+        for a in articles_out[:100]
+    ]
+
     source_locs = load_source_locs()
     news_data = {
         "articles": articles_out,
+        "globeArticles": globe_articles,
         "sourceLocations": source_locs,
     }
 
