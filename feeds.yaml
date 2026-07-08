@@ -33,11 +33,11 @@ sources:
     category: finance
     lang: en
     trust: medium
-  - name: Reuters
-    url: https://www.reutersagency.com/feed/?post_type=business&feed_type=rss
+  - name: CNN Business
+    url: https://money.cnn.com/services/rss/
     category: finance
     lang: en
-    trust: high
+    trust: medium
   - name: CNBC
     url: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10001147
     category: finance
@@ -125,16 +125,6 @@ sources:
     category: general
     lang: en
     trust: high
-  - name: Reuters World
-    url: https://www.reutersagency.com/feed/?post_type=best&feed_type=rss
-    category: general
-    lang: en
-    trust: high
-  - name: AP News
-    url: https://feeds.ap.org/ap/news.xml
-    category: general
-    lang: en
-    trust: high
   - name: Al Jazeera
     url: https://www.aljazeera.com/xml/rss/all.xml
     category: general
@@ -145,11 +135,6 @@ sources:
     category: general
     lang: en
     trust: high
-  - name: Nikkei Asia
-    url: https://asia.nikkei.com/rss/feed
-    category: general
-    lang: en
-    trust: medium
   - name: SCMP
     url: https://www.scmp.com/rss/4/feed
     category: general
@@ -185,7 +170,6 @@ sources:
     category: finance
     lang: en
     trust: high
-
   # AI / ML sources
   - name: OpenAI Blog
     url: https://openai.com/blog/rss.xml
@@ -212,7 +196,6 @@ sources:
     category: ai
     lang: en
     trust: medium
-
   # Additional Tech sources
   - name: The Verge
     url: https://www.theverge.com/rss/index.xml
@@ -229,8 +212,7 @@ sources:
     category: tech
     lang: en
     trust: medium
-
-  # Dead feed replacements
+  # Google News fallbacks for dead feeds
   - name: Reuters (Google News)
     url: https://news.google.com/rss/search?q=site:reuters.com+when:1d&hl=en&gl=US&ceid=US:en
     category: general
@@ -244,5 +226,16 @@ sources:
   - name: AI News (Google)
     url: https://news.google.com/rss/search?q=artificial+intelligence+when:1d&hl=en&gl=US&ceid=US:en
     category: ai
+    lang: en
+    trust: medium
+  # New replacements for dead feeds
+  - name: Nikkei Asia
+    url: https://news.google.com/rss/search?q=site:asia.nikkei.com+when:1d&hl=en&gl=US&ceid=US:en
+    category: general
+    lang: en
+    trust: medium
+  - name: Associated Press
+    url: https://news.google.com/rss/search?q=site:apnews.com+when:1d&hl=en&gl=US&ceid=US:en
+    category: general
     lang: en
     trust: medium

@@ -202,6 +202,11 @@ def crawl():
                 skip_count += 1
                 continue
             
+            # Skip Bloomberg video pages (always 403)
+            if '/videos/' in link or '/video/' in link:
+                skip_count += 1
+                continue
+            
             title = entry.get("title", "").strip()
             summary = entry.get("summary", entry.get("description", "")).strip()
             pub_date = parse_date(entry)
