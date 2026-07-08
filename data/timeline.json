@@ -1021,13 +1021,6 @@
       "type": "politics"
     },
     {
-      "date": "1968-07-08",
-      "title": "The Chrysler wildcat strike begins in Detroit, Michigan.",
-      "desc": "The Chrysler wildcat strike begins in Detroit, Michigan.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1968-06-05",
       "title": "RFK Assassinated",
       "desc": "Robert F. Kennedy shot after winning California primary",
@@ -1466,13 +1459,6 @@
     }
   ],
   "1933": [
-    {
-      "date": "1933-07-08",
-      "title": "The first rugby union test match between the Wallabies of Australia and the Spri",
-      "desc": "The first rugby union test match between the Wallabies of Australia and the Springboks of South Africa is played at Newlands Stadium in Cape Town.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1933-03-04",
       "title": "FDR Inaugurated",
