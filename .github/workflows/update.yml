@@ -58,7 +58,7 @@ jobs:
           cp "$GITHUB_WORKSPACE/deploy/index.html" .
           cp "$GITHUB_WORKSPACE/deploy/news-data.json" .
           cp "$GITHUB_WORKSPACE/deploy/timeline-data.json" .
-          cp "$GITHUB_WORKSPACE/sitemap.xml" . 2>/dev/null || true
+          cp "$GITHUB_WORKSPACE/deploy/sitemap.xml" . 2>/dev/null || true
           cp "$GITHUB_WORKSPACE/deploy/og-image.png" . 2>/dev/null || true
           cp "$GITHUB_WORKSPACE/deploy/_headers" . 2>/dev/null || true
           cp "$GITHUB_WORKSPACE/deploy/robots.txt" . 2>/dev/null || echo "User-agent: *" > robots.txt
