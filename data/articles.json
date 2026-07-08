@@ -2819,8 +2819,11 @@
     "topic": "Policy",
     "published": "2026-07-08T10:29:36+00:00",
     "crawled": "2026-07-08T11:14:38.083632+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 印度中央銀行計劃禁止金融機構接觸加密資產，以加強金融穩定性 \n• 此舉旨在防止金融體系受到加密貨幣波動的影響 \n• 英國政客奈傑爾·法拉奇宣布將辭去國會職位，尋求新的授權 \n• 法拉奇的辭職與對其與加密貨幣相關的贈禮進行調查有關",
+    "summaries": {
+      "zh-HK": "• 印度中央銀行計劃禁止金融機構接觸加密資產，以加強金融穩定性 \n• 此舉旨在防止金融體系受到加密貨幣波動的影響 \n• 英國政客奈傑爾·法拉奇宣布將辭去國會職位，尋求新的授權 \n• 法拉奇的辭職與對其與加密貨幣相關的贈禮進行調查有關"
+    }
   },
   {
     "url": "https://www.theblock.co/post/407511/jack-maller-strike-launches-volatility-proof-bitcoin-loans-protect-against-liquidation?utm_source=rss&utm_medium=rss",
@@ -3428,8 +3431,11 @@
     "topic": "World",
     "published": "2026-07-08T10:35:58+00:00",
     "crawled": "2026-07-08T11:14:43.887353+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 特朗普表示美伊停火協議在近期襲擊後已經“結束”\n• 此言論是在2026年7月8日的《脈搏》節目中發表\n• 節目邀請了RBC BlueBay市場策略主管Mike Bell及歐洲研究中心研究官Ionela Ciolan作為嘉賓\n• 討論主題涉及全球商業、經濟、金融及政治動態",
+    "summaries": {
+      "zh-HK": "• 特朗普表示美伊停火協議在近期襲擊後已經“結束”\n• 此言論是在2026年7月8日的《脈搏》節目中發表\n• 節目邀請了RBC BlueBay市場策略主管Mike Bell及歐洲研究中心研究官Ionela Ciolan作為嘉賓\n• 討論主題涉及全球商業、經濟、金融及政治動態"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/newsletters/2026-07-08/nvidia-is-world-s-most-valuable-company-and-cheaper-than-hershey",
@@ -3442,8 +3448,11 @@
     "topic": "World",
     "published": "2026-07-08T10:35:45+00:00",
     "crawled": "2026-07-08T11:14:43.948542+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 英偉達公司目前成為全球最有價值的公司，市值超過其他競爭對手  \n• 儘管其在人工智能數據中心的芯片持續主導市場，英偉達的股價相對較低  \n• 英偉達的市場表現引起投資者關注，尤其是與其他公司如好時公司相比  \n• 專家指出，英偉達的增長潛力仍然強勁，吸引了大量投資者的興趣",
+    "summaries": {
+      "zh-HK": "• 英偉達公司目前成為全球最有價值的公司，市值超過其他競爭對手  \n• 儘管其在人工智能數據中心的芯片持續主導市場，英偉達的股價相對較低  \n• 英偉達的市場表現引起投資者關注，尤其是與其他公司如好時公司相比  \n• 專家指出，英偉達的增長潛力仍然強勁，吸引了大量投資者的興趣"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-07/gold-holds-drop-as-us-strikes-in-iran-cloud-rate-hike-outlook",
@@ -3470,8 +3479,11 @@
     "topic": "Finance",
     "published": "2026-07-08T10:30:53+00:00",
     "crawled": "2026-07-08T11:14:44.076811+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Dream Finders Homes Inc. 將對競爭對手 Beazer Homes USA Inc. 的收購提議從7.04億美元提高至8.75億美元，增幅約24%  \n• 此消息來自於知情人士，具體細節尚未公開  \n• Beazer Homes 是美國的一家住宅建築公司  \n• Dream Finders Homes 對 Beazer 的收購意在擴大其市場份額",
+    "summaries": {
+      "zh-HK": "• Dream Finders Homes Inc. 將對競爭對手 Beazer Homes USA Inc. 的收購提議從7.04億美元提高至8.75億美元，增幅約24%  \n• 此消息來自於知情人士，具體細節尚未公開  \n• Beazer Homes 是美國的一家住宅建築公司  \n• Dream Finders Homes 對 Beazer 的收購意在擴大其市場份額"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-08/tesco-explores-sale-of-eastern-european-business-ft-reports",
@@ -3484,8 +3496,11 @@
     "topic": "Finance",
     "published": "2026-07-08T10:29:45+00:00",
     "crawled": "2026-07-08T11:14:44.132771+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 根據《金融時報》報導，特易購公司正在考慮出售其中東歐業務。  \n• 此消息來自於知情人士，具體細節尚未公開。  \n• 特易購的中央及東歐業務包括多個國家的零售運營。  \n• 目前尚不清楚出售的具體原因或時間表。",
+    "summaries": {
+      "zh-HK": "• 根據《金融時報》報導，特易購公司正在考慮出售其中東歐業務。  \n• 此消息來自於知情人士，具體細節尚未公開。  \n• 特易購的中央及東歐業務包括多個國家的零售運營。  \n• 目前尚不清楚出售的具體原因或時間表。"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-08/bangladesh-explores-debut-sovereign-bond-sale-overseas",
@@ -3498,8 +3513,11 @@
     "topic": "Science",
     "published": "2026-07-08T10:28:38+00:00",
     "crawled": "2026-07-08T11:14:44.195075+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 孟加拉國正在研究首次在海外發行主權債券的計劃  \n• 此舉旨在為該國創紀錄的開支尋找融資途徑  \n• 孟加拉國政府希望通過此債券吸引國際投資者  \n• 發行主權債券的具體時間和金額尚未確定",
+    "summaries": {
+      "zh-HK": "• 孟加拉國正在研究首次在海外發行主權債券的計劃  \n• 此舉旨在為該國創紀錄的開支尋找融資途徑  \n• 孟加拉國政府希望通過此債券吸引國際投資者  \n• 發行主權債券的具體時間和金額尚未確定"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-08/india-clears-new-derivatives-on-index-designed-for-foreigners",
@@ -3736,8 +3754,11 @@
     "topic": "Politics",
     "published": "2026-07-08T10:30:00+00:00",
     "crawled": "2026-07-08T11:14:59.502074+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 成人內容創作者Laura Lux表示，她在過去近二十年一直在網上發布照片，主要使用OnlyFans平台，並曾使用Patreon及自設訂閱網站。  \n• 隨著成人創作者經濟的興起，OnlyFans模特和其他成人創作者越來越多地參與打擊盜版內容，並根據《數位千禧年版權法》提交數以百萬計的版權請求。  \n• 根據網絡安全公司UpGuard的研究，過去15年中，超過2000個政府和教育機構的域名因成人內容創作者的版權請求而受到影響，顯示這些網站可能遭到入侵。  \n• 該研究指出，自2020年以來，與成人創作者及其“洩露”內容相關的網站劫持事件顯著增加，詐騙者利用官方網站上傳惡意頁面以吸引受害者。",
+    "summaries": {
+      "zh-HK": "• 成人內容創作者Laura Lux表示，她在過去近二十年一直在網上發布照片，主要使用OnlyFans平台，並曾使用Patreon及自設訂閱網站。  \n• 隨著成人創作者經濟的興起，OnlyFans模特和其他成人創作者越來越多地參與打擊盜版內容，並根據《數位千禧年版權法》提交數以百萬計的版權請求。  \n• 根據網絡安全公司UpGuard的研究，過去15年中，超過2000個政府和教育機構的域名因成人內容創作者的版權請求而受到影響，顯示這些網站可能遭到入侵。  \n• 該研究指出，自2020年以來，與成人創作者及其“洩露”內容相關的網站劫持事件顯著增加，詐騙者利用官方網站上傳惡意頁面以吸引受害者。"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/videos/2026-07-08/what-s-next-after-trump-says-iran-ceasefire-over-video",
@@ -3820,8 +3841,11 @@
     "topic": "Politics",
     "published": "2026-07-08T10:28:23+00:00",
     "crawled": "2026-07-08T11:15:06.509974+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國總統特朗普於7月8日在土耳其安卡拉的北約峰會上宣布與伊朗的停火協議「已經結束」，並批評德黑蘭政權為無賴。  \n• 此次停火協議自6月17日簽署以來僅持續約三週，特朗普的言論是在伊朗於7月7日對荷姆茲海峽的三艘商船發動攻擊後發表的。  \n• 特朗普同時對北約盟友表達不滿，抱怨美國在軍費分攤上受到不公平對待。  \n• 布蘭特原油價格已飆升至每桶約79美元，市場擔憂美國可能對伊朗進行空襲，導致荷姆茲海峽的運輸中斷。",
+    "summaries": {
+      "zh-HK": "• 美國總統特朗普於7月8日在土耳其安卡拉的北約峰會上宣布與伊朗的停火協議「已經結束」，並批評德黑蘭政權為無賴。  \n• 此次停火協議自6月17日簽署以來僅持續約三週，特朗普的言論是在伊朗於7月7日對荷姆茲海峽的三艘商船發動攻擊後發表的。  \n• 特朗普同時對北約盟友表達不滿，抱怨美國在軍費分攤上受到不公平對待。  \n• 布蘭特原油價格已飆升至每桶約79美元，市場擔憂美國可能對伊朗進行空襲，導致荷姆茲海峽的運輸中斷。"
+    }
   },
   {
     "url": "https://blockcast.it/2026/07/08/how-leverage-products-turned-south-koreas-stock-market-into-a-casino/",
@@ -4590,8 +4614,11 @@
     "topic": "Politics",
     "published": "2026-07-08T10:30:51+00:00",
     "crawled": "2026-07-08T11:15:49.130026+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國國會可能在無意中促進中國在人工智能領域的競爭優勢  \n• 報導指出，某些立法措施可能會削弱美國的技術創新能力  \n• 專家警告，這些政策可能導致資金流向中國的科技公司  \n• 國會的行動引發對美國在全球人工智能競賽中地位的擔憂",
+    "summaries": {
+      "zh-HK": "• 美國國會可能在無意中促進中國在人工智能領域的競爭優勢  \n• 報導指出，某些立法措施可能會削弱美國的技術創新能力  \n• 專家警告，這些政策可能導致資金流向中國的科技公司  \n• 國會的行動引發對美國在全球人工智能競賽中地位的擔憂"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0LUNvRGdwQnpYT0xMSG9KRDJDMlRiLWgyMENkeUJuU3d3Uk1OSlQtVGZnZXgzUXF1UWNCa2g1dlNNbVNWQVphT0JFdjNVdXZyUk5IWFkwZ09jaWN4bXNJUlQ4azQxTmphQ2tVMQ?oc=5",
@@ -4835,8 +4862,11 @@
     "topic": "Trading",
     "published": "2026-07-08T11:21:40+00:00",
     "crawled": "2026-07-08T11:51:24.012784+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 意大利咖啡烘焙商Lavazza表示，咖啡市場的波動性將持續，影響消費者對價格下跌的期望  \n• Lavazza指出，近期的市場不穩定性使得咖啡價格難以回落  \n• 消費者可能需要面對持續高企的咖啡價格  \n• Lavazza的聲明反映了全球咖啡市場的挑戰與不確定性",
+    "summaries": {
+      "zh-HK": "• 意大利咖啡烘焙商Lavazza表示，咖啡市場的波動性將持續，影響消費者對價格下跌的期望  \n• Lavazza指出，近期的市場不穩定性使得咖啡價格難以回落  \n• 消費者可能需要面對持續高企的咖啡價格  \n• Lavazza的聲明反映了全球咖啡市場的挑戰與不確定性"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-08/argentina-to-repay-4-billion-defying-critics-who-doubted-tack",
@@ -5521,8 +5551,11 @@
     "topic": "Crypto",
     "published": "2026-07-08T11:19:11+00:00",
     "crawled": "2026-07-08T11:51:54.254048+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 索尼互動娛樂（SIE）宣布將於2028年1月起停止PlayStation實體光碟生產，未來新遊戲僅以數位形式提供。  \n• 遊戲製作人小島秀夫在羅馬電影節上表達對純數位化未來的擔憂，認為消費者可能失去對遊戲的真正所有權。  \n• 小島秀夫指出，數位串流平台的使用者實際上只擁有「開啟水龍頭的權利」，未來可能面臨資料無法存取的風險。  \n• 他早在2021年已警告數位化可能導致個人無法自由存取曾熱愛的文化資產，並表示自己正在收購實體媒介以保存珍貴作品。",
+    "summaries": {
+      "zh-HK": "• 索尼互動娛樂（SIE）宣布將於2028年1月起停止PlayStation實體光碟生產，未來新遊戲僅以數位形式提供。  \n• 遊戲製作人小島秀夫在羅馬電影節上表達對純數位化未來的擔憂，認為消費者可能失去對遊戲的真正所有權。  \n• 小島秀夫指出，數位串流平台的使用者實際上只擁有「開啟水龍頭的權利」，未來可能面臨資料無法存取的風險。  \n• 他早在2021年已警告數位化可能導致個人無法自由存取曾熱愛的文化資產，並表示自己正在收購實體媒介以保存珍貴作品。"
+    }
   },
   {
     "url": "https://www.blocktempo.com/radar-chat-app-launches-bitcoin-lightning-payments-signal-encrypted-messaging/",
@@ -5535,8 +5568,11 @@
     "topic": "Bitcoin",
     "published": "2026-07-08T11:17:32+00:00",
     "crawled": "2026-07-08T11:51:54.295715+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Radar App於2026年7月7日上架，整合加密私訊與比特幣閃電網路支付於同一介面。  \n• 使用者可沿用Signal聯絡人，單筆支付最高可達5,000美元。  \n• 創辦人Vikrant Sharma同時創立Cake Wallet，兩者為獨立公司運作。  \n• Radar使用Signal的開源加密協議，但並不隸屬於Signal，並對其進行資金支持。",
+    "summaries": {
+      "zh-HK": "• Radar App於2026年7月7日上架，整合加密私訊與比特幣閃電網路支付於同一介面。  \n• 使用者可沿用Signal聯絡人，單筆支付最高可達5,000美元。  \n• 創辦人Vikrant Sharma同時創立Cake Wallet，兩者為獨立公司運作。  \n• Radar使用Signal的開源加密協議，但並不隸屬於Signal，並對其進行資金支持。"
+    }
   },
   {
     "url": "https://blockcast.it/2026/07/08/10000-gold-by-year-end-intact-james-rickards-said/",
@@ -5549,8 +5585,11 @@
     "topic": "Crypto",
     "published": "2026-07-08T11:16:28+00:00",
     "crawled": "2026-07-08T11:51:55.710235+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國金融作家James Rickards在《Commodity Culture》播客中表示，近期金價下跌是逢低買進的好機會，預計金價在2026年底前可能達到1萬美元。  \n• Rickards指出，推動金價上升的因素包括波斯灣不確定性、烏克蘭戰爭、央行購買黃金及通脹問題。  \n• 他警告稱，可能會出現比2008年更嚴重的經濟危機，並提到各國央行購買黃金是為了降低對美元的依賴。  \n• Rickards回顧歷史危機，強調政府和聯準會的過度干預可能加劇未來的潛在危機。",
+    "summaries": {
+      "zh-HK": "• 美國金融作家James Rickards在《Commodity Culture》播客中表示，近期金價下跌是逢低買進的好機會，預計金價在2026年底前可能達到1萬美元。  \n• Rickards指出，推動金價上升的因素包括波斯灣不確定性、烏克蘭戰爭、央行購買黃金及通脹問題。  \n• 他警告稱，可能會出現比2008年更嚴重的經濟危機，並提到各國央行購買黃金是為了降低對美元的依賴。  \n• Rickards回顧歷史危機，強調政府和聯準會的過度干預可能加劇未來的潛在危機。"
+    }
   },
   {
     "url": "https://blockcast.it/2026/07/08/u-s-sec-to-propose-crypto-rule-as-soon-as-this-month/",
@@ -5633,8 +5672,11 @@
     "topic": "General",
     "published": "2026-07-08T11:22:22+00:00",
     "crawled": "2026-07-08T11:52:05.060445+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 敘利亞當局報告，星期二大馬士革發生爆炸事件，造成1人死亡及36人受傷，法國總統馬克龍正訪問該市。  \n• 敘利亞衛生部表示，受傷者中有31人傷勢輕微，5人情況穩定入院治療。  \n• 爆炸發生在大馬士革市中心，靠近旅遊部及四季酒店，馬克龍在爆炸發生前已離開酒店前往總統府。  \n• 馬克龍在新聞發布會上強調，必須「不讓自己不穩定」，並表示此次訪問對兩國關係具有「關鍵意義」。",
+    "summaries": {
+      "zh-HK": "• 敘利亞當局報告，星期二大馬士革發生爆炸事件，造成1人死亡及36人受傷，法國總統馬克龍正訪問該市。  \n• 敘利亞衛生部表示，受傷者中有31人傷勢輕微，5人情況穩定入院治療。  \n• 爆炸發生在大馬士革市中心，靠近旅遊部及四季酒店，馬克龍在爆炸發生前已離開酒店前往總統府。  \n• 馬克龍在新聞發布會上強調，必須「不讓自己不穩定」，並表示此次訪問對兩國關係具有「關鍵意義」。"
+    }
   },
   {
     "url": "https://www.npr.org/2026/07/08/g-s1-132474/up-first-newsletter-trump-iran-ceasefire-nato-graham-platner-ioc-russia",
@@ -5815,8 +5857,11 @@
     "topic": "General",
     "published": "2026-07-08T10:37:23+00:00",
     "crawled": "2026-07-08T11:52:33.321493+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 雪佛龍公司的一艘油輪在黑海遭到無人機襲擊，該油輪用於運輸CPC石油  \n• 事件發生於當地時間週一，具體時間尚未披露  \n• 警方表示，襲擊未造成任何人員傷亡或環境污染  \n• 目前尚不清楚襲擊的具體原因及責任方，調查仍在進行中",
+    "summaries": {
+      "zh-HK": "• 雪佛龍公司的一艘油輪在黑海遭到無人機襲擊，該油輪用於運輸CPC石油  \n• 事件發生於當地時間週一，具體時間尚未披露  \n• 警方表示，襲擊未造成任何人員傷亡或環境污染  \n• 目前尚不清楚襲擊的具體原因及責任方，調查仍在進行中"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc21yZ0hzUlp6ZG9xcG1MY2FJbWR0UDV0R3RmX0lqV3g2WEwxUmMwWk1qT2ZWRGdJYlI3WDdvbEo0Z2dXRU1yR2E4NUNsazZENmlWV01sYTdDNnR2Z2JDM0huRkFjUF9fOEpMVEpCQmZPMFVvSllQdlFNQklkOUl5QmFfX2oyNXI5N0pSR0dseUw3X0tqNUp5TEs5aWlMR0hjUDhBX0hTdjdpZm9zZTJFSUxQV3UxTWhpTld2aVRPYzN2VW8?oc=5",
@@ -5829,8 +5874,11 @@
     "topic": "General",
     "published": "2026-07-08T10:35:45+00:00",
     "crawled": "2026-07-08T11:52:33.657908+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 蘋果公司宣佈將在與博通的芯片交易中投資300億美元，以擴建科羅拉多州的工廠  \n• 此次投資旨在增強美國的半導體供應鏈  \n• 擴建計劃將創造數千個工作崗位  \n• 蘋果計劃在未來五年內逐步實施這項投資計劃",
+    "summaries": {
+      "zh-HK": "• 蘋果公司宣佈將在與博通的芯片交易中投資300億美元，以擴建科羅拉多州的工廠  \n• 此次投資旨在增強美國的半導體供應鏈  \n• 擴建計劃將創造數千個工作崗位  \n• 蘋果計劃在未來五年內逐步實施這項投資計劃"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcGJJSXBrd29YRXFYM3g5RVgwWVduWDE5M2NqVUplcXEzSVQ2NmU4V1gyTFNHZmlsb2V2YjhyOFhrUmZ2cTVDbWVlYnRNeDlDeXdMS1ZrRjB4UEE3a0d6SlZNZUdFc0Z3QlYwdUNhSmNhWWNWdFZqSFlvRWxKamJRUnI5OHlMdnFabFY0U1ZHU0t2WGR5c1VwVDJVOThIdUIya2s5QjY3Y3U4T3pzVkk5OUxkQkxOUkdwY0VNOHhR?oc=5",
@@ -5941,8 +5989,11 @@
     "topic": "Ai",
     "published": "2026-07-08T11:45:41+00:00",
     "crawled": "2026-07-08T11:52:38.152563+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 在#MACoCon會議上，各縣探討人工智能對人類的影響及應用 \n• 會議於最近在馬里蘭州舉行，吸引了多位地方官員和專家參加 \n• 討論主題包括人工智能在公共服務中的潛力及挑戰 \n• 參與者強調需要平衡技術創新與人類需求之間的關係",
+    "summaries": {
+      "zh-HK": "• 在#MACoCon會議上，各縣探討人工智能對人類的影響及應用 \n• 會議於最近在馬里蘭州舉行，吸引了多位地方官員和專家參加 \n• 討論主題包括人工智能在公共服務中的潛力及挑戰 \n• 參與者強調需要平衡技術創新與人類需求之間的關係"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSFNIdlBvQS1JdFBMSXUwWDRaV3ZQR0JtS2pFdTZoWG1tMGY0YmVYUkY1ODNnbXpVYW5ObzJyMHMzX3hNVlQ4eFVOZUl3VXNGTUVueEk4Vmt1T1FzeHYzSEVpMUJkckdPMkdTMFlxZzZOMDdGQm1zZ2dDeG0wSktQSHJBUFhTZFNXd0dUUUQ5TDU?oc=5",
