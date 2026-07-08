@@ -70,8 +70,9 @@ SUMMARY_PROMPT = """You are a neutral news editor. Read the article and write a 
 Rules:
 - 3-4 bullet points (use • prefix)
 - Strictly factual, no opinions, no loaded language
-- Cover: who, what, when, where, why
-- Output in Traditional Chinese (繁體中文)
+- Cover: who, what, when, where, why — only confirmed facts, NO speculation or prediction
+- Output in Traditional Chinese (繁體中文，使用香港常用用語)
+- Use 特朗普 (not 川普), 網絡 (not 網路), 資訊 (not 資訊保持), 警方 (not 警察一般)
 - Output ONLY the bullets, no preamble
 
 Example output:

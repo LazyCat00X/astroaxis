@@ -13,6 +13,7 @@ import feedparser
 import requests
 import yaml
 from bs4 import BeautifulSoup
+import trafilatura
 
 DATA_DIR = Path(__file__).parent / "data"
 FEEDS_FILE = Path(__file__).parent / "feeds.yaml"
@@ -68,31 +69,37 @@ def fetch_rss(url, timeout=8):
         return None
 
 def extract_text_from_url(url, timeout=10):
-    """Fallback: extract article text using readability-like approach."""
+    """Extract article text using trafilatura (primary) + BeautifulSoup fallback."""
     try:
+        # Primary: trafilatura — handles paywalls, articles, cleans well
+        downloaded = trafilatura.fetch_url(url)
+        if downloaded:
+            text = trafilatura.extract(
+                downloaded,
+                include_comments=False,
+                include_tables=False,
+                include_images=False,
+                include_links=False,
+                output_format='txt',
+                no_fallback=False,
+            )
+            if text and len(text) > 100:
+                return text[:8000]
+        # Fallback: BeautifulSoup
         resp = requests.get(url, timeout=timeout, headers={
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
         })
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "lxml")
-        # Remove script/style
         for tag in soup(["script", "style", "nav", "header", "footer", "aside"]):
             tag.decompose()
-        # Try article tag first
-        article = soup.find("article")
-        if not article:
-            article = soup.find("main")
-        if not article:
-            article = soup.body
+        article = soup.find("article") or soup.find("main") or soup.body
         if not article:
             return ""
         text = article.get_text(separator="\n", strip=True)
-        # Clean up: deduplicate lines, limit length
-        lines = [l.strip() for l in text.split("\n") if l.strip()]
-        # Remove very short lines (likely noise)
-        lines = [l for l in lines if len(l) > 20]
-        text = "\n".join(lines[:200])  # first 200 meaningful lines
-        return text[:8000]  # cap at 8K chars
+        lines = [l.strip() for l in text.split("\n") if l.strip() and len(l.strip()) > 20]
+        text = "\n".join(lines[:200])
+        return text[:8000]
     except Exception as e:
         log.debug("Text extraction failed: %s — %s", url, e)
         return ""
