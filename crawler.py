@@ -145,7 +145,7 @@ def classify_article(title, summary, source_name, category):
     topics = {
         "Bitcoin": ["bitcoin", "btc", "satoshi"],
         "Ethereum": ["ethereum", "vitalik", "以太坊"],
-        "DeFi": ["defi", "lending", "liquidity", "yield", "compound", "aave", "uniswap"],
+        "DeFi": [r"\bdefi\b", "lending", "liquidity", "yield", "compound", "aave", "uniswap"],
         "NFT": ["nft", "nfts", "collectible"],
         "Regulation": ["sec", "regulation", "cftc", "compliance", "lawsuit", "legal", "mica"],
         "Policy": ["fed", "federal reserve", "interest rate", "inflation", "monetary", "ecb", "central bank"],
@@ -153,7 +153,7 @@ def classify_article(title, summary, source_name, category):
         "Trading": ["trading", "price", "volatility", "arbitrage", "etf", "flows"],
         "Macro": ["economy", "gdp", "recession", "jobs", "employment", "treasury", "fiscal"],
         "World": ["world", "global", "international", "diplomatic", "foreign", "geopolitics", "war", "conflict", "treaty"],
-        "Politics": ["politics", "political", "election", "government", "parliament", "president", "congress", "senate", "democrat", "republican", "vote", "voting", "trump", "biden"],
+        "Politics": ["politics", "political", "election", "government", "parliament", "congress", "senate", "democrat", "republican", "vote", "voting", "trump", "biden"],
         "Health": ["health", "disease", "hospital", "medical", "covid", "pandemic", "vaccine", "outbreak"],
         "Science": ["science", "scientist", "research", "study", "discovery", "nasa", "space", "earthquake"],
         "Sports": ["sports", "sport", "soccer", "football", "olympic", "nba", "tennis", "athlete", "world cup"],
@@ -163,7 +163,11 @@ def classify_article(title, summary, source_name, category):
 
     for topic, keywords in topics.items():
         for kw in keywords:
-            if match_text(kw):
+            # If keyword starts with \b it's a regex pattern, use as-is
+            if kw.startswith(r"\b"):
+                if re.search(kw, t_lower):
+                    return topic
+            elif match_text(kw):
                 return topic
     return category.capitalize()
 

@@ -155,6 +155,16 @@ def generate():
         print("ERROR: No articles in news-data.json", file=sys.stderr)
         return False
     
+    # Load full_text from articles.json (not in news-data.json)
+    full_text_map = {}
+    articles_json = BASE_DIR / "data" / "articles.json"
+    if articles_json.exists():
+        with open(articles_json) as f:
+            for a in json.load(f):
+                ft = a.get("full_text", "") or a.get("summary", "")
+                if ft and len(ft.strip()) > 100:
+                    full_text_map[a.get("url", "")] = ft
+    
     ARTICLES_DIR.mkdir(parents=True, exist_ok=True)
     count = 0
     
@@ -219,8 +229,8 @@ def generate():
         
         meta_desc = meta_desc[:160]
         
-        # Generate excerpt from full text (first 200 chars of article body)
-        raw_text = a.get("full_text", "") or a.get("summary", "")
+        # Generate excerpt from full text (first ~400 chars of article body)
+        raw_text = full_text_map.get(url, "") or a.get("full_text", "") or a.get("summary", "")
         if raw_text and len(raw_text.strip()) > 100:
             excerpt_clean = re.sub(r'<[^>]+>', '', raw_text).strip()
             excerpt_clean = excerpt_clean.replace('&nbsp;', ' ').replace('&amp;', '&')
