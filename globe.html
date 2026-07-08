@@ -2512,7 +2512,7 @@ const GEO_KEYWORDS = [
     });
     applyFilter();
 
-    const controls = new THREE.OrbitControls(camera, renderer.domElement);
+    const controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
     controls.dampingFactor = 0.055;
     controls.enablePan = false;
