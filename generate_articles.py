@@ -4,6 +4,7 @@ import json, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 from hashlib import md5
+from urllib.parse import urlparse
 
 BASE_DIR = Path(__file__).parent
 DEPLOY_DIR = BASE_DIR / "deploy"
@@ -36,6 +37,8 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
 <meta property="og:type" content="article" />
 <meta property="og:url" content="{canonical_url}" />
 <meta property="og:site_name" content="AstroAxis" />
+<meta property="og:image" content="{og_image}" />
+<meta name="twitter:image" content="{og_image}" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{title}" />
 <!-- Schema.org NewsArticle -->
@@ -96,6 +99,12 @@ h1.article-title{{font-size:clamp(22px,4vw,36px);font-weight:700;line-height:1.2
 .related-card .rc-title{{font-size:13px;color:var(--text);margin:4px 0 6px;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}}
 .related-card .rc-source{{font-size:11px;color:var(--text2)}}
 .back-link:hover{{text-decoration:underline}}
+.breadcrumbs{{font-size:13px;color:var(--text2);margin-bottom:16px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}}
+.breadcrumbs a{{color:var(--accent2);text-decoration:none}}
+.breadcrumbs a:hover{{text-decoration:underline}}
+.bc-sep{{color:var(--text2);opacity:0.6}}
+.source-favicon{{width:16px;height:16px;vertical-align:middle;margin-right:6px;border-radius:2px;display:inline-block}}
+.article-readtime{{font-size:13px;color:var(--text2)}}
 .footer{{text-align:center;padding:24px;color:var(--text2);font-size:12px;border-top:1px solid var(--border)}}
 </style>
 </head>
@@ -107,9 +116,17 @@ h1.article-title{{font-size:clamp(22px,4vw,36px);font-weight:700;line-height:1.2
 </div>
 </header>
 <div class="container article">
+<div class="breadcrumbs">
+  <a href="/">AstroAxis</a>
+  <span class="bc-sep">›</span>
+  <span>{topic}</span>
+  <span class="bc-sep">›</span>
+  <span style="color:var(--text)">{title}</span>
+</div>
 <div class="article-meta">
-<span class="article-source">{source}</span>
+<span class="article-source"><img src="https://www.google.com/s2/favicons?domain={domain}&sz=32" alt="" class="source-favicon" width="16" height="16" loading="lazy">{source}</span>
 <span class="article-tag">{topic}</span>
+<span class="article-readtime">{reading_time}</span>
 <time datetime="{date_published}">{time_ago}</time>
 </div>
 <h1 class="article-title">{title}</h1>
@@ -127,6 +144,13 @@ h1.article-title{{font-size:clamp(22px,4vw,36px);font-weight:700;line-height:1.2
 </footer>
 </body>
 </html>"""
+
+def estimate_reading_time(text):
+    if not text or not text.strip():
+        return "1 min read"
+    words = len(text.split())
+    minutes = max(1, round(words / 200))
+    return f"{minutes} min read"
 
 def time_ago(pub_str):
     try:
@@ -195,6 +219,8 @@ def generate():
             slug_counts[base_slug] = 1
         
         canonical_url = f"{SITE_URL}/articles/{slug}.html"
+        domain = urlparse(url).netloc if url else ""
+        og_image = "https://lazycat00x.github.io/astroaxis-site/og-image.png"
         
         # Clean summary
         summary_clean = summary
@@ -205,6 +231,8 @@ def generate():
                 summary_clean = re.sub(r'<[^>]+>', '', fallback)[:300]
             else:
                 summary_clean = f"Read {title} on {source}"
+        
+        reading_time = estimate_reading_time(summary_clean)
         
         # Strip HTML & decode HTML entities for meta description
         meta_desc_raw = re.sub(r'<[^>]+>', '', summary_clean).strip()
@@ -287,6 +315,9 @@ def generate():
             summary_html=summary_html,
             excerpt_html=excerpt_html,
             related_html=related_html,
+            domain=domain,
+            reading_time=reading_time,
+            og_image=og_image,
         )
         
         filepath = ARTICLES_DIR / f"{slug}.html"
