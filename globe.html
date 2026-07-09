@@ -2190,7 +2190,6 @@ const GEO_KEYWORDS = [
     globe.add(markerGroup);
     globe.add(continentGroup);
     console.log(`Built ${markerPositions.length} markers from ${_articles.length} articles`);
-      updateAgentLayer(null);
     }
     // ── Country labels on zoom ──
     let countryLookup = [];
@@ -2441,8 +2440,8 @@ const GEO_KEYWORDS = [
       renderer.domElement.setAttribute('data-total-articles', String(NEWS_DATA?.articles?.length || 0));
     }
 
-    // Initial agent layer state — set after buildMarkers() runs
-    // (called at end of buildMarkers)
+    // Initial agent layer state — set after markers + invisibleFlags are ready
+    setTimeout(() => { try { updateAgentLayer(null); } catch(e) {} }, 1000);
 
     function updatePointer(event) {
       const rect = renderer.domElement.getBoundingClientRect();
