@@ -8473,20 +8473,6 @@
     "ai_summary": ""
   },
   {
-    "url": "https://www.bankless.com/read/lighters-future-domains-robinhood-example",
-    "title": "Robinhood Just Revealed Lighter's Master Plan",
-    "summary": "Robinhood's integration marks the first Lighter Domain, and a preview of how the zk perps DEX plans to scale.",
-    "full_text": "Subscribe to Bankless or sign in\nRobinhood held its \"The World is Flat\" livestream event in London yesterday, during which the trading giant revealed a series of major updates, like the mainnet debut of its Robinhood Chain L2, the rollout of 24/7 Stock Tokens, a new USDG lending product, and more agentic trading possibilities.\nYet to me personally, the most interesting of everything announced wasn't a net-new creation, but rather a big meld, namely that Robinhood Wallet now offers in-app perpetuals trading, with the engine underneath being Lighter, the rising zk-powered perps exchange atop Ethereum.\nObviously, it's a major integration that bodes well for Lighter's future. But less obviously for those who haven't been following closely along, the collaboration marks the first piece of the blueprint that's come together for the perp exchange's next grand project, Lighter Domains.\nEnjoying this article?\nSubscribe to Bankless or sign in\nThis vision can become a big deal, and this Robinhood Wallet news is the inaugural advance here because Robinhood isn't just plainly routing perps traders to Lighter's external platform. Instead, Robinhood's perps are being facilitated by a brand new Lighter instance on Robinhood Chain, customized to have quotes denominated in the Paxos \"Global Dollar\" USDG stablecoin and so forth.\nAnd while this perps offering isn't available universally for now (e.g. U.S. and U.K. users can't access out of the gate), Lighter's U.S. posture is a likely sign of what's to come. As an exchange based in America with its token issued out of a Delaware C-corp, Lighter has a cleaner path into regulatory approval than offshore-first competitors. This status positions Lighter and Robinhood to become major onshore perps players once the regulatory dam finally breaks around this type of derivative.\nIn the meantime, Robinhood Wallet's offering zero-fee perps trading for the next three months, and Lighter's set aside $11M worth of its native LIT token for Robinhood users, distributed via a points system that will grant a 2x bonus for people who trade perps through Robinhood Wallet. These are goodies for the short term, but the detail that matters most for Lighter's future is that aforementioned \"new instance\" part.\nUpgrade to continue reading\n- Support the Bankless Movement\n- Premium Feed: Ad Free & Bonus Content\n- Daily Market Analysis & Research\n- Airdrop Hunter: Guided, Vetted Projects\n- Claimables: Find & Claim Airdrops + more\n- Private Discord w/ David & Ryan",
-    "source": "Bankless",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Crypto",
-    "published": "2026-07-02T18:13:29+00:00",
-    "crawled": "2026-07-09T07:34:58.523696+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
     "url": "https://blockcast.it/2026/07/09/bitcoin-steady-gold-slides-as-us-iran-tensions-escalate-again/",
     "title": "美伊衝突升溫！比特幣穩守 6 萬美元、黃金卻連跌 4 日，市場定價邏輯變了？",
     "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"704\" src=\"https://blockcast.it/wp-content/uploads/2026/04/freepik_the_style_is_candid_image_photography_with_natural_76326_dd32b323b2.jpeg\" style=\"display: block; margin: auto; margin-bottom: 5px;\" width=\"1408\" /><p>美國 與伊朗衝突再度升溫，但理應吸收「戰爭溢價」的資產走勢卻出現分歧，油價持續走高、黃金連續第 4 個交易日下跌，而比特幣穩守 6.2 萬美元關卡，跌幅相對有限。</p>\n<p>〈<a href=\"https://blockcast.it/2026/07/09/bitcoin-steady-gold-slides-as-us-iran-tensions-escalate-again/\">美伊衝突升溫！比特幣穩守 6 萬美元、黃金卻連跌 4 日，市場定價邏輯變了？</a>〉這篇文章最早發佈於《<a href=\"https://blockcast.it\">區塊客</a>》。</p>",
@@ -12757,8 +12743,11 @@
     "topic": "Crypto",
     "published": "2026-07-09T12:00:00+00:00",
     "crawled": "2026-07-09T15:19:58.991496+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 超過72億美元的跨鏈及包裝資產自5月以來已從LayerZero遷移至Chainlink的跨鏈互操作協議（CCIP），Mantle成為最新的項目參與者。  \n• Mantle將其價值25億美元的Super Portal從LayerZero的Omnichain Fungible Token（OFT）標準遷移至Chainlink的Cross-Chain Token（CCT）標準，以增強安全性和控制權。  \n• 遷移將於7月9日至15日進行，期間Super Portal將暫停運作，現有的MNT在以太坊和Solana上的活動不受影響。  \n• 此次遷移是因為Kelp橋接的2.92億美元漏洞事件後，對LayerZero的橋接配置增加了審查，隨後多個項目如Solv Protocol和Kraken等也進行了資產遷移。",
+    "summaries": {
+      "zh-HK": "• 超過72億美元的跨鏈及包裝資產自5月以來已從LayerZero遷移至Chainlink的跨鏈互操作協議（CCIP），Mantle成為最新的項目參與者。  \n• Mantle將其價值25億美元的Super Portal從LayerZero的Omnichain Fungible Token（OFT）標準遷移至Chainlink的Cross-Chain Token（CCT）標準，以增強安全性和控制權。  \n• 遷移將於7月9日至15日進行，期間Super Portal將暫停運作，現有的MNT在以太坊和Solana上的活動不受影響。  \n• 此次遷移是因為Kelp橋接的2.92億美元漏洞事件後，對LayerZero的橋接配置增加了審查，隨後多個項目如Solv Protocol和Kraken等也進行了資產遷移。"
+    }
   },
   {
     "url": "https://www.coindesk.com/daybook-us/2026/07/09/pricing-houses-in-bitcoin-exposes-dollar-s-loss-of-value",
@@ -12771,8 +12760,11 @@
     "topic": "Bitcoin",
     "published": "2026-07-09T11:27:10+00:00",
     "crawled": "2026-07-09T15:19:59.432914+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 根據Fidelity Digital Assets的報告，自2020年以來，美國家庭房屋價格上漲超過10萬美元，顯示出正面的財富效應。  \n• 以比特幣計算，2020年需要超過50 BTC的房屋現在僅需5 BTC，顯示出法定貨幣的貶值。  \n• 分析師Zack Wainwright指出，房價上漲更準確地反映了法定貨幣的貶值，而非資產本身的增值。  \n• 比特幣作為通脹對沖工具的長期吸引力依然強勁，近期需求回升可能取決於ETF的回暖，特別是BlackRock的IBIT基金。",
+    "summaries": {
+      "zh-HK": "• 根據Fidelity Digital Assets的報告，自2020年以來，美國家庭房屋價格上漲超過10萬美元，顯示出正面的財富效應。  \n• 以比特幣計算，2020年需要超過50 BTC的房屋現在僅需5 BTC，顯示出法定貨幣的貶值。  \n• 分析師Zack Wainwright指出，房價上漲更準確地反映了法定貨幣的貶值，而非資產本身的增值。  \n• 比特幣作為通脹對沖工具的長期吸引力依然強勁，近期需求回升可能取決於ETF的回暖，特別是BlackRock的IBIT基金。"
+    }
   },
   {
     "url": "https://www.coindesk.com/coindesk-indices/2026/07/09/q2-2026-digital-asset-review",
@@ -12833,8 +12825,11 @@
     "topic": "Crypto",
     "published": "2026-07-09T11:18:41+00:00",
     "crawled": "2026-07-09T15:20:01.393684+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 索尼銀行獲得美國貨幣監理署的初步批准，成立美國穩定幣發行業務，啟動資本為4000萬美元。  \n• 新單位Connectia Trust, National Association將全資擁有，專注於發行以美元計價的穩定幣。  \n• 索尼銀行表示，在獲得所有批准和授權之前，包括OCC的最終批准，將不會進行任何業務活動或穩定幣發行。  \n• 此外，索尼銀行於3月與穩定幣發行商JPYC Inc.簽署諒解備忘錄，研究日元掛鈎穩定幣的整合可能性。",
+    "summaries": {
+      "zh-HK": "• 索尼銀行獲得美國貨幣監理署的初步批准，成立美國穩定幣發行業務，啟動資本為4000萬美元。  \n• 新單位Connectia Trust, National Association將全資擁有，專注於發行以美元計價的穩定幣。  \n• 索尼銀行表示，在獲得所有批准和授權之前，包括OCC的最終批准，將不會進行任何業務活動或穩定幣發行。  \n• 此外，索尼銀行於3月與穩定幣發行商JPYC Inc.簽署諒解備忘錄，研究日元掛鈎穩定幣的整合可能性。"
+    }
   },
   {
     "url": "https://cointelegraph.com/news/interpol-122m-crypto-flows-romance-scam-laundering?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -12847,8 +12842,11 @@
     "topic": "World",
     "published": "2026-07-09T11:18:21+00:00",
     "crawled": "2026-07-09T15:20:01.786723+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 國際刑警報告一名嫌疑人的加密錢包在10個月內處理超過1.225億美元，與戀愛詐騙洗錢有關  \n• 泰國當局逮捕兩名嫌疑人，揭露了一個將戀愛詐騙收益轉換為加密貨幣的洗錢網絡  \n• 此次行動是國際刑警協調的「第一道光2026」行動的一部分，涉及97個國家和地區，共逮捕5811人，查獲2.93億美元的非法資產  \n• 美國聯邦調查局報告顯示，2025年美國人提交的加密相關詐騙投訴達181,565宗，損失超過110億美元",
+    "summaries": {
+      "zh-HK": "• 國際刑警報告一名嫌疑人的加密錢包在10個月內處理超過1.225億美元，與戀愛詐騙洗錢有關  \n• 泰國當局逮捕兩名嫌疑人，揭露了一個將戀愛詐騙收益轉換為加密貨幣的洗錢網絡  \n• 此次行動是國際刑警協調的「第一道光2026」行動的一部分，涉及97個國家和地區，共逮捕5811人，查獲2.93億美元的非法資產  \n• 美國聯邦調查局報告顯示，2025年美國人提交的加密相關詐騙投訴達181,565宗，損失超過110億美元"
+    }
   },
   {
     "url": "https://www.theblock.co/post/407752/why-this-wall-street-veteran-is-betting-on-avalanche?utm_source=rss&utm_medium=rss",
@@ -13031,8 +13029,11 @@
     "topic": "Regulation",
     "published": "2026-07-09T11:42:34+00:00",
     "crawled": "2026-07-09T15:20:03.779077+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國商品期貨交易委員會主席邁克爾·塞利格在接受福克斯商業頻道訪問時警告，如果國會未能通過《明確法》，監管機構將最終“編寫所有規則”來管理加密貨幣。  \n• 塞利格呼籲立法者推進該法案，該法案將在商品期貨交易委員會和證券交易委員會之間劃分數字資產的監管權限。  \n• 眾議院於2025年7月通過了該法案，而參議院仍在協商其版本，並計劃在本月進行投票。  \n• 分析師已下調了對該法案通過時間表的預期，並指出政治和政策問題仍未解決。",
+    "summaries": {
+      "zh-HK": "• 美國商品期貨交易委員會主席邁克爾·塞利格在接受福克斯商業頻道訪問時警告，如果國會未能通過《明確法》，監管機構將最終“編寫所有規則”來管理加密貨幣。  \n• 塞利格呼籲立法者推進該法案，該法案將在商品期貨交易委員會和證券交易委員會之間劃分數字資產的監管權限。  \n• 眾議院於2025年7月通過了該法案，而參議院仍在協商其版本，並計劃在本月進行投票。  \n• 分析師已下調了對該法案通過時間表的預期，並指出政治和政策問題仍未解決。"
+    }
   },
   {
     "url": "https://decrypt.co/373059/moonpay-ai-crypto-agents-telegram",
@@ -13419,8 +13420,11 @@
     "topic": "Tech",
     "published": "2026-07-09T11:30:01+00:00",
     "crawled": "2026-07-09T15:20:14.764318+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 硅谷的科技公司正在探討如何利用人工智能推動新的慈善潮流  \n• 許多企業領袖和慈善家正在考慮如何將技術與社會責任結合  \n• 文章分析了這一趨勢可能對社會的影響及其潛在的挑戰  \n• 短期內，這一變化可能會改變慈善資金的流向和使用方式",
+    "summaries": {
+      "zh-HK": "• 硅谷的科技公司正在探討如何利用人工智能推動新的慈善潮流  \n• 許多企業領袖和慈善家正在考慮如何將技術與社會責任結合  \n• 文章分析了這一趨勢可能對社會的影響及其潛在的挑戰  \n• 短期內，這一變化可能會改變慈善資金的流向和使用方式"
+    }
   },
   {
     "url": "https://www.ft.com/content/ace4cbf4-2884-447e-86cf-3a97f1ec6ef8",
@@ -13532,8 +13536,11 @@
     "topic": "Finance",
     "published": "2026-07-09T12:00:00+00:00",
     "crawled": "2026-07-09T15:20:16.257579+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 印度IT服務巨頭Infosys的聯合創始人Nandan Nilekani將不再擔任Fundamentum Partnership的普通合夥人，該公司正啟動其第三支基金，目標籌集約2億美元。  \n• Nilekani將擔任該基金的主要投資者，並繼續為公司提供建議和指導。  \n• Fundamentum成立於2017年，專注於支持印度的初創企業，已經投資於多個領域的公司，包括二手車市場Spinny和在線藥房PharmEasy。  \n• 第三支基金計劃支持8至10個早期初創企業，並預計在未來12至18個月內完成籌資。",
+    "summaries": {
+      "zh-HK": "• 印度IT服務巨頭Infosys的聯合創始人Nandan Nilekani將不再擔任Fundamentum Partnership的普通合夥人，該公司正啟動其第三支基金，目標籌集約2億美元。  \n• Nilekani將擔任該基金的主要投資者，並繼續為公司提供建議和指導。  \n• Fundamentum成立於2017年，專注於支持印度的初創企業，已經投資於多個領域的公司，包括二手車市場Spinny和在線藥房PharmEasy。  \n• 第三支基金計劃支持8至10個早期初創企業，並預計在未來12至18個月內完成籌資。"
+    }
   },
   {
     "url": "https://arstechnica.com/culture/2026/07/conspiracies-and-regrets-abound-in-dune-part-three-trailer/",
@@ -13679,8 +13686,11 @@
     "topic": "Tech",
     "published": "2026-07-09T12:00:00+00:00",
     "crawled": "2026-07-09T15:20:18.962058+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Epilogue公司推出SN Operator，支持Super Nintendo Entertainment System及Super Famicom遊戲卡帶，於2026年上市。  \n• SN Operator設計為一個較大的透明立方體，尺寸為185 × 70 × 37毫米，並配有防塵護罩。  \n• 設備重230克，底部有橡膠基座以保持穩定，雖然不如GB Operator便攜，但適合家庭使用。  \n• 連接電腦後，安裝Epilogue的Playback軟件即可使用，支持Windows、macOS、Linux及Raspberry Pi。",
+    "summaries": {
+      "zh-HK": "• Epilogue公司推出SN Operator，支持Super Nintendo Entertainment System及Super Famicom遊戲卡帶，於2026年上市。  \n• SN Operator設計為一個較大的透明立方體，尺寸為185 × 70 × 37毫米，並配有防塵護罩。  \n• 設備重230克，底部有橡膠基座以保持穩定，雖然不如GB Operator便攜，但適合家庭使用。  \n• 連接電腦後，安裝Epilogue的Playback軟件即可使用，支持Windows、macOS、Linux及Raspberry Pi。"
+    }
   },
   {
     "url": "https://www.wired.com/review/dell-14s/",
@@ -13693,8 +13703,11 @@
     "topic": "Trading",
     "published": "2026-07-09T11:31:00+00:00",
     "crawled": "2026-07-09T15:20:19.120690+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 戴爾推出新款中階筆記型電腦Dell 14S，定價為1,270美元，較前代產品高出數百美元  \n• Dell 14S採用鋁製外殼，厚度為0.61英寸，並可選配OLED顯示器  \n• 該款筆記型電腦的音響和攝像頭表現一般，與高端型號Dell XPS 14相比有明顯差距  \n• 鍵盤使用感覺良好，但按鍵需較大力度才能按下，可能影響打字體驗",
+    "summaries": {
+      "zh-HK": "• 戴爾推出新款中階筆記型電腦Dell 14S，定價為1,270美元，較前代產品高出數百美元  \n• Dell 14S採用鋁製外殼，厚度為0.61英寸，並可選配OLED顯示器  \n• 該款筆記型電腦的音響和攝像頭表現一般，與高端型號Dell XPS 14相比有明顯差距  \n• 鍵盤使用感覺良好，但按鍵需較大力度才能按下，可能影響打字體驗"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-09/burnham-to-beef-up-uk-premier-s-economic-powers-key-ally-says",
@@ -13775,8 +13788,11 @@
     "topic": "Finance",
     "published": "2026-07-09T11:34:07+00:00",
     "crawled": "2026-07-09T15:20:20.591023+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 緬因州民主黨在格雷厄姆·普拉特納於週三晚上暫停競選後，正加緊努力以挽救擊敗參議員蘇珊·柯林斯的計劃  \n• 民主黨正在尋找替代人選，以填補普拉特納在參議院選票上的空缺  \n• 此次選舉對民主黨來說至關重要，因為他們希望在參議院中增加席位  \n• 目前尚未公佈任何潛在的候選人名單或時間表",
+    "summaries": {
+      "zh-HK": "• 緬因州民主黨在格雷厄姆·普拉特納於週三晚上暫停競選後，正加緊努力以挽救擊敗參議員蘇珊·柯林斯的計劃  \n• 民主黨正在尋找替代人選，以填補普拉特納在參議院選票上的空缺  \n• 此次選舉對民主黨來說至關重要，因為他們希望在參議院中增加席位  \n• 目前尚未公佈任何潛在的候選人名單或時間表"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/newsletters/2026-07-09/donald-trump-gives-ukraine-a-boost-with-patriots-promise-zelenskyy-praise",
@@ -13789,8 +13805,11 @@
     "topic": "Finance",
     "published": "2026-07-09T11:22:20+00:00",
     "crawled": "2026-07-09T15:20:20.965957+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 特朗普承諾向烏克蘭提供愛國者導彈，以增強其防禦能力  \n• 特朗普對烏克蘭總統澤連斯基表示讚賞，提升了基輔的士氣  \n• 此舉引發西方國家對烏克蘭局勢的樂觀情緒  \n• 批評者指出，這一承諾可能會影響美國的外交政策方向",
+    "summaries": {
+      "zh-HK": "• 特朗普承諾向烏克蘭提供愛國者導彈，以增強其防禦能力  \n• 特朗普對烏克蘭總統澤連斯基表示讚賞，提升了基輔的士氣  \n• 此舉引發西方國家對烏克蘭局勢的樂觀情緒  \n• 批評者指出，這一承諾可能會影響美國的外交政策方向"
+    }
   },
   {
     "url": "https://unchainedcrypto.com/why-stablecoins-need-privacy-to-reach-their-full-potential/",
@@ -13939,8 +13958,11 @@
     "topic": "Bitcoin",
     "published": "2026-07-09T11:47:58+00:00",
     "crawled": "2026-07-09T15:20:25.625962+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Barstool Sports 創辦人 Dave Portnoy 在比特幣價格從約 10 萬美元跌至 6.3 萬美元時，表示將持有比特幣至歸零，帳面虧損數百萬美元  \n• Portnoy 曾在比特幣約 1.1 萬美元時購買近 200 萬美元，但隨即賣出，導致他在比特幣漲至 10 萬美元時重新買回  \n• 他在接受 FOX Business 訪問時表示，因為擔心自己一賣比特幣會再次暴漲，所以決定不再賣出  \n• Portnoy 被幣圈稱為反指標，因為他的買賣時機經常與市場走勢相反",
+    "summaries": {
+      "zh-HK": "• Barstool Sports 創辦人 Dave Portnoy 在比特幣價格從約 10 萬美元跌至 6.3 萬美元時，表示將持有比特幣至歸零，帳面虧損數百萬美元  \n• Portnoy 曾在比特幣約 1.1 萬美元時購買近 200 萬美元，但隨即賣出，導致他在比特幣漲至 10 萬美元時重新買回  \n• 他在接受 FOX Business 訪問時表示，因為擔心自己一賣比特幣會再次暴漲，所以決定不再賣出  \n• Portnoy 被幣圈稱為反指標，因為他的買賣時機經常與市場走勢相反"
+    }
   },
   {
     "url": "https://blockcast.it/2026/07/09/robinhood-chains-first-viral-hit-cashcat-memecoin/",
@@ -14117,8 +14139,11 @@
     "topic": "World",
     "published": "2026-07-09T11:36:10+00:00",
     "crawled": "2026-07-09T15:20:31.341193+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 法國國家足球隊在本屆世界杯中表現出色，五場比賽全勝，攻入十四球，僅失兩球。\n• BBC專家對法國隊能否被擊敗進行討論，部分專家認為西班牙隊在防守上更具控制力，可能會對法國造成威脅。\n• 法國在四分之一決賽將對陣摩洛哥，若成功晉級，可能在半決賽面對西班牙。\n• 專家指出，儘管法國是奪冠熱門，但其他強隊如西班牙、阿根廷和英格蘭都有能力擊敗他們。",
+    "summaries": {
+      "zh-HK": "• 法國國家足球隊在本屆世界杯中表現出色，五場比賽全勝，攻入十四球，僅失兩球。\n• BBC專家對法國隊能否被擊敗進行討論，部分專家認為西班牙隊在防守上更具控制力，可能會對法國造成威脅。\n• 法國在四分之一決賽將對陣摩洛哥，若成功晉級，可能在半決賽面對西班牙。\n• 專家指出，儘管法國是奪冠熱門，但其他強隊如西班牙、阿根廷和英格蘭都有能力擊敗他們。"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/sport/football/articles/cdej0znl156o?at_medium=RSS&at_campaign=rss",
@@ -14281,8 +14306,11 @@
     "topic": "World",
     "published": "2026-07-09T11:47:46+00:00",
     "crawled": "2026-07-09T15:20:32.273023+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 巴基斯坦呼籲美伊雙方在衝突升級中保持克制，強調「重啟衝突對任何人都沒有好處」\n• 巴基斯坦外交部表示雙方應遵守四月簽署的伊斯蘭堡諒解備忘錄，以促進區域穩定\n• 美國對伊朗進行連續第二晚的攻擊，目標包括約90個軍事設施，伊朗隨後對美軍基地發動反擊\n• 特朗普在北約峰會上宣布停火結束，並威脅恢復對伊朗的海軍封鎖及攻擊其主要石油出口終端",
+    "summaries": {
+      "zh-HK": "• 巴基斯坦呼籲美伊雙方在衝突升級中保持克制，強調「重啟衝突對任何人都沒有好處」\n• 巴基斯坦外交部表示雙方應遵守四月簽署的伊斯蘭堡諒解備忘錄，以促進區域穩定\n• 美國對伊朗進行連續第二晚的攻擊，目標包括約90個軍事設施，伊朗隨後對美軍基地發動反擊\n• 特朗普在北約峰會上宣布停火結束，並威脅恢復對伊朗的海軍封鎖及攻擊其主要石油出口終端"
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/9/uk-labour-leadership-nominations-begin-whos-running-and-how-it-works?traffic_source=rss",
@@ -14295,8 +14323,11 @@
     "topic": "General",
     "published": "2026-07-09T11:38:54+00:00",
     "crawled": "2026-07-09T15:20:32.299040+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 英國工黨領導人提名於本周四正式開始，因首相基爾·史達默宣布將辭職。  \n• 前大曼徹斯特市市長安迪·伯納姆被視為主要候選人，若無其他競爭者出現，他可能在本月成為首相。  \n• 工黨候選人需獲得至少20%黨內議員支持及至少三個相關組織的提名，提名截止日期為下周三。  \n• 若有多位候選人參選，工黨成員將於8月6日至27日進行投票，結果預計在8月29日公佈。",
+    "summaries": {
+      "zh-HK": "• 英國工黨領導人提名於本周四正式開始，因首相基爾·史達默宣布將辭職。  \n• 前大曼徹斯特市市長安迪·伯納姆被視為主要候選人，若無其他競爭者出現，他可能在本月成為首相。  \n• 工黨候選人需獲得至少20%黨內議員支持及至少三個相關組織的提名，提名截止日期為下周三。  \n• 若有多位候選人參選，工黨成員將於8月6日至27日進行投票，結果預計在8月29日公佈。"
+    }
   },
   {
     "url": "https://www.npr.org/2026/07/09/nx-s1-5887308/reflecting-pool-vandalism-charges-plea-olympian-canoeist-david-hearn",
@@ -14343,8 +14374,11 @@
     "topic": "Politics",
     "published": "2026-07-09T11:22:04+00:00",
     "crawled": "2026-07-09T15:20:33.530050+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 民主黨的格雷厄姆·普拉特納宣布結束他在緬因州的美國參議院競選，原因是面臨黨內領導的壓力，因其前女友指控他強姦，普拉特納否認該指控。  \n• 普拉特納表示，退出並不代表承認有罪，並指責政治體系不適合普通人，民主黨需在7月27日的截止日期前尋找新候選人。  \n• 美國中央司令部報告，美國對伊朗南部發動空襲，目標為約90個軍事基地，伊朗則對科威特和巴林的美軍設施發動空襲。  \n• 以色列軍方已進入「全面備戰」狀態，總理內塔尼亞胡和國防部長取消公開活動召開緊急安全會議，對美國的行動表示支持，但對美國的最終目標仍存在不確定性。",
+    "summaries": {
+      "zh-HK": "• 民主黨的格雷厄姆·普拉特納宣布結束他在緬因州的美國參議院競選，原因是面臨黨內領導的壓力，因其前女友指控他強姦，普拉特納否認該指控。  \n• 普拉特納表示，退出並不代表承認有罪，並指責政治體系不適合普通人，民主黨需在7月27日的截止日期前尋找新候選人。  \n• 美國中央司令部報告，美國對伊朗南部發動空襲，目標為約90個軍事基地，伊朗則對科威特和巴林的美軍設施發動空襲。  \n• 以色列軍方已進入「全面備戰」狀態，總理內塔尼亞胡和國防部長取消公開活動召開緊急安全會議，對美國的行動表示支持，但對美國的最終目標仍存在不確定性。"
+    }
   },
   {
     "url": "https://www.scmp.com/news/china/science/article/3360000/100-gigawatts-china-unveils-its-high-power-microwave-weapon-arsenal?utm_source=rss_feed",
@@ -14425,8 +14459,11 @@
     "topic": "AI",
     "published": "2026-07-09T12:04:23+00:00",
     "crawled": "2026-07-09T15:20:35.044417+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 中國學者黃某在網上文章中指出，中國必須改革創新生態系統，以避免權力衰退及影響兩岸關係。  \n• 他建議中國應實施“非常規”改革，以培養和資助人工智能人才。  \n• 黃某提到，應將基礎研究從官僚國立大學轉移至領先科技企業。  \n• 他強調，新系統需將各人工智能子行業的領先科技企業作為人才培養和基礎研究的主要推動者。",
+    "summaries": {
+      "zh-HK": "• 中國學者黃某在網上文章中指出，中國必須改革創新生態系統，以避免權力衰退及影響兩岸關係。  \n• 他建議中國應實施“非常規”改革，以培養和資助人工智能人才。  \n• 黃某提到，應將基礎研究從官僚國立大學轉移至領先科技企業。  \n• 他強調，新系統需將各人工智能子行業的領先科技企業作為人才培養和基礎研究的主要推動者。"
+    }
   },
   {
     "url": "https://www.theguardian.com/world/2026/jul/09/lgbtq-cruise-ship-refused-entry-egypt-turkey",
@@ -14558,8 +14595,11 @@
     "topic": "World",
     "published": "2026-07-09T11:32:25+00:00",
     "crawled": "2026-07-09T15:20:37.493955+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 法國與摩洛哥的世界盃四分之一決賽將於近期舉行，兩國之間的殖民歷史引發關注  \n• 摩洛哥曾是法國的保護國，這場比賽將呈現兩國的歷史交織  \n• 當前的國家隊由不同背景的球員組成，反映出當今全球化的現象  \n• 比賽將在卡塔爾舉行，吸引了全球觀眾的目光",
+    "summaries": {
+      "zh-HK": "• 法國與摩洛哥的世界盃四分之一決賽將於近期舉行，兩國之間的殖民歷史引發關注  \n• 摩洛哥曾是法國的保護國，這場比賽將呈現兩國的歷史交織  \n• 當前的國家隊由不同背景的球員組成，反映出當今全球化的現象  \n• 比賽將在卡塔爾舉行，吸引了全球觀眾的目光"
+    }
   },
   {
     "url": "https://www.nytimes.com/2026/07/09/climate/iucn-red-list-threatened-species.html",
@@ -14691,8 +14731,11 @@
     "topic": "General",
     "published": "2026-07-09T12:00:03+00:00",
     "crawled": "2026-07-09T15:20:47.480082+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 第十四世達賴喇嘛丹增嘉措於7月6日在新德里阿波羅醫院接受左膝置換手術，正在康復中。  \n• 中國共產黨（CCP）已開始準備在達賴喇嘛去世後控制其轉世過程，要求轉世必須獲得中央政府批准。  \n• 1995年，達賴喇嘛指定的班禪喇嘛轉世被中國當局綁架，並安裝了國家支持的人選。  \n• 達賴喇嘛表示他將在“自由”的國家轉世，並可能打破傳統由女性繼任，而中國則計劃在清朝贈送的金 urn 中放入官方候選人名單。",
+    "summaries": {
+      "zh-HK": "• 第十四世達賴喇嘛丹增嘉措於7月6日在新德里阿波羅醫院接受左膝置換手術，正在康復中。  \n• 中國共產黨（CCP）已開始準備在達賴喇嘛去世後控制其轉世過程，要求轉世必須獲得中央政府批准。  \n• 1995年，達賴喇嘛指定的班禪喇嘛轉世被中國當局綁架，並安裝了國家支持的人選。  \n• 達賴喇嘛表示他將在“自由”的國家轉世，並可能打破傳統由女性繼任，而中國則計劃在清朝贈送的金 urn 中放入官方候選人名單。"
+    }
   },
   {
     "url": "https://www.ft.com/content/4b1df8e8-cc24-4991-a900-cde0d25f0f68",
@@ -15028,8 +15071,11 @@
     "topic": "Science",
     "published": "2026-07-09T11:51:31+00:00",
     "crawled": "2026-07-09T15:20:59.453013+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• SpaceX在2026年上半年發射了1,589顆Starlink衛星，超過2025年同期的1,489顆，創下新紀錄。  \n• SpaceX目前的發射數量比2025年的紀錄多出100顆衛星。  \n• 自Starlink計劃啟動以來，SpaceX已經發射超過12,400顆衛星，其中近11,000顆仍在運行。  \n• 相比之下，亞馬遜的Leo服務在過去15個月僅發射了約400顆衛星。",
+    "summaries": {
+      "zh-HK": "• SpaceX在2026年上半年發射了1,589顆Starlink衛星，超過2025年同期的1,489顆，創下新紀錄。  \n• SpaceX目前的發射數量比2025年的紀錄多出100顆衛星。  \n• 自Starlink計劃啟動以來，SpaceX已經發射超過12,400顆衛星，其中近11,000顆仍在運行。  \n• 相比之下，亞馬遜的Leo服務在過去15個月僅發射了約400顆衛星。"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaEw3T3U5RHNmcmVFb2VhWGdmRExEb1VHVFYwbFBsX1UxWGlJRW5pM0R0NGwtQVVlUHAwckdpcHIyaXZ3dkFTR2ZvV3JKams0TzhvQ0NYVnRkOFlFa1EtR19nVHFDcTJYQVYtaG9wYWxoRjlaX3kxeW9tdTNkZ0d0MGpVNjljem9DRTJaN2pSTmtoMEhJd3ZFTzlMTmtQOHF2WWYxSVpWNmwteWZBVG5iY2F4ZUtHZw?oc=5",
@@ -15093,8 +15139,11 @@
     "topic": "General",
     "published": "2026-07-09T11:45:23+00:00",
     "crawled": "2026-07-09T15:21:03.758031+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Meta計劃在9月開始生產AI芯片，旨在將計算能力翻倍  \n• 根據內部備忘錄，該公司希望通過新芯片提升其運算性能  \n• 此舉是Meta加強其在人工智能領域競爭力的一部分  \n• Meta未透露具體的生產細節或芯片的技術規格",
+    "summaries": {
+      "zh-HK": "• Meta計劃在9月開始生產AI芯片，旨在將計算能力翻倍  \n• 根據內部備忘錄，該公司希望通過新芯片提升其運算性能  \n• 此舉是Meta加強其在人工智能領域競爭力的一部分  \n• Meta未透露具體的生產細節或芯片的技術規格"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLWc0Y2R2MHQ0eXRvalR3ZHVqSGZ3a0pobWJ1RGE2N1lXVUFvU05EcW9YWjY3d21NaUJBblRxOHdfNWVDQU1pX2I1eHJkYnB3dmhvdkRsbVVhN1JSNE1taHZTUGJNRVpsOTFDTXBPRVJDdFVsel9jUVBNcDZ2YUlySjFXcjJEanA1eG1TSS1WTVJBN2hDZE5R?oc=5",
@@ -15141,8 +15190,11 @@
     "topic": "Finance",
     "published": "2026-07-09T11:22:00+00:00",
     "crawled": "2026-07-09T15:21:04.810203+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 電動車製造商Polestar在美國市場禁令下，季度銷售量下降  \n• Polestar報告顯示，第三季度銷售量較去年同期減少了9%  \n• 公司表示，禁令影響了其在美國的市場表現  \n• Polestar計劃在未來幾個季度內調整其市場策略以應對挑戰",
+    "summaries": {
+      "zh-HK": "• 電動車製造商Polestar在美國市場禁令下，季度銷售量下降  \n• Polestar報告顯示，第三季度銷售量較去年同期減少了9%  \n• 公司表示，禁令影響了其在美國的市場表現  \n• Polestar計劃在未來幾個季度內調整其市場策略以應對挑戰"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU0l1cEJNcjlUQjVYcXFjUVViTThKdnVqSGJMTUpEM2Jqem5HUGJyN1VvcEtyQUdrUnFBYWFhNXB3aEFUX2RmRHhCbXJxQ1JhX1Y1RXVyZUp3TXFlY1RFRXpLMWxHQnlQa3Q2OU1wekRWOEY4dGVzNVhQMnhYd1gyVEM0c080bUdGY01KNGJ2RW05MnlQMER1Q21EeUNfME1TVTh2aFk3TFZqMnpnOFowUzhmMWpXdUVHTmJtaXE1VkU?oc=5",
@@ -15186,8 +15238,11 @@
     "topic": "Trading",
     "published": "2026-07-09T11:28:55+00:00",
     "crawled": "2026-07-09T15:21:05.893003+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 德意志銀行警告，美國對外國股票的依賴程度超過對債務流入的依賴，這可能對美元構成風險  \n• 報告指出，外國資本流入主要來自股票市場，而非傳統的債務市場  \n• 這一趨勢可能會影響美元的穩定性，並增加市場的波動性  \n• 德意志銀行分析師強調，投資者應該關注這一變化對經濟的潛在影響",
+    "summaries": {
+      "zh-HK": "• 德意志銀行警告，美國對外國股票的依賴程度超過對債務流入的依賴，這可能對美元構成風險  \n• 報告指出，外國資本流入主要來自股票市場，而非傳統的債務市場  \n• 這一趨勢可能會影響美元的穩定性，並增加市場的波動性  \n• 德意志銀行分析師強調，投資者應該關注這一變化對經濟的潛在影響"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeXQxWG1OSmdCdUhUTHg2UDN0MEQyN20tN2tpcS1wcWVkMWlzWEZPRmdwV3dkVjhyNWFOX3JHd3NQYllmRzhVN0FidHBQdG40WnhWUXBubGZlU0xwT3ZXV1BQWGRXWkFkSDBXY0NsVFdKYWZzV0RseHhWY0xHSmpyR0VwTndtSWRnRUJIaE9hQmlxa3pxLUhVZEFxc1NtdEtlWExVZlNINkYtczFVRW5EYkg1MmlmMkxTRHc?oc=5",
@@ -16397,8 +16452,11 @@
     "topic": "Finance",
     "published": "2026-07-09T11:17:57+00:00",
     "crawled": "2026-07-09T16:53:13.212831+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 多數新興市場貨幣在星期四反彈，扭轉前一天的跌勢  \n• 油價小幅下跌，促使投資者對美國與伊朗之間的衝突重新評估  \n• 投資者對持續的新聞疲勞感到影響有限  \n• 市場情緒改善，助長貨幣回升趨勢",
+    "summaries": {
+      "zh-HK": "• 多數新興市場貨幣在星期四反彈，扭轉前一天的跌勢  \n• 油價小幅下跌，促使投資者對美國與伊朗之間的衝突重新評估  \n• 投資者對持續的新聞疲勞感到影響有限  \n• 市場情緒改善，助長貨幣回升趨勢"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-09/corn-soy-ease-ahead-of-wasde-as-traders-eye-relief-from-heat",
@@ -17436,8 +17494,11 @@
     "topic": "World",
     "published": "2026-07-09T11:35:42+00:00",
     "crawled": "2026-07-09T18:08:57.145695+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 克里姆林宮表示美國錯誤地認為烏克蘭加強攻擊可以幫助結束戰爭  \n• 此言論是在烏克蘭持續進行攻擊的背景下發表的  \n• 克里姆林宮強調，這種觀點不會促進和平進程  \n• 俄方重申其對烏克蘭局勢的立場，並呼籲尋求外交解決方案",
+    "summaries": {
+      "zh-HK": "• 克里姆林宮表示美國錯誤地認為烏克蘭加強攻擊可以幫助結束戰爭  \n• 此言論是在烏克蘭持續進行攻擊的背景下發表的  \n• 克里姆林宮強調，這種觀點不會促進和平進程  \n• 俄方重申其對烏克蘭局勢的立場，並呼籲尋求外交解決方案"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdFdnSUR4YnJRaXBYeFlGRnhqS3k3V3lxaFJqQllsZWZiRDRkbWtIZ2FJZld6b0tSXzVLemM5S0N6dEFYcVdadHRTMjFraHlJTmJYQldPaTdseldUS0dBQTlvOFhmaFNHQTBVU05fTkVLTGZXMW9NYldQcFZSRXY4SEFYb0tCQ2M?oc=5",
@@ -17471,6 +17532,74 @@
     "ai_summary": "• 一項研究探討人工智能在眼科病人教育中的應用及其可能的誤導性資訊問題  \n• 研究指出，部分病人可能因為不正確的AI資訊而產生誤解  \n• 專家呼籲醫療專業人士應加強對病人的教育，確保資訊的準確性  \n• 會議於2023年10月在歐洲舉行，聚焦於AI技術在醫療領域的影響及挑戰",
     "summaries": {
       "zh-HK": "• 一項研究探討人工智能在眼科病人教育中的應用及其可能的誤導性資訊問題  \n• 研究指出，部分病人可能因為不正確的AI資訊而產生誤解  \n• 專家呼籲醫療專業人士應加強對病人的教育，確保資訊的準確性  \n• 會議於2023年10月在歐洲舉行，聚焦於AI技術在醫療領域的影響及挑戰"
+    }
+  },
+  {
+    "url": "https://www.ft.com/content/753bd818-524a-46f3-9026-e2fae74c2167",
+    "title": "Microsoft’s early AI lead has become a test of faith",
+    "summary": "The only certainty is that capital spending is going through the roof",
+    "full_text": "Microsoft’s early AI lead has become a test of faith\nSubscribe to unlock this article\nTry unlimited access\nOnly $1 for 4 weeksThen $75 per month. Complete digital access to quality FT journalism on any device. Cancel anytime during your trial.\nExplore more offers.\nStandard Digital\n$45 per month\nEssential digital access to quality FT journalism on any device. Pay a year upfront and save 20%.\nPremium Digital\nComplete coverage\n$75 per month\nComplete digital access to quality FT journalism with expert analysis from industry leaders. Pay a year upfront and save 20%.\nPremium & FT Weekend Print\n$79 per month\nFT Weekend newspaper delivered Saturday plus complete digital access.\nCheck whether you already have access via your university or organisation.\nTerms & Conditions apply\nExplore our full range of subscriptions.\nFor individuals\nDiscover all the plans currently available in your country\nFor multiple readers\nDigital access for organisations. Includes exclusive features and content.\nWhy the FT?\nSee why over a million readers pay to read the Financial Times.",
+    "source": "FT Tech",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Tech",
+    "published": "2026-07-09T16:56:42+00:00",
+    "crawled": "2026-07-09T18:13:32.582387+00:00",
+    "summarized": true,
+    "ai_summary": "• 微軟在人工智能領域的早期領先地位面臨信心考驗  \n• 該公司在AI技術的發展上投入大量資源  \n• 微軟的AI產品和服務受到市場的密切關注  \n• 行業專家對微軟的未來表現持不同看法",
+    "summaries": {
+      "zh-HK": "• 微軟在人工智能領域的早期領先地位面臨信心考驗  \n• 該公司在AI技術的發展上投入大量資源  \n• 微軟的AI產品和服務受到市場的密切關注  \n• 行業專家對微軟的未來表現持不同看法"
+    }
+  },
+  {
+    "url": "https://www.bankless.com/read/news/hyperliquid-policy-center-and-phantom-ask-cftc-to-pave-way-for-onchain-infra",
+    "title": "Hyperliquid Policy Center and Phantom Ask CFTC to Pave Way for Onchain Infra",
+    "summary": "HPC and Phantom asked the CFTC to confirm code isn't a financial service.",
+    "full_text": "Subscribe to Bankless or sign in\nThe Hyperliquid Policy Center (HPC) and the Phantom team filed a joint comment letter with the CFTC today, urging the agency to update rules that currently keep American users walled off from onchain derivatives markets.\nWhat's the Scoop?\n- The opening: The filing responds to a CFTC request for information issued in June under Executive Order 14405, which asked which of the agency's rules unduly impede fintech firms from partnering with regulated institutions. HPC and Phantom's answer amounts to a three-part roadmap for bringing onchain markets under CFTC oversight.\n- The main thrust: The letter's central argument is that writing software isn't the same as running a financial services business, a line the CFTC has long respected offchain, where engineers build the matching engines that regulated exchanges deploy without themselves registering. The groups want the agency to confirm that publishing onchain protocol code, on its own, doesn't trigger registration either.\n- Registrants go onchain: The second ask is guidance letting the CFTC's own registrants, like exchanges and clearinghouses, perform their regulated functions using onchain infrastructure, covering thorny areas like fund segregation and recordkeeping. Notably, the letter argues self-custody plus transparent code can meet or exceed the protections legacy custodial rules were written to provide.\n- Codifying Phantom's letter: In March, the CFTC granted Phantom no-action relief confirming its non-custodial wallet isn't an introducing broker. The filing asks the agency to turn that one-off relief into a formal rule covering every similarly situated firm.",
+    "source": "Bankless",
+    "category": "crypto",
+    "lang": "en",
+    "topic": "Regulation",
+    "published": "2026-07-09T18:08:42+00:00",
+    "crawled": "2026-07-09T18:13:37.958497+00:00",
+    "summarized": true,
+    "ai_summary": "• Hyperliquid政策中心和Phantom團隊今日向CFTC提交聯合意見書，呼籲更新規則以促進美國用戶進入鏈上衍生品市場。  \n• 此次提交回應了CFTC於6月發出的資訊請求，提出了一個三部分的路線圖，以將鏈上市場納入CFTC監管。  \n• 意見書主張，編寫軟件與經營金融服務業務不同，並希望CFTC確認發布鏈上協議代碼不會觸發註冊要求。  \n• 此外，意見書要求CFTC指導其註冊機構如交易所和清算所使用鏈上基礎設施執行其監管職能，並希望將Phantom的無行動救濟轉變為正式規則。",
+    "summaries": {
+      "zh-HK": "• Hyperliquid政策中心和Phantom團隊今日向CFTC提交聯合意見書，呼籲更新規則以促進美國用戶進入鏈上衍生品市場。  \n• 此次提交回應了CFTC於6月發出的資訊請求，提出了一個三部分的路線圖，以將鏈上市場納入CFTC監管。  \n• 意見書主張，編寫軟件與經營金融服務業務不同，並希望CFTC確認發布鏈上協議代碼不會觸發註冊要求。  \n• 此外，意見書要求CFTC指導其註冊機構如交易所和清算所使用鏈上基礎設施執行其監管職能，並希望將Phantom的無行動救濟轉變為正式規則。"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wemJKWTFORXd6YmVORDljMUFEUGZmMlllRmlfX0lSRGpicmFuRmQ2NFNwV0hNWnhrZmZsamZGMXYyM1JGemZ0ODBnaXo0anRwZk81RzA3ZmY2VkZMYnVld2dHQV9FUFNEYjd3Sy1HNmUtdnRIbkx6Mnc0ZDVfQQ?oc=5",
+    "title": "OpenAI launches ChatGPT Work - Reuters",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE1wemJKWTFORXd6YmVORDljMUFEUGZmMlllRmlfX0lSRGpicmFuRmQ2NFNwV0hNWnhrZmZsamZGMXYyM1JGemZ0ODBnaXo0anRwZk81RzA3ZmY2VkZMYnVld2dHQV9FUFNEYjd3Sy1HNmUtdnRIbkx6Mnc0ZDVfQQ?oc=5\" target=\"_blank\">OpenAI launches ChatGPT Work</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+    "full_text": "",
+    "source": "Reuters (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-09T17:07:43+00:00",
+    "crawled": "2026-07-09T18:14:09.521540+00:00",
+    "summarized": true,
+    "ai_summary": "• OpenAI於近期推出了ChatGPT Work，旨在提升企業生產力和協作效率  \n• ChatGPT Work提供定制化功能，以滿足不同企業的需求  \n• 此服務將於全球範圍內推出，適用於各類型的商業環境  \n• OpenAI表示，這一新產品將幫助企業更好地利用人工智能技術",
+    "summaries": {
+      "zh-HK": "• OpenAI於近期推出了ChatGPT Work，旨在提升企業生產力和協作效率  \n• ChatGPT Work提供定制化功能，以滿足不同企業的需求  \n• 此服務將於全球範圍內推出，適用於各類型的商業環境  \n• OpenAI表示，這一新產品將幫助企業更好地利用人工智能技術"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObDNJMzFuS2NzZ2t2eWUxLTJXRVpOaFN2SHZyd2RNeUhYRWthWlluSHUxTk93R3dKY0FGelZLbDF3cTc4dGozeXVlUXVSeEdGZmtLelJTb3FPUm1sNEhKQThaQ2V0UHc1T2dxODBxVlMwdnJOb3oyYTdVYUxsRTg3T3duZm84aHg5anVlLW44WXVLdldqWU8wNU45bUVfUGc1WVJCbTRlOUFDeEN5SklsSG1WRGxWbnlIdFZtUWcxWVRHZE15czJJdG93?oc=5",
+    "title": "Japan moves quicker to lower travel risk advisories, easing business trips - Nikkei Asia",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxObDNJMzFuS2NzZ2t2eWUxLTJXRVpOaFN2SHZyd2RNeUhYRWthWlluSHUxTk93R3dKY0FGelZLbDF3cTc4dGozeXVlUXVSeEdGZmtLelJTb3FPUm1sNEhKQThaQ2V0UHc1T2dxODBxVlMwdnJOb3oyYTdVYUxsRTg3T3duZm84aHg5anVlLW44WXVLdldqWU8wNU45bUVfUGc1WVJCbTRlOUFDeEN5SklsSG1WRGxWbnlIdFZtUWcxWVRHZE15czJJdG93?oc=5\" target=\"_blank\">Japan moves quicker to lower travel risk advisories, easing business trips</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>",
+    "full_text": "",
+    "source": "Nikkei Asia",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-09T17:56:00+00:00",
+    "crawled": "2026-07-09T18:14:12.217929+00:00",
+    "summarized": true,
+    "ai_summary": "• 日本政府加快降低旅行風險建議，以促進商務旅行  \n• 新的旅行建議將於2023年11月生效，涵蓋多個國家和地區  \n• 此舉旨在恢復國際商務活動，支持經濟復甦  \n• 日本的旅行風險評估將根據疫情狀況進行調整，強調安全性和靈活性",
+    "summaries": {
+      "zh-HK": "• 日本政府加快降低旅行風險建議，以促進商務旅行  \n• 新的旅行建議將於2023年11月生效，涵蓋多個國家和地區  \n• 此舉旨在恢復國際商務活動，支持經濟復甦  \n• 日本的旅行風險評估將根據疫情狀況進行調整，強調安全性和靈活性"
     }
   }
 ]
