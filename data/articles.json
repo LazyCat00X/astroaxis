@@ -11301,8 +11301,11 @@
     "topic": "Bitcoin",
     "published": "2026-07-09T09:58:07+00:00",
     "crawled": "2026-07-09T10:45:10.661650+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 比特幣ETF在周三錄得新的8500萬美元淨流出，結束了為期十天的27億美元賣出潮。  \n• 瑞士區塊鏈投資公司Swissblock表示，這波“最壓倒性的”賣出潮已經結束，但需求仍然疲弱。  \n• 數據顯示，比特幣現貨市場的需求未能跟上期貨市場的反彈，現貨需求仍然為負。  \n• 分析指出，最近的市場反彈主要由期貨交易者推動，而現貨買家仍然相對謹慎。",
+    "summaries": {
+      "zh-HK": "• 比特幣ETF在周三錄得新的8500萬美元淨流出，結束了為期十天的27億美元賣出潮。  \n• 瑞士區塊鏈投資公司Swissblock表示，這波“最壓倒性的”賣出潮已經結束，但需求仍然疲弱。  \n• 數據顯示，比特幣現貨市場的需求未能跟上期貨市場的反彈，現貨需求仍然為負。  \n• 分析指出，最近的市場反彈主要由期貨交易者推動，而現貨買家仍然相對謹慎。"
+    }
   },
   {
     "url": "https://www.theblock.co/post/407687/swift-launches-blockchain-ledger-for-tokenized-deposit-pilot-with-17-banks?utm_source=rss&utm_medium=rss",
@@ -11620,8 +11623,11 @@
     "topic": "Finance",
     "published": "2026-07-09T09:59:08+00:00",
     "crawled": "2026-07-09T10:45:21.963941+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 特朗普在土耳其首都離開時表示感受到其他領導人的“愛”\n• 此次會議是北約峰會，旨在加強成員國之間的合作\n• 峰會期間，各國領導人討論了安全和防務議題\n• 特朗普的言論顯示他對會議結果感到滿意",
+    "summaries": {
+      "zh-HK": "• 特朗普在土耳其首都離開時表示感受到其他領導人的“愛”\n• 此次會議是北約峰會，旨在加強成員國之間的合作\n• 峰會期間，各國領導人討論了安全和防務議題\n• 特朗普的言論顯示他對會議結果感到滿意"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-09/india-pushes-back-against-us-forced-labor-claims-as-tariffs-loom",
@@ -12018,8 +12024,11 @@
     "topic": "Health",
     "published": "2026-07-09T09:53:00+00:00",
     "crawled": "2026-07-09T10:45:47.053041+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 兩家公司於星期四公佈，正在開發的心臟病藥物在第三期臨床試驗中失敗  \n• 該藥物的失敗導致這兩家公司的市值損失達270億美元  \n• 這一消息對市場造成了顯著影響，投資者反應強烈  \n• 目前尚未透露該藥物失敗的具體原因或後續計劃",
+    "summaries": {
+      "zh-HK": "• 兩家公司於星期四公佈，正在開發的心臟病藥物在第三期臨床試驗中失敗  \n• 該藥物的失敗導致這兩家公司的市值損失達270億美元  \n• 這一消息對市場造成了顯著影響，投資者反應強烈  \n• 目前尚未透露該藥物失敗的具體原因或後續計劃"
+    }
   },
   {
     "url": "https://www.marketwatch.com/story/sk-hynix-nasdaq-listing-may-become-the-second-largest-equity-offering-ever-trailing-only-spacexs-8dca5afa?mod=mw_rss_topstories",
@@ -12608,8 +12617,11 @@
     "topic": "Finance",
     "published": "2026-07-09T11:00:21+00:00",
     "crawled": "2026-07-09T11:22:01.967729+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 歐洲聯盟正在最終確定其採購規則的重大變更，將優先考慮歐洲供應商在關鍵公共服務中的合約。  \n• 新規則旨在促進歐洲內部市場的發展，增強本地供應商的競爭力。  \n• 各國政府將能夠在公共服務合約中優先選擇歐洲公司，以減少對外部供應商的依賴。  \n• 此項變更預計將對歐盟成員國的公共服務採購流程產生深遠影響。",
+    "summaries": {
+      "zh-HK": "• 歐洲聯盟正在最終確定其採購規則的重大變更，將優先考慮歐洲供應商在關鍵公共服務中的合約。  \n• 新規則旨在促進歐洲內部市場的發展，增強本地供應商的競爭力。  \n• 各國政府將能夠在公共服務合約中優先選擇歐洲公司，以減少對外部供應商的依賴。  \n• 此項變更預計將對歐盟成員國的公共服務採購流程產生深遠影響。"
+    }
   },
   {
     "url": "https://www.nytimes.com/2026/07/09/world/europe/germany-japan-ukraine-patriot-missiles.html",
@@ -12622,8 +12634,11 @@
     "topic": "Politics",
     "published": "2026-07-09T11:11:49+00:00",
     "crawled": "2026-07-09T11:22:16.484731+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 德國和日本已獲得美國授權建造愛國者導彈系統 \n• 特朗普總統表示將向烏克蘭授予相同的建造許可 \n• 愛國者導彈系統旨在增強烏克蘭的防空能力 \n• 此舉顯示美國對烏克蘭的支持持續增強",
+    "summaries": {
+      "zh-HK": "• 德國和日本已獲得美國授權建造愛國者導彈系統 \n• 特朗普總統表示將向烏克蘭授予相同的建造許可 \n• 愛國者導彈系統旨在增強烏克蘭的防空能力 \n• 此舉顯示美國對烏克蘭的支持持續增強"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWmlLM1N2RC1HcVRscG1xcXlHN1V3bjJzTXVJVkl5eS03My0wUHdJUWdKTVVzUUJjdkhMOU1IS3ZBeDNFMVFkY0VGOHdUZExHX1docExWZ3BhTGtFMnhzRWtKOXJRckIwaXg0V1JPT1BHQzJJOXlXUWdnV2V6V1Q1eHlKX2VrcU95djFOdXRFOUFDVXVVbDhUbTNqQjRlMFhubnpWLVlWWFpTREpGa2dNV3RGU3VCY2VXVmFvMU5MaVBXR1dTQVBiUHlaSXhrbFJuU0QyUldSUVphcFk?oc=5",
@@ -12650,8 +12665,11 @@
     "topic": "AI",
     "published": "2026-07-09T11:16:00+00:00",
     "crawled": "2026-07-09T11:22:41.043107+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 一項綜合性回顧文章探討人工智能在神經退行性疾病診斷和管理中的應用，特別是帕金森病和阿茲海默病。  \n• 文章發表於Cureus期刊，旨在總結現有的研究和技術進展。  \n• 研究強調人工智能技術如何改善疾病的早期診斷和個性化治療。  \n• 文章指出，這些技術的發展可能對患者的生活質量產生重要影響。",
+    "summaries": {
+      "zh-HK": "• 一項綜合性回顧文章探討人工智能在神經退行性疾病診斷和管理中的應用，特別是帕金森病和阿茲海默病。  \n• 文章發表於Cureus期刊，旨在總結現有的研究和技術進展。  \n• 研究強調人工智能技術如何改善疾病的早期診斷和個性化治療。  \n• 文章指出，這些技術的發展可能對患者的生活質量產生重要影響。"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPc05odG9xc3RsUlVSQWtDWXRsOEhEOVRjVXU1Sl9fZ3FxNVNCbDBXZDlES1FNZWNrb0pobC1NTTktS2VIbTF2SjBrRVVKa0d5emNnY0lib3dQU2FLbmp0cERreXUwZXlRVDJkb2ZBU09vZ1dzal9ZbmhrUURvTEJKaE5MZGotSWdlU1Y3S1JOMA?oc=5",
@@ -12664,8 +12682,11 @@
     "topic": "AI",
     "published": "2026-07-09T11:14:09+00:00",
     "crawled": "2026-07-09T11:22:41.354315+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 伊利諾伊州州長普利茲克簽署了一項人工智能安全法案，旨在加強對人工智能技術的監管 \n• 該法案於2023年10月生效，要求企業在開發和使用人工智能時遵循安全標準 \n• 法案的主要目的是保護消費者和社會免受潛在的人工智能風險 \n• 此舉使伊利諾伊州成為全美首個制定此類法律的州，旨在引領人工智能的負責任發展",
+    "summaries": {
+      "zh-HK": "• 伊利諾伊州州長普利茲克簽署了一項人工智能安全法案，旨在加強對人工智能技術的監管 \n• 該法案於2023年10月生效，要求企業在開發和使用人工智能時遵循安全標準 \n• 法案的主要目的是保護消費者和社會免受潛在的人工智能風險 \n• 此舉使伊利諾伊州成為全美首個制定此類法律的州，旨在引領人工智能的負責任發展"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbU9VNVFncVVmWGxvNnBLRmM3dEwxczUzSFRDSXhIdzJQTkJSUWdhb0lmS0xsdTl6cWszeG9GSGNocmt2cWRnWlpzaEh2TjU0MHZic0NHMThGa3RDeEpRLTZYRVZLRVZUNmxoVlJMMXJCTHphcm5WRFp5NHlkWUZhTHNaQ3Y?oc=5",
@@ -12678,8 +12699,11 @@
     "topic": "Ai",
     "published": "2026-07-09T11:00:06+00:00",
     "crawled": "2026-07-09T11:22:41.715710+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 麻省理工學院斯隆管理評論發表文章，探討AI輔助創意的隱藏成本  \n• 文章指出，雖然AI可以提升創意過程的效率，但也可能影響創作者的原創性  \n• 研究顯示，依賴AI工具可能導致創作者失去某些技能和創造力  \n• 專家建議企業在使用AI輔助創意時應考慮平衡技術與人類創造力的關係",
+    "summaries": {
+      "zh-HK": "• 麻省理工學院斯隆管理評論發表文章，探討AI輔助創意的隱藏成本  \n• 文章指出，雖然AI可以提升創意過程的效率，但也可能影響創作者的原創性  \n• 研究顯示，依賴AI工具可能導致創作者失去某些技能和創造力  \n• 專家建議企業在使用AI輔助創意時應考慮平衡技術與人類創造力的關係"
+    }
   },
   {
     "url": "https://www.coindesk.com/tech/2026/07/09/ethereum-s-newest-nonprofit-wants-to-become-wall-street-s-guide-to-crypto",
@@ -12777,8 +12801,11 @@
     "topic": "Crypto",
     "published": "2026-07-09T10:40:45+00:00",
     "crawled": "2026-07-09T15:19:59.964326+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 數字資產在2026年第二季度持續承壓，連續第三個季度下跌，為自2022年熊市以來最長的季度下跌期 \n• 機構資本明顯轉向AI驅動的股票，導致比特幣和以太坊ETF在第二季度分別錄得46.7億美元和6.9億美元的淨流出 \n• CoinDesk 20指數下跌17.9%，比特幣下跌14.2%，而標普500和納斯達克100指數則分別上漲14.9%和27.2% \n• 在CoinDesk 20成分中，NEAR以49.8%的增長領先，XLM增長12.6%，而其他七種資產則表現不佳，包括比特幣下跌14.2%",
+    "summaries": {
+      "zh-HK": "• 數字資產在2026年第二季度持續承壓，連續第三個季度下跌，為自2022年熊市以來最長的季度下跌期 \n• 機構資本明顯轉向AI驅動的股票，導致比特幣和以太坊ETF在第二季度分別錄得46.7億美元和6.9億美元的淨流出 \n• CoinDesk 20指數下跌17.9%，比特幣下跌14.2%，而標普500和納斯達克100指數則分別上漲14.9%和27.2% \n• 在CoinDesk 20成分中，NEAR以49.8%的增長領先，XLM增長12.6%，而其他七種資產則表現不佳，包括比特幣下跌14.2%"
+    }
   },
   {
     "url": "https://cointelegraph.com/features/bigger-blocks-or-stark-proofs-bitcoins-quantum-dilemma?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -13437,8 +13464,11 @@
     "topic": "Science",
     "published": "2026-07-09T11:00:23+00:00",
     "crawled": "2026-07-09T15:20:15.459076+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 本文探討Burnham在面對民粹主義科技反彈時的應對策略  \n• 文章強調不應屈服於反科技情緒，以維護創新和經濟增長  \n• 內容涉及科技對社會的影響及其潛在的政治後果  \n• 文章未提供具體的時間、地點或事件細節",
+    "summaries": {
+      "zh-HK": "• 本文探討Burnham在面對民粹主義科技反彈時的應對策略  \n• 文章強調不應屈服於反科技情緒，以維護創新和經濟增長  \n• 內容涉及科技對社會的影響及其潛在的政治後果  \n• 文章未提供具體的時間、地點或事件細節"
+    }
   },
   {
     "url": "https://techcrunch.com/2026/07/09/block-reaches-45m-settlement-with-46-states-over-cash-app-fraud-probe/",
@@ -13621,8 +13651,11 @@
     "topic": "Tech",
     "published": "2026-07-09T11:00:26+00:00",
     "crawled": "2026-07-09T15:20:17.306367+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• SpaceX的Starship火箭具備超過100公噸的低地球軌道載重能力，改變了太空產業的思維方式  \n• Starship仍處於實驗階段，尚未證明其潛在的運輸能力，但NASA和美軍正考慮其用於月球飛行及運送貨物  \n• 中國正尋求發展自己的Starship，以應對美國的競爭  \n• 2026年將迎來超重型發射的新時代，可能會開啟全新的衛星應用領域",
+    "summaries": {
+      "zh-HK": "• SpaceX的Starship火箭具備超過100公噸的低地球軌道載重能力，改變了太空產業的思維方式  \n• Starship仍處於實驗階段，尚未證明其潛在的運輸能力，但NASA和美軍正考慮其用於月球飛行及運送貨物  \n• 中國正尋求發展自己的Starship，以應對美國的競爭  \n• 2026年將迎來超重型發射的新時代，可能會開啟全新的衛星應用領域"
+    }
   },
   {
     "url": "https://www.wired.com/story/a-majority-of-european-lawmakers-voted-against-letting-big-tech-read-our-messages-theyre-going-to-anyway/",
@@ -14043,8 +14076,11 @@
     "topic": "General",
     "published": "2026-07-09T10:39:06+00:00",
     "crawled": "2026-07-09T15:20:31.159211+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 威爾士歌手邦妮·泰勒於75歲時在葡萄牙醫院意外去世，家人表示她因病接受治療而亡。\n• 奧斯卡獲獎女演員凱瑟琳·澤塔-瓊斯在社交媒體上表達對泰勒的哀悼，稱其為「獨特的藝術家」。\n• 泰勒的丈夫羅伯特·沙利文為她的唯一伴侶，兩人結婚超過50年。\n• 英國首相基爾·斯塔默對泰勒的去世表示悲痛，稱她為「英國最偉大的錄音藝術家之一」。",
+    "summaries": {
+      "zh-HK": "• 威爾士歌手邦妮·泰勒於75歲時在葡萄牙醫院意外去世，家人表示她因病接受治療而亡。\n• 奧斯卡獲獎女演員凱瑟琳·澤塔-瓊斯在社交媒體上表達對泰勒的哀悼，稱其為「獨特的藝術家」。\n• 泰勒的丈夫羅伯特·沙利文為她的唯一伴侶，兩人結婚超過50年。\n• 英國首相基爾·斯塔默對泰勒的去世表示悲痛，稱她為「英國最偉大的錄音藝術家之一」。"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/cj3gdj300lyo?at_medium=RSS&at_campaign=rss",
@@ -14108,8 +14144,11 @@
     "topic": "General",
     "published": "2026-07-09T10:00:08+00:00",
     "crawled": "2026-07-09T15:20:31.275888+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 英國面對炎熱夏季，家庭對空調需求上升，零售商的庫存迅速售罄。  \n• 家庭主要有三種空調系統：便攜式空調、分體式空調和管道式空調。  \n• 便攜式空調價格約為350至650英鎊，分體式空調則在750至1,100英鎊之間，安裝費用另計。  \n• 管道式空調系統的價格在990至1,750英鎊之間，安裝總成本可能高達10,000英鎊，視乎房屋大小而定。",
+    "summaries": {
+      "zh-HK": "• 英國面對炎熱夏季，家庭對空調需求上升，零售商的庫存迅速售罄。  \n• 家庭主要有三種空調系統：便攜式空調、分體式空調和管道式空調。  \n• 便攜式空調價格約為350至650英鎊，分體式空調則在750至1,100英鎊之間，安裝費用另計。  \n• 管道式空調系統的價格在990至1,750英鎊之間，安裝總成本可能高達10,000英鎊，視乎房屋大小而定。"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/cn4d5qge1k4o?at_medium=RSS&at_campaign=rss",
@@ -14156,8 +14195,11 @@
     "topic": "General",
     "published": "2026-07-09T10:53:47+00:00",
     "crawled": "2026-07-09T15:20:31.368463+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 英格蘭在對墨西哥的比賽中以3-2獲勝，賽後更衣室內出現了一段病毒式的惡作劇片段。  \n• 教練托馬斯·圖赫爾在慶祝時發現後衛約翰·斯通斯似乎受傷，隨後斯通斯卻開始揮舞拳頭，讓隊友們鬆了一口氣。  \n• 這段片段在社交媒體上獲得超過4000萬次觀看，斯通斯表示當時的氣氛非常好。  \n• 英格蘭將於周六在邁阿密對挪威進行四分之一決賽。",
+    "summaries": {
+      "zh-HK": "• 英格蘭在對墨西哥的比賽中以3-2獲勝，賽後更衣室內出現了一段病毒式的惡作劇片段。  \n• 教練托馬斯·圖赫爾在慶祝時發現後衛約翰·斯通斯似乎受傷，隨後斯通斯卻開始揮舞拳頭，讓隊友們鬆了一口氣。  \n• 這段片段在社交媒體上獲得超過4000萬次觀看，斯通斯表示當時的氣氛非常好。  \n• 英格蘭將於周六在邁阿密對挪威進行四分之一決賽。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/9/not-nigel-farage-who-is-count-binface-contesting-as-mp-for-clacton-uk?traffic_source=rss",
@@ -15224,8 +15266,11 @@
     "topic": "Science",
     "published": "2026-07-09T10:27:16+00:00",
     "crawled": "2026-07-09T15:21:05.496568+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 隨著SpaceX和人工智能初創公司的財富增長，私人飛機的需求上升  \n• 根據報導，這些企業的成功使得高淨值人士對私人飛機的興趣增加  \n• 私人飛機製造商表示，訂單量和銷售額均有所上升  \n• 專家指出，疫情後的旅行需求回升也推動了私人飛機市場的增長",
+    "summaries": {
+      "zh-HK": "• 隨著SpaceX和人工智能初創公司的財富增長，私人飛機的需求上升  \n• 根據報導，這些企業的成功使得高淨值人士對私人飛機的興趣增加  \n• 私人飛機製造商表示，訂單量和銷售額均有所上升  \n• 專家指出，疫情後的旅行需求回升也推動了私人飛機市場的增長"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSmhhQWZpaGR2X3BMck56ZzloTTFZMmN0bnM3T041RUNqQ2FqUjVOQU42MG5WamZySGIyR0NBWU44aDBITy1DdFpraEU4eEgtYlpOX1VreFRGaGlid1d5bVBlb21zNGpwTXR4TFdwNXF6NWo4aXRqQnlYUWowdExSWE9HVzY4cHYyZHFjNm9sRU1IU3ZYdnFzRnRQbHp5bTNsaldtdDBvT2w1ZE9odDhUMEM1bEFKZDUxcGt4bG9uaGZMUFFLTFRnaQ?oc=5",
@@ -15269,8 +15314,11 @@
     "topic": "General",
     "published": "2026-07-09T10:57:54+00:00",
     "crawled": "2026-07-09T15:21:06.601824+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 谷歌對印度法院裁決提出上訴，該裁決涉及其廣告平台的運作方式  \n• 上訴理由是該裁決對消費者造成了損害  \n• 印度競爭委員會在2023年對谷歌的廣告業務進行了調查  \n• 谷歌表示將繼續捍衛其業務做法，並尋求推翻該裁決",
+    "summaries": {
+      "zh-HK": "• 谷歌對印度法院裁決提出上訴，該裁決涉及其廣告平台的運作方式  \n• 上訴理由是該裁決對消費者造成了損害  \n• 印度競爭委員會在2023年對谷歌的廣告業務進行了調查  \n• 谷歌表示將繼續捍衛其業務做法，並尋求推翻該裁決"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWlJrcUhGNjUtY2dOX1RQcWxqNW1KNGtrZU9uYU5KSjZiaDdZM3ozU1BZUjR4WmJyLVJjLW9yYjJGRHdSSEo4T0NNVUQ1T2VHN19keUtvRklORURPYUhtS0hUR2NJWnRIcnd3VFRLdGpDTmcwSnA0WHcxSUJ2RHhrNG1hOWUycm5kUjl6OHhoTjhSNVZXRmFUVnRMclJYMW9FdXRJZ1VLSkFrbmxRWVg5N3Z5c3M?oc=5",
@@ -15300,8 +15348,11 @@
     "topic": "Politics",
     "published": "2026-07-09T10:32:41+00:00",
     "crawled": "2026-07-09T15:21:07.382074+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 北約在安卡拉峰會後應對特朗普的影響，並為未來可能的挑戰做好準備  \n• 峰會期間，北約成員國討論了安全合作及地緣政治問題  \n• 特朗普在其任內對北約的批評曾引發成員國的擔憂  \n• 北約秘書長表示，聯盟的團結和合作仍然是應對未來挑戰的關鍵",
+    "summaries": {
+      "zh-HK": "• 北約在安卡拉峰會後應對特朗普的影響，並為未來可能的挑戰做好準備  \n• 峰會期間，北約成員國討論了安全合作及地緣政治問題  \n• 特朗普在其任內對北約的批評曾引發成員國的擔憂  \n• 北約秘書長表示，聯盟的團結和合作仍然是應對未來挑戰的關鍵"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORlNKWGhra0dLRVRhcGFlZGJ6NDFFM21nY01UQ2lSTFgydV9nTy1hdjVTZDFiTEg2b0s1OHVlR3Vrd09wdmZZdEpLYzZIQnRlNzJlQURMOGFPTkpabklyT0ZpRE1QZmRYZmhNTDJFRjNNYTBUR1hqLUtiMXo4OXZFU291NnlXWkYyNWpYU09PZmFZcHdnVDdoWnA1aXU0VFBXN3A4SlBJb3dtNVd1cF9qQnBKd2VxdUtuRzJaZkNmbUNVbk5P?oc=5",
@@ -16925,8 +16976,11 @@
     "topic": "AI",
     "published": "2026-07-09T10:00:00+00:00",
     "crawled": "2026-07-09T17:06:51.199750+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• GPT-5.6系列模型正式推出，包括旗艦模型Sol、日常工作平衡模型Terra及最具成本效益的模型Luna。\n• GPT-5.6 Sol在編碼、知識工作、網絡安全及科學領域表現卓越，並以較低的成本達到更高的效能。\n• 新增的超高能力設置可協調多個代理在平行工作流中加速完成複雜任務。\n• GPT-5.6系列具備強大的安全防護措施，經過廣泛測試以防止濫用，同時不限制合法工作。",
+    "summaries": {
+      "zh-HK": "• GPT-5.6系列模型正式推出，包括旗艦模型Sol、日常工作平衡模型Terra及最具成本效益的模型Luna。\n• GPT-5.6 Sol在編碼、知識工作、網絡安全及科學領域表現卓越，並以較低的成本達到更高的效能。\n• 新增的超高能力設置可協調多個代理在平行工作流中加速完成複雜任務。\n• GPT-5.6系列具備強大的安全防護措施，經過廣泛測試以防止濫用，同時不限制合法工作。"
+    }
   },
   {
     "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
@@ -16939,8 +16993,11 @@
     "topic": "AI",
     "published": "2026-07-09T10:00:00+00:00",
     "crawled": "2026-07-09T17:06:51.599017+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• ChatGPT推出新功能ChatGPT Work，旨在協助用戶處理更具挑戰性的任務，能夠在應用程式和文件中採取行動。  \n• ChatGPT Work利用最新的GPT-5.6模型，能夠獨立完成多步驟任務並生成符合用戶模板的材料。  \n• 超過500萬人每週使用Codex技術，顯示其在軟件開發以外的應用潛力。  \n• 初步測試顯示，ChatGPT Work能顯著提高團隊效率，縮短財務和銷售任務的完成時間。",
+    "summaries": {
+      "zh-HK": "• ChatGPT推出新功能ChatGPT Work，旨在協助用戶處理更具挑戰性的任務，能夠在應用程式和文件中採取行動。  \n• ChatGPT Work利用最新的GPT-5.6模型，能夠獨立完成多步驟任務並生成符合用戶模板的材料。  \n• 超過500萬人每週使用Codex技術，顯示其在軟件開發以外的應用潛力。  \n• 初步測試顯示，ChatGPT Work能顯著提高團隊效率，縮短財務和銷售任務的完成時間。"
+    }
   },
   {
     "url": "https://cointelegraph.com/news/bitcoin-miners-ai-pivot-faces-investor-scrutiny-over-insider-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -17242,8 +17299,11 @@
     "topic": "AI",
     "published": "2026-07-09T10:00:00+00:00",
     "crawled": "2026-07-09T17:38:27.821948+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• OpenAI 宣佈將 GPT-5.5 Bio Bug Bounty 轉變為持續的私有計劃，命名為 OpenAI Bio Bounty Program，專注於針對生物風險的通用越獄測試。  \n• 通用越獄的獎金從 25,000 美元提高至 50,000 美元，適用於 GPT-5.5 和 GPT-5.6。  \n• GPT-5.5 Bio Bounty Program 的測試將於 2026 年 7 月 27 日結束，之後僅針對 GPT-5.6。  \n• 有興趣的申請者可通過滾動申請流程申請，所有過去的申請者無需重新申請。",
+    "summaries": {
+      "zh-HK": "• OpenAI 宣佈將 GPT-5.5 Bio Bug Bounty 轉變為持續的私有計劃，命名為 OpenAI Bio Bounty Program，專注於針對生物風險的通用越獄測試。  \n• 通用越獄的獎金從 25,000 美元提高至 50,000 美元，適用於 GPT-5.5 和 GPT-5.6。  \n• GPT-5.5 Bio Bounty Program 的測試將於 2026 年 7 月 27 日結束，之後僅針對 GPT-5.6。  \n• 有興趣的申請者可通過滾動申請流程申請，所有過去的申請者無需重新申請。"
+    }
   },
   {
     "url": "https://www.theverge.com/gadgets/963475/google-nest-thermostat-deal-sale",
@@ -17601,5 +17661,87 @@
     "summaries": {
       "zh-HK": "• 日本政府加快降低旅行風險建議，以促進商務旅行  \n• 新的旅行建議將於2023年11月生效，涵蓋多個國家和地區  \n• 此舉旨在恢復國際商務活動，支持經濟復甦  \n• 日本的旅行風險評估將根據疫情狀況進行調整，強調安全性和靈活性"
     }
+  },
+  {
+    "url": "https://www.coindesk.com/markets/2026/07/09/billions-flowing-out-of-bitcoin-etfs-and-private-credit-funds-suggest-rising-market-risks",
+    "title": "Billions flowing out of bitcoin ETFs and private credit funds suggest rising market risks",
+    "summary": "",
+    "full_text": "Billions flowing out of bitcoin ETFs and private credit funds suggest rising market risks\nRedemption requests in the $2 trillion private credit market surged to $15.6 billion in the second quarter, dwarfing bitcoin ETF outflows.\n- Redemption requests in the $2 trillion private credit market surged to $15.6 billion in the second quarter, breaching standard 5% quarterly caps at most business development companies and leaving many investors only partly paid.\n- Investors pulled nearly $5 billion from U.S.-listed spot bitcoin ETFs in the second quarter, contributing to a roughly 14% drop in bitcoin’s price and its third straight quarterly loss.\n- The simultaneous rush for liquidity in bitcoin ETFs and private credit, alongside a depleted U.S. strategic petroleum reserve, is stoking concerns that financial and physical buffers against risk are eroding across markets.\nIf the second quarter was bad for bitcoin exchange-traded funds (ETFs), with record outflows of nearly $5 billion, it was even more brutal for private credit.\nInvestors yanked out $4 billion from U.S.-listed spot bitcoin ETFs, led by BlackRock’s IBIT in June alone, according to data source SoSoValue. The outflow was mainly due to capital rotation into the AI trade and other high-profile opportunities, such as SpaceX’s blockbuster IPO. The market felt the heat as bitcoin's \nHowever, that outflow was dwarfed by liquidity stress in the $2 trillion private credit market, where investors requested $15.6 billion in redemptions during Q2 and were only partially satisfied. According to data tracked by Fitch, redemption requests exceeded the standard 5% quarterly cap at 10 of the 16 business development companies (BDCs), meaning many investors received only a portion of their money and remain in line for future quarters.\nAverage requests rose to 10.3% of shares from 9.7% in Q1, but ranged widely (1.3%–38.1% at Blue Owl’s OTIC), Fitch said. Many requests were follow-ups from investors who were only partly satisfied last quarter. New inflows fell by about 56% on average, so most funds saw net outflows of roughly 3% of the prior quarter’s net asset value.\nWhat's concerning, for private credit, is that Fitch expects continued redemptions in the months ahead.\n\"With BDCs capping redemptions at 5% quarterly, unfulfilled requests will lead to persistent elevated redemptions for many firms in the coming quarters,\" ratings agency Fitch warned,\" the ratings agency said.\nSame story, different structures\nBitcoin ETFs are liquid, exchange-traded vehicles, where outflows directly impact the spot price of BTC. Private credit BDCs are the opposite: illiquid, long-duration lending vehicles with built-in quarterly gates.\nStill, the fact that investors rushed for exit in both at the same time does point to broader caution around liquidity and risk appetite.\nAmid all this, energy markets continue to send risk-off signals, with the U.S. Strategic Petroleum Reserve at its lowest level since 1983. So, if the energy market remains disrupted, the government now has significantly less buffer to flood the market with oil and keep prices lower.\nAll of these point to a tougher environment for risk asset bulls.\n\"With no monetary cushion coming, the physical buffers matter more. The SPR has drawn down to its lowest since 1983, Strategy sold BTC for the first time to fund dividends, and private-credit redemption requests breached the 5% gates across eight semi-liquid funds,\" Singapore-based QCP Capital said.\n\"Different corners, same pattern: the buffers are wearing thin,\" QCP added.\n- 1\n- 2\n- 3\n- 4\n- 5\n- 6\n- 7\n- 8\n- 9\n- 10\nStablecoin market cap fell to $312B in June, its largest monthly drop since TerraUSD, while tokenized equity volumes surged 145% to a record $3.86B.\nStablecoin market cap fell to $312B in June, its largest monthly drop since TerraUSD, while tokenized equity volumes surged 145% to a record $3.86B.\nWhy it matters:\nStablecoin market cap fell to $312B in June, its largest monthly drop since TerraUSD, while tokenized equity volumes surged 145% to a record $3.86B.",
+    "source": "CoinDesk",
+    "category": "crypto",
+    "lang": "en",
+    "topic": "Bitcoin",
+    "published": "2026-07-09T18:13:04+00:00",
+    "crawled": "2026-07-09T18:25:08.704680+00:00",
+    "summarized": true,
+    "ai_summary": "• 第二季度，美國私募信貸市場的贖回請求激增至156億美元，超過標準的季度上限5%，許多投資者僅獲部分支付。  \n• 同期，美國上市的比特幣ETF流出近50億美元，導致比特幣價格下跌約14%，並連續第三個季度虧損。  \n• 投資者將資金轉向AI交易及其他高知名度機會，造成比特幣ETF的流出。  \n• 評級機構Fitch預測，私募信貸市場的贖回請求在未來幾個月將持續增加。",
+    "summaries": {
+      "zh-HK": "• 第二季度，美國私募信貸市場的贖回請求激增至156億美元，超過標準的季度上限5%，許多投資者僅獲部分支付。  \n• 同期，美國上市的比特幣ETF流出近50億美元，導致比特幣價格下跌約14%，並連續第三個季度虧損。  \n• 投資者將資金轉向AI交易及其他高知名度機會，造成比特幣ETF的流出。  \n• 評級機構Fitch預測，私募信貸市場的贖回請求在未來幾個月將持續增加。"
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-09/kimmeridge-faults-pace-of-devon-energy-s-asset-sale-efforts",
+    "title": "Kimmeridge Faults Pace of Devon Energy’s Asset-Sale Efforts",
+    "summary": "Kimmeridge Energy Management Co., an outspoken shale investor, criticized Devon Energy Corp.’s divestment program as too slow after the driller’s $25 billion takeover of Coterra Energy Inc.",
+    "full_text": "",
+    "source": "Bloomberg Crypto",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Finance",
+    "published": "2026-07-09T18:14:54+00:00",
+    "crawled": "2026-07-09T18:25:15.357920+00:00",
+    "summarized": true,
+    "ai_summary": "• Kimmeridge Energy Management Co. 批評 Devon Energy Corp. 的資產出售計劃進展緩慢\n• 此前，Devon Energy 以250億美元收購 Coterra Energy Inc.\n• Kimmeridge 是一間積極參與頁岩投資的公司\n• 批評主要集中在收購後的資產處理速度上",
+    "summaries": {
+      "zh-HK": "• Kimmeridge Energy Management Co. 批評 Devon Energy Corp. 的資產出售計劃進展緩慢\n• 此前，Devon Energy 以250億美元收購 Coterra Energy Inc.\n• Kimmeridge 是一間積極參與頁岩投資的公司\n• 批評主要集中在收購後的資產處理速度上"
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-09/new-zealand-dollar-surges-as-economic-data-fuels-rate-hike-bets",
+    "title": "New Zealand Dollar Surges as Economic Data Fuels Rate Hike Bets",
+    "summary": "The New Zealand dollar advanced Thursday to the highest in more than two weeks after strong manufacturing data increased bets on further monetary tightening in the nation.",
+    "full_text": "",
+    "source": "Bloomberg Crypto",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Policy",
+    "published": "2026-07-09T18:04:47+00:00",
+    "crawled": "2026-07-09T18:25:15.598695+00:00",
+    "summarized": true,
+    "ai_summary": "• 新西蘭元在星期四上漲，達到兩週以來的最高點  \n• 強勁的製造業數據促使市場對進一步加息的預期上升  \n• 此次上漲反映出投資者對新西蘭經濟前景的信心  \n• 新西蘭央行可能會考慮加息以應對經濟增長的需求",
+    "summaries": {
+      "zh-HK": "• 新西蘭元在星期四上漲，達到兩週以來的最高點  \n• 強勁的製造業數據促使市場對進一步加息的預期上升  \n• 此次上漲反映出投資者對新西蘭經濟前景的信心  \n• 新西蘭央行可能會考慮加息以應對經濟增長的需求"
+    }
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/",
+    "title": "How did the government decide OpenAI’s frontier model was safe to release?",
+    "summary": "\"Exactly what that dialog looked like between the government and Anthropic and OpenAI is unclear.\"",
+    "full_text": "OpenAI is rolling out its latest advanced LLM, Sol, for wide public access. Sol is considered to be at least on par with Anthropic’s Fable, a model whose capabilities (or ownership) stressed out the White House enough to that it was briefly banned from public access.\nSo how did these models get the ok for release? Short answer: Nobody’s quite sure.\n“Frankly, I don’t have visibility into those exact processes, so yes, I don’t feel like I have enough information to say whether they’re adequate or not,” Mina Narayanan, a senior research analyst at Georgetown’s Center for Security and Open Technology, told TechCrunch. “Anthropic did say that they were in conversations with the government, and that they developed a classifier to detect jailbreak attempts, and they’ve implemented defensive gap strategies to prevent future jailbreaks, but exactly what that dialog looked like between the government and Anthropic and OpenAI is unclear.”\nDean W. Ball, a former Trump policy advisor who now works for OpenAI, wrote that “nobody knows what the requirements are to get licensed” in his newsletter last month.\nAndy Konwinski, a computer scientist who co-founded Databricks, Perplexity, and the Laude Institute, said he’s never spoken to anyone who understands the process, even employees at frontier labs. “It’s existentially a problem,” he tells TechCrunch. “Safety or not, it’s about who has the power to make decisions—who gatekeeps and decides on permissions?”\nEighteen months into the Trump administration, there is still little clarity about how to move forward, despite—or, some critics allege, because—of the industry figures setting policy. Last month, after weeks of infighting, an executive order was published laying out a roadmap for evaluating frontier models, but the specifics have yet to be filled in, other than what won’t exist. “There will not be an FDA for AI,” Sriram Krishnan, a former Andreesen Horowitz partner who served as a senior advisor for AI in the White House until last month, told the Financial Times.\nNotably, there’s still no agreement on what kinds of models require government scrutiny, or what agency or agencies should perform those evaluations. For now, the Department of Commerce’s Center for AI Standards and Innovation seems to be taking the lead, but the executive order instructs six cabinet agencies to determine a final process by early August. What has emerged in the meantime is, at best, ad hoc.\nOpenAI CEO Sam Altman said on CNBC that the process involved conversations with the officials like Secretary of Commerce Howard Lutnick, Secretary of the Treasury Scott Bessent, and US national cyber director Sean Cairncross, but it’s not clear who the experts that tested the models were or how they did that. OpenAI declined to share details on the government’s process with TechCrunch, but pointed to the results of several external evaluations by organizations like UK AISI, SecureBio and Irregular in the latest model’s safety card.\nAs with Anthropic’s Fable roll-out, OpenAI previewed the model for the government and select users ahead of wider release, but we don’t know who who all of those users were or how they were chosen. In a late June blog post, the company said “we don’t believe this kind of government access process should become the long-term default,” saying it would work with the government to develop a different path forward.\nThe backdrop to those conversations, however, includes Altman reportedly offering as much as 5% to OpenAI’s equity for the administration’s so-called “Trump Accounts,” and OpenAI president Greg Brockman’s role as the largest publicly-known donor to Trump’s mid-term political operation. It’s hard for outside observers to separate those activities from the government’s apparently lighter-touch approach to regulating Sol.\nAmthropic’s Fable, on the other hand, was briefly pulled from wider access when the US government forbade its use by foreign nationals, partly because of real concerns about users jail-breaking the model to access hacking capabilities and partly due to personality clashes between Anthropic and the Trump administration. The threat of an export ban may have also led OpenAI to be more cooperative with the government’s (unknown) requests.\nFrom an industry perspective, a hands-off approach to regulation might be nice, but one that depends on personal connections to administration officials creates uncertainty and bad incentives.\nKonwinski told TechCrunch that he worries true experts in this technology—”safety researchers, alignment researchers, interpretability researchers, but also data people, and people from all over the stack”—aren’t playing enough of a role in the model release process.\nKonwinski argues that an “open commons” is the best way to actually balance safety and innovation. He points to models like the FDA, the NIH, or the national labs, which convene researchers, government officials, and private companies to reach a consensus on safety issues.\nSome of that comes down to the incentives of capitalism that have motivated AI researchers for more than a decade, and played out in the court room during Elon Musk’s lawsuit challenging OpenAI’s corporate structure. Ball points out that the nature of the AI business requires companies to recoup much of their training costs shortly after their models are released and are further ahead of the competition.\n“Even if their intentions are good, there’s very clear legal obligations and fiduciary responsibility that are built right into the operating procedures,” Konwinski points out.\nBall, in his post, argued that the way forward will depend on third-party auditing organizations, licensed by the government, that will evaluate frontier labs’ approach to safety. Konwinski, too, is bullish about new institutional formats like focused research organizations that could help more disinterested experts from academia and the non-profit world access and evaluate frontier models.\nFor now, the secrecy around this the development of AI isn’t going away, but it also will seed political challenges for an industry that Americans increasingly view with skepticism. “There’s not a sense that responsible people are driving forward these changes,” University of Wisconsin-Madison computer science professor Remzi Arpaci-Dusseau said last wek at the Open Frontier conference.\nAt the same event, David Siegel, the computer scientist who founded Two Sigma, one of the most successful quantitative hedge funds, asked attendees to “imagine a situation, which I think would be very bad, [where] a small number of firms control the technology; the government, in their secretive laboratories, is evaluating whether or not the technology is suitable for use; and the general public and scientific community doesn’t really have any access to any of that stuff.”\nIt seems like we don’t need to imagine it.",
+    "source": "TechCrunch",
+    "category": "tech",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-09T18:22:39+00:00",
+    "crawled": "2026-07-09T18:25:18.528059+00:00",
+    "summarized": true,
+    "ai_summary": "• OpenAI推出其最新的高級大型語言模型Sol，並對公眾開放訪問，該模型被認為與Anthropic的Fable相當。\n• 對於政府如何批准這些模型的釋放，專家表示缺乏透明度，無法確定具體的過程和要求。\n• 特朗普政府的執行命令上個月發布，為評估前沿模型制定了路線圖，但具體細節尚未確定。\n• 目前尚未達成共識，關於哪些模型需要政府審查及由哪些機構進行評估，商務部的人工智能標準與創新中心似乎在主導此事。",
+    "summaries": {
+      "zh-HK": "• OpenAI推出其最新的高級大型語言模型Sol，並對公眾開放訪問，該模型被認為與Anthropic的Fable相當。\n• 對於政府如何批准這些模型的釋放，專家表示缺乏透明度，無法確定具體的過程和要求。\n• 特朗普政府的執行命令上個月發布，為評估前沿模型制定了路線圖，但具體細節尚未確定。\n• 目前尚未達成共識，關於哪些模型需要政府審查及由哪些機構進行評估，商務部的人工智能標準與創新中心似乎在主導此事。"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYVk0YkF5YjlFTE1zZC11b0pfbzhWem1xcjk2MHEzTW85M2h5ZlZBaTREakkxZlRWVjhkSHhQa1ZvMWNnVHZCQzlQX0pCOWZqVXU3NXBYWllHaEEzRm5kU1JhSUVfSTJ4Nnd3bUZ2QTVTNjU3VnY1RzNZeHRwTVlEOVNOVGlmMWtSc3dtWGlPaTlHZ05DT0FXc1djWm56XzBWRmkxOHlRVnhhcFlua1lERFlmMkhkY1NnOVg0Rg?oc=5",
+    "title": "California colleges reveal their military weapons stockade after CalMatters investigation - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPYVk0YkF5YjlFTE1zZC11b0pfbzhWem1xcjk2MHEzTW85M2h5ZlZBaTREakkxZlRWVjhkSHhQa1ZvMWNnVHZCQzlQX0pCOWZqVXU3NXBYWllHaEEzRm5kU1JhSUVfSTJ4Nnd3bUZ2QTVTNjU3VnY1RzNZeHRwTVlEOVNOVGlmMWtSc3dtWGlPaTlHZ05DT0FXc1djWm56XzBWRmkxOHlRVnhhcFlua1lERFlmMkhkY1NnOVg0Rg?oc=5\" target=\"_blank\">California colleges reveal their military weapons stockade after CalMatters investigation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "Finance",
+    "published": "2026-07-08T19:50:00+00:00",
+    "crawled": "2026-07-09T18:25:54.628948+00:00",
+    "summarized": false,
+    "ai_summary": ""
   }
 ]
