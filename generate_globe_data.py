@@ -85,9 +85,8 @@ def load_articles():
 def main():
     articles = load_articles()
 
-    # Sort newest first, cap at 500
+    # Sort newest first
     articles.sort(key=lambda a: a.get("published", ""), reverse=True)
-    articles = articles[:500]
 
     # Build article payload — include all articles, summarized or not
     articles_out = []
