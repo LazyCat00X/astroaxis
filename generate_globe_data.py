@@ -177,6 +177,12 @@ def main():
     
     print(f"Copied globe.html -> {index_path}")
 
+    # Write robots.txt with Sitemap directive for Google
+    robots_path = DEPLOY_DIR / "robots.txt"
+    with open(robots_path, "w") as f:
+        f.write("User-agent: *\nAllow: /\nSitemap: https://lazycat00x.github.io/astroaxis-site/sitemap.xml\n")
+    print(f"Wrote {robots_path}")
+
 
 if __name__ == "__main__":
     main()
