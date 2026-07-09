@@ -2438,6 +2438,9 @@ const GEO_KEYWORDS = [
       renderer.domElement.setAttribute('data-total-articles', String(NEWS_DATA?.articles?.length || 0));
     }
 
+    // Initial agent layer state after markers built
+    setTimeout(() => { try { updateAgentLayer(null); } catch(e) {} }, 500);
+
     function updatePointer(event) {
       const rect = renderer.domElement.getBoundingClientRect();
       pointer.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
