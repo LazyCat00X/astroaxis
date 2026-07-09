@@ -1261,8 +1261,12 @@
     // ── Existing globe code below ──
     // Already available as THREE, THREE.OrbitControls via global
     function slugify(s) { return ((s||'').toLowerCase().trim().replace(/[^\w\s-]/g,'').replace(/[-\s]+/g,'-').replace(/^-+|-+$/g,'') || 'unknown').slice(0,80); }
-        let NEWS_DATA = {articles: [], sourceLocations: {}};
-    let timelineData = {};  // Will be loaded from timeline-data.json
+    let NEWS_DATA = {articles: [], sourceLocations: {}};
+    let timelineData = {};
+    // Marker globals — declared BEFORE data loading IIFE to avoid TDZ errors
+    let markerPositions = [];
+    let markerColors = [];
+    let markerData = [];
     
     // Load both data files in parallel with localStorage cache
     (function loadData() {
@@ -2015,9 +2019,6 @@ const GEO_KEYWORDS = [
     const markerMeshes = [];
     const markerGeometry = new THREE.SphereGeometry(0.095, MARKER_SEGMENTS[0], MARKER_SEGMENTS[1]);
     const glowGeometry = new THREE.SphereGeometry(0.19, MARKER_SEGMENTS[0], MARKER_SEGMENTS[1]);
-    let markerPositions = [];
-    let markerColors = [];
-    let markerData = [];
     let markerCount = 0;  // Global for animate loop
     let instancedMarkers = null;
     let instancedGlows = null;
