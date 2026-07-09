@@ -8487,20 +8487,6 @@
     "ai_summary": ""
   },
   {
-    "url": "https://www.bankless.com/read/news/solana-launches-onchain-governance-with-100k-sol-entry",
-    "title": "Solana Launches Onchain Governance With 100K SOL Entry",
-    "summary": "Solana's new governance system lets validators with 100,000 SOL staked propose network changes, while delegators vote for or against the changes.",
-    "full_text": "Subscribe to Bankless or sign in\nSolana turned on its formal onchain governance system so validators and the SOL holders who stake with them can now vote on the network’s direction. Any validator with at least 100,000 SOL staked, worth about $8 million, can open a proposal, and stakers can override how their validator votes.\nWhat's the Scoop?\n- The New System: Solana Governance Proposals, or SGPs, let qualifying validators ask the network whether Solana should pursue a specific direction. Each proposal is written in plain language, voting power is based on the amount of SOL staked, and the result is recorded onchain. Before the proposal goes to a full vote, it must also receive support from 15% of active stake.\n- Two Separate Tracks: SGPs answer the broad question: should Solana pursue this direction? A separate process, called a Solana Improvement Document, or SIMD, handles the technical details of how the change would work. If an SGP passes, it signals that the engineering work should move forward and be written up through one or more SIMDs.\n- How Proposals Pass: Once a proposal clears the 15% support threshold, voting runs on a fixed schedule measured in epochs, Solana’s roughly two-day operating periods. To pass, at least two-thirds of the total stake voting for or against must support the proposal.\n- Staker Sovereignty: The system gives direct voting power to the SOL holders who delegate their stake to validators. A validator can vote on behalf of the stake delegated to it, but delegators are not locked into that vote. If they disagree, they can override the validator’s choice and vote directly with their own staked SOL. That means voting power ultimately stays with token holders, not only with the validators they delegate to.",
-    "source": "Bankless",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Politics",
-    "published": "2026-07-02T17:58:33+00:00",
-    "crawled": "2026-07-09T07:34:58.733430+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
     "url": "https://blockcast.it/2026/07/09/bitcoin-steady-gold-slides-as-us-iran-tensions-escalate-again/",
     "title": "美伊衝突升溫！比特幣穩守 6 萬美元、黃金卻連跌 4 日，市場定價邏輯變了？",
     "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"704\" src=\"https://blockcast.it/wp-content/uploads/2026/04/freepik_the_style_is_candid_image_photography_with_natural_76326_dd32b323b2.jpeg\" style=\"display: block; margin: auto; margin-bottom: 5px;\" width=\"1408\" /><p>美國 與伊朗衝突再度升溫，但理應吸收「戰爭溢價」的資產走勢卻出現分歧，油價持續走高、黃金連續第 4 個交易日下跌，而比特幣穩守 6.2 萬美元關卡，跌幅相對有限。</p>\n<p>〈<a href=\"https://blockcast.it/2026/07/09/bitcoin-steady-gold-slides-as-us-iran-tensions-escalate-again/\">美伊衝突升溫！比特幣穩守 6 萬美元、黃金卻連跌 4 日，市場定價邏輯變了？</a>〉這篇文章最早發佈於《<a href=\"https://blockcast.it\">區塊客</a>》。</p>",
@@ -13028,8 +13014,11 @@
     "topic": "Crypto",
     "published": "2026-07-09T12:30:02+00:00",
     "crawled": "2026-07-09T15:20:03.693512+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Stripe旗下的Privy與Solana基礎設施公司Jito Labs共同開發了一個名為FullSend的交易確定工具，旨在確保Privy錢包發送的交易能夠快速納入Solana區塊中。  \n• FullSend自2023年1月以來在Privy錢包中運行，並在數百萬筆交易中達到99.999%的成功率。  \n• 該工具通過Jito的低延遲網絡，將每筆Privy錢包簽署的交易自動路由至當前和即將到來的Solana區塊建設領導者，將交易納入延遲縮短至50毫秒。  \n• FullSend特別針對金融科技公司、市場製造商及其他需要在區塊鏈上進行快速且可靠交易的機構用戶。",
+    "summaries": {
+      "zh-HK": "• Stripe旗下的Privy與Solana基礎設施公司Jito Labs共同開發了一個名為FullSend的交易確定工具，旨在確保Privy錢包發送的交易能夠快速納入Solana區塊中。  \n• FullSend自2023年1月以來在Privy錢包中運行，並在數百萬筆交易中達到99.999%的成功率。  \n• 該工具通過Jito的低延遲網絡，將每筆Privy錢包簽署的交易自動路由至當前和即將到來的Solana區塊建設領導者，將交易納入延遲縮短至50毫秒。  \n• FullSend特別針對金融科技公司、市場製造商及其他需要在區塊鏈上進行快速且可靠交易的機構用戶。"
+    }
   },
   {
     "url": "https://www.theblock.co/post/407703/cftc-chair-selig-warns-regulators-will-end-up-writing-all-the-rules-for-crypto-if-clarity-act-stalls?utm_source=rss&utm_medium=rss",
@@ -13073,8 +13062,11 @@
     "topic": "Bitcoin",
     "published": "2026-07-09T12:23:22+00:00",
     "crawled": "2026-07-09T15:20:04.604039+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Paradigm於近日籌集了12億美元的基金，計劃投資於AI和機器人技術，擴展其業務範圍。  \n• Paradigm由Matt Huang和Coinbase聯合創辦人Fred Ehrsam於2018年成立，曾是加密貨幣的主要投資者。  \n• BNB Chain計劃在2026年下半年推出一個專為AI代理交易設計的新Layer-1區塊鏈，目標是每秒處理超過10萬筆交易。  \n• 該區塊鏈旨在提供低延遲的交易執行，並移除公共交易池以防止前置交易和夾擊攻擊。",
+    "summaries": {
+      "zh-HK": "• Paradigm於近日籌集了12億美元的基金，計劃投資於AI和機器人技術，擴展其業務範圍。  \n• Paradigm由Matt Huang和Coinbase聯合創辦人Fred Ehrsam於2018年成立，曾是加密貨幣的主要投資者。  \n• BNB Chain計劃在2026年下半年推出一個專為AI代理交易設計的新Layer-1區塊鏈，目標是每秒處理超過10萬筆交易。  \n• 該區塊鏈旨在提供低延遲的交易執行，並移除公共交易池以防止前置交易和夾擊攻擊。"
+    }
   },
   {
     "url": "https://decrypt.co/373113/eu-set-to-revise-mica-in-2027-to-cover-foreign-stablecoin-issuers",
@@ -13087,8 +13079,11 @@
     "topic": "Regulation",
     "published": "2026-07-09T12:18:24+00:00",
     "crawled": "2026-07-09T15:20:04.695740+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 歐盟計劃在2027年重新修訂其加密資產市場（MiCA）法規，以監管非歐盟穩定幣發行者並擴大其範圍。\n• 此舉是因應美國總統特朗普推動以美元為支持的穩定幣，該類穩定幣佔市場的95%。\n• 歐洲委員會正在與利益相關者進行諮詢，截止日期為9月30日，然後決定是否正式重新開啟該法律。\n• 歐洲央行對於加強規則表達強烈支持，警告美元穩定幣可能影響銀行存款及歐元的貨幣主權。",
+    "summaries": {
+      "zh-HK": "• 歐盟計劃在2027年重新修訂其加密資產市場（MiCA）法規，以監管非歐盟穩定幣發行者並擴大其範圍。\n• 此舉是因應美國總統特朗普推動以美元為支持的穩定幣，該類穩定幣佔市場的95%。\n• 歐洲委員會正在與利益相關者進行諮詢，截止日期為9月30日，然後決定是否正式重新開啟該法律。\n• 歐洲央行對於加強規則表達強烈支持，警告美元穩定幣可能影響銀行存款及歐元的貨幣主權。"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-09/canada-s-well-health-preps-c-150-million-high-yield-bond-sale",
@@ -13288,8 +13283,11 @@
     "topic": "Finance",
     "published": "2026-07-09T12:14:13+00:00",
     "crawled": "2026-07-09T15:20:08.356391+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國科技巨頭在2026年的股市反彈中缺席，這一情況引起市場關注  \n• 被稱為「壯麗七人組」的科技公司在近四年的牛市中表現突出  \n• 分析指出，這些公司的缺席可能會對華爾街造成影響  \n• 投資者開始擔心科技股的持續疲弱可能會影響整體市場表現",
+    "summaries": {
+      "zh-HK": "• 美國科技巨頭在2026年的股市反彈中缺席，這一情況引起市場關注  \n• 被稱為「壯麗七人組」的科技公司在近四年的牛市中表現突出  \n• 分析指出，這些公司的缺席可能會對華爾街造成影響  \n• 投資者開始擔心科技股的持續疲弱可能會影響整體市場表現"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-09/mavik-seeks-1-billion-to-hunt-distressed-commercial-real-estate",
@@ -13890,8 +13888,11 @@
     "topic": "Crypto",
     "published": "2026-07-09T12:35:21+00:00",
     "crawled": "2026-07-09T15:20:25.486481+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 加密貨幣交易所 Gate 涉及170萬美元用戶資金失竊事件，官方於7月9日發表聲明反駁指控，稱系統未遭駭客入侵。  \n• 事件起因於一名用戶在社交平台X上報告其帳戶資金被盜，並質疑Gate的風控機制。  \n• Gate官方指出，駭客掌握用戶的支付寶交易歷史影片，並通過多重驗證獲得帳戶訪問權限，認為問題出在用戶設備遭遠端控制或個資外洩。  \n• Gate已啟動資產追蹤，並聯絡Tether等機構協助凍結被盜資金，並承諾配合司法調查。",
+    "summaries": {
+      "zh-HK": "• 加密貨幣交易所 Gate 涉及170萬美元用戶資金失竊事件，官方於7月9日發表聲明反駁指控，稱系統未遭駭客入侵。  \n• 事件起因於一名用戶在社交平台X上報告其帳戶資金被盜，並質疑Gate的風控機制。  \n• Gate官方指出，駭客掌握用戶的支付寶交易歷史影片，並通過多重驗證獲得帳戶訪問權限，認為問題出在用戶設備遭遠端控制或個資外洩。  \n• Gate已啟動資產追蹤，並聯絡Tether等機構協助凍結被盜資金，並承諾配合司法調查。"
+    }
   },
   {
     "url": "https://www.blocktempo.com/meta-to-produce-iris-ai-chip-tsmc-14gw-compute/",
@@ -13904,8 +13905,11 @@
     "topic": "Crypto",
     "published": "2026-07-09T12:18:30+00:00",
     "crawled": "2026-07-09T15:20:25.535214+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Meta 預計於2026年9月量產自研AI晶片「Iris」，由台積電代工製造  \n• 公司計畫在2026年內部署7吉瓦運算基礎設施，並在2027年前將算力翻倍至14吉瓦  \n• Meta 將投入1,450億美元於AI基礎設施，計畫每6個月推出一款新AI處理器  \n• 為應對原物料短缺，Meta已與多家供應商簽署長期供應合約以降低成本",
+    "summaries": {
+      "zh-HK": "• Meta 預計於2026年9月量產自研AI晶片「Iris」，由台積電代工製造  \n• 公司計畫在2026年內部署7吉瓦運算基礎設施，並在2027年前將算力翻倍至14吉瓦  \n• Meta 將投入1,450億美元於AI基礎設施，計畫每6個月推出一款新AI處理器  \n• 為應對原物料短缺，Meta已與多家供應商簽署長期供應合約以降低成本"
+    }
   },
   {
     "url": "https://www.blocktempo.com/spacex-moves-bitcoin-first-time-in-6-months-test-transaction/",
@@ -13918,8 +13922,11 @@
     "topic": "Bitcoin",
     "published": "2026-07-09T12:07:44+00:00",
     "crawled": "2026-07-09T15:20:25.580521+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• SpaceX 的比特幣錢包在沉寂半年後，於2026年7月7日進行了一筆價值88美元的轉帳，標誌著首次異動  \n• 該轉帳被視為典型的「測試交易」，可能為未來大規模資產轉移或拋售的前兆  \n• 根據Arkham的數據，SpaceX目前持有超過18,700枚比特幣，市值約11.6億美元  \n• SpaceX剛於一個月前完成首次公開發行（IPO），其比特幣庫存策略將面臨更嚴格的合規審查與調整",
+    "summaries": {
+      "zh-HK": "• SpaceX 的比特幣錢包在沉寂半年後，於2026年7月7日進行了一筆價值88美元的轉帳，標誌著首次異動  \n• 該轉帳被視為典型的「測試交易」，可能為未來大規模資產轉移或拋售的前兆  \n• 根據Arkham的數據，SpaceX目前持有超過18,700枚比特幣，市值約11.6億美元  \n• SpaceX剛於一個月前完成首次公開發行（IPO），其比特幣庫存策略將面臨更嚴格的合規審查與調整"
+    }
   },
   {
     "url": "https://www.blocktempo.com/dave-portnoy-bitcoin-crash-reverse-indicator-holds-until-zero-barstool/",
@@ -13980,8 +13987,11 @@
     "topic": "Crypto",
     "published": "2026-07-09T12:34:17+00:00",
     "crawled": "2026-07-09T15:20:27.864131+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 淡馬錫控股因FTX倒閉損失2.75億美元，決定未來5年加大對人工智慧（AI）的投資，暫不考慮加密貨幣。  \n• 淡馬錫計劃將AI投資比重從2026年第一季的6%提升至2031年的15%。  \n• 淡馬錫全球投資總裁Nagi Hamiyeh表示，AI投資仍處於起步階段，未來數十年將持續增長，但部分AI領域估值已超過基本面，需保持審慎。  \n• 雖然不投資加密貨幣，淡馬錫仍在探索區塊鏈技術的潛力，並重視AI的商業化應用。",
+    "summaries": {
+      "zh-HK": "• 淡馬錫控股因FTX倒閉損失2.75億美元，決定未來5年加大對人工智慧（AI）的投資，暫不考慮加密貨幣。  \n• 淡馬錫計劃將AI投資比重從2026年第一季的6%提升至2031年的15%。  \n• 淡馬錫全球投資總裁Nagi Hamiyeh表示，AI投資仍處於起步階段，未來數十年將持續增長，但部分AI領域估值已超過基本面，需保持審慎。  \n• 雖然不投資加密貨幣，淡馬錫仍在探索區塊鏈技術的潛力，並重視AI的商業化應用。"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/c621k5r8764o?at_medium=RSS&at_campaign=rss",
@@ -14237,8 +14247,11 @@
     "topic": "General",
     "published": "2026-07-09T12:24:20+00:00",
     "crawled": "2026-07-09T15:20:32.218012+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 烏克蘭在亞速海攻擊兩艘油輪及數個俄羅斯油氣設施，造成燃料危機 \n• 烏克蘭總統澤連斯基表示，攻擊包括位於烏法的油泵站及距前線約800公里的燃料儲存設施 \n• 俄羅斯超過90%的地區因燃料短缺而實施某種形式的配給 \n• 特朗普在北約峰會期間承諾將授予烏克蘭製造愛國者防空系統的許可，並對烏克蘭的攻擊表示支持",
+    "summaries": {
+      "zh-HK": "• 烏克蘭在亞速海攻擊兩艘油輪及數個俄羅斯油氣設施，造成燃料危機 \n• 烏克蘭總統澤連斯基表示，攻擊包括位於烏法的油泵站及距前線約800公里的燃料儲存設施 \n• 俄羅斯超過90%的地區因燃料短缺而實施某種形式的配給 \n• 特朗普在北約峰會期間承諾將授予烏克蘭製造愛國者防空系統的許可，並對烏克蘭的攻擊表示支持"
+    }
   },
   {
     "url": "https://www.aljazeera.com/sports/2026/7/9/fifa-world-cup-2026-what-happened-to-the-beautiful-game?traffic_source=rss",
@@ -14251,8 +14264,11 @@
     "topic": "World",
     "published": "2026-07-09T12:05:10+00:00",
     "crawled": "2026-07-09T15:20:32.246890+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 2026年世界盃足球賽的變化反映了過去50年足球運動的演變，強調了美麗足球的缺失。  \n• 巴西在2014年世界盃半決賽以1-7慘敗於德國，顯示出戰術性強的球隊在足球中的主導地位。  \n• 1974年，足球的商業化開始，FIFA總統哈維蘭治的當選標誌著全球贊助協議的興起。  \n• 儘管足球成為大生意，仍有如1974年的荷蘭和1982年的巴西等隊伍展現了美麗的比賽風格。",
+    "summaries": {
+      "zh-HK": "• 2026年世界盃足球賽的變化反映了過去50年足球運動的演變，強調了美麗足球的缺失。  \n• 巴西在2014年世界盃半決賽以1-7慘敗於德國，顯示出戰術性強的球隊在足球中的主導地位。  \n• 1974年，足球的商業化開始，FIFA總統哈維蘭治的當選標誌著全球贊助協議的興起。  \n• 儘管足球成為大生意，仍有如1974年的荷蘭和1982年的巴西等隊伍展現了美麗的比賽風格。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/9/mediator-pakistan-says-renewed-us-iran-conflict-is-in-no-ones-interest?traffic_source=rss",
@@ -14392,8 +14408,11 @@
     "topic": "AI",
     "published": "2026-07-09T12:30:06+00:00",
     "crawled": "2026-07-09T15:20:34.987027+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 中美之間的人工智能競爭正轉變為電力產出和價格的競賽，電力成為主要成本因素。  \n• 中國的開源人工智能模型迅速增長，最近DeepSeek和Zhipu AI的發布縮小了與美國封閉源模型的差距。  \n• 中國的能源策略以自給自足和碳中和為核心，重點發展太陽能、風能和水電。  \n• 去年，太陽能的平準化成本降至每千瓦時約兩美分，使其在與碳氫化合物競爭中變得具備競爭力。",
+    "summaries": {
+      "zh-HK": "• 中美之間的人工智能競爭正轉變為電力產出和價格的競賽，電力成為主要成本因素。  \n• 中國的開源人工智能模型迅速增長，最近DeepSeek和Zhipu AI的發布縮小了與美國封閉源模型的差距。  \n• 中國的能源策略以自給自足和碳中和為核心，重點發展太陽能、風能和水電。  \n• 去年，太陽能的平準化成本降至每千瓦時約兩美分，使其在與碳氫化合物競爭中變得具備競爭力。"
+    }
   },
   {
     "url": "https://www.scmp.com/news/china/diplomacy/article/3360012/why-ai-race-us-knockout-game-china-cannot-afford-lose?utm_source=rss_feed",
@@ -14437,8 +14456,11 @@
     "topic": "General",
     "published": "2026-07-09T12:20:09+00:00",
     "crawled": "2026-07-09T15:20:35.897099+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 根據國際自然保護聯盟（IUCN）最新的紅色名單，許多物種因人類活動而面臨滅絕風險，包括深海熱泉的貝類和沙漠雨蛙。  \n• 超過200種貝類僅生活在深海熱泉，兩-thirds的物種因深海採礦而面臨滅絕威脅。  \n• IUCN指出，雖然許多物種受到威脅，但透過保護措施，像是澳洲的條紋食蟻袋鼠已經從瀕危邊緣回升。  \n• IUCN在四月更新中宣布，因氣候危機導致海冰融化，皇帝企鵝已被正式列為滅絕危險物種。",
+    "summaries": {
+      "zh-HK": "• 根據國際自然保護聯盟（IUCN）最新的紅色名單，許多物種因人類活動而面臨滅絕風險，包括深海熱泉的貝類和沙漠雨蛙。  \n• 超過200種貝類僅生活在深海熱泉，兩-thirds的物種因深海採礦而面臨滅絕威脅。  \n• IUCN指出，雖然許多物種受到威脅，但透過保護措施，像是澳洲的條紋食蟻袋鼠已經從瀕危邊緣回升。  \n• IUCN在四月更新中宣布，因氣候危機導致海冰融化，皇帝企鵝已被正式列為滅絕危險物種。"
+    }
   },
   {
     "url": "https://www.theguardian.com/business/2026/jul/10/former-bhp-economist-carbon-price-emissions",
@@ -15698,8 +15720,11 @@
     "topic": "Health",
     "published": "2026-07-09T12:11:49+00:00",
     "crawled": "2026-07-09T15:37:41.904359+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 藥廠Moderna獲得歐盟合同，供應呼吸道合胞病毒（RSV）疫苗  \n• 合同內容包括疫苗的生產和分發  \n• 此舉旨在加強歐盟對抗RSV的能力  \n• Moderna表示將在未來幾個月內開始交付疫苗",
+    "summaries": {
+      "zh-HK": "• 藥廠Moderna獲得歐盟合同，供應呼吸道合胞病毒（RSV）疫苗  \n• 合同內容包括疫苗的生產和分發  \n• 此舉旨在加強歐盟對抗RSV的能力  \n• Moderna表示將在未來幾個月內開始交付疫苗"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZVhaNHRRamtrWmlRbG9PMnAtVXhvVzlUY24wT2U0eTNhZGV6MlpUUjZJcy1obDBOSnN4dUhvVi1KZmVOM29ZTWFBSk1DeTFiYnJEWVotSFdwVG5WTFFBQTlCOXhubklhNGt1a1dWQnFpMmllZkw3NjdKdVhuQjlyZ0dPUmdXQ052NXZrcnB2TDYxbDh5NXZkYzI2LTc1V3IwT280dTB5T0g5dw?oc=5",
@@ -17194,6 +17219,258 @@
     "ai_summary": "• 緬因州民主黨內部出現多位候選人，尋求取代格雷厄姆·普拉特納在選票上的位置  \n• 候選人包括州參議員和地方官員，均表達了參選意願  \n• 格雷厄姆·普拉特納因健康原因決定不再參選  \n• 選舉將於2024年舉行，民主黨希望能夠保持該地區的席位",
     "summaries": {
       "zh-HK": "• 緬因州民主黨內部出現多位候選人，尋求取代格雷厄姆·普拉特納在選票上的位置  \n• 候選人包括州參議員和地方官員，均表達了參選意願  \n• 格雷厄姆·普拉特納因健康原因決定不再參選  \n• 選舉將於2024年舉行，民主黨希望能夠保持該地區的席位"
+    }
+  },
+  {
+    "url": "https://www.theblock.co/post/407785/white-house-defends-trumps-regulatory-appointments-as-cftc-vacancies-complicate-crypto-bill-push?utm_source=rss&utm_medium=rss",
+    "title": "White House defends Trump’s regulatory appointments as CFTC vacancies complicate crypto bill push",
+    "summary": "<p>The White House pushed back against Democrats’ criticism that the administration has declined to appoint commissioners to regulatory agencies.</p>",
+    "full_text": "White House defends Trump’s regulatory appointments as CFTC vacancies complicate crypto bill push\nQuick Take\n- White House officials sent a letter to Senate Majority Leader John Thune and Senate Minority Leader Charles Schumer, saying they wanted to “set the record straight.”\n- The debate over Trump’s appointments has drawn particular attention to the Commodity Futures Trading Commission, which could play a central role in overseeing digital assets if Congress passes the broader crypto market structure legislation known as the Clarity Act.\nWe'd love your feedback.\nThe White House pushed back against Senate Democrats’ criticism that the Trump administration has declined to appoint commissioners to key regulatory agencies, a dispute that has emerged as a hurdle in lawmakers’ efforts to advance a landmark cryptocurrency bill.\nOn Thursday, White House officials sent a letter to Senate Majority Leader John Thune and Senate Minority Leader Charles Schumer, saying they wanted to \"set the record straight.\"\n\"Democrats have obstructed every civilian nominee, but President Trump has still nominated Democrats to key positions,\" they said, citing Democratic nominations to the International Trade Commission and re-nominations to the National Labor Relations Board, among others.\nThe letter was signed by Director of Presidential Personnel Dan Scavino and Director of Legislative Affairs James Braid.\nThe debate over Trump’s appointments has drawn particular attention to the Commodity Futures Trading Commission, which could play a central role in overseeing digital assets if Congress passes the broader crypto market structure legislation known as the Clarity Act.\nCurrently, there is just one commissioner out of five spots, Republican Chair Michael Selig leading the agency. Lawmakers have pressed Trump to appoint CFTC commissioners to support the Clarity Act.\nOn Thursday, the White House said it sought Democratic names to lead the Securities and Exchange Commission and the CFTC, but didn't hear back.\nSchumer's office did not immediately respond to a request for comment.\nThe White House officials also briefly cited a Supreme Court case ruling made last week in the letter. The case, Trump v. Slaughter, expanded President Trump's authority to remove leaders of many independent federal agencies.\n\"... these criticisms were answered by the recent Supreme Court ruling,\" the officials wrote.\nDisclaimer: The Block is an independent media outlet that delivers news, research, and data. As of November 2023, Foresight Ventures is a majority investor of The Block. Foresight Ventures invests in other companies in the crypto space. Crypto exchange Bitget is an anchor LP for Foresight Ventures. The Block continues to operate independently to deliver objective, impactful, and timely information about the crypto industry. Here are our current financial disclosures.\n© 2026 The Block. All Rights Reserved. This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+    "source": "The Block",
+    "category": "crypto",
+    "lang": "en",
+    "topic": "Regulation",
+    "published": "2026-07-09T17:53:16+00:00",
+    "crawled": "2026-07-09T18:08:19.909749+00:00",
+    "summarized": true,
+    "ai_summary": "• 白宮官員向參議院多數黨領袖約翰·圖恩及少數黨領袖查爾斯·舒默發送信件，澄清特朗普政府在任命監管機構委員方面的立場。  \n• 目前商品期貨交易委員會（CFTC）只有一名委員，特朗普被要求任命更多委員以支持《清晰法案》的推進。  \n• 白宮表示已尋求民主黨人提名擔任證券交易委員會及CFTC的領導職位，但未收到回覆。  \n• 白宮在信中提及最近的最高法院裁決，認為該裁決擴大了特朗普總統對多個獨立聯邦機構領導人的罷免權限。",
+    "summaries": {
+      "zh-HK": "• 白宮官員向參議院多數黨領袖約翰·圖恩及少數黨領袖查爾斯·舒默發送信件，澄清特朗普政府在任命監管機構委員方面的立場。  \n• 目前商品期貨交易委員會（CFTC）只有一名委員，特朗普被要求任命更多委員以支持《清晰法案》的推進。  \n• 白宮表示已尋求民主黨人提名擔任證券交易委員會及CFTC的領導職位，但未收到回覆。  \n• 白宮在信中提及最近的最高法院裁決，認為該裁決擴大了特朗普總統對多個獨立聯邦機構領導人的罷免權限。"
+    }
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/09/buffalo-bills-qb-josh-allen-says-he-would-entertain-broadcasting.html",
+    "title": "Buffalo Bills quarterback Josh Allen says he would 'entertain' idea to follow Tom Brady, Drew Brees into broadcasting",
+    "summary": "Buffalo Bills star QB Josh Allen told CNBC Sport he would consider a post-playing NFL broadcast career, but he also cited reservations.",
+    "full_text": "Sign up today for the CNBC Sport Newsletter\nCNBC Sport\nBuffalo Bills quarterback Josh Allen says he would 'entertain' idea to follow Tom Brady, Drew Brees into broadcasting\nKey Points\n- CNBC Sport spoke with Josh Allen, who announced a partnership with sleep aide Natrol.\n- Allen said doing a post-NFL broadcasting job would be \"cool\" if he can \"keep it from a strictly broadcasting angle.\"\n- There have been many TV opportunities for former NFL quarterbacks in recent years.",
+    "source": "CNBC",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Sports",
+    "published": "2026-07-09T18:05:13+00:00",
+    "crawled": "2026-07-09T18:08:22.996133+00:00",
+    "summarized": true,
+    "ai_summary": "• 布法羅比爾隊四分衛喬希·艾倫表示，他會考慮跟隨特朗普和德魯·布里斯進入廣播行業的想法  \n• 艾倫在與CNBC Sport的訪談中宣布與睡眠輔助產品Natrol的合作  \n• 他表示，如果能從純廣播的角度出發，做NFL退役後的廣播工作會很「酷」  \n• 近年來，許多前NFL四分衛獲得了電視工作的機會",
+    "summaries": {
+      "zh-HK": "• 布法羅比爾隊四分衛喬希·艾倫表示，他會考慮跟隨特朗普和德魯·布里斯進入廣播行業的想法  \n• 艾倫在與CNBC Sport的訪談中宣布與睡眠輔助產品Natrol的合作  \n• 他表示，如果能從純廣播的角度出發，做NFL退役後的廣播工作會很「酷」  \n• 近年來，許多前NFL四分衛獲得了電視工作的機會"
+    }
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
+    "title": "How to stop Meta’s AI image generator from using your Instagram photos",
+    "summary": "Meta's new AI image generator is using your public Instagram photos unless you opt out. Here's how to do that.",
+    "full_text": "On Tuesday, Meta launched “Muse Image,” a new AI image generation feature that allows users to create original images, edit existing photos, and even generate custom ads directly within its apps.\nBut one capability has quickly become the center of controversy.\nMuse Image allows users to generate AI images using photos from public Instagram accounts. As long as a person’s profile is public, another user can tag that account and use their images as part of an AI-generated creation. (Only private accounts and accounts belonging to users under 18 are automatically excluded from the feature.)\nOne huge concern is consent. Users may have no idea that their public photos can be incorporated into AI-generated images by strangers, and they aren’t even notified when someone reuses their public content. Plus, making it easy to manipulate people’s images opens the door to misuse, harassment, impersonation, and non-consensual image editing.\nIf you’re looking to opt out of this, here’s how you can do it:\nHow to opt out of Meta’s Muse Image generator\n- Head to your profile and click the three horizontal lines in the top-right corner.\n- Select “Sharing and reuse.”\n- Then look for the option that says, “Allow people to create with and reuse your content.”\n- Toggle it off for both posts and reels.\nMuse Image arrives at a time when AI tools are being increasingly integrated into social media platforms. As tech companies race to roll out new generative AI features, many experts argue that stronger privacy protections and greater transparency are needed, so users fully understand how their photos and personal data are being used.\nPublic skepticism around AI is already high. According to a Pew Research Center survey, 35% of respondents said they’re more concerned than excited about the growing use of artificial intelligence.\nAdditionally, Meta’s track record on user privacy has also fueled skepticism surrounding its latest AI feature.\nIn 2019, the U.S. Federal Trade Commission (FTC) imposed a $5 billion fine against Facebook, concluding that the platform had violated a 2012 consent order by misleading users about how much control they had over their personal information. This followed a high-profile scandal where political consulting firm Cambridge Analytica gained access to data from up to 87 million Facebook users through a personality quiz app. Facebook’s platform policies at the time allowed developers to collect information about those users’ friends without their knowledge or explicit consent.",
+    "source": "TechCrunch",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Tech",
+    "published": "2026-07-09T17:56:47+00:00",
+    "crawled": "2026-07-09T18:08:25.290414+00:00",
+    "summarized": true,
+    "ai_summary": "• Meta於星期二推出新功能“Muse Image”，允許用戶創建原創圖像和編輯現有照片。  \n• Muse Image可使用公共Instagram帳戶的照片生成AI圖像，只有私人帳戶和18歲以下用戶的帳戶自動排除在外。  \n• 用戶對於其公共照片被陌生人用於AI生成圖像的同意問題表示擔憂，並且未被通知其內容被重用。  \n• 根據皮尤研究中心的調查，35%的受訪者對人工智能的使用表示擔憂，Meta的隱私記錄也引發了對其新AI功能的懷疑。",
+    "summaries": {
+      "zh-HK": "• Meta於星期二推出新功能“Muse Image”，允許用戶創建原創圖像和編輯現有照片。  \n• Muse Image可使用公共Instagram帳戶的照片生成AI圖像，只有私人帳戶和18歲以下用戶的帳戶自動排除在外。  \n• 用戶對於其公共照片被陌生人用於AI生成圖像的同意問題表示擔憂，並且未被通知其內容被重用。  \n• 根據皮尤研究中心的調查，35%的受訪者對人工智能的使用表示擔憂，Meta的隱私記錄也引發了對其新AI功能的懷疑。"
+    }
+  },
+  {
+    "url": "https://arstechnica.com/health/2026/07/surprised-doctors-find-10-inch-worm-in-mans-groin-during-elective-surgery/",
+    "title": "Surprised doctors find 10-inch worm in man's groin during elective surgery",
+    "summary": "Oddly, it wasn't the first time this had happened to the man.",
+    "full_text": "When surgeons dug into a man’s groin to repair a painless bulge, they made the unexpected discovery of a living, 10-inch-long (26 cm) worm snug in his abdomen. Adding to the oddity, the man told the surgeons that this had actually happened to him before, according to a case report in the New England Journal of Medicine.\nThe 71-year-old man had opted to have surgery to repair the bulge, which was an inguinal hernia. These types of protrusions are fairly common, particularly in older men, and occur when a small amount of abdominal contents, such as fat or a bit of intestines, slips through a gap or weak point in the muscles and tissues of the abdominal wall. This bodily leakage creates an external bulge that, in some cases, can be painful and uncomfortable. If the bulge’s contents become stuck and pinched off, it can even create a life-threatening situation called a strangulated hernia. But, in other cases, the escaped innards are painless and loose and can be temporarily put back in place by simple, gentle massage.\nMost people with inguinal hernias will need surgery at some point to patch up their weak abdominal wall. But, for older men with no pain or discomfort, doctors may suggest watchful waiting, delaying surgery until the need is clear. This was the case for the man. But he elected to repair the inguinal hernia, which was on his right side.\nSurgeons noted that the man appeared in good health before the surgery, reporting no symptoms besides the painless protrusion. His blood work likewise appeared normal, giving no indications of anything amiss, such as an elevated white blood cell count that might signal a parasitic infection. Surgeons opted for a laparoscopic procedure, making small incisions to insert tools to fortify the abdominal wall.\nAs they worked, they noticed something whitish and stringy. It was wedged between his bladder and pubic bone. The surgeons used forceps to grab at a loop that was poking into view and then needed multiple tugs to gently slide out the rest. When they carefully pulled it out in its entirety and unfurled it, they recognized it as a 26 cm-long (10.2 inch) tapeworm. It was still alive, and slithered and squirmed on the surgical table. A picture of the surgical find is here.",
+    "source": "ArsTechnica",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Tech",
+    "published": "2026-07-09T15:33:41+00:00",
+    "crawled": "2026-07-09T18:08:26.234579+00:00",
+    "summarized": true,
+    "ai_summary": "• 一名71歲男子在進行腹股溝疝氣手術時，醫生意外發現其腹部有一條長達10英寸（26厘米）的活蟲。  \n• 該男子選擇進行手術修復無痛的腹股溝突出，這種情況在年長男性中相對常見。  \n• 醫生在手術前檢查時，男子的健康狀況良好，並未出現任何異常症狀或血液檢查異常。  \n• 醫生採用腹腔鏡手術，並在手術過程中發現並取出了這條仍然活著的帶狀蟲。",
+    "summaries": {
+      "zh-HK": "• 一名71歲男子在進行腹股溝疝氣手術時，醫生意外發現其腹部有一條長達10英寸（26厘米）的活蟲。  \n• 該男子選擇進行手術修復無痛的腹股溝突出，這種情況在年長男性中相對常見。  \n• 醫生在手術前檢查時，男子的健康狀況良好，並未出現任何異常症狀或血液檢查異常。  \n• 醫生採用腹腔鏡手術，並在手術過程中發現並取出了這條仍然活著的帶狀蟲。"
+    }
+  },
+  {
+    "url": "https://www.aljazeera.com/news/2026/7/9/mexico-to-seek-us-criminal-complaints-over-ice-related-deaths-of-citizens?traffic_source=rss",
+    "title": "Mexico to seek US criminal complaints over ICE-related deaths of citizens",
+    "summary": "Claudia Sheinbaum announces Mexico’s strongest response yet to deaths in ICE custody and during immigration enforcement.",
+    "full_text": "Mexico to seek US criminal complaints over ICE-related deaths of citizens\nPresident Sheinbaum announces Mexico’s strongest response yet to deaths in ICE custody and during US immigration enforcement operations.\nThe government of Mexico has said it will ask United States prosecutors to open criminal investigations into the deaths of its citizens during immigration enforcement operations.\nAt her Thursday morning news conference, President Claudia Sheinbaum said Mexico “cannot turn a blind eye to the Mexicans who have died”.\nRecommended Stories\nlist of 3 items- list 1 of 3Former Wisconsin judge avoids prison in ICE obstruction case\n- list 2 of 3Family demands investigation after US man killed by ICE agent in Texas\n- list 3 of 3Son of Mexican national who was fatally shot by ICE speaks out\n“We made the decision — obviously, we will maintain diplomatic relations — to file a formal complaint with both state and federal prosecutors in the United States against whoever is found responsible for what we consider to be homicides or, in other cases, for human rights violations,” Sheinbaum said.\nHer remarks signalled that Mexico is prepared to issue its strongest response yet to the growing number of fatalities linked to US President Donald Trump’s deportation crackdown.\nThe move comes two days after a US Immigration and Customs Enforcement (ICE) agent shot and killed 52-year-old Mexican national Lorenzo Salgado Araujo during an immigration operation in Houston.\nAccording to Mexico’s government, 14 Mexican nationals have died while in ICE custody, and three others have been killed during immigration enforcement operations.\nForeign Minister Roberto Velasco explained that Mexico had issued diplomatic notes in protest of the killings, but repeated attempts to engage with US authorities had failed.\n“We are going to move beyond the diplomatic sphere and go directly to US prosecutors to file complaints regarding these incidents, requesting that they are investigated as criminal matters,” he told reporters.\nVelasco added that Mexico also plans to file civil lawsuits against the private companies that operate US immigration detention centres.\nSalgado Araujo’s killing this week has renewed outrage over ICE tactics on both sides of the US-Mexico border.\nOn Wednesday night, hundreds of people marched through Houston’s historic Magnolia Park neighbourhood, chanting “ICE out of Houston”.\nSalgado Araujo’s family has said he lived in the US for 35 years, had no criminal convictions and was driving a crew to a construction site when he was killed. They explained he had been working towards getting legal status.\nThe family, as well as politicians like New York City Mayor Zohran Mamdani and US Congress members like Representative Sylvia Garcia, have called for a full investigation into his killing.\nAccording to the Department of Homeland Security, Salgado Araujo ignored officers’ commands during an immigration stop and tried to ram an agent with his vehicle, prompting the officer to open fire.\nHis family disputes that account and, along with civil rights groups, is demanding authorities release video footage of the encounter.\nReuters reports Salgado Araujo’s death brings the number of people fatally shot during US immigration enforcement operations to at least six since Trump returned to office for a second term as US president in January 2025.\nMexico has repeatedly raised concerns over the treatment of its citizens in ICE custody. After another Mexican national died in detention in April, its Foreign Ministry ordered consular officials to increase their visits to ICE detention centres from weekly to daily.\nThe ministry also said it would pursue “all available legal and diplomatic avenues” to seek accountability.\n“The repeated occurrence of deaths in custody is unacceptable and reveals serious deficiencies in ICE detention centers, which are incompatible with human rights standards and the protection of human life,” it wrote.\nThe number of deaths in ICE custody has also risen sharply. Thirty-two detainees died in 2025, compared to 11 in 2024, according to the agency’s website.\nAn estimated 19 in-custody deaths have occurred between January and early June of this year.\nThe US Department of Homeland Security has rejected the idea that the numbers represented a rise, telling Al Jazeera in June that “there has been NO spike in deaths”. It has argued that ICE detention centres maintain a “higher standard of care than most prisons that hold US citizens”.",
+    "source": "Al Jazeera",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-09T17:46:30+00:00",
+    "crawled": "2026-07-09T18:08:35.565890+00:00",
+    "summarized": true,
+    "ai_summary": "• 墨西哥政府宣布將要求美國檢察官對其公民在移民執法行動中死亡事件展開刑事調查 \n• 墨西哥總統克勞迪婭·謝因鮑姆表示，將對負責人提出正式控訴，並強調不會對墨西哥公民的死亡視而不見 \n• 此舉是在一名墨西哥國籍人士在休士頓的移民行動中被ICE特工槍殺後的兩天內作出的 \n• 墨西哥外交部長羅伯托·維拉斯科表示，將直接向美國檢察官提出控訴，並計劃對經營美國移民拘留中心的私營公司提起民事訴訟",
+    "summaries": {
+      "zh-HK": "• 墨西哥政府宣布將要求美國檢察官對其公民在移民執法行動中死亡事件展開刑事調查 \n• 墨西哥總統克勞迪婭·謝因鮑姆表示，將對負責人提出正式控訴，並強調不會對墨西哥公民的死亡視而不見 \n• 此舉是在一名墨西哥國籍人士在休士頓的移民行動中被ICE特工槍殺後的兩天內作出的 \n• 墨西哥外交部長羅伯托·維拉斯科表示，將直接向美國檢察官提出控訴，並計劃對經營美國移民拘留中心的私營公司提起民事訴訟"
+    }
+  },
+  {
+    "url": "https://www.aljazeera.com/news/2026/7/9/palestinian-legislative-elections-set-for-november-28?traffic_source=rss",
+    "title": "Palestinian legislative elections set for November 28",
+    "summary": "Palestinian President Mahmoud Abbas announces first legislative elections in 20 years.",
+    "full_text": "Palestinian legislative elections set for November 28\nPalestinian President Mahmoud Abbas announces first legislative elections in 20 years.\nPalestinian President Mahmoud Abbas has announced that legislative elections will be held in late November, as his government comes under mounting international pressure to demonstrate its legitimacy.\nAbbas issued a decree on Thursday declaring the election date for November 28 in all of the Palestinian Territories, including the occupied West Bank, occupied East Jerusalem and Gaza.\nRecommended Stories\nlist of 3 items- list 1 of 3Gaza aid worker killed minutes before World Cup screening he organised\n- list 2 of 3Deadly strikes in Gaza leave 5 dead, children wounded\n- list 3 of 3Inside a UK university’s ‘disturbing’ crackdown on pro-Palestine students\nIf the vote goes ahead, it will be the first in 20 years.\nThe last legislative elections in the Palestinian Territories were held in 2006, when Hamas secured a shock victory. The result triggered a political split with Abbas’s previously dominant Fatah party, culminating in Hamas taking control of Gaza in 2007.\n“This is understood to be a consequence, an outcome if you will, of the dialogue between the Palestinian president, the Palestinian leadership and foreign countries, namely powerful countries,” said Al Jazeera’s Nour Odeh, reporting from Ramallah in the occupied West Bank.\n“France, Saudi Arabia and others want to see change and what they call reform in the Palestinian Authority in order to provide it with [the] assistance that it sorely needs,” Odeh added.\nSeveral issues will need to be resolved before the elections can go ahead. Israel, which has yet to comment publicly on the announcement, would need to allow Palestinians to vote in occupied East Jerusalem.\nIn 2021, Palestinian legislative and presidential elections were cancelled after Israel did not guarantee that voting could be held there.\nIn Gaza, Israel’s genocidal war has internally displaced nearly all of the enclave’s 2.1 million residents, posing a major logistical challenge. More than 90 percent of the Strip has been destroyed, leaving Gaza without the infrastructure needed to hold a vote. The population registry has also not been updated because of Israel’s assault.\nAbbas was elected to a four-year term in 2005 but has remained in office ever since. He has ruled by decree for more than 15 years, leading to accusations, both within Palestine and abroad, of corruption and abuse of power.\nLast month, Abbas announced that presidential elections would be held early next year but did not confirm whether he would seek another term.\n“People are holding back their enthusiasm. Even though holding elections, a change in leadership, is the overwhelming demand of Palestinians according to polls,” Odeh added.",
+    "source": "Al Jazeera",
+    "category": "general",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-09T17:32:09+00:00",
+    "crawled": "2026-07-09T18:08:35.612626+00:00",
+    "summarized": true,
+    "ai_summary": "• 巴勒斯坦總統阿巴斯宣布將於11月28日在所有巴勒斯坦地區舉行立法選舉，這是20年來的首次選舉。  \n• 上次立法選舉於2006年舉行，哈馬斯獲勝後導致政治分裂，哈馬斯於2007年控制加沙。  \n• 阿巴斯的決定被視為在國際壓力下的結果，外國勢力希望見到巴勒斯坦權力機構的改革。  \n• 以色列尚未對選舉公告作出回應，若選舉進行，需解決在被佔的東耶路撒冷舉行投票的問題。",
+    "summaries": {
+      "zh-HK": "• 巴勒斯坦總統阿巴斯宣布將於11月28日在所有巴勒斯坦地區舉行立法選舉，這是20年來的首次選舉。  \n• 上次立法選舉於2006年舉行，哈馬斯獲勝後導致政治分裂，哈馬斯於2007年控制加沙。  \n• 阿巴斯的決定被視為在國際壓力下的結果，外國勢力希望見到巴勒斯坦權力機構的改革。  \n• 以色列尚未對選舉公告作出回應，若選舉進行，需解決在被佔的東耶路撒冷舉行投票的問題。"
+    }
+  },
+  {
+    "url": "https://www.npr.org/2026/07/09/nx-s1-5885040/robot-flying-aerial-aquatic-mit-birds",
+    "title": "A new kind of robot swims the seas and soars the skies",
+    "summary": "Inspired by diving birds, roboticists built the lightweight machines to move from water to air. The design may one day lead to robots that can monitor and sample the coastal ocean.",
+    "full_text": "A new kind of robot swims the seas and soars the skies\nMechanical engineer Raphael Zufferey's lab at MIT contains a giant tank filled with bright turquoise water, an array of fans that can whip up a powerful wind, and small flying robots perched everywhere you look.\nIt's the robots that are the stars of the show here and they're inspired by diving seabirds like the Atlantic puffin, which uses its wings to both fly and swim.\n\"These puffins solve this really challenging task of moving in air, in water despite the huge difference in density,\" says Zufferey.\nHe and his colleagues wanted to see if they could build a bird-sized robot that could also move through both mediums and transition between them. It's something no one had ever done before.\nIn a paper published Thursday in the journal Science, they describe the engineering of just such an aerial-aquatic robot. It weighs about half a pound and its wingspan measures not quite three feet, tip to tip.\n\"This is a beautiful robot,\" says Glenna Clifton, an animal movement biologist at the University of Portland in Oregon who collaborates with roboticists but wasn't involved in this research project. She says the robot offers insights into what makes the flight biology of diving birds unique.\nIt also has many potential applications including observing the coastal ocean and monitoring something like a remote coral reef. The robot could fly to the reef — or something else like a pod of whales or an algal bloom — and then sample the water and collect data.\nSuch bio-inspired robots are fertile ground to learn about both nature and engineering. \"The biology inspires the robotics,\" says Clifton, \"but then also the robotics are used to understand the biology.\"\nDesigning a novel robot\nCreating this robot took two years. \"Thinking of a wing that could operate in both [air and water] somewhat efficiently seems implausible,\" Zufferey recalls thinking.\nBut he and his colleagues were undeterred. They based the robot's overall body plan on a diving bird, but made a couple of key departures.\nFirst, they decided not to include any legs because in robotics, legs are tricky to build, control, and achieve the desired movement in the robot. \"Instead, we thought, 'can we go from the water straight to the air simply with the wings themselves?'\" says Zufferey.\nSecond, the research team decided against making those wings foldable as they are in many diving birds. That would have been too complex, Zufferey says. \"You need to add joints, you need to add motors. So instead we rely on wing flexibility.\"\nHe holds up the final robot. It's elegant. The central body, which houses the motor and battery is completely open, meaning its electronic guts are visible.\n\"So water floods the whole system here,\" explains Zufferey. \"You have to waterproof, individually, every single component.\" Such an approach allows the robot to be both light enough to fly easily through the air and also neutrally buoyant, meaning it won't float to the surface or sink to the bottom. It just stays put in the water.\nThe robot has a tail to help it fly. The wings are made from a translucent nylon fabric reinforced with carbon fiber struts. Zufferey holds the body of the robot while its wings flap up and down crisply and quickly. \"You can really feel the forces,\" he says.\nThe robot flaps five to six times a second to maintain flight. To leave the water and propel itself into the air, however, it must move its wings ten times a second to generate sufficient speed and thrust.\nMost diving birds can't generate that kind of power with their wings alone, which is why they take off by using their legs to run along the water's surface. (The kingfisher is an exception but it is an especially light bird, says Zufferey.)\n\"A monumental step\"\nZufferey calls up a video that he and his colleagues filmed at Lake Geneva in Switzerland. The Alps rise up in the distance and the water's surface is placid.\nThere's the slightest of ripples before the robot bursts out of the water and into the air — all in less than a second. It actually sounds like a bird taking flight.\nThe researchers computed the optimal launch angles and wing size. And they estimate that on a single charge, the robot could fly for not quite four miles or swim for a bit more than a mile, \"which is longer than the running and swimming portion of a sprint triathlon,\" observes Clifton.\nShe was impressed by the robot overall. \"It is light and powerful and a monumental step in the performance at both swimming, flying, and transitioning between the two,\" she says.\nDown the road, Zufferey is excited about using this kind of robot for a range of applications, including monitoring harmful algal blooms, fish stocks, and coastal erosion. He plans to equip the device with a handful of onboard sensors to enable such data gathering.\nIn addition, Zufferey and his team are continuing to refine and improve their aerial-aquatic robots — honed by experimentation but still inspired by the natural world. \"You see that it has already been done in biology,\" he says.\n\"So that gives you hope as a robotics researcher. It tells you that it should be possible.\"",
+    "source": "NPR",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-09T18:01:11+00:00",
+    "crawled": "2026-07-09T18:08:36.429857+00:00",
+    "summarized": true,
+    "ai_summary": "• 麻省理工學院的機械工程師拉斐爾·祖弗瑞的實驗室研發了一種新型機器人，能在空中飛行和水中游泳，靈感來自潛水海鳥如大西洋海雀。\n• 這種機器人重約半磅，翼展接近三英尺，研究成果於週四在《科學》期刊發表。\n• 研究團隊設計機器人時不使用腿部，以簡化控制和運動，並選擇不折疊的翼以保持結構簡單。\n• 此機器人可用於觀察沿海海洋和監測遠程珊瑚礁等，具有多種潛在應用。",
+    "summaries": {
+      "zh-HK": "• 麻省理工學院的機械工程師拉斐爾·祖弗瑞的實驗室研發了一種新型機器人，能在空中飛行和水中游泳，靈感來自潛水海鳥如大西洋海雀。\n• 這種機器人重約半磅，翼展接近三英尺，研究成果於週四在《科學》期刊發表。\n• 研究團隊設計機器人時不使用腿部，以簡化控制和運動，並選擇不折疊的翼以保持結構簡單。\n• 此機器人可用於觀察沿海海洋和監測遠程珊瑚礁等，具有多種潛在應用。"
+    }
+  },
+  {
+    "url": "https://www.npr.org/2026/07/09/nx-s1-5879435/outdoor-access-for-disabled-in-vermont",
+    "title": "OUTDOOR ACCESS FOR DISABLED IN VERMONT",
+    "summary": "Mountain bike enthusiasts have been working for years on an ambitious 485-mile, multi-use trail called <em>The Velomont</em> that will span the length of the state. They're making sure it's friendly for people people with disabilities, particularly cyclists. <br /><br />",
+    "full_text": "OUTDOOR ACCESS FOR DISABLED IN VERMONT\nMountain bike enthusiasts have been working for years on an ambitious 485-mile, multi-use trail called The Velomont that will span the length of the state.\nWhen finished, the collaborative project will knit together existing trail networks, connect 27 communities and include huts and hostels for overnight stays.\nNew trail construction is finally ramping up after years spent on permits, plans and public input. And organizers say they want to make it as user-friendly as possible.\n\"For us, it's not a huge lift to just be mindful when we're trying to build trail or improve trail to think about the adaptive rider,\" said Angus McCusker, the Velomont trail director with the nonprofit Vermont Huts and Trails.\nMcCusker is referring to the growing number of disabled athletes who mountain bike with specially designed equipment.\n\"The challenge,\" said McCusker, \"is we're connecting to existing trail networks that were never intended for adaptive bikes. So, where we can, we're trying to do adaptive assessments.\"\nLouis Arevalo of Essex Junction is one of several adaptive athletes helping with that, most recently on some slightly overgrown single track trails in Randolph, a central Vermont town nestled along the eastern edge of the Green Mountains.\nArevalo pedals with his hands. He rides an electric powered recumbent-style three-wheeler that sits low to the ground. His service dog Azul chases along nearby.\n\"Once you realize what these bikes are capable (of) or this equipment actually opens up, it kind of blows your mind,\" he said.\nArevalo was paralyzed in a skiing accident six years ago. Being able to get back on the trails has been a game changer, he said smiling.\n\"There's a reason we live in the Green Mountain state. It's because we like to get outside…you know, seeing the squirrels and chipmunks and birds… I mean, it's life.\"\nBut adaptive rigs like Arevalo's are wider and heavier than regular mountain bikes, and not all trails are user-friendly.\nNick Bennette, who was testing a different type of adaptive bike, got hung up on several tight turns.\n\"It's helpful to have different kinds of adaptive bikes on these tests because they all handle a little differently,\" he said.\nBennette is executive director of the Vermont Mountain Bike Association, another nonprofit spearheading efforts around the Velomont. He and others involved in the assessment are taking detailed photos and notes on ways to make the trails more accessible.\n\"Just scalloping out a bit of material on the outside of that corner,\" said Bennette, pointing to the area the bike got caught. \"That will allow adaptive bikes to make that corner without really changing the way the trail rides.\"\nContractors are also trying to reduce barriers at the trail's overnight accommodations. This summer, contractors are building a new ADA accessible hostel in downtown Randolph.\nAnd two remote huts along the trail will have locked sheds with off-road wheelchairs so bikers don't have to haul their own.\nAt the Chittenden Brook Hut, McCusker highlighted a new ramp and wider driveway.\n\"So if you're an adaptive rider, you can imagine rolling right up here and you can transfer to your chair that's available here, and then roll down the ramp and go down to the fireplace, to the privy, to make your meal,\" he said.\nLouis Arevalo stayed at the hut last summer with other adaptive riders — his first camping trip since his accident.\n\"There was a babbling brook right there…and it was really refreshing to have easy access to a beautifully built hut that was easy to navigate, and then have these world-class trails right out the door,\" he said. \"And with these Velomont trails, I can actually plan a hut-to-hut trip with other people.\"\nJeff Alexander is counting on it. He's director of strategic partnerships with Vermont Adaptive Ski and Sports, a nonprofit that helps people with disabilities access outdoor recreation.\nAn economic impact analysis the group commissioned estimates their programming generated more than $10 million last year.\n\"So the adaptive community has money, they travel, they want to travel and they want to play with everybody,\" Alexander said. \"We just need to level the playing field so that everyone can play together.\"",
+    "source": "NPR",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-09T18:00:00+00:00",
+    "crawled": "2026-07-09T18:08:36.509176+00:00",
+    "summarized": true,
+    "ai_summary": "• 佛蒙特州正在建設一條長達485英里的多用途自行車道，名為The Velomont，旨在連接27個社區並整合現有的步道網絡。  \n• 該項目致力於考慮殘疾騎士的需求，並進行適應性評估，以改善現有步道的可及性。  \n• 殘疾運動員路易斯·阿雷瓦洛使用特製的電動三輪車，並表示能夠重返步道對他來說意義重大。  \n• 承包商正在建設符合ADA標準的旅館，並在步道沿線設置鎖定的越野輪椅，以便殘疾騎士使用。",
+    "summaries": {
+      "zh-HK": "• 佛蒙特州正在建設一條長達485英里的多用途自行車道，名為The Velomont，旨在連接27個社區並整合現有的步道網絡。  \n• 該項目致力於考慮殘疾騎士的需求，並進行適應性評估，以改善現有步道的可及性。  \n• 殘疾運動員路易斯·阿雷瓦洛使用特製的電動三輪車，並表示能夠重返步道對他來說意義重大。  \n• 承包商正在建設符合ADA標準的旅館，並在步道沿線設置鎖定的越野輪椅，以便殘疾騎士使用。"
+    }
+  },
+  {
+    "url": "https://www.npr.org/2026/07/09/nx-s1-5885052/spacexai-stabilityai-deepfake-csam-class-action",
+    "title": "Class action suit against AI makers over deepfake child sexual abuse material expands",
+    "summary": "New plaintiffs in a lawsuit against Elon Musk's SpaceXAI and Stability AI say the companies' AI tools were used to make sexually explicit images of them as children.",
+    "full_text": "Class action suit against AI makers over deepfake child sexual abuse material expands\nNew plaintiffs in a class action lawsuit against Elon Musk's AI company, SpaceXAI, allege that the company's image-generation models were used to create child sexual abuse material and that the company failed to adequately share information about an alleged perpetrator with authorities.\nTwo plaintiffs, one in Wyoming and the other in Wisconsin, joined the lawsuit filed by three Tennessee teenagers earlier this year, according to an amended complaint filed on Tuesday. All the plaintiffs are referred to as Jane Does. The suit was also expanded to include Stability AI, the company behind the Stable Diffusion image generator, as a defendant.\nThe suit alleges that the perpetrators, including a plaintiff's male friend and another plaintiff's stepfather, used the companies' AI models to alter photos taken when the plaintiffs were underage to make child sexual abuse material (CSAM). The five plaintiffs accuse the companies of producing CSAM, benefiting from sex trafficking ventures, negligence, defective product design and creating a public nuisance.\n\"Public nuisance means that this is not just something that is problematic for our clients … this is something that is a scourge on society,\" said Annika Martin, an attorney for all five plaintiffs. \"We want to put these guardrails in place so that we do not cause this harm across an entire generation of children.\"\nThe plaintiffs are asking the AI companies to install more effective guardrails to prevent the creation of exploitative and abusive imagery as well as seeking monetary compensation.\nThe case of Jane Doe 4\nWhile SpaceXAI, like other internet companies, is required by law to report suspected child sexual exploitation, including CSAM, to the nonprofit National Center for Missing and Exploited Children (NCMEC), the lawsuit alleges that the company failed to adequately do so.\nSpaceXAI was previously known as xAI. The company rebranded this month following its merger with Musk's SpaceX earlier this year.\nAccording to the complaint, the stepfather of Jane Doe 4, a woman in her 20s in Wyoming, used SpaceXAI's chatbot, Grok, to generate about 7,000 sexually explicit images and videos from a single photograph taken when Jane Doe 4 was about 11. The AI-generated images included depictions of her nude, performing sexual acts on men, including her stepfather. Some images also included explicit captions.\nSpaceXAI only sent one tip regarding Jane Doe 4 to NCMEC in February, when the stepfather asked the model to generate an image depicting the girl being raped by multiple men, according to the complaint. The company did not include any of the abusive images with its report, and also failed to share the alleged perpetrator's IP address with NCMEC and law enforcement, even after officials requested it multiple times, according to the complaint.\nMany electronic service providers submit a large volume of reports of suspicious activity to NCMEC, but do not include \"sufficient or actionable information\" because the law did not require it, the center wrote in a report in March.\nWhen law enforcement eventually tracked down and investigated the stepfather, they found that he, like the other perpetrators mentioned in the lawsuit, traded the sexually explicit images with others online, according to the complaint. Two days after law enforcement searched his digital devices and charged him with child exploitation offenses, he died by suicide.\n\"Jane Doe 4 entered a period of extreme personal crisis,\" the complaint said. \"She had to grapple with the trauma of her own sexual exploitation while at the same time assisting her mother in navigating the loss of her stepfather … Her family was torn apart, and her life became a nightmare.\"\nLaw enforcement told Jane Doe 4 that her stepfather had used Grok because it was more responsive to his prompts than other AI models, according to Martin, the lawyer representing the plaintiffs in the class action lawsuit.\nNCMEC declined to comment on the case and referred NPR to law enforcement. The Wyoming Division of Criminal Investigation, whose task force on internet crimes against children was identified as one of the law enforcement agencies involved in Jane Doe 4's case in the complaint, did not respond to a request for comment. SpaceXAI did not respond to a request for comment.\nApps that can alter photographs to make intimate images and pornography have existed for years in the shadows of the internet. But the creation of nonconsensual intimate images became much more mainstream in 2025 when major AI companies including Google, OpenAI and xAI updated their image generation tools in a way that allowed users to strip people down to bikinis.\nFrom late 2025 into early this year, people used xAI's tools to make a large number of altered photos showing women and children stripped down to bikinis or even less. As a result, countries including Indonesia, Malaysia and the UK launched investigations and imposed temporary bans on xAI. Currently, according to NPR's testing, chatbots created by Google and OpenAI refuse to respond to the prompt \"put her in a bikini.\" A free version of Grok showed an error in loading images after receiving the same prompt.\nStability AI is a new defendant\nStability AI, which makes the image generation tool Stable Diffusion, was added as a new defendant in connection with the claims filed by the three initial teenage plaintiffs in Tennessee. The complaint was updated to add that \"The application on the perpetrator's phone used to create the AI CSAM of Plaintiffs relied on Stability AI's image-producing tools.\"\nUnlike proprietary models such as those made by SpaceXAI, OpenAI and Anthropic, Stability AI's models are open-weight, which means it's much easier for users to remove restrictions that model makers have put in place. What's more, the model maker generally doesn't have insight into user queries. Nonetheless, the lawsuit alleges Stability AI could have restricted its models' ability to generate CSAM but chose not to in its more recent releases.\nThe Verge reported in November 2022 that Stability AI said it filtered out not-safe-for-work (NSFW) content from its training data to restrict the Stable Diffusion Version 2 model's ability to generate CSAM. This decision drew backlash from users, including one who decried the update as \"censorship,\" The Verge reported.\nA more recent version of Stability AI's model was frequently used to generate NSFW content and generated a higher proportion of such content compared with outputs from Stable Diffusion Version 2, according to a research paper by scholars from the University of Wisconsin-Madison, the Massachusetts Institute of Technology and other institutions, which has not yet been peer-reviewed. Stable Diffusion Version 2 was also much less popular than the Stability AI models that came before and after it, the researchers found.\n\"When they realized that nobody wanted to use their model when they put those guardrails in place, they rolled those guardrails right back so that everybody would want to use their model again,\" Martin said. \"They knew exactly how to rein this behavior in and they chose not to for profit.\"\nStability AI did not respond to a request for comment.",
+    "source": "NPR",
+    "category": "general",
+    "lang": "en",
+    "topic": "Regulation",
+    "published": "2026-07-09T17:49:33+00:00",
+    "crawled": "2026-07-09T18:08:36.628808+00:00",
+    "summarized": true,
+    "ai_summary": "• 一項針對特斯拉創辦人馬斯克的AI公司SpaceXAI的集體訴訟擴大，新增原告指控該公司未能妥善報告與兒童性虐待有關的資訊。\n• 來自懷俄明州和威斯康辛州的兩名原告加入了早前由三名田納西州青少年提出的訴訟，所有原告均以「Jane Doe」身份出庭。\n• 訴訟指控包括SpaceXAI和Stability AI在內的公司利用AI模型生成兒童性虐待材料，並對性交易活動獲利，要求這些公司安裝更有效的防護措施。\n• 訴訟中提到，SpaceXAI未能按法律要求向失踪及被剝削兒童國家中心報告懷疑的兒童性剝削案件，包括未能提供涉嫌犯罪者的IP地址。",
+    "summaries": {
+      "zh-HK": "• 一項針對特斯拉創辦人馬斯克的AI公司SpaceXAI的集體訴訟擴大，新增原告指控該公司未能妥善報告與兒童性虐待有關的資訊。\n• 來自懷俄明州和威斯康辛州的兩名原告加入了早前由三名田納西州青少年提出的訴訟，所有原告均以「Jane Doe」身份出庭。\n• 訴訟指控包括SpaceXAI和Stability AI在內的公司利用AI模型生成兒童性虐待材料，並對性交易活動獲利，要求這些公司安裝更有效的防護措施。\n• 訴訟中提到，SpaceXAI未能按法律要求向失踪及被剝削兒童國家中心報告懷疑的兒童性剝削案件，包括未能提供涉嫌犯罪者的IP地址。"
+    }
+  },
+  {
+    "url": "https://www.scmp.com/news/china/science/article/3359945/meet-biomni-free-powerful-biomed-ai-agent-turning-data-hypotheses?utm_source=rss_feed",
+    "title": "Meet Biomni: the free powerful biomed AI agent turning data into hypotheses",
+    "summary": "A Stanford University-led team including two Chinese researchers said they built the first general-purpose biomedical AI agent capable of working alongside human scientists, taking on complex tasks that once required groups of specialists.\nJure Leskovec, a Stanford computer science professor who supervised the work, said the agent had been released as an open-source system with a web interface so that biologists could use it without writing code.\n“We have over 10,000 scientists all over the...",
+    "full_text": "Meet Biomni: the free powerful biomed AI agent turning data into hypotheses\nStanford team that includes two Chinese among its main developers says system can turn a plain-language request into an entire research workflow\nJure Leskovec, a Stanford computer science professor who supervised the work, said the agent had been released as an open-source system with a web interface so that biologists could use it without writing code.\n“We have over 10,000 scientists all over the world using the system for their everyday tasks,” Leskovec said on Tuesday.\nIn the journal Science this week, the researcher said the system, called Biomni, could turn a plain-language request into an entire research workflow – from searching databases and writing analysis code to finding disease-causing genes and even creating step-by-step lab instructions that scientists successfully followed in real experiments.\nIn one test, the virtual biologist was given hundreds of raw files collected from wearable devices and asked to look for biological patterns. It cleaned the data, ran the analysis and generated new hypotheses.",
+    "source": "SCMP",
+    "category": "general",
+    "lang": "en",
+    "topic": "Health",
+    "published": "2026-07-09T18:00:08+00:00",
+    "crawled": "2026-07-09T18:08:37.924477+00:00",
+    "summarized": true,
+    "ai_summary": "• 斯坦福大學的團隊開發了一個名為Biomni的免費生物醫學AI代理，能將數據轉化為假設。  \n• 該系統已作為開源系統發布，提供網頁界面，生物學家無需編寫代碼即可使用。  \n• 斯坦福計算機科學教授Jure Leskovec表示，全球已有超過10,000名科學家在日常任務中使用該系統。  \n• Biomni能從普通語言請求生成完整的研究工作流程，包括數據搜索、分析代碼撰寫及實驗室指導步驟。",
+    "summaries": {
+      "zh-HK": "• 斯坦福大學的團隊開發了一個名為Biomni的免費生物醫學AI代理，能將數據轉化為假設。  \n• 該系統已作為開源系統發布，提供網頁界面，生物學家無需編寫代碼即可使用。  \n• 斯坦福計算機科學教授Jure Leskovec表示，全球已有超過10,000名科學家在日常任務中使用該系統。  \n• Biomni能從普通語言請求生成完整的研究工作流程，包括數據搜索、分析代碼撰寫及實驗室指導步驟。"
+    }
+  },
+  {
+    "url": "https://www.marketwatch.com/story/risky-leveraged-etfs-are-booming-in-2026-some-worry-they-could-be-making-the-stock-market-more-volatile-cef1427b?mod=mw_rss_topstories",
+    "title": "Risky leveraged ETFs are booming in 2026. Some worry they could be making the stock market more volatile.",
+    "summary": "Some say traders who gravitate toward these products see big swings in the underlying stocks as a feature, not a bug.",
+    "full_text": "",
+    "source": "MarketWatch",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Finance",
+    "published": "2026-07-09T17:52:00+00:00",
+    "crawled": "2026-07-09T18:08:49.790470+00:00",
+    "summarized": true,
+    "ai_summary": "• 2026年，槓桿交易所交易基金（ETFs）需求上升，吸引了許多交易者參與  \n• 部分專家擔心這些高風險產品可能會增加股市的波動性  \n• 交易者對於基礎股票的劇烈波動視為一種特點，而非缺陷  \n• 槓桿ETFs的流行引發了市場對其潛在風險的討論",
+    "summaries": {
+      "zh-HK": "• 2026年，槓桿交易所交易基金（ETFs）需求上升，吸引了許多交易者參與  \n• 部分專家擔心這些高風險產品可能會增加股市的波動性  \n• 交易者對於基礎股票的劇烈波動視為一種特點，而非缺陷  \n• 槓桿ETFs的流行引發了市場對其潛在風險的討論"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOXpYVGRPTHh3WVU2RGxoZXZYV3lScnBURktzNjYtZjhoRW1abkNHY3luUGptVkx3LUVOaGw4Z0M0VFBpRy1zUVhXci04ZUFCZ3VnNFY2Y09lSVlvaHJiR0Q2NjgtR1p5VW5qTU1EbFp1dHBCc0pXUzNzQlZvMzZ5NFRvczdCS3B0MGNXVXRpYkVwSk5RV29Wcy1tcmpBaWE3ZGxLbENQNTZEbUU?oc=5",
+    "title": "Convoy carrying Russian fighters attacked in Mali, sources say - Reuters",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOXpYVGRPTHh3WVU2RGxoZXZYV3lScnBURktzNjYtZjhoRW1abkNHY3luUGptVkx3LUVOaGw4Z0M0VFBpRy1zUVhXci04ZUFCZ3VnNFY2Y09lSVlvaHJiR0Q2NjgtR1p5VW5qTU1EbFp1dHBCc0pXUzNzQlZvMzZ5NFRvczdCS3B0MGNXVXRpYkVwSk5RV29Wcy1tcmpBaWE3ZGxLbENQNTZEbUU?oc=5\" target=\"_blank\">Convoy carrying Russian fighters attacked in Mali, sources say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+    "full_text": "",
+    "source": "Reuters (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-09T16:34:16+00:00",
+    "crawled": "2026-07-09T18:08:56.854792+00:00",
+    "summarized": true,
+    "ai_summary": "• 據報導，在馬利，一輛載有俄羅斯戰士的車隊遭到襲擊  \n• 事件發生的具體時間和地點尚未公開  \n• 當地消息來源表示，襲擊造成了人員傷亡  \n• 目前尚未有任何組織或個人聲明對襲擊負責",
+    "summaries": {
+      "zh-HK": "• 據報導，在馬利，一輛載有俄羅斯戰士的車隊遭到襲擊  \n• 事件發生的具體時間和地點尚未公開  \n• 當地消息來源表示，襲擊造成了人員傷亡  \n• 目前尚未有任何組織或個人聲明對襲擊負責"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTlE2VC1QNTUybkNHVUdDZThYR3RSd2llTVk0ZEstQUtXZHk3M2NDdjh1LTN5WUkzcFVBRDFjQ1kxWjByOFhRODB3QjJVTER5aklGZzZackFHUEVMcHZKS1QxckVpWDYyM24waHJNcU4zdG5lUGk2OTBGbnBPRjdvM29XdGVFeDFqQ1kwWjhQX3NUdVdZLS1iYUtybElZeGljV0gzRTh3MVhTZ2Y3R25MaWtQeUZyZw?oc=5",
+    "title": "Kremlin says US wrong to think escalation of Ukrainian strikes can help end war - Reuters",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOTlE2VC1QNTUybkNHVUdDZThYR3RSd2llTVk0ZEstQUtXZHk3M2NDdjh1LTN5WUkzcFVBRDFjQ1kxWjByOFhRODB3QjJVTER5aklGZzZackFHUEVMcHZKS1QxckVpWDYyM24waHJNcU4zdG5lUGk2OTBGbnBPRjdvM29XdGVFeDFqQ1kwWjhQX3NUdVdZLS1iYUtybElZeGljV0gzRTh3MVhTZ2Y3R25MaWtQeUZyZw?oc=5\" target=\"_blank\">Kremlin says US wrong to think escalation of Ukrainian strikes can help end war</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+    "full_text": "",
+    "source": "Reuters (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-09T11:35:42+00:00",
+    "crawled": "2026-07-09T18:08:57.145695+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdFdnSUR4YnJRaXBYeFlGRnhqS3k3V3lxaFJqQllsZWZiRDRkbWtIZ2FJZld6b0tSXzVLemM5S0N6dEFYcVdadHRTMjFraHlJTmJYQldPaTdseldUS0dBQTlvOFhmaFNHQTBVU05fTkVLTGZXMW9NYldQcFZSRXY4SEFYb0tCQ2M?oc=5",
+    "title": "US star Christian Pulisic fractured leg in World Cup loss to Belgium - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNdFdnSUR4YnJRaXBYeFlGRnhqS3k3V3lxaFJqQllsZWZiRDRkbWtIZ2FJZld6b0tSXzVLemM5S0N6dEFYcVdadHRTMjFraHlJTmJYQldPaTdseldUS0dBQTlvOFhmaFNHQTBVU05fTkVLTGZXMW9NYldQcFZSRXY4SEFYb0tCQ2M?oc=5\" target=\"_blank\">US star Christian Pulisic fractured leg in World Cup loss to Belgium</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-09T15:01:00+00:00",
+    "crawled": "2026-07-09T18:08:58.490179+00:00",
+    "summarized": true,
+    "ai_summary": "• 美國足球明星克里斯蒂安·普利西奇在世界杯對比利時的比賽中腿部骨折  \n• 此事件發生在比賽的下半場，導致他無法繼續參賽  \n• 普利西奇的傷勢將影響他未來的比賽安排  \n• 美國隊在該場比賽中以0-1不敵比利時，無法晉級下一輪",
+    "summaries": {
+      "zh-HK": "• 美國足球明星克里斯蒂安·普利西奇在世界杯對比利時的比賽中腿部骨折  \n• 此事件發生在比賽的下半場，導致他無法繼續參賽  \n• 普利西奇的傷勢將影響他未來的比賽安排  \n• 美國隊在該場比賽中以0-1不敵比利時，無法晉級下一輪"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdzE4QVlfMm1wUDVhZm1QbzNvSjR5WDdUSm5sUnhpVmM2ekhYeUNNc0JmZFpxcGh3VkpEbTB2NXJJOXJMeHhZSG1NOXZ1ZnljMWx3VkhWT0NoV21fa3BOb3MxVTdmSmJwdWF4ZjVfZVhDdmZCRHVaN0FrNEw0TFpMNkpVOGN2djRuSkFRdjhGQXR3NkZYQ3ZrYjBsUnAzdlhLY0h5TktSZzg?oc=5",
+    "title": "Artificial Intelligence: Patient education, or misinformation? - Ophthalmology Times Europe",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdzE4QVlfMm1wUDVhZm1QbzNvSjR5WDdUSm5sUnhpVmM2ekhYeUNNc0JmZFpxcGh3VkpEbTB2NXJJOXJMeHhZSG1NOXZ1ZnljMWx3VkhWT0NoV21fa3BOb3MxVTdmSmJwdWF4ZjVfZVhDdmZCRHVaN0FrNEw0TFpMNkpVOGN2djRuSkFRdjhGQXR3NkZYQ3ZrYjBsUnAzdlhLY0h5TktSZzg?oc=5\" target=\"_blank\">Artificial Intelligence: Patient education, or misinformation?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ophthalmology Times Europe</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-09T17:06:59+00:00",
+    "crawled": "2026-07-09T18:08:59.837869+00:00",
+    "summarized": true,
+    "ai_summary": "• 一項研究探討人工智能在眼科病人教育中的應用及其可能的誤導性資訊問題  \n• 研究指出，部分病人可能因為不正確的AI資訊而產生誤解  \n• 專家呼籲醫療專業人士應加強對病人的教育，確保資訊的準確性  \n• 會議於2023年10月在歐洲舉行，聚焦於AI技術在醫療領域的影響及挑戰",
+    "summaries": {
+      "zh-HK": "• 一項研究探討人工智能在眼科病人教育中的應用及其可能的誤導性資訊問題  \n• 研究指出，部分病人可能因為不正確的AI資訊而產生誤解  \n• 專家呼籲醫療專業人士應加強對病人的教育，確保資訊的準確性  \n• 會議於2023年10月在歐洲舉行，聚焦於AI技術在醫療領域的影響及挑戰"
     }
   }
 ]
