@@ -2517,6 +2517,14 @@ const GEO_KEYWORDS = [
       const dotHits = raycaster.intersectObjects(window._historyDots);
       if (dotHits.length) {
         const dot = dotHits[0].object;
+        // Occlusion check: skip dots BEHIND the globe
+        const globeCenter = new THREE.Vector3(0, -0.8, 0);
+        const dotPos = new THREE.Vector3();
+        dotPos.copy(dot.position);
+        globe.localToWorld(dotPos);
+        const toDot = dotPos.sub(globeCenter).normalize();
+        const toCam = new THREE.Vector3().copy(camera.position).sub(globeCenter).normalize();
+        if (toDot.dot(toCam) < 0.5) return; // Dot is on back face, skip
         if (dot !== hoveredHistoryDot) {
           hoveredHistoryDot = dot;
           const ev = dot.userData._event;
