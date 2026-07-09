@@ -12835,8 +12835,11 @@
     "topic": "Bitcoin",
     "published": "2026-07-09T13:30:00+00:00",
     "crawled": "2026-07-09T15:20:00.988414+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• StarkWare聯合創辦人Eli Ben-Sasson表示，為了解決比特幣的量子安全問題，可以選擇增加區塊大小或使用STARK證明來聚合簽名。  \n• Ben-Sasson的項目Starknet上週宣布了一個三階段計劃，旨在實現量子安全。  \n• 目前國家標準與技術研究所（NIST）批准的量子簽名方案比比特幣現有的ECDSA和Schnorr簽名大10到100倍，可能會導致交易速度減慢。  \n• 對於增加比特幣區塊大小的提議，社區在2017年曾出現分歧，批評者認為這會增加每個節點的數據存儲和驗證成本，可能導致網絡集中化。",
+    "summaries": {
+      "zh-HK": "• StarkWare聯合創辦人Eli Ben-Sasson表示，為了解決比特幣的量子安全問題，可以選擇增加區塊大小或使用STARK證明來聚合簽名。  \n• Ben-Sasson的項目Starknet上週宣布了一個三階段計劃，旨在實現量子安全。  \n• 目前國家標準與技術研究所（NIST）批准的量子簽名方案比比特幣現有的ECDSA和Schnorr簽名大10到100倍，可能會導致交易速度減慢。  \n• 對於增加比特幣區塊大小的提議，社區在2017年曾出現分歧，批評者認為這會增加每個節點的數據存儲和驗證成本，可能導致網絡集中化。"
+    }
   },
   {
     "url": "https://cointelegraph.com/news/hong-kong-regulator-anti-phishing-measures-crypto-platforms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -12976,8 +12979,11 @@
     "topic": "DeFi",
     "published": "2026-07-09T13:42:54+00:00",
     "crawled": "2026-07-09T15:20:03.105286+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Gauntlet公司在系列C融資中籌集了1.25億美元，唯一投資者為日本的SBI Holdings。  \n• Gauntlet計劃擴展穩定幣的覆蓋範圍，包括墨西哥比索、日本日圓及其他法幣支持的穩定幣。  \n• 公司目前管理超過15億美元的資產，並與150多家金融科技公司及機構合作。  \n• SBI Holdings表示，該投資是其將傳統金融服務與數字資產基礎設施相結合的策略的一部分。",
+    "summaries": {
+      "zh-HK": "• Gauntlet公司在系列C融資中籌集了1.25億美元，唯一投資者為日本的SBI Holdings。  \n• Gauntlet計劃擴展穩定幣的覆蓋範圍，包括墨西哥比索、日本日圓及其他法幣支持的穩定幣。  \n• 公司目前管理超過15億美元的資產，並與150多家金融科技公司及機構合作。  \n• SBI Holdings表示，該投資是其將傳統金融服務與數字資產基礎設施相結合的策略的一部分。"
+    }
   },
   {
     "url": "https://www.theblock.co/post/407713/bottom-building-in-progress-analysts-say-bitcoin-holder-capitulation-signals-late-stage-bear-market?utm_source=rss&utm_medium=rss",
@@ -12990,8 +12996,11 @@
     "topic": "Bitcoin",
     "published": "2026-07-09T13:33:53+00:00",
     "crawled": "2026-07-09T15:20:03.197859+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 根據Glassnode的報告，比特幣在過去五個月內一直低於其真實市場均值和短期持有者成本基準，長期持有者的虧損實現達到每日2.8億美元，為2022年12月以來的最高水平。  \n• 比特幣在上周的交易中在約58,300美元至64,400美元之間波動，仍低於真實市場均值76,600美元和短期持有者成本基準72,200美元。  \n• 長期持有者的拋售被認為是當前價格下跌的主要原因，這些投資者在熊市中逐漸退出。  \n• 30天平均的比特幣ETF淨流出在5月中旬轉為負值，並在6月初達到每日負1.93億美元的峰值，隨後減少至每日約負8900萬美元。",
+    "summaries": {
+      "zh-HK": "• 根據Glassnode的報告，比特幣在過去五個月內一直低於其真實市場均值和短期持有者成本基準，長期持有者的虧損實現達到每日2.8億美元，為2022年12月以來的最高水平。  \n• 比特幣在上周的交易中在約58,300美元至64,400美元之間波動，仍低於真實市場均值76,600美元和短期持有者成本基準72,200美元。  \n• 長期持有者的拋售被認為是當前價格下跌的主要原因，這些投資者在熊市中逐漸退出。  \n• 30天平均的比特幣ETF淨流出在5月中旬轉為負值，並在6月初達到每日負1.93億美元的峰值，隨後減少至每日約負8900萬美元。"
+    }
   },
   {
     "url": "https://www.theblock.co/post/407707/crypto-hack-losses-fall-below-1-billion-in-h1-2026-even-as-attack-volume-hits-record-immunefi?utm_source=rss&utm_medium=rss",
@@ -13371,8 +13380,11 @@
     "topic": "World",
     "published": "2026-07-09T14:01:00+00:00",
     "crawled": "2026-07-09T15:20:11.319770+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 百事可樂於週四公佈第二季度財報，淨收入達29.8億美元，每股收益2.18美元，同比增長。\n• 總收入為241.8億美元，較預期的239.5億美元高，但每股調整收益2.20美元低於預期的2.21美元。\n• 受美國消費者預算緊縮影響，北美食品及飲料業務表現疲弱，飲料業務銷量下降4%。\n• 百事可樂預計北美市場的銷量將逐漸回升，但需時改善。",
+    "summaries": {
+      "zh-HK": "• 百事可樂於週四公佈第二季度財報，淨收入達29.8億美元，每股收益2.18美元，同比增長。\n• 總收入為241.8億美元，較預期的239.5億美元高，但每股調整收益2.20美元低於預期的2.21美元。\n• 受美國消費者預算緊縮影響，北美食品及飲料業務表現疲弱，飲料業務銷量下降4%。\n• 百事可樂預計北美市場的銷量將逐漸回升，但需時改善。"
+    }
   },
   {
     "url": "https://www.ft.com/content/28095772-f994-45a9-991f-2cd5f509bddb",
@@ -13574,8 +13586,11 @@
     "topic": "Tech",
     "published": "2026-07-09T13:31:00+00:00",
     "crawled": "2026-07-09T15:20:17.209303+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Waymo在加州的無人駕駛計程車服務因州政府監管機構的延遲決定而受到影響，無法擴展至北加州和南加州部分地區。  \n• Waymo的新車型Ojai於上月開始接載乘客，但目前仍未獲准向加州乘客收費，可能會繼續免費服務至九月底或更久。  \n• 加州要求無人駕駛車輛必須獲得州車輛管理局和公共事業委員會的批准，才能上路並提供收費服務。  \n• Waymo於一月向加州公共事業委員會申請擴展服務區域，包括北加州的海牧場和薩克拉門托，及南加州的洛杉磯及邊境地區。",
+    "summaries": {
+      "zh-HK": "• Waymo在加州的無人駕駛計程車服務因州政府監管機構的延遲決定而受到影響，無法擴展至北加州和南加州部分地區。  \n• Waymo的新車型Ojai於上月開始接載乘客，但目前仍未獲准向加州乘客收費，可能會繼續免費服務至九月底或更久。  \n• 加州要求無人駕駛車輛必須獲得州車輛管理局和公共事業委員會的批准，才能上路並提供收費服務。  \n• Waymo於一月向加州公共事業委員會申請擴展服務區域，包括北加州的海牧場和薩克拉門托，及南加州的洛杉磯及邊境地區。"
+    }
   },
   {
     "url": "https://arstechnica.com/space/2026/07/the-newest-entrant-in-the-militarys-launch-competition-isnt-actually-a-launch-company/",
@@ -13633,8 +13648,11 @@
     "topic": "Tech",
     "published": "2026-07-09T13:31:13+00:00",
     "crawled": "2026-07-09T15:20:18.427527+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Slate Auto與Crayola合作推出五款顏色的車輛包裝，標誌著Crayola首次進軍汽車行業  \n• 基本款Slate電動卡車起價為24,950美元，是美國市場上最便宜的新卡車  \n• Crayola包裝的起始價格為1,550美元，顯著高於標準Slate包裝的500美元  \n• 預計Slate電動卡車的交付將於2026年第四季度開始，並將持續到2027年",
+    "summaries": {
+      "zh-HK": "• Slate Auto與Crayola合作推出五款顏色的車輛包裝，標誌著Crayola首次進軍汽車行業  \n• 基本款Slate電動卡車起價為24,950美元，是美國市場上最便宜的新卡車  \n• Crayola包裝的起始價格為1,550美元，顯著高於標準Slate包裝的500美元  \n• 預計Slate電動卡車的交付將於2026年第四季度開始，並將持續到2027年"
+    }
   },
   {
     "url": "https://www.wired.com/wiredworldfair/",
@@ -13807,8 +13825,11 @@
     "topic": "AI",
     "published": "2026-07-09T13:43:12+00:00",
     "crawled": "2026-07-09T15:20:25.319451+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• AI 模型開發商 Anthropic 的二級市場估值已達 1.2 兆美元，年增 550%，超越 OpenAI 的 9,080 億美元。  \n• 市場上出現「賣房換股」的極端現象，並衍生出大量 SPV 灰色交易，Anthropic 官方已發出警告。  \n• Anthropic 預計在未來數月內進行 IPO，並已提交 S-1 文件，營收數字超出全年計劃。  \n• OpenAI 最近推出 GPT-5.6 系列模型，二級市場需求回升，顯示出激烈的市場競爭。",
+    "summaries": {
+      "zh-HK": "• AI 模型開發商 Anthropic 的二級市場估值已達 1.2 兆美元，年增 550%，超越 OpenAI 的 9,080 億美元。  \n• 市場上出現「賣房換股」的極端現象，並衍生出大量 SPV 灰色交易，Anthropic 官方已發出警告。  \n• Anthropic 預計在未來數月內進行 IPO，並已提交 S-1 文件，營收數字超出全年計劃。  \n• OpenAI 最近推出 GPT-5.6 系列模型，二級市場需求回升，顯示出激烈的市場競爭。"
+    }
   },
   {
     "url": "https://www.blocktempo.com/swift-launches-blockchain-ledger-17-banks-tokenized-deposits/",
@@ -13821,8 +13842,11 @@
     "topic": "Crypto",
     "published": "2026-07-09T13:33:50+00:00",
     "crawled": "2026-07-09T15:20:25.378075+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Swift 宣布其基於區塊鏈的共享帳本已準備好投入使用，並將進行跨境支付的真實交易試點。  \n• 17 家全球頂級跨國銀行，包括花旗、匯豐、渣打及瑞銀等，將參與此次試點，實現 24/7 全天候的無縫跨境支付。  \n• 該技術將打破傳統金融在週末與夜間的結算限制，提升全球企業的流動性效率。  \n• Swift 目標未來支援「可程式化貨幣」及「代理商務」等 Web3 創新應用，進一步推動全球支付現代化。",
+    "summaries": {
+      "zh-HK": "• Swift 宣布其基於區塊鏈的共享帳本已準備好投入使用，並將進行跨境支付的真實交易試點。  \n• 17 家全球頂級跨國銀行，包括花旗、匯豐、渣打及瑞銀等，將參與此次試點，實現 24/7 全天候的無縫跨境支付。  \n• 該技術將打破傳統金融在週末與夜間的結算限制，提升全球企業的流動性效率。  \n• Swift 目標未來支援「可程式化貨幣」及「代理商務」等 Web3 創新應用，進一步推動全球支付現代化。"
+    }
   },
   {
     "url": "https://www.blocktempo.com/grayscale-report-tokenized-equities-evolution-ethereum-solana/",
@@ -14119,8 +14143,11 @@
     "topic": "General",
     "published": "2026-07-09T13:42:27+00:00",
     "crawled": "2026-07-09T15:20:32.106885+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 伊朗最高領袖哈梅內伊於其故鄉馬什哈德舉行葬禮，數千人聚集參加，並呼籲報復。  \n• 哈梅內伊於2月底在美國與以色列對伊朗的戰爭首日遭到空襲身亡，結束其超過三十年的統治。  \n• 馬什哈德省長表示預計將有1500萬人參加葬禮，並在35度高溫下使用噴水器為哀悼者降溫。  \n• 哈梅內伊的葬禮原定於當地時間星期四早上6時開始，後來因伊拉克的儀式延誤，改為下午2時開始，並將於當晚在伊瑪目賈法聖殿安葬。",
+    "summaries": {
+      "zh-HK": "• 伊朗最高領袖哈梅內伊於其故鄉馬什哈德舉行葬禮，數千人聚集參加，並呼籲報復。  \n• 哈梅內伊於2月底在美國與以色列對伊朗的戰爭首日遭到空襲身亡，結束其超過三十年的統治。  \n• 馬什哈德省長表示預計將有1500萬人參加葬禮，並在35度高溫下使用噴水器為哀悼者降溫。  \n• 哈梅內伊的葬禮原定於當地時間星期四早上6時開始，後來因伊拉克的儀式延誤，改為下午2時開始，並將於當晚在伊瑪目賈法聖殿安葬。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/sports/2026/7/9/fifa-world-cup-which-quarterfinal-team-has-best-chance-to-win-the-trophy?traffic_source=rss",
@@ -14133,8 +14160,11 @@
     "topic": "World",
     "published": "2026-07-09T13:21:13+00:00",
     "crawled": "2026-07-09T15:20:32.139859+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 2026年國際足總世界杯進入八強階段，將於美國舉行，總共進行了96場比賽，剩餘8場比賽待決定冠軍。  \n• 八支球隊中，有四支為首次進入八強，其他四支則希望在足球歷史上寫下新篇章。  \n• 瑞士隊在72年來首次進入八強，預計面對阿根廷的比賽難度較大，且可能失去20歲的球員Johan Manzambi。  \n• 摩洛哥隊在小組賽中表現不錯，但在淘汰賽中需依賴點球晉級，並在16強賽中以3-0戰勝加拿大。",
+    "summaries": {
+      "zh-HK": "• 2026年國際足總世界杯進入八強階段，將於美國舉行，總共進行了96場比賽，剩餘8場比賽待決定冠軍。  \n• 八支球隊中，有四支為首次進入八強，其他四支則希望在足球歷史上寫下新篇章。  \n• 瑞士隊在72年來首次進入八強，預計面對阿根廷的比賽難度較大，且可能失去20歲的球員Johan Manzambi。  \n• 摩洛哥隊在小組賽中表現不錯，但在淘汰賽中需依賴點球晉級，並在16強賽中以3-0戰勝加拿大。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/9/graham-platner-drops-maine-senate-bid-what-that-means-for-democrats?traffic_source=rss",
@@ -14248,8 +14278,11 @@
     "topic": "Sports",
     "published": "2026-07-09T13:34:34+00:00",
     "crawled": "2026-07-09T15:20:33.461025+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 賓夕法尼亞州檢察總長辦公室指控巴克內爾大學前體能教練馬克·庫爾比斯，涉及大一美式足球運動員卡爾文·迪基的死亡案件。\n• 迪基於2024年7月在訓練中因進行高強度運動而昏倒，隨後被送醫，兩天後去世，死因與其有鐮刀型細胞特徵及過度運動相關的肌肉崩解症有關。\n• 庫爾比斯被控以重罪加重欺凌及輕罪過失殺人、魯莽危險和欺凌，保釋金設定為10,000美元。\n• 巴克內爾大學表示已全力配合調查，但因案件仍在進行中，將不對指控或法律程序發表評論。",
+    "summaries": {
+      "zh-HK": "• 賓夕法尼亞州檢察總長辦公室指控巴克內爾大學前體能教練馬克·庫爾比斯，涉及大一美式足球運動員卡爾文·迪基的死亡案件。\n• 迪基於2024年7月在訓練中因進行高強度運動而昏倒，隨後被送醫，兩天後去世，死因與其有鐮刀型細胞特徵及過度運動相關的肌肉崩解症有關。\n• 庫爾比斯被控以重罪加重欺凌及輕罪過失殺人、魯莽危險和欺凌，保釋金設定為10,000美元。\n• 巴克內爾大學表示已全力配合調查，但因案件仍在進行中，將不對指控或法律程序發表評論。"
+    }
   },
   {
     "url": "https://www.npr.org/2026/07/09/g-s1-132694/up-first-newsletter-graham-platner-trump-iran-israel-nolan-wells",
@@ -14496,8 +14529,11 @@
     "topic": "World",
     "published": "2026-07-09T13:29:58+00:00",
     "crawled": "2026-07-09T15:20:37.829148+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 此文章內容不足，無法生成摘要",
+    "summaries": {
+      "zh-HK": "• 此文章內容不足，無法生成摘要"
+    }
   },
   {
     "url": "https://time.com/article/2026/07/09/americas-best-companies-2026-methodology/",
@@ -14637,8 +14673,11 @@
     "topic": "Trading",
     "published": "2026-07-09T13:22:58+00:00",
     "crawled": "2026-07-09T15:20:50.187825+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 芝加哥商品交易所（CME）推出新產品，旨在簡化有爭議的國債交易 \n• 此產品的推出是為了應對市場對國債交易的需求和複雜性 \n• CME希望通過這一新產品吸引更多投資者參與國債市場 \n• 新產品的具體細節和功能尚未公開，將在未來進一步披露",
+    "summaries": {
+      "zh-HK": "• 芝加哥商品交易所（CME）推出新產品，旨在簡化有爭議的國債交易 \n• 此產品的推出是為了應對市場對國債交易的需求和複雜性 \n• CME希望通過這一新產品吸引更多投資者參與國債市場 \n• 新產品的具體細節和功能尚未公開，將在未來進一步披露"
+    }
   },
   {
     "url": "https://www.ft.com/content/1a4765e3-07c3-4633-bd9f-e01c31474d7b",
@@ -14733,8 +14772,11 @@
     "topic": "Regulation",
     "published": "2026-07-09T14:01:00+00:00",
     "crawled": "2026-07-09T15:20:52.097298+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 一名學生貸款服務商在借款人未支付款項後，致電其朋友以尋找借款人。\n• 借款人表示，服務商已經留下第二條信息。\n• 借款人對服務商如何獲得其朋友的電話號碼表示不解。\n• 法律專家指出，根據美國法律，貸款服務商在某些情況下可以聯絡借款人的聯絡人。",
+    "summaries": {
+      "zh-HK": "• 一名學生貸款服務商在借款人未支付款項後，致電其朋友以尋找借款人。\n• 借款人表示，服務商已經留下第二條信息。\n• 借款人對服務商如何獲得其朋友的電話號碼表示不解。\n• 法律專家指出，根據美國法律，貸款服務商在某些情況下可以聯絡借款人的聯絡人。"
+    }
   },
   {
     "url": "https://www.marketwatch.com/story/the-u-s-and-china-are-todays-leaders-in-ai-these-countries-could-be-the-next-stage-champions-3297348c?mod=mw_rss_topstories",
@@ -14863,8 +14905,11 @@
     "topic": "AI",
     "published": "2026-07-09T13:30:00+00:00",
     "crawled": "2026-07-09T15:20:59.362922+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Anthropic於星期四推出Claude聊天機器人的“反思儀表板”功能，允許用戶查看過去一個月、三個月、六個月或一年的使用數據分析。  \n• 反思儀表板提供用戶與Claude的主要主題、任務類型及使用模式的總結，包括高峰使用時間。  \n• 用戶可以設置“靜默時間”或在特定時間後的休息提醒，並將來會有總使用時間的分析功能推出。  \n• 該功能目前在Claude的免費用戶及Pro和Max訂閱者中以測試模式提供，需開啟聊天記憶功能才能使用。",
+    "summaries": {
+      "zh-HK": "• Anthropic於星期四推出Claude聊天機器人的“反思儀表板”功能，允許用戶查看過去一個月、三個月、六個月或一年的使用數據分析。  \n• 反思儀表板提供用戶與Claude的主要主題、任務類型及使用模式的總結，包括高峰使用時間。  \n• 用戶可以設置“靜默時間”或在特定時間後的休息提醒，並將來會有總使用時間的分析功能推出。  \n• 該功能目前在Claude的免費用戶及Pro和Max訂閱者中以測試模式提供，需開啟聊天記憶功能才能使用。"
+    }
   },
   {
     "url": "https://www.theverge.com/entertainment/962897/character-ai-series-microdrama-vertical-video",
@@ -14919,8 +14964,11 @@
     "topic": "General",
     "published": "2026-07-09T13:31:37+00:00",
     "crawled": "2026-07-09T15:21:02.769530+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 伊朗於近日向約旦的阿茲拉克軍事基地發射了十枚彈道導彈  \n• 此次襲擊的具體時間尚未公開  \n• 約旦官方尚未對襲擊事件發表具體回應  \n• 襲擊的原因及背景仍不明確，相關調查正在進行中",
+    "summaries": {
+      "zh-HK": "• 伊朗於近日向約旦的阿茲拉克軍事基地發射了十枚彈道導彈  \n• 此次襲擊的具體時間尚未公開  \n• 約旦官方尚未對襲擊事件發表具體回應  \n• 襲擊的原因及背景仍不明確，相關調查正在進行中"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYWUtOFlPYmpMTHRWUjQ5ZTNjOFRaaVNCV0Z1aWZJY2E1UkcxV0t5M1dUYjExWWljV0lEbTd2ZE9semxVZjZQXzlYQnlQWjY0dWx0YUMyTXUtWnJsa3hYUlJGY3MxSWpuQmRUNmJxU19YZU41S0l5WDBLWlY1aTZHQVROdzNIcE1GYjlfTXJka3NNbGNTV2hvRFlxRllZd1AzOHlYRVJwSUtFUURha0NtbWdtWXBxb0MwaEEwNkFpaW9sQzlfajAwSQ?oc=5",
@@ -14947,8 +14995,11 @@
     "topic": "General",
     "published": "2026-07-09T13:30:16+00:00",
     "crawled": "2026-07-09T15:21:03.461902+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 土耳其總統埃爾多安在北約峰會後向北約領導人提出了一個關於手槍的難題  \n• 此次峰會於2023年在立陶宛的維爾紐斯舉行  \n• 埃爾多安的提問引發了與會者的討論和反思  \n• 此事件凸顯了土耳其在北約中的重要性及其與其他成員國的關係動態",
+    "summaries": {
+      "zh-HK": "• 土耳其總統埃爾多安在北約峰會後向北約領導人提出了一個關於手槍的難題  \n• 此次峰會於2023年在立陶宛的維爾紐斯舉行  \n• 埃爾多安的提問引發了與會者的討論和反思  \n• 此事件凸顯了土耳其在北約中的重要性及其與其他成員國的關係動態"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQmJUcmlIQzJ4M0Vmd1QxQno5ajZPWnFqRHMtQkNMSzVRMHlnOXBqZDN4cjVuRU1XR3IyajdHekZJRkNpeXA2UjRBaXdiaDlnbkxVa1VXb1hwY3BDMUE1am9uX0o3OUxYTWVkeUMyemFUQ0JkMlVpX1RWSTBLVzI3bC1uaTVGelVXd1pSdEY4RHpreUQySmhOUjZMemVGQ3k4YTREY3VxN3k5alhELVdJa1hGeGYxbUltMV9mVUtHZWM4SmQ1eGNqRkk0RUk?oc=5",
@@ -14989,8 +15040,11 @@
     "topic": "General",
     "published": "2026-07-09T13:41:53+00:00",
     "crawled": "2026-07-09T15:21:04.497391+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 前美國奧運選手在反射池破壞案件中不認罪  \n• 事件發生在華盛頓特區的林肯紀念堂附近  \n• 被控罪名包括破壞財產和擾亂公共秩序  \n• 此案將於未來幾個月進一步審理",
+    "summaries": {
+      "zh-HK": "• 前美國奧運選手在反射池破壞案件中不認罪  \n• 事件發生在華盛頓特區的林肯紀念堂附近  \n• 被控罪名包括破壞財產和擾亂公共秩序  \n• 此案將於未來幾個月進一步審理"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbHo0ZmxMbjdTdDF5bUQwSjR5MXZDdW40V19MZEF1Wk9KakU5dy1UVXlWdFVkWDVRVTNYcmpodmt6LWNFUFFpeFFfV3J1cS0tenpxLV80WXBEc2JJazR6Y21oSTZRRUpPeFZQdkhtRExqcXo0YW9nSWRjTGtnRDA4dHZGSGZfcmRjUUVXSnJacE5Ba1NHNTdvWDh2X2FvcWxjYldwcHg4TkNIMFBwemFGMjdRT21jUDlyQlRtb1F4OEZ2aTdUWjlXcGlRc1lVUQ?oc=5",
@@ -15090,8 +15144,11 @@
     "topic": "Finance",
     "published": "2026-07-09T13:39:44+00:00",
     "crawled": "2026-07-09T15:21:06.928041+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 標準普爾500指數和納斯達克指數開盤上漲，主要受到晶片股上升的推動  \n• 美國與伊朗之間的緊張局勢成為市場關注的焦點  \n• 投資者對科技股的需求回暖，促使市場表現向好  \n• 分析師指出，市場情緒受到地緣政治影響，需密切關注後續發展",
+    "summaries": {
+      "zh-HK": "• 標準普爾500指數和納斯達克指數開盤上漲，主要受到晶片股上升的推動  \n• 美國與伊朗之間的緊張局勢成為市場關注的焦點  \n• 投資者對科技股的需求回暖，促使市場表現向好  \n• 分析師指出，市場情緒受到地緣政治影響，需密切關注後續發展"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTllzSTJITGFzb0xiZWJYOFZhR1gydnktNG81STlqTWxSbFUyYTgwYXl1WDd4YlNOSFFUOWNyVXlwQjlLeTVOeVFhaENjUFh3UGxnN0xfXzZkVU9qcXh1VkY3ZTZZdXBSekxldHNCTHBWbGZ6RWhTdjZzQjZIV0w5bDRxZGRRQ25jX2RER2ItZ2ZOY04xV1hnZjJKSVRHSm9US0hjZGZYY3haWWZNVUplbzF6aUFOeWE1dXF5QzJ3dWdXRS1PbDJR?oc=5",
@@ -15233,8 +15290,11 @@
     "topic": "AI",
     "published": "2026-07-09T13:43:00+00:00",
     "crawled": "2026-07-09T15:21:12.289002+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 一篇報導指出，某人工智能公司股票被投資者低估，價格極具吸引力  \n• 報導建議投資者在該股票可能加入2萬億美元市值俱樂部之前進行購買  \n• 文章未具體提及該公司的名稱或相關財務數據  \n• 報導發表於Yahoo Finance，旨在引起投資者對該股票的關注",
+    "summaries": {
+      "zh-HK": "• 一篇報導指出，某人工智能公司股票被投資者低估，價格極具吸引力  \n• 報導建議投資者在該股票可能加入2萬億美元市值俱樂部之前進行購買  \n• 文章未具體提及該公司的名稱或相關財務數據  \n• 報導發表於Yahoo Finance，旨在引起投資者對該股票的關注"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLW40R0Vic01SdnN0WVBwcV9xUGU5NDkyVUhmVFEtV05xRllhZUdIZEhUSWEwOEt6OUdFZnVheG8wMFh1eGo2QmxDLW5ZNmN5RHNPcm44VTJtZ1EzdzRVXy0yNFJaVWx2VnNMNUtTa2d4cHRHOHVfbkhBZzUxMUxERXNaS1BPVXFtQThJOHdqVzJoaVdIOUVhWEQzSFg3TUhxUUxvQVdxaWNxY195MHRMZ3MybFAyYzFLVXkw?oc=5",
@@ -15247,8 +15307,11 @@
     "topic": "Ai",
     "published": "2026-07-09T13:37:21+00:00",
     "crawled": "2026-07-09T15:21:12.622007+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 聯合國數字技術機構推出新倡議，旨在提高對人工智能代理的信任度  \n• 此倡議旨在促進透明度和負責任的AI使用  \n• 聯合國希望透過此舉來解決公眾對AI技術的疑慮  \n• 此計劃的具體細節和實施時間尚未公布",
+    "summaries": {
+      "zh-HK": "• 聯合國數字技術機構推出新倡議，旨在提高對人工智能代理的信任度  \n• 此倡議旨在促進透明度和負責任的AI使用  \n• 聯合國希望透過此舉來解決公眾對AI技術的疑慮  \n• 此計劃的具體細節和實施時間尚未公布"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNU2hBZWNsSHZwVkZrTG5RaC1KMWtDNUVpbE9uYU93T25KLWYyT2FaUXZ6XzVsMi16aUhpdFY2ME5nZG9FTDFqWlhVZ1Z2UFNDLUdjamtTQ25Fdk5lakNuU0dGSHl4WUtjNzVWTlNXSGdPZm5MUlhraURZTkFQMDJRSGlPcTd3VGtWdmVTZmI4TGJBOHN6MjhiTkQxYlhWRnFtNEtZT0pJX0pBZlBqdnIwT1htVUNrVnA5QlFBLTc1akNDc0lEdzhibTctbTBSUGlRVm94SWxzeVZrQVZJUlJ1TXBRRDk4TmpoR2E4aHpJR2hpWl9abnRkaGVHWWplRmd5c1lBa1FlNFAtVS1HcDUzbEZxMkF6UQ?oc=5",
@@ -15261,8 +15324,11 @@
     "topic": "AI",
     "published": "2026-07-09T13:37:11+00:00",
     "crawled": "2026-07-09T15:21:13.005715+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 文章探討在法醫調查中整合生物痕跡分析與人工智能的應用  \n• 生物痕跡分析可提高證據的準確性和可靠性  \n• 人工智能技術能夠加速數據處理和分析過程  \n• 研究強調這種整合有助於提升法醫科學的整體效率和效果",
+    "summaries": {
+      "zh-HK": "• 文章探討在法醫調查中整合生物痕跡分析與人工智能的應用  \n• 生物痕跡分析可提高證據的準確性和可靠性  \n• 人工智能技術能夠加速數據處理和分析過程  \n• 研究強調這種整合有助於提升法醫科學的整體效率和效果"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNaWdGclF6cjUtS0EtN2Npa01yRERjQ0tzeEZ1Mkd5RDN6aWlxcTY1VEZQcWhCTXhVTmdaVGRRZDQtb0F6a3JQZGNxOUNGVGpreV9zNmJWVnJ3WlNrTlRvVEkxMVdNSjFmUmhoOTRlLU5qdGhUMmdiWWxWNkUwQkJRR3o4MW1qVVJwWFNTMWM4TVFmNDNhZThvbjhMYXRNY0NFRW1Yb0NOckhvUDR5dTRoMWRxWE1HMXdzVGNld21TeWhEUmtockRQeW1vellDR3hrM1gtMnBwU2VOa1ZTMEdZTENoZWRMMFlOQmVTS256TzVETjJW?oc=5",
@@ -15371,8 +15437,11 @@
     "topic": "Ai",
     "published": "2026-07-09T13:40:38+00:00",
     "crawled": "2026-07-09T15:21:15.751940+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 意大利數據保護監管機構對Character.AI的擁有者處以罰款，原因是未能有效執行年齡檢查措施  \n• 罰款金額為60萬歐元，因為該公司未能阻止未成年人使用其平台  \n• 監管機構表示，這一措施是為了保護年輕用戶的安全和隱私  \n• Character.AI已表示將加強其年齡驗證程序以遵守相關法規",
+    "summaries": {
+      "zh-HK": "• 意大利數據保護監管機構對Character.AI的擁有者處以罰款，原因是未能有效執行年齡檢查措施  \n• 罰款金額為60萬歐元，因為該公司未能阻止未成年人使用其平台  \n• 監管機構表示，這一措施是為了保護年輕用戶的安全和隱私  \n• Character.AI已表示將加強其年齡驗證程序以遵守相關法規"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOGdZMk9HSE5RUldXMW9MMTZBNXlEZ1BjSVViVTJaOVA2QW1KMmE4VTNCZ24wLTF2eUxRZU5CR24xLWdpd3FZUmx3OGgzN2tmRG1vN3JyTUpRY0pLVU05TllkdlRpbTZrS3ZxRVpaZURqN1RQVF9rQ0ltb0NBaXUxcDVScXQ1NXJ0dWVqdGgtVC12eW8?oc=5",
@@ -15385,8 +15454,11 @@
     "topic": "Ai",
     "published": "2026-07-09T13:30:00+00:00",
     "crawled": "2026-07-09T15:21:16.092439+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 四個美國州份要求學區制定人工智能政策，這些州份包括阿肯色州、佛羅里達州、印第安納州和南卡羅來納州。  \n• 新政策旨在確保人工智能技術在教育中的安全和有效使用。  \n• 各州的教育部門將提供指導，協助學區制定相關政策。  \n• 此舉反映出對人工智能在K-12教育系統中影響的日益重視。",
+    "summaries": {
+      "zh-HK": "• 四個美國州份要求學區制定人工智能政策，這些州份包括阿肯色州、佛羅里達州、印第安納州和南卡羅來納州。  \n• 新政策旨在確保人工智能技術在教育中的安全和有效使用。  \n• 各州的教育部門將提供指導，協助學區制定相關政策。  \n• 此舉反映出對人工智能在K-12教育系統中影響的日益重視。"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbFk0aEtDdW9JY1ZNMV9ZVktsRHU2N0lyOEEtMXhma0hCd2xsUVpTQjh3VlJVd3llVlppajhhLXRqaGdQRGpLai1Fa2UwTlJmcjJpUDNYN2hGTWhhYWI5b3lkQmtnNzdMR1hBZWtNbHpmX3g1TDV5UDdwR3piTl9SdkUzbnk1eUp0SE5GelBiWFZCLVdxV2JVcA?oc=5",
@@ -15560,8 +15632,11 @@
     "topic": "AI",
     "published": "2026-07-09T13:36:06+00:00",
     "crawled": "2026-07-09T15:37:44.323275+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 伊利諾伊州州長普利茨克簽署全國首部人工智能安全法案  \n• 此法案旨在加強人工智能技術的安全性和透明度  \n• 法案要求企業在開發和使用人工智能系統時遵循特定的安全標準  \n• 此舉被視為推動人工智能負責任發展的重要步驟",
+    "summaries": {
+      "zh-HK": "• 伊利諾伊州州長普利茨克簽署全國首部人工智能安全法案  \n• 此法案旨在加強人工智能技術的安全性和透明度  \n• 法案要求企業在開發和使用人工智能系統時遵循特定的安全標準  \n• 此舉被視為推動人工智能負責任發展的重要步驟"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPekFFbFNKQjVfQ0FFelVmemMzSEktdEtWNDhILURkY3pWVDhMd2hnb0lNNnBnY0tWQnNLRDFadkFWUnpLYnl6UnlQSHFpRVN1UV8tMHVxbUxsSU11T05QSzF5LUNrOVJSYmZMYVhkV2lmSG1rZ0hKNzVrZGoxSlVCaktGclBmUlpzWmxhbkwyVThXUQ?oc=5",
@@ -15588,8 +15663,11 @@
     "topic": "AI",
     "published": "2026-07-09T13:39:48+00:00",
     "crawled": "2026-07-09T15:37:44.923294+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 《摩托財富》報導三隻人工智能（AI）股票，建議在市場拋售期間購買  \n• 這些股票被認為在長期內具潛力，並能抵抗市場波動  \n• 報導未具體提及這三隻股票的名稱或具體數據  \n• 分析指出，投資者應考慮這些股票的基本面和未來增長潛力",
+    "summaries": {
+      "zh-HK": "• 《摩托財富》報導三隻人工智能（AI）股票，建議在市場拋售期間購買  \n• 這些股票被認為在長期內具潛力，並能抵抗市場波動  \n• 報導未具體提及這三隻股票的名稱或具體數據  \n• 分析指出，投資者應考慮這些股票的基本面和未來增長潛力"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV3BETTlQd0hwbURjS3ZzSHM3VzNkejc3Qmoza3pWcjRfaFRlcWFGQnBFbWp2MXlTeXQ5bmc4bGl1U3g0b2dmZ2xtcEpMUVlYdUYycm1YaG1xYld0QWNXTXRpQzRQY0tTc181Y003dVRhSlBqMlgtb2hrekxxSFotdmRibVpZVDNfR3ZYdDlBNW9VeXBXZXowSE5lSEVPVXpsNTdlVTY1ZlBvNlZoTnBuaGMzMTNYcUtMdlotbGFNOG1kWm8?oc=5",
@@ -16601,5 +16679,101 @@
     "summaries": {
       "zh-HK": "• 一項敘述性回顧探討人工智能在腎腫塊的檢測、特徵化及管理中的應用  \n• 研究指出，人工智能技術可提升腎腫塊的診斷準確性及治療效率  \n• 文章分析了現有的人工智能工具及其在臨床實踐中的潛在影響  \n• 研究強調進一步的實證研究對於確定這些技術的有效性及安全性至關重要"
     }
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/",
+    "title": "Nvidia is a victim of the compute marketplace it created",
+    "summary": "Nvidia's stock price has fallen 15% since their peak in May, even as projected revenues continue to grow.",
+    "full_text": "Long the leading light of the industry, Nvidia has had a bad couple of months. Bloomberg has the ugly details, but the upshot is that the company’s stock price has fallen 15% since its peak in May, even as projected revenue continues to grow. Compared with expected earnings, the company is now cheaper than the S&P average; investors are paying less per dollar of Nvidia’s projected profit than they do for the typical large American company.\nMoney is still flooding into AI infrastructure stocks, but it’s mostly going into memory companies. Over the same period, Micron — one of the world’s largest makers of DRAM, the standard type of memory chip found in computers and servers — has nearly tripled in value, establishing memory as the new bottleneck for data centers and the hot new AI trade. The basic reason is simple: the GPU shortage that looked so alarming last year has eased off a bit. At the same time, data centers need all the memory money can buy.\nFor anyone who appreciates Nvidia’s technological accomplishments, this can feel a bit deflating. There’s a lot of genuinely impressive technology behind Nvidia’s rise, both in developing CUDA, its widely adopted programming platform that made Nvidia GPUs the default engine for AI research, and in pushing the pace of GPU development to a speed few thought possible. Nvidia’s success is the kind of thing you can write whole books about, and the GPUs themselves are among the most complex devices ever produced, right at the bleeding edge of human capability.\nFor memory companies like Micron, the story is much simpler. They build high-bandwidth memory chips — specialized components designed to move data in and out of processors as fast as possible — which have been getting incrementally better for 20 years. Without the chips or the companies changing too much, the service they provide suddenly became very valuable — and since demand is growing faster than anyone can scale up supply, they have been able to increase prices tenfold over the past year.\nThis, via Datatrack, is what the spot price for DRAM — the price buyers pay for chips on the open market, as opposed to long-term contract rates — looks like since 2023.\nYou might think there was some amazing technical breakthrough in the summer of 2025, but no, the industry as a whole just vastly underestimated how much memory it would need for the data center buildout.\nIn comparison, this (via the compute marketplace Ornn) is how the spot price for an hour of time on an Nvidia H100 GPU has changed over the last year.\nJust like Nvidia’s stock price, there’s a peak in May (around $3.20 an hour) and then a steady dropoff. For better or worse, Nvidia’s value as a company is tied to the price of compute and that price is falling. Micron and its cohort are tied to the price of DRAM, and that price keeps rising.\nWhen I talked to Ornn co-founder and CTO Wayne Nelms about the forces driving that disparity, he framed it as a simple issue of supply and demand. Google, Amazon, Microsoft, and even OpenAI have launched their own custom processors to lessen their dependence on Nvidia; even if those chips aren’t as good as the latest model from Nvidia, they’re good enough to drive down the price of compute.\n“More GPU and accelerator players are entering the market. Everyone wants to make their own silicon, but no one is making their own DRAM,” Nelms told me. “Until there’s a major technological breakthrough on HBM [high-bandwidth memory], a shift in supply and demand, or someone new [enters the market in memory], I think things will more or less persist as we see today.”\nIt’s a frustrating state of affairs for Nvidia, and largely a product of its own success. Having proven how valuable compute can be, the company finds itself at the center of a market everyone wants to be in — while simpler technologies and less interesting companies get rich on the sidelines.",
+    "source": "TechCrunch",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Trading",
+    "published": "2026-07-09T17:06:11+00:00",
+    "crawled": "2026-07-09T17:06:24.198654+00:00",
+    "summarized": true,
+    "ai_summary": "• Nvidia的股價自5月高峰以來下跌15%，儘管預計收入仍在增長\n• 與標準普爾500指數相比，Nvidia的預期收益使其股價變得更便宜\n• 記憶體公司如美光的市值在同一時期幾乎增長三倍，成為數據中心的新瓶頸\n• Nvidia的H100 GPU計算價格也出現下跌，顯示出計算需求的變化與記憶體價格上漲之間的差異",
+    "summaries": {
+      "zh-HK": "• Nvidia的股價自5月高峰以來下跌15%，儘管預計收入仍在增長\n• 與標準普爾500指數相比，Nvidia的預期收益使其股價變得更便宜\n• 記憶體公司如美光的市值在同一時期幾乎增長三倍，成為數據中心的新瓶頸\n• Nvidia的H100 GPU計算價格也出現下跌，顯示出計算需求的變化與記憶體價格上漲之間的差異"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cg74gvy8lgjo?at_medium=RSS&at_campaign=rss",
+    "title": "Love Island star Cach Mercer joins Strictly line-up",
+    "summary": "The Love Island winner also works as a model and DJ, and is an ambassador for a mental health charity.",
+    "full_text": "Love Island star Cach Mercer joins Strictly line-up\n- Published\nLove Island's 2025 champion Cach Mercer is the fifth celebrity confirmed for Strictly Come Dancing 2026.\nHe was part of the winning couple on the ITV dating show last year, and also works as a model and DJ, and is an ambassador for a young people's mental health charity.\n\"I have grown up watching the show with my family and am so excited to now be part of the cast,\" he said.\nMercer also showcases his Afrobeat, hip-hop and street dance moves on his social media accounts.\n\"Dancing is a huge passion of mine and I can't wait to learn ballroom and do the foxtrot for the first time!\" he added.\nChris Appleton\nCelebrity hair stylist Chris Appleton is also part of this year's line-up.\nAppleton, best known for his work with Kim Kardashian, joins singer-songwriter Delta Goodrem, EastEnders actress Lacey Turner and reality star Dani Dyer in the battle for the Glitterball trophy.\nThe Leicester-born Color Wow creative director said: \"I'm thrilled to be joining Strictly Come Dancing and coming home to the UK for this incredible experience.\"\nHe has also created red carpet looks for the likes of Jennifer Lopez, Katy Perry and Ariana Grande, while having his work showcased on the covers of publications including Vogue, Harper's Bazaar and Vanity Fair.\n\"I've always believed that the best things happen when you take a chance and try something new,\" added the 43-year-old, who this year released a memoir entitled Your Roots Don't Define You.\n\"I may know my way around a salon floor, but the dance floor is a whole different story - and I can't wait to get started.\"\nDelta Goodrem\nDelta Goodrem is also part of this year's celebrity list, with the Australian singer and actress becoming the third celebrity to be announced for the upcoming series.\n\"I've been incredibly honoured to perform on many different stages throughout my career - from TV, theatre, film sets, to touring my own shows around the world,\" Goodrem said.\n\"There is, however, one stage I've never stepped onto and that is the ballroom floor. I'm absolutely thrilled to be joining Strictly and can't wait to get started.\"\nShe rose to fame in hit Australian soap opera Neighbours and recently represented her nation in the 2026 edition of the Eurovision Song Contest.\nLacey Turner\nLacey Turner was the first contestant to be announced for this year's series, which is expected to begin in September.\nShe said she was \"so excited to being making my way to the dance floor\", adding that she was a \"huge fan\" of the show.\nTurner, 38, is best known for her role as Stacey Slater on the BBC One soap, which she joined in 2004.\nShe has won a British Soap Award and National Television Award for her role, and has also starred in TV dramas including the BBC's Our Girl.\nIn a video posted on Instagram, Turner said she was \"so excited and so terrified at the same time\" to be taking part in the show.\n\"But I've had so many friends do Strictly, and I thought it was about time that I pluck up the courage and made my way on to the dance floor.\"\nDani Dyer\nDani Dyer, the media personality and daughter of actor Danny Dyer appeared in the launch episode last year, but was then injured in training and pulled out before the competition began.\nThat incident has not put her off trying again. \"I am so excited to be back in the ballroom this September,\" she said.\n\"I just cannot wait to get my dancing shoes back on and hopefully this time around I can actually make it to week one! I'm just over the moon and cannot wait to find out who else is doing it.\"\nThe 29-year-old, who first found fame on Love Island in 2018, fractured her ankle when she \"landed funny\" in rehearsals with dance partner Nikita Kuzmin before the competitive episodes began last September.\nShe was replaced by actress Amber Davies, another former Love Island winner, who went on to reach the Strictly final.\nEarlier this year, Dyer was joint winner of Channel 4's Celebrity SAS: Who Dares Wins, and appeared with her dad in TV show The Dyers' Caravan Park.\n\"Welcome back @danidyerxx,\" posted head judge Shirley Ballas on Instagram.\nComedian Josh Widdicombe, part of the show's new hosting trio, wrote: \"YES DANI!!!!\"\nWiddicombe will present the new series alongside Emma Willis and Johannes Radebe, following the departures of Tess Daly and Claudia Winkleman.\nShirley Ballas 'wowed' by line-up\nThe first line-up announcements were made significantly earlier than usual - the BBC usually confirms the line-up in August.\nSpeaking to ITV's Good Morning Britain recently, Ballas said: \"There are going to be some people on there that will make you go 'wow'.\"\nAsked about the new presenting trio, Ballas said she was \"very excited to see what they bring\" to the show.\n\"I know they took lots of chemistry tests, as did everybody, and those chemistry tests have brought those three people together, and I believe it's absolutely unbelievable,\" she said.\nBallas described the number of new elements on this year's show as \"quite extraordinary\", but added that it will still feel familiar to viewers.\n\"I don't think they'll change the show too much, maybe tweaks here and there, but no major changes.\"\nBallas, Craig Revel Horwood, Motsi Mabuse and Anton Du Beke will all return as judges.\nHowever, professional dancers Gorka Marquez, Nadiya Bychkova, Luba Mushtuk, Karen Hauer and Michelle Tsiakkas will not be coming back this year.\nBut other regulars including Amy Dowden, Dianne Buswell, Katya Jones, Vito Coppola and Aljaz Skorjanec will be back on the dance floor.\nRelated topics\n- Published19 May\n \n- Published25 December 2025",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "Health",
+    "published": "2026-07-09T16:49:37+00:00",
+    "crawled": "2026-07-09T17:06:34.427937+00:00",
+    "summarized": true,
+    "ai_summary": "• 《Love Island》2025年冠軍Cach Mercer被確認參加2026年《Strictly Come Dancing》，成為第五位參賽明星。  \n• 美容師Chris Appleton和澳洲歌手Delta Goodrem也加入了今年的參賽名單。  \n• Lacey Turner是首位被宣布參加的選手，她以BBC One肥皂劇《EastEnders》中的角色Stacey Slater而聞名。  \n• 今年的比賽預計將於九月開始，參賽者們對舞蹈充滿期待。",
+    "summaries": {
+      "zh-HK": "• 《Love Island》2025年冠軍Cach Mercer被確認參加2026年《Strictly Come Dancing》，成為第五位參賽明星。  \n• 美容師Chris Appleton和澳洲歌手Delta Goodrem也加入了今年的參賽名單。  \n• Lacey Turner是首位被宣布參加的選手，她以BBC One肥皂劇《EastEnders》中的角色Stacey Slater而聞名。  \n• 今年的比賽預計將於九月開始，參賽者們對舞蹈充滿期待。"
+    }
+  },
+  {
+    "url": "https://www.nytimes.com/2026/07/09/world/europe/poland-russian-exile-spy.html",
+    "title": "Poland Sentences Russian Exile to 7 Years in Prison for Spying",
+    "summary": "Igor Rogov, who has publicly opposed the Kremlin, was arrested in 2024 and later confessed to spying for Russian intelligence on regime opponents living abroad.",
+    "full_text": "",
+    "source": "New York Times",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-09T16:57:51+00:00",
+    "crawled": "2026-07-09T17:06:38.550989+00:00",
+    "summarized": true,
+    "ai_summary": "• 波蘭法院判處俄羅斯流亡者伊戈爾·羅戈夫七年監禁，罪名為間諜活動  \n• 羅戈夫於2024年被捕，並承認為俄羅斯情報機構從事間諜活動  \n• 他曾公開反對克里姆林宮，並針對生活在海外的政權反對者進行情報收集  \n• 此案件顯示波蘭對俄羅斯間諜活動的打擊力度加強",
+    "summaries": {
+      "zh-HK": "• 波蘭法院判處俄羅斯流亡者伊戈爾·羅戈夫七年監禁，罪名為間諜活動  \n• 羅戈夫於2024年被捕，並承認為俄羅斯情報機構從事間諜活動  \n• 他曾公開反對克里姆林宮，並針對生活在海外的政權反對者進行情報收集  \n• 此案件顯示波蘭對俄羅斯間諜活動的打擊力度加強"
+    }
+  },
+  {
+    "url": "https://time.com/article/2026/07/09/climate-change-shrink-squid-brain-study/",
+    "title": "Squid Are Among the Most Intelligent Ocean Creatures. Climate Change Might Shrink Their Brains",
+    "summary": "Rising carbon dioxide levels could make squid brains nearly 50% smaller.",
+    "full_text": "Squid are among the scholars of the deep. Distributed across all of the world’s\n, the 375 squid species can\n, communicate via color change, recognize individual humans, and learn from past experiences—such as remembering how to escape from an enclosure. Neuron by neuron, squid have brains about as complex as that of dogs, and along with\nand cuttlefish, are the most intelligent invertebrates in the world. But the squid brain is in danger.\nSociety for Environmental Biology conference\nin Florence, Italy, in early July, as levels of oceanic carbon dioxide grow greater, the brain of at least one species of squid is growing smaller.\nHigh CO2 levels were already known to affect squid behavior—and, by extension, the state of their brains. According to\nCommunications Biology\n, seven days of exposure to increased\nresulted in a 65% reduction in hunting behavior in adult squid. Newly hatched squid exposed to high CO2 for the first 90 days of their lives hunted 42% less.\nTo determine what is behind this change, two of the authors of that paper—Garett Allen, assistant professor of biological sciences at Acadia University in Nova Scotia; and Yung-Che Tseng, assistant research fellow at the Academia Sinica’s Institute of Cellular and Organismic Biology in Taiwan—reared newly hatched big fin reef squid in two different tanks of water, one matching the carbon dioxide levels in current oceans and one at the increased levels predicted for 2100. After 90 days the squid were removed from the tanks and euthanized, and their brains were scanned using magnetic resonance imaging. The results were striking.\nThe brain volume of the squid in the elevated-carbon dioxide tank was 49% smaller than that of the group in the tank with current CO2 levels. No area of the brain was spared from the shrinkage, but the change was especially pronounced in the optic lobes and the optic tract—the bundles of nerves that carry visual signals to the brain—with reductions of 52% and 62% respectively.\nJust what the mechanism behind the change was is unclear. The researchers’ initial hypothesis was that the squids’ brains were somehow denied energy during development, which limited growth, but that wasn’t the only possible answer. “Our alternative hypothesis,” Allen said in an email to TIME, “was that the brain may be reduced in volume due to damage, perhaps oxidative stress—essentially, atrophy of the brain.”\nSince the squid did not survive the experiment, it was impossible to observe them and determine how the brain shrinkage affected their behavior, but Allen has some guesses. “Considering our [earlier] work found that squid reared under the same conditions for the same duration experienced reductions in willingness to feed,” he says, “it seems reasonable to propose that reduced brain volume carries some influence on decision-making—seemingly making them more hesitant, rather than less effective as predators.”\nOceans absorb up to 30% of emitted carbon dioxide,\nthe National Oceanic and Atmospheric Administration (NOAA). That has raised ocean acidity—a direct result of CO2 absorption—by 30%. The effect has been\non corals, oysters, and free-swimming snails and slugs.\nthat acidification will increase by 100% to 150% by the end of this century. As that happens, whole populations of squid are likely to suffer the same change as the ones in the experiment, and that could dramatically affect the structure of their societies, especially since it’s the optic regions of the brain that suffer the greatest damage. “If they are experiencing challenges in how to interpret visual stimuli, amongst other stimuli, it would seem that reliance on visual displays for communication and mating rituals could be impacted,” Allen says.\nThe loss of or injury to any animal as a result of human activity is a tragedy, but it’s particularly so when the creatures being harmed are smart, sentient, clever, complex. The squid sit atop the invertebrate world; humans could yet push them over.",
+    "source": "Time",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-09T16:59:18+00:00",
+    "crawled": "2026-07-09T17:06:47.637863+00:00",
+    "summarized": true,
+    "ai_summary": "• 研究顯示，氣候變化導致某些魷魚物種的腦部縮小，這一發現於七月在意大利佛羅倫斯的環境生物學會議上發表。  \n• 魷魚在高二氧化碳環境下的狩獵行為減少，成年魷魚的狩獵行為降低65%，剛孵化的魷魚在生命的前90天狩獵行為減少42%。  \n• 研究人員將新孵化的魷魚分別放在當前二氧化碳水平和預測到2100年增加的二氧化碳水平的水槽中，結果顯示高二氧化碳環境下的魷魚腦容量比正常環境小49%。  \n• 研究者推測，腦部縮小可能與能量不足或氧化壓力有關，並認為腦容量減少可能影響魷魚的決策能力。",
+    "summaries": {
+      "zh-HK": "• 研究顯示，氣候變化導致某些魷魚物種的腦部縮小，這一發現於七月在意大利佛羅倫斯的環境生物學會議上發表。  \n• 魷魚在高二氧化碳環境下的狩獵行為減少，成年魷魚的狩獵行為降低65%，剛孵化的魷魚在生命的前90天狩獵行為減少42%。  \n• 研究人員將新孵化的魷魚分別放在當前二氧化碳水平和預測到2100年增加的二氧化碳水平的水槽中，結果顯示高二氧化碳環境下的魷魚腦容量比正常環境小49%。  \n• 研究者推測，腦部縮小可能與能量不足或氧化壓力有關，並認為腦容量減少可能影響魷魚的決策能力。"
+    }
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-6",
+    "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+    "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+    "full_text": "We’re launching the GPT‑5.6 family of models for general availability following our limited preview: our new flagship, Sol, alongside Terra, a balanced model for everyday work, and Luna, our most cost-efficient model.\nGPT‑5.6 Sol sets a new standard for both intelligence and efficiency, achieving state-of-the-art results across coding, knowledge work, cybersecurity, and science while outperforming previous and competing frontier models with fewer tokens and at lower estimated cost. The result is stronger performance per dollar: more successful work for the same spend, or comparable results at a lower total cost. We also introduce a new way to accelerate the most demanding work: ultra is our highest-capability setting, coordinating multiple agents across parallel workstreams to finish complex tasks faster. Stronger computer use and design judgment make GPT‑5.6 Sol our most polished collaborator yet, helping it inspect, refine, and deliver ready-to-use results.\nWe trained GPT‑5.6 to get more useful work from every token. On Agents’ Last Exam(opens in a new window), an evaluation of long-running professional workflows across 55 fields, GPT‑5.6 Sol sets a new high of 53.6, eclipsing Claude Fable 5 (adaptive reasoning) by 13.1 points. Even at medium reasoning, it beats Fable 5 by 11.4 points at roughly one-quarter the estimated cost. That efficiency extends to smaller models, which are essential to making intelligence more abundant and affordable: GPT‑5.6 Terra and GPT‑5.6 Luna outperform Fable 5 at around one-sixteenth the cost. On the Artificial Analysis Intelligence Index(opens in a new window), a broad measure of intelligence spanning agentic work, coding, scientific reasoning, and general capabilities, GPT‑5.6 Sol with max reasoning comes within one point of Fable 5 while completing tasks in 61% less time at roughly half the estimated cost.\nGPT‑5.6 launches with our most robust safeguards to date, designed to be resilient against determined and adaptive misuse without broadly limiting legitimate work. Before general availability, we put the models and safeguards through our most extensive evaluation period yet, combining human red teaming with large-scale automated testing. During the preview, we worked closely with expert organizations and with trusted partners to pressure-test defenses and strengthen safeguards before broader launch. The resulting system layers protections trained into the model with real-time checks, monitoring, and access calibrated to trust and risk.\nGPT‑5.6 Sol is our best coding model yet. On the Artificial Analysis Coding Agent Index, GPT‑5.6 Sol with max reasoning sets a new state of the art at 80, 2.8 points above Fable 5, while using less than half the output tokens, taking less than half the time, and costing about one-third less. That advantage extends across the family: Terra performs just above Fable 5, while Luna outperforms Opus 4.8; each does so in roughly one-third of the time, with about half as many output tokens, and at approximately one-quarter the estimated cost. It also sets new state-of-the-art results on Terminal‑Bench 2.1 and DeepSWE, which test complex command-line workflows and long-horizon engineering in real codebases.\nGPT‑5.6 can write and run lightweight programs that coordinate tools, process intermediate results, monitor progress, and choose the next action as work unfolds. This lets tool-heavy tasks advance with fewer tokens, fewer model round trips, and less guidance. Instead of requiring developers to script every step or passing every tool response back through the model, Programmatic Tool Calling(opens in a new window) in the Responses API can filter large amounts of intermediate data, retain only what matters, and adapt its workflow along the way.\nFor problems that reward a greater investment of time and compute, GPT‑5.6 can push beyond this efficient default. max gives GPT‑5.6 even more time than xhigh to reason and explore alternatives, run checks, and revise its approach. ultra goes further by coordinating four agents in parallel by default, trading higher token use for stronger results and faster time-to-result on demanding tasks. The charts below compare ultra’s default four-agent setup with a one-agent baseline across BrowseComp, SEC-Bench Pro, and Terminal-Bench 2.1; BrowseComp and SEC-Bench Pro also show 16-agent configurations. Across all three evaluations, adding parallel agents shifts the score-latency frontier upward and to the left, reaching stronger results in less time. In the API, developers can build ultra-like experiences using the multi-agent beta in the Responses API.\nGPT‑5.6 delivers a step change in design judgment. With only high-level direction, GPT‑5.6 creates tasteful, ergonomic, and functional interfaces. Its stronger computer-use capabilities let it inspect and refine the rendered result—not just generate the underlying code or content—so it can catch visual and functional issues and apply finishing touches before handing the work back.\nGPT‑5.6’s frontend capabilities also turn natural-language requests into polished, interactive explanations and visualizations within ChatGPT Work.\nGPT‑5.6 delivers better results for professional tasks. It takes messy context from your documents and everyday workflows like Slack, Notion, Microsoft 365, and Google Drive, and converts it into expert-level, shareable artifacts.\nGPT‑5.6’s strength on knowledge work shows up in evaluations spanning long-horizon professional analysis, browsing, tool use, and computer use. GPT‑5.6 Sol sets new state-of-the-art results on BrowseComp at 92.2% and OSWorld 2.0 at 62.6%; on OSWorld, it surpasses Opus 4.8 while using 85% fewer output tokens. Here, the performance-per-dollar gains extend across the GPT‑5.6 family. Luna nearly matches GPT‑5.5’s peak performance at less than half the estimated cost, while Terra surpasses it at a lower cost.\nGPT‑5.6 Sol improves quality in presentations, documents, and spreadsheets, producing outputs that are more polished and accurate. It can create fully editable presentations from scratch, translating a prompt and source material into a coherent visual narrative with strong layouts, hierarchy, and design.\nThe improvement is especially pronounced when following templates and reference decks. GPT‑5.6 can infer a deck’s design system—layouts, typography, spacing, colors, and recurring content patterns, including rules embedded in the Slide Master—and apply those conventions consistently to new material. In this example, when asked to update numbers based on a reference file, the GPT‑5.5 output is missing key components from the master slide, while GPT‑5.6 follows the reference structure more faithfully.\nReference file\nGPT‑5.5 output\nGPT‑5.6 output\nGPT‑5.6 also creates more visually refined documents and spreadsheets. It follows complex reference formats more faithfully, which is important for repeatable knowledge work activities. It handles equations and financial models with greater precision, and makes better use of typography, spacing, hierarchy, and page or worksheet layout.\nEarly customers testing GPT‑5.6 saw improvements to knowledge work outputs across domains.\nGPT‑5.6 is our strongest cybersecurity model yet, achieving frontier performance with significantly fewer tokens. On ExploitBench1, which measures progress from reaching vulnerable code through arbitrary code execution, it scores 73.5% versus GPT‑5.5’s 47.9% at a comparable output-token budget. On ExploitGym2, which asks agents to turn real-world vulnerabilities into working exploits, it almost doubles GPT‑5.5’s peak pass rate, from 15.1% to 24.9% under the two-hour cap; with six hours, it reaches 33.7%. On SEC-Bench Pro, which tests proof-of-concept generation on complex software, it scores 71.2% versus GPT‑5.5’s 45.8% at an improved latency.\nGPT‑5.6 supports important defensive tasks such as secure code review, patching, threat modeling, and blue teaming. Qualified individuals and organizations in",
+    "source": "OpenAI Blog",
+    "category": "ai",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-09T10:00:00+00:00",
+    "crawled": "2026-07-09T17:06:51.199750+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+    "title": "ChatGPT is now a partner for your most ambitious work",
+    "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+    "full_text": "ChatGPT is now a partner for your most ambitious work\nChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.\nIntroducing ChatGPT Work, an agent in ChatGPT that helps you take on more ambitious tasks. It can gather information across your apps and workflows to create finished materials like sheets, slides, docs, and web apps, and stay with complex projects for hours by breaking them into smaller steps and completing them independently.\nWith Codex technology built-in, ChatGPT can now move beyond answering questions to getting real work done across web, mobile, and desktop. More than 5 million people use Codex every week. Although it began as a coding agent for developers, more than 1 million people now use it for work outside software development, showing how its capabilities can support a wider range of tasks.\nTo better manage these tasks, ChatGPT Work is powered by our latest frontier model, GPT‑5.6, which is also rolling out today(opens in a new window). GPT‑5.6 makes ChatGPT state of the art at reasoning through multi-step tasks and creating materials that follow your templates and reference files.\nThe best way to learn how to use ChatGPT Work is to give it a task you already know well: analyze a month-end budget variance, turn source materials into a marketing campaign brief, or prepare for a sales meeting. You can follow its progress, answer questions, change direction, and approve important actions.\nYou can even ask ChatGPT Work to take on entire workflows with a single request. For example, it can turn customer research into a campaign brief, use that brief to create marketing assets, and adapt those assets for different markets while carrying context through every step.\nEven when you’re away from your computer or phone, ChatGPT Work can keep projects moving forward with Scheduled Tasks. For example, it can independently turn new messages from Microsoft Teams and Slack into updated docs or slides, then share important changes with your team.\nIn early testing, we’ve seen how ChatGPT Work expands what users can do:\nNearly 100% of teams inside OpenAI, including finance and sales, now use ChatGPT Work and Codex to move faster, take on harder tasks, and spend more time with customers.\n- In sales, ChatGPT Work turned a discovery conversation into a tailored proof of concept for a mission-critical problem within 24 hours—a process that normally takes weeks. ChatGPT structured the notes, routed the request to a solutions architect, and collaborated with the technical team, freeing the lead to focus on the customer and serve as a high-value consultative partner.\n- In finance, ChatGPT Work reduced month-end close and forecasting from days to hours by helping teams find source data, move it into Excel or Sheets, reconcile it, create slides, and verify the results. This lets the finance team spend more time understanding what changed in the forecast, explaining why it changed, and advising leaders on what the company should do next.\nOn web and mobile, ChatGPT Work is rolling out today now for Pro, Enterprise, and Edu plans. It will roll out to Plus and Business plans over the next few days. In the ChatGPT desktop app, Chat, Work, and Codex are available on every plan, including Free, and is available globally to download on Windows and Mac.(opens in a new window)\nChatGPT Work is designed to keep tasks moving forward wherever you are. You can ask it to start a task from your phone, review a draft on the go, or check the status of a longer-running workflow between meetings. When you return to your desk, you can pick up the same work on the web.\nFor an even more powerful experience, the ChatGPT desktop app now goes further. On desktop, ChatGPT can use your local files and apps to get work done. For web-based work, ChatGPT’s new built-in browser lets it bring in websites, tools, and online files, giving you one place to move work forward.\nStarting today, the Codex app is merging with the new ChatGPT desktop app. Codex remains the same powerful coding agent for developers and technical professionals, now with new capabilities(opens in a new window) across core workflows, including inline editing within diffs, pull request review in the side panel, faster computer use (powered by GPT‑5.6), and support for multiple repositories in a single project.\nTo get started with ChatGPT Work, connect the tools and context where your work already happens, using plugins.\nPlugins connect ChatGPT to apps and systems like Slack and Microsoft Teams, Google Drive and SharePoint, email, calendars, CRMs, project trackers, and other internal tools. ChatGPT will automatically know when to reference a plugin based on your prompt, but you can also direct ChatGPT to pull context from a specific app by typing “@” followed by the app name in your prompt. The new unified plugins directory brings plugins into one place, and ChatGPT can suggest relevant ones during your conversations.\nOnce your apps and tools are connected, ChatGPT can understand what you’re trying to do, pull in information from relevant sources, create documents, decks, and analyses, and keep refining drafts in the background while you stay in control.\nWe’re also introducing Sites in ChatGPT in public beta. With Sites, you can turn your work or ideas into an interactive site or web app and share it with your team or publicly through a URL. Sites are useful when you want to create things like live dashboards, project trackers, launch calendars, prototypes, internal portals, and interactive reports. You can test the Sites you build right inside ChatGPT and bring fresh web context into your project, too. ChatGPT can also update them as the underlying information changes.\nChatGPT Work can help take repetitive tasks off your plate, freeing you up for more impactful work.\nScheduled Tasks let you ask ChatGPT to perform an action once, repeat it on a schedule or when an event occurs, or monitor for changes over time.\nScheduled Tasks can use your connected apps and browser to:\n- Review new Slack updates each week and refresh a recurring meeting agenda.\n- Check websites and dashboards each morning, summarize what changed, and send a report.\n- Monitor new customer feedback and turn recurring themes into prioritized product ideas.\n- Update a presentation when new feedback arrives by email.\nYou remain in control of how ChatGPT works with you. You decide what it can access, when it should check in, and when it needs your approval before taking action. You can review progress and steer the work as priorities change.\nOn desktop, ChatGPT now includes a built-in browser to help you gather information online, use web-based tools, and refine web-based work in one place.\nYou can ask ChatGPT to research a market, compare sources, pull information from websites, or open and refine files from Google Workspace and Microsoft 365 inside the app. It can use the browser to bring in fresh context, take steps across web pages, and keep the work moving while you review and guide the result.\nOn desktop, Computer Use lets ChatGPT use your computer on your behalf to execute tasks in the background across your apps, tools, and browser—clicking, typing, and moving files where they need to go. You can use it for a one-time task or as part of a Scheduled Task when recurring work includes steps on your computer.\nWe are also updating our Chrome extension to make it possible to use ChatGPT directly in Chrome’s sidebar. These capabilities build on what we learned from Atlas and from the users who helped us understand how agentic tools can make browser-based work more useful. We’ll begin sunsetting the standalone Atlas browser, and will share information with users about how to transition to ChatGPT.\nChatGPT Work is powerful out of the box for all kinds of work: it can support complex workflows using the apps, files, and tools each team chooses to connect. Below are real",
+    "source": "OpenAI Blog",
+    "category": "ai",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-09T10:00:00+00:00",
+    "crawled": "2026-07-09T17:06:51.599017+00:00",
+    "summarized": false,
+    "ai_summary": ""
   }
 ]
