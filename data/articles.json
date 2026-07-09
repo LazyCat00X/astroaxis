@@ -8187,20 +8187,6 @@
     "ai_summary": ""
   },
   {
-    "url": "https://www.cnbc.com/2026/07/02/premier-lacrosse-league-team-ownership.html",
-    "title": "Premier Lacrosse League plans to bring in team owners by 2028 'or soon thereafter,' co-founder says",
-    "summary": "Paul Rabil told CNBC he's banking on the 2028 Los Angeles Summer Games, where lacrosse will return as an Olympic sport, to shine a spotlight on the PLL.",
-    "full_text": "The Premier Lacrosse League wants to begin selling its teams to individual owners or groups by 2028 \"or soon thereafter,\" league co-founder Paul Rabil told CNBC.\nIn the next decade, Rabil said, he wants the league to expand from eight teams to as many as 16, with each franchise owned independently, similar to other U.S. professional leagues. The PLL is in its eighth season, and currently the league, itself, owns the teams.\nRabil, 40, is perhaps the most famous American lacrosse player in history, playing Major League Lacrosse from 2008 to 2018 before co-founding the PLL with his brother, Mike. The PLL merged with MLL in 2020.\nThe PLL is one of a number of emerging sports leagues, along with League One Volleyball, the Professional Women's Hockey League and the Basketball Africa League, that have begun with a single-entity ownership model.\nLeague One Volleyball has recently begun selling off teams to interested owners who pay expansion fees to take control of franchises. The BAL is beginning that process now, NBA Deputy Commissioner Mark Tatum told CNBC Sport last month.\nThe demand to own sports teams has skyrocketed in recent years as valuations for the biggest sports — the NFL, NBA, MLB and NHL — have soared. The spike in team valuations for the so-called Big Four U.S. sports leagues has pushed a class of investors toward more affordable teams in Major League Soccer, the National Women's Soccer League and the WNBA.\nEmerging sports leagues like the PLL are seeking to prove they can join this mezzanine class of leagues that can garner team valuations in the hundreds of millions or even close to a billion dollars.\nEarlier this week, the PLL raised $100 million in a Series E funding round to grow the league. Rabil is banking on the 2028 Los Angeles Summer Olympics to give exposure to the league and the sport. Lacrosse hasn't been a medal sport in the Summer Games for about 120 years but is returning in 2028.\n\"The first allotment of tickets sold out in 48 hours for lacrosse, so there's good hype building,\" Rabil said.\nThe PLL is backed by a combination of investor firms and wealthy individuals.\nHowever, Rabil said, if a large private equity fund or a strategic company such as TKO Group, which owns World Wrestling Entertainment, Ultimate Fighting Championship and Professional Bull Riders, would like to acquire the league, \"we would absolutely have those discussions.\"",
-    "source": "CNBC",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Sports",
-    "published": "2026-07-02T17:27:52+00:00",
-    "crawled": "2026-07-09T07:34:46.974518+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
     "url": "https://www.ft.com/content/1bc10dd1-2aac-472d-b3d8-b76a83fb4abf",
     "title": "Apple to buy $30bn of US-made chips from Broadcom",
     "summary": "iPhone maker continues its attempt to curry favour with Donald Trump via investments in Colorado plant",
@@ -12765,8 +12751,11 @@
     "topic": "DeFi",
     "published": "2026-07-09T13:01:38+00:00",
     "crawled": "2026-07-09T15:19:58.143020+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Aave Labs推出新產品Stable Vaults，允許金融科技應用在穩定幣存款上提供收益，無需用戶直接接觸加密基礎設施。  \n• Stable Vaults自動將存款分配到經批准的去中心化金融（DeFi）貸款策略，簡化企業嵌入儲蓄類產品的過程。  \n• Aave的此舉旨在與競爭對手Morpho競爭，後者已在Coinbase和Robinhood提供高收益的穩定幣產品。  \n• Stable Vaults支持USDC、USDT及Aave的GHO等穩定幣，並將成為Aave即將推出的儲蓄應用的基礎設施。",
+    "summaries": {
+      "zh-HK": "• Aave Labs推出新產品Stable Vaults，允許金融科技應用在穩定幣存款上提供收益，無需用戶直接接觸加密基礎設施。  \n• Stable Vaults自動將存款分配到經批准的去中心化金融（DeFi）貸款策略，簡化企業嵌入儲蓄類產品的過程。  \n• Aave的此舉旨在與競爭對手Morpho競爭，後者已在Coinbase和Robinhood提供高收益的穩定幣產品。  \n• Stable Vaults支持USDC、USDT及Aave的GHO等穩定幣，並將成為Aave即將推出的儲蓄應用的基礎設施。"
+    }
   },
   {
     "url": "https://www.coindesk.com/opinion/2026/07/09/age-verification-is-the-surveillance-nobody-voted-for",
@@ -13069,8 +13058,11 @@
     "topic": "Finance",
     "published": "2026-07-09T13:01:05+00:00",
     "crawled": "2026-07-09T15:20:04.490165+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• MoonPay於星期四在Telegram上推出MoonAgents，讓用戶可以透過該消息平台與AI加密助手互動。  \n• 用戶可以要求MoonAgents分析市場、創建儀表板及準備交易，並使用自然對話進行操作。  \n• MoonPay表示，Telegram作為介面用於互動，但用戶數據和私鑰仍保留在其電腦上。  \n• MoonAgents的設計不依賴於Telegram，所有對話均保存在用戶的電腦上，即使Telegram關閉，對話仍可透過MoonAgents桌面應用繼續進行。",
+    "summaries": {
+      "zh-HK": "• MoonPay於星期四在Telegram上推出MoonAgents，讓用戶可以透過該消息平台與AI加密助手互動。  \n• 用戶可以要求MoonAgents分析市場、創建儀表板及準備交易，並使用自然對話進行操作。  \n• MoonPay表示，Telegram作為介面用於互動，但用戶數據和私鑰仍保留在其電腦上。  \n• MoonAgents的設計不依賴於Telegram，所有對話均保存在用戶的電腦上，即使Telegram關閉，對話仍可透過MoonAgents桌面應用繼續進行。"
+    }
   },
   {
     "url": "https://decrypt.co/373112/morning-minute-paradigm-raises-1-2b-fund-as-cryptos-top-vc-pushes-into-ai",
@@ -13603,8 +13595,11 @@
     "topic": "Tech",
     "published": "2026-07-09T13:08:27+00:00",
     "crawled": "2026-07-09T15:20:17.256197+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國太空部隊本週將Impulse Space和Relativity Space納入其軍事發射合約競標公司名單中  \n• Relativity Space正在推進其重型火箭Terran R的發射計劃，而Impulse Space專注於建造太空操作的航天器  \n• 軍方的國家安全太空發射第三階段計劃允許公司在2025至2029年間競標發射任務  \n• 軍方為新興發射公司設立了“第一通道”，預留約30次發射，總值約56億美元，以滿足高能量發射需求",
+    "summaries": {
+      "zh-HK": "• 美國太空部隊本週將Impulse Space和Relativity Space納入其軍事發射合約競標公司名單中  \n• Relativity Space正在推進其重型火箭Terran R的發射計劃，而Impulse Space專注於建造太空操作的航天器  \n• 軍方的國家安全太空發射第三階段計劃允許公司在2025至2029年間競標發射任務  \n• 軍方為新興發射公司設立了“第一通道”，預留約30次發射，總值約56億美元，以滿足高能量發射需求"
+    }
   },
   {
     "url": "https://arstechnica.com/space/2026/07/rocket-developers-used-to-chase-satellite-trends-is-the-inverse-now-true/",
@@ -13724,8 +13719,11 @@
     "topic": "Finance",
     "published": "2026-07-09T13:00:20+00:00",
     "crawled": "2026-07-09T15:20:20.108021+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 進步派立法者亞歷山德里亞·奧卡西奧-科特茲和伯尼·桑德斯最早反對數據中心的建設  \n• 美國共和黨候選人利用這股反對情緒，與特朗普的立場產生分歧  \n• 特朗普積極尋求科技巨頭的支持，並推動能源需求高的數據中心快速擴張  \n• 此舉可能影響中期選舉的競選策略和候選人立場",
+    "summaries": {
+      "zh-HK": "• 進步派立法者亞歷山德里亞·奧卡西奧-科特茲和伯尼·桑德斯最早反對數據中心的建設  \n• 美國共和黨候選人利用這股反對情緒，與特朗普的立場產生分歧  \n• 特朗普積極尋求科技巨頭的支持，並推動能源需求高的數據中心快速擴張  \n• 此舉可能影響中期選舉的競選策略和候選人立場"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-09/canada-pm-mark-carney-wins-praise-on-economy-despite-recession-talk-poll-says",
@@ -13794,8 +13792,11 @@
     "topic": "Regulation",
     "published": "2026-07-09T13:15:48+00:00",
     "crawled": "2026-07-09T15:20:21.927201+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Aleo Network Foundation政策主管Yaya Fanusie與前Coinbase合規主管Valerie Lila Jaber及Zcash密碼學家Matt Green共同撰寫了一篇關於穩定幣隱私的新論文  \n• Aleo的可編程ZK架構使加密穩定幣交易成為默認選項，Circle和Paxos Labs已經與該網絡整合以提供USDCX和USAD  \n• Yaya Fanusie認為，隱私技術現在是國家安全的戰略必要，而非威脅，這是基於對中國CBDC的觀察  \n• 訂閱者可獲得獨家訪談、完美轉錄及成員專屬Telegram社區的參與機會",
+    "summaries": {
+      "zh-HK": "• Aleo Network Foundation政策主管Yaya Fanusie與前Coinbase合規主管Valerie Lila Jaber及Zcash密碼學家Matt Green共同撰寫了一篇關於穩定幣隱私的新論文  \n• Aleo的可編程ZK架構使加密穩定幣交易成為默認選項，Circle和Paxos Labs已經與該網絡整合以提供USDCX和USAD  \n• Yaya Fanusie認為，隱私技術現在是國家安全的戰略必要，而非威脅，這是基於對中國CBDC的觀察  \n• 訂閱者可獲得獨家訪談、完美轉錄及成員專屬Telegram社區的參與機會"
+    }
   },
   {
     "url": "https://www.blocktempo.com/glassnode-bitcoin-bottom-building-lth-capitulation/",
@@ -13929,8 +13930,11 @@
     "topic": "Crypto",
     "published": "2026-07-09T13:14:22+00:00",
     "crawled": "2026-07-09T15:20:27.432758+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Robinhood Chain 在主網上線僅一周內，成功吸引超過2億美元的穩定幣市場，主要由貓咪Meme幣CashCat推動。  \n• CashCat的市值在7月8日突破1億美元，單日交易量超過8100萬美元，成為鏈上最受關注的Meme幣之一。  \n• Robinhood Chain的總資產截至7月8日已增長至約3.4億美元，其中穩定幣佔76.1%，主要由USDG提供流動性。  \n• 鏈上用戶活躍度提升，累計交易筆數達976萬，新增地址超過14.3萬個，顯示出生態系統的快速成長。",
+    "summaries": {
+      "zh-HK": "• Robinhood Chain 在主網上線僅一周內，成功吸引超過2億美元的穩定幣市場，主要由貓咪Meme幣CashCat推動。  \n• CashCat的市值在7月8日突破1億美元，單日交易量超過8100萬美元，成為鏈上最受關注的Meme幣之一。  \n• Robinhood Chain的總資產截至7月8日已增長至約3.4億美元，其中穩定幣佔76.1%，主要由USDG提供流動性。  \n• 鏈上用戶活躍度提升，累計交易筆數達976萬，新增地址超過14.3萬個，顯示出生態系統的快速成長。"
+    }
   },
   {
     "url": "https://blockcast.it/2026/07/09/stablecoins-enter-the-era-of-specialized-use-cases/",
@@ -14177,8 +14181,11 @@
     "topic": "Politics",
     "published": "2026-07-09T13:18:00+00:00",
     "crawled": "2026-07-09T15:20:32.168951+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 民主黨候選人格雷厄姆·普拉特納因前伴侶的性侵犯指控，已撤回美國緬因州參議院競選。\n• 普拉特納的退出使民主黨面臨尋找能夠擊敗共和黨參議員蘇珊·柯林斯的候選人壓力。\n• 目前，共和黨在參議院擁有53-47的多數優勢，民主黨希望在即將到來的中期選舉中贏得緬因州的席位。\n• 普拉特納否認指控，並表示退出競選並不意味著承認有罪。",
+    "summaries": {
+      "zh-HK": "• 民主黨候選人格雷厄姆·普拉特納因前伴侶的性侵犯指控，已撤回美國緬因州參議院競選。\n• 普拉特納的退出使民主黨面臨尋找能夠擊敗共和黨參議員蘇珊·柯林斯的候選人壓力。\n• 目前，共和黨在參議院擁有53-47的多數優勢，民主黨希望在即將到來的中期選舉中贏得緬因州的席位。\n• 普拉特納否認指控，並表示退出競選並不意味著承認有罪。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/9/trump-targets-spain-nato-backs-ukraine-is-the-alliance-still-united?traffic_source=rss",
@@ -14191,8 +14198,11 @@
     "topic": "Politics",
     "published": "2026-07-09T13:02:47+00:00",
     "crawled": "2026-07-09T15:20:32.193126+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 北約在土耳其安卡拉舉行為期兩天的峰會，討論防務預算及對烏克蘭的支持，會議於周三結束。  \n• 特朗普在峰會上批評包括西班牙在內的北約成員國的防務開支，並對西班牙實施貿易禁令。  \n• 北約領導人重申對《北約條約》第五條的“堅如鋼鐵的承諾”，並承諾向烏克蘭提供700億歐元（約800億美元）的援助。  \n• 儘管歐洲領導人展示了增長的防務開支，但根據北約數據，預計只有五個成員國在2026年前能達到3.5% GDP的防務開支目標。",
+    "summaries": {
+      "zh-HK": "• 北約在土耳其安卡拉舉行為期兩天的峰會，討論防務預算及對烏克蘭的支持，會議於周三結束。  \n• 特朗普在峰會上批評包括西班牙在內的北約成員國的防務開支，並對西班牙實施貿易禁令。  \n• 北約領導人重申對《北約條約》第五條的“堅如鋼鐵的承諾”，並承諾向烏克蘭提供700億歐元（約800億美元）的援助。  \n• 儘管歐洲領導人展示了增長的防務開支，但根據北約數據，預計只有五個成員國在2026年前能達到3.5% GDP的防務開支目標。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/9/ukraine-targets-russian-oil-depots-and-tankers-in-drone-attacks?traffic_source=rss",
@@ -14343,8 +14353,11 @@
     "topic": "Politics",
     "published": "2026-07-09T13:00:48+00:00",
     "crawled": "2026-07-09T15:20:34.876181+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 歐洲面臨創紀錄的熱浪，導致對中國空調的需求激增，與布魯塞爾的貿易政策形成對比。  \n• 布魯塞爾正在尋求通過新限制縮小與中國的貿易赤字，卻未能解決自身結構性問題。  \n• 許多歐洲國家因極端天氣面臨批評，指責其應急管理不善及對公共服務和氣候政策的投資不足。  \n• 對於普通市民而言，生活成本的現實使他們更關注購買中國空調的需求，儘管布魯塞爾對北京的貿易政策日益嚴格。",
+    "summaries": {
+      "zh-HK": "• 歐洲面臨創紀錄的熱浪，導致對中國空調的需求激增，與布魯塞爾的貿易政策形成對比。  \n• 布魯塞爾正在尋求通過新限制縮小與中國的貿易赤字，卻未能解決自身結構性問題。  \n• 許多歐洲國家因極端天氣面臨批評，指責其應急管理不善及對公共服務和氣候政策的投資不足。  \n• 對於普通市民而言，生活成本的現實使他們更關注購買中國空調的需求，儘管布魯塞爾對北京的貿易政策日益嚴格。"
+    }
   },
   {
     "url": "https://www.scmp.com/opinion/china-opinion/article/3359746/us-china-ai-war-boils-down-contest-over-electricity?utm_source=rss_feed",
@@ -14659,8 +14672,11 @@
     "topic": "Regulation",
     "published": "2026-07-09T13:12:44+00:00",
     "crawled": "2026-07-09T15:20:49.610759+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 監管機構將阻止芝加哥商品交易所（CME）加快推進24小時石油合約的申請  \n• CME希望擴展其石油合約的交易時間，以滿足市場需求  \n• 監管機構的決定基於對市場穩定性和透明度的考量  \n• 此舉可能影響CME在全球石油市場的競爭力",
+    "summaries": {
+      "zh-HK": "• 監管機構將阻止芝加哥商品交易所（CME）加快推進24小時石油合約的申請  \n• CME希望擴展其石油合約的交易時間，以滿足市場需求  \n• 監管機構的決定基於對市場穩定性和透明度的考量  \n• 此舉可能影響CME在全球石油市場的競爭力"
+    }
   },
   {
     "url": "https://www.ft.com/content/2d8ca3f0-6bff-40d9-9b74-a1831e887a77",
@@ -14690,8 +14706,11 @@
     "topic": "Finance",
     "published": "2026-07-09T13:06:19+00:00",
     "crawled": "2026-07-09T15:20:50.849735+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 歐盟與中國之間的貿易緊張局勢因北京烤鴨的爭議而加劇  \n• 此爭議涉及中國對歐盟的食品標準和貿易規範的質疑  \n• 歐盟官員表示將加強對中國食品進口的監管  \n• 中國則對歐盟的做法表示不滿，並可能採取反制措施",
+    "summaries": {
+      "zh-HK": "• 歐盟與中國之間的貿易緊張局勢因北京烤鴨的爭議而加劇  \n• 此爭議涉及中國對歐盟的食品標準和貿易規範的質疑  \n• 歐盟官員表示將加強對中國食品進口的監管  \n• 中國則對歐盟的做法表示不滿，並可能採取反制措施"
+    }
   },
   {
     "url": "https://www.marketwatch.com/story/ive-plenty-of-time-on-my-hands-advisers-bombard-me-with-offers-for-free-steak-is-it-wrong-to-go-for-the-food-1b139f98?mod=mw_rss_topstories",
@@ -14922,8 +14941,11 @@
     "topic": "AI",
     "published": "2026-07-09T13:11:53+00:00",
     "crawled": "2026-07-09T15:20:59.396036+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Character.AI 宣布推出 c.ai Series，這是一系列短篇互動視頻，旨在手機上觀看和互動。\n• c.ai Series 以動畫形式製作，幾乎完全使用生成式人工智能，與傳統微劇服務的真人表演不同。\n• 首批三個項目包括《Last Summer》、《The Nighttime Game》和《Eden Fall》，每個系列將推出10集，每集少於兩分鐘，前八集免費，後兩集需付費觀看。\n• Character.AI 表示，這些系列由人類主導的內部團隊開發，未來計劃讓創作者使用其AI工具製作原創微劇。",
+    "summaries": {
+      "zh-HK": "• Character.AI 宣布推出 c.ai Series，這是一系列短篇互動視頻，旨在手機上觀看和互動。\n• c.ai Series 以動畫形式製作，幾乎完全使用生成式人工智能，與傳統微劇服務的真人表演不同。\n• 首批三個項目包括《Last Summer》、《The Nighttime Game》和《Eden Fall》，每個系列將推出10集，每集少於兩分鐘，前八集免費，後兩集需付費觀看。\n• Character.AI 表示，這些系列由人類主導的內部團隊開發，未來計劃讓創作者使用其AI工具製作原創微劇。"
+    }
   },
   {
     "url": "https://www.theverge.com/tech/963052/fl-studio-2026-music-daw-ai-chatbot",
@@ -15026,8 +15048,11 @@
     "topic": "General",
     "published": "2026-07-09T13:10:46+00:00",
     "crawled": "2026-07-09T15:21:04.140167+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美光公司宣布將其美國投資計劃增至2500億美元，計劃持續至2035年  \n• 此次增資旨在加強美國的半導體生產能力  \n• 美光首席執行官表示，這項投資將創造數萬個工作崗位  \n• 此計劃是美光對美國半導體行業長期承諾的一部分",
+    "summaries": {
+      "zh-HK": "• 美光公司宣布將其美國投資計劃增至2500億美元，計劃持續至2035年  \n• 此次增資旨在加強美國的半導體生產能力  \n• 美光首席執行官表示，這項投資將創造數萬個工作崗位  \n• 此計劃是美光對美國半導體行業長期承諾的一部分"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcTFxME5GUk5zOGhKaGZ2ZHVLdHJIZFZHMWViYnNpdnlvRFdCb01NX3M1Y3MzV05uUTJqTFN3QXR1XzRRUW1ZeEdVRkVFekNDTHVGbjA3M3ZONDhnOExOb2ZNQWRIcnFvVERnYzVKTTMwQjlyX1NsYnhpb0wxSGQ3NWxDRFgxOC11M1J3eHI1RjREMDFwX1Z1NTB3RFoxZkc3Q21pS210Yks4R3IyMGFZS1hZOGVteGNmcFZnaw?oc=5",
@@ -15276,8 +15301,11 @@
     "topic": "AI",
     "published": "2026-07-09T13:08:09+00:00",
     "crawled": "2026-07-09T15:21:11.945514+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 卡森市學區正在調整其人工智能政策，以應對不斷變化的技術環境  \n• 學區官員強調政策的靈活性，以確保學生和教職員的安全與隱私  \n• 新政策將涵蓋人工智能在教學和學校運營中的應用  \n• 學區計劃在未來幾個月內進一步完善和實施這些政策",
+    "summaries": {
+      "zh-HK": "• 卡森市學區正在調整其人工智能政策，以應對不斷變化的技術環境  \n• 學區官員強調政策的靈活性，以確保學生和教職員的安全與隱私  \n• 新政策將涵蓋人工智能在教學和學校運營中的應用  \n• 學區計劃在未來幾個月內進一步完善和實施這些政策"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQ3R2clA5dXhGRGxKU05yeVN4OFNVcXRHa1FYLTRTX0VIV1NiWFVJc3BhajNLbzQ1dFhkQVNsVjYzcWhFREFEekRPc09wSU9qRmlNTFM1ZHhncERsUm81Y3hRQWk2LU5sR0FpT3VQaEtLWUpEV2dFUU9oRjZQZlg4bHAwem5KeF9KRFNyZUdDZm9mQVRydnNkLXBtUXMzZURCUW1Zbm5jTEN4ODZteng3Qy1YSHNmLU93?oc=5",
@@ -15604,8 +15632,11 @@
     "topic": "General",
     "published": "2026-07-09T13:04:56+00:00",
     "crawled": "2026-07-09T15:37:41.601720+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 據報導，中國和印度相關的黑客組織針對巴基斯坦執法機構進行攻擊  \n• 此次攻擊的具體時間和範圍尚未公開  \n• 攻擊的目的可能與地緣政治緊張局勢有關  \n• 巴基斯坦當局已經開始調查此事件並加強網絡安全措施",
+    "summaries": {
+      "zh-HK": "• 據報導，中國和印度相關的黑客組織針對巴基斯坦執法機構進行攻擊  \n• 此次攻擊的具體時間和範圍尚未公開  \n• 攻擊的目的可能與地緣政治緊張局勢有關  \n• 巴基斯坦當局已經開始調查此事件並加強網絡安全措施"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcTVCVnkxZk5MNExDemVjYXdMTzgwQUtUdTBKVWxvMU96TUdCRlFjaG56alB4OU9kLS1sa01XQm5YbUVJSVFxVDJQaXdycHVNVWFEWklYcEF6RFBDZmJZb1hMLVdZdEs4WW5zdmRWSEhhaDhlMDlpdzN5cFhLeE1yUXF6VXp6cV9ERWxHdEdjRlBoaDRHdG9CWHp2LXJFVjVuZjN5bzRaRFN6ZnNqTmJoTkhIcTlJQQ?oc=5",
@@ -15649,8 +15680,11 @@
     "topic": "AI",
     "published": "2026-07-09T13:16:47+00:00",
     "crawled": "2026-07-09T15:37:44.620349+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 一項研究探討了生成式人工智能對本科生的吸引力及其潛在成癮性  \n• 研究發現，許多學生在使用生成式人工智能時感到愉悅，並願意花費大量時間在此技術上  \n• 研究旨在了解生成式人工智能如何影響學生的學習行為和心理健康  \n• 研究結果顯示，對生成式人工智能的過度依賴可能導致學業表現下降和社交互動減少",
+    "summaries": {
+      "zh-HK": "• 一項研究探討了生成式人工智能對本科生的吸引力及其潛在成癮性  \n• 研究發現，許多學生在使用生成式人工智能時感到愉悅，並願意花費大量時間在此技術上  \n• 研究旨在了解生成式人工智能如何影響學生的學習行為和心理健康  \n• 研究結果顯示，對生成式人工智能的過度依賴可能導致學業表現下降和社交互動減少"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQR3VKQkNub3oycDRGWndTdVh0ZF9IYkcxT0wwQlhiTzJ6SGtIMWE3ZkNsR0ZiWElKTVlBbm5FMHRIVmgxQjM4djRSSmVFOTBOTnpsR3dwRmdLdENYd0JHc2VISFBmVkJ6WmJrN0ZMbUF4ZEtYaUplbms1MUI2bkh5RlpRWUYxb2FyMFZSdmhHcTE?oc=5",
@@ -16773,6 +16807,235 @@
     "topic": "AI",
     "published": "2026-07-09T10:00:00+00:00",
     "crawled": "2026-07-09T17:06:51.599017+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://cointelegraph.com/news/bitcoin-miners-ai-pivot-faces-investor-scrutiny-over-insider-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "title": "Bitcoin miners’ AI pivot faces investor scrutiny over insider sales",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Bitcoin miners’ AI pivot faces investor scrutiny over insider sales\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-miners-unaffected-by-heat-waves-still-plan-to-establish-operations-in-texas-ai.jpg\" /></p><p>As AI-driven mining stocks retreat, investors are examining executive stock sales, governance and shareholder alignment across leading Bitcoin miners, according to Blocksbridge Consulting.\n</p>",
+    "full_text": "Bitcoin miners’ AI pivot faces investor scrutiny over insider sales\nAs AI-driven mining stocks retreat, investors are examining executive stock sales, governance and shareholder alignment across leading Bitcoin miners, according to Blocksbridge Consulting.\nSeveral publicly traded Bitcoin miners have enjoyed sharp stock re-ratings after pivoting toward AI infrastructure, but investors are increasingly questioning whether insiders and major shareholders capitalized on the rally before the sector cooled, raising fresh governance concerns, according to Blocksbridge Consulting.\nIn its latest Miner Weekly newsletter, Blocksbridge said the AI narrative helped lift valuations for several Bitcoin mining companies as they repositioned operations around data centers, power infrastructure and hyperscaler partnerships. However, sentiment has since weakened, with AI and chip stocks pulling back. The TEM AI Infrastructure Growth Index, which tracks Bitcoin miners, artificial intelligence cloud providers, power suppliers and other AI infrastructure companies, has decline 16% over the past month.\nThat shift has brought insider transactions into sharper focus. Executives at TeraWulf, Cipher Digital, Riot Platforms and Core Scientific have disclosed stock sales, many of them executed under prearranged Rule 10b5-1 trading plans. While such plans are common and designed to avoid conflicts around nonpublic information, the sales have attracted greater scrutiny as AI-related stocks have retreated, Blocksbridge said.\nThe trend extends beyond company executives. Strategic investors have also reduced their exposure, including stablecoin issuer Tether, which trimmed its stake in Bitdeer after the company’s AI-driven rebound.\nAccording to Blocksbridge, investors are increasingly shifting their attention from the AI growth narrative to questions around governance and whether the benefits of the tech transition will ultimately accrue to public shareholders.\nMost stocks in the TEM AI Infrastructure Growth Index have declined sharply over the past month. Source: Miner Weekly\nBlocksbridge said TeraWulf offers the clearest example because the company remains one of the biggest beneficiaries of the AI infrastructure transition. CEO Paul Prager and Beowulf E&D Holdings, an entity he manages, sold roughly 1.59 million WULF shares before the company on Monday announced a 20-year AI infrastructure lease with AI developer Anthropic, a deal widely viewed as a major validation of its AI strategy.\nRelated: SBI Crypto shuts Bitcoin mining pool after 5-year run\nAI spending raises questions about long-term returns\nMany Bitcoin miners have pivoted toward AI data centers as mining economics have become increasingly challenging, particularly after Bitcoin's 2024 halving squeezed industry margins. However, the artificial intelligence trade has also become more crowded, with companies facing growing pressure from investors to justify heavy infrastructure spending amid uncertain returns.\nA report published by Deloitte in October described AI as a “paradox of rising investment and elusive returns,” noting that many organizations expect AI investments to take longer than anticipated to generate meaningful value.\nSeparate research by Teneo, based on a survey of more than 350 public company CEOs, found that fewer than half of artificial intelligence initiatives have delivered returns exceeding their costs.\nCorporate AI spending is expected to increase significantly despite modest returns on investment. Source: Deloitte\nDespite those challenges, companies continue to invest aggressively in AI infrastructure, betting that long-term demand for compute capacity will outweigh near-term concerns over profitability.\nBitcoin miners, with access to large-scale power and existing data center infrastructure, are positioning themselves to capture that opportunity.\nRelated: Trumps’ American Bitcoin sinks 8.4% ahead of reverse stock split to stay listed\nSubscribe to daily byte-sized crypto news from Cointelegraph\nMore on the subject",
+    "source": "CoinTelegraph",
+    "category": "crypto",
+    "lang": "en",
+    "topic": "Bitcoin",
+    "published": "2026-07-09T17:09:01+00:00",
+    "crawled": "2026-07-09T17:27:56.634394+00:00",
+    "summarized": true,
+    "ai_summary": "• 根據Blocksbridge Consulting，隨著比特幣礦工轉向人工智能基礎設施，投資者對高管的股票出售、公司治理及股東利益的關注加強。  \n• 多家上市比特幣礦工的股票因轉向AI而上升，但隨著市場冷卻，內部交易受到更大關注。  \n• TeraWulf、Cipher Digital、Riot Platforms及Core Scientific的高管披露了股票銷售，這些交易多在預先安排的計劃下進行。  \n• 隨著AI和芯片股票回落，投資者開始質疑技術轉型的長期回報及其對公眾股東的益處。",
+    "summaries": {
+      "zh-HK": "• 根據Blocksbridge Consulting，隨著比特幣礦工轉向人工智能基礎設施，投資者對高管的股票出售、公司治理及股東利益的關注加強。  \n• 多家上市比特幣礦工的股票因轉向AI而上升，但隨著市場冷卻，內部交易受到更大關注。  \n• TeraWulf、Cipher Digital、Riot Platforms及Core Scientific的高管披露了股票銷售，這些交易多在預先安排的計劃下進行。  \n• 隨著AI和芯片股票回落，投資者開始質疑技術轉型的長期回報及其對公眾股東的益處。"
+    }
+  },
+  {
+    "url": "https://decrypt.co/373151/openai-gpt-5-6-sol-how-compares-ai-models",
+    "title": "OpenAI Releases GPT-5.6 Sol: Here’s How It Stacks Up Against Other AI Models",
+    "summary": "OpenAI's new flagship model is out, after spending two weeks locked behind a government-approved preview. It lands the same week Fable 5 leaves Anthropic's subscription plans.",
+    "full_text": "In brief\n- OpenAI has released GPT-5.6 Sol, alongside the cheaper Terra and Luna, ending a two-week preview the U.S. Department of Commerce kept boxed in.\n- Sol in ultra mode tops Terminal-Bench 2.1 at 91.9% and matches Anthropic's restricted Mythos Preview on ExploitBench while burning roughly a third of the tokens.\n- The launch lands one day after Grok 4.5 and hours after Meta's Muse Spark 1.1, leaving Google's November 2025 Gemini 3 as the oldest frontier flagship still standing.\nOpenAI's GPT-5.6 Sol is now public. The company released its new flagship model to general users today, launching alongside two smaller siblings, Terra and Luna, after the U.S. Department of Commerce kept a preview restricted to about 20 trusted partners for two weeks.\nThe naming strategy is new for OpenAI. This is the first time the company gives names to its models instead of simply using numbers. Sol, Terra, and Luna mark capability tiers that can move on their own cadence. Sol is the flagship, Terra the everyday model OpenAI says matches GPT-5.5 at half the price, and Luna the cheaper option.\nPricing runs $5 and $30 per million input and output tokens for Sol, dropping to $1 and $6 for Luna. (Tokens, for those not in the know, are the smallest unit of information a model can handle. And companies typically price their models on a per token basis for API services) Two new knobs ship with it: a max reasoning effort that lets Sol think longer, and an ultra mode that farms work out to subagents.\nFor context, Anthropic charges $10/$50 for Claude Fable 5, Google charges $2/$12 for Gemini 3.1 Pro, xAI charges $15/$75 for Grok 4.5.\nOn the Chinese side: DeepSeek charges $1.74/$3.48 for V4 Pro, and Xiaomi charges just $1/$5 for MiMo v2.5 Pro—placing Sol between the premium U.S. frontier models and China's low-cost challengers.\nWhat the benchmarks show\nOn Terminal-Bench 2.1—a test of command-line workflows that reward planning, tool use, and iteration, scored as the share of tasks a model completes—Sol in its ultra configuration hit 91.9%, with standard Sol at 88.8%.\nThat puts both ahead of Anthropic's Claude Mythos 5 at 88.0%, Claude Fable 5 at 84.3%, and Claude Opus 4.8 at 78.9%. Google's Gemini 3.1 Pro Preview trailed the chart at 70.7%.\nOpenAI leaned hardest on cyber. On ExploitBench, which measures how well a model finds and weaponizes software vulnerabilities, Sol matched the restricted Mythos Preview while spending roughly a third of the tokens. OpenAI says Sol still doesn't cross the \"Cyber Critical\" line in its own risk framework.\nThe testers already have opinions\nEarly access was loud. Theo, a well-known developer, AI youtuber and CEO of the AI platform T3 Chat, called Sol \"world leading in computer use\" and said it fixed the complaints he had with GPT-5.5.\nDan Shipper, whose team at Every tested it for a month, offered the cleaner line: \"GPT-5.6 is like a Porsche, Fable is like a warp drive.\" His read is that Sol is the daily driver and Fable the thing you reach for to cross the galaxy.\nResearcher Daichi Konno, who got in early, said Sol clearly beats GPT-5.5 and lands near Fable 5, with Anthropic still ahead in writing tasks. His sharper note: Sol's safeguards didn't trip on life-science questions, which he thinks could make it a default for biology work.\nLeaks already point past it. One roadmap-tracking account, \"Synthwave\" on X, claims GPT-5.6 is the last of the 5.x line, with GPT-6 built on a larger base arriving within about a month. The same thread pegs Anthropic's Fable 5.1 as close and DeepSeek's V4 general release as imminent.\nThe timing is pointed. Sol arrives the same week Anthropic's Fable 5 drops out of subscription plans—after it returned globally on July 1, the model moved to usage credits only once its 50% weekly allowance expired on July 7.\nIt's crowded at the top. SpaceXAI shipped Grok 4.5 yesterday at a fraction of the price, which Elon Musk called \"roughly comparable to Opus 4.7, but much faster.\" Meta released Muse Spark 1.1 this morning, its first paid model. Neither leads the pack, but both are frontier-class.\nThat leaves Google as the one big U.S. lab that hasn't refreshed its flagship in this run. Its top model, Gemini 3, has been out since November 2025—the oldest frontier release still standing while OpenAI, Anthropic, xAI, and Meta all moved in the same seven days.\nDaily Debrief Newsletter\nStart every day with the top news stories right now, plus original features, a podcast, videos and more.",
+    "source": "Decrypt",
+    "category": "crypto",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-09T17:24:19+00:00",
+    "crawled": "2026-07-09T17:27:57.973471+00:00",
+    "summarized": true,
+    "ai_summary": "• OpenAI於今日正式推出GPT-5.6 Sol，並同時推出兩個較便宜的模型Terra和Luna，結束了為期兩週的預覽限制。\n• Sol在Terminal-Bench 2.1的超級模式中達到91.9%的完成率，並在ExploitBench上與Anthropic的Mythos Preview相匹配，使用的token約為三分之一。\n• Sol的定價為每百萬個輸入和輸出token分別為5美元和30美元，而Luna則為1美元和6美元。\n• 測試者對Sol的評價普遍正面，認為其在計算機使用方面表現出色，並解決了之前版本的問題。",
+    "summaries": {
+      "zh-HK": "• OpenAI於今日正式推出GPT-5.6 Sol，並同時推出兩個較便宜的模型Terra和Luna，結束了為期兩週的預覽限制。\n• Sol在Terminal-Bench 2.1的超級模式中達到91.9%的完成率，並在ExploitBench上與Anthropic的Mythos Preview相匹配，使用的token約為三分之一。\n• Sol的定價為每百萬個輸入和輸出token分別為5美元和30美元，而Luna則為1美元和6美元。\n• 測試者對Sol的評價普遍正面，認為其在計算機使用方面表現出色，並解決了之前版本的問題。"
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-09/spain-s-joint-debt-proposal-questioned-by-eu-s-largest-economies",
+    "title": "Spain’s Joint Debt Proposal Questioned by EU’s Largest Economies",
+    "summary": "A Spanish bid to boost joint debt issuance by the European Union was met with skepticism from some of the bloc’s top economies.",
+    "full_text": "",
+    "source": "Bloomberg Crypto",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Finance",
+    "published": "2026-07-09T17:12:44+00:00",
+    "crawled": "2026-07-09T17:27:59.771661+00:00",
+    "summarized": true,
+    "ai_summary": "• 西班牙提出增強歐盟共同債務發行的提議 \n• 此提議受到歐盟一些主要經濟體的質疑 \n• 主要經濟體對該提議的可行性和影響表示擔憂 \n• 此次討論反映出歐盟內部對財政策略的分歧",
+    "summaries": {
+      "zh-HK": "• 西班牙提出增強歐盟共同債務發行的提議 \n• 此提議受到歐盟一些主要經濟體的質疑 \n• 主要經濟體對該提議的可行性和影響表示擔憂 \n• 此次討論反映出歐盟內部對財政策略的分歧"
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-09/franklin-s-dudley-sees-ai-infrastructure-bull-case-through-2027",
+    "title": "Franklin’s Dudley Sees AI Infrastructure Bull Case Through 2027",
+    "summary": "Franklin Templeton’s Katrina Dudley said the bull case for infrastructure spending on artificial intelligence is winning out over bear arguments and sees the investment theme remaining durable through 2027 and potentially into the year beyond.",
+    "full_text": "",
+    "source": "Bloomberg Crypto",
+    "category": "finance",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-09T17:11:31+00:00",
+    "crawled": "2026-07-09T17:27:59.919036+00:00",
+    "summarized": true,
+    "ai_summary": "• 富蘭克林坦伯頓的卡特里娜·達德利表示，對人工智能基礎設施的投資前景看好，超過了悲觀論點  \n• 她預測這一投資主題將在2027年之前保持持久性，甚至可能延續至更遠的未來  \n• 達德利強調，基礎設施支出在人工智能領域的重要性日益增加  \n• 這一觀點反映出市場對人工智能技術的持續信心和需求",
+    "summaries": {
+      "zh-HK": "• 富蘭克林坦伯頓的卡特里娜·達德利表示，對人工智能基礎設施的投資前景看好，超過了悲觀論點  \n• 她預測這一投資主題將在2027年之前保持持久性，甚至可能延續至更遠的未來  \n• 達德利強調，基礎設施支出在人工智能領域的重要性日益增加  \n• 這一觀點反映出市場對人工智能技術的持續信心和需求"
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-09/ing-weighs-venezuela-commodity-deals-as-client-requests-rise",
+    "title": "ING Weighs Venezuela Commodity Deals as Client Requests Rise",
+    "summary": "ING Groep, one of the top financiers of commodity trading, is fielding “a lot” of calls from clients to support Venezuelan natural resource deals as the country revamps exports after years of US sanctions, its new Americas commodity finance head said.",
+    "full_text": "",
+    "source": "Bloomberg Crypto",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Trading",
+    "published": "2026-07-09T17:00:24+00:00",
+    "crawled": "2026-07-09T17:28:00.062766+00:00",
+    "summarized": true,
+    "ai_summary": "• ING Groep的美洲商品融資負責人表示，該公司收到大量客戶要求支持委內瑞拉天然資源交易的電話  \n• 委內瑞拉在經歷多年美國制裁後，正在重整其出口  \n• ING作為主要的商品交易融資機構，正在考慮相關交易  \n• 客戶需求的上升反映出委內瑞拉市場的潛在機會",
+    "summaries": {
+      "zh-HK": "• ING Groep的美洲商品融資負責人表示，該公司收到大量客戶要求支持委內瑞拉天然資源交易的電話  \n• 委內瑞拉在經歷多年美國制裁後，正在重整其出口  \n• ING作為主要的商品交易融資機構，正在考慮相關交易  \n• 客戶需求的上升反映出委內瑞拉市場的潛在機會"
+    }
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
+    "title": "Meta’s new AI chips will begin production in September",
+    "summary": "In its bid to spend less on GPUs from providers like Nvidia, Meta is on track to start making its the latest versions of its AI-specific chips in September.",
+    "full_text": "In a bid to lower its GPU costs amid an unprecedented component shortage, Meta is on track to start making the latest versions of its AI-specific chip in September, Reuters reported, citing an internal memo.\nAt least one chip sailed through its testing phase in about six weeks, the memo said. Meta is working with Broadcom on the chip design, however it will use Taiwan’s TSMC to manufacture them. It is also buying RAM from Samsung, storage from Sandisk, and fiber optic equipment from Sumitomo Electric, according to the report.\nMeta detailed the four new chips, developed under its Meta Training and Inference Accelerator (MTIA) program, in March, some of which are currently in deployment or will be this year or next. The company is taking a modular approach to designing these chips, anticipating that their needs will change as AI evolves rapidly by the time the chips are in production.\n“Each MTIA generation builds on the last, using modular chiplets, incorporating the latest AI workload insights and hardware technologies, and deploying on a shorter cadence,” the company wrote at the time.\nThe chips are expected to help the company save on buying GPUs from chipmakers like Nvidia and AMD, although it still expects to spend plenty with those providers as well, Reuters reports. Meta intends to use the MTIA chips for training models for its ranking and recommendation algorithms, broader AI workloads, and inference aimed at its applications. The social media company has been producing its own AI chips since 2023.\nMeta has been spending massively on securing enough computing capacity to power its various AI efforts. The company in April said it expects capital expenditures between $125 billion and $145 billion this year, a lot of which is going towards its AI efforts.\nThe company has been striking data center and power deals across the world, spending tens of billions to secure computing capacity to train and deploy its new Muse Spark series of AI models. It plans to deploy 7 gigawatts of compute this year, and double that next, according to Reuters, which cited the memo.\nIt also signed a deal with ARM last year to secure compute for its recommendation systems, in addition to a multi-billion deal with AMD for its Instinct GPUs, and a multi-billion dollar deal with Amazon to use the cloud giant’s homegrown CPUs for AI-related needs.\nMeta isn’t the only company trying to stem the tide of capital going to Nvidia. OpenAI last month unveiled an inference processor that it is building with Broadcom, and Anthropic is said to be considering developing its own chips with Samsung. Amazon and Google both develop their own chips for AI training and inference, and there’s a host of startups building in the space to meet skyrocketing demand.\nMeta declined comment.",
+    "source": "TechCrunch",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Tech",
+    "published": "2026-07-09T17:17:37+00:00",
+    "crawled": "2026-07-09T17:28:03.167188+00:00",
+    "summarized": true,
+    "ai_summary": "• Meta計劃於9月開始生產最新版本的AI專用晶片，以降低GPU成本，應對前所未有的元件短缺。  \n• Meta與Broadcom合作設計晶片，並將由台灣的TSMC負責生產，還將從三星購買RAM、從Sandisk購買存儲設備及從住友電氣購買光纖設備。  \n• 新的晶片將用於訓練Meta的排名和推薦算法模型，並支援更廣泛的AI工作負載，Meta自2023年以來已開始生產自家AI晶片。  \n• Meta預計今年的資本支出在1250億至1450億美元之間，主要用於其AI項目，並計劃部署7吉瓦的計算能力。",
+    "summaries": {
+      "zh-HK": "• Meta計劃於9月開始生產最新版本的AI專用晶片，以降低GPU成本，應對前所未有的元件短缺。  \n• Meta與Broadcom合作設計晶片，並將由台灣的TSMC負責生產，還將從三星購買RAM、從Sandisk購買存儲設備及從住友電氣購買光纖設備。  \n• 新的晶片將用於訓練Meta的排名和推薦算法模型，並支援更廣泛的AI工作負載，Meta自2023年以來已開始生產自家AI晶片。  \n• Meta預計今年的資本支出在1250億至1450億美元之間，主要用於其AI項目，並計劃部署7吉瓦的計算能力。"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cyv0znm6y2eo?at_medium=RSS&at_campaign=rss",
+    "title": "Heat health alerts extended as record for most 34C days in a year broken",
+    "summary": "Almost all of England is under amber alerts for likely disruption to health services and travel.",
+    "full_text": "Heat health alerts extended as record for most 34C days in a year broken\n- Published\nAmber heat health alerts have been extended to the north of England, as the third heatwave of the year saw temperatures soar to 35C (95F) on Thursday.\nThe alerts cover almost all of England, indicating that the heat is likely to have a significant impact on health services and cause possible travel disruption until 21:00 BST on Sunday.\nNHS England has warned many of its ambulance services are facing \"sustained pressure\" due to the heatwave, and rail services have advised passengers to expect disruption.\nWhile temperatures are not due to match those recorded in June's record-breaking heatwave, the heat may last longer - possibly until the end of next week.\nThe current heatwave is not expected to break any daily temperature records - but earlier the Met Office announced is is the eighth day this year where the heat has reached or exceeded 34C.\nThere were two in the May heatwave, four in June's and so far two in this one, which is a record for the calendar year, surpassing 1976 and 2020. A further temperature reading of 34C or over is expected on Friday.\nThe alerts for north-west England and Yorkshire - issued in situations that could potentially put the whole population at risk - join those already in force for the Midlands, eastern, and southern England.\nA yellow alert, indicating that significant impact is possible, covers the north-east.\nThe worst of the heat is expected in southern and eastern England, parts of which declared a heatwave on Monday after five days at or above 30C, placing additional pressure on players and spectators at Wimbledon gearing up for the semi-finals.\nTemperatures hit 35.1C in Wisley, Surrey on Thursday afternoon - approaching the record 35.7C seen at the London tennis championship in 2015.\nAdditional water and electrolytes are being provided to players, as well as iced towels and umbrellas during changeovers. A 10-minute break can be requested between sets if the temperature and humidity pass a certain threshold.\nMeanwhile on Thursday, 30.4C has been recorded in Cardiff, Wales, 27.0C in Aboyne, Scotland and 25.0C in Killowen, Northern Ireland.\n- Why heatwaves hit women harder - Published17 hours ago\n \n- How can I get air conditioning in my home and how much does it cost? - Published7 hours ago\n \nRail passengers have been advised to expect disruption with the heatwave expected to peak on Thursday and Friday.\nSeveral c2c trains have been suspended for the next two days, while East Midlands Railway has advised passengers to avoid all but essential travel.\nWest Midlands Railway and London Northwestern Railway reported \"heat related issues\" affected some of their services early on Thursday. Operators South Western Railway and Great Western Railways have warned they are expecting to face similar disruption.\nTransport for Wales has said a speed restriction is in place due to high track temperatures between Aberdare and Fernhill in South Wales, with disruption expected until 21:30.\nSeparately, the UK's electricity grid operator Neso has issued a request for more power to be made available during the ongoing heatwave.\nExtreme heat can make energy processes less efficient and lead to a spike in electricity demand as people increase their use of air conditioning, freezers and fridges.\nNeso's notice warns there could be \"tight electricity margins\" on Thursday evening, but does not suggest a risk of shortages or blackouts.\nMeanwhile, the public has been advised to heed safety advice and care for each other as the prolonged spell of extreme heat continues.\nNHS England has asked the public to \"take the heat seriously\" - particularly when it comes to children, the elderly and those with existing conditions - as it warned many of its ambulance services were under pressure.\nThe Royal College of Paramedics advised drinking enough water, supporting those who may be vulnerable with access to water and cooling systems, and trying to stay out of the sun when the heat tends to peak from 12:00-16:00.\nThe Welsh Ambulance Service has warned dehydration and fatigue from the heat could cause falls, while South Wales Fire and Rescue has advised extra caution around open water.\n\"Warm weather does not mean warm water, and cold water can affect your breathing and swimming ability very quickly,\" cautioned station manager Gavin Murphy.\nThe National Fire Chiefs Council (NFCC) warned on Wednesday that the dry and hot weather posed an increased risk of wildfires. The NFCC also advised people to avoid using disposable barbecues in open countryside, park and moorlands.\nWhile the worst heat is expected over the next two days, temperatures could remain well above the July average of 18-23C for another week - which would make it one of the UK's longest heatwaves since 1976.\nIt comes weeks after the hottest June ever recorded across western Europe - and the second-hottest seen globally - when UK temperatures peaked at a record-breaking 37.7C in Norfolk.\nScientists have warned such weather events have been made more likely and more intense by human-induced climate change, and that UK and European summers will keep getting warmer on average as carbon emissions continue to heat up the planet.\nThe number of days exceeding 30C in the UK more than trebled between 2015 and 2024 compared with the 1961-1990 average, according to the Met Office.\nThe maximum temperature recorded each year has also shot up, and where it was rare to reach 35C in the 20th Century, six of the past 10 years have seen temperatures surpass that mark.\n- Published1 day ago\n \n- Published24 June",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "Health",
+    "published": "2026-07-09T16:52:24+00:00",
+    "crawled": "2026-07-09T17:28:13.660630+00:00",
+    "summarized": true,
+    "ai_summary": "• 英格蘭北部發出琥珀色熱健康警報，因為本年度第三次熱浪使氣溫在星期四達到35°C（95°F）  \n• 警報覆蓋幾乎整個英格蘭，預計將對健康服務造成重大影響，並可能導致旅行中斷，持續至星期日晚上9時  \n• 英國國民健康服務警告，許多救護服務因熱浪面臨「持續壓力」，鐵路服務亦建議乘客預期會有中斷  \n• 本次熱浪雖然不會打破每日氣溫紀錄，但已成為今年第八天氣溫達到或超過34°C，超過1976年和2020年的紀錄",
+    "summaries": {
+      "zh-HK": "• 英格蘭北部發出琥珀色熱健康警報，因為本年度第三次熱浪使氣溫在星期四達到35°C（95°F）  \n• 警報覆蓋幾乎整個英格蘭，預計將對健康服務造成重大影響，並可能導致旅行中斷，持續至星期日晚上9時  \n• 英國國民健康服務警告，許多救護服務因熱浪面臨「持續壓力」，鐵路服務亦建議乘客預期會有中斷  \n• 本次熱浪雖然不會打破每日氣溫紀錄，但已成為今年第八天氣溫達到或超過34°C，超過1976年和2020年的紀錄"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/cp8rd56dk1go?at_medium=RSS&at_campaign=rss",
+    "title": "Morocco's unfinished business with France",
+    "summary": "Morocco are set to play in another World Cup quarter-final, but are they football's dreamers or is this where they belong?",
+    "full_text": "Morocco's unfinished business with France\n- Published\nFrance vs Morocco isn't just another World Cup quarter-final. For many Moroccan fans, it's unfinished business.\nFour years ago, France ended Morocco's extraordinary World Cup run in Qatar, knocking out the first African and Arab nation ever to reach a World Cup semi-final.\nOn Thursday in Boston they meet again, but this time Morocco aren't returning as football's dreamers.\nThey're returning believing they belong.\n\"This is a revenge match for the Moroccan national team,\" says Moroccan sports journalist Hamza Shteiwy.\n\"Especially for the players who were part of that 2022 squad. They felt that loss deeply, and now they're looking to settle the score - for themselves and for the team.\"\n'What happened in Qatar wasn't a fluke'\nI still remember standing inside Al Bayt Stadium that night in Qatar. Even in defeat, there was a sense that something extraordinary had happened. Morocco had changed the way the football world saw them.\nBack then, simply reaching the semi-finals felt like a miracle.\nToday, reaching the semi-finals would simply meet expectations.\n\"In 2022 we were the dreamers,\" says Shteiwy. \"Now people's expectations are much higher. Anything less than the semi-finals wouldn't be considered an achievement.\"\nThat confidence isn't built on nostalgia.\nSince Qatar, Morocco's Under-20 side has won the Under-20 World Cup, the senior team has climbed to sixth in Fifa's rankings, and the Royal Moroccan Football Federation's (RMFF) long-term investment in youth development is beginning to bear fruit.\n\"What happened in Qatar wasn't a fluke,\" says veteran Moroccan journalist Hameed Bel Hassan.\n\"It was the result of years of strategic planning and programmes put in place by the Royal Moroccan Football Federation. This has been a national project. We now have a formidable national team.\"\n- Could Morocco become a football powerhouse? - Published9 hours ago\n \n- Olise yellow card stands as Saibari out for Morocco - Published9 hours ago\n \nMorocco have looked every bit the solid contenders throughout this tournament, standing up to some of world football's heavyweights with confidence, discipline and belief. They held Brazil before beating Scotland, the Netherlands and Canada to set up another meeting with France.\n\"There's deep faith in this team,\" says Shteiwy.\n\"There are flights full of supporters coming from Morocco to the United States. Moroccans from around the world have travelled to follow the team. I dare say Morocco will have the stronger support.\"\nFrance, however, remain perhaps the tournament's most complete side.\nWith Kylian Mbappe leading one of the world's most talented squads, Les Bleus have reached the quarter-finals playing some of the tournament's most fluid football.\n\"Individually they're stronger,\" Shteiwy admits.\n\"But Morocco's midfield is about equal. If they can press France early, like they did against Brazil, they can create problems. The 11 players just need to perform as one.\"\nBut Morocco believe their strength extends beyond tactics.\nInfluence of the players' mothers\nOne of the more unusual features of the Atlas Lions' rise has been the prominent role of the players' mothers. During the 2022 World Cup, images of Achraf Hakimi embracing his mother and Sofiane Boufal dancing with his on the pitch became defining moments of Morocco's historic run. This tournament has produced more of those moments, including Ismael Saibari running straight into the stands to embrace his emotional mother after scoring the winning penalty against the Netherlands.\nWhen the team returned home from Qatar, the players and their mothers were welcomed together by King Mohammed VI.\nFar from being spontaneous celebrations, Morocco's football leadership say those moments reflect a deliberate philosophy.\nRMFF president Fouzi Lekjaa has described having players' mothers present during major tournaments as \"one of the most effective and positive psychological support strategies\" adopted by the federation, saying it gave the players \"real impetus\".\n\"When the player sees his mother in the stands, it's a huge boost and motivation,\" says Bel Hassan. \"The players themselves have spoken about how supported they feel.\n\"A mother's prayer, nothing really comes close,\" he added.\nThat emphasis on family, belief and emotional resilience has become part of Morocco's identity, alongside years of investment in youth development, infrastructure and a clear footballing vision.\nA rivalry steeped in history\nThis match carries weight beyond football.\nFrance and Morocco share a long and complicated history, shaped by colonialism, migration and one of Europe's largest Moroccan diasporas.\nMany of the families travelling to back the Atlas Lions will have flown from France.\nSeveral Moroccan internationals could have represented France but chose instead the country of their parents and grandparents, a decision that makes this as much about identity as football.\nFor Shteiwy, that adds another layer to Thursday's encounter.\n\"There are players who played for France's youth teams,\" he says. \"They'll now play with strong feelings and will want to prove they could have represented Les Bleus, but chose instead the country of their heritage.\"\nHakimi versus Mbappe - club team-mates, close friends and, for one night, rivals - has become the sporting symbol of that story.\nSo the question isn't simply whether Morocco can beat France.\nIt's whether the team that shocked the world in Qatar can prove that campaign wasn't the peak, but the foundation.\nIn Qatar, Morocco made history. In Boston, they have the chance to prove it was only the beginning.\nRelated topics\n- Published6 days ago\n \n- Published1 April",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-09T12:40:13+00:00",
+    "crawled": "2026-07-09T17:28:13.693411+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+    "title": "OpenAI rolls out GPT-5.6 after government green light — and announces ‘ChatGPT Work’",
+    "summary": "About two weeks after OpenAI's GPT-5.6 was caught up in regulatory drama - rolled out only to government-approved organizations during a \"limited preview\" period - the company has received the Trump administration's green light for a public rollout of the model. OpenAI CEO Sam Altman called it \"the best model we have ever produced.\" To [&#8230;]",
+    "full_text": "About two weeks after OpenAI’s GPT-5.6 was caught up in regulatory drama — rolled out only to government-approved organizations during a “limited preview” period — the company has received the Trump administration’s green light for a public rollout of the model. OpenAI CEO Sam Altman called it “the best model we have ever produced.”\nOpenAI rolls out GPT-5.6 after government green light — and announces ‘ChatGPT Work’\nThe limited preview period is officially over.\nThe limited preview period is officially over.\nTo celebrate, OpenAI also unveiled a new AI agent on the same day: ChatGPT Work. It’s billed as a combination of ChatGPT and Codex, allowing the everyday non-technical user to take advantage of Codex’s capabilities for non-coding tasks, and it’s powered by the GPT-5.6 model suite (Sol, Terra, and Luna). “It can gather context from the apps, files, and workflows you choose and create finished materials such as documents, spreadsheets, presentations, and web apps,” OpenAI wrote in a blog post, adding that a “unified plugins directory” allows ChatGPT to connect to tools like Slack, Gmail, Google Drive, calendars, and CRMs.\nMac and Windows users worldwide, including free ChatGPT users, should have immediate access to ChatGPT Work and GPT-5.6 via the ChatGPT desktop app. On mobile and the web, Pro, Enterprise, and Edu users will first get access, while Plus and Business users will receive access “over the next few days,” OpenAI wrote, adding that the “rollout is starting globally and will continue gradually toward full availability over the next 24 hours.”\nCompanies like OpenAI and Anthropic, as well as tech giants like Google (and even, recently, Apple), have been vying to clear new ground in the race to make AI agents actually useful for the average person, especially in the wake of the viral open-source AI agent OpenClaw. They’ve had varying results, and for now, the theoretical right-hand AI agent for the everyday consumer remains out of reach.\nOpenAI is hoping that its new product, which is a direct competitor to Anthropic’s Claude Cowork (combining its own Claude and Claude Code), will push it ahead in the race.\nOpenAI is especially banking on Sol, the most powerful of the GPT-5.6 model suite, to set “a new standard for intelligence and efficiency,” particularly when it comes to coding, cybersecurity, and science, as well as computer use capabilities. The company is also marketing the model as a lower-cost alternative to competitors’ most powerful models, amid complaints of an industry-wide money squeeze and AI lab costs being passed onto customers.",
+    "source": "The Verge",
+    "category": "tech",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-09T17:00:00+00:00",
+    "crawled": "2026-07-09T17:28:35.248226+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSnBKU2F6UHNKQktTTTBUVXZIYUhGWTc1SjMwVWlUQkVsTDFmMWw5c0QyQWg3SE9sRmJwMGJYTnhIYkFjSzV6TGxaQml6QkQySW9FNWlFampwRnhTazRXUEJ6ekZGcEl6N3BRM0FFX3ZJVjUtaUVxQnVnSlpYQ0piM2xpZFg5RUVkQXZVS1ZweXRaQXRFZE03c2VXU1Z2UEd2NHJMakxmZXJaaHZ4S2hnOFBkcVZmSzg?oc=5",
+    "title": "Citigroup expands cross-border instant payments to partner banks - Reuters",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPSnBKU2F6UHNKQktTTTBUVXZIYUhGWTc1SjMwVWlUQkVsTDFmMWw5c0QyQWg3SE9sRmJwMGJYTnhIYkFjSzV6TGxaQml6QkQySW9FNWlFampwRnhTazRXUEJ6ekZGcEl6N3BRM0FFX3ZJVjUtaUVxQnVnSlpYQ0piM2xpZFg5RUVkQXZVS1ZweXRaQXRFZE03c2VXU1Z2UEd2NHJMakxmZXJaaHZ4S2hnOFBkcVZmSzg?oc=5\" target=\"_blank\">Citigroup expands cross-border instant payments to partner banks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+    "full_text": "",
+    "source": "Reuters (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-09T13:47:26+00:00",
+    "crawled": "2026-07-09T17:28:38.190307+00:00",
+    "summarized": true,
+    "ai_summary": "• 花旗集團擴展其跨境即時支付服務至合作銀行，旨在提高全球支付效率  \n• 新增的合作銀行包括多家國際金融機構，服務範圍涵蓋多個國家  \n• 此舉是為了滿足日益增長的國際交易需求  \n• 花旗集團表示，這項服務將有助於簡化跨境支付流程並降低成本",
+    "summaries": {
+      "zh-HK": "• 花旗集團擴展其跨境即時支付服務至合作銀行，旨在提高全球支付效率  \n• 新增的合作銀行包括多家國際金融機構，服務範圍涵蓋多個國家  \n• 此舉是為了滿足日益增長的國際交易需求  \n• 花旗集團表示，這項服務將有助於簡化跨境支付流程並降低成本"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUGxMWUZxRlZkMWRRLUJqUFNEeU9MbmJNSlY2cm81S0ZVNndpc1QxdnF2ekpmeGpkVVJpeGlTTzhiRVNwSFdISHJ6dTY2cUI4NDRSNHRLRGh2RnRid2dPcnFNNmd0d19jam9DbW52dzBibW5lWndVeE5RZnFxTnNmbVBZLUROWEs2VjMtTGtwT0N1LWtoMTRWcm1Kc2VSNnVqekxpNXdTRlRQRFAxNm9ORFJvMWtSaWVwQ3RPRXZUTUticVRKX3JrMVBudmhwdWh3cWp2aDdWTW5QR3hUMUNBejBNX25rV0pDaHljQXZfbWNzUQ?oc=5",
+    "title": "Artificial Intelligence in Febrile Neutropenia: From Risk Scores to Real-Time Clinical Decision Support - Cureus",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUGxMWUZxRlZkMWRRLUJqUFNEeU9MbmJNSlY2cm81S0ZVNndpc1QxdnF2ekpmeGpkVVJpeGlTTzhiRVNwSFdISHJ6dTY2cUI4NDRSNHRLRGh2RnRid2dPcnFNNmd0d19jam9DbW52dzBibW5lWndVeE5RZnFxTnNmbVBZLUROWEs2VjMtTGtwT0N1LWtoMTRWcm1Kc2VSNnVqekxpNXdTRlRQRFAxNm9ORFJvMWtSaWVwQ3RPRXZUTUticVRKX3JrMVBudmhwdWh3cWp2aDdWTW5QR3hUMUNBejBNX25rV0pDaHljQXZfbWNzUQ?oc=5\" target=\"_blank\">Artificial Intelligence in Febrile Neutropenia: From Risk Scores to Real-Time Clinical Decision Support</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cureus</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-09T16:11:01+00:00",
+    "crawled": "2026-07-09T17:28:40.655037+00:00",
+    "summarized": true,
+    "ai_summary": "• 一項研究探討人工智能在發熱性中性粒細胞減少症中的應用，重點在風險評分和即時臨床決策支持系統  \n• 研究顯示，人工智能能提高診斷準確性和患者管理效率  \n• 研究團隊於2023年在Cureus期刊發表相關論文  \n• 目的是改善發熱性中性粒細胞減少症患者的臨床結果和治療決策過程",
+    "summaries": {
+      "zh-HK": "• 一項研究探討人工智能在發熱性中性粒細胞減少症中的應用，重點在風險評分和即時臨床決策支持系統  \n• 研究顯示，人工智能能提高診斷準確性和患者管理效率  \n• 研究團隊於2023年在Cureus期刊發表相關論文  \n• 目的是改善發熱性中性粒細胞減少症患者的臨床結果和治療決策過程"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbzJHMnRFdGY3UkFZelJ0THFDNE5rSGVram9wUVNlYkwtUnM5bFNSUFVlZ1FoejJvQlFMZkJkV1JhcURHSE9ySkpVNFFsM1piV3NKcV9LaFc0SGlCNnpqSUxtSnEyZk5LZ1AxY3N0R25KWktTcHhoRmhZU29ZNGxlMFlOZTdGeWFDalRQdzRvSWVlem9XZGF3WlNWNFZTaDlNbXNIYQ?oc=5",
+    "title": "Artificial Intelligence: Patient education, or misinformation? - Ophthalmology Times Europe",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNbzJHMnRFdGY3UkFZelJ0THFDNE5rSGVram9wUVNlYkwtUnM5bFNSUFVlZ1FoejJvQlFMZkJkV1JhcURHSE9ySkpVNFFsM1piV3NKcV9LaFc0SGlCNnpqSUxtSnEyZk5LZ1AxY3N0R25KWktTcHhoRmhZU29ZNGxlMFlOZTdGeWFDalRQdzRvSWVlem9XZGF3WlNWNFZTaDlNbXNIYQ?oc=5\" target=\"_blank\">Artificial Intelligence: Patient education, or misinformation?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ophthalmology Times Europe</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-09T16:34:00+00:00",
+    "crawled": "2026-07-09T17:28:41.016883+00:00",
+    "summarized": true,
+    "ai_summary": "• 文章探討人工智能在眼科病人教育中的應用及其潛在的錯誤資訊風險  \n• 專家指出，人工智能可以提供有用的醫療資訊，但也可能導致病人誤解  \n• 醫療專業人士強調需謹慎使用人工智能工具，以確保病人獲得準確的資訊  \n• 文章呼籲加強對醫療工作者和病人的教育，以提高對人工智能的正確理解",
+    "summaries": {
+      "zh-HK": "• 文章探討人工智能在眼科病人教育中的應用及其潛在的錯誤資訊風險  \n• 專家指出，人工智能可以提供有用的醫療資訊，但也可能導致病人誤解  \n• 醫療專業人士強調需謹慎使用人工智能工具，以確保病人獲得準確的資訊  \n• 文章呼籲加強對醫療工作者和病人的教育，以提高對人工智能的正確理解"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONzZ5Sy1PVWJFYTdsU1FGVnBmc3pnZGFJMkd6OG83eHd2YmhkN09HcGtDeUxWQ2Nndm9YT3lBVExienZhM1M1QmJZY0dOX2hwTng3N19SQ2RPYV9lNzQwR0FYV0J1YUtqOUJ5ZURjNXV5NVk5VVVNcGxDb1BDVWNzTTdkOWtQQi1sVVJnWjUxTjN6bFN3YUNrTjY4ZlM5V0RreGNzUXNnVldvNHpZT2c?oc=5",
+    "title": "Artificial Intelligence Today and Tomorrow in Laundry Operations (Part 2) - American Laundry News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxONzZ5Sy1PVWJFYTdsU1FGVnBmc3pnZGFJMkd6OG83eHd2YmhkN09HcGtDeUxWQ2Nndm9YT3lBVExienZhM1M1QmJZY0dOX2hwTng3N19SQ2RPYV9lNzQwR0FYV0J1YUtqOUJ5ZURjNXV5NVk5VVVNcGxDb1BDVWNzTTdkOWtQQi1sVVJnWjUxTjN6bFN3YUNrTjY4ZlM5V0RreGNzUXNnVldvNHpZT2c?oc=5\" target=\"_blank\">Artificial Intelligence Today and Tomorrow in Laundry Operations (Part 2)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">American Laundry News</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-09T17:07:09+00:00",
+    "crawled": "2026-07-09T17:28:41.442541+00:00",
+    "summarized": true,
+    "ai_summary": "• 本文探討人工智能在洗衣業務中的應用及未來發展，重點在於提升效率和降低成本  \n• 許多洗衣業者已開始採用自動化技術來改善操作流程  \n• 專家指出，人工智能能夠分析數據以優化洗衣程序和提高客戶滿意度  \n• 行業預計將持續投資於人工智能技術，以應對不斷變化的市場需求",
+    "summaries": {
+      "zh-HK": "• 本文探討人工智能在洗衣業務中的應用及未來發展，重點在於提升效率和降低成本  \n• 許多洗衣業者已開始採用自動化技術來改善操作流程  \n• 專家指出，人工智能能夠分析數據以優化洗衣程序和提高客戶滿意度  \n• 行業預計將持續投資於人工智能技術，以應對不斷變化的市場需求"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTnhwYXJmWndwNU5GZmlxLUZfbXY3bUdpU1lRVnJrc3lJWWhiazFERFA1Rng4eUp0TjhXMTBnN1hpSmg1NzVGLUU5c2JxSktXTTFJWUpEdnZPQ195QjMyTFB1ejlHdXdxNGJXQU8wcTFCdG8xOTJlZHFlWVZQRWh1NTJjSE8xQld5LW9aUFlVRk9leWRpM2xublRxaDhLdy1USFZTYTRsSjhlQzBrNzVwR216ekhHOUZkMTJHd0tUMlZXUllhY2Y0WDJHN0RXcFk?oc=5",
+    "title": "Illinois governor signs major AI safety law - Route Fifty",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxOTnhwYXJmWndwNU5GZmlxLUZfbXY3bUdpU1lRVnJrc3lJWWhiazFERFA1Rng4eUp0TjhXMTBnN1hpSmg1NzVGLUU5c2JxSktXTTFJWUpEdnZPQ195QjMyTFB1ejlHdXdxNGJXQU8wcTFCdG8xOTJlZHFlWVZQRWh1NTJjSE8xQld5LW9aUFlVRk9leWRpM2xublRxaDhLdy1USFZTYTRsSjhlQzBrNzVwR216ekhHOUZkMTJHd0tUMlZXUllhY2Y0WDJHN0RXcFk?oc=5\" target=\"_blank\">Illinois governor signs major AI safety law</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Route Fifty</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "Ai",
+    "published": "2026-07-09T17:00:00+00:00",
+    "crawled": "2026-07-09T17:28:41.891656+00:00",
     "summarized": false,
     "ai_summary": ""
   }
