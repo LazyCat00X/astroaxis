@@ -183,6 +183,17 @@ def main():
         f.write("User-agent: *\nAllow: /\nSitemap: https://lazycat00x.github.io/astroaxis-site/sitemap.xml\n")
     print(f"Wrote {robots_path}")
 
+    # Write _headers to allow Googlebot access to sitemap
+    headers_path = DEPLOY_DIR / "_headers"
+    headers_path.write_text(
+        "/*\n"
+        "  X-Robots-Tag: index, follow\n"
+        "  Access-Control-Allow-Origin: *\n"
+        "/sitemap.xml\n"
+        "  Content-Type: application/xml\n"
+        "  X-Robots-Tag: all\n"
+    )
+
 
 if __name__ == "__main__":
     main()
