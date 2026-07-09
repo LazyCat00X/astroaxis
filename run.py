@@ -6,14 +6,11 @@ import sys
 import time
 from pathlib import Path
 
-# Add project to path
-sys.path.insert(0, str(Path(__file__).parent))
-
 import crawler
 import summarizer
-import site_generator
 import generate_globe_data
 import generate_articles
+import generate_content_pages
 import generate_sitemap
 
 logging.basicConfig(
@@ -39,25 +36,17 @@ def run():
     summarized = summarizer.run()
     log.info("Summarized %d articles", summarized)
 
-    # Step 3: Generate site
-    log.info("--- Step 3: Generating site ---")
-    output = site_generator.generate()
-    
-    # Step 4: Generate globe data + article pages + sitemap
-    log.info("--- Step 4: Generating deploy files ---")
+    # Step 3: Generate deploy files
+    log.info("--- Step 3: Generating deploy files ---")
     generate_globe_data.main()
     generate_articles.generate()
+    generate_content_pages.main()
     generate_sitemap.generate_sitemap()
-    
-    if output:
-        log.info("=== Pipeline Complete: %s ===", output)
-    else:
-        log.warning("=== Pipeline Complete: no output generated ===")
-    
-    return output
+
+    log.info("=== Pipeline Complete ===")
+    return True
 
 
 if __name__ == "__main__":
-    output_path = run()
-    if output_path:
-        print(f"SITE_OUTPUT={output_path}")
+    ok = run()
+    sys.exit(0 if ok else 1)

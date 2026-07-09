@@ -8,9 +8,7 @@ copies globe.html as deploy/index.html.
 import json, re, sys
 from pathlib import Path
 
-BASE_DIR = Path(__file__).parent
-DATA_DIR = BASE_DIR / "data"
-DEPLOY_DIR = BASE_DIR / "deploy"
+from config import BASE_DIR, DATA_DIR, DEPLOY_DIR, SITE_URL, load_articles
 SRC_LOCS_PATHS = [
     DATA_DIR / "source_locs.json",
     Path("/tmp/source_locs.json"),

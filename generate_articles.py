@@ -3,23 +3,11 @@
 import json, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
-from hashlib import md5
 from urllib.parse import urlparse
 
-BASE_DIR = Path(__file__).parent
-DEPLOY_DIR = BASE_DIR / "deploy"
-ARTICLES_DIR = DEPLOY_DIR / "articles"
-SITE_URL = "https://lazycat00x.github.io/astroaxis-site"
+from config import DEPLOY_DIR, SITE_URL, slugify, load_articles
 
-def slugify(title):
-    """Create URL-safe slug from title."""
-    s = title.lower().strip()
-    s = re.sub(r'[^\w\s-]', '', s)
-    s = re.sub(r'[-\s]+', '-', s)
-    s = s.strip('-')[:80]
-    if not s:
-        s = md5(title.encode()).hexdigest()[:12]
-    return s
+ARTICLES_DIR = DEPLOY_DIR / "articles"
 
 ARTICLE_TEMPLATE = """<!DOCTYPE html>
 <html lang="{lang}">
@@ -119,7 +107,7 @@ h1.article-title{{font-size:clamp(22px,4vw,36px);font-weight:700;line-height:1.2
 <div class="breadcrumbs">
   <a href="/">AstroAxis</a>
   <span class="bc-sep">›</span>
-  <span>{topic}</span>
+  <a href="/topic/{topic_slug}/">{topic}</a>
   <span class="bc-sep">›</span>
   <span style="color:var(--text)">{title}</span>
 </div>
@@ -145,6 +133,7 @@ h1.article-title{{font-size:clamp(22px,4vw,36px);font-weight:700;line-height:1.2
 </body>
 </html>"""
 
+
 def estimate_reading_time(text):
     if not text or not text.strip():
         return "1 min read"
@@ -152,49 +141,44 @@ def estimate_reading_time(text):
     minutes = max(1, round(words / 200))
     return f"{minutes} min read"
 
+
 def time_ago(pub_str):
     try:
-        pub = datetime.fromisoformat(pub_str.replace('Z','+00:00'))
+        pub = datetime.fromisoformat(pub_str.replace('Z', '+00:00'))
         now = datetime.now(timezone.utc)
         diff = now - pub
         s = int(diff.total_seconds())
-        if s < 3600: return f"{max(1, s // 60)} minutes ago"
-        elif s < 86400: return f"{s // 3600} hours ago"
-        elif s < 172800: return "yesterday"
-        else: return f"{s // 86400} days ago"
-    except: return ""
+        if s < 3600:
+            return f"{max(1, s // 60)} minutes ago"
+        elif s < 86400:
+            return f"{s // 3600} hours ago"
+        elif s < 172800:
+            return "yesterday"
+        else:
+            return f"{s // 86400} days ago"
+    except:
+        return ""
+
 
 def generate():
-    # Load news data
-    news_path = DEPLOY_DIR / "news-data.json"
-    if not news_path.exists():
-        print("ERROR: news-data.json not found. Run generate_globe_data.py first.", file=sys.stderr)
-        return False
-    
-    with open(news_path) as f:
-        news_data = json.load(f)
-    
-    articles = news_data.get("articles", [])
+    articles = load_articles()
     if not articles:
-        print("ERROR: No articles in news-data.json", file=sys.stderr)
+        print("ERROR: No articles in data/articles.json", file=sys.stderr)
         return False
-    
-    # Load full_text from articles.json (not in news-data.json)
+
+    # Load full_text from articles.json
     full_text_map = {}
-    articles_json = BASE_DIR / "data" / "articles.json"
-    if articles_json.exists():
-        with open(articles_json) as f:
-            for a in json.load(f):
-                ft = a.get("full_text", "") or a.get("summary", "")
-                if ft and len(ft.strip()) > 100:
-                    full_text_map[a.get("url", "")] = ft
-    
+    from config import load_articles as _la
+    raw = _la()
+    for a in raw:
+        ft = a.get("full_text", "") or a.get("summary", "")
+        if ft and len(ft.strip()) > 100:
+            full_text_map[a.get("url", "")] = ft
+
     ARTICLES_DIR.mkdir(parents=True, exist_ok=True)
     count = 0
-    
-    # Track slugs to avoid duplicates
     slug_counts = {}
-    
+
     for a in articles:
         title = a.get("title", "Untitled")
         source = a.get("source", "Unknown")
@@ -204,44 +188,38 @@ def generate():
         published = a.get("published", "")
         summary = a.get("ai_summary", "")
         url = a.get("url", "")
-        
-        # Skip articles with no content
+
         if not title or not url:
             continue
-        
-        # Create unique slug
+
         base_slug = slugify(title)
-        slug = base_slug
         if base_slug in slug_counts:
             slug_counts[base_slug] += 1
             slug = f"{base_slug}-{slug_counts[base_slug]}"
         else:
             slug_counts[base_slug] = 1
-        
+            slug = base_slug
+
         canonical_url = f"{SITE_URL}/articles/{slug}.html"
         domain = urlparse(url).netloc if url else ""
         og_image = "https://lazycat00x.github.io/astroaxis-site/og-image.png"
-        
-        # Clean summary
+
         summary_clean = summary
         if not summary_clean or summary_clean == "(no content available)":
-            # Better fallback: use RSS summary or title-based description
             fallback = a.get("summary", "").strip()
             if fallback and len(fallback) > 20:
                 summary_clean = re.sub(r'<[^>]+>', '', fallback)[:300]
             else:
                 summary_clean = f"Read {title} on {source}"
-        
+
         reading_time = estimate_reading_time(summary_clean)
-        
-        # Strip HTML & decode HTML entities for meta description
+
         meta_desc_raw = re.sub(r'<[^>]+>', '', summary_clean).strip()
         meta_desc_raw = meta_desc_raw.replace('&nbsp;', ' ').replace('&amp;', '&')
         meta_desc_raw = re.sub(r'\s+', ' ', meta_desc_raw)
         meta_desc = meta_desc_raw[:200].replace("\n", " ").replace('"', "'")
-        
+
         summary_html = ""
-        # Wrap bullets in <li> if they use •
         if "•" in summary_clean:
             lines = []
             for line in summary_clean.split("\n"):
@@ -254,26 +232,25 @@ def generate():
                 summary_html = "<ul>\n" + "\n".join(lines) + "\n</ul>"
         if not summary_html:
             summary_html = meta_desc_raw[:500].replace("\n", "<br>")
-        
+
         meta_desc = meta_desc[:160]
-        
-        # Generate excerpt from full text (first ~400 chars of article body)
+
+        # Excerpt
         raw_text = full_text_map.get(url, "") or a.get("full_text", "") or a.get("summary", "")
         if raw_text and len(raw_text.strip()) > 100:
             excerpt_clean = re.sub(r'<[^>]+>', '', raw_text).strip()
             excerpt_clean = excerpt_clean.replace('&nbsp;', ' ').replace('&amp;', '&')
             excerpt_clean = re.sub(r'\s+', ' ', excerpt_clean)
             excerpt = excerpt_clean[:400]
-            # Find last sentence boundary
             if len(excerpt_clean) > 400:
                 last_period = max(excerpt.rfind('.'), excerpt.rfind('。'), excerpt.rfind('！'), excerpt.rfind('？'))
                 if last_period > 200:
-                    excerpt = excerpt_clean[:last_period+1]
+                    excerpt = excerpt_clean[:last_period + 1]
             excerpt_html = f'<div class="article-excerpt"><h3>原文節錄</h3><p>{excerpt}</p></div>'
         else:
             excerpt_html = ""
-        
-        # Generate related articles (same topic, exclude self)
+
+        # Related articles
         related = []
         for other in articles:
             if len(related) >= 3:
@@ -299,13 +276,16 @@ def generate():
             related_html = f'<div class="related-section"><h2>相關新聞</h2><div class="related-grid">{items}</div></div>'
         else:
             related_html = ""
-        
+
+        topic_slug = slugify(topic)
+
         article_html = ARTICLE_TEMPLATE.format(
             title=title,
             title_escaped=title.replace('"', '\\"'),
             source=source,
             topic=topic,
-            lang=lang if lang in ('en','zh','ja','ko') else 'en',
+            topic_slug=topic_slug,
+            lang=lang if lang in ('en', 'zh', 'ja', 'ko') else 'en',
             date_published=published or datetime.now(timezone.utc).isoformat(),
             date_modified=published or datetime.now(timezone.utc).isoformat(),
             time_ago=time_ago(published),
@@ -319,14 +299,15 @@ def generate():
             reading_time=reading_time,
             og_image=og_image,
         )
-        
+
         filepath = ARTICLES_DIR / f"{slug}.html"
         with open(filepath, "w") as f:
             f.write(article_html)
         count += 1
-    
+
     print(f"Generated {count} article pages in {ARTICLES_DIR}")
     return True
+
 
 if __name__ == "__main__":
     success = generate()
