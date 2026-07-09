@@ -2740,8 +2740,11 @@
     "topic": "DeFi",
     "published": "2026-07-09T00:01:15+00:00",
     "crawled": "2026-07-09T03:43:28.146600+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 投資者認為印尼主權債券的高收益具有吸引力，預計全球資金流入將持續增加  \n• 市場普遍預測，加息周期即將結束，促使投資者重新評估風險  \n• 印尼的高收益率被視為新興亞洲市場中的一個亮點  \n• 全球債券市場的變化可能影響資金流向印尼的趨勢",
+    "summaries": {
+      "zh-HK": "• 投資者認為印尼主權債券的高收益具有吸引力，預計全球資金流入將持續增加  \n• 市場普遍預測，加息周期即將結束，促使投資者重新評估風險  \n• 印尼的高收益率被視為新興亞洲市場中的一個亮點  \n• 全球債券市場的變化可能影響資金流向印尼的趨勢"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-08/blackstone-s-qts-taps-us-loan-market-in-data-center-backed-deal",
@@ -2768,8 +2771,11 @@
     "topic": "Finance",
     "published": "2026-07-08T23:54:14+00:00",
     "crawled": "2026-07-09T03:43:28.639735+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 曼哈頓中城一座因結構問題而於週二撤離的塔樓開發商表示將進行修復工作  \n• 修復計劃包括重建原本改建為公寓的15層樓  \n• 撤離是因為結構安全的擔憂  \n• 開發商目前正在制定具體的修復方案",
+    "summaries": {
+      "zh-HK": "• 曼哈頓中城一座因結構問題而於週二撤離的塔樓開發商表示將進行修復工作  \n• 修復計劃包括重建原本改建為公寓的15層樓  \n• 撤離是因為結構安全的擔憂  \n• 開發商目前正在制定具體的修復方案"
+    }
   },
   {
     "url": "https://www.cnbc.com/2026/07/07/fifa-world-cup-media-rights-netflix-disney-youtube.html",
@@ -3026,8 +3032,11 @@
     "topic": "Tech",
     "published": "2026-07-08T23:53:04+00:00",
     "crawled": "2026-07-09T03:43:42.573605+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 一隻松鼠本週在泰國曼谷的Meta辦公室內逃脫，並在員工中穿梭約20分鐘。  \n• 松鼠在過程中輕微傷害了一名清潔工，該名工人隨後接受了急救並被送往醫院檢查。  \n• 事件發生後，負責將松鼠送入辦公室的清潔工承認其失職，並承諾遵守辦公室規定以防止類似事件重演。  \n• Meta對此事件未作評論，並表示員工對此事在內部引發了輕鬆的討論。",
+    "summaries": {
+      "zh-HK": "• 一隻松鼠本週在泰國曼谷的Meta辦公室內逃脫，並在員工中穿梭約20分鐘。  \n• 松鼠在過程中輕微傷害了一名清潔工，該名工人隨後接受了急救並被送往醫院檢查。  \n• 事件發生後，負責將松鼠送入辦公室的清潔工承認其失職，並承諾遵守辦公室規定以防止類似事件重演。  \n• Meta對此事件未作評論，並表示員工對此事在內部引發了輕鬆的討論。"
+    }
   },
   {
     "url": "https://www.wired.com/review/lg-micro-rgb-evo/",
@@ -3133,8 +3142,11 @@
     "topic": "Finance",
     "published": "2026-07-09T00:00:00+00:00",
     "crawled": "2026-07-09T03:43:44.912031+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 泰國總理阿努廷·查恩維拉庫正在等待法院對約120億美元危機借貸的裁決  \n• 此裁決將決定該借貸是否符合憲法  \n• 裁決結果可能影響阿努廷的經濟刺激和能源轉型計劃  \n• 法院的裁決日期尚未確定，相關討論仍在進行中",
+    "summaries": {
+      "zh-HK": "• 泰國總理阿努廷·查恩維拉庫正在等待法院對約120億美元危機借貸的裁決  \n• 此裁決將決定該借貸是否符合憲法  \n• 裁決結果可能影響阿努廷的經濟刺激和能源轉型計劃  \n• 法院的裁決日期尚未確定，相關討論仍在進行中"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-08/trump-says-us-not-stopping-machado-from-returning-to-venezuela",
@@ -3147,8 +3159,11 @@
     "topic": "Finance",
     "published": "2026-07-08T23:37:36+00:00",
     "crawled": "2026-07-09T03:43:45.163559+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 特朗普否認阻止委內瑞拉反對派領袖瑪麗亞·科里娜·馬查多返回她的國家  \n• 馬查多的回國可能對現任總統德爾西·羅德里格斯構成直接挑戰  \n• 此言論是在最近發生的嚴重地震後發表的  \n• 特朗普強調美國不會干預馬查多的回國計劃",
+    "summaries": {
+      "zh-HK": "• 特朗普否認阻止委內瑞拉反對派領袖瑪麗亞·科里娜·馬查多返回她的國家  \n• 馬查多的回國可能對現任總統德爾西·羅德里格斯構成直接挑戰  \n• 此言論是在最近發生的嚴重地震後發表的  \n• 特朗普強調美國不會干預馬查多的回國計劃"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-08/trump-says-troop-levels-in-europe-will-depend-on-greenland-iran",
@@ -3161,8 +3176,11 @@
     "topic": "Finance",
     "published": "2026-07-08T23:51:02+00:00",
     "crawled": "2026-07-09T03:43:45.420031+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 特朗普表示美國在歐洲的軍隊部署將取決於盟友如何回應他對格陵蘭和伊朗戰爭的擔憂  \n• 此言論可能加劇北約成員國對特朗普對集體安全承諾的擔憂  \n• 特朗普的發言是在一次公開場合中提出的  \n• 他強調盟友需對這些問題給予重視以影響美軍在歐洲的駐軍決策",
+    "summaries": {
+      "zh-HK": "• 特朗普表示美國在歐洲的軍隊部署將取決於盟友如何回應他對格陵蘭和伊朗戰爭的擔憂  \n• 此言論可能加劇北約成員國對特朗普對集體安全承諾的擔憂  \n• 特朗普的發言是在一次公開場合中提出的  \n• 他強調盟友需對這些問題給予重視以影響美軍在歐洲的駐軍決策"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-08/pentagon-urges-latin-american-countries-to-raise-defense-budget",
@@ -3175,8 +3193,11 @@
     "topic": "Finance",
     "published": "2026-07-08T23:26:32+00:00",
     "crawled": "2026-07-09T03:43:45.665382+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國國防部敦促拉丁美洲國家提高國防預算，以應對有組織犯罪問題  \n• 此舉旨在加強地區安全，減少犯罪活動的影響  \n• 美國官員強調，增加安全開支對於維護國家穩定至關重要  \n• 拉丁美洲國家面臨的安全挑戰包括毒品走私和幫派暴力",
+    "summaries": {
+      "zh-HK": "• 美國國防部敦促拉丁美洲國家提高國防預算，以應對有組織犯罪問題  \n• 此舉旨在加強地區安全，減少犯罪活動的影響  \n• 美國官員強調，增加安全開支對於維護國家穩定至關重要  \n• 拉丁美洲國家面臨的安全挑戰包括毒品走私和幫派暴力"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-08/trump-says-spain-agreed-to-pay-more-after-trade-embargo-threat-mrcoum80",
@@ -3463,8 +3484,11 @@
     "topic": "Tech",
     "published": "2026-07-09T00:17:54+00:00",
     "crawled": "2026-07-09T03:43:59.864819+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 根據Omdia報告，2026年售價低於400美元的智慧型手機出貨量預計年減超過22%，全球手機市場將下滑12%  \n• 三星、SK hynix和美光將記憶體產能轉向高毛利的AI資料中心，導致平價低階手機的DRAM/NAND記憶體供不應求  \n• 記憶體價格上漲使得99美元以下的入門級智慧型手機幾乎無法生存，中階手機可能面臨硬體降級  \n• 分析師指出，平價手機市場面臨史上最嚴重萎縮，消費者將被迫選擇「偽中階」或高階機型，記憶體擴產計畫可能需到2027年中或2028年才見效",
+    "summaries": {
+      "zh-HK": "• 根據Omdia報告，2026年售價低於400美元的智慧型手機出貨量預計年減超過22%，全球手機市場將下滑12%  \n• 三星、SK hynix和美光將記憶體產能轉向高毛利的AI資料中心，導致平價低階手機的DRAM/NAND記憶體供不應求  \n• 記憶體價格上漲使得99美元以下的入門級智慧型手機幾乎無法生存，中階手機可能面臨硬體降級  \n• 分析師指出，平價手機市場面臨史上最嚴重萎縮，消費者將被迫選擇「偽中階」或高階機型，記憶體擴產計畫可能需到2027年中或2028年才見效"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
@@ -3576,8 +3600,11 @@
     "topic": "General",
     "published": "2026-07-08T23:49:12+00:00",
     "crawled": "2026-07-09T03:44:01.715484+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 專家指出，極端高溫對女性的心血管系統影響更大，女性在熱浪中面臨更高的風險。  \n• 女性的生理特徵，包括出汗量較少及體內激素波動，會影響她們對熱的反應。  \n• 社會經濟因素，如收入較低及照顧者角色，可能使女性在高溫環境下更難照顧自己。  \n• 年齡也是一個風險因素，因為女性平均壽命較長，面對熱浪的健康影響風險更高。",
+    "summaries": {
+      "zh-HK": "• 專家指出，極端高溫對女性的心血管系統影響更大，女性在熱浪中面臨更高的風險。  \n• 女性的生理特徵，包括出汗量較少及體內激素波動，會影響她們對熱的反應。  \n• 社會經濟因素，如收入較低及照顧者角色，可能使女性在高溫環境下更難照顧自己。  \n• 年齡也是一個風險因素，因為女性平均壽命較長，面對熱浪的健康影響風險更高。"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/cly76jlxljlo?at_medium=RSS&at_campaign=rss",
@@ -3604,8 +3631,11 @@
     "topic": "General",
     "published": "2026-07-09T00:19:47+00:00",
     "crawled": "2026-07-09T03:44:01.788358+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 英國工黨議員即將開始提名下一任黨魁，因為基爾·史達默（Sir Keir Starmer）辭職。  \n• 安迪·伯納姆（Andy Burnham）是目前唯一宣布參選的議員，預計將於本月成為新任首相。  \n• 提名窗口期為7月9日至15日，候選人需獲得至少20%的工黨議員提名，即81名議員支持。  \n• 如果伯納姆成為唯一候選人，他可能在7月17日成為工黨領袖，並在7月20日正式接任首相。",
+    "summaries": {
+      "zh-HK": "• 英國工黨議員即將開始提名下一任黨魁，因為基爾·史達默（Sir Keir Starmer）辭職。  \n• 安迪·伯納姆（Andy Burnham）是目前唯一宣布參選的議員，預計將於本月成為新任首相。  \n• 提名窗口期為7月9日至15日，候選人需獲得至少20%的工黨議員提名，即81名議員支持。  \n• 如果伯納姆成為唯一候選人，他可能在7月17日成為工黨領袖，並在7月20日正式接任首相。"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/czxq4ge246wo?at_medium=RSS&at_campaign=rss",
@@ -3618,8 +3648,11 @@
     "topic": "General",
     "published": "2026-07-08T23:31:53+00:00",
     "crawled": "2026-07-09T03:44:01.828293+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 大衛和艾莉在印尼收養了嬰兒馬庫斯，並表示對他一見鍾情，但現在面臨失去他的可能性。\n• 馬庫斯被懷疑是非法販賣至新加坡的20名嬰兒之一，相關的販賣案件正在西爪哇進行審判，已有近二十人被捕。\n• 新加坡和印尼當局尚未決定這些孩子的未來，可能需要考慮他們是留在養父母身邊還是返回生物父母那裡。\n• 此案件突顯了印尼持續存在的兒童販賣問題，以及新加坡在審核過程中未能檢測到該販賣行為的漏洞。",
+    "summaries": {
+      "zh-HK": "• 大衛和艾莉在印尼收養了嬰兒馬庫斯，並表示對他一見鍾情，但現在面臨失去他的可能性。\n• 馬庫斯被懷疑是非法販賣至新加坡的20名嬰兒之一，相關的販賣案件正在西爪哇進行審判，已有近二十人被捕。\n• 新加坡和印尼當局尚未決定這些孩子的未來，可能需要考慮他們是留在養父母身邊還是返回生物父母那裡。\n• 此案件突顯了印尼持續存在的兒童販賣問題，以及新加坡在審核過程中未能檢測到該販賣行為的漏洞。"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/cy8we3j14ndo?at_medium=RSS&at_campaign=rss",
@@ -3779,8 +3812,11 @@
     "topic": "World",
     "published": "2026-07-09T00:00:06+00:00",
     "crawled": "2026-07-09T03:44:03.105468+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國於2026年7月9日對伊朗進行空襲，造成伊朗城市Iranshahr至少一人死亡，並在Chabahar引發大規模停電。  \n• 巴林響起空襲警報，科威特報告遭受「敵對導彈和無人機」攻擊，這是美國連續第二晚對伊朗的轟炸。  \n• 在霍爾木茲海峽沿岸的伊朗城市，包括布什爾、查巴哈、霍爾木茲港、Sirik、Jask和阿布穆薩島均有爆炸聲報告。  \n• 目前尚未有進一步的傷亡或損失報告。",
+    "summaries": {
+      "zh-HK": "• 美國於2026年7月9日對伊朗進行空襲，造成伊朗城市Iranshahr至少一人死亡，並在Chabahar引發大規模停電。  \n• 巴林響起空襲警報，科威特報告遭受「敵對導彈和無人機」攻擊，這是美國連續第二晚對伊朗的轟炸。  \n• 在霍爾木茲海峽沿岸的伊朗城市，包括布什爾、查巴哈、霍爾木茲港、Sirik、Jask和阿布穆薩島均有爆炸聲報告。  \n• 目前尚未有進一步的傷亡或損失報告。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/8/indonesias-free-meals-programme-plagued-by-alleged-corruption-and-waste?traffic_source=rss",
@@ -3793,8 +3829,11 @@
     "topic": "General",
     "published": "2026-07-08T23:22:48+00:00",
     "crawled": "2026-07-09T03:44:03.142244+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 印尼總統普拉博沃·蘇比安托於2025年推出的「免費營養餐」計劃面臨腐敗和浪費的指控，成為該國近年來最大的腐敗醜聞之一。  \n• 該計劃旨在解決兒童生長遲緩問題，並改善學校專注力，已在18個月內設立近28,000個廚房，每日提供最多3,000餐。  \n• 當局於6月逮捕了印尼國家營養局局長及其兩名副手，因涉嫌採購詐騙，金額達5600萬美元，目前調查已擴展至七人，包括一名現役警官和一名軍官。  \n• 政府在2025年投入28億美元啟動該計劃，並於今年將預算從184億美元削減至147億美元，批評者認為該計劃無法有效運行，並可能導致更大的腐敗機會。",
+    "summaries": {
+      "zh-HK": "• 印尼總統普拉博沃·蘇比安托於2025年推出的「免費營養餐」計劃面臨腐敗和浪費的指控，成為該國近年來最大的腐敗醜聞之一。  \n• 該計劃旨在解決兒童生長遲緩問題，並改善學校專注力，已在18個月內設立近28,000個廚房，每日提供最多3,000餐。  \n• 當局於6月逮捕了印尼國家營養局局長及其兩名副手，因涉嫌採購詐騙，金額達5600萬美元，目前調查已擴展至七人，包括一名現役警官和一名軍官。  \n• 政府在2025年投入28億美元啟動該計劃，並於今年將預算從184億美元削減至147億美元，批評者認為該計劃無法有效運行，並可能導致更大的腐敗機會。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/sports/2026/7/8/wildcard-fery-faces-zverev-in-wimbledon-semis-as-kostyuk-meets-noskova?traffic_source=rss",
@@ -4046,8 +4085,11 @@
     "topic": "General",
     "published": "2026-07-08T23:21:25+00:00",
     "crawled": "2026-07-09T03:44:19.029509+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國移民及海關執法局（ICE）官員於週二在休士頓進行交通攔截時，致命射殺來自墨西哥的52歲男子洛倫佐·薩爾加多·阿拉胡（Lorenzo Salgado Araujo）。  \n• 聯邦當局稱該事件為「自衛」，指控阿拉胡試圖逃避逮捕並用車輛衝撞ICE官員，但未提供證據支持此說法。  \n• 阿拉胡的家人及民權組織要求獨立調查，阿拉胡的兒子表示其父在被跟蹤時感到害怕，並可能誤以為追蹤者是小偷。  \n• 美國國土安全部（DHS）表示正在進行調查，並指FBI休士頓辦事處正在調查對聯邦執法官員的襲擊事件。",
+    "summaries": {
+      "zh-HK": "• 美國移民及海關執法局（ICE）官員於週二在休士頓進行交通攔截時，致命射殺來自墨西哥的52歲男子洛倫佐·薩爾加多·阿拉胡（Lorenzo Salgado Araujo）。  \n• 聯邦當局稱該事件為「自衛」，指控阿拉胡試圖逃避逮捕並用車輛衝撞ICE官員，但未提供證據支持此說法。  \n• 阿拉胡的家人及民權組織要求獨立調查，阿拉胡的兒子表示其父在被跟蹤時感到害怕，並可能誤以為追蹤者是小偷。  \n• 美國國土安全部（DHS）表示正在進行調查，並指FBI休士頓辦事處正在調查對聯邦執法官員的襲擊事件。"
+    }
   },
   {
     "url": "https://time.com/article/2026/07/08/losing-hour-sleep-linked-to-weight-gain/",
@@ -4321,8 +4363,11 @@
     "topic": "General",
     "published": "2026-07-08T23:15:32+00:00",
     "crawled": "2026-07-09T03:44:38.269186+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國多個州可能於下周提起訴訟，阻止派拉蒙與華納兄弟的合併交易  \n• 訴訟的原因是擔心該交易會對市場競爭造成影響  \n• 目前尚未確定具體的訴訟內容及參與州份  \n• 此交易若成功，將改變美國娛樂產業的格局",
+    "summaries": {
+      "zh-HK": "• 美國多個州可能於下周提起訴訟，阻止派拉蒙與華納兄弟的合併交易  \n• 訴訟的原因是擔心該交易會對市場競爭造成影響  \n• 目前尚未確定具體的訴訟內容及參與州份  \n• 此交易若成功，將改變美國娛樂產業的格局"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbWQzMGJ2Z3l6TWJNM0ZyTFM1M1cyaE5wcGlwaW56UEZ0OG9TclUzMTZvazlDSUJDenduQ0V6V0FtbXBjNUVIOGpnOHBVY2JMS1BxNlpEOXpHX2JVYWdZWG00ZnA5SXpGUW9tczZEZmMtdmFyYlJON1Z4VWt1Y2dEOXN4TVZLal9FRFo4SmJtMjlYaGpVdndhUWR5Z0hkUmlreHc?oc=5",
@@ -4467,8 +4512,11 @@
     "topic": "AI",
     "published": "2026-07-09T00:07:00+00:00",
     "crawled": "2026-07-09T03:44:45.239483+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 佛雷斯諾州立大學推出人工智能輔修課程，面向各學科學生開放  \n• 此輔修課程旨在幫助學生掌握人工智能的基本概念及應用  \n• 課程將於2024年春季學期開始，學生可選擇相關課程以獲得學分  \n• 大學希望透過此輔修課程提升學生在未來職場的競爭力",
+    "summaries": {
+      "zh-HK": "• 佛雷斯諾州立大學推出人工智能輔修課程，面向各學科學生開放  \n• 此輔修課程旨在幫助學生掌握人工智能的基本概念及應用  \n• 課程將於2024年春季學期開始，學生可選擇相關課程以獲得學分  \n• 大學希望透過此輔修課程提升學生在未來職場的競爭力"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOREFxYVd5MlNXTVRnLWtaQk5nRHJfQVdEeTlDRG9pSTlKZVIwNXFLbzRaWURRbDF1eTlmLVZ0ZE1HcGxvUll0WkVPdXg4bEU0YXZ2TG1uaFhhb1lFaGFaSDNpVFRSeHctVVVGYnIwa0FmczYwWWRZSTZpeFV2TENYMTlJWWJ2RDhDeU9wblphN2FCalE5XzFxQ3R3VXNCOUE?oc=5",
@@ -5373,8 +5421,11 @@
     "topic": "World",
     "published": "2026-07-08T23:51:08+00:00",
     "crawled": "2026-07-09T04:11:08.828775+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 特朗普在土耳其北約峰會上表示將對伊朗政權進行猛烈打擊，並稱伊朗領導人為「渣滓」，報導稱「伊朗戰爭重啟」 \n• 候選人Count Binface計劃在Clacton補選中挑戰改革英國黨領袖法拉奇，並表示將「吃掉」法拉奇 \n• 英國內政大臣沙巴娜·馬哈茂德將修改法律，以便驅逐羅奇代爾性侵團伙的巴基斯坦出生首腦 \n• 蘇格蘭場正在調查改革英國黨高層的財務交易，涉及數百萬英鎊的交易被報告給國家犯罪局",
+    "summaries": {
+      "zh-HK": "• 特朗普在土耳其北約峰會上表示將對伊朗政權進行猛烈打擊，並稱伊朗領導人為「渣滓」，報導稱「伊朗戰爭重啟」 \n• 候選人Count Binface計劃在Clacton補選中挑戰改革英國黨領袖法拉奇，並表示將「吃掉」法拉奇 \n• 英國內政大臣沙巴娜·馬哈茂德將修改法律，以便驅逐羅奇代爾性侵團伙的巴基斯坦出生首腦 \n• 蘇格蘭場正在調查改革英國黨高層的財務交易，涉及數百萬英鎊的交易被報告給國家犯罪局"
+    }
   },
   {
     "url": "https://www.npr.org/2026/07/08/nx-s1-5886170/supreme-court-financial-disclosures-books-gifts-income",
@@ -5741,8 +5792,11 @@
     "topic": "General",
     "published": "2026-07-08T23:59:43+00:00",
     "crawled": "2026-07-09T04:11:37.503150+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 摩洛哥國家足球隊的球員薩伊巴里因傷缺席即將對法國的比賽  \n• 教練表示，與法國的比賽不會有任何驚喜  \n• 薩伊巴里的缺席將影響球隊的陣容和戰術  \n• 比賽定於近期舉行，摩洛哥隊將全力以赴應對挑戰",
+    "summaries": {
+      "zh-HK": "• 摩洛哥國家足球隊的球員薩伊巴里因傷缺席即將對法國的比賽  \n• 教練表示，與法國的比賽不會有任何驚喜  \n• 薩伊巴里的缺席將影響球隊的陣容和戰術  \n• 比賽定於近期舉行，摩洛哥隊將全力以赴應對挑戰"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWEhCckk2WnRQeFdNaEFWQlJ5VnJROXhGbnN1clFZTWVrWWVDd3o4cU5BNTctQkp4d2VfcjQ0N2toRTJqbnFjTEw3Wmp4dW9zY2RuNFo4U2tkNmM4dThWSzhYRVAyYzJXQUNIOHVnaGh6NEw0dTZaTS1pclZ2SFJjRjJxYjJfV1F5ZWJHeVlubHV2RnFDUGtZUjA0RURsbmlLeGdEbGN2ZG5hZC1oVENNNFZqam9HYno2cHJqOHhiU1M?oc=5",
@@ -6373,8 +6427,11 @@
     "topic": "World",
     "published": "2026-07-09T04:00:23+00:00",
     "crawled": "2026-07-09T05:14:34.536607+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• AI財務顧問在市場上相對於傳統顧問具有優勢，因為其能夠提供更快速和精確的服務  \n• AI技術能分析大量數據，幫助客戶做出更明智的投資決策  \n• 傳統財務顧問面臨競爭壓力，需適應新技術以保持市場份額  \n• 許多投資者開始轉向AI顧問，以期獲得更高的回報和效率",
+    "summaries": {
+      "zh-HK": "• AI財務顧問在市場上相對於傳統顧問具有優勢，因為其能夠提供更快速和精確的服務  \n• AI技術能分析大量數據，幫助客戶做出更明智的投資決策  \n• 傳統財務顧問面臨競爭壓力，需適應新技術以保持市場份額  \n• 許多投資者開始轉向AI顧問，以期獲得更高的回報和效率"
+    }
   },
   {
     "url": "https://www.ft.com/content/e72abe8a-9fa4-44be-ba9d-c31728e05cc0",
@@ -6387,8 +6444,11 @@
     "topic": "Entertainment",
     "published": "2026-07-09T04:00:12+00:00",
     "crawled": "2026-07-09T05:14:35.280074+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 本文由比班·基德隆撰寫，探討如何促使大型科技公司改善行為  \n• 文章內容需訂閱才能解鎖，提供多種訂閱計劃供選擇  \n• 訂閱計劃包括標準數字、精選數字及精選與《金融時報》周末報紙的組合  \n• 讀者可透過大學或機構檢查是否已有訪問權限",
+    "summaries": {
+      "zh-HK": "• 本文由比班·基德隆撰寫，探討如何促使大型科技公司改善行為  \n• 文章內容需訂閱才能解鎖，提供多種訂閱計劃供選擇  \n• 訂閱計劃包括標準數字、精選數字及精選與《金融時報》周末報紙的組合  \n• 讀者可透過大學或機構檢查是否已有訪問權限"
+    }
   },
   {
     "url": "https://ig.ft.com/transformers/",
@@ -6401,8 +6461,11 @@
     "topic": "World",
     "published": "2026-07-09T04:00:11+00:00",
     "crawled": "2026-07-09T05:14:36.707177+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 數據中心的電力需求激增，對變壓器供應鏈造成壓力  \n• 變壓器是支持人工智能技術發展的關鍵設備  \n• 供應鏈問題可能影響全球範圍內的AI推進  \n• 行業專家呼籲加強變壓器生產以應對需求上升",
+    "summaries": {
+      "zh-HK": "• 數據中心的電力需求激增，對變壓器供應鏈造成壓力  \n• 變壓器是支持人工智能技術發展的關鍵設備  \n• 供應鏈問題可能影響全球範圍內的AI推進  \n• 行業專家呼籲加強變壓器生產以應對需求上升"
+    }
   },
   {
     "url": "https://www.ft.com/content/bc2fcd5a-317a-4988-a03b-7e16421d8267",
@@ -7079,8 +7142,11 @@
     "topic": "Politics",
     "published": "2026-07-09T03:57:46+00:00",
     "crawled": "2026-07-09T05:14:59.758454+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國上訴法院裁定特朗普的名字必須在肯尼迪表演藝術中心的上訴期間保持去除狀態  \n• 特朗普的名字於上個月根據美國地區法官克里斯多福·庫珀的命令從中心的外觀和標識中移除  \n• 上訴法院駁回特朗普政府要求暫停下級法院命令的請求，該命令是由民主黨眾議員喬伊斯·比蒂提起的訴訟  \n• 法官表示，中心董事會未能證明特朗普名字去除會對其造成不可挽回的損害，並指出其籌款努力的主張缺乏具體事實或證據",
+    "summaries": {
+      "zh-HK": "• 美國上訴法院裁定特朗普的名字必須在肯尼迪表演藝術中心的上訴期間保持去除狀態  \n• 特朗普的名字於上個月根據美國地區法官克里斯多福·庫珀的命令從中心的外觀和標識中移除  \n• 上訴法院駁回特朗普政府要求暫停下級法院命令的請求，該命令是由民主黨眾議員喬伊斯·比蒂提起的訴訟  \n• 法官表示，中心董事會未能證明特朗普名字去除會對其造成不可挽回的損害，並指出其籌款努力的主張缺乏具體事實或證據"
+    }
   },
   {
     "url": "https://www.scmp.com/news/china/diplomacy/article/3359877/beijing-slams-manila-over-south-china-sea-claims-ahead-2016-hague-anniversary?utm_source=rss_feed",
@@ -7197,8 +7263,11 @@
     "topic": "Finance",
     "published": "2026-07-09T04:00:23+00:00",
     "crawled": "2026-07-09T05:15:15.098786+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 本文探討對億萬富翁徵稅的問題，涉及不同利益相關者的觀點 \n• 許多國家和地區正在考慮或已經實施針對富人的稅收政策 \n• 支持者認為這有助於減少貧富差距，並為公共服務提供資金 \n• 反對者則擔心高稅率可能會影響投資和經濟增長",
+    "summaries": {
+      "zh-HK": "• 本文探討對億萬富翁徵稅的問題，涉及不同利益相關者的觀點 \n• 許多國家和地區正在考慮或已經實施針對富人的稅收政策 \n• 支持者認為這有助於減少貧富差距，並為公共服務提供資金 \n• 反對者則擔心高稅率可能會影響投資和經濟增長"
+    }
   },
   {
     "url": "https://www.ft.com/content/2221f54b-1660-4adf-a574-581bd6cda601",
@@ -7245,8 +7314,11 @@
     "topic": "Finance",
     "published": "2026-07-09T04:00:12+00:00",
     "crawled": "2026-07-09T05:15:16.807177+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 希臘機場負責人表示，歐盟的邊境檢查需要全面改革  \n• 此言論是在一個會議上提出的，旨在改善旅客通行效率  \n• 負責人強調，現行的邊境檢查程序影響了旅遊業的發展  \n• 他呼籲歐盟成員國共同合作，以提升邊境管理的有效性",
+    "summaries": {
+      "zh-HK": "• 希臘機場負責人表示，歐盟的邊境檢查需要全面改革  \n• 此言論是在一個會議上提出的，旨在改善旅客通行效率  \n• 負責人強調，現行的邊境檢查程序影響了旅遊業的發展  \n• 他呼籲歐盟成員國共同合作，以提升邊境管理的有效性"
+    }
   },
   {
     "url": "https://www.marketwatch.com/story/higher-gas-prices-arent-the-only-way-rising-tensions-with-iran-will-hit-home-0a995066?mod=mw_rss_topstories",
@@ -7259,8 +7331,11 @@
     "topic": "Trading",
     "published": "2026-07-09T00:07:00+00:00",
     "crawled": "2026-07-09T05:15:18.003956+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 華爾街預計特朗普宣布伊朗停火結束將對航空公司和房屋建設商造成更大影響，而非有利於石油公司  \n• 此消息可能導致航空公司面臨更高的燃油成本  \n• 房屋建設商可能因經濟不穩定而受到影響  \n• 專家指出，油價上升不一定能夠抵消其他行業的損失",
+    "summaries": {
+      "zh-HK": "• 華爾街預計特朗普宣布伊朗停火結束將對航空公司和房屋建設商造成更大影響，而非有利於石油公司  \n• 此消息可能導致航空公司面臨更高的燃油成本  \n• 房屋建設商可能因經濟不穩定而受到影響  \n• 專家指出，油價上升不一定能夠抵消其他行業的損失"
+    }
   },
   {
     "url": "https://www.marketwatch.com/story/nvidias-stock-trades-at-a-juicy-discount-according-to-bofa-93f46d19?mod=mw_rss_topstories",
@@ -7287,8 +7362,11 @@
     "topic": "Politics",
     "published": "2026-07-08T23:05:01+00:00",
     "crawled": "2026-07-09T05:15:29.564428+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 人權組織計劃向國際奧委會提出對國際足球聯合會主席因凡蒂諾的投訴，原因是他對特朗普的支持  \n• 投訴將集中於因凡蒂諾的言論及行為，認為這與奧林匹克運動的價值觀相悖  \n• 此舉引發了對體育界與政治之間界限的討論  \n• 投訴的具體時間和方式尚未公佈，組織表示將在未來幾周內進一步行動",
+    "summaries": {
+      "zh-HK": "• 人權組織計劃向國際奧委會提出對國際足球聯合會主席因凡蒂諾的投訴，原因是他對特朗普的支持  \n• 投訴將集中於因凡蒂諾的言論及行為，認為這與奧林匹克運動的價值觀相悖  \n• 此舉引發了對體育界與政治之間界限的討論  \n• 投訴的具體時間和方式尚未公佈，組織表示將在未來幾周內進一步行動"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTU5zYTZtQnlONDU1Y1Nqd3M0dUFranBZWFp6aTA5azFHMl9VSjZ1TXRCSkd6RThqck03bVZ6N01zYmtXRzZqeHZoQ0ZuVl9aUlVoVlZiX212cGo1VE9MUnJkRGhNWklyYm1DUHhTSk5BNnVDMDRXdjh1M2NNOFhnX043UUdEelVpb3dhRmxJREQ?oc=5",
@@ -7301,8 +7379,11 @@
     "topic": "Politics",
     "published": "2026-07-09T01:23:00+00:00",
     "crawled": "2026-07-09T05:15:30.878289+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 緬因州民主黨計劃舉行大會以取代參議員普拉特納（Platner）  \n• 大會將於2024年1月召開，旨在選出新的參議員候選人  \n• 普拉特納因健康原因宣布不會尋求連任  \n• 此次選舉將影響2024年美國參議院的控制權分配",
+    "summaries": {
+      "zh-HK": "• 緬因州民主黨計劃舉行大會以取代參議員普拉特納（Platner）  \n• 大會將於2024年1月召開，旨在選出新的參議員候選人  \n• 普拉特納因健康原因宣布不會尋求連任  \n• 此次選舉將影響2024年美國參議院的控制權分配"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQWkRudHhxZlFsY0hWMXdySFEtaklkYWk5UzFDTmdKa21xZnlQVElVdmJRNmN6Zl9hMVdBYzF3V2JaaTIyX3lVb3pfVlFDUE00QnRUb3Q2OUJWNktqN1NrTllwNzVtNDhuNTBXZkZCejkzUG44YXVqb2djekJwNWc5dDRFcDdqd2tUNF9kZ21LcXRuSDk5VkwyRWlkNDVRRFBQU1ZhRVY4NW00c1U5cGc1RWpoaURZZGZ1WnFBNDNJSlIyZFRhUFpGaTEtMEQxUUphSmdNcGNxQ2NjbUZEcXhfYUduWUVOZ2diV3QyLXFieFhnNzJPcHRoeGV6aExkVGtJMDhYTUlB?oc=5",
@@ -7366,8 +7447,11 @@
     "topic": "General",
     "published": "2026-07-09T00:01:00+00:00",
     "crawled": "2026-07-09T05:15:34.071320+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 根據報告，菲律賓工人在沙特阿拉伯遭受廣泛虐待，包括工資拖欠和惡劣工作環境  \n• 許多工人表示面臨身體和心理上的虐待，且缺乏法律保護  \n• 報告指出，這些問題在2023年持續存在，影響了數以千計的菲律賓工人  \n• 菲律賓政府正考慮加強對外派工人的保護措施，以應對這些虐待事件",
+    "summaries": {
+      "zh-HK": "• 根據報告，菲律賓工人在沙特阿拉伯遭受廣泛虐待，包括工資拖欠和惡劣工作環境  \n• 許多工人表示面臨身體和心理上的虐待，且缺乏法律保護  \n• 報告指出，這些問題在2023年持續存在，影響了數以千計的菲律賓工人  \n• 菲律賓政府正考慮加強對外派工人的保護措施，以應對這些虐待事件"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMDA3RGowQUMzS1BEYnRIa014WGxLNnh0U3hXRU8ycGl5YVZUZUpCc0xTUnR0elNnaGVzUUFwVnpPenZBMlBVTVJ1bHBpbWRXTFMxcEZUcXlpSnI1NWI5Q2FUZnRuMndCamVza3hESmJzSjhFUzhFZGUwRk8wd21sblF1VTRVWkNqb0o0Nm9tUGJ4Y2xjUktuMg?oc=5",
