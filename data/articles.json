@@ -8173,20 +8173,6 @@
     "ai_summary": ""
   },
   {
-    "url": "https://www.cnbc.com/2026/07/02/jersey-mikes-files-for-ipo.html",
-    "title": "Sandwich chain Jersey Mike's files for IPO, reports 50% same-store sales growth in recent years",
-    "summary": "Jersey Mike's has nearly 3,300 locations, making it the second-largest hoagie sandwich chain in the U.S. behind Subway.",
-    "full_text": "Sandwich chain Jersey Mike's filed for an initial public offering on Thursday, reporting that its same-store sales cumulatively climbed 50% from 2020 through 2025.\nJersey Mike's plans to trade on the New York Stock Exchange under the ticker \"JMKE.\"\nThe company reported net income of $55 million on total revenue of $724 million last year, up from net income of $5 million on revenue of $653 million in 2024, according to the regulatory filing.\nLast year, Jersey Mike's annual system sales, which includes both company-owned and franchised locations, reached $4.3 billion, up 13% from the previous year.\nIts same-store sales increased 3% over the same period; the metric tracks sales growth at restaurants open at least a year. Broadly, the restaurant industry has seen same-store sales weaken over the last two years as consumers dine out less often to save money.\nJersey Mike's filing comes as many companies feel more optimistic about going public, especially following the blockbuster SpaceX IPO.\nWhile the number of IPOs that have been priced so far this year lags behind the year-ago period, the number of companies that have filed to go public is up, according to Renaissance Capital. Artificial intelligence giants OpenAI and Anthropic are among the hopefuls that have submitted confidential filings with the Securities and Exchange Commission.\nA growing business\nToday, Jersey Mike's has nearly 3,300 locations, making it the second-largest hoagie sandwich chain in the U.S. behind Subway. About 2,000 of those restaurants were opened in the last decade. Nearly all of Jersey Mike's restaurants are franchised, so the bulk of its revenue comes from royalties and advertising fees.\nDespite a sluggish industry backdrop, the company announced in April that it had confidentially filed for an initial public offering. More than a year earlier, Blackstone bought a majority stake in Jersey Mike's in a deal that reportedly valued the chain at roughly $8 billion.\nAfter the transaction closed, Jersey Mike's tapped Charlie Morrison as its latest chief executive. Morrison previously led Wingstop for more than a decade, including during the chicken wing chain's public market debut.\nJersey Mike's founder Peter Cancro began working at a Jersey Shore sandwich shop at age 14 in 1971. Four years later, he pulled together enough money to buy Mike's Subs. Cancro later changed the name and began franchising the chain.\nFollowing the deal with Blackstone, he has retained \"meaningful equity\" in Jersey Mike's and holds a seat on its board, according to a letter to fellow shareholders included in the regulatory filing.\n\"[Blackstone's] experience with leading franchisors aligns with the values and long-term mindset that have shaped Jersey Mike's and will help continue our expansion in the United States and abroad,\" Cancro wrote. \"I remained involved in the Company now and in the future.\"",
-    "source": "CNBC",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-02T17:38:30+00:00",
-    "crawled": "2026-07-09T07:34:45.398270+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
     "url": "https://www.ft.com/content/1bc10dd1-2aac-472d-b3d8-b76a83fb4abf",
     "title": "Apple to buy $30bn of US-made chips from Broadcom",
     "summary": "iPhone maker continues its attempt to curry favour with Donald Trump via investments in Colorado plant",
@@ -12768,8 +12754,11 @@
     "topic": "Politics",
     "published": "2026-07-09T13:00:00+00:00",
     "crawled": "2026-07-09T15:19:58.477791+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國國會於6月29日通過《兒童互聯網和數字安全法》，以267票贊成對117票反對的結果通過，該法案是基於修訂版的《兒童在線安全法》而建成的。\n• 歐盟就《聊天控制2.0》進行了最後的三方會談，該法案旨在加強兒童保護，但也面臨批評。\n• 雖然兩項法案的部分有爭議的條款被撤回，但強制年齡驗證的措施仍然保留，這一措施將匿名瀏覽轉變為身份識別瀏覽。\n• 專家指出，年齡驗證要求可能會導致大型集中式敏感身份數據庫的形成，增加數據洩露的風險。",
+    "summaries": {
+      "zh-HK": "• 美國國會於6月29日通過《兒童互聯網和數字安全法》，以267票贊成對117票反對的結果通過，該法案是基於修訂版的《兒童在線安全法》而建成的。\n• 歐盟就《聊天控制2.0》進行了最後的三方會談，該法案旨在加強兒童保護，但也面臨批評。\n• 雖然兩項法案的部分有爭議的條款被撤回，但強制年齡驗證的措施仍然保留，這一措施將匿名瀏覽轉變為身份識別瀏覽。\n• 專家指出，年齡驗證要求可能會導致大型集中式敏感身份數據庫的形成，增加數據洩露的風險。"
+    }
   },
   {
     "url": "https://www.coindesk.com/business/2026/07/09/over-usd7-2-billion-have-migrated-from-layerzero-to-chainlink-ccip-as-mantle-joins-exodus",
@@ -12841,8 +12830,11 @@
     "topic": "Finance",
     "published": "2026-07-09T12:53:44+00:00",
     "crawled": "2026-07-09T15:20:01.045420+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 香港證券及期貨事務監察委員會（SFC）於周四發布新規定，要求虛擬資產交易平台和網上經紀商在12個月內實施防釣魚登錄要求。  \n• 新標準禁止使用透過短信、電子郵件或應用程式的即時密碼，要求採用更強的防釣魚認證方法，如密碼鑰匙和硬件安全密鑰。  \n• 2026年第一季度，全球加密行業的釣魚攻擊和社會工程詐騙事件增加，造成行業總損失達4.82億美元，其中306萬美元來自此類事件。  \n• 相關研究指出，2025年報告的安全事件中，57%涉及偽造和詐騙攻擊，顯示出加強網絡安全的必要性。",
+    "summaries": {
+      "zh-HK": "• 香港證券及期貨事務監察委員會（SFC）於周四發布新規定，要求虛擬資產交易平台和網上經紀商在12個月內實施防釣魚登錄要求。  \n• 新標準禁止使用透過短信、電子郵件或應用程式的即時密碼，要求採用更強的防釣魚認證方法，如密碼鑰匙和硬件安全密鑰。  \n• 2026年第一季度，全球加密行業的釣魚攻擊和社會工程詐騙事件增加，造成行業總損失達4.82億美元，其中306萬美元來自此類事件。  \n• 相關研究指出，2025年報告的安全事件中，57%涉及偽造和詐騙攻擊，顯示出加強網絡安全的必要性。"
+    }
   },
   {
     "url": "https://cointelegraph.com/news/sony-bank-preliminary-approval-us-stablecoin-business?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -13002,8 +12994,11 @@
     "topic": "DeFi",
     "published": "2026-07-09T13:00:00+00:00",
     "crawled": "2026-07-09T15:20:03.556409+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 根據Immunefi的報告，2026年上半年加密貨幣因207宗黑客事件損失約9.72億美元，創下歷史最高事件數量，但總損失仍低於10億美元。  \n• 去中心化金融（DeFi）損失從2022年的26.2億美元降至6.803億美元，減少74%。  \n• Immunefi指出，攻擊事件頻率上升，但每次事件的損失金額減少，顯示出安全措施的改善。  \n• 2026年上半年，Immunefi平台向研究人員支付約1345萬美元以發現837個有效漏洞，並已累計支付超過1.4億美元的獎金。",
+    "summaries": {
+      "zh-HK": "• 根據Immunefi的報告，2026年上半年加密貨幣因207宗黑客事件損失約9.72億美元，創下歷史最高事件數量，但總損失仍低於10億美元。  \n• 去中心化金融（DeFi）損失從2022年的26.2億美元降至6.803億美元，減少74%。  \n• Immunefi指出，攻擊事件頻率上升，但每次事件的損失金額減少，顯示出安全措施的改善。  \n• 2026年上半年，Immunefi平台向研究人員支付約1345萬美元以發現837個有效漏洞，並已累計支付超過1.4億美元的獎金。"
+    }
   },
   {
     "url": "https://www.theblock.co/post/407645/aave-labs-rolls-out-stable-vaults-offering-predictable-stablecoin-yield-aimed-at-mainstream-users?utm_source=rss&utm_medium=rss",
@@ -13016,8 +13011,11 @@
     "topic": "DeFi",
     "published": "2026-07-09T13:00:00+00:00",
     "crawled": "2026-07-09T15:20:03.605476+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Aave Labs推出名為Stable Vaults的新基礎設施解決方案，旨在幫助金融科技公司、錢包、交易所及支付應用等機構用戶提供可預測的穩定幣收益。  \n• Stable Vaults可自動將用戶存款分配至不同的DeFi收益策略，並將變動收益轉化為更可預測的收益體驗。  \n• 該系統將持續優化資本配置，並利用多鏈流動性，無需用戶面對跨鏈複雜性。  \n• 機構用戶可自定義Stable Vaults的使用方式，包括設置可存入的穩定幣、限制參與用戶及配置不同客戶群的利率。",
+    "summaries": {
+      "zh-HK": "• Aave Labs推出名為Stable Vaults的新基礎設施解決方案，旨在幫助金融科技公司、錢包、交易所及支付應用等機構用戶提供可預測的穩定幣收益。  \n• Stable Vaults可自動將用戶存款分配至不同的DeFi收益策略，並將變動收益轉化為更可預測的收益體驗。  \n• 該系統將持續優化資本配置，並利用多鏈流動性，無需用戶面對跨鏈複雜性。  \n• 機構用戶可自定義Stable Vaults的使用方式，包括設置可存入的穩定幣、限制參與用戶及配置不同客戶群的利率。"
+    }
   },
   {
     "url": "https://www.theblock.co/post/407628/stripe-privy-jito-develop-solana-transaction-inclusion-tool-fullsend?utm_source=rss&utm_medium=rss",
@@ -13502,8 +13500,11 @@
     "topic": "Tech",
     "published": "2026-07-09T13:00:00+00:00",
     "crawled": "2026-07-09T15:20:16.215757+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 開源AI工具Ollama於2023年推出，最近完成6500萬美元的B輪融資，總融資額達8800萬美元  \n• Ollama幫助開發者在個人電腦上運行開放權重的AI模型，目前每月有890萬開發者使用  \n• Ollama的創始人兼CEO摩根表示，該工具在2023年推出時，開放模型使用困難，主要面向研究人員而非程式設計師  \n• Ollama的用戶群體包括85%的《財富》500強企業，並且公司僅有14名員工",
+    "summaries": {
+      "zh-HK": "• 開源AI工具Ollama於2023年推出，最近完成6500萬美元的B輪融資，總融資額達8800萬美元  \n• Ollama幫助開發者在個人電腦上運行開放權重的AI模型，目前每月有890萬開發者使用  \n• Ollama的創始人兼CEO摩根表示，該工具在2023年推出時，開放模型使用困難，主要面向研究人員而非程式設計師  \n• Ollama的用戶群體包括85%的《財富》500強企業，並且公司僅有14名員工"
+    }
   },
   {
     "url": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist/",
@@ -13516,8 +13517,11 @@
     "topic": "Tech",
     "published": "2026-07-09T13:00:00+00:00",
     "crawled": "2026-07-09T15:20:16.235650+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Character.AI推出自家微劇，利用AI角色進行互動，讓18歲以上用戶可以與劇中角色對話及角色扮演不同劇情。  \n• 初期推出三部微劇，包括浪漫系列《Last Summer》、恐怖劇《The Nighttime Game》及生存劇《Eden Fall》。  \n• 公司表示這些微劇是使用AI製作工具創建，長期目標是幫助用戶創建自己的角色和系列。  \n• Character.AI還在測試其他功能，包括音頻系列c.ai FM及創作小說的c.ai Reads，並計劃將這些功能擴展至更廣泛的用戶。",
+    "summaries": {
+      "zh-HK": "• Character.AI推出自家微劇，利用AI角色進行互動，讓18歲以上用戶可以與劇中角色對話及角色扮演不同劇情。  \n• 初期推出三部微劇，包括浪漫系列《Last Summer》、恐怖劇《The Nighttime Game》及生存劇《Eden Fall》。  \n• 公司表示這些微劇是使用AI製作工具創建，長期目標是幫助用戶創建自己的角色和系列。  \n• Character.AI還在測試其他功能，包括音頻系列c.ai FM及創作小說的c.ai Reads，並計劃將這些功能擴展至更廣泛的用戶。"
+    }
   },
   {
     "url": "https://techcrunch.com/2026/07/09/nandan-nilekani-leaves-gp-role-at-his-vc-firm-as-it-launches-third-200m-fund/",
@@ -13660,8 +13664,11 @@
     "topic": "World",
     "published": "2026-07-09T12:51:16+00:00",
     "crawled": "2026-07-09T15:20:18.796433+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• WIRED世界博覽會是一個互動展覽，旨在展示科技和創新成果  \n• 活動日期和地點尚未公布  \n• 參展者將能夠體驗各種科技產品和服務  \n• 主辦方希望透過此活動促進科技交流和合作",
+    "summaries": {
+      "zh-HK": "• WIRED世界博覽會是一個互動展覽，旨在展示科技和創新成果  \n• 活動日期和地點尚未公布  \n• 參展者將能夠體驗各種科技產品和服務  \n• 主辦方希望透過此活動促進科技交流和合作"
+    }
   },
   {
     "url": "https://www.wired.com/review/epilogue-sn-operator/",
@@ -13736,8 +13743,11 @@
     "topic": "Finance",
     "published": "2026-07-09T13:00:00+00:00",
     "crawled": "2026-07-09T15:20:20.267250+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 加拿大民眾支持馬克·卡尼在經濟管理上的做法，儘管他所領導的政府面臨經濟衰退的討論  \n• 根據調查，卡尼在任內的第一年經濟增長為自1963年以來最差  \n• 調查結果顯示，民眾對卡尼的經濟政策持正面評價  \n• 卡尼的經濟管理受到關注，儘管面臨挑戰和批評",
+    "summaries": {
+      "zh-HK": "• 加拿大民眾支持馬克·卡尼在經濟管理上的做法，儘管他所領導的政府面臨經濟衰退的討論  \n• 根據調查，卡尼在任內的第一年經濟增長為自1963年以來最差  \n• 調查結果顯示，民眾對卡尼的經濟政策持正面評價  \n• 卡尼的經濟管理受到關注，儘管面臨挑戰和批評"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-09/actblue-pulls-in-586-million-for-democrats-as-midterms-approach",
@@ -13750,8 +13760,11 @@
     "topic": "Finance",
     "published": "2026-07-09T13:00:00+00:00",
     "crawled": "2026-07-09T15:20:20.443579+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• ActBlue在第二季度為民主黨候選人和事業籌集了5.86億美元，創下紀錄金額  \n• 此次籌款將增強民主黨在即將到來的中期選舉中的競爭力  \n• 中期選舉預計將成為美國歷史上最昂貴的選舉  \n• 民主黨正準備面對共和黨的挑戰",
+    "summaries": {
+      "zh-HK": "• ActBlue在第二季度為民主黨候選人和事業籌集了5.86億美元，創下紀錄金額  \n• 此次籌款將增強民主黨在即將到來的中期選舉中的競爭力  \n• 中期選舉預計將成為美國歷史上最昂貴的選舉  \n• 民主黨正準備面對共和黨的挑戰"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-09/maine-democrats-weigh-platner-replacements-process-after-exit",
@@ -13860,8 +13873,11 @@
     "topic": "Ethereum",
     "published": "2026-07-09T12:47:34+00:00",
     "crawled": "2026-07-09T15:20:25.437124+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Grayscale 發布最新報告，指出全球股票代幣化正經歷三大演進階段，將實現全天候交易的資本效率  \n• 報告提到 Ethereum、Solana、Avalanche 和 Canton Network 將成為代幣化過程中的主要贏家  \n• 第一階段為第三方包裝器主導的 DeFi 市場，第二階段為 DTCC 的權益模式試點，第三階段為企業原生發行證券  \n• Grayscale 強調這三種代幣化模式將長期共存，滿足不同客群與合規需求，並將為相關區塊鏈帶來價值捕獲機會",
+    "summaries": {
+      "zh-HK": "• Grayscale 發布最新報告，指出全球股票代幣化正經歷三大演進階段，將實現全天候交易的資本效率  \n• 報告提到 Ethereum、Solana、Avalanche 和 Canton Network 將成為代幣化過程中的主要贏家  \n• 第一階段為第三方包裝器主導的 DeFi 市場，第二階段為 DTCC 的權益模式試點，第三階段為企業原生發行證券  \n• Grayscale 強調這三種代幣化模式將長期共存，滿足不同客群與合規需求，並將為相關區塊鏈帶來價值捕獲機會"
+    }
   },
   {
     "url": "https://www.blocktempo.com/gate-io-responds-to-1-7m-user-hack-alipay-device-compromised/",
@@ -13947,8 +13963,11 @@
     "topic": "Crypto",
     "published": "2026-07-09T13:00:14+00:00",
     "crawled": "2026-07-09T15:20:27.657170+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 穩定幣市場正在經歷身份蛻變，USDC和USDT分別朝著合規和全球支付網絡的方向發展，形成差異化競爭格局。  \n• 幣安研究院報告指出，穩定幣正從加密交易工具轉型為全球金融基礎設施，越來越多用戶將其作為長期資產配置工具。  \n• 東亞地區在穩定幣儲蓄領域佔據領先地位，貢獻約70%的幣安Earn穩定幣餘額，拉丁美洲則顯示出穩定幣轉帳需求的增長。  \n• Tether面對合規壓力，選擇退出歐洲市場，並尋找新的成長空間，與USDC在成熟市場的競爭策略有所不同。",
+    "summaries": {
+      "zh-HK": "• 穩定幣市場正在經歷身份蛻變，USDC和USDT分別朝著合規和全球支付網絡的方向發展，形成差異化競爭格局。  \n• 幣安研究院報告指出，穩定幣正從加密交易工具轉型為全球金融基礎設施，越來越多用戶將其作為長期資產配置工具。  \n• 東亞地區在穩定幣儲蓄領域佔據領先地位，貢獻約70%的幣安Earn穩定幣餘額，拉丁美洲則顯示出穩定幣轉帳需求的增長。  \n• Tether面對合規壓力，選擇退出歐洲市場，並尋找新的成長空間，與USDC在成熟市場的競爭策略有所不同。"
+    }
   },
   {
     "url": "https://blockcast.it/2026/07/09/temasek-says-crypto-is-off-the-table-will-focus-on-ai/",
@@ -14071,8 +14090,11 @@
     "topic": "Macro",
     "published": "2026-07-09T12:56:31+00:00",
     "crawled": "2026-07-09T15:20:31.303537+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Tank Bar和Live Lounge的擁有者Owen Williams表示，若年輕人透過父母申請工作，將不會考慮其申請。  \n• Williams強調，餐飲業需要自信且具能力的申請者，並拒絕了10份由父母提交的申請。  \n• 英國2026年1月至3月期間，約有100萬名16至24歲的年輕人未在教育、就業或培訓中，利物浦和曼徹斯特的比例高於全國平均水平。  \n• 其他商業業主也表示支持Williams的立場，認為年輕人應該獨立尋找工作，而不是依賴父母的幫助。",
+    "summaries": {
+      "zh-HK": "• Tank Bar和Live Lounge的擁有者Owen Williams表示，若年輕人透過父母申請工作，將不會考慮其申請。  \n• Williams強調，餐飲業需要自信且具能力的申請者，並拒絕了10份由父母提交的申請。  \n• 英國2026年1月至3月期間，約有100萬名16至24歲的年輕人未在教育、就業或培訓中，利物浦和曼徹斯特的比例高於全國平均水平。  \n• 其他商業業主也表示支持Williams的立場，認為年輕人應該獨立尋找工作，而不是依賴父母的幫助。"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/sport/football/articles/c20y4d7g1dvo?at_medium=RSS&at_campaign=rss",
@@ -14398,8 +14420,11 @@
     "topic": "World",
     "published": "2026-07-09T12:59:24+00:00",
     "crawled": "2026-07-09T15:20:35.840840+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 一艘LGBTQ+郵輪「Scarlet Lady」在土耳其被拒入港後，亦被埃及拒絕進入其水域。  \n• 郵輪的2000名乘客，包括百老匯表演者Patti LuPone，收到通知稱無法在亞歷山大停靠。  \n• 此次埃及之行是因為郵輪在土耳其被拒後臨時安排的，埃及政府尚未提供拒絕的官方理由。  \n• 旅遊公司Atlantis Events的首席執行官表示，這一決定令他們感到驚訝，並強調公司在過去36年中從未有船隻被拒入港的情況。",
+    "summaries": {
+      "zh-HK": "• 一艘LGBTQ+郵輪「Scarlet Lady」在土耳其被拒入港後，亦被埃及拒絕進入其水域。  \n• 郵輪的2000名乘客，包括百老匯表演者Patti LuPone，收到通知稱無法在亞歷山大停靠。  \n• 此次埃及之行是因為郵輪在土耳其被拒後臨時安排的，埃及政府尚未提供拒絕的官方理由。  \n• 旅遊公司Atlantis Events的首席執行官表示，這一決定令他們感到驚訝，並強調公司在過去36年中從未有船隻被拒入港的情況。"
+    }
   },
   {
     "url": "https://www.theguardian.com/environment/2026/jul/09/species-ingenious-survival-strategies-no-match-human-destruction-red-list",
@@ -14627,8 +14652,11 @@
     "topic": "Politics",
     "published": "2026-07-09T12:43:39+00:00",
     "crawled": "2026-07-09T15:20:47.315982+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 伊朗表示已對美國在科威特、巴林和卡塔爾的資產發動攻擊，作為對美國軍方連續兩天打擊伊朗資產的回應  \n• 美國中央司令部在周三進行了針對伊朗的空襲，目標為約90個伊朗軍事目標  \n• 特朗普在北約峰會上表示，結束伊朗戰爭的臨時協議已經“結束”  \n• 卡塔爾外長對伊朗攻擊船隻表示擔憂，稱此舉損害國際海洋安全並影響地區穩定",
+    "summaries": {
+      "zh-HK": "• 伊朗表示已對美國在科威特、巴林和卡塔爾的資產發動攻擊，作為對美國軍方連續兩天打擊伊朗資產的回應  \n• 美國中央司令部在周三進行了針對伊朗的空襲，目標為約90個伊朗軍事目標  \n• 特朗普在北約峰會上表示，結束伊朗戰爭的臨時協議已經“結束”  \n• 卡塔爾外長對伊朗攻擊船隻表示擔憂，稱此舉損害國際海洋安全並影響地區穩定"
+    }
   },
   {
     "url": "https://time.com/article/2026/07/09/china-dalai-lama-succession-tibet/",
@@ -14808,8 +14836,11 @@
     "topic": "AI",
     "published": "2026-07-09T13:00:00+00:00",
     "crawled": "2026-07-09T15:20:52.194393+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國和中國目前是人工智能領域的領導者 \n• 美國銀行的經濟學家指出，南韓和阿聯酋可能會從人工智能的發展和應用中受益 \n• 這些國家被認為有潛力成為下一階段的人工智能冠軍 \n• 文章未提及具體的時間框架或實施計劃",
+    "summaries": {
+      "zh-HK": "• 美國和中國目前是人工智能領域的領導者 \n• 美國銀行的經濟學家指出，南韓和阿聯酋可能會從人工智能的發展和應用中受益 \n• 這些國家被認為有潛力成為下一階段的人工智能冠軍 \n• 文章未提及具體的時間框架或實施計劃"
+    }
   },
   {
     "url": "https://www.theverge.com/gadgets/963121/sonos-ace-headphones-dashpass-best-buy-apple-watch-ultra-deal-sale",
@@ -14958,8 +14989,11 @@
     "topic": "Tech",
     "published": "2026-07-09T13:00:00+00:00",
     "crawled": "2026-07-09T15:20:59.425530+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Image Line於2026年推出FL Studio，將AI聊天機器人Gopher升級為助理工程師，能夠執行用戶指令。  \n• Gopher可以執行音樂製作指令，但無法創建自動化、插入音符或選擇插件中的特定預設。  \n• 新版FL Studio引入重建的Flex虛擬樂器，提供多種音效包，並改善了預設瀏覽器的過濾器和類別。  \n• FL Cloud訂閱者可享自動雲備份功能，並新增“音頻記錄器”，可捕捉主輸出60秒音頻。",
+    "summaries": {
+      "zh-HK": "• Image Line於2026年推出FL Studio，將AI聊天機器人Gopher升級為助理工程師，能夠執行用戶指令。  \n• Gopher可以執行音樂製作指令，但無法創建自動化、插入音符或選擇插件中的特定預設。  \n• 新版FL Studio引入重建的Flex虛擬樂器，提供多種音效包，並改善了預設瀏覽器的過濾器和類別。  \n• FL Cloud訂閱者可享自動雲備份功能，並新增“音頻記錄器”，可捕捉主輸出60秒音頻。"
+    }
   },
   {
     "url": "https://www.theverge.com/news/963196/spacex-is-on-track-for-record-setting-starlink-deployments",
@@ -15003,8 +15037,11 @@
     "topic": "General",
     "published": "2026-07-09T12:45:45+00:00",
     "crawled": "2026-07-09T15:21:03.110550+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 伊朗霍爾木茲海峽的油輪交通幾乎停滯，因為攻擊事件影響了伊朗的停火協議  \n• 最近幾周，該地區發生多起攻擊事件，導致油輪航行受到嚴重干擾  \n• 伊朗與西方國家之間的緊張關係加劇，影響了該地區的航運安全  \n• 航運公司和船東對該地區的安全形勢表示擔憂，並考慮改變航線以避免風險",
+    "summaries": {
+      "zh-HK": "• 伊朗霍爾木茲海峽的油輪交通幾乎停滯，因為攻擊事件影響了伊朗的停火協議  \n• 最近幾周，該地區發生多起攻擊事件，導致油輪航行受到嚴重干擾  \n• 伊朗與西方國家之間的緊張關係加劇，影響了該地區的航運安全  \n• 航運公司和船東對該地區的安全形勢表示擔憂，並考慮改變航線以避免風險"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQmU1RWZLQTAtSENET3ViQ2QyZXpsSm9qajQwakg2clBSVkdvdmJqM2UzUVBJdUpfRWd0Zkh0UEwxcmx6YmVTYWNTNUZhOFFveE5qZHltSjlDeUdYcnEySE9VaVB0QUJibzBkS0FFc0N5UUpZN1dHeVpINjgtek5HS0VhSDRyc0J0aU13X1FfUnpfNTgzTjd1ajktR08xbzVyNzhUMzUwaXhWck1VUm9waW9R?oc=5",
@@ -15214,8 +15251,11 @@
     "topic": "General",
     "published": "2026-07-09T12:41:00+00:00",
     "crawled": "2026-07-09T15:21:08.694092+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 埃斯瓦蒂尼接收了11名被美國驅逐的人士，這是美國移民打擊行動的一部分  \n• 這些被驅逐者的具體身份和驅逐原因尚未公開  \n• 美國政府近期加強了對非法移民的執法力度  \n• 埃斯瓦蒂尼政府表示將協助這些人重新融入社會",
+    "summaries": {
+      "zh-HK": "• 埃斯瓦蒂尼接收了11名被美國驅逐的人士，這是美國移民打擊行動的一部分  \n• 這些被驅逐者的具體身份和驅逐原因尚未公開  \n• 美國政府近期加強了對非法移民的執法力度  \n• 埃斯瓦蒂尼政府表示將協助這些人重新融入社會"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLVQ5Vk1TZlNBeWtGa2lkM0Vkc2dGMWpSMW5ib0U5b0o3ZGd6a0ZjOEtpOGJFUEF1Y0RVTnRVNndhWjhfRGptdGhmVzZvcjFsUW1JSHM5aDMzLU1OMTdfaGZCNzJYQVVQaEgwXzNBWjRWVWQwejNmTC1pa0s0VHJOd18wRW1OeGxIc2o5cXNmUXNLOHUzSVJZdXZFOUlDajNIeVFPZ1ZpbVV3MWM?oc=5",
@@ -15420,8 +15460,11 @@
     "topic": "Health",
     "published": "2026-07-09T13:00:00+00:00",
     "crawled": "2026-07-09T15:21:14.569607+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Viz.ai與Cortechs.ai建立新合作夥伴關係，擴展神經退行性疾病的護理服務  \n• 此合作旨在利用人工智能技術改善患者的診斷和治療  \n• 合作雙方將共同開發創新的解決方案，以應對神經退行性疾病的挑戰  \n• 這項合作於2023年啟動，將有助於提升醫療服務的效率和效果",
+    "summaries": {
+      "zh-HK": "• Viz.ai與Cortechs.ai建立新合作夥伴關係，擴展神經退行性疾病的護理服務  \n• 此合作旨在利用人工智能技術改善患者的診斷和治療  \n• 合作雙方將共同開發創新的解決方案，以應對神經退行性疾病的挑戰  \n• 這項合作於2023年啟動，將有助於提升醫療服務的效率和效果"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNYVpmM18xU0w4cG1kUURpdDJzR2x0dlFBTXFjMnQzaUhCWlZrU3Z5djV2ME92VnE1TVJDdVdMaE02Snp6Q2lmQnJJcThoN2R3LU9wc1VFdHU2bXJsR0thZ3ZUMDRiaGE4QTJ0X2xKMk4zTlFJVjZWVTN2MFlqNGhIaDFnZW1td2Q4VmxyTC1jbzZrQlhzYThJVk5hNE52Qko2YmlYTHctR2lfZzQ0dWpPa01KWVFUN3ozaW5wRXIyTEpRaFNFVXdHUTZ1YWFaRzBlX2hOcnMzNUpLNm5yejQwZTNlQVB0Q2ljcDdIOEo3N3RKb0M4aFE?oc=5",
@@ -15434,8 +15477,11 @@
     "topic": "AI",
     "published": "2026-07-09T12:36:06+00:00",
     "crawled": "2026-07-09T15:21:15.017929+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 文章探討人工智能如何重塑科學會議的生態系統，稱為AI增強科學會議生態系統（AISCE）  \n• AISCE旨在提升科學會議的效率和互動性，利用AI技術促進參與者之間的交流  \n• 研究指出，AI可以幫助組織者更好地策劃議程和選擇演講者  \n• 此概念的提出反映了科技在科學交流中的日益重要性，尤其是在疫情後的環境中",
+    "summaries": {
+      "zh-HK": "• 文章探討人工智能如何重塑科學會議的生態系統，稱為AI增強科學會議生態系統（AISCE）  \n• AISCE旨在提升科學會議的效率和互動性，利用AI技術促進參與者之間的交流  \n• 研究指出，AI可以幫助組織者更好地策劃議程和選擇演講者  \n• 此概念的提出反映了科技在科學交流中的日益重要性，尤其是在疫情後的環境中"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDgyNmZNdmY3czhfNHpMX3VtTnF5YUd5dTg2RnE5OXVwdHBIU3hER0F3Wmo4c0NxT255bG1JNmxwX1lZMjdQLU51S04wWDJWZDBDUjdtNW96MUpDbmlrTlZwZzBfQjUtNFpVbndaRUh2RXAwYzNFNTZUamZfZzVNZjZpV0dBYlVIU0lvYTJn?oc=5",
@@ -15499,8 +15545,11 @@
     "topic": "General",
     "published": "2026-07-09T12:52:00+00:00",
     "crawled": "2026-07-09T15:21:17.283208+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 印尼於2023年推出B50生物柴油，以減少燃料進口依賴  \n• B50生物柴油由50%植物油和50%柴油組成  \n• 政府目標是到2025年將生物柴油的使用比例提高至60%  \n• 此舉旨在促進可再生能源的使用，並減少對化石燃料的依賴",
+    "summaries": {
+      "zh-HK": "• 印尼於2023年推出B50生物柴油，以減少燃料進口依賴  \n• B50生物柴油由50%植物油和50%柴油組成  \n• 政府目標是到2025年將生物柴油的使用比例提高至60%  \n• 此舉旨在促進可再生能源的使用，並減少對化石燃料的依賴"
+    }
   },
   {
     "url": "https://decrypt.co/373130/labour-mps-push-to-make-uk-crypto-donation-ban-permanent",
@@ -16940,8 +16989,11 @@
     "topic": "World",
     "published": "2026-07-09T12:40:13+00:00",
     "crawled": "2026-07-09T17:28:13.693411+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 摩洛哥國家足球隊將於波士頓與法國隊對陣，這場比賽被視為復仇之戰，因為四年前法國在卡塔爾世界杯四分之一決賽中淘汰了摩洛哥。  \n• 摩洛哥在2022年世界杯後的表現提升，青年隊贏得了U20世界杯，成年隊在國際足聯排名中上升至第六位。  \n• 摩洛哥球迷對球隊充滿信心，許多支持者從摩洛哥及世界各地前往美國觀賽。  \n• 法國隊在本屆比賽中表現出色，擁有包括基利安·姆巴佩在內的強大陣容，並被認為是最完整的隊伍之一。",
+    "summaries": {
+      "zh-HK": "• 摩洛哥國家足球隊將於波士頓與法國隊對陣，這場比賽被視為復仇之戰，因為四年前法國在卡塔爾世界杯四分之一決賽中淘汰了摩洛哥。  \n• 摩洛哥在2022年世界杯後的表現提升，青年隊贏得了U20世界杯，成年隊在國際足聯排名中上升至第六位。  \n• 摩洛哥球迷對球隊充滿信心，許多支持者從摩洛哥及世界各地前往美國觀賽。  \n• 法國隊在本屆比賽中表現出色，擁有包括基利安·姆巴佩在內的強大陣容，並被認為是最完整的隊伍之一。"
+    }
   },
   {
     "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
@@ -16954,8 +17006,11 @@
     "topic": "AI",
     "published": "2026-07-09T17:00:00+00:00",
     "crawled": "2026-07-09T17:28:35.248226+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• OpenAI在獲得特朗普政府批准後，正式推出GPT-5.6模型，結束了限量預覽期。  \n• 同日，OpenAI推出新AI代理ChatGPT Work，結合ChatGPT和Codex，旨在幫助非技術用戶完成非編碼任務。  \n• ChatGPT Work和GPT-5.6將在全球範圍內逐步向Mac和Windows用戶開放，免費用戶也可立即使用。  \n• OpenAI希望其新產品能在AI市場中超越競爭對手，特別是在編碼和網絡安全等領域設立新標準。",
+    "summaries": {
+      "zh-HK": "• OpenAI在獲得特朗普政府批准後，正式推出GPT-5.6模型，結束了限量預覽期。  \n• 同日，OpenAI推出新AI代理ChatGPT Work，結合ChatGPT和Codex，旨在幫助非技術用戶完成非編碼任務。  \n• ChatGPT Work和GPT-5.6將在全球範圍內逐步向Mac和Windows用戶開放，免費用戶也可立即使用。  \n• OpenAI希望其新產品能在AI市場中超越競爭對手，特別是在編碼和網絡安全等領域設立新標準。"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSnBKU2F6UHNKQktTTTBUVXZIYUhGWTc1SjMwVWlUQkVsTDFmMWw5c0QyQWg3SE9sRmJwMGJYTnhIYkFjSzV6TGxaQml6QkQySW9FNWlFampwRnhTazRXUEJ6ekZGcEl6N3BRM0FFX3ZJVjUtaUVxQnVnSlpYQ0piM2xpZFg5RUVkQXZVS1ZweXRaQXRFZE03c2VXU1Z2UEd2NHJMakxmZXJaaHZ4S2hnOFBkcVZmSzg?oc=5",
@@ -17036,7 +17091,109 @@
     "topic": "Ai",
     "published": "2026-07-09T17:00:00+00:00",
     "crawled": "2026-07-09T17:28:41.891656+00:00",
+    "summarized": true,
+    "ai_summary": "• 伊利諾伊州州長簽署了一項重要的人工智能安全法案，旨在加強對AI技術的監管  \n• 該法案要求企業在開發和使用AI系統時必須遵循安全標準  \n• 法案於2023年10月生效，標誌著州政府對AI技術潛在風險的重視  \n• 此舉是為了保護公眾和促進負責任的AI技術發展",
+    "summaries": {
+      "zh-HK": "• 伊利諾伊州州長簽署了一項重要的人工智能安全法案，旨在加強對AI技術的監管  \n• 該法案要求企業在開發和使用AI系統時必須遵循安全標準  \n• 法案於2023年10月生效，標誌著州政府對AI技術潛在風險的重視  \n• 此舉是為了保護公眾和促進負責任的AI技術發展"
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-09/oil-industry-retained-up-to-200-million-of-german-fuel-subsidy",
+    "title": "Oil Industry Retained Up to €200 Million of German Fuel Subsidy",
+    "summary": "Germany’s oil industry retained between €100 million and €200 million from a fuel tax reduction earlier this year that was intended to ease the impact of surging costs on motorists, a government advisory panel found.",
+    "full_text": "",
+    "source": "Bloomberg Crypto",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-09T17:33:13+00:00",
+    "crawled": "2026-07-09T17:37:50.864925+00:00",
+    "summarized": true,
+    "ai_summary": "• 德國政府顧問小組發現，德國石油行業從今年早些時候的燃料稅減免中保留了1億至2億歐元的補貼。  \n• 此次稅收減免旨在減輕汽車駕駛者面對的成本上漲影響。  \n• 政府小組的調查顯示，補貼未能完全轉嫁給消費者。  \n• 此事件引發對石油行業在經濟困難時期的角色的關注。",
+    "summaries": {
+      "zh-HK": "• 德國政府顧問小組發現，德國石油行業從今年早些時候的燃料稅減免中保留了1億至2億歐元的補貼。  \n• 此次稅收減免旨在減輕汽車駕駛者面對的成本上漲影響。  \n• 政府小組的調查顯示，補貼未能完全轉嫁給消費者。  \n• 此事件引發對石油行業在經濟困難時期的角色的關注。"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/cjdgvrnn5n3o?at_medium=RSS&at_campaign=rss",
+    "title": "England defender Jarell Quansah banned for two games after Mexico red card",
+    "summary": "England defender Jarell Quansah receives a two-match ban for his red card against Mexico.",
+    "full_text": "Quansah banned for two games after Mexico red card\n- Published\nEngland defender Jarell Quansah has been given a two-match ban for his red card against Mexico.\nQuansah was sent off in the 54th minute of the 3-2 win following a high challenge on Jesus Gallardo.\nIt was classed as serious foul play, meaning the Bayer Leverkusen player was handed an extra match on top of the automatic one-game suspension by Fifa's disciplinary committee.\nFormer Liverpool man Quansah will miss Saturday's quarter-final with Norway (22:00 BST) and a potential semi-final against Argentina or Switzerland.\nQuansah, 23, will be available if England reach the final in New Jersey on 19 July.\nThe Football Association was considering whether to appeal, but under the tournament regulations there is no avenue to contest the ban.\nThe punishment shows a further inconsistency with the treatment of United States forward Folarin Balogun.\nStriker Balogun was sent off for serious foul play against Bosnia-Herzegovina and should also have received a ban for two games.\nThe 25-year-old was set to miss his side's last-16 tie against Belgium, but Fifa made the shock decision to ban him for only one match, and suspend it for 12 months.\nUS President Donald Trump confirmed he called Fifa president Gianni Infantino to request a review of that red card.\nIn an 871-word statement about the Balogun situation, Fifa said it took the decision \"considering all of the specific circumstances surrounding the incident and evidence available\", without detailing what had been taken into account.\nThat led to widespread criticism within the game, including from Uefa, Belgium and England boss Thomas Tuchel.\nIt led to France submitting a challenge to Michael Olise's yellow card from their victory over Paraguay, which was dismissed by Fifa.\nRelated topics\n- Published6 days ago\n \n- Published1 April",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-09T17:00:40+00:00",
+    "crawled": "2026-07-09T17:38:04.724816+00:00",
+    "summarized": true,
+    "ai_summary": "• 英格蘭後衛賈瑞爾·昆薩因在對墨西哥的比賽中被紅牌罰下，獲得兩場比賽禁賽處罰。  \n• 昆薩在比賽第54分鐘因對哈斯斯·加亞多的高難度挑戰被罰下，這被認定為嚴重犯規。  \n• 他將缺席星期六對挪威的四分之一決賽及可能的半決賽，若英格蘭進入決賽，他將於7月19日在新澤西復出。  \n• 英足總考慮上訴，但根據賽事規則，無法對禁賽進行申訴。",
+    "summaries": {
+      "zh-HK": "• 英格蘭後衛賈瑞爾·昆薩因在對墨西哥的比賽中被紅牌罰下，獲得兩場比賽禁賽處罰。  \n• 昆薩在比賽第54分鐘因對哈斯斯·加亞多的高難度挑戰被罰下，這被認定為嚴重犯規。  \n• 他將缺席星期六對挪威的四分之一決賽及可能的半決賽，若英格蘭進入決賽，他將於7月19日在新澤西復出。  \n• 英足總考慮上訴，但根據賽事規則，無法對禁賽進行申訴。"
+    }
+  },
+  {
+    "url": "https://www.ft.com/content/e5df56dc-70d3-49b0-82f4-3ae3af644a8e",
+    "title": "There is no grand plan on Iran",
+    "summary": "An over-reaching Tehran seems to be looking at America’s confused moves and wondering what it may be missing",
+    "full_text": "There is no grand plan on Iran\nSubscribe to unlock this article\nTry unlimited access\nOnly $1 for 4 weeksThen $75 per month. Complete digital access to quality FT journalism on any device. Cancel anytime during your trial.\nExplore more offers.\nStandard Digital\n$45 per month\nEssential digital access to quality FT journalism on any device. Pay a year upfront and save 20%.\nPremium Digital\nComplete coverage\n$75 per month\nComplete digital access to quality FT journalism with expert analysis from industry leaders. Pay a year upfront and save 20%.\nPremium & FT Weekend Print\n$79 per month\nFT Weekend newspaper delivered Saturday plus complete digital access.\nCheck whether you already have access via your university or organisation.\nTerms & Conditions apply\nExplore our full range of subscriptions.\nFor individuals\nDiscover all the plans currently available in your country\nFor multiple readers\nDigital access for organisations. Includes exclusive features and content.\nWhy the FT?\nSee why over a million readers pay to read the Financial Times.",
+    "source": "Financial Times",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Finance",
+    "published": "2026-07-09T17:12:06+00:00",
+    "crawled": "2026-07-09T17:38:19.702106+00:00",
+    "summarized": true,
+    "ai_summary": "• 報導指出，對於伊朗的政策並沒有明確的總體計劃 \n• 此信息來自於對相關政策制定者的訪問 \n• 記者強調，當前的策略缺乏一致性和長期目標 \n• 專家認為，這可能會影響美國在中東的影響力和穩定性",
+    "summaries": {
+      "zh-HK": "• 報導指出，對於伊朗的政策並沒有明確的總體計劃 \n• 此信息來自於對相關政策制定者的訪問 \n• 記者強調，當前的策略缺乏一致性和長期目標 \n• 專家認為，這可能會影響美國在中東的影響力和穩定性"
+    }
+  },
+  {
+    "url": "https://openai.com/index/bio-bug-bounty",
+    "title": "GPT-5.5 Bio Bug Bounty",
+    "summary": "Details about the OpenAI Bio Bounty program",
+    "full_text": "OpenAI Bio Bug Bounty\nTesting for universal jailbreaks for biorisks\nAs part of our ongoing efforts to strengthen our safeguards for advanced AI capabilities in biology, we’re evolving our GPT‑5.5 Bio Bug Bounty to become an ongoing private program—the OpenAI Bio Bounty Program. The program will remain focused on universal jailbreaks that can defeat our predefined biosafety challenge against OpenAI’s frontier models, starting with GPT‑5.6 and going forward.\nWe’re also excited to announce that we’re increasing reward amounts. The reward for a universal jailbreak for the OpenAI Bio Bounty Program has been raised from $25,000 to $50,000 for both GPT‑5.6 and GPT‑5.5. Smaller awards may be granted for partial wins at our discretion.\nWe will continue to honor the scope for the GPT‑5.5 Bio Bounty Program as originally announced, with testing ending on July 27, 2026. After this date, only GPT‑5.6 will be in scope; we will continue to communicate any future changes in scope to our researchers.\nInterested applicants should apply through our rolling application process(opens in a new window). Once selected, accepted applicants will be onboarded to the bio bug bounty platform. All past applicants to the GPT‑5.5 Bio Bounty Program will not need to reapply.\nSubmit a short application here(opens in a new window) (name, affiliation, experience). Accepted applicants must have existing ChatGPT accounts to apply, and will sign a NDA. Apply now and help us make frontier AI safer.\nIf you’re interested in supporting OpenAI’s work to deliver safe and secure artificial intelligence beyond the Bio Bounty program, you can learn about our Safety Bug Bounty(opens in a new window) and Security Bug Bounty(opens in a new window) programs.",
+    "source": "OpenAI Blog",
+    "category": "ai",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-09T10:00:00+00:00",
+    "crawled": "2026-07-09T17:38:27.821948+00:00",
     "summarized": false,
     "ai_summary": ""
+  },
+  {
+    "url": "https://www.theverge.com/gadgets/963475/google-nest-thermostat-deal-sale",
+    "title": "Google&#8217;s Nest Thermostat has hit its best price of the year",
+    "summary": "If you&#8217;re looking for a relatively affordable way to cut down on cooling costs, Google&#8217;s Nest Thermostat can help. It’s packed with smart controls and energy-saving features, and right now it’s on sale in white for $79 ($50 off), which is its best price of the year, at Amazon.&#160; The smart thermostat is quick to [&#8230;]",
+    "full_text": "If you’re looking for a relatively affordable way to cut down on cooling costs, Google’s Nest Thermostat can help. It’s packed with smart controls and energy-saving features, and right now it’s on sale in white for $79 ($50 off), which is its best price of the year, at Amazon.\nGoogle’s Nest Thermostat has hit its best price of the year\nGoogle’s entry-level smart thermostat offers energy-saving features and support for Matter.\nGoogle’s entry-level smart thermostat offers energy-saving features and support for Matter.\nThe smart thermostat is quick to install and makes it easy to adjust your home’s temperature whether you’re relaxing in bed or on your way home thanks to the Google Home app. You can also create schedules and control it with your voice using Google Assistant, Alexa, or another Matter-compatible voice assistant.\nOnce it’s set up, the Nest Thermostat can automatically turn the temperature down when you’re away to help reduce unnecessary energy use, while Google’s Savings Finder feature suggests additional ways to save over time. It also monitors your HVAC system and can alert you if something doesn’t seem right, making it easier to stay on top of maintenance before small issues become bigger, more expensive ones. If you’re eligible, Nest Renew can also automatically shift some of your heating and cooling to times when electricity is cleaner or cheaper.\nThat said, this is Google’s entry-level model from 2020, so you do miss out on some of the premium features found on the latest Nest Learning Thermostat. Unlike the flagship version, it won’t learn your schedule automatically over time, for example, and lacks support for Nest Temperature Sensors that let you prioritize the temperature in a specific room. Even so, if all you want is an easy way to adjust your home’s temperature remotely and potentially lower your energy bills, the Nest Thermostat is still a solid investment at this price.",
+    "source": "The Verge",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Trading",
+    "published": "2026-07-09T17:33:46+00:00",
+    "crawled": "2026-07-09T17:38:33.841219+00:00",
+    "summarized": true,
+    "ai_summary": "• 谷歌的Nest恆溫器目前在亞馬遜以79美元（減價50美元）出售，為今年最佳價格  \n• 此款入門級智能恆溫器具備節能功能及對Matter的支持，安裝簡便  \n• 用戶可透過Google Home應用程式調整家中溫度，並可使用Google Assistant或Alexa進行語音控制  \n• Nest恆溫器可自動調整溫度以減少不必要的能源使用，並提供維護提醒功能",
+    "summaries": {
+      "zh-HK": "• 谷歌的Nest恆溫器目前在亞馬遜以79美元（減價50美元）出售，為今年最佳價格  \n• 此款入門級智能恆溫器具備節能功能及對Matter的支持，安裝簡便  \n• 用戶可透過Google Home應用程式調整家中溫度，並可使用Google Assistant或Alexa進行語音控制  \n• Nest恆溫器可自動調整溫度以減少不必要的能源使用，並提供維護提醒功能"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTTN5X3lucW5KYUFRamotWUY0b0xvSF90SDl2Y29yVDhxU2ZtTW8tZEdyVWtSM0laVGF2N1BCR2RvRWEyZVg2ZnlWSFpEUTJDZXlrcmdCZ0dIVllfZjhvTVpRVXRHeHd0cWpKU0ZZbjBZWEhQUHdzUk9TczdGcjR1U29LV0d1cHJQVGw4MzM4LUxtQQ?oc=5",
+    "title": "Who will replace Graham Platner on the Maine ballot? These Democrats are raising their hand - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPTTN5X3lucW5KYUFRamotWUY0b0xvSF90SDl2Y29yVDhxU2ZtTW8tZEdyVWtSM0laVGF2N1BCR2RvRWEyZVg2ZnlWSFpEUTJDZXlrcmdCZ0dIVllfZjhvTVpRVXRHeHd0cWpKU0ZZbjBZWEhQUHdzUk9TczdGcjR1U29LV0d1cHJQVGw4MzM4LUxtQQ?oc=5\" target=\"_blank\">Who will replace Graham Platner on the Maine ballot? These Democrats are raising their hand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-09T15:26:00+00:00",
+    "crawled": "2026-07-09T17:38:37.488394+00:00",
+    "summarized": true,
+    "ai_summary": "• 緬因州民主黨內部出現多位候選人，尋求取代格雷厄姆·普拉特納在選票上的位置  \n• 候選人包括州參議員和地方官員，均表達了參選意願  \n• 格雷厄姆·普拉特納因健康原因決定不再參選  \n• 選舉將於2024年舉行，民主黨希望能夠保持該地區的席位",
+    "summaries": {
+      "zh-HK": "• 緬因州民主黨內部出現多位候選人，尋求取代格雷厄姆·普拉特納在選票上的位置  \n• 候選人包括州參議員和地方官員，均表達了參選意願  \n• 格雷厄姆·普拉特納因健康原因決定不再參選  \n• 選舉將於2024年舉行，民主黨希望能夠保持該地區的席位"
+    }
   }
 ]
