@@ -4097,8 +4097,11 @@
     "topic": "Politics",
     "published": "2026-07-09T01:00:28+00:00",
     "crawled": "2026-07-09T03:43:27.640525+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 韓國銀行行長申鉉松在國會表示，政策利率需要在適當時候上調  \n• 此言論強化了該行的鷹派立場  \n• 會議預計在下周召開，市場普遍預期將會加息  \n• 韓國銀行的政策調整旨在應對經濟狀況的變化",
+    "summaries": {
+      "zh-HK": "• 韓國銀行行長申鉉松在國會表示，政策利率需要在適當時候上調  \n• 此言論強化了該行的鷹派立場  \n• 會議預計在下周召開，市場普遍預期將會加息  \n• 韓國銀行的政策調整旨在應對經濟狀況的變化"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-09/nz-manufacturing-hits-5-year-high-as-breman-highlights-recovery",
@@ -4111,8 +4114,11 @@
     "topic": "Policy",
     "published": "2026-07-09T00:30:59+00:00",
     "crawled": "2026-07-09T03:43:27.890786+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 新西蘭製造業在六月份達到近五年來的最高增長速度  \n• 中央銀行行長安娜·布雷曼指出經濟復甦正在加速  \n• 此次增長強調了本週加息的決定  \n• 製造業的擴張顯示出新西蘭經濟的回暖跡象",
+    "summaries": {
+      "zh-HK": "• 新西蘭製造業在六月份達到近五年來的最高增長速度  \n• 中央銀行行長安娜·布雷曼指出經濟復甦正在加速  \n• 此次增長強調了本週加息的決定  \n• 製造業的擴張顯示出新西蘭經濟的回暖跡象"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-09/high-yields-set-stage-for-more-global-bond-inflow-into-indonesia",
@@ -4181,8 +4187,11 @@
     "topic": "Macro",
     "published": "2026-07-09T00:21:37+00:00",
     "crawled": "2026-07-09T03:43:38.949103+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 韓國的人工智能晶片產業正在迅速增長，顯示出行業內部的財富差距加大。  \n• 此次晶片熱潮吸引了大量投資，並促進了技術創新。  \n• 許多企業和投資者正積極參與，尋求在這一新興市場中獲得競爭優勢。  \n• 專家指出，這一趨勢可能會影響全球科技生態系統的發展。",
+    "summaries": {
+      "zh-HK": "• 韓國的人工智能晶片產業正在迅速增長，顯示出行業內部的財富差距加大。  \n• 此次晶片熱潮吸引了大量投資，並促進了技術創新。  \n• 許多企業和投資者正積極參與，尋求在這一新興市場中獲得競爭優勢。  \n• 專家指出，這一趨勢可能會影響全球科技生態系統的發展。"
+    }
   },
   {
     "url": "https://www.ft.com/content/6d6b0257-ea29-40fe-ba07-2a40fa7b2dcc",
@@ -4498,8 +4507,11 @@
     "topic": "Finance",
     "published": "2026-07-09T00:29:47+00:00",
     "crawled": "2026-07-09T03:43:44.660237+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 格雷厄姆·普拉特納因性侵犯指控暫停其美國參議院競選活動  \n• 該指控導致他在民主黨內的支持急劇下降  \n• 此事件對民主黨在緬因州的關鍵選舉造成混亂  \n• 普拉特納的決定影響了該黨在即將舉行的選舉中的競爭力",
+    "summaries": {
+      "zh-HK": "• 格雷厄姆·普拉特納因性侵犯指控暫停其美國參議院競選活動  \n• 該指控導致他在民主黨內的支持急劇下降  \n• 此事件對民主黨在緬因州的關鍵選舉造成混亂  \n• 普拉特納的決定影響了該黨在即將舉行的選舉中的競爭力"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-09/anutin-awaits-thai-court-ruling-on-12-billion-crisis-funding",
@@ -4655,8 +4667,11 @@
     "topic": "Finance",
     "published": "2026-07-09T03:20:08+00:00",
     "crawled": "2026-07-09T03:43:53.902160+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 韓國央行向國會提交報告，重申升息立場，市場預期7月16日將基準利率從2.50%調升至2.75%  \n• 央行在報告中指出，成長動能增強、通膨持續高於目標及金融穩定風險上升是升息的主要原因  \n• 半導體出口被認為是經濟成長的關鍵因素，韓元貶值至2009年以來最弱區間  \n• 儘管鷹派訊號明確，央行內部對升息存在分歧，5月會議以5比2票數維持利率不變，顯示升息時間仍有爭議",
+    "summaries": {
+      "zh-HK": "• 韓國央行向國會提交報告，重申升息立場，市場預期7月16日將基準利率從2.50%調升至2.75%  \n• 央行在報告中指出，成長動能增強、通膨持續高於目標及金融穩定風險上升是升息的主要原因  \n• 半導體出口被認為是經濟成長的關鍵因素，韓元貶值至2009年以來最弱區間  \n• 儘管鷹派訊號明確，央行內部對升息存在分歧，5月會議以5比2票數維持利率不變，顯示升息時間仍有爭議"
+    }
   },
   {
     "url": "https://www.blocktempo.com/china-ai-models-cheap-adoption-congress-probe-deepseek-glm-anthropic-openai/",
@@ -4884,8 +4899,11 @@
     "topic": "General",
     "published": "2026-07-09T00:50:56+00:00",
     "crawled": "2026-07-09T03:44:01.566262+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 倫敦大都會警方正在調查2024年羅伯特·詹里克的保守黨領導競選中的一筆捐款，該捐款金額為37,500英鎊，據報導來源於海外。  \n• 選舉委員會於今年1月將有關捐款的指控轉交給警方，並確認該捐款可能違反英國選舉法。  \n• 詹里克否認指控，並表示他與警方沒有任何聯繫，並強調其競選團隊遵守所有選舉法律。  \n• 警方表示調查仍在進行中，並未透露調查涉及的具體人員。",
+    "summaries": {
+      "zh-HK": "• 倫敦大都會警方正在調查2024年羅伯特·詹里克的保守黨領導競選中的一筆捐款，該捐款金額為37,500英鎊，據報導來源於海外。  \n• 選舉委員會於今年1月將有關捐款的指控轉交給警方，並確認該捐款可能違反英國選舉法。  \n• 詹里克否認指控，並表示他與警方沒有任何聯繫，並強調其競選團隊遵守所有選舉法律。  \n• 警方表示調查仍在進行中，並未透露調查涉及的具體人員。"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/c9v229434p2o?at_medium=RSS&at_campaign=rss",
@@ -4915,8 +4933,11 @@
     "topic": "Politics",
     "published": "2026-07-09T03:13:25+00:00",
     "crawled": "2026-07-09T03:44:01.639113+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 格雷厄姆·普拉特納宣布暫停其參選美國參議院的競選，結束了他的政治生涯。\n• 此消息在社交媒體上發布，距離《政治報》報導其前女友指控普拉特納在2021年醉酒闖入其家中並涉嫌性侵犯的消息僅48小時。\n• 普拉特納曾獲得進步派領袖如桑德斯和華倫的支持，目標是挑戰現任共和黨參議員蘇珊·柯林斯。\n• 他的退出可能會對民主黨在即將舉行的中期選舉中控制參議院的希望造成嚴重打擊，並重新暴露出黨內左翼與中間派之間的分歧。",
+    "summaries": {
+      "zh-HK": "• 格雷厄姆·普拉特納宣布暫停其參選美國參議院的競選，結束了他的政治生涯。\n• 此消息在社交媒體上發布，距離《政治報》報導其前女友指控普拉特納在2021年醉酒闖入其家中並涉嫌性侵犯的消息僅48小時。\n• 普拉特納曾獲得進步派領袖如桑德斯和華倫的支持，目標是挑戰現任共和黨參議員蘇珊·柯林斯。\n• 他的退出可能會對民主黨在即將舉行的中期選舉中控制參議院的希望造成嚴重打擊，並重新暴露出黨內左翼與中間派之間的分歧。"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/c20y9g2v2wvo?at_medium=RSS&at_campaign=rss",
@@ -5081,8 +5102,11 @@
     "topic": "Politics",
     "published": "2026-07-09T00:54:32+00:00",
     "crawled": "2026-07-09T03:44:02.944386+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 特朗普計劃要求美國最高法院重新審理一宗有關出生公民權的案件，該案件推翻了他的命令，限制某些在美國出生人士的公民權。  \n• 最高法院上月以6比3的裁決駁回特朗普的限制出生公民權的嘗試，特朗普表示這一裁決對美國不利，並呼籲國會共和黨通過相關立法。  \n• 特朗普於2025年1月20日上任後簽署行政命令，試圖禁止在美國出生的父母為臨時合法身份或無證件人士的子女自動獲得美國公民身份。  \n• 最高法院通常不會重新審理案件，且自上世紀以來，法院已很少允許在已裁決的案件中進行重審。",
+    "summaries": {
+      "zh-HK": "• 特朗普計劃要求美國最高法院重新審理一宗有關出生公民權的案件，該案件推翻了他的命令，限制某些在美國出生人士的公民權。  \n• 最高法院上月以6比3的裁決駁回特朗普的限制出生公民權的嘗試，特朗普表示這一裁決對美國不利，並呼籲國會共和黨通過相關立法。  \n• 特朗普於2025年1月20日上任後簽署行政命令，試圖禁止在美國出生的父母為臨時合法身份或無證件人士的子女自動獲得美國公民身份。  \n• 最高法院通常不會重新審理案件，且自上世紀以來，法院已很少允許在已裁決的案件中進行重審。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/sports/2026/7/9/rights-group-plans-complaint-to-ioc-against-infantino-over-trump-support?traffic_source=rss",
@@ -5095,8 +5119,11 @@
     "topic": "Politics",
     "published": "2026-07-09T00:53:41+00:00",
     "crawled": "2026-07-09T03:44:02.983280+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 人權組織FairSquare計劃向國際奧委會（IOC）提出對國際足總主席詹尼·特朗普的投訴，指控他違反政治中立規則，因為他支持美國總統特朗普。  \n• FairSquare表示將投訴特朗普的「重複違反政治中立規則」，並要求IOC調查其在引入FIFA和平獎及授予特朗普的決策中的角色。  \n• 投訴指特朗普通過其支持行為違反了FIFA道德守則第15條，該條款要求與政治中立有關的官方事務必須保持中立。  \n• IOC主席柯芬特里表示，若收到投訴將會進行調查，但目前尚未收到任何正式投訴。",
+    "summaries": {
+      "zh-HK": "• 人權組織FairSquare計劃向國際奧委會（IOC）提出對國際足總主席詹尼·特朗普的投訴，指控他違反政治中立規則，因為他支持美國總統特朗普。  \n• FairSquare表示將投訴特朗普的「重複違反政治中立規則」，並要求IOC調查其在引入FIFA和平獎及授予特朗普的決策中的角色。  \n• 投訴指特朗普通過其支持行為違反了FIFA道德守則第15條，該條款要求與政治中立有關的官方事務必須保持中立。  \n• IOC主席柯芬特里表示，若收到投訴將會進行調查，但目前尚未收到任何正式投訴。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/sports/2026/7/9/morocco-dealt-huge-blow-as-injured-saibari-out-of-world-cup-quarterfinal?traffic_source=rss",
@@ -5109,8 +5136,11 @@
     "topic": "World",
     "published": "2026-07-09T00:51:48+00:00",
     "crawled": "2026-07-09T03:44:03.034223+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 摩洛哥球隊的明星前鋒伊斯梅爾·賽巴里因腿筋受傷將缺席對法國的世界杯四分之一決賽，受傷發生在對加拿大的16強賽中。  \n• 教練穆罕默德·奧阿比表示，賽巴里未能及時康復，並希望他不會缺席整個比賽。  \n• 賽巴里在本屆世界杯中表現出色，為摩洛哥隊在小組賽中打入進球，並在對荷蘭的32強賽中射入制勝點球。  \n• 摩洛哥隊希望在四分之一決賽中戰勝法國，以報復2022年世界杯半決賽的失利，並力求晉級半決賽。",
+    "summaries": {
+      "zh-HK": "• 摩洛哥球隊的明星前鋒伊斯梅爾·賽巴里因腿筋受傷將缺席對法國的世界杯四分之一決賽，受傷發生在對加拿大的16強賽中。  \n• 教練穆罕默德·奧阿比表示，賽巴里未能及時康復，並希望他不會缺席整個比賽。  \n• 賽巴里在本屆世界杯中表現出色，為摩洛哥隊在小組賽中打入進球，並在對荷蘭的32強賽中射入制勝點球。  \n• 摩洛哥隊希望在四分之一決賽中戰勝法國，以報復2022年世界杯半決賽的失利，並力求晉級半決賽。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/9/south-sudan-15-years-on-still-fighting-for-peace?traffic_source=rss",
@@ -5123,8 +5153,11 @@
     "topic": "World",
     "published": "2026-07-09T00:33:38+00:00",
     "crawled": "2026-07-09T03:44:03.070720+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 南蘇丹於2023年7月9日慶祝獨立15周年，但和平進程停滯，經濟挑戰加劇，民生困難依然存在。  \n• 2013年至2018年間的內戰造成數十萬人喪生，雖然2018年簽署的和平協議結束了大規模戰鬥，但實施進展緩慢。  \n• 當地活動人士表示，基本服務如醫療和清潔水源仍然不足，社會暴力和部落衝突影響日常生活。  \n• 人道主義需求加深，隨著衝突、氣候衝擊及超過120萬名逃離鄰國蘇丹的難民回流，對人道援助的需求持續上升。",
+    "summaries": {
+      "zh-HK": "• 南蘇丹於2023年7月9日慶祝獨立15周年，但和平進程停滯，經濟挑戰加劇，民生困難依然存在。  \n• 2013年至2018年間的內戰造成數十萬人喪生，雖然2018年簽署的和平協議結束了大規模戰鬥，但實施進展緩慢。  \n• 當地活動人士表示，基本服務如醫療和清潔水源仍然不足，社會暴力和部落衝突影響日常生活。  \n• 人道主義需求加深，隨著衝突、氣候衝擊及超過120萬名逃離鄰國蘇丹的難民回流，對人道援助的需求持續上升。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/liveblog/2026/7/9/iran-war-live-one-killed-as-us-bombs-bushehr-chabahar-bandar-abbas-jask?traffic_source=rss",
@@ -5179,8 +5212,11 @@
     "topic": "Politics",
     "published": "2026-07-09T00:23:36+00:00",
     "crawled": "2026-07-09T03:44:04.137422+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 格雷厄姆·普拉特納因面臨強姦指控而終止其參選參議院的計劃，並於星期三在社交媒體上發佈視頻宣布此決定。  \n• 他表示，為了運動的持續發展，必須停止競選活動，並強調這不是對指控的承認。  \n• 在普拉特納的競選過程中，民主黨內部的支持者因指控而紛紛撤回對他的支持，包括眾議員羅·卡納和參議員伊莉莎白·華倫等人。  \n• 根據州選舉規則，普拉特納必須在7月13日之前撤回參選，以便州黨在7月27日的截止日期之前提名新候選人。",
+    "summaries": {
+      "zh-HK": "• 格雷厄姆·普拉特納因面臨強姦指控而終止其參選參議院的計劃，並於星期三在社交媒體上發佈視頻宣布此決定。  \n• 他表示，為了運動的持續發展，必須停止競選活動，並強調這不是對指控的承認。  \n• 在普拉特納的競選過程中，民主黨內部的支持者因指控而紛紛撤回對他的支持，包括眾議員羅·卡納和參議員伊莉莎白·華倫等人。  \n• 根據州選舉規則，普拉特納必須在7月13日之前撤回參選，以便州黨在7月27日的截止日期之前提名新候選人。"
+    }
   },
   {
     "url": "https://www.npr.org/2026/07/08/g-s1-132497/passports-trump-image",
@@ -5384,8 +5420,11 @@
     "topic": "Politics",
     "published": "2026-07-09T00:35:40+00:00",
     "crawled": "2026-07-09T03:44:18.899394+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 緬因州牡蠣農和海軍退伍軍人格雷厄姆·普拉特納因性侵指控於週三宣布退出參議院競選，為其他候選人鋪平道路。\n• 41歲的緬因州居民珍妮·拉西科特指控普拉特納在2021年強迫她發生性行為，普拉特納則在視頻中否認該指控。\n• 普拉特納的退出影響民主黨在特朗普總統任期最後兩年重新掌控參議院的計劃，民主黨需翻轉四個參議院席位。\n• 民主黨官員正在檢視緬因州的選舉規則，以便在普拉特納於7月13日下午5點前退出後選擇替代候選人。",
+    "summaries": {
+      "zh-HK": "• 緬因州牡蠣農和海軍退伍軍人格雷厄姆·普拉特納因性侵指控於週三宣布退出參議院競選，為其他候選人鋪平道路。\n• 41歲的緬因州居民珍妮·拉西科特指控普拉特納在2021年強迫她發生性行為，普拉特納則在視頻中否認該指控。\n• 普拉特納的退出影響民主黨在特朗普總統任期最後兩年重新掌控參議院的計劃，民主黨需翻轉四個參議院席位。\n• 民主黨官員正在檢視緬因州的選舉規則，以便在普拉特納於7月13日下午5點前退出後選擇替代候選人。"
+    }
   },
   {
     "url": "https://time.com/article/2026/07/08/what-we-know-about-the-fatal-ice-shooting-in-houston/",
@@ -5440,8 +5479,11 @@
     "topic": "Politics",
     "published": "2026-07-09T01:14:35+00:00",
     "crawled": "2026-07-09T03:44:22.705016+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 格雷厄姆·普拉特納因性侵指控退出參議院競選 \n• 普拉特納的決定是在指控公開後不久作出的 \n• 目前尚不清楚普拉特納是否會面對法律後果 \n• 此事件引發了對政治候選人行為的廣泛關注",
+    "summaries": {
+      "zh-HK": "• 格雷厄姆·普拉特納因性侵指控退出參議院競選 \n• 普拉特納的決定是在指控公開後不久作出的 \n• 目前尚不清楚普拉特納是否會面對法律後果 \n• 此事件引發了對政治候選人行為的廣泛關注"
+    }
   },
   {
     "url": "https://www.ft.com/content/9a730895-05d9-4917-beb9-8b742bea1ab7",
@@ -5698,8 +5740,11 @@
     "topic": "DeFi",
     "published": "2026-07-09T00:32:00+00:00",
     "crawled": "2026-07-09T03:44:39.400553+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 日本基準債券收益率達到30年來的最高水平，主要因通脹和財政健康問題引發擔憂  \n• 投資者對日本政府的財政狀況表示關注，導致市場反應  \n• 此次收益率上升反映了市場對未來經濟狀況的擔憂  \n• 日本央行的貨幣政策及其對通脹的應對措施受到密切關注",
+    "summaries": {
+      "zh-HK": "• 日本基準債券收益率達到30年來的最高水平，主要因通脹和財政健康問題引發擔憂  \n• 投資者對日本政府的財政狀況表示關注，導致市場反應  \n• 此次收益率上升反映了市場對未來經濟狀況的擔憂  \n• 日本央行的貨幣政策及其對通脹的應對措施受到密切關注"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdDZ2UEE4enRFMVZrRXZRZk9qdE9GUVJCLUppajI2bkNCZGhLTklRTXNPZThFUzZXb3VwY0Z5YURxanZFeUU5VGdlVHZsLW1nMkFYQm9Qa2FiQWM3eW9YeEpHRzIxbGdJSE5fSW1jdjFDbExWam9SekRCZXloYlVWVGQwZTdwTjdYcWdXVUxPYWZJWV91bmtneWpKaVgxcGFrSUE?oc=5",
@@ -5886,8 +5931,11 @@
     "topic": "General",
     "published": "2026-07-09T00:58:00+00:00",
     "crawled": "2026-07-09T03:44:48.526432+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• LG電子計劃在越南投資10億美元，以擴大其半導體業務 \n• 此舉顯示越南在半導體價值鏈中的地位逐漸上升 \n• 投資將用於建設新廠房及提升生產能力 \n• 越南政府支持此項投資，以促進當地高科技產業發展",
+    "summaries": {
+      "zh-HK": "• LG電子計劃在越南投資10億美元，以擴大其半導體業務 \n• 此舉顯示越南在半導體價值鏈中的地位逐漸上升 \n• 投資將用於建設新廠房及提升生產能力 \n• 越南政府支持此項投資，以促進當地高科技產業發展"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ0Q0cG03YlRJUkFDVVMwWGxUc1R2dHVMTUhnOTFiQzRkQkM0S3MyYWVJdV8xZDl4QXFzX01BQlFZUVNSOE1uVS1JYlYxWnllVmZ5Vk01U3o5emF5SzVKNHNteHJ5TThnOWlFYXJrVmhiNnpYTFlLaWJoV2lVZVVYZS16MEFXLTJyY3hRMGVnSmRvc3JuMU5xR2IyQ09HV1I1NjRVSHR4bU8wSlhHaUpWQ25uRnRtZ0FUUk1pTXVMSQ?oc=5",
@@ -5928,8 +5976,11 @@
     "topic": "Macro",
     "published": "2026-07-09T01:09:24+00:00",
     "crawled": "2026-07-09T03:44:50.151480+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 本文來源於《日經亞洲》，涵蓋商業、政治、經濟及科技新聞與分析  \n• 提供最新的亞洲市場動態及全球經濟趨勢  \n• 報導涉及各行各業的發展及政策變化  \n• 旨在為讀者提供全面的資訊與深入的分析",
+    "summaries": {
+      "zh-HK": "• 本文來源於《日經亞洲》，涵蓋商業、政治、經濟及科技新聞與分析  \n• 提供最新的亞洲市場動態及全球經濟趨勢  \n• 報導涉及各行各業的發展及政策變化  \n• 旨在為讀者提供全面的資訊與深入的分析"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVVNqMFhCSWdzcUp4OTZNVnYyVHBueHhTTFRTRWl6UHFBOWpFdTRSWUp1TlBnYzBPdGJqZnE0VGVxN2JnYVVfWjZWNlpkSFVvZ1M5c2tUUXctR3Y4bF9jVVRqaFM3RVhYMUNFOTItOXMwR2c3N1dPSDJZbFplbnc2djdsbmgwbzRtVHhzdk01ZWZ2eFhmRUpZV3FiTWwyM3BvT2VkV1pZRzd3Yi1wNXc4Q2ZoekhTcnVwSGc?oc=5",
@@ -6183,8 +6234,11 @@
     "topic": "Finance",
     "published": "2026-07-09T04:04:28+00:00",
     "crawled": "2026-07-09T04:10:37.454534+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 市場目前的狀況可接受，只要不跨越某條重要的界線  \n• 投資者對市場的反應顯示出一定的穩定性  \n• 專家指出，市場仍需密切關注潛在的風險因素  \n• 目前尚未有明確的政策變化或重大事件影響市場走向",
+    "summaries": {
+      "zh-HK": "• 市場目前的狀況可接受，只要不跨越某條重要的界線  \n• 投資者對市場的反應顯示出一定的穩定性  \n• 專家指出，市場仍需密切關注潛在的風險因素  \n• 目前尚未有明確的政策變化或重大事件影響市場走向"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-09/japan-s-five-year-bond-sale-demand-in-line-with-12-month-average",
@@ -6197,8 +6251,11 @@
     "topic": "DeFi",
     "published": "2026-07-09T03:40:12+00:00",
     "crawled": "2026-07-09T04:10:37.607484+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 日本於星期四進行的五年期政府債券拍賣需求與過去12個月的平均水平大致相符  \n• 提高的收益率促進了對該債券的需求  \n• 此次拍賣反映出市場對日本政府債券的穩定興趣  \n• 日本政府債券的需求在當前經濟環境中保持穩定",
+    "summaries": {
+      "zh-HK": "• 日本於星期四進行的五年期政府債券拍賣需求與過去12個月的平均水平大致相符  \n• 提高的收益率促進了對該債券的需求  \n• 此次拍賣反映出市場對日本政府債券的穩定興趣  \n• 日本政府債券的需求在當前經濟環境中保持穩定"
+    }
   },
   {
     "url": "https://www.cnbc.com/2026/07/08/manhattan-office-leasing-gains.html",
@@ -6561,8 +6618,11 @@
     "topic": "Finance",
     "published": "2026-07-09T04:01:21+00:00",
     "crawled": "2026-07-09T04:10:57.123585+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 英國近日發生多起騷亂，起因於網絡上的憤怒情緒被操控和武器化  \n• 騷亂涉及多個城市，民眾因社會不滿而走上街頭  \n• 當局加強了對社交媒體的監控，以防止進一步的暴力行為  \n• 警方表示，網絡上的煽動性言論對騷亂的爆發起了推動作用",
+    "summaries": {
+      "zh-HK": "• 英國近日發生多起騷亂，起因於網絡上的憤怒情緒被操控和武器化  \n• 騷亂涉及多個城市，民眾因社會不滿而走上街頭  \n• 當局加強了對社交媒體的監控，以防止進一步的暴力行為  \n• 警方表示，網絡上的煽動性言論對騷亂的爆發起了推動作用"
+    }
   },
   {
     "url": "https://www.bankless.com/read/news/paradigm-raises-1-2b-fourth-fund-expands-into-ai",
@@ -6603,8 +6663,11 @@
     "topic": "Crypto",
     "published": "2026-07-09T03:53:18+00:00",
     "crawled": "2026-07-09T04:11:02.366083+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• SK海力士（SK Hynix）在美股的存託憑證（ADR）發行規模約為245億美元，成為外國企業赴美掛牌史上第二大，僅次於阿里巴巴的250億美元IPO。  \n• 此次美股認購超額達7倍，吸引了全球長線基金、主權基金及科技產業專注的投資者。  \n• SK海力士的韓股股價自六月底以來已回落近三成，市場對AI基礎建設投資熱潮降溫表示擔憂。  \n• ADR預計於7月13日在那斯達克正式交易，程式碼將改為SKHY。",
+    "summaries": {
+      "zh-HK": "• SK海力士（SK Hynix）在美股的存託憑證（ADR）發行規模約為245億美元，成為外國企業赴美掛牌史上第二大，僅次於阿里巴巴的250億美元IPO。  \n• 此次美股認購超額達7倍，吸引了全球長線基金、主權基金及科技產業專注的投資者。  \n• SK海力士的韓股股價自六月底以來已回落近三成，市場對AI基礎建設投資熱潮降溫表示擔憂。  \n• ADR預計於7月13日在那斯達克正式交易，程式碼將改為SKHY。"
+    }
   },
   {
     "url": "https://blockcast.it/2026/07/08/10000-gold-by-year-end-intact-james-rickards-said/",
@@ -6743,8 +6806,11 @@
     "topic": "World",
     "published": "2026-07-09T04:00:06+00:00",
     "crawled": "2026-07-09T04:11:11.761381+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 中國地質學家警告，活躍的斷層線威脅世界最大水電項目，位於西藏的巨型水壩項目面臨風險  \n• 研究指出，喜馬拉雅東部地區的地殼裂縫將顯著影響水電項目基礎設施的完整性  \n• 研究團隊呼籲加強坡面穩定性及實施防護措施，以減少山崩和倒塌的風險  \n• 研究由成都理工大學及中國地質調查局的相關機構進行，並於上月發表於中文期刊《沉積地質與特提安地質》",
+    "summaries": {
+      "zh-HK": "• 中國地質學家警告，活躍的斷層線威脅世界最大水電項目，位於西藏的巨型水壩項目面臨風險  \n• 研究指出，喜馬拉雅東部地區的地殼裂縫將顯著影響水電項目基礎設施的完整性  \n• 研究團隊呼籲加強坡面穩定性及實施防護措施，以減少山崩和倒塌的風險  \n• 研究由成都理工大學及中國地質調查局的相關機構進行，並於上月發表於中文期刊《沉積地質與特提安地質》"
+    }
   },
   {
     "url": "https://www.scmp.com/news/china/military/article/3359754/enemy-within-dispute-endangering-taiwans-t-dome-air-defence-plan?utm_source=rss_feed",
@@ -6785,8 +6851,11 @@
     "topic": "General",
     "published": "2026-07-09T04:03:08+00:00",
     "crawled": "2026-07-09T04:11:13.271308+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 澳洲反對派領袖安格斯·泰勒為影子通訊部長莎拉·亨德森辯護，稱其在Telstra全國性故障期間進行不必要的三零呼叫是“履行職責”。\n• 南澳警方表示未接獲任何因故障導致死亡的報告，對自由黨參議員凱琳·利德爾的聲明表示質疑。\n• Telstra確認部分客戶因“次要問題”無法撥打三零電話，並表示該問題已減少90%。\n• 澳洲通訊及媒體管理局將對事件進行審查，通訊部長安妮卡·威爾斯表示正在對無法聯繫三零的民眾進行福利檢查。",
+    "summaries": {
+      "zh-HK": "• 澳洲反對派領袖安格斯·泰勒為影子通訊部長莎拉·亨德森辯護，稱其在Telstra全國性故障期間進行不必要的三零呼叫是“履行職責”。\n• 南澳警方表示未接獲任何因故障導致死亡的報告，對自由黨參議員凱琳·利德爾的聲明表示質疑。\n• Telstra確認部分客戶因“次要問題”無法撥打三零電話，並表示該問題已減少90%。\n• 澳洲通訊及媒體管理局將對事件進行審查，通訊部長安妮卡·威爾斯表示正在對無法聯繫三零的民眾進行福利檢查。"
+    }
   },
   {
     "url": "https://www.nytimes.com/live/2026/07/08/world/iran-war-us-trump",
@@ -6799,8 +6868,11 @@
     "topic": "World",
     "published": "2026-07-09T04:03:52+00:00",
     "crawled": "2026-07-09T04:11:14.139728+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國中央司令部在社交媒體上表示，正在保護霍爾木茲海峽的航運安全  \n• 特朗普總統早前表示，他認為已經持續三週的停火協議“結束”  \n• 美國對伊朗發動新的軍事打擊，具體時間和地點未公開  \n• 此次行動被認為是對地區局勢升級的回應",
+    "summaries": {
+      "zh-HK": "• 美國中央司令部在社交媒體上表示，正在保護霍爾木茲海峽的航運安全  \n• 特朗普總統早前表示，他認為已經持續三週的停火協議“結束”  \n• 美國對伊朗發動新的軍事打擊，具體時間和地點未公開  \n• 此次行動被認為是對地區局勢升級的回應"
+    }
   },
   {
     "url": "https://www.nytimes.com/live/2026/07/08/world/nato-summit-turkey-trump-ukraine",
@@ -6813,8 +6885,11 @@
     "topic": "World",
     "published": "2026-07-09T03:53:09+00:00",
     "crawled": "2026-07-09T04:11:14.317742+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 特朗普批評盟友未參與伊朗戰爭，但稱讚北約的「團結」 \n• 他表示將授予烏克蘭長期渴望的權限，以製造愛國者防禦系統 \n• 此言論是在特朗普與盟友的緊張關係背景下發表的 \n• 特朗普的言論強調了他對國際合作的矛盾立場",
+    "summaries": {
+      "zh-HK": "• 特朗普批評盟友未參與伊朗戰爭，但稱讚北約的「團結」 \n• 他表示將授予烏克蘭長期渴望的權限，以製造愛國者防禦系統 \n• 此言論是在特朗普與盟友的緊張關係背景下發表的 \n• 特朗普的言論強調了他對國際合作的矛盾立場"
+    }
   },
   {
     "url": "https://www.nytimes.com/2026/07/08/world/europe/trump-nato-summit.html",
@@ -6883,8 +6958,11 @@
     "topic": "General",
     "published": "2026-07-09T04:00:06+00:00",
     "crawled": "2026-07-09T04:11:15.298983+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 分析師指出，伊朗在過去的歷史中顯示出其願意堅持立場，即使面臨重大損失  \n• 近期油輪攻擊事件可能使伊朗在地緣政治上獲得更多優勢  \n• 專家認為，這些攻擊可能會影響國際社會對伊朗的看法和應對策略  \n• 伊朗的行動可能會引發更大範圍的地區緊張局勢",
+    "summaries": {
+      "zh-HK": "• 分析師指出，伊朗在過去的歷史中顯示出其願意堅持立場，即使面臨重大損失  \n• 近期油輪攻擊事件可能使伊朗在地緣政治上獲得更多優勢  \n• 專家認為，這些攻擊可能會影響國際社會對伊朗的看法和應對策略  \n• 伊朗的行動可能會引發更大範圍的地區緊張局勢"
+    }
   },
   {
     "url": "https://time.com/article/2026/07/08/democratic-senate-hopeful-abdul-el-sayed-is-running-against-two-parties/",
@@ -7037,8 +7115,11 @@
     "topic": "General",
     "published": "2026-07-09T01:59:00+00:00",
     "crawled": "2026-07-09T04:11:37.182516+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 颱風巴維正朝向台灣移動，並預計將在中國沿海地區登陸  \n• 中國氣象局已發出颱風警報，並準備應對可能的影響  \n• 台灣當局已開始加強防範措施，以應對颱風帶來的強風和降雨  \n• 颱風巴維的登陸時間和影響範圍仍在持續觀察中",
+    "summaries": {
+      "zh-HK": "• 颱風巴維正朝向台灣移動，並預計將在中國沿海地區登陸  \n• 中國氣象局已發出颱風警報，並準備應對可能的影響  \n• 台灣當局已開始加強防範措施，以應對颱風帶來的強風和降雨  \n• 颱風巴維的登陸時間和影響範圍仍在持續觀察中"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ3E3dk1SbkV0bjVmM0NaeDJwX00yazl4VjJoYWxld09scy1PdlY3dTNIY0lyT3RKeGh4QTFNdVFBblNMR2Fyeldrd3AweUthM0t5N1ZFeEtUZ3l1LTdpYTBCMDdZSFk5QzBONW53SHk5eXRRbE5QTjJWX2toa3JZU0lNYVEydktIVTZCM1V0ZkpCQ2JYWl95UEdpdlVoVDR6SjlnaTRlRHJHZnFzcm1udWp0U2VCSVBCM0VDZA?oc=5",
@@ -7110,8 +7191,11 @@
     "topic": "Politics",
     "published": "2026-07-09T02:18:00+00:00",
     "crawled": "2026-07-09T04:11:39.759211+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 民主黨候選人格雷厄姆·普拉特納宣布計劃退出緬因州參議院選舉  \n• 此決定是在面對一起性侵犯指控後作出的  \n• 普拉特納在社交媒體上表示，他將專注於家庭和個人健康  \n• 目前尚未有進一步的法律行動或詳細資訊公開",
+    "summaries": {
+      "zh-HK": "• 民主黨候選人格雷厄姆·普拉特納宣布計劃退出緬因州參議院選舉  \n• 此決定是在面對一起性侵犯指控後作出的  \n• 普拉特納在社交媒體上表示，他將專注於家庭和個人健康  \n• 目前尚未有進一步的法律行動或詳細資訊公開"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNb2VrZ3FidnBSdm5FT0Voa21tU0JmT09VTmtHTDdJOGM5ejF6Y2tTblhxM1ZxaVptb2k1TTdESlVNbk5Fa254TDRiRlViTW13bFJfZzhIR3dhSmQ3OGZNeVNzdTNYU2xCSDB5MHltSW53Rm40dTFhSVpjTW02cXNocmtEc2Rvbk1FdUo2YmlLVVpNZ2pFY01FN3ZGRlFXZjNOeXlXd0RFc28tOUVIZ1pFSFBHMjA?oc=5",
@@ -7124,8 +7208,11 @@
     "topic": "Science",
     "published": "2026-07-09T04:00:21+00:00",
     "crawled": "2026-07-09T04:11:41.085568+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 科學界正面臨大規模生產科學的趨勢，這可能改變科學家的角色和工作方式  \n• 新技術和自動化的發展使得科學研究的過程更加高效  \n• 專家指出，這一變化可能導致科學家需要重新評估他們的專業技能和職業定位  \n• 許多科學家開始探索如何在這一新環境中保持創新和競爭力",
+    "summaries": {
+      "zh-HK": "• 科學界正面臨大規模生產科學的趨勢，這可能改變科學家的角色和工作方式  \n• 新技術和自動化的發展使得科學研究的過程更加高效  \n• 專家指出，這一變化可能導致科學家需要重新評估他們的專業技能和職業定位  \n• 許多科學家開始探索如何在這一新環境中保持創新和競爭力"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUndIXzZuSjRNamRaOWpYZ0d5OGpWbmtnVkYtWHNFcndzS2l5YW56MFZjOU9odkR0WUxtSVpMSFB5bWlEUGxMTWlodGhJZjNGMzJyWWpPYS1jLTRseTB1RFduT2FNTG92RGNNeVE2RzNvZlo1d3ROYXlVR3ZoZElEM0s5bS1RVC1qTm9fc2N3SFp2a0N5ajJiaw?oc=5",
@@ -7278,7 +7365,10 @@
     "topic": "General",
     "published": "2026-07-09T03:57:00+00:00",
     "crawled": "2026-07-09T04:11:45.350814+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 中國拘留兩名日本公民，與其舉報計劃的風險有關 \n• 這兩名日本人被指控涉嫌從事間諜活動 \n• 中國政府強調其舉報計劃旨在保護國家安全 \n• 專家指出，這一事件可能會影響中日雙邊關係及外國企業在中國的運作",
+    "summaries": {
+      "zh-HK": "• 中國拘留兩名日本公民，與其舉報計劃的風險有關 \n• 這兩名日本人被指控涉嫌從事間諜活動 \n• 中國政府強調其舉報計劃旨在保護國家安全 \n• 專家指出，這一事件可能會影響中日雙邊關係及外國企業在中國的運作"
+    }
   }
 ]
