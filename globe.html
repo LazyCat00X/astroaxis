@@ -1260,6 +1260,7 @@
 
     // ── Existing globe code below ──
     // Already available as THREE, THREE.OrbitControls via global
+    function slugify(s) { return ((s||'').toLowerCase().trim().replace(/[^\w\s-]/g,'').replace(/[-\s]+/g,'-').replace(/^-+|-+$/g,'') || 'unknown').slice(0,80); }
         let NEWS_DATA = {articles: [], sourceLocations: {}};
     let timelineData = {};  // Will be loaded from timeline-data.json
     
