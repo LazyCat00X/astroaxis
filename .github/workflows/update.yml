@@ -4,6 +4,16 @@ on:
   schedule:
     - cron: '0 * * * *'  # Every hour
   workflow_dispatch:  # Manual trigger
+  push:
+    branches: [ 'main' ]
+    paths:
+      - 'globe.html'
+      - 'feeds.yaml'
+      - 'crawler.py'
+      - 'summarizer.py'
+      - 'generate_*.py'
+      - 'config.py'
+      - '.github/workflows/update.yml'
 
 jobs:
   update:
@@ -88,5 +98,6 @@ jobs:
             echo "No data changes"
           else
             git commit -m "auto: sync data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git push
+            git pull --rebase origin main || echo "Rebase failed, trying force push"
+            git push || git push --force
           fi
