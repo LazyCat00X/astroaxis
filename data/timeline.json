@@ -33,13 +33,6 @@
       "type": "crypto"
     },
     {
-      "date": "2025-07-09",
-      "title": "Earth completes its shortest recorded day due to a slight acceleration in rotati",
-      "desc": "Earth completes its shortest recorded day due to a slight acceleration in rotation, with July 9 lasting approximately 1.3 to 1.6 milliseconds less than 24 hours.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2025-06-15",
       "title": "USMCA Renegotiation",
       "desc": "North American trade deal renegotiation begins",
@@ -190,6 +183,13 @@
       "type": "disaster"
     },
     {
+      "date": "2019-07-10",
+      "title": "The final Volkswagen Beetle rolls off the line in Puebla, Mexico; the last of 5,",
+      "desc": "The final Volkswagen Beetle rolls off the line in Puebla, Mexico; the last of 5,961 \"Special Edition\" cars will be exhibited in a museum.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2019-04-15",
       "title": "Notre Dame Fire",
       "desc": "Major fire devastates Notre Dame Cathedral in Paris",
@@ -203,6 +203,13 @@
     }
   ],
   "2018": [
+    {
+      "date": "2018-07-10",
+      "title": "Tham Luang cave rescue: A group of Thai school children and their football coach",
+      "desc": "Tham Luang cave rescue: A group of Thai school children and their football coach are all rescued from a cave after being stuck there for 18 days; one Thai Navy SEAL diver dies during the rescue missio",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "2018-06-12",
       "title": "Trump-Kim Summit",
@@ -230,6 +237,13 @@
       "type": "crypto"
     },
     {
+      "date": "2017-07-10",
+      "title": "Iraqi Civil War: Mosul is declared fully liberated from the Islamic State of Ira",
+      "desc": "Iraqi Civil War: Mosul is declared fully liberated from the Islamic State of Iraq and the Levant by the government of Iraq.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "2017-06-01",
       "title": "US Withdraws Paris Accord",
       "desc": "Trump announces US withdrawal from climate agreement",
@@ -242,6 +256,13 @@
       "title": "Trump Elected",
       "desc": "Donald Trump wins US presidential election",
       "type": "politics"
+    },
+    {
+      "date": "2016-07-10",
+      "title": "Portugal defeats France in the UEFA Euro 2016 Final to win their first European ",
+      "desc": "Portugal defeats France in the UEFA Euro 2016 Final to win their first European title.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "2016-06-23",
@@ -324,6 +345,13 @@
       "type": "general"
     },
     {
+      "date": "2012-07-10",
+      "title": "The Episcopal Church USA allows same-sex marriage.",
+      "desc": "The Episcopal Church USA allows same-sex marriage.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2012-07-04",
       "title": "Higgs Boson Discovery",
       "desc": "CERN announces discovery of the Higgs boson particle",
@@ -338,17 +366,17 @@
   ],
   "2011": [
     {
-      "date": "2011-07-09",
-      "title": "South Sudan gains independence and secedes from Sudan.",
-      "desc": "South Sudan gains independence and secedes from Sudan.",
-      "type": "tech",
+      "date": "2011-07-10",
+      "title": "Russian cruise ship Bulgaria sinks in the Volga River near Syukeyevo, Tatarstan,",
+      "desc": "Russian cruise ship Bulgaria sinks in the Volga River near Syukeyevo, Tatarstan, causing 122 deaths.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
-      "date": "2011-07-09",
-      "title": "A rally takes place in Kuala Lumpur, Malaysia to call for fairer elections in th",
-      "desc": "A rally takes place in Kuala Lumpur, Malaysia to call for fairer elections in the country.",
-      "type": "tech",
+      "date": "2011-07-10",
+      "title": "Amid widespread backlash to revelations of phone hacking, the British weekly tab",
+      "desc": "Amid widespread backlash to revelations of phone hacking, the British weekly tabloid newspaper News of the World publishes its final issue and shuts down after nearly 168 years in print.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -428,9 +456,30 @@
       "title": "Lehman Brothers Collapse",
       "desc": "Investment bank fails, triggering global financial crisis",
       "type": "finance"
+    },
+    {
+      "date": "2008-07-10",
+      "title": "Former Macedonian Interior Minister Ljube Boškoski is acquitted of all war-crime",
+      "desc": "Former Macedonian Interior Minister Ljube Boškoski is acquitted of all war-crimes charges by a United Nations tribunal.",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "2007": [
+    {
+      "date": "2007-07-10",
+      "title": "Erden Eruç begins the first solo human-powered circumnavigation of the world.",
+      "desc": "Erden Eruç begins the first solo human-powered circumnavigation of the world.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2007-07-10",
+      "title": "The Pakistani military storms the Lal Masjid mosque in Islamabad, which had been",
+      "desc": "The Pakistani military storms the Lal Masjid mosque in Islamabad, which had been seized by Islamist militants.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
     {
       "date": "2007-06-29",
       "title": "iPhone Released",
@@ -446,17 +495,10 @@
   ],
   "2006": [
     {
-      "date": "2006-07-09",
-      "title": "One hundred and twenty-five people are killed when S7 Airlines Flight 778, an Ai",
-      "desc": "One hundred and twenty-five people are killed when S7 Airlines Flight 778, an Airbus A310 passenger jet, veers off the runway while landing in wet conditions at Irkutsk Airport in Siberia.",
+      "date": "2006-07-10",
+      "title": "A Pakistan International Airlines Fokker F27 Friendship crashes near Multan Inte",
+      "desc": "A Pakistan International Airlines Fokker F27 Friendship crashes near Multan International Airport, killing all 45 people on board.",
       "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2006-07-09",
-      "title": "Italy win their fourth World Cup title, defeating France 5–3 on penalties follow",
-      "desc": "Italy win their fourth World Cup title, defeating France 5–3 on penalties following a 1–1 draw after extra time.",
-      "type": "sports",
       "source": "wikipedia"
     }
   ],
@@ -488,13 +530,6 @@
       "type": "disaster"
     },
     {
-      "date": "2004-07-09",
-      "title": "The Senate Report on Iraqi WMD Intelligence is released by the United States Sen",
-      "desc": "The Senate Report on Iraqi WMD Intelligence is released by the United States Senate Select Committee on Intelligence, casting doubt on the rationale for the Iraq War.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "2004-06-28",
       "title": "Iraq Sovereignty",
       "desc": "Coalition hands sovereignty to interim Iraqi government",
@@ -523,9 +558,9 @@
   ],
   "2002": [
     {
-      "date": "2002-07-09",
-      "title": "The African Union is established in Addis Ababa, Ethiopia, replacing the Organis",
-      "desc": "The African Union is established in Addis Ababa, Ethiopia, replacing the Organisation of African Unity (OAU). The organization's first chairman is Thabo Mbeki, President of South Africa.",
+      "date": "2002-07-10",
+      "title": "The Massacre of the Innocents, a painting by Peter Paul Rubens, is sold at a Sot",
+      "desc": "The Massacre of the Innocents, a painting by Peter Paul Rubens, is sold at a Sotheby's auction for £49.5 million (US$76.2 million) to Lord Thomson.",
       "type": "tech",
       "source": "wikipedia"
     }
@@ -552,6 +587,20 @@
       "type": "general"
     },
     {
+      "date": "2000-07-10",
+      "title": "EADS, the world's second-largest aerospace group is formed by the merger of Aéro",
+      "desc": "EADS, the world's second-largest aerospace group is formed by the merger of Aérospatiale-Matra, DASA, and CASA.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2000-07-10",
+      "title": "Bashar al-Assad succeeds his father Hafez al-Assad as President of Syria.",
+      "desc": "Bashar al-Assad succeeds his father Hafez al-Assad as President of Syria.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "2000-03-10",
       "title": "Dot-Com Bubble Burst",
       "desc": "NASDAQ peaks at 5048 before tech crash",
@@ -560,10 +609,10 @@
   ],
   "1999": [
     {
-      "date": "1999-07-09",
-      "title": "Days of student protests begin after Iranian police and hardliners attack a stud",
-      "desc": "Days of student protests begin after Iranian police and hardliners attack a student dormitory at the University of Tehran.",
-      "type": "general",
+      "date": "1999-07-10",
+      "title": "In women's association football, the United States defeats China in a penalty sh",
+      "desc": "In women's association football, the United States defeats China in a penalty shoot-out at the Rose Bowl near Los Angeles to win the final match of the 1999 FIFA Women's World Cup. Watched by 90,185 s",
+      "type": "sports",
       "source": "wikipedia"
     },
     {
@@ -591,13 +640,27 @@
       "title": "Russian Default",
       "desc": "Russia defaults on domestic debt, ruble collapses",
       "type": "finance"
+    },
+    {
+      "date": "1998-07-10",
+      "title": "Catholic Church sexual abuse cases: The Diocese of Dallas agrees to pay $23.4 mi",
+      "desc": "Catholic Church sexual abuse cases: The Diocese of Dallas agrees to pay $23.4 million to nine former altar boys who claim they were sexually abused by Rudolph Kos, a former priest.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1997": [
     {
-      "date": "1997-07-09",
-      "title": "An explosion aboard a Brazilian airline TAM Fokker 100 launches engineer Fernand",
-      "desc": "An explosion aboard a Brazilian airline TAM Fokker 100 launches engineer Fernando Caldeira de Moura Campos into a 2,400 meters free fall.",
+      "date": "1997-07-10",
+      "title": "In London, scientists report the findings of the DNA analysis of a Neanderthal s",
+      "desc": "In London, scientists report the findings of the DNA analysis of a Neanderthal skeleton which supports the \"out of Africa theory\" of human evolution, placing an \"African Eve\" at 100,000 to 200,000 yea",
+      "type": "science",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1997-07-10",
+      "title": "Miguel Ángel Blanco, a member of Partido Popular (Spain), is kidnapped (and late",
+      "desc": "Miguel Ángel Blanco, a member of Partido Popular (Spain), is kidnapped (and later murdered) in the Basque city of Ermua by ETA members, sparking widespread protests.",
       "type": "tech",
       "source": "wikipedia"
     },
@@ -628,9 +691,16 @@
       "type": "politics"
     },
     {
-      "date": "1995-07-09",
-      "title": "The Navaly church bombing is carried out by the Sri Lanka Air Force killing 125 ",
-      "desc": "The Navaly church bombing is carried out by the Sri Lanka Air Force killing 125 Tamil civilian refugees.",
+      "date": "1995-07-10",
+      "title": "Burmese politician Aung San Suu Kyi is released from house arrest.",
+      "desc": "Burmese politician Aung San Suu Kyi is released from house arrest.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1995-07-10",
+      "title": "The NIOSH air filtration ratings update with the enactment of 42 CFR 84, previou",
+      "desc": "The NIOSH air filtration ratings update with the enactment of 42 CFR 84, previously published in the Federal Register. The new regulation includes rules governing the new N95 respirator standard.",
       "type": "tech",
       "source": "wikipedia"
     },
@@ -657,13 +727,6 @@
   ],
   "1993": [
     {
-      "date": "1993-07-09",
-      "title": "The Parliament of Canada passes the Nunavut Act leading to the 1999 creation of ",
-      "desc": "The Parliament of Canada passes the Nunavut Act leading to the 1999 creation of Nunavut, dividing the Northwest Territories into arctic (Inuit) and sub-arctic (Dene) lands based on a plebiscite.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1993-02-26",
       "title": "World Trade Center Bombing",
       "desc": "Islamist terrorists bomb WTC for the first time",
@@ -684,6 +747,13 @@
       "type": "tech"
     },
     {
+      "date": "1992-07-10",
+      "title": "In Miami, former Panamanian leader Manuel Noriega is sentenced to 40 years in pr",
+      "desc": "In Miami, former Panamanian leader Manuel Noriega is sentenced to 40 years in prison for drug and racketeering violations.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1992-04-29",
       "title": "LA Riots",
       "desc": "Riots erupt after Rodney King verdict",
@@ -702,6 +772,27 @@
       "title": "World Wide Web Launched",
       "desc": "Tim Berners-Lee announces the World Wide Web",
       "type": "tech"
+    },
+    {
+      "date": "1991-07-10",
+      "title": "The South African cricket team is readmitted into the International Cricket Coun",
+      "desc": "The South African cricket team is readmitted into the International Cricket Council following the end of Apartheid.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1991-07-10",
+      "title": "Boris Yeltsin takes office as the first elected President of Russia.",
+      "desc": "Boris Yeltsin takes office as the first elected President of Russia.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1991-07-10",
+      "title": "A Beechcraft Model 99 crashes near Birmingham Municipal Airport (now Birmingham–",
+      "desc": "A Beechcraft Model 99 crashes near Birmingham Municipal Airport (now Birmingham–Shuttlesworth International Airport) in Birmingham, Alabama, killing 13 of the 15 people on board.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1991-02-28",
@@ -780,13 +871,6 @@
   ],
   "1986": [
     {
-      "date": "1986-07-09",
-      "title": "The New Zealand Parliament passes the Homosexual Law Reform Act legalising homos",
-      "desc": "The New Zealand Parliament passes the Homosexual Law Reform Act legalising homosexuality in New Zealand.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1986-04-26",
       "title": "Chernobyl Disaster",
       "desc": "Nuclear reactor explodes in Ukraine, worst nuclear accident",
@@ -805,6 +889,20 @@
       "title": "Live Aid Concert",
       "desc": "Global charity concert raises millions for famine relief",
       "type": "general"
+    },
+    {
+      "date": "1985-07-10",
+      "title": "The Greenpeace vessel Rainbow Warrior is bombed and sunk in Auckland harbour by ",
+      "desc": "The Greenpeace vessel Rainbow Warrior is bombed and sunk in Auckland harbour by French DGSE agents, killing Fernando Pereira.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1985-07-10",
+      "title": "An Aeroflot Tupolev Tu-154 stalls and crashes near Uchkuduk, Uzbekistan (then pa",
+      "desc": "An Aeroflot Tupolev Tu-154 stalls and crashes near Uchkuduk, Uzbekistan (then part of the Soviet Union), killing all 200 people on board in the USSR's worst-ever airline disaster.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1985-03-11",
@@ -828,13 +926,6 @@
     }
   ],
   "1982": [
-    {
-      "date": "1982-07-09",
-      "title": "Pan Am Flight 759 crashes in Kenner, Louisiana, killing all 145 people on board ",
-      "desc": "Pan Am Flight 759 crashes in Kenner, Louisiana, killing all 145 people on board and eight others on the ground.",
-      "type": "disaster",
-      "source": "wikipedia"
-    },
     {
       "date": "1982-06-28",
       "title": "Aeroflot Flight 8641",
@@ -864,13 +955,6 @@
   ],
   "1979": [
     {
-      "date": "1979-07-09",
-      "title": "A car bomb destroys a Renault motor car owned by \"Nazi hunters\" Serge and Beate ",
-      "desc": "A car bomb destroys a Renault motor car owned by \"Nazi hunters\" Serge and Beate Klarsfeld outside their home in France in an unsuccessful assassination attempt.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1979-04-01",
       "title": "Iran Islamic Republic",
       "desc": "Iran becomes Islamic Republic after referendum",
@@ -891,6 +975,13 @@
       "type": "science"
     },
     {
+      "date": "1978-07-10",
+      "title": "President Moktar Ould Daddah of Mauritania is ousted in a bloodless coup d'état.",
+      "desc": "President Moktar Ould Daddah of Mauritania is ousted in a bloodless coup d'état.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1978-06-28",
       "title": "Bakke Decision",
       "desc": "US Supreme Court rules on affirmative action",
@@ -909,13 +1000,6 @@
       "title": "Elvis Dies",
       "desc": "Elvis Presley dies at Graceland at age 42",
       "type": "general"
-    },
-    {
-      "date": "1977-07-09",
-      "title": "The Pinochet dictatorship in Chile organises the youth event of Acto de Chacaril",
-      "desc": "The Pinochet dictatorship in Chile organises the youth event of Acto de Chacarillas, a ritualised act reminiscent of Francoist Spain.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1976": [
@@ -924,6 +1008,13 @@
       "title": "Viking 1 Lands on Mars",
       "desc": "First US spacecraft to successfully land on Mars",
       "type": "science"
+    },
+    {
+      "date": "1976-07-10",
+      "title": "Four mercenaries (one American and three British) are executed in Angola followi",
+      "desc": "Four mercenaries (one American and three British) are executed in Angola following the Luanda Trial.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1976-06-28",
@@ -954,6 +1045,13 @@
       "type": "politics"
     },
     {
+      "date": "1974-07-10",
+      "title": "An EgyptAir Tupolev Tu-154 stalls and crashes at Cairo International Airport, ki",
+      "desc": "An EgyptAir Tupolev Tu-154 stalls and crashes at Cairo International Airport, killing all six people on board.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1974-02-01",
       "title": "Brazil Oil Crisis",
       "desc": "First oil shock hits Brazil, triggering economic changes",
@@ -966,6 +1064,13 @@
       "title": "Oil Crisis Begins",
       "desc": "OPEC oil embargo triggers global energy crisis",
       "type": "finance"
+    },
+    {
+      "date": "1973-07-10",
+      "title": "The Bahamas gains full independence within the Commonwealth of Nations.",
+      "desc": "The Bahamas gains full independence within the Commonwealth of Nations.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1973-06-28",
@@ -1050,10 +1155,26 @@
       "type": "politics"
     },
     {
+      "date": "1967-07-10",
+      "title": "New Zealand decimalises its former currency to the modern-day New Zealand dollar",
+      "desc": "New Zealand decimalises its former currency to the modern-day New Zealand dollar.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1967-06-05",
       "title": "Six-Day War",
       "desc": "Israel defeats Egypt, Jordan, Syria in six-day war",
       "type": "politics"
+    }
+  ],
+  "1966": [
+    {
+      "date": "1966-07-10",
+      "title": "The Chicago Freedom Movement, co-founded by Martin Luther King Jr., holds a rall",
+      "desc": "The Chicago Freedom Movement, co-founded by Martin Luther King Jr., holds a rally at Soldier Field in Chicago; as many as 60,000 people attend.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1965": [
@@ -1112,10 +1233,10 @@
       "type": "tech"
     },
     {
-      "date": "1962-07-09",
-      "title": "Starfish Prime tests the effects of a nuclear explosion at orbital altitudes.",
-      "desc": "Starfish Prime tests the effects of a nuclear explosion at orbital altitudes.",
-      "type": "disaster",
+      "date": "1962-07-10",
+      "title": "Telstar, the world's first communications satellite, is launched into orbit.",
+      "desc": "Telstar, the world's first communications satellite, is launched into orbit.",
+      "type": "tech",
       "source": "wikipedia"
     }
   ],
@@ -1125,13 +1246,6 @@
       "title": "Berlin Wall Built",
       "desc": "East Germany begins construction of Berlin Wall",
       "type": "politics"
-    },
-    {
-      "date": "1961-07-09",
-      "title": "Greece becomes the first member state to join the European Economic Community by",
-      "desc": "Greece becomes the first member state to join the European Economic Community by signing the Athens Agreement, which is later suspended in 1967 during the Greek junta.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1961-04-12",
@@ -1168,15 +1282,6 @@
       "type": "politics"
     }
   ],
-  "1958": [
-    {
-      "date": "1958-07-09",
-      "title": "A 7.8 Mw strike-slip earthquake in Alaska causes a landslide that produces a meg",
-      "desc": "A 7.8 Mw strike-slip earthquake in Alaska causes a landslide that produces a megatsunami. The runup from the waves reached 525 m (1,722 ft) on the rim of Lituya Bay; five people were killed.",
-      "type": "climate",
-      "source": "wikipedia"
-    }
-  ],
   "1957": [
     {
       "date": "1957-12-06",
@@ -1199,13 +1304,6 @@
       "type": "politics"
     },
     {
-      "date": "1956-07-09",
-      "title": "The 7.7 Mw Amorgos earthquake shakes the Cyclades island group in the Aegean Sea",
-      "desc": "The 7.7 Mw Amorgos earthquake shakes the Cyclades island group in the Aegean Sea with a maximum Mercalli intensity of IX (Violent). The shaking and the destructive tsunami that followed left fifty-thr",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1956-06-28",
       "title": "Poznań Protests",
       "desc": "Polish workers protests against communist government",
@@ -1218,13 +1316,6 @@
       "title": "Rosa Parks",
       "desc": "Rosa Parks refuses to give up bus seat in Montgomery",
       "type": "politics"
-    },
-    {
-      "date": "1955-07-09",
-      "title": "The Russell–Einstein Manifesto calls for a reduction of the risk of nuclear warf",
-      "desc": "The Russell–Einstein Manifesto calls for a reduction of the risk of nuclear warfare.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1955-05-14",
@@ -1276,6 +1367,13 @@
     }
   ],
   "1951": [
+    {
+      "date": "1951-07-10",
+      "title": "Korean War: Armistice negotiations begin at Kaesong.",
+      "desc": "Korean War: Armistice negotiations begin at Kaesong.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
     {
       "date": "1951-03-29",
       "title": "Rosenberg Spy Case",
@@ -1331,6 +1429,13 @@
       "type": "politics"
     },
     {
+      "date": "1948-07-10",
+      "title": "The official establishment of the Democratic People's Republic of Korea (North K",
+      "desc": "The official establishment of the Democratic People's Republic of Korea (North Korea).: 121",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1948-06-28",
       "title": "Tito-Stalin Split",
       "desc": "Yugoslavia expelled from Soviet bloc",
@@ -1349,6 +1454,13 @@
       "title": "India Independence",
       "desc": "India gains independence from British rule",
       "type": "politics"
+    },
+    {
+      "date": "1947-07-10",
+      "title": "Muhammad Ali Jinnah is recommended as the first Governor-General of Pakistan by ",
+      "desc": "Muhammad Ali Jinnah is recommended as the first Governor-General of Pakistan by the British Prime Minister, Clement Attlee.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1947-06-05",
@@ -1391,20 +1503,6 @@
       "type": "politics"
     },
     {
-      "date": "1944-07-09",
-      "title": "World War II: American forces take Saipan, bringing the Japanese archipelago wit",
-      "desc": "World War II: American forces take Saipan, bringing the Japanese archipelago within range of B-29 raids, and causing the downfall of the Tojo government.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1944-07-09",
-      "title": "World War II: Continuation War: Finland wins the Battle of Tali–Ihantala, the la",
-      "desc": "World War II: Continuation War: Finland wins the Battle of Tali–Ihantala, the largest battle ever fought in northern Europe. The Red Army withdraws its troops from Ihantala and digs into a defensive p",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1944-06-06",
       "title": "D-Day",
       "desc": "Allied forces land in Normandy, liberating Europe",
@@ -1413,10 +1511,19 @@
   ],
   "1943": [
     {
-      "date": "1943-07-09",
-      "title": "World War II: The Allied invasion of Sicily begins, leading to the downfall of M",
-      "desc": "World War II: The Allied invasion of Sicily begins, leading to the downfall of Mussolini and forcing Hitler to break off the Battle of Kursk.",
+      "date": "1943-07-10",
+      "title": "World War II: Operation Husky, the Allied invasion of Sicily, begins.",
+      "desc": "World War II: Operation Husky, the Allied invasion of Sicily, begins.",
       "type": "politics",
+      "source": "wikipedia"
+    }
+  ],
+  "1942": [
+    {
+      "date": "1942-07-10",
+      "title": "World War II: An American pilot spots a downed, intact Mitsubishi A6M Zero on Ak",
+      "desc": "World War II: An American pilot spots a downed, intact Mitsubishi A6M Zero on Akutan Island (the \"Akutan Zero\"), which the US Navy then uses to learn the aircraft's flight characteristics.",
+      "type": "tech",
       "source": "wikipedia"
     }
   ],
@@ -1428,10 +1535,33 @@
       "type": "politics"
     },
     {
+      "date": "1941-07-10",
+      "title": "Jedwabne pogrom: Massacre of Polish Jews living in and near the village of Jedwa",
+      "desc": "Jedwabne pogrom: Massacre of Polish Jews living in and near the village of Jedwabne.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1941-06-22",
       "title": "Operation Barbarossa",
       "desc": "Germany invades Soviet Union",
       "type": "politics"
+    }
+  ],
+  "1940": [
+    {
+      "date": "1940-07-10",
+      "title": "World War II: The Vichy government is established in France.",
+      "desc": "World War II: The Vichy government is established in France.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1940-07-10",
+      "title": "World War II: Six days before Adolf Hitler issues his Directive 16 to the combin",
+      "desc": "World War II: Six days before Adolf Hitler issues his Directive 16 to the combined Wehrmacht armed forces for Operation Sea Lion, the Kanalkampf shipping attacks begin against British maritime convoys",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1939": [
@@ -1448,14 +1578,16 @@
       "type": "politics"
     }
   ],
-  "1937": [
+  "1938": [
     {
-      "date": "1937-07-09",
-      "title": "The silent film archives of Fox Film Corporation are destroyed by the 1937 Fox v",
-      "desc": "The silent film archives of Fox Film Corporation are destroyed by the 1937 Fox vault fire.",
-      "type": "general",
+      "date": "1938-07-10",
+      "title": "Howard Hughes begins a 91-hour airplane flight around the world that will set a ",
+      "desc": "Howard Hughes begins a 91-hour airplane flight around the world that will set a new record.",
+      "type": "tech",
       "source": "wikipedia"
-    },
+    }
+  ],
+  "1937": [
     {
       "date": "1937-07-07",
       "title": "Marco Polo Bridge",
@@ -1497,15 +1629,6 @@
       "type": "politics"
     }
   ],
-  "1932": [
-    {
-      "date": "1932-07-09",
-      "title": "The state of São Paulo revolts against the Brazilian Federal Government, startin",
-      "desc": "The state of São Paulo revolts against the Brazilian Federal Government, starting the Constitutionalist Revolution.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
   "1929": [
     {
       "date": "1929-10-29",
@@ -1536,6 +1659,13 @@
       "type": "general"
     },
     {
+      "date": "1927-07-10",
+      "title": "Kevin O'Higgins TD, Vice-President of the Executive Council of the Irish Free St",
+      "desc": "Kevin O'Higgins TD, Vice-President of the Executive Council of the Irish Free State, is assassinated by the IRA.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1927-05-20",
       "title": "Lindbergh Flies Atlantic",
       "desc": "Charles Lindbergh completes first solo transatlantic flight",
@@ -1543,13 +1673,6 @@
     }
   ],
   "1926": [
-    {
-      "date": "1926-07-09",
-      "title": "Chiang Kai-shek accepts the post of commander-in-chief of the National Revolutio",
-      "desc": "Chiang Kai-shek accepts the post of commander-in-chief of the National Revolutionary Army, marking the beginning of the Northern Expedition to unite China under the rule of the Nationalist government.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1926-06-28",
       "title": "Mercedes-Benz Formed",
@@ -1563,7 +1686,23 @@
       "type": "science"
     }
   ],
+  "1925": [
+    {
+      "date": "1925-07-10",
+      "title": "Scopes trial: In Dayton, Tennessee, the so-called \"Monkey Trial\" begins of John ",
+      "desc": "Scopes trial: In Dayton, Tennessee, the so-called \"Monkey Trial\" begins of John T. Scopes, a young high school science teacher accused of teaching evolution in violation of the Butler Act.",
+      "type": "science",
+      "source": "wikipedia"
+    }
+  ],
   "1924": [
+    {
+      "date": "1924-07-10",
+      "title": "Paavo Nurmi wins the 1,500 m and 5,000 m events at the Paris Olympics, with just",
+      "desc": "Paavo Nurmi wins the 1,500 m and 5,000 m events at the Paris Olympics, with just an hour between the two races.",
+      "type": "sports",
+      "source": "wikipedia"
+    },
     {
       "date": "1924-01-21",
       "title": "Lenin Dies",
@@ -1579,13 +1718,6 @@
       "type": "politics"
     },
     {
-      "date": "1922-07-09",
-      "title": "Johnny Weissmuller swims the 100 meters freestyle in 58.6 seconds, breaking the ",
-      "desc": "Johnny Weissmuller swims the 100 meters freestyle in 58.6 seconds, breaking the world swimming record and the 'minute barrier'.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1922-06-28",
       "title": "Irish Civil War Begins",
       "desc": "Irish Civil War starts with shelling of Four Courts",
@@ -1593,6 +1725,13 @@
     }
   ],
   "1921": [
+    {
+      "date": "1921-07-10",
+      "title": "Belfast's Bloody Sunday occurs with 20 killings, at least 100 wounded and 200 ho",
+      "desc": "Belfast's Bloody Sunday occurs with 20 killings, at least 100 wounded and 200 homes destroyed during rioting and gun battles in Belfast, Northern Ireland.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1921-07-01",
       "title": "Chinese Communist Party",
@@ -1604,6 +1743,15 @@
       "title": "Yugoslav Constitution",
       "desc": "King Alexander I proclaims new Yugoslav constitution",
       "type": "politics"
+    }
+  ],
+  "1920": [
+    {
+      "date": "1920-07-10",
+      "title": "Arthur Meighen becomes Prime Minister of Canada.",
+      "desc": "Arthur Meighen becomes Prime Minister of Canada.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1919": [
@@ -1626,13 +1774,6 @@
       "title": "WWI Armistice",
       "desc": "World War I ends at 11th hour of 11th day",
       "type": "politics"
-    },
-    {
-      "date": "1918-07-09",
-      "title": "In Nashville, Tennessee, an inbound local train collides with an outbound expres",
-      "desc": "In Nashville, Tennessee, an inbound local train collides with an outbound express, killing 101 and injuring 171 people, making it the deadliest rail accident in United States history.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1918-03-04",
@@ -1745,20 +1886,6 @@
       "title": "Quantum Theory",
       "desc": "Max Planck publishes quantum theory paper",
       "type": "science"
-    },
-    {
-      "date": "1900-07-09",
-      "title": "The Federation of Australia is given royal assent.",
-      "desc": "The Federation of Australia is given royal assent.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1900-07-09",
-      "title": "The Governor of Shanxi province in North China orders the execution of 45 foreig",
-      "desc": "The Governor of Shanxi province in North China orders the execution of 45 foreign Christian missionaries and local church members, including children.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1900-05-14",
