@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Git pre-push hook — run validation before push
+# If validation fails, push is aborted
+# Skip with: git push --no-verify
+
+set -e
+
+cd "$(dirname "$0")/../.."
+
+echo "=== Pre-push: Running validation ==="
+python3 validate.py

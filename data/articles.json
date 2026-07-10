@@ -21134,8 +21134,11 @@
     "topic": "Bitcoin",
     "published": "2026-07-10T06:49:13+00:00",
     "crawled": "2026-07-10T08:28:36.286501+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 比特幣的長期MACD指標轉為看漲，顯示近期漲勢可能會持續，當前交易價格約為64,000美元以上  \n• 主要阻力位包括50日簡單移動平均線約65,434美元，以及6月中旬的高點67,292美元  \n• 200日移動平均線約71,147美元被視為最重要的阻力位，突破將顯示買方力量增強  \n• MACD指標被廣泛用作市場趨勢的可靠衡量工具，過去的交叉信號已成功預示價格的變化",
+    "summaries": {
+      "zh-HK": "• 比特幣的長期MACD指標轉為看漲，顯示近期漲勢可能會持續，當前交易價格約為64,000美元以上  \n• 主要阻力位包括50日簡單移動平均線約65,434美元，以及6月中旬的高點67,292美元  \n• 200日移動平均線約71,147美元被視為最重要的阻力位，突破將顯示買方力量增強  \n• MACD指標被廣泛用作市場趨勢的可靠衡量工具，過去的交叉信號已成功預示價格的變化"
+    }
   },
   {
     "url": "https://www.coindesk.com/tech/2026/07/10/live-markets-bitcoin-etfs-bleed-again-while-ether-funds-snap-a-five-day-inflow-streak",
@@ -21148,8 +21151,11 @@
     "topic": "Bitcoin",
     "published": "2026-07-10T06:21:34+00:00",
     "crawled": "2026-07-10T08:28:36.610375+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國現貨比特幣ETF在周四損失9500萬美元，以太坊ETF損失約5200萬美元，結束了五天的資金流入趨勢  \n• Fidelity的FBTC導致比特幣流出約6300萬美元，ARKB約4000萬美元，總比特幣ETF資產接近770億美元  \n• 比特幣在周五上漲3.5%至接近64000美元，本周上漲4.2%，回升至特朗普警告對伊朗的打擊加劇前的水平  \n• 以太坊上漲2.6%至1760美元，漲勢源自亞洲市場，韓國Kospi因AI需求樂觀而上漲4%",
+    "summaries": {
+      "zh-HK": "• 美國現貨比特幣ETF在周四損失9500萬美元，以太坊ETF損失約5200萬美元，結束了五天的資金流入趨勢  \n• Fidelity的FBTC導致比特幣流出約6300萬美元，ARKB約4000萬美元，總比特幣ETF資產接近770億美元  \n• 比特幣在周五上漲3.5%至接近64000美元，本周上漲4.2%，回升至特朗普警告對伊朗的打擊加劇前的水平  \n• 以太坊上漲2.6%至1760美元，漲勢源自亞洲市場，韓國Kospi因AI需求樂觀而上漲4%"
+    }
   },
   {
     "url": "https://www.coindesk.com/markets/2026/07/10/xrp-up-2-as-buyers-push-through-usd1-10-resistance",
@@ -21204,8 +21210,11 @@
     "topic": "Regulation",
     "published": "2026-07-10T05:51:59+00:00",
     "crawled": "2026-07-10T08:28:38.442390+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 北卡羅來納州通過新法案，承認聯邦對預測市場的管轄權，並對相關平台徵收6%稅率。  \n• 新法案由州長喬什·斯坦於2023年7月7日簽署，作為2026年預算法案的一部分。  \n• 法案規定，註冊於商品期貨交易委員會（CFTC）將允許預測市場在北卡羅來納州合法運營。  \n• 北卡羅來納州的稅率低於其他州對預測市場的徵稅標準，例如肯塔基州要求14.25%的交易費稅率。",
+    "summaries": {
+      "zh-HK": "• 北卡羅來納州通過新法案，承認聯邦對預測市場的管轄權，並對相關平台徵收6%稅率。  \n• 新法案由州長喬什·斯坦於2023年7月7日簽署，作為2026年預算法案的一部分。  \n• 法案規定，註冊於商品期貨交易委員會（CFTC）將允許預測市場在北卡羅來納州合法運營。  \n• 北卡羅來納州的稅率低於其他州對預測市場的徵稅標準，例如肯塔基州要求14.25%的交易費稅率。"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-10/what-are-levered-etfs-and-why-are-they-so-popular-now",
@@ -21218,8 +21227,11 @@
     "topic": "World",
     "published": "2026-07-10T08:00:22+00:00",
     "crawled": "2026-07-10T08:28:44.927354+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 韓國的槓桿交易所交易基金（ETFs）需求激增，影響全球市場  \n• 巴克萊的亞歷山大·阿特曼（Alexander Altmann）解釋了這一現象的原因  \n• 槓桿ETFs的受歡迎程度促使投資者尋求更高回報  \n• 此類基金的波動性引發市場參與者的關注與擔憂",
+    "summaries": {
+      "zh-HK": "• 韓國的槓桿交易所交易基金（ETFs）需求激增，影響全球市場  \n• 巴克萊的亞歷山大·阿特曼（Alexander Altmann）解釋了這一現象的原因  \n• 槓桿ETFs的受歡迎程度促使投資者尋求更高回報  \n• 此類基金的波動性引發市場參與者的關注與擔憂"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/audio/2026-07-10/odd-lots-korea-s-levered-etfs-shake-up-global-markets-podcast",
@@ -21232,8 +21244,11 @@
     "topic": "World",
     "published": "2026-07-10T08:00:00+00:00",
     "crawled": "2026-07-10T08:28:45.070012+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 韓國的槓桿單一股票ETF在全球市場引起關注，零售投資者參與度上升  \n• 人工智能交易推動對晶片和記憶體的需求激增  \n• 本週三星和SK海力士的財報成為市場焦點  \n• 韓國的槓桿ETF規模龐大，與美國市場的熱門產品形成對比",
+    "summaries": {
+      "zh-HK": "• 韓國的槓桿單一股票ETF在全球市場引起關注，零售投資者參與度上升  \n• 人工智能交易推動對晶片和記憶體的需求激增  \n• 本週三星和SK海力士的財報成為市場焦點  \n• 韓國的槓桿ETF規模龐大，與美國市場的熱門產品形成對比"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-10/japan-s-top-pension-fund-likely-to-brush-off-political-pressure",
@@ -21246,8 +21261,11 @@
     "topic": "Politics",
     "published": "2026-07-10T07:45:11+00:00",
     "crawled": "2026-07-10T08:28:45.210871+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 日本最大的公共養老金基金可能會忽視財務大臣片山さつき要求增加國內投資的呼籲  \n• 基金將在短期內保持現有的資產配置，因為受到嚴格的規則約束  \n• 公共養老金基金的運作受到其公共任務的影響  \n• 目前尚未有具體計劃改變投資策略或增加國內資產配置",
+    "summaries": {
+      "zh-HK": "• 日本最大的公共養老金基金可能會忽視財務大臣片山さつき要求增加國內投資的呼籲  \n• 基金將在短期內保持現有的資產配置，因為受到嚴格的規則約束  \n• 公共養老金基金的運作受到其公共任務的影響  \n• 目前尚未有具體計劃改變投資策略或增加國內資產配置"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-10/vanguard-buys-inflation-protected-bonds-on-an-oil-market-oddity",
@@ -21260,8 +21278,11 @@
     "topic": "Policy",
     "published": "2026-07-10T07:15:00+00:00",
     "crawled": "2026-07-10T08:28:45.352937+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Vanguard資產管理有限公司因油市指標的異常變動，開始購買防通脹債券以應對美國通脹可能持續高企的風險  \n• 此舉旨在為投資組合提供保險，應對未來通脹壓力  \n• Vanguard的決策反映出對市場動態的關注，特別是在油價波動的背景下  \n• 投資者對通脹的預期可能影響市場走勢，Vanguard的行動顯示出其對風險管理的重視",
+    "summaries": {
+      "zh-HK": "• Vanguard資產管理有限公司因油市指標的異常變動，開始購買防通脹債券以應對美國通脹可能持續高企的風險  \n• 此舉旨在為投資組合提供保險，應對未來通脹壓力  \n• Vanguard的決策反映出對市場動態的關注，特別是在油價波動的背景下  \n• 投資者對通脹的預期可能影響市場走勢，Vanguard的行動顯示出其對風險管理的重視"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-10/easyjet-gets-rival-offer-from-apollo-that-beats-castlelake-bid",
@@ -21288,8 +21309,11 @@
     "topic": "World",
     "published": "2026-07-10T06:14:13+00:00",
     "crawled": "2026-07-10T08:28:45.633985+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 德國拜耳公司將其避孕產品業務的少數股權以30億歐元（34億美元）出售給阿波羅全球管理公司  \n• 拜耳計劃將籌集的資金用於支付與除草劑Roundup相關的高額訴訟費用  \n• 此交易顯示拜耳在面對法律挑戰時的資金調整策略  \n• 阿波羅全球管理公司透過此次交易擴大其在醫療保健領域的投資組合",
+    "summaries": {
+      "zh-HK": "• 德國拜耳公司將其避孕產品業務的少數股權以30億歐元（34億美元）出售給阿波羅全球管理公司  \n• 拜耳計劃將籌集的資金用於支付與除草劑Roundup相關的高額訴訟費用  \n• 此交易顯示拜耳在面對法律挑戰時的資金調整策略  \n• 阿波羅全球管理公司透過此次交易擴大其在醫療保健領域的投資組合"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-10/india-power-giant-seeks-uranium-assets-overseas-in-nuclear-push",
@@ -21302,8 +21326,11 @@
     "topic": "Finance",
     "published": "2026-07-10T07:02:14+00:00",
     "crawled": "2026-07-10T08:28:45.784549+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 印度最大的電力生產商計劃投資海外鈾礦，以確保未來二十年內建設30吉瓦核電容量所需的燃料供應  \n• 此舉旨在增強印度的核能發展，支持其能源需求  \n• 公司正在尋找合適的鈾資產，以確保穩定的鈾供應鏈  \n• 印度政府對核能的支持政策促進了這一投資計劃的推進",
+    "summaries": {
+      "zh-HK": "• 印度最大的電力生產商計劃投資海外鈾礦，以確保未來二十年內建設30吉瓦核電容量所需的燃料供應  \n• 此舉旨在增強印度的核能發展，支持其能源需求  \n• 公司正在尋找合適的鈾資產，以確保穩定的鈾供應鏈  \n• 印度政府對核能的支持政策促進了這一投資計劃的推進"
+    }
   },
   {
     "url": "https://www.ft.com/content/1c991bec-ede2-42ba-b6f5-334fd474f94a",
@@ -21330,8 +21357,11 @@
     "topic": "World",
     "published": "2026-07-10T06:00:00+00:00",
     "crawled": "2026-07-10T08:28:52.297819+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 聯合國國際電信聯盟（ITU）舉辦的「AI for Good」峰會在日內瓦舉行，已進入第十年，旨在探討如何負責任地利用人工智能解決人類面臨的問題。\n• ITU秘書長多琳·博格丹-馬丁在會上表示，人工智能若負責任地部署，能夠幫助解決人類的重大挑戰，如飢餓、疾病及氣候變化。\n• 會議中出現對科技公司影響的擔憂，部分與會者批評人道主義和公共部門過度依賴大型科技公司，並呼籲停止將其視為「最佳夥伴」。\n• 會議期間，親巴勒斯坦活動人士在亞馬遜首席技術官沃納·沃格爾的演講中闖入舞台，指控該公司技術被以色列用於對抗巴勒斯坦人。",
+    "summaries": {
+      "zh-HK": "• 聯合國國際電信聯盟（ITU）舉辦的「AI for Good」峰會在日內瓦舉行，已進入第十年，旨在探討如何負責任地利用人工智能解決人類面臨的問題。\n• ITU秘書長多琳·博格丹-馬丁在會上表示，人工智能若負責任地部署，能夠幫助解決人類的重大挑戰，如飢餓、疾病及氣候變化。\n• 會議中出現對科技公司影響的擔憂，部分與會者批評人道主義和公共部門過度依賴大型科技公司，並呼籲停止將其視為「最佳夥伴」。\n• 會議期間，親巴勒斯坦活動人士在亞馬遜首席技術官沃納·沃格爾的演講中闖入舞台，指控該公司技術被以色列用於對抗巴勒斯坦人。"
+    }
   },
   {
     "url": "https://www.wired.com/story/ulta-coupon/",
@@ -21484,8 +21514,11 @@
     "topic": "Finance",
     "published": "2026-07-10T05:51:08+00:00",
     "crawled": "2026-07-10T08:28:54.659505+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 印度總理莫迪與澳洲總理阿爾巴尼斯於周五利用共同的板球熱愛加強兩國關係  \n• 此次會晤是在兩國加強防務及經濟合作的背景下進行的  \n• 會議重點在於深化印度與澳洲之間的外交及經濟聯繫  \n• 此次訪問旨在進一步鞏固雙邊關係及合作機會",
+    "summaries": {
+      "zh-HK": "• 印度總理莫迪與澳洲總理阿爾巴尼斯於周五利用共同的板球熱愛加強兩國關係  \n• 此次會晤是在兩國加強防務及經濟合作的背景下進行的  \n• 會議重點在於深化印度與澳洲之間的外交及經濟聯繫  \n• 此次訪問旨在進一步鞏固雙邊關係及合作機會"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/cly9r54e5r4o?at_medium=RSS&at_campaign=rss",
@@ -21512,8 +21545,11 @@
     "topic": "General",
     "published": "2026-07-10T08:27:22+00:00",
     "crawled": "2026-07-10T08:29:00.099971+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 前英國保守黨部長安·威迪科姆（Ann Widdecombe）於78歲時去世，消息由其代理機構Cloud 9 Management發佈。  \n• 威迪科姆曾任肯特郡梅德斯通（Maidstone）地區的國會議員23年，並在1994至1997年間擔任內政部和就業部部長。  \n• 她是英國脫歐的堅定支持者，曾於2019至2020年擔任歐洲議會的脫歐黨（Brexit Party）MEP，並於2023年加入改名為改革英國（Reform UK）的政黨。  \n• 威迪科姆因參加BBC的《嚴格來跳舞》（Strictly Come Dancing）而受到觀眾喜愛，並在2010年進入半決賽。",
+    "summaries": {
+      "zh-HK": "• 前英國保守黨部長安·威迪科姆（Ann Widdecombe）於78歲時去世，消息由其代理機構Cloud 9 Management發佈。  \n• 威迪科姆曾任肯特郡梅德斯通（Maidstone）地區的國會議員23年，並在1994至1997年間擔任內政部和就業部部長。  \n• 她是英國脫歐的堅定支持者，曾於2019至2020年擔任歐洲議會的脫歐黨（Brexit Party）MEP，並於2023年加入改名為改革英國（Reform UK）的政黨。  \n• 威迪科姆因參加BBC的《嚴格來跳舞》（Strictly Come Dancing）而受到觀眾喜愛，並在2010年進入半決賽。"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/c3eyq2np7qgo?at_medium=RSS&at_campaign=rss",
@@ -21526,8 +21562,11 @@
     "topic": "General",
     "published": "2026-07-10T07:40:41+00:00",
     "crawled": "2026-07-10T08:29:00.124113+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 警方正在調查至少50萬英鎊的捐款，這些捐款來自一名被定罪的詐騙犯的母親Fiona Cottrell，該捐款用於支付Nigel Farage的社交媒體人員和安全費用。  \n• 倫敦大都會警方已經調查超過一年，涉及捐款限制的潛在違法行為。  \n• Fiona Cottrell在2024年大選前向Reform UK捐贈了兩筆各25萬英鎊的款項，首次捐款在2024年5月9日出現在政黨賬戶中。  \n• 警方表示已經根據選舉委員會的轉介於2025年2月啟動調查，目前尚未有任何人被逮捕。",
+    "summaries": {
+      "zh-HK": "• 警方正在調查至少50萬英鎊的捐款，這些捐款來自一名被定罪的詐騙犯的母親Fiona Cottrell，該捐款用於支付Nigel Farage的社交媒體人員和安全費用。  \n• 倫敦大都會警方已經調查超過一年，涉及捐款限制的潛在違法行為。  \n• Fiona Cottrell在2024年大選前向Reform UK捐贈了兩筆各25萬英鎊的款項，首次捐款在2024年5月9日出現在政黨賬戶中。  \n• 警方表示已經根據選舉委員會的轉介於2025年2月啟動調查，目前尚未有任何人被逮捕。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/opinions/2026/7/10/administration-without-sovereignty-will-not-free-palestine?traffic_source=rss",
@@ -21540,8 +21579,11 @@
     "topic": "General",
     "published": "2026-07-10T08:03:44+00:00",
     "crawled": "2026-07-10T08:29:00.826810+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 哈馬斯宣布解散其在加沙的治理機構，準備將民事管理權轉交給美國支持的巴勒斯坦國家委員會（NCAG）。  \n• 以色列及其西方盟友認為，哈馬斯的統治是以巴和平的主要障礙，並主張在哈馬斯仍在執政的情況下，加沙的未來無法改善。  \n• 提議的“技術性政府”將由巴勒斯坦專業人士組成，負責管理學校、醫院和公共服務，而不會是哈馬斯官員。  \n• 新的反對聲音出現，涉及解除武裝、安全安排及最終批准該管理機構的問題，顯示出巴勒斯坦政治代表權的複雜性。",
+    "summaries": {
+      "zh-HK": "• 哈馬斯宣布解散其在加沙的治理機構，準備將民事管理權轉交給美國支持的巴勒斯坦國家委員會（NCAG）。  \n• 以色列及其西方盟友認為，哈馬斯的統治是以巴和平的主要障礙，並主張在哈馬斯仍在執政的情況下，加沙的未來無法改善。  \n• 提議的“技術性政府”將由巴勒斯坦專業人士組成，負責管理學校、醫院和公共服務，而不會是哈馬斯官員。  \n• 新的反對聲音出現，涉及解除武裝、安全安排及最終批准該管理機構的問題，顯示出巴勒斯坦政治代表權的複雜性。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/10/bayeux-tapestry-smuggled-into-britain-for-first-visit-in-1000-years?traffic_source=rss",
@@ -21554,8 +21596,11 @@
     "topic": "General",
     "published": "2026-07-10T07:59:32+00:00",
     "crawled": "2026-07-10T08:29:00.862843+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 巴約織錦於近千年後首次秘密運送至英國，並已安全送達倫敦的英國博物館  \n• 這幅70米長的中世紀藝術品描繪了諾曼征服英格蘭的歷史，象徵英法兩國的關係  \n• 織錦將在博物館展出至2027年7月，並被視為英國脫歐後修復雙邊關係的象徵  \n• 英國博物館將以此為回報，向法國借出英國重要的盎格魯-撒克遜文物薩頓胡收藏",
+    "summaries": {
+      "zh-HK": "• 巴約織錦於近千年後首次秘密運送至英國，並已安全送達倫敦的英國博物館  \n• 這幅70米長的中世紀藝術品描繪了諾曼征服英格蘭的歷史，象徵英法兩國的關係  \n• 織錦將在博物館展出至2027年7月，並被視為英國脫歐後修復雙邊關係的象徵  \n• 英國博物館將以此為回報，向法國借出英國重要的盎格魯-撒克遜文物薩頓胡收藏"
+    }
   },
   {
     "url": "https://www.aljazeera.com/sports/2026/7/10/england-vs-norway-all-to-know-ahead-of-fifa-world-cup-quarterfinal?traffic_source=rss",
@@ -21568,8 +21613,11 @@
     "topic": "World",
     "published": "2026-07-10T07:55:25+00:00",
     "crawled": "2026-07-10T08:29:00.902730+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 英格蘭與挪威將於周六晚在邁阿密進行2026年世界杯四分之一決賽的對決\n• 挪威在16強賽中擊敗五屆冠軍巴西，首次自1998年以來重返世界杯並贏得兩場淘汰賽\n• 哈蘭德與凱恩是金靴獎的主要競爭者，兩人將在同一場比賽中對決\n• 英格蘭尋求進入四強，避免在八強賽中第八次被淘汰",
+    "summaries": {
+      "zh-HK": "• 英格蘭與挪威將於周六晚在邁阿密進行2026年世界杯四分之一決賽的對決\n• 挪威在16強賽中擊敗五屆冠軍巴西，首次自1998年以來重返世界杯並贏得兩場淘汰賽\n• 哈蘭德與凱恩是金靴獎的主要競爭者，兩人將在同一場比賽中對決\n• 英格蘭尋求進入四強，避免在八強賽中第八次被淘汰"
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/10/wildfires-in-southern-spain-kill-at-least-12?traffic_source=rss",
@@ -21582,8 +21630,11 @@
     "topic": "General",
     "published": "2026-07-10T07:43:19+00:00",
     "crawled": "2026-07-10T08:29:00.937585+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 西班牙南部安達盧西亞地區發生的野火造成至少12人死亡，並且仍有多人失聯。  \n• 火災於星期四下午在阿爾梅里亞省的洛斯加亞多斯附近的N-340公路爆發，隨後迅速蔓延至鄰近的貝達爾市。  \n• 當地官員表示，六人受傷，包括一名重燒傷的女性和一名因吸入煙霧而住院的個體。  \n• 超過300名緊急人員正在撲滅火焰，調查火災原因仍在進行中，初步報導指可能是倒下的電線引發火災。",
+    "summaries": {
+      "zh-HK": "• 西班牙南部安達盧西亞地區發生的野火造成至少12人死亡，並且仍有多人失聯。  \n• 火災於星期四下午在阿爾梅里亞省的洛斯加亞多斯附近的N-340公路爆發，隨後迅速蔓延至鄰近的貝達爾市。  \n• 當地官員表示，六人受傷，包括一名重燒傷的女性和一名因吸入煙霧而住院的個體。  \n• 超過300名緊急人員正在撲滅火焰，調查火災原因仍在進行中，初步報導指可能是倒下的電線引發火災。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/opinions/2026/7/10/the-us-is-building-a-new-pressure-architecture-against-iran?traffic_source=rss",
@@ -21596,8 +21647,11 @@
     "topic": "Politics",
     "published": "2026-07-10T07:29:09+00:00",
     "crawled": "2026-07-10T08:29:01.017485+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國正在建立一個新的對伊朗施壓架構，將國內不穩定、區域前線和西方聯盟建設聯繫起來。  \n• 特朗普在土耳其的北約峰會上出席，標誌著美國對伊朗的戰略計算進行重新調整。  \n• 新的美國策略旨在通過多層次的同時施壓，迫使伊朗的決策機構專注於管理國內和區域的壓力。  \n• 此策略包括加強社會壓力，破壞關鍵基礎設施，以提高伊朗的治理成本，並重新調整其周邊環境。",
+    "summaries": {
+      "zh-HK": "• 美國正在建立一個新的對伊朗施壓架構，將國內不穩定、區域前線和西方聯盟建設聯繫起來。  \n• 特朗普在土耳其的北約峰會上出席，標誌著美國對伊朗的戰略計算進行重新調整。  \n• 新的美國策略旨在通過多層次的同時施壓，迫使伊朗的決策機構專注於管理國內和區域的壓力。  \n• 此策略包括加強社會壓力，破壞關鍵基礎設施，以提高伊朗的治理成本，並重新調整其周邊環境。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/sports/2026/7/10/unstoppable-force-mbappes-france-crush-moroccos-world-cup-dreams?traffic_source=rss",
@@ -21610,8 +21664,11 @@
     "topic": "World",
     "published": "2026-07-10T07:15:06+00:00",
     "crawled": "2026-07-10T08:29:01.057722+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 法國隊在2026年世界杯四分之一決賽中以2-0擊敗摩洛哥隊，晉級半決賽\n• 基利安·姆巴佩在比賽中打入一球並助攻另一球，成為比賽關鍵人物\n• 摩洛哥隊在比賽前希望復仇，但最終接受了法國隊的實力\n• 法國隊的表現被摩洛哥球迷形容為「不可阻擋的力量」，並且成為歷史上唯一有兩名球員在同一屆世界杯中各自打入五球或以上的隊伍",
+    "summaries": {
+      "zh-HK": "• 法國隊在2026年世界杯四分之一決賽中以2-0擊敗摩洛哥隊，晉級半決賽\n• 基利安·姆巴佩在比賽中打入一球並助攻另一球，成為比賽關鍵人物\n• 摩洛哥隊在比賽前希望復仇，但最終接受了法國隊的實力\n• 法國隊的表現被摩洛哥球迷形容為「不可阻擋的力量」，並且成為歷史上唯一有兩名球員在同一屆世界杯中各自打入五球或以上的隊伍"
+    }
   },
   {
     "url": "https://www.aljazeera.com/economy/2026/7/10/south-koreas-sk-hynix-raises-26-5bn-in-record-breaking-us-ipo?traffic_source=rss",
@@ -21624,8 +21681,11 @@
     "topic": "World",
     "published": "2026-07-10T07:02:05+00:00",
     "crawled": "2026-07-10T08:29:01.092625+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 南韓芯片巨頭SK Hynix在美國首次公開募股（IPO）中籌集了265億美元，創下外國公司在美國上市的最高紀錄，超越了阿里巴巴2014年的250億美元IPO。  \n• SK Hynix在納斯達克上市前以每股149美元的價格出售了1.779億美國存托股票（ADS），相當於1800萬普通股。  \n• 此次IPO的訂閱量超過七倍，根據彭博社報導，訂單總額達到1710億美元。  \n• SK Hynix的淨收入在2026年第一季度達到40.34兆韓元（約266億美元），並且其在南韓股市的股價自年初以來上漲約229%。",
+    "summaries": {
+      "zh-HK": "• 南韓芯片巨頭SK Hynix在美國首次公開募股（IPO）中籌集了265億美元，創下外國公司在美國上市的最高紀錄，超越了阿里巴巴2014年的250億美元IPO。  \n• SK Hynix在納斯達克上市前以每股149美元的價格出售了1.779億美國存托股票（ADS），相當於1800萬普通股。  \n• 此次IPO的訂閱量超過七倍，根據彭博社報導，訂單總額達到1710億美元。  \n• SK Hynix的淨收入在2026年第一季度達到40.34兆韓元（約266億美元），並且其在南韓股市的股價自年初以來上漲約229%。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/sports/2026/7/10/spain-vs-belgium-world-cup-quarterfinal-prediction-start-time-lineups?traffic_source=rss",
@@ -21638,8 +21698,11 @@
     "topic": "World",
     "published": "2026-07-10T06:12:59+00:00",
     "crawled": "2026-07-10T08:29:01.131488+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 西班牙將於星期五在洛杉磯體育場對陣比利時，參加2026年國際足總世界杯四分之一決賽 \n• 西班牙自2010年以來首次闖入四強，並在小組賽中以七分排名H組第一 \n• 比利時在小組賽中以五分排名G組第一，並在淘汰賽中擊敗美國和塞內加爾 \n• 比賽將於格林威治標準時間19:00開始，Al Jazeera Sport將於15:30 GMT提供賽前報導",
+    "summaries": {
+      "zh-HK": "• 西班牙將於星期五在洛杉磯體育場對陣比利時，參加2026年國際足總世界杯四分之一決賽 \n• 西班牙自2010年以來首次闖入四強，並在小組賽中以七分排名H組第一 \n• 比利時在小組賽中以五分排名G組第一，並在淘汰賽中擊敗美國和塞內加爾 \n• 比賽將於格林威治標準時間19:00開始，Al Jazeera Sport將於15:30 GMT提供賽前報導"
+    }
   },
   {
     "url": "https://www.aljazeera.com/opinions/2026/7/10/venezuelas-turn-to-israel-is-about-survival-not-conviction?traffic_source=rss",
@@ -21694,8 +21757,11 @@
     "topic": "Politics",
     "published": "2026-07-10T06:33:38+00:00",
     "crawled": "2026-07-10T08:29:02.678011+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 剛果最新的埃博拉疫情死亡人數已達600人，確診病例總數達1,759宗  \n• 新的疑似病例在Tshopo和Haut-Uele省被報告，顯示疫情擴散至未受影響地區  \n• 疫情於5月15日被官方宣佈，病因為稀有的Bundibugyo病毒，尚無批准的疫苗或治療方法  \n• 控制疫情的努力受到資金不足、醫療中心遭襲擊及東部剛果持續衝突的影響",
+    "summaries": {
+      "zh-HK": "• 剛果最新的埃博拉疫情死亡人數已達600人，確診病例總數達1,759宗  \n• 新的疑似病例在Tshopo和Haut-Uele省被報告，顯示疫情擴散至未受影響地區  \n• 疫情於5月15日被官方宣佈，病因為稀有的Bundibugyo病毒，尚無批准的疫苗或治療方法  \n• 控制疫情的努力受到資金不足、醫療中心遭襲擊及東部剛果持續衝突的影響"
+    }
   },
   {
     "url": "https://www.npr.org/2026/07/10/g-s1-132927/us-iran-war",
@@ -21722,8 +21788,11 @@
     "topic": "World",
     "published": "2026-07-10T08:00:14+00:00",
     "crawled": "2026-07-10T08:29:03.876610+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 北韓總理朴泰成於周五早上抵達北京，開始為期三天的訪問，隨行有黨和政府代表團。  \n• 此次訪問旨在參加慶祝中朝《友好合作互助條約》簽署65周年的活動。  \n• 《人民日報》在周五早些時候發表文章，罕見地讚揚北韓在社會主義建設方面的成就。  \n• 文章提到北韓在解決城市和農村住房問題方面的進展，包括過去五年內首都完成5萬個住房單位及2025年農村新建3.2萬個住房。",
+    "summaries": {
+      "zh-HK": "• 北韓總理朴泰成於周五早上抵達北京，開始為期三天的訪問，隨行有黨和政府代表團。  \n• 此次訪問旨在參加慶祝中朝《友好合作互助條約》簽署65周年的活動。  \n• 《人民日報》在周五早些時候發表文章，罕見地讚揚北韓在社會主義建設方面的成就。  \n• 文章提到北韓在解決城市和農村住房問題方面的進展，包括過去五年內首都完成5萬個住房單位及2025年農村新建3.2萬個住房。"
+    }
   },
   {
     "url": "https://www.scmp.com/news/china/science/article/3359883/10-scientists-and-experts-who-have-left-us-and-uk-china-so-far-2026?utm_source=rss_feed",
@@ -21736,8 +21805,11 @@
     "topic": "Science",
     "published": "2026-07-10T07:30:05+00:00",
     "crawled": "2026-07-10T08:29:03.946513+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 2026年，多位科學家和專家因資金不足及西方學術界缺乏機會，選擇離開美國和英國前往中國發展事業。  \n• 諾貝爾化學獎得主Omar Yaghi已加入清華大學，負責新的人工智能研究中心。  \n• 知名神經生物學家Chih-Ying Su離開加州大學聖地亞哥分校，加入深圳醫學科學院。  \n• AI科學家Ling Haibin，世界首個植物識別應用的創造者，已在中國杭州的西湖大學擔任全職職位。",
+    "summaries": {
+      "zh-HK": "• 2026年，多位科學家和專家因資金不足及西方學術界缺乏機會，選擇離開美國和英國前往中國發展事業。  \n• 諾貝爾化學獎得主Omar Yaghi已加入清華大學，負責新的人工智能研究中心。  \n• 知名神經生物學家Chih-Ying Su離開加州大學聖地亞哥分校，加入深圳醫學科學院。  \n• AI科學家Ling Haibin，世界首個植物識別應用的創造者，已在中國杭州的西湖大學擔任全職職位。"
+    }
   },
   {
     "url": "https://www.theguardian.com/global-development/2026/jul/10/developing-countries-spend-more-foreign-debt-education-aid-cuts-unesco",
@@ -21750,8 +21822,11 @@
     "topic": "World",
     "published": "2026-07-10T07:00:14+00:00",
     "crawled": "2026-07-10T08:29:04.748040+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 聯合國報告指出，許多發展中國家在2025年用於償還外債的支出超過教育開支，113個國家中有超過一半如此情況。\n• 在撒哈拉以南非洲，國家用於償還債務的支出是教育的3.6倍。\n• 教育援助預計將在2023年基礎上減少30%，低收入國家已經損失21%的教育資助。\n• 聯合國教科文組織呼籲改變債務減免結構，以支持公共服務的持續資金。",
+    "summaries": {
+      "zh-HK": "• 聯合國報告指出，許多發展中國家在2025年用於償還外債的支出超過教育開支，113個國家中有超過一半如此情況。\n• 在撒哈拉以南非洲，國家用於償還債務的支出是教育的3.6倍。\n• 教育援助預計將在2023年基礎上減少30%，低收入國家已經損失21%的教育資助。\n• 聯合國教科文組織呼籲改變債務減免結構，以支持公共服務的持續資金。"
+    }
   },
   {
     "url": "https://www.theguardian.com/world/2026/jul/10/south-korea-chip-maker-sk-hynix-rides-ai-boom-raising-265bn-in-huge-us-listing",
@@ -21778,8 +21853,11 @@
     "topic": "General",
     "published": "2026-07-10T06:20:11+00:00",
     "crawled": "2026-07-10T08:29:04.922745+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 一名16歲男孩在維多利亞州被捕，因為警方在當地叢林中發現了一名13歲女孩的屍體，該女孩於周末失踪。  \n• 警方表示，Layla Jeffery的死因被視為「可疑」，她的遺體於星期四下午在Donald被找到。  \n• 警方在Swan Hill的住宅執行逮捕令後，於星期五晚間逮捕了該名16歲男孩，並正在對其進行訊問。  \n• 目前尚未正式確認遺體身份，但警方相信是失踪的13歲女孩Layla，調查仍在進行中。",
+    "summaries": {
+      "zh-HK": "• 一名16歲男孩在維多利亞州被捕，因為警方在當地叢林中發現了一名13歲女孩的屍體，該女孩於周末失踪。  \n• 警方表示，Layla Jeffery的死因被視為「可疑」，她的遺體於星期四下午在Donald被找到。  \n• 警方在Swan Hill的住宅執行逮捕令後，於星期五晚間逮捕了該名16歲男孩，並正在對其進行訊問。  \n• 目前尚未正式確認遺體身份，但警方相信是失踪的13歲女孩Layla，調查仍在進行中。"
+    }
   },
   {
     "url": "https://www.theguardian.com/law/2026/jul/10/christian-brothers-edmund-rice-education-australia-abuse-survivors-supreme-court-victoria-ntwnfb",
@@ -21806,8 +21884,11 @@
     "topic": "Science",
     "published": "2026-07-10T07:39:11+00:00",
     "crawled": "2026-07-10T08:29:05.893132+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 中國於近日成功發射並回收長征10B火箭，標誌著可重複使用火箭技術的進步  \n• 此次發射被視為中國衛星公司的一個重要突破  \n• 長征10B火箭的成功運行有助於提升中國在太空競賽中的競爭力  \n• 此次發射的具體時間和地點尚未公開詳細資訊",
+    "summaries": {
+      "zh-HK": "• 中國於近日成功發射並回收長征10B火箭，標誌著可重複使用火箭技術的進步  \n• 此次發射被視為中國衛星公司的一個重要突破  \n• 長征10B火箭的成功運行有助於提升中國在太空競賽中的競爭力  \n• 此次發射的具體時間和地點尚未公開詳細資訊"
+    }
   },
   {
     "url": "https://www.nytimes.com/2026/07/10/world/europe/spain-wildfire-deaths.html",
@@ -21820,8 +21901,11 @@
     "topic": "General",
     "published": "2026-07-10T08:18:51+00:00",
     "crawled": "2026-07-10T08:29:06.083802+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 西班牙南部安達盧西亞地區發生野火，造成12人死亡  \n• 當局展開大規模滅火行動以控制火勢  \n• 預報員表示，今夏歐洲的熱浪增加了野火的風險  \n• 此次火災引發了對氣候變化影響的關注",
+    "summaries": {
+      "zh-HK": "• 西班牙南部安達盧西亞地區發生野火，造成12人死亡  \n• 當局展開大規模滅火行動以控制火勢  \n• 預報員表示，今夏歐洲的熱浪增加了野火的風險  \n• 此次火災引發了對氣候變化影響的關注"
+    }
   },
   {
     "url": "https://www.nytimes.com/2026/07/10/world/asia/australia-modi-india-diaspora.html",
@@ -21834,8 +21918,11 @@
     "topic": "World",
     "published": "2026-07-10T05:50:28+00:00",
     "crawled": "2026-07-10T08:29:06.276472+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 印度總理莫迪在墨爾本舉行盛大歡迎會，吸引大量印度裔人士參加  \n• 根據最新數據，印度裔已成為澳洲最大的外籍出生群體  \n• 歡迎會的舉行顯示出印度社區的團結，儘管該國在移民問題上存在緊張局勢  \n• 此次活動旨在加強印澳之間的文化和經濟聯繫",
+    "summaries": {
+      "zh-HK": "• 印度總理莫迪在墨爾本舉行盛大歡迎會，吸引大量印度裔人士參加  \n• 根據最新數據，印度裔已成為澳洲最大的外籍出生群體  \n• 歡迎會的舉行顯示出印度社區的團結，儘管該國在移民問題上存在緊張局勢  \n• 此次活動旨在加強印澳之間的文化和經濟聯繫"
+    }
   },
   {
     "url": "https://www.nytimes.com/2026/07/10/world/australia/neil-seal-australia-tasmania.html",
@@ -21904,8 +21991,11 @@
     "topic": "World",
     "published": "2026-07-10T06:40:00+00:00",
     "crawled": "2026-07-10T08:29:18.354564+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 英國低成本航空公司易捷航空（EasyJet）出現競標戰，吸引多家私募股權公司參與競標  \n• 美國私募股權公司阿波羅（Apollo）提出的報價超過了另一家競爭對手的出價  \n• 競標戰的背景是易捷航空在市場中的增長潛力和吸引力  \n• 目前尚未公佈具體的競標金額及後續進展",
+    "summaries": {
+      "zh-HK": "• 英國低成本航空公司易捷航空（EasyJet）出現競標戰，吸引多家私募股權公司參與競標  \n• 美國私募股權公司阿波羅（Apollo）提出的報價超過了另一家競爭對手的出價  \n• 競標戰的背景是易捷航空在市場中的增長潛力和吸引力  \n• 目前尚未公佈具體的競標金額及後續進展"
+    }
   },
   {
     "url": "https://huggingface.co/blog/torch-attention-profile",
@@ -21932,8 +22022,11 @@
     "topic": "General",
     "published": "2026-07-10T06:22:00+00:00",
     "crawled": "2026-07-10T08:29:29.394275+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 大眾汽車在與利益相關者的緊張會談後，公佈了其救助計劃，但內容缺乏具體細節  \n• 此計劃旨在應對公司面臨的財務挑戰和市場競爭  \n• 會議中，各方對未來的策略和方向表達了擔憂  \n• 大眾汽車表示將繼續與利益相關者進行對話，以完善救助計劃",
+    "summaries": {
+      "zh-HK": "• 大眾汽車在與利益相關者的緊張會談後，公佈了其救助計劃，但內容缺乏具體細節  \n• 此計劃旨在應對公司面臨的財務挑戰和市場競爭  \n• 會議中，各方對未來的策略和方向表達了擔憂  \n• 大眾汽車表示將繼續與利益相關者進行對話，以完善救助計劃"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNN2RjUGFsaXBkem9rVmIyZlJvaUROSmJJY2lVVC1tV0xPcGo2eEd6WHhMeDlLMkV4dnhlaHZwYm9LeThGYkJ3Zm5zZmhiWGtNWmI3Q3hYZFV5M3dYQXpMclMzYTNIV3RSMWlKN2JQLUQ4dzN5OXpKSmctVkt1ckthVV9MQmFHYkFURC16MWxseDVfc0l5SURlb1ktb1lXNnpXalF2Tkkza3dXdXpHSGVHSUdnSm10Q0RqTW53V0lR?oc=5",
@@ -21960,8 +22053,11 @@
     "topic": "General",
     "published": "2026-07-10T06:13:00+00:00",
     "crawled": "2026-07-10T08:29:30.049474+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• EasyJet支持阿波羅（Apollo）提出的76.5億美元收購提議，優於Castlelake的報價  \n• 此次收購提議旨在增強EasyJet的財務狀況及市場競爭力  \n• 阿波羅的收購計劃包括對EasyJet的業務重組和資本注入  \n• EasyJet董事會已經批准該提議，並將進一步與阿波羅進行談判",
+    "summaries": {
+      "zh-HK": "• EasyJet支持阿波羅（Apollo）提出的76.5億美元收購提議，優於Castlelake的報價  \n• 此次收購提議旨在增強EasyJet的財務狀況及市場競爭力  \n• 阿波羅的收購計劃包括對EasyJet的業務重組和資本注入  \n• EasyJet董事會已經批准該提議，並將進一步與阿波羅進行談判"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVjcyZE1SYjV1U1d1RE9janIxSEFCNEE4cWJxSWY0N3lIdF9vMnp0bUd1UFhtMHl3bDF3ZTd5cF8wVXpmZGJOcldFbjRxNWZfUngwdmpXOE5Dd0ZLZDZTSkUzaDJrSGc5TlhwMUFDTFlEckFsX0dZZHhodnhhRlBPeEVHSFIwZGV1YUdIUnhHR3pvc0dLSlJ6aE5ON0VMejJBQUQ5cXdCYVJIa2Z0Y1lkbHVFU0U0aTQ0aXNUeWFZMUpZR0s3TzEwQTJmbWlaekg1blhQVw?oc=5",
@@ -21974,8 +22070,11 @@
     "topic": "General",
     "published": "2026-07-10T06:36:00+00:00",
     "crawled": "2026-07-10T08:29:30.380984+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 中國進行了一次導彈測試，顯示其潛艇在核威懾方面的敏感能力  \n• 該測試於近期在中國海域進行，具體時間未公開  \n• 專家指出，此次測試強調了中國在海基核力量方面的發展  \n• 中國政府未對測試的具體細節和結果作出公開說明",
+    "summaries": {
+      "zh-HK": "• 中國進行了一次導彈測試，顯示其潛艇在核威懾方面的敏感能力  \n• 該測試於近期在中國海域進行，具體時間未公開  \n• 專家指出，此次測試強調了中國在海基核力量方面的發展  \n• 中國政府未對測試的具體細節和結果作出公開說明"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWkxtXy1vTHhfbERRTHloS3VqWWRZVHF0MFRmb19nWDFnOG5HYU9pai1zYWx4X0pSYWVXQUVjdVJfWlMwY3ozdUhGcHd5R25WWUpNWDN1dEFCS1paLTZhRjFzWkxLRDdWTDAxV1dlMGllWDY2OGRYLVVVU0VETVF1cDhkTzUxTnB0RGpfekdvSzlBNENyYUNSRDkycTE2T2xIU1VDWVlIMl9DV2MzWnl3RWtHZm1Ld0pWTG42X0QyeXhfYlpiRUE?oc=5",
@@ -22156,8 +22255,11 @@
     "topic": "General",
     "published": "2026-07-10T06:28:00+00:00",
     "crawled": "2026-07-10T08:29:35.327533+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 西班牙因高溫引發的野火造成12人死亡  \n• 當地氣溫飆升至40攝氏度以上，導致火勢迅速蔓延  \n• 當局已展開大規模滅火行動，並疏散受影響地區居民  \n• 此次野火是西班牙今年夏季多起火災中的一起，氣候變化被認為是主要因素之一",
+    "summaries": {
+      "zh-HK": "• 西班牙因高溫引發的野火造成12人死亡  \n• 當地氣溫飆升至40攝氏度以上，導致火勢迅速蔓延  \n• 當局已展開大規模滅火行動，並疏散受影響地區居民  \n• 此次野火是西班牙今年夏季多起火災中的一起，氣候變化被認為是主要因素之一"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYl91Ynh5SEp6MFhJWjRaWldrNG9meUtzOEdONVFHMWVkTjAxamlfV1hBTzZQUUFYdXdmWmdfSTVZYWlscXVVbUpIejdlWGJXWUFEUUthbUdEdk9uLVJFQ2dvV3VfQ0tIcWJFbWJld0JMeVZfN1E3Q05KTlU2b0lJeHA2bEY2SF9hcFFET21QSFlBdTQwOE9wMF8zQmFTa0k5Z0JwTEM5bnc?oc=5",
@@ -22184,8 +22286,11 @@
     "topic": "AI",
     "published": "2026-07-10T05:53:18+00:00",
     "crawled": "2026-07-10T08:29:36.970129+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 人工智能技術正在改變房地產行業的運作模式，提升效率和準確性  \n• 房地產公司利用AI進行市場分析、預測價格及客戶需求  \n• AI工具幫助經紀人更好地匹配買家和賣家，改善交易流程  \n• 專家指出，AI的應用將持續影響房地產市場的未來發展",
+    "summaries": {
+      "zh-HK": "• 人工智能技術正在改變房地產行業的運作模式，提升效率和準確性  \n• 房地產公司利用AI進行市場分析、預測價格及客戶需求  \n• AI工具幫助經紀人更好地匹配買家和賣家，改善交易流程  \n• 專家指出，AI的應用將持續影響房地產市場的未來發展"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVFFzTldMWkRDbEpLTkJGR3kyXzQzSGJSV20xTlEwdjV0LWFmbE10alhTSUlTUlhrN0JUck1ZSEdJaUtTbTV0NlplaTVib2VPT184RUNZUmxfdEpuengwTy14Z0djQzc1RmxNNGVta2M4MnRKcmFxSkVKcE83TVRTQ3piNWtoeXdCYnNPYzlrT0ZJXzRSb3hMWA?oc=5",
@@ -22198,8 +22303,11 @@
     "topic": "AI",
     "published": "2026-07-10T08:18:11+00:00",
     "crawled": "2026-07-10T08:29:37.309293+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 兩隻人工智能股票的股價下跌介乎16%至28%\n• 文章建議投資者考慮在此時購買這些股票\n• 具體股票名稱及詳細資訊未在文章中披露\n• 報導來源為《Motley Fool》",
+    "summaries": {
+      "zh-HK": "• 兩隻人工智能股票的股價下跌介乎16%至28%\n• 文章建議投資者考慮在此時購買這些股票\n• 具體股票名稱及詳細資訊未在文章中披露\n• 報導來源為《Motley Fool》"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSGs1T1lZZ29EV0pFb29sMk5XQjJ2amFnREJMTFBxcGNoMktkeXZQcnVOU1ZKWTN5RDE4MmhpX0dPc0hhdG52Y3FoZkFQYjFESnJ5R1JrbzFMQUNKMVJKYm1zQ1kxWUVvN2dZLUY4YjZhRTc1SFRIYmVLSU5Fc2g1Q3BIamxhSEZqNnJQZHQ5QngwOXBtRHY0VGRBdkdDT2ZVN0FvdVpQMVQ?oc=5",
@@ -22212,8 +22320,11 @@
     "topic": "AI",
     "published": "2026-07-10T05:57:59+00:00",
     "crawled": "2026-07-10T08:29:37.625808+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 密西西比州州長里夫斯（Reeves）發布了一份人工智能指南，旨在指導州內的人工智能發展和應用  \n• 該指南涵蓋了人工智能的基本概念、潛在應用及其對經濟的影響  \n• 里夫斯表示，該指南將幫助企業和政府機構更好地利用人工智能技術  \n• 此舉旨在促進密西西比州在科技創新方面的競爭力和經濟增長",
+    "summaries": {
+      "zh-HK": "• 密西西比州州長里夫斯（Reeves）發布了一份人工智能指南，旨在指導州內的人工智能發展和應用  \n• 該指南涵蓋了人工智能的基本概念、潛在應用及其對經濟的影響  \n• 里夫斯表示，該指南將幫助企業和政府機構更好地利用人工智能技術  \n• 此舉旨在促進密西西比州在科技創新方面的競爭力和經濟增長"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSHV0ZUpEbDlDaFFTX1VSdTRkYnJMQTJraGYzQXAzZ25ENjNZdGl0SE01WmswVUxiQWduQlRteEhEU1cxOWZXd1BuSHVSUTRmWVVwZlF1YTRJSHJUVzhNVjZDZmY1NEhGTWtFYkF3aTc4ZkZxdlB2aWdvbFNjX1pnQjJMX1V5bEhqR2xScGtZWG14NkJldEhzT0JVV1FucURnSmNkaVZjVDlxc1RuRzBaWE9sbTY?oc=5",
@@ -22226,8 +22337,11 @@
     "topic": "Ai",
     "published": "2026-07-10T06:04:19+00:00",
     "crawled": "2026-07-10T08:29:37.937877+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 專家討論人工智能（AI）在各行業中的不斷演變角色  \n• 討論重點包括AI對工作場所的影響及其在教育和醫療領域的應用  \n• 會議於近期舉行，參與者包括技術專家和行業領袖  \n• 專家強調AI技術的發展需要考慮倫理和社會責任問題",
+    "summaries": {
+      "zh-HK": "• 專家討論人工智能（AI）在各行業中的不斷演變角色  \n• 討論重點包括AI對工作場所的影響及其在教育和醫療領域的應用  \n• 會議於近期舉行，參與者包括技術專家和行業領袖  \n• 專家強調AI技術的發展需要考慮倫理和社會責任問題"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1MeE1uMUtCQXM5ZGJnVGxfMGh1c19acVhGOElUWGtLX1Y3akJOdW4ySlVKdkw2dmV3ak5PaWgxaFh2eDJwOVhwSy1wQkxUZGRyZlNQVnVyVzdEZUlZazh2RkF2c3bSAWRBVV95cUxNTHhNbjFLQkFzOWRiZ1RsXzBodXNfWnFYRjhJVFhrS19WN2pCTnVuMkpVSnZMNnZld2pOT2loMWhYdngycDlYcEstcEJMVGRkcmZTUFZ1clc3RGVJWWs4dkZBdnN2?oc=5",
@@ -22240,8 +22354,11 @@
     "topic": "World",
     "published": "2026-07-10T07:18:01+00:00",
     "crawled": "2026-07-10T08:29:38.270357+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 人工智能正在幫助亞洲及太平洋地區的貿易現代化，但採用差距仍然存在  \n• 根據報告，許多國家在人工智能技術的應用上進展不一  \n• 會議於2023年在新加坡舉行，聚焦於人工智能在貿易中的潛力  \n• 專家指出，提升技術採用率對於促進經濟增長至關重要",
+    "summaries": {
+      "zh-HK": "• 人工智能正在幫助亞洲及太平洋地區的貿易現代化，但採用差距仍然存在  \n• 根據報告，許多國家在人工智能技術的應用上進展不一  \n• 會議於2023年在新加坡舉行，聚焦於人工智能在貿易中的潛力  \n• 專家指出，提升技術採用率對於促進經濟增長至關重要"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcWh4U0g1dGN2cXp1R3pTY1BrVEdHMjNlM25fcUlHNFpUdDlTTDRrbmxBYTg2cnF3T3FMZ2V6QUZ2QlJjS2lCVTNyS24zdnlwZVlSNnMyZV9IWXZSbDQ5TFVSODRNRjA2eXgxREZNa1lMMW9BNE9BREpmNUdXZzNjSDl4R0lmeHdaeXh2WHZ4RmRJdWYzSFI1aw?oc=5",

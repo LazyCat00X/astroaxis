@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+# Git pre-commit hook — quick syntax check before commit
+# Skip with: git commit --no-verify
+
+set -e
+
+cd "$(dirname "$0")/../.."
+
+# Check globe.html for JS syntax errors
+if [ -f globe.html ]; then
+  JS=$(python3 -c "
+import re
+with open('globe.html') as f:
+    html = f.read()
+m = re.search(r'<script>([\s\S]*?)</script>', html)
+if m:
+    try:
+        compile(m.group(1), 'globe.js', 'exec')
+        print('OK')
+    except SyntaxError as e:
+        print(f'ERROR: {e}')
+")
+  if [ "$JS" != "OK" ]; then
+    echo "❌ JS syntax error in globe.html: $JS"
+    exit 1
+  fi
+  echo "✓ JS syntax OK"
+fi
+
+# Check Python files for syntax errors
+for f in $(git diff --cached --name-only | grep '\.py$'); do
+  if [ -f "$f" ]; then
+    python3 -c "compile(open('$f').read(), '$f', 'exec')" 2>/dev/null || {
+      echo "❌ Syntax error in $f"
+      exit 1
+    }
+  fi
+done
+echo "✓ Python syntax OK"
