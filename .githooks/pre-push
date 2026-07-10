@@ -4,7 +4,8 @@
 
 set -e
 
-cd "$(dirname "$0")/../.."
+# Find project root (where .git is)
+cd "$(git rev-parse --show-toplevel)"
 
 echo "=== Pre-push: Running validation ==="
 python3 validate.py
