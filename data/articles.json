@@ -1,462 +1,5 @@
 [
   {
-    "url": "https://decrypt.co/373042/bnb-chain-new-layer-1-ai-agents-high-speed-trading-quantum",
-    "title": "BNB Chain Plans New Layer-1 for AI Agents and Quantum Future",
-    "summary": "The network’s 2026 roadmap targets faster transactions, AI-powered apps, and infrastructure aimed at competing with traditional financial systems, while preparing for a quantum future.",
-    "full_text": "In brief\n- BNB Chain plans to launch a new layer-1 blockchain focused on high-frequency trading and AI-driven transactions.\n- The developers say the network will target more than 100,000 transactions per second, sub-second finality, and a testnet launch by late 2026.\n- Planned upgrades include AI agent tools, privacy features, and research into quantum-resistant security.\nAI agents may be ready to trade crypto—but BNB Chain says today’s blockchains aren’t ready for them.\nOn Wednesday, BNB Chain unveiled plans for a new layer-1 blockchain built to handle high-frequency trading, automated payments, and AI-driven transactions at speeds closer to traditional financial markets. The new network will run alongside the existing BNB Chain blockchain, not replace it, according to its developers.\nDetailed in its H2 2026 technical roadmap, the new network is expected to launch on testnet by the end of 2026, with a mainnet release planned for early 2027.\n“Six months ago, BNB Chain set three priorities for BSC: speed, throughput, and protocol stability,” the developers wrote. “This roadmap opens with the receipts and closes with what comes next—a second half focused on doubling performance again, and an architecture designed for the decade ahead.”\nAccording to BNB Chain, the new network is being built to eventually handle more than 100,000 transactions per second by processing multiple transactions at once and improving how data is stored and verified. The developers said it is also aiming to confirm transactions in less than 50 milliseconds and finalize blocks in under one second.\nA major component of the new layer-one is TxStream. This system removes the public mempool where pending blockchain transactions are typically visible before confirmation and sends transactions directly to block leaders to reduce latency and limit front-running opportunities.\nAccording to BNB Chain, upgrades to BNB Smart Chain during the first half of 2026 reduced block intervals from 750 milliseconds to 450 milliseconds and increased benchmark throughput from roughly 2,800 transactions per second to 5,200. The developers said its next phase will focus on further increasing throughput, reducing congestion between applications.\nBeyond speed improvements, BNB Chain said it is researching quantum-resistant security as developers prepare for future threats from quantum computers.\nThe developers said they are exploring ways to add quantum-safe protections through account abstraction, allowing users to upgrade security without changing wallet addresses. The work remains in the research phase.\nBNB Chain said its quantum security research focuses on protecting against future threats where more advanced quantum computers could decrypt encrypted data collected today. The developers said it is testing hybrid protections and ways for users to adopt quantum-safe security without changing wallet addresses.\n“There's no finish line here. Quantum computing will keep evolving, and so will our testing and research,” they wrote. “The point is that when it matures, BNB Chain's infrastructure is already prepared.”\nBNB Chain did not immediately respond to a request for comment by Decrypt.\nThe news comes as crypto and technology companies are building infrastructure for AI agents that can move money and execute transactions without constant human approval.\nIn March, Stripe-backed Tempo launched its payments-focused layer-1 blockchain alongside the Machine Payments Protocol, an open standard designed for transactions between AI agents and online services.\nThat same month, MoonPay launched the Open Wallet Standard, a framework developed with contributors including PayPal, Ethereum Foundation, Solana Foundation, Ripple, and others to let AI agents manage funds and execute transactions across blockchains.\nIn May, Amazon Web Services partnered with Coinbase and Stripe to launch Amazon Bedrock AgentCore Payments, which lets AI agents use USDC stablecoins to pay for APIs, data feeds, and online services, and in June, Coinbase launched Coinbase for Agents, a tool that lets AI agents trade crypto, make payments, and manage portfolios within user-defined limits.",
-    "source": "Decrypt",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Crypto",
-    "published": "2026-07-08T16:14:20+00:00",
-    "crawled": "2026-07-08T23:12:51.237760+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://decrypt.co/373039/xrp-logo-kansas-jayhawks-jerseys-ripple-multi-year-deal",
-    "title": "XRP Logo Lands on Kansas Jayhawks Jerseys as Ripple Inks Multi-Year Deal",
-    "summary": "Ripple and XRP become the latest crypto brands to enter the sports marketing space.",
-    "full_text": "In brief\n- Ripple has signed a sports marketing deal with the University of Kansas to make XRP the official crypto of Kansas Athletics.\n- The deal places the XRP logo prominently on the jerseys of sporting teams at the university.\n- The company will also fund educational programs about traditional finance and digital assets for student-athletes.\nRipple, the payments company whose founders created the XRP cryptocurrency, has inked a multi-year sponsorship deal with the University of Kansas Athletics that will place the XRP logo on the jerseys of all Kansas athletic teams.\nAs part of the agreement, XRP also becomes the official cryptocurrency of Kansas Athletics.\n“This era of college athletics demands innovative, forward-thinking partnerships,\" Director of Athletics at the University of Kansas Travis Goff said in a statement.\n“Ripple recognizes the unique reach and passion of the Jayhawk community, and we're proud they have chosen Kansas Athletics as a premier platform to introduce XRP to millions of sports fans,” Goff said.\nBeyond the jerseys, Ripple will also fund educational programs focused on traditional finance and digital assets for Kansas students-athletes, while seeking to connect KU graduates to careers in technology.\n“It's a critical time in college athletics to be bold, and that's what is being accomplished with today's announcement,” Kansas Men’s Basketball Coach Bill Self said in a statement. “We will make sure our guys understand the significance of the partnership and why it is beneficial for them moving forward.\"\nThe deal reconnects the Jayhawks and University of Kansas with Ripple President Brad Garlinhouse, who graduated from the university and previously described watching Jayhawks games as a “guilty pleasure.”\nThe crypto industry has a long, and at times controversial, history of sponsorship deals in the sports world.\nFTX, the collapsed crypto exchange whose founder Sam Bankman-Fried was convicted for fraud, famously bought the naming rights for the stadium that hosts the Miami Heat NBA franchise in 2021—only for the FTX logo to be torn down less than two years later. Terra, a crypto network that similarly collapsed and whose founder is also behind bars, signed a five-year sponsorship deal with MLB franchise the Washington Nationals in 2022, and its logo still adorns the ballpark.\nMore recently, though, crypto companies have been wading back into sports marketing, with leading U.S.-based crypto exchange Coinbase holding a long-standing sponsorship deal with the NBA. In June of last year, the Paris-based digital asset security firm Ledger also landed a sponsorship agreement with the San Antonio Spurs, which prominently placed the Ledger logo on the Spurs jerseys and arena floor throughout the NBA season.\nIf the marketing spend for Ripple is to make a positive market impact for XRP, it won’t be felt immediately. The price of XRP today fell around 4.2%, as the cryptocurrency clings to a top 6 spot among digital assets with a $67 billion market cap. The Ripple-linked token notched a new all-time high of $3.65 last year, but has since fallen nearly 71% to trade around $1.07.",
-    "source": "Decrypt",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Science",
-    "published": "2026-07-08T16:07:28+00:00",
-    "crawled": "2026-07-08T23:12:51.401552+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://decrypt.co/373030/malaysia-seizes-over-75000-crypto-mining-rigs-in-power-theft-crackdown",
-    "title": "Malaysia Seizes Over 75,000 Crypto Mining Rigs in Power-Theft Crackdown",
-    "summary": "More than 3,000 raids since 2022 have led to 629 arrests, as authorities target miners siphoning electricity from the national grid.",
-    "full_text": "In brief\n- Malaysian authorities have seized more than 75,000 crypto mining machines in over 3,000 raids between 2022 and May 2026, the Deputy Home Minister told parliament.\n- The operations, run with national utility Tenaga Nasional Berhad and the police, led to 629 arrests, he said.\n- Crypto trading is legal in Malaysia, but mining that relies on stolen electricity, tampered meters or unlicensed setups is not.\nMalaysian authorities have seized more than 75,000 cryptocurrency mining machines in over 3,000 raids nationwide between 2022 and May 2026, Deputy Home Minister Datuk Seri Dr Shamsul Anuar told parliament on Wednesday, according to state news agency Bernama.\nThe seizures came alongside 629 arrests in coordinated operations involving the Royal Malaysia Police, state utility Tenaga Nasional Berhad (TNB) and local authorities, he said, responding to a question in the Dewan Rakyat, the lower house of parliament.\nShamsul Anuar said the Home Ministry is expanding its enforcement approach, leaning on intelligence gathering and technology to flag likely hotspots before moving in so it can \"respond faster and take more precise action.\" He attributed the persistence of illegal mining to strong demand for digital assets and the profits available from volatile token prices, while stressing that potential gains do not excuse crimes such as stealing electricity to cut running costs.\nMalaysia and crypto\nOwning and trading crypto is permitted in Malaysia, though it is not recognized as legal tender, Shamsul Anuar said. Mining crosses into illegality when it relies on “unauthorised electricity connections, tampering with meters, disrupting power supply systems or operating without the required licences,” he added.\nThe Securities Commission Malaysia regulates digital assets, while the central bank, Bank Negara Malaysia, oversees financial stability, payments and anti-money-laundering compliance.\nThe focus of the crackdown is on electricity theft rather than crypto policy. Mining rigs run around the clock and draw heavy, constant loads, and operators frequently bypass or tamper with meters to hide the consumption, leaving utilities to catch the fraud only when billed and actual usage diverge.\nYears of raids\nThe latest tally extends a campaign that has run for years. In late 2025, Malaysia's energy ministry linked around $1.1 billion in power losses to some 14,000 illegal mining sites uncovered over five years, and set up a committee drawing on the finance ministry, Bank Negara and TNB to pursue offenders.\nEnforcement has at times been theatrical. Police have on more than one occasion crushed seized rigs with steamrollers, including hundreds of machines destroyed in 2024 and around 1,000 in a similar operation in 2021.\nMalaysia is not alone in the region. Authorities elsewhere have mounted their own crackdowns, from a multimillion-dollar mining operation dismantled in Thailand to arrests in Hong Kong over electricity siphoned to power rigs.",
-    "source": "Decrypt",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Crypto",
-    "published": "2026-07-08T15:40:15+00:00",
-    "crawled": "2026-07-08T23:12:51.733418+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://decrypt.co/372977/anthropic-removes-hidden-claude-code-tracker-privacy",
-    "title": "Anthropic Removes Hidden Claude Code Tracker After Researchers Raise Privacy Concerns",
-    "summary": "The company says the tool was designed to stop abuse and AI model extraction, but critics questioned the use of undisclosed monitoring.",
-    "full_text": "In brief\n- Anthropic removed hidden tracking markers from Claude Code after researchers discovered code used to identify some Chinese users.\n- The company said the experiment was intended to prevent account abuse and detect possible AI model distillation.\n- The discovery comes as Anthropic pushes lawmakers to crack down on unauthorized copying of frontier AI models.\nAnthropic has removed a hidden tracking system from Claude Code after a security researcher discovered the AI coding assistant was using undisclosed markers to identify some users’ location, proxy use, and possible links to Chinese AI labs.\nThe feature, discovered in June by developer “Thereallo,” embedded signals in Claude Code’s system prompts that could flag users Anthropic believed were bypassing restrictions or attempting to extract model capabilities.\n“Anthropic probably wants to detect API resellers, unauthorized Claude Code gateways, and model 'distillation attack' pipelines,” Thereallo wrote. “A custom ANTHROPIC_BASE_URL pointing at a known reseller domain is a useful signal. A hostname containing deepseek or zhipu is also a useful signal.”\nThereallo said Anthropic’s attempt to detect resellers, unauthorized Claude Code gateways, and potential distillation attacks made sense, but criticized how it was done, noting that Claude Code hid tracking signals inside system prompts using Unicode markers and encoded domain lists rather than disclosing the system through documentation or release notes.\n“This is not a malicious feature, but it is a weird choice for a developer tool that asks for trust,” Thereallo wrote.\nAfter the tracker was revealed online, Anthropic engineer Thariq Shihipar said on X that it was introduced in March as an “experiment” to stop account abuse by unauthorized resellers and protect Claude from distillation attacks.\n“The team has landed stronger mitigations since then and we’ve actually been meaning to take this down for a while,” Shihipar wrote last week. “We merged the [pull request] and this should be fully rolled back in tomorrow’s release.”\nThe news comes as Anthropic has stepped up warnings about AI model distillation, where one system’s outputs are used to train another model. While the practice is common in AI research, when it comes to geopolitics, distillation becomes a national security concern. Earlier this month, Alibaba banned employees from using Claude Code, calling the tool “high-risk” software over security concerns.\nIn February, Anthropic accused Chinese AI developers DeepSeek, Moonshot AI, and MiniMax of using fraudulent accounts to extract millions of Claude responses to train competing models. The claims drew pushback from critics who questioned how the practice differs from methods used across the AI industry.\nIn April, Elon Musk testified that xAI had “partly” used OpenAI models while training Grok, calling distillation a broader industry practice. In June, Anthropic CEO Dario Amodei urged Congress to strengthen protections against foreign AI extraction after alleging Alibaba-linked operators generated 28.8 million Claude exchanges using nearly 25,000 fraudulent accounts.\nAnthropic did not immediately respond to a request for comment by Decrypt.",
-    "source": "Decrypt",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "AI",
-    "published": "2026-07-07T22:31:03+00:00",
-    "crawled": "2026-07-08T23:12:51.823831+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-08/gold-holds-decline-as-us-strikes-on-iran-magnify-inflation-risks",
-    "title": "Gold Holds Decline as US Strikes on Iran Magnify Inflation Risks",
-    "summary": "Gold held a decline as a second day of US strikes against Iran drove energy prices higher and intensified concerns around inflation.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Policy",
-    "published": "2026-07-08T22:54:24+00:00",
-    "crawled": "2026-07-08T23:12:53.754007+00:00",
-    "summarized": true,
-    "ai_summary": "• 美國對伊朗的第二天空襲推高能源價格，導致金價持平下跌  \n• 此次空襲加劇了市場對通脹風險的擔憂  \n• 投資者對金價的反應顯示出對全球經濟不確定性的關注  \n• 金價在近期交易中持續受到地緣政治因素的影響",
-    "summaries": {
-      "zh-HK": "• 美國對伊朗的第二天空襲推高能源價格，導致金價持平下跌  \n• 此次空襲加劇了市場對通脹風險的擔憂  \n• 投資者對金價的反應顯示出對全球經濟不確定性的關注  \n• 金價在近期交易中持續受到地緣政治因素的影響"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-08/luxury-car-firm-dupont-registry-group-said-to-pick-banks-for-ipo",
-    "title": "Luxury Car Firm DuPont Registry Group to Pick Banks for IPO",
-    "summary": "DuPont Registry Group, a luxury car marketplace and media company, has picked banks for a US initial public offering, according to people familiar with the matter.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-08T22:53:35+00:00",
-    "crawled": "2026-07-08T23:12:53.889094+00:00",
-    "summarized": true,
-    "ai_summary": "• 豪華汽車市場及媒體公司DuPont Registry Group已選擇銀行為其美國首次公開募股（IPO）提供服務  \n• 據知情人士透露，此次IPO計劃正在進行中  \n• DuPont Registry Group專注於豪華汽車的買賣及相關資訊  \n• 目前尚未公佈具體的IPO時間表或募資金額",
-    "summaries": {
-      "zh-HK": "• 豪華汽車市場及媒體公司DuPont Registry Group已選擇銀行為其美國首次公開募股（IPO）提供服務  \n• 據知情人士透露，此次IPO計劃正在進行中  \n• DuPont Registry Group專注於豪華汽車的買賣及相關資訊  \n• 目前尚未公佈具體的IPO時間表或募資金額"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-08/latest-oil-market-news-and-analysis-for-july-9",
-    "title": "Oil Extends Surge as Fresh US Strikes Against Iran Rattle Market",
-    "summary": "Oil extended a powerful surge as the US struck targets in Iran for a second day, raising risks for energy supplies from the region.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-08T22:01:34+00:00",
-    "crawled": "2026-07-08T23:12:54.029632+00:00",
-    "summarized": true,
-    "ai_summary": "• 美國對伊朗的攻擊已持續兩天，導致油價持續上漲  \n• 此次攻擊增加了該地區能源供應的風險  \n• 市場對於中東局勢的擔憂加劇，影響油價走勢  \n• 投資者密切關注美國與伊朗之間的緊張關係發展",
-    "summaries": {
-      "zh-HK": "• 美國對伊朗的攻擊已持續兩天，導致油價持續上漲  \n• 此次攻擊增加了該地區能源供應的風險  \n• 市場對於中東局勢的擔憂加劇，影響油價走勢  \n• 投資者密切關注美國與伊朗之間的緊張關係發展"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-08/samsung-sk-hynix-and-leveraged-etfs-drive-70-of-korea-trading",
-    "title": "Samsung, SK Hynix and Leveraged ETFs Drive 70% of Korea Trading",
-    "summary": "Retail fervor over leveraged ETFs in South Korea has grown so intense that the products, together with the two chipmaker stocks they track, now make up more than 70% of trading value in the $4.3 trillion market.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Trading",
-    "published": "2026-07-08T22:30:00+00:00",
-    "crawled": "2026-07-08T23:12:54.158662+00:00",
-    "summarized": true,
-    "ai_summary": "• 韓國的零售投資者對槓桿ETF的熱情持續上升，這些產品與兩家半導體公司股票的交易價值超過70%。  \n• 槓桿ETF和三星電子、SK海力士的股票共同推動了韓國4.3萬億美元市場的交易活動。  \n• 槓桿ETF的流行顯示出投資者對高風險高回報產品的興趣。  \n• 韓國市場的交易量因這些產品的興起而顯著增加。",
-    "summaries": {
-      "zh-HK": "• 韓國的零售投資者對槓桿ETF的熱情持續上升，這些產品與兩家半導體公司股票的交易價值超過70%。  \n• 槓桿ETF和三星電子、SK海力士的股票共同推動了韓國4.3萬億美元市場的交易活動。  \n• 槓桿ETF的流行顯示出投資者對高風險高回報產品的興趣。  \n• 韓國市場的交易量因這些產品的興起而顯著增加。"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-08/noteholders-to-aston-martin-sign-cooperation-pact-amid-debt-rout",
-    "title": "Noteholders to Aston Martin Sign Cooperation Pact Amid Debt Rout",
-    "summary": "A group of creditors to luxury car maker Aston Martin has signed a cooperation pact as earnings pressure weighs on the company’s debt.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-08T22:22:51+00:00",
-    "crawled": "2026-07-08T23:12:54.311930+00:00",
-    "summarized": true,
-    "ai_summary": "• 一群奢華汽車製造商阿斯頓·馬丁的債權人簽署了一項合作協議  \n• 此舉是在公司面臨盈利壓力及債務困境的背景下進行的  \n• 合作協議旨在協助公司應對當前的財務挑戰  \n• 阿斯頓·馬丁的債務問題引起了市場的廣泛關注",
-    "summaries": {
-      "zh-HK": "• 一群奢華汽車製造商阿斯頓·馬丁的債權人簽署了一項合作協議  \n• 此舉是在公司面臨盈利壓力及債務困境的背景下進行的  \n• 合作協議旨在協助公司應對當前的財務挑戰  \n• 阿斯頓·馬丁的債務問題引起了市場的廣泛關注"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-08/harley-davidson-s-credit-ratings-get-cut-to-junk-by-s-p",
-    "title": "Harley-Davidson’s Credit Ratings Get Cut to Junk By S&amp;P",
-    "summary": "S&amp;P Global Ratings cut Harley-Davidson Inc.’s credit grades to junk status on Wednesday, citing the company’s strategy to start selling lower-cost motorcycles to boost revenue.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "World",
-    "published": "2026-07-08T22:17:03+00:00",
-    "crawled": "2026-07-08T23:12:54.446424+00:00",
-    "summarized": true,
-    "ai_summary": "• 標準普爾全球評級於星期三將哈雷-戴維森公司的信用評級下調至垃圾級別  \n• 此次降級原因為該公司計劃開始銷售低成本摩托車以提升收入  \n• 哈雷-戴維森的信用評級下調可能影響其借貸成本和融資能力  \n• 公司面臨的挑戰包括市場競爭加劇和消費者需求變化",
-    "summaries": {
-      "zh-HK": "• 標準普爾全球評級於星期三將哈雷-戴維森公司的信用評級下調至垃圾級別  \n• 此次降級原因為該公司計劃開始銷售低成本摩托車以提升收入  \n• 哈雷-戴維森的信用評級下調可能影響其借貸成本和融資能力  \n• 公司面臨的挑戰包括市場競爭加劇和消費者需求變化"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-08/sk-hynix-us-offering-is-more-than-seven-times-oversubscribed",
-    "title": "SK Hynix US Offering Is More Than Seven Times Oversubscribed",
-    "summary": "SK Hynix Inc.’s US listing is more than seven times oversubscribed, according to people familiar with the matter, as the South Korean memory chipmaker prepares to price its offering Thursday.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Trading",
-    "published": "2026-07-08T22:16:51+00:00",
-    "crawled": "2026-07-08T23:12:54.583442+00:00",
-    "summarized": true,
-    "ai_summary": "• SK Hynix Inc.的美國上市申請超額認購超過七倍  \n• 這家韓國記憶體芯片製造商計劃於星期四定價其發售  \n• 據知情人士透露，該發售受到市場高度關注  \n• SK Hynix的上市將進一步擴大其在全球市場的影響力",
-    "summaries": {
-      "zh-HK": "• SK Hynix Inc.的美國上市申請超額認購超過七倍  \n• 這家韓國記憶體芯片製造商計劃於星期四定價其發售  \n• 據知情人士透露，該發售受到市場高度關注  \n• SK Hynix的上市將進一步擴大其在全球市場的影響力"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-08/stock-market-today-dow-s-p-live-updates",
-    "title": "Oil Gains, US Stock Futures Drop on New Strikes: Markets Wrap",
-    "summary": "Oil gained and US equity futures ticked lower after the US said it is striking Iran for the second straight day, an escalation of violence that threatens to choke shipping through the Strait of Hormuz.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-08T22:09:37+00:00",
-    "crawled": "2026-07-08T23:12:54.732464+00:00",
-    "summarized": true,
-    "ai_summary": "• 美國連續第二天對伊朗發動空襲，導致油價上漲和美國股市期貨下跌  \n• 此次衝突升級可能影響霍爾木茲海峽的航運安全  \n• 市場對地緣政治緊張局勢的反應影響投資者情緒  \n• 分析師指出，油價上漲可能會對全球經濟造成影響",
-    "summaries": {
-      "zh-HK": "• 美國連續第二天對伊朗發動空襲，導致油價上漲和美國股市期貨下跌  \n• 此次衝突升級可能影響霍爾木茲海峽的航運安全  \n• 市場對地緣政治緊張局勢的反應影響投資者情緒  \n• 分析師指出，油價上漲可能會對全球經濟造成影響"
-    }
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/08/despite-misgivings-judge-approves-elon-musks-1-5-million-sec-settlement/",
-    "title": "Despite ‘misgivings,’ judge approves Elon Musk’s $1.5 million SEC settlement",
-    "summary": "The saga of Musk's tussle with the SEC over how he disclosed his growing stake in Twitter (now called X) has come to an end.",
-    "full_text": "A judge has approved a $1.5 million penalty levied against Elon Musk that will settle a U.S. Securities and Exchange Commission lawsuit despite having “significant misgivings” about it.\nU.S. District Judge Sparkle Sooknanan noted that her court would accept the settlement, Bloomberg reported Wednesday, which cited her court opinion.\nSooknanan’s approval settles a lawsuit filed by the SEC against Musk in early 2025 over how the billionaire handled his takeover of the social network platform formerly known as Twitter. The lawsuit, which was filed only days before Donald Trump took office, revolved around Musk’s failure to disclose to public investors, in a timely manner, his growing stake in the company in 2022.\nThe fact that Musk did not initially disclose his stake “ultimately saved him a whopping $150 million,” the SEC argued.\nIn May, Musk reached a settlement with the SEC that stipulated a trust in Musk’s name would be responsible for paying a $1.5 million penalty without admitting wrongdoing.\nSooknanan previously questioned whether Musk was receiving “special treatment” from the Trump administration. Musk previously helped to bankroll Trump’s campaign during the 2024 presidential race.\nIn her opinion, Sooknanan noted that her court was “limited to evaluating whether the proposed consent judgment meets minimum standards of fairness and reasonableness, or whether it instead “make[s] a mockery of judicial power.”\n“Although the Court has significant misgivings about the settlement reached in this case, it cannot say that\nthe settlement meets that high threshold,” Sooknanan wrote.",
-    "source": "TechCrunch",
-    "category": "tech",
-    "lang": "en",
-    "topic": "Regulation",
-    "published": "2026-07-08T23:11:42+00:00",
-    "crawled": "2026-07-08T23:13:07.127210+00:00",
-    "summarized": true,
-    "ai_summary": "• 美國地區法官Sparkle Sooknanan批准了對特斯拉創辦人埃隆·馬斯克的150萬美元罰款，以解決美國證券交易委員會的訴訟  \n• 此訴訟源於馬斯克在2022年未能及時向公眾投資者披露其在社交媒體平台的持股情況  \n• 馬斯克在2025年與SEC達成和解，罰款由以他名字成立的信託負責支付，並不承認任何不當行為  \n• Sooknanan法官表示對和解有重大疑慮，但認為該和解符合最低的公平和合理標準",
-    "summaries": {
-      "zh-HK": "• 美國地區法官Sparkle Sooknanan批准了對特斯拉創辦人埃隆·馬斯克的150萬美元罰款，以解決美國證券交易委員會的訴訟  \n• 此訴訟源於馬斯克在2022年未能及時向公眾投資者披露其在社交媒體平台的持股情況  \n• 馬斯克在2025年與SEC達成和解，罰款由以他名字成立的信託負責支付，並不承認任何不當行為  \n• Sooknanan法官表示對和解有重大疑慮，但認為該和解符合最低的公平和合理標準"
-    }
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
-    "title": "Lovable reportedly in talks to double its valuation to $13.2B",
-    "summary": "The $300 million round is expected to be led by Menlo Ventures, Sifted reported.",
-    "full_text": "Lovable, a Swedish vibe-coding startup, is in talks to raise $300 million at a valuation of $13.2 billion — exactly double the$6.6 billion valuation the company achieved last December, Sifted reported. Menlo Ventures, a firm that announced its latest $3 billion fund last month, is expected to lead the round, according to the report.\nThe less-than-three-year-old startup hit $500 million in annualized revenue run rate in June.\nLovable’s users include founders, individual designers, and salespeople building websites and e-commerce storefronts. The company also sells its vibe-coding tool to large enterprises, including Workday, Asana, and Nvidia.\nVibe coding, which allows users to build software simply by describing it, is by far the most popular and lucrative use case for AI. Other high-profile vibe-coding startups include Replit, valued at $9 billion in March, and Factory, a startup that helps enterprises develop AI agents, which raised $150 million at a $1.5 billion valuation in April. Meanwhile, Cursor, which offers vibe coding for developers, was acquired by SpaceX for $60 billion last month.",
-    "source": "TechCrunch",
-    "category": "tech",
-    "lang": "en",
-    "topic": "Tech",
-    "published": "2026-07-08T22:41:33+00:00",
-    "crawled": "2026-07-08T23:13:07.145675+00:00",
-    "summarized": true,
-    "ai_summary": "• 瑞典初創公司Lovable正在洽談以132億美元的估值籌集3億美元，這是其去年12月66億美元估值的兩倍。  \n• Lovable在6月達到每年5億美元的收入運行率，成立不到三年。  \n• 該公司的用戶包括創始人、設計師和銷售人員，並向大型企業如Workday、Asana和Nvidia銷售其工具。  \n• Vibe coding是AI的熱門應用，其他相關初創公司如Replit和Factory也獲得高額估值和融資。",
-    "summaries": {
-      "zh-HK": "• 瑞典初創公司Lovable正在洽談以132億美元的估值籌集3億美元，這是其去年12月66億美元估值的兩倍。  \n• Lovable在6月達到每年5億美元的收入運行率，成立不到三年。  \n• 該公司的用戶包括創始人、設計師和銷售人員，並向大型企業如Workday、Asana和Nvidia銷售其工具。  \n• Vibe coding是AI的熱門應用，其他相關初創公司如Replit和Factory也獲得高額估值和融資。"
-    }
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/08/feds-demand-autonomous-vehicle-companies-stop-interfering-with-first-responders/",
-    "title": "Feds demand autonomous vehicle companies stop interfering with first responders",
-    "summary": "The National Highway Traffic Safety Administration said emergency scenes are not \"edge cases.\"",
-    "full_text": "National Highway Traffic Safety Administration (NHTSA) Administrator Jonathan Morrison issued a directive Wednesday to autonomous vehicle (AV) developers, stating that it is unacceptable for their vehicles to interfere with first responders or law enforcement.\nMorrison noted in the letter that the agency has “identified a clear pattern of driverless AVs interfering with law enforcement and other first responders,” citing instances in which these vehicles drove into active emergency scenes, blocked the paths of ambulances and firefighters, or failed to recognize and respond to basic safety conditions like flashing lights, flares, smoke, fire, and traffic cones.\nThe agency has demanded that AV developers present their “solutions” to this problem by the end of the month.\n“Let me be clear: the inability to detect and appropriately respond to such situations represents a functional insufficiency,” Morrison’s letter reads. “Emergency scenes are not rare or extreme ‘edge cases.’ As such, NHTSA is today issuing a call to action for AV developers and operators to immediately focus their resources on fixing this issue.”\nThe agency doesn’t explicitly call out any particular company in the letter; however, the details suggest it is directed at robotaxi operators like Waymo.\nTechCrunch has reached out to Waymo for comment and will update the article once the company responds.\nA previous TechCrunch investigation found that Waymo — which operates the largest robotaxi fleet in the United States, with vehicles in cities including Los Angeles, Phoenix, and San Francisco — has had repeated run-ins with first responders. In at least six incidents identified by TechCrunch through March of this year, first responders had to take control of Waymo vehicles and move them out of traffic during emergency situations. In one instance, an officer was in the middle of responding to a mass shooting. In June, an officer was recorded moving a Waymo to unblock a roadway for first responders headed to a natural gas explosion at an apartment building.\nThe agency’s letter to AV developers doesn’t say what the consequences would be if the request is ignored. Nor does it outline what the acceptable solutions would be. But the agency does imply it would hold companies accountable, just as it does human drivers who impede law enforcement.\n“Every second matters when law enforcement officers, firefighters, or paramedics are answering a call because lives are on the line,” the letter states. “That is why human drivers who impede these operations are subject to fines and even jail time.”\nThe agency also noted in a press release accompanying the letter that it’s making progress on updating Federal Motor Vehicle Safety Standards (FMVSS) requirements, which govern vehicle design and equipment requirements. These proposed changes could help autonomous vehicle companies like Tesla and Zoox, which are developing vehicles without steering wheels, pedals, or other features required on human-driven cars. The agency has already proposed rules that would eliminate the need for windshield wipers, sun visors, defogging systems, and tire placards. The agency released a new 2026 Regulatory Plan and Unified Agenda last week, outlining its proposals.",
-    "source": "TechCrunch",
-    "category": "tech",
-    "lang": "en",
-    "topic": "Tech",
-    "published": "2026-07-08T21:49:33+00:00",
-    "crawled": "2026-07-08T23:13:07.165752+00:00",
-    "summarized": true,
-    "ai_summary": "• 美國國家公路交通安全管理局（NHTSA）於週三向自動駕駛車輛（AV）開發商發出指令，要求其不得妨礙急救人員或執法部門的工作。  \n• NHTSA主管喬納森·莫里森指出，自動駕駛車輛在緊急現場干擾執法和急救人員的情況已經形成明顯模式。  \n• NHTSA要求自動駕駛車輛開發商在本月底前提出解決方案，並強調這種無法檢測和應對緊急情況的能力是功能上的不足。  \n• 雖然信中未指明特定公司，但細節暗示該指令針對如Waymo等機器出租車運營商，並提到Waymo在多起事件中妨礙了急救人員的工作。",
-    "summaries": {
-      "zh-HK": "• 美國國家公路交通安全管理局（NHTSA）於週三向自動駕駛車輛（AV）開發商發出指令，要求其不得妨礙急救人員或執法部門的工作。  \n• NHTSA主管喬納森·莫里森指出，自動駕駛車輛在緊急現場干擾執法和急救人員的情況已經形成明顯模式。  \n• NHTSA要求自動駕駛車輛開發商在本月底前提出解決方案，並強調這種無法檢測和應對緊急情況的能力是功能上的不足。  \n• 雖然信中未指明特定公司，但細節暗示該指令針對如Waymo等機器出租車運營商，並提到Waymo在多起事件中妨礙了急救人員的工作。"
-    }
-  },
-  {
-    "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
-    "title": "\"We cannot choose to become idiots\": The AI cheating scandal roiling Brown University",
-    "summary": "AI cheating leads to \"a failed society,\" professor says.",
-    "full_text": "Ivy League college students are, by definition, intelligent. They don’t need to use generative AI to cheat on exams; they could just learn the material. But they also tend to be competitive, ambitious, and overscheduled, so AI can look like an easy shortcut that makes more time in their lives for things that can’t be done by a chatbot. When the pressure is on, which approach do they choose?\nA new scandal at Brown University reveals that huge numbers of these students are likely to cheat.\nRecord scores\nA recent survey of Princeton students found that 29.9 percent admitted to cheating with AI on at least one exam or assignment. But the recent situation at Brown gives us a better sense of what this kind of cheating looks like in one particular class—and just how much it may be substituting for actual learning. And we know all this because the blind economics professor at the center of it all, Roberto Serrano, is not letting it go.\nIn just the last week, Serrano—who was born in Spain—has told his story to El País and Inside Higher Ed, which have both run significant pieces on the scandal.\nThe story that Serrano told them begins in December 2025, when a gunman attacked Brown’s campus and killed two people, including one who had recently introduced herself to Serrano.\nShaken by the experience, Serrano decided that his spring 2026 section of the quite difficult ECON 1170 would allow take-home exams for both the midterm and the final. Suddenly, the course received an influx of students. El País has the story:\nThe course… typically attracts few students, but very good ones. [Serrano] has never had more than 30 students enrolled at a time, and on some occasions he had only eight. This semester, probably because of the new evaluation system, 86 students signed up for the class. The results of the midterm exam, which was administered on March 5, were extraordinary, with an average score of 96 out of 100. Forty students scored a perfect 100.\nThis was indeed extraordinary, because as Serrano told Inside Higher Ed, “Historically the average grade in the midterm of this course has ranged between 65 and 80 [percent], and this exam was harder than the exams I wrote in the past, because… take-home is an opportunity to challenge the class a little bit more, given that you’re giving the students unlimited time.”",
-    "source": "ArsTechnica",
-    "category": "tech",
-    "lang": "en",
-    "topic": "Tech",
-    "published": "2026-07-08T21:42:44+00:00",
-    "crawled": "2026-07-08T23:13:08.212660+00:00",
-    "summarized": true,
-    "ai_summary": "• 布朗大學近期爆發AI作弊醜聞，顯示大量學生可能利用生成式AI在考試中作弊  \n• 普林斯頓大學的調查顯示，29.9%的學生承認在至少一項考試或作業中使用AI作弊  \n• 布朗大學經濟學教授羅伯托·塞拉諾因應2025年校園槍擊事件，決定在2026年春季的課程中允許帶回家考試  \n• 這門課程的報名人數從以往的30人增至86人，期中考試的平均分數達到96分，40名學生獲得滿分100分，顯著高於歷年平均分數65至80分的範圍",
-    "summaries": {
-      "zh-HK": "• 布朗大學近期爆發AI作弊醜聞，顯示大量學生可能利用生成式AI在考試中作弊  \n• 普林斯頓大學的調查顯示，29.9%的學生承認在至少一項考試或作業中使用AI作弊  \n• 布朗大學經濟學教授羅伯托·塞拉諾因應2025年校園槍擊事件，決定在2026年春季的課程中允許帶回家考試  \n• 這門課程的報名人數從以往的30人增至86人，期中考試的平均分數達到96分，40名學生獲得滿分100分，顯著高於歷年平均分數65至80分的範圍"
-    }
-  },
-  {
-    "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/",
-    "title": "Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot himself",
-    "summary": "More young girls sue X over Grok CSAM; X accused of shielding child predators.",
-    "full_text": "One of the most horrific cases of allegedly Grok-generated child sex images was shared in a proposed class action lawsuit that was expanded Tuesday. Now, young girls not only accuse X and xAI of building toxic AI “nudify” tools but also of shielding child predators by obstructing police investigations into Grok-generated child sex abuse materials (CSAM).\nIn March, a girl’s stepfather took his own life after cops discovered that he had used Grok to create 7,000 sexually explicit images using one photo taken when his stepdaughter was 11 years old, the amended complaint alleged.\nGrok allowed the man to generate extreme images depicting incest and rape without flagging any harmful behavior, the complaint said. Seemingly, xAI’s child safety system only intervened after the man input a prompt for “gang rape.” That request sent a CyberTip to the National Center for Missing and Exploited Children (NCMEC), which alerted law enforcement to the AI CSAM.\nYet the harm was not stopped then, either. Despite mandatory reporting requirements to share information like a user’s IP address when CSAM is flagged, xAI repeatedly refused to help cops or NCMEC identify the user, the complaint alleged. For weeks, xAI allegedly “obstructed this investigation at every turn” and made it harder for “law enforcement efforts to locate, identify, and apprehend the perpetrator.”\nEventually, the stepfather was arrested after cops obtained a warrant to seize his devices. That’s when “a forensic review revealed approximately 7,000 AI-generated images and videos” depicting his stepdaughter, which were allegedly produced using Grok. Without Grok providing users with easy access to “undressing” capabilities, his family doubts he ever would have generated the harmful images, which he allegedly trafficked online in trade for “CSAM produced by other child sex predators.”",
-    "source": "ArsTechnica",
-    "category": "tech",
-    "lang": "en",
-    "topic": "Regulation",
-    "published": "2026-07-08T19:56:37+00:00",
-    "crawled": "2026-07-08T23:13:08.258936+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://arstechnica.com/tech-policy/2026/07/new-york-can-restrict-sports-gambling-on-prediction-markets-us-judge-rules/",
-    "title": "Judge rejects Kalshi attempt to override New York state gambling laws",
-    "summary": "Kalshi tried to ignore gambling laws on its prediction market, NY governor says.",
-    "full_text": "Kalshi lost an attempt to override New York’s state gambling laws yesterday, with a federal judge rejecting the prediction market operator’s request to prevent enforcement of the rules.\nKalshi is appealing the decision to a higher court. This is one of numerous cases in which judges must decide whether state laws are preempted by federal regulation of prediction markets.\nNew York Governor Kathy Hochul and Attorney General Letitia James issued a joint statement on the ruling today. “New York’s gambling laws are designed to protect consumers,” they said. “Kalshi tried to ignore them. Yesterday, they lost in court. We will continue to hold all gambling platforms accountable to the law—and that includes prediction markets.”\nThe ruling against Kalshi was issued by US District Judge Analisa Torres in the Southern District of New York. Shortly after the ruling, Kalshi filed a notice stating that it is appealing the decision to the US Court of Appeals for the 2nd Circuit.\nKalshi is registered with the US Commodity Futures Trading Commission (CFTC) as a designated contract market (DCM). Torres found that this does not exempt Kalshi from state gambling laws.\n“Congress did not intend to preempt all state actions that may relate to DCMs,” Torres wrote. “Instead, the CEA [Commodity Exchange Act] leaves room for states to regulate tangential issues that may arise from trading swaps and other financial products on DCMs.”\nJudge: US inaction doesn’t block states\nWhile the CFTC has not exercised its own authority to restrict Kalshi’s sports-event contracts, Torres wrote that the federal agency’s inaction does not block New York gambling laws. New York laws regulating gaming “complement rather than conflict with federal law,” she wrote.\nThe CFTC has taken a more lenient approach to prediction markets than states and sued states to preempt laws that prohibit or regulate the markets. Kalshi and its rival Polymarket both have Donald Trump Jr. as an advisor, and a Trump Jr.-backed venture capital firm invested in Polymarket.",
-    "source": "ArsTechnica",
-    "category": "tech",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-08T19:14:02+00:00",
-    "crawled": "2026-07-08T23:13:08.303825+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week/",
-    "title": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
-    "summary": "Both vulnerabilities allow untrusted users to gain root privileges.",
-    "full_text": "A Linux vulnerability that allows untrusted virtual machines to gain root access to host machines is one of two high-severity flaws to surface this week in the open source operating system.\nThe vulnerability resides in KVM, which is, in essence, a virtual machine app included in the kernel of many Linux distributions. The vulnerability, tracked as CVE-2026-53359, allows guest virtual machines—such as those used in cloud platforms to isolate one user’s instance from the host OS and other user instances—to break out of that container.\nJanuscape: A threat to cloud platforms\nThe vulnerability affects KVM running on both AMD and Intel processors. It exploits bugs residing in the KVM guest-side, the portion of the VM that consists of only resources like the OS or drivers present in the guest VM, rather than resources present on the host machine. The threat went unnoticed in the Linux kernel for 16 years.\n“With guest-side actions alone, an attacker can compromise the host that runs their VM,” Hyunwoo Kim, the researcher who discovered the flaw, wrote. “For example, an attacker who has rented just a single instance on a public cloud could panic the host kernel to take down every other tenant VM on the same physical machine (DoS), or run code with root privilege on the host to take over the host and all the guests on it (RCE).”\nKim has named the vulnerability Januscape. The flaw is a use-after-free vulnerability—a form of memory corruption vulnerability that injects malicious code into recently freed regions of memory. The vulnerability resides in the shadow MMU emulation, a process that translates host memory addresses to hypervisor memory addresses and vice versa.\nExploits will trigger guest-side actions alone to corrupt the host kernel’s shadow page, a data structure in the host that assists in the address translation. Kim has released a proof-of-concept exploit that runs in the guest VM to trigger a crash on the host OS. He said an exploit that fully escapes the guest also exists but won’t be released until “the very distant future.”",
-    "source": "ArsTechnica",
-    "category": "tech",
-    "lang": "en",
-    "topic": "Tech",
-    "published": "2026-07-08T19:01:19+00:00",
-    "crawled": "2026-07-08T23:13:08.347101+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-08/bangladesh-prime-minister-met-labor-tycoon-amin-on-malaysia-trip",
-    "title": "Bangladesh Prime Minister Met Labor Tycoon Amin on Malaysia Trip",
-    "summary": "Bangladeshi Prime Minister Tarique Rahman met Aminul Islam, the businessman the South Asian nation tried to have extradited in 2024 as part of a probe into alleged trafficking of migrant workers, during a state visit to Malaysia in June, according to people familiar with the matter.",
-    "full_text": "",
-    "source": "Bloomberg",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-08T23:00:00+00:00",
-    "crawled": "2026-07-08T23:13:09.961047+00:00",
-    "summarized": true,
-    "ai_summary": "• 孟加拉國總理塔里克·拉赫曼於2024年6月在馬來西亞國事訪問期間會見了商人阿米努爾·伊斯蘭  \n• 阿米努爾·伊斯蘭是孟加拉國曾試圖引渡的對象，涉及涉嫌販賣移民工人的調查  \n• 此次會議引起關注，因為孟加拉國對其進行的調查仍在進行中  \n• 會議的具體內容和結果尚未公開，相關人士未透露更多細節",
-    "summaries": {
-      "zh-HK": "• 孟加拉國總理塔里克·拉赫曼於2024年6月在馬來西亞國事訪問期間會見了商人阿米努爾·伊斯蘭  \n• 阿米努爾·伊斯蘭是孟加拉國曾試圖引渡的對象，涉及涉嫌販賣移民工人的調查  \n• 此次會議引起關注，因為孟加拉國對其進行的調查仍在進行中  \n• 會議的具體內容和結果尚未公開，相關人士未透露更多細節"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-08/uk-police-probe-donations-to-2024-campaign-of-top-farage-ally",
-    "title": "UK Police Probe Donations to 2024 Campaign of Top Farage Ally",
-    "summary": "London police are investigating a donation of nearly £40,000 to the 2024 leadership campaign of a prominent Conservative Party politician who earlier this year defected to Nigel Farage’s Reform UK Party.",
-    "full_text": "",
-    "source": "Bloomberg",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-08T22:32:54+00:00",
-    "crawled": "2026-07-08T23:13:10.116980+00:00",
-    "summarized": true,
-    "ai_summary": "• 倫敦警方正在調查一筆近40,000英鎊的捐款，該捐款用於一位著名保守黨政治家的2024年領導競選  \n• 這位政治家在今年早些時候脫離保守黨，加入奈傑爾·法拉奇的改革英國黨  \n• 調查的具體原因尚未公開，警方目前正在收集相關資訊  \n• 此事件引發對政治捐款透明度的關注和討論",
-    "summaries": {
-      "zh-HK": "• 倫敦警方正在調查一筆近40,000英鎊的捐款，該捐款用於一位著名保守黨政治家的2024年領導競選  \n• 這位政治家在今年早些時候脫離保守黨，加入奈傑爾·法拉奇的改革英國黨  \n• 調查的具體原因尚未公開，警方目前正在收集相關資訊  \n• 此事件引發對政治捐款透明度的關注和討論"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-08/modi-lands-in-melbourne-to-discuss-energy-rally-indian-diaspora",
-    "title": "Modi Lands in Melbourne to Discuss Energy, Rally Indian Diaspora",
-    "summary": "Indian Prime Minister Narendra Modi is in Melbourne on Thursday for talks with Australian counterpart Anthony Albanese, with the two expected to sign agreements on defense and energy before attending a rally for the Indian diaspora.",
-    "full_text": "",
-    "source": "Bloomberg",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-08T22:19:49+00:00",
-    "crawled": "2026-07-08T23:13:10.256422+00:00",
-    "summarized": true,
-    "ai_summary": "• 印度總理莫迪於星期四抵達墨爾本，與澳洲總理安東尼·阿爾巴尼斯會談  \n• 兩位領導人預計將簽署有關國防和能源的協議  \n• 此行的重點還包括參加印度僑民的集會  \n• 此次會議旨在加強印澳雙邊關係及合作領域",
-    "summaries": {
-      "zh-HK": "• 印度總理莫迪於星期四抵達墨爾本，與澳洲總理安東尼·阿爾巴尼斯會談  \n• 兩位領導人預計將簽署有關國防和能源的協議  \n• 此行的重點還包括參加印度僑民的集會  \n• 此次會議旨在加強印澳雙邊關係及合作領域"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-08/democratic-infighting-puts-party-s-midterm-targets-at-risk",
-    "title": "Democratic Infighting Puts Party’s Midterm Targets at Risk",
-    "summary": "With President Donald Trump and Republicans on the defensive over the cost of groceries, gasoline, housing and healthcare, Democrats expected to spend the summer building momentum ahead of the midterm elections.",
-    "full_text": "",
-    "source": "Bloomberg",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-08T22:02:01+00:00",
-    "crawled": "2026-07-08T23:13:10.406716+00:00",
-    "summarized": true,
-    "ai_summary": "• 隨著特朗普及共和黨因食品、汽油、住房和醫療保健成本受到壓力，民主黨原本計劃在夏季增強選舉動力。  \n• 民主黨內部出現內鬨，可能影響其在中期選舉的目標。  \n• 中期選舉將於2022年舉行，民主黨希望在此期間提升支持率。  \n• 民主黨面臨的挑戰包括如何有效應對內部分歧及外部壓力。",
-    "summaries": {
-      "zh-HK": "• 隨著特朗普及共和黨因食品、汽油、住房和醫療保健成本受到壓力，民主黨原本計劃在夏季增強選舉動力。  \n• 民主黨內部出現內鬨，可能影響其在中期選舉的目標。  \n• 中期選舉將於2022年舉行，民主黨希望在此期間提升支持率。  \n• 民主黨面臨的挑戰包括如何有效應對內部分歧及外部壓力。"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-08/trump-to-seek-supreme-court-rehearing-on-birthright-citizenship",
-    "title": "Trump to Seek Supreme Court Rehearing on Birthright Citizenship",
-    "summary": "President Donald Trump said he would ask the Supreme Court to rehear a case over birthright citizenship, a long-shot bid to undo a ruling that went against his administration.",
-    "full_text": "",
-    "source": "Bloomberg",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-08T21:47:55+00:00",
-    "crawled": "2026-07-08T23:13:10.550503+00:00",
-    "summarized": true,
-    "ai_summary": "• 特朗普表示將向最高法院申請重新審理有關出生公民權的案件  \n• 此案件的裁決對特朗普政府不利  \n• 特朗普的申請旨在推翻該裁決  \n• 這一行動被視為一項艱難的嘗試",
-    "summaries": {
-      "zh-HK": "• 特朗普表示將向最高法院申請重新審理有關出生公民權的案件  \n• 此案件的裁決對特朗普政府不利  \n• 特朗普的申請旨在推翻該裁決  \n• 這一行動被視為一項艱難的嘗試"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-08/fcc-s-carr-telecom-stock-selloff-shows-competition-is-fierce",
-    "title": "Telecom Stock Selloff Shows Competition Is Fierce, FCC’s Carr Says",
-    "summary": "Federal Communications Commission Chairman Brendan Carr said a recent decline in the share prices of wireless carriers is a sign that competition for telecommunications services is heating up, driven in part by the Trump administration’s policies.",
-    "full_text": "",
-    "source": "Bloomberg",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Trading",
-    "published": "2026-07-08T21:26:26+00:00",
-    "crawled": "2026-07-08T23:13:10.688957+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://unchainedcrypto.com/kraken-pursues-a-full-banking-license-in-europe-with-lithuania-as-its-target-jurisdiction/",
-    "title": "Kraken Pursues a Full Banking License in Europe, With Lithuania as Its Target Jurisdiction",
-    "summary": "<p><img alt=\"\" class=\"attachment-full size-full wp-post-image\" height=\"941\" src=\"https://unchainedcrypto.com/wp-content/uploads/2026/07/kraken-monster.png\" style=\"margin: 10px auto; display: block;\" width=\"1672\" />A full license, targeted in Lithuania, would make Kraken the only crypto exchange to operate as a bank, following Revolut's playbook.</p>\n<p>The post <a href=\"https://unchainedcrypto.com/kraken-pursues-a-full-banking-license-in-europe-with-lithuania-as-its-target-jurisdiction/\">Kraken Pursues a Full Banking License in Europe, With Lithuania as Its Target Jurisdiction</a> appeared first on <a href=\"https://unchainedcrypto.com\">Unchained</a>.</p>",
-    "full_text": "Kraken is seeking a full banking license in Europe, focusing on Lithuania as the jurisdiction where it hopes to secure the designation, CoinDesk reported Tuesday, citing a person familiar with the plans. Success would make Kraken the only cryptocurrency exchange to hold a full banking license.\nThe exchange would tread the same regulatory path as fintech major Revolut, which obtained a specialized banking license from the Bank of Lithuania in 2018, according to the report. That license let Revolut offer full current accounts, consumer lending, and stock trading across the European Economic Area.\nThis story is an excerpt from the Unchained Daily newsletter.\nSubscribe here to get these updates in your email for free\nA banking license would let Kraken hold deposits and offer lending and payments directly, rather than routing those services through partner banks, deepening the blurring of lines between crypto exchanges and traditional financial institutions.\nThe European push is part of a broader licensing effort by Payward, Kraken’s parent. In March, Kraken’s banking arm won a Federal Reserve master account, granting direct access to the U.S. payment system. In May, Payward secured a virtual asset authorization in the United Arab Emirates. Speaking at Money 20/20 Europe, co-CEO Arjun Sethi said the plan for the next decade is to obtain licenses in each region, either by acquiring existing businesses or building from scratch.\nKraken, founded in 2011, filed confidentially for a U.S. IPO last November alongside an $800 million raise that valued it at $20 billion, though it reportedly paused those plans in March as market conditions weakened.\nRelated Listen: Why Fintechs May Finally Beat Banks at Their Own Game: DEX in the City",
-    "source": "Unchained",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Crypto",
-    "published": "2026-07-08T10:07:46+00:00",
-    "crawled": "2026-07-08T23:13:11.553342+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://unchainedcrypto.com/vanguard-is-hiring-for-its-first-head-of-digital-assets-signaling-a-shift-from-its-crypto-skeptic-past/",
-    "title": "Vanguard is Hiring for Its First Head of Digital Assets, Signaling a Shift From Its Crypto-Skeptic Past",
-    "summary": "<p><img alt=\"\" class=\"attachment-full size-full wp-post-image\" height=\"941\" src=\"https://unchainedcrypto.com/wp-content/uploads/2026/07/vanguard-salim.png\" style=\"margin: 10px auto; display: block;\" width=\"1672\" />The roughly $10 trillion asset manager, once one of crypto's loudest institutional skeptics, is building a digital assets team for the first time.</p>\n<p>The post <a href=\"https://unchainedcrypto.com/vanguard-is-hiring-for-its-first-head-of-digital-assets-signaling-a-shift-from-its-crypto-skeptic-past/\">Vanguard is Hiring for Its First Head of Digital Assets, Signaling a Shift From Its Crypto-Skeptic Past</a> appeared first on <a href=\"https://unchainedcrypto.com\">Unchained</a>.</p>",
-    "full_text": "Vanguard, the roughly $10 trillion asset manager that spent years as one of crypto’s most prominent institutional skeptics, has opened a search for its first-ever head of digital assets. The role, posted Monday within Vanguard’s Personal Wealth division, signals a broader reassessment of a sector the firm long avoided.\nAccording to the job listing, the executive will lead Vanguard’s digital assets strategy, roadmap, and enterprise execution, and serve as its senior subject matter expert on tokenization, stablecoins, custody models, and blockchain-based settlement. The hire would also represent Vanguard in discussions with regulators and industry groups and help shape the firm’s long-term posture.\nThis story is an excerpt from the Unchained Daily newsletter.\nSubscribe here to get these updates in your email for free\nThe search offers an additional indication that Vanguard is softening its stance on crypto. It comes after the company late last year started allowing brokerage clients to trade crypto ETFs. It initially blocked spot Bitcoin ETFs from its brokerage platform when they launched in January 2024, as its executives repeatedly characterized crypto as inconsistent with a long-term investment philosophy.\nWhile Vanguard has stayed on the sidelines, rivals have dived in. BlackRock, Fidelity, and Franklin Templeton all rolled out spot Bitcoin ETFs after the SEC approved them in 2024.\nThe recent shifts follow the appointment of Salim Ramji as Vanguard CEO in July 2024. Before joining Vanguard, Ramji ran BlackRock’s iShares unit, where he helped launch the iShares Bitcoin Trust, the largest spot Bitcoin ETF.\nRelated Listen: Why You No Longer Have to Choose Between TradFi and Crypto",
-    "source": "Unchained",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Crypto",
-    "published": "2026-07-08T10:07:11+00:00",
-    "crawled": "2026-07-08T23:13:11.613898+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://unchainedcrypto.com/major-sec-crypto-rule-coming-this-month-updated-agenda-suggests/",
-    "title": "Major SEC Crypto Rule Coming This Month, Updated Agenda Suggests",
-    "summary": "<p><img alt=\"\" class=\"attachment-full size-full wp-post-image\" height=\"941\" src=\"https://unchainedcrypto.com/wp-content/uploads/2026/07/paul-atkins.png\" style=\"margin: 10px auto; display: block;\" width=\"1672\" />The agency's Regulation Crypto proposal would create fundraising exemptions and safe harbors for token issuers, marking its first major crypto rulemaking under Atkins.</p>\n<p>The post <a href=\"https://unchainedcrypto.com/major-sec-crypto-rule-coming-this-month-updated-agenda-suggests/\">Major SEC Crypto Rule Coming This Month, Updated Agenda Suggests</a> appeared first on <a href=\"https://unchainedcrypto.com\">Unchained</a>.</p>",
-    "full_text": "The U.S. Securities and Exchange Commission is preparing to propose a major crypto-specific rule as soon as this month, a move that would exempt a range of digital asset activities from securities requirements. An updated regulatory agenda, flagged Tuesday, lists the proposal among the agency’s near-term priorities.\nThe framework would establish temporary registration exemptions for developers issuing crypto investment contracts, permit a capped amount of fundraising, and set up a safe harbor for token issuers that step back from active management, according to details shared by SEC Chair Paul Atkins in March. Startups could raise roughly $5 million over their first four years, entrepreneurs could raise up to $75 million annually through certain token sales, and some tokens would escape securities classification once their creators cease essential managerial efforts, Atkins hinted at the time.\nThis story is an excerpt from the Unchained Daily newsletter.\nSubscribe here to get these updates in your email for free\nFor founders who have spent years navigating enforcement-by-ambiguity, a formal fundraising framework would mark the clearest regulatory path yet. It arrives as Congress’s CLARITY Act, a sweeping bill on crypto market structure, faces a decisive few weeks in the Senate. Stakeholders broadly agree that if the measure does not pass before the August recess, it is unlikely to become law this year given the November midterms, leaving the SEC’s rule as potentially the industry’s most concrete win.\nThe SEC’s proposed rule would carry more weight than the staff statements and guidance the SEC has issued so far, which future leaders could reverse more easily. The rule draws on former Commissioner Hester Peirce’s long-standing token safe harbor concept and builds on the token taxonomy the SEC and CFTC jointly issued in March, which defined which digital assets count as securities. The agenda also lists coming rules on crypto custody and market structure.\nAtkins has signaled the imminent release of the safe harbor rule more than once already this year. He initially signaled a rollout in January, then pushed it to the spring.\nThe proposal still sits at the White House Office of Information and Regulatory Affairs, the final review stage before publication. Once published, the rule enters a public comment period before any final version takes effect.\nRelated Listen: Why the SEC Paused on Its Innovation Exemption for Tokenization: Bits + Bips",
-    "source": "Unchained",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Regulation",
-    "published": "2026-07-08T10:06:35+00:00",
-    "crawled": "2026-07-08T23:13:11.670851+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.blocktempo.com/apple-broadcom-30-billion-deal-us-chip-manufacturing/",
-    "title": "蘋果砸 300 億美元重押美國製造！攜手博通 Broadcom 擴建廠房，狂產 150 億顆先進晶片",
-    "summary": "<p>美國晶片本土化再下重手！據蘋果（Apple）官方公告指出，蘋果於今（8）日宣布與 Broadcom 簽訂一項價 [&#8230;]</p>\n〈<a href=\"https://www.blocktempo.com/apple-broadcom-30-billion-deal-us-chip-manufacturing/\">蘋果砸 300 億美元重押美國製造！攜手博通 Broadcom 擴建廠房，狂產 150 億顆先進晶片</a>〉這篇文章最早發佈於動區BlockTempo《<a href=\"https://www.blocktempo.com\">動區動趨-最具影響力的區塊鏈新聞媒體</a>》。",
-    "full_text": "美國晶片本土化再下重手！據蘋果（Apple）官方公告指出，蘋果於今（8）日宣布與 Broadcom 簽訂一項價值超過 300 億美元的多年期協議，預計將在美國本土生產高達 150 億顆客製化晶片。這不僅是蘋果「美國製造計畫（AMP）」迄今最大的投資承諾，Broadcom 也將為此擴建科羅拉多廠房，大幅推動美國半導體供應鏈的自主性。由動區整理報導。\n（前情提要：三星營業利益暴增 18 倍！贏過輝達、蘋果，財報公布後股價卻重挫逾 6%）\n（背景補充：蘋果20萬份機密外洩》包括 iPhone 18 Pro 未發表零件圖、機密供應商清單..）\n在全球地緣政治持續緊繃、供應鏈「去風險化」成為科技巨頭首要任務的當下，蘋果（Apple）再度以驚人的資本實力展現了對美國本土製造的決心。\n根據蘋果於 2026 年 7 月 8 日發布的最新官方新聞稿，該公司已與全球通訊晶片巨頭 Broadcom 達成一項全新的多年期合作協議，總金額預計將超過 300 億美元。這項協議的核心目標，是為多款蘋果產品設計並生產客製化矽元件與先進的無線連接技術。\n300 億美元天價合約，深化本土供應鏈\n這筆巨額投資預期將創造出超過 150 億顆「美國製造」的晶片，並為美國本土提供數百個高科技就業機會。蘋果執行長庫克（Tim Cook）對於此次結盟給予了高度評價，他指出：「這將加速我們對美國製造的承諾。」他強調，投資並深化與美國本土供應商的合作，對於提供頂尖的產品效能至關重要。\n蘋果與 Broadcom 合作協議核心數據\nBroadcom 斥資擴建科羅拉多廠房\n為了消化這筆龐大的長期訂單，Broadcom 承諾將投入 15 億美元的資本支出，用於擴建並現代化其位於科羅拉多州 Fort Collins 的製造設施。據了解，該廠房將專注於生產先進的射頻（RF）元件與 FBAR 濾波器等關鍵零組件。Broadcom 總裁 Hock Tan 亦對此充滿期待，並表示：「很高興能擴大美國製造足跡。」\n從宏觀經濟的視角切入，這次與 Broadcom 的結盟，是蘋果去年推出的「美國製造計畫（American Manufacturing Program, AMP）」中最具標誌性的一步。這項協議不僅鞏固了蘋果自身的供應鏈韌性，更呼應了其早前宣布將在四年內向美國經濟注資 6,000 億美元的宏大願景。在美國政府大力推動半導體製造回流的政策環境下，科技巨頭間的深度綁定，無疑為美國本土的工業復興打下了一劑強心針。\n📍相關報導📍\n蘋果傳遊說川普政府放行「購買中國記憶體」！分析師：不靠長鑫存儲 DRAM 難敵華為\nGoogle 時隔 6 年推出全新智慧喇叭「Google Home Speaker」！全面整合 Gemini，售價 100 鎂迎戰蘋果",
-    "source": "動區動趨 (BlockTempo)",
-    "category": "crypto",
-    "lang": "zh",
-    "topic": "Crypto",
-    "published": "2026-07-08T15:05:49+00:00",
-    "crawled": "2026-07-08T23:13:18.625120+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
     "url": "https://blockcast.it/2026/07/08/tethers-former-cio-seeks-buyers-for-part-of-his-stake-in-the-firm/",
     "title": "彭博：Tether 前投資長擬出售部分持股，尋求買家接手 1.26% 股權",
     "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"667\" src=\"https://blockcast.it/wp-content/uploads/2024/03/Tether.jpeg\" style=\"display: block; margin: auto; margin-bottom: 5px;\" width=\"1000\" /><p>全球最大穩定幣 USDT 發行商 Tether 再傳股權異動。根據《彭博社》報導，今年稍早卸下 Tether 投資長（CIO）職務的 Richard Heathcote，準備拋售部分 Tether 持股，目前正積極尋求買家。</p>\n<p>〈<a href=\"https://blockcast.it/2026/07/08/tethers-former-cio-seeks-buyers-for-part-of-his-stake-in-the-firm/\">彭博：Tether 前投資長擬出售部分持股，尋求買家接手 1.26% 股權</a>〉這篇文章最早發佈於《<a href=\"https://blockcast.it\">區塊客</a>》。</p>",
@@ -30012,8 +29555,11 @@
     "topic": "Politics",
     "published": "2026-07-10T20:35:44+00:00",
     "crawled": "2026-07-10T22:09:37.189304+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 參議院民主黨人要求對特朗普的加密貨幣持有進行聽證，因為新披露顯示其去年從加密相關收入中獲利超過12億美元。  \n• 參議員們指出可能存在利益衝突、外國影響及特朗普在塑造加密政策中的角色。  \n• 此要求在特朗普政府推動《清晰法案》時提出，該法案旨在正式合法化美國的大部分加密活動，但因針對特朗普的道德條款而停滯不前。  \n• 特朗普的財務披露報告顯示，他的加密業務包括超過6.35億美元的特朗普迷因幣和超過5.88億美元的World Liberty Financial代幣銷售。",
+    "summaries": {
+      "zh-HK": "• 參議院民主黨人要求對特朗普的加密貨幣持有進行聽證，因為新披露顯示其去年從加密相關收入中獲利超過12億美元。  \n• 參議員們指出可能存在利益衝突、外國影響及特朗普在塑造加密政策中的角色。  \n• 此要求在特朗普政府推動《清晰法案》時提出，該法案旨在正式合法化美國的大部分加密活動，但因針對特朗普的道德條款而停滯不前。  \n• 特朗普的財務披露報告顯示，他的加密業務包括超過6.35億美元的特朗普迷因幣和超過5.88億美元的World Liberty Financial代幣銷售。"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-10/sk-hynix-debut-is-a-bet-that-ai-breaks-boom-and-bust-chip-cycle",
@@ -30077,8 +29623,11 @@
     "topic": "Finance",
     "published": "2026-07-10T21:27:05+00:00",
     "crawled": "2026-07-10T22:09:39.608933+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Apnimed Inc. 提交了美國首次公開募股（IPO）申請，以資助其治療阻塞性睡眠呼吸暫停症的口服藥物的商業化進程  \n• 該藥物的開發得到了製藥公司塩野義（Shionogi）的支持  \n• Apnimed 的IPO申請旨在籌集資金以推動藥物的上市  \n• 目前尚未確定IPO的具體時間或籌集金額",
+    "summaries": {
+      "zh-HK": "• Apnimed Inc. 提交了美國首次公開募股（IPO）申請，以資助其治療阻塞性睡眠呼吸暫停症的口服藥物的商業化進程  \n• 該藥物的開發得到了製藥公司塩野義（Shionogi）的支持  \n• Apnimed 的IPO申請旨在籌集資金以推動藥物的上市  \n• 目前尚未確定IPO的具體時間或籌集金額"
+    }
   },
   {
     "url": "https://www.bloomberg.com/jp/news/newsletters/2026-07-10/THZ901N3N09800",
@@ -30122,8 +29671,11 @@
     "topic": "Regulation",
     "published": "2026-07-10T20:31:23+00:00",
     "crawled": "2026-07-10T22:09:44.480550+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 蘋果公司起訴OpenAI，指控其竊取機密資訊  \n• 訴訟文件中提到蘋果的技術和商業機密遭到侵犯  \n• 訴訟於近期在美國加州提交  \n• 蘋果要求法院對OpenAI的行為進行調查並尋求賠償",
+    "summaries": {
+      "zh-HK": "• 蘋果公司起訴OpenAI，指控其竊取機密資訊  \n• 訴訟文件中提到蘋果的技術和商業機密遭到侵犯  \n• 訴訟於近期在美國加州提交  \n• 蘋果要求法院對OpenAI的行為進行調查並尋求賠償"
+    }
   },
   {
     "url": "https://techcrunch.com/2026/07/10/blueskys-interim-ceo-toni-schneider-drops-the-interim/",
@@ -30229,8 +29781,11 @@
     "topic": "AI",
     "published": "2026-07-10T20:44:05+00:00",
     "crawled": "2026-07-10T22:09:46.973811+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 蘋果公司於週五對OpenAI及其硬件主管唐坦提起訴訟，指控其竊取蘋果的商業機密，包括未發布的零件和原型、機密設計及隱秘項目的文件。  \n• 訴訟指控唐坦及其同事鼓勵離開蘋果的員工攜帶專有技術，並協助他們規避蘋果的數據安全協議。  \n• 蘋果在訴訟中表示，OpenAI的硬件業務建立在不穩固的基礎上，並指責其在壓力下採取非法手段。  \n• 蘋果與OpenAI自2024年以來一直是合作夥伴，但近年來關係惡化，蘋果開始更多依賴Google的Gemini AI技術。",
+    "summaries": {
+      "zh-HK": "• 蘋果公司於週五對OpenAI及其硬件主管唐坦提起訴訟，指控其竊取蘋果的商業機密，包括未發布的零件和原型、機密設計及隱秘項目的文件。  \n• 訴訟指控唐坦及其同事鼓勵離開蘋果的員工攜帶專有技術，並協助他們規避蘋果的數據安全協議。  \n• 蘋果在訴訟中表示，OpenAI的硬件業務建立在不穩固的基礎上，並指責其在壓力下採取非法手段。  \n• 蘋果與OpenAI自2024年以來一直是合作夥伴，但近年來關係惡化，蘋果開始更多依賴Google的Gemini AI技術。"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-10/us-demands-iran-declare-strait-of-hormuz-open-to-all-shipping",
@@ -30294,8 +29849,11 @@
     "topic": "Finance",
     "published": "2026-07-10T20:45:35+00:00",
     "crawled": "2026-07-10T22:09:48.456136+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 北約峰會於本周舉行，成員國討論安全與防務議題  \n• 世界盃爭議成為焦點，涉及比賽結果及裁判決定  \n• 各國領導人在峰會上強調團結與合作的重要性  \n• 體育界對於世界盃的反應不一，部分球迷表達不滿",
+    "summaries": {
+      "zh-HK": "• 北約峰會於本周舉行，成員國討論安全與防務議題  \n• 世界盃爭議成為焦點，涉及比賽結果及裁判決定  \n• 各國領導人在峰會上強調團結與合作的重要性  \n• 體育界對於世界盃的反應不一，部分球迷表達不滿"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/czrxdnmlk5no?at_medium=RSS&at_campaign=rss",
@@ -30342,8 +29900,11 @@
     "topic": "World",
     "published": "2026-07-10T20:35:05+00:00",
     "crawled": "2026-07-10T22:09:56.046075+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Pitbull在倫敦BST海德公園音樂會上創下吉尼斯世界紀錄，成為最多人佩戴禿頭帽的聚會，參與者達22,141人。  \n• Pitbull表示這是他的「祝福」和「榮譽」，感謝粉絲的支持。  \n• 此次活動的靈感來自BBC電台主持Greg James和內容創作者Jack Remmington，去年提出在BST挑戰紀錄的想法。  \n• 音樂會還有Kesha、Tinie Tempah和Lil Jon等表演者，Tempah表示音樂能喚起人們對過去的懷念。",
+    "summaries": {
+      "zh-HK": "• Pitbull在倫敦BST海德公園音樂會上創下吉尼斯世界紀錄，成為最多人佩戴禿頭帽的聚會，參與者達22,141人。  \n• Pitbull表示這是他的「祝福」和「榮譽」，感謝粉絲的支持。  \n• 此次活動的靈感來自BBC電台主持Greg James和內容創作者Jack Remmington，去年提出在BST挑戰紀錄的想法。  \n• 音樂會還有Kesha、Tinie Tempah和Lil Jon等表演者，Tempah表示音樂能喚起人們對過去的懷念。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/sports/2026/7/10/spain-leave-it-late-to-book-semifinal-date-with-france?traffic_source=rss",
@@ -30669,8 +30230,11 @@
     "topic": "Ai",
     "published": "2026-07-10T20:43:49+00:00",
     "crawled": "2026-07-10T22:10:27.792435+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國國防部正在利用人工智能技術提升戰場情報的決策速度  \n• 此技術旨在加快軍事行動的反應時間，增強部隊的效率  \n• 國防部表示，AI的應用將改善信息分析和指揮控制流程  \n• 相關計劃已在多個軍事演習中進行測試，並獲得初步成功",
+    "summaries": {
+      "zh-HK": "• 美國國防部正在利用人工智能技術提升戰場情報的決策速度  \n• 此技術旨在加快軍事行動的反應時間，增強部隊的效率  \n• 國防部表示，AI的應用將改善信息分析和指揮控制流程  \n• 相關計劃已在多個軍事演習中進行測試，並獲得初步成功"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYU9jZzhZdXk2OE43ZHktQ1hzZFQ1eHZCc0FYc0FNNlNZMHpibHFrZ1o5bHFTYW9QbTVBcERkVzNUSDhBZHhBcHRvMjRNbjVoZUFaWGhNMFprREI1MGc0ZWthdFQ4X0hQdmVhcTlzb3lKM3FYSmg0VmZpemNaMWI2QzFsWmFaeTVUcEsxSTd0TWpjN2pXaFplNjlTZktlcFJVUlpEMTBEUFotTElITUNKREJkbFpGRmZlMExMUjRScFMtU2puSDNZX1l2WUlEY01ERHZfNnBmZl94aE0?oc=5",
@@ -30761,5 +30325,474 @@
     "crawled": "2026-07-10T22:10:31.553536+00:00",
     "summarized": false,
     "ai_summary": ""
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-10/mgm-resorts-engaged-in-deal-talks-with-diller-wsj-says",
+    "title": "MGM Resorts Engaged in Deal Talks With Diller, WSJ Says",
+    "summary": "MGM Resorts International is engaged in deal talks with Barry Diller’s People Inc. after the entertainment mogul offered to acquire the part of the casino company he doesn’t already own, the Wall Street Journal reported.",
+    "full_text": "",
+    "source": "Bloomberg Crypto",
+    "category": "finance",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-10T23:02:50+00:00",
+    "crawled": "2026-07-10T23:34:28.536888+00:00",
+    "summarized": true,
+    "ai_summary": "• MGM度假村國際公司正與巴里·迪勒的People Inc.進行交易談判\n• 迪勒提出收購他尚未擁有的賭場公司部分股份\n• 根據《華爾街日報》的報導，談判正在進行中",
+    "summaries": {
+      "zh-HK": "• MGM度假村國際公司正與巴里·迪勒的People Inc.進行交易談判\n• 迪勒提出收購他尚未擁有的賭場公司部分股份\n• 根據《華爾街日報》的報導，談判正在進行中"
+    }
+  },
+  {
+    "url": "https://www.ft.com/content/8f33a9b2-bf8a-4c11-8a94-5d86a93b29ba",
+    "title": "US relaxes export controls on advanced chips and drones for UAE",
+    "summary": "Gulf state will receive access to sophisticated American technology",
+    "full_text": "US relaxes export controls on advanced chips and drones for UAE\nSubscribe to unlock this article\nTry unlimited access\nOnly $1 for 4 weeksThen $75 per month. Complete digital access to quality FT journalism on any device. Cancel anytime during your trial.\nExplore more offers.\nStandard Digital\n$45 per month\nEssential digital access to quality FT journalism on any device. Pay a year upfront and save 20%.\nPremium Digital\nComplete coverage\n$75 per month\nComplete digital access to quality FT journalism with expert analysis from industry leaders. Pay a year upfront and save 20%.\nPremium & FT Weekend Print\n$79 per month\nFT Weekend newspaper delivered Saturday plus complete digital access.\nCheck whether you already have access via your university or organisation.\nTerms & Conditions apply\nExplore our full range of subscriptions.\nFor individuals\nDiscover all the plans currently available in your country\nFor multiple readers\nDigital access for organisations. Includes exclusive features and content.\nWhy the FT?\nSee why over a million readers pay to read the Financial Times.",
+    "source": "FT Tech",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Tech",
+    "published": "2026-07-10T21:25:08+00:00",
+    "crawled": "2026-07-10T23:34:32.949056+00:00",
+    "summarized": true,
+    "ai_summary": "• 美國放寬對阿聯酋的先進芯片和無人機的出口管制 \n• 此舉旨在加強與阿聯酋的經濟和安全合作 \n• 政府官員表示，這將促進雙方在科技領域的合作 \n• 此政策變更在近期生效，具體細節尚未公開",
+    "summaries": {
+      "zh-HK": "• 美國放寬對阿聯酋的先進芯片和無人機的出口管制 \n• 此舉旨在加強與阿聯酋的經濟和安全合作 \n• 政府官員表示，這將促進雙方在科技領域的合作 \n• 此政策變更在近期生效，具體細節尚未公開"
+    }
+  },
+  {
+    "url": "https://arstechnica.com/science/2026/07/quantum-error-correction-can-constantly-recalibrate-a-processor/",
+    "title": "Quantum error correction can constantly recalibrate a processor",
+    "summary": "Reinforcement learning uses error information to adjust control algorithms.",
+    "full_text": "There are some obvious big picture issues that stand between us and useful quantum computing. Issues like whether we can make enough high-quality hardware qubits to connect into the error-corrected logical qubits we need, and how we generate the states needed to perform universal computation on those logical qubits. But there are also many less prominent challenges that will need to be solved before we can perform calculations.\nOne of those challenges, which only affects some types of hardware, is calibration. For devices we manufacture, like superconducting qubits, there are always subtle variations among individual qubits. (This is not true when we use something like an atom to hold the qubit, but the lasers that control them can drift.) As a result, this hardware is put through a process called calibration, where we test different frequencies and amplitudes of the microwave pulses that control them to find the combination that produces the lowest error rates, and then save those settings for use in calculations.\nHowever, you can’t perform the typical calibration process while e you’re doing calculations, which means drift becomes an issue for long and complicated algorithms. Google, though, has figured out that it’s possible to do calibration using the same data that’s used for error correction.\nReinforcement learning\nThe hardware that Google and a number of other companies rely on are transmons. They consist of a loop of superconducting wire connected to a resonator, and they’re controlled by pulses of microwave photons. Those pulses are controlled by hardware that is kept outside of the refrigeration, including classical computers and the microwave sources they control. This hardware is used to test different combinations of wavelengths and amplitudes during calibration.",
+    "source": "ArsTechnica",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Tech",
+    "published": "2026-07-10T23:02:30+00:00",
+    "crawled": "2026-07-10T23:34:34.361416+00:00",
+    "summarized": true,
+    "ai_summary": "• 谷歌發現可以利用錯誤修正所需的數據進行量子處理器的校準，解決長期計算中的漂移問題  \n• 量子計算面臨的挑戰包括高品質硬體量子位的製造及其狀態生成  \n• 超導量子位在校準過程中需測試不同的微波脈衝頻率和幅度，以降低錯誤率  \n• 谷歌及其他公司使用的硬體為超導環量子位，通過微波光子脈衝進行控制，並依賴外部的經典計算機進行校準測試",
+    "summaries": {
+      "zh-HK": "• 谷歌發現可以利用錯誤修正所需的數據進行量子處理器的校準，解決長期計算中的漂移問題  \n• 量子計算面臨的挑戰包括高品質硬體量子位的製造及其狀態生成  \n• 超導量子位在校準過程中需測試不同的微波脈衝頻率和幅度，以降低錯誤率  \n• 谷歌及其他公司使用的硬體為超導環量子位，通過微波光子脈衝進行控制，並依賴外部的經典計算機進行校準測試"
+    }
+  },
+  {
+    "url": "https://arstechnica.com/gadgets/2026/07/on-americas-250th-more-cities-used-drone-surveillance-to-spot-illegal-fireworks/",
+    "title": "Increased drone surveillance of illegal July 4th fireworks led to $100K fine",
+    "summary": "More police and firefighters use drones to catch and deter illegal fireworks.",
+    "full_text": "More cities and towns deployed drones to spot illegal fireworks during the Fourth of July celebrations commemorating America’s 250th anniversary—leading to a $100,000 fine in one instance and coming as part of a broader national trend of first responders turning to drone surveillance.\nPolice and fire departments have described using both increased drone surveillance and steep fines to deter people from shooting off illegal fireworks, with many departments publicizing their drone videos on social media and warning that their drones will be watching in the future. Incidents involving illegal fireworks have led to costly fires, injuries, and even multiple deaths each year, along with creating local air and noise pollution for residential neighborhoods.\nThis year, the $100,000 fine for illegal fireworks came from the Sacramento Fire Department in Northern California deploying its own drones for the first time on the Fourth of July, according to CBS News Sacramento. Sacramento Fire Captain Justin Sylvia described the fire department’s drones as being capable of recording scenes in high-resolution video to help investigators identify the house or closest location using Google Maps.\nSuch drone capabilities allowed the fire department to count the fireworks being fired from a gathering near a home in the Del Paso Heights neighborhood of Sacramento, according to the TV news station KCRA 3. The drone also showed a U-Haul trailer containing fireworks catching fire at one point, although the people at the gathering managed to put it out.\nThe resulting $100,000 fine came from counting the number of fireworks and possibly other factors. Sacramento County assigns fines for illegal fireworks starting at $1,000 per device and as high as $10,000 per device used near sensitive areas such as schools or parks. But felony criminal charges punishable by imprisonment are also possible if illegal fireworks cause a fire that leads to property damage or bodily injury.",
+    "source": "ArsTechnica",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Regulation",
+    "published": "2026-07-10T22:37:22+00:00",
+    "crawled": "2026-07-10T23:34:34.408154+00:00",
+    "summarized": true,
+    "ai_summary": "• 在美國獨立日慶祝活動中，越來越多城市和城鎮使用無人機監控非法煙火，導致一宗罰款達10萬美元的事件發生。  \n• 薩克拉門托消防局首次在獨立日部署無人機，並利用高解析度錄影協助調查。  \n• 無人機能夠記錄煙火發射的地點，並在一個聚會中拍攝到一輛裝有煙火的U-Haul拖車起火的情況。  \n• 薩克拉門托縣對非法煙火的罰款從每個裝置1000美元起，敏感區域的罰款可高達1萬美元，若造成財產損失或人身傷害，還可能面臨重罪指控。",
+    "summaries": {
+      "zh-HK": "• 在美國獨立日慶祝活動中，越來越多城市和城鎮使用無人機監控非法煙火，導致一宗罰款達10萬美元的事件發生。  \n• 薩克拉門托消防局首次在獨立日部署無人機，並利用高解析度錄影協助調查。  \n• 無人機能夠記錄煙火發射的地點，並在一個聚會中拍攝到一輛裝有煙火的U-Haul拖車起火的情況。  \n• 薩克拉門托縣對非法煙火的罰款從每個裝置1000美元起，敏感區域的罰款可高達1萬美元，若造成財產損失或人身傷害，還可能面臨重罪指控。"
+    }
+  },
+  {
+    "url": "https://www.wired.com/story/microsoft-25-percent-jump-in-carbon-emissions/",
+    "title": "Microsoft Reports a Massive 25 Percent Jump in Emissions",
+    "summary": "Data centers are driving up the company’s use of electricity—and carbon pollution.",
+    "full_text": "Microsoft’s greenhouse gas pollution increased by roughly 25 percent last year, the company says in its new sustainability report released Thursday.\nThe report follows similar ones released by Google and Amazon last week. Together, they show a troubling trend of rising tech company emissions, driven by the global race to build out power-hungry data centers.\nIn a blog post announcing the report, Microsoft vice chair and president Brad Smith and chief sustainability officer Melanie Nakagawa say that the emissions increase is driven “primarily by the expansion of our datacenter infrastructure.”\nA significant portion of that increase, they write, was tied to emissions from energy the company purchased or acquired to run its operations. Known as Scope 2 emissions, that greenhouse gas pollution accounted for 13 percent of Microsoft’s total.\nData centers, which use large amounts of energy running artificial intelligence chips, have pushed many large tech companies’ net-zero goals increasingly out of reach over the past few years.\nAmazon disclosed a 16 percent increase in its CO2 emissions in its recent sustainability report. Google said in its new sustainability report that annual greenhouse gas emissions rose 18 percent last year compared to 2024, the biggest single-year increase it’s recorded. The company has aggressively invested in renewable energy, but it’s also begun adding fossil fuel power for some of its data centers.\nMicrosoft highlighted in its sustainability report that it had matched 100 percent of its electricity consumption with carbon-free sources. But the data center build-out is set to accelerate—and some of Microsoft’s recent investments could drive its emissions higher. Notably, the new report covers the 2025 fiscal year, which ended last June, and has made a number of deals since then involving gas-powered data centers.\nLast month, the company officially announced a partnership with Chevron, which is building a power plant to supply a future data center for the company in West Texas. Permits show that that power plant could emit more than 11.5 million tons of CO2 equivalent annually, an amount greater than the entire state of Rhode Island. The company has also leased buildings on the Stargate campus in Abilene, Texas, which will be powered by an onsite power plant that could emit more than 7.8 million tons of CO2 equivalent each year. Microsoft has also signed a nonbinding letter of intent for compute at a West Virginia data center, which would be powered by off-grid gas that could emit more than 11 million tons of greenhouse gases.\n“Microsoft’s strategy includes exploring a variety of options for mitigating the emissions from its electricity consumption, consistent with our sustainability ambitions,” Nakagawa says in a statement to WIRED.\nMicrosoft’s approach to offsetting some of its emissions via credits and other investments is also changing. The company says it stopped purchasing unbundled renewable energy certificates, a move that contributed in part to the rise in Scope 2 emissions. Using these types of certificates have been criticized in recent years as greenwashing because they don’t necessarily add more clean power to the grid. Unbundled RECs are essentially a “paper transaction that is physically disconnected from real-world consequences,” says Danny Cullenward, a researcher at the University of Pennsylvania. (Cullenward is also a visiting faculty member at Google but notes he was not speaking on behalf of the company.)\n“I think it's highly commendable that [Microsoft] is moving away from unbundled RECs and prioritizing investments in new clean electricity, where power purchase agreements and other long-term offtake agreements can and do cause new clean electricity to come online,” he adds.\nDespite the rise in emissions and its continued investments in AI, Microsoft still says that it plans to become “carbon negative” by 2030. Smith and Nakagawa write that the global race for AI is “increasing demand for … energy, water, land, and materials.” They say that the company “has a responsibility to help ensure that technology strengthens, rather than strains, the systems and communities on which it depends.”",
+    "source": "Wired",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Tech",
+    "published": "2026-07-10T23:16:56+00:00",
+    "crawled": "2026-07-10T23:34:35.230843+00:00",
+    "summarized": true,
+    "ai_summary": "• 微軟在其最新的可持續性報告中指出，去年其溫室氣體排放量增加約25%。  \n• 排放量的增加主要由於數據中心基礎設施的擴張，這些數據中心消耗大量能源。  \n• 微軟報告中提到，與運營相關的能源購買所產生的Scope 2排放占其總排放的13%。  \n• 微軟最近與雪佛龍達成合作，計劃在德克薩斯州建設一座發電廠，該廠可能每年排放超過1150萬噸二氧化碳當量。",
+    "summaries": {
+      "zh-HK": "• 微軟在其最新的可持續性報告中指出，去年其溫室氣體排放量增加約25%。  \n• 排放量的增加主要由於數據中心基礎設施的擴張，這些數據中心消耗大量能源。  \n• 微軟報告中提到，與運營相關的能源購買所產生的Scope 2排放占其總排放的13%。  \n• 微軟最近與雪佛龍達成合作，計劃在德克薩斯州建設一座發電廠，該廠可能每年排放超過1150萬噸二氧化碳當量。"
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-10/us-canada-strike-deal-to-open-4-5-billion-gordie-howe-bridge",
+    "title": "US, Canada Agree to Open Detroit-Windsor Bridge on July 27",
+    "summary": "The US and Canada agreed to open the delayed Gordie Howe International Bridge connecting Detroit with the city of Windsor, Ontario, on July 27, the Canadian government announced late Friday.",
+    "full_text": "",
+    "source": "Bloomberg",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Finance",
+    "published": "2026-07-10T22:24:41+00:00",
+    "crawled": "2026-07-10T23:34:35.987716+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cly8eqyj8e2o?at_medium=RSS&at_campaign=rss",
+    "title": "Meet the crypto billionaires building a world where money buys you a vote",
+    "summary": "They think democracy has run its course - so they're setting up their own nations instead.",
+    "full_text": "Meet the crypto billionaires building a world where money buys you a vote\n- Published\nThe Free Republic of Liberland doesn't look like much from the boat.\nYou would never guess that this flat, muddy stretch of floodplain on the Danube River, dotted with alder trees, tents and treehouses, is connected to some of the world's wealthiest men - including the biggest initial investor in the Trump family's crypto business.\nBy contrast, the virtual reality version of Liberland I'm currently being shown, designed by Zaha Hadid's ZHA architecture firm, features gleaming towers, floating public parks, and gravity-defying water features.\nThe person showing it to me is Vít Jedlička, Liberland's president. He founded the micronation on a disputed bit of territory between Serbia and Croatia with the goal of making a truly libertarian, digital country that runs on the same technology as cryptocurrencies.\nI've come to Liberland for the past year as part of a BBC Two documentary, The Tech Billionaire Takeover. Liberland may look and sound like a joke. But it is bankrolled by some of the wealthiest men in crypto, and it runs on an idea they are trying to export: that government itself can be replaced.\nWe arrive at the country by boat because Croatian authorities have stopped people from doing so by land. A few settlers in anoraks come out to wave to us from the shore and President Jedlička, communicating via megaphone, presents one of the settlers with an official medal.\nIn most modern democracies, everyone has an equal vote. But things are different in Liberland thanks to a purchasable crypto token called Liberland Merits. President Jedlička tells me a person is elected through Merits. \"So the people that have more Merits are able to have more say in who is going to be in the leadership of the country,\" he says. This effectively means you can vote directly with your money.\nLiberland is also entirely tax-free, something its interior minister, Ivan Pernar, a controversial Croatian former MP who was kicked out of parliament for spreading conspiracy theories, explains to me.\n\"Usually, people who believe in freedom, decentralised finances and so on, they tend to be from the upper class of society,\" Pernar tells me. \"If you make zero selection and you say whoever comes on [the] boat is welcome, we would end up like [the] UK. We don't want that.\"\n\"So it's liberty, but... some people have more liberty than others?\" I ask. One of the main ways to gain power and influence in Liberland appears to be through money, I suggest.\n\"Of course,\" says Pernar. He says that if you had \"a bunch of bums in your country without anything\", others would have to contribute to their benefits. He goes on to compare the poor to animals. \"Don't feed the animals, because if you do, they will be accustomed to that and they will lose [the] ability to feed themselves. The same is with people.\"\nTo Liberland's wealthy backers, helping the poor - or indeed any form of taxation or centralised redistribution of wealth - is an affront to their individual liberty. This view is shared, unsurprisingly, by people in this world with far more money and influence than Pernar.\nThe banana billionaire\nOver the past year, I've been hanging out with Liberland's prime minister, Chinese crypto titan Justin Sun. With Sun's backing - and that of about 30 other tech billionaires, they claim - the Liberlanders may now actually have access to the money needed to start building the version of their micronation with gleaming towers.\nSun is worth an estimated $8.5bn (£6.4bn). He's perhaps most famous for purchasing an art piece consisting of a banana duct taped to a wall for $6.2m and then eating it. He has also been accused by US regulators of fraud and market manipulation. Sun denies the charges, and recently reached a $10m settlement to resolve them.\nHis company, Tron, is a blockchain, a global software network on which you can buy and sell crypto currencies. Unlike a bank, it isn't run by one single authority - it's decentralised, existing across many computers all around the world, making it harder to tax and regulate.\nThis same blockchain technology is being used to run Liberland's government and one day, if Sun gets his way, it could run ours too. Citizens vote on laws and referendums using digital tokens, and the voting itself is automatically tallied and enforced by code, rather than counted by officials. In reality, though, the technology is still in its juvenile phase, and human officials are still required to implement laws.\nAccording to blockchain analytics firm TRM Labs, external, Tron is one of the biggest platforms for moving illicit crypto - reportedly including funds tied to Hamas and Hezbollah, external, alongside those of drug cartels and mafia networks. Sun says Tron has innovated new collaborations with law enforcement to tackle illegal transactions on the blockchain, leading to huge declines in illicit volume on the platform.\nThe Trump family welcomed him as lead token investor in their own crypto business, World Liberty Financial. Sun invested more than $75m in the company, as well as millions more in Donald Trump's memecoin, which won him a dinner with the US president.\nPresident Trump officially stepped down from the company once he took office but his family trust still owns and profits from it, selling a cryptocurrency coin called USD1. He has made more than $1.4bn from crypto in the past year, and stands to make much more.\nA planet without borders?\nIt's safe to say the Trumps have profited hugely from their relationship to Sun. But what do Sun and other crypto entrepreneurs who have cosied up to the Trumps want in return? Liberland may offer a glimpse.\nIn person, Sun is warm and friendly. Like other billionaires I met, I sensed that Sun rarely got to hang around people that didn't work for him or desire his money. Most of our conversations centred around sci-fi and video games.\nLast summer, when Sun had just landed from space after paying $29m to fly there with Jeff Bezos' Blue Origin company, he rang me to tell me about the experience. He had been struck by the idea that \"the planet itself is boundaryless\", without borders, and that \"there's not even a concept of the country in the first place\". The notion that the nation-state is outdated, and could therefore be replaced with blockchain technology, is one of the reasons h e decided to run to become Liberland's prime minister.\nLiberland isn't an outlier - it's one of several prototypes of such micronations, areas claimed as independent nations but not legally recognised as such. Prospera in Honduras, Peter Thiel's Seasteading Institute, and Tim Draper's Draper Nation, a fully digital country with Bitcoin as its currency, are all chasing the same idea.\nI meet Draper, a billionaire tech investor himself, at Silicon Valley's Draper University, his boot camp for young tech founders, where students pledge to \"promote freedom at all costs\". Draper tells me he believes government provides \"bad service at a high cost\", and blockchain will simply replace it: \"It's just a matter of time.\"\nMany of these ideas can be traced back to the controversial thinker and tech founder Curtis Yarvin, who has been called the \"founder of the Dark Enlightenment\". He has won praise from figures on the US right, including tech billionaire Peter Thiel and some in the current Trump administration, including Vice-President JD Vance. His philosophy is notoriously confusing, but it essentially amounts to a criticism of democracy (which has failed, he claims, because immigration is still too high) and concludes we should replace it with an authoritarian structure that sits somewhere in between a corporation, a monarchy, and a blockchain-run micro-nation.\nDespite the fact that he views the media as one half of \"The Cathedral\" - his term for what he believes is the repressive ideological power made up of journalists and academics that secretly runs Western society - he agrees to meet m",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-10T23:03:11+00:00",
+    "crawled": "2026-07-10T23:34:42.016665+00:00",
+    "summarized": true,
+    "ai_summary": "• 自由共和國利伯蘭是一個位於塞爾維亞和克羅地亞之間的微國，由維特·耶德利卡創立，旨在建立一個以加密貨幣技術運行的自由主義數字國家。  \n• 利伯蘭的選舉系統基於可購買的加密代幣「利伯蘭優勢」，持有更多代幣的人在國內擁有更大的發言權。  \n• 利伯蘭完全免稅，內政部長伊萬·佩爾納表示，這樣的制度吸引了來自上層社會的支持者。  \n• 克羅地亞當局禁止人們通過陸路進入利伯蘭，訪客需乘船抵達。",
+    "summaries": {
+      "zh-HK": "• 自由共和國利伯蘭是一個位於塞爾維亞和克羅地亞之間的微國，由維特·耶德利卡創立，旨在建立一個以加密貨幣技術運行的自由主義數字國家。  \n• 利伯蘭的選舉系統基於可購買的加密代幣「利伯蘭優勢」，持有更多代幣的人在國內擁有更大的發言權。  \n• 利伯蘭完全免稅，內政部長伊萬·佩爾納表示，這樣的制度吸引了來自上層社會的支持者。  \n• 克羅地亞當局禁止人們通過陸路進入利伯蘭，訪客需乘船抵達。"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cgmdkw7wmkgo?at_medium=RSS&at_campaign=rss",
+    "title": "Twelve men and 12 women enter a Buddhist temple - will the monks help them find love?",
+    "summary": "Dating can be hard in South Korea. A group of monks hope a 30-hour rural retreat can help.",
+    "full_text": "Twelve men and 12 women enter a Buddhist temple - will the monks help them find love?\n- Published\nA monk draped in burnt-orange robes faces a row of young men and women and tells them they're here on a mission to save their country. By finding a partner and one day having babies.\nThe participants giggle, nervously stealing glances from their prospective matches.\nThis isn't the start of a new hit reality show. It's a real-life dating retreat held at an 8th Century Buddhist temple nestled in the lush greenery of South Korea's Palgongsan mountain.\nIt's a 30-hour affair which will feature back-to-back activities and a steady stream of awkward moments, all in the pursuit of breaking the ice and finding love.\n\"Buddhists have always been the first to take action when our country is in trouble,\" says host Yoo Cheol-ju, referring to when Donghwasa Temple served as a camp for monk militias defending Korea against Japanese invaders in the 1500s.\nBut this time the threat isn't from abroad.\n\"Low births are a national crisis. We had to do something about it,\" Yoo says.\nLike elsewhere in the world, births have plummeted in South Korea as the country has grown wealthier.\nIn 2023, the average number of children a South Korean woman has over her lifetime, or total fertility rate, dropped to a historic low of 0.72, well below the replacement rate of 2.1.\nSome blame soaring housing costs and the lack of financial support for childcare. Others say women are prioritising careers, or simply exercising what is now a choice.\nBut young South Koreans are also going out less and dating less than before, studies show. While some are choosing to be single, many are struggling to meet partners, pulling marriage rates down.\nThe government has begun offering longer parental leave, cash bonuses for babies and subsidised apartments for newlyweds.\nLocal governments and civic groups have taken things one step further, putting on state-backed matchmaking events like this one at Donghwasa Temple.\nAnd they're a lot more fun than you might imagine.\nKim Ah-kyung, who goes by her Buddhist name, Sunhyeji, is one of the first to arrive.\nThe bubbly 28-year-old sits on the porch of a bungalow at the temple complex and says hello to the other women, who start trickling into the room.\nThey have all made it through an incredibly competitive selection process, involving questionnaires and selfie videos to assess how serious they are about marriage and kids. They beat more than 1,580 others to be at this retreat, which was open to everyone, irrespective of faith.\nSunhyeji struggled to meet a suitable partner after leaving the Seoul region for an office job in the south-eastern provinces.\n\"There's really no chance to meet men,\" she says. \"I only go between work and home. I don't have a hobby. I tried to get one but they were all one-on-one activities.\" At her office, she adds, everyone is much older.\nDating can be hard in South Korea.\nPeople typically meet romantic partners through school, work or sogaeting: blind dates set up by friends or family. Failing that, small talk in big cities is rare. Drinking is down. Dating apps never really took off. In 2015, after years of stagnant growth, Tinder started marketing itself as a friend-finding app to better appeal to young people.\nKwon Seung-oh, 30, who goes by Enyo, has always been put off by the idea of meeting a stranger online.\nHis friends put him on blind dates about 10 times, but he found them all to be shallow interactions that never went anywhere. And 97% of his co-workers at a big dairy factory outside Daegu city are men.\nSo now, he too finds himself at Donghwasa.\nChivalry is on show before the day has even begun.\nAs the women arrive at the complex, their potential male suitors rush to meet them, offering to help them carry their luggage to their rooms.\nEnyo is determined to find a match. During the day's first activity - the introduction round - he hands out French pastries he has baked himself, earning him wows from the crowd.\nThen it's time for the first date. Sunhyeji is paired with Minho, a 32-year-old mild-mannered civil servant. The two take a stroll through the wooded path surrounding the temple, managing to have a private conversation.\nLater on, the men are asked to hand a plastic rose to the woman they want to get to know over a lunch date. Minho picks Ruby, a 28-year-old designer whose gentle demeanour matches his.\nThere are polite smiles and giggles throughout the meal. The couples learn about each other's hobbies, jobs and favourite shows. Conversation is flowing and everyone seems to be opening up.\nWhen they're done you see them standing closer together than before, as they gather at the sinks to clean the dishes together.\nBut that's all turned on its head as we reach the awkward, clumsy crescendo of the day: the talent show.\nMinho goes first, moving carefully as he recollects the steps to 2Pm's viral track My House, with its famous chorus: \"I wanna take you to my house.\"\nSunhyeji effortlessly grooves to brand new pop hit Catch Catch, while Enyo belts out a ballad. Ruby shows off her Spanish language skills, with a halting introduction that charms Minho. One woman whips out a flute to play a song from KPop Demon Hunters.\nThe non-stop activities are exhausting the participants.\nThere are only a couple of minutes to grab a break before a speed-dating round kicks off over green tea (which no-one actually drinks).\nAfter that, it's the women's turn to pick the man for their dinner date.\nSunhyeji gives her rose to Minho, much to the irritation of Ruby. Enyo isn't chosen by any of the women, and ends up having dinner with the others who aren't matched up.\nFinally, to bring the day to a close, a senior monk gives a rousing speech, reminding the participants of their duty to procreate, before breaking into the national anthem.\nThe singles, more concerned about their romantic fate than patriotic duty, mumble through the lyrics.\nKorean authorities have been setting up matchmaking events since the early 2000s - everything from woodworking dates to riverside DJ nights.\nDespite these efforts, which were implemented alongside the government's baby-boosting programmes that have cost about $250 billion since 2006, birth rates continued to fall for years.\nThat is, until 2024, when the numbers began to edge upwards. This year, women on average are expected to have 1.0 child each, up from 0.8 in 2025.\nIt's not clear if this is a direct result of government initiatives. Officials have been careful to attribute it to the pandemic delaying weddings and births, and a large generation of people born to baby boomers reaching the age when they have children of their own.\nBut there might be a change in attitudes too. A survey from March showed unmarried people were nearly 10% more favourable to marriage and having children compared to just two years ago.\nThis chimes with some of the women at the temple, who say they have been seeing more and more social media posts of friends tying the knot and having babies.\nAt this point in the evening, with one final round of dating left, the group's social battery is running out.\nYoo, the host, insists there is plenty of time left to find a match.\nThe 22:00 bedtime is only a suggestion, he adds. The night can be \"full of surprises\".\nAs if to prove him right, an event steward takes her chances with a participant. She admits to having a boyfriend, but says that relationship is doomed anyway.\nRuby eventually leaves with Minho for a walk. Sunhyeji looks tired.\nEnyo and the others, who didn't find partners, file out one by one.\nThe next morning, everyone is joking and chatting as they submit their final choices to Yoo by text.\nBy the end of the retreat, eight couples have formed, including two matches between event staff and participants. The group gathers for a final photo.\nEnyo looks on, disappointed he doesn't have a match. But he hasn't given up. He says he'd be up for another shot at the retreat \"if they let me in again\".\n",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-10T22:02:09+00:00",
+    "crawled": "2026-07-10T23:34:42.054671+00:00",
+    "summarized": true,
+    "ai_summary": "• 十二名男性和十二名女性參加在南韓八世紀的佛教寺廟舉行的約會靜修活動，旨在促進配對和生育。  \n• 活動由主持人尤哲周（Yoo Cheol-ju）引導，強調低出生率已成為國家危機，並呼籲參加者尋找伴侶。  \n• 2023年，南韓女性的總生育率降至歷史低點0.72，遠低於更替率2.1，政府已開始提供育嬰假、現金獎勵及新婚補貼。  \n• 參加者經過激烈的選拔過程，最終有超過1,580人競爭進入此次靜修，活動對所有信仰人士開放。",
+    "summaries": {
+      "zh-HK": "• 十二名男性和十二名女性參加在南韓八世紀的佛教寺廟舉行的約會靜修活動，旨在促進配對和生育。  \n• 活動由主持人尤哲周（Yoo Cheol-ju）引導，強調低出生率已成為國家危機，並呼籲參加者尋找伴侶。  \n• 2023年，南韓女性的總生育率降至歷史低點0.72，遠低於更替率2.1，政府已開始提供育嬰假、現金獎勵及新婚補貼。  \n• 參加者經過激烈的選拔過程，最終有超過1,580人競爭進入此次靜修，活動對所有信仰人士開放。"
+    }
+  },
+  {
+    "url": "https://www.aljazeera.com/news/2026/7/10/cuba-suffers-second-island-wide-blackout-in-a-week-amid-trump-fuel-blockade?traffic_source=rss",
+    "title": "Cuba suffers second island-wide blackout in a week amid Trump fuel blockade",
+    "summary": "US President Donald Trump has placed the Caribbean island under a de facto oil blockade, straining its power grid.",
+    "full_text": "Cuba suffers second island-wide blackout in a week amid Trump fuel blockade\nUS President Donald Trump has placed the Caribbean island under a de facto oil blockade, straining its ageing power grid.\nCuba has reported its second nationwide blackout in less than a week, plunging the island into darkness shortly before evening.\nOn Friday, the Union Electrica de Cuba, the state-owned utility in charge of the electrical grid, announced that the outage began at 4:30pm local time (20:30 GMT).\nRecommended Stories\nlist of 3 items- list 1 of 3Cuba sees nationwide power blackout for third time in six months\n- list 2 of 3Cuba loses power across nation for third time this year\n- list 3 of 3At UN, Cuba rallies support against ‘ruthless’ US blockade\nNo explanation was given for the blackout. But it follows a similar power failure on Monday, bringing the total number of island-wide outages to four since the start of the year. Two other total blackouts struck in March.\nOutages are not uncommon in Cuba, where the electricity infrastructure is increasingly aged. Much of the system dates to the Cold War period, between 1960 and 1980.\nBut the problem has intensified since January, when United States President Donald Trump effectively severed Cuba’s supply of foreign oil.\nAlready, Cuba has been under the longest-running trade embargo in modern history. Since the 1960s, the US has largely barred trade with the island, which sits roughly 140 kilometres — or 90 miles — from its shores.\nSince taking office for a second term, though, Trump has sought to trigger regime change on the communist-led island. Critics have long accused the government in Havana of human rights abuses, including the violent suppression of dissent.\nOn January 3, Trump authorised a military operation against Venezuelan President Nicolas Maduro, a socialist leader and ally of the Cuban government. The operation culminated in Maduro’s abduction and transport to New York, where he remains imprisoned on drug- and weapons-related charges.\nShortly after Maduro’s removal, Trump announced that Venezuela would no longer send oil or money to Cuba. His administration has continued to control Venezuelan oil exports in the months since.\nThen, on January 29, Trump issued an executive order declaring that Cuba “constitutes an unusual and extraordinary threat” to the US. As part of the order, he threatened any country that supplies the island with fuel with steep tariffs.\nSince then, only a single Russian oil tanker has reached Cuban soil — but that was in March.\nAs of 2023, Cuba only produces 40 percent of the oil it uses, according to the International Energy Agency. The rest comes from overseas.\nHuman rights experts have warned that the continued fuel deprivation could have consequences for Cuba’s civilian population, as public services like transportation shut down.\nIn June, the high commissioner for human rights at the United Nations, Volker Turk, pointed to statistics that showed infant mortality nearly doubled in recent months.\n“The fuel restrictions imposed since early 2026 and recent tightening of extraterritorial sanctions, taken together, are directly harming Cubans, especially the most vulnerable,” Turk said in a statement.\n“Children are dying because doctors lack access to essential medical supplies and medicines. This is unacceptable.”\nThe Trump administration, meanwhile, has blamed mismanagement in the Cuban government for the blackouts.\n“We’ve done nothing punitive against the Cuban regime,” US Secretary of State Marco Rubio told Al Jazeera in March.\nPrior to the fuel blockade, Cuba had planned to shift some of its energy infrastructure away from fossil fuels, in favour of solar and other renewable energy sources.\nIt has sped up that transition, with the help of solar technology imported from the US’s main economic rival, China.\nStill, renewable energy only accounts for about 18 percent of Cuba’s overall energy consumption, according to estimates from 2022. Cuba aims to produce nearly a quarter of its energy from renewable sources by 2030.",
+    "source": "Al Jazeera",
+    "category": "general",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-10T23:18:08+00:00",
+    "crawled": "2026-07-10T23:34:42.986545+00:00",
+    "summarized": true,
+    "ai_summary": "• 古巴在一周內遭遇第二次全國性停電，停電於當地時間下午4:30開始，導致全島陷入黑暗。  \n• 此次停電是自年初以來的第四次全國性停電，之前的兩次分別發生在一周前和三月。  \n• 特朗普政府對古巴實施事實上的石油封鎖，導致古巴的電力基礎設施面臨更大壓力。  \n• 根據國際能源機構的資料，古巴目前僅能生產其所需石油的40%，其餘部分依賴進口。",
+    "summaries": {
+      "zh-HK": "• 古巴在一周內遭遇第二次全國性停電，停電於當地時間下午4:30開始，導致全島陷入黑暗。  \n• 此次停電是自年初以來的第四次全國性停電，之前的兩次分別發生在一周前和三月。  \n• 特朗普政府對古巴實施事實上的石油封鎖，導致古巴的電力基礎設施面臨更大壓力。  \n• 根據國際能源機構的資料，古巴目前僅能生產其所需石油的40%，其餘部分依賴進口。"
+    }
+  },
+  {
+    "url": "https://www.aljazeera.com/economy/2026/7/10/apple-files-lawsuit-accusing-chatgpt-maker-openai-of-stealing-trade-secrets?traffic_source=rss",
+    "title": "Apple files lawsuit accusing ChatGPT maker OpenAI of stealing trade secrets",
+    "summary": "The complaint alleges a coordinated effort by two former Apple employees and OpenAI to steal confidential information.",
+    "full_text": "Apple files lawsuit accusing ChatGPT maker OpenAI of stealing trade secrets\nThe complaint alleges a coordinated effort by two former Apple employees and OpenAI to steal confidential information.\nApple has sued OpenAI and two former employees, alleging misappropriation of its trade secrets as the artificial intelligence company seeks to build its own hardware for ChatGPT, a major rupture in a partnership between the iPhone maker and the AI giant.\nThe complaint, filed in a California federal court on Friday, alleges a coordinated effort to steal Apple’s confidential information, including product designs, manufacturing processes and supply chain strategies.\nRecommended Stories\nlist of 4 items- list 1 of 4FIFA has nearly 1,200 tickets still on sale for World Cup final at $7,380\n- list 2 of 4EU says ‘addictive’ features on Instagram and Facebook breach its rules\n- list 3 of 4Why are politicians and sanctioned states embracing crypto?\n- list 4 of 4How Wong Kim Ark’s legacy reignited the fight for birthright citizenship\nOpenAI did not immediately respond to a request for comment.\nThe lawsuit names Chang Liu, a former senior system electrical engineer, and Tang Yew Tan, a former vice president of product design for the iPhone and Apple Watch, as defendants, along with the OpenAI Foundation, OpenAI Group PBC and io Products. Neither defendant immediately responded to a request for comment.\nApple alleged that Liu failed to return a company-issued work laptop and later used an authentication bug to access Apple’s internal network, downloading “dozens of Apple’s confidential hardware-related files”.\nThe iPhone maker also claimed that OpenAI’s hardware chief Tan had been “methodically using Apple’s confidential information to benefit OpenAI” by emailing himself information about Apple suppliers and internal industry summaries before his departure.\nApple alleged that Tan encouraged Apple employees to bring parts from Apple to job interviews at OpenAI for “show and tell” sessions, citing an incident in its filing where one OpenAI job candidate allegedly said that he “didn’t even know we could take those from the office”.\nMore than 400 former Apple employees now work for OpenAI, Apple said in the filing, adding that “it is not surprising” that some of them have knowledge of its confidential information.\n“That OpenAI now employs people who were once entrusted with Apple’s trade secrets does not entitle OpenAI to use that information to jumpstart its hardware efforts,” the iPhone maker wrote in its complaint.\nOpenAI has never said exactly what type of device it is building, but has described it as an effort to find a new way to interact with AI that goes beyond “traditional products and interfaces”. It is part of a broader push to create a physical embodiment of the latest AI advances, a decade after Amazon and Google introduced screen-free talking speakers into homes.\nThe lawsuit claims the effort was built partly on knowledge stolen from Apple.\nApple also alleged that OpenAI employees sought confidential information from the company’s suppliers.\nAt one point, Apple said, one of its suppliers used a secret metal finishing technique for OpenAI, on the belief that the AI company had Apple’s permission to use the technique.\nOpenAI bought hardware startup io Products, founded by former Apple designer Jony Ive, last year in a $6.5bn deal, in a push to move beyond software into consumer hardware. Ive is not named in the lawsuit.\nStrained relationship\nTensions between the two tech companies have strained their relationship, as the race to develop AI products has intensified competition for talent and proprietary technology.\nIn its complaint, Apple claimed it wrote to OpenAI in February with concerns that its confidential information was making its way to OpenAI, asking to discuss the matter, but received no reply.\nA person familiar with the matter told the Reuters news agency in May that OpenAI was exploring legal options against Apple, including notifying the technology giant of a breach of contract but potentially not filing a full lawsuit.\nIn 2024, Apple announced the integration of its Apple Intelligence technology across its apps, including Siri, and brought OpenAI’s chatbot ChatGPT to its devices.\nTheir partnership allows users to access ChatGPT results through Siri, while iPhone users can also sign up for ChatGPT memberships directly from the iOS settings menu.\nApple rolled out a long-delayed overhaul of Siri last month. The update comes two years after Apple first promised major upgrades.",
+    "source": "Al Jazeera",
+    "category": "general",
+    "lang": "en",
+    "topic": "Regulation",
+    "published": "2026-07-10T23:00:11+00:00",
+    "crawled": "2026-07-10T23:34:43.034601+00:00",
+    "summarized": true,
+    "ai_summary": "• 蘋果公司在加州聯邦法院對OpenAI及兩名前員工提起訴訟，指控其竊取商業機密。  \n• 訴訟指控包括前員工劉昌和譚耀彤未歸還公司發放的工作筆記本電腦，並利用漏洞訪問蘋果內部網絡。  \n• 蘋果聲稱譚耀彤在離職前曾將蘋果的機密資訊發送給自己，並鼓勵其他員工在面試時攜帶蘋果零件。  \n• 蘋果指出，超過400名前員工目前在OpenAI工作，並強調這不應該使OpenAI有權使用蘋果的商業機密。",
+    "summaries": {
+      "zh-HK": "• 蘋果公司在加州聯邦法院對OpenAI及兩名前員工提起訴訟，指控其竊取商業機密。  \n• 訴訟指控包括前員工劉昌和譚耀彤未歸還公司發放的工作筆記本電腦，並利用漏洞訪問蘋果內部網絡。  \n• 蘋果聲稱譚耀彤在離職前曾將蘋果的機密資訊發送給自己，並鼓勵其他員工在面試時攜帶蘋果零件。  \n• 蘋果指出，超過400名前員工目前在OpenAI工作，並強調這不應該使OpenAI有權使用蘋果的商業機密。"
+    }
+  },
+  {
+    "url": "https://www.aljazeera.com/sports/2026/7/10/colombias-jaminton-campaz-receives-death-threats-after-world-cup-exit?traffic_source=rss",
+    "title": "Colombia’s Jaminton Campaz receives death threats after World Cup exit",
+    "summary": "Campaz was threatened after failing to score in the last-16 match against Switzerland, which Colombia lost on penalties.",
+    "full_text": "Colombia’s Jaminton Campaz receives death threats after World Cup exit\nCampaz was threatened after failing to score in the last-16 match against Switzerland, which Colombia lost on penalties.\nColombia’s Jaminton Campaz has received death threats following his team’s exit from the World Cup, the country’s football federation said, as it condemned the threats.\n“No athlete, nor any member of their inner circle, should be subjected to intimidation for representing their country in a sporting arena,” the Colombian Football Federation (FCF) said in a statement on Friday.\nColombia’s tournament ended Tuesday in a penalty shootout loss to Switzerland in the round of 16. During extra time, Campaz — who plays for Argentine club Rosario Central — missed a critical scoring opportunity when his shot went wide.\nOn Instagram, Campaz shared a photo of himself covering his face in frustration, alongside a plea for respect.\n“Football is also made up of difficult moments,” he wrote. “My Colombia, please let us never lose sight of respect. We may think differently or feel frustration and sadness, but no passion justifies hatred or living in fear.”\nIn response to the harassment, the Colombian federation has urged the country’s attorney general’s office to expedite an investigation to identify those behind the threats.\n“Football must be a space for unity, respect, and hope — never a setting for hatred, intimidation or violence,” the federation said, calling on fans to ensure that sporting disappointments never translate into real-world aggression.\nThe threats evoke a dark chapter in Colombian football history. During the 1994 World Cup in the United States, defender Andres Escobar scored an own-goal in a 2-1 loss to the host nation. Days after the team was eliminated and returned home, Escobar was murdered in Medellin.",
+    "source": "Al Jazeera",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-10T22:39:17+00:00",
+    "crawled": "2026-07-10T23:34:43.080618+00:00",
+    "summarized": true,
+    "ai_summary": "• 哥倫比亞足球運動員詹米頓·坎帕茲在世界杯出局後收到死亡威脅，該國足球聯合會譴責這些威脅。  \n• 哥倫比亞在16強賽中以點球輸給瑞士，坎帕茲在加時賽中錯失關鍵進球機會。  \n• 坎帕茲在Instagram上發表聲明，呼籲尊重，強調足球也有困難時刻。  \n• 哥倫比亞足球聯合會已要求檢察總長辦公室加快調查，以識別威脅的來源。",
+    "summaries": {
+      "zh-HK": "• 哥倫比亞足球運動員詹米頓·坎帕茲在世界杯出局後收到死亡威脅，該國足球聯合會譴責這些威脅。  \n• 哥倫比亞在16強賽中以點球輸給瑞士，坎帕茲在加時賽中錯失關鍵進球機會。  \n• 坎帕茲在Instagram上發表聲明，呼籲尊重，強調足球也有困難時刻。  \n• 哥倫比亞足球聯合會已要求檢察總長辦公室加快調查，以識別威脅的來源。"
+    }
+  },
+  {
+    "url": "https://www.aljazeera.com/news/2026/7/10/under-lula-amazon-deforestation-falls-to-lowest-level-in-a-decade?traffic_source=rss",
+    "title": "Under Lula, Amazon deforestation falls to lowest level in a decade",
+    "summary": "The figures come months before Brazil’s presidential election, with Lula promising to end illegal deforestation by 2030.",
+    "full_text": "Under Lula, Amazon deforestation falls to lowest level in a decade\nThe figures come months before Brazil’s presidential election, with Lula promising to end illegal deforestation by 2030.\nDeforestation in Brazil’s Amazon rainforest has fallen to its lowest level in a decade during the first half of 2026, according to official government figures.\nFriday’s statistics mark a milestone in President Luiz Inacio Lula da Silva’s efforts to curb the destruction of the world’s largest rainforest.\nRecommended Stories\nlist of 4 items- list 1 of 4‘Encouraging’: Global rainforest loss slows in 2025 after record year\n- list 2 of 4US targets Brazil with new tariffs over trade practices\n- list 3 of 4Lula says Brazil cannot ‘accept treatment’ after new US tariffs proposed\n- list 4 of 4Flavio Bolsonaro asks Trump to delay tariffs on Brazil until after election\nFrom January to June, an estimated 1,295 square kilometres (500 square miles) of forest were cleared in the Brazilian Amazon, a 38 percent drop compared with the same period last year, according to Brazil’s National Institute for Space Research (INPE). It was also the lowest overall decrease since 2016.\nIn recent years, deforestation in Brazil reached a peak around 2022, under Lula’s far-right predecessor Jair Bolsonaro. That year saw the clearing of an area 13 times the size of New York City.\nBolsonaro had advocated for “sustainable development” and mining in the Amazon, though critics say he allowed for greater environmental destruction, as well as the erosion of Indigenous rights in the region.\nIn the 2022 presidential race, Lula defeated Bolsonaro in part by pledging to protect Brazil’s environmental resources. He also reaffirmed Brazil’s commitment to end illegal deforestation by 2030.\nDuring Lula’s first year back in office, Brazil’s deforestation rate dropped by half and has continued to go down.\nBut Lula has faced scrutiny for his environmental record overall, with critics blasting his government for authorising expanded oil exploration near the mouth of the Amazon River.\nThe left-wing Lula has also navigated tensions with the right-wing government of United States President Donald Trump, a supporter of Bolsonaro.\nTrump vocally opposed the prosecution of Bolsonaro last year on charges of seeking to overturn Brazil’s 2022 election results. Bolsonaro has since been sentenced to 27 years in prison.\nIn June, Trump officials proposed a new round of tariffs on Brazil, citing unfair trading practices and illegal deforestation among its reasons.\nBut Lula’s government has pointed to the latest deforestation data as undermining the Trump administration’s claims.\n“They don’t understand the work we are doing to bring deforestation down to zero by 2030. This is not a decision by any COP or by the United Nations,” Lula said, using the acronym for the Conference of Parties, involved in the UN’s climate change initiative. “It is a decision of our government.”\nResearchers have credited Brazil with playing a major role in last year’s overall drop in global rainforest loss. Brazil’s declines came as Lula relaunched an anti-deforestation action plan and increased penalties for environmental crimes.\nAs the world’s largest rainforest, the Amazon absorbs enormous amounts of carbon and helps regulate the global climate, with scientists and environmental groups closely monitoring deforestation, which is also the leading driver of Brazil’s greenhouse gas emissions.\nLula is currently campaigning for his fourth non-consecutive term as president; previously, he served two terms from 2003 to 2011.\nIn October’s presidential race, the 80-year-old is likely to face Bolsonaro’s eldest son, Senator Flavio Bolsonaro, who has emerged as the main challenger on the right.",
+    "source": "Al Jazeera",
+    "category": "general",
+    "lang": "en",
+    "topic": "Regulation",
+    "published": "2026-07-10T22:36:18+00:00",
+    "crawled": "2026-07-10T23:34:43.127409+00:00",
+    "summarized": true,
+    "ai_summary": "• 根據巴西國家太空研究所的數據，2026年上半年巴西亞馬遜雨林的砍伐面積降至十年來最低，減少了38%至約1,295平方公里 \n• 總統盧拉承諾到2030年結束非法砍伐，並在2022年總統選舉中以保護環境資源的承諾擊敗前總統博爾索納羅 \n• 盧拉上任後的第一年，巴西的砍伐率減半，並持續下降 \n• 盧拉的政府面臨批評，因為其授權在亞馬遜河口附近擴大石油勘探，並與美國總統特朗普的政府存在緊張關係",
+    "summaries": {
+      "zh-HK": "• 根據巴西國家太空研究所的數據，2026年上半年巴西亞馬遜雨林的砍伐面積降至十年來最低，減少了38%至約1,295平方公里 \n• 總統盧拉承諾到2030年結束非法砍伐，並在2022年總統選舉中以保護環境資源的承諾擊敗前總統博爾索納羅 \n• 盧拉上任後的第一年，巴西的砍伐率減半，並持續下降 \n• 盧拉的政府面臨批評，因為其授權在亞馬遜河口附近擴大石油勘探，並與美國總統特朗普的政府存在緊張關係"
+    }
+  },
+  {
+    "url": "https://www.aljazeera.com/economy/2026/7/10/canadas-bill-c-36-tackles-ai-privacy-is-it-enough?traffic_source=rss",
+    "title": "Canada’s Bill C-36 tackles AI privacy. Is it enough?",
+    "summary": "Canada’s new privacy bill promises stronger protections for children, but experts say it still misses risks in the AI world.",
+    "full_text": "Canada’s Bill C-36 tackles AI privacy. Is it enough?\nCanada’s new privacy bill promises stronger protections for children, but experts say it still misses risks in AI world.\nVancouver, Canada: In an era of artificial intelligence, deepfakes and data-driven decision-making, Canada is moving to revise its privacy laws through Bill C-36, the Protecting Privacy and Consumer Data Act.\nAnnounced in June, Bill C-36 is Canada’s first major overhaul of private-sector privacy legislation in more than 25 years. The bill explicitly recognises privacy as a fundamental right and also aims to give children’s personal information stronger protections, enhance deletion rights and require greater transparency where automated systems make significant decisions about people.\nRecommended Stories\nlist of 4 items- list 1 of 4FIFA has nearly 1,200 tickets still on sale for World Cup final at $7,380\n- list 2 of 4EU says ‘addictive’ features on Instagram and Facebook breach its rules\n- list 3 of 4Donald Trump removes final members of independent US election commission\n- list 4 of 4How Wong Kim Ark’s legacy reignited the fight for birthright citizenship\nThe reforms also arrive amid growing scrutiny of AI after incidents such as British Columbia’s Tumbler Ridge shooting in February raised greater questions about AI chatbots, vulnerable users and the responsibilities of technology companies.\nThe 18-year-old shooting suspect allegedly used ChatGPT before the attack. The victims’ families are now suing OpenAI, stating the company’s AI safety team identified violent prompts but did not alert law enforcement. This week, the province of British Columbia also announced it is “preparing legal action” against the AI company.\nMeanwhile, Canada’s federal government plans to modernise private-sector consumer privacy rules via Bill C-36.\nEvan Solomon, Canada’s minister of AI and digital innovation, told Al Jazeera that the government’s responsibility is “to protect Canadians online and to ensure Canadians can benefit from artificial intelligence and emerging technologies. These goals are not mutually exclusive”.\n“Bill C-36 establishes a framework for the responsible use of de-identified data. It includes safeguards designed to reduce the risk of re-identifying individuals while supporting important public-interest activities, including research, accountability and innovation.”\nBut as AI systems become more capable of predicting, profiling and influencing people, experts say the challenge is no longer just what data companies collect — it is what AI can infer from users.\nThe question is whether privacy legislation can keep pace with technology designed to predict, profile and influence human behaviour.\nInferred information\nThe biggest issue is that AI is changing where privacy harms occur, according to Ignacio Cofone, professor of law and regulation of AI at the University of Oxford.\n“Older privacy law assumes the danger is in what a company collects from you. The danger now is in what a company infers about you from data you never handed over, and in what it does with that AI inference.”\nIn other words, today’s AI systems don’t necessarily need someone to disclose sensitive information voluntarily. Patterns in shopping habits, browsing history, location data or online activity can be enough for algorithms to make surprisingly accurate predictions about a person’s health, finances or behaviours.\n“A model trained on [anonymous] data can produce decisions that disadvantage a category of people without pointing at a named individual who can complain,” Cofone told Al Jazeera.\nBill C-36 responds by expanding the definition of personal information to include inferred information and requiring organisations to explain certain automated decisions.\nBut, as Cofone argues, the real challenge is in ensuring regulation targets harmful uses of AI rather than just data collection.\n“A model can predict your health, your sexuality, or your creditworthiness from unrelated traces and then act on the prediction, with no data leak or breach in a conventional sense,” he said.\n“That matters enormously because it moves the law toward where AI harm actually occurs, the inference and the decision, rather than leaving it fixed on the act of collection.”\nProtecting children online\nProtecting children’s privacy is one of Bill C-36’s headline reforms. The legislation would classify information belonging to anyone under 18 as inherently sensitive and gives young people stronger rights to have their personal information deleted.\nFor Stephany Oliveros, ethical AI lecturer and CEO of Just Lyra, an AI talent-matching platform, data privacy and consent are about user agency.\n“It’s one thing to donate my data towards cancer research, but another thing if tech firms find out the blood type and behaviours of my kid. Like, why does Facebook need to know that?”\nCofone added that the changes that come with Bill C-36 are worthwhile but only address part of the problem.\n“It will help, modestly, and less than the framing suggests. The bill does two things for children: It treats a child’s information as sensitive, which raises the bar for consent and for the security an organisation owes, and it gives children a stronger deletion right. Both are useful.”\nBut, he said, the bigger challenge lies elsewhere.\n“The heavier protections people need with children online are age-appropriate design and limits on what platforms can do.”\nAccording to Jill Ma, a tech founder who works in children’s AI products, beyond privacy, the next frontier is algorithmic fairness.\n“Privacy isn’t just about controlling data; it’s about not being misjudged by an algorithm,” she said. “A child’s early digital footprint shouldn’t become a lifelong label. Our job as [product] builders is to teach AI how to respect people, not just collect their data.”\nFor concerned parents such as Martin Haucke, a Vancouver-based father of one, the greater issue is the cultural norm around internet permissiveness for children.\n“The physical world is the safest it’s ever been, and the online world is what poses the biggest threats to kids’ safety,” he said. “And yet we are treating the real world as a dangerous place and are cavalier about our kids having phones before they hit high school.”\nEarlier this year, Ottawa introduced separate legislation proposing restrictions on social media access to platforms such as TikTok for users under 16. Other governments around the world have also begun responding in kind. Last year, Australia passed legislation to restrict access to certain social media platforms for under-16s.\n“It’s backwards,” said Haucke, who is also a school teacher. “What we need are zero phones in school. More time outdoors socialising.”\nPrivacy is only one part of the solution\nPrivacy is only one part of governing AI. Experts say future AI laws will need to balance user safety, journalism and public interest.\n“As technologies continue to evolve,” Solomon said. “We will continue engaging with researchers, journalists, privacy experts, civil society and other stakeholders to ensure Canada’s privacy framework remains effective, balanced and responsive to Canadians’ expectations.”\nOne example of such a challenge is the bill’s treatment of de-identified information, an issue that has prompted debate among privacy experts, researchers and journalists.\nWhile the legislation seeks to prevent organisations from reconstructing people’s identities from de-identified datasets, experts such as Oxford law’s Cofone say that this comes down to how organisations and researchers should be allowed to use de-identified data responsibly.\n“I would separate the two concerns. On journalism, the bill keeps the exemption for journalistic, artistic and literary work,” he said. “Investigative journalism is protected, as it was under the old law. The harder problem is research, which turns on how the bill draws the line between de-identified and anonymised data.”\nOliveros, the ethical AI lecturer w",
+    "source": "Al Jazeera",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-10T22:12:38+00:00",
+    "crawled": "2026-07-10T23:34:43.180038+00:00",
+    "summarized": true,
+    "ai_summary": "• 加拿大於6月公佈C-36法案，旨在修訂私營部門的隱私法，這是25年來的首次重大改革。  \n• C-36法案明確將隱私視為基本權利，並加強對兒童個人資訊的保護。  \n• 此法案的推出正值對人工智能的監管日益加強，特別是在不列顛哥倫比亞省發生的槍擊事件後。  \n• 專家指出，隱私立法能否跟上能預測和影響人類行為的技術仍然是一個挑戰。",
+    "summaries": {
+      "zh-HK": "• 加拿大於6月公佈C-36法案，旨在修訂私營部門的隱私法，這是25年來的首次重大改革。  \n• C-36法案明確將隱私視為基本權利，並加強對兒童個人資訊的保護。  \n• 此法案的推出正值對人工智能的監管日益加強，特別是在不列顛哥倫比亞省發生的槍擊事件後。  \n• 專家指出，隱私立法能否跟上能預測和影響人類行為的技術仍然是一個挑戰。"
+    }
+  },
+  {
+    "url": "https://www.scmp.com/news/china/diplomacy/article/3360197/china-accuses-us-ignoring-trump-xi-rapport-and-targeting-chinese-firms?utm_source=rss_feed",
+    "title": "China accuses US of ignoring Trump, Xi rapport and targeting Chinese firms",
+    "summary": "China on Friday accused the United States of misusing its national power by blacklisting more than 60 Chinese companies, alleging that Washington has “disregarded the consensus” reached between US President Donald Trump and Chinese leader Xi Jinping in Beijing in May.\nIn early June, the Pentagon blacklisted dozens of Chinese companies – including Alibaba, Baidu and BYD – as “Chinese military companies operating in the United States”. Days later, China announced export controls against leading US...",
+    "full_text": "China accuses US of ignoring Trump, Xi rapport and targeting Chinese firms\nBeijing claims US misused its power by blacklisting more than 60 Chinese companies after goodwill generated at Trump-Xi summit in May\n“The US has disregarded the consensus reached by the leaders of China and the US during their meeting in Beijing,” the Chinese embassy in Washington said.\nIt also added that the Trump administration has “excessively expanded the concept of national security, misused state power and unjustifiably suppressed Chinese enterprises, seriously undermining their legitimate rights and interests”.\nSources familiar with the matter told the South China Morning Post that while the latest tit-for-tat actions are unhelpful, they are unlikely to adversely impact Xi’s likely visit to the United States in September.\nAmid fragile stability, affected Chinese tech firms have taken legal steps to fight the Pentagon’s designation.",
+    "source": "SCMP",
+    "category": "general",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-10T22:44:19+00:00",
+    "crawled": "2026-07-10T23:34:45.184178+00:00",
+    "summarized": true,
+    "ai_summary": "• 中國指責美國無視特朗普與習近平的良好關係，並針對中國企業採取行動  \n• 北京聲稱美國在特朗普與習近平於5月的峰會後，將超過60家中國公司列入黑名單，濫用其權力  \n• 中國駐華盛頓大使館表示，美方忽視了中美領導人在北京會議上達成的共識  \n• 受影響的中國科技公司已採取法律行動，對抗五角大樓的指控",
+    "summaries": {
+      "zh-HK": "• 中國指責美國無視特朗普與習近平的良好關係，並針對中國企業採取行動  \n• 北京聲稱美國在特朗普與習近平於5月的峰會後，將超過60家中國公司列入黑名單，濫用其權力  \n• 中國駐華盛頓大使館表示，美方忽視了中美領導人在北京會議上達成的共識  \n• 受影響的中國科技公司已採取法律行動，對抗五角大樓的指控"
+    }
+  },
+  {
+    "url": "https://www.nytimes.com/2026/07/10/world/americas/bahamas-plane-crash-deaths.html",
+    "title": "Ten Killed in Plane Crash on the Bahamas’ Largest Island",
+    "summary": "The crash occurred as the country celebrated its independence from Britain.",
+    "full_text": "",
+    "source": "New York Times",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-10T23:21:53+00:00",
+    "crawled": "2026-07-10T23:34:46.819219+00:00",
+    "summarized": true,
+    "ai_summary": "• 巴哈馬最大島嶼發生飛機墜毀事故，造成十人遇難  \n• 事故發生在該國慶祝脫離英國獨立的同時  \n• 當地警方已展開調查，確定事故原因  \n• 飛機墜毀的具體時間和地點尚未公布",
+    "summaries": {
+      "zh-HK": "• 巴哈馬最大島嶼發生飛機墜毀事故，造成十人遇難  \n• 事故發生在該國慶祝脫離英國獨立的同時  \n• 當地警方已展開調查，確定事故原因  \n• 飛機墜毀的具體時間和地點尚未公布"
+    }
+  },
+  {
+    "url": "https://www.theverge.com/policy/964342/fcc-crack-down-dji-front-companies-xtra-skyrover-sgs-lab",
+    "title": "The FCC is cracking down on DJI tech that dodged the foreign drone ban",
+    "summary": "Last year, we told you about Xtra, the company that lets DJI sneak its popular cameras into the US, and Skyrover, a brand seemingly selling DJI drones in disguise. They're just two of the many firms DJI is suspected of starting to skirt the United States' foreign drone ban. But it appears the FCC is [&#8230;]",
+    "full_text": "Last year, we told you about Xtra, the company that lets DJI sneak its popular cameras into the US, and Skyrover, a brand seemingly selling DJI drones in disguise. They’re just two of the many firms DJI is suspected of starting to skirt the United States’ foreign drone ban.\nThe FCC is cracking down on DJI tech that dodged the foreign drone ban\nEight companies are under investigation, and the FCC plans to deauthorize one testing lab in China, too.\nEight companies are under investigation, and the FCC plans to deauthorize one testing lab in China, too.\nBut it appears the FCC is finally doing something about “DJI front companies,” as watcher Konrad Iturbe dubbed them last year. Today, the FCC is fining eight of them $25,000 each — and giving them until Monday, July 20th, just 10 calendar days, to answer the FCC’s questions before the agency takes further action.\nThose companies include Cogito Tech, Fixaxo Technology, Lyno Dynamics, Skyhigh Tech, Spatial Hover, SZ Knowact (the company behind Skyrover), WaveGo Tech, and Xtra Technology. All are being fined because they didn’t answer the FCC’s letters to begin with.\nIn order to import, sell, and market any gadget in the United States that uses radio frequencies, you need the FCC to authorize that device’s radios — but on December 22nd, the FCC added all foreign drone companies to its Covered List, which keeps the FCC from issuing authorizations to those companies because of supposed national security risks.\nLast year, the FCC also gave itself the power to retroactively ban products that have already made it through its authorization process, even if they only contain components from a banned company. It doesn’t need to be a drone: if a camera contains a DJI radio transmitter, the FCC could ban it from sale, import, and marketing in the US.\nThis spring, the FCC began asking each of these companies whether they’re marketing radio equipment in the United States that belongs on the Covered List, and so far not a single one has replied.\nThe Verge, too, repeatedly asked DJI last year to confirm whether it had relationships with several of these companies, and reached out to many of the companies individually without getting answers. DJI would not confirm or deny whether Xtra and Skyrover, for example, are DJI products in disguise. When we tested the Xtra camera against the DJI one, we found it too identical to even be considered a “clone.”\nThe FCC is also seemingly crediting that Verge story in its investigation, which is nice to see:\nXtra is probably the most brazen of the “front companies” so far. We’ve seen the company promote influencer videos that favorably compare the Xtra Muse to the DJI Osmo Pocket 3, and it’s currently taking $20 deposits for an “Xtra Muse 2 Pro” that appears to be a DJI Pocket 4 Pro in disguise, using the catchphrase “From Pocket to Pro” among other hint-hint-wink-wink marketing.\nBut DJI may no longer be able to bring this camera to the United States at all. While DJI managed to get the Osmo Pocket 4 Pro through the FCC on November 26th, ahead of the ban, and while Xtra managed to get its documents through on June 17th, neither set of documents is showing up in the FCC’s search engine now.\nHere’s the message that pops up when clicking on Xtra’s FCC filing:\nWe’ve been seeing this same message for multiple weeks.\nAdditionally, the FCC may be cracking down on test labs that helped get these products through the FCC certification process. The DJI Osmo Pocket 4 and 4 Pro used SGS-CTST Standards Technical Services Co, and so did WaveGo Tech. On May 11th, we’re now learning, the FCC announced its intent to disqualify SGS as an accredited test lab, because:\nSGS Shenzhen is subject to 15% ownership by China Standard Science & Technology Group Company Limited, which itself is wholly-owned by the China National Institute of Standardization. The U.S. Department of Commerce, based on numerous Executive Branch sources, has determined that the People’s Republic of China (PRC) is a foreign adversary.\nDJI did not immediately respond to a request for comment on the FCC’s actions.",
+    "source": "The Verge",
+    "category": "tech",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-10T22:35:18+00:00",
+    "crawled": "2026-07-10T23:35:02.403480+00:00",
+    "summarized": true,
+    "ai_summary": "• 美國聯邦通信委員會（FCC）對八家公司處以每家公司25,000美元的罰款，因為它們未回應FCC的查詢，這些公司涉嫌協助大疆（DJI）繞過外國無人機禁令。  \n• 涉及的公司包括Cogito Tech、Fixaxo Technology、Lyno Dynamics、Skyhigh Tech、Spatial Hover、SZ Knowact（Skyrover的母公司）、WaveGo Tech和Xtra Technology。  \n• FCC已將所有外國無人機公司列入受限名單，禁止其獲得無線電設備的授權，並且有權追溯禁止已獲授權的產品。  \n• FCC要求這些公司在7月20日之前回應其問題，否則將採取進一步行動。",
+    "summaries": {
+      "zh-HK": "• 美國聯邦通信委員會（FCC）對八家公司處以每家公司25,000美元的罰款，因為它們未回應FCC的查詢，這些公司涉嫌協助大疆（DJI）繞過外國無人機禁令。  \n• 涉及的公司包括Cogito Tech、Fixaxo Technology、Lyno Dynamics、Skyhigh Tech、Spatial Hover、SZ Knowact（Skyrover的母公司）、WaveGo Tech和Xtra Technology。  \n• FCC已將所有外國無人機公司列入受限名單，禁止其獲得無線電設備的授權，並且有權追溯禁止已獲授權的產品。  \n• FCC要求這些公司在7月20日之前回應其問題，否則將採取進一步行動。"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTDI4WnJQY1UzQVd1QjZQMXRFUkM2SHdzNV9EYmd2cTQ2a1h3cTN0NTlza0JSMWFlbFhibmY0SnVRSHU0U2ZsRGpoMEhMamd5RXNZUXZRVUJRQnVzVGhtajFJbHdXSUtjNy1iOGpTODU3dG5YLUphaGlYRDRXLUZSdXF2U3laZDhaeTVvalFJbjlGOGJYaTFFdnRuMUJmZXE3U1Z0LTRxaUtiNTNnQnQ2bGdDZEVhUzV4OHdBVlBTSVVBdw?oc=5",
+    "title": "US insists Iran commit to stopping attacks in Hormuz strait, say US officials - Reuters",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTDI4WnJQY1UzQVd1QjZQMXRFUkM2SHdzNV9EYmd2cTQ2a1h3cTN0NTlza0JSMWFlbFhibmY0SnVRSHU0U2ZsRGpoMEhMamd5RXNZUXZRVUJRQnVzVGhtajFJbHdXSUtjNy1iOGpTODU3dG5YLUphaGlYRDRXLUZSdXF2U3laZDhaeTVvalFJbjlGOGJYaTFFdnRuMUJmZXE3U1Z0LTRxaUtiNTNnQnQ2bGdDZEVhUzV4OHdBVlBTSVVBdw?oc=5\" target=\"_blank\">US insists Iran commit to stopping attacks in Hormuz strait, say US officials</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+    "full_text": "",
+    "source": "Reuters (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-10T21:36:03+00:00",
+    "crawled": "2026-07-10T23:35:05.128061+00:00",
+    "summarized": true,
+    "ai_summary": "• 美國官員強調伊朗必須承諾停止在霍爾木茲海峽的攻擊行為  \n• 此言論是在美國與伊朗之間的緊張局勢加劇之際發表的  \n• 霍爾木茲海峽是全球重要的石油運輸通道  \n• 美國希望透過外交手段降低該地區的衝突風險",
+    "summaries": {
+      "zh-HK": "• 美國官員強調伊朗必須承諾停止在霍爾木茲海峽的攻擊行為  \n• 此言論是在美國與伊朗之間的緊張局勢加劇之際發表的  \n• 霍爾木茲海峽是全球重要的石油運輸通道  \n• 美國希望透過外交手段降低該地區的衝突風險"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNmRTRTU1SVQyc05BT2JHSGRkZ0JQaFI5WjVraUplNlJaQVUzUk1jeHp2eE9WQ191SkRkSDRZZjJiVWtBZHg2VXdCWW9jV0xNLXR4QzhQak5NSDd6QVp5dWtFbl95TGVwVDhBRGV3V05CWGV0U2JVeU52OW1XSHhkVENveUdMSEF4Um8yc1B0cVphckZzd0dOZ0l5VHlVdHdEYXRrem4tNzlmSEJKZUNkRDJCMjhBSG5x?oc=5",
+    "title": "US pain at the pump worsens after more US-Iran fighting lifts oil prices - Reuters",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNmRTRTU1SVQyc05BT2JHSGRkZ0JQaFI5WjVraUplNlJaQVUzUk1jeHp2eE9WQ191SkRkSDRZZjJiVWtBZHg2VXdCWW9jV0xNLXR4QzhQak5NSDd6QVp5dWtFbl95TGVwVDhBRGV3V05CWGV0U2JVeU52OW1XSHhkVENveUdMSEF4Um8yc1B0cVphckZzd0dOZ0l5VHlVdHdEYXRrem4tNzlmSEJKZUNkRDJCMjhBSG5x?oc=5\" target=\"_blank\">US pain at the pump worsens after more US-Iran fighting lifts oil prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+    "full_text": "",
+    "source": "Reuters (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "Trading",
+    "published": "2026-07-10T20:42:04+00:00",
+    "crawled": "2026-07-10T23:35:05.450380+00:00",
+    "summarized": true,
+    "ai_summary": "• 美國與伊朗之間的衝突加劇，導致油價上升，影響美國消費者的燃油成本  \n• 根據報導，油價在近期達到多個月以來的高點  \n• 消費者在加油站的支出增加，對經濟造成壓力  \n• 專家指出，持續的地緣政治緊張局勢可能會進一步影響油市動態",
+    "summaries": {
+      "zh-HK": "• 美國與伊朗之間的衝突加劇，導致油價上升，影響美國消費者的燃油成本  \n• 根據報導，油價在近期達到多個月以來的高點  \n• 消費者在加油站的支出增加，對經濟造成壓力  \n• 專家指出，持續的地緣政治緊張局勢可能會進一步影響油市動態"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMzBnanROMm9oZnlDWHpSc2tSdzlEYlpKQzJwZlNtOFZEVUNIZGphWkplRGFBYUpmVGJDNWhTS2ZtZTRCTHQ1TlFRSGtEaTdZTDNIRVRHaVVQVmtiVFpTYllJOWpKVkoyMUpLTkdhQ28tZGdodTZFeUlGWFc2T0FBQWdDQUx5MWVHbm9GTWhndEtyVVdUVWIyNEdRZ0FlOFgyMHhF?oc=5",
+    "title": "Meteorologists warn week ahead in US will have dangerous temps: 'Heat is not to be played with' - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPMzBnanROMm9oZnlDWHpSc2tSdzlEYlpKQzJwZlNtOFZEVUNIZGphWkplRGFBYUpmVGJDNWhTS2ZtZTRCTHQ1TlFRSGtEaTdZTDNIRVRHaVVQVmtiVFpTYllJOWpKVkoyMUpLTkdhQ28tZGdodTZFeUlGWFc2T0FBQWdDQUx5MWVHbm9GTWhndEtyVVdUVWIyNEdRZ0FlOFgyMHhF?oc=5\" target=\"_blank\">Meteorologists warn week ahead in US will have dangerous temps: 'Heat is not to be played with'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-10T16:27:00+00:00",
+    "crawled": "2026-07-10T23:35:06.379542+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcmZRZXlqbDYzSFB0bjNhc0dmVWNwZEwzVGk1OEduano1REQteFlvdm45ZWprcEpKNi05WXZMZHVUUXg4dGlqS1RkRGY0NWJxZTY3VXU5dHB3YTloUVFPZjR4bDQ1M1BZbV9kQmRuUkJ4UVNBRzJZLTRLbTE4dFpHQVYxaEllYi11Vng1eDdXSE96ZWNXNV9HUjBobw?oc=5",
+    "title": "What to know about the fatal shooting of a Houston man by an ICE officer - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQcmZRZXlqbDYzSFB0bjNhc0dmVWNwZEwzVGk1OEduano1REQteFlvdm45ZWprcEpKNi05WXZMZHVUUXg4dGlqS1RkRGY0NWJxZTY3VXU5dHB3YTloUVFPZjR4bDQ1M1BZbV9kQmRuUkJ4UVNBRzJZLTRLbTE4dFpHQVYxaEllYi11Vng1eDdXSE96ZWNXNV9HUjBobw?oc=5\" target=\"_blank\">What to know about the fatal shooting of a Houston man by an ICE officer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-10T18:40:00+00:00",
+    "crawled": "2026-07-10T23:35:06.717752+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOU1hxOG03ckZKUlpWcjZEWEVjSkNiZ2N3eWl2aXdETXFiMnFyUzF5aE9RWDR1UGMzVE1hc19Mc2M5RkdmSEl5WklrNHl1bFd6bW5ZaDQyVlhrdGROaHVUVjFiY0xqWEFEM0xKVXM0dlNxelV1WWN3ZUJodEp4MEhtekRac2k?oc=5",
+    "title": "Trump will let bipartisan housing bill become law without signing in protest over GOP voter ID law - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOU1hxOG03ckZKUlpWcjZEWEVjSkNiZ2N3eWl2aXdETXFiMnFyUzF5aE9RWDR1UGMzVE1hc19Mc2M5RkdmSEl5WklrNHl1bFd6bW5ZaDQyVlhrdGROaHVUVjFiY0xqWEFEM0xKVXM0dlNxelV1WWN3ZUJodEp4MEhtekRac2k?oc=5\" target=\"_blank\">Trump will let bipartisan housing bill become law without signing in protest over GOP voter ID law</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-10T15:59:00+00:00",
+    "crawled": "2026-07-10T23:35:07.045357+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeGJ1V0ZLTVFFNEEyX0RueDhyUEN5RngtM0RYYllYWDh4VTVJdzdqV2tOTmc1ZHdVMEczcDVzZ0F0S0ctakdvNGk0NjRrcnJTaDluUmxVVk0wM29ndUJPM3hTdGw0T0dldVRMSGJqN2lUWEZRSjRPR2l3MEFfM1g1SGtSVjRma0hMcmI5Z2ZXV3V6OE9hNTlqUXBn?oc=5",
+    "title": "Berkeley Talks: When we talk to AI, what are we talking to? - University of California, Berkeley",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOeGJ1V0ZLTVFFNEEyX0RueDhyUEN5RngtM0RYYllYWDh4VTVJdzdqV2tOTmc1ZHdVMEczcDVzZ0F0S0ctakdvNGk0NjRrcnJTaDluUmxVVk0wM29ndUJPM3hTdGw0T0dldVRMSGJqN2lUWEZRSjRPR2l3MEFfM1g1SGtSVjRma0hMcmI5Z2ZXV3V6OE9hNTlqUXBn?oc=5\" target=\"_blank\">Berkeley Talks: When we talk to AI, what are we talking to?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of California, Berkeley</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "Ai",
+    "published": "2026-07-10T23:22:09+00:00",
+    "crawled": "2026-07-10T23:35:08.459847+00:00",
+    "summarized": true,
+    "ai_summary": "• 加州大學伯克利分校舉辦了一場名為「當我們與AI對話時，我們在與誰對話？」的講座  \n• 講座探討了人工智能的本質及其與人類溝通的方式  \n• 活動吸引了學者和學生參加，促進了對AI技術的深入討論  \n• 此次講座旨在提高公眾對AI倫理和社會影響的認識",
+    "summaries": {
+      "zh-HK": "• 加州大學伯克利分校舉辦了一場名為「當我們與AI對話時，我們在與誰對話？」的講座  \n• 講座探討了人工智能的本質及其與人類溝通的方式  \n• 活動吸引了學者和學生參加，促進了對AI技術的深入討論  \n• 此次講座旨在提高公眾對AI倫理和社會影響的認識"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBFWk5ubDBIVkRNdC0zZkhuSzFtc1pWNU1tZW1ZdWpmRi1aVFRiSUZ3eDB6X3BXcmF2NXhWZ0xMeVptRThDNjhRX01FaW9hMlJKanlBNzgzVGw3eV9ZTzRHQ0FZX0huckxQN3J4VXJKREROc2RGZ0VKa0Z6VjE?oc=5",
+    "title": "AI and the future of acceptable use policies - McAfee & Taft",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTFBFWk5ubDBIVkRNdC0zZkhuSzFtc1pWNU1tZW1ZdWpmRi1aVFRiSUZ3eDB6X3BXcmF2NXhWZ0xMeVptRThDNjhRX01FaW9hMlJKanlBNzgzVGw3eV9ZTzRHQ0FZX0huckxQN3J4VXJKREROc2RGZ0VKa0Z6VjE?oc=5\" target=\"_blank\">AI and the future of acceptable use policies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">McAfee & Taft</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "Ai",
+    "published": "2026-07-10T20:03:45+00:00",
+    "crawled": "2026-07-10T23:35:08.789536+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeWtGRVlvQTA3OXBzNEI1YUZSN3duYzN1OXZQNGNDUmg1T1Z6eGNwbXNhQl81a3liMjAxQlB0QzlGZlBnZ3FWZ19waDZDZm9lczl4THlPTzAzdF9ja2haZkdGS1NKbmxrQ3FLZmlWdTRJVEVxczJKVnFEeG9OaUk5ekFGNEEwUjlwN0E?oc=5",
+    "title": "Apple sues OpenAI, alleging artificial intelligence company stole trade secrets - The Guardian",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPeWtGRVlvQTA3OXBzNEI1YUZSN3duYzN1OXZQNGNDUmg1T1Z6eGNwbXNhQl81a3liMjAxQlB0QzlGZlBnZ3FWZ19waDZDZm9lczl4THlPTzAzdF9ja2haZkdGS1NKbmxrQ3FLZmlWdTRJVEVxczJKVnFEeG9OaUk5ekFGNEEwUjlwN0E?oc=5\" target=\"_blank\">Apple sues OpenAI, alleging artificial intelligence company stole trade secrets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-10T22:33:00+00:00",
+    "crawled": "2026-07-10T23:35:09.091212+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IeFh0cjhSM2NST0YzUjBLSHhfOXlPZkNpZTUzTXlOTDdMVXBoc2dlYnZHY01IbEl3ZzRtR2pwQk43VkNoVlJVc01jUFFrT3Y3dHFhSjZ3OVVYWVhGUnRiLVlqWTFwWHFi?oc=5",
+    "title": "University of Chicago cutting use of AI by banning technology in classrooms for first-year law students - CBS News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IeFh0cjhSM2NST0YzUjBLSHhfOXlPZkNpZTUzTXlOTDdMVXBoc2dlYnZHY01IbEl3ZzRtR2pwQk43VkNoVlJVc01jUFFrT3Y3dHFhSjZ3OVVYWVhGUnRiLVlqWTFwWHFi?oc=5\" target=\"_blank\">University of Chicago cutting use of AI by banning technology in classrooms for first-year law students</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS News</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "Ai",
+    "published": "2026-07-10T22:55:04+00:00",
+    "crawled": "2026-07-10T23:35:09.404680+00:00",
+    "summarized": true,
+    "ai_summary": "• 芝加哥大學決定禁止在法學院一年級學生的課堂上使用人工智能技術  \n• 此措施旨在促進學生的批判性思維和法律分析能力  \n• 學校表示，這一禁令將於新學年開始時生效  \n• 芝加哥大學是首個對法學院學生全面禁止使用AI的高等教育機構",
+    "summaries": {
+      "zh-HK": "• 芝加哥大學決定禁止在法學院一年級學生的課堂上使用人工智能技術  \n• 此措施旨在促進學生的批判性思維和法律分析能力  \n• 學校表示，這一禁令將於新學年開始時生效  \n• 芝加哥大學是首個對法學院學生全面禁止使用AI的高等教育機構"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRWFvYVo5clVpUUl2c2xQWFRBUXJ6d2lUYjVRcS1VVmJFWGdhdXlUdFZvTnJQRUQ2cU5LRFltbDFiWFZ3MUZLMGZWMlJkekEzb1k1N2NxaFZUcEU0elBHYmpYZmdWdWo5RDk1V1BqNlAtTGZ5YmZ4M3hxTy1MN2xSYklmOWpmeHN2aU84WENJVWtaNWp1MXpZeXFXVktYelBYZVdzRE96aDIwTjJEbEZuMUtOdEpCbmM?oc=5",
+    "title": "New AI-powered FFR tech shows potential - Cardiovascular Business",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQRWFvYVo5clVpUUl2c2xQWFRBUXJ6d2lUYjVRcS1VVmJFWGdhdXlUdFZvTnJQRUQ2cU5LRFltbDFiWFZ3MUZLMGZWMlJkekEzb1k1N2NxaFZUcEU0elBHYmpYZmdWdWo5RDk1V1BqNlAtTGZ5YmZ4M3hxTy1MN2xSYklmOWpmeHN2aU84WENJVWtaNWp1MXpZeXFXVktYelBYZVdzRE96aDIwTjJEbEZuMUtOdEpCbmM?oc=5\" target=\"_blank\">New AI-powered FFR tech shows potential</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cardiovascular Business</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "Ai",
+    "published": "2026-07-10T19:40:45+00:00",
+    "crawled": "2026-07-10T23:35:09.715697+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWHpkNlRfcjh4a2R1VG1MR3dSSkdMTnVxTFFTZFVtcGhrOWZJak9fUVo0RjgxRS0tUDhrUnFwdXNpZHhVX0JsaUpQLTJzNTdSRVE5c010cU5UU3lyU2p4ekxCR2RDUjNXYTEzRzFWNkNWMXpibVJfMnUxNW5xLUFfYll5VGVXWnJsNzRtZDd3UFBlSkk?oc=5",
+    "title": "Texomans weigh AI design tools against the human touch - KXII",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPWHpkNlRfcjh4a2R1VG1MR3dSSkdMTnVxTFFTZFVtcGhrOWZJak9fUVo0RjgxRS0tUDhrUnFwdXNpZHhVX0JsaUpQLTJzNTdSRVE5c010cU5UU3lyU2p4ekxCR2RDUjNXYTEzRzFWNkNWMXpibVJfMnUxNW5xLUFfYll5VGVXWnJsNzRtZDd3UFBlSkk?oc=5\" target=\"_blank\">Texomans weigh AI design tools against the human touch</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KXII</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "Ai",
+    "published": "2026-07-10T20:50:29+00:00",
+    "crawled": "2026-07-10T23:35:10.063857+00:00",
+    "summarized": true,
+    "ai_summary": "• 德克薩斯州的設計師正在評估人工智能設計工具與人類創意之間的平衡  \n• 許多設計師認為人工智能可以提高效率，但仍需人類的創意和判斷  \n• 設計師在使用人工智能工具時，面臨著保持個人風格和創意的挑戰  \n• 專家指出，人工智能的發展可能會改變設計行業的未來，但人類的觸感仍然重要",
+    "summaries": {
+      "zh-HK": "• 德克薩斯州的設計師正在評估人工智能設計工具與人類創意之間的平衡  \n• 許多設計師認為人工智能可以提高效率，但仍需人類的創意和判斷  \n• 設計師在使用人工智能工具時，面臨著保持個人風格和創意的挑戰  \n• 專家指出，人工智能的發展可能會改變設計行業的未來，但人類的觸感仍然重要"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX3NwZWlObXJ3YkJ5TUN3dzBDRHVxT3JkRk9aSXJSd2pLby1IUUwxVEl0S2FaZG5QSXYxTWl6dWVOZzRhbWc4RVNwZExmakRHU3VrNVF0S1JqZ0xoX1VFcXNzRHYwMDB0TXdWQ1JWNDhfdEtPVEdxZWNnUkFOUlJPVHh6eEJrWXIwOElYdFVjejNQcVlzbkp3Y2dyOGJGY1Qw?oc=5",
+    "title": "SK Hynix rises 14% in biggest-ever foreign share sale in US - Nikkei Asia",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNX3NwZWlObXJ3YkJ5TUN3dzBDRHVxT3JkRk9aSXJSd2pLby1IUUwxVEl0S2FaZG5QSXYxTWl6dWVOZzRhbWc4RVNwZExmakRHU3VrNVF0S1JqZ0xoX1VFcXNzRHYwMDB0TXdWQ1JWNDhfdEtPVEdxZWNnUkFOUlJPVHh6eEJrWXIwOElYdFVjejNQcVlzbkp3Y2dyOGJGY1Qw?oc=5\" target=\"_blank\">SK Hynix rises 14% in biggest-ever foreign share sale in US</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>",
+    "full_text": "",
+    "source": "Nikkei Asia",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-10T15:54:00+00:00",
+    "crawled": "2026-07-10T23:35:11.224029+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZlpYcUJrWWhJTG5tcnYtdzN1Ymh6T0ZPdzlWOTN0Ry1YbXRydGJGRllLLW5FeEo1c1UwZnRFUFVPWlJlVThkTTJIcmQxSy1xX0tHbGQyTFI3dHZDSkQyXzBkZE5fcTEyMVhUcFRqak4xMnlNNU56Uno2OTcyVUpOT3pOV0xFUm1hYlhoVGJCd1daUVl5UU94Q2NR?oc=5",
+    "title": "Le Ly Hayslip's journey from war survivor to peacemaker - Nikkei Asia",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQZlpYcUJrWWhJTG5tcnYtdzN1Ymh6T0ZPdzlWOTN0Ry1YbXRydGJGRllLLW5FeEo1c1UwZnRFUFVPWlJlVThkTTJIcmQxSy1xX0tHbGQyTFI3dHZDSkQyXzBkZE5fcTEyMVhUcFRqak4xMnlNNU56Uno2OTcyVUpOT3pOV0xFUm1hYlhoVGJCd1daUVl5UU94Q2NR?oc=5\" target=\"_blank\">Le Ly Hayslip's journey from war survivor to peacemaker</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>",
+    "full_text": "",
+    "source": "Nikkei Asia",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-10T22:54:00+00:00",
+    "crawled": "2026-07-10T23:35:11.541815+00:00",
+    "summarized": true,
+    "ai_summary": "• 李莉·海斯利普是一位越南戰爭倖存者，後來成為和平倡導者。  \n• 她的故事包括在戰爭中失去家庭和面對困難的經歷。  \n• 海斯利普致力於促進越南與美國之間的和解與理解。  \n• 她的努力獲得了國際關注，並在多個平台上分享她的經歷。",
+    "summaries": {
+      "zh-HK": "• 李莉·海斯利普是一位越南戰爭倖存者，後來成為和平倡導者。  \n• 她的故事包括在戰爭中失去家庭和面對困難的經歷。  \n• 海斯利普致力於促進越南與美國之間的和解與理解。  \n• 她的努力獲得了國際關注，並在多個平台上分享她的經歷。"
+    }
   }
 ]
