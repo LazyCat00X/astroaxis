@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Git pre-push hook — run validation before push
-# If validation fails, push is aborted
 # Skip with: git push --no-verify
 
 set -e
