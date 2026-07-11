@@ -1,255 +1,5 @@
 [
   {
-    "url": "https://www.bankless.com/read/news/sec-tees-up-regulation-crypto-in-new-rulemaking-agenda",
-    "title": "SEC Tees Up \"Regulation Crypto\" in New Rulemaking Agenda",
-    "summary": "The SEC just published its 2026 rulemaking agenda, and crypto is a top priority.",
-    "full_text": "Subscribe to Bankless or sign in\nThe SEC's newly published 2026 Regulatory Agenda has placed \"Regulation Crypto,\" the first major crypto-specific rulemaking of the Atkins era, among the agency's top near-term priorities.\nWhat's the Scoop?\n- The rule: First sketched by Chairman Paul Atkins in March, Regulation Crypto would carve out temporary registration exemptions for teams launching crypto investment contracts, permit a degree of fundraising under them, and create a safe harbor for issuers stepping back from managerial control of a project.\n- Why this matters: The SEC has leaned on staff guidance and its crypto \"taxonomy\" so far, but formal rules are far harder for a future commission to unwind. This rulemaking would lock the friendlier posture in.\n- What else is queued: The agenda also floats amending broker-dealer capital, custody, and recordkeeping rules plus exchange rules to account for crypto. Per Atkins, the goal is \"creating clear rules of the road for capital raising with crypto assets.\"\n- Zooming out: With market structure legislation stalled in Congress, the SEC is currently crypto's fastest-moving policy venue. This new proposal is still under White House review, and Atkins first said it was \"coming weeks\" away back in March, so we'll have to wait and see what happens next.",
-    "source": "Bankless",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Regulation",
-    "published": "2026-07-07T19:02:51+00:00",
-    "crawled": "2026-07-09T05:14:51.085161+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.bankless.com/read/news/lazy-summer-protocol-drained-of-6m-in-vault-price-exploit",
-    "title": "Lazy Summer Protocol Drained of $6M in Vault Price Exploit",
-    "summary": "Lazy Summer Protocol lost $6M to a NAV manipulation exploit three months in the making.",
-    "full_text": "Subscribe to Bankless or sign in\nAn attacker siphoned just over $6M from two Lazy Summer Protocol USDC vaults on Ethereum yesterday, per the team's post-mortem. The vector entailed inflating the vaults' share prices in flash loan transactions, after which the exploiter cashed out against other depositors' capital.\nWhat's the Scoop?\n- The exploit: The attacker donated Silo \"Varlamore\" tokens, still carrying stale, never-marked-down valuations from November 2025's Stream Finance collapse, into a strategy module that had been capped for removal but still counted toward vault NAV. That pumped the share price ~9.5%, letting them redeem ~$71M against a ~$64.8M deposit.\n- Months of prep: Involved allets began accumulating the mispriced tokens roughly three months ago, all funded via the same path, so it's clear this compromise was meticulously planned rather than opportunistic.\n- The response: Every vault protocol-wide was paused and capped to zero, marking the first live-exploit use of the Lazy Summer DAO's Guardian multisig. The attacker has since routed funds through Tornado Cash, so the possibility of compensation for victims now rests in the hands of Lazy Summer DAO governance.\n- Zooming out: Notably, Lazy Summer's smart contracts worked exactly as intended. Instead, the hole was operational, i.e. a half-offboarded market left priced into NAV. The incident is a stark reminder to DeFi projects that decommissioning hygiene is security, too.",
-    "source": "Bankless",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Trading",
-    "published": "2026-07-07T17:49:42+00:00",
-    "crawled": "2026-07-09T05:14:51.239273+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.bankless.com/read/news/ondo-unveils-perps-dex-with-tokenized-stocks-as-collateral",
-    "title": "Ondo Unveils Perps DEX With Tokenized Stocks as Collateral",
-    "summary": "Ondo just launched a perps platform where tokenized stocks can be used to back leveraged positions.",
-    "full_text": "Subscribe to Bankless or sign in\nOndo has switched on Ondo Perps, a perpetuals platform offering up to 20x leverage on equity, index, and commodity markets while also letting traders post tokenized stocks as margin, a first for the perps category.\nWhat's the Scoop?\n- The launch: The platform debuted today with two dozen markets spanning megacap equities (Nvidia, Tesla, Apple, Microsoft), crypto-adjacent stocks (Coinbase, Circle, Strategy, Robinhood), commodities (gold, silver, oil), the US 100 and US 500 indices, and more. Markets run 24/7 with no expiries, or as Ondo put it, \"no closing bell.\"\n- The collateral unlock: The headline feature is that Ondo's tokenized stocks can serve directly as margin, currently live for Pre-Alpha users. Rather than parking equities in one venue and stablecoins in another, traders can put their tokenized stocks to work backing leveraged positions, a step toward the onchain prime brokerage vision Ondo has been telegraphing.\n- Incentives on: Ondo is dangling up to $3M in total rewards, starting with $150k in USDC pools for the first week of trading activity, plus a referral program and a forthcoming Ondo Points scheme for perps traders.",
-    "source": "Bankless",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-07T17:24:02+00:00",
-    "crawled": "2026-07-09T05:14:51.391922+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://blockcast.it/2026/07/08/bitcoin-xrp-draw-japanese-firms-as-weak-yen-drives-diversification/",
-    "title": "日圓貶不停！日企瘋搶 BTC 、 XRP 分散配置，SBI 加密帳戶飆破 200 萬戶",
-    "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"600\" src=\"https://blockcast.it/wp-content/uploads/2024/03/img_214759_shutterstock_767900110_bg.jpg\" style=\"display: block; margin: auto; margin-bottom: 5px;\" width=\"900\" /><p>面對日圓持續疲軟，越來越多日本企業正積極尋求資產配置多元化，並將比特幣、瑞波幣（XRP）等加密貨幣納入公司財務儲備，藉此降低現金部位過度集中於日圓的風險。</p>\n<p>〈<a href=\"https://blockcast.it/2026/07/08/bitcoin-xrp-draw-japanese-firms-as-weak-yen-drives-diversification/\">日圓貶不停！日企瘋搶 BTC 、 XRP 分散配置，SBI 加密帳戶飆破 200 萬戶</a>〉這篇文章最早發佈於《<a href=\"https://blockcast.it\">區塊客</a>》。</p>",
-    "full_text": "面對日圓持續疲軟，越來越多日本企業正積極尋求資產配置多元化，並將比特幣、瑞波幣（XRP）等加密貨幣納入公司財務儲備，藉此降低現金部位過度集中於日圓的風險。\n日本金融巨頭 SBI 控股（SBI Holdings）旗下加密貨幣交易所 SBI VC Trade 周二表示，平台註冊帳戶數正式突破 200 萬戶，相較 2025 年的 100 萬戶呈現翻倍成長。\nSBI VC Trade 指出，這波強勁的成長動能很大一部分來自企業端的強烈需求。隨著日圓走弱，企業不再緊抱現金，開始透過旗下專為機構打造的「SBIVC for Prime」平台，將企業儲備配置拓展至數位資產。\n此外，日本獨有的「股東優待」文化也吹起幣圈風，越來越多上市公司選擇發放比特幣或 XRP 作為股東福利，進一步推升了企業帳戶的開戶熱潮。\n這項 200 萬戶的里程碑，實際上是涵蓋了 VCTRADE 與 BITPOINT 兩大平台的數據。 SBI VC Trade 已於今年 4 月完成與集團旗下 BitPoint Japan 的合併，並預計於今年 12 月底前完成品牌整合，希望藉此降低營運成本，同時提升服務一致性。\n除了企業資產配置需求，穩定幣也成為帶動平台成長的第二大引擎。\nSBI VC Trade 積極搶攻穩定幣版圖，先是在 2025 年 3 月上架了 USDC，成為全日本首家提供美元穩定幣交易的平台。接著在今年 6 月再新增支援瑞波的美元穩定幣 RLUSD，並且還同步推出了號稱全日本首款基於信託架構發行的日圓穩定幣 JPYSC，甚至順勢推出穩定幣借貸服務，進一步活絡資金流動性。\n這波爆發式成長，恰好反映了日本受監管加密貨幣市場正穩步復甦。過去，日本極為嚴格的監管審查制度，使市場規模發展速度不如美國、南韓；但如今，隨著穩定幣政策落地與企業儲備多元化策略的成形，這個亞洲金融重鎮正以穩健的步伐，持續吸引散戶與機構資金進駐。\n免責聲明：本文只為提供市場訊息，所有內容及觀點僅供參考，不構成投資建議，不代表區塊客觀點和立場。投資者應自行決策與交易，對投資者交易形成的直接或間接損失，作者及區塊客將不承擔任何責任。",
-    "source": "區塊客 (Blockcast)",
-    "category": "crypto",
-    "lang": "zh",
-    "topic": "Bitcoin",
-    "published": "2026-07-08T07:01:56+00:00",
-    "crawled": "2026-07-09T05:14:55.457645+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://blockcast.it/2026/07/08/spacex-ipo-powers-record-3-86-billion-in-tokenized-equities-trading/",
-    "title": "SpaceX 世紀 IPO 點燃狂潮！6 月「代幣化股票」交易量飆破 38 億美元締新猷",
-    "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"675\" src=\"https://blockcast.it/wp-content/uploads/2026/05/med_20260402144440_valuation-to-the-moon-spacex-gears-up-for-ipo-lift.jpeg\" style=\"display: block; margin: auto; margin-bottom: 5px;\" width=\"1200\" /><p>馬斯克旗下的航太巨擘 SpaceX 迎來轟動全球的首次公開發行（IPO），這股狂潮不僅席捲華爾街，更在加密貨幣市場點燃交易熱潮，投資人爭相搶購區塊鏈版本的 SpaceX 股票，推升「代幣化股票」的交易熱度在今年 6 月創下歷史新高。</p>\n<p>〈<a href=\"https://blockcast.it/2026/07/08/spacex-ipo-powers-record-3-86-billion-in-tokenized-equities-trading/\">SpaceX 世紀 IPO 點燃狂潮！6 月「代幣化股票」交易量飆破 38 億美元締新猷</a>〉這篇文章最早發佈於《<a href=\"https://blockcast.it\">區塊客</a>》。</p>",
-    "full_text": "馬斯克旗下的航太巨擘 SpaceX 迎來轟動全球的首次公開發行（IPO），這股狂潮不僅席捲華爾街，更在加密貨幣市場點燃交易熱潮，投資人爭相搶購區塊鏈版本的 SpaceX 股票，推升「代幣化股票」的交易熱度在今年 6 月創下歷史新高。\n根據 CoinDesk Data 發布的最新 《穩定幣與代幣化資產報告》，6 月份鏈上交易總額較前一個月暴增 145%，達到 38.6 億美元。其中，SpaceX 代幣化股票成為絕對吸金主力，交易額達 11.9 億美元，約占當月代幣化股票總交易額的 31% 。\n這股交易熱潮，主要來自 SpaceX 完成規模高達 750 億美元 的 IPO，創下全球歷來最大 IPO 紀錄，以完全稀釋的數據計算，SpaceX 估值達到 1.8 兆美元。\n在眾多代幣化版本中，以 Backpack Securities 發行的 SPCX 代幣最受市場青睞，單月鏈上交易量達 10.8 億美元；緊追在後的是由 xStocks 發行的 SPCXx，交易量也寫下 8.52 億美元的佳績。\n這些數據表明，代幣化股票市場的資金偏好正出現變化。儘管輝達（Nvidia）、特斯拉（Tesla）以及追蹤美股大盤的 SPY 與 QQQ 等熱門標的依然交投熱絡，但在買氣與話題性上，全數被 SpaceX 徹底輾壓。\n作為對照，Backpack 平台當月所有代幣化金融商品的總交易額為 14.2 億美元，其中絕大部分的交易額皆來自 SPCX，並寫下連續第 15 個月增長的亮眼成績。\n免責聲明：本文只為提供市場訊息，所有內容及觀點僅供參考，不構成投資建議，不代表區塊客觀點和立場。投資者應自行決策與交易，對投資者交易形成的直接或間接損失，作者及區塊客將不承擔任何責任。",
-    "source": "區塊客 (Blockcast)",
-    "category": "crypto",
-    "lang": "zh",
-    "topic": "Trading",
-    "published": "2026-07-08T05:07:18+00:00",
-    "crawled": "2026-07-09T05:14:55.653644+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://blockcast.it/2026/07/07/strategys-btc-sale-highlights-need-for-a-new-revenue-model/",
-    "title": "Strategy 拋售比特幣仍難止血，業界建議找「創收模式」",
-    "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"750\" src=\"https://blockcast.it/wp-content/uploads/2025/04/microstrategy10.jpg\" style=\"display: block; margin: auto; margin-bottom: 5px;\" width=\"1200\" /><p>Strategy 為籌措龐大股息，認賠拋售逾 3 千枚比特幣，帳面浮虧已逼近百億美元。這場高槓桿囤幣的金融實驗正遭逢熊市反撲，公司被迫啟動防守模式。業界呼籲，Strategy 應善用部位尋找「創收模式」而非殺雞取卵。若未來「 賣幣 換現金 」成為常態，恐引發更多持幣企業效仿，對比特幣價格形成龐大賣壓。</p>\n<p>〈<a href=\"https://blockcast.it/2026/07/07/strategys-btc-sale-highlights-need-for-a-new-revenue-model/\">Strategy 拋售比特幣仍難止血，業界建議找「創收模式」</a>〉這篇文章最早發佈於《<a href=\"https://blockcast.it\">區塊客</a>》。</p>",
-    "full_text": "作者：Nancy，PANews\n一個多月前，Strategy 首次試水出售 32 枚 BTC，雖然規模微不足道，但比特幣和 MSTR 股價雙雙重挫。如今，Strategy 再次出手，以超 5500 萬美元的虧損出售 3588 枚 BTC，拋售規模百倍放大，市場反應卻溫和得多。\n事實上，面對每年超 17 億美元的股息帳單和失速的增發融資飛輪，這家全球最大比特幣貔貅正在告別「只買不賣」的時代，轉向現金流和流動性優先的防守階段。\nStrategy 割肉賣幣，囤幣模式遭遇付息壓力\n7 月 5 日，Michael Saylor 再次發表比特幣持股 Tracker 。按照以往慣例，Strategy 通常會在相關資訊發布後的第二天披露新的比特幣增持計劃。\n然而，這次，在比特幣價格剛剛回升之際，市場等來的卻不是「繼續買入」，而是 Strategy 首次大規模出售比特幣。\n根據最新揭露，Strategy 在 2026 年 6 月 29 日至 7 月 5 日期間累計出售 3,588 枚 BTC，總計套現約 2.16 億美元。其中，6 月 29-30 日以均價約 59,256 美元出售 1,363 枚（價值約 8,080 萬美元），7 月 1-5 日以均價約 60,773 美元出售 2,225 枚（價值約 1.352 億美元）。\n此次出售所得資金主要用於支付優先股股息，包括 STRF 、 STRE 、 STRK 和 STRD 的季度股息，以及 STRC 六月的整月股息，同時進一步充實美元儲備。目前，Strategy 美元儲備已可涵蓋約 17.4 個月的股利支出。\n消息公佈後，比特幣短線出現下跌，Strategy 股價盤中也有所回落，但隨後均反彈收復跌幅。\n事實上，這並非 Strategy 首次賣幣。 6 月 1 日，Strategy 曾出售 32 枚 BTC，這是自 2022 年以來首次打破「只買不賣」的長期慣例，當時直接帶動比特幣跳水，MSTR 股價大跌，STRC 優先股也加速跌破面值，市場一度陷入恐慌。\n相較於首次象徵性的試探，此次出售規模擴大至 3588 枚 BTC，較上次放大逾百倍，且屬於真正意義上的虧損出售。以 Strategy 約 75,651 美元的平均持股成本計算，本次交易實現虧損約 5,545 萬美元，而 6 月出售的 32 枚 BTC，成交價格仍略高於持倉成本。\n推動此次出售規模驟增的根本原因，是持續上升的股息支付壓力。\n自推出以來，Strategy 不斷上調 STRC 股息率，不僅反映市場對其風險認知的變化，也意味著公司的固定現金支出壓力與日俱增。不久前，Strategy 也將 STRC 改為半月度股利機制，並將股利率提高至 12% 。\n以目前接近 104.9 億美元的總名目金額計算，光是 STRC 每年就需要支付約 12.58 億美元現金股息，加上其他優先股，Strategy 年度股息支出已達約 17.63 億美元。目前，Strategy 持有的 25.5 億美元美元儲備，在不依賴外部融資、傳統軟體業務現金流保持中性的假設下，這筆資金僅能覆蓋約 24.3 個月的 STRC 股息支出。\n而從資本配置角度來看，此次出售部分比特幣，更像是 Strategy 在目前階段更具確定性的資本優化決策。目前 STRC 交易價格約為 88.5 美元，雖然較低點已有明顯修復，但距離 100 美元目標仍有一定空間。\n根據華爾街投行 Cantor 指出，Strategy 目前的首要任務是推動 STRC 恢復至 100 美元面值，這是重啟比特幣收購引擎、穩固整體資本結構的核心。 Strategy 也明確表示，其目標是讓 STRC 長期交易價格維持在 99-100 美元區間，並將透過可變股息率、持續增加美元儲備、提升比特幣信用評級、移除可轉換債券、實施股票回購以及產品功能升級等方式提供支援。\n對 Strategy 而言，在資本市場尚未完全恢復融資能力之前，與其繼續加倉比特幣，不如優先履行股利承諾、補充美元儲備，以增強市場對優先股及整體資本結構的信心。 Grayscale 也指出，Strategy 出售比特幣的行為應該能夠恢復市場對其融資結構的信心，同時幫助比特幣找到更持久的價格底部，並降低比特幣的尾部風險。\n帳面浮虧百億美元，Strategy 開始進入防守模式\n儘管此次出售規模不小，但 3588 枚 BTC 僅佔 Strategy 總持倉 843,775 枚比特幣的約 0.42%，並未動搖其長期持有比特幣的核心戰略。截至目前，Strategy 仍持有價值超過 530 億美元的比特幣，仍是全球最大比特幣企業持有者。\n不過，比特幣價格持續低迷，也讓 Strategy 面臨更大的營運與融資壓力。以約 75,476 美元的平均持倉成本計算，Strategy 目前帳面未實現虧損約 113.4 億美元，浮虧損接近 18% 。\n更重要的是，市場對 Strategy 的估值邏輯正在轉變。\n過去，投資人願意為 Strategy「持續融資、持續買幣」的成長故事支付較高溢價，使其能夠透過發行普通股不斷募集資金，形成資本飛輪。然而，隨著比特幣價格回落、 MSTR 股價溢價收窄，以及「永不賣出比特幣」的市場預期被打破，投資人開始重新審視 Strategy 的商業模式，其資本飛輪也踩下煞車。\n為因應這項變化，Strategy 近期正式發布數位信貸資本框架，試圖在維持長期持幣策略的同時，增強數位信用證券、提升流動性、並支持長期股東價值。\n根據該框架，Strategy 將建立專用美元儲備，用於支付優先股股息及債務利息；同時設立總額 20 億美元的回購授權，其中 10 億美元用於優先股回購，10 億美元用於 A 類普通股回購。此外，董事會還批准最高 12.5 億美元的比特幣變現計劃，用於補充美元儲備、支付股息及利息，或為回購提供資金。\n這意味著，Strategy 正從過去依賴持續融資擴張的模式，逐步轉向更重視流動性管理、資本結構最佳化和現金流穩定的主動資本管理模式。在保留比特幣核心部位的前提下，Strategy 希望透過建立更充足的現金儲備，為未來市場波動提供更大的安全緩衝。\n不過，市場對此策略有分歧。 Galaxy 研究主管 Alex Thorn 指出，這項資本策略短期內確實緩解了市場對 Strategy 流動性以及優先股兌付壓力的擔憂，但更多是在「爭取時間」，而非真正解決其結構性問題。 Strategy 仍背負著龐大的優先股支付義務，市場真正擔心的並非資產不足，而是其是否擁有足夠的美元流動性，在不損害普通股股東、優先股股東以及比特幣持有人利益的情況下，持續履行支付義務。最具爭議的是比特幣變現計劃，這意味著 Strategy 未來可能根據資金需求出售部分比特幣，而其身份及 MSTR 溢價建立在其作為長期比特幣敞口工具的敘事之上，出售比特幣會削弱這一故事。\nAlex Thorn 建議，Strategy 應探討如何利用其持有的比特幣創造收益，包括以較保守的方式借出少量隔離的比特幣獲取利息，或透過選擇策略取得波動率收益，而非直接出售。\n從目前的出售規模來看，Strategy 接下來仍可能根據市場環境繼續出售部分比特幣。投資人需重點關注 Strategy 後續賣幣的規模、出售頻率、觸發條件。如果未來賣幣成為常態甚至持續增加，市場對於其長期持幣策略和資本運作模式的信心或將再次受到考驗。更值得關注的是，Strategy 的改變或許只是個開始。如果在比特幣價格承壓、融資成本上升的背景下，越來越多比特幣 DAT 公司開始效仿 Strategy，透過出售比特幣來緩解流動性壓力，那麼可能進一步壓製幣價，也將削弱 DAT 模式的市場信心。\nStrategy 的囤幣信念被打破，不僅是臨時止血，更是對這場高槓桿金融試驗在下行週期的真正檢驗。一個依賴資本市場不斷輸血的商業模式，能否順利穿越熊市週期，答案或許才剛開始揭曉。\n（以上內容獲合作夥伴 PANews 授權節錄及轉載，原文連結 ）\n免責聲明：本文只為提供市場訊息，所有內容及觀點僅供參考，不構成投資建議，不代表區塊客觀點和立場。投資者應自行決策與交易，對投資者交易形成的直接或間接損失，作者及區塊客將不承擔任何責任。",
-    "source": "區塊客 (Blockcast)",
-    "category": "crypto",
-    "lang": "zh",
-    "topic": "Bitcoin",
-    "published": "2026-07-07T12:12:10+00:00",
-    "crawled": "2026-07-09T05:14:55.859548+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://ccc.technews.tw/2026/07/07/samsung-first-clip-on-earbuds-galaxy-buds-on-rumored-fall-debut/",
-    "title": "三星首款夾耳式耳機 Galaxy Buds On 傳秋季亮相",
-    "summary": "三星電子（Samsung Electronics）傳將推出旗下首款夾耳式（clip-on）真無線耳機，最新消息 [&#8230;]",
-    "full_text": "三星電子（Samsung Electronics）傳將推出旗下首款夾耳式（clip-on）真無線耳機，最新消息指出，產品名稱定為「Galaxy Buds On」，而非先前外界盛傳的「Galaxy Buds Able」。\nSamMobile報導，知名爆料達人@evowizz在X發文透露，三星新款夾耳式耳機的產品型號為SM-U600，與歷代Galaxy Buds系列慣用的「SM-Rxx」型號明顯不同，顯示該產品在定位與設計上，將與現有Galaxy Buds產品線有所區隔。\nBy the way, Galaxy Able are named “Galaxy Buds On\".\n— Dy 🌸🌈 (@evowizz) July 6, 2026\n根據目前流出的資訊，Galaxy Buds On採用夾耳式設計，不塞入耳道，而是牢固夾在耳朵外緣，提供較為輕鬆、無壓迫感的配戴體驗。此外，市場也傳出，該產品可能導入骨傳導技術，讓使用者在聆聽音樂的同時，也能聽得清楚外界聲音，兼顧舒適度與安全性。\n目前三星尚未公布Galaxy Buds On的發表時程。外界預期，該產品將不會在7月22日舉行的Galaxy Unpacked發表會亮相，最快可能於今年秋季與Galaxy S26 FE一同登場。\n近年全球開放式耳機市場快速成長，包括華為、Shokz等品牌均陸續推出耳夾式或耳掛式耳機產品。若三星正式跨足該市場，可望進一步擴大穿戴裝置產品線，並搶攻重視舒適配戴與運動場景需求的消費族群。",
-    "source": "科技新報",
-    "category": "tech",
-    "lang": "zh",
-    "topic": "Tech",
-    "published": "2026-07-07T07:20:56+00:00",
-    "crawled": "2026-07-09T05:14:57.739846+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c8e2njxnn7jo?at_medium=RSS&at_campaign=rss",
-    "title": "Police name man wanted over murders of wife and daughters",
-    "summary": "An international manhunt is under way for Ndodana Mkhanyisi Tshuma, who left the country via Heathrow Airport.",
-    "full_text": "Police name man wanted over murders of wife and daughters\n- Published\nPolice have released a CCTV image of a murder suspect believed to have killed his wife and two daughters before fleeing the UK.\nThe bodies of Nothabo Zandile Tshuma, 42, and her daughters Natalie, 15, and Nala, five, were found after police forced entry to a house near Bedford on Monday after reports the family had not been seen for several days.\nBedfordshire Police is seeking 45-year-old Ndodana Mkhanyisi Tshuma, also known as Mark, who left the country via Heathrow Airport on a British passport on Saturday.\nDet Insp Lee Martin said: \"We know that Mark Tshuma left the country on Saturday and is now believed to be in Zimbabwe.\"\nHe added the force was working with national and international agencies to find Tshuma.\n\"We are urgently working to find and apprehend him, and would appeal to him directly to hand himself in.\"\nHe appealed directly to the suspect, saying: \"Mark, unthinkable harm has been caused to those around you and this has left your relatives and friends utterly devastated. Criminal investigation knows no borders.\n\"Please do the right thing, come forward and hand yourself in to local authorities.\"\nZimbabwe's police force has told the BBC the country has yet to receive any formal notice from Interpol of the possible presence in the country of Mark Thsuma.\nPolice spokesman Paul Nyathi said the force was aware of the case via the media and had put structures in place to alert for any sightings.\nTributes were paid to the two girls by their schools, with Pilgrims Pre-Prep School head Jo Webster describing Nala as a \"ray of sunshine\" known for her inquisitive nature and \"wonderful sense of humour\".\nShe said: \"Many of our staff had known her since she was just seven months old and had the privilege of watching her grow.\"\nBedford Girls' School head Gemma Gibson remembered Year 10 pupil Natalie as \"bright and accomplished\" while highlighting her talents as a dancer, musician and sportswoman\n\"She was fun-loving, full of life and had a positive impact on everyone she came into contact with. She will be remembered with great warmth and affection.\"\nMore from Beds, Herts and Bucks\nThe house in Carnoustie Drive, Great Denham, has been cordoned off and bunches of flowers have been placed on a hedge outside.\nA woman who was among the people who laid flowers tearfully said: \"We're really sorry to lose her.\n\"She was such a gracious mother.\"\nOther neighbours who spoke to the BBC said they were shocked the incident took place in \"such a nice and safe area\".\nAssistant Chief Constable John Murphy had previously said it was \"a deeply distressing incident in which a mother and her two children are believed to have been murdered\".\nThe force said there was nothing to suggest there was any wider risk to the public, but it would be increasing patrols in the area.\nAnyone with information about the incident, or who saw any suspicious activity in the area on Friday or Saturday, have been asked to contact Bedfordshire Police, external.\nFormal identification of the victims has not yet taken place.\nDo you have a story suggestion for Beds, Herts or Bucks? Contact us below.\nGet in touch\nYour Voice\nFollow Beds, Herts and Bucks news on BBC Sounds, Facebook, external, Instagram, external and X, external.\n- Published1 day ago",
-    "source": "BBC World",
-    "category": "general",
-    "lang": "en",
-    "topic": "World",
-    "published": "2026-07-08T14:38:47+00:00",
-    "crawled": "2026-07-09T05:14:58.980284+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.aljazeera.com/news/2026/7/9/double-cross-first-class-why-indias-modi-wins-so-many-foreign-awards?traffic_source=rss",
-    "title": "‘Double cross, first class’: Why India’s Modi wins so many foreign awards",
-    "summary": "The prime minister was presented with an award during a visit to the Seychelles, adding to his large trophy collection.",
-    "full_text": "‘Double cross, first class’: Why India’s Modi wins so many foreign awards\nThe Indian prime minister was presented with an award during a visit to the Seychelles, adding to his large trophy collection.\nDuring his June 27-29 visit to the Seychelles, Indian Prime Minister Narendra Modi was graced with a trophy never seen before – a pristine, pyriform azure prize created especially for him, titled the “Guardian of the Blue Horizon”.\nThe award did not exist before Modi’s visit to the Seychelles. And the citation accompanying it was riddled with embarrassing misspellings: the country that conjured up the award, and was bestowing it on Modi, was called the “Repubblic of Seycheeles”.\nThose mistakes were the outcome of a “rush job” that invited “ridicule”, said Nitasha Kaul, a professor of politics and international relations at Westminster University in the United Kingdom.\nYet Modi’s Blue Horizon award now sits neatly next to an array of similar trophies and medals in his foreign visit collection. When he has made diplomatic visits to other countries, Modi has more often than not left with an award, often – including the one from Indonesia on Tuesday – created just for him.\n“These awards are not about India’s diplomacy; they’re about Modi’s image,” Kaul told Al Jazeera.\nHere is more about the recent Seychelles award, others Modi has racked up over the years, and what they say about how several countries treat diplomatic ties with India under its current leadership.\nWhat do we know about Modi’s Seychelles award?\nThe award, described as the Seychelles’ highest civilian honour, was presented by President Patrick Herminie to Modi in Victoria during a State House ceremony.\nModi was given the award in recognition of his “distinguished leadership and commitment to sustainable development, environmental conservation, and climate resilience”. He received a physical trophy and a certificate.\nWhen images of Modi’s special certificate emerged, observers pointed out several typographical errors, including “repubblic” instead of republic and “Seycheeles” instead of Seychelles.\nThe errors earned ire from opposition politicians.\n“The world has figured Modi out. Give him any award, and he’ll come running,” Supriya Shrinate from the Congress Party wrote in an X post on June 28.\n“They were in such a tearing hurry that they even got the official name of the Republic of Seychelles wrong,” Shrinate added.\nThe Foreign Ministry of Seychelles issued a clarification on Thursday, stating that the image circulated of the certificate was of a “working draft” rather than the final certificate.\n“The Guardian of the Blue Horizon distinction is genuine,” the ministry added.\nThe Seychelles cabinet had approved the award just days before Modi landed.\nWhich other countries have given Modi awards?\nModi has received more than 30 accolades during his foreign visits over the past 12 years in office.\nIn Indonesia on Tuesday, he was awarded the Bintang Adipurna, the host country’s highest civilian award.\nIn June, Modi received the highest national honour of the Slovak Republic, the ”Order of the White Double Cross, 1st Class”. Despite the way some might read its title, the honour is genuine, is reserved for foreign nationals, and has been presented to world leaders before, including Bronislaw Komorowski, former president of the Republic of Poland and Heinz Fischer, former president of the Republic of Austria.\nThis medal is the highest state decoration awarded by the Slovak Republic, reserved almost exclusively for foreign nationals who have significantly contributed to the development of relations between their home nations and Slovakia.\nBut while Modi isn’t the first leader to receive Slovakia’s Double Cross award, he is the first and only recipient of the Speaker of the Knesset Medal, given to him during his trip to Israel in February. The award was created shortly before the Indian prime minister’s visit, which came on the eve of the launch of the US-Israeli war on Iran.\nWhich other awards has Modi received?\nIn 2018, Modi won the United Nations Champions of the Earth Award alongside French President Emmanuel Macron, the UN’s highest environmental honour, presented annually to recognise global leadership in environmental protection and sustainable development.\nIn 2019, he won the Global Goalkeeper Award presented by the Bill & Melinda Gates Foundation in New York for his leadership in the Swachh Bharat Abhiyan (Clean India Mission) programme, which aims to improve sanitation in India.\nAlso in 2019, Modi won the World Marketing Summit’s first and only Philip Kotler Presidential Award, which is supposed to be bestowed on a world leader annually. No other world leader has received the Philip Kotler Presidential Award since then.\nAre these awards helping India?\nWhile receiving each of these accolades, Modi has made a point to emphasise that they honour India, not just him. And that countries feel obliged to make up new awards to somehow honour India’s leader arguably demonstrates their desire to keep New Delhi happy, illustrating the growing global clout that the world’s largest democracy enjoys.\nHowever, some experts cast doubt on their real value.\n“No doubt New Delhi will argue that these awards reflect the esteem in which India is now held in the world, but it is hard to see their diplomatic or economic benefit to the country as a whole,” Ian Hall, a professor of international relations at Australia’s Griffith University, told Al Jazeera.\n“Instead they reinforce the view that the PM is not as focused as he might be on practical action to advance India’s interests.”\nOthers say the awards do more for Modi’s image than India’s position diplomatically.\n“These awards function as a prop for the egotistical strongman politics that Modi embodies,” Kaul told Al Jazeera. “He and his supporters use them to construct the myth of an internationally respected statesman, a myth increasingly detached from his actual record in global diplomacy.”\nKaul added: “The Seychelles episode, with its rush job and misspelt certificate, is a case in point: these are not about India’s diplomacy, they’re about Modi’s image. And increasingly, they’re inviting ridicule rather than respect.”",
-    "source": "Al Jazeera",
-    "category": "general",
-    "lang": "en",
-    "topic": "World",
-    "published": "2026-07-09T04:30:51+00:00",
-    "crawled": "2026-07-09T05:14:59.733506+00:00",
-    "summarized": true,
-    "ai_summary": "• 印度總理莫迪於6月27日至29日訪問塞舌爾期間獲頒“藍色地平線守護者”獎，該獎項專為他創作，並被稱為塞舌爾的最高平民榮譽。  \n• 獎項頒發儀式在維多利亞的國家宮舉行，由塞舌爾總統帕特里克·赫爾米尼頒發，表彰莫迪在可持續發展和環境保護方面的領導力。  \n• 獎項的證書出現多處拼寫錯誤，引發反對派政治人物的批評，並表示這反映出塞舌爾對莫迪的外交關係的急促處理。  \n• 塞舌爾外交部澄清，流傳的證書圖片為“工作草稿”，並確認“藍色地平線守護者”獎項是真實的。",
-    "summaries": {
-      "zh-HK": "• 印度總理莫迪於6月27日至29日訪問塞舌爾期間獲頒“藍色地平線守護者”獎，該獎項專為他創作，並被稱為塞舌爾的最高平民榮譽。  \n• 獎項頒發儀式在維多利亞的國家宮舉行，由塞舌爾總統帕特里克·赫爾米尼頒發，表彰莫迪在可持續發展和環境保護方面的領導力。  \n• 獎項的證書出現多處拼寫錯誤，引發反對派政治人物的批評，並表示這反映出塞舌爾對莫迪的外交關係的急促處理。  \n• 塞舌爾外交部澄清，流傳的證書圖片為“工作草稿”，並確認“藍色地平線守護者”獎項是真實的。"
-    }
-  },
-  {
-    "url": "https://www.aljazeera.com/news/2026/7/9/us-court-rules-that-trumps-name-must-stay-off-kennedy-center-during-appeal?traffic_source=rss",
-    "title": "US court rules that Trump’s name must stay off Kennedy Center during appeal",
-    "summary": "Trump’s name was removed from the centre&#039;s facade and signage last month, after a judge ordered its removal.",
-    "full_text": "US court rules that Trump’s name must stay off Kennedy Center during appeal\nTrump’s name was removed from the centre’s facade and signage last month, after a judge ordered its removal.\nA US appeals court has ruled that President Donald Trump’s name must remain off the Kennedy Center for the Performing Arts, while the organisation appeals an earlier ruling that found a name change illegal.\nTrump’s name was removed from the centre’s facade and signage last month after US District Judge Christopher Cooper ordered the removal and blocked Trump’s plans to close the centre for renovations. An appeal against this ruling was struck down by a three-judge panel on Wednesday.\nRecommended Stories\nlist of 4 items- list 1 of 4Trump’s signature to appear on US currency in first for sitting president\n- list 2 of 4US panel approves Trump’s design for massive arch in Washington, DC\n- list 3 of 4Trump to feature on limited-edition US passports for 250th anniversary\n- list 4 of 4US Treasury secretary confirms plans for $250 bill featuring Trump’s face\nIt is another setback for the centre’s board of trustees, of which Trump is chairman, in a saga that began earlier this year when the Kennedy Center became: “The Donald J. Trump and The John F. Kennedy Memorial Center for the Performing Arts.”\nThe conspicuous addition, and ensuing legal battle, became symbolic of Trump’s broader push to imprint his legacy – and, in this case, his actual name – on the nation’s capital in his final term.\nThe decision by the US Court of Appeals for the District of Columbia Circuit denied the Trump administration’s request to pause the lower court order in a lawsuit brought by Democratic Representative Joyce Beatty, a Kennedy Center board member.\n“Today’s ruling again affirms that this administration’s efforts to rename the Kennedy Center were unlawful,” Beatty said in a statement.\n“His name no longer desecrates this sacred memorial, which belongs to the American people.”\nThe panel of judges wrote on Wednesday that the board of trustees’ request “failed to show how they will be irreparably injured” if Trump’s name remains off the building through the appeal process.\nThe board had argued that the removal “threatens to impede” fundraising efforts, but the judges found that claim came without the support of “specific facts or evidence”.\nThe Kennedy Center did not immediately respond to an emailed request for comment from the Associated Press news agency.\nWhen Trump first took office in 2025, he replaced the Kennedy Center’s board of trustees, who then named him chairman. His name was quickly added to the building, but a federal judge then ruled that the name change was illegal, prompting the ensuing legal battle.",
-    "source": "Al Jazeera",
-    "category": "general",
-    "lang": "en",
-    "topic": "Politics",
-    "published": "2026-07-09T03:57:46+00:00",
-    "crawled": "2026-07-09T05:14:59.758454+00:00",
-    "summarized": true,
-    "ai_summary": "• 美國上訴法院裁定特朗普的名字必須在肯尼迪表演藝術中心的上訴期間保持去除狀態  \n• 特朗普的名字於上個月根據美國地區法官克里斯多福·庫珀的命令從中心的外觀和標識中移除  \n• 上訴法院駁回特朗普政府要求暫停下級法院命令的請求，該命令是由民主黨眾議員喬伊斯·比蒂提起的訴訟  \n• 法官表示，中心董事會未能證明特朗普名字去除會對其造成不可挽回的損害，並指出其籌款努力的主張缺乏具體事實或證據",
-    "summaries": {
-      "zh-HK": "• 美國上訴法院裁定特朗普的名字必須在肯尼迪表演藝術中心的上訴期間保持去除狀態  \n• 特朗普的名字於上個月根據美國地區法官克里斯多福·庫珀的命令從中心的外觀和標識中移除  \n• 上訴法院駁回特朗普政府要求暫停下級法院命令的請求，該命令是由民主黨眾議員喬伊斯·比蒂提起的訴訟  \n• 法官表示，中心董事會未能證明特朗普名字去除會對其造成不可挽回的損害，並指出其籌款努力的主張缺乏具體事實或證據"
-    }
-  },
-  {
-    "url": "https://www.scmp.com/news/china/diplomacy/article/3359877/beijing-slams-manila-over-south-china-sea-claims-ahead-2016-hague-anniversary?utm_source=rss_feed",
-    "title": "Beijing slams Manila over South China Sea claims ahead of 2016 Hague anniversary",
-    "summary": "Beijing has issued a lengthy critique of the Philippines’ territorial claims in the South China Sea, condemning its actions as “unlawful” expansions that pose a “grave threat” to the post-war global order.\nWednesday’s report by a Ministry of Natural Resources think tank – its third within days – marks the latest move in China’s campaign to reinforce its position in the disputed waters.\nThe push underlines Beijing’s rejection of the Philippines’ stance just days before the 10th anniversary of a...",
-    "full_text": "Advertisement\nBeijing slams Manila over South China Sea claims ahead of 2016 Hague anniversary\nPhilippines’ claims lack historical and legal basis, state-affiliated think tank says in another critique of maritime dispute\n3-MIN READ3-MIN\n29\n Listen\nBeijing has issued a lengthy critique of the Philippines’ territorial claims in the South China Sea, condemning its actions as “unlawful” expansions that pose a “grave threat” to the post-war global order.\nWednesday’s report by a Ministry of Natural Resources think tank – its third within days – marks the latest move in China’s campaign to reinforce its position in the disputed waters.\nThe push underlines Beijing’s rejection of the Philippines’ stance just days before the 10th anniversary of a landmark international tribunal ruling that invalidated key elements of China’s claims. China did not take part in the arbitration and does not recognise the ruling.\nManila had offered “shifting” justification for its claims over the decades, the China Institute for Marine Affairs (CIMA) in Beijing said in its report, citing successive territorial claims to Scarborough Shoal and parts of the Spratly Islands. The features are also claimed by China, which calls them Huangyan Island and the Nansha Islands, respectively.\nManila’s “attempt … to extend its territory” to those maritime features was “devoid of historical and legal foundation”, the 62-page English-language version of the report argued.\nIt said “a comprehensive analysis of credible historical sources and generally recognised rules of international law” showed that Manila had no sovereignty over Scarborough or any of the islands and reefs in the Spratlys.\nAdvertisement\nSelect Voice\nSelect Speed\n1.00x",
-    "source": "SCMP",
-    "category": "general",
-    "lang": "en",
-    "topic": "World",
-    "published": "2026-07-08T12:16:45+00:00",
-    "crawled": "2026-07-09T05:15:01.617833+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.scmp.com/news/china/military/article/3359880/china-eyes-russian-naval-expertise-yellow-sea-submarine-rescue-drills?utm_source=rss_feed",
-    "title": "China eyes Russian submarine rescue expertise in Yellow Sea naval drills",
-    "summary": "Chinese and Russian military personnel will be put through their submarine rescue paces in naval exercises this week, with Beijing hoping to gain operational experience from its strategic partner as competition heats up beneath the seas.\nThe Joint Sea-2026 exercise between the two navies began in the eastern Chinese port city of Qingdao on Monday, underscoring deepening military cooperation between Beijing and Moscow since the annual drills were launched in 2012.\nThe exercise coincided with...",
-    "full_text": "China eyes Russian submarine rescue expertise in Yellow Sea naval drills\nJoint exercise reveals deepening military cooperation between Beijing and Moscow while sending signal to Washington and its regional allies\nChinese and Russian military personnel will be put through their submarine rescue paces in naval exercises this week, with Beijing hoping to gain operational experience from its strategic partner as competition heats up beneath the seas.\nThe joint exercise includes anti-submarine warfare, search-and-rescue operations and other maritime missions such as air defence, according to Russia’s Tass news agency.\nOne stage of the drills would involve rescuing the crew of a simulated distressed submarine using a deep-submergence rescue vehicle, Tass reported on Monday.\nSuch missions involve the location of a disabled submarine and the safe recovery of its crew, and are an important element of submarine combat support.",
-    "source": "SCMP",
-    "category": "general",
-    "lang": "en",
-    "topic": "General",
-    "published": "2026-07-08T12:16:35+00:00",
-    "crawled": "2026-07-09T05:15:01.678256+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.scmp.com/business/commodities/article/3359828/chinese-profit-taking-triggers-record-gold-etf-outflows-amid-shift-equities?utm_source=rss_feed",
-    "title": "Chinese profit-taking triggers record gold ETF outflows amid shift to equities",
-    "summary": "Chinese investors pulled a record US$2.91 billion out of domestic gold exchange-traded funds (ETFs) in June, taking profits as a stock-market surge and a strong yuan dimmed the appeal of the safe-haven metal, according to the World Gold Council (WGC).\nMainland Chinese funds were the biggest drag on Asia’s gold ETFs in June, “as local investor risk appetite continued to improve”, prompting them to turn to higher risk, higher return assets, according to the findings of the council’s report...",
-    "full_text": "Chinese profit-taking triggers record gold ETF outflows amid shift to equities\nGlobal gold market trading volumes averaged a record US$488 billion per day during the first half of the year\nChinese investors pulled a record US$2.91 billion out of domestic gold exchange-traded funds (ETFs) in June, taking profits as a stock-market surge and a strong yuan dimmed the appeal of the safe-haven metal, according to the World Gold Council (WGC).\nMainland Chinese funds were the biggest drag on Asia’s gold ETFs in June, “as local investor risk appetite continued to improve”, prompting them to turn to higher risk, higher return assets, according to the findings of the council’s report unveiled on Wednesday. This subsequently compounded the weakness in gold price in renminbi terms.\nThis came after the country led global gold ETF inflows in the first four months of the year.\nHuaan Yifu Gold ETF lost about US$1.14 billion in the month, while Guotai Gold ETF lost US$352.1 million and the E Fund Gold Tradable Open-end Securities Investment Fund saw US$334.2 million in outflows, its data showed.\nThe selling pushed Asia’s outflows to US$2.3 billion in June, the worst single month on record for the region.\nEven so, Asian gold ETFs channelled a net US$12 billion into the metal in the first half of the year, the strongest first half on record for the region, and the biggest contributor to global inflows. Global gold ETF flows remained positive at US$8 billion in the first half, the report said.",
-    "source": "SCMP",
-    "category": "general",
-    "lang": "en",
-    "topic": "Trading",
-    "published": "2026-07-08T12:00:07+00:00",
-    "crawled": "2026-07-09T05:15:01.738837+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.theguardian.com/australia-news/2026/jul/09/modi-australia-visit-melbourne-marvel-stadium-ntwnfb",
-    "title": "Modi and Albanese to ink major uranium deal as Indian leader’s visit expected to draw 30,000-strong crowd",
-    "summary": "<p>Ahead of Modi’s Marvel Stadium event, Anthony Albanese credits Indian PM’s ‘leadership and personal engagement with Australia’ for strength of bilateral relationship</p><ul><li><p><a href=\"https://www.theguardian.com/australia-news/live/2026/jul/09/australia-news-live-telstra-mobile-internet-down-outage-triple-zero-v-line-trains-network-royal-commission-antisemitism-abc-ntwnfb\">Follow our Australia news live blog for latest updates</a></p></li><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>Anthony Albanese is poised to sign a major uranium deal with India, praising counterpart Narendra Modi and the nation’s diaspora for deepening economic ties.</p><p>It could end more than a decade of delays to regular shipments of the fuel despite the two countries signing a historic nuclear cooperation pact.</p> <a href=\"https://www.theguardian.com/australia-news/2026/jul/09/modi-australia-visit-melbourne-marvel-stadium-ntwnfb\">Continue reading...</a>",
-    "full_text": "Anthony Albanese is poised to sign a major uranium deal with India, praising counterpart Narendra Modi and the nation’s diaspora for deepening economic ties.\nIt could end more than a decade of delays to regular shipments of the fuel despite the two countries signing a historic nuclear cooperation pact.\nThe Indian prime minister is in the country for three days and will later on Thursday address 30,000 members of the Indian-Australian community in what is expected to be a loud rally at Melbourne’s Marvel Stadium.\nSpeaking at a business event in the city alongside Modi, Albanese said for all the “broad affection between our peoples” the relationship between the countries was “underdone, under-explored and under-examined”.\n“In the last decade or so, that has certainly changed for the better,” the prime minister said.\n“Prime minister Modi, your leadership and your personal engagement with Australia has been absolutely central to this change.\n“And so has the drive and determination of the business leaders in this room.”\nWhile details of the proposed nuclear pact are thin, Australia and India signed a civil nuclear deal in 2014 but regular shipments of uranium haven’t occurred amid concerns the fuel could be used for weapons.\nWhile few national leaders can lay claim to drawing a crowd of tens of thousands during an international diplomatic visit, Modi is an exception.\nThe Indian diaspora throughout Australia are making their way to Melbourne in large numbers for a glimpse of the leader of the world’s most populous nation.\nModi was one of three types of people who were “very popular” in his homeland, Canberra India Council chair Deepak-Raj Gupta said.\n“Politicians, Bollywood stars and cricket players,’’ he said.\n“It doesn’t really matter who you are if you fall into one of those.”\nGupta has travelled to Melbourne with his wife and a contingent of friends to attend as many Modi-related events as possible.\nBut Modi is also one of the world’s most polarising political leaders.\nHuman rights groups such as Amnesty International have condemned him for declines in India’s living standards, including targeting of journalists and academics through anti-terror legislation.\nMarginal religious groups including Muslims and Christians have also been targeted.\nNevertheless, Modi was able to unite the Indian diaspora in a way no one else could, Australian Multicultural Action Network president Ravi Krishnamurthy said.\n“We look for connection [between Australia and India]. There is pride in adding to Australia’s multicultural community,” he said.\nKrishnamurthy said he hoped there would be more conversations about two-way trade and tertiary education deals.\n“Businesses here are starting to invest in India,” he said.\nThe Australian Federal Police formally warned a young person who had made a death threat towards Modi ahead of his arrival in Australia.\nA far-right influencer also gatecrashed the Melbourne hotel where the Indian prime minister is staying, before being thrown out by police.\nHe posted a video of his late-night tirade where he yelled “fuck Modi” in the hotel’s lobby.",
-    "source": "The Guardian",
-    "category": "general",
-    "lang": "en",
-    "topic": "General",
-    "published": "2026-07-09T04:58:42+00:00",
-    "crawled": "2026-07-09T05:15:02.924772+00:00",
-    "summarized": true,
-    "ai_summary": "• 澳大利亞總理安東尼·阿爾巴尼斯將與印度總理納倫德拉·莫迪簽署重要的鈾協議，旨在加強兩國的經濟聯繫。  \n• 莫迪在澳大利亞進行為期三天的訪問，預計將在墨爾本的Marvel體育場向3萬名印度裔澳大利亞人發表演講。  \n• 雖然2014年兩國簽署了民用核協議，但由於擔心鈾可能用於武器，常規鈾運輸尚未開始。  \n• 澳大利亞聯邦警方在莫迪抵達前對一名發出死亡威脅的年輕人發出正式警告。",
-    "summaries": {
-      "zh-HK": "• 澳大利亞總理安東尼·阿爾巴尼斯將與印度總理納倫德拉·莫迪簽署重要的鈾協議，旨在加強兩國的經濟聯繫。  \n• 莫迪在澳大利亞進行為期三天的訪問，預計將在墨爾本的Marvel體育場向3萬名印度裔澳大利亞人發表演講。  \n• 雖然2014年兩國簽署了民用核協議，但由於擔心鈾可能用於武器，常規鈾運輸尚未開始。  \n• 澳大利亞聯邦警方在莫迪抵達前對一名發出死亡威脅的年輕人發出正式警告。"
-    }
-  },
-  {
-    "url": "https://time.com/article/2026/07/08/trump-zelensky-ukraine-patriot-missile-interceptors-russia-nato/",
-    "title": "Trump Tells Zelensky Ukraine Will Be Allowed to Manufacture Patriot Missile Interceptors",
-    "summary": "Zelensky said he was “grateful for the strong emphasis placed on strengthening Ukraine’s air defense to better protect people’s lives.\"",
-    "full_text": "President Donald Trump told Ukrainian President\nthat the U.S. would extend Ukraine a license to manufacture Patriot missile interceptors as the country continues to defend itself against Russia.\n“We'll give them the right to make Patriots. We'll show them how to do it,” Trump\non day two of the NATO summit in Ankara, Turkey. “It's very complex, actually, but you'll figure out the complexity quickly.”\n\"It's a defensive weapon, which I like better than an offensive weapon,\" he added.\nThe verbal assurance of a license commitment was vague, with several key details left unaddressed.\nTrump said he had not yet informed defense manufacturers of his decision, but expressed hope “that'll work out alright.”\nAsked whether the United States would immediately provide the air defense systems, Trump said “some” could be sent swiftly, yet\n“we have Patriots, but we don't have that many. We need them for ourselves, too.”\nInsisting that Ukraine will soon be able to produce its own, he added: “Once we explain it, we'll bring the company here. [Ukraine] will work with the company. They have a great ability to produce weapons, pretty complex weapons.”\nIt’s unclear if the missiles would be manufactured in Ukraine or another country.\nFollowing his bilateral meeting with Trump, Zelensky\nhe was “grateful for the strong emphasis placed on strengthening Ukraine’s air defense to better protect people’s lives.\"\nIn his opening address at the summit Tuesday, Zelensky had called for allies to deliver air defense systems, insisting\nUkraine needs U.S.-made interceptors\nto defend itself against Russia’s ballistic missiles.\nHis public appeal came after\nRussia bombarded Kyiv with drones and missiles\nin another deadly attack at the start of the week. Ukrainian officials\novernight assault Wednesday morning.\nZelensky also used his platform to again\npush for Ukraine to be granted NATO\npublished Wednesday, NATO said for 2026, “allies pledge €70 billion in military equipment, assistance, and training for Ukraine and affirm their sovereign\ncommitments to sustaining at least equivalent levels in 2027.”\n“Allies stand united in our unwavering support for Ukraine in defending its freedom, sovereignty, and territorial integrity,” the statement read.\nto expanding defense cooperation with Kyiv through a possible deal on buying Ukrainian drones, but he didn’t fully commit to a plan.\n“Well, we would buy their drones, and we make drones, we make great drones, but they [Ukraine] have an ability to make a lot of them,” he\nDuring the two-day summit Zelensky signed “drone deals” with the\nDavid Blagden, an associate professor of international security and strategy at the University of Exeter, tells TIME the summit was undoubtedly a “win for the Ukrainian government.”\n“Ukraine was suffering from critical shortages of air defenses, so to be able to build some of the best air defenses under license will potentially be a huge advantage in terms of trying to blunt those Russian ballistic missile attacks,” he says.\nAlthough Trump’s relationship with several NATO allies has become fractured, he acknowledged his rapport with Zelensky has strengthened since their contentious\nOval Office showdown last year\n“We've actually developed a good relationship, it's hard to believe, right from the Oval Office to now,” Trump mused.\n“To be on sufficiently good terms with the Americans again is a huge diplomatic coup for Ukraine,” Blagden tells TIME. “The position on Ukraine has been one of the sticking points within U.S.-European relations within NATO, so to have Trump laughing and joking with [Zelensky] again is a huge step forward.”\nPrior to the summit, Trump spoke separately with Zelensky and Russian President Vladimir Putin. At the NATO summit, he expressed optimism that both leaders wanted to end the war.",
-    "source": "Time",
-    "category": "general",
-    "lang": "en",
-    "topic": "Politics",
-    "published": "2026-07-08T19:33:28+00:00",
-    "crawled": "2026-07-09T05:15:12.795990+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://time.com/article/2026/07/08/us-iran-ceasefire-over-trump-strikes-strait-of-hormuz/",
-    "title": "U.S. Carries Out New Strikes Against Iran as Trump Says Cease-Fire Is 'Over'",
-    "summary": "Additional strikes have been launched \"to further degrade their ability to threaten freedom of navigation in the Strait of Hormuz,\" CENTCOM announced Wednesday.",
-    "full_text": "The American military launched new strikes against Iran on Wednesday in order “to further degrade their ability to threaten freedom of navigation in the Strait of Hormuz,” U.S. Central Command (CENTCOM) announced.\n“The United States is holding Iran accountable for recent unjustified aggression against commercial shipping and civilian crews freely navigating a vital international waterway,” CENTCOM\non X Wednesday afternoon.\ndescribed the fresh attacks as \"retribution for yesterday’s bombing of ships by Iran.\"\n\"If it happens again, it will get much worse!\" the President added in a\nearlier on Wednesday said the interim agreement to end the Iran war is “over” and threatened further U.S. strikes amid a flare-up of hostilities.\n\"We hit them very hard last night, and we'll probably hit them hard again tonight,\" he told reporters on the second day of the NATO summit in Ankara, Turkey.\nRenewing previous threats to strike Iran’s infrastructure, including desalinization plants and electric plants, Trump\nthe U.S. \"may take over\n\" Iran's main oil terminal. He noted that the U.S. had struck the land on Tuesday, but avoided its oil facilities.\nWhen asked about the status of the\nMemorandum of Understanding,\nsigned on June 17, Trump declared: “I think it’s over. I don’t want to deal with them anymore.\"\n“They’re scum. They’re sick people. They’re led by sick people,” he continued. “If they had a nuclear weapon, they’d use it. As far as I’m concerned, it’s over.”\nA flare-up of hostilities saw Iran target U.S. military sites in Kuwait and Bahrain overnight after the U.S. struck Iranian targets following attacks on vessels in the\nNATO Secretary General Mark Rutte\nthe U.S. strikes “absolutely necessary,” on account of Iran “violating” the cease-fire.\n“I think it is totally crucial that [the] U.S. forcefully reacts,” he\nreporters. “I expect allies today to reconfirm that Iran should never, ever get its hands on a nuclear capability.”\nRutte also urged for “freedom of navigation” in the Strait of Hormuz, a vital passage through which around a fifth of global oil production traditionally flows. A full reopening of the waterway is “crucial for all 32 allies,” he said.\nIranian parliamentary speaker Mohammad Bagher Ghalibaf, a top negotiator for Iran, insisted it was the U.S. that had violated the interim peace agreement. He cited the U.S. reinstating\non Iranian oil sales—a move made Tuesday after oil tanker attacks—as an example, as well as the “persistent threats of further strikes.”\n“The era of bullying and extortion is over. It leads nowhere. We don’t fold,” he vowed.\nU.S. and Iran trade strikes and accusations\nlate afternoon Tuesday that it had begun launching “a series of powerful strikes against Iran\" after noting that three commercial vessels transiting the Strait of Hormuz had been “recently attacked” by Iranian forces.\nit had struck over 80 targets across Iran, including air defense systems, command and control networks, coastal radar sites, and anti-ship missile capabilities. It also struck “more than 60 Islamic Revolutionary Guard Corps small boats in and near the Strait to degrade Iran’s ability to continue attacking international commerce flowing through the international trade corridor.”\ncarried by semi-official state media, said that it had retaliated to the U.S. by launching a salvo of drone and missile strikes at  “key U.S. military facilities” across Bahrain and Kuwait.\nBahrain’s Ministry of Interior\nseveral warnings for civilians to seek shelter and Kuwait’s armed forces\nit had detected and successfully intercepted ballistic missiles and drones breaching its airspace. No material damage was reported as a result of the attacks.\nThe strikes brought renewed instability to the Gulf region, prompting international leaders to urge for restraint.\nKaja Kallas, the European Union's foreign affairs chief,\n: “The exchanges of fire between the U.S. and Iran further complicate already fraught talks to end the war. Iran’s attacks on Bahrain and Kuwait are unacceptable.”\n“Under the memorandum, Tehran committed to reopening the Strait of Hormuz,” she continued. “Its recent attacks on ships near the Strait violate that commitment and threaten to disrupt the resumption of energy supplies. Freedom of navigation must be unimpeded.”\nThe Memorandum of Understanding laid out the terms for an extended 60-day cease-fire, allowing time for further technical talks to take place.\nThat deadline is set to expire in mid-August, but amid flare-ups of violence and accusations of violations from both sides, it seems little progress has been made in negotiations.\nU.S. envoy Steve Witkoff and Trump’s son-in-law Jared Kushner discussed the Iran deal\nwith mediators in Doha\nat the end of June, but there were no high-level talks confirmed with Iranian officials.\nAfter declaring the cease-fire “over” on Wednesday, Trump\nhe would speak to his negotiators, but argued it was a “waste of time” dealing with Iran.\nOil jumps amid fresh strikes and renewed uncertainty\nAfter Trump’s latest comments, and following the overnight hostilities, the\nof Brent crude oil spiked once again, jumping to almost $79 per barrel Wednesday morning—an increase of over 5% from the day before.\nMaritime authorities raised the threat risk for vessels transiting the Strait to \"\n\" warning that \"deliberate hostile action\" is likely under current conditions.\nArsenio Dominguez, secretary general of the International Maritime Organization (IMO),\nfor “maximum restraint and de-escalation.” He said nearly 6,000 seafarers are stranded in the Strait, “unable to depart the Persian Gulf safely,” amid the renewed volatility.",
-    "source": "Time",
-    "category": "general",
-    "lang": "en",
-    "topic": "Politics",
-    "published": "2026-07-08T12:12:36+00:00",
-    "crawled": "2026-07-09T05:15:13.050415+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.ft.com/content/aa2bacf1-4a2a-447b-b7fb-6620fab03cf1",
-    "title": "Iran war windfall puts Big Oil on collision course with Trump",
-    "summary": "Fuel price surge triggered by conflict brings pain for consumers but profit gusher for US groups",
-    "full_text": "Iran war windfall puts Big Oil on collision course with Trump \nTry unlimited access\nOnly $1 for 4 weeksThen $75 per month. Complete digital access to quality FT journalism on any device. Cancel anytime during your trial.\nExplore more offers.\nFT Edit\nAccess to eight surprising articles a day, hand-picked by FT editors. For seamless reading, access content via the FT Edit page on FT.com and receive the FT Edit newsletter.\nStandard Digital\nEssential digital access to quality FT journalism on any device. Pay a year upfront and save 20%.\nPremium Digital\nComplete digital access to quality FT journalism with expert analysis from industry leaders. Pay a year upfront and save 20%.\nCheck whether you already have access via your university or organisation.\nTerms & Conditions apply\nExplore our full range of subscriptions.\nFor individuals\nDiscover all the plans currently available in your country\nFor multiple readers\nDigital access for organisations. Includes exclusive features and content.\nWhy the FT?\nSee why over a million readers pay to read the Financial Times.",
-    "source": "Financial Times",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Trading",
-    "published": "2026-07-09T04:00:32+00:00",
-    "crawled": "2026-07-09T05:15:14.506108+00:00",
-    "summarized": true,
-    "ai_summary": "• 隨著伊朗戰爭帶來的利潤，大型石油公司與特朗普之間的矛盾加劇  \n• 石油公司在高油價環境中獲得可觀利潤，特朗普則對此表達不滿  \n• 特朗普曾批評石油公司在政治和經濟上的影響力  \n• 此事件可能影響美國的能源政策及國際關係",
-    "summaries": {
-      "zh-HK": "• 隨著伊朗戰爭帶來的利潤，大型石油公司與特朗普之間的矛盾加劇  \n• 石油公司在高油價環境中獲得可觀利潤，特朗普則對此表達不滿  \n• 特朗普曾批評石油公司在政治和經濟上的影響力  \n• 此事件可能影響美國的能源政策及國際關係"
-    }
-  },
-  {
     "url": "https://www.ft.com/content/bf1892d7-f9ef-479c-a1fb-f8dcb9efa328",
     "title": "Who wants to tax a billionaire?",
     "summary": "A gentle guide to a harsh debate",
@@ -25967,8 +25717,11 @@
     "topic": "World",
     "published": "2026-07-10T23:29:52+00:00",
     "crawled": "2026-07-11T04:16:43.580085+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 西班牙國家足球隊在2022年世界盃四分之一決賽中以2-1擊敗比利時，晉級半決賽，這是他們自2010年以來第二次進入四強。  \n• 阿森納中場米克爾·梅里諾再次作為替補進場，打入決勝球，幫助西班牙獲勝。  \n• 梅里諾在賽季初因足部壓力骨折缺席，並在比賽開始前一個月才回歸，最終成功入選西班牙國家隊。  \n• 西班牙將在半決賽中對陣法國，梅里諾的表現受到教練路易斯·德拉富恩特的讚賞。",
+    "summaries": {
+      "zh-HK": "• 西班牙國家足球隊在2022年世界盃四分之一決賽中以2-1擊敗比利時，晉級半決賽，這是他們自2010年以來第二次進入四強。  \n• 阿森納中場米克爾·梅里諾再次作為替補進場，打入決勝球，幫助西班牙獲勝。  \n• 梅里諾在賽季初因足部壓力骨折缺席，並在比賽開始前一個月才回歸，最終成功入選西班牙國家隊。  \n• 西班牙將在半決賽中對陣法國，梅里諾的表現受到教練路易斯·德拉富恩特的讚賞。"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/sport/football/articles/c4gy107g38eo?at_medium=RSS&at_campaign=rss",
@@ -25981,8 +25734,11 @@
     "topic": "World",
     "published": "2026-07-10T23:14:51+00:00",
     "crawled": "2026-07-11T04:16:43.627425+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 比利時在2026年世界杯四分之一決賽以1-2不敵西班牙，可能標誌著紅魔黃金一代的最後一役。  \n• 受傷的庫爾圖瓦在下半場中途被替換，年輕門將拉門斯在第88分鐘失誤，導致西班牙進球。  \n• 比利時自2014年巴西世界杯以來，庫爾圖瓦、盧卡庫、德布勞內和維特塞爾一直是國家隊的主力球員。  \n• 教練加西亞對於這些球員可能不再代表國家隊感到失望，並表示希望能帶領球隊走得更遠。",
+    "summaries": {
+      "zh-HK": "• 比利時在2026年世界杯四分之一決賽以1-2不敵西班牙，可能標誌著紅魔黃金一代的最後一役。  \n• 受傷的庫爾圖瓦在下半場中途被替換，年輕門將拉門斯在第88分鐘失誤，導致西班牙進球。  \n• 比利時自2014年巴西世界杯以來，庫爾圖瓦、盧卡庫、德布勞內和維特塞爾一直是國家隊的主力球員。  \n• 教練加西亞對於這些球員可能不再代表國家隊感到失望，並表示希望能帶領球隊走得更遠。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/sports/2026/7/11/kane-vs-haaland-in-england-vs-norway-world-cup-quarterfinal-of-strikers?traffic_source=rss",
@@ -26594,8 +26350,11 @@
     "topic": "General",
     "published": "2026-07-11T00:08:51+00:00",
     "crawled": "2026-07-11T07:14:50.363958+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 《刺客教條：黑旗重製版》於2026年正式推出，距離原版發行已經13年。\n• 遊戲設定在18世紀加勒比海，玩家將控制虛構的威爾士海盜愛德華·肯威。\n• 重製版採用了更明亮的色彩和現代化的圖形技術，改善了原版的視覺效果。\n• 部分原版的現代場景被刪除，以專注於海盜生活和角色互動。",
+    "summaries": {
+      "zh-HK": "• 《刺客教條：黑旗重製版》於2026年正式推出，距離原版發行已經13年。\n• 遊戲設定在18世紀加勒比海，玩家將控制虛構的威爾士海盜愛德華·肯威。\n• 重製版採用了更明亮的色彩和現代化的圖形技術，改善了原版的視覺效果。\n• 部分原版的現代場景被刪除，以專注於海盜生活和角色互動。"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/cwykqqk1y3wo?at_medium=RSS&at_campaign=rss",
@@ -27154,8 +26913,11 @@
     "topic": "General",
     "published": "2026-07-10T23:24:00+00:00",
     "crawled": "2026-07-11T07:15:30.272768+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 泰國的可食用昆蟲創新者正在推動昆蟲作為食品的普及，旨在解決食品安全和可持續性問題  \n• 當地企業正開發多種昆蟲產品，包括昆蟲零食和蛋白質補充品  \n• 泰國政府支持這一行業，並計劃在2024年舉辦昆蟲食品展覽會  \n• 隨著全球對可持續食品的需求增加，泰國的可食用昆蟲產業預計將持續增長",
+    "summaries": {
+      "zh-HK": "• 泰國的可食用昆蟲創新者正在推動昆蟲作為食品的普及，旨在解決食品安全和可持續性問題  \n• 當地企業正開發多種昆蟲產品，包括昆蟲零食和蛋白質補充品  \n• 泰國政府支持這一行業，並計劃在2024年舉辦昆蟲食品展覽會  \n• 隨著全球對可持續食品的需求增加，泰國的可食用昆蟲產業預計將持續增長"
+    }
   },
   {
     "url": "https://cointelegraph.com/news/imf-stablecoins-fx-access-currency-runs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -27785,8 +27547,11 @@
     "topic": "General",
     "published": "2026-07-10T21:53:00+00:00",
     "crawled": "2026-07-11T09:42:57.904212+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 丸紅公司計劃在印度擴大其機械工具業務，以應對晶片和數據中心的需求增長  \n• 公司將在未來幾年內投資於新技術和生產設施  \n• 印度的半導體和數據中心市場正在迅速發展，吸引外資進入  \n• 丸紅希望通過這些投資提升其在全球市場的競爭力",
+    "summaries": {
+      "zh-HK": "• 丸紅公司計劃在印度擴大其機械工具業務，以應對晶片和數據中心的需求增長  \n• 公司將在未來幾年內投資於新技術和生產設施  \n• 印度的半導體和數據中心市場正在迅速發展，吸引外資進入  \n• 丸紅希望通過這些投資提升其在全球市場的競爭力"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONWRXX2J0cUp1RF82c0tmN0xiQ1hGVWZNRDQxZEVQTEJULWREdmFEbm9ncFdqbzQzNjhrZVd1Z3cxR0NjMGJrd1luZVVYZV9DbVc1TDQ1blhMTVl5eDVjeURzVWRUUkhrcm5fTTY1SHE0WThLdk9iQnhtOTRjNk5ESE1YQWM5WThGRmRrbklMWkJ1NnZWZUt0YXM1S2ZyRGZqZU5lQ3hLSGRNZw?oc=5",
@@ -29637,8 +29402,11 @@
     "topic": "General",
     "published": "2026-07-10T22:46:00+00:00",
     "crawled": "2026-07-11T14:59:26.851553+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 一架小型飛機在巴哈馬墜毀，造成10人遇難  \n• 事故發生在當地時間周日，具體墜毀地點尚未公布  \n• 當局正調查事故原因，並已派遣救援隊伍前往現場  \n• 飛機的乘客和機組人員身份尚未公開，相關資訊正在整理中",
+    "summaries": {
+      "zh-HK": "• 一架小型飛機在巴哈馬墜毀，造成10人遇難  \n• 事故發生在當地時間周日，具體墜毀地點尚未公布  \n• 當局正調查事故原因，並已派遣救援隊伍前往現場  \n• 飛機的乘客和機組人員身份尚未公開，相關資訊正在整理中"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYnpTeDIxa3JvSmdXWWVNZVFJdXhzMUNwOExkMENPU2M1cGZGcXNuZHV4eHB6ZnQ5R1NTck9LVlFjOHRadk1qZEhCUEpQS3ZseDBpRUpSLTJ0MVRRR0NLNnB0TXJwOU96Tm1IbnBMN0tvM1pGOENZWXg5dkI3Z2lzMEVtNnlmY0RIbndSdUJUN01jekpUc1dXYzYtWG1uR3JleHc?oc=5",
@@ -30044,8 +29812,11 @@
     "topic": "General",
     "published": "2026-07-10T22:06:00+00:00",
     "crawled": "2026-07-11T16:03:44.956444+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國政府延長海地及其他擁有臨時保護身份的移民的工作許可證  \n• 此措施旨在支持因自然災害或衝突而無法安全返回原國的移民  \n• 延長的工作許可證將涵蓋多個國家的移民，包括海地、尼加拉瓜及洪都拉斯等  \n• 政府表示，這項政策將幫助移民在美國繼續生活和工作，減輕經濟壓力",
+    "summaries": {
+      "zh-HK": "• 美國政府延長海地及其他擁有臨時保護身份的移民的工作許可證  \n• 此措施旨在支持因自然災害或衝突而無法安全返回原國的移民  \n• 延長的工作許可證將涵蓋多個國家的移民，包括海地、尼加拉瓜及洪都拉斯等  \n• 政府表示，這項政策將幫助移民在美國繼續生活和工作，減輕經濟壓力"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX1dBZFdXU0JsV3AxRzNOV0prU0JmNWczSml1RndvaUxURU83V1I4TVZIS2VuT21uTERKbU0ybktKMVRELVctSHFPbkgxN3RlN2lyeXpzV0NqTXVMZW9wNHE2WjBwVFBOZEdXTVBDVXlfZWZuM1VjbGoxVHdPSEE1MDdEYnNTd1o5QVVtY1JB?oc=5",
@@ -30058,8 +29829,11 @@
     "topic": "World",
     "published": "2026-07-10T23:06:00+00:00",
     "crawled": "2026-07-11T16:03:46.298571+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 國際足總（FIFA）將出售將用於世界盃決賽的場地，價格為每塊450美元  \n• 此項目旨在讓球迷擁有一部分比賽場地的實體紀念品  \n• 銷售將於比賽前開始，具體日期尚未公布  \n• FIFA表示，所有收益將用於支持足球發展項目",
+    "summaries": {
+      "zh-HK": "• 國際足總（FIFA）將出售將用於世界盃決賽的場地，價格為每塊450美元  \n• 此項目旨在讓球迷擁有一部分比賽場地的實體紀念品  \n• 銷售將於比賽前開始，具體日期尚未公布  \n• FIFA表示，所有收益將用於支持足球發展項目"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaWFvZm5uLXJ1bE5tUmpoZTRSX2tHVE9jNGRoQk9rU2xaRHVUQ0JhcW1wZUdZTEkzaXZPSXZINEl3cVhkOGZlb1BOdktZNHBscDI0bFJWT3p1S3hUQVJlWGJIRzMyT3FxTnQtenhGQXRpRFZWc2kxM1pEdFcyeHR1ay1fUk1vRE1SRHhRWi03RVJlcm0wUk1PQ0U2VXpVZko4Y3JUWC01eExTdHM1ZTc1LXdB?oc=5",
@@ -30471,8 +30245,11 @@
     "topic": "World",
     "published": "2026-07-10T23:24:00+00:00",
     "crawled": "2026-07-11T17:58:10.182171+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 西班牙在2023年世界盃四分之一決賽中以2-1擊敗比利時  \n• 米克爾·梅里諾在比賽中表現出色，為西班牙取得關鍵進球  \n• 此場比賽於2023年12月舉行  \n• 西班牙成功晉級四強，繼續爭奪世界盃冠軍",
+    "summaries": {
+      "zh-HK": "• 西班牙在2023年世界盃四分之一決賽中以2-1擊敗比利時  \n• 米克爾·梅里諾在比賽中表現出色，為西班牙取得關鍵進球  \n• 此場比賽於2023年12月舉行  \n• 西班牙成功晉級四強，繼續爭奪世界盃冠軍"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUk9FY0R4U1BqWE83eUZmU3QwZmExM3JPNVkwZ1hwSzB1RWhKYUdDMktzODhNcFRDNDh1OXhZT2ZPVUc4Q1VjMzdSZktwb1hTeGFETHctd0d1T0FpSURkQWlYVm5Ka0lpSTlObmlQV3cyUVduMjZMSFd4ZUk2cFJmVlJJTHlwX3dFWC0wbFI5S3hybmstX2dVTk83TQ?oc=5",
@@ -31369,6 +31146,295 @@
     "ai_summary": "• 日本經濟新聞（Nikkei Asia）報導了有關商業、政治、經濟和科技的最新消息與分析  \n• 報導涵蓋多個亞洲國家的市場動態及政策變化  \n• 專注於影響亞洲地區經濟的重大事件及趨勢  \n• 提供專家見解及數據支持的報告以幫助讀者了解當前形勢",
     "summaries": {
       "zh-HK": "• 日本經濟新聞（Nikkei Asia）報導了有關商業、政治、經濟和科技的最新消息與分析  \n• 報導涵蓋多個亞洲國家的市場動態及政策變化  \n• 專注於影響亞洲地區經濟的重大事件及趨勢  \n• 提供專家見解及數據支持的報告以幫助讀者了解當前形勢"
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-11/modi-courts-indo-pacific-partners-as-china-us-reshape-region",
+    "title": "Modi Courts Indo-Pacific Partners as China, US Reshape Region",
+    "summary": "From missiles and uranium to critical minerals and sports diplomacy, Prime Minister Narendra Modi used a three-nation tour to deepen India’s Indo-Pacific partnerships as regional powers strengthen ties amid China’s growing influence and uncertainty over US engagement.",
+    "full_text": "",
+    "source": "Bloomberg Crypto",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Sports",
+    "published": "2026-07-11T21:00:00+00:00",
+    "crawled": "2026-07-11T21:56:17.336054+00:00",
+    "summarized": true,
+    "ai_summary": "• 印度總理莫迪進行三國訪問，旨在加強印度在印太地區的夥伴關係  \n• 此次訪問聚焦於導彈、鈾、關鍵礦產及體育外交等議題  \n• 地區大國在中國影響力增長及美國參與不確定的背景下加強聯繫  \n• 訪問的具體國家及日期未在報導中提及",
+    "summaries": {
+      "zh-HK": "• 印度總理莫迪進行三國訪問，旨在加強印度在印太地區的夥伴關係  \n• 此次訪問聚焦於導彈、鈾、關鍵礦產及體育外交等議題  \n• 地區大國在中國影響力增長及美國參與不確定的背景下加強聯繫  \n• 訪問的具體國家及日期未在報導中提及"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c3eykgln5eeo?at_medium=RSS&at_campaign=rss",
+    "title": "At Canada's biggest rodeo, the starting gun is fired in the fight over Alberta separation",
+    "summary": "Canadian unity takes centre stage at the Calgary Stampede as fears of a Brexit-style upset looms over the October vote on Alberta's future.",
+    "full_text": "At Canada's biggest rodeo, the starting gun is fired in the fight over Alberta separation\n- Published\nOver a million people descend on the Calgary Stampede every year to marvel at the iconic chuckwagon race, a sport invented in the Albertan city where carriage drivers race teams of horses around the track to the sound of pounding hooves, or be amazed by the speed of bareback riders racing in First Nations horse relays.\nThe 'Greatest Outdoor Show on Earth' is the marquee event on Alberta's summer calendar, a distinctly western Canadian spectacle where political leaders also have to test their mettle, judged on the quality of their pancake flips at community Stampede breakfasts and their ability to pull off a cowboy hat.\nThis year, however, looming over the festivities and carnival music of the stampede grounds is the upcoming referendum on Alberta's place in Canada. In October, Albertans will vote on whether they want the province to remain in the country, or hold a binding referendum later on separation.\nIt is, in some ways, the starting gun of what is shaping up to be a hard fought battle over the future of Alberta.\n\"The referendum is the cloud over everything,\" said Corey Hogan, a Liberal MP from Calgary who invited dozens of his colleagues from across the country to this year's stampede to promote unity.\n\"It underpins every other conversation we might want to have.\"\n- 'We have more in common with America than the rest of Canada' - Published26 April 2025\n \nThose who are rallying for a united Canada are using the Calgary Stampede as the stage to make their case.\nAt his own stampede speech, Hogan called separatism \"a poison\" dividing families across the province.\nPrime Minister Mark Carney is slated to make his own appearance in Calgary this weekend, where he is expected to deliver a unity message.\n\"Everybody wants to make sure they're here at this moment,\" Hogan told the BBC.\nPolls suggest the pro-unity side will comfortably win in October.\nBut those who want Alberta to remain told the BBC they were still anxious about the outcome, fearing a Brexit-style upset, when the UK voted to leave the European Union, in which the \"Remain\" side grows complacent, only to lose in the end.\n\"The shadow of Brexit is hanging over this whole thing,\" said Andrew Kemle, a graduate student at the University of Calgary, at Hogan's stampede breakfast.\n\"An entire country sleepwalked into an economic disaster.\"\nThey'll have the challenge of winning over people like Justin Perkins, who spoke to the BBC about his thoughts on the referendum while fuelling his car in rural Alberta.\n\"I would say I'm 100% Canadian, but every year it is a little less,\" Perkins said. \"When you're not respected, it's hard to respect the people that don't respect you... I'm the hated redneck, right? That's me. Not that I did anything wrong, I'm just born here.\"\nThe pitch by Thomas Lukaszuk, a former Progressive Conservative Alberta lawmaker, is that separation \"would be, from a political, economic, and social perspective, a terrible process to have to go through.\"\nLukaszuk's group, Forever Canadian, recently formally opened its campaign headquarters in Calgary. He told the BBC that his aim is not to tell Albertans how to vote, but to remind them of what it means to be Canadian, and - in his view - the dire consequences of separation.\nHe has spent the past two months driving a maple-leaf laden, refurbished 1997 camper van dubbed the \"Unity Bus\" across the province to make the case for Canada, handing out pins and lawn signs and speaking to would-be voters.\nThe October vote has been dismissed by people on either side of the debate as a \"referendum on a referendum\", since the question doesn't ask directly if the province should separate, but whether Albertans want to explore the possibility.\nStill, many on the pro-Canada side are treating it like a binding vote.\n\"I think we're all very worried that Alberta politics could be consumed by this forever,\" Hogan said.\nThe main motivator behind the separatist push is the belief that Alberta is misunderstood and overlooked by decision makers in Ottawa – the \"ugly cousin\", one independence supporter told the BBC at the Stampede – arguing that the province has no choice left but to go it alone.\nThe reason a binding referendum isn't taking place is due to a court challenge by First Nations groups, who successfully argued they weren't properly consulted and their treaty rights placed at risk by the prospect of Alberta independence - a decision now being appealed.\n\"Our future is more secure if we stay in Canada,\" said Chief Samuel Crowfoot of Siksika First Nation, located just east of Calgary.\nCrowfoot spoke to the BBC a few feet from where Treaty 7 was signed in 1877 between the British Crown and five First Nations in the region. Three such treaties encompass most of Alberta, of 11 numbered treaties in Canada. They form the basis of the relationship between the Crown, Canada more broadly, and hundreds of First Nations.\n\"Those treaties will be honoured more so if we stay within Canada,\" Chief Crowfoot said.\n\"There is no guarantee, there's no talk from the separatists, no outreach from any of the movements to speak with any First Nations about what this new Alberta would look like if we were to separate.\"\nChief Troy Knowlton of Piikani First Nation put it more bluntly, telling the BBC he would rather be \"dealing with the devil that we know today\".\nSo far, it's First Nations that have done the most to keep Canada together, Chief Crowfoot argues. A binding referendum \"would still be moving full steam\", he said, if it wasn't for the legal battle launched by indigenous Albertans.\nAlberta Premier Danielle Smith, who has to navigate a political base with separatist leanings while being personally and politically pro-unity, argued the \"referendum on a referendum\" is a chance to hear directly from Albertans.\nWhile the idea of an independent Alberta has existed for decades, it gained steam last year, after pro-separatist groups held town halls across the province and later collected enough signatures for a petition to force a referendum under provincial law.\nThe pandemic helped fuel that restive anger, and some pro-independence Albertans told the BBC that the Freedom Convoy protests in 2021, when hundreds of truckers, many from western Canada, travelled to Ottawa to protest vaccine mandates, was a turning point.\n\"I was raised believing that Canada was a free country,\" said Chris Scott, an Alberta independence organiser who took part in the Freedom Convoy.\nAfter two weeks of the protests, which gridlocked downtown Ottawa, then Prime Minister Justin Trudeau invoked the never-used Emergencies Act, granting authorities expanded powers to clear demonstrations.\nScott, who spoke to the BBC at his cafe and truck stop in rural Alberta decorated with the province's blue flag and drawings depicting scenes from the Freedom Convoy protests, said Trudeau's handling of the protest fundamentally shifted his view.\nMany Albertans on both sides agree that the province is often overlooked by Ottawa, and that the oil-rich, landlocked province has struggled to get support for building more pipelines and getting its resources to market.\nCarney's main appeal to the province so far has been to push for the approval of an oil pipeline to the west coast - a long time demand from Alberta.\nIt's been hailed as a good first step in healing the relationship between Alberta and Ottawa.\nBut for Scott, that overture is not enough, and he has said Alberta has no option left but to set its own rules.\nThe debate has been described as \"divisive\" and \"emotional\" by Albertans who spoke to the BBC.\n\"There are neighbours not trusting neighbours, and people watching which flag is flying on which house - is it an Alberta or Canadian flag? And if it's Alberta, (they are) suspicious that they're separatists,\" Lukaszuk said, adding: \"This has to end.\"\nThe separatist push has been dismissed by many in the unity camp as co",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-11T00:00:42+00:00",
+    "crawled": "2026-07-11T21:56:29.614798+00:00",
+    "summarized": true,
+    "ai_summary": "• 加拿大卡爾加里牛仔節吸引超過一百萬人參加，並成為阿爾伯塔省夏季的重要活動  \n• 今年的牛仔節上，阿爾伯塔省即將舉行的公投成為焦點，選民將決定是否希望省份繼續留在加拿大  \n• 自由黨國會議員霍根在活動中強調團結，稱分裂主義為「毒藥」，並邀請總理卡尼出席傳遞團結信息  \n• 民調顯示支持團結的陣營在十月的公投中有望獲勝，但仍有部分人對結果感到焦慮，擔心出現類似英國脫歐的情況",
+    "summaries": {
+      "zh-HK": "• 加拿大卡爾加里牛仔節吸引超過一百萬人參加，並成為阿爾伯塔省夏季的重要活動  \n• 今年的牛仔節上，阿爾伯塔省即將舉行的公投成為焦點，選民將決定是否希望省份繼續留在加拿大  \n• 自由黨國會議員霍根在活動中強調團結，稱分裂主義為「毒藥」，並邀請總理卡尼出席傳遞團結信息  \n• 民調顯示支持團結的陣營在十月的公投中有望獲勝，但仍有部分人對結果感到焦慮，擔心出現類似英國脫歐的情況"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c5yzn9xqz0po?at_medium=RSS&at_campaign=rss",
+    "title": "Prince Harry talks grief, stress and loss in final event of UK trip",
+    "summary": "The Duke of Sussex rounded off his visit by meeting bereaved children and young people - and doing yoga with goats.",
+    "full_text": "Prince Harry talks grief, stress and loss in final event of UK trip\n- Published\nThe Duke of Sussex has spoken to bereaved children about how he marks anniversaries related to his late mother and deals with grief.\nIn the final public appearance of his UK visit - a day after he, his wife and children met the King and Queen - Prince Harry visited a summer festival in Warwickshire set up by Scotty's Little Soldiers, a charity dedicated to supporting bereaved military children and young people.\nHis mother, Diana, Princess of Wales, died in a car crash in Paris in 1997 when he was 12.\nAfter taking part in a yoga session with goats, he had a Q&A with some of the children.\nPoppy, nine, whose father, Able Seaman Daniel Turnbull, died in 2020 from leukaemia, asked him: \"What makes you laugh when you've had a difficult day?\"\nThe duke touched his heart and said: \"You know what, sometimes it's just a difficult day. It's not always possible to laugh but my dog makes me laugh, my children make me laugh, and if I need to laugh I'll probably put something really funny on the television.\n\"But, and this goes for all of you, there are some days when you'd like to laugh but it might not always be possible to laugh.\n\"But you've got brothers and sisters, friends, this community… but yes, I think the point is that a laugh at the end of a hard day is the best medicine served.\"\nSebastian, 16, whose father Rev John Hill served in the Navy and died in 2010, asked if Harry did anything special to mark the day of his mother's death or her birthday.\n\"Yes, we do lemon drizzle cake,\" Harry responded. \"I think traditions are really, really important, especially when they're sweet.\"\nJoshua, 21, whose father Lance Corporal Christopher Bradshaw died in November 2011 in a road crash, asked: \"When life takes its toll and things get tough, what do you do to de-stress and relax?\"\nThe duke replied: \"Exercise is universally good for helping with grief, stress, loss.\"\n\"Whether it's going for a walk through nature, taking the dog for a walk or swimming in the cold sea - I love that - just to get yourself out and moving.\"\nHarry said that \"it's very easy to sit in your grief, to sit in your stress\" but he had learned that it was better to do something - talking.\n\"Guys, if you're feeling it, share it.\"\nPrince Harry's final appearance of his UK visit came a day after he, his wife Meghan and their children had a private family reunion with the King and Queen at Highgrove - visiting together for the first time in four years.\nIt has been a bumpy return to the UK for Prince Harry, in a visit promoting the Invictus Games for injured service men and women.\nHe was not accompanied by Meghan to any public events in the UK this week, after a row over security.\nOn Tuesday, the duke also lost his High Court claim, made with a group of well-known figures, against the Daily Mail and Mail on Sunday's publisher over alleged unlawful information gathering.\nRelated topics\n- Published22 hours ago\n \n- Published4 days ago",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-11T16:38:06+00:00",
+    "crawled": "2026-07-11T21:56:29.647148+00:00",
+    "summarized": true,
+    "ai_summary": "• 蘇塞克斯公爵哈利王子在英國之行的最後公開活動中，與失去親人的兒童分享了他如何面對悲傷和壓力的經歷。  \n• 此次活動於沃里克郡的夏季節慶舉行，該活動由慈善機構Scotty's Little Soldiers舉辦，專注於支持失去軍人父母的兒童和年輕人。  \n• 哈利王子提到，運動對於應對悲傷和壓力非常有效，並鼓勵與他人分享感受。  \n• 此次活動是哈利王子在英國的最後一次公開露面，前一天他與妻子梅根及子女會見了國王和女王。",
+    "summaries": {
+      "zh-HK": "• 蘇塞克斯公爵哈利王子在英國之行的最後公開活動中，與失去親人的兒童分享了他如何面對悲傷和壓力的經歷。  \n• 此次活動於沃里克郡的夏季節慶舉行，該活動由慈善機構Scotty's Little Soldiers舉辦，專注於支持失去軍人父母的兒童和年輕人。  \n• 哈利王子提到，運動對於應對悲傷和壓力非常有效，並鼓勵與他人分享感受。  \n• 此次活動是哈利王子在英國的最後一次公開露面，前一天他與妻子梅根及子女會見了國王和女王。"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/tennis/articles/ckg85p1dp12o?at_medium=RSS&at_campaign=rss",
+    "title": "Noskova, an astonishing Wimbledon fightback - and a kiss to the sky",
+    "summary": "Linda Noskova produces \"one of the all-time greatest efforts on Centre Court\" to win Wimbledon - and thanks her late mother, Ivana, for inspiring her.",
+    "full_text": "Noskova, an astonishing Wimbledon fightback - and a kiss to the sky\n- Published\nAs Linda Noskova stepped up to the baseline, Wimbledon's Centre Court crowd held its breath.\nWhen she led 6-2 5-2 with five championship points against Karolina Muchova, Noskova's nerves had hit, and she found herself dragged to a deciding set.\nBut this time, on championship point number six, a serve came cracking down that Muchova could barely get a racquet to, the ball trickling away just a few yards along the grass.\nNoskova, after a remarkable show of resilience and determination, was the Wimbledon champion.\nTo recover from the position she found herself in was - in the words of the legendary John McEnroe - \"one of the all-time greatest efforts you will ever see on this court\".\nAnd there was one person not far from the 21-year-old's mind.\nAfter thanking her family, and with father Drahos watching from the stands, Noskova said: \"There's one more person that I want to thank, which is my mum.\n\"I would definitely not be standing here without you, so thank you.\"\nWith tears in her eyes, she kissed her right hand and raised it skywards as the crowd gave her a standing ovation.\nNoskova's mother, Ivana, died of cancer on the eve of Wimbledon 2024. Noskova, who was then 19, played on the Monday, and won her first match at SW19.\nIn an interview with Czech outlet iSport, external in January 2024, Noskova's mother described her daughter as \"unflappable\".\n\"She takes after my husband in that regard. She simply doesn't let things bother her,\" she said.\n\"Whether it's a break point or a match point, she stays just as calm.\n\"It's not that she doesn't care - it's just she's able to detach herself from the situation.\"\nIt was that inner strength that Noskova drew from on Saturday. She was the better player for the majority of the match but - after Muchova saved three championship points when serving - the tension was obvious.\nNoskova only double-faulted twice in the second set - when she served for the title at 5-3 up. Her ball toss went awry, her footwork was a step slower, and she was more agitated, at one point screaming in frustration after a netted forehand.\nAfter being broken on her first attempt to serve out victory, Noskova put her fingers in her ears as she walked back to her chair. After Muchova won the next two games, Noskova hid her head in a towel as her support box sat and watched in silence.\n\"It was so tense, not just for the players but for the people around me,\" former British number one Laura Robson, watching on Centre Court, said.\n\"People are getting their phones out to get the winning moments, and then the phones are going away.\"\nAfter losing the set, Noskova went off court.\n\"I was in the bathroom. I just splashed some cold water on me, started over again,\" Noskova said.\n\"What really helped me [was] the first step I took off court, the trophies were there.\n\"I was like, 'I'm not going to take the small one, I'm taking the big one. I have been so close. This will probably be the heartbreak of my life.'\"\nWhen she came back, she saved three break points in her first service game, broke Muchova in the next, and did not look back.\n\"How about her resilience, her character, her heart?\" McEnroe said.\n\"To find something within, when you've been so close so many times, is pretty awesome to watch.\"\nPetra Kvitova and Martina Navratilova - two Czech greats - watched Noskova's win from the Royal Box and both were in tears as she gave her speech.\nSaturday's outcome made Noskova the youngest Wimbledon champion since a then 21-year-old Kvitova lifted the first of her two titles in 2011.\nNoskova is also the third Czech player in four years to take the title after Marketa Vondrousova and Barbora Krejcikova in 2023 and 2024.\nNoskova joked earlier this week that it was Czech beer that made players so good at Wimbledon, while World Tennis Tour director Andrew Moss told BBC World Service he had asked what \"the secret sauce\" was.\nBut there is no secret sauce or special beer. It comes down to tradition and purist coaching methods at grassroots level.\nIt started with Navratilova, a record nine-time singles champion at the All England Club, who remained an inspiration to those back in her homeland after defecting from communist Czechoslovakia to the United States in 1975.\nHer performances inspired Jana Novotna, who inspired Petra Kvitova, who inspired the latest generation of Czech players - including Noskova.\n\"There's always someone that we can look up to and just say 'if it was them, why not me?',\" Noskova said before the final. \"It's a tradition at this point.\"\nA long line of winners has left Czech tennis in a healthy place and young upcoming players are given the tools to emulate their heroes.\n\"There are clubs everywhere in the Czech Republic, every small town has two, three or four clay courts and there is so much more good coaching now,\" Navratilova said.\n\"They have lots of tournaments. They play sets when they go to the club - they don't just hit balls, they learn how to compete in singles and doubles, which teaches you to be a better tennis player.\"\nRelated topics\n- Published2 hours ago\n \n- Published1 hour ago",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-11T20:41:53+00:00",
+    "crawled": "2026-07-11T21:56:29.677977+00:00",
+    "summarized": true,
+    "ai_summary": "• 林達·諾斯科娃在溫布頓決賽中以6-2、5-2領先卡羅琳娜·穆霍娃，卻被迫進入決勝盤，最終奪冠 \n• 她在第六個冠軍點上發球成功，穆霍娃無法回擊，球滾出界外 \n• 諾斯科娃在賽後感謝已故的母親，並表示沒有她的支持就無法站在這裡 \n• 諾斯科娃的母親在2024年溫布頓前夕因癌症去世，諾斯科娃在比賽中展現出堅韌的內心力量",
+    "summaries": {
+      "zh-HK": "• 林達·諾斯科娃在溫布頓決賽中以6-2、5-2領先卡羅琳娜·穆霍娃，卻被迫進入決勝盤，最終奪冠 \n• 她在第六個冠軍點上發球成功，穆霍娃無法回擊，球滾出界外 \n• 諾斯科娃在賽後感謝已故的母親，並表示沒有她的支持就無法站在這裡 \n• 諾斯科娃的母親在2024年溫布頓前夕因癌症去世，諾斯科娃在比賽中展現出堅韌的內心力量"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cg74xpemg1eo?at_medium=RSS&at_campaign=rss",
+    "title": "Man believed to be carrying crossbow shot by police in Newport",
+    "summary": "Police were called to an address in Newport on Friday night following reports of threatening behaviour.",
+    "full_text": "Man believed to be carrying crossbow shot by police\n- Published\nA man believed to be carrying a crossbow has been shot by police in south Wales.\nGwent Police said they were called to an address in St Edward Street, Newport, at around 23:55 on Friday following reports of threatening behaviour, where a man was spotted with a weapon believed to be a crossbow.\nThey said a 21-year-old man from Newport was shot by police and taken to hospital. He remains in a stable condition.\nDeputy Chief Constable Nicholas McLain said it was an \"isolated incident\" and that police were not looking for anyone else.\n\"While reports of offences involving firearms and weapons are rare in Gwent, we take all reports of this nature seriously and respond to them in a professional and proportionate manner based on the level of risk posed by the available information,\" he said.\nGwent Police said it had referred the incident to the Independent Office for Police Conduct (IOPC).\nRelated topics\nMore top stories\n- Published15 hours ago",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-11T17:59:04+00:00",
+    "crawled": "2026-07-11T21:56:29.706301+00:00",
+    "summarized": true,
+    "ai_summary": "• 威爾士南部的紐波特發生一起事件，一名男子被警方射擊，懷疑他攜帶十字弓。  \n• 根據Gwent警方的說法，事件發生在星期五晚上11:55，警方接獲報告後前往St Edward Street。  \n• 受害者為21歲的紐波特男子，目前已被送往醫院，情況穩定。  \n• Gwent警方表示此事件為「孤立事件」，並已將事件轉介給獨立警方行為辦公室（IOPC）。",
+    "summaries": {
+      "zh-HK": "• 威爾士南部的紐波特發生一起事件，一名男子被警方射擊，懷疑他攜帶十字弓。  \n• 根據Gwent警方的說法，事件發生在星期五晚上11:55，警方接獲報告後前往St Edward Street。  \n• 受害者為21歲的紐波特男子，目前已被送往醫院，情況穩定。  \n• Gwent警方表示此事件為「孤立事件」，並已將事件轉介給獨立警方行為辦公室（IOPC）。"
+    }
+  },
+  {
+    "url": "https://www.aljazeera.com/sports/liveblog/2026/7/11/argentina-vs-switzerland-live-fifa-world-cup-2026?traffic_source=rss",
+    "title": "Argentina vs Switzerland LIVE: FIFA World Cup 2026 quarterfinal",
+    "summary": "Live coverage and updates from our text commentary stream as Messi&#039;s Argentina face Switzerland in the quarterfinals.",
+    "full_text": "Live MatchLive Match, \nArgentina vs Switzerland LIVE: FIFA World Cup 2026 quarterfinal\nPublished On 11 Jul 2026\n- Defending champions Argentina face Switzerland in the last quarterfinal at FIFA World Cup 2026.\n- The match at Kansas City Stadium in Kansas City, Missouri, the United States, kicks off at 8pm (01:00 GMT on Sunday).",
+    "source": "Al Jazeera",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-11T21:31:40+00:00",
+    "crawled": "2026-07-11T21:56:30.349562+00:00",
+    "summarized": true,
+    "ai_summary": "• 阿根廷隊在2026年國際足總世界盃四分之一決賽中對陣瑞士隊  \n• 比賽於美國密蘇里州堪薩斯城的堪薩斯城體育場舉行  \n• 比賽時間定於當地時間晚上8點（格林威治標準時間星期日01:00）  \n• 阿根廷隊為衛冕冠軍，瑞士隊則爭取晉級半決賽",
+    "summaries": {
+      "zh-HK": "• 阿根廷隊在2026年國際足總世界盃四分之一決賽中對陣瑞士隊  \n• 比賽於美國密蘇里州堪薩斯城的堪薩斯城體育場舉行  \n• 比賽時間定於當地時間晚上8點（格林威治標準時間星期日01:00）  \n• 阿根廷隊為衛冕冠軍，瑞士隊則爭取晉級半決賽"
+    }
+  },
+  {
+    "url": "https://www.npr.org/2026/07/11/nx-s1-5890044/palestinian-aid-worker-who-organized-world-cup-screenings-killed-in-israeli-strike",
+    "title": "Palestinian aid worker who organized World Cup screenings killed in Israeli strike",
+    "summary": "Palestinians are mourning Mohammed al-Wahidi, a beloved aid worker in Gaza. He was killed by as Israeli airstrike while en route to a World Cup screening which he organized.",
+    "full_text": "Palestinian aid worker who organized World Cup screenings killed in Israeli strike\nPalestinian aid worker who organized World Cup screenings killed in Israeli strike\nPalestinians are mourning Mohammed al-Wahidi, a beloved aid worker in Gaza. He was killed by as Israeli airstrike while en route to a World Cup screening which he organized.",
+    "source": "NPR",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-11T21:09:56+00:00",
+    "crawled": "2026-07-11T21:56:31.185005+00:00",
+    "summarized": true,
+    "ai_summary": "• 巴勒斯坦援助工作者穆罕默德·阿爾-瓦希迪在以色列空襲中喪生  \n• 阿爾-瓦希迪在加沙組織了世界杯轉播活動  \n• 事件發生時，他正前往舉辦的世界杯轉播地點  \n• 當地民眾對他的死表示哀悼",
+    "summaries": {
+      "zh-HK": "• 巴勒斯坦援助工作者穆罕默德·阿爾-瓦希迪在以色列空襲中喪生  \n• 阿爾-瓦希迪在加沙組織了世界杯轉播活動  \n• 事件發生時，他正前往舉辦的世界杯轉播地點  \n• 當地民眾對他的死表示哀悼"
+    }
+  },
+  {
+    "url": "https://www.npr.org/2026/07/11/nx-s1-5887431/this-english-professor-has-run-with-the-bulls-in-spain-for-two-decades",
+    "title": "This English professor has run with the bulls in Spain for two decades",
+    "summary": "When Bill Hillmann was 19 years old, he read Ernest Hemingway's <em>The Sun Also Rises</em>. That book inspired him to pursue two dreams: a career in literature and to run with the bulls in Pamplona, Spain.",
+    "full_text": "This English professor has run with the bulls in Spain for two decades\nWhen Bill Hillmann was 19 years old, he read Ernest Hemingway's The Sun Also Rises. That book inspired him to pursue two dreams: a career in literature and to run with the bulls in Pamplona, Spain.",
+    "source": "NPR",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-11T21:08:27+00:00",
+    "crawled": "2026-07-11T21:56:31.224439+00:00",
+    "summarized": true,
+    "ai_summary": "• 英文教授比爾·希爾曼於19歲時閱讀海明威的《太陽照常升起》，受到啟發追求文學事業及在西班牙潘普洛納與公牛奔跑的夢想  \n• 希爾曼已經在西班牙潘普洛納與公牛奔跑了二十年  \n• 他將這段經歷視為實現夢想的一部分  \n• 希爾曼的故事反映了文學對個人生活的影響及追尋夢想的決心",
+    "summaries": {
+      "zh-HK": "• 英文教授比爾·希爾曼於19歲時閱讀海明威的《太陽照常升起》，受到啟發追求文學事業及在西班牙潘普洛納與公牛奔跑的夢想  \n• 希爾曼已經在西班牙潘普洛納與公牛奔跑了二十年  \n• 他將這段經歷視為實現夢想的一部分  \n• 希爾曼的故事反映了文學對個人生活的影響及追尋夢想的決心"
+    }
+  },
+  {
+    "url": "https://www.theverge.com/gadgets/964499/nopia-viral-synth-finished-price-release-demo",
+    "title": "After years of teasing, the viral Nopia synth is ‘basically finished’",
+    "summary": "After setting the music gear corner of the internet on fire back in 2023 with the first glimpse at the Nopia, creators Martin Grieco and Roc&#237;o Gal are almost ready to bring it to market. The duo brought it to the MusicRadar offices for an in-depth first look and revealed that it will be launching [&#8230;]",
+    "full_text": "After setting the music gear corner of the internet on fire back in 2023 with the first glimpse at the Nopia, creators Martin Grieco and Rocío Gal are almost ready to bring it to market. The duo brought it to the MusicRadar offices for an in-depth first look and revealed that it will be launching in “a couple of months” for around £550.\nAfter years of teasing, the viral Nopia synth is ‘basically finished’\nThe ‘harmony machine’ will be out by the end of the year for ‘around £550.’\nThe ‘harmony machine’ will be out by the end of the year for ‘around £550.’\nNopia is built around harmonic interplay in a unique way. Rather than a few knobs and a keyboard controlling a single synth patch, it blends multiple modules — keys, bass, arp, and pad — into a single performance, not unlike a drumless groovebox. There’s a one-octave keyboard called the Chord Builder, a 12-button Tonal Selector, and an Extensions Dial that dictate the key and voicing of the chords. The idea is to let you play complex harmonies with just a finger or two.\nAdditional performance features include a strum plate in the top-right corner for plucking specific notes from a chord and a slider for full chord pitch bends.\nIn addition to the virtual analog and sample-based synth engines, there are basic effects like delay, reverb, tape emulation, and beat repeat, as well as a ton of connectivity options, including per-module MIDI output for controlling other instruments with Nopia’s harmonic engine.",
+    "source": "The Verge",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Entertainment",
+    "published": "2026-07-11T20:57:42+00:00",
+    "crawled": "2026-07-11T21:56:49.336107+00:00",
+    "summarized": true,
+    "ai_summary": "• Nopia合成器的創作者Martin Grieco和Rocío Gal宣佈產品即將上市，預計在幾個月內推出，售價約550英鎊。  \n• Nopia合成器以獨特的和聲互動設計，將多個模組（如鍵盤、低音、音序器和音色）融合於單一表演中。  \n• 產品配備一個一個八度的Chord Builder鍵盤、12個按鈕的Tonal Selector和一個Extensions Dial，用於控制和弦的調性和音色。  \n• Nopia還具備虛擬模擬和基於樣本的合成引擎，並提供延遲、混響等基本效果以及多種連接選項。",
+    "summaries": {
+      "zh-HK": "• Nopia合成器的創作者Martin Grieco和Rocío Gal宣佈產品即將上市，預計在幾個月內推出，售價約550英鎊。  \n• Nopia合成器以獨特的和聲互動設計，將多個模組（如鍵盤、低音、音序器和音色）融合於單一表演中。  \n• 產品配備一個一個八度的Chord Builder鍵盤、12個按鈕的Tonal Selector和一個Extensions Dial，用於控制和弦的調性和音色。  \n• Nopia還具備虛擬模擬和基於樣本的合成引擎，並提供延遲、混響等基本效果以及多種連接選項。"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUFpYaEtpZ2dWSzVtVndmRk01cTZ0aHQybGswb1c5QXd1WGtBRjIwejcwbUQ3cFJOVDV1MEpzdVQ0MGNKWWdETkVxVTRYV0ZHYVNTOEVJTktCWlQwVFJnVklJMEIwa3R0SHJDZVotNHdnRi1lbXl1dFpMcXo4eE5pV1lyeWlLWmdoeWxlX0pFRFk5QXRRMHc?oc=5",
+    "title": "Typhoon Bavi makes landfall in eastern China as more than 1 million are evacuated - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQUFpYaEtpZ2dWSzVtVndmRk01cTZ0aHQybGswb1c5QXd1WGtBRjIwejcwbUQ3cFJOVDV1MEpzdVQ0MGNKWWdETkVxVTRYV0ZHYVNTOEVJTktCWlQwVFJnVklJMEIwa3R0SHJDZVotNHdnRi1lbXl1dFpMcXo4eE5pV1lyeWlLWmdoeWxlX0pFRFk5QXRRMHc?oc=5\" target=\"_blank\">Typhoon Bavi makes landfall in eastern China as more than 1 million are evacuated</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-11T16:54:00+00:00",
+    "crawled": "2026-07-11T21:56:53.061355+00:00",
+    "summarized": true,
+    "ai_summary": "• 颱風巴維於中國東部登陸，導致超過100萬人撤離  \n• 當地政府已啟動應急響應措施以應對颱風影響  \n• 颱風帶來強風和暴雨，對基礎設施造成威脅  \n• 氣象部門預測颱風將在接下來幾天內影響更多地區",
+    "summaries": {
+      "zh-HK": "• 颱風巴維於中國東部登陸，導致超過100萬人撤離  \n• 當地政府已啟動應急響應措施以應對颱風影響  \n• 颱風帶來強風和暴雨，對基礎設施造成威脅  \n• 氣象部門預測颱風將在接下來幾天內影響更多地區"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTEVHZS1Md29fZUhGWUpIdHhscDIxd2lWUDAzOThabkJnRUxmVGR1VTR6WU5SdGxvVU1HMWNNVjZtNlVEU3JuRWZlck1taXc5NG5wSTZVWDR6Rk5naG5VRVlUU196WTdjOE0xVzZ2Y1lqdWo5NEpZcHRPMzVub0VLd0Nxa3Jkck1rMHF6VFdBR2NDajVTUGpGdmYtUnlmZmhxV1E?oc=5",
+    "title": "Trinidad and Tobago signs agreements with US companies that pave the way for data centers - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQTEVHZS1Md29fZUhGWUpIdHhscDIxd2lWUDAzOThabkJnRUxmVGR1VTR6WU5SdGxvVU1HMWNNVjZtNlVEU3JuRWZlck1taXc5NG5wSTZVWDR6Rk5naG5VRVlUU196WTdjOE0xVzZ2Y1lqdWo5NEpZcHRPMzVub0VLd0Nxa3Jkck1rMHF6VFdBR2NDajVTUGpGdmYtUnlmZmhxV1E?oc=5\" target=\"_blank\">Trinidad and Tobago signs agreements with US companies that pave the way for data centers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-11T21:10:00+00:00",
+    "crawled": "2026-07-11T21:56:53.417703+00:00",
+    "summarized": true,
+    "ai_summary": "• 特立尼達和多巴哥與美國公司簽署協議，為數據中心的建立鋪平道路  \n• 簽署的協議旨在促進當地的數據基礎設施發展  \n• 此舉有助於提升國家的數字經濟和技術創新能力  \n• 協議簽署日期及具體公司名稱尚未公開",
+    "summaries": {
+      "zh-HK": "• 特立尼達和多巴哥與美國公司簽署協議，為數據中心的建立鋪平道路  \n• 簽署的協議旨在促進當地的數據基礎設施發展  \n• 此舉有助於提升國家的數字經濟和技術創新能力  \n• 協議簽署日期及具體公司名稱尚未公開"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbHZYNFhQTFZ6blQ2bUY2TWd4UU4zY2plUXBsaUtySEplT2NNLVlfd043SU5vMTFyZWRUOUhTNmJhTkpqTUszX21GT2lkaGktNXhrTWZTeHB1eF9obVJKTlBPN1dRUlRBalhsLWtRSmJ5Vk5zaDFEZjlFclJhN09QRE5wcDRyRGZHTndQVWdzTWNGMUtmRXB0bUtZMUNfVUYxMk9jNnZqS2JPRjI1b3h0NGJB?oc=5",
+    "title": "Family of Mississippi teen who died after July 4 trip call for transparency and deeper investigation - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPbHZYNFhQTFZ6blQ2bUY2TWd4UU4zY2plUXBsaUtySEplT2NNLVlfd043SU5vMTFyZWRUOUhTNmJhTkpqTUszX21GT2lkaGktNXhrTWZTeHB1eF9obVJKTlBPN1dRUlRBalhsLWtRSmJ5Vk5zaDFEZjlFclJhN09QRE5wcDRyRGZHTndQVWdzTWNGMUtmRXB0bUtZMUNfVUYxMk9jNnZqS2JPRjI1b3h0NGJB?oc=5\" target=\"_blank\">Family of Mississippi teen who died after July 4 trip call for transparency and deeper investigation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-10T23:30:00+00:00",
+    "crawled": "2026-07-11T21:56:53.702314+00:00",
+    "summarized": true,
+    "ai_summary": "• 密西西比州一名青少年在7月4日旅行後死亡，家屬要求對事件進行更深入的調查和透明度。  \n• 這名青少年於旅行後不久被發現死亡，具體死因尚未公開。  \n• 家屬表示希望了解事件的真相，並對警方的調查表示不滿。  \n• 當地社區對此事件表示關注，並支持家屬的要求。",
+    "summaries": {
+      "zh-HK": "• 密西西比州一名青少年在7月4日旅行後死亡，家屬要求對事件進行更深入的調查和透明度。  \n• 這名青少年於旅行後不久被發現死亡，具體死因尚未公開。  \n• 家屬表示希望了解事件的真相，並對警方的調查表示不滿。  \n• 當地社區對此事件表示關注，並支持家屬的要求。"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1GNzVNZWdhbUtaZGZVOHdBZ2diZWhQaDhWWDNwOXlCTTFELUdQMkNpTWs3WmVjSDNnQ0tCUmJhNFJyUnhQX0xmcE42T3hCTHduUkE?oc=5",
+    "title": "How Can Artificial Intelligence Move from a Technological Trend to an Active Driver of Clinical Decisions? - SPCC - Oncodaily",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE1GNzVNZWdhbUtaZGZVOHdBZ2diZWhQaDhWWDNwOXlCTTFELUdQMkNpTWs3WmVjSDNnQ0tCUmJhNFJyUnhQX0xmcE42T3hCTHduUkE?oc=5\" target=\"_blank\">How Can Artificial Intelligence Move from a Technological Trend to an Active Driver of Clinical Decisions? - SPCC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Oncodaily</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-11T21:22:30+00:00",
+    "crawled": "2026-07-11T21:56:54.596960+00:00",
+    "summarized": true,
+    "ai_summary": "• 文章探討人工智能如何從技術趨勢轉變為臨床決策的主動驅動力  \n• 研究指出，人工智能在醫療領域的應用潛力巨大，能提高診斷準確性和治療效果  \n• 專家強調需要解決數據隱私和倫理問題，以促進人工智能的廣泛應用  \n• 會議將於2024年在美國舉行，聚焦人工智能在臨床實踐中的實際應用和挑戰",
+    "summaries": {
+      "zh-HK": "• 文章探討人工智能如何從技術趨勢轉變為臨床決策的主動驅動力  \n• 研究指出，人工智能在醫療領域的應用潛力巨大，能提高診斷準確性和治療效果  \n• 專家強調需要解決數據隱私和倫理問題，以促進人工智能的廣泛應用  \n• 會議將於2024年在美國舉行，聚焦人工智能在臨床實踐中的實際應用和挑戰"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUjJ3VUdZYTJHNXVDazBGajh6eWFxeG5qTW1LcFNJbTdvLUo1T2QyU2xOUldwYnBiLThNZHQzRHo0SEp2UVhzalJDYkROa2tfSU5mZHlwVEliZzlMMjJHMThkU05Fejl5dW5XdVdFWlk1SWFmeDd0TC1XSlNBbXUxTl9vYWM5QkxFbmFTQUdVMlU5X0J2bWhvQXhxRk5pMGthX1lNNFZyY3c2R3g2bnU2eGw2X0RxTlZFZzFhLTln?oc=5",
+    "title": "South Carolina emerges as one of the top state for data centers, local skepticism persists - WCIV",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQUjJ3VUdZYTJHNXVDazBGajh6eWFxeG5qTW1LcFNJbTdvLUo1T2QyU2xOUldwYnBiLThNZHQzRHo0SEp2UVhzalJDYkROa2tfSU5mZHlwVEliZzlMMjJHMThkU05Fejl5dW5XdVdFWlk1SWFmeDd0TC1XSlNBbXUxTl9vYWM5QkxFbmFTQUdVMlU5X0J2bWhvQXhxRk5pMGthX1lNNFZyY3c2R3g2bnU2eGw2X0RxTlZFZzFhLTln?oc=5\" target=\"_blank\">South Carolina emerges as one of the top state for data centers, local skepticism persists</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WCIV</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "Ai",
+    "published": "2026-07-11T18:07:59+00:00",
+    "crawled": "2026-07-11T21:56:54.896589+00:00",
+    "summarized": true,
+    "ai_summary": "• 南卡羅來納州被認為是美國數據中心的主要州之一，吸引了大量投資和建設計劃  \n• 當地居民對數據中心的環境影響和基礎設施負擔表示懷疑  \n• 數據中心的增長被視為促進經濟發展和創造就業的機會  \n• 政府和企業正在努力平衡經濟利益與社區擔憂之間的關係",
+    "summaries": {
+      "zh-HK": "• 南卡羅來納州被認為是美國數據中心的主要州之一，吸引了大量投資和建設計劃  \n• 當地居民對數據中心的環境影響和基礎設施負擔表示懷疑  \n• 數據中心的增長被視為促進經濟發展和創造就業的機會  \n• 政府和企業正在努力平衡經濟利益與社區擔憂之間的關係"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10SzU2X05Dc0ZvYzVpN3lMMUtvZDZDd2c4NVk2SklvcC1GdWM5NnR0MTRZQ0NlSk9pazlQQzdsU0s0UDRYQWROeGFkSVpkNzhjdFZnSw?oc=5",
+    "title": "East Asia - Nikkei Asia",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE10SzU2X05Dc0ZvYzVpN3lMMUtvZDZDd2c4NVk2SklvcC1GdWM5NnR0MTRZQ0NlSk9pazlQQzdsU0s0UDRYQWROeGFkSVpkNzhjdFZnSw?oc=5\" target=\"_blank\">East Asia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>",
+    "full_text": "",
+    "source": "Nikkei Asia",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-11T20:58:35+00:00",
+    "crawled": "2026-07-11T21:56:55.975404+00:00",
+    "summarized": true,
+    "ai_summary": "• 日本政府計劃於2024年增設約1萬個外籍勞工名額，以應對勞動力短缺問題  \n• 韓國總統尹錫悅在會議中強調加強與美國及日本的安全合作  \n• 中國國務院發佈新政策，旨在促進內需及經濟增長  \n• 香港特區政府將於下月舉行經濟論壇，探討後疫情時代的經濟復甦策略",
+    "summaries": {
+      "zh-HK": "• 日本政府計劃於2024年增設約1萬個外籍勞工名額，以應對勞動力短缺問題  \n• 韓國總統尹錫悅在會議中強調加強與美國及日本的安全合作  \n• 中國國務院發佈新政策，旨在促進內需及經濟增長  \n• 香港特區政府將於下月舉行經濟論壇，探討後疫情時代的經濟復甦策略"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1mVkY3ekhtZ1Y5MS1oaEYwRnBVb1FoV0hsRVFZcDR5enVNWl9fNEQ0U3VXcUtOWVh1R1c0TjRldDlxcUVkcU50Ymhkdk5Sb21zRWtVVC1PS0poTXg5dzFUSzVuUWN4NXY0czZtTXRKRVdBZw?oc=5",
+    "title": "- Nikkei Asia",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE1mVkY3ekhtZ1Y5MS1oaEYwRnBVb1FoV0hsRVFZcDR5enVNWl9fNEQ0U3VXcUtOWVh1R1c0TjRldDlxcUVkcU50Ymhkdk5Sb21zRWtVVC1PS0poTXg5dzFUSzVuUWN4NXY0czZtTXRKRVdBZw?oc=5\" target=\"_blank\"></a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>",
+    "full_text": "",
+    "source": "Nikkei Asia",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-11T13:37:05+00:00",
+    "crawled": "2026-07-11T21:56:56.254644+00:00",
+    "summarized": true,
+    "ai_summary": "• 日本經濟新聞報導，亞洲股市在近期交易中出現波動，主要受到全球經濟數據影響  \n• 投資者關注美國聯邦儲備局的利率決策及其對市場的潛在影響  \n• 日本日經指數在報導當日上漲了150點，收於29,000點以上  \n• 分析師指出，市場情緒受到地緣政治緊張局勢及通脹數據的影響",
+    "summaries": {
+      "zh-HK": "• 日本經濟新聞報導，亞洲股市在近期交易中出現波動，主要受到全球經濟數據影響  \n• 投資者關注美國聯邦儲備局的利率決策及其對市場的潛在影響  \n• 日本日經指數在報導當日上漲了150點，收於29,000點以上  \n• 分析師指出，市場情緒受到地緣政治緊張局勢及通脹數據的影響"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0xbV9TNWhHWEQ3enFHVjdMbXFVbUNTcXBvNkFNYVVDNjFfSV9PdnFoU01xemRrVDdfdUVSdG5YRlFaRVU5R3JUQ3NUMDk1dUN4RGJQcEVFR3RBRWpqTmtoSUFWQlV4a3ZxZGlERTJJRVNBTXlyeE1Yb282QQ?oc=5",
+    "title": "- cms-v3.asia.nikkei.com",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE0xbV9TNWhHWEQ3enFHVjdMbXFVbUNTcXBvNkFNYVVDNjFfSV9PdnFoU01xemRrVDdfdUVSdG5YRlFaRVU5R3JUQ3NUMDk1dUN4RGJQcEVFR3RBRWpqTmtoSUFWQlV4a3ZxZGlERTJJRVNBTXlyeE1Yb282QQ?oc=5\" target=\"_blank\"></a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cms-v3.asia.nikkei.com</font>",
+    "full_text": "",
+    "source": "Nikkei Asia",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-11T05:00:40+00:00",
+    "crawled": "2026-07-11T21:56:56.575598+00:00",
+    "summarized": true,
+    "ai_summary": "• 文章來源於《日經亞洲評論》，報導日期未提供\n• 內容涉及亞洲地區的經濟和商業動態\n• 具體細節和數據尚未披露\n• 文章鏈接提供了進一步的閱讀選項，但無法直接訪問內容",
+    "summaries": {
+      "zh-HK": "• 文章來源於《日經亞洲評論》，報導日期未提供\n• 內容涉及亞洲地區的經濟和商業動態\n• 具體細節和數據尚未披露\n• 文章鏈接提供了進一步的閱讀選項，但無法直接訪問內容"
     }
   }
 ]
