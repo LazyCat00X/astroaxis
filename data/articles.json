@@ -1,348 +1,5 @@
 [
   {
-    "url": "https://arstechnica.com/google/2026/07/google-revamps-android-ai-dev-benchmark-adds-fable-5-and-other-agents/",
-    "title": "Google updates Android Bench with new LLMs, but Gemini still lags behind",
-    "summary": "Android Bench is evolving, and developers can help guide that process.",
-    "full_text": "Code generation is emerging as one of the most popular applications for large language models (LLMs), but not all agents are equally good at all development tasks. Google created a benchmark earlier this year to evaluate how LLMs perform in Android app development, and Android Bench is getting a big update today. The leaderboard now includes a raft of new models, and Google has adopted a new framework that should be easier to use. Developers are invited to run their own tests and submit feedback that could shape the future of Android Bench.\nWhile they are popular coding tools, LLMs don’t get everything right. Separating the useful outputs from straight-up slop means choosing the right tool. Android Bench aims to demonstrate which AI agents do best on a suite of 100 Android development tasks. After launching Android Bench in March, Google has added metrics like cost and efficiency, as well as open-weight models.\nTo keep Android Bench relevant, Google is updating the test with eight new models, including all the latest heavy-hitters: Claude Fable 5, Claude Sonnet 5, Claude Opus 4.8, GLM 5.2, Kimi K2.7 Code, MiniMax M3, Qwen 3.7 Plus, and Qwen 3.7 Max.\nEven the initial release of Android Bench didn’t have Google’s AI models at the top—OpenAI’s latest LLMs were slightly in the lead. The story is worse for Gemini now that Google has expanded the lineup. In the new leaderboard, Gemini 3.1 Pro is in fifth place, behind GPT 5.4, Claude Sonnet 5, and Claude Fable 5. In fact, Fable 5 lives up to the hype with a sizeable lead at 84.5 percent accuracy in the test.",
-    "source": "ArsTechnica",
-    "category": "tech",
-    "lang": "en",
-    "topic": "Tech",
-    "published": "2026-07-08T16:39:48+00:00",
-    "crawled": "2026-07-09T04:10:55.232446+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
-    "title": "Google's Pixel 11 launch event is set for August 12, with possible price increases",
-    "summary": "Google's new phones could feature glowing LEDs and higher price tags.",
-    "full_text": "Google has announced its next Made By Google event, taking place on August 12 in New York City. Google’s invite doesn’t name names, but the imagery clearly shows a new Pixel phone that looks a whole lot like last year’s phone. Some new rumors, however, suggest the updated phones will come with inflated price tags courtesy of the AI-driven component shortage.\nThe sleek lines of the phone in the teaser image are a dead ringer for Google’s last few Pixel phones, and that matches some early rumors. Google’s new phones will have similar shapes, with the Pro and Pro Fold models perhaps shaving off a little thickness. The most notable design change will probably be the rumored “Pixel Glow” lights, a rear-facing notification and status light.\nRecent reports claim that Google is finally doing away with the base 128GB storage option for the smaller phones. In 2025, both the Pixel 10 and Pixel 10 Pro started at 128GB of storage, a bit lacking for a modern flagship device at a time when people don’t upgrade as often. Google will reportedly move to 256GB as the base storage for both phones.\nThe leaks also include alleged pricing for the European market, but that’s offset by the higher (by 100 euros) base storage for the Pixel 11 and Pixel 11 Pro, which will apparently start at 999 and 1,199 euros, respectively. That’s the same as the 256GB upgrades last year, but there won’t be a cheaper storage option this time around. The Pixel 11 Pro XL and Pixel 11 Pro Fold are also getting 100 euros more expensive at the base 256GB level, making it a straight price increase.",
-    "source": "ArsTechnica",
-    "category": "tech",
-    "lang": "en",
-    "topic": "Trading",
-    "published": "2026-07-07T19:08:34+00:00",
-    "crawled": "2026-07-09T04:10:55.276794+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.wired.com/story/dimming-the-sun-would-lower-risks-of-el-nino/",
-    "title": "Dimming the Sun Would Help Lower the Risks of El Niño",
-    "summary": "As worries about a growing super El Niño mount, new findings suggest a radical solution to mitigating its impacts.",
-    "full_text": "This year’s El Niño is shaping up to be among the strongest on record, and it’s set to create chaotic weather around the world.\nA new study suggests that there could be a way to mitigate some of the impacts of future El Niños and global warming: dimming the sun.\nEl Niño develops naturally in the tropical Pacific every few years, caused by weakened trade winds that push heat from the ocean toward the coast of South America. This tilts the odds toward higher-than-average global temperatures, as well as droughts in some regions, intense rains and floods in others, and more cyclones in the Pacific. Piled on top of warming driven by burning fossil fuels, a strong El Niño can mean hundreds of billions in economic losses.\nThe new study argues that deflecting solar energy could cool the ocean and help moderate El Niño events before they become too strong, staving off the worst impacts.\n“El Niño is one of these things where something happens in the tropical Pacific, and then it rearranges the way the entire global atmosphere is holding energy that year,” says Katherine Ricke, a coauthor of the study published Wednesday in the journal Science Advances and a climate scientist at UC San Diego and the Scripps Institution of Oceanography. “It’s an ultimate pressure point in the climate system.”\nRicke and her coauthors looked at using marine cloud brightening, or MCB, as a way to dim the sun in the Pacific. The technique entails spraying seawater into marine clouds to enhance the clouds’ reflectivity. While some pilot projects and randomized controlled trials have tested the technique’s efficacy, they’ve only been on very small scales.\nMCB is one of a few different solar geoengineering methods intended to reflect sunlight back into space. Other methods, like using planes to inject aerosols into the stratosphere, can only work globally. But MCB has the potential to be a regional cooling solution.\nTo get around the lack of MCB experiments, researchers looked at a recent natural phenomenon that mimicked it: the catastrophic 2019-2020 Australian bushfire season. More than 10,000 bushfires raged across the country, producing almost 1 million metric tons of smoke. That represents one of the largest inputs of smoke into the stratosphere that humans have observed with satellite technology.\nWhile the effects of this massive amount of smoke were complex, previous research shows it helped trigger a rare triple-dip La Niña—the opposite phase of El Niño—thanks in part to reflective particles in the smoke.\nThis event, Ricke says, enabled her and her coauthors to finally address a question they’d had for years about whether regional interventions can help relieve the pressure events like El Niño put on the global climate system. The researchers created a model based on the MCB effects of the Australian bushfires, and ran it against two different historic El Niño events to observe its effects. The modeling showed that lowering the amount of sunlight reaching the Pacific’s surface would have significantly reduced the magnitude of those El Niño events and their global impact.\nGeoengineering techniques have traditionally been viewed as a method to cool the entire planet, acting as a counterbalance to humans’ use of fossil fuels—albeit an extremely controversial one. The new study makes the case that some forms of geoengineering would be better used to target regional events, like El Niño. Doing so has the potential to avoid—or at least lower the risk—of the compounding effects of El Niño piled on top of rising temperatures due to human activity.\n“The idea of having to sustain geoengineering indefinitely gives a lot of people pause—we all understand that cooperation at that magnitude would be hugely complicated in the world we live in,” Ricke says. “This is a totally different way to think about geoengineering.”\nGeoengineering techniques like using planes to inject aerosols into the stratosphere—or even more fantastical ideas like space mirrors—have been met with skepticism from scientists, policymakers, and the public. This is mainly due to their unpredictability—altering the weather can come with a lot of unintended consequences—and their potential to create political instability. It’s likely even a regionalized approach like the one proposed in the new study would run into the same issues, but it appears to be scientifically feasible—or at least worth further study.\n“The thesis seems quite reasonable,” Andrew Dessler, a professor of atmospheric science at Texas A&M University, says of the Scripps study. But Dessler warns that actually executing something like this would be “a political nightmare,” resulting in conflict or war if something goes wrong in what would be a worst-case scenario.\n“These models are imperfect, and there's the possibility that you'll create an unpredicted problem that is worse than the problem you're trying to solve,” Dessler says. “I think this is a really interesting paper, and I learned a few things reading it, but I certainly would not say that this is a great idea and we should implement it.”\nRicke agrees: “There’s a lot of things we need to figure out from models before trying it in the real world,” she says. Still, she says, this research could prove crucial for the future if humanity fails to address fossil fuel pollution. “The reason people do research on solar geoengineering is because we might end up in a world where we need it.”",
-    "source": "Wired",
-    "category": "tech",
-    "lang": "en",
-    "topic": "Tech",
-    "published": "2026-07-08T18:00:00+00:00",
-    "crawled": "2026-07-09T04:10:56.157517+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.wired.com/gallery/best-portable-power-stations/",
-    "title": "9 Best Portable Power Stations (2026), Tested for Capacity and Size",
-    "summary": "Whether you’re going off-grid or safeguarding against blackouts, these beefy, WIRED-tested batteries can keep the lights on.",
-    "full_text": "The Best Portable Power Stations\nFeatured in this article\nThe gadgets and appliances that make modern living so comfortable have one thing in common: They all need power. Portable power stations have enjoyed a meteoric rise over the past few years as people turn away from gas-guzzling generators. Whether you’re camping for the weekend, living off-grid, or protecting against power outages, these big batteries can help.\nThere’s no such thing as the best power station for most people, because it depends on what you need, but I have spent years testing several to find which models work for certain situations. I have tried portable power stations that can provide from 768 watt-hours to 6.4 kilowatt-hours of backup power. I’ve also added important advice on what to consider when shopping for one. For more modest needs, read our Best Power Banks guide.\nUpdated July 2026: I added a power station from DJI, added a section on home batteries to the FAQ, and updated prices.\nOther Portable Power Stations I Tested\nJackery Portable Power Station Explorer 2000 Plus for $899: The versatile, expandable, durable, and dependable Explorer 2000 Plus was my top pick for a while, and it’s still a good choice if you find it on sale, though the Bluetti Elite 300 that unseated it packs more power into a smaller form. It does still offer some advantages, chiefly that you can double or triple the 2,042-watt-hour capacity by adding battery packs. In my tests, the capacity consistently matched up with Jackery’s claims. It had no trouble with the kettle test (UK kettles hit 3,000 watts), though it chewed through 6 percent of the power. You can charge it speedily from the mains (AC outlet), but it also works as a solar generator. I filled it from 32 percent in a single scorching day with Jackery’s SolarSaga 200-watt solar panel. The fan is relatively quiet at around 30 decibels, but it comes on frequently. It weighs a whopping 62 pounds, and though there are indented handles on either side, a telescopic handle, and two wheels, it can still be tough to move around. The covers on the car port, inputs, and expansion port on the back are annoyingly tight. (I sometimes had to use a screwdriver to open them.) The Wi-Fi connection is 2.4 GHz only, and it took me a while to figure out that the connection mode requires you to press the AC and DC buttons together, since that doesn’t seem to be documented anywhere. Minor niggles aside, this is a great power station to serve as a home backup or off-grid generator. The warranty is three years, but you can extend it to five years by registering with Jackery.\nBluetti Elite 200 V2 for $799: While the Elite 300 is my new recommendation, if a 2,074-watt-hour capacity is enough for you, this power station has similarly strong build quality and mostly the same features (wattage is 2,600 and 3,900 at peak, and UPS has a 15-millisecond delay). It’s relatively fast to charge, can easily power your gadgets and small appliances, and has an info-packed display that’s legible outdoors.\nBioLite BaseCharge 1500 for $1,020: Weighing 29 pounds, it has recessed handles at each side for carrying, though this is as big a power station as I can imagine lugging any real distance. There’s no superfluous app. You can do everything using the buttons and the display on the front. It has a good mix of ports to cover a lot of small gadgets like phones, tablets, and laptops. There’s even a wireless charging pad on top. I wouldn’t run anything too demanding on it, but it coped fine with an electric drill and blender. I tested it with BioLite’s SolarPanel 100, but the BaseCharge 1500 has a standard High Power Port (HPP) input, so you don’t have to use BioLite’s solar panels. It finished just on either side of the stated capacity in my tests. Sadly, the BaseCharge 1500 takes a long time to charge. Even from a wall outlet, you need a day, though you can speed it slightly by using the PD USB-C as a second input. Solar charging from a single SolarPanel 100 takes several days. The battery is also a Li-NMC, so it likely won't last as long as some of our other picks. The BaseCharge 1500 comes with a two-year warranty.\nAmpace Andes 600 Pro for $449: This compact power station weighs 19 pounds and has an easy-carry handle on top. It stores 584 watt-hours of power and can be fully charged in an hour (30 dB sleep mode). It can deliver 600 watts (1,800 W surge), and has lots of ports (2 x AC, 2 x USB-C, 2 x USB-A, 2 x DC 5521, 1 x Car). There’s also a remote control app where you can change the light bar function or the colored light on top. It worked well in my tests and could be handy if you want something portable for small gadgets on a camping trip, but the EcoFlow River 2 Pro above gives you more power for less.\nEcoFlow Delta 3 Plus for $519: I like the stylish, compact design of EcoFlow’s Delta 3 Plus, with the screen and ports at one end. It offers 1,024 watt-hours, can consistently provide 1,800 watts, and has a 2,600-W surge mode. It can also charge up in an hour and has lots of ports (6 x AC, 1 x Car, 2 x USB-A, 2 x USB-C, 2 x DC5521). You can add capacity with EcoFlow’s impressively compact and stackable add-on battery ($599), though it is pricey. The Plus version includes two solar ports for faster solar charging and can pull UPS duty with an impressive 10-millisecond response time. The reason it misses out on a full recommendation is the fan. The fan turned on all the time, even when I was only charging a single phone, and continued at around 55 decibels after it was fully charged and unplugged. It got louder when I charged the Delta 3 Plus from a wall outlet. It could disturb you, and it gave me concerns about overheating. Fan noise aside, I liked this power station, and the app also works well if you want to remote-control it. There is a quiet charging mode, but it drops the rate to 200 watts, meaning it will take more than five hours to fully charge.\nBluetti AC200L for $799: This was replaced by the Elite 200 V2 above, but it is still a decent power station with a similar feature set. It has slightly lower capacity, and it’s heavier and pricier right now, but it is expandable up to 8,192 watt-hours with Bluetti’s add-on batteries. The design and performance are similar, but the Elite 200 V2 edges it for me and is a better buy, especially if you can pick it up for less.\nDabbsson DBS1000 Pro Portable Power Station for $619: This 1024-watt-hour power station has a LiFePO4 battery and a decent mix of ports to charge and power your gadgetry. The US model has four AC outlets, three USB-A ports, three USB-C ports, a car socket, and two DC5521 barrel ports. It can charge to 80 percent in under an hour when plugged in, but expect some fan noise. You can also charge from solar panels or through the car port. You can connect via Wi-Fi and control it from the app, but the display still gives you the info you need without it, and it has a customizable light underneath. The 2,000-watt output is impressive, and there are boost and surge modes to briefly take it to 3,000 and 4,000 watts, respectively. It performed well in my tests and can act as an EPS with a 15-millisecond delay. It’s a solid alternative to our picks above, but doesn’t stand out. The fan comes on frequently and can be annoying. I also had an issue with one of the USB ports sometimes refusing to charge a phone. Buy the DBS2000B battery expansion to boost capacity to 3,072 watt-hours and increase output to 2,400 watts. It comes with a five-year warranty with registration.\nBluetti AC180 for $449: This small Bluetti power station is a solid option if you don’t need as much juice. The AC180 also has a LiFePO4 battery inside, but with a 1,152-watt-hour capacity. It maxes out at 1,800 watts but can surge up to 2,700 watts for short bursts. The US model has four AC outlets, one USB-C (100 W), and four USB-A ports (15 W apiece). There’s even a wireless charging spot on top that goes up to 15 watts. You can fully charge the AC18",
-    "source": "Wired",
-    "category": "tech",
-    "lang": "en",
-    "topic": "Tech",
-    "published": "2026-07-08T11:30:00+00:00",
-    "crawled": "2026-07-09T04:10:56.379923+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.bloomberg.com/news/features/2026-07-09/the-myths-and-conspiracies-that-triggered-uk-anti-immigrant-riots",
-    "title": "The UK Riots Where Online Rage Triggered Real World Chaos",
-    "summary": "<p>How anger and resentment are being manipulated online and weaponized across the UK&nbsp;</p>",
-    "full_text": "",
-    "source": "Bloomberg",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-09T04:01:21+00:00",
-    "crawled": "2026-07-09T04:10:57.123585+00:00",
-    "summarized": true,
-    "ai_summary": "• 英國近日發生多起騷亂，起因於網絡上的憤怒情緒被操控和武器化  \n• 騷亂涉及多個城市，民眾因社會不滿而走上街頭  \n• 當局加強了對社交媒體的監控，以防止進一步的暴力行為  \n• 警方表示，網絡上的煽動性言論對騷亂的爆發起了推動作用",
-    "summaries": {
-      "zh-HK": "• 英國近日發生多起騷亂，起因於網絡上的憤怒情緒被操控和武器化  \n• 騷亂涉及多個城市，民眾因社會不滿而走上街頭  \n• 當局加強了對社交媒體的監控，以防止進一步的暴力行為  \n• 警方表示，網絡上的煽動性言論對騷亂的爆發起了推動作用"
-    }
-  },
-  {
-    "url": "https://www.bankless.com/read/news/paradigm-raises-1-2b-fourth-fund-expands-into-ai",
-    "title": "Paradigm Raises $1.2B Fourth Fund, Expands Into AI",
-    "summary": "Paradigm's $1.2B fourth fund broadens beyond crypto into AI and robotics, joining Framework Ventures and Haun Ventures in widening their scopes.",
-    "full_text": "Subscribe to Bankless or sign in\nParadigm has raised its fourth fund, a $1.2 billion pool that will invest across crypto, AI, robotics, and other frontier technology startups, marking the firm's formal expansion beyond digital assets.\nWhat's the Scoop?\n- Beyond Crypto: Paradigm said it will continue backing crypto companies while expanding into AI, robotics, and other frontier technologies. Its existing non-crypto bets include drone delivery company Zipline, manufacturing platform SendCutSend, space defense startup True Anomaly, and AI research company Nous Research. Its crypto portfolio includes Hyperliquid, Tempo, and Kalshi.\n- Open-Source Focus: The firm also said it will keep funding open-source research. In crypto, that includes developer tools like Foundry and Reth. In AI, it has backed projects including Centaur, an agent tool, and EVMbench, a smart contract security research effort with OpenAI.\n- The Bigger Picture: Paradigm is part of a broader shift among crypto venture firms moving into adjacent sectors. Framework Ventures' $400 million fourth fund and Haun Ventures' $1 billion fund also added areas like AI and robotics to their scope.\n- About Paradigm: Founded in 2018 by former Sequoia Capital partner Matt Huang and Coinbase co-founder Fred Ehrsam, Paradigm is one of the largest crypto VCs. It managed nearly $12 billion in assets at the end of 2025, including university endowments, as the Block reports.",
-    "source": "Bankless",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-08T18:53:14+00:00",
-    "crawled": "2026-07-09T04:10:59.557982+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.bankless.com/read/how-strategy-can-sell-billions-in-bitcoin",
-    "title": "How Strategy Can Sell Billions More in Bitcoin",
-    "summary": "Strategy sold $216M in Bitcoin to fund dividends but still reports full $1.25B reserve capacity. The build-versus-replenish loophole explained.",
-    "full_text": "Subscribe to Bankless or sign in\nYesterday, Strategy disclosed it sold 3,588 BTC for roughly $216 million between June 29th and July 5th.\nThe proceeds funded STRC distributions and refilled the portion of the USD Reserve used to make them. Despite the sale, Strategy said its full $1.25 billion of reserve-building capacity remained available.\nSo a $216 million sale to replenish the reserve did not count against the billion-plus allotted to build it. Technically there's a difference: replenishing versus building. But both sales feed the same reserve, for the same purpose, classified differently.\nPut it this way: the BTC Monetization Program never capped total Bitcoin sales at $1.25 billion. It capped one bucket: selling BTC to build the USD Reserve. The program lets Strategy sell BTC for other purposes too, which is what we just witnessed.\nThe Three Buckets\nOn June 29th, after weeks of pressure on MSTR and STRC, Strategy introduced the BTC Monetization Program as part of its larger Digital Credit Capital Framework. The program lets Strategy sell Bitcoin for three primary purposes:\n- Build the reserve — Sell up to $1.25 billion of BTC for the USD Reserve.\n- Cover the preferreds — Sell BTC to pay the fixed dividends and interest Strategy owes on its preferred shares and debt, or to replenish the reserve afterward, when management decides selling BTC beats issuing common stock.\n- Fund buybacks — Sell BTC to repurchase its preferred shares or MSTR common stock, up to $1 billion of each, with BTC sales potentially covering related taxes, fees, and expenses.\nOnly the first bucket carries the widely circulated $1.25 billion figure. The third adds another $2 billion across the preferred and common repurchase programs.\nSo, the capped pieces alone already contemplate more than $3 billion of BTC monetization, and that excludes the dividend/interest/replenishment bucket, which carries no disclosed cap.\nBuilding vs. Replenishing\nThis is where the distinction gets thin.\nThe USD Reserve exists to pay those preferred dividends and interest obligations. It cannot fund stock buybacks under current policy.\nAs of June 28th, it held $2.55 billion, enough to cover roughly 17 months of the $1.76 billion Strategy owes each year. The Board set a 12-month coverage floor unless it authorizes lower.\nThat is why the line between building and replenishing deserves scrutiny.\n- Sell Bitcoin to add cash before dividends are paid: building.\n- Use the reserve to pay dividends, then sell Bitcoin to refill it: replenishing.\nThe program treats these as different categories while they do the same thing: turn BTC into cash to cover preferred dividends and interest.\nThe fine print was already disclosed, but yesterday's sale showed how convenient the distinction is. Strategy sold $216 million of BTC, spent it on distributions and replenishment, and still reported full reserve-building capacity at $1.25 billion.\nEnjoying this article?\nSubscribe to Bankless or sign in\nWe must all now learn Strategy-speak. \"Build\" and \"replenish\" are just accounting details, but they determine whether a BTC sale reduces the headline capacity.\nFrom Accumulation to Active Management\nIn the June 29th announcement, Michael Saylor said the framework reflects a need for \"liquidity, discipline, and active capital management.\" CEO Phong Le put it plainly: Strategy is \"evolving from one-way capital issuance to active capital management.\"\nStrategy has effectively become an actively managed hedge fund, as Castle Island's Matt Walsh and Jeff Dorman explained when they stopped by the podcast last week.\nThe old Strategy story was simple: sell MSTR equity, buy Bitcoin, and hand investors levered BTC exposure. The new one isn't: Strategy is now buying and selling pieces of its own capital structure to manage pressure between the common stock, the preferreds, the reserve, and Bitcoin itself.\nThat dynamic creates conflicts, as Walsh and Dorman note. Selling common equity supports preferred dividends but pushes down the premium MSTR trades at over the Bitcoin it holds. Selling Bitcoin extends the cash runway but further weakens the \"never sell\" narrative. Supporting preferreds protects confidence but drains cash. Cutting preferred dividends preserves liquidity but could crater the preferreds themselves.\nThe reserve loophole is one expression of that shift. Bitcoin is now a balance-sheet lever to keep the preferred stack functioning, not an asset Strategy accumulates.\nWhat We're Left With\nInvestors must now underwrite Saylor's ability to run a machine where every lever helps one part of the capital structure while threatening another.\nThat is the real takeaway from the July 6 filing. Strategy is not out of options. It may have more than the headline suggests. The $1.25 billion figure signals that BTC preservation remains the priority only if investors mistake it for a total ceiling. Don't make that mistake.\nStrategy is now an institution the market has to interpret.\nEvery phrase matters now: build, replenish, issue, repurchase, defend. Like Fed-watchers parsing every comma, we must parse each term for what it implies about future BTC sales.\nWith the Program, Strategy bought itself flexibility, but the underlying tension remains. This is no longer a clean levered Bitcoin trade. It is a bet on active capital management: whether Strategy can keep selling, refilling, issuing, repurchasing, and defending pieces of its capital structure without one breaking the others.\nPersonally, it's not a bet I'd like to make.",
-    "source": "Bankless",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Bitcoin",
-    "published": "2026-07-07T20:04:44+00:00",
-    "crawled": "2026-07-09T04:10:59.715456+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.blocktempo.com/sk-hynix-nasdaq-listing-oversubscribed-seven-times-hbm-memory-demand/",
-    "title": "無懼海力士股價跌三成，SK ADR 美股認購超額 7 倍、7/13 開始正式交易",
-    "summary": "<p>SK 海力士（SK Hynix）美股掛牌訂單簿週三截止收單，彭博報導指出超額認購已逾 7 倍，以彭博估算，此次 [&#8230;]</p>\n〈<a href=\"https://www.blocktempo.com/sk-hynix-nasdaq-listing-oversubscribed-seven-times-hbm-memory-demand/\">無懼海力士股價跌三成，SK ADR 美股認購超額 7 倍、7/13 開始正式交易</a>〉這篇文章最早發佈於動區BlockTempo《<a href=\"https://www.blocktempo.com\">動區動趨-最具影響力的區塊鏈新聞媒體</a>》。",
-    "full_text": "SK 海力士（SK Hynix）美股掛牌訂單簿週三截止收單，彭博報導指出超額認購已逾 7 倍，以彭博估算，此次募資規模約 245 億美元，將成為外國企業赴美掛牌史上第二大、僅次於阿里巴巴。\n（前情提要：SK 海力士 7/10 掛牌那斯達克！SKHY 程式碼、290 億鎂 ADR 一次看懂）\n（背景補充：原油飆，美股半導體盤前集體跳水！記憶體最慘，美光、閃迪摔逾 5%）\nSK 海力士在韓股股價目前較六月底創下的歷史新高已回落近三成，三星、美光等同業的記憶體股同期同樣走跌，市場擔憂為 AI 基礎建設投資熱潮正在降溫、散戶資金該撤了。\n但轉個身，這家記憶體巨頭在那斯達克的美股認購簿仍被塞爆，彭博報導指出，超額認購倍數已衝破 7 倍，機構下單的積極程度，跟目前股價那條下滑的曲線呈現巨大反差。\n245 億美元，外國企業赴美掛牌史上第二大\n本次美國存託憑證（ADR。簡單來說就是，讓外國公司股票能在美股掛牌交易的憑證）發行規模達 1.779 億股，每股 ADR 對應十分之一普通股。\n以週三首爾收盤價 207.6 萬韓元（約 1,380 美元）換算，彭博估算此次募資規模約 245 億美元，此前市場預期一度上看近 290 億美元，實際金額要等週四正式定價才會拍板，浮動空間仍在。\n但無論落在哪個數字，245 億美元的規模，都足以讓 SK 海力士躋身外國企業赴美掛牌史上第二大，僅次於阿里巴巴 2014 年那筆 250 億美元的 IPO，是南韓企業前所未見的量級。\n承銷團由美國銀行、花旗、高盛與摩根大通四家領軍，另有 9 家機構參與分銷，動用的承銷陣容規模，本身就說明這筆交易的份量。訂單簿已於週三下午 4 點截止收單，等待週四正式定價。\n買方名單，長線基金與主權基金搶進\n彭博報導指出，本輪認購吸引了全球長線基金、聚焦科技產業的基金、主權基金，以及亞洲導向的全球投資人，買盤結構橫跨多種型別的機構資金，不是單一族群一頭熱。\n展望未來，SK 海力士與老對手三星電子，接下來都將加碼投資，這是南韓政府主導、規模達 8,800 億美元計畫的一部分，目標是把記憶體與先進製程的產能，牢牢留在南韓境內，也意味著這輪掛牌募得的資金，最終仍會迴流到晶圓廠與產能擴充，而不是停在銀行帳戶裡。\n此次發行的 ADR 預計週五在那斯達克全球精選市場開始附條件交易，7 月 13 日轉入正式交易後，程式碼將改為 SKHY，屆時股價才會真正接受美股投資人的日常檢驗。\n📍相關報導📍\nSK海力士下週赴美上市！290億美元搶AI記憶體門票，納斯達克將迎史上最大外資IPO",
-    "source": "動區動趨 (BlockTempo)",
-    "category": "crypto",
-    "lang": "zh",
-    "topic": "Crypto",
-    "published": "2026-07-09T03:53:18+00:00",
-    "crawled": "2026-07-09T04:11:02.366083+00:00",
-    "summarized": true,
-    "ai_summary": "• SK海力士（SK Hynix）在美股的存託憑證（ADR）發行規模約為245億美元，成為外國企業赴美掛牌史上第二大，僅次於阿里巴巴的250億美元IPO。  \n• 此次美股認購超額達7倍，吸引了全球長線基金、主權基金及科技產業專注的投資者。  \n• SK海力士的韓股股價自六月底以來已回落近三成，市場對AI基礎建設投資熱潮降溫表示擔憂。  \n• ADR預計於7月13日在那斯達克正式交易，程式碼將改為SKHY。",
-    "summaries": {
-      "zh-HK": "• SK海力士（SK Hynix）在美股的存託憑證（ADR）發行規模約為245億美元，成為外國企業赴美掛牌史上第二大，僅次於阿里巴巴的250億美元IPO。  \n• 此次美股認購超額達7倍，吸引了全球長線基金、主權基金及科技產業專注的投資者。  \n• SK海力士的韓股股價自六月底以來已回落近三成，市場對AI基礎建設投資熱潮降溫表示擔憂。  \n• ADR預計於7月13日在那斯達克正式交易，程式碼將改為SKHY。"
-    }
-  },
-  {
-    "url": "https://blockcast.it/2026/07/08/10000-gold-by-year-end-intact-james-rickards-said/",
-    "title": "美版《貨幣戰爭》作者：黃金年底上看 1 萬美元，比 2008 年更嚴重危機將至",
-    "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"900\" src=\"https://blockcast.it/wp-content/uploads/2026/07/James-Rickards.jpeg\" style=\"display: block; margin: auto; margin-bottom: 5px;\" width=\"1350\" /><p>美國版《貨幣戰爭》作者 James Rickards 認為近期金價下跌是個絕佳的買進機會，並預期金價可能在 2026 年底前達到 1 萬美元，同時警告稱，一場比 2008 年更嚴重的經濟危機可能即將到來。</p>\n<p>〈<a href=\"https://blockcast.it/2026/07/08/10000-gold-by-year-end-intact-james-rickards-said/\">美版《貨幣戰爭》作者：黃金年底上看 1 萬美元，比 2008 年更嚴重危機將至</a>〉這篇文章最早發佈於《<a href=\"https://blockcast.it\">區塊客</a>》。</p>",
-    "full_text": "美國版《貨幣戰爭》的作者，美國著名金融作家 James Rickards 近日作客《Commodity Culture》播客節目。訪談中，James Rickards 認為近期金價下跌是個絕佳的買進機會，並預期金價可能在 2026 年底前達到 1 萬美元。 James 概述了他認為將推動金價創下歷史新高的催化劑，同時警告稱，一場比 2008 年更嚴重的經濟危機可能即將到來。\nPANews 就訪談精華進行了整理。\n主持人：今年 1 月黃金和白銀都創下歷史新高，當時黃金大約在 4,000 美元左右，白銀在 60 美元左右，但隨後出現了相當劇烈的回調。您對近期的價格走勢有何看法？這是一個逢低買進的機會，還是應該保持謹慎？\nJames：簡而言之，這是一個非常好的入場點和逢低買入的機會。 1 月底金價確實創下了歷史新高，收盤價大約在 5,355 美元，或者我們稱之為 5,400 美元的整數關口。隨後金價跌至每盎司 4,000 美元左右，甚至一度跌破該水平，在 3,900 至 3,950 美元之間徘徊，但現在似乎穩定在了 4,000 美元附近。這並不是泡沫破裂，而是大宗商品正常的價格回撤，為下一波上漲奠定了良好的基礎。我之前預測的今年底或明年初金價達到 1 萬美元的目標依然沒有改變。\n主持人：支撐這種判斷的因素是什麼呢？\nJames：基本面並沒有改變。波斯灣的不確定性、烏克蘭戰爭、央行淨買進、中國的大舉買入，以及礦產供應持平而需求上升，再加上通膨問題，這些都是推高金價的因素。\n那為什麼金價之前會下跌呢？ 2 月底伊朗戰爭爆發時，霍爾木茲海峽被封鎖，出現了雙重封鎖的局面：伊朗不讓非盟友通過，而美國海軍則攔截那些通過的親伊朗的船隻。這導致全球 20% 的石油、 20% 的液化天然氣以及重要的硫磺、氦氣（用於製造半導體）、鋁和化學肥料所需的硝酸鹽運輸受阻。\n儘管美國有足夠的石油不需要依賴波斯灣，但這導致世界其他地區面臨嚴重的美元短缺，因為這些大宗商品都是以美元計價的，當大宗商品短缺導致價格上漲時，你需要更多美元。為了獲得美元來購買短缺的石油，一些國家（如土耳其、俄羅斯、中國等）不得不拋售黃金以換取美元。這種對美元的迫切需求引發了金價的初步下跌，隨後槓桿交易員觸及止損線，以及大宗商品交易顧問（CTA）的順勢跟風拋售，導致跌勢加劇。不過，隨著部分石油恢復運輸和油價從每桶 110 美元回落至 67-70 美元附近，對美元的緊迫需求已經減弱。\n我想起史上最有名的大宗商品交易員 Jim Rogers 八、九年前告訴我的話。當時黃金從 2011 年 1900 美元的峰值大幅下跌，他告訴我：“在大宗商品交易中，沒有任何東西能在沒有經歷 50% 回撤的情況下漲到月球。如果你沒準備好，你就進錯了市場。”\n這涉及數學中的「分形數學」和「尺度不變性」概念，即市場模式在不同的時間尺度上會重複出現。以當時 1999 年 250 美元的低點為基數，漲到 1900 美元，中間差的 50% 減去 1900，剛好是 1070 美元，而 2015 年的底部正是 1050 美元。 Rogers 說得極為準確。把同樣的法則應用到今天，我們以大約 1800 美元為新基準，漲到 5355 美元，兩者差額的 50% 從 5355 中減去，結果大約是 3600 美元。我不確定金價是否一定會跌到 3600 美元，但如果跌到那個位置我也不驚訝。這就是一個正常的 50% 回檔模式。我們已經為下一階段的起飛做好了準備，所以現在是一個非常好的入場點。\n主持人：許多人的一個重點是，黃金已經正式超越美國國債，成為全球儲備中持有最廣泛的資產。各國央行大量囤積黃金，是因為他們預見了貨幣重置，還是因為以美國為首的西方凍結俄羅斯外匯儲備，促使各國為了消除交易對手風險而覺醒？\nJames：你說得對，黃金在全球儲備的佔比上確實超過了美元資產，但了解原因很重要。央行自 2010 年以來一直是黃金的淨買家，但黃金佔比超越國債，並不是因為他們拋售了國債並海量購買了黃金。真正的原因是，國債價格波動不大，而黃金價格在相對較短的時間內幾乎增加了三倍。由於價格暴漲，以美元計算的資產比例自然變大了。\n話雖如此，為什麼央行要買黃金呢？他們看到了什麼？我認為危機已經到了。這要追溯到 2022 年俄羅斯在烏克蘭的軍事行動。這場戰爭已經持續了四年多，而俄羅斯正在贏得這場戰爭。戰前，俄羅斯央行行長 Elvira Nabiullina（我認為她是世界上唯一懂自己工作的央行行長）建立的儲備中擁有約 6000 億美元，其中 1500 億（25%）是存放在莫斯科的實物黃金，另外還有約 3000 億美元的美國國債。這些國債託管在比利時的歐洲清算系統（Euroclear）。他們信任比利時人和美國人，這是個大錯。\n美國和歐洲聯手凍結了這些資產。美國經常凍結別國資產（如敘利亞、伊朗、北韓），但徹底沒收、竊取資產是完全不同層面的事。歐美正試圖沒收甚至直接竊取俄羅斯資產，他們想出的荒謬計畫包括：歐洲發債借錢給烏克蘭，戰後用俄羅斯的戰爭賠款償還，還不上的話就用沒收的俄羅斯資產做抵押。但俄羅斯不會輸，也不會付賠款。全世界（沙烏地阿拉伯、中國、日本等持有大量美債的國家）看到這一切後會想：「如果哪天美國不喜歡我的外交政策，他們會不會也竊取我的國債？」答案是可能。所以他們開始對沖，開始買黃金。實體金條只要存放在你自己的金庫裡，就是地緣政治安全的，美國無法竊取，駭客也無法駭入。美國稀釋並損害了自己作為法治國家的聲譽，給了其他國家持有黃金的理由。\n主持人：您在最近的一次訪談中提到，我們正接近一個規模將超過聯準會應對能力的金融危機。能詳細解釋一下嗎？政府和聯準會過度幹預市場是否會加劇未來的潛在危機？\nJames：我經歷過很多次危機：1974 年德國赫斯塔特銀行倒閉、 80 年代初阿根廷等國的銀行業違約、 1987 年道指單日下跌 22% 、 1994 年墨西哥龍舌蘭危機、 1998 年 LTCM（長期資本管理公司）危機（當時我是首席律師，主導了救助 2008 年的金融危機。 2008 年危機時我是麥凱恩競選團隊的顧問。當時政府剛救了 “兩房”，他們以為危機結束了，但我警告他們危機遠未結束，雷曼兄弟即將倒下，必須準備安撫民眾的計劃。他們沒聽，結果雷曼週末時，歐巴馬表現得冷靜沉著，麥凱恩卻像無頭蒼蠅，民調在那一天徹底被逆轉。\n我見過各種救助。 2008 年摩根士丹利離倒閉只有幾天，聯準會在不到 48 小時內破例將他們轉為銀行控股公司並予以救助。最近在 2023 年矽谷銀行危機中，週五晚上 FDIC（聯邦存款保險公司）宣布只賠付 25 萬美元限額內的受保存款。結果週末，對沖基金的大佬們跑到白宮施壓，說如果不救助新創公司會引發大規模倒閉裁員。於是周日晚上，FDIC 改口說所有存款無上限全額擔保；美聯儲也站出來，允許那些因加息導致國債貶值至面值 70% 的銀行，將國債按票面價值（100%）做抵押獲得貸款。這意味著聯準會和 FDIC 擔保了系統中每一筆國債和每一筆存款（甚至包括加密貨幣交易所的巨額帳戶）。\n你已經把能擔保的全部都擔保了，接下來還能怎麼辦？再爆發危機時，你還能從帽子裡變出什麼戲法？過去 45 年來，每一次救助都比上一次規模更大。當危機大到連聯準會的紓困都無濟於事，因為所有的紓困手段都已經被市場預期和定價，局勢將完全失控。我認為我們現在正處於那個節點。這也是擁有黃金的另一個原因。\n主持人：隨著這場危機的到來，你認為它對華爾街和一般大眾意味著什麼？會比 2008 年更糟嗎？哪些資產類別在危機後受創最深，又會在哪裡尋找撿漏的機會？\nJames：可能會更糟。 2008 年危機主要源自於 1 兆美元的次級房貸市場，以及疊加在其上的 5 兆美元衍生品，從而把 AIG 和高盛拖入泥淖。但現在，我們在多個維度上面臨危機。首先是全球美元短缺，聯準會印的錢其實被「沖銷」在資產負債表裡，並沒有進入經濟刺激體係了。其次，我們在私募信貸市場（換了包裝的垃圾債券）面臨巨大危機，上千億美元的高風險貸款發放給了「超大規模企業」和 AI 數據中心建設者，現在這些正在崩潰。投資者想要贖回資金，但諸如黑石、阿波羅等頂級基金經理們利用合約裡長達 50 頁之後的 “附屬細則”，拒絕在市場動盪時退款（只退給你極少比例，比如 5% 的資金）。資產在暴跌，但沒人願意以市值計價引發連鎖反應，大家都在如履薄冰假裝一切安好。\n如果我們把油價、波斯灣局勢、烏克蘭、私募信貸危機、美元短缺、過度槓桿化和 AI 泡沫結合起來看，這不僅僅是一個壓力點，而是四到五個泡沫同時存在。任何一個都足以引發危機，結合起來就是「所有金融危機之母」。\n在建立投資組合方面，我會配置 10% 的黃金，不用太多，10% 是很好的比例。我會持有 30% 的現金。現金具有內在的 “選擇權”，當市場崩盤時，有現金的人才能去四處 “撿漏” 尋找廉價資產，並且它還能防禦通縮風險。我喜歡能產生收入的房地產（農場和住宅，非市中心商業地產）。我還看好國債，利率一旦下降到 1%-2%，你會在 10 年期、 5 年期或 2 年期國債上獲得非常可觀的資本利得。\n對於股市，我會減持，撤出 AI 、超大規模運算企業和軟體等泡沫板塊。我青睞的是國防、能源板塊以及醫療保健板塊。每次就業統計中，醫療保健總是領先，隨著 8,000 萬嬰兒潮世代步入高齡（罹患阿茲海默症、心臟病等幾率增加），優秀的醫療服務提供者極為緊缺。我也看好自然資源、礦產和農業。\n相關閱讀：對話加密分析師：比特幣四年周期依然有效，清算危機下市場暗藏新機會\n（以上內容獲合作夥伴 PANews 授權節錄及轉載，原文連結 ）\n免責聲明：本文只為提供市場訊息，所有內容及觀點僅供參考，不構成投資建議，不代表區塊客觀點和立場。投資者應自行決策與交易，對投資者交易形成的直接或間接損失，作者及區塊客將不承擔任何責任。",
-    "source": "區塊客 (Blockcast)",
-    "category": "crypto",
-    "lang": "zh",
-    "topic": "Crypto",
-    "published": "2026-07-08T11:16:28+00:00",
-    "crawled": "2026-07-09T04:11:04.050922+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://blockcast.it/2026/07/08/how-leverage-products-turned-south-koreas-stock-market-into-a-casino/",
-    "title": "槓桿產品引發股市巨變，韓國股市如何淪為「賭場」？",
-    "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"1200\" src=\"https://blockcast.it/wp-content/uploads/2019/10/ripple-vp-calls-for-more-cryptocurrency-friendly-regulations-in-south-korea_1.jpg\" style=\"display: block; margin: auto; margin-bottom: 5px;\" width=\"1920\" /><p>韓國股市陷入槓桿風暴！個股 2 倍槓桿產品開放僅 6 周，卻因三星電子、SK 海力士股價震盪引爆散戶虧損，KOSPI 跌入技術性熊市。這場金融實驗揭露韓股高集中、高槓桿結構風險，也迫使監管重新檢視衍生性商品規範。</p>\n<p>〈<a href=\"https://blockcast.it/2026/07/08/how-leverage-products-turned-south-koreas-stock-market-into-a-casino/\">槓桿產品引發股市巨變，韓國股市如何淪為「賭場」？</a>〉這篇文章最早發佈於《<a href=\"https://blockcast.it\">區塊客</a>》。</p>",
-    "full_text": "作者：Jae，PANews\n7 月 8 日，韓國股市延續跌勢，韓國綜合股價指數（KOSPI）一度跌破 7,200 點，日內跌超 6%，自 6 月峰值累計下跌超 20%，進入技術性熊市。\n素以高波動、高散戶參與度著稱的韓國股市，陷入了一場空前的信任危機，誘因就是針對單一股票的槓桿 ETF 。\n韓國國民力量黨議員、前總統候選人安哲秀甚至在社群媒體上公開困難：KOSPI 已經徹底「淪為賭場」。他強烈要求對掛鉤三星電子和 SK 海力士的個股 2 倍槓桿產品採取包括摘牌退市在內的強力糾正措施。\n從 5 月底監管破例開放個股槓桿 ETF 時的萬眾矚目，再到如今國會審議退市、監管公開致歉的一地雞毛，韓國股市在短短六週內走出了一條陡峭的拋物線。\n這場金融鬧劇揭開了韓國股市高度集中、槓桿氾濫的結構性瘡痍，也為全球散戶化浪潮下的槓桿產品監管敲響了一記警鐘。\n被資金外逃逼出來的製度松綁\n把視線拉回兩個月前，個股槓桿產品在韓國的落地，實質上是一套防禦性手段。\n激進的金融變革，往往伴隨著制度的無奈與焦慮。長期以來，韓國散戶因不滿本土股市的長期橫盤，將資金大量撤出並投向海外槓桿市場，特別是在美國和香港上市的槓桿及反向 ETF 。其中，由南方東英（CSOP）在香港發行的 SK 海力士雙倍槓桿產品最受追捧，在短時間內就吸走了海量的韓國日內交易資金，資產規模一度突破 130 億美元，一躍成為全球最大的單檔股票槓桿投資工具。\n一邊是本土市場持續失血、韓元貶值壓力高企，另一邊是散戶對槓桿產品的強烈需求，韓國金融監理部門的政策天秤開始傾斜。 4 月 28 日，金融監督院（FSS）正式修訂了存續多年的「單票槓桿禁令」：將指數類產品的個股持倉上限從 30% 上調至 100%，並取消了 10 只成分股的硬性門檻，為掛鉤科技巨頭的 2 倍槓桿、反向產品掃清了合規障礙。\n彼時，半導體產業正踩在人工智慧（AI）帶來的風口上。在 AI 算力需求暴漲和高效能高頻寬記憶體（HBM）技術突破的加持下，三星電子與 SK 海力士業績連創歷史新高，牛市預期被推至頂點。\n5 月 27 日，韓國金融當局正式批准八家主流資管機構，發行首批共 16 隻掛鉤三星和 SK 海力士的本土 2 倍槓桿及反向產品。\n為了抑制過度投機，監管部門在形式上設置了防火牆：\n- 禁止在產品名稱中直接包含傳統「ETF」字樣，來區別於分散投資型基金；\n- 投資者必須繳納 1000 萬韓元的保證金；\n- 強制修完 2 小時的投教課程。\n只是這些薄薄的護欄，在散戶幾近瘋狂的投機熱情面前，形同虛設。\n高集中度+高槓桿反噬韓國股市，散戶成每日再平衡祭品\n安哲秀指出，三星電子與 SK 海力士合計佔 KOSPI 總市值約 60% 。在這種「頭重腳輕」的結構上疊加槓桿，相當於為整個指數裝上了一台擴大機。這意味著，任何一點風吹草動，都會被倍增到整個市場。\n截至 7 月初，流入三星電子和 SK 海力士槓桿產品的資金規模已達 212 兆韓元，約佔韓國 ETF 總交易金額的 26.6% 。然而，14 隻槓桿產品在上市一個月後全部錄得負收益，最大虧損達 35.9% 。 7 月 7 日，其中 13 只更是跌破 2 萬韓元發行價。當日，16 檔個股槓桿及反向產品合計成交額達 13.11 兆韓元，超過全市場 ETF 總成交額的三分之一。\n更令人不解的是，從上市至 7 月 3 日，即便三星電子股票上漲約 0.81%，KODEX 三星電子槓桿產品反而下跌了 10.75% 。\n底層股票在漲，槓桿產品卻在虧。這意味著，槓桿產品的「每日再平衡（Daily Rebalancing）」機製成了一道收割散戶的咒詛。\n為了維持 2 倍風險敞口，槓桿產品必須在每個交易日收盤前進行程序化調倉：股價上漲就被動加倉，股價下跌就機械拋售。在震盪行情中，這種機制會產生「負複利效應」，淨值會因調倉損耗而不斷流失。只要底層標的處於寬幅震盪而非單邊上行，槓桿產品的淨值就會持續蒸發。\n截至 7 月 6 日，16 檔個股槓桿 ETF 總淨資產約 14.91 兆韓元，較 6 月 25 日的 17.6 兆韓元下降 15.3%，約縮水 3 兆韓元。\n槓桿產品的破壞力，不僅讓散戶虧錢，更在反噬整個市場。瑞銀和巴克萊的交易監測數據顯示，在 3 月初和 5 月中的市場震盪中，收盤前半小時的程序化調倉流量曾分別占到 SK 海力士現貨總成交量的 60% 和 17% 。\n槓桿產品的調倉行為大幅偏離了標的基本面，直接演變成了「尾巴搖狗」的非理性砸盤或拉升。 KOSPI 恐慌指數在 6 月中一度飆升到 90.8 至 95 的歷史極值，市場進入高度情緒化的博弈狀態。今年以來，韓國股市已 5 次觸發全市場熔斷，而這項機制實施以來總共僅觸發過 11 次；另一套針對程序化交易的「邊車」暫停機制，年內也已觸發超過 30 次。\n券商賺走佣金，散戶損失血本\n任何一場金融奇觀，都能拆解為一份對應著利益與代價的帳本：在韓股市場，券商賺得盆滿缽滿，散戶卻損失慘重。\n政策改革確實在短期內實現了資金截留的目標。槓桿產品上線後，規模迅速膨脹至 14 兆韓元（約 91 億美元），驗證了本土散戶對槓桿工具的龐大需求；高換手率與二級市場溢價也為量化基金、做市商提供了充足的套利空間，一定程度上提升了韓股市場在槓桿領域的定價參與度。\n其中，最大的贏家就是券商。根據 FSS 估算，上線首月，本土券商從相關交易中賺取的佣金就高達 5-10 萬億韓元（約 33-66 億美元），為低迷已久的券商行業注入了一劑強心針。\n「那些營運系統的人正在躺著數錢，而真正參與的散戶根本賺不到錢。」恰如李燦鎮事後的痛斥，代價遠比收益更沉重。槓桿產品的持有者中，92% 是散戶。他們用微薄的積蓄，在資訊不對稱和機制缺陷的雙重絞殺下，成為了這場金融實驗的買單俠。\n- \n國際資本加速撤離，韓股市場信譽受損：《華爾街日報》數據顯示，2026 上半年外資超過 100 億美元的撤資潮，正是全球主流資金用腳投票的信號。昨天（7 月 7 日），外資在韓國股市再度拋售近 15 億美元，推動了整體股價下跌。安哲秀指出，如果「過山車式的 KOSPI」持續下去，韓國市場將被全球的機構投資者視為不可預測的「垃圾股市」。 \n- \n市場的集中度與單邊風險加劇： 7 月 2 日，半導體板塊遭遇利空，開盤僅 10 分鐘 KOSPI 就跌超 5% 直接觸發熔斷，其中槓桿產品的程序化拋壓起到了關鍵的助推作用。韓國央行警告：個股槓桿產品的持續擴張或進一步加劇市場集中度、增加市場波動，並放大散戶的損失風險。 \n- \n流動性錯配和高溢價陷阱帶來估價幻覺： 6 月 8 日，由於大量資金追漲且流動性不足，ACE SK 海力士槓桿產品一度出現 86% 的二級市場溢價，多數散戶在高位接盤。隔日，溢價迅速回歸，即使標的反彈也無法覆蓋溢價透支，散戶不僅未能獲利，反而承受了 27% 的本金蒸發。 \n監管「圍剿」槓桿產品，或引發散戶資金新一輪逃亡\n隨著散戶資產大面積縮水，韓國社會各界對金融監理機關問責聲達到了頂點。\nFSS 院長李燦鎮在 6 月的媒體說明會上承認，因急於穩定匯率和攔截資本外流，監管部門在產品審查過程中「倉促應對」。\n目前，國會已正式啟動針對個股槓桿產品的深度審查，討論重點包括限期整改，乃至強制摘牌退市方案。同時，金融監督院也已緊急召集韓國各大資管機構 CEO，諮詢緊急安全墊機制。\n監管層提出的糾偏方向主要有三：\n- \n提高散戶投資門檻：大幅提高保證金標準，或為個人衍生性商品持股總額設定硬性比例上限； \n- \n放緩衍生性商品擴容節奏：韓國交易所宣布延後原定於 6 月底上線的四檔超級權重股週度選擇權，預防多重衍生性商品形成套利鏈路，對現貨市場形成次生踩踏； \n- \n引導產品轉向分散化：原則上不再審批新的個股槓桿產品，逐步鎖死存量產品的額度；同時放寬對相關係數 0.7 以內的主動型組合產品的限制，引導散戶回歸多資產配置。 \n然而，海外資管業對韓國監管的補救動作，持有不同的觀點。香港南方東英執行董事李濟忠直言：韓國即便實施鐵腕打壓，也可能是無用功。香港等外部市場具有更靈活的稅收優勢、更長的交易時間，強制退市本土槓桿產品，極易再度引發「散戶資金大逃亡」，重新回流到海外槓桿市場。\nKOSPI 花了六週，把「創新試驗田」變成了「賭場」。在這座賭場裡，最昂貴的籌碼，就是投資人的信任。\n歷史一再證明：靠加槓桿堆出來的流動性，最終都會以更劇烈的波動償還；靠吸引賭客撐起來的市場，終究會被理性資金用腳投票。\n（以上內容獲合作夥伴 PANews 授權節錄及轉載，原文連結 | 出處： ）\n免責聲明：本文只為提供市場訊息，所有內容及觀點僅供參考，不構成投資建議，不代表區塊客觀點和立場。投資者應自行決策與交易，對投資者交易形成的直接或間接損失，作者及區塊客將不承擔任何責任。",
-    "source": "區塊客 (Blockcast)",
-    "category": "crypto",
-    "lang": "zh",
-    "topic": "Regulation",
-    "published": "2026-07-08T11:04:04+00:00",
-    "crawled": "2026-07-09T04:11:04.279152+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://blockcast.it/2026/07/08/securitize-slides-40prcnt-after-spac-debut-despite-tokenization-boom/",
-    "title": "「代幣化狂潮」失靈？Securitize 借殼上市遭血洗、股價狂瀉 40%",
-    "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"900\" src=\"https://blockcast.it/wp-content/uploads/2026/07/HMk0gyFWgAA0y9U.jpg\" style=\"display: block; margin: auto; margin-bottom: 5px;\" width=\"1200\" /><p>代幣化公司 Securitize（美股代號：SECZ）早前透過「特殊目的收購公司（SPAC）」借殼上市，但即使身處華爾街最熱門的領域，且獲得貝萊德（BlackRock）投資力挺，上市首周表現仍讓市場大跌眼鏡。</p>\n<p>〈<a href=\"https://blockcast.it/2026/07/08/securitize-slides-40prcnt-after-spac-debut-despite-tokenization-boom/\">「代幣化狂潮」失靈？Securitize 借殼上市遭血洗、股價狂瀉 40%</a>〉這篇文章最早發佈於《<a href=\"https://blockcast.it\">區塊客</a>》。</p>",
-    "full_text": "代幣化公司 Securitize（美股代號：SECZ）早前透過「特殊目的收購公司（SPAC）」借殼上市，但即使身處華爾街最熱門的領域，且獲得貝萊德（BlackRock）投資力挺，上市首周表現仍讓市場大跌眼鏡。\nSecuritize 上周掛牌交易以來，股價至今已累計下跌約 40%，周二盤中跌幅一度擴大至 25%，雖然尾盤收斂部分跌勢，但仍延續上市以來的疲弱走勢。\nSecuritize 這波慘烈跌勢，與華爾街目前對資產代幣化的狂熱形成強烈對比。目前，包含貝萊德、富蘭克林坦伯頓（Franklin Templeton）與摩根大通（JPMorgan）在內的金融巨頭，正爭相將美債、基金、信貸與股票等傳統資產搬上區塊鏈。\n投資銀行也持續看好代幣化市場發展潛力。花旗（Citi）預估，到 2030 年，代幣化資產規模可望衝上 5.5 兆美元；波士頓顧問集團（BCG）、區塊鏈支付公司 Ripple 更預估，代幣化市場規模最快將在 2033 年逼近 19 兆美元。\n針對股價跳水，加密資產管理公司 Arca 投資長 Jeff Dorman 表示，這波拋售潮與 Securitize 的基本面或任何特定利空消息幾乎毫無關聯。他解釋稱：\n我們沒看到任何重大的負面催化劑，SPAC 上市後出現劇烈震盪其實是市場常態。因為整個投資人結構正在大換血，原本偏向固定收益套利的 SPAC 投資人選擇獲利了結，改由看重基本面的長期投資人接手，因此股價往往會出現大幅波動。\nSPAC 股票在掛牌初期的走勢往往如雲霄飛車。這類公司先向大眾籌資，隨後再尋找未上市企業進行併購；一旦交易完成，原先專注於套利或急於贖回資金的投資人通常會陸續離場。這段「籌碼換手期」極易引發價格劇烈甩轎，尤其是當流通股數有限，或是股價在合併前就已被炒高時，震盪會更為劇烈。\nJeff Dorman 也認為，近期多檔加密貨幣概念股上市後表現疲弱，已讓投資人變得更加保守。他表示：\n觀察最近加密貨幣 IPO 的表現，包括 Coinbase 、 Bullish 、 Gemini 、 BitGo 甚至 Circle，整體成績都不算理想，因此 Securitize 大跌也就不足為奇了。\n攤開近期數據，自今年 2 月 IPO 以來，數位資產託管商 BitGo 股價已崩跌 70%；由 Winklevoss 兄弟創辦的交易所 Gemini 自 9 月掛牌後更是狂瀉 85%；Bullish 自 2025 年 8 月以 90 美元掛牌後，至今也重挫逾 70%，早已跌破 37 美元發行價。\n穩定幣發行商 Circle（CRCL）目前的股價雖仍守在 31 美元發行價兩倍以上，但也已微幅跌破 69.50 美元的開盤價，且較 2025 年 6 月的歷史高點大幅回檔 77% 。與此同時，早在 2021 年 4 月就透過直接上市敲鐘的 Coinbase（COIN），目前也較 381 美元的開盤價腰斬 56% 。\n免責聲明：本文只為提供市場訊息，所有內容及觀點僅供參考，不構成投資建議，不代表區塊客觀點和立場。投資者應自行決策與交易，對投資者交易形成的直接或間接損失，作者及區塊客將不承擔任何責任。",
-    "source": "區塊客 (Blockcast)",
-    "category": "crypto",
-    "lang": "zh",
-    "topic": "Crypto",
-    "published": "2026-07-08T10:42:42+00:00",
-    "crawled": "2026-07-09T04:11:04.315121+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://blockcast.it/2026/07/08/u-s-sec-to-propose-crypto-rule-as-soon-as-this-month/",
-    "title": "美國 SEC 最快本月推「加密監管規則」！放寬加密新創註冊、籌資門檻",
-    "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"900\" src=\"https://blockcast.it/wp-content/uploads/2025/04/Paul-Atkins-speaking.jpeg\" style=\"display: block; margin: auto; margin-bottom: 5px;\" width=\"1600\" /><p>根據周二公布的最新議程， 美國證管會 （ SEC ）最快將於本月提出全新的加密貨幣監管規則提案，透過提供暫時性豁免機制，大幅降低加密貨幣新創在證券法規上的合規門檻，並放寬募資限制，為產業建立更清晰的監管架構。</p>\n<p>〈<a href=\"https://blockcast.it/2026/07/08/u-s-sec-to-propose-crypto-rule-as-soon-as-this-month/\">美國 SEC 最快本月推「加密監管規則」！放寬加密新創註冊、籌資門檻</a>〉這篇文章最早發佈於《<a href=\"https://blockcast.it\">區塊客</a>》。</p>",
-    "full_text": "根據周二公布的最新議程，美國證管會（SEC）最快將於本月提出全新的加密貨幣監管規則提案。透過提供暫時性豁免機制，大幅降低加密貨幣新創在證券法規上的合規門檻，並放寬募資限制，為產業建立更清晰的監管架構。\n這項備受矚目的新構想被名為《加密監管規則（Regulation Crypto）》。根據美國 SEC 主席阿特金斯（Paul Atkins）今年 3 月首度勾勒的藍圖，核心亮點包括：\n- 針對首次推出加密貨幣投資契約的開發團隊，提供暫時性的「豁免註冊」待遇；\n- 允許一定額度內的市場籌資；\n- 建立安全港機制，當項目逐步邁向去中心化、發行方不再扮演主要管理角色時，可逐步脫離證券監管範圍。\n這是美國 SEC 繼今年稍早發布「代幣分類標準」後，又一項扶植加密貨幣產業的重大舉措。該機構同時也在研擬配套方案，以推動代幣化證券發展。\n在周二發表的聲明中，阿特金斯將加密貨幣議程置於所有施政重點之首。他強調：\n為了實現川普總統將美國打造成「全球加密貨幣之都」的願景，我們正擁抱創新，吸引更多產品回流美國本土。我們不僅要為加密資產籌資制定明確的規則，更要讓市場參與者清楚知道，該如何進行資產託管，並促進代幣化證券在鏈上的安全交易與流通。\n隨著《數位資產市場明晰法案（CLARITY 法案）》的立法進程陷入停滯，美國 SEC 已成為幣圈寄予厚望的監管明燈。儘管該機構推動政策的步調有時不如市場預期，例如阿特金斯早在今年 3 月就曾預告這項新規，並表示會在「未來幾周內」提出，結果卻一路延宕至今。\n在 SEC 緊湊的議程中，《加密監管規則（Regulation Crypto）》被排定於 7 月登場，目前仍待白宮資訊與法規事務局（OIRA）完成審查。一旦正式發布，這將是阿特金斯掌舵 SEC 以來，首個針對加密貨幣量身打造的重大規則。\n過去，SEC 雖曾就加密貨幣發布一系列工作人員指引、指導意見，但這些文件僅屬行政指導，並不具有正式規則的效力；而後者的體制則更為完備，不會因未來 SEC 領導層更替而遭修改或推翻。\n值得注意的是，SEC 的最新議程不僅聚焦新創籌資，還涵蓋了其他具深遠影響的加密貨幣規範，包含更嚴謹的資產託管機制，以及加密貨幣市場結構的規則。\n免責聲明：本文只為提供市場訊息，所有內容及觀點僅供參考，不構成投資建議，不代表區塊客觀點和立場。投資者應自行決策與交易，對投資者交易形成的直接或間接損失，作者及區塊客將不承擔任何責任。",
-    "source": "區塊客 (Blockcast)",
-    "category": "crypto",
-    "lang": "zh",
-    "topic": "Regulation",
-    "published": "2026-07-08T03:38:04+00:00",
-    "crawled": "2026-07-09T04:11:04.543605+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://finance.technews.tw/2026/07/08/microsofts-xbox-layoffs-failing-streaming-strategy-led-to-big-job-cuts/",
-    "title": "微軟 Xbox 認賠「遊戲界 Netflix」夢想，裁員 3,200 人並放棄五家工作室",
-    "summary": "微軟公司（Microsoft Corp.）7 日宣布重大組織改革，全球裁減約 4,800 個職位，約占全球員工 [&#8230;]",
-    "full_text": "微軟公司（Microsoft Corp.）7 日宣布重大組織改革，全球裁減約 4,800 個職位，約占全球員工總數 2.1%。Xbox 遊戲部門為重災區，裁減 3,200 名員工，占 20% 員工，並放棄五家遊戲工作室。微軟此舉等於公開承認，過去十年耗資近 800 億美元、試圖將 Xbox 打造成「遊戲界 Netflix」的串流與訂閱制策略宣告失敗。\n十年來微軟為了與索尼（Sony）PlayStation和任天堂（Nintendo）Switch競爭，展開大規模收購潮。最受矚目莫過於近三年前以690億美元收購遊戲巨頭動視暴雪（Activision Blizzard），以及收購擁有《上古卷軸》（Skyrim）等知名IP的ZeniMax Media。微軟原寄望以龐大遊戲陣容推動主機銷售，並吸引玩家訂閱Game Pass，但Xbox Series X / S主機銷量未達預期，Game Pass增長速度也大不如前。\nXbox執行長阿莎·夏爾馬（Asha Sharma）給員工的信坦言，收購與訂閱制策略「並未以預期速度成長」，導致核心業務走弱。微軟執行長薩蒂亞·納德拉（Satya Nadella）日前也在Podcast節目指出，必須將部門轉型視為可持續發展的業務，並自嘲在YouTube直播Xbox內容的創作者，賺得都比微軟還多。\n夏爾馬直言：「我們今天的業務並不健康。」她指Xbox利潤率比同類平台和發行商低3~10倍，Xbox每投入1美元會虧損64美分。此外，遊戲產業也遭遇「史上最嚴重的硬體危機」，由於主機零組件（特別是記憶體晶片）成本飆升，導致硬體成本居高不下。Xbox已計劃8月1日起，主機價格調漲100~150美元（視機型而定）。\n為了扭轉頹勢，Xbox將進行「Xbox史上最大重組」。3,200名裁減Xbox員工，1,600人已於6日立即離職，其餘1,600人將在2027財政年度內陸續裁減。Xbox也會大幅扁平化管理架構，將14管理層級縮減至不超過五層，理想目標是三層。\n工作室方面，微軟放棄五家遊戲工作室，四家已確認剝離：Compulsion Games和Double Fine Productions恢復獨立公司，Ninja Theory和Undead Labs移交給新管理層。Xbox將縮減戰線，停止無法賺到平台級報酬的擴張性創意投資，專注《當個創世神》（Minecraft）系列開發商Mojang和《Candy Crush》系列開發商King等核心戰略支柱。\n此次裁員4,800人，除了Xbox部門，也波及銷售AI產品的銷售團隊。微軟人力資源長艾米·科爾曼（Amy Coleman）表示，是為了因應客戶需求變化而重組，並澄清AI沒有直接取代員工。裁員前微軟已於5月提供約8,750名員工自願退休方案，超過30%合資格員工接受方案。微軟重心與資金大舉轉向人工智慧（AI）基礎設施建設，傳統遊戲業務不得不面臨痛苦的「重開機」。\n- Microsoft’s Xbox Layoffs: Failing Streaming Strategy Led to Big Job Cuts\n- Microsoft cuts 4,800 jobs, including many at Xbox in a ‘reset’ of its gaming division\n- Microsoft Lays Off Thousands of Xbox Employees, Closes Game Studios\n- Microsoft lays off nearly 5,000 employees across Xbox, commercial sales\n- Microsoft axes 4,800 jobs, including major cuts to Xbox\n- Microsoft lays off nearly 5,000 employees with more expected\n- Microsoft Layoffs: Xbox cuts 4,800 jobs and plans to spin off five gaming studios\n（首圖來源：Unsplash）",
-    "source": "科技新報",
-    "category": "tech",
-    "lang": "zh",
-    "topic": "Tech",
-    "published": "2026-07-08T03:40:02+00:00",
-    "crawled": "2026-07-09T04:11:06.786687+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c98205r7dylo?at_medium=RSS&at_campaign=rss",
-    "title": "Nato chief tells BBC that Trump comments are like 'family argument'",
-    "summary": "Mark Rutte says Nato is stronger than ever, and that he is 100% convinced of the US president's commitment to the alliance.",
-    "full_text": "Nato chief tells BBC that Trump comments are like 'family argument'\n- Published\nNato, the cornerstone of Western nations' defence, is stronger than ever. That's according to its Secretary General Mark Rutte who was speaking to the BBC at the alliance's summit in Ankara.\nThis despite some inflammatory words from Donald Trump who said how disappointed he was that Nato did not join in his war with Iran. (NATO was not consulted but in the end several countries, including the UK, let US forces use their bases to launch strikes on Iranian missile sites).\nI put it to Rutte that there was a clear gap between the upbeat words of Nato officials and ministers on the one hand and the sometimes divisive comments made by the US president on the other.\nTrump repeated his view that the US should take control of Greenland and he called Spain \"a terrible partner\", though he also stressed there had been \"unification\" at the leaders' meeting in Ankara - and that there had been \"tremendous love in that room\".\n\"It's a bit like in a family, you have families where you never quarrel and then it bursts out completely,\" says Mark Rutte, a suave and eloquent politician who served as prime minister of the Netherlands two years ago.\n\"Trump,\" he continues, \"is completely committed to Nato.\nReally? What makes him so sure? After all, this is a president who has indicated in the past that pulling the US out of Nato was \"beyond consideration\". Here in Ankara he repeated his assertion that the US had got a poor return from \"the trillions\" of dollars it had invested in Nato.\n\"I am 100% convinced [Trump is committed to Nato],\" says Rutte. \"Because… I know that the United States, this president included, particularly this president, also understands that - take [US Operation] Epic Fury [against Iran], it could not have taken place at this extent without using Europe as a power projection platform.\n\"Five thousand planes taking off from European bases based on bilateral basing agreements in the first, in the six weeks between end of February and mid-April, till a ceasefire came into force.\"\nWith Nato's Nordic countries uncomfortably close to Russia's massive cluster of nuclear-armed submarine bases in the Kola Peninsula on Russia's Arctic coast, Rutte points out that it acts as a kind of early warning system for Washington.\n\"You don't want the Russian nuclear submarines to end up at the shores of the United States\" he says. \"We prevent that as Nato collectively. So, for all these reasons, we are in this together, 32 countries and nations, because we need each other.\"\nThis Nato summit was, despite the occasional distraction, largely about turning European governments' pledges of more money for defence into concrete action.\nThe aim is to galvanise the continent's industrial capacity to the point where it can match the threat posed by Russia's vast arsenal of drones, cruise and ballistic missiles.\nWhile some countries, such as Britain, have failed to set out a pathway to spending 3% of GDP on defence by 2030, Rutte is clearly pleased with the increases achieved since the last summit in his home city, The Hague, in 2025.\n\"Today we took stock,\" he tells me, \"and a quarter of a trillion [dollars] extra spent by Canadians and Europeans in two years. It's staggering. So we are delivering, and now we have to ramp up the defence industrial production even further, making progress and maintaining support for Ukraine.\"\nSo is he confident, I ask, that if Russia were to make a land grab somewhere, for example Estonia, in 2030 as some are predicting, that Nato would be ready?\nAgain, his confidence is convincing. It's a question he has probably been asked many times.\n\"Absolutely we'll be ready\" he replies. \"Now we're ready, in 2030 we are ready, at any moment. We are defensive. We will never attack another country, but every adversary knows that if they will try to attack us, we are ready. We will defend ourselves.\"\nRelated topics\n- Published10 hours ago\n \n- Published13 hours ago\n \n- Published22 hours ago",
-    "source": "BBC World",
-    "category": "general",
-    "lang": "en",
-    "topic": "Politics",
-    "published": "2026-07-08T20:58:10+00:00",
-    "crawled": "2026-07-09T04:11:08.671456+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c3ryelw8ewwo?at_medium=RSS&at_campaign=rss",
-    "title": "The Papers: 'Iran war back on' and 'Count Binface exclusive'",
-    "summary": "The Iran war is back in today's papers with Donald Trump promising to hit the Iranian \"regime hard\".",
-    "full_text": "'Iran war back on' and 'Count Binface exclusive'Published4 hours agoImage caption, US President Donald Trump's remarks at the Nato summit in Turkey lead Metro, with the top headline declaring \"Iran war back on after new air strikes\". The US president is quoted calling Iran's leaders \"scum\" as he promised to hit the Iranian \"regime hard\", the paper reports. Image caption, The future Clacton by-election makes the front of many of Thursday's papers. The Daily Star's \"fave politician\" Count Binface has told the paper he will eat Reform UK leader Nigel Farage \"for breakkie\". The serial election candidate, who dresses as a bin, has said he will run against Farage in the Clacton by-election after Labour, the Conservatives and the Liberal Democrats all said they would not field candidates. Image caption, Count Binface has emerged as the main challenger to Farage, the Daily Mirror reports, under the headline \"Bin him off\". Image caption, The Daily Express also headlines on the Clacton by-election, quoting Farage who has said \"the future of our democracy depends on who wins\". The Reform leader described the rival parties as \"running scared\" from the race because they were worried he would win, the paper reports. Image caption, Count Binface joining the Clacton by-election is \"deadly serious\", the Daily Mail reports, with Farage describing the fight as a \"real election\". Image caption, The Guardian leads on an investigation into more financial transactions concerning Reform UK senior figures, alleging \"transactions worth millions\" were reported to the National Crime Agency. Image caption, The i Paper leads on Scotland Yard investigating an alleged political donation made to Reform UK's Robert Jenrick when he was standing for the Conservative Party leadership. The \"investigation centres on a claim that £37,500 came from foreign donor\", according to the paper. Jenrick denies any electoral law was broken. Image caption, Andy Burnham, who is widely expected to be the next Labour leader later this month, has vowed to rebuild the UK's \"hard power\" by directing billions of pounds in defence spending into British companies rather than American or European ones, according to the Times. Image caption, Tesco could sell its European operations \"in a move that would bring down the curtain on a three-decade attempt\" to build a global empire for the UK's biggest supermarket, the Financial Times reports. The sale would also spell the end of a dream to establish \"a new supermarket chain from scratch in the US\", according to the paper. Image caption, Home Secretary Shabana Mahmood will change the law so the \"Pakistan-born ringleader of the Rochdale grooming gang can be deported\", the Times reports. Shabir Ahmed was released from prison last week \"after serving 14 years of a 22-year sentence for 30 child rape offences\", the paper reports. Mahmood is expected to explain on Monday how the government will amend the laws, according to the paper. Image caption, A mum's fight for a £12m fortune tops the Sun's front page, after a shopkeeper reportedly binned her winning lottery ticket. Kath Main from Wales is fighting to claim the money, saying that she had felt \"sick\" when she found out the \"winning numbers had matched hers\", the Sun reports. Sign up for our morning newsletter and get BBC News in your inbox.Related topicsNigel FarageDonald TrumpRelated Internet LinksDaily ExpressDaily MailDaily MirrorDaily StarDaily TelegraphFinancial TimesGuardianIndependentMetroSunThe iTimes",
-    "source": "BBC World",
-    "category": "general",
-    "lang": "en",
-    "topic": "World",
-    "published": "2026-07-08T23:51:08+00:00",
-    "crawled": "2026-07-09T04:11:08.828775+00:00",
-    "summarized": true,
-    "ai_summary": "• 特朗普在土耳其北約峰會上表示將對伊朗政權進行猛烈打擊，並稱伊朗領導人為「渣滓」，報導稱「伊朗戰爭重啟」 \n• 候選人Count Binface計劃在Clacton補選中挑戰改革英國黨領袖法拉奇，並表示將「吃掉」法拉奇 \n• 英國內政大臣沙巴娜·馬哈茂德將修改法律，以便驅逐羅奇代爾性侵團伙的巴基斯坦出生首腦 \n• 蘇格蘭場正在調查改革英國黨高層的財務交易，涉及數百萬英鎊的交易被報告給國家犯罪局",
-    "summaries": {
-      "zh-HK": "• 特朗普在土耳其北約峰會上表示將對伊朗政權進行猛烈打擊，並稱伊朗領導人為「渣滓」，報導稱「伊朗戰爭重啟」 \n• 候選人Count Binface計劃在Clacton補選中挑戰改革英國黨領袖法拉奇，並表示將「吃掉」法拉奇 \n• 英國內政大臣沙巴娜·馬哈茂德將修改法律，以便驅逐羅奇代爾性侵團伙的巴基斯坦出生首腦 \n• 蘇格蘭場正在調查改革英國黨高層的財務交易，涉及數百萬英鎊的交易被報告給國家犯罪局"
-    }
-  },
-  {
-    "url": "https://www.npr.org/2026/07/08/nx-s1-5886170/supreme-court-financial-disclosures-books-gifts-income",
-    "title": "Supreme Court financial disclosures reveal how their books add to their income",
-    "summary": "The Supreme Court annual financial reports shed light on the justices' gifts, travel and personal lives.",
-    "full_text": "Supreme Court financial disclosures reveal how their books add to their income\nEven as the Supreme Court was handing down one legal thunderbolt after another last week, the justices were quietly releasing their annual financial reports. Justice Samuel Alito was the only sitting justice to request an extension, which he has done for 15 years. The disclosures do not give a complete account of the justices' total income and wealth, but they give insights into their concertgoing, guest professorships and even their involvement in youth sports.\nIn addition to their salaries, much of the justices' reported income came from their book deals. Justice Ketanji Brown Jackson led the pack earning more than $1.1 million last year for a total of roughly $4 million since her memoir, Lovely One, was published in 2024.\nJustices Sonia Sotomayor, Neil Gorsuch, Amy Coney Barrett and retired Justice Anthony Kennedy also reported income from published books. Earnings from their books ranged from $849,000 for Barrett, to $300,000 for Gorsuch and $88,000 for Sotomayor, whose books include her 2013 autobiography and five children's books. Justice Clarence Thomas, who previously earned $1.5 million for his 2007 memoir, listed no publisher payments last year, and Justice Brett Kavanaugh, one of 13 co-authors of a 2016 legal treatise, also received no payments last year. Kavanaugh is said to be working on a memoir but he listed no payments for the anticipated book. Alito does have a book coming out in the fall, but with his financial report still outstanding, there is no data on how much he was paid for the work in 2025.\nThe only two sitting justices who have not written books are Chief Justice John Roberts and Justice Elena Kagan.\nMany justices also earned income from teaching at law schools. Roberts reported income from New England Law, located in Boston, and Gorsuch reported teaching income from George Mason University in Virginia. Thomas taught classes at Catholic University in Washington, D.C., and Barrett and Kavanaugh taught at Notre Dame Law School. Barrett graduated from the school and began teaching there 23 years ago; Kavanaugh has family connections to Notre Dame.\nThe disclosures also report gifts, travel, food and lodging that the justices received in 2025. Jackson and Sotomayor were the only two to report gifts. Jackson was given a painting for her chambers valued at $2,500, and Sotomayor reported a trip to Kansas City to watch the opening of a musical based on her children's book, Just Ask.\nIn addition, she reported receiving free tickets worth $4,333 while on \"a private trip to Puerto Rico.\" The tickets were from the record label that represents Bad Bunny, and her trip coincided with the artist's months-long concert series in San Juan. Sotomayor's parents were from Puerto Rico, and she has spent much time there over the years.\nThe justices also disclosed significant reimbursements for travel throughout 2025. Thomas' travel, food and lodging expenses were paid for by the Hoover Institution for speaking at a celebration of conservative economist Thomas Sowell.\nSotomayor, Gorsuch, Barrett and Jackson were reimbursed for international travel, where they gave speeches, spoke about their books or taught. Roberts was the only sitting member of the court not to report any gifts or travel reimbursements.\nThe annual filings also shed some light on the justices' activities off the bench. Kavanaugh reported that in addition to his duties as a Supreme Court justice, he serves as a coach to multiple D.C.-area Catholic Youth Organization girls' basketball teams. Coach K, as he is known by his players, wrote the court's June decision declaring that states can ban transgender women and girl athletes from playing on women's and girls' sports teams.\nThe justices' salaries are established by law. The chief justice earns the most, at $320,700 per year. The eight associate justices earn $306,600 per year. While that is a lot of money to most Americans, the justices and even their law clerks could earn more the minute they leave their Supreme Court jobs for large law firms.\nRoberts was the only member of the court to report investing in individual stocks. Alito in the past has also owned shares of individual stocks, but his report is not due for three months when his extension runs out. For the most part, the justices do not own individual stocks, but do invest in index funds, mutual funds and other such investment programs in order to both make money and limit potential conflicts of interest that would require their recusal from certain cases.\nHowever — and this is a big however — the financial reporting forms the justices are required to fill out are so unspecific and the reporting ranges for investment earnings are so broad that it is impossible to determine any justice's overall wealth. In addition, the current value of the justices' homes isn't reported. Neither is their spouses' income, which in the case of the chief justice, for instance, likely far exceeds his take-home pay.",
-    "source": "NPR",
-    "category": "general",
-    "lang": "en",
-    "topic": "General",
-    "published": "2026-07-08T18:03:30+00:00",
-    "crawled": "2026-07-09T04:11:10.346450+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.npr.org/2026/07/08/nx-s1-5885946/iran-trump-oil-stock-inflation-gas-federal-reserve",
-    "title": "Tensions with Iran add fresh uncertainty to an already shaky global economy",
-    "summary": "Crude oil prices jumped and stock prices fell after President Trump declared an end to the ceasefire with Iran, adding fresh uncertainty to an already shaky outlook for the global economy.",
-    "full_text": "Tensions with Iran add fresh uncertainty to an already shaky global economy\nTensions with Iran add fresh uncertainty to an already shaky global economy\nRenewed fighting between the U.S. and Iran added yet another dose of uncertainty to the global economy.\nCrude oil prices jumped and stock prices fell after President Trump declared an end to the fragile ceasefire in the Strait of Hormuz. The U.S. military attacked dozens of targets along the Iranian coastline overnight, in retaliation for what appeared to be Iranian attacks on vessels trying to transit the strait.\nThe hostile action threatens to prolong volatility in global markets just weeks after investors had reacted with relief after Trump and Iran had agreed on a ceasefire.\nBoth the U.S. and international benchmarks for crude oil jumped about 7% on Wednesday, although they still remain well below their springtime peaks. Meanwhile, the Dow Jones Industrial Average tumbled more than 800 points, or 1.5%, after hitting a record high just two days earlier.\nThe resumption of attacks renews the prospect of inflationary pressure after a month of falling gasoline prices. The initial price spike was muted, however, suggesting that markets don't expect a return to full-blown war. Retail gasoline prices in the U.S. rose less than a penny per gallon overnight, according to AAA, though they could climb higher in the coming days as higher crude oil costs are passed along.\nGlobal markets have been volatile ever since the U.S. and Israel first attacked Iran in February — and the jump in bond yields seen overnight signals that investors expect renewed uncertainty.\nAll eyes are on the Federal Reserve\nThe ongoing tensions with Iran will also continue to add pressure on the Federal Reserve under its new chairman, Kevin Warsh.\nA market gauge — the CME FedWatch tracking tool — suggests investors now see a better than 1-in-3 chance that the Fed will raise interest rates this month. That's up from about a 1-in-4 chance on Tuesday, before the ceasefire broke down.\nThe central bank is closely monitoring higher energy prices, which have already pushed inflation well above its 2% target. The Trump administration is also preparing for a new round of global tariffs, which could put more upward pressure on import prices in the second half of the year.\nEven before the latest attacks, the International Monetary Fund had downgraded its forecast for economic growth this year. The IMF expects the global economy to grow 3% in 2026, down from 3.5% last year.\n\"The possibility of renewed Middle East conflict looms large and could extend commodity price volatility, further threaten supply chains, raise prices, and weigh on financial conditions,\" the IMF warned in its latest outlook.",
-    "source": "NPR",
-    "category": "general",
-    "lang": "en",
-    "topic": "Trading",
-    "published": "2026-07-08T17:07:22+00:00",
-    "crawled": "2026-07-09T04:11:10.506363+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.scmp.com/news/china/science/article/3359873/active-fault-line-threatens-worlds-biggest-hydropower-project-chinese-geologists-warn?utm_source=rss_feed",
-    "title": "Active fault line threatens world’s biggest hydropower project, Chinese geologists warn",
-    "summary": "Chinese geologists have determined that an active fault line directly beneath the world’s largest hydropower project poses a threat to the mega dam now being built on Tibet’s Yarlung Tsangpo (Brahmaputra) River.\nThe scientists said a fracture in the Earth’s crust in the eastern Himalayan region would significantly affect the integrity of the massive hydropower project’s infrastructure.\nIn a paper published last month in the Chinese-language journal Sedimentary Geology and Tethyan Geology,...",
-    "full_text": "Active fault line threatens world’s biggest hydropower project, Chinese geologists warn\nNew analysis brings call for slope reinforcement for massive mega-dam project in Tibet to mitigate risks of landslides and collapses\nThe scientists said a fracture in the Earth’s crust in the eastern Himalayan region would significantly affect the integrity of the massive hydropower project’s infrastructure.\nIn a paper published last month in the Chinese-language journal Sedimentary Geology and Tethyan Geology, supervised by the state-owned China Geological Survey, the team urged engineers to strengthen slope stability and implement retaining protections to mitigate the risk of landslides and collapses.\nThe study was conducted by geologists from the Chengdu University of Technology, the Civil-Military Integration Centre of the China Geological Survey, and the Middle Yarlung Zangbo River Natural Resources Observation and Research Station.\n“The Paizhen Fault, which has been highly active since the Pleistocene [also known as the Ice Age], will have a major impact on the structural stability and construction of nearby structures, including dams, roads, bridges and tunnels, as well as the reservoir area,” the researchers wrote.",
-    "source": "SCMP",
-    "category": "general",
-    "lang": "en",
-    "topic": "World",
-    "published": "2026-07-09T04:00:06+00:00",
-    "crawled": "2026-07-09T04:11:11.761381+00:00",
-    "summarized": true,
-    "ai_summary": "• 中國地質學家警告，活躍的斷層線威脅世界最大水電項目，位於西藏的巨型水壩項目面臨風險  \n• 研究指出，喜馬拉雅東部地區的地殼裂縫將顯著影響水電項目基礎設施的完整性  \n• 研究團隊呼籲加強坡面穩定性及實施防護措施，以減少山崩和倒塌的風險  \n• 研究由成都理工大學及中國地質調查局的相關機構進行，並於上月發表於中文期刊《沉積地質與特提安地質》",
-    "summaries": {
-      "zh-HK": "• 中國地質學家警告，活躍的斷層線威脅世界最大水電項目，位於西藏的巨型水壩項目面臨風險  \n• 研究指出，喜馬拉雅東部地區的地殼裂縫將顯著影響水電項目基礎設施的完整性  \n• 研究團隊呼籲加強坡面穩定性及實施防護措施，以減少山崩和倒塌的風險  \n• 研究由成都理工大學及中國地質調查局的相關機構進行，並於上月發表於中文期刊《沉積地質與特提安地質》"
-    }
-  },
-  {
-    "url": "https://www.scmp.com/news/china/military/article/3359754/enemy-within-dispute-endangering-taiwans-t-dome-air-defence-plan?utm_source=rss_feed",
-    "title": "The missile funding dispute endangering Taiwan’s ‘T-Dome’ air defence plan",
-    "summary": "Taiwan’s flagship “T-Dome” air defence programme is facing delays, after budget disputes left one of its critical indigenous missile systems without a clear funding source.\nThe island’s opposition-controlled legislature approved a reduced NT$780 billion (over US$24 billion) special defence budget in May, rejecting a larger NT$1.25 trillion package proposed by the government.\nAmong the excluded projects was funding for the indigenous Chiang-Kong, or “Strong Bow”, anti-ballistic missile system, a...",
-    "full_text": "Advertisement\nThe missile funding dispute endangering Taiwan’s ‘T-Dome’ air defence plan\nStrong Bow system cannot be included in special bill amid diminishing chances of securing supplementary funding this year, officials say\n3-MIN READ3-MIN\n Listen\nLawrence Chungin Taipei\nTaiwan’s flagship “T-Dome” air defence programme is facing delays, after budget disputes left one of its critical indigenous missile systems without a clear funding source.\nThe island’s opposition-controlled legislature approved a reduced NT$780 billion (over US$24 billion) special defence budget in May, rejecting a larger NT$1.25 trillion package proposed by the government.\nAmong the excluded projects was funding for the indigenous Chiang-Kong, or “Strong Bow”, anti-ballistic missile system, a vital component of Taiwanese leader William Lai Ching-te’s proposed T-Dome missile shield to counter aerial threats from Beijing.\nAfter the programme was dropped, the military sought to revive it either through a supplementary budget this year or by incorporating it into the annual defence budget next year.\nBut differences between the cabinet and the defence ministry had prevented agreement on an alternative funding mechanism, Taiwan’s Liberty Times quoted unnamed senior government officials as saying on Monday.\nAdvertisement\nSelect Voice\nSelect Speed\n1.00x",
-    "source": "SCMP",
-    "category": "general",
-    "lang": "en",
-    "topic": "Politics",
-    "published": "2026-07-08T04:00:07+00:00",
-    "crawled": "2026-07-09T04:11:11.850593+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.theguardian.com/australia-news/live/2026/jul/08/anthony-albanese-pacific-diplomacy-state-of-origin-labor-coalition-recession-unemployment-ntwnfb",
-    "title": "‘Software glitch’ blamed for mass outage – as it happened",
-    "summary": "<p>This blog is now closed</p><ul><li><p><a href=\"https://www.theguardian.com/australia-news/2026/jul/08/telstra-outage-down-network-mobile-outages-today\">Telstra outage: Telco apologises for major time-keeping issue that hit mobiles, trains and triple-zero calls</a></p></li><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p><strong>Telstra outage reported to be cause of Victoria train stoppage</strong></p><p>There is a long list of cancelled trains on the official V/line site, but the TL/DR is that Victoria’s regional train network has ground to a halt.</p><p>Due to a radio network fault affecting the network, services are currently unable to operate …</p><p>Passengers are advised to defer travel where possible.</p> <a href=\"https://www.theguardian.com/australia-news/live/2026/jul/08/anthony-albanese-pacific-diplomacy-state-of-origin-labor-coalition-recession-unemployment-ntwnfb\">Continue reading...</a>",
-    "full_text": "The shadow communications minister, Sarah Henderson,defended making two test calls to triple zero today amid the Telstra outage, saying she was “clearly concerned about the well being and safety of Australians”.\nTwo investigations into complaints made against the former national anti-corruption commissioner, Paul Brereton, have been dropped after its watchdog said it could not “justify such expenditure”.\nOfficials from the Department of Foreign Affairs and Trade say they are providing assistance to an Australian facing legal action in the US, coming after Australian-born Denise Nataly Migliorewas arrested over allegedly voting illegally in US elections.\nA high-profile Melbourne manwas called a rapist and punched in the face by his former personal assistant shortly after he raped her at his home, a Victorian court has heard.\nTelstra’s chief financial officer, Michael Ackland, provided more detail on the cause of this morning’s mobile network outage beyond our earlier understanding it was a time server issue.\nHe said it was a software fault that caused the GPS node to reset. The GPS node within Telstra tells the rest of the organisation’s systems what the most accurate time is – to the nanosecond.\nThe reset changed the time and synchronisation, which we know from earlier comments was then passed on to the rest of the Telstra network. If time appears wrong in the network this can cause a number of different problems, including around authentication and how the network ensures maximum speeds of data.\nWe don’t know yet if this was affected, but Ackland indicated Telstra was looking at its processes that allowed this issue to occur.\nHe said:\nThe fact that it occurred means that there is something in our process that we need to fix, and we change, and we are working through that. We’ll update more of that once that investigation is complete.\nMore than 300 welfare checks conducted after triple-zero failures, Telstra CFO says\nAckland said Telstra is confident they have “identified a software defect” as the cause for the mass outage. He confirmed there were more than 300 failed triple-zero calls.\nSo we did 333 welfare calls today.\nWe believe we are picking up all of the calls that may have failed or didn’t connect.\nOf those, six customers were referred to emergency services, he said.\nAsked by a reporter whether Australians could still trust the network, Ackland said:\nWe let customers down today in their hour of need. There’s nothing that makes that untrue for many of those customers who are in traumatic situations, and we apologise for that deeply. We take this incredibly seriously.\nTelstra rules out ‘cyber incident’ as cause of widespread network outage\nTelstra’s CFO, MichaelAckland, is speaking in Melbourne. He says that as of 4pm today the telco had “resolved all of the final issues and our network issues are fully resolved”.\nWe know it will take some time for devices on the network to reconnect correctly …\nI encourage customers still facing issues to restart their device …\nWe are still conducting our investigation into the root cause, but we are confident we have identified a software defect.\nI want to be clear, this was not the result of a cyber incident.\nWe’ll hear more about this soon from our technology reporter, Josh Taylor, on the technicalities.\nPassengers asked to avoid V/Line trains tomorrow as major public transport disruption continues\nDonna Lu\nThe effects of today’s Telstra outage are continuing to wreak havoc on the Victorian transport system, with long queues at Melbourne’s Southern Cross station for buses replacing regional V/Line trains.\nThe queue for coaches to replace trains on the Ballarat-Wendouree line stretches more than 100 metres.\nAn overhead announcement says:\nWe are having major difficulty getting road coaches into the station.\nWe are suggesting all V/Line customers try and make your own way home … with your own transport.\nApologies again for the major disruption.\nAnother announcement follows:\nThere will be a two- to three-hour delay for more coaches.\nA V/Line spokesperson said in a statement:\nThe V/Line network continues to be impacted following the nationwide Telstra telecommunications outage, with passenger train services unable to operate.”\n“This includes this evening’s and tomorrow morning’s peak services – with a very limited coach service operating.”\nWe advise passengers not to travel on V/Line services tomorrow if possible.\nWe acknowledge this has been inconvenient to many people and thank passengers for their patience as work continues to safely restore services.”\nAt least 32 calls had difficulty reaching triple zero in Victoria\nTriple Zero Victoria(TZV) has been notified by Telstra of 32 calls that experienced difficulty connecting to the Telstra national triple zero emergency service.\nA TZV spokesperson confirmed it has continued to receive emergency calls from the community and dispatch events to emergency services agencies.\nWe have been notified by Telstra of thirty-two calls that experienced difficulty connecting to the Telstra national Triple Zero (000) emergency service.\nVictorian Police Communications Liaison Officers located in our communications centres are currently conducting welfare checks with these thirty-two calls as a matter of urgency.\nAs Telstra has also communicated, we ask the community to not test call 000.\nNo adverse events have been identified at this time.\nA Victoria Police spokesperson confirmed it “is completing more than 20 welfare checks on impacted callers this afternoon”.\nNo issues have been identified by police so far.\nFor context, when you call triple zero in Australia, you first speak to a Telstra triple zero emergency call person who transfers the caller to the relevant emergency service in the requested state or territory.\nThe Telecommunications (Emergency Call Service) Determination 2019, which is enforced by ACMA, requires telecommunications carriers to ensure that emergency calls are successfully carried from each telecommunications provider to the Emergency Call Person (Telstra).\nOnce its network is restored, telcos are required to conduct welfare checks on people who have tried calling triple zero during a large network outage if they were unable to connect to triple zero.\nHenderson says triple-zero ‘test calls’ did not break the law\nShadow communications minister, Sarah Henderson, defended her two test calls to triple zero today amid Telstra outages, saying she was “clearly concerned about the well being and safety of Australians”.\nThe bottom line is that I’m doing my job, and I don’t have trust in this government, and I have very low trust in our telecommunications carriers after what we saw last year.\nHost Patricia Karvelas said the law is “crystal clear” and asked whether Henderson “knew it was an offence to call triple zero if you weren’t in an emergency”.\nNo, you haven’t read the criminal code correctly, Patricia, then, because the criminal code provides that someone commits an offence if they call triple zero where they’re making, or intending to make, a hoax call or where they are doing it in a vexatious way.\nReiterating her recently released media statement, Henderson said she was “not going to apologise for doing my job”.\nIs it a federal offence to call triple zero without an emergency?\nAs we previously reported, the shadow communications minister, Sarah Henderson, was criticised after she admitted to testing triple zero twice.\nThe host of Afternoon Briefing, Patricia Karvelas, suggested it could be a “federal offence” when speaking to the ABC’s chief digital political correspondent, Clare Armstrong.\n474.18 Improper use of emergency call service (1) A person commits an offence if the person:\n(a) makes a call to an emergency service number; and\n(b) does so with the intention of inducing a false belief that an emergency exists.\nPenalty: Imprisonment for 3 years.\n(2) A person commits an offence if:\n(a) the person makes a call to an emergency service number; and\n(b) the per",
-    "source": "The Guardian",
-    "category": "general",
-    "lang": "en",
-    "topic": "Macro",
-    "published": "2026-07-08T08:35:29+00:00",
-    "crawled": "2026-07-09T04:11:13.093634+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
-    "url": "https://www.theguardian.com/business/2026/jul/09/telstra-outage-triple-zero-calls-angus-taylor-sarah-henderson",
-    "title": "Taylor defends Sarah Henderson’s triple-zero calls amid questions about claimed Telstra-outage death in SA",
-    "summary": "<p>South Australian police say they’re unaware of death despite claim by Liberal senator Kerrynne Liddle</p><ul><li><p><a href=\"https://www.theguardian.com/australia-news/live/2026/jul/09/australia-news-live-telstra-mobile-internet-down-outage-triple-zero-v-line-trains-network-royal-commission-antisemitism-abc-ntwnfb\">Follow our Australia news live blog for latest updates</a></p></li><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>Angus Taylor says his shadow communications minister Sarah Henderson was “doing her job” when <a href=\"https://www.theguardian.com/australia-news/2026/jul/08/anika-wells-ridicules-angus-taylor-and-barnaby-joyce-for-linking-telstra-outages-with-china\">she “tested” the triple-zero system</a> by making unnecessary calls to it during <a href=\"https://www.theguardian.com/australia-news/2026/jul/08/telstra-outage-down-network-mobile-outages-today\">Telstra’s nationwide outage</a>.</p><p>The opposition leader has also dismissed concerns about Liberal senator Kerrynne Liddle’s claim that an elderly person died as a result of the outage, after South Australian police said they were unaware of any such death.</p> <a href=\"https://www.theguardian.com/business/2026/jul/09/telstra-outage-triple-zero-calls-angus-taylor-sarah-henderson\">Continue reading...</a>",
-    "full_text": "Angus Taylor says his shadow communications minister Sarah Henderson was “doing her job” when she “tested” the triple-zero system by making unnecessary calls to it during Telstra’s nationwide outage.\nThe opposition leader has also dismissed concerns about Liberal senator Kerrynne Liddle’s claim that an elderly person died as a result of the outage, after South Australian police said they were unaware of any such death.\nThe fallout from Wednesday’s outage has continued, with Telstra confirming on Thursday morning some customers struggled to make triple-zero calls due to a “secondary issue”. Telstra said the occurrence of the secondary triple-zero issue had been reduced by 90%.\nTaylor accused the government of failing to do its job and focusing on “political spin” after ministers, including Tim Ayres, criticised Henderson’s actions for being “utterly irresponsible”.\nCriminal penalties can apply against any individuals who place calls to triple zero when there is not an emergency, but Henderson has said she was trying to work out if the system was working and her role placed her in a “unique position”.\nTaylor deflected questions about Henderson’s decision to call triple zero more than once on Wednesday, and stood by her actions in a combative press conference on Thursday.\n“This government focuses all its time and effort on political spin and none of its time and effort on the real issues facing Australians,” the Liberal leader said.\n“So, the shadow minister had to do what she had to do, because of the failure of the minister – not for the first time – but for the second time.\n“I’ve said to Sarah [Henderson] that she should do her job, and she was doing her job, and that’s exactly … what I’ll continue to say.”\nQuestions were also raised about Liddle’s claim, made in a social media post, that a South Australian had died as a result of the outage, despite not confirming the report with state police.\nTaylor said he hadn’t spoken to the South Australian senator, but brushed off any criticism about the post.\n“There were distressing reports made to her office, and … that’s what she’s reported on,” he said.\nLiddle’s post, which remained online on Thursday afternoon, claimed an elderly person could not connect to triple zero during a “life-or-death emergency”, and died as a result.\n“No Australian should ever be unable to connect to triple-zero when their life depends on it,” Liddle wrote.\nGuardian Australia has contacted Liddle’s office several times, but received no response.\n“South Australia Police are not aware of any death in South Australia today as a result of the Telstra nationwide outage,” the force said on social media, in response to the claim.\nThe communications minister, Anika Wells, said on Wednesday that welfare checks were being conducted on people who had been unable to reach triple zero.\nThe Australian Communications and Media Authority will review the incident.",
-    "source": "The Guardian",
-    "category": "general",
-    "lang": "en",
-    "topic": "General",
-    "published": "2026-07-09T04:03:08+00:00",
-    "crawled": "2026-07-09T04:11:13.271308+00:00",
-    "summarized": true,
-    "ai_summary": "• 澳洲反對派領袖安格斯·泰勒為影子通訊部長莎拉·亨德森辯護，稱其在Telstra全國性故障期間進行不必要的三零呼叫是“履行職責”。\n• 南澳警方表示未接獲任何因故障導致死亡的報告，對自由黨參議員凱琳·利德爾的聲明表示質疑。\n• Telstra確認部分客戶因“次要問題”無法撥打三零電話，並表示該問題已減少90%。\n• 澳洲通訊及媒體管理局將對事件進行審查，通訊部長安妮卡·威爾斯表示正在對無法聯繫三零的民眾進行福利檢查。",
-    "summaries": {
-      "zh-HK": "• 澳洲反對派領袖安格斯·泰勒為影子通訊部長莎拉·亨德森辯護，稱其在Telstra全國性故障期間進行不必要的三零呼叫是“履行職責”。\n• 南澳警方表示未接獲任何因故障導致死亡的報告，對自由黨參議員凱琳·利德爾的聲明表示質疑。\n• Telstra確認部分客戶因“次要問題”無法撥打三零電話，並表示該問題已減少90%。\n• 澳洲通訊及媒體管理局將對事件進行審查，通訊部長安妮卡·威爾斯表示正在對無法聯繫三零的民眾進行福利檢查。"
-    }
-  },
-  {
-    "url": "https://www.nytimes.com/live/2026/07/08/world/iran-war-us-trump",
-    "title": "Iran War Live Updates: U.S. Launches New Strikes on Iran, Military Says",
-    "summary": "U.S. Central Command said on social media that it was protecting shipping in the Strait of Hormuz. President Trump said earlier that he thought a three-week-old cease-fire was “over.”",
-    "full_text": "",
-    "source": "New York Times",
-    "category": "general",
-    "lang": "en",
-    "topic": "World",
-    "published": "2026-07-09T04:03:52+00:00",
-    "crawled": "2026-07-09T04:11:14.139728+00:00",
-    "summarized": true,
-    "ai_summary": "• 美國中央司令部在社交媒體上表示，正在保護霍爾木茲海峽的航運安全  \n• 特朗普總統早前表示，他認為已經持續三週的停火協議“結束”  \n• 美國對伊朗發動新的軍事打擊，具體時間和地點未公開  \n• 此次行動被認為是對地區局勢升級的回應",
-    "summaries": {
-      "zh-HK": "• 美國中央司令部在社交媒體上表示，正在保護霍爾木茲海峽的航運安全  \n• 特朗普總統早前表示，他認為已經持續三週的停火協議“結束”  \n• 美國對伊朗發動新的軍事打擊，具體時間和地點未公開  \n• 此次行動被認為是對地區局勢升級的回應"
-    }
-  },
-  {
-    "url": "https://www.nytimes.com/live/2026/07/08/world/nato-summit-turkey-trump-ukraine",
-    "title": "Trump Praises NATO’s ‘Unity’ After Lashing Out at Allies",
-    "summary": "Though President Trump assailed partners for not joining the war in Iran, he said he would grant Ukraine long-sought authority to make the Patriot defense system.",
-    "full_text": "",
-    "source": "New York Times",
-    "category": "general",
-    "lang": "en",
-    "topic": "World",
-    "published": "2026-07-09T03:53:09+00:00",
-    "crawled": "2026-07-09T04:11:14.317742+00:00",
-    "summarized": true,
-    "ai_summary": "• 特朗普批評盟友未參與伊朗戰爭，但稱讚北約的「團結」 \n• 他表示將授予烏克蘭長期渴望的權限，以製造愛國者防禦系統 \n• 此言論是在特朗普與盟友的緊張關係背景下發表的 \n• 特朗普的言論強調了他對國際合作的矛盾立場",
-    "summaries": {
-      "zh-HK": "• 特朗普批評盟友未參與伊朗戰爭，但稱讚北約的「團結」 \n• 他表示將授予烏克蘭長期渴望的權限，以製造愛國者防禦系統 \n• 此言論是在特朗普與盟友的緊張關係背景下發表的 \n• 特朗普的言論強調了他對國際合作的矛盾立場"
-    }
-  },
-  {
     "url": "https://www.nytimes.com/2026/07/08/world/europe/trump-nato-summit.html",
     "title": "Trump’s Arrival in Turkey for NATO Summit Adds Drama and Spectacle",
     "summary": "The second President Trump landed in Turkey, the center of gravity shifted right to where he likes it best: himself.",
@@ -30305,8 +29962,11 @@
     "topic": "Trading",
     "published": "2026-07-11T11:56:54+00:00",
     "crawled": "2026-07-11T13:37:06.960517+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 基於Hedera的貸款協議Bonzo Lend因一名攻擊者利用Supra的鏈上預言機驗證器漏洞，損失約900萬美元。  \n• 攻擊者先存入250個SAUCE代幣，然後提交價格更新，將該代幣的價值膨脹約12個數量級，隨後借出663萬USDC和3450萬包裝HBAR。  \n• Bonzo表示，事件源於Supra的預言機驗證器接受了被操縱的SAUCE價格，並強調此事件並非Bonzo Lend合約或Hedera核心網絡的漏洞。  \n• 2026年去中心化金融（DeFi）協議遭受的攻擊數量持續上升，第二季度成為有紀錄以來被攻擊次數最多的季度，損失約7.55億美元。",
+    "summaries": {
+      "zh-HK": "• 基於Hedera的貸款協議Bonzo Lend因一名攻擊者利用Supra的鏈上預言機驗證器漏洞，損失約900萬美元。  \n• 攻擊者先存入250個SAUCE代幣，然後提交價格更新，將該代幣的價值膨脹約12個數量級，隨後借出663萬USDC和3450萬包裝HBAR。  \n• Bonzo表示，事件源於Supra的預言機驗證器接受了被操縱的SAUCE價格，並強調此事件並非Bonzo Lend合約或Hedera核心網絡的漏洞。  \n• 2026年去中心化金融（DeFi）協議遭受的攻擊數量持續上升，第二季度成為有紀錄以來被攻擊次數最多的季度，損失約7.55億美元。"
+    }
   },
   {
     "url": "https://cointelegraph.com/markets/bitcoin-price-gains-nearly-10-in-july-but-traders-still-see-btc-copying-2022-bear-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -30319,8 +29979,11 @@
     "topic": "Bitcoin",
     "published": "2026-07-11T11:21:07+00:00",
     "crawled": "2026-07-11T13:37:07.005747+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 比特幣（BTC）在七月的前兩周漲幅接近10%，創下四年來的七月最佳表現。  \n• 分析指出，市場反應與2022年的熊市相似，預測八月將再次出現下行趨勢。  \n• 市場參與者對短期價格增強持謹慎態度，並指出七月的平均表現與歷史相符。  \n• 部分市場參與者設定了70,000美元的目標，認為七月的反彈可能會在八月回落。",
+    "summaries": {
+      "zh-HK": "• 比特幣（BTC）在七月的前兩周漲幅接近10%，創下四年來的七月最佳表現。  \n• 分析指出，市場反應與2022年的熊市相似，預測八月將再次出現下行趨勢。  \n• 市場參與者對短期價格增強持謹慎態度，並指出七月的平均表現與歷史相符。  \n• 部分市場參與者設定了70,000美元的目標，認為七月的反彈可能會在八月回落。"
+    }
   },
   {
     "url": "https://decrypt.co/373002/google-nano-banana-2-lite-vs-nano-banana-2-comparison-review",
@@ -30384,8 +30047,11 @@
     "topic": "Finance",
     "published": "2026-07-11T11:00:00+00:00",
     "crawled": "2026-07-11T13:37:15.398219+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 近年航空業出現多宗交易活動，但EasyJet Plc的競爭引起關注，因為航空業通常不吸引金融投資者。  \n• 目前有兩家美國基金正在競爭收購EasyJet。  \n• 航空業的波動性和低利潤率使其不常成為私募股權公司的投資對象。  \n• EasyJet的收購戰突顯了投資者對該行業的興趣。",
+    "summaries": {
+      "zh-HK": "• 近年航空業出現多宗交易活動，但EasyJet Plc的競爭引起關注，因為航空業通常不吸引金融投資者。  \n• 目前有兩家美國基金正在競爭收購EasyJet。  \n• 航空業的波動性和低利潤率使其不常成為私募股權公司的投資對象。  \n• EasyJet的收購戰突顯了投資者對該行業的興趣。"
+    }
   },
   {
     "url": "https://www.cnbc.com/2026/07/11/glp-1-implant-from-vivani-medical-aims-to-help-patients-stay-on-treatment.html",
@@ -30432,8 +30098,11 @@
     "topic": "Regulation",
     "published": "2026-07-11T11:11:26+00:00",
     "crawled": "2026-07-11T13:37:19.112564+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國聯邦政府正在重新制定公共土地放牧的規則，以增加在西部1.55億英畝公共土地上放牧的牛、羊及其他牲畜數量。  \n• 新規則是自1995年以來的首次全面修訂，將擴大放牧實踐，儘管專家指出過度放牧已損害公共土地。  \n• 擬議的規則將限制公眾參與聯邦公共土地放牧決策的權利，減少公眾觀察和評論的步驟。  \n• 美國內政部土地管理局表示，這一行動反映了特朗普政府減少不必要監管負擔的優先事項。",
+    "summaries": {
+      "zh-HK": "• 美國聯邦政府正在重新制定公共土地放牧的規則，以增加在西部1.55億英畝公共土地上放牧的牛、羊及其他牲畜數量。  \n• 新規則是自1995年以來的首次全面修訂，將擴大放牧實踐，儘管專家指出過度放牧已損害公共土地。  \n• 擬議的規則將限制公眾參與聯邦公共土地放牧決策的權利，減少公眾觀察和評論的步驟。  \n• 美國內政部土地管理局表示，這一行動反映了特朗普政府減少不必要監管負擔的優先事項。"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-11/iran-rejects-us-talks-unless-washington-meets-its-conditions",
@@ -30480,8 +30149,11 @@
     "topic": "World",
     "published": "2026-07-11T10:51:33+00:00",
     "crawled": "2026-07-11T13:37:29.755308+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 阿根廷隊長梅西在2026年世界杯中再次展現出色表現，帶領衛冕冠軍進入淘汰賽階段。  \n• 在對埃及的16強賽中，梅西打入一球並助攻一球，幫助阿根廷在比賽剩下10分鐘時完成驚人的逆轉。  \n• 梅西成為世界杯歷史上年齡最大的進球和助攻球員，並以九次助攻成為歷史最佳助攻者，超越馬拉多納。  \n• 然而，他在本屆世界杯中已經兩次失誤點球，成為歷史上第一位在單屆世界杯中常規時間內失兩個點球的球員。",
+    "summaries": {
+      "zh-HK": "• 阿根廷隊長梅西在2026年世界杯中再次展現出色表現，帶領衛冕冠軍進入淘汰賽階段。  \n• 在對埃及的16強賽中，梅西打入一球並助攻一球，幫助阿根廷在比賽剩下10分鐘時完成驚人的逆轉。  \n• 梅西成為世界杯歷史上年齡最大的進球和助攻球員，並以九次助攻成為歷史最佳助攻者，超越馬拉多納。  \n• 然而，他在本屆世界杯中已經兩次失誤點球，成為歷史上第一位在單屆世界杯中常規時間內失兩個點球的球員。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/features/2026/7/11/power-cuts-plunge-gaza-hospitals-into-darkness-as-israels-attacks-persist?traffic_source=rss",
@@ -30528,8 +30200,11 @@
     "topic": "Politics",
     "published": "2026-07-11T11:38:06+00:00",
     "crawled": "2026-07-11T13:37:30.527573+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 克勞迪亞·謝因鮑姆回憶起1968年的政治運動，並稱自己為“1968年的孩子”\n• 1968年10月2日，墨西哥城的抗議活動遭到鎮壓，估計有多達300人喪生，超過一千人被捕\n• 謝因鮑姆在2024年當選為墨西哥首位女性總統，並以務實和安全為導向的政策取代前總統洛佩斯·奧布拉多\n• 她對特朗普提出的美國擴大反毒品行動進入墨西哥的建議表示堅決反對，強調不接受外國干預內政",
+    "summaries": {
+      "zh-HK": "• 克勞迪亞·謝因鮑姆回憶起1968年的政治運動，並稱自己為“1968年的孩子”\n• 1968年10月2日，墨西哥城的抗議活動遭到鎮壓，估計有多達300人喪生，超過一千人被捕\n• 謝因鮑姆在2024年當選為墨西哥首位女性總統，並以務實和安全為導向的政策取代前總統洛佩斯·奧布拉多\n• 她對特朗普提出的美國擴大反毒品行動進入墨西哥的建議表示堅決反對，強調不接受外國干預內政"
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/11/speedboat-accident-in-southern-vietnam-kills-15-indian-tourists?traffic_source=rss",
@@ -30542,8 +30217,11 @@
     "topic": "General",
     "published": "2026-07-11T11:34:45+00:00",
     "crawled": "2026-07-11T13:37:30.565441+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 越南南部的富國島附近發生快艇翻覆事故，造成15名印度遊客遇難  \n• 事故發生於星期六，當時快艇上載有32名印度遊客和4名船員  \n• 目前已救出21人，受傷者已送院治療，事故原因尚未確定  \n• 印度駐越南大使館已設立控制中心以協調遇難者家屬的事宜",
+    "summaries": {
+      "zh-HK": "• 越南南部的富國島附近發生快艇翻覆事故，造成15名印度遊客遇難  \n• 事故發生於星期六，當時快艇上載有32名印度遊客和4名船員  \n• 目前已救出21人，受傷者已送院治療，事故原因尚未確定  \n• 印度駐越南大使館已設立控制中心以協調遇難者家屬的事宜"
+    }
   },
   {
     "url": "https://www.npr.org/2026/07/11/nx-s1-5881251/opinion-is-democracy-a-joke-count-binface-says-no",
@@ -30573,8 +30251,11 @@
     "topic": "General",
     "published": "2026-07-11T11:49:47+00:00",
     "crawled": "2026-07-11T13:37:31.815942+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 根據世界衛生組織，全球有超過8億人受到老花眼影響，但在許多低收入國家，只有不到四分之一需要眼鏡的人擁有眼鏡。  \n• 在印度阿薩姆邦，Sangita Kalita正在推動一項新計劃，利用郵局網絡提供視力檢測和眼鏡。  \n• Kalita在當地郵局設立了一個小攤位，為來訪的顧客提供免費的視力檢測，並向需要的人提供免費眼鏡。  \n• 該計劃由世界衛生組織和全球郵政聯盟合作推動，旨在利用印度郵政的15萬多個辦事處，改善偏遠地區的視力護理服務。",
+    "summaries": {
+      "zh-HK": "• 根據世界衛生組織，全球有超過8億人受到老花眼影響，但在許多低收入國家，只有不到四分之一需要眼鏡的人擁有眼鏡。  \n• 在印度阿薩姆邦，Sangita Kalita正在推動一項新計劃，利用郵局網絡提供視力檢測和眼鏡。  \n• Kalita在當地郵局設立了一個小攤位，為來訪的顧客提供免費的視力檢測，並向需要的人提供免費眼鏡。  \n• 該計劃由世界衛生組織和全球郵政聯盟合作推動，旨在利用印度郵政的15萬多個辦事處，改善偏遠地區的視力護理服務。"
+    }
   },
   {
     "url": "https://www.scmp.com/news/china/science/article/3360231/chinas-long-march-10b-rocket-feat-lights-social-media-spacex-set-lose-crown?utm_source=rss_feed",
@@ -30672,8 +30353,11 @@
     "topic": "Policy",
     "published": "2026-07-11T11:00:08+00:00",
     "crawled": "2026-07-11T13:37:44.894409+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 特朗普加大對美國公司的壓力，推動降低價格的行動  \n• 他呼籲企業減少商品和服務的價格，以應對通脹  \n• 特朗普在社交媒體上發表聲明，強調企業應對消費者負責  \n• 此舉旨在改善美國經濟狀況，並吸引選民支持",
+    "summaries": {
+      "zh-HK": "• 特朗普加大對美國公司的壓力，推動降低價格的行動  \n• 他呼籲企業減少商品和服務的價格，以應對通脹  \n• 特朗普在社交媒體上發表聲明，強調企業應對消費者負責  \n• 此舉旨在改善美國經濟狀況，並吸引選民支持"
+    }
   },
   {
     "url": "https://www.ft.com/content/76ca7934-189a-4207-89a2-cf060b87f56b",
@@ -30737,8 +30421,11 @@
     "topic": "Finance",
     "published": "2026-07-11T11:30:00+00:00",
     "crawled": "2026-07-11T13:37:46.628675+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國股市規模持續擴大，專家認為其已達到「太大而不能倒」的程度  \n• 長期熊市的可能性降低，因為市場結構和投資者行為發生變化  \n• 分析指出，中央銀行的政策和流動性支持對市場穩定起到關鍵作用  \n• 專家預測，未來市場可能更能抵禦經濟衝擊，減少長期下跌的風險",
+    "summaries": {
+      "zh-HK": "• 美國股市規模持續擴大，專家認為其已達到「太大而不能倒」的程度  \n• 長期熊市的可能性降低，因為市場結構和投資者行為發生變化  \n• 分析指出，中央銀行的政策和流動性支持對市場穩定起到關鍵作用  \n• 專家預測，未來市場可能更能抵禦經濟衝擊，減少長期下跌的風險"
+    }
   },
   {
     "url": "https://www.marketwatch.com/story/im-73-and-still-work-full-time-can-i-avoid-paying-taxes-on-my-social-security-benefits-06ecc7c2?mod=mw_rss_topstories",
@@ -30872,8 +30559,11 @@
     "topic": "Politics",
     "published": "2026-07-11T11:18:51+00:00",
     "crawled": "2026-07-11T13:37:58.643762+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 美國民主黨議員羅·卡納在西岸訪問期間被以色列定居者拘留  \n• 事件發生在當地時間週一，卡納正在考察以色列與巴勒斯坦的局勢  \n• 卡納表示，他的目的是促進對話並了解當地情況  \n• 以色列當局已介入並確認事件的發生，並表示正在調查相關情況",
+    "summaries": {
+      "zh-HK": "• 美國民主黨議員羅·卡納在西岸訪問期間被以色列定居者拘留  \n• 事件發生在當地時間週一，卡納正在考察以色列與巴勒斯坦的局勢  \n• 卡納表示，他的目的是促進對話並了解當地情況  \n• 以色列當局已介入並確認事件的發生，並表示正在調查相關情況"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVFJ6QzJlMkc1VWtrWHlLcms2NkZhSWZ5VnhDazNkY04zS0RMN01UUjhUOGZUajRWVGRqREUtbWRDUjlLakFZaFByZDgySm9mcFNGQi1rLWJFd3RHS09iUVZRZHZGTHFfM1BlTXVYdmhZczl2bFBkZVZDRHE5T0phT2NDd2dTb1F0aS1vRW12SlFCbEFrMGJhRGdSY3FCRHhhd21vbVg5QVNKMl82c1VQd1NaaEp2dw?oc=5",
@@ -30886,8 +30576,11 @@
     "topic": "General",
     "published": "2026-07-11T10:51:09+00:00",
     "crawled": "2026-07-11T13:37:58.924092+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 伊朗最高領袖哈梅內伊承諾將為被殺的父親及前任領袖復仇  \n• 此言論是在2023年10月的公開演講中發表  \n• 哈梅內伊強調將不會忘記這些事件，並呼籲支持者保持警惕  \n• 此次發言是在伊朗面對內部及外部挑戰的背景下進行的",
+    "summaries": {
+      "zh-HK": "• 伊朗最高領袖哈梅內伊承諾將為被殺的父親及前任領袖復仇  \n• 此言論是在2023年10月的公開演講中發表  \n• 哈梅內伊強調將不會忘記這些事件，並呼籲支持者保持警惕  \n• 此次發言是在伊朗面對內部及外部挑戰的背景下進行的"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT25HMDQ5OF9SczNrMlBVaHlMNC1CbzMtWjZRNmNldnc0VE13dGRGSWFIc3dMWFUzMWFQR3h0c2ZrTDlEMFdZdmpZR1RBeFNOWGdYZWhBbFBkOWVjZWhLNEhRamlyNTJxRl9wYnpRYl8yN1g2b2tBZWNPSlhpdmt3Q1hyQ3NSZ2Rzc3lkZnA4dDdsN0tSd25HVHV2Y1VGMkV4ajBQeHVpbHhZbnFUYXhrNkpPQVNHNjUzYVIzUURlelJKU2NQ?oc=5",
@@ -30931,8 +30624,11 @@
     "topic": "General",
     "published": "2026-07-11T11:12:14+00:00",
     "crawled": "2026-07-11T13:37:59.829320+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 摩爾多瓦總統提名瓦西勒·托凡（Vasile Tofan）為新任總理  \n• 提名是在2023年10月進行的  \n• 托凡的任命需經摩爾多瓦議會批准  \n• 總統表示希望新政府能夠應對國家面臨的挑戰",
+    "summaries": {
+      "zh-HK": "• 摩爾多瓦總統提名瓦西勒·托凡（Vasile Tofan）為新任總理  \n• 提名是在2023年10月進行的  \n• 托凡的任命需經摩爾多瓦議會批准  \n• 總統表示希望新政府能夠應對國家面臨的挑戰"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbVhjSFBjMi1ZdGFtYjJQdXlwWmtKZU5Udlg3a3U0bGczQVVrUGxCcEFOQmFvdXRnM2pXUTBWU3VYVTJMS1Noc2NEdjh2RDdxWl80WW5yak45d0syMS1UcEhCZjZMLWxLdHNEN1hONkkwU1NYNFRvbnR1UUpsTExCRW5qVFdNN0NlZ1VQakZlaw?oc=5",
@@ -30973,8 +30669,11 @@
     "topic": "AI",
     "published": "2026-07-11T12:26:47+00:00",
     "crawled": "2026-07-11T13:38:02.806009+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 一項橫斷面研究探討醫學生對生成式人工智能的依賴及其與批判性思維的關聯  \n• 研究顯示，醫學生在學習過程中越依賴生成式人工智能，其批判性思維能力可能受到影響  \n• 研究於特定醫學院進行，樣本包括多名醫學生  \n• 研究結果旨在促進對醫學教育中人工智能應用的理解及其潛在影響",
+    "summaries": {
+      "zh-HK": "• 一項橫斷面研究探討醫學生對生成式人工智能的依賴及其與批判性思維的關聯  \n• 研究顯示，醫學生在學習過程中越依賴生成式人工智能，其批判性思維能力可能受到影響  \n• 研究於特定醫學院進行，樣本包括多名醫學生  \n• 研究結果旨在促進對醫學教育中人工智能應用的理解及其潛在影響"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBua3dkNlk2YTJ1T0VKRHRZRURYRDUyMFRUVHZsT2xvZW5TUEs0a0d6eHpGOTdMam00ZmhsdF8wdWZXN0Y5SEJnYS1ZMDg0UGUwS1p2OTdLV2R0NDBkc182elFZekx5WkdnYlFnWlR3?oc=5",
@@ -30987,8 +30686,11 @@
     "topic": "AI",
     "published": "2026-07-11T11:05:00+00:00",
     "crawled": "2026-07-11T13:38:03.076341+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 加州州長於2023年簽署法案，要求學校在使用人工智能時遵守兒童安全標準  \n• 法案旨在保護學生的個人資料和安全，並確保AI技術不會對學生造成傷害  \n• 學校需在2024年之前制定相關政策，以符合新規定  \n• 此舉反映出對於AI在教育領域應用的日益關注與監管需求",
+    "summaries": {
+      "zh-HK": "• 加州州長於2023年簽署法案，要求學校在使用人工智能時遵守兒童安全標準  \n• 法案旨在保護學生的個人資料和安全，並確保AI技術不會對學生造成傷害  \n• 學校需在2024年之前制定相關政策，以符合新規定  \n• 此舉反映出對於AI在教育領域應用的日益關注與監管需求"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBRQTFqb2tLWHByYllJNEZjUFJrTWFUYk5wZTZTVmNNb3lGMzhhamR2VXJKYy1lc2hxcVdkMUlYcnRfQUFvV194eWg5ZE83MEwxekFxSkp0MWREb2FJQ0IyUURyVnBibjFDalFfN29lVFZ2Z0k?oc=5",
@@ -31001,8 +30703,11 @@
     "topic": "AI",
     "published": "2026-07-11T10:09:13+00:00",
     "crawled": "2026-07-11T13:38:03.348862+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 下一世紀基金會發佈有關人工智能的報告，探討其對社會的影響  \n• 報告強調人工智能在醫療、教育和經濟等領域的潛在應用  \n• 會議於2023年10月在倫敦舉行，吸引了多位專家參與  \n• 報告呼籲制定政策以確保人工智能的負責任使用和發展",
+    "summaries": {
+      "zh-HK": "• 下一世紀基金會發佈有關人工智能的報告，探討其對社會的影響  \n• 報告強調人工智能在醫療、教育和經濟等領域的潛在應用  \n• 會議於2023年10月在倫敦舉行，吸引了多位專家參與  \n• 報告呼籲制定政策以確保人工智能的負責任使用和發展"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTjk3bnZUN2Q1LUxqTmVFVERENDZrN0FMSjdSemhCNks5YngwWG1RN3p4OVBsNFphOFB1Y0dsbFF5T0U2WUpsbHN3amVkZl93bHRTaGZ2cGNLMTE4SHJ6cW16bHd4WFQ1S3J4X3dlZW1QdmFHUDVGYi13OXFHakhtMWxpX0wzSE1CcTlxLWJlY2l6RnVEU2c?oc=5",
@@ -31082,5 +30787,366 @@
     "crawled": "2026-07-11T13:38:05.624619+00:00",
     "summarized": false,
     "ai_summary": ""
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-11/fuel-prices-are-slamming-consumers-even-as-crude-crisis-fades",
+    "title": "Fuel Prices Are Slamming Consumers Even as Crude Crisis Fades",
+    "summary": "Prices for gasoline, diesel and jet fuel are rebounding even as crude oil eases, a rare divergence that’s swelling costs for peak-season travelers and threatening to undermine President Donald Trump’s pledge to quash inflation ahead of midterm elections.",
+    "full_text": "",
+    "source": "Bloomberg Crypto",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Policy",
+    "published": "2026-07-11T13:30:00+00:00",
+    "crawled": "2026-07-11T14:58:44.857371+00:00",
+    "summarized": true,
+    "ai_summary": "• 儘管原油價格回落，汽油、柴油和航空燃料的價格仍在上漲  \n• 此現象對於高峰季節的旅客造成成本壓力  \n• 此情況可能影響特朗普總統在中期選舉前抑制通脹的承諾  \n• 價格上漲與原油市場的趨勢出現罕見的背離",
+    "summaries": {
+      "zh-HK": "• 儘管原油價格回落，汽油、柴油和航空燃料的價格仍在上漲  \n• 此現象對於高峰季節的旅客造成成本壓力  \n• 此情況可能影響特朗普總統在中期選舉前抑制通脹的承諾  \n• 價格上漲與原油市場的趨勢出現罕見的背離"
+    }
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/08/manhattan-office-leasing-gains.html",
+    "title": "Manhattan office leasing sees strongest gains in 20 years",
+    "summary": "During the second quarter, office leasing volumes were 31.3% above the 10-year average, according to a new report from Colliers.",
+    "full_text": "Key Points\n- During the second quarter, 11.02 million square feet of office leasing was signed, 29.4% above the five-year quarterly average and 31.3% above the 10-year average, according to a new report from Colliers.\n- For the full first half of the year, demand was the strongest in more than two decades, according to the commercial real estate services firm.\n- AI leasing volume in the second quarter rose to 800,000 square feet, up from 700,000 square feet in the prior quarter and surpassing all of the leasing by AI firms in Manhattan combined in 2025.",
+    "source": "CNBC",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Finance",
+    "published": "2026-07-08T12:18:21+00:00",
+    "crawled": "2026-07-11T14:58:46.445971+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/07/stellantis-fiat-topolino-ev.html",
+    "title": "Stellantis to sell small Fiat Topolino EV for $13,995 in U.S.",
+    "summary": "While the Topolino resembles a small car such as the Fiat 500, the EV is actually a quadricycle that functions more like a golf cart.",
+    "full_text": "DETROIT — Chrysler parent Stellantis on Tuesday said it has opened ordering for its small Fiat Topolino electric vehicle in the U.S., starting at $13,995.\nWhile the Topolino resembles a small car such as the Fiat 500, the EV is actually a quadricycle that functions more like a golf cart.\nStellantis said the Topolino is capable of going 19 mph, with an electric range of up to 46 miles. A low-speed vehicle conversion kit can boost the top speed to 25 mph to make it street legal on roads with speed limits of 35 mph or less, according to the trans-Atlantic automaker.\nA Stellantis spokeswoman said there will be no charge for the conversion kit but confirmed a mandatory destination fee will add $990 to the base price, bringing the customer price to $14,985.\nThe Topolino, which translates to \"little mouse\" in Italian, is produced in Morocco. The company said it will be available in limited quantities this year as a hardtop model with doors or as the Dolce Vita soft-top convertible model with a rope instead of doors.\n\"Topolino represents a new chapter for the brand in the U.S. — defined not just by size, but by purpose,\" Fiat brand CEO Olivier François said in a release. \"With Topolino, we bring a feeling, a lifestyle, a reminder that mobility can be joyful, expressive and beautifully simple.\"\nStellantis, which also owns American brands such as Jeep and Dodge, late last year confirmed it would bring the vehicle from Italy to the U.S., less than a week after President Donald Trump praised small \"Kei\" cars from Japan during a meeting at the White House with Stellantis CEO Antonio Filosa and other automotive leaders.\n\"They're very small. They're really cute,\" Trump said at the December meeting. \"And I said, 'How would that do in this country?' And everyone seems to think 'good,' but you're not allowed to build them.\"\nIt's not illegal to produce such cars in America, but they have to meet American safety standards, speed requirements and other regulations.\nSmall cars such as Fiats have historically not sold well in the U.S. In its first full year in the U.S. in 2012, Fiat sold 43,772 vehicles domestically. Those sales dwindled to roughly 1,300 Fiat vehicles sold last year in the U.S.\nThe Stellantis spokeswoman at that time said Fiat's announcement was unrelated to Trump's comments and that the automaker had been has been gauging customer interest for the Topolino at U.S. events such as auto shows.",
+    "source": "CNBC",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Finance",
+    "published": "2026-07-07T15:37:26+00:00",
+    "crawled": "2026-07-11T14:58:46.693258+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/07/rivian-stock-rivn-capital-raise.html",
+    "title": "Rivian stock falls 18% as company sells 75 million shares to raise capital",
+    "summary": "The capital raise occurred during extended hours trading following Rivian shares increasing 8.1% on Monday after increasing 19.2% last week.",
+    "full_text": "Rivian Automotive stock plunged 18% Tuesday after the electric vehicle maker announced a public offering of 75 million shares of its Class A common stock.\nTuesday's stock move was its worst since 2024 and its fifth worst day on record.\nThe capital raise occurred during extended hours trading after Rivian shares rose 8.1% on Monday. The stock also increased 19% last week.\nBased on Monday's close of $20.14 per share, Rivian would raise roughly $1.51 billion with the offering. Rivian said in a filing that it plans to use the proceeds to fund equity contributions as part of a loan agreement with the U.S. Department of Energy.\nRivian said in the public filing that it intended to grant underwriters an option for a period of 30 days to purchase up to an additional 11.25 million shares.\nThe raise follows Rivian suspending plans for a 2027 profitability target due to an expected spike in research and development spending for autonomy and next-generation vehicle technologies.\nIt also comes as Rivian is launching its new R2 midsize SUV, which the company hopes will lead it to profitability toward the end of this decade.\nRivian also pre-released some second-quarter results in a separate public filing. The company estimated revenue to be between $1.55 billion and $1.65 billion during the second quarter, above average analyst estimates compiled by LSEG of $1.45 billion.\nIts cash, cash equivalents and short-term investments balance was an estimated $5.3 billion, up from $4.8 billion to end the first quarter, according to the filing.",
+    "source": "CNBC",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Trading",
+    "published": "2026-07-07T20:21:47+00:00",
+    "crawled": "2026-07-11T14:58:46.790381+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/07/cnbc-housing-market-survey-balanced-market.html",
+    "title": "Far more real estate agents now report seeing a balanced market, CNBC Housing Market Survey finds",
+    "summary": "Agents who reported at least one price cut to active listings dropped dramatically from prior surveys.",
+    "full_text": "A version of this article appeared in the CNBC Property Play newsletter with Diana Olick. Property Play covers new and evolving opportunities for the real estate investor, from individuals to venture capitalists, private equity funds, family offices, institutional investors and large public companies. Sign up to receive future editions, straight to your inbox.\nAfter several years of a lean and pricey housing market, real estate agents are starting to see more balance.\nIn the second quarter of the year, 44% of real estate agents surveyed in CNBC's Housing Market Survey said they were seeing a balanced market between buyer and seller. That share is up from 30% in the third quarter of last year, when CNBC began its quarterly survey.\n\"It certainly feels like, depending on the home, depending on the neighborhood, depending on the condition and the price point, that both the buyer and the seller do have a little bit of leverage,\" said Jeremy Kane, a real estate agent with EXP Realty in Denver.\nThe CNBC Housing Market Survey is a national inquiry of real estate agents selected randomly across the United States. Responses for the second-quarter survey were collected between June 23 and June 30. This quarter, 53 agents shared their insights.\nHome sales in May were up slightly, 3% higher than the same month last year, according to the National Association of Realtors. That was the result of more supply on the market and easing prices.\nSellers appear to be getting more realistic when pricing their homes, not expecting the huge jumps seen in the first two years of the pandemic.\n\"No one really seems to be fighting me much on price like they used to,\" said Bruce Jones, an agent with Compass in Nashville, Tennessee. \"We're not really seeing huge decreases in prices. We've kind of plateaued, but I don't see people arguing too much about that. If it's priced correctly, it is moving.\"\nAgents who reported at least one price cut to active listings dropped dramatically in CNBC's second-quarter survey, at 57% compared with 89% during the third quarter of 2025.\nHome prices are still slightly higher than they were a year ago, up just under 1%, according to the S&P Cotality Case-Shiller national home price index. Sellers, however, seem to be pricing more to the market, resulting in fewer cuts.\nAsking prices in June were down 2.5% year over year, according to Realtor.com. That is the largest annual drop since the company began tracking this in 2017 and the eighth straight month of declines.\n\"I always tell sellers that I'm in the business of selling homes, not storing them, and so you really need to put a property at the right price in order to get it sold,\" said Martha Thorn, an agent with Coldwell Banker in Tampa, Florida.\nWith asking prices more in line with the current market, agents also reported fewer contract cancellations. Just 40% of respondents to CNBC's survey said they had at least one contract fall through in the second quarter, compared with 51% in the first quarter of this year.\nAs for buyer worries, mortgage rates and prices have overtaken the economy as the biggest concerns reported by agents during the second quarter. Respondents said concerns over inventory have dramatically decreased. The Iran war sparked big worry in March, but that seems to have abated.\nAt the end of last year, 26% of agents said their buyers' biggest concern was mortgage rates. That jumped to 37% in this quarter's survey.\nMortgage rates had been falling after last summer, hitting a low of 5.99% on the 30-year fixed at the end of February, according to Mortgage News Daily. They then spiked higher at the start of March after the war began. The average rate on the 30-year fixed mortgage last peaked at 6.75% on May 19 and has since hovered right around the 6.6% range.\nInventory in June was up just under 2% from the year before, according to Realtor.com, and new listings rose 2.4%. The market is still considered quite lean, but not nearly as bad as it was just a few years ago. There are currently 1.1 million homes listed for sale, according to Realtor.com. At this time in 2023, just after the massive pandemic-driven housing boom, there were around 614,000.\nOverall, however, agents have become much less optimistic about sales, according to CNBC's survey.\nIn the second-quarter findings, just 19% of respondents said they expect sales to improve in the near future, down from 48% in the third quarter of last year. In Q2, the majority of agents, 67%, said they think sales will stay about the same.\nStagnantly high mortgage rates are largely to blame for that. While the market is shifting into balance nationally, there is wide divergence locally.\n\"The challenge isn't a lack of buyers, it's a psychology gap,\" said Joel Eronko with Nicholas Joel Realty Group in Houston. \"My focus this quarter is keeping clients focused on real-time, hyper-local data rather than national economic headlines.\"",
+    "source": "CNBC",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Trading",
+    "published": "2026-07-07T16:03:50+00:00",
+    "crawled": "2026-07-11T14:58:46.878931+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+    "title": "OpenAI bets on families as ChatGPT goes deeper into households",
+    "summary": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.",
+    "full_text": "More than three years after ChatGPT’s launch brought generative AI into the mainstream, OpenAI is broadening its focus beyond individual users to families.\nOpenAI is hiring a dedicated product manager in San Francisco to build experiences for families, caregivers, and older adults across its products. The role calls for experience building products for parents and families, and other trust-sensitive consumer experiences, according to the job posting.\nThe hiring comes as ChatGPT’s audience continues to broaden beyond younger users. According to Sensor Tower estimates shared exclusively with TechCrunch, the share of ChatGPT users aged 35 and older globally rose to 31% in Q2 from 26% a year earlier, while the share of users aged 18 to 24 fell to 29% from 34%. In the U.S., nearly one in four smartphone users who are parents used ChatGPT during the quarter, up from 16% a year earlier, the firm estimates.\nOpenAI did not respond to requests for comment about the job posting.\nA dedicated product role focused on families signals that OpenAI is beginning to think about its products less as tools for individual productivity and more as technology designed for households, said Ben Bajarin, chief executive of technology consultancy Creative Strategies.\n“This is similar to the path Google, Apple, and Meta eventually followed as their platforms became embedded in everyday life, but AI raises the stakes because the assistant is not just mediating content or devices,” he told TechCrunch.\nThat shift also brings new trust and safety challenges. Stephen Balkam, chief executive of the Family Online Safety Institute, said the hiring reflects both the maturation of OpenAI and a growing recognition that AI products used by children and teenagers require different safeguards than those designed for adults.\n“I see this as safety by redesign,” Balkam told TechCrunch. “You take the initial product or service that was released… not really with kids in mind… so this is a much-needed reaction and response.”\nThe comments come as new research published this week by the Family Online Safety Institute found that parents are underestimating how often their children use generative AI. While 27% of U.S. parents said their child had used generative AI in the past week, 38% of children reported doing so themselves, according to the survey of more than 4,000 families in the United States and Australia.\nBalkam told TechCrunch that AI companies should build products differently for younger users, with stronger content controls, age-appropriate experiences, parental oversight, and reminders to inform users that they are interacting with an AI — and not a human.\nThe hiring also comes amid growing scrutiny of how AI companies protect younger users. OpenAI has faced multiple lawsuits from parents alleging that ChatGPT contributed to harm suffered by their children, including in cases involving suicide.\nIn response to some of those concerns, OpenAI has introduced a series of safety measures over the past year, including parental controls for teen accounts, routing sensitive conversations to reasoning models designed to better handle signs of distress, and, more recently, an optional “Trusted Contact” feature that can alert a family member or caregiver in cases of potential self-harm.\nAI companies, Balkam said, have an opportunity to avoid the mistakes made by social media platforms, which for years treated children much like adults before adding stronger safeguards amid mounting public pressure and regulatory scrutiny.\nThe hiring also aligns with OpenAI’s broader efforts around families. In a recent workshop organized with the San Antonio Spurs Community Impact organization and the Positive Coaching Alliance, the company said it aimed to explore AI’s role in learning, coaching, and youth engagement.\nThat said, the demographic shift is not unique to ChatGPT, though OpenAI’s audience is changing in some distinct ways.\nSensor Tower estimates that users aged 25 to 34 account for 40% of the global app audiences for Anthropic’s Claude and Google’s Gemini, matching ChatGPT, compared with 33% for Microsoft’s Copilot. Copilot, however, skews older, with 20% of its users aged 45 and above, compared with 14% for Claude, 12% for Gemini, and 11% for ChatGPT.\nWhile ChatGPT remains relatively underpenetrated among older users, it is adding them faster than its rivals. The share of users aged 45 and above rose three percentage points year-over-year in the second quarter, compared with a two-point increase for Copilot and declines for Claude and Gemini, according to Sensor Tower.\nAmong U.S. smartphone users who are parents, Gemini had the widest reach at 32% in Q2, followed by ChatGPT at 24%, Claude at 4%, and Copilot at 2%.\nFor Bajarin, OpenAI’s decision to hire a product manager focused on families signals where consumer AI is headed. As AI becomes a technology shared across generations, he expects companies to roll out family plans, child and teen profiles, caregiver tools, shared household memory, AI tutoring, and stronger safety controls.",
+    "source": "TechCrunch",
+    "category": "tech",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-11T14:13:00+00:00",
+    "crawled": "2026-07-11T14:58:49.058087+00:00",
+    "summarized": true,
+    "ai_summary": "• OpenAI正在招聘專門的產品經理，專注於為家庭、照顧者和老年人開發產品，工作地點位於舊金山。  \n• 根據Sensor Tower的數據，ChatGPT用戶中35歲及以上的比例在2023年第二季度上升至31%。  \n• 研究顯示，美國近四分之一的智能手機用戶為父母，並在最近一季度使用了ChatGPT，較去年上升。  \n• OpenAI面臨多起家長的訴訟，指控ChatGPT對其子女造成傷害，並已開始實施一系列安全措施以應對這些擔憂。",
+    "summaries": {
+      "zh-HK": "• OpenAI正在招聘專門的產品經理，專注於為家庭、照顧者和老年人開發產品，工作地點位於舊金山。  \n• 根據Sensor Tower的數據，ChatGPT用戶中35歲及以上的比例在2023年第二季度上升至31%。  \n• 研究顯示，美國近四分之一的智能手機用戶為父母，並在最近一季度使用了ChatGPT，較去年上升。  \n• OpenAI面臨多起家長的訴訟，指控ChatGPT對其子女造成傷害，並已開始實施一系列安全措施以應對這些擔憂。"
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-11/trump-undercuts-gop-midterms-message-with-snub-of-housing-bill",
+    "title": "Trump Undercuts GOP Midterms Message With Snub of Housing Bill",
+    "summary": "A sweeping housing bill became law on Saturday without Donald Trump’s signature, or any White House fanfare, after the president soured on a package of dozens of affordability provisions that he derided as “a yawn.”",
+    "full_text": "",
+    "source": "Bloomberg",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Finance",
+    "published": "2026-07-11T13:53:19+00:00",
+    "crawled": "2026-07-11T14:58:51.197737+00:00",
+    "summarized": true,
+    "ai_summary": "• 一項全面的住房法案於週六生效，但未獲特朗普簽署，且白宮未對此進行宣傳  \n• 特朗普對該法案中的多項可負擔住房條款表示不滿，形容其為「無聊」  \n• 該法案的通過可能影響共和黨在中期選舉中的信息傳遞  \n• 特朗普的態度被認為削弱了共和黨在住房問題上的立場",
+    "summaries": {
+      "zh-HK": "• 一項全面的住房法案於週六生效，但未獲特朗普簽署，且白宮未對此進行宣傳  \n• 特朗普對該法案中的多項可負擔住房條款表示不滿，形容其為「無聊」  \n• 該法案的通過可能影響共和黨在中期選舉中的信息傳遞  \n• 特朗普的態度被認為削弱了共和黨在住房問題上的立場"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/cr47y5nvrqlo?at_medium=RSS&at_campaign=rss",
+    "title": "South Africa World Cup midfielder Adams dies aged 25",
+    "summary": "South Africa and Mamelodi Sundowns midfielder Jayden Adams dies at the age of 25, just weeks after featuring for his country at the World Cup.",
+    "full_text": "South Africa World Cup midfielder Adams dies aged 25\n- Published\nSouth Africa and Mamelodi Sundowns midfielder Jayden Adams has died at the age of 25, just weeks after featuring for his country at the World Cup.\nAdams featured in all three of South Africa's group games at the tournament, where they reached the knockout stages before losing to co-hosts Canada in the round of 32.\n\"It is with profound shock and a heavy heart that I have learnt of the passing of Jayden Adams,\" South Africa's minister of sport, arts and culture Gayton McKenzie said, in a statement.\n\"South African football has lost one of its brightest young talents, and our nation mourns alongside his family, his team-mates and the millions of supporters who watched him grow from a promising academy prospect into a full Bafana Bafana international.\"\nPolice in South Africa said they had opened an investigation after the body of a 25-year-old man was found at a house in Schotschekloof, a suburb in central Cape Town, on Saturday morning.\nMcKenzie added: \"The cause of Jayden's passing has not yet been confirmed, and I wish to appeal to members of the media and the public to exercise restraint and compassion, and to refrain from speculation, while his family and Mamelodi Sundowns are given the space and privacy they need at this incredibly difficult time.\n\"Any official information will be communicated by the appropriate parties in due course.\"\nAdams started in the 1-1 draw against the Czech Republic in Group A despite learning that his grandmother had passed away only hours before kick-off.\nThe South African Football Players Union said it was \"devastated by the untimely passing\" of Adams who made his debut for his country in 2022.\n\"Jayden had only recently represented South Africa at the 2026 World Cup, carrying the hopes of the nation with pride, courage and distinction.\n\"His passing is an immeasurable loss to his family, team-mates, clubs, the football fraternity and the country at large.\n\"South African football has lost a gifted player, a proud servant of the game and a young life that still had so much to offer.\"\nAdams started his career at Stellenbosch FC, before moving to Mamelodi Sundowns in January 2025, where he won league and African Champions League titles.\nHe was part of the South Africa squad that reached the 2023 Africa Cup of Nations semi-finals before being called up to Hugo Broos' squad for the World Cup, where the team made history in reaching the knockout stages of the competition for the first time.\n\"It's so incredibly sad to hear that South Africa midfielder Jayden Adams has passed away just weeks after featuring in his nation's historic Fifa World Cup campaign,\" Fifa president Gianni Infantino said.\n\"My thoughts and condolences, as well as those of everyone at Fifa and the global football community, are with his family, friends and team-mates. The Bafana Bafana and Mamelodi Sundowns star will be sorely missed. May he rest in peace.\"\nRelated topics\n- Published8 June\n \n- Published8 June",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-11T14:47:47+00:00",
+    "crawled": "2026-07-11T14:58:59.624513+00:00",
+    "summarized": true,
+    "ai_summary": "• 南非及馬梅洛迪日落隊中場球員傑登·亞當斯於25歲時去世，剛參加完國家隊的世界盃賽事。  \n• 亞當斯在世界盃小組賽中參加了南非的三場比賽，該隊最終晉級淘汰賽，但在32強賽中敗給加拿大。  \n• 南非體育、藝術及文化部長蓋頓·麥肯齊對亞當斯的去世表示震驚，並呼籲媒體及公眾對其家人給予空間和隱私。  \n• 南非警方已展開調查，因在開普敦一處住宅發現了一名25歲男子的遺體，亞當斯的去世原因尚未確認。",
+    "summaries": {
+      "zh-HK": "• 南非及馬梅洛迪日落隊中場球員傑登·亞當斯於25歲時去世，剛參加完國家隊的世界盃賽事。  \n• 亞當斯在世界盃小組賽中參加了南非的三場比賽，該隊最終晉級淘汰賽，但在32強賽中敗給加拿大。  \n• 南非體育、藝術及文化部長蓋頓·麥肯齊對亞當斯的去世表示震驚，並呼籲媒體及公眾對其家人給予空間和隱私。  \n• 南非警方已展開調查，因在開普敦一處住宅發現了一名25歲男子的遺體，亞當斯的去世原因尚未確認。"
+    }
+  },
+  {
+    "url": "https://www.aljazeera.com/news/2026/7/11/uk-police-free-suspect-in-ex-mp-ann-widdecombe-murder-investigation?traffic_source=rss",
+    "title": "UK police free suspect in ex-MP Ann Widdecombe murder investigation",
+    "summary": "The former government minister is believed to have been attacked a full day before her body was discovered.",
+    "full_text": "UK police free suspect in ex-MP Ann Widdecombe murder investigation\nThe former government minister is believed to have been attacked on Wednesday, a full day before her body was discovered.\nA man who was arrested on suspicion of murdering former British government minister Ann Widdecombe has been released and is no longer part of the investigation, police said.\nThis comes as detectives revealed the killing took place a day before Widdecombe’s body was found at her home in rural southwest England on Thursday.\nRecommended Stories\nlist of 4 items- list 1 of 4Police probe donations to Britain’s far-right Reform party\n- list 2 of 4Andy Burnham apology for Labour stance on Gaza: Is UK’s position shifting?\n- list 3 of 4UK police arrest man suspected of murdering former MP Ann Widdecombe\n- list 4 of 4Could far-right Reform really win a UK general election now?\nDevon and Cornwall Police said a 26-year-old white British national was arrested in Newton Abbot, about 14.5 kilometres (nine miles) from Widdecombe’s home, on Friday, before being freed on Saturday.\nOfficers now believe the 78-year-old was attacked on Wednesday around 11:30 GMT, a day before ambulance workers called police to her home, where she was found dead with serious injuries.\nPolice said they had found no evidence the killing was “terrorism”-related or politically motivated.\nThey also said the suspect was believed to be a white male and that there was no wider risk to the public.\nSocially conservative views\nWiddecombe was known for her socially conservative views, first as a junior minister in Conservative Prime Minister John Major’s 1992-1997 government and latterly as an immigration spokesperson for Nigel Farage’s far-right populist Reform UK.\nShe converted to Catholicism partly in protest at the Church of England’s ordination of women as priests and was opposed to abortion and to equalising the age of consent for homosexual and heterosexual relationships.\nShe also defended a policy of shackling pregnant prisoners during childbirth to prevent their escape and viewed single mothers as poor role models, but was unusual among Conservative lawmakers in opposing the hunting of foxes with hounds.\nNews of her death led to tributes on Friday from across the political spectrum in the UK, including from Prime Minister Keir Starmer and from Farage, who described her as “an extraordinary woman”.\n“She stood up and fought for what she believed in – a devout Christian and somebody with strong, socially conservative views,” Farage said in a video clip posted on his X account.\nTwo serving British members of parliament have been murdered in the last decade.\nThe Labour lawmaker Jo Cox was shot and stabbed by a Nazi-obsessed loner during the Brexit campaign in 2016.\nThe Conservative lawmaker David Amess was stabbed to death in 2021 by a man inspired by the ISIL (ISIS) group.",
+    "source": "Al Jazeera",
+    "category": "general",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-11T14:25:14+00:00",
+    "crawled": "2026-07-11T14:59:00.318660+00:00",
+    "summarized": true,
+    "ai_summary": "• 英國警方釋放一名涉嫌謀殺前國會議員安·維迪科姆的男子，該男子不再是調查對象  \n• 維迪科姆的屍體於周四在她位於英國西南部的家中被發現，警方相信她在周三遭到襲擊  \n• 警方表示，未發現與恐怖主義或政治動機相關的證據，並認為公眾沒有更大風險  \n• 維迪科姆以其社會保守觀點聞名，曾擔任英國保守黨政府的初級部長及移民發言人",
+    "summaries": {
+      "zh-HK": "• 英國警方釋放一名涉嫌謀殺前國會議員安·維迪科姆的男子，該男子不再是調查對象  \n• 維迪科姆的屍體於周四在她位於英國西南部的家中被發現，警方相信她在周三遭到襲擊  \n• 警方表示，未發現與恐怖主義或政治動機相關的證據，並認為公眾沒有更大風險  \n• 維迪科姆以其社會保守觀點聞名，曾擔任英國保守黨政府的初級部長及移民發言人"
+    }
+  },
+  {
+    "url": "https://www.scmp.com/news/china/diplomacy/article/3360235/formal-china-us-g2-framework-key-guarantee-world-peace-top-beijing-adviser?utm_source=rss_feed",
+    "title": "Formal China-US G2 framework key to ‘guarantee’ world peace: top Beijing adviser",
+    "summary": "An “institutionalised” China-US G2 framework could offer a “structural guarantee” for global peace in a world beset by crises, a high-profile adviser to Beijing has said.\nZheng Yongnian, a noted Chinese political scientist, said the world was faced with four intertwined challenges – geopolitical conflicts, increasingly “religionised” societies, imbalances in the global economy and the fading of the UN-centred governance system. He characterised this collective breakdown as a “crisis of...",
+    "full_text": "Formal China-US G2 framework key to ‘guarantee’ world peace: top Beijing adviser\nNoted political scientist Zheng Yongnian argues that de facto ‘Group of Two’ structure has already emerged between the rival powers\nZheng Yongnian, a noted Chinese political scientist, said the world was faced with four intertwined challenges – geopolitical conflicts, increasingly “religionised” societies, imbalances in the global economy and the fading of the UN-centred governance system. He characterised this collective breakdown as a “crisis of modernity”.\nA pressing question was how to move beyond the US’ or European Union’s bilateral trade disputes with Beijing, to rebalance the global economy by having all three sides work together, Zheng told the Baichuan Forum in Shenzhen, southern China, on Saturday.\nZheng, dean of the school of public policy at Chinese University of Hong Kong, Shenzhen, argued that China and the United States might each adopt an “open-source” approach to international development, applying their strategies to regions where they held a distinct comparative advantage.",
+    "source": "SCMP",
+    "category": "general",
+    "lang": "en",
+    "topic": "Macro",
+    "published": "2026-07-11T14:30:05+00:00",
+    "crawled": "2026-07-11T14:59:02.157914+00:00",
+    "summarized": true,
+    "ai_summary": "• 中國政治學者鄭永年在深圳的百川論壇上表示，中美之間的「雙邊關係」已經形成，並對世界和平至關重要  \n• 鄭永年指出，當前世界面臨四大挑戰，包括地緣政治衝突、社會宗教化、全球經濟不平衡及聯合國治理體系的衰退  \n• 他強調，解決中美及歐盟與北京的貿易爭端需要三方合作，以重塑全球經濟平衡  \n• 鄭永年建議中美可採取「開源」發展模式，根據各自的比較優勢在特定地區推行各自的策略",
+    "summaries": {
+      "zh-HK": "• 中國政治學者鄭永年在深圳的百川論壇上表示，中美之間的「雙邊關係」已經形成，並對世界和平至關重要  \n• 鄭永年指出，當前世界面臨四大挑戰，包括地緣政治衝突、社會宗教化、全球經濟不平衡及聯合國治理體系的衰退  \n• 他強調，解決中美及歐盟與北京的貿易爭端需要三方合作，以重塑全球經濟平衡  \n• 鄭永年建議中美可採取「開源」發展模式，根據各自的比較優勢在特定地區推行各自的策略"
+    }
+  },
+  {
+    "url": "https://www.scmp.com/news/china/science/article/3360236/what-happened-chinese-semiconductor-scientist-wang-danhao-took-his-life-us?utm_source=rss_feed",
+    "title": "What happened before Chinese semiconductor scientist Wang Danhao took his life in the US?",
+    "summary": "The ashes of Chinese researcher Wang Danhao have been returned to his home in China, nearly four months after he died by suicide following questioning by US law enforcement.\nThe remains of the 31-year-old University of Michigan (UMich) semiconductor scientist – remembered by colleagues as a gifted, hard-working researcher with a bright future – are now with his mother, his only immediate family member, who raised him as a single parent, according to a source familiar with the matter.\nBoth Wang’s...",
+    "full_text": "What happened before Chinese semiconductor scientist Wang Danhao took his life in the US?\nPromising researcher’s family and friends still await police report, which could provide critical details about events leading to his death\nThe remains of the 31-year-old University of Michigan (UMich) semiconductor scientist – remembered by colleagues as a gifted, hard-working researcher with a bright future – are now with his mother, his only immediate family member, who raised him as a single parent, according to a source familiar with the matter.\nBoth Wang’s mother and fiancée, whom he had planned to marry this summer in China, suffered severe emotional distress following his death, said the source, a legal professional based in Michigan who spoke on condition of anonymity, citing the sensitivity of the case.\nWang had secured a faculty position at the University of Science and Technology of China in Hefei, his alma mater, and was planning to wrap up his research in the United States before flying back to China in May, the source said.\nSince 2022, Wang had worked in Zetian Mi’s lab at UMich as a postdoctoral researcher to develop advanced semiconductor materials that could enable more efficient electronics and next-generation light-based technologies. His work was featured on the university’s website in 2024 and 2025.",
+    "source": "SCMP",
+    "category": "general",
+    "lang": "en",
+    "topic": "Science",
+    "published": "2026-07-11T14:00:07+00:00",
+    "crawled": "2026-07-11T14:59:02.224274+00:00",
+    "summarized": true,
+    "ai_summary": "• 中國半導體科學家王丹豪於美國去世，享年31歲，生前在密西根大學任職博士後研究員  \n• 王丹豪的母親及未婚妻在其去世後遭受嚴重情緒困擾  \n• 王丹豪原定於今年夏天在中國與未婚妻結婚，並計劃於5月返回中國  \n• 自2022年起，王丹豪在密西根大學的實驗室從事先進半導體材料的研究，並計劃完成美國的研究工作",
+    "summaries": {
+      "zh-HK": "• 中國半導體科學家王丹豪於美國去世，享年31歲，生前在密西根大學任職博士後研究員  \n• 王丹豪的母親及未婚妻在其去世後遭受嚴重情緒困擾  \n• 王丹豪原定於今年夏天在中國與未婚妻結婚，並計劃於5月返回中國  \n• 自2022年起，王丹豪在密西根大學的實驗室從事先進半導體材料的研究，並計劃完成美國的研究工作"
+    }
+  },
+  {
+    "url": "https://www.nytimes.com/2026/07/11/world/europe/spain-wildfire-kills-12-what-to-know.html",
+    "title": "A Wildfire Killed 12 People in Southern Spain. Here’s the Latest.",
+    "summary": "Officials said more than 20 people were still missing because of the fire, one of the deadliest in Spain’s history. Most of those confirmed to have been killed were from Belgium or Britain.",
+    "full_text": "",
+    "source": "New York Times",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-11T14:46:11+00:00",
+    "crawled": "2026-07-11T14:59:03.927934+00:00",
+    "summarized": true,
+    "ai_summary": "• 西班牙南部發生的野火造成12人死亡，成為歷史上最致命的火災之一  \n• 官方表示仍有超過20人失蹤  \n• 確認死亡者大多來自比利時或英國  \n• 當局正在進行搜救行動以尋找失蹤者",
+    "summaries": {
+      "zh-HK": "• 西班牙南部發生的野火造成12人死亡，成為歷史上最致命的火災之一  \n• 官方表示仍有超過20人失蹤  \n• 確認死亡者大多來自比利時或英國  \n• 當局正在進行搜救行動以尋找失蹤者"
+    }
+  },
+  {
+    "url": "https://www.ft.com/content/f91f383b-1879-4b48-a9e9-735487e32895",
+    "title": "What history tells us about Trump’s self-enrichment",
+    "summary": "The blurring of public and private interests in the modern White House has many precedents — but it may yet test the tolerance of American voters",
+    "full_text": "What history tells us about Trump’s self-enrichment\nTry unlimited access\nOnly $1 for 4 weeksThen $75 per month. Complete digital access to quality FT journalism on any device. Cancel anytime during your trial.\nExplore more offers.\nFT Edit\nAccess to eight surprising articles a day, hand-picked by FT editors. For seamless reading, access content via the FT Edit page on FT.com and receive the FT Edit newsletter.\nStandard Digital\nEssential digital access to quality FT journalism on any device. Pay a year upfront and save 20%.\nPremium Digital\nComplete digital access to quality FT journalism with expert analysis from industry leaders. Pay a year upfront and save 20%.\nCheck whether you already have access via your university or organisation.\nTerms & Conditions apply\nExplore our full range of subscriptions.\nFor individuals\nDiscover all the plans currently available in your country\nFor multiple readers\nDigital access for organisations. Includes exclusive features and content.\nWhy the FT?\nSee why over a million readers pay to read the Financial Times.",
+    "source": "Financial Times",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-11T04:00:19+00:00",
+    "crawled": "2026-07-11T14:59:14.417013+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://www.theverge.com/science/964478/white-house-avi-loeb-aliens-ufo-uap-council",
+    "title": "White House taps the guy who keeps crying ‘aliens’ to run UFO group",
+    "summary": "Harvard astrophysicist Avi Loeb will head the UAP Science Advisory Council established by the White House, the Pentagon, the Office of the Director of National Intelligence, the FBI, and \"the intelligence community.\" The Council will provide scientific reports and advice to the UAP Governing Board, in an effort to \"resolve the nature of UAP,\" or [&#8230;]",
+    "full_text": "Harvard astrophysicist Avi Loeb will head the UAP Science Advisory Council established by the White House, the Pentagon, the Office of the Director of National Intelligence, the FBI, and “the intelligence community.” The Council will provide scientific reports and advice to the UAP Governing Board, in an effort to “resolve the nature of UAP,” or unidentified anomalous phenomena.\nWhite House taps the guy who keeps crying ‘aliens’ to run UFO group\nAvi Loeb is best known for making questionable claims about evidence of alien technology.\nAvi Loeb is best known for making questionable claims about evidence of alien technology.\nOn paper, Loeb’s qualifications seem strong. And he’s surrounded himself with a team from a variety of backgrounds. The Council includes not only physicists, but a pathologist, a computer scientist, a philosopher, a psychologist, and even the founding publisher of Skeptic magazine.\nIn recent years, however, Loeb has garnered attention for repeatedly claiming evidence of aliens. This had landed him plenty of TV appearances, but others in the scientific community largely dismiss Loeb as a fraud, crackpot, and grifter.\nHis Harvard credentials and long career have granted him some legitimacy. But he’s been making questionable claims about alien life since at least 2015. Now he’s best known for suggesting that Oumuamua was not an exo-comet, but an alien probe; and that small metal spheres found in the ocean were the wreckage of an alien spacecraft.\nMost Popular\n- I spent a week using the Trump phone — it sucks\n- Apple sues OpenAI for allegedly stealing hardware secrets\n- Polestar owners left ‘holding the bag’ after EV brand pulls out of the US\n- Xreal’s new AR glasses are way cheaper and almost just right\n- A decade later, Pokémon Go finally made good on its original promise",
+    "source": "The Verge",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Science",
+    "published": "2026-07-11T14:18:33+00:00",
+    "crawled": "2026-07-11T14:59:22.144683+00:00",
+    "summarized": true,
+    "ai_summary": "• 白宮任命哈佛天體物理學家阿維·洛布（Avi Loeb）負責未確認異常現象科學諮詢委員會（UAP Science Advisory Council）  \n• 該委員會由白宮、五角大廈、國家情報總監辦公室、聯邦調查局及情報社群成立，旨在提供科學報告及建議以解決UAP的性質問題  \n• 洛布以其對外星技術的質疑性主張而聞名，並曾聲稱“奧陌陌”（Oumuamua）是外星探測器  \n• 委員會成員包括來自不同背景的專家，如病理學家、計算機科學家、哲學家及心理學家等",
+    "summaries": {
+      "zh-HK": "• 白宮任命哈佛天體物理學家阿維·洛布（Avi Loeb）負責未確認異常現象科學諮詢委員會（UAP Science Advisory Council）  \n• 該委員會由白宮、五角大廈、國家情報總監辦公室、聯邦調查局及情報社群成立，旨在提供科學報告及建議以解決UAP的性質問題  \n• 洛布以其對外星技術的質疑性主張而聞名，並曾聲稱“奧陌陌”（Oumuamua）是外星探測器  \n• 委員會成員包括來自不同背景的專家，如病理學家、計算機科學家、哲學家及心理學家等"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTjltdUZyZmRQYzY5dEVNSFluVlR6WFBZd1o4cGFvdGc2b20tY1Y5d2NsZEFaX0dpUVVVODJHcmdRZFlTczNYaUsyUmFzR3dKdG5xaS12MmdhQlUydzdEdk1DbEFDOURqb3RzdmVxVUpyOFgxOUlnXzJhZk0zTXg0U19TNVA3bzlSa1kzR2ZOZ2hKeGpYNHhRRm5uX25FOFh1SHhqbUlDTjJCQ2V5dGdFc1BzUQ?oc=5",
+    "title": "Teen Venezuela quake survivor mourns her 'young forever' friends - Reuters",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNTjltdUZyZmRQYzY5dEVNSFluVlR6WFBZd1o4cGFvdGc2b20tY1Y5d2NsZEFaX0dpUVVVODJHcmdRZFlTczNYaUsyUmFzR3dKdG5xaS12MmdhQlUydzdEdk1DbEFDOURqb3RzdmVxVUpyOFgxOUlnXzJhZk0zTXg0U19TNVA3bzlSa1kzR2ZOZ2hKeGpYNHhRRm5uX25FOFh1SHhqbUlDTjJCQ2V5dGdFc1BzUQ?oc=5\" target=\"_blank\">Teen Venezuela quake survivor mourns her 'young forever' friends</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+    "full_text": "",
+    "source": "Reuters (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-11T12:52:21+00:00",
+    "crawled": "2026-07-11T14:59:25.149789+00:00",
+    "summarized": true,
+    "ai_summary": "• 委內瑞拉一名青少年地震倖存者悼念她的朋友們，這些朋友在地震中喪生，年輕永駐。  \n• 地震發生於當地時間2023年10月，震中位於委內瑞拉西部。  \n• 當局報告稱，地震造成至少20人死亡，數十人受傷。  \n• 倖存者表示，失去朋友的痛苦讓她感到無法承受，並希望能夠紀念他們的生命。",
+    "summaries": {
+      "zh-HK": "• 委內瑞拉一名青少年地震倖存者悼念她的朋友們，這些朋友在地震中喪生，年輕永駐。  \n• 地震發生於當地時間2023年10月，震中位於委內瑞拉西部。  \n• 當局報告稱，地震造成至少20人死亡，數十人受傷。  \n• 倖存者表示，失去朋友的痛苦讓她感到無法承受，並希望能夠紀念他們的生命。"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQa1RjbW1VQ1YtSGN4bXY1MWZrZFZEQjg1eXNuRkxfTGdHaWtiZUFJSUFSNFZObW9meXFDR3A4bFFERTB2SHozZ3lpbzJJbU5aNmFaelpIaWtLSEtHUUdlNWdHbmRvNDhRWEhPS3JSemtzbUZMSUpqVzhsRHppVW5qLWRfcVhpZkQzYVY3SE43RmU3RmJYMy1TcFVQV083Tkh5S3NFQ21QeVhXVmdraEl3?oc=5",
+    "title": "Floods in Bangladesh kill 44, leave over a million stranded - Reuters",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQa1RjbW1VQ1YtSGN4bXY1MWZrZFZEQjg1eXNuRkxfTGdHaWtiZUFJSUFSNFZObW9meXFDR3A4bFFERTB2SHozZ3lpbzJJbU5aNmFaelpIaWtLSEtHUUdlNWdHbmRvNDhRWEhPS3JSemtzbUZMSUpqVzhsRHppVW5qLWRfcVhpZkQzYVY3SE43RmU3RmJYMy1TcFVQV083Tkh5S3NFQ21QeVhXVmdraEl3?oc=5\" target=\"_blank\">Floods in Bangladesh kill 44, leave over a million stranded</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+    "full_text": "",
+    "source": "Reuters (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-11T14:26:29+00:00",
+    "crawled": "2026-07-11T14:59:25.461373+00:00",
+    "summarized": true,
+    "ai_summary": "• 孟加拉國的洪水造成44人死亡，超過一百萬人受困 \n• 洪水影響了多個地區，導致基礎設施受損 \n• 當地政府和救援組織正在進行救援行動 \n• 氣象部門預測未來幾天將有更多降雨，可能加劇情況",
+    "summaries": {
+      "zh-HK": "• 孟加拉國的洪水造成44人死亡，超過一百萬人受困 \n• 洪水影響了多個地區，導致基礎設施受損 \n• 當地政府和救援組織正在進行救援行動 \n• 氣象部門預測未來幾天將有更多降雨，可能加劇情況"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQU4yZmVsMldvRnp6dzVYYVB4RmxvczZNeGhjTXktdmFTT04yUy1PNkoySV9MeFYtLVQ0WVRpV3FqbS16bkNRd01DYkM5NzdEVlpWejBvbEY4Z295bVppNUNIY0lpbnhhc3hld3RTS0VPd0hNaTlSQU1ZYUY5LWwtazU0Qk9VREhWd01aTkFyX2JlQ2lHLTlrSWduQQ?oc=5",
+    "title": "10 killed after small plane crashes in the Bahamas - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNQU4yZmVsMldvRnp6dzVYYVB4RmxvczZNeGhjTXktdmFTT04yUy1PNkoySV9MeFYtLVQ0WVRpV3FqbS16bkNRd01DYkM5NzdEVlpWejBvbEY4Z295bVppNUNIY0lpbnhhc3hld3RTS0VPd0hNaTlSQU1ZYUY5LWwtazU0Qk9VREhWd01aTkFyX2JlQ2lHLTlrSWduQQ?oc=5\" target=\"_blank\">10 killed after small plane crashes in the Bahamas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-10T22:46:00+00:00",
+    "crawled": "2026-07-11T14:59:26.851553+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYnpTeDIxa3JvSmdXWWVNZVFJdXhzMUNwOExkMENPU2M1cGZGcXNuZHV4eHB6ZnQ5R1NTck9LVlFjOHRadk1qZEhCUEpQS3ZseDBpRUpSLTJ0MVRRR0NLNnB0TXJwOU96Tm1IbnBMN0tvM1pGOENZWXg5dkI3Z2lzMEVtNnlmY0RIbndSdUJUN01jekpUc1dXYzYtWG1uR3JleHc?oc=5",
+    "title": "Strained Ohio county seeks help to care for 16 siblings from squalid home and prosecute their family - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQYnpTeDIxa3JvSmdXWWVNZVFJdXhzMUNwOExkMENPU2M1cGZGcXNuZHV4eHB6ZnQ5R1NTck9LVlFjOHRadk1qZEhCUEpQS3ZseDBpRUpSLTJ0MVRRR0NLNnB0TXJwOU96Tm1IbnBMN0tvM1pGOENZWXg5dkI3Z2lzMEVtNnlmY0RIbndSdUJUN01jekpUc1dXYzYtWG1uR3JleHc?oc=5\" target=\"_blank\">Strained Ohio county seeks help to care for 16 siblings from squalid home and prosecute their family</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-10T21:29:00+00:00",
+    "crawled": "2026-07-11T14:59:27.186509+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUWFCMGRRYlZRWlljTFo2d2R3bzNXRUVQV242VTJuQUlnYlctX2lsNzhmcjZKQU1zM015TUpoNGg3RzFSVFRXX1JUOFctRnBsaC1uTFM5SHJKSGZhYVpyQXY2V0hGSEktcm84WDE4eWFMXzdBclJQVjBONUdyZl9KeWFETXlUZjJJMnc?oc=5",
+    "title": "The GOAT: Hooved friend provides moral support to firefighters in Colorado - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPUWFCMGRRYlZRWlljTFo2d2R3bzNXRUVQV242VTJuQUlnYlctX2lsNzhmcjZKQU1zM015TUpoNGg3RzFSVFRXX1JUOFctRnBsaC1uTFM5SHJKSGZhYVpyQXY2V0hGSEktcm84WDE4eWFMXzdBclJQVjBONUdyZl9KeWFETXlUZjJJMnc?oc=5\" target=\"_blank\">The GOAT: Hooved friend provides moral support to firefighters in Colorado</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-10T16:24:09+00:00",
+    "crawled": "2026-07-11T14:59:27.526669+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRHdqQXhtbkQ4bVR1MmZpT1J3S3RRWVQ2RC1zVDREdlZ1bmV6emFUbVVuWDIyV1o5RjdCNmZGWjZpU0pvMThTekdNNGV2QV9zLW1mOG1sbjZ6dDZUSDhRemgwNy1SMkFLRHZyS2tVR2w1RHNMcWtmaVhoVTFKczF2QTRudnNpMVJGRXI1eHJIT3c1WExXbS04ZzZDbkQzWkk2NGp0Uy1PS2JTNzBwS25YYW43ZWFCQdIBuwFBVV95cUxNaVoya3I4bm1mV0UyUWFtNE9uOFF5M096WXhjTUdnLUVYTWNLcGZoWlIwZW45UDZkd2MxOG51OURjOW01ZUVQbkRHNkoxZmJGS0Q1OHItdldwRzdiM0lpcEtkOWNGMjZSbVA0bnI0bVFobTdkWFozRUFLV0ktOFVBQlAwZ0ZGeHdqUHo3ci1saWw2V1Y3LXhBUS1WTXl4a1JEQXZZWWF1Sl9peFY4UXU4aVF5R0xIUGNBby1n?oc=5",
+    "title": "AI notetakers promise easy meeting recaps, but some professionals question their use - ABC News - Breaking News, Latest News and Videos",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNRHdqQXhtbkQ4bVR1MmZpT1J3S3RRWVQ2RC1zVDREdlZ1bmV6emFUbVVuWDIyV1o5RjdCNmZGWjZpU0pvMThTekdNNGV2QV9zLW1mOG1sbjZ6dDZUSDhRemgwNy1SMkFLRHZyS2tVR2w1RHNMcWtmaVhoVTFKczF2QTRudnNpMVJGRXI1eHJIT3c1WExXbS04ZzZDbkQzWkk2NGp0Uy1PS2JTNzBwS25YYW43ZWFCQdIBuwFBVV95cUxNaVoya3I4bm1mV0UyUWFtNE9uOFF5M096WXhjTUdnLUVYTWNLcGZoWlIwZW45UDZkd2MxOG51OURjOW01ZUVQbkRHNkoxZmJGS0Q1OHItdldwRzdiM0lpcEtkOWNGMjZSbVA0bnI0bVFobTdkWFozRUFLV0ktOFVBQlAwZ0ZGeHdqUHo3ci1saWw2V1Y3LXhBUS1WTXl4a1JEQXZZWWF1Sl9peFY4UXU4aVF5R0xIUGNBby1n?oc=5\" target=\"_blank\">AI notetakers promise easy meeting recaps, but some professionals question their use</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC News - Breaking News, Latest News and Videos</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "Ai",
+    "published": "2026-07-11T09:51:42+00:00",
+    "crawled": "2026-07-11T14:59:28.891904+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMW54VU5yVWFLNkZRWXd6S202ajNaR3F2R2FwaWNoNkY0dkNmOTFOQ2VjQVpWblM4NHRORUlDdlYwMnNXcnZNUUZHb2lnR2xPTHU1R0ZDemF1NzczQ0RNYjBkZkNCakZ2RG1obzN6bTllczVrTEZWTzhJYUg1VEQ1TnFadWM3TDV4R0RDbldVUkc1aDBYeENsS0dDWUR2Uk14b3hkLVNZa2dIdkt6c0RpNTZFMFdDaVRnQTFhb0JMZGtxbnE5UXVtMFZqdWZCVGVFNW1LUg?oc=5",
+    "title": "Artificial intelligence needs ancestral intelligence - Winnipeg Sun",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMW54VU5yVWFLNkZRWXd6S202ajNaR3F2R2FwaWNoNkY0dkNmOTFOQ2VjQVpWblM4NHRORUlDdlYwMnNXcnZNUUZHb2lnR2xPTHU1R0ZDemF1NzczQ0RNYjBkZkNCakZ2RG1obzN6bTllczVrTEZWTzhJYUg1VEQ1TnFadWM3TDV4R0RDbldVUkc1aDBYeENsS0dDWUR2Uk14b3hkLVNZa2dIdkt6c0RpNTZFMFdDaVRnQTFhb0JMZGtxbnE5UXVtMFZqdWZCVGVFNW1LUg?oc=5\" target=\"_blank\">Artificial intelligence needs ancestral intelligence</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Winnipeg Sun</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-11T13:15:00+00:00",
+    "crawled": "2026-07-11T14:59:29.221636+00:00",
+    "summarized": true,
+    "ai_summary": "• 文章探討人工智能（AI）與祖先智慧之間的關係，強調兩者的互補性 \n• 提到AI在模仿人類行為和思維過程中，需借鑒人類的歷史和文化 \n• 強調了解祖先智慧的重要性，以促進AI的發展和應用 \n• 文章指出，未來的AI技術應該融合人類的經驗與智慧，以更好地服務社會",
+    "summaries": {
+      "zh-HK": "• 文章探討人工智能（AI）與祖先智慧之間的關係，強調兩者的互補性 \n• 提到AI在模仿人類行為和思維過程中，需借鑒人類的歷史和文化 \n• 強調了解祖先智慧的重要性，以促進AI的發展和應用 \n• 文章指出，未來的AI技術應該融合人類的經驗與智慧，以更好地服務社會"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbE85NXVGdEN2bGE5YW85RXlzaGxPalBmb01RUkx1X1Jrd3BTWlJIRFlBMXZJYk9RSE5nUkpac0RTMzZoNWQ2WWZCY01nQ1F6Rm5NOENjbEh3MXc4Ty0wcmdUNjVtWVlBYmNtcHRvb2ZnWE1oVlowOFVkYzBQbDBoZHJ4aWlfY3haZko1QUhLUklqeW9BTk8xdTFwSzcwLWt0YnMzTWQ3ZTYwTk5zQmM3V0ZGWUNNdw?oc=5",
+    "title": "Yen rises, JGB yields fall on Japan finance minister's pension fund remarks - Nikkei Asia",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNbE85NXVGdEN2bGE5YW85RXlzaGxPalBmb01RUkx1X1Jrd3BTWlJIRFlBMXZJYk9RSE5nUkpac0RTMzZoNWQ2WWZCY01nQ1F6Rm5NOENjbEh3MXc4Ty0wcmdUNjVtWVlBYmNtcHRvb2ZnWE1oVlowOFVkYzBQbDBoZHJ4aWlfY3haZko1QUhLUklqeW9BTk8xdTFwSzcwLWt0YnMzTWQ3ZTYwTk5zQmM3V0ZGWUNNdw?oc=5\" target=\"_blank\">Yen rises, JGB yields fall on Japan finance minister's pension fund remarks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>",
+    "full_text": "",
+    "source": "Nikkei Asia",
+    "category": "general",
+    "lang": "en",
+    "topic": "DeFi",
+    "published": "2026-07-10T16:00:00+00:00",
+    "crawled": "2026-07-11T14:59:30.343765+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT1poYVYwbWNzZkN4dllRT3BrdHA2NzltVDlaRXotNDVMaF9kUFBGbmJYTTMzb0lPa25LeTVsNlJfT3ZLRWhaSGo3cU16djRsd2ZlQktfMTM1SkFOOUFyMG5BSXF5b2VMdWFlS0dPY1NxUVdFNmlwbEdYNjBVbjVyblE4cGE0Q1JCV01mNjl4Wl9rTlhlRVJ6YjRxUS1WaWZWb0VFSzctczRudUdNZ0I4UGNqUWR0dw?oc=5",
+    "title": "Japan wants pension whale GPIF to dive deeper into alternative investments - Nikkei Asia",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNT1poYVYwbWNzZkN4dllRT3BrdHA2NzltVDlaRXotNDVMaF9kUFBGbmJYTTMzb0lPa25LeTVsNlJfT3ZLRWhaSGo3cU16djRsd2ZlQktfMTM1SkFOOUFyMG5BSXF5b2VMdWFlS0dPY1NxUVdFNmlwbEdYNjBVbjVyblE4cGE0Q1JCV01mNjl4Wl9rTlhlRVJ6YjRxUS1WaWZWb0VFSzctczRudUdNZ0I4UGNqUWR0dw?oc=5\" target=\"_blank\">Japan wants pension whale GPIF to dive deeper into alternative investments</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>",
+    "full_text": "",
+    "source": "Nikkei Asia",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-11T14:32:00+00:00",
+    "crawled": "2026-07-11T14:59:30.651759+00:00",
+    "summarized": true,
+    "ai_summary": "• 日本政府希望全球最大退休基金GPIF加大對替代投資的投入，以提高資產回報率  \n• GPIF目前的資產配置主要集中於傳統股票和債券，替代投資比例仍然較低  \n• 日本財務省表示，增加替代投資將有助於應對人口老齡化帶來的挑戰  \n• GPIF的投資策略調整計劃尚未具體時間表，將根據市場狀況進行評估",
+    "summaries": {
+      "zh-HK": "• 日本政府希望全球最大退休基金GPIF加大對替代投資的投入，以提高資產回報率  \n• GPIF目前的資產配置主要集中於傳統股票和債券，替代投資比例仍然較低  \n• 日本財務省表示，增加替代投資將有助於應對人口老齡化帶來的挑戰  \n• GPIF的投資策略調整計劃尚未具體時間表，將根據市場狀況進行評估"
+    }
   }
 ]
