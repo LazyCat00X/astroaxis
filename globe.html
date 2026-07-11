@@ -2525,10 +2525,13 @@ const GEO_KEYWORDS = [
         tooltip.classList.remove('visible');
         updateAgentLayer(null);
         renderer.domElement.style.cursor = 'grab';
+      } else {
+        // No marker hovered — ensure cursor is grab
+        renderer.domElement.style.cursor = 'grab';
       }
     }, { passive: true });
 
-    // -- History dot hover: show event tooltip --
+    // ── History dot hover: show event tooltip ──
     let hoveredHistoryDot = null;
     renderer.domElement.addEventListener('pointermove', event => {
       if (!historyGroup || !window._historyDots) return;
@@ -2537,16 +2540,16 @@ const GEO_KEYWORDS = [
       const dotHits = raycaster.intersectObjects(window._historyDots);
       if (dotHits.length) {
         const dot = dotHits[0].object;
-        // Occlusion check: skip dots BEHIND the globe
-        const globeCenter = new THREE.Vector3(0, -0.8, 0);
+        // Occlusion: skip dots on the back face
         const dotPos = new THREE.Vector3();
         dotPos.copy(dot.position);
         globe.localToWorld(dotPos);
-        const toDot = dotPos.sub(globeCenter).normalize();
-        const toCam = new THREE.Vector3().copy(camera.position).sub(globeCenter).normalize();
-        if (toDot.dot(toCam) < 0.5) return; // Dot is on back face, skip
+        const toDot = dotPos.sub(new THREE.Vector3(0, -0.8, 0)).normalize();
+        const toCam = new THREE.Vector3().copy(camera.position).sub(new THREE.Vector3(0, -0.8, 0)).normalize();
+        if (toDot.dot(toCam) < 0.5) return;
         if (dot !== hoveredHistoryDot) {
           hoveredHistoryDot = dot;
+          renderer.domElement.style.cursor = 'pointer';
           const ev = dot.userData._event;
           if (ev) {
             const evType = ev.type || 'general';
