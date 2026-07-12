@@ -1,277 +1,5 @@
 [
   {
-    "url": "https://decrypt.co/373112/morning-minute-paradigm-raises-1-2b-fund-as-cryptos-top-vc-pushes-into-ai",
-    "title": "Morning Minute: Paradigm Raises $1.2B Fund as Crypto’s Top VC Pushes Into AI",
-    "summary": "BNB Chain rebuilds itself for a world run by AI agents. BTC ETFs flows flip negative. And prediction markets face a new hurdle.",
-    "full_text": "Morning Minute is a daily newsletter written by Tyler Warner. The analysis and opinions expressed are his own and do not necessarily reflect those of Decrypt. And check out our new daily news show covering all of the top stories in 5 minutes, downloadable on Apple Pod or Spotify.\nGM!\nToday’s top news:\n- Crypto majors slightly rebound as Iran tensions ease; BTC +1% at $62.7k\n- ARB (+13%) and LIT (+10%) lead alt movers\n- BNB shares plans for new L1 focused on AI agents and quantum\n- Robinhood Chain does $500M+ in DEX volume as meme mania continues\n- Paradigm raises $1.2B for new AI fund\n💸 Paradigm Raises $1.2 Billion Fund as Crypto’s Top VC Pushes Into AI\nParadigm raised a $1.2 billion fund to invest in what it calls the “technical frontier,” expanding beyond crypto into AI and robotics.\nFounded in 2018 by Matt Huang and Coinbase co-founder Fred Ehrsam, Paradigm built its name as one of crypto’s largest backers, so this is a notable widening of its scope. It has already deployed capital into drone-delivery firm Zipline, valued at $7.6 billion, and space-defense startup True Anomaly, valued at $2.2 billion, both outside crypto.\nIt’s not a major surprise. AI startups pulled in roughly 70% of all global venture funding last quarter, while crypto deal counts have dropped sharply and Bitcoin sits down about 30% on the year. Managing partner Alana Palmedo framed it as abundance rather than retreat, telling Bloomberg that crypto remains an exciting frontier “but there’s so much else happening right now that’s pretty hard to ignore.”\nParadigm insists it isn’t leaving crypto, and the receipts back that up. It co-led Morpho’s $175 million round in June, led a seed round for a tokenized-Treasuries startup this month, and holds positions in Kalshi and other prediction-market firms. Huang has argued for years that crypto and AI aren’t a zero-sum competition, and the firm is evaluating AI deals with its existing technical team rather than spinning up a separate group. But at a minimum, the line between crypto and AI is blurring at the investor level…\n🤖 BNB Chain Plans a New Layer-1 Built for AI Agents\nBNB Chain unveiled a second-half 2026 roadmap centered on a new Layer-1 blockchain purpose-built for “agentic trading,” meaning autonomous AI agents that execute trades, manage portfolios, and provide liquidity on their own.\nThe chain targets more than 100,000 transactions per second, sub-50-millisecond preconfirmation, and sub-second finality, aiming to match centralized-exchange speed while keeping self-custody. It would be the fourth network in the BNB stack alongside BNB Smart Chain, opBNB, and Greenfield, with a testnet planned for late 2026 and mainnet in early 2027.\nThe pitch is infrastructure built for machines rather than people. To serve AI agents that need millisecond execution, the chain removes the public mempool, the shared waiting room where pending transactions sit, and replaces it with a private flow to kill front-running and sandwich attacks. The roadmap also adds native privacy, account abstraction, AI-powered security, and post-quantum cryptography research, using a hybrid approach that layers quantum-resistant protection on top of today’s cryptography without forcing users to migrate addresses.\nBNB Chain is joining a crowded race for high-throughput chains that already includes Solana’s Firedancer, Monad, and MegaETH. The bet is on a market that barely exists yet, since autonomous agents settled just $73 million across 176 million blockchain transactions over the past year. But it is pretty likely that this is where the proverbial puck is going, as Google, Coinbase, and Visa are all building agentic-payment systems and McKinsey projects retail agentic commerce could reach $5 trillion by the end of the decade.\nWhether BNB Chain can ship an aggressive net-new Layer-1 on schedule is the open question, but they’re taking a shot…\n🌎 Macro Crypto and Markets\n- Crypto majors are slightly green and rebounding; BTC +1% at $62.7k; ETH even at $1,740; SOL even at $77; HYPE -2% at $67\n- SKY (+7%), LIT (+6%) and AVAX (+4%) led top movers\n- Oil even at $74; Gold +1% at $4,110\n- Stock futures are green as oil cools and Iran tensions ease; DOW -0.1%, Nasdaq +0.5%\n- The US struck Iran for a second straight night, hitting IRGC boats near the Strait of Hormuz as Iran claimed strikes on 85 US installations, but Trump said Iran called to make a deal after\n- Bitwise’s Top 10 Crypto Index ETF dropped DOT and AVAX and added HYPE after its strong H1 performance\n- Kraken leads all MiCA-regulated exchanges in liquidity and market coverage, per DefiLlama data, with $399.7 million in spot and $206.9M in perp liquidity plus 1,704 markets covered, ahead of Coinbase at $305.2M spot and 1,074 markets\n- Adam Back’s Bitcoin Standard Treasury scrapped its SPAC merger with Cantor and is seeking a new deal\n- Ripple put the XRP logo on Kansas Jayhawks jerseys in a multi-year sponsorship, extending crypto’s march into college sports\n- Russia's largest private bank, Alfa-Bank, plans to become a regulated crypto custodian and offer digital-asset services once Russia's new crypto law takes effect, joining Sberbank and T-Bank in the push\nCorporate Treasuries & ETFs\n- The Bitcoin ETFs saw $85M in net outflows on Wednesday, breaking a 3-day inflow streak; the ETH ETFs saw $70M in inflows, strongly outperforming\nMeme Coin Tracker\n- Meme leaders were slightly green; DOGE +1%, SHIB +1%, PEPE +1%, PENGU even, TRUMP +1%, BONK +1%\n- Robinhood chain memes cooled off after an explosive Tuesday, but VLAD (+120x), ARROW (+200%) and Tendies (+100%) were notable movers\n- ANSEM rebounded 10% on Solana, with Cupsey +26% and manlet +22%\n📈 Myriad Market of the Day\n💰 Token, Airdrop & Protocol Tracker\n- DeFi dashboard Zapper is winding down operations, shutting off its website, apps, and API on Aug. 3 after failing to hit its goal of driving broader DeFi adoption\n- Google banned prediction market extensions from the Chrome Web Store, classifying them as prohibited products, effective August 1\n- Polymarket launched a US marketing blitz to win back trust, partnering with influencers, major sports teams, MLB, and news outlets to legitimize itself as it rebuilds in the US after its four-year ban\n🚚 What is happening in NFTs?\n- NFT leaders were mostly flat; Punks even at 32.4 ETH, BAYC even at 9.25 ETH, Pudgy -2% at 4.44 ETH; Hypurr’s -3% at 204 HYPE\n- AI Art Is Not Art (+480%) and Unlimited (+28%) led top movers",
-    "source": "Decrypt",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Bitcoin",
-    "published": "2026-07-09T12:23:22+00:00",
-    "crawled": "2026-07-09T15:20:04.604039+00:00",
-    "summarized": true,
-    "ai_summary": "• Paradigm於近日籌集了12億美元的基金，計劃投資於AI和機器人技術，擴展其業務範圍。  \n• Paradigm由Matt Huang和Coinbase聯合創辦人Fred Ehrsam於2018年成立，曾是加密貨幣的主要投資者。  \n• BNB Chain計劃在2026年下半年推出一個專為AI代理交易設計的新Layer-1區塊鏈，目標是每秒處理超過10萬筆交易。  \n• 該區塊鏈旨在提供低延遲的交易執行，並移除公共交易池以防止前置交易和夾擊攻擊。",
-    "summaries": {
-      "zh-HK": "• Paradigm於近日籌集了12億美元的基金，計劃投資於AI和機器人技術，擴展其業務範圍。  \n• Paradigm由Matt Huang和Coinbase聯合創辦人Fred Ehrsam於2018年成立，曾是加密貨幣的主要投資者。  \n• BNB Chain計劃在2026年下半年推出一個專為AI代理交易設計的新Layer-1區塊鏈，目標是每秒處理超過10萬筆交易。  \n• 該區塊鏈旨在提供低延遲的交易執行，並移除公共交易池以防止前置交易和夾擊攻擊。"
-    }
-  },
-  {
-    "url": "https://decrypt.co/373113/eu-set-to-revise-mica-in-2027-to-cover-foreign-stablecoin-issuers",
-    "title": "EU Set to Revise MiCA in 2027 to Cover Foreign Stablecoin Issuers",
-    "summary": "Trump's embrace of stablecoins is pushing Brussels to expand its crypto law to non-EU issuers and tokenized payments, EU diplomats say.",
-    "full_text": "In brief\n- The EU is preparing to reopen its Markets in Crypto-Assets (MiCA) rulebook, likely in 2027, to regulate non-EU stablecoin issuers and broaden its scope, EU diplomats told Euronews.\n- The push follows the U.S. GENIUS Act and President Trump's promotion of dollar-backed stablecoins, which make up 95% of the market.\n- The European Commission is consulting stakeholders until September 30 before deciding whether to formally reopen the law.\nThe European Union is preparing to reopen its flagship crypto rulebook to bring non-EU stablecoin issuers under its supervision, as U.S. President Donald Trump's embrace of dollar-pegged tokens unsettles European regulators, Euronews reported, citing several EU diplomats.\nMiCA, the bloc's landmark crypto framework, only fully came into force on July 1, but officials already see a rewrite as inevitable. \"Reopening the file seems unavoidable at this stage,\" one diplomat told Euronews, citing pressure from European institutions, especially the ECB, and fast-moving regulatory and technological developments abroad.\nWhat MiCA leaves out\nThe current framework does not specifically govern non-EU companies that issue stablecoins but operate in Europe, a gap Brussels now wants to close. Stablecoins are tokens pegged to a real-world asset, usually the U.S. dollar, and because they sit outside the traditional banking system, they escape banking rules. Regulating them is harder still because a single stablecoin can be issued by multiple entities across different jurisdictions.\nThe review is also expected to widen MiCA's scope to cover emerging technologies, including tokenized payments and deposits, which officials expect to grow in the coming years.\nPressure from Washington\nThe rethink is a direct response to moves in the U.S. Last year, Trump signed the GENIUS Act, creating a federal framework for dollar-backed stablecoins, and he has promoted the tokens as a way to extend the dollar's reach. With around 97% of stablecoins worldwide pegged to the greenback, EU officials worry about a flood of dollar tokens into Europe. The stakes are large and growing: total stablecoin supply grew by more than 50% over 2025, reaching about $317 billion by April, according to the Federal Reserve.\nMiCA has already reshaped Europe's stablecoin market, with platforms such as Revolut delisting Tether’s USDT stablecoin, handing an edge to authorized issuers such as Circle.\nA sovereignty fight\nThe European Central Bank has been the loudest voice for tougher rules. President Christine Lagarde has repeatedly warned that dollar stablecoins could drain deposits from banks and erode the euro's monetary sovereignty, arguing Europe should build its own public infrastructure rather than copy the U.S. model.\nIn late March, the ECB unveiled a payments strategy built around two two initiatives, the near-term Pontes and longer-term Appia, to settle DLT-based transactions in central bank money.\nFor now, the process is in its early stages. The Commission is gathering feedback until September 30 before deciding whether to formally reopen MiCA, with any revisions expected to be taken up in 2027.",
-    "source": "Decrypt",
-    "category": "crypto",
-    "lang": "en",
-    "topic": "Regulation",
-    "published": "2026-07-09T12:18:24+00:00",
-    "crawled": "2026-07-09T15:20:04.695740+00:00",
-    "summarized": true,
-    "ai_summary": "• 歐盟計劃在2027年重新修訂其加密資產市場（MiCA）法規，以監管非歐盟穩定幣發行者並擴大其範圍。\n• 此舉是因應美國總統特朗普推動以美元為支持的穩定幣，該類穩定幣佔市場的95%。\n• 歐洲委員會正在與利益相關者進行諮詢，截止日期為9月30日，然後決定是否正式重新開啟該法律。\n• 歐洲央行對於加強規則表達強烈支持，警告美元穩定幣可能影響銀行存款及歐元的貨幣主權。",
-    "summaries": {
-      "zh-HK": "• 歐盟計劃在2027年重新修訂其加密資產市場（MiCA）法規，以監管非歐盟穩定幣發行者並擴大其範圍。\n• 此舉是因應美國總統特朗普推動以美元為支持的穩定幣，該類穩定幣佔市場的95%。\n• 歐洲委員會正在與利益相關者進行諮詢，截止日期為9月30日，然後決定是否正式重新開啟該法律。\n• 歐洲央行對於加強規則表達強烈支持，警告美元穩定幣可能影響銀行存款及歐元的貨幣主權。"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-09/canada-s-well-health-preps-c-150-million-high-yield-bond-sale",
-    "title": "Canada’s Well Health Preps C$150 Million High-Yield Bond Sale",
-    "summary": "Well Health Technologies Corp. is looking to sell C$150 million ($106 million) of high-yield bonds maturing in five years, according to people familiar with the matter.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "DeFi",
-    "published": "2026-07-09T15:07:54+00:00",
-    "crawled": "2026-07-09T15:20:06.650821+00:00",
-    "summarized": true,
-    "ai_summary": "• 加拿大Well Health Technologies Corp.計劃發行1.5億加元（約1.06億美元）的高收益債券，期限為五年  \n• 此消息來自於知情人士，具體發行時間尚未公佈  \n• 此次債券發行旨在籌集資金以支持公司的業務發展  \n• Well Health專注於數字健康和醫療服務領域",
-    "summaries": {
-      "zh-HK": "• 加拿大Well Health Technologies Corp.計劃發行1.5億加元（約1.06億美元）的高收益債券，期限為五年  \n• 此消息來自於知情人士，具體發行時間尚未公佈  \n• 此次債券發行旨在籌集資金以支持公司的業務發展  \n• Well Health專注於數字健康和醫療服務領域"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-09/senegal-s-political-rupture-raises-risk-of-debt-reprofile-says-citibank",
-    "title": "Senegal’s Political Rupture Raises Risk of Debt Reprofile, Says Citibank",
-    "summary": "Citigroup Inc. said the political rupture between Senegal’s president and his former premier has increased the likelihood of a debt reprofiling rather than a restructuring.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Politics",
-    "published": "2026-07-09T15:03:03+00:00",
-    "crawled": "2026-07-09T15:20:06.799627+00:00",
-    "summarized": true,
-    "ai_summary": "• 花旗集團表示，塞內加爾總統與前總理之間的政治分歧增加了債務重新調整的可能性 \n• 報告指出，這種情況更可能導致債務重新配置，而非重組 \n• 塞內加爾的政治局勢變化可能影響其經濟穩定性 \n• 花旗集團的分析強調了當前的政治風險對經濟的潛在影響",
-    "summaries": {
-      "zh-HK": "• 花旗集團表示，塞內加爾總統與前總理之間的政治分歧增加了債務重新調整的可能性 \n• 報告指出，這種情況更可能導致債務重新配置，而非重組 \n• 塞內加爾的政治局勢變化可能影響其經濟穩定性 \n• 花旗集團的分析強調了當前的政治風險對經濟的潛在影響"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-09/your-etf-of-the-moment-winning-big-with-trump-accounts",
-    "title": "Your ETF of the Moment: Winning Big With ‘Trump Accounts’",
-    "summary": "<p>They are reshaping stock ownership, and one exchange-traded fund in particular stands to benefit handsomely.</p>",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Trading",
-    "published": "2026-07-09T15:01:58+00:00",
-    "crawled": "2026-07-09T15:20:06.979837+00:00",
-    "summarized": true,
-    "ai_summary": "• 一項交易所交易基金（ETF）因「特朗普帳戶」的興起而受益，改變了股票擁有權的模式  \n• 此類帳戶的流行可能會推動相關ETF的表現  \n• 專家指出，這一趨勢可能會影響投資者的選擇和市場動態  \n• 目前尚未有具體數據顯示該ETF的具體收益情況",
-    "summaries": {
-      "zh-HK": "• 一項交易所交易基金（ETF）因「特朗普帳戶」的興起而受益，改變了股票擁有權的模式  \n• 此類帳戶的流行可能會推動相關ETF的表現  \n• 專家指出，這一趨勢可能會影響投資者的選擇和市場動態  \n• 目前尚未有具體數據顯示該ETF的具體收益情況"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-09/terawulf-eyes-3-5-billion-for-anthropic-leased-data-center",
-    "title": "TeraWulf Eyes $3.5 Billion for Anthropic-Leased Data Center",
-    "summary": "TeraWulf Inc. is preparing to raise about $3.5 billion in debt to build a data center campus in Kentucky, including its first-ever foray into the leveraged loan market.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "AI",
-    "published": "2026-07-09T14:42:57+00:00",
-    "crawled": "2026-07-09T15:20:07.159473+00:00",
-    "summarized": true,
-    "ai_summary": "• TeraWulf Inc. 計劃籌集約35億美元的債務，以在肯塔基州建設數據中心園區  \n• 此項目將是該公司首次進入槓桿貸款市場  \n• 資金將用於支持與Anthropic簽訂的數據中心租賃協議  \n• TeraWulf 旨在擴大其業務並提升數據處理能力",
-    "summaries": {
-      "zh-HK": "• TeraWulf Inc. 計劃籌集約35億美元的債務，以在肯塔基州建設數據中心園區  \n• 此項目將是該公司首次進入槓桿貸款市場  \n• 資金將用於支持與Anthropic簽訂的數據中心租賃協議  \n• TeraWulf 旨在擴大其業務並提升數據處理能力"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-09/cftc-blocking-cme-plan-to-offer-24-7-oil-futures-trading",
-    "title": "CFTC Blocking CME Plan to Offer 24/7 Oil Futures Trading",
-    "summary": "The Commodity Futures Trading Commission is blocking CME Group Inc.’s bid to start offering 24/7 trading in oil futures.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Regulation",
-    "published": "2026-07-09T14:38:15+00:00",
-    "crawled": "2026-07-09T15:20:07.312521+00:00",
-    "summarized": true,
-    "ai_summary": "• 商品期貨交易委員會（CFTC）阻止了芝加哥商品交易所集團（CME Group Inc.）提供24小時油期貨交易的計劃  \n• CFTC的決定影響了CME集團在期貨市場的擴展計劃  \n• 此舉旨在確保市場的穩定性和透明度  \n• CME集團尚未對CFTC的決定發表公開評論",
-    "summaries": {
-      "zh-HK": "• 商品期貨交易委員會（CFTC）阻止了芝加哥商品交易所集團（CME Group Inc.）提供24小時油期貨交易的計劃  \n• CFTC的決定影響了CME集團在期貨市場的擴展計劃  \n• 此舉旨在確保市場的穩定性和透明度  \n• CME集團尚未對CFTC的決定發表公開評論"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-09/qiagen-draws-early-takeover-interest-from-eqt-advent",
-    "title": "Qiagen Draws Early Takeover Interest From EQT, Advent",
-    "summary": "Qiagen NV, the European molecular testing company, is drawing early takeover interest from firms including EQT AB and Advent, people familiar with the matter said.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-09T14:12:52+00:00",
-    "crawled": "2026-07-09T15:20:07.462950+00:00",
-    "summarized": true,
-    "ai_summary": "• 歐洲分子檢測公司Qiagen NV正吸引EQT AB和Advent等公司的早期收購興趣  \n• 據知情人士透露，這些公司對Qiagen的收購可能性表示關注  \n• Qiagen專注於分子診斷和檢測技術  \n• 目前尚未有正式的收購提議或交易細節公開",
-    "summaries": {
-      "zh-HK": "• 歐洲分子檢測公司Qiagen NV正吸引EQT AB和Advent等公司的早期收購興趣  \n• 據知情人士透露，這些公司對Qiagen的收購可能性表示關注  \n• Qiagen專注於分子診斷和檢測技術  \n• 目前尚未有正式的收購提議或交易細節公開"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-09/merz-s-reforms-for-germany-get-fitch-cheer-but-no-big-applause",
-    "title": "Merz’s Reforms for Germany Get Fitch Cheer But No Big Applause",
-    "summary": "Germany’s new reform package amounts to a step in the right direction but is still no game changer in addressing the troubles of its economy, according to Fitch Ratings.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Macro",
-    "published": "2026-07-09T14:31:36+00:00",
-    "crawled": "2026-07-09T15:20:07.607670+00:00",
-    "summarized": true,
-    "ai_summary": "• 德國的新改革方案獲得Fitch評級機構的正面評價，但未能引起廣泛讚賞  \n• Fitch表示，該方案是朝正確方向邁出的一步，但仍未能根本解決經濟問題  \n• 改革方案旨在應對德國經濟面臨的挑戰  \n• Fitch對該方案的評價反映出市場對德國經濟未來的謹慎態度",
-    "summaries": {
-      "zh-HK": "• 德國的新改革方案獲得Fitch評級機構的正面評價，但未能引起廣泛讚賞  \n• Fitch表示，該方案是朝正確方向邁出的一步，但仍未能根本解決經濟問題  \n• 改革方案旨在應對德國經濟面臨的挑戰  \n• Fitch對該方案的評價反映出市場對德國經濟未來的謹慎態度"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-09/pgim-s-peters-says-repricing-of-30-year-treasury-yield-has-just-begun",
-    "title": "Repricing of 30-Year Treasury Yield Has Just Begun, PGIM’s Peters Says",
-    "summary": "The return of the 30-year US Treasury yield above 5% is prompting investors to rethink what they consider an attractive level, according to PGIM’s Gregory Peters.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "DeFi",
-    "published": "2026-07-09T14:27:28+00:00",
-    "crawled": "2026-07-09T15:20:07.759724+00:00",
-    "summarized": true,
-    "ai_summary": "• PGIM的格雷戈里·彼得斯表示，30年期美國國債收益率回升至5%以上，促使投資者重新考慮吸引力水平。  \n• 彼得斯指出，這一變化可能會影響市場對長期投資的看法。  \n• 目前，投資者對於國債的需求和收益率的關係正在發生變化。  \n• 這一趨勢可能會影響未來的資本配置和投資策略。",
-    "summaries": {
-      "zh-HK": "• PGIM的格雷戈里·彼得斯表示，30年期美國國債收益率回升至5%以上，促使投資者重新考慮吸引力水平。  \n• 彼得斯指出，這一變化可能會影響市場對長期投資的看法。  \n• 目前，投資者對於國債的需求和收益率的關係正在發生變化。  \n• 這一趨勢可能會影響未來的資本配置和投資策略。"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-09/hormuz-ship-insurance-demand-drops-as-owners-get-nervous",
-    "title": "Hormuz Ship Insurance Demand Drops as Owners Get Nervous",
-    "summary": "London marine insurers have been seeing fewer inquiries for journeys to transit the Strait of Hormuz and some said the cost of cover had risen, in a sign of growing caution from shipowners as the US and Iran exchange attacks.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-09T14:24:03+00:00",
-    "crawled": "2026-07-09T15:20:07.916723+00:00",
-    "summarized": true,
-    "ai_summary": "• 倫敦海運保險公司收到的經過霍爾木茲海峽的保險詢問減少  \n• 部分保險公司表示，保險費用上升  \n• 船東對於美國與伊朗之間的攻擊互動表現出日益謹慎  \n• 霍爾木茲海峽的航運安全受到影響，導致保險需求下降",
-    "summaries": {
-      "zh-HK": "• 倫敦海運保險公司收到的經過霍爾木茲海峽的保險詢問減少  \n• 部分保險公司表示，保險費用上升  \n• 船東對於美國與伊朗之間的攻擊互動表現出日益謹慎  \n• 霍爾木茲海峽的航運安全受到影響，導致保險需求下降"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-09/brazil-miner-vale-facing-scrutiny-over-chair-s-exit-compensation",
-    "title": "Brazil Miner Vale Facing Scrutiny Over Chair’s Exit Compensation",
-    "summary": "Vale SA, the world’s top iron ore producer, is under scrutiny by Brazil’s securities regulator following media reports that this week’s resignation of its board chair included a deal for a compensation package.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "World",
-    "published": "2026-07-09T14:17:27+00:00",
-    "crawled": "2026-07-09T15:20:08.059558+00:00",
-    "summarized": true,
-    "ai_summary": "• 巴西礦業公司淡水河谷（Vale SA）因董事會主席辭職的補償方案受到巴西證券監管機構的審查  \n• 媒體報導指出，該董事會主席的辭職包含了一項補償協議  \n• 淡水河谷是全球最大的鐵礦石生產商  \n• 監管機構正在調查該補償方案的具體細節及其合規性",
-    "summaries": {
-      "zh-HK": "• 巴西礦業公司淡水河谷（Vale SA）因董事會主席辭職的補償方案受到巴西證券監管機構的審查  \n• 媒體報導指出，該董事會主席的辭職包含了一項補償協議  \n• 淡水河谷是全球最大的鐵礦石生產商  \n• 監管機構正在調查該補償方案的具體細節及其合規性"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-09/scotiabank-re-enters-precious-metals-business-it-exited-in-2020",
-    "title": "Scotiabank Re-Enters Precious Metals Business It Exited in 2020",
-    "summary": "Bank of Nova Scotia has re-entered precious metals trading, six years after exiting the sector, according to people familiar with the matter.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Trading",
-    "published": "2026-07-09T14:16:21+00:00",
-    "crawled": "2026-07-09T15:20:08.204285+00:00",
-    "summarized": true,
-    "ai_summary": "• 加拿大皇家銀行（Scotiabank）重新進入貴金屬交易業務，六年前曾退出該行業  \n• 消息人士透露，該銀行的決定是基於市場需求的變化  \n• 銀行在2020年退出貴金屬業務，現在再次參與該市場  \n• 具體的交易策略和計劃尚未公開披露",
-    "summaries": {
-      "zh-HK": "• 加拿大皇家銀行（Scotiabank）重新進入貴金屬交易業務，六年前曾退出該行業  \n• 消息人士透露，該銀行的決定是基於市場需求的變化  \n• 銀行在2020年退出貴金屬業務，現在再次參與該市場  \n• 具體的交易策略和計劃尚未公開披露"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-09/magnificent-seven-s-weakness-is-starting-to-become-a-problem-for-wall-street",
-    "title": "Magnificent Seven’s Weakness Is Starting to Become a Problem for Wall Street",
-    "summary": "One notable group has been absent from the 2026 stock rally: the American tech giants that have charged a nearly four-year bull run.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-09T12:14:13+00:00",
-    "crawled": "2026-07-09T15:20:08.356391+00:00",
-    "summarized": true,
-    "ai_summary": "• 美國科技巨頭在2026年的股市反彈中缺席，這一情況引起市場關注  \n• 被稱為「壯麗七人組」的科技公司在近四年的牛市中表現突出  \n• 分析指出，這些公司的缺席可能會對華爾街造成影響  \n• 投資者開始擔心科技股的持續疲弱可能會影響整體市場表現",
-    "summaries": {
-      "zh-HK": "• 美國科技巨頭在2026年的股市反彈中缺席，這一情況引起市場關注  \n• 被稱為「壯麗七人組」的科技公司在近四年的牛市中表現突出  \n• 分析指出，這些公司的缺席可能會對華爾街造成影響  \n• 投資者開始擔心科技股的持續疲弱可能會影響整體市場表現"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-09/mavik-seeks-1-billion-to-hunt-distressed-commercial-real-estate",
-    "title": "Mavik Seeks $1 Billion to Hunt Distressed Commercial Real Estate",
-    "summary": "Mavik Capital Management is looking to raise $1 billion to snatch up distressed assets in the commercial real estate market, which is still nursing bruises from a surge in borrowing costs four years ago.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-09T14:00:26+00:00",
-    "crawled": "2026-07-09T15:20:08.500003+00:00",
-    "summarized": true,
-    "ai_summary": "• Mavik Capital Management計劃籌集10億美元以收購困境中的商業地產資產  \n• 商業地產市場仍在應對四年前借貸成本上升帶來的影響  \n• 籌款目標旨在利用市場中的投資機會  \n• Mavik希望透過收購來增強其投資組合的多樣性",
-    "summaries": {
-      "zh-HK": "• Mavik Capital Management計劃籌集10億美元以收購困境中的商業地產資產  \n• 商業地產市場仍在應對四年前借貸成本上升帶來的影響  \n• 籌款目標旨在利用市場中的投資機會  \n• Mavik希望透過收購來增強其投資組合的多樣性"
-    }
-  },
-  {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-09/jpmorgan-says-everything-is-an-ai-trade-it-s-how-you-play-it",
-    "title": "JPMorgan Says Everything Is an AI Trade: ‘It’s How You Play It’",
-    "summary": "Investors are getting better at distinguishing between the potential risks and rewards in artificial intelligence, according to JPMorgan Asset Management’s David Lebovitz, a crucial lesson for Wall Street as AI becomes an “everywhere” trade.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "AI",
-    "published": "2026-07-09T14:00:17+00:00",
-    "crawled": "2026-07-09T15:20:08.650678+00:00",
-    "summarized": true,
-    "ai_summary": "• 摩根大通資產管理部的David Lebovitz表示，投資者在辨別人工智能的潛在風險和回報方面變得更加成熟  \n• 他指出，人工智能交易已成為華爾街的普遍現象  \n• Lebovitz強調，這是一個對投資者至關重要的教訓  \n• 隨著人工智能的普及，市場對相關投資的理解正在加深",
-    "summaries": {
-      "zh-HK": "• 摩根大通資產管理部的David Lebovitz表示，投資者在辨別人工智能的潛在風險和回報方面變得更加成熟  \n• 他指出，人工智能交易已成為華爾街的普遍現象  \n• Lebovitz強調，這是一個對投資者至關重要的教訓  \n• 隨著人工智能的普及，市場對相關投資的理解正在加深"
-    }
-  },
-  {
     "url": "https://www.cnbc.com/2026/07/09/goldman-sachs-asset-management-deals-verizon-lockheed-martin.html",
     "title": "Goldman Sachs wins $70 billion in asset management deals with Verizon, Lockheed Martin",
     "summary": "Competition in the multitrillion-dollar market for retirement assets is fierce among managers such as Goldman Sachs, BlackRock, Russell Investments and Mercer.",
@@ -29812,8 +29540,11 @@
     "topic": "Finance",
     "published": "2026-07-12T13:00:00+00:00",
     "crawled": "2026-07-12T13:37:08.508028+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 特朗普公開支持澳洲退休金制度，稱其為全球最受羨慕的退休計劃之一  \n• 此舉得到黑石集團首席執行官拉里·芬克的支持  \n• 特朗普的支持旨在推動美國退休制度的改革  \n• 澳洲退休金制度以其強制性儲蓄和投資策略聞名於世",
+    "summaries": {
+      "zh-HK": "• 特朗普公開支持澳洲退休金制度，稱其為全球最受羨慕的退休計劃之一  \n• 此舉得到黑石集團首席執行官拉里·芬克的支持  \n• 特朗普的支持旨在推動美國退休制度的改革  \n• 澳洲退休金制度以其強制性儲蓄和投資策略聞名於世"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-12/zelenskyy-removes-ukrainian-premier-in-broader-cabinet-reshuffle",
@@ -29868,8 +29599,11 @@
     "topic": "General",
     "published": "2026-07-12T12:58:16+00:00",
     "crawled": "2026-07-12T13:37:14.064388+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 新西蘭教練布倫登·麥卡倫被解僱，結束英格蘭測試隊的教練職位，但將繼續擔任白球隊教練  \n• 麥卡倫的解僱是在英格蘭隊近期表現不佳及多起場外事件後作出的決定  \n• 英格蘭隊在最近的九場測試中輸掉七場，包括在澳洲的4-1失利和對新西蘭的2-1失利  \n• 英格蘭測試隊目前沒有主教練和隊長，下一場系列賽將於8月19日對巴基斯坦開始",
+    "summaries": {
+      "zh-HK": "• 新西蘭教練布倫登·麥卡倫被解僱，結束英格蘭測試隊的教練職位，但將繼續擔任白球隊教練  \n• 麥卡倫的解僱是在英格蘭隊近期表現不佳及多起場外事件後作出的決定  \n• 英格蘭隊在最近的九場測試中輸掉七場，包括在澳洲的4-1失利和對新西蘭的2-1失利  \n• 英格蘭測試隊目前沒有主教練和隊長，下一場系列賽將於8月19日對巴基斯坦開始"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/cz754eey3xeo?at_medium=RSS&at_campaign=rss",
@@ -29913,8 +29647,11 @@
     "topic": "General",
     "published": "2026-07-12T12:49:15+00:00",
     "crawled": "2026-07-12T13:37:14.155365+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 古董路演專家西奧·布雷爾（Theo Burrell）於39歲時去世，四年前被診斷為腦癌。  \n• 她於2022年6月被診斷為膠質母細胞瘤，這是一種高度侵略性的腦腫瘤，通常預期壽命為12至18個月。  \n• 布雷爾於2018年加入BBC節目，擔任評估公眾帶來物品的專家，並在愛丁堡的Lyon & Turnbull拍賣行工作。  \n• 她的Instagram發表聲明稱，布雷爾在家人陪伴下安詳去世，並表示她在抗癌過程中為提高對該病的認識而努力。",
+    "summaries": {
+      "zh-HK": "• 古董路演專家西奧·布雷爾（Theo Burrell）於39歲時去世，四年前被診斷為腦癌。  \n• 她於2022年6月被診斷為膠質母細胞瘤，這是一種高度侵略性的腦腫瘤，通常預期壽命為12至18個月。  \n• 布雷爾於2018年加入BBC節目，擔任評估公眾帶來物品的專家，並在愛丁堡的Lyon & Turnbull拍賣行工作。  \n• 她的Instagram發表聲明稱，布雷爾在家人陪伴下安詳去世，並表示她在抗癌過程中為提高對該病的認識而努力。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/12/ukraines-zelenskyy-announces-cabinet-reshuffle-replaces-pm-svyrydenko?traffic_source=rss",
@@ -30214,8 +29951,11 @@
     "topic": "Finance",
     "published": "2026-07-12T13:00:00+00:00",
     "crawled": "2026-07-12T13:37:32.470355+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 隨著財報季的開始，人工智能投資成為市場焦點  \n• 股票市場的反彈越來越依賴於人工智能，而非石油  \n• 投資者對人工智能相關公司的盈利預期持樂觀態度  \n• 分析指出，人工智能的發展可能會影響未來的市場走勢",
+    "summaries": {
+      "zh-HK": "• 隨著財報季的開始，人工智能投資成為市場焦點  \n• 股票市場的反彈越來越依賴於人工智能，而非石油  \n• 投資者對人工智能相關公司的盈利預期持樂觀態度  \n• 分析指出，人工智能的發展可能會影響未來的市場走勢"
+    }
   },
   {
     "url": "https://www.theverge.com/games/964262/blue-prince-family-bonding",
@@ -30228,8 +29968,11 @@
     "topic": "Finance",
     "published": "2026-07-12T13:00:00+00:00",
     "crawled": "2026-07-12T13:37:40.412404+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 作者分享了與家人一起玩遊戲的經歷，特別是與兒子和妻子一起玩《Blue Prince》的過程。\n• 《Blue Prince》是一款解謎類roguelike遊戲，玩家需探索一座45個房間的豪宅，目標是到達神秘的46號房間以獲得遺產。\n• 作者的兒子在遊戲中展現出高超的空間智力，能夠快速解決謎題並指導母親，而妻子則擅長理解故事的主題和解讀文字謎題。\n• 這個遊戲增進了妻子和兒子之間的聯繫，並成為他們共同學習和挑戰的機會。",
+    "summaries": {
+      "zh-HK": "• 作者分享了與家人一起玩遊戲的經歷，特別是與兒子和妻子一起玩《Blue Prince》的過程。\n• 《Blue Prince》是一款解謎類roguelike遊戲，玩家需探索一座45個房間的豪宅，目標是到達神秘的46號房間以獲得遺產。\n• 作者的兒子在遊戲中展現出高超的空間智力，能夠快速解決謎題並指導母親，而妻子則擅長理解故事的主題和解讀文字謎題。\n• 這個遊戲增進了妻子和兒子之間的聯繫，並成為他們共同學習和挑戰的機會。"
+    }
   },
   {
     "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
@@ -30256,8 +29999,11 @@
     "topic": "Finance",
     "published": "2026-07-12T12:46:34+00:00",
     "crawled": "2026-07-12T13:37:43.164494+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 德國將為烏克蘭提供50,000架攻擊無人機，資金來源已確認  \n• 此項資助旨在加強烏克蘭的防禦能力，應對持續的衝突  \n• 具體的資金數額和交付時間尚未公布  \n• 此舉反映出德國對烏克蘭的支持，並加強其在地區安全中的角色",
+    "summaries": {
+      "zh-HK": "• 德國將為烏克蘭提供50,000架攻擊無人機，資金來源已確認  \n• 此項資助旨在加強烏克蘭的防禦能力，應對持續的衝突  \n• 具體的資金數額和交付時間尚未公布  \n• 此舉反映出德國對烏克蘭的支持，並加強其在地區安全中的角色"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSnhGVVA5VTN4M0liQkZxblJjLVplazZxT3FLTGtrbGp6d2dldFBmX2dkT2M3a0lQNV94enRxaTV6ZUdia2JLTnpzZ3dLdW50aDh2UldEY1ZRemJ3dmFwNTExTFFnOGh0bmtzb1plNm5oeDZkdy1WVjZEMVp5a1JWd19Rb2MydlpNVTFCSnRrRFpVZzFNTHZRaW9kUmJZWU1QaXQxZkxmSExRem1lZ3Zr?oc=5",
@@ -30270,8 +30016,11 @@
     "topic": "General",
     "published": "2026-07-12T12:37:40+00:00",
     "crawled": "2026-07-12T13:37:43.440018+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 烏克蘭總統澤連斯基宣布將更換總理斯維里登科  \n• 澤連斯基在一場新聞發布會上表示此決定  \n• 此次更換總理的原因尚未具體說明  \n• 斯維里登科自2022年起擔任總理職位",
+    "summaries": {
+      "zh-HK": "• 烏克蘭總統澤連斯基宣布將更換總理斯維里登科  \n• 澤連斯基在一場新聞發布會上表示此決定  \n• 此次更換總理的原因尚未具體說明  \n• 斯維里登科自2022年起擔任總理職位"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQS09EWmdpMEZqVE9nazcwbDh4TWRGN2J3Z1hSQTVzbzh1QzkyRTRjeENDQ2VRYXc4N2ROcmF2bU00MHZDTWMzVllycFpBT25Idk9TMlZrWWZVSzdxZWV4S2k3V3Z6VGJVTTZmZVd1UTNPdVFwSkNudDRwNmVJVnczWHJ2VExVdEQ3bFY2UVVzREZVRjd1bFhoaFR4MzB1TlJHTnNmdWx2RXdpVmR5Y2VwRU43SUN5dFJyNTlpMm1B?oc=5",
@@ -30472,8 +30221,11 @@
     "topic": "Ai",
     "published": "2026-07-12T12:34:00+00:00",
     "crawled": "2026-07-12T13:37:49.561464+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 本文探討有關人工智能（AI）可能引發的災難性後果的觀點\n• 作者認為，AI的發展並不會導致預期中的「末日」情景\n• 文章指出，AI技術的進步應被視為工具，而非威脅\n• 強調需要理性看待AI的影響，並促進負責任的使用與監管",
+    "summaries": {
+      "zh-HK": "• 本文探討有關人工智能（AI）可能引發的災難性後果的觀點\n• 作者認為，AI的發展並不會導致預期中的「末日」情景\n• 文章指出，AI技術的進步應被視為工具，而非威脅\n• 強調需要理性看待AI的影響，並促進負責任的使用與監管"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb3NObEVsT0RNR21nUlB6c25xb2dqZl9kRDBsQ2VyTEVXYXZKS0VPZWt6ejJsb0V4cm1OeF9vU1plWUtZUExlSk02RGw1VFp2RGd0ZEcyLS10WXJITm9TWlZaM21iaHlCSG1XemRnNFl0aXpkSUFqRXBMVE9VallDNUQ2N3VrWGZHLTJzcWZtMlZLYWE3WnFjWi1PN0JIRnlRY25ZejBGMTRYX2ZTRmtaUDlB?oc=5",
@@ -30650,9 +30402,11 @@
     "topic": "General",
     "published": "2026-07-12T14:02:31+00:00",
     "crawled": "2026-07-12T15:01:37.492921+00:00",
-    "summarized": false,
-    "ai_summary": "",
-    "summaries": {}
+    "summarized": true,
+    "ai_summary": "• 此文章內容不足，無法生成摘要",
+    "summaries": {
+      "zh-HK": "• 此文章內容不足，無法生成摘要"
+    }
   },
   {
     "url": "https://www.ft.com/content/db48418a-f906-4afd-86a2-1ab08004bd13",
@@ -30795,8 +30549,11 @@
     "topic": "Politics",
     "published": "2026-07-12T13:30:09+00:00",
     "crawled": "2026-07-12T15:02:03.841618+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 特朗普表示霍爾木茲海峽對商業交通保持開放  \n• 此言論是在美國與伊朗緊張局勢加劇的背景下發表  \n• 特朗普強調，海峽的安全對全球經濟至關重要  \n• 他呼籲各國合作以確保海上航運的自由與安全",
+    "summaries": {
+      "zh-HK": "• 特朗普表示霍爾木茲海峽對商業交通保持開放  \n• 此言論是在美國與伊朗緊張局勢加劇的背景下發表  \n• 特朗普強調，海峽的安全對全球經濟至關重要  \n• 他呼籲各國合作以確保海上航運的自由與安全"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdzNvU2tjajlTZWJVZFZBNldWUUFCMlc0SFp2QmxteTlwMGFPeFlFZFgycGkyNnI2R25VZ2IwT1ZYREpXZG9kc29wVTU2cUtpc2t0bDFZQmxFUURyVUJHNUZuR0ZDVjRpOUxGMkhBeU4zdUtqLXVpNW5RRTVYY19MVjZZZ2IxdmEyUW5rYm1ScUpXRWNraWtkQWw1Sks1N3VXMTI3R0lTZjI4eEZMRDdzb0hSR2JUWmhEQV9PR0ZlYzkyZw?oc=5",
@@ -30877,8 +30634,11 @@
     "topic": "Finance",
     "published": "2026-07-12T14:19:37+00:00",
     "crawled": "2026-07-12T17:04:02.242622+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 津巴布韋總統恩幹古瓦表示，延長其任期兩年的憲法修正案是集體決定 \n• 此消息由《星期日郵報》報導 \n• 恩幹古瓦的任期延長引發了關注 \n• 具體的修正案內容及其影響尚未詳細說明",
+    "summaries": {
+      "zh-HK": "• 津巴布韋總統恩幹古瓦表示，延長其任期兩年的憲法修正案是集體決定 \n• 此消息由《星期日郵報》報導 \n• 恩幹古瓦的任期延長引發了關注 \n• 具體的修正案內容及其影響尚未詳細說明"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/c4gy59p5gz6o?at_medium=RSS&at_campaign=rss",
@@ -31007,8 +30767,11 @@
     "topic": "General",
     "published": "2026-07-12T14:42:27+00:00",
     "crawled": "2026-07-12T17:04:10.081231+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 卡塔爾前埃米爾哈馬德·本·哈利法·阿爾薩尼於多哈去世，享年74歲，對卡塔爾的自主發展有重要影響。  \n• 他於1995年接掌王位，推翻了長期以來的謹慎政策，致力於提升卡塔爾在地區的相關性。  \n• 哈馬德利用卡塔爾的天然氣資源，推動國家影響力，包括創立半島電視台和卡塔爾航空等重要機構。  \n• 在他的領導下，卡塔爾成為美國的外交合作夥伴，並在多個國際事務中扮演重要角色。",
+    "summaries": {
+      "zh-HK": "• 卡塔爾前埃米爾哈馬德·本·哈利法·阿爾薩尼於多哈去世，享年74歲，對卡塔爾的自主發展有重要影響。  \n• 他於1995年接掌王位，推翻了長期以來的謹慎政策，致力於提升卡塔爾在地區的相關性。  \n• 哈馬德利用卡塔爾的天然氣資源，推動國家影響力，包括創立半島電視台和卡塔爾航空等重要機構。  \n• 在他的領導下，卡塔爾成為美國的外交合作夥伴，並在多個國際事務中扮演重要角色。"
+    }
   },
   {
     "url": "https://www.npr.org/2026/07/12/nx-s1-5890935/cyclosporiasis-outbreak-diarrhea-nausea-where-states-us",
@@ -31239,8 +31002,11 @@
     "topic": "General",
     "published": "2026-07-12T14:01:43+00:00",
     "crawled": "2026-07-12T17:04:39.978342+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 巴黎郊區因一輛「可疑」汽車靠近猶太教堂，約300人被疏散  \n• 疏散行動於當地時間週四進行，警方封鎖了相關區域  \n• 警方表示正在調查該汽車的背景及其是否構成威脅  \n• 當地社區對此事件表示關注，並感到不安",
+    "summaries": {
+      "zh-HK": "• 巴黎郊區因一輛「可疑」汽車靠近猶太教堂，約300人被疏散  \n• 疏散行動於當地時間週四進行，警方封鎖了相關區域  \n• 警方表示正在調查該汽車的背景及其是否構成威脅  \n• 當地社區對此事件表示關注，並感到不安"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdW16M2JEMFgyMlEyUVJHNW00cVhNVk9zaG5GLVNWMW5aY2c3bjRjRE1kaTBSdHBabHVJWUxibzl0OGpMT29Bek5xa0Y4cmc5RV80SzEwbk9CY0RjUG5WNFdyUVQ1WUJVc3A0RVVWa1VIWnhnWnNzckZYUlEzdXIybGttcDFjRW52eUl1aUNDRmJQdVNNNThfWU1fLXhJd2VBb2lxUE5TTTV6R2Etdk00LXlBUzRKcHI3WlE?oc=5",
@@ -31304,8 +31070,11 @@
     "topic": "General",
     "published": "2026-07-12T12:55:39+00:00",
     "crawled": "2026-07-12T17:04:41.551440+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 南韓向北韓請求協助尋找在邊界附近失踪的海員  \n• 失踪海員於本月初在韓國海域進行作業時失聯  \n• 南韓政府表示希望透過北韓的協助找到失踪者  \n• 這是南北韓之間的罕見合作請求，旨在保障人道主義利益",
+    "summaries": {
+      "zh-HK": "• 南韓向北韓請求協助尋找在邊界附近失踪的海員  \n• 失踪海員於本月初在韓國海域進行作業時失聯  \n• 南韓政府表示希望透過北韓的協助找到失踪者  \n• 這是南北韓之間的罕見合作請求，旨在保障人道主義利益"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbGVFMkRELTVjOFZwLXJEUHZ1R2dqZmJ3S2w1WV83Nm56OGd2M2ZuLXdMazZIWElnUXIzVHBqR2tPbW5OMHl5NmlRQlp2OHRqNThZdkNIYms3MDY0TVQxOU0yVDRhQlJGU1JidEhPUktpbE1sVE5aT1JjN3Q5X1N4X0ExTnRySjNQck5xR093VHpyMlB0Mnc?oc=5",
@@ -31400,8 +31169,11 @@
     "topic": "AI",
     "published": "2026-07-12T14:31:38+00:00",
     "crawled": "2026-07-12T17:04:46.340901+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 文章介紹兩隻人工智能（AI）股票，認為其價格具有吸引力 \n• 股票的具體名稱和價格未在文章中提及 \n• 文章分析了這些股票的潛在增長和市場表現 \n• 文章發表於AOL.com，具體日期未提供",
+    "summaries": {
+      "zh-HK": "• 文章介紹兩隻人工智能（AI）股票，認為其價格具有吸引力 \n• 股票的具體名稱和價格未在文章中提及 \n• 文章分析了這些股票的潛在增長和市場表現 \n• 文章發表於AOL.com，具體日期未提供"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lbXRidmxReTUwVlZCc2pWTEMzUmg0bUlKT1dlSlQtMGVaaXVUVy1PUlhfa1ZsZG5kcGp6cDd1N3NPTUhDX0trb1RVSWY4MGJxVVF0RzY4NHBkT0poTHUzemJRVDNSMkM1RUdBdDRzUzAySFhjV0E?oc=5",
@@ -31431,8 +31203,11 @@
     "topic": "Ai",
     "published": "2026-07-12T14:03:33+00:00",
     "crawled": "2026-07-12T17:04:47.232673+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 健身行業的商業智能層面正在受到關注，旨在提升業務運營效率  \n• 趨勢獵人報告指出，健身企業越來越依賴數據分析來制定策略  \n• 這些智能層面包括客戶行為分析、營銷效果評估及運營優化  \n• 報告強調，運用這些技術可幫助健身企業在競爭中保持優勢",
+    "summaries": {
+      "zh-HK": "• 健身行業的商業智能層面正在受到關注，旨在提升業務運營效率  \n• 趨勢獵人報告指出，健身企業越來越依賴數據分析來制定策略  \n• 這些智能層面包括客戶行為分析、營銷效果評估及運營優化  \n• 報告強調，運用這些技術可幫助健身企業在競爭中保持優勢"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcTlwenB4X1RSbE9lSGhDQXBQNzdmWngyOTB0ZXdIQzlOR3FyVjF5R0RhamJRMGJHQ3JoR0pGZTZ5d0YzVkZfTVlDNUNvVlUzdV9OaldZVDcydXgyRHE1M0ZTWDNEanNoQ3B4Vmxqa2NRNUVUSWtNUFk0R3NQTkxqc2tTNzc3a3o2TC1XdHVaWmRGZXRwbHBWanc5V0xMdXEyLVNBdTZn?oc=5",
@@ -31484,5 +31259,271 @@
     "summaries": {
       "zh-HK": "• 日本三井不動產計劃在倫敦市中心建設一個價值14億美元的租賃實驗室綜合體  \n• 該項目旨在滿足對生物科技和製藥研究設施的需求  \n• 預計將於2025年完成建設，並提供多個實驗室和辦公空間  \n• 此舉是三井不動產擴展其在海外市場業務的一部分"
     }
+  },
+  {
+    "url": "https://www.coindesk.com/policy/2026/07/12/signs-of-life-state-of-crypto",
+    "title": "Signs of life?: State of Crypto",
+    "summary": "",
+    "full_text": "Signs of life?: State of Crypto\nSeveral sources told CoinDesk that a new draft of the Clarity Act may drop this week, but challenges remain.\nRumors of the Digital Asset Market Clarity Act's demise have been greatly exaggerated. The crypto industry isn't out of the woods yet, however, for reasons we'll get into.\nYou’re reading State of Crypto, a CoinDesk newsletter looking at the intersection of cryptocurrency and government. Click here to sign up for future editions.\nNew draft incoming\nThe narrative\nMultiple individuals familiar with the Clarity Act discussions told CoinDesk last Thursday that lawmakers intend to unveil an updated version of the crypto market structure bill this week. The new text combines the bills previously passed out of committee by the Senate Banking and Agriculture panels, and is the result of those respective bodies negotiating over various provisions.\nWhy it matters\nAs this newsletter and CoinDesk's Jesse Hamilton have both pointed out repeatedly, time is running short for the Clarity Act to wind its way through Congress and to the president's desk for a signature in 2026. A new draft being released could indicate progress, but if the key areas of disagreement haven't been resolved, it won't be as much progress as the industry hopes for.\nBreaking it down\nLast week, CoinDesk reported that individuals familiar with the Clarity Act negotiations expect a new draft of the bill to circulate this week. The updated bill text will combine the different versions from the Banking and Agriculture Committees and include some 70 additional pages, sources told CoinDesk. What it will not include, as of press time, is an ethics provision or agreements on some of the remaining contentious issues in the Clarity Act, meaning it's not yet ready for a vote.\nThe rest of this newsletter is going to be conjecture and speculation. Senate Majority Leader John Thune told Punchbowl News last month he was willing to put the bill up for a floor vote in July. Rumors suggest the bill may go to the Senate floor during the week of July 20 or July 27.\nIf a vote is announced, there will likely be a full-court press to try and make sure it has at least 60 votes in the Senate, meaning at least seven Democrats will need to be willing to support the bill — more, if any Republicans vote against it or are unable to make it to the vote.\nExpect organizations like Stand With Crypto to say they'll score the vote, and the industry to make note of the hundreds of millions of dollars the crypto political action committees have on hand.\nBut the 2026 midterm election is coming up quite soon — Nov. 3, so less than four months from now — and lawmakers will have to face their own base and flanks after they break for the summer recess and go into the final campaign swing.\nThat means that U.S. President Donald Trump and the $1.4 billion he made off crypto will be a key factor in the floor vote. More specifically, if there isn't an ethics provision, it's unlikely that sufficient Democrats will vote for the bill in the Senate. If the text that drops next week doesn't even include a placeholder to address the ethics portion, that may even be counterproductive to getting full bipartisan support for the bill, an individual said.\nThat means that Trump will still need to sign off on an ethics agreement. Several of the sources CoinDesk spoke to last week said the White House had not been as engaged recently as it had earlier in the summer, but another individual told CoinDesk in early July that it may just be a matter of waiting to see whether all the other outstanding issues are resolved first.\nOne bright side for the bill's proponents: Assuming the President did not veto the housing bill sitting on his desk sometime between this newsletter's filing and 12:00 a.m. on Saturday, a provision banning the Federal Reserve from issuing a central bank digital currency for at least four years will have taken effect. There was concern from industry players that House lawmakers might push to include a CBDC ban in Clarity if the Senate advanced the bill, which would further strain the negotiation process and timeline. But that issue should be resolved for now through at least until 2030, with the inclusion in the housing bill.\nThis week\nTuesday\n- 14:00 UTC (10:00 a.m. ET) Fed Chair Kevin Warsh will testify before the House Financial Services Committee.\nWednesday\n- 13:30 UTC (9:30 a.m. ET) The Senate Select Committee on Intelligence will hold Jay Clayton's nomination hearing for Director of National Intelligence.\n- 14:00 UTC (10:00 a.m. ET) Fed Chair Kevin Warsh will testify before the Senate Banking Committee.\n- 14:00 UTC (10:00 a.m. ET) The House Financial Services Committee will hold a hearing on the Consumer Financial Protection Bureau.\nThursday\n- 14:00 UTC (10:00 a.m. ET) The Senate Banking Committee will hold a hearing on the Consumer Financial Protection Bureau.\nFriday\n- The House Financial Services Committee's digital assets subcommittee will hold a hearing in New York on the Clarity Act.\nIf you’ve got thoughts or questions on what I should discuss next week or any other feedback you’d like to share, feel free to email me at nik@coindesk.com or find me on Bluesky @nikhileshde.bsky.social.\nYou can also join the group conversation on Telegram.\nSee ya’ll next week!\n- 1\n- 2\n- 3\n- 4\n- 5\n- 6\n- 7\n- 8\n- 9\n- 10\nDigital assets posted a third consecutive quarter of losses in Q2 2026, the longest losing streak since the 2022 bear market, as institutional capital rotated into AI equities and Bitcoin ETFs recorded their largest quarterly outflow since launch. Our report examines what drove the divergence, where structural adoption continued regardless, and what Q3 signals to watch.\nDigital assets posted a third consecutive quarter of losses in Q2 2026, the longest losing streak since the 2022 bear market, as institutional capital rotated into AI equities and Bitcoin ETFs recorded their largest quarterly outflow since launch. Our report examines what drove the divergence, where structural adoption continued regardless, and what Q3 signals to watch.\nWhy it matters:\nDigital assets posted a third consecutive quarter of losses in Q2 2026, the longest losing streak since the 2022 bear market, as institutional capital rotated into AI equities and Bitcoin ETFs recorded their largest quarterly outflow since launch. Our report examines what drove the divergence, where structural adoption continued regardless, and what Q3 signals to watch.",
+    "source": "CoinDesk",
+    "category": "crypto",
+    "lang": "en",
+    "topic": "Crypto",
+    "published": "2026-07-12T18:30:00+00:00",
+    "crawled": "2026-07-12T19:11:31.184187+00:00",
+    "summarized": true,
+    "ai_summary": "• 多個消息來源透露，新的《數字資產市場明確法案》草案可能在本周公布，旨在改進加密貨幣市場結構。  \n• 更新的草案將結合參議院銀行和農業委員會之前通過的法案版本，並增加約70頁內容。  \n• 目前草案尚未包含倫理條款或解決一些有爭議的問題，因此尚未準備好進行投票。  \n• 預計如果進行投票，將需要至少60票支持，並且特朗普在加密貨幣上的影響力將成為關鍵因素。",
+    "summaries": {
+      "zh-HK": "• 多個消息來源透露，新的《數字資產市場明確法案》草案可能在本周公布，旨在改進加密貨幣市場結構。  \n• 更新的草案將結合參議院銀行和農業委員會之前通過的法案版本，並增加約70頁內容。  \n• 目前草案尚未包含倫理條款或解決一些有爭議的問題，因此尚未準備好進行投票。  \n• 預計如果進行投票，將需要至少60票支持，並且特朗普在加密貨幣上的影響力將成為關鍵因素。"
+    }
+  },
+  {
+    "url": "https://cointelegraph.com/news/strategys-saylor-needs-clarity-in-btc-pivot-message-to-convince-investors-stanchart?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "title": "Strategy's Saylor needs clarity in BTC pivot message to convince investors: StanChart",
+    "summary": "<p style=\"float: right; margin: 0 0 10px 15px; width: 240px;\"><img alt=\"Strategy's Saylor needs clarity in BTC pivot message to convince investors: StanChart\" class=\"type:primaryImage\" src=\"https://s3-images.ctmedia.io/media/article-covers/michael-saylors-big-bet-institutional-investments-role-in-bitcoins-price.png\" /></p><p>Standard Chartered sees communication challenges facing the biggest digital asset treasury company as \"muddying the waters\" for Bitcoin in the near term.</p>",
+    "full_text": "Strategy's Saylor needs clarity in BTC pivot message to convince investors: StanChart\nStandard Chartered sees communication challenges facing the biggest digital asset treasury company as \"muddying the waters\" for Bitcoin in the near term.\nStrategy founder and chairman Michael Saylor again took to social media on Sunday to offer his latest signal to investors as one analyst sees Saylor’s messaging as needing more clarity to help Bitcoin regain its momentum.\n“Orange dots tell only part of the story,” was Saylor’s message on Sunday in a post that accompanied a chart from Saylortracker.com, similar to previous social media messages that have preceded news of Strategy's Bitcoin (BTC) purchases, typically announced the day after his posts.\nIn recent weeks, the largest digital asset treasury company and a major BTC holder, has moved away from its long-time “never sell Bitcoin” approach to a willingness to sell the biggest crypto as needed to fund dividends for holders of its STRC preferred stock and to replenish its cash reserves. Earlier this month, Strategy sold $216 million worth of Bitcoin, reducing its total holdings to 843,775 tokens, according to a July 6 filing with the US Securities and Exchange Commission.\n“Orange dots tell only part of the story.” Source: Michael Saylor\nDays earlier, Strategy unveiled a capital framework allowing Bitcoin sales to fund dividends, increased the annual dividend rate on its STRC preferred stock to 12%, and disclosed that its US dollar reserve had grown to $2.55 billion.\nStandard Charter’s global head of digital assets research, Geoff Kendrick, believes recent Strategy’s actions — and Saylor's manner of communicating them — “are muddying the waters for BTC near-term.”\n“We think effective communication of MSTR’s new strategy (using BTC to back STRC) is key to reassuring markets that wholesale selling is unlikely; this should in turn support BTC prices,” Kendrick wrote in a note to clients on Friday. “Indeed, if this signalling proves effective, it should remove the need for MSTR to actually sell any BTC by supporting STRC’s price,” he said.\nRelated: Crypto Biz: Did Michael Saylor buy the Bitcoin bottom for once?\nStanChart sees inconsistencies in “never sell” approach\nKendrick said that Strategy’s long-held “never sell” approach limited what the company could with its industry-biggest digital asset treasury.\n“The problem with the ‘never sell’ approach is that it limits what MSTR’s BTC holdings can do — or, perhaps more importantly, what they are perceived to be doing,” the StanChart analyst said. “MSTR has started to shift its communication strategy on this in recent months. It has sold BTC twice and recently announced a BTC monetization program.”\nSource: Standard Chartered Bank\nStill, he sees Strategy’s “market signaling” will improve soon. He expects that to bring clarity to the outlook for Bitcoin, on which StanChart maintains its $100,000 year-end forecast.\nShares struggle from year low ahead of earnings report\nInvestors who bought into the Strategy narrative have not had an easy time in the past 12 months. The STRC preferred shares were formulated to hold a price of $100 apiece. Shareholders saw that par value fall to the wayside last month, to the lowest value since the preferred stock was introduced a year ago.\nThe common shares, trading under the MSTR ticker, have lost more than 70% of their value since July 2025, closing at $94.64 per share on Friday, down from a 52-week high of $457.22.\nThe company is slated to report second-quarter earnings on July 30, with analysts consensus of $4.28 per share, according to Yahoo Finance data. Earnings have fallen short of analyst forecasts in six of the last eight quarters, according to Fintel.io data, including a 33.76% negative surprise in the first quarter of 2026.\nMagazine: Will the crypto lobby's $189M campaign get CLARITY over the line?\nSubscribe to daily byte-sized crypto news from Cointelegraph\nMore on the subject",
+    "source": "CoinTelegraph",
+    "category": "crypto",
+    "lang": "en",
+    "topic": "Bitcoin",
+    "published": "2026-07-12T18:16:45+00:00",
+    "crawled": "2026-07-12T19:11:31.826467+00:00",
+    "summarized": true,
+    "ai_summary": "• Standard Chartered表示，Strategy的創始人兼主席邁克爾·薩伊勒在傳達比特幣（BTC）策略方面存在溝通挑戰，影響市場信心。  \n• 薩伊勒在社交媒體上發佈的最新信息提到“橙色點僅講述了部分故事”，並附上了與Strategy比特幣購買相關的圖表。  \n• Strategy最近改變了其“永不出售比特幣”的策略，開始出售比特幣以資助其STRC優先股的股息，並在本月早些時候出售了價值2.16億美元的比特幣。  \n• Standard Chartered分析師認為，Strategy的溝通方式和行動可能會在短期內影響比特幣的價格，並強調有效的市場信號對於穩定比特幣價格至關重要。",
+    "summaries": {
+      "zh-HK": "• Standard Chartered表示，Strategy的創始人兼主席邁克爾·薩伊勒在傳達比特幣（BTC）策略方面存在溝通挑戰，影響市場信心。  \n• 薩伊勒在社交媒體上發佈的最新信息提到“橙色點僅講述了部分故事”，並附上了與Strategy比特幣購買相關的圖表。  \n• Strategy最近改變了其“永不出售比特幣”的策略，開始出售比特幣以資助其STRC優先股的股息，並在本月早些時候出售了價值2.16億美元的比特幣。  \n• Standard Chartered分析師認為，Strategy的溝通方式和行動可能會在短期內影響比特幣的價格，並強調有效的市場信號對於穩定比特幣價格至關重要。"
+    }
+  },
+  {
+    "url": "https://www.theblock.co/post/407965/michael-saylor-posts-cryptic-strategy-chart-after-216-million-bitcoin-sale-orange-dots-tell-only-part-of-the-story?utm_source=rss&utm_medium=rss",
+    "title": "Michael Saylor posts cryptic Strategy chart after $216 million bitcoin sale: ‘Orange dots tell only part of the story’",
+    "summary": "<p>Strategy holds 843,775 BTC at an average cost of $75,476, leaving the position roughly $9.7 billion underwater with bitcoin trading near $64,000.</p>",
+    "full_text": "Michael Saylor posts cryptic Strategy chart after $216 million bitcoin sale: 'Orange dots tell only part of the story'\nQuick Take\n- Strategy Executive Chairman Michael Saylor posted the company’s bitcoin acquisition tracker Sunday with the unusually ambiguous caption, “Orange dots tell only part of the story.”\n- The post follows Strategy’s sale of 3,588 BTC for $216 million and leaves open whether its next disclosure will involve a purchase, further sales or another capital-management move.\n- Strategy holds 843,775 BTC at an average cost of $75,476, leaving the position roughly $9.7 billion underwater with bitcoin trading near $64,000.\nWe'd love your feedback.\nStrategy co-founder and Executive Chairman Michael Saylor posted the company’s bitcoin acquisition tracker to X on Sunday morning with the caption, \"Orange dots tell only part of the story,\" offering a less straightforward signal than his customary hints at another purchase.\nSaylor’s Sunday tracker posts have frequently preceded Monday filings disclosing bitcoin acquisitions. Recent captions such as \"A good time to add more dots\" and \"Looks better with more dots\" preceded purchase disclosures, but the pattern has become less reliable: a June 28 post reading \"We're gonna need more charts\" was followed by a new capital framework rather than a buy, and the July 5 post preceded the largest sale in company history.\nThe post comes less than a week after Strategy disclosed the sale of 3,588 BTC for approximately $216 million, by far the largest bitcoin disposal in the company’s history. It sold 1,363 BTC for $80.8 million during the final two days of June and another 2,225 BTC for $135.2 million between July 1 and July 5.\nThe company said the proceeds were used to fund preferred-stock distributions and replenish the portion of its dollar reserve used for those payments. Strategy ended the period with 843,775 BTC acquired for an aggregate $63.69 billion, or an average of $75,476 per coin.\nWith bitcoin (BTC) trading near $64,000 on Sunday, per The Block's Bitcoin Price page, those holdings are worth approximately $54 billion, leaving Strategy with roughly $9.7 billion in unrealized losses, or about 15% of its cost basis. The company remains the largest corporate bitcoin holder, controlling just over 4% of the asset’s fixed 21 million supply.\nThe orange dots also no longer capture the full range of actions available to the company. Strategy adopted a broader capital framework in late June that permits bitcoin sales to support its dollar reserve, preferred dividends, debt interest and securities repurchases. It also authorized separate $1 billion repurchase programs for its preferred securities and Class A common shares.\nStrategy’s dollar reserve stood at $2.55 billion as of July 5, while the full $1.25 billion of reserve-building capacity under its new BTC Monetization Program remained unused. The company also did not sell any shares through its at-the-market programs or purchase any shares under its repurchase programs during the week ending July 5.\nAs The Block previously reported, Strategy’s recent sales did not reduce the stated $1.25 billion capacity, suggesting the firm may have more latitude to sell bitcoin than the headline figure alone indicates.\nSaylor has used an ambiguous tracker caption before a broader announcement. In November, he asked, \"What if we start adding green dots?\" The following day, Strategy disclosed a comparatively small 130 BTC purchase alongside the creation of a $1.44 billion dollar reserve funded through common-stock sales.\nThe latest post could similarly precede more than a routine acquisition disclosure. However, Saylor did not elaborate, and Strategy has not confirmed any purchase, sale or other transaction for the week ending Sunday.\nDisclaimer: The Block is an independent media outlet that delivers news, research, and data. As of November 2023, Foresight Ventures is a majority investor of The Block. Foresight Ventures invests in other companies in the crypto space. Crypto exchange Bitget is an anchor LP for Foresight Ventures. The Block continues to operate independently to deliver objective, impactful, and timely information about the crypto industry. Here are our current financial disclosures.\n© 2026 The Block. All Rights Reserved. This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice.",
+    "source": "The Block",
+    "category": "crypto",
+    "lang": "en",
+    "topic": "Bitcoin",
+    "published": "2026-07-12T18:43:15+00:00",
+    "crawled": "2026-07-12T19:11:32.501172+00:00",
+    "summarized": true,
+    "ai_summary": "• Strategy執行主席邁克爾·塞勒於周日發布公司比特幣收購追蹤器，並附上模糊的標題「橙點僅告訴部分故事」  \n• 此次發布緊隨Strategy出售3,588枚比特幣，獲得約2.16億美元，創下公司歷史上最大的比特幣出售紀錄  \n• Strategy目前持有843,775枚比特幣，總成本為636.9億美元，按當前比特幣價格計算，虧損約97億美元  \n• 公司已採用更廣泛的資本框架，允許比特幣出售以支持其美元儲備及其他財務需求",
+    "summaries": {
+      "zh-HK": "• Strategy執行主席邁克爾·塞勒於周日發布公司比特幣收購追蹤器，並附上模糊的標題「橙點僅告訴部分故事」  \n• 此次發布緊隨Strategy出售3,588枚比特幣，獲得約2.16億美元，創下公司歷史上最大的比特幣出售紀錄  \n• Strategy目前持有843,775枚比特幣，總成本為636.9億美元，按當前比特幣價格計算，虧損約97億美元  \n• 公司已採用更廣泛的資本框架，允許比特幣出售以支持其美元儲備及其他財務需求"
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-12/traders-grapple-with-world-that-s-good-for-dollar-bad-for-bonds",
+    "title": "Traders Grapple With World That’s Good for Dollar, Bad for Bonds",
+    "summary": "What’s good for the US dollar isn’t always good for US bonds &mdash; but investors are finding ways to work around it.",
+    "full_text": "",
+    "source": "Bloomberg Crypto",
+    "category": "finance",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-12T19:00:00+00:00",
+    "crawled": "2026-07-12T19:11:35.155361+00:00",
+    "summarized": true,
+    "ai_summary": "• 投資者面臨美國美元強勁但美國債券表現不佳的市場環境  \n• 專家指出美元走強可能會影響債券收益率  \n• 許多交易者正在尋找策略以適應當前的市場狀況  \n• 分析顯示，美元的強勢與債券市場的表現之間存在矛盾關係",
+    "summaries": {
+      "zh-HK": "• 投資者面臨美國美元強勁但美國債券表現不佳的市場環境  \n• 專家指出美元走強可能會影響債券收益率  \n• 許多交易者正在尋找策略以適應當前的市場狀況  \n• 分析顯示，美元的強勢與債券市場的表現之間存在矛盾關係"
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-12/zelenskyy-cabinet-shakeup-puts-kyiv-s-winter-resilience-in-focus",
+    "title": "Zelenskyy Cabinet Shakeup Puts Kyiv’s Winter Resilience in Focus",
+    "summary": "Volodymyr Zelenskyy’s surprise move to overhaul his government and potentially install an energy executive as prime minister is the latest sign of the Ukrainian president’s determination to spare his war-weary nation a repeat of last winter’s hardships.",
+    "full_text": "",
+    "source": "Bloomberg",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Finance",
+    "published": "2026-07-12T18:56:14+00:00",
+    "crawled": "2026-07-12T19:11:40.495852+00:00",
+    "summarized": true,
+    "ai_summary": "• 烏克蘭總統澤倫斯基進行政府改組，計劃任命一位能源高管為總理  \n• 此舉旨在提升基輔在冬季的韌性，避免重蹈去年冬季的困境  \n• 澤倫斯基的決定反映出他對於改善國家能源狀況的堅定決心  \n• 改組的具體細節及新總理人選尚未公佈",
+    "summaries": {
+      "zh-HK": "• 烏克蘭總統澤倫斯基進行政府改組，計劃任命一位能源高管為總理  \n• 此舉旨在提升基輔在冬季的韌性，避免重蹈去年冬季的困境  \n• 澤倫斯基的決定反映出他對於改善國家能源狀況的堅定決心  \n• 改組的具體細節及新總理人選尚未公佈"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cq81l5gj54zo?at_medium=RSS&at_campaign=rss",
+    "title": "Two men die trying to save children in sea",
+    "summary": "Cleveland Police says the children are confirmed to be safe.",
+    "full_text": "Two men die trying to save children in sea\n- Published\nTwo men who tried to save two children in the sea have died, police said.\nCleveland Police said it was called to Seaton Carew beach in Hartlepool at 15:45 BST following reports of two children getting into difficulty in the water.\nThe force said the men had gone into the water to try to help the children. The RNLI pulled the men from the water and they were both pronounced dead a short time later.\nThe children were taken to hospital and are confirmed to be safe, the force said.\nSupt Glen Wand said: \"Our deepest sympathies go out to the families of both the men involved in this tragic incident today.\"\nThe force said the deaths were not being treated as suspicious and a file would be prepared for the coroner.\nFollow BBC Tees on X,, external Facebook, external, Nextdoor and Instagram, external.\nGet in touch\nDo you have a story suggestion for BBC Tyne?",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-12T18:56:49+00:00",
+    "crawled": "2026-07-12T19:11:47.281430+00:00",
+    "summarized": true,
+    "ai_summary": "• 兩名男子在英國哈特爾浦的Seaton Carew海灘試圖救助兩名遇險兒童時溺水身亡，警方表示。  \n• 警方於當地時間15:45接獲報告，隨即派遣人員前往現場。  \n• 英國皇家國救隊將兩名男子從水中救起，但不久後被宣告死亡，兒童已被送往醫院，確認安全。  \n• 警方表示此事件不被視為可疑，將為法醫準備相關檔案。",
+    "summaries": {
+      "zh-HK": "• 兩名男子在英國哈特爾浦的Seaton Carew海灘試圖救助兩名遇險兒童時溺水身亡，警方表示。  \n• 警方於當地時間15:45接獲報告，隨即派遣人員前往現場。  \n• 英國皇家國救隊將兩名男子從水中救起，但不久後被宣告死亡，兒童已被送往醫院，確認安全。  \n• 警方表示此事件不被視為可疑，將為法醫準備相關檔案。"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cy8w67l642no?at_medium=RSS&at_campaign=rss",
+    "title": "Major incident declared in Wales as firefighters tackle wildfires across UK",
+    "summary": "Residents near the Conwy fire have been evacuated, with at least 10 other fires across the UK this weekend.",
+    "full_text": "Major incident declared in Wales as firefighters tackle wildfires across UK\n- Published\nA large-scale wildfire in north Wales has been declared a major incident by emergency services, as firefighters tackle fires across England and Wales during the record-breaking heatwave.\nResidents near Conwy Mountain and the Sychnant Pass have been evacuated, while members of the public were warned to avoid the area.\nIn Greater Manchester, fire crews are working to contain a moorland fire near a reservoir, while in Camberley, Hampshire, crews are extinguishing a large heathland fire.\nWildfires burned in County Durham, Derbyshire, East Sussex, West Sussex, Devon and Somerset over the weekend, during a warning that parts of the country were facing an \"exceptional\" risk for fires.\nNorth Wales Fire and Rescue Service said in an update on Sunday afternoon that it was working in \"challenging conditions\" in order to contain the Conwy Mountain fire, with operations \"expected to continue for some time\".\nResidents in the village of Capelulo, near the mountain, were advised by the town council to \"leave safely and follow the instructions of the emergency services on scene\".\nThose in nearby communities have been advised to keep windows and doors closed and seek medical advice if they experience breathing difficulties.\nThe service later said it was also responding to a number of grass fire incidents, including in Braichmelyn Forest in Bethesda.\nNatural England, external said southern England and pockets of the south Midlands were at the highest wildfire risk over the next few days, while many other areas in England and Wales were at \"very high\" risk.\nParts of the UK are set to enter a second week of temperatures above the heatwave threshold, with amber and yellow heat health alerts issued for between Sunday night and Wednesday night.\nGreater Manchester Fire and Rescue Service said on X on Sunday afternoon that firefighters were at a moorland fire near Dovestone Reservoir.\n\"Due to high winds, smoke from the fire may travel significant distances,\" it said, warning residents in surrounding areas to keep windows and doors closed and others to avoid the area.\nCrews are expected to remain at the scene of a large heathland fire in Blackwater, Camberley on Sunday evening, as they continue to monitor for remaining hotspots after working overnight to bring the fire under control.\nThe wildfire broke out on Saturday afternoon and spread across about 10 hectares (25 acres) of heathland near the Surrey border.\nOver in County Durham, a wildfire as large as 14 football pitches hit fields near Durham University.\nCounty Durham and Darlington Fire and Rescue Service said it had received calls at about 14:15 BST, and the fire was put out in about an hour.\nWest Sussex Fire & Rescue Service said several vehicles had been sent to a fire in a field in Nutbourne, Chichester on Sunday afternoon.\nIt follows firefighters battling several wildfires across the country on Friday and Saturday, including in Derbyshire.\nOn Saturday morning, Derbyshire Fire and Rescue Service said crews had returned to wildfires near Arnfield Farm and at Tintwistle Moor - with a helicopter also carrying out water drops on hotspots.\nThe blaze first started on 24 June - during the last heatwave - and has affected about 260 hectares (642 acres) of moorland and woodland.\nFirefighters covering Devon and Somerset also battled at least four grassland fires on Saturday.\nCrews from East Sussex and West Sussex also tackled two fires in the South Downs National Park - one at Devil's Dyke and one near Eastbourne - overnight on Friday.\nMany parts of England and Wales are facing an increased wildfire risk after three record-breaking heatwaves and a prolonged lack of rainfall.\nOver the next few days, the continued hot and dry weather, coupled with strengthening winds and lower humidity, is expected to accelerate the drying of vegetation, increasing the risk for fires.\nStronger winds would also allow any fires that do break out to spread more rapidly and become harder to contain.\nThe risk is expected to ease slightly towards the middle of next week as winds become lighter and the chance of showers increases.\nMeanwhile, safety warnings have been issued by campaigners after multiple deaths of people who had been swimming in open water over recent days.\nOn Friday, the body of an 18-year-old man was pulled from Dovestone Reservoir. Two men died on Sunday afternoon after attempting to assist two children who had got into difficulty in the sea at Seaton Carew Beach off Hartlepool coast.\nHot weather warnings are also in place, with amber and yellow heat health alerts from the UK Health Security Agency (UKHSA) issued from 09:00 BST on Sunday to 21:00 on Wednesday.\nThat means significant impacts are likely across health and social care services due to the high temperatures, including a rise in deaths, particularly among those with health conditions or aged 65 and older.\nClimate change is driving up temperatures around the world, causing increased summer heatwaves and more intense wildfires.\nRelated topics\n- Published5 hours ago\n \n- Published13 hours ago\n \n- Published2 days ago",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-12T19:03:11+00:00",
+    "crawled": "2026-07-12T19:11:47.311726+00:00",
+    "summarized": true,
+    "ai_summary": "• 威爾士北部的Conwy山野火被緊急服務部門宣佈為重大事件，消防員正在應對英國各地的野火，因為當地正經歷創紀錄的熱浪。  \n• 當局已經疏散了Conwy山和Sychnant Pass附近的居民，並警告公眾避免進入該地區。  \n• 在大曼徹斯特，消防隊正在控制一個水庫附近的泥炭地火災，而漢普郡的Camberley則有消防隊在撲滅一個大型的荒地火災。  \n• 英國氣象局發出橙色和黃色的熱健康警報，預計部分地區將進入第二周的高溫天氣，並警告南英格蘭及南米德蘭地區面臨極高的野火風險。",
+    "summaries": {
+      "zh-HK": "• 威爾士北部的Conwy山野火被緊急服務部門宣佈為重大事件，消防員正在應對英國各地的野火，因為當地正經歷創紀錄的熱浪。  \n• 當局已經疏散了Conwy山和Sychnant Pass附近的居民，並警告公眾避免進入該地區。  \n• 在大曼徹斯特，消防隊正在控制一個水庫附近的泥炭地火災，而漢普郡的Camberley則有消防隊在撲滅一個大型的荒地火災。  \n• 英國氣象局發出橙色和黃色的熱健康警報，預計部分地區將進入第二周的高溫天氣，並警告南英格蘭及南米德蘭地區面臨極高的野火風險。"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cn9403518jro?at_medium=RSS&at_campaign=rss",
+    "title": "David Willey, esteemed BBC Vatican correspondent, dies aged 93",
+    "summary": "One of the BBC's longest-serving foreign correspondents, he reported on five popes during his career.",
+    "full_text": "David Willey, esteemed BBC Vatican correspondent, dies aged 93\n- Published\nDavid Willey, who served as a BBC foreign correspondent for more than half a century, has died aged 93.\nHe reported from Algeria, Vietnam and China, but is best known for his time in Rome as the BBC's Vatican correspondent, where he covered the papacies of five popes.\nWidely regarded as one of the most experienced journalistic voices on the Vatican, Willey wrote a book on Pope Francis and was awarded an OBE for services to broadcast journalism.\nHe was still working well into his nineties - last year, after the death of Pope Francis, Willey reflected on how the Vatican had changed under the late pontiff.\n\"He was an incredible authority on the Vatican, reporting and travelling with five Popes, and was so kind, giving me insight and encouragement when I started in Rome in 2019,\" wrote Mark Lowen, BBC correspondent and presenter.\nNews producer Gillian Hazell, who worked closely with Willey in Rome, said he was \"an esteemed friend and colleague with a mischievous sense of humour and endless fascinating stories from his assignments around the world.\"\nWilley started his career as a trainee for the Reuters news agency and covered the signing of the Treaty of Rome in 1957. The document, which established the European Economic Community, formed the basis for what is now the European Union.\n\"I was actually there in the huge room frescoed with scenes from ancient Roman battles, when the six frock-coated founders of the Europe of the Six appended their signatures to the Treaty,\" he wrote on the 50th anniversary in 2007.\n\"Crowded into the room were members of parliament, city authorities and, I seem to remember, a single red-hatted cardinal from the Vatican.\"\nWilley then worked as a freelancer in Algeria, before becoming the BBC's east Africa correspondent in 1964.\nHe then reported from Asia, including on the Vietnam War, and China after the communist revolution.\nBut David Willey will be best remembered for his decades of work in Rome.\nHe became an authority on the papacies of five popes - One of his most notable assignments was the assassination attempt on John Paul II in 1981.\nLast year, Willey met his fifth pope - the newly elected Pope Leo.\nHis article last year, reflecting on the modern changes within the Vatican, also saw Willey reflect on his own life within it: \"I have suddenly realised with something of shock that I am already not only four years older than the late Pope Francis, but that my own life now extends through no fewer than eight successive papal reigns,\" he wrote.\nWilley wrote a book on the late pontiff - The promise of Francis: The man, the Pope, and the challenge of change - which he presented to Francis in 2016.\nWilley recalled first reporting on the Vatican for Reuters in the 1950s.\n\"We depended upon a corrupt Vatican official to get the text of an important papal speech ahead of delivery,\" he wrote.\n\"It was my job to take the bus down to the cafe opposite the main workers' entrance to Vatican City at eight in the morning one Easter Sunday to surreptitiously pick up a document that he had smuggled out.\"\nDavid died of heart failure in Italy, the country he made his home.\nUntil the end, he remained incisive in his analysis, generous with his time, and an invaluable resource, for those reporters who came after him.\nRelated topics\n- Published22 April 2025",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-12T15:22:52+00:00",
+    "crawled": "2026-07-12T19:11:47.336336+00:00",
+    "summarized": true,
+    "ai_summary": "• BBC梵蒂岡記者大衛·威利（David Willey）於93歲去世，擁有超過五十年的外國記者經驗  \n• 威利曾在阿爾及利亞、越南和中國報導，但以在羅馬的梵蒂岡記者身份最為人知，報導了五位教宗的任期  \n• 他因對廣播新聞的貢獻獲得OBE榮譽，並撰寫了有關教宗方濟各的書籍  \n• 威利的職業生涯始於路透社，並於1957年報導《羅馬條約》的簽署，該條約奠定了歐洲經濟共同體的基礎",
+    "summaries": {
+      "zh-HK": "• BBC梵蒂岡記者大衛·威利（David Willey）於93歲去世，擁有超過五十年的外國記者經驗  \n• 威利曾在阿爾及利亞、越南和中國報導，但以在羅馬的梵蒂岡記者身份最為人知，報導了五位教宗的任期  \n• 他因對廣播新聞的貢獻獲得OBE榮譽，並撰寫了有關教宗方濟各的書籍  \n• 威利的職業生涯始於路透社，並於1957年報導《羅馬條約》的簽署，該條約奠定了歐洲經濟共同體的基礎"
+    }
+  },
+  {
+    "url": "https://www.aljazeera.com/news/2026/7/12/who-will-replace-trump-ally-lindsey-graham-in-the-us-senate?traffic_source=rss",
+    "title": "Who will replace Trump ally Lindsey Graham in the US Senate?",
+    "summary": "The US president suggests he is considering a potential candidate to fill the late senator&#039;s seat in South Carolina.",
+    "full_text": "Who will replace Trump ally Lindsey Graham in the US Senate?\nThe US president suggests he is considering a potential candidate to fill the late senator’s seat in South Carolina.\nThe disadvantage that the Republican majority in the United States Senate has suffered from the death of Lindsey Graham is likely to be short-lived.\nCurrently, Republicans hold 52 seats in the 100-member chamber, after losing Graham to a “brief and sudden illness” late on Saturday, according to his office.\nRecommended Stories\nlist of 3 items- list 1 of 3What made US Republican Senator Lindsey Graham a controversial figure\n- list 2 of 3Meet the Cubans stuck in Mexico under Donald Trump’s deportation campaign\n- list 3 of 3Iran war: US strategic success or diplomatic failure?\nBut South Carolina’s election laws give Republican Governor Henry McMaster the authority to immediately appoint a replacement to fill Graham’s seat.\n“In case of a vacancy in the office of United States Senator from death, resignation or otherwise, the Governor may fill the place by appointment,” the law says.\nGraham’s term was set to expire in January. He was running for re-election in the November midterm vote.\nA primary will be held next month to determine who will take his place as the Republican nominee. The first round of voting is set for August 11, and if no candidate wins a majority of the votes, a run-off would take place on August 25.\nMcMaster has released a brief statement mourning Graham, without mentioning plans to replace him. The law does not set a timeline for the appointment, but the governor is likely to fill the seat quickly to ensure that President Donald Trump’s agenda is not disrupted in the Senate.\nGraham was one of Trump’s closest allies on Capitol Hill.\nIn his statement, McMaster called the late senator the “fiercest of fighters for South Carolina and America and a loyal and steadfast friend”.\n“We grieve with Darline, his family and his devoted staff,” McMaster said, referring to Graham’s sister. “May God hold him gently in the palm of his hand. We shall not see his likes again.”\nIt is so far unclear who McMaster might select as Graham’s replacement. The governor might appoint a placeholder candidate who would fill the seat without seeking a full term in November’s midterms, to avoid influencing the election process.\nHe may also opt for someone who would run for the full term, which would give his pick the incumbent status that would boost their profile — and therefore, their chances at the ballot box.\nOther governors have faced similar dilemmas. In California, for instance, Democratic Governor Gavin Newsom pursued both paths in separate appointments in recent years.\nWhen Kamala Harris vacated her Senate seat to serve as US vice president in 2021, Newsom picked state legislator Alex Padilla to replace her. Padilla won a special election for the seat the following year.\nBut in 2023, when Senator Dianne Feinstein died, Newsom appointed political operative Laphonza Butler, who did not end up running in the 2024 election.\nIn Graham’s case, however, the White House might weigh in. Trump has suggested that he is considering backing a candidate to replace the senator.\n“I have somebody that I think would be great, but I don’t want to say it now because it’s just too soon with Lindsey,” the US president told NBC News.\n“I don’t want to even talk about anybody, but I do have somebody that I think is really good.”\nSouth Carolina, a southern state on the US’s Atlantic coast, has been a Republican stronghold for decades. Trump won the state by nearly 18 percentage points in 2024.\nBut polls have suggested that Graham was not cruising to re-election. His Democratic opponent, paediatrician Annie Andrews, was closing the gap on him.\nA June poll by Impact Research showed the late senator leading by only three percent.\nGraham had become a polorising figure even within the Republican base, due to his staunch devotion to Israel and support for the US-Israeli war on Iran.\nOn Sunday, Andrews praised Graham without mentioning elections or politics.\n“I hope that South Carolinians will join me in setting partisanship aside and offering gratitude to Senator Lindsey Graham for his service to the great state of South Carolina,” she said in a statement.",
+    "source": "Al Jazeera",
+    "category": "general",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-12T17:51:54+00:00",
+    "crawled": "2026-07-12T19:11:48.100553+00:00",
+    "summarized": true,
+    "ai_summary": "• 美國參議員林賽·格雷厄姆因「短暫而突發的疾病」於上周六去世，令共和黨在參議院的52席面臨空缺。  \n• 南卡羅來納州州長亨利·麥克馬斯特有權立即任命格雷厄姆的接替者，根據州法律，州長可因死亡或辭職填補參議員職位。  \n• 格雷厄姆的任期將於明年1月到期，他原本計劃參加11月的中期選舉。  \n• 下月將舉行初選決定共和黨提名人，首輪投票定於8月11日，若無候選人獲得多數票，將於8月25日進行決選。",
+    "summaries": {
+      "zh-HK": "• 美國參議員林賽·格雷厄姆因「短暫而突發的疾病」於上周六去世，令共和黨在參議院的52席面臨空缺。  \n• 南卡羅來納州州長亨利·麥克馬斯特有權立即任命格雷厄姆的接替者，根據州法律，州長可因死亡或辭職填補參議員職位。  \n• 格雷厄姆的任期將於明年1月到期，他原本計劃參加11月的中期選舉。  \n• 下月將舉行初選決定共和黨提名人，首輪投票定於8月11日，若無候選人獲得多數票，將於8月25日進行決選。"
+    }
+  },
+  {
+    "url": "https://www.aljazeera.com/news/2026/7/12/concern-for-renewed-war-in-iran-as-us-attacks-military-civilian-targets?traffic_source=rss",
+    "title": "Concern for renewed war in Iran as US attacks military, civilian targets",
+    "summary": "US military has significantly increased the scale of attacks on Iran in recent days as the Strait of Hormuz standoff boils over.",
+    "full_text": "Concern for renewed war in Iran as US attacks military, civilian targets\nThe US military has significantly increased attacks on Iran in recent days as Strait of Hormuz standoff boils over.\nUS CENTCOM completes third round of strikes on Iran\nTehran, Iran – Several days of military attacks by the United States across Iran have marked the most intense rounds of bombardment since the two sides reached a vague memorandum of understanding last month.\nUS fighter jets and warships have hit hundreds of military targets and a number of civilian ones in nearly a week of strikes, with Iranian authorities reporting attacks in at least 10 provinces, mainly in southern Iran near the strategically important Strait of Hormuz.\nIn Tehran, life for more than 10 million people has carried on mostly as usual since the capital has not been recently attacked. But the economy is in the doldrums and the outlook is increasingly uncertain, more than four months after the US and Israel began their aerial campaign.\n“Everything is too chaotic right now to guess what will happen next but it doesn’t look good,” Farshad, a 21-year-old resident of eastern Tehran, said on Sunday.\n“I just really hope all-out war doesn’t start again because I don’t have the nerve for daily bombing on top of everything else,” he told Al Jazeera.\nThe Islamic Revolutionary Guard Corps (IRGC) said overnight into Sunday that the Strait of Hormuz was once again considered closed due to US military intervention. Two vessels opting to transit using the Western-backed southern route near Oman, rather than Iran’s designated path to the north of the strait, had been struck, the IRGC added.\nIran said it had also attacked US interests across the region, including in Bahrain, Kuwait, Jordan, Qatar and Oman, in response to US strikes, as prospects for negotiations to replace military escalation remained slim.\nAnother Tehran citizen, Nastaran, said the overnight escalation felt more serious than previous attacks.\n“I didn’t expect it would be this bad when I picked up my phone this morning to check the news,” she said. “I think there will be more attacks soon.”\nGrowing US aggression\nThe US military has been expanding its attacks over the past week.\nUS Central Command said more than 300 military targets were hit during three waves, including coastal surveillance, logistics, communications, as well as missile, drone and naval assets. It has not acknowledged striking civilian objectives.\nAs with other flare-ups over recent weeks, numerous attacks were launched on the province of Hormozgan, including the major port city of Bandar Abbas, as well as on Siri, Qeshm and Jask overlooking the strait. Port, fishing, coastal-control infrastructure and air defences were extensively bombed, reportedly killing a soldier and leaving multiple fishermen dead or wounded in separate strikes.\nUS projectiles have also targeted multiple areas in Bushehr province, with one attack impacting the perimeter of Iran’s only nuclear power plant without damaging it.\nProvincial authorities in the southwestern province of Khuzestan said three areas were hit, but not the capital, Ahvaz. Local authorities in the provinces of Kohgiluyeh, Boyer-Ahmad and Lorestan also reported projectile attacks.\nIn Sistan and Baluchestan to the southeast, attacks were reported in Chabahar, Konarak and Iranshahr, where a strike on airport facilities killed a firefighter. Video recorded by a local from Chabahar and shared online showed the destruction of the city’s renowned maritime control tower.\nOver the past week, the US military has launched some of its deepest strikes into Iranian territory since full-scale military operations were suspended by the “ceasefire” agreed in April.\nOne of them was in the northern province of Golestan, where the Aq Tekeh Khan railway bridge was struck on the Gorgan-Incheh Borun line.\nAuthorities said the bridge, which carries both passengers and cargo, was repaired and services resumed quickly. However, the attack showed that inland corridors could also become targets to increase pressure on Iran by limiting its trade, including imports of essential goods.\nThe transit route connects Iran to Turkmenistan and onwards to Kazakhstan, Russia, China as well as Eurasian rail networks. Crucially, during the US naval blockade of Iran’s southern ports, it provided an overland alternative to the Strait of Hormuz.\nLast week, when assassinated Supreme Leader Ayatollah Ali Khamenei was being buried in his hometown of Mashhad in northeastern Iran, authorities said the US struck a bridge about 55km (34 miles) from the city, disrupting passenger journeys to the funeral procession.\nIranian authorities say electricity infrastructure – which Trump has repeatedly threatened with more strikes – has also been significantly impacted since the start of the war, worsening the long-running energy crisis.\nThe attacks have reduced Iran’s capacity for electricity generation by about 4,200 megawatts, just as summer temperatures reached 40 degrees Celsius (104 Fahrenheit) this week, Mohammad Allahdad, head of Tavanir, the government-owned parent company for the operation of Iran’s power grid, said on Sunday.\nAfter the conclusion of the funeral ceremonies for Ali Khamenei, a statement from new Supreme Leader Mojtaba Khamenei, who has not been seen public since succeeding his father, emphasised the necessity for revenge.\nSimilar messages continue to be broadcast by state media and hardline religion-backed factions supporting the Islamic Republic, who on Sunday also cheered the death of US Republican Senator Lindsey Graham. State television hailed what it called the “dispatching to hell” of a pro-war hawkish politician.\nFor its part, Israel has effectively undermined the MoU signed between Iran and the US on June 17 by pushing deeper into southern Lebanon and signalling readiness to return to military strikes in Iran.\nSpeaking to an Israeli programme on Saturday night, Defence Minister Israel Katz, who has threatened to assassinate Mojtaba Khamenei, said “southern Lebanon would become Gaza” and that the Israeli army will “apply the Rafah model” of conquest there.",
+    "source": "Al Jazeera",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-12T17:50:27+00:00",
+    "crawled": "2026-07-12T19:11:48.149490+00:00",
+    "summarized": true,
+    "ai_summary": "• 美國軍方在過去幾天內加大對伊朗的攻擊，進行了三輪空襲，標誌著自上月雙方達成模糊諒解以來最激烈的轟炸行動。  \n• 攻擊主要集中在霍爾木茲海峽附近的南部地區，伊朗當局報告稱在至少10個省份發生了攻擊。  \n• 伊朗伊斯蘭革命衛隊表示，由於美國軍事干預，霍爾木茲海峽再次被視為封閉，並報告有兩艘船隻遭到攻擊。  \n• 美國中央司令部表示，在三次攻擊中超過300個軍事目標被擊中，包括沿海監視、後勤和通訊設施，但未承認攻擊平民目標。",
+    "summaries": {
+      "zh-HK": "• 美國軍方在過去幾天內加大對伊朗的攻擊，進行了三輪空襲，標誌著自上月雙方達成模糊諒解以來最激烈的轟炸行動。  \n• 攻擊主要集中在霍爾木茲海峽附近的南部地區，伊朗當局報告稱在至少10個省份發生了攻擊。  \n• 伊朗伊斯蘭革命衛隊表示，由於美國軍事干預，霍爾木茲海峽再次被視為封閉，並報告有兩艘船隻遭到攻擊。  \n• 美國中央司令部表示，在三次攻擊中超過300個軍事目標被擊中，包括沿海監視、後勤和通訊設施，但未承認攻擊平民目標。"
+    }
+  },
+  {
+    "url": "https://www.aljazeera.com/news/2026/7/12/funeral-prayers-held-for-qatars-father-emir-sheikh-hamad-in-doha?traffic_source=rss",
+    "title": "Funeral prayers held for Qatar’s Father Emir Sheikh Hamad in Doha",
+    "summary": "Sheikh Hamad bin ⁠Khalifa Al Thani, who ruled Qatar from 1995 to 2013, will be laid to rest at Lusail Cemetery in Doha.",
+    "full_text": "Qatar’s Father Emir Sheikh Hamad bin Khalifa Al Thani laid to rest in Doha\nSheikh Hamad bin Khalifa Al Thani, who ruled Qatar from 1995 to 2013, will be laid to rest at Lusail Cemetery in Doha.\nFather Emir Sheikh Hamad bin Khalifa Al Thani, the architect of Qatar’s remarkable transformation into an ultra-wealthy modern nation with global influence, has been laid to rest in Doha following his death at the age of 74.\nSheikh Hamad’s death was announced on Sunday morning, and his simple funeral ceremony was held after the daily evening prayer at sunset at the Imam Muhammad ibn Abd al-Wahhab Mosque in the capital.\nRecommended Stories\nlist of 3 items- list 1 of 3Sheikh Hamad bin Khalifa Al Thani, the architect of modern Qatar\n- list 2 of 3The architect of Qatari autonomy\n- list 3 of 3Photos: Qatari Father Emir Sheikh Hamad bin Khalifa Al Thani\nMourners wearing traditional Qatari dress stood with their hands clasped in front of them during a funeral prayer, facing the shrouded body of Sheikh Hamad.\nAfterwards, close family members, including his son and successor as emir, Sheikh Tamim bin Hamad Al Thani, carried his body out of the mosque. Sheikh Hamad was laid to rest at the Lusail Cemetery north of Doha.\nAl Jazeera’s Zein Basravi said the ceremony was “a humble event” and Sheikh Hamad was “buried in a simple grave”.\n“The simplicity really is in keeping with Islamic tradition but also emblematic of how the father emir carried himself in his life,” Basravi said. “He did not concern himself with the trappings of wealth but was focused on the welfare of his own people.”\nDuring Sheikh Hamad’s reign from 1995 to 2013, Qatar’s gross domestic product rose more than 24-fold, largely because of his focus on developing the country’s massive gas resources. By 2006, the small nation had become the world’s largest exporter of liquefied natural gas.\nGlobal influence\nQatar’s political influence today stretches across the world. It has played a mediating role in several conflicts, including the ongoing hostilities between the United States and Iran.\nIn 2022, Qatar hosted the men’s FIFA World Cup. Sheikh Hamad received rapturous applause from fans attending its opening match.\nHis time in power saw the launch of Al Jazeera News Channel in 1996 which within years transformed into one of the world’s most influential media networks.\n“He was the visionary behind the original idea and the one who laid the foundations of this great media institution,” said the director general of Al Jazeera Media Network, Sheikh Nasser bin Faisal Al Thani, in a statement expressing “profound grief and sorrow”.\n“He planted the first seed of an institution that would grow to become a beacon of truth and a voice for the marginalised across the world,” Sheikh Nasser said. “With unrivalled resolve, he transformed the region’s media landscape, guided by an unwavering belief that journalism is both a mission and a solemn trust, and that free media is a fundamental human right that must be safeguarded.”\n‘An extraordinary country’\nSheikh Hamad’s tenure also saw the promulgation of Qatar’s first permanent constitution in 2004 and the introduction of municipal elections, in which women were allowed to vote and stand as candidates.\nIn 2013, he handed over power to his son and heir apparent, Sheikh Tamim bin Hamad Al Thani, who was then 33, in a rare abdication by a hereditary Gulf Arab ruler.\nAbdulla Banndar el Etaibi, Assistant Professor in International Affairs at Qatar University, said Sheikh Hamad turned Qatar into “an extraordinary country”.\n“We’re talking about someone who left a legacy all over the world, not only on Qatar. He worked really hard to turn Qatar from a normal country into a prominent and extraordinary country,” he told Al Jazeera.\n“He had so many dreams of so many things. He invested a lot in LNG. This helped Qatar develop even more.”",
+    "source": "Al Jazeera",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-12T16:58:11+00:00",
+    "crawled": "2026-07-12T19:11:48.180975+00:00",
+    "summarized": true,
+    "ai_summary": "• 卡塔爾的父親埃米爾哈馬德·本·哈利法·阿勒薩尼於多哈去世，享年74歲，葬於盧賽爾公墓  \n• 哈馬德的葬禮於日落後在伊瑪目穆罕默德·伊本·阿卜杜勒·瓦哈卜清真寺舉行，儀式簡樸  \n• 他的兒子及繼任者塔米姆·本·哈馬德·阿勒薩尼及家人參加了葬禮，並將其遺體抬出清真寺  \n• 哈馬德在1995年至2013年間統治卡塔爾，推動國家經濟增長，並創立了阿爾賈齊拉新聞網，對全球媒體產生深遠影響",
+    "summaries": {
+      "zh-HK": "• 卡塔爾的父親埃米爾哈馬德·本·哈利法·阿勒薩尼於多哈去世，享年74歲，葬於盧賽爾公墓  \n• 哈馬德的葬禮於日落後在伊瑪目穆罕默德·伊本·阿卜杜勒·瓦哈卜清真寺舉行，儀式簡樸  \n• 他的兒子及繼任者塔米姆·本·哈馬德·阿勒薩尼及家人參加了葬禮，並將其遺體抬出清真寺  \n• 哈馬德在1995年至2013年間統治卡塔爾，推動國家經濟增長，並創立了阿爾賈齊拉新聞網，對全球媒體產生深遠影響"
+    }
+  },
+  {
+    "url": "https://www.npr.org/2026/07/12/g-s1-133229/toronto-shooting-salsa-festival",
+    "title": "Toronto police looking for suspects after deadly shooting at festival",
+    "summary": "At least two people are dead and at least four people are injured after a shooting on Saturday night at a festival celebrating Latin culture in Canada's biggest city.",
+    "full_text": "Toronto police looking for suspects after deadly shooting at festival\nAt least two people are dead and at least four people are injured after a shooting at a festival in Toronto on Saturday night.\nToronto Police Service Deputy Chief Frank Barredo said Saturday night that gunfire was exchanged between two people at Salsa on St. Clair festival, an annual two-day event celebrating Latin culture held in Canada's biggest city.\nTwo firearms were recovered and police are working through at least three crime scenes, Barredo told reporters on Saturday. At least 13,000 people were attending the festival when the shooting occurred and no arrests have been made.\n\"This seemed to be an exchange of gunfire between individuals targeting each other – obviously, indiscriminately putting vast numbers of people in great danger,\" Barredo said during a press conference Saturday night.\nOrganizers of the festival said in a statement they are \"shocked and deeply saddened\" by the shooting.\n\"Our thoughts and prayers are with the families of the two people who were killed, those who were injured, and everyone affected by this senseless violence,\" they said in a statement on their website. \"Due to the complex police investigation at the scene, we understand that the festival will not resume today, Sunday, July 12.\"\nCanadian Prime Minister Mark Carney on Saturday said he is \"horrified\" by the shooting.\n\"My prayers are with the families grieving their loved ones, those who are in critical condition, and everyone who has been affected by this horrific event,\" Carney wrote on social media. \"Police have my full support as they work to apprehend the perpetrators and bring them to justice.\"\nFatal shootings are rare for Canada's largest city, which has strict gun laws and historically less gun crime. The city has seen an increase in gun violence in recent years, which has been connected to gang activity. At least 33 shootings have occurred in Toronto this year, according to Toronto police data as of July 5.",
+    "source": "NPR",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-12T17:22:29+00:00",
+    "crawled": "2026-07-12T19:11:49.019191+00:00",
+    "summarized": true,
+    "ai_summary": "• 多倫多警方正在尋找嫌疑人，因為週六晚間在一個慶祝拉丁文化的節日上發生槍擊事件，造成至少兩人死亡和四人受傷。  \n• 警方副局長法蘭克·巴雷多表示，槍擊事件發生在Salsa on St. Clair節日上，當時有至少13,000人參加。  \n• 警方回收了兩支火槍，並正在調查至少三個犯罪現場，目前尚未有任何人被逮捕。  \n• 加拿大總理馬克·卡尼對此次槍擊事件表示震驚，並向遇難者家庭表示哀悼。",
+    "summaries": {
+      "zh-HK": "• 多倫多警方正在尋找嫌疑人，因為週六晚間在一個慶祝拉丁文化的節日上發生槍擊事件，造成至少兩人死亡和四人受傷。  \n• 警方副局長法蘭克·巴雷多表示，槍擊事件發生在Salsa on St. Clair節日上，當時有至少13,000人參加。  \n• 警方回收了兩支火槍，並正在調查至少三個犯罪現場，目前尚未有任何人被逮捕。  \n• 加拿大總理馬克·卡尼對此次槍擊事件表示震驚，並向遇難者家庭表示哀悼。"
+    }
+  },
+  {
+    "url": "https://www.nytimes.com/live/2026/07/12/us/iran-war-trump-hormuz",
+    "title": "Live Updates: Cease-Fire Unraveling as U.S. and Iran Trade Strikes Again",
+    "summary": "A fresh round of attacks by the U.S. on Sunday was the latest volley in a familiar pattern of back-and-forth strikes fueled by disputes over the Strait of Hormuz.",
+    "full_text": "",
+    "source": "New York Times",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-12T18:55:43+00:00",
+    "crawled": "2026-07-12T19:11:51.708980+00:00",
+    "summarized": true,
+    "ai_summary": "• 美國於星期日發動新一輪攻擊，這是因霍爾木茲海峽的爭端而引發的攻擊模式中的最新一擊  \n• 此次攻擊標誌著美國與伊朗之間的停火協議正在崩潰  \n• 美國與伊朗之間的攻擊行為已經形成了反覆的模式  \n• 相關衝突持續影響地區安全局勢及國際關係",
+    "summaries": {
+      "zh-HK": "• 美國於星期日發動新一輪攻擊，這是因霍爾木茲海峽的爭端而引發的攻擊模式中的最新一擊  \n• 此次攻擊標誌著美國與伊朗之間的停火協議正在崩潰  \n• 美國與伊朗之間的攻擊行為已經形成了反覆的模式  \n• 相關衝突持續影響地區安全局勢及國際關係"
+    }
+  },
+  {
+    "url": "https://www.nytimes.com/2026/07/12/world/middleeast/sheikh-hamad-bin-khalifa-qatar-dead.html",
+    "title": "Sheikh Hamad bin Khalifa, Ruler Who Transformed Qatar, Dies at 74",
+    "summary": "Under Sheikh Hamad, the tiny nation of Qatar developed immense natural gas wealth and cultivated influence far beyond its borders.",
+    "full_text": "",
+    "source": "New York Times",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-12T18:11:15+00:00",
+    "crawled": "2026-07-12T19:11:51.883681+00:00",
+    "summarized": true,
+    "ai_summary": "• 卡塔爾統治者哈馬德·本·哈利法於74歲去世  \n• 在哈馬德的領導下，卡塔爾發展了巨大的天然氣財富  \n• 哈馬德促進了卡塔爾在國際上的影響力  \n• 哈馬德於任內推動了國內外多項改革和發展計劃",
+    "summaries": {
+      "zh-HK": "• 卡塔爾統治者哈馬德·本·哈利法於74歲去世  \n• 在哈馬德的領導下，卡塔爾發展了巨大的天然氣財富  \n• 哈馬德促進了卡塔爾在國際上的影響力  \n• 哈馬德於任內推動了國內外多項改革和發展計劃"
+    }
+  },
+  {
+    "url": "https://time.com/article/2026/07/11/how-serious-are-iran-s-threats-against-trump-/",
+    "title": "How Serious Are Iran’s Threats Against Trump?",
+    "summary": "Iran’s Supreme Leader vowed vengeance Saturday after his father’s funeral, which was marked by chants calling for the death of U.S. President Donald Trump. Experts assess the credibility of the threat.",
+    "full_text": "Iran’s Supreme Leader\nto avenge the death of his father, Ayatollah Ali\n. The former Supreme Leader was killed in the United States-Israel airstrikes that marked the start of the war with Iran on Feb. 28. His funeral was marked by chants calling for the deaths of both U.S. President Donald Trump and Israeli Prime Minister Benjamin Netanyahu, and it unfolded amid\nbetween the United States and Iran.\nIn what is only his second public statement, the new Supreme Leader—who has not appeared in public since he was\nin the airstrikes that killed his father—said he would avenge “the blood of all those martyred … by bringing the criminal and dishonorable killers to justice.”\n“This revenge is the demand of our nation, and it will most certainly be carried out. These criminals — whose names are known from top to bottom — will take to their graves the unfulfilled wish of dying peacefully in their beds,” he wrote on July 11.\nWhile Khamenei did not mention Trump by name, Israeli intelligence informed Washington earlier that week that Iran was exploring assassination plots, according to the\n, saying that the U.S. would “decimate and destroy all areas of Iran” in response to any attempts on his life.\nHow the Iran War Worsens the Climate Crisis\n“1000 Missiles are Locked and Loaded and aimed at the Islamic Republic of Iran, with thousands of more to immediately follow, should the Iranian Government act on its threat, pronounced in many corners of the Globe, to assassinate, or attempt to assassinate, the sitting President of the United States of America, in this case, ME,” Trump said in his post.\nTrump has long said that he considers himself a target of the Iranian regime. At the\nin Ankara, Turkey, last week, Trump told reporters that he was “No. 1 on the kill list for Iran.”\n“I’ve been on their list for a long time. That’s what we’re dealing with,” he said in an interview with the\non July 10. “I’ve left instructions: If anything happens, to just literally bomb them at levels that they’ve never seen before.”\nThe remarks echoed his comments from early 2025, after the discovery of two Iran-linked plots against the President.\nThe first came to light in July 2024, when Pakistani national Asif Merchant was\n—for a plot to kill United States politicians, potentially including Trump. The government said that Merchant had worked with Iran’s Islamic Revolutionary Guard Corps to hire hitmen on American soil. Then, soon after Trump was elected for his second term in November 2024, the Justice Department\ncharges against Afghan national Farhad Shakeri, alleging that he was directed by\nIran's government to draw up a plan to assassinate Trump\nin the Oval Office in February 2025 that assassinating him “would be a terrible thing for them to do.”\n“If they did that, they would be obliterated. That would be the end,” he continued. “I’ve left instructions: If they do it, they get obliterated. There won’t be anything left.”\nWhy Tehran Keeps Calling for Revenge\nDespite Trump’s warnings about the repercussions of an attempt on his life, Iranian leadership continues to call for vengeance against the United States—a mission that Iranian President Masoud Pezeshkian\nas his “legitimate right and duty.”\nExperts say that the rhetoric is expected after a major attack on a country’s leadership. The former Supreme Leader is the latest example, but the U.S. was also responsible for the death of Iranian Quds Force Leader\nduring Trump’s first term in 2020.\n“As bad as the enmity between the two countries has been for the last 47 years, it was taken up to a new [level] after the assassination of Soleimani—and then even more importantly, the assassination of Khamenei,” Trita Parsi, Executive Vice President of the Quincy Institute for Responsible Statecraft, tells TIME. “I think that is what has opened the door for these kinds of threats and counter-threats.”\nParsi says that Khamenei’s renewed threats “throw a bone” to appease Iranian officials who argue internally that “it is the right of the nation to have its revenge.”\n“It’s important to understand how much of this is all wrapped up in Iranian internal politics and factional fighting,” he says, explaining that arguments are “primarily coming from a minority of ultra-hardliners who have opposed the diplomacy, who opposed the\n, who do not want to see any relinquishing of control of the\n, even if it is an arrangement that others in the Iranian system would find acceptable.”\nDavid Satterfield, Director of Rice University’s Baker Institute for Public Policy, agrees that the Islamic Republic is “rallying for national support” in its calls for vengeance.\nNotably, the Iranian government does not want to “deal with” another popular protest like it did in January, Satterfield tells TIME. The subsequent crackdown reportedly killed\ntens of thousands of Iranians\nAt the same time, he says that these calls for vengeance sustain Iranians’ faith in their nation’s “ability to project influence and power in the region” after its closure of the Strait of Hormuz\na worldwide energy crisis.\n“The calls for vengeance are both normative—a public Iranian internal direct call to generate support for the regime—[and] a further part of their strategic desire to be seen as a dominant force,” he says.\nU.S. and Iran Trade Strikes For Second Night In a Row After Trump Says Cease-Fire Is 'Over'\nHow Prior Threats Have Impacted Trump’s Security\nRegardless of whether Iran's threats are primarily meant to rally domestic support, recent attempts on Trump's life have prompted heightened security measures around the President.\nLast week, prosecutors indicted eight men on murder and terrorism conspiracy charges for their roles in a foiled sniper attack plan at the\nUFC Freedom 250 fight\nat the White House in June.\n, prosecutors allege that the suspects aimed to assassinate not only Trump, but also Vice President JD Vance, Israeli Prime Minister Benjamin Netanyahu, trillionaire businessman Elon Musk, and “other high value targets” at the event.\n“Thanks to the rapid action of this FBI, our partners, and the Department of Justice in a multi-state operation, multiple individuals are now in custody, and allegedly planned attacks were stopped cold,” FBI Director Kash Patel said in a social media\nThis was the most recent in several highly publicized attempts to kill the President, tracing back to the campaign trail, where a bullet struck Trump during a\nin Butler, Pennsylvania, in July 2024. In September 2024, a\nin the bushes with a rifle outside of Trump International Golf Club in\n, Florida. A gunman was apprehended after\nat the White House Correspondents Association dinner in April 2026.\nIn response, Trump’s team implemented more rigorous security measures, including\nwalls of bulletproof glass\nto stand between him and attendees at public speaking events and\nexpanded security detail\nreported that the Trump Administration is considering permanent fencing to surround Lafayette Square Park and along Pennsylvania Avenue, which would allow officials to quickly close the park in the event of a live threat.\nThe heightened security has unfolded alongside Trump's unusually public discussion of rising threats—something former Secret Service officials say does not alter how agents evaluate risk.\n“Having been with several presidents and vice presidents, everybody's personality is different,” Bobby McDonald, a retired supervisory Secret Service agent and an assistant professor of practice at the University of New Haven, tells TIME. “We've really never seen a president like Trump before.”\nBut he says that the job of the Secret Service doesn’t change, even with an unprecedented level of running commentary coming out of the White House.\n“He's out there with the rhetoric or whatever you want to call it—poking the bear in this war—and the rest of us who are the professionals in this area have to go out and manage that threat assessment and that threat detection and mitigation plan,” McDonald says.\nHe and other experts caution",
+    "source": "Time",
+    "category": "general",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-11T18:30:48+00:00",
+    "crawled": "2026-07-12T19:12:00.948846+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://www.marketwatch.com/story/my-retirement-savings-will-suffer-if-i-delay-social-security-how-do-i-choose-between-the-two-a85273e3?mod=mw_rss_topstories",
+    "title": "Is it better to spend my savings now so I can delay taking Social Security? How do I choose?",
+    "summary": "“By claiming earlier, I could preserve more of my portfolio and allow those assets to continue compounding.”",
+    "full_text": "",
+    "source": "MarketWatch",
+    "category": "finance",
+    "lang": "en",
+    "topic": "DeFi",
+    "published": "2026-07-11T16:44:00+00:00",
+    "crawled": "2026-07-12T19:12:02.880430+00:00",
+    "summarized": false,
+    "ai_summary": ""
   }
 ]
