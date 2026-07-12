@@ -65,6 +65,13 @@
       "type": "climate"
     },
     {
+      "date": "2024-07-12",
+      "title": "Gazpromavia Flight 9608 crashes in Russia's Kolomensky District near Kolomna, ki",
+      "desc": "Gazpromavia Flight 9608 crashes in Russia's Kolomensky District near Kolomna, killing three.",
+      "type": "disaster",
+      "source": "wikipedia"
+    },
+    {
       "date": "2024-03-15",
       "title": "EU AI Act Passed",
       "desc": "European Parliament passes landmark AI regulation",
@@ -141,13 +148,6 @@
       "title": "Taliban Take Kabul",
       "desc": "Taliban seizes Afghan capital, US withdrawal ends",
       "type": "politics"
-    },
-    {
-      "date": "2021-07-11",
-      "title": "Virgin Galactic launches its founder, Richard Branson, into space, the first com",
-      "desc": "Virgin Galactic launches its founder, Richard Branson, into space, the first company ever to do so.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "2021-02-18",
@@ -274,13 +274,6 @@
       "title": "Pluto Flyby",
       "desc": "New Horizons completes first flyby of Pluto",
       "type": "science"
-    },
-    {
-      "date": "2015-07-11",
-      "title": "Joaquín \"El Chapo\" Guzmán escapes from the maximum security Altiplano prison in ",
-      "desc": "Joaquín \"El Chapo\" Guzmán escapes from the maximum security Altiplano prison in Mexico, his second escape.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "2014": [
@@ -311,6 +304,13 @@
       "type": "politics"
     },
     {
+      "date": "2013-07-12",
+      "title": "Six people are killed and 200 injured in a French passenger train derailment in ",
+      "desc": "Six people are killed and 200 injured in a French passenger train derailment in Brétigny-sur-Orge.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "2013-06-06",
       "title": "Snowden Leaks",
       "desc": "Edward Snowden reveals global surveillance programs",
@@ -331,6 +331,20 @@
       "type": "general"
     },
     {
+      "date": "2012-07-12",
+      "title": "Syrian Civil War: Government forces target the homes of rebels and activists in ",
+      "desc": "Syrian Civil War: Government forces target the homes of rebels and activists in Tremseh and kill anywhere between 68 and 150 people.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2012-07-12",
+      "title": "A tank truck explosion kills more than 100 people in Okobie, Nigeria.",
+      "desc": "A tank truck explosion kills more than 100 people in Okobie, Nigeria.",
+      "type": "disaster",
+      "source": "wikipedia"
+    },
+    {
       "date": "2012-07-04",
       "title": "Higgs Boson Discovery",
       "desc": "CERN announces discovery of the Higgs boson particle",
@@ -344,13 +358,6 @@
     }
   ],
   "2011": [
-    {
-      "date": "2011-07-11",
-      "title": "Ninety-eight containers of explosives self-detonate killing 13 people in Zygi, C",
-      "desc": "Ninety-eight containers of explosives self-detonate killing 13 people in Zygi, Cyprus.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "2011-05-02",
       "title": "Bin Laden Killed",
@@ -371,20 +378,6 @@
     }
   ],
   "2010": [
-    {
-      "date": "2010-07-11",
-      "title": "The Islamist militia group Al-Shabaab carries out multiple suicide bombings in K",
-      "desc": "The Islamist militia group Al-Shabaab carries out multiple suicide bombings in Kampala, Uganda, killing 74 people and injuring 85 others.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2010-07-11",
-      "title": "In Johannesburg, Spain defeat the Netherlands 1–0 after extra time to win their ",
-      "desc": "In Johannesburg, Spain defeat the Netherlands 1–0 after extra time to win their first FIFA World Cup title.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "2010-05-06",
       "title": "Flash Crash",
@@ -446,10 +439,10 @@
   ],
   "2007": [
     {
-      "date": "2007-07-11",
-      "title": "The Siege of Lal Masjid in Islamabad, Pakistan, ends after the Pakistan Army sto",
-      "desc": "The Siege of Lal Masjid in Islamabad, Pakistan, ends after the Pakistan Army storms the mosque which had been occupied by Islamist militants.",
-      "type": "climate",
+      "date": "2007-07-12",
+      "title": "U.S. Army Apache helicopters engage in airstrikes against armed insurgents in Ba",
+      "desc": "U.S. Army Apache helicopters engage in airstrikes against armed insurgents in Baghdad, Iraq, where civilians are killed; footage from the cockpit is later leaked to the Internet.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -467,9 +460,9 @@
   ],
   "2006": [
     {
-      "date": "2006-07-11",
-      "title": "Mumbai train bombings: 209 people are killed in a series of bomb attacks in Mumb",
-      "desc": "Mumbai train bombings: 209 people are killed in a series of bomb attacks in Mumbai, India.",
+      "date": "2006-07-12",
+      "title": "A cross-border raid by Hezbollah militants starts the 2006 Lebanon War.",
+      "desc": "A cross-border raid by Hezbollah militants starts the 2006 Lebanon War.",
       "type": "tech",
       "source": "wikipedia"
     }
@@ -536,6 +529,13 @@
       "type": "disaster"
     },
     {
+      "date": "2001-07-12",
+      "title": "Space Shuttle program: Space Shuttle Atlantis is launched on mission STS-104, ca",
+      "desc": "Space Shuttle program: Space Shuttle Atlantis is launched on mission STS-104, carrying the Quest Joint Airlock to the International Space Station.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "2001-01-15",
       "title": "Wikipedia Launched",
       "desc": "Wikipedia goes live as a free online encyclopedia",
@@ -582,6 +582,20 @@
       "title": "Russian Default",
       "desc": "Russia defaults on domestic debt, ruble collapses",
       "type": "finance"
+    },
+    {
+      "date": "1998-07-12",
+      "title": "The Ulster Volunteer Force attacked a house in Ballymoney, County Antrim, Northe",
+      "desc": "The Ulster Volunteer Force attacked a house in Ballymoney, County Antrim, Northern Ireland with a petrol bomb, killing the Quinn brothers.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1998-07-12",
+      "title": "France win their first World Cup title, defeating defending champions Brazil 3–0",
+      "desc": "France win their first World Cup title, defeating defending champions Brazil 3–0.",
+      "type": "sports",
+      "source": "wikipedia"
     }
   ],
   "1997": [
@@ -612,10 +626,10 @@
       "type": "politics"
     },
     {
-      "date": "1995-07-11",
-      "title": "Yugoslav Wars: Srebrenica massacre begins, lasting until 22 July.",
-      "desc": "Yugoslav Wars: Srebrenica massacre begins, lasting until 22 July.",
-      "type": "politics",
+      "date": "1995-07-12",
+      "title": "Chinese seismologists successfully predict the 1995 Myanmar–China earthquake, re",
+      "desc": "Chinese seismologists successfully predict the 1995 Myanmar–China earthquake, reducing the number of casualties to 11.",
+      "type": "climate",
       "source": "wikipedia"
     },
     {
@@ -681,13 +695,6 @@
       "type": "tech"
     },
     {
-      "date": "1991-07-11",
-      "title": "Nigeria Airways Flight 2120 crashes in Jeddah, Saudi Arabia, killing all 261 pas",
-      "desc": "Nigeria Airways Flight 2120 crashes in Jeddah, Saudi Arabia, killing all 261 passengers and crew on board.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1991-02-28",
       "title": "Gulf War Ends",
       "desc": "US-led coalition forces liberate Kuwait",
@@ -706,13 +713,6 @@
       "title": "Iraq Invades Kuwait",
       "desc": "Iraqi invasion triggers Gulf War",
       "type": "politics"
-    },
-    {
-      "date": "1990-07-11",
-      "title": "Oka Crisis: First Nations land dispute in Quebec begins.",
-      "desc": "Oka Crisis: First Nations land dispute in Quebec begins.",
-      "type": "finance",
-      "source": "wikipedia"
     },
     {
       "date": "1990-04-24",
@@ -805,13 +805,6 @@
       "type": "disaster"
     },
     {
-      "date": "1983-07-11",
-      "title": "A TAME airline Boeing 737-200 crashes near Cuenca, Ecuador, killing all 119 pass",
-      "desc": "A TAME airline Boeing 737-200 crashes near Cuenca, Ecuador, killing all 119 passengers and crew on board.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1983-01-01",
       "title": "Internet Born",
       "desc": "TCP/IP protocol adopted as ARPANET standard",
@@ -819,13 +812,6 @@
     }
   ],
   "1982": [
-    {
-      "date": "1982-07-11",
-      "title": "Italy defeats West Germany 3–1 to win the FIFA World Cup.",
-      "desc": "Italy defeats West Germany 3–1 to win the FIFA World Cup.",
-      "type": "sports",
-      "source": "wikipedia"
-    },
     {
       "date": "1982-06-28",
       "title": "Aeroflot Flight 8641",
@@ -855,10 +841,10 @@
   ],
   "1979": [
     {
-      "date": "1979-07-11",
-      "title": "America's first space station, Skylab, is destroyed as it re-enters the Earth's ",
-      "desc": "America's first space station, Skylab, is destroyed as it re-enters the Earth's atmosphere over the Indian Ocean.",
-      "type": "tech",
+      "date": "1979-07-12",
+      "title": "The island nation of Kiribati becomes independent from the United Kingdom.",
+      "desc": "The island nation of Kiribati becomes independent from the United Kingdom.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -882,13 +868,6 @@
       "type": "science"
     },
     {
-      "date": "1978-07-11",
-      "title": "Los Alfaques disaster: A truck carrying liquid gas crashes and explodes at a coa",
-      "desc": "Los Alfaques disaster: A truck carrying liquid gas crashes and explodes at a coastal campsite in Tarragona, Spain, killing 216 tourists.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1978-06-28",
       "title": "Bakke Decision",
       "desc": "US Supreme Court rules on affirmative action",
@@ -907,13 +886,6 @@
       "title": "Elvis Dies",
       "desc": "Elvis Presley dies at Graceland at age 42",
       "type": "general"
-    },
-    {
-      "date": "1977-07-11",
-      "title": "Martin Luther King Jr., assassinated in 1968, is posthumously awarded the Presid",
-      "desc": "Martin Luther King Jr., assassinated in 1968, is posthumously awarded the Presidential Medal of Freedom.",
-      "type": "politics",
-      "source": "wikipedia"
     }
   ],
   "1976": [
@@ -931,6 +903,13 @@
     }
   ],
   "1975": [
+    {
+      "date": "1975-07-12",
+      "title": "São Tomé and Príncipe declare independence from Portugal.",
+      "desc": "São Tomé and Príncipe declare independence from Portugal.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1975-04-30",
       "title": "Vietnam War Ends",
@@ -966,10 +945,10 @@
       "type": "finance"
     },
     {
-      "date": "1973-07-11",
-      "title": "Varig Flight 820 crashes near Paris on approach to Orly Airport, killing 123 of ",
-      "desc": "Varig Flight 820 crashes near Paris on approach to Orly Airport, killing 123 of the 134 on board. In response, the FAA bans smoking in airplane lavatories.",
-      "type": "tech",
+      "date": "1973-07-12",
+      "title": "A fire destroys the entire sixth floor of the National Personnel Records Center ",
+      "desc": "A fire destroys the entire sixth floor of the National Personnel Records Center of the United States.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -985,13 +964,6 @@
       "title": "Munich Massacre",
       "desc": "Palestinian terrorists kill Israeli athletes at Olympics",
       "type": "disaster"
-    },
-    {
-      "date": "1972-07-11",
-      "title": "The first game of the World Chess Championship 1972 between challenger Bobby Fis",
-      "desc": "The first game of the World Chess Championship 1972 between challenger Bobby Fischer and defending champion Boris Spassky starts.",
-      "type": "sports",
-      "source": "wikipedia"
     },
     {
       "date": "1972-02-21",
@@ -1014,9 +986,9 @@
       "type": "finance"
     },
     {
-      "date": "1971-07-11",
-      "title": "The nationalization of all large copper mines in Chile is completed.",
-      "desc": "The nationalization of all large copper mines in Chile is completed.",
+      "date": "1971-07-12",
+      "title": "The Australian Aboriginal flag is flown for the first time.",
+      "desc": "The Australian Aboriginal flag is flown for the first time.",
       "type": "general",
       "source": "wikipedia"
     }
@@ -1069,6 +1041,13 @@
       "type": "politics"
     },
     {
+      "date": "1967-07-12",
+      "title": "Riots begin in Newark, New Jersey.",
+      "desc": "Riots begin in Newark, New Jersey.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1967-06-05",
       "title": "Six-Day War",
       "desc": "Israel defeats Egypt, Jordan, Syria in six-day war",
@@ -1115,6 +1094,13 @@
       "title": "I Have a Dream",
       "desc": "MLK delivers iconic speech at March on Washington",
       "type": "politics"
+    },
+    {
+      "date": "1963-07-12",
+      "title": "Pauline Reade, 16, disappears in Gorton, England, the first victim in the Moors ",
+      "desc": "Pauline Reade, 16, disappears in Gorton, England, the first victim in the Moors murders.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1962": [
@@ -1123,20 +1109,6 @@
       "title": "Cuban Missile Crisis",
       "desc": "US-USSR standoff brings world close to nuclear war",
       "type": "politics"
-    },
-    {
-      "date": "1962-07-11",
-      "title": "First transatlantic satellite television transmission.",
-      "desc": "First transatlantic satellite television transmission.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1962-07-11",
-      "title": "Project Apollo: At a press conference, NASA announces lunar orbit rendezvous as ",
-      "desc": "Project Apollo: At a press conference, NASA announces lunar orbit rendezvous as the means to land astronauts on the Moon, and return them to Earth.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1962-07-10",
@@ -1153,6 +1125,20 @@
       "type": "politics"
     },
     {
+      "date": "1961-07-12",
+      "title": "Indian city Pune floods due to failure of the Khadakwasla and Panshet dams, kill",
+      "desc": "Indian city Pune floods due to failure of the Khadakwasla and Panshet dams, killing at least two thousand people.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1961-07-12",
+      "title": "ČSA Flight 511 crashes at Casablanca–Anfa Airport in Morocco, killing 72.",
+      "desc": "ČSA Flight 511 crashes at Casablanca–Anfa Airport in Morocco, killing 72.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1961-04-12",
       "title": "First Human in Space",
       "desc": "Yuri Gagarin becomes first person to orbit Earth",
@@ -1161,24 +1147,10 @@
   ],
   "1960": [
     {
-      "date": "1960-07-11",
-      "title": "France legislates for the independence of Dahomey (later Benin), Upper Volta (la",
-      "desc": "France legislates for the independence of Dahomey (later Benin), Upper Volta (later Burkina Faso) and Niger.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1960-07-11",
-      "title": "Congo Crisis: The State of Katanga breaks away from the Democratic Republic of t",
-      "desc": "Congo Crisis: The State of Katanga breaks away from the Democratic Republic of the Congo.",
-      "type": "finance",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1960-07-11",
-      "title": "To Kill a Mockingbird by Harper Lee is first published, in the United States.",
-      "desc": "To Kill a Mockingbird by Harper Lee is first published, in the United States.",
-      "type": "general",
+      "date": "1960-07-12",
+      "title": "Orlyonok, the main Young Pioneer camp of the Russian SFSR, is founded.",
+      "desc": "Orlyonok, the main Young Pioneer camp of the Russian SFSR, is founded.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -1220,13 +1192,6 @@
       "title": "Sputnik Launched",
       "desc": "First artificial satellite, starts Space Age",
       "type": "science"
-    },
-    {
-      "date": "1957-07-11",
-      "title": "Prince Karim Husseini Aga Khan IV inherits the office of Imamat as the 49th Imam",
-      "desc": "Prince Karim Husseini Aga Khan IV inherits the office of Imamat as the 49th Imam of Shia Imami Ismai'li worldwide, after the death of Sir Sultan Mahommed Shah Aga Khan III.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1956": [
@@ -1315,13 +1280,6 @@
       "type": "politics"
     },
     {
-      "date": "1950-07-11",
-      "title": "Pakistan joins the International Monetary Fund and the International Bank.",
-      "desc": "Pakistan joins the International Monetary Fund and the International Bank.",
-      "type": "finance",
-      "source": "wikipedia"
-    },
-    {
       "date": "1950-06-28",
       "title": "Korean War Massacres",
       "desc": "Communist sympathizers executed as Seoul falls",
@@ -1362,6 +1320,13 @@
       "type": "politics"
     },
     {
+      "date": "1948-07-12",
+      "title": "Israeli Prime Minister David Ben-Gurion orders the expulsion of Palestinians fro",
+      "desc": "Israeli Prime Minister David Ben-Gurion orders the expulsion of Palestinians from the towns of Lod and Ramla.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1948-06-28",
       "title": "Tito-Stalin Split",
       "desc": "Yugoslavia expelled from Soviet bloc",
@@ -1380,13 +1345,6 @@
       "title": "India Independence",
       "desc": "India gains independence from British rule",
       "type": "politics"
-    },
-    {
-      "date": "1947-07-11",
-      "title": "The Exodus 1947 heads to Palestine from France.",
-      "desc": "The Exodus 1947 heads to Palestine from France.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1947-06-05",
@@ -1437,17 +1395,10 @@
   ],
   "1943": [
     {
-      "date": "1943-07-11",
-      "title": "Massacres of Poles in Volhynia and Eastern Galicia by the Ukrainian Insurgent Ar",
-      "desc": "Massacres of Poles in Volhynia and Eastern Galicia by the Ukrainian Insurgent Army within the Reichskommissariat Ukraine (Volhynia) peak.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1943-07-11",
-      "title": "World War II: Allied invasion of Sicily: German and Italian troops launch a coun",
-      "desc": "World War II: Allied invasion of Sicily: German and Italian troops launch a counter-attack on Allied forces in Sicily.",
-      "type": "tech",
+      "date": "1943-07-12",
+      "title": "World War II: Battle of Kursk: German and Soviet forces engage in the Battle of ",
+      "desc": "World War II: Battle of Kursk: German and Soviet forces engage in the Battle of Prokhorovka, one of the largest armored engagements of all time.",
+      "type": "politics",
       "source": "wikipedia"
     }
   ],
@@ -1459,26 +1410,10 @@
       "type": "politics"
     },
     {
-      "date": "1941-07-11",
-      "title": "The Northern Rhodesian Labour Party holds its first congress in Nkana.",
-      "desc": "The Northern Rhodesian Labour Party holds its first congress in Nkana.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1941-06-22",
       "title": "Operation Barbarossa",
       "desc": "Germany invades Soviet Union",
       "type": "politics"
-    }
-  ],
-  "1940": [
-    {
-      "date": "1940-07-11",
-      "title": "World War II: Vichy France regime is formally established. Philippe Pétain becom",
-      "desc": "World War II: Vichy France regime is formally established. Philippe Pétain becomes Chief of the French State.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1939": [
@@ -1517,26 +1452,10 @@
       "type": "politics"
     },
     {
-      "date": "1936-07-11",
-      "title": "The Triborough Bridge in New York City is opened to traffic.",
-      "desc": "The Triborough Bridge in New York City is opened to traffic.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1936-06-28",
       "title": "Mengjiang Founded",
       "desc": "Japanese puppet state established in Inner Mongolia",
       "type": "politics"
-    }
-  ],
-  "1934": [
-    {
-      "date": "1934-07-11",
-      "title": "Engelbert Zaschka of Germany flies his large human-powered aircraft, the Zaschka",
-      "desc": "Engelbert Zaschka of Germany flies his large human-powered aircraft, the Zaschka Human-Power Aircraft, about 20 meters at Berlin Tempelhof Airport without assisted take-off.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1933": [
@@ -1605,13 +1524,6 @@
   ],
   "1924": [
     {
-      "date": "1924-07-11",
-      "title": "Eric Liddell wins the gold medal in 400m at the 1924 Paris Olympics, after refus",
-      "desc": "Eric Liddell wins the gold medal in 400m at the 1924 Paris Olympics, after refusing to run in the heats for 100m, his favoured distance, on a Sunday.",
-      "type": "sports",
-      "source": "wikipedia"
-    },
-    {
       "date": "1924-01-21",
       "title": "Lenin Dies",
       "desc": "Vladimir Lenin dies, Stalin begins rise to power",
@@ -1626,13 +1538,6 @@
       "type": "politics"
     },
     {
-      "date": "1922-07-11",
-      "title": "The Hollywood Bowl opens.",
-      "desc": "The Hollywood Bowl opens.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1922-06-28",
       "title": "Irish Civil War Begins",
       "desc": "Irish Civil War starts with shelling of Four Courts",
@@ -1640,27 +1545,6 @@
     }
   ],
   "1921": [
-    {
-      "date": "1921-07-11",
-      "title": "A truce in the Irish War of Independence comes into effect.",
-      "desc": "A truce in the Irish War of Independence comes into effect.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1921-07-11",
-      "title": "The Red Army captures Mongolia from the White Army and establishes the Mongolian",
-      "desc": "The Red Army captures Mongolia from the White Army and establishes the Mongolian People's Republic.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1921-07-11",
-      "title": "Former president of the United States William Howard Taft is sworn in as 10th ch",
-      "desc": "Former president of the United States William Howard Taft is sworn in as 10th chief justice of the U.S. Supreme Court, becoming the only person ever to hold both offices.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
     {
       "date": "1921-07-01",
       "title": "Chinese Communist Party",
@@ -1676,21 +1560,14 @@
   ],
   "1920": [
     {
-      "date": "1920-07-11",
-      "title": "In the East Prussian plebiscite the local populace decides to remain with Weimar",
-      "desc": "In the East Prussian plebiscite the local populace decides to remain with Weimar Germany.",
-      "type": "tech",
+      "date": "1920-07-12",
+      "title": "The Soviet–Lithuanian Peace Treaty is signed, by which Soviet Russia recognizes ",
+      "desc": "The Soviet–Lithuanian Peace Treaty is signed, by which Soviet Russia recognizes the independence of Lithuania.",
+      "type": "politics",
       "source": "wikipedia"
     }
   ],
   "1919": [
-    {
-      "date": "1919-07-11",
-      "title": "The eight-hour day and free Sunday become law for workers in the Netherlands.",
-      "desc": "The eight-hour day and free Sunday become law for workers in the Netherlands.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
     {
       "date": "1919-06-28",
       "title": "Treaty of Versailles",
@@ -1712,6 +1589,13 @@
       "type": "politics"
     },
     {
+      "date": "1918-07-12",
+      "title": "The Imperial Japanese Navy battleship Kawachi blows up at Shunan, western Honshu",
+      "desc": "The Imperial Japanese Navy battleship Kawachi blows up at Shunan, western Honshu, Japan, killing at least 621.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1918-03-04",
       "title": "Spanish Flu First Case",
       "desc": "First case of deadly pandemic reported in Kansas",
@@ -1724,6 +1608,13 @@
       "title": "Russian Revolution",
       "desc": "Bolsheviks seize power in October Revolution",
       "type": "politics"
+    },
+    {
+      "date": "1917-07-12",
+      "title": "The Bisbee Deportation occurs as vigilantes kidnap and deport nearly 1,300 strik",
+      "desc": "The Bisbee Deportation occurs as vigilantes kidnap and deport nearly 1,300 striking miners and others from Bisbee, Arizona.",
+      "type": "science",
+      "source": "wikipedia"
     },
     {
       "date": "1917-06-28",
@@ -1740,24 +1631,26 @@
       "type": "politics"
     },
     {
-      "date": "1914-07-11",
-      "title": "Babe Ruth makes his debut in Major League Baseball.",
-      "desc": "Babe Ruth makes his debut in Major League Baseball.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1914-07-11",
-      "title": "The US Navy launches the USS Nevada (BB-36) as its first standard-type battleshi",
-      "desc": "The US Navy launches the USS Nevada (BB-36) as its first standard-type battleship.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1914-06-28",
       "title": "Archduke Franz Ferdinand Assassinated",
       "desc": "Assassination triggers outbreak of World War I",
       "type": "politics"
+    }
+  ],
+  "1913": [
+    {
+      "date": "1913-07-12",
+      "title": "Serbian forces begin their siege of the Bulgarian city of Vidin; the siege is la",
+      "desc": "Serbian forces begin their siege of the Bulgarian city of Vidin; the siege is later called off when the war ends.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1913-07-12",
+      "title": "The Second Revolution breaks out against the Beiyang government, as Li Liejun pr",
+      "desc": "The Second Revolution breaks out against the Beiyang government, as Li Liejun proclaims Jiangxi independent from the Republic of China.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1912": [
@@ -1786,15 +1679,6 @@
       "title": "Nakhla Meteorite",
       "desc": "Meteorite falls in Egypt, first to suggest signs of water on Mars",
       "type": "science"
-    }
-  ],
-  "1906": [
-    {
-      "date": "1906-07-11",
-      "title": "Murder of Grace Brown by Chester Gillette in the United States, inspiration for ",
-      "desc": "Murder of Grace Brown by Chester Gillette in the United States, inspiration for Theodore Dreiser's An American Tragedy.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1905": [
