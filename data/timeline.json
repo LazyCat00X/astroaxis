@@ -65,10 +65,10 @@
       "type": "climate"
     },
     {
-      "date": "2024-07-12",
-      "title": "Gazpromavia Flight 9608 crashes in Russia's Kolomensky District near Kolomna, ki",
-      "desc": "Gazpromavia Flight 9608 crashes in Russia's Kolomensky District near Kolomna, killing three.",
-      "type": "disaster",
+      "date": "2024-07-13",
+      "title": "Former president of the United States Donald Trump is injured in an assassinatio",
+      "desc": "Former president of the United States Donald Trump is injured in an assassination attempt while speaking at an election campaign rally near Butler, Pennsylvania.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -164,6 +164,13 @@
   ],
   "2020": [
     {
+      "date": "2020-07-13",
+      "title": "After a five-day search, the body of American actress and singer Naya Rivera is ",
+      "desc": "After a five-day search, the body of American actress and singer Naya Rivera is recovered from Lake Piru in California, where she had drowned.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2020-03-11",
       "title": "COVID-19 Pandemic",
       "desc": "WHO declares COVID-19 a global pandemic",
@@ -244,6 +251,13 @@
       "type": "politics"
     },
     {
+      "date": "2016-07-13",
+      "title": "Prime Minister of the United Kingdom David Cameron resigns, and is succeeded by ",
+      "desc": "Prime Minister of the United Kingdom David Cameron resigns, and is succeeded by Theresa May.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2016-06-23",
       "title": "Brexit Vote",
       "desc": "UK votes to leave the European Union",
@@ -284,6 +298,13 @@
       "type": "politics"
     },
     {
+      "date": "2014-07-13",
+      "title": "Germany wins the FIFA World Cup, defeating Argentina in the final 1–0 after extr",
+      "desc": "Germany wins the FIFA World Cup, defeating Argentina in the final 1–0 after extra time.",
+      "type": "sports",
+      "source": "wikipedia"
+    },
+    {
       "date": "2014-06-29",
       "title": "ISIS Caliphate Declared",
       "desc": "ISIS declares Islamic caliphate in Iraq and Syria",
@@ -304,9 +325,9 @@
       "type": "politics"
     },
     {
-      "date": "2013-07-12",
-      "title": "Six people are killed and 200 injured in a French passenger train derailment in ",
-      "desc": "Six people are killed and 200 injured in a French passenger train derailment in Brétigny-sur-Orge.",
+      "date": "2013-07-13",
+      "title": "Typhoon Soulik kills at least nine people and affects more than 160 million in E",
+      "desc": "Typhoon Soulik kills at least nine people and affects more than 160 million in East China and Taiwan.",
       "type": "tech",
       "source": "wikipedia"
     },
@@ -331,20 +352,6 @@
       "type": "general"
     },
     {
-      "date": "2012-07-12",
-      "title": "Syrian Civil War: Government forces target the homes of rebels and activists in ",
-      "desc": "Syrian Civil War: Government forces target the homes of rebels and activists in Tremseh and kill anywhere between 68 and 150 people.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2012-07-12",
-      "title": "A tank truck explosion kills more than 100 people in Okobie, Nigeria.",
-      "desc": "A tank truck explosion kills more than 100 people in Okobie, Nigeria.",
-      "type": "disaster",
-      "source": "wikipedia"
-    },
-    {
       "date": "2012-07-04",
       "title": "Higgs Boson Discovery",
       "desc": "CERN announces discovery of the Higgs boson particle",
@@ -358,6 +365,27 @@
     }
   ],
   "2011": [
+    {
+      "date": "2011-07-13",
+      "title": "Mumbai is rocked by three bomb blasts during the evening rush hour, killing 26 a",
+      "desc": "Mumbai is rocked by three bomb blasts during the evening rush hour, killing 26 and injuring 130.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2011-07-13",
+      "title": "United Nations Security Council Resolution 1999 is adopted, which admits South S",
+      "desc": "United Nations Security Council Resolution 1999 is adopted, which admits South Sudan to member status of United Nations.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2011-07-13",
+      "title": "Noar Linhas Aéreas Flight 4896 crashes in Boa Viagem, Recife, killing all 16 peo",
+      "desc": "Noar Linhas Aéreas Flight 4896 crashes in Boa Viagem, Recife, killing all 16 people on board.",
+      "type": "disaster",
+      "source": "wikipedia"
+    },
     {
       "date": "2011-05-02",
       "title": "Bin Laden Killed",
@@ -435,16 +463,16 @@
       "title": "Lehman Brothers Collapse",
       "desc": "Investment bank fails, triggering global financial crisis",
       "type": "finance"
+    },
+    {
+      "date": "2008-07-13",
+      "title": "Battle of Wanat begins when Taliban and al-Qaeda guerrillas attack US Army and A",
+      "desc": "Battle of Wanat begins when Taliban and al-Qaeda guerrillas attack US Army and Afghan National Army troops in Afghanistan. The U.S. deaths were, at that time, the most in a single battle since the beg",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "2007": [
-    {
-      "date": "2007-07-12",
-      "title": "U.S. Army Apache helicopters engage in airstrikes against armed insurgents in Ba",
-      "desc": "U.S. Army Apache helicopters engage in airstrikes against armed insurgents in Baghdad, Iraq, where civilians are killed; footage from the cockpit is later leaked to the Internet.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "2007-06-29",
       "title": "iPhone Released",
@@ -456,15 +484,6 @@
       "title": "iPhone Unveiled",
       "desc": "Steve Jobs introduces the first iPhone",
       "type": "tech"
-    }
-  ],
-  "2006": [
-    {
-      "date": "2006-07-12",
-      "title": "A cross-border raid by Hezbollah militants starts the 2006 Lebanon War.",
-      "desc": "A cross-border raid by Hezbollah militants starts the 2006 Lebanon War.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "2005": [
@@ -509,6 +528,13 @@
   ],
   "2003": [
     {
+      "date": "2003-07-13",
+      "title": "French DGSE personnel abort an operation to rescue Íngrid Betancourt from FARC r",
+      "desc": "French DGSE personnel abort an operation to rescue Íngrid Betancourt from FARC rebels in Colombia, causing a political scandal when details are leaked to the press.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "2003-03-20",
       "title": "Iraq War Begins",
       "desc": "US-led coalition invades Iraq",
@@ -527,13 +553,6 @@
       "title": "9/11 Attacks",
       "desc": "Al-Qaeda terrorists attack World Trade Center and Pentagon",
       "type": "disaster"
-    },
-    {
-      "date": "2001-07-12",
-      "title": "Space Shuttle program: Space Shuttle Atlantis is launched on mission STS-104, ca",
-      "desc": "Space Shuttle program: Space Shuttle Atlantis is launched on mission STS-104, carrying the Quest Joint Airlock to the International Space Station.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "2001-01-15",
@@ -582,20 +601,6 @@
       "title": "Russian Default",
       "desc": "Russia defaults on domestic debt, ruble collapses",
       "type": "finance"
-    },
-    {
-      "date": "1998-07-12",
-      "title": "The Ulster Volunteer Force attack a house in Ballymoney, County Antrim, Northern",
-      "desc": "The Ulster Volunteer Force attack a house in Ballymoney, County Antrim, Northern Ireland with a petrol bomb, killing the Quinn brothers.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1998-07-12",
-      "title": "France win their first World Cup title, defeating defending champions Brazil 3–0",
-      "desc": "France win their first World Cup title, defeating defending champions Brazil 3–0.",
-      "type": "sports",
-      "source": "wikipedia"
     }
   ],
   "1997": [
@@ -626,10 +631,10 @@
       "type": "politics"
     },
     {
-      "date": "1995-07-12",
-      "title": "Chinese seismologists successfully predict the 1995 Myanmar–China earthquake, re",
-      "desc": "Chinese seismologists successfully predict the 1995 Myanmar–China earthquake, reducing the number of casualties to 11.",
-      "type": "climate",
+      "date": "1995-07-13",
+      "title": "Space Shuttle Discovery is launched on STS-70 to deploy the TDRS-7 satellite.",
+      "desc": "Space Shuttle Discovery is launched on STS-70 to deploy the TDRS-7 satellite.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -715,6 +720,13 @@
       "type": "politics"
     },
     {
+      "date": "1990-07-13",
+      "title": "Lenin Peak disaster: a 6.4-magnitude earthquake in Afghanistan triggers an avala",
+      "desc": "Lenin Peak disaster: a 6.4-magnitude earthquake in Afghanistan triggers an avalanche on Lenin Peak, killing 43 climbers in the deadliest mountaineering disaster in history.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1990-04-24",
       "title": "Hubble Launched",
       "desc": "Hubble Space Telescope launched into orbit",
@@ -791,6 +803,20 @@
       "type": "general"
     },
     {
+      "date": "1985-07-13",
+      "title": "The Live Aid benefit concert takes place in London and Philadelphia, as well as ",
+      "desc": "The Live Aid benefit concert takes place in London and Philadelphia, as well as other venues such as Moscow and Sydney.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1985-07-13",
+      "title": "Vice President George H. W. Bush becomes the Acting President for the day when P",
+      "desc": "Vice President George H. W. Bush becomes the Acting President for the day when President Ronald Reagan undergoes surgery to remove polyps from his colon.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1985-03-11",
       "title": "Gorbachev Leader",
       "desc": "Mikhail Gorbachev becomes leader of Soviet Union",
@@ -841,13 +867,6 @@
   ],
   "1979": [
     {
-      "date": "1979-07-12",
-      "title": "The island nation of Kiribati becomes independent from the United Kingdom.",
-      "desc": "The island nation of Kiribati becomes independent from the United Kingdom.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1979-04-01",
       "title": "Iran Islamic Republic",
       "desc": "Iran becomes Islamic Republic after referendum",
@@ -886,6 +905,20 @@
       "title": "Elvis Dies",
       "desc": "Elvis Presley dies at Graceland at age 42",
       "type": "general"
+    },
+    {
+      "date": "1977-07-13",
+      "title": "Somalia declares war on Ethiopia, starting the Ogaden War.",
+      "desc": "Somalia declares war on Ethiopia, starting the Ogaden War.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1977-07-13",
+      "title": "Amidst a period of financial and social turmoil, New York City experiences an el",
+      "desc": "Amidst a period of financial and social turmoil, New York City experiences an electrical blackout lasting nearly 24 hours that leads to widespread fires and looting.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1976": [
@@ -903,13 +936,6 @@
     }
   ],
   "1975": [
-    {
-      "date": "1975-07-12",
-      "title": "São Tomé and Príncipe declare independence from Portugal.",
-      "desc": "São Tomé and Príncipe declare independence from Portugal.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1975-04-30",
       "title": "Vietnam War Ends",
@@ -945,10 +971,10 @@
       "type": "finance"
     },
     {
-      "date": "1973-07-12",
-      "title": "A fire destroys the entire sixth floor of the National Personnel Records Center ",
-      "desc": "A fire destroys the entire sixth floor of the National Personnel Records Center of the United States.",
-      "type": "general",
+      "date": "1973-07-13",
+      "title": "Watergate scandal: Alexander Butterfield reveals the existence of a secret Oval ",
+      "desc": "Watergate scandal: Alexander Butterfield reveals the existence of a secret Oval Office taping system to investigators for the Senate Watergate Committee.",
+      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -984,13 +1010,6 @@
       "title": "Bretton Woods Ends",
       "desc": "Nixon ends gold standard, floating exchange rates begin",
       "type": "finance"
-    },
-    {
-      "date": "1971-07-12",
-      "title": "The Australian Aboriginal flag is flown for the first time.",
-      "desc": "The Australian Aboriginal flag is flown for the first time.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1969": [
@@ -1041,13 +1060,6 @@
       "type": "politics"
     },
     {
-      "date": "1967-07-12",
-      "title": "Riots begin in Newark, New Jersey.",
-      "desc": "Riots begin in Newark, New Jersey.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1967-06-05",
       "title": "Six-Day War",
       "desc": "Israel defeats Egypt, Jordan, Syria in six-day war",
@@ -1094,13 +1106,6 @@
       "title": "I Have a Dream",
       "desc": "MLK delivers iconic speech at March on Washington",
       "type": "politics"
-    },
-    {
-      "date": "1963-07-12",
-      "title": "Pauline Reade, 16, disappears in Gorton, England, the first victim in the Moors ",
-      "desc": "Pauline Reade, 16, disappears in Gorton, England, the first victim in the Moors murders.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1962": [
@@ -1109,6 +1114,13 @@
       "title": "Cuban Missile Crisis",
       "desc": "US-USSR standoff brings world close to nuclear war",
       "type": "politics"
+    },
+    {
+      "date": "1962-07-13",
+      "title": "In an unprecedented action, British Prime Minister Harold Macmillan dismisses se",
+      "desc": "In an unprecedented action, British Prime Minister Harold Macmillan dismisses seven members of his Cabinet, marking the effective end of the National Liberals as a distinct force within British politi",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1962-07-10",
@@ -1125,20 +1137,6 @@
       "type": "politics"
     },
     {
-      "date": "1961-07-12",
-      "title": "Indian city Pune floods due to failure of the Khadakwasla and Panshet dams, kill",
-      "desc": "Indian city Pune floods due to failure of the Khadakwasla and Panshet dams, killing at least two thousand people.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1961-07-12",
-      "title": "ČSA Flight 511 crashes at Casablanca–Anfa Airport in Morocco, killing 72.",
-      "desc": "ČSA Flight 511 crashes at Casablanca–Anfa Airport in Morocco, killing 72.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1961-04-12",
       "title": "First Human in Space",
       "desc": "Yuri Gagarin becomes first person to orbit Earth",
@@ -1146,13 +1144,6 @@
     }
   ],
   "1960": [
-    {
-      "date": "1960-07-12",
-      "title": "Orlyonok, the main Young Pioneer camp of the Russian SFSR, is founded.",
-      "desc": "Orlyonok, the main Young Pioneer camp of the Russian SFSR, is founded.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1960-05-01",
       "title": "U-2 Incident",
@@ -1200,6 +1191,13 @@
       "title": "Hungarian Revolution",
       "desc": "Anti-Soviet uprising in Hungary",
       "type": "politics"
+    },
+    {
+      "date": "1956-07-13",
+      "title": "The Dartmouth workshop is the first conference on artificial intelligence.",
+      "desc": "The Dartmouth workshop is the first conference on artificial intelligence.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1956-06-28",
@@ -1266,6 +1264,13 @@
   ],
   "1951": [
     {
+      "date": "1951-07-13",
+      "title": "Vuoristorata, one of the oldest still-operating wooden roller coasters in Europe",
+      "desc": "Vuoristorata, one of the oldest still-operating wooden roller coasters in Europe, is opened at the Linnanmäki amusement park in Helsinki, Finland.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1951-03-29",
       "title": "Rosenberg Spy Case",
       "desc": "Julius and Ethel Rosenberg convicted of espionage",
@@ -1318,13 +1323,6 @@
       "title": "Universal Declaration",
       "desc": "UN adopts Universal Declaration of Human Rights",
       "type": "politics"
-    },
-    {
-      "date": "1948-07-12",
-      "title": "Israeli Prime Minister David Ben-Gurion orders the expulsion of Palestinians fro",
-      "desc": "Israeli Prime Minister David Ben-Gurion orders the expulsion of Palestinians from the towns of Lod and Ramla.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1948-06-28",
@@ -1393,21 +1391,19 @@
       "type": "politics"
     }
   ],
-  "1943": [
-    {
-      "date": "1943-07-12",
-      "title": "World War II: Battle of Kursk: German and Soviet forces engage in the Battle of ",
-      "desc": "World War II: Battle of Kursk: German and Soviet forces engage in the Battle of Prokhorovka, one of the largest armored engagements of all time.",
-      "type": "politics",
-      "source": "wikipedia"
-    }
-  ],
   "1941": [
     {
       "date": "1941-12-07",
       "title": "Pearl Harbor",
       "desc": "Japan attacks US naval base, US enters WWII",
       "type": "politics"
+    },
+    {
+      "date": "1941-07-13",
+      "title": "World War II: Montenegrins begin the Trinaestojulski ustanak (Thirteenth of July",
+      "desc": "World War II: Montenegrins begin the Trinaestojulski ustanak (Thirteenth of July Uprising), a popular revolt against the Axis powers.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1941-06-22",
@@ -1470,6 +1466,15 @@
       "title": "Hitler Chancellor",
       "desc": "Adolf Hitler appointed Chancellor of Germany",
       "type": "politics"
+    }
+  ],
+  "1930": [
+    {
+      "date": "1930-07-13",
+      "title": "The inaugural FIFA World Cup begins in Uruguay.",
+      "desc": "The inaugural FIFA World Cup begins in Uruguay.",
+      "type": "sports",
+      "source": "wikipedia"
     }
   ],
   "1929": [
@@ -1558,16 +1563,14 @@
       "type": "politics"
     }
   ],
-  "1920": [
-    {
-      "date": "1920-07-12",
-      "title": "The Soviet–Lithuanian Peace Treaty is signed, by which Soviet Russia recognizes ",
-      "desc": "The Soviet–Lithuanian Peace Treaty is signed, by which Soviet Russia recognizes the independence of Lithuania.",
-      "type": "politics",
-      "source": "wikipedia"
-    }
-  ],
   "1919": [
+    {
+      "date": "1919-07-13",
+      "title": "The British airship R34 lands in Norfolk, England, completing the first airship ",
+      "desc": "The British airship R34 lands in Norfolk, England, completing the first airship return journey across the Atlantic in 182 hours of flight.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1919-06-28",
       "title": "Treaty of Versailles",
@@ -1589,13 +1592,6 @@
       "type": "politics"
     },
     {
-      "date": "1918-07-12",
-      "title": "The Imperial Japanese Navy battleship Kawachi blows up at Shunan, western Honshu",
-      "desc": "The Imperial Japanese Navy battleship Kawachi blows up at Shunan, western Honshu, Japan, killing at least 621.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1918-03-04",
       "title": "Spanish Flu First Case",
       "desc": "First case of deadly pandemic reported in Kansas",
@@ -1608,13 +1604,6 @@
       "title": "Russian Revolution",
       "desc": "Bolsheviks seize power in October Revolution",
       "type": "politics"
-    },
-    {
-      "date": "1917-07-12",
-      "title": "The Bisbee Deportation occurs as vigilantes kidnap and deport nearly 1,300 strik",
-      "desc": "The Bisbee Deportation occurs as vigilantes kidnap and deport nearly 1,300 striking miners and others from Bisbee, Arizona.",
-      "type": "science",
-      "source": "wikipedia"
     },
     {
       "date": "1917-06-28",
@@ -1639,17 +1628,10 @@
   ],
   "1913": [
     {
-      "date": "1913-07-12",
-      "title": "Serbian forces begin their siege of the Bulgarian city of Vidin; the siege is la",
-      "desc": "Serbian forces begin their siege of the Bulgarian city of Vidin; the siege is later called off when the war ends.",
+      "date": "1913-07-13",
+      "title": "The 1913 Romanian Army cholera outbreak during the Second Balkan War starts.",
+      "desc": "The 1913 Romanian Army cholera outbreak during the Second Balkan War starts.",
       "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1913-07-12",
-      "title": "The Second Revolution breaks out against the Beiyang government, as Li Liejun pr",
-      "desc": "The Second Revolution breaks out against the Beiyang government, as Li Liejun proclaims Jiangxi independent from the Republic of China.",
-      "type": "tech",
       "source": "wikipedia"
     }
   ],
