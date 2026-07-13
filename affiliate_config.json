@@ -1,0 +1,79 @@
+{
+  "_comment": "Affiliate keyword→product matching rules for AstroAxis",
+  "_disclosure": "This page contains affiliate links. If you purchase through these links, we may earn a commission at no extra cost to you.",
+  "rules": [
+    {
+      "product": "Binance",
+      "categories": ["crypto"],
+      "keywords": [
+        "bitcoin", "btc", "crypto", "exchange", "trading", "altcoin",
+        "cryptocurrency", "buy", "trade", "invest", "market", "coin",
+        "eth", "ethereum", "defi", "token", "spot", "futures", "leverage",
+        "binance", "register", "account", "deposit", "withdraw"
+      ],
+      "aff_url": "https://accounts.binance.com/register?ref=BINANCE_REF_ID",
+      "title": "Start Trading on Binance",
+      "body": "Binance offers low fees, 600+ coins, and advanced trading features. Perfect for both beginners and professional traders.",
+      "cta": "Create Free Account →"
+    },
+    {
+      "product": "Ledger",
+      "categories": ["crypto"],
+      "keywords": [
+        "wallet", "security", "hack", "theft", "scam", "phishing",
+        "cold storage", "hardware wallet", "private key", "self-custody",
+        "safe", "secure", "protect", "stolen", "breach", "exploit"
+      ],
+      "aff_url": "https://shop.ledger.com/?r=LEDGER_REF_ID",
+      "title": "Secure Your Crypto with Ledger",
+      "body": "Protect your digital assets with a hardware wallet — the safest way to store cryptocurrency offline.",
+      "cta": "Shop Ledger →"
+    },
+    {
+      "product": "NordVPN",
+      "categories": ["crypto", "tech", "general"],
+      "keywords": [
+        "vpn", "privacy", "anonymous", "security breach", "surveillance",
+        "censorship", "encryption", "cyber", "hacker", "data leak",
+        "tracking", "monitoring", "private"
+      ],
+      "aff_url": "https://nordvpn.com/?ref=NORD_REF_ID",
+      "title": "Protect Your Privacy with NordVPN",
+      "body": "Browse privately, bypass censorship, and secure your data with the world's leading VPN service.",
+      "cta": "Get NordVPN →"
+    },
+    {
+      "product": "ChatGPT Plus",
+      "categories": ["ai"],
+      "keywords": [
+        "chatgpt", "openai", "gpt", "llm", "ai", "artificial intelligence",
+        "machine learning", "neural", "language model", "prompt",
+        "copilot", "claude", "gemini", "chatbot"
+      ],
+      "aff_url": "https://chatgpt.com/plus",
+      "title": "Try ChatGPT Plus",
+      "body": "Get priority access, faster responses, and advanced features with ChatGPT Plus subscription.",
+      "cta": "Subscribe to ChatGPT →"
+    },
+    {
+      "product": "TradingView",
+      "categories": ["crypto", "finance"],
+      "keywords": [
+        "chart", "technical analysis", "indicator", "price action",
+        "stock", "forex", "trading", "trader", "analysis", "signal",
+        "screener", "backtest"
+      ],
+      "aff_url": "https://www.tradingview.com/?aff_id=TV_REF_ID",
+      "title": "Advanced Charts with TradingView",
+      "body": "Professional-grade charting tools, real-time data, and a global community of traders. Free and premium plans.",
+      "cta": "Try TradingView Free →"
+    }
+  ],
+  "fallback": {
+    "product": "Binance",
+    "aff_url": "https://accounts.binance.com/register?ref=BINANCE_REF_ID",
+    "title": "Start Your Crypto Journey",
+    "body": "Join the world's largest crypto exchange with low fees and hundreds of coins to choose from.",
+    "cta": "Get Started on Binance →"
+  }
+}

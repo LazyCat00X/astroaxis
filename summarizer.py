@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 API_URL = "https://models.inference.ai.azure.com/chat/completions"
 MODEL = "gpt-4o-mini"
 MAX_PER_RUN = int(os.environ.get("MAX_ARTICLES_PER_RUN", "30"))
-DELAY = 0.5
+DELAY = 1.5
 
 def get_api_key():
     KEY = ""
@@ -52,6 +52,15 @@ def call(system, user, temp=0.3, max_tok=800):
                 log.warning("Rate limited, waiting %ds", wait)
                 time.sleep(wait)
                 continue
+            if r.status_code != 200:
+                err = r.text[:300]
+                log.warning("API %d (attempt %d/3): %s", r.status_code, attempt + 1, err)
+                if "content management policy" in err or "content_filter" in err:
+                    log.warning("  Content policy filtered — skipping this article permanently")
+                    return "CONTENT_FILTERED"
+                if attempt < 2:
+                    time.sleep(3)
+                continue
             r.raise_for_status()
             data = r.json()
             content = data.get("choices", [{}])[0].get("message", {}).get("content")
@@ -84,9 +93,18 @@ def summarize_article(title, text):
     t = text[:3000] if text else ""
     if not t.strip():
         return None
-    result = call(SUMMARY_PROMPT, f"Title: {title}\n\n{t}", 0.3, 400)
+    # Sanitize: remove null bytes and control chars
+    t = t.replace('\x00', '').replace('\ufffd', '')
+    t = ''.join(c if c >= ' ' or c in '\n\r\t' else ' ' for c in t)
+    try:
+        result = call(SUMMARY_PROMPT, f"Title: {title}\n\n{t}", 0.3, 400)
+    except Exception as e:
+        log.warning("  API call failed for '%s': %s", title[:40], e)
+        return None
     if not result:
         return None
+    if result == "CONTENT_FILTERED":
+        return "CONTENT_FILTERED"
     result = result.strip()
     if len(result) < 30:
         log.warning("Summary too short (%d chars), discarding", len(result))
@@ -150,6 +168,14 @@ def run():
 
         log.info("── %s ──", title[:50])
         zh_summary = summarize_article(title, text)
+        if zh_summary == "CONTENT_FILTERED":
+            art["summarized"] = True
+            art["ai_summary"] = "• 此文章因內容安全政策無法生成摘要"
+            art["summaries"] = {"zh-HK": art["ai_summary"]}
+            save_articles(articles)
+            log.info("  [FILTERED] Marked as filtered, will not retry")
+            count += 1
+            continue
         if not zh_summary:
             log.warning("  Summary failed, skipping (will retry next run)")
             continue
