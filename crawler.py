@@ -68,7 +68,7 @@ def fetch_rss(url, timeout=8):
         log.warning("RSS fetch failed: %s — %s", url, e)
         return None
 
-def extract_text_from_url(url, timeout=10):
+def extract_text_from_url(url, timeout=6):
     """Extract article text using trafilatura (primary) + BeautifulSoup fallback."""
     try:
         # Primary: trafilatura — handles paywalls, articles, cleans well
@@ -196,7 +196,7 @@ def crawl():
             log.info("  No entries from %s", name)
             continue
         
-        for entry in entries[:20]:  # top 20 per source
+        for entry in entries[:30]:  # top 30 per source
             link = entry.get("link", "").strip()
             if not link or link in seen_urls:
                 skip_count += 1
@@ -244,11 +244,11 @@ def crawl():
         # Polite delay between sources
         time.sleep(0.5)
     
-    # Keep only last 7 days, max 2000 articles
-    cutoff = datetime.now(timezone.utc).timestamp() - 7 * 24 * 3600
+    # Keep only last 3 days, max 4000 articles (allow churn)
+    cutoff = datetime.now(timezone.utc).timestamp() - 3 * 24 * 3600
     articles = [a for a in articles 
                 if datetime.fromisoformat(a["published"]).timestamp() > cutoff]
-    articles = articles[-2000:]
+    articles = articles[-4000:]
     
     save_articles(articles)
     save_cache(cache)
