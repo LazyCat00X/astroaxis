@@ -1,243 +1,5 @@
 [
   {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-10/mgm-resorts-engaged-in-deal-talks-with-diller-wsj-says",
-    "title": "MGM Resorts Engaged in Deal Talks With Diller, WSJ Says",
-    "summary": "MGM Resorts International is engaged in deal talks with Barry Diller’s People Inc. after the entertainment mogul offered to acquire the part of the casino company he doesn’t already own, the Wall Street Journal reported.",
-    "full_text": "",
-    "source": "Bloomberg Crypto",
-    "category": "finance",
-    "lang": "en",
-    "topic": "World",
-    "published": "2026-07-10T23:02:50+00:00",
-    "crawled": "2026-07-10T23:34:28.536888+00:00",
-    "summarized": true,
-    "ai_summary": "• MGM度假村國際公司正與巴里·迪勒的People Inc.進行交易談判\n• 迪勒提出收購他尚未擁有的賭場公司部分股份\n• 根據《華爾街日報》的報導，談判正在進行中",
-    "summaries": {
-      "zh-HK": "• MGM度假村國際公司正與巴里·迪勒的People Inc.進行交易談判\n• 迪勒提出收購他尚未擁有的賭場公司部分股份\n• 根據《華爾街日報》的報導，談判正在進行中"
-    }
-  },
-  {
-    "url": "https://arstechnica.com/science/2026/07/quantum-error-correction-can-constantly-recalibrate-a-processor/",
-    "title": "Quantum error correction can constantly recalibrate a processor",
-    "summary": "Reinforcement learning uses error information to adjust control algorithms.",
-    "full_text": "There are some obvious big picture issues that stand between us and useful quantum computing. Issues like whether we can make enough high-quality hardware qubits to connect into the error-corrected logical qubits we need, and how we generate the states needed to perform universal computation on those logical qubits. But there are also many less prominent challenges that will need to be solved before we can perform calculations.\nOne of those challenges, which only affects some types of hardware, is calibration. For devices we manufacture, like superconducting qubits, there are always subtle variations among individual qubits. (This is not true when we use something like an atom to hold the qubit, but the lasers that control them can drift.) As a result, this hardware is put through a process called calibration, where we test different frequencies and amplitudes of the microwave pulses that control them to find the combination that produces the lowest error rates, and then save those settings for use in calculations.\nHowever, you can’t perform the typical calibration process while e you’re doing calculations, which means drift becomes an issue for long and complicated algorithms. Google, though, has figured out that it’s possible to do calibration using the same data that’s used for error correction.\nReinforcement learning\nThe hardware that Google and a number of other companies rely on are transmons. They consist of a loop of superconducting wire connected to a resonator, and they’re controlled by pulses of microwave photons. Those pulses are controlled by hardware that is kept outside of the refrigeration, including classical computers and the microwave sources they control. This hardware is used to test different combinations of wavelengths and amplitudes during calibration.",
-    "source": "ArsTechnica",
-    "category": "tech",
-    "lang": "en",
-    "topic": "Tech",
-    "published": "2026-07-10T23:02:30+00:00",
-    "crawled": "2026-07-10T23:34:34.361416+00:00",
-    "summarized": true,
-    "ai_summary": "• 谷歌發現可以利用錯誤修正所需的數據進行量子處理器的校準，解決長期計算中的漂移問題  \n• 量子計算面臨的挑戰包括高品質硬體量子位的製造及其狀態生成  \n• 超導量子位在校準過程中需測試不同的微波脈衝頻率和幅度，以降低錯誤率  \n• 谷歌及其他公司使用的硬體為超導環量子位，通過微波光子脈衝進行控制，並依賴外部的經典計算機進行校準測試",
-    "summaries": {
-      "zh-HK": "• 谷歌發現可以利用錯誤修正所需的數據進行量子處理器的校準，解決長期計算中的漂移問題  \n• 量子計算面臨的挑戰包括高品質硬體量子位的製造及其狀態生成  \n• 超導量子位在校準過程中需測試不同的微波脈衝頻率和幅度，以降低錯誤率  \n• 谷歌及其他公司使用的硬體為超導環量子位，通過微波光子脈衝進行控制，並依賴外部的經典計算機進行校準測試"
-    }
-  },
-  {
-    "url": "https://www.wired.com/story/microsoft-25-percent-jump-in-carbon-emissions/",
-    "title": "Microsoft Reports a Massive 25 Percent Jump in Emissions",
-    "summary": "Data centers are driving up the company’s use of electricity—and carbon pollution.",
-    "full_text": "Microsoft’s greenhouse gas pollution increased by roughly 25 percent last year, the company says in its new sustainability report released Thursday.\nThe report follows similar ones released by Google and Amazon last week. Together, they show a troubling trend of rising tech company emissions, driven by the global race to build out power-hungry data centers.\nIn a blog post announcing the report, Microsoft vice chair and president Brad Smith and chief sustainability officer Melanie Nakagawa say that the emissions increase is driven “primarily by the expansion of our datacenter infrastructure.”\nA significant portion of that increase, they write, was tied to emissions from energy the company purchased or acquired to run its operations. Known as Scope 2 emissions, that greenhouse gas pollution accounted for 13 percent of Microsoft’s total.\nData centers, which use large amounts of energy running artificial intelligence chips, have pushed many large tech companies’ net-zero goals increasingly out of reach over the past few years.\nAmazon disclosed a 16 percent increase in its CO2 emissions in its recent sustainability report. Google said in its new sustainability report that annual greenhouse gas emissions rose 18 percent last year compared to 2024, the biggest single-year increase it’s recorded. The company has aggressively invested in renewable energy, but it’s also begun adding fossil fuel power for some of its data centers.\nMicrosoft highlighted in its sustainability report that it had matched 100 percent of its electricity consumption with carbon-free sources. But the data center build-out is set to accelerate—and some of Microsoft’s recent investments could drive its emissions higher. Notably, the new report covers the 2025 fiscal year, which ended last June, and has made a number of deals since then involving gas-powered data centers.\nLast month, the company officially announced a partnership with Chevron, which is building a power plant to supply a future data center for the company in West Texas. Permits show that that power plant could emit more than 11.5 million tons of CO2 equivalent annually, an amount greater than the entire state of Rhode Island. The company has also leased buildings on the Stargate campus in Abilene, Texas, which will be powered by an onsite power plant that could emit more than 7.8 million tons of CO2 equivalent each year. Microsoft has also signed a nonbinding letter of intent for compute at a West Virginia data center, which would be powered by off-grid gas that could emit more than 11 million tons of greenhouse gases.\n“Microsoft’s strategy includes exploring a variety of options for mitigating the emissions from its electricity consumption, consistent with our sustainability ambitions,” Nakagawa says in a statement to WIRED.\nMicrosoft’s approach to offsetting some of its emissions via credits and other investments is also changing. The company says it stopped purchasing unbundled renewable energy certificates, a move that contributed in part to the rise in Scope 2 emissions. Using these types of certificates have been criticized in recent years as greenwashing because they don’t necessarily add more clean power to the grid. Unbundled RECs are essentially a “paper transaction that is physically disconnected from real-world consequences,” says Danny Cullenward, a researcher at the University of Pennsylvania. (Cullenward is also a visiting faculty member at Google but notes he was not speaking on behalf of the company.)\n“I think it's highly commendable that [Microsoft] is moving away from unbundled RECs and prioritizing investments in new clean electricity, where power purchase agreements and other long-term offtake agreements can and do cause new clean electricity to come online,” he adds.\nDespite the rise in emissions and its continued investments in AI, Microsoft still says that it plans to become “carbon negative” by 2030. Smith and Nakagawa write that the global race for AI is “increasing demand for … energy, water, land, and materials.” They say that the company “has a responsibility to help ensure that technology strengthens, rather than strains, the systems and communities on which it depends.”",
-    "source": "Wired",
-    "category": "tech",
-    "lang": "en",
-    "topic": "Tech",
-    "published": "2026-07-10T23:16:56+00:00",
-    "crawled": "2026-07-10T23:34:35.230843+00:00",
-    "summarized": true,
-    "ai_summary": "• 微軟在其最新的可持續性報告中指出，去年其溫室氣體排放量增加約25%。  \n• 排放量的增加主要由於數據中心基礎設施的擴張，這些數據中心消耗大量能源。  \n• 微軟報告中提到，與運營相關的能源購買所產生的Scope 2排放占其總排放的13%。  \n• 微軟最近與雪佛龍達成合作，計劃在德克薩斯州建設一座發電廠，該廠可能每年排放超過1150萬噸二氧化碳當量。",
-    "summaries": {
-      "zh-HK": "• 微軟在其最新的可持續性報告中指出，去年其溫室氣體排放量增加約25%。  \n• 排放量的增加主要由於數據中心基礎設施的擴張，這些數據中心消耗大量能源。  \n• 微軟報告中提到，與運營相關的能源購買所產生的Scope 2排放占其總排放的13%。  \n• 微軟最近與雪佛龍達成合作，計劃在德克薩斯州建設一座發電廠，該廠可能每年排放超過1150萬噸二氧化碳當量。"
-    }
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cly8eqyj8e2o?at_medium=RSS&at_campaign=rss",
-    "title": "Meet the crypto billionaires building a world where money buys you a vote",
-    "summary": "They think democracy has run its course - so they're setting up their own nations instead.",
-    "full_text": "Meet the crypto billionaires building a world where money buys you a vote\n- Published\nThe Free Republic of Liberland doesn't look like much from the boat.\nYou would never guess that this flat, muddy stretch of floodplain on the Danube River, dotted with alder trees, tents and treehouses, is connected to some of the world's wealthiest men - including the biggest initial investor in the Trump family's crypto business.\nBy contrast, the virtual reality version of Liberland I'm currently being shown, designed by Zaha Hadid's ZHA architecture firm, features gleaming towers, floating public parks, and gravity-defying water features.\nThe person showing it to me is Vít Jedlička, Liberland's president. He founded the micronation on a disputed bit of territory between Serbia and Croatia with the goal of making a truly libertarian, digital country that runs on the same technology as cryptocurrencies.\nI've come to Liberland for the past year as part of a BBC Two documentary, The Tech Billionaire Takeover. Liberland may look and sound like a joke. But it is bankrolled by some of the wealthiest men in crypto, and it runs on an idea they are trying to export: that government itself can be replaced.\nWe arrive at the country by boat because Croatian authorities have stopped people from doing so by land. A few settlers in anoraks come out to wave to us from the shore and President Jedlička, communicating via megaphone, presents one of the settlers with an official medal.\nIn most modern democracies, everyone has an equal vote. But things are different in Liberland thanks to a purchasable crypto token called Liberland Merits. President Jedlička tells me a person is elected through Merits. \"So the people that have more Merits are able to have more say in who is going to be in the leadership of the country,\" he says. This effectively means you can vote directly with your money.\nLiberland is also entirely tax-free, something its interior minister, Ivan Pernar, a controversial Croatian former MP who was kicked out of parliament for spreading conspiracy theories, explains to me.\n\"Usually, people who believe in freedom, decentralised finances and so on, they tend to be from the upper class of society,\" Pernar tells me. \"If you make zero selection and you say whoever comes on [the] boat is welcome, we would end up like [the] UK. We don't want that.\"\n\"So it's liberty, but... some people have more liberty than others?\" I ask. One of the main ways to gain power and influence in Liberland appears to be through money, I suggest.\n\"Of course,\" says Pernar. He says that if you had \"a bunch of bums in your country without anything\", others would have to contribute to their benefits. He goes on to compare the poor to animals. \"Don't feed the animals, because if you do, they will be accustomed to that and they will lose [the] ability to feed themselves. The same is with people.\"\nTo Liberland's wealthy backers, helping the poor - or indeed any form of taxation or centralised redistribution of wealth - is an affront to their individual liberty. This view is shared, unsurprisingly, by people in this world with far more money and influence than Pernar.\nThe banana billionaire\nOver the past year, I've been hanging out with Liberland's prime minister, Chinese crypto titan Justin Sun. With Sun's backing - and that of about 30 other tech billionaires, they claim - the Liberlanders may now actually have access to the money needed to start building the version of their micronation with gleaming towers.\nSun is worth an estimated $8.5bn (£6.4bn). He's perhaps most famous for purchasing an art piece consisting of a banana duct taped to a wall for $6.2m and then eating it. He has also been accused by US regulators of fraud and market manipulation. Sun denies the charges, and recently reached a $10m settlement to resolve them.\nHis company, Tron, is a blockchain, a global software network on which you can buy and sell crypto currencies. Unlike a bank, it isn't run by one single authority - it's decentralised, existing across many computers all around the world, making it harder to tax and regulate.\nThis same blockchain technology is being used to run Liberland's government and one day, if Sun gets his way, it could run ours too. Citizens vote on laws and referendums using digital tokens, and the voting itself is automatically tallied and enforced by code, rather than counted by officials. In reality, though, the technology is still in its juvenile phase, and human officials are still required to implement laws.\nAccording to blockchain analytics firm TRM Labs, external, Tron is one of the biggest platforms for moving illicit crypto - reportedly including funds tied to Hamas and Hezbollah, external, alongside those of drug cartels and mafia networks. Sun says Tron has innovated new collaborations with law enforcement to tackle illegal transactions on the blockchain, leading to huge declines in illicit volume on the platform.\nThe Trump family welcomed him as lead token investor in their own crypto business, World Liberty Financial. Sun invested more than $75m in the company, as well as millions more in Donald Trump's memecoin, which won him a dinner with the US president.\nPresident Trump officially stepped down from the company once he took office but his family trust still owns and profits from it, selling a cryptocurrency coin called USD1. He has made more than $1.4bn from crypto in the past year, and stands to make much more.\nA planet without borders?\nIt's safe to say the Trumps have profited hugely from their relationship to Sun. But what do Sun and other crypto entrepreneurs who have cosied up to the Trumps want in return? Liberland may offer a glimpse.\nIn person, Sun is warm and friendly. Like other billionaires I met, I sensed that Sun rarely got to hang around people that didn't work for him or desire his money. Most of our conversations centred around sci-fi and video games.\nLast summer, when Sun had just landed from space after paying $29m to fly there with Jeff Bezos' Blue Origin company, he rang me to tell me about the experience. He had been struck by the idea that \"the planet itself is boundaryless\", without borders, and that \"there's not even a concept of the country in the first place\". The notion that the nation-state is outdated, and could therefore be replaced with blockchain technology, is one of the reasons h e decided to run to become Liberland's prime minister.\nLiberland isn't an outlier - it's one of several prototypes of such micronations, areas claimed as independent nations but not legally recognised as such. Prospera in Honduras, Peter Thiel's Seasteading Institute, and Tim Draper's Draper Nation, a fully digital country with Bitcoin as its currency, are all chasing the same idea.\nI meet Draper, a billionaire tech investor himself, at Silicon Valley's Draper University, his boot camp for young tech founders, where students pledge to \"promote freedom at all costs\". Draper tells me he believes government provides \"bad service at a high cost\", and blockchain will simply replace it: \"It's just a matter of time.\"\nMany of these ideas can be traced back to the controversial thinker and tech founder Curtis Yarvin, who has been called the \"founder of the Dark Enlightenment\". He has won praise from figures on the US right, including tech billionaire Peter Thiel and some in the current Trump administration, including Vice-President JD Vance. His philosophy is notoriously confusing, but it essentially amounts to a criticism of democracy (which has failed, he claims, because immigration is still too high) and concludes we should replace it with an authoritarian structure that sits somewhere in between a corporation, a monarchy, and a blockchain-run micro-nation.\nDespite the fact that he views the media as one half of \"The Cathedral\" - his term for what he believes is the repressive ideological power made up of journalists and academics that secretly runs Western society - he agrees to meet m",
-    "source": "BBC World",
-    "category": "general",
-    "lang": "en",
-    "topic": "World",
-    "published": "2026-07-10T23:03:11+00:00",
-    "crawled": "2026-07-10T23:34:42.016665+00:00",
-    "summarized": true,
-    "ai_summary": "• 自由共和國利伯蘭是一個位於塞爾維亞和克羅地亞之間的微國，由維特·耶德利卡創立，旨在建立一個以加密貨幣技術運行的自由主義數字國家。  \n• 利伯蘭的選舉系統基於可購買的加密代幣「利伯蘭優勢」，持有更多代幣的人在國內擁有更大的發言權。  \n• 利伯蘭完全免稅，內政部長伊萬·佩爾納表示，這樣的制度吸引了來自上層社會的支持者。  \n• 克羅地亞當局禁止人們通過陸路進入利伯蘭，訪客需乘船抵達。",
-    "summaries": {
-      "zh-HK": "• 自由共和國利伯蘭是一個位於塞爾維亞和克羅地亞之間的微國，由維特·耶德利卡創立，旨在建立一個以加密貨幣技術運行的自由主義數字國家。  \n• 利伯蘭的選舉系統基於可購買的加密代幣「利伯蘭優勢」，持有更多代幣的人在國內擁有更大的發言權。  \n• 利伯蘭完全免稅，內政部長伊萬·佩爾納表示，這樣的制度吸引了來自上層社會的支持者。  \n• 克羅地亞當局禁止人們通過陸路進入利伯蘭，訪客需乘船抵達。"
-    }
-  },
-  {
-    "url": "https://www.aljazeera.com/news/2026/7/10/cuba-suffers-second-island-wide-blackout-in-a-week-amid-trump-fuel-blockade?traffic_source=rss",
-    "title": "Cuba suffers second island-wide blackout in a week amid Trump fuel blockade",
-    "summary": "US President Donald Trump has placed the Caribbean island under a de facto oil blockade, straining its power grid.",
-    "full_text": "Cuba suffers second island-wide blackout in a week amid Trump fuel blockade\nUS President Donald Trump has placed the Caribbean island under a de facto oil blockade, straining its ageing power grid.\nCuba has reported its second nationwide blackout in less than a week, plunging the island into darkness shortly before evening.\nOn Friday, the Union Electrica de Cuba, the state-owned utility in charge of the electrical grid, announced that the outage began at 4:30pm local time (20:30 GMT).\nRecommended Stories\nlist of 3 items- list 1 of 3Cuba sees nationwide power blackout for third time in six months\n- list 2 of 3Cuba loses power across nation for third time this year\n- list 3 of 3At UN, Cuba rallies support against ‘ruthless’ US blockade\nNo explanation was given for the blackout. But it follows a similar power failure on Monday, bringing the total number of island-wide outages to four since the start of the year. Two other total blackouts struck in March.\nOutages are not uncommon in Cuba, where the electricity infrastructure is increasingly aged. Much of the system dates to the Cold War period, between 1960 and 1980.\nBut the problem has intensified since January, when United States President Donald Trump effectively severed Cuba’s supply of foreign oil.\nAlready, Cuba has been under the longest-running trade embargo in modern history. Since the 1960s, the US has largely barred trade with the island, which sits roughly 140 kilometres — or 90 miles — from its shores.\nSince taking office for a second term, though, Trump has sought to trigger regime change on the communist-led island. Critics have long accused the government in Havana of human rights abuses, including the violent suppression of dissent.\nOn January 3, Trump authorised a military operation against Venezuelan President Nicolas Maduro, a socialist leader and ally of the Cuban government. The operation culminated in Maduro’s abduction and transport to New York, where he remains imprisoned on drug- and weapons-related charges.\nShortly after Maduro’s removal, Trump announced that Venezuela would no longer send oil or money to Cuba. His administration has continued to control Venezuelan oil exports in the months since.\nThen, on January 29, Trump issued an executive order declaring that Cuba “constitutes an unusual and extraordinary threat” to the US. As part of the order, he threatened any country that supplies the island with fuel with steep tariffs.\nSince then, only a single Russian oil tanker has reached Cuban soil — but that was in March.\nAs of 2023, Cuba only produces 40 percent of the oil it uses, according to the International Energy Agency. The rest comes from overseas.\nHuman rights experts have warned that the continued fuel deprivation could have consequences for Cuba’s civilian population, as public services like transportation shut down.\nIn June, the high commissioner for human rights at the United Nations, Volker Turk, pointed to statistics that showed infant mortality nearly doubled in recent months.\n“The fuel restrictions imposed since early 2026 and recent tightening of extraterritorial sanctions, taken together, are directly harming Cubans, especially the most vulnerable,” Turk said in a statement.\n“Children are dying because doctors lack access to essential medical supplies and medicines. This is unacceptable.”\nThe Trump administration, meanwhile, has blamed mismanagement in the Cuban government for the blackouts.\n“We’ve done nothing punitive against the Cuban regime,” US Secretary of State Marco Rubio told Al Jazeera in March.\nPrior to the fuel blockade, Cuba had planned to shift some of its energy infrastructure away from fossil fuels, in favour of solar and other renewable energy sources.\nIt has sped up that transition, with the help of solar technology imported from the US’s main economic rival, China.\nStill, renewable energy only accounts for about 18 percent of Cuba’s overall energy consumption, according to estimates from 2022. Cuba aims to produce nearly a quarter of its energy from renewable sources by 2030.",
-    "source": "Al Jazeera",
-    "category": "general",
-    "lang": "en",
-    "topic": "Politics",
-    "published": "2026-07-10T23:18:08+00:00",
-    "crawled": "2026-07-10T23:34:42.986545+00:00",
-    "summarized": true,
-    "ai_summary": "• 古巴在一周內遭遇第二次全國性停電，停電於當地時間下午4:30開始，導致全島陷入黑暗。  \n• 此次停電是自年初以來的第四次全國性停電，之前的兩次分別發生在一周前和三月。  \n• 特朗普政府對古巴實施事實上的石油封鎖，導致古巴的電力基礎設施面臨更大壓力。  \n• 根據國際能源機構的資料，古巴目前僅能生產其所需石油的40%，其餘部分依賴進口。",
-    "summaries": {
-      "zh-HK": "• 古巴在一周內遭遇第二次全國性停電，停電於當地時間下午4:30開始，導致全島陷入黑暗。  \n• 此次停電是自年初以來的第四次全國性停電，之前的兩次分別發生在一周前和三月。  \n• 特朗普政府對古巴實施事實上的石油封鎖，導致古巴的電力基礎設施面臨更大壓力。  \n• 根據國際能源機構的資料，古巴目前僅能生產其所需石油的40%，其餘部分依賴進口。"
-    }
-  },
-  {
-    "url": "https://www.aljazeera.com/economy/2026/7/10/apple-files-lawsuit-accusing-chatgpt-maker-openai-of-stealing-trade-secrets?traffic_source=rss",
-    "title": "Apple files lawsuit accusing ChatGPT maker OpenAI of stealing trade secrets",
-    "summary": "The complaint alleges a coordinated effort by two former Apple employees and OpenAI to steal confidential information.",
-    "full_text": "Apple files lawsuit accusing ChatGPT maker OpenAI of stealing trade secrets\nThe complaint alleges a coordinated effort by two former Apple employees and OpenAI to steal confidential information.\nApple has sued OpenAI and two former employees, alleging misappropriation of its trade secrets as the artificial intelligence company seeks to build its own hardware for ChatGPT, a major rupture in a partnership between the iPhone maker and the AI giant.\nThe complaint, filed in a California federal court on Friday, alleges a coordinated effort to steal Apple’s confidential information, including product designs, manufacturing processes and supply chain strategies.\nRecommended Stories\nlist of 4 items- list 1 of 4FIFA has nearly 1,200 tickets still on sale for World Cup final at $7,380\n- list 2 of 4EU says ‘addictive’ features on Instagram and Facebook breach its rules\n- list 3 of 4Why are politicians and sanctioned states embracing crypto?\n- list 4 of 4How Wong Kim Ark’s legacy reignited the fight for birthright citizenship\nOpenAI did not immediately respond to a request for comment.\nThe lawsuit names Chang Liu, a former senior system electrical engineer, and Tang Yew Tan, a former vice president of product design for the iPhone and Apple Watch, as defendants, along with the OpenAI Foundation, OpenAI Group PBC and io Products. Neither defendant immediately responded to a request for comment.\nApple alleged that Liu failed to return a company-issued work laptop and later used an authentication bug to access Apple’s internal network, downloading “dozens of Apple’s confidential hardware-related files”.\nThe iPhone maker also claimed that OpenAI’s hardware chief Tan had been “methodically using Apple’s confidential information to benefit OpenAI” by emailing himself information about Apple suppliers and internal industry summaries before his departure.\nApple alleged that Tan encouraged Apple employees to bring parts from Apple to job interviews at OpenAI for “show and tell” sessions, citing an incident in its filing where one OpenAI job candidate allegedly said that he “didn’t even know we could take those from the office”.\nMore than 400 former Apple employees now work for OpenAI, Apple said in the filing, adding that “it is not surprising” that some of them have knowledge of its confidential information.\n“That OpenAI now employs people who were once entrusted with Apple’s trade secrets does not entitle OpenAI to use that information to jumpstart its hardware efforts,” the iPhone maker wrote in its complaint.\nOpenAI has never said exactly what type of device it is building, but has described it as an effort to find a new way to interact with AI that goes beyond “traditional products and interfaces”. It is part of a broader push to create a physical embodiment of the latest AI advances, a decade after Amazon and Google introduced screen-free talking speakers into homes.\nThe lawsuit claims the effort was built partly on knowledge stolen from Apple.\nApple also alleged that OpenAI employees sought confidential information from the company’s suppliers.\nAt one point, Apple said, one of its suppliers used a secret metal finishing technique for OpenAI, on the belief that the AI company had Apple’s permission to use the technique.\nOpenAI bought hardware startup io Products, founded by former Apple designer Jony Ive, last year in a $6.5bn deal, in a push to move beyond software into consumer hardware. Ive is not named in the lawsuit.\nStrained relationship\nTensions between the two tech companies have strained their relationship, as the race to develop AI products has intensified competition for talent and proprietary technology.\nIn its complaint, Apple claimed it wrote to OpenAI in February with concerns that its confidential information was making its way to OpenAI, asking to discuss the matter, but received no reply.\nA person familiar with the matter told the Reuters news agency in May that OpenAI was exploring legal options against Apple, including notifying the technology giant of a breach of contract but potentially not filing a full lawsuit.\nIn 2024, Apple announced the integration of its Apple Intelligence technology across its apps, including Siri, and brought OpenAI’s chatbot ChatGPT to its devices.\nTheir partnership allows users to access ChatGPT results through Siri, while iPhone users can also sign up for ChatGPT memberships directly from the iOS settings menu.\nApple rolled out a long-delayed overhaul of Siri last month. The update comes two years after Apple first promised major upgrades.",
-    "source": "Al Jazeera",
-    "category": "general",
-    "lang": "en",
-    "topic": "Regulation",
-    "published": "2026-07-10T23:00:11+00:00",
-    "crawled": "2026-07-10T23:34:43.034601+00:00",
-    "summarized": true,
-    "ai_summary": "• 蘋果公司在加州聯邦法院對OpenAI及兩名前員工提起訴訟，指控其竊取商業機密。  \n• 訴訟指控包括前員工劉昌和譚耀彤未歸還公司發放的工作筆記本電腦，並利用漏洞訪問蘋果內部網絡。  \n• 蘋果聲稱譚耀彤在離職前曾將蘋果的機密資訊發送給自己，並鼓勵其他員工在面試時攜帶蘋果零件。  \n• 蘋果指出，超過400名前員工目前在OpenAI工作，並強調這不應該使OpenAI有權使用蘋果的商業機密。",
-    "summaries": {
-      "zh-HK": "• 蘋果公司在加州聯邦法院對OpenAI及兩名前員工提起訴訟，指控其竊取商業機密。  \n• 訴訟指控包括前員工劉昌和譚耀彤未歸還公司發放的工作筆記本電腦，並利用漏洞訪問蘋果內部網絡。  \n• 蘋果聲稱譚耀彤在離職前曾將蘋果的機密資訊發送給自己，並鼓勵其他員工在面試時攜帶蘋果零件。  \n• 蘋果指出，超過400名前員工目前在OpenAI工作，並強調這不應該使OpenAI有權使用蘋果的商業機密。"
-    }
-  },
-  {
-    "url": "https://www.nytimes.com/2026/07/10/world/americas/bahamas-plane-crash-deaths.html",
-    "title": "Ten Killed in Plane Crash on the Bahamas’ Largest Island",
-    "summary": "The crash occurred as the country celebrated its independence from Britain.",
-    "full_text": "",
-    "source": "New York Times",
-    "category": "general",
-    "lang": "en",
-    "topic": "General",
-    "published": "2026-07-10T23:21:53+00:00",
-    "crawled": "2026-07-10T23:34:46.819219+00:00",
-    "summarized": true,
-    "ai_summary": "• 巴哈馬最大島嶼發生飛機墜毀事故，造成十人遇難  \n• 事故發生在該國慶祝脫離英國獨立的同時  \n• 當地警方已展開調查，確定事故原因  \n• 飛機墜毀的具體時間和地點尚未公布",
-    "summaries": {
-      "zh-HK": "• 巴哈馬最大島嶼發生飛機墜毀事故，造成十人遇難  \n• 事故發生在該國慶祝脫離英國獨立的同時  \n• 當地警方已展開調查，確定事故原因  \n• 飛機墜毀的具體時間和地點尚未公布"
-    }
-  },
-  {
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeGJ1V0ZLTVFFNEEyX0RueDhyUEN5RngtM0RYYllYWDh4VTVJdzdqV2tOTmc1ZHdVMEczcDVzZ0F0S0ctakdvNGk0NjRrcnJTaDluUmxVVk0wM29ndUJPM3hTdGw0T0dldVRMSGJqN2lUWEZRSjRPR2l3MEFfM1g1SGtSVjRma0hMcmI5Z2ZXV3V6OE9hNTlqUXBn?oc=5",
-    "title": "Berkeley Talks: When we talk to AI, what are we talking to? - University of California, Berkeley",
-    "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOeGJ1V0ZLTVFFNEEyX0RueDhyUEN5RngtM0RYYllYWDh4VTVJdzdqV2tOTmc1ZHdVMEczcDVzZ0F0S0ctakdvNGk0NjRrcnJTaDluUmxVVk0wM29ndUJPM3hTdGw0T0dldVRMSGJqN2lUWEZRSjRPR2l3MEFfM1g1SGtSVjRma0hMcmI5Z2ZXV3V6OE9hNTlqUXBn?oc=5\" target=\"_blank\">Berkeley Talks: When we talk to AI, what are we talking to?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of California, Berkeley</font>",
-    "full_text": "",
-    "source": "AI News (Google)",
-    "category": "ai",
-    "lang": "en",
-    "topic": "Ai",
-    "published": "2026-07-10T23:22:09+00:00",
-    "crawled": "2026-07-10T23:35:08.459847+00:00",
-    "summarized": true,
-    "ai_summary": "• 加州大學伯克利分校舉辦了一場名為「當我們與AI對話時，我們在與誰對話？」的講座  \n• 講座探討了人工智能的本質及其與人類溝通的方式  \n• 活動吸引了學者和學生參加，促進了對AI技術的深入討論  \n• 此次講座旨在提高公眾對AI倫理和社會影響的認識",
-    "summaries": {
-      "zh-HK": "• 加州大學伯克利分校舉辦了一場名為「當我們與AI對話時，我們在與誰對話？」的講座  \n• 講座探討了人工智能的本質及其與人類溝通的方式  \n• 活動吸引了學者和學生參加，促進了對AI技術的深入討論  \n• 此次講座旨在提高公眾對AI倫理和社會影響的認識"
-    }
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
-    "title": "Meta removes controversial AI feature on Instagram after backlash",
-    "summary": "Meta told Dylan Byers, of Puck News, that it had nixed the feature after backlash from its user base.",
-    "full_text": "Meta has axed a controversial feature that allowed users to modify photos from public Instagram accounts using AI. The feature, which was rolled out earlier this week along with a batch of other AI tools, “missed the mark” and is no longer available, according to the company.\nEarlier this week, Meta announced Muse Image, a new AI image generator built by its dedicated AI unit known as Meta Superintelligence Labs. Meta promoted one feature that allowed individuals to generate images by @-mentioning public Instagram accounts that they wanted to reference. The feature, which wasn’t designed to alert a user if their photos were used in this way, prompted immediate backlash.\nTechCrunch wrote its own guide explaining to users how to disable the feature.\nNow, Meta has reversed course. The company issued a blog post Friday announcing that it was removing the feature. Puck News founding partner Dylan Byers was the first to share the company’s decision.\n“Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,” the company posted on its blog. We’ve heard the feedback that this feature missed the mark, so it’s no longer available.\nTechCrunch reached out to Meta for more information and will update this article if it responds.\nSince its integration with social media platforms, AI has been misused with wild abandon — often to generate naked images of female celebrities. Platforms have attempted to mitigate this trend, although the guardrails introduced have often fallen short.\nIn the case of Meta’s newly nixed feature, it seems somewhat obvious that it would have been abused in this way. Indeed, Byers notes that the decision to do away with the feature came “amid scrutiny from users and talent agencies, including CAA”.",
-    "source": "TechCrunch",
-    "category": "tech",
-    "lang": "en",
-    "topic": "Tech",
-    "published": "2026-07-10T23:55:07+00:00",
-    "crawled": "2026-07-11T00:02:42.962776+00:00",
-    "summarized": true,
-    "ai_summary": "• Meta公司取消了一項有爭議的Instagram功能，該功能允許用戶使用AI修改公共帳戶的照片。  \n• 此功能本週早些時候推出，但因未能滿足用戶需求而遭到廣泛反對。  \n• Meta在周五的部落格中宣布該功能不再可用，並表示已聽取用戶反饋。  \n• 此功能的取消是在用戶和人才代理機構（包括CAA）的審查壓力下做出的決定。",
-    "summaries": {
-      "zh-HK": "• Meta公司取消了一項有爭議的Instagram功能，該功能允許用戶使用AI修改公共帳戶的照片。  \n• 此功能本週早些時候推出，但因未能滿足用戶需求而遭到廣泛反對。  \n• Meta在周五的部落格中宣布該功能不再可用，並表示已聽取用戶反饋。  \n• 此功能的取消是在用戶和人才代理機構（包括CAA）的審查壓力下做出的決定。"
-    }
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c78yp5j2e8eo?at_medium=RSS&at_campaign=rss",
-    "title": "Chaos and confusion reign as Harry loses media battle",
-    "summary": "Team Sussex has had a bumpy last seven days in the UK, which was meant to focus on the Invictus Games.",
-    "full_text": "Chaos and confusion reign as Harry loses media battle\n- Published\nPrince Harry's visit this week was meant to be the dramatic moment when his wife Meghan appeared before the UK public for the first time in almost four years.\nThat would focus the world's attention on his passion project, the Invictus Games, which would be promoted in London and Birmingham with a series of media-friendly events.\nInstead it turned into a series of unfortunate events - with crisis comms appearing to be hit by its own crisis - leaving behind a vapour trail of confusion.\nMeghan made no public appearances during the week and Prince Harry's good causes were overshadowed, with nightmare timing, by defeat in court against Associated Newspapers.\nThere was a private family reunion between the King and Queen and Prince Harry, Meghan and their children, Archie and Lilibet, on Friday.\nBut there were no pictures from this secretive get-together and the private moment at Highgrove hasn't really shifted the narrative on what proved a difficult week for the visitors from California.\nTeam Sussex might already have expected a tough press for their trip to the UK and their supporters feel that the media's treatment of Harry and Meghan is the biggest stitch-up since the Bayeux Tapestry.\nBut even before Harry's visit had begun there was chaos.\nA war of words, with acrimonious rival briefings, had taken place between Prince Harry's team and Buckingham Palace over where he would be staying during his visit.\nIt emerged he had already been told he wasn't staying there and Buckingham Palace, the establishment that Harry challenges, ended up looking more convincing.\nBut even worse followed, with such coincidentally bad timing that it would have suited a disaster movie.\nAt the very start of the first engagement about the Invictus Games, as Prince Harry had taken to the podium, word spread that he had lost all his claims against the publishers of the Daily Mail.\nIt was a much bigger defeat than many had anticipated, with the news buzzing around phones in the room as he began his speech.\nPlans for an on-camera statement from Prince Harry that afternoon were hastily ditched. Press would no longer be able to go inside an event planned for the following day.\nHarry - famously nicknamed Harold by his brother William - was having a bad week.\nTwo of the Invictus events had already been completely overshadowed, taking away attention from his work supporting injured military veterans.\nAnd while Team Sussex stumbled, the Prince of Wales was enjoying a trouble-free visit to Hastings, a place famous for a battle where William defeated Harold.\n- Meghan will not appear at public events during Harry UK trip - Published1 day ago\n \n- Harry's bad news lands at wrong time, but prince sticks to script - Published3 days ago\n \n- Buckingham Palace says Prince Harry will not stay at palace - Published4 days ago\n \nThe Duchess of Sussex is a polarising figure in the UK, provoking strong reactions among her supporters and her detractors. But there is no denying how much she fascinates the public and how much that can bring attention to causes.\nA row over security meant that she had already been pulled from the start of Prince Harry's week in the UK.\nBut there was still the possibility that Meghan would show up later in the week, as originally planned, particularly at the big Invictus showcase at Birmingham's National Exhibition Centre.\nOn the evening before that big moment, which would bring together Invictus competitors and supporters along with the TV cameras, that appearance was ruled out too. Meghan wasn't attending any public events in the UK.\nThat still left open the prospect of a private visit - and indeed on Friday afternoon Meghan was part of the meeting with the King, along with her husband and children, revealed in a Palace statement with only the barest of details.\nWhat it also left was an impression of confusion and uncertainty. It was more will-they-won't-they.\nHowever at the Invictus event in Birmingham, in the NEC's cavernous exhibition halls, you could see what was being missed.\nHere was the Invictus community that is Prince Harry's \"second family\", people he has known and worked with for many years, a place of trust, where Harry was the hero.\nHe worked the room - and it was a very big room - with great patience, hugging and chatting, joking, posing for pictures, trying out a few of the sports events. His support was clearly deeply valued.\nIn a spirit of inclusion, he tried out a new British Sign Language sign that had been designed to say Invictus Games, when you imagine he might have wanted to try out some more direct sign language.\nPrince Harry was a relaxed figure here, showing his respect for the competitors who had overcome so much adversity. They inspired him and in turn they showed him their affection.\nIf the Sussexes seem to travel with unnecessary drama, then what Harry's visit left behind was a poignant sense of lost opportunity.\nSign up here to get the latest royal stories and analysis every week with our Royal Watch newsletter. Those outside the UK can sign up here.",
-    "source": "BBC World",
-    "category": "general",
-    "lang": "en",
-    "topic": "General",
-    "published": "2026-07-10T23:36:03+00:00",
-    "crawled": "2026-07-11T00:02:52.968007+00:00",
-    "summarized": true,
-    "ai_summary": "• 哈利王子本周訪問英國，原定讓梅根首次公開亮相，但最終未有公開出現  \n• 訪問期間，哈利在與《每日郵報》出版商的官司中遭遇重大失利，影響了他的慈善活動  \n• 哈利與家人在高格羅夫進行了私密聚會，但未有公開照片，未能改變外界對他們訪問的負面印象  \n• 哈利的行程受到混亂影響，與威爾士王子相比，後者的訪問則順利無阻",
-    "summaries": {
-      "zh-HK": "• 哈利王子本周訪問英國，原定讓梅根首次公開亮相，但最終未有公開出現  \n• 訪問期間，哈利在與《每日郵報》出版商的官司中遭遇重大失利，影響了他的慈善活動  \n• 哈利與家人在高格羅夫進行了私密聚會，但未有公開照片，未能改變外界對他們訪問的負面印象  \n• 哈利的行程受到混亂影響，與威爾士王子相比，後者的訪問則順利無阻"
-    }
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c3dyyln23v8o?at_medium=RSS&at_campaign=rss",
-    "title": "Russia trains sights on schools, offices and buses in busy Ukrainian city",
-    "summary": "In Zaporizhzhia, the densely populated city close to the front line, the security situation is deteriorating.",
-    "full_text": "Russia trains sights on schools, offices and buses in busy Ukrainian city\n- Published\nIt was five in the morning when Anna Holovchenko was woken up by glide bombs hitting the suburbs of her home city of Zaporizhzhia in eastern Ukraine.\nSecurity has deteriorated sharply there in a matter of weeks. Zaporizhzhia is a mere 24km (15 miles) from the front line, but is still home to some 750,000 people and the war is feeling closer than ever.\nAn hour later drones flew over Anna's house in a second wave of attack and Ukrainian air defences tried to bring them down. \"I realised I'm not getting any more sleep and started getting ready for work,\" she said.\nNumerous buses, petrol stations, schools, government offices and residential houses have been hit by Russian drones and bombs in recent weeks.\nActing mayor Regina Kharchenko told the BBC that during one particularly intensive attack she \"did not go to the shelter, but when it got too loud I took cover in the toilet\".\nA Shahed drone crashed not far from Anna's office with a big bang, and another drone struck a cable, taking down the internet. \"That's just another ordinary day in Zaporizhzhia,\" she said.\nTheir city is the administrative capital of Zaporizhzhia region, one of five regions in Ukraine's south and east that Russia claims as its own.\nThe Zaporizhzhia nuclear power plant, Europe's largest, is located almost 50km southwest of the city in part of the region under Russian occupation.\nFollowing the relentless spate of Russian attacks, Zaporizhzhia city council met in an underground shelter to discuss the worsening situation. \"The enemy has stepped up terror against civilians, municipal transport, privately-owned buses, cars, residential buildings and even children,\" Regina Kharchenko told the meeting.\nPlans had been made to build more shelters across the city and put up more anti-drone nets at the busiest and most vulnerable locations, the acting mayor told the BBC later, and she said anti-shatter film was being applied to windows in schools, hospitals and public buildings.\n\"Personally, I'm very afraid,\" she said. At night she sometimes sleeps on the floor in a corridor at home: \"I live in an ordinary high-rise, on the seventh floor. I've got no personal bunker with 10 bodyguards. I live an ordinary life.\"\nUkrainian forces have succeeded in pushing Russian forces back a few kilometres away from the city, and yet the attacks on Zaporizhzhia have worsened.\nThat is because many strikes are now carried out using small but lethal first-person-view (FPV) drones, which were not able to reach the city earlier.\nThere are several possible reasons for the deterioration, suggests Sam Cranny-Evans from the Royal United Services Institute think-tank in London.\nRussian forces have been using longer-range mothership drones to deliver several smaller drones which then scatter and strike targets that they would not be able to reach otherwise, he explains.\nAlso, they have been using so-called mesh networking technology, which is harder to jam and makes it possible to relay radio signals from drone to drone, thus allowing them to cover longer distances.\nAnother possible factor, Cranny-Evans told the BBC, could be \"reduced Ukrainian electronic warfare [activity], because of a focus elsewhere and an equally increased focus from Russian units\" on Zaporizhzhia.\nLocal authorities say they intercepted 884 Russian drones in the last week of June alone.\nWhile Russian troops have been forced to retreat south of Zaporizhzhia, they continue advancing elsewhere, albeit at a much slower pace than before.\nTheir progress has recently been hampered by a successful Ukrainian campaign of strikes against Russian oil refineries, fuel storage and logistics in occupied territories.\nHundreds of thousands of residents are staying put for now, but for Zaporizhzhia's population Russia's offensive remains a constant threat after almost four and a half years of war.\n\"We've got food and fuel, why would I leave? Maybe I'm not the easily scared type,\" says Anna.\nAlthough she admits the thought of leaving has crossed her mind, she does not want Zaporizhzhia to become another city destroyed by Russia.\n\"We're just trying to stay safe and we're doing all we can to survive until our victory.\"",
-    "source": "BBC World",
-    "category": "general",
-    "lang": "en",
-    "topic": "General",
-    "published": "2026-07-10T23:02:35+00:00",
-    "crawled": "2026-07-11T00:02:52.996530+00:00",
-    "summarized": true,
-    "ai_summary": "• 近期，俄羅斯對烏克蘭東部城市扎波羅熱的學校、辦公室和巴士等地進行攻擊，造成安全局勢急劇惡化。  \n• 扎波羅熱距離前線僅24公里，市內約有75萬居民，居民面臨持續的空襲威脅。  \n• 行政市長哈爾琴科表示，市議會已在地下避難所召開會議，討論加強防護措施，包括建設更多避難所和安裝反無人機網。  \n• 烏克蘭軍隊已成功將俄軍推回幾公里，但扎波羅熱的攻擊仍在加劇，主要因為俄軍使用了小型無人機進行精確打擊。",
-    "summaries": {
-      "zh-HK": "• 近期，俄羅斯對烏克蘭東部城市扎波羅熱的學校、辦公室和巴士等地進行攻擊，造成安全局勢急劇惡化。  \n• 扎波羅熱距離前線僅24公里，市內約有75萬居民，居民面臨持續的空襲威脅。  \n• 行政市長哈爾琴科表示，市議會已在地下避難所召開會議，討論加強防護措施，包括建設更多避難所和安裝反無人機網。  \n• 烏克蘭軍隊已成功將俄軍推回幾公里，但扎波羅熱的攻擊仍在加劇，主要因為俄軍使用了小型無人機進行精確打擊。"
-    }
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c621jzex0gyo?at_medium=RSS&at_campaign=rss",
-    "title": "Could Andy Burnham scrap stamp duty?",
-    "summary": "Andy Burnham has spoken about reforming stamp duty and council tax - what do experts think he might do when he becomes PM?",
-    "full_text": "Could Andy Burnham scrap stamp duty?\n- Published\nSince Andy Burnham emerged as prime minister-in-waiting, there have been few clear details as to what we could expect to see from a government led by the MP for Makerfield.\nThe former mayor of Greater Manchester has promised to stick to Labour's 2024 manifesto pledges not to raise income tax, VAT and national insurance but has suggested there could be \"some movement\" with possible increases to business rates on warehouses to fund tax cuts for pubs and some high-street businesses.\nAnd when he launched his campaign to return to Parliament in May, Burnham indicated he wanted to change how property and land is taxed.\nOne of the measures Burnham has advocated in the past is scrapping stamp duty and replacing it with a land value tax (LVT) - an annual levy based solely on the value of the land itself, excluding any buildings or improvements on the property.\nAnother proposal he has reportedly backed is a proportional property tax - an annual tax based on a percentage of the property's value.\nIt's not clear that just because he's endorsed property tax reform that he'll definitely implement changes in government, but we've asked some experts for their view.\nLand value tax vs stamp duty\nStamp duty is a tax paid by home buyers on properties or land worth over £125,000, or £300,000 for first time buyers, in England and Northern Ireland.\nThe Institute for Fiscal Studies, an independent think tank, has described it as \"one of the most economically damaging taxes\", while Kemi Badenoch said last year a Conservative government would abolish the levy on main homes.\nBurnham too has been critical of the tax, instead favouring an LVT.\n\"The LVT, an annual tax on the market rental value of the land, would allow for the abolition of stamp duty - a tax on the aspirations of young people to put down roots and get on in life,\" he wrote in the Guardian during his first bid for the Labour leadership in 2010.\nIn the 16 years which have followed, Burnham has repeatedly called for reforms to property taxes.\nBut being in favour of property tax reform and then enacting it in government when confronted with the political and practical reality are two different things.\nEconomists are broadly united in their contempt for stamp duty, largely because they say it penalises transactions.\n\"More or less any property tax or local tax is going to be better than stamp duty,\" says Stuart Adam from the IFS.\n\"What stamp duty does is discourage people from buying and selling.\"\nHe argues that a land tax is an efficient way of raising revenue because land is in fixed supply, visible and identifiable, and cannot leave the country.\nThere are no \"damaging disincentive effects\", with the LVT not having an impact on behaviour at all, he says.\nHe adds that one of the ways to deal with the shortage of the housing stock in the country is to make the best use of what we have - and scrapping stamp duty would help with that.\n\"It would lead to less pressure on the housing market - less need to build more stuff,\" he says.\nChanging the tax system is not easy\nBut Lucian Cook, head of residential research at estate agents Savills, says implementing an alternative tax system would be fraught with difficulties - both practical and political.\n\"Has Burnham been given the electoral mandate to do it?\" he asks.\n\"It is such a big change to the tax system with clear winners and losers; it will be difficult to pull off within the rest of this Parliament.\"\nCook argues that stamp duty is a simple tax because it's levied on the point of sale of a property and generates \"upfront receipts\" for the Treasury.\nA land value tax, on the other hand, will be \"highly bureaucratic\" to implement and open to \"significant challenge\" from landowners because it is hard to determine the value of land separate to the buildings on it, he argues.\n\"For any new tax system you bring in, you would want it to be revenue neutral,\" he says.\n\"There is little doubt that [stamp duty] suppresses transaction activity. but it's about balancing that against the alternative,\" he says.\nProponents of an LVT say that by shifting the tax burden away from homebuyers, it will encourage retirees and empty nesters to downsize and frees up housing for growing families.\nCook says that implementing it on this basis would be tough politically.\nProperty is an \"emotive issue\" for many people, he says.\n\"Some of them would just find it unaffordable and people would feel forced to sell their home of which they have an emotional attachment.\n\"In general you do want to encourage a bit of downsizing in the market, but people want to feel like it's their choice.\"\nWhat about council tax?\nBurnham too has spoken out against what he views as the \"highly regressive\" council tax.\nCouncil tax is an annual property tax in the UK introduced in 1993 and used by local authorities to fund essential community services.\nProperties in England are categorised into eight valuation bands, A to H, based on what it would have sold for in 1991. The percentages are set based on the funding gap between how much a council needs to spend and the amount of money they receive in central government grants.\nIt's described as regressive in nature because lower value properties, in bands A and B, pay higher rates of tax than properties in higher bands.\nMany politicians and economists have called for council tax reform, describing the current system as outdated.\nThe Lib Dems have long called for reform, while the IFS has previously said that a reevaluation of council tax bands is \"long overdue\".\nChancellor Rachel Reeves announced a High Value Council Tax Surcharge of at least £2,500 on properties valued at more than £2m to come in from 2028. The tax will be levied on homeowners, rather than occupiers, and runs alongside council tax.\nBurnham reportedly supports a proposal by campaign group Fairer Share, which which suggests a levy equivalent to 0.48% of a property's value.\nBut Cook argues that a tax like this would be heavily weighted on London and the south-east of England, where house prices are generally higher than the rest of the country.\n\"If you are living in Wandsworth, you may be thinking 'why am I paying for libraries in Wigan?'\"\nHowever, Adam, from the IFS, argues that whether or not money would be redistributed from London and the South East depends on whether the government changes the central grants it gives to local authorities.\nThe IFS argues that an efficient way to generate tax revenue would be some sort of combined land value and proportional property tax - to replace stamp duty and council tax.\n\"There is a case for taxing the land but also a case for taxing the building,\" Adam says.\n- Published9 October 2025\n \n- Published3 December 2025\n \n- Published5 September 2025",
-    "source": "BBC World",
-    "category": "general",
-    "lang": "en",
-    "topic": "General",
-    "published": "2026-07-10T23:49:49+00:00",
-    "crawled": "2026-07-11T00:02:53.026955+00:00",
-    "summarized": true,
-    "ai_summary": "• 安迪·伯納姆在其競選活動中表示希望改革物業和土地稅制，包括可能廢除印花稅。  \n• 伯納姆提議用土地價值稅（LVT）取代印花稅，該稅基於土地本身的價值徵收。  \n• 印花稅是英格蘭和北愛爾蘭對價值超過125,000英鎊的物業徵收的稅，首次購房者的門檻為300,000英鎊。  \n• 經濟學家普遍批評印花稅，認為其會抑制交易，並支持土地稅作為更有效的稅收方式。",
-    "summaries": {
-      "zh-HK": "• 安迪·伯納姆在其競選活動中表示希望改革物業和土地稅制，包括可能廢除印花稅。  \n• 伯納姆提議用土地價值稅（LVT）取代印花稅，該稅基於土地本身的價值徵收。  \n• 印花稅是英格蘭和北愛爾蘭對價值超過125,000英鎊的物業徵收的稅，首次購房者的門檻為300,000英鎊。  \n• 經濟學家普遍批評印花稅，認為其會抑制交易，並支持土地稅作為更有效的稅收方式。"
-    }
-  },
-  {
-    "url": "https://www.scmp.com/news/china/science/article/3360171/typhoon-bavi-nears-chinese-bloggers-warned-amateur-ai-forecasts-may-be-illegal?utm_source=rss_feed",
-    "title": "As Typhoon Bavi nears, Chinese bloggers warned amateur AI forecasts may be illegal",
-    "summary": "As residents of eastern China brace for Typhoon Bavi to make landfall, bloggers have turned to AI weather models to post forecasts on social media, prompting criticism from state media, which warned that the amateur predictions could fall foul of the law.\nState broadcaster China Media Group reported on Thursday that some bloggers claiming to be “weather enthusiasts” were issuing forecasts using data from various open-source artificial intelligence weather models.\nSome have even begun offering...",
-    "full_text": "Advertisement\nAs Typhoon Bavi nears, Chinese bloggers warned amateur AI forecasts may be illegal\nOnline ‘weather enthusiasts’ in China are posting typhoon predictions, prompting criticism from state media\n2-MIN READ2-MIN\nDannie Pengin Beijing\nAs residents of eastern China brace for Typhoon Bavi to make landfall, bloggers have turned to AI weather models to post forecasts on social media, prompting criticism from state media, which warned that the amateur predictions could fall foul of the law.\nState broadcaster China Media Group reported on Thursday that some bloggers claiming to be “weather enthusiasts” were issuing forecasts using data from various open-source artificial intelligence weather models.\nSome have even begun offering predictions for specific locations for a fee, according to the broadcaster, also known as Voice of China.\nOn Thursday evening, a blogger from Shandong province posted predictions about Typhoon Bavi on social media, saying there was a “90 per cent chance” the storm could move deep into Shandong, based on tracking models.\nUnder the Meteorology Law of the People’s Republic of China, public weather alerts are subject to a centralised release system, and official meteorological stations are the only authorised issuers of forecasts and severe weather warnings.\nHuang Xiang, a researcher at Nanjing University of Information Science and Technology (NUIST), explained to the broadcaster that the centralised system was vital to prevent public confusion.\nAdvertisement\nSelect Voice\nSelect Speed\n1.00x",
-    "source": "SCMP",
-    "category": "general",
-    "lang": "en",
-    "topic": "Regulation",
-    "published": "2026-07-11T00:00:21+00:00",
-    "crawled": "2026-07-11T00:02:55.598473+00:00",
-    "summarized": true,
-    "ai_summary": "• 隨著颱風巴維逼近，中國東部居民開始準備應對，部分博主利用AI氣象模型在社交媒體上發佈預測。  \n• 中國媒體批評這些業餘預測可能違法，並指出根據《中華人民共和國氣象法》，只有官方氣象站有權發佈天氣預報和嚴重天氣警告。  \n• 一名來自山東省的博主在社交媒體上發佈預測，聲稱根據追蹤模型，颱風深入山東的機率為90%。  \n• 南京信息工程大學的研究員黃翔表示，集中發布系統對於防止公眾混淆至關重要。",
-    "summaries": {
-      "zh-HK": "• 隨著颱風巴維逼近，中國東部居民開始準備應對，部分博主利用AI氣象模型在社交媒體上發佈預測。  \n• 中國媒體批評這些業餘預測可能違法，並指出根據《中華人民共和國氣象法》，只有官方氣象站有權發佈天氣預報和嚴重天氣警告。  \n• 一名來自山東省的博主在社交媒體上發佈預測，聲稱根據追蹤模型，颱風深入山東的機率為90%。  \n• 南京信息工程大學的研究員黃翔表示，集中發布系統對於防止公眾混淆至關重要。"
-    }
-  },
-  {
-    "url": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-    "title": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
-    "summary": "Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them. The feature, as originally set up, meant that content from any public Instagram account could be used in AI creations without the account owner's permission. [&#8230;]",
-    "full_text": "Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them. The feature, as originally set up, meant that content from any public Instagram account could be used in AI creations without the account owner’s permission.\nMeta turns off the Instagram feature that let users make AI deepfakes of public accounts\nThe feature, announced on Tuesday, received significant backlash.\nThe feature, announced on Tuesday, received significant backlash.\n“Earlier this week, we announced that one way for people to generate images in Meta AI is by @-mentioning public Instagram accounts that they want to reference,” Meta says in an update to a blog post about its new Muse Image AI model. “Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way. We’ve heard the feedback that this feature missed the mark, so it’s no longer available.”\nMeta did let you opt out by digging through settings before turning off the feature entirely, but the feature still drew major criticism.\n“Not only does this obviously erode our rights to our own likeness… but it is an obvious tool for #sextortion and other scammers!” Haley McNamara, executive director and chief strategy officer of the National Center on Sexual Exploitation, said earlier on Friday. “Pursuing high-risk design & then putting the onus on individuals to jump through hoops to opt out is unacceptable.”\nThe Screen Actors Guild recommended that its members opt out of the feature and spelled out instructions on how to do so.",
-    "source": "The Verge",
-    "category": "tech",
-    "lang": "en",
-    "topic": "Tech",
-    "published": "2026-07-10T23:49:50+00:00",
-    "crawled": "2026-07-11T00:03:16.141718+00:00",
-    "summarized": true,
-    "ai_summary": "• Meta宣布關閉Instagram的功能，該功能允許用戶通過標記公共帳戶生成AI圖像，因受到廣泛反對而取消。  \n• 此功能於本周二公布，原意是提供創意工具，但遭到用戶批評，認為未能妥善考慮用戶權益。  \n• 用戶曾可通過設置選項選擇退出該功能，但仍然引發了重大批評。  \n• 美國國家性剝削中心執行董事表示，此功能可能被用於性勒索等詐騙行為，並呼籲演員公會成員選擇退出。",
-    "summaries": {
-      "zh-HK": "• Meta宣布關閉Instagram的功能，該功能允許用戶通過標記公共帳戶生成AI圖像，因受到廣泛反對而取消。  \n• 此功能於本周二公布，原意是提供創意工具，但遭到用戶批評，認為未能妥善考慮用戶權益。  \n• 用戶曾可通過設置選項選擇退出該功能，但仍然引發了重大批評。  \n• 美國國家性剝削中心執行董事表示，此功能可能被用於性勒索等詐騙行為，並呼籲演員公會成員選擇退出。"
-    }
-  },
-  {
     "url": "https://www.coindesk.com/policy/2026/07/12/signs-of-life-state-of-crypto",
     "title": "Signs of life?: State of Crypto",
     "summary": "",
@@ -16588,8 +16350,11 @@
     "topic": "AI",
     "published": "2026-07-13T19:17:51+00:00",
     "crawled": "2026-07-13T21:01:31.768221+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 蘋果公司對OpenAI提起訴訟，指控其前員工利用漏洞竊取商業機密，並要求重罰  \n• 蘋果在訴狀中聲稱，OpenAI與前蘋果員工合謀，企圖非法獲取機密資訊以推出類似iPhone的AI設備  \n• 前員工劉昌於2026年1月離開蘋果後，發現一個認證漏洞，並在未報告的情況下下載蘋果的機密文件  \n• 蘋果表示，劉昌下載了多份與未發布產品相關的機密資料，並在其工作筆記本上留下嘲諷蘋果的訊息",
+    "summaries": {
+      "zh-HK": "• 蘋果公司對OpenAI提起訴訟，指控其前員工利用漏洞竊取商業機密，並要求重罰  \n• 蘋果在訴狀中聲稱，OpenAI與前蘋果員工合謀，企圖非法獲取機密資訊以推出類似iPhone的AI設備  \n• 前員工劉昌於2026年1月離開蘋果後，發現一個認證漏洞，並在未報告的情況下下載蘋果的機密文件  \n• 蘋果表示，劉昌下載了多份與未發布產品相關的機密資料，並在其工作筆記本上留下嘲諷蘋果的訊息"
+    }
   },
   {
     "url": "https://arstechnica.com/science/2026/07/solution-to-feynmans-reverse-sprinkler-puzzle-also-applies-to-silly-sprinklers/",
@@ -16729,8 +16494,11 @@
     "topic": "Finance",
     "published": "2026-07-13T19:42:26+00:00",
     "crawled": "2026-07-13T21:01:34.519459+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 特朗普政府於週一宣布對國際刑事法院展開「全政府」行動，針對該法院的法官提起的訴訟 \n• 部分法官指控美國對他們過去的法律決定施加懲罰和壓力 \n• 此行動旨在回應法官的控訴，並強調美國對國際刑事法院的立場 \n• 特朗普政府的行動可能影響美國與國際法庭的關係及其運作",
+    "summaries": {
+      "zh-HK": "• 特朗普政府於週一宣布對國際刑事法院展開「全政府」行動，針對該法院的法官提起的訴訟 \n• 部分法官指控美國對他們過去的法律決定施加懲罰和壓力 \n• 此行動旨在回應法官的控訴，並強調美國對國際刑事法院的立場 \n• 特朗普政府的行動可能影響美國與國際法庭的關係及其運作"
+    }
   },
   {
     "url": "https://www.bloomberg.com/news/articles/2026-07-13/burnham-says-cabinet-picks-will-reflect-broad-church-of-ideas",
@@ -16743,8 +16511,11 @@
     "topic": "Finance",
     "published": "2026-07-13T19:25:38+00:00",
     "crawled": "2026-07-13T21:01:34.682033+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 安迪·伯納姆計劃在首次向工黨議會發表演講時，提及他的內閣人選將體現經驗和多元思想的廣泛性  \n• 伯納姆強調內閣成員的選擇將反映不同的觀點和背景  \n• 此演講旨在向同事們介紹他對未來內閣的構想  \n• 伯納姆的內閣人選尚未公佈，具體名單仍待確認",
+    "summaries": {
+      "zh-HK": "• 安迪·伯納姆計劃在首次向工黨議會發表演講時，提及他的內閣人選將體現經驗和多元思想的廣泛性  \n• 伯納姆強調內閣成員的選擇將反映不同的觀點和背景  \n• 此演講旨在向同事們介紹他對未來內閣的構想  \n• 伯納姆的內閣人選尚未公佈，具體名單仍待確認"
+    }
   },
   {
     "url": "https://unchainedcrypto.com/uk-recruits-54-firms-to-tokenize-markets-targets-first-digital-gilt-by-early-2027/",
@@ -16774,8 +16545,11 @@
     "topic": "Politics",
     "published": "2026-07-13T19:42:07+00:00",
     "crawled": "2026-07-13T21:01:35.583075+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 特朗普呼籲參議院通過數字資產市場清晰法案，以紀念已故參議員林賽·格雷厄姆，並將該法案與中國的競爭聯繫起來  \n• 格雷厄姆自2003年以來在參議院任職，但並未參與該法案的談判，且在本屆會議中未投票支持該法案  \n• 共和黨在參議院的多數席位因格雷厄姆的去世減少至52-47，且參議員米奇·麥康奈爾也因住院而使黨內的空間更加狹窄  \n• 參議院民主黨拒絕支持該法案，要求加入利益衝突條款以限制總統及其家族從加密貨幣中獲利，該法案目前仍未包含此類條款",
+    "summaries": {
+      "zh-HK": "• 特朗普呼籲參議院通過數字資產市場清晰法案，以紀念已故參議員林賽·格雷厄姆，並將該法案與中國的競爭聯繫起來  \n• 格雷厄姆自2003年以來在參議院任職，但並未參與該法案的談判，且在本屆會議中未投票支持該法案  \n• 共和黨在參議院的多數席位因格雷厄姆的去世減少至52-47，且參議員米奇·麥康奈爾也因住院而使黨內的空間更加狹窄  \n• 參議院民主黨拒絕支持該法案，要求加入利益衝突條款以限制總統及其家族從加密貨幣中獲利，該法案目前仍未包含此類條款"
+    }
   },
   {
     "url": "https://www.bankless.com/read/who-sent-this-bot-the-web-needs-an-answer",
@@ -16839,8 +16613,11 @@
     "topic": "Entertainment",
     "published": "2026-07-13T19:58:59+00:00",
     "crawled": "2026-07-13T21:01:46.453162+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 十二個美國州份對派拉蒙提起訴訟，阻止其以1100億美元收購華納兄弟探索公司，聲稱此舉會限制電視和電影行業的競爭。  \n• 訴訟由加州檢察總長羅布·邦塔領導，指控合併將對全國的電影放映、基本有線電視分銷商及觀眾造成重大損害。  \n• 如果合併成功，合併後的公司將控制全國27%的基本有線電視授權及75%的廣泛發行電影分銷。  \n• 加州及其他州份要求派拉蒙在法律程序結束前延遲交易，並表示如不遵從將尋求法院命令。",
+    "summaries": {
+      "zh-HK": "• 十二個美國州份對派拉蒙提起訴訟，阻止其以1100億美元收購華納兄弟探索公司，聲稱此舉會限制電視和電影行業的競爭。  \n• 訴訟由加州檢察總長羅布·邦塔領導，指控合併將對全國的電影放映、基本有線電視分銷商及觀眾造成重大損害。  \n• 如果合併成功，合併後的公司將控制全國27%的基本有線電視授權及75%的廣泛發行電影分銷。  \n• 加州及其他州份要求派拉蒙在法律程序結束前延遲交易，並表示如不遵從將尋求法院命令。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/13/uk-arrests-12-over-extreme-right-wing-terror-threat-to-muslim-event?traffic_source=rss",
@@ -17105,8 +16882,11 @@
     "topic": "Trading",
     "published": "2026-07-13T19:57:00+00:00",
     "crawled": "2026-07-13T21:02:05.500451+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• SpaceX的市值在不到一個月內減少超過8000億美元，從2670億美元的高峰下滑。  \n• 公司股票面臨可能跌破首次公開募股（IPO）價格的風險。  \n• 投資者對於股票可能下跌的情況表示擔憂，並探討其可能帶來的影響。  \n• SpaceX的市場價值目前已經大幅縮水，對公司未來的財務狀況引發關注。",
+    "summaries": {
+      "zh-HK": "• SpaceX的市值在不到一個月內減少超過8000億美元，從2670億美元的高峰下滑。  \n• 公司股票面臨可能跌破首次公開募股（IPO）價格的風險。  \n• 投資者對於股票可能下跌的情況表示擔憂，並探討其可能帶來的影響。  \n• SpaceX的市場價值目前已經大幅縮水，對公司未來的財務狀況引發關注。"
+    }
   },
   {
     "url": "https://www.theverge.com/gadgets/964982/shokz-openrun-pro-bone-conduction-headphones-summer-deal-sale",
@@ -17249,8 +17029,11 @@
     "topic": "AI",
     "published": "2026-07-13T19:05:44+00:00",
     "crawled": "2026-07-13T21:02:21.164297+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 加拿大監管機構在一封電子郵件中提到Anthropic的Claude Mythos，以警告銀行有關網絡風險的問題  \n• 監管機構指出，金融機構需提高對潛在網絡攻擊的警覺性  \n• 此警告反映出對金融行業安全的日益關注  \n• 具體的警告內容和建議尚未公開披露",
+    "summaries": {
+      "zh-HK": "• 加拿大監管機構在一封電子郵件中提到Anthropic的Claude Mythos，以警告銀行有關網絡風險的問題  \n• 監管機構指出，金融機構需提高對潛在網絡攻擊的警覺性  \n• 此警告反映出對金融行業安全的日益關注  \n• 具體的警告內容和建議尚未公開披露"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQjdyRHZ6eGJoTGtodTdlcDQwdE9URmdKZ1o0WGtRZXBqVFYzRS0xQS15VkFnel9uRWFfRnVjR0ptS2FPbDd6dlNBcEdYa2pJM3ZqdVZUaTRSbzV5QkRVSmR6Z0hWbmQ1QVZMUHliWXlueDNicldCdV9FLVd6dlYyT2VKcUdXRVRFRW1fUFBJNG9DalVaUWluWWptSQ?oc=5",
@@ -17356,8 +17139,11 @@
     "topic": "AI",
     "published": "2026-07-13T19:07:30+00:00",
     "crawled": "2026-07-13T21:02:25.380712+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 根據EIN News報導，獸醫遠程呈現車輛市場預計將以14.2%的年複合增長率增長  \n• 這些車輛配備人工智能技術，旨在改善獸醫診療的效率和可及性  \n• 市場增長受到對遠程醫療需求增加的推動，特別是在疫情後的環境中  \n• 預測顯示，該市場的發展將在未來幾年內持續，吸引更多投資和創新",
+    "summaries": {
+      "zh-HK": "• 根據EIN News報導，獸醫遠程呈現車輛市場預計將以14.2%的年複合增長率增長  \n• 這些車輛配備人工智能技術，旨在改善獸醫診療的效率和可及性  \n• 市場增長受到對遠程醫療需求增加的推動，特別是在疫情後的環境中  \n• 預測顯示，該市場的發展將在未來幾年內持續，吸引更多投資和創新"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZEhyVERxcnZJQ0RPSl8zTzVOVW5QN1Jhc2VsdjBOYzRsSnQyLU1JaDI1VkhkUHhpX0pkeWN6dEtDZHY1dnpnN0pNa2x0VEl5WTdLaXRwTVRWWUFfVW5TeWpsc19fdEZtMl9aWmdZQklOTzRSQW5iLWZDN2IyUkF1cmlUX1NoMjlJTmxpOTNKWmxVSEpWRVZxNkh2eTI1eVVoa0k3MTBfQUNuVE1wdlpBMTVlTkhjdDhuaUsyRQ?oc=5",
@@ -17775,8 +17561,11 @@
     "topic": "Entertainment",
     "published": "2026-07-13T20:30:22+00:00",
     "crawled": "2026-07-13T22:59:24.488179+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 此文章因內容安全政策無法生成摘要",
+    "summaries": {
+      "zh-HK": "• 此文章因內容安全政策無法生成摘要"
+    }
   },
   {
     "url": "https://www.bbc.co.uk/news/articles/c20yqvrn0qvo?at_medium=RSS&at_campaign=rss",
@@ -17942,8 +17731,11 @@
     "topic": "Politics",
     "published": "2026-07-13T20:57:21+00:00",
     "crawled": "2026-07-13T22:59:25.512665+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 安迪·伯納姆獲得超過85%的工黨國會議員支持，成為英國下一任首相的候選人。  \n• 伯納姆在周一下午獲得27個提名，總支持人數達到349名議員。  \n• 現任首相基爾·斯塔默因受到黨內批評而宣布辭職，無法挑戰伯納姆的提名。  \n• 伯納姆已表示將推動更多地方自治權，並對工黨在加沙問題上的立場表示歉意。",
+    "summaries": {
+      "zh-HK": "• 安迪·伯納姆獲得超過85%的工黨國會議員支持，成為英國下一任首相的候選人。  \n• 伯納姆在周一下午獲得27個提名，總支持人數達到349名議員。  \n• 現任首相基爾·斯塔默因受到黨內批評而宣布辭職，無法挑戰伯納姆的提名。  \n• 伯納姆已表示將推動更多地方自治權，並對工黨在加沙問題上的立場表示歉意。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/sports/2026/7/13/argentina-vs-england-world-cup-tickets-more-expensive-than-france-vs-spain?traffic_source=rss",
@@ -17956,8 +17748,11 @@
     "topic": "Trading",
     "published": "2026-07-13T20:51:33+00:00",
     "crawled": "2026-07-13T22:59:25.534423+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 阿根廷對英格蘭的世界杯半決賽門票價格為2,841美元，過去三天上漲34%\n• 法國對西班牙的半決賽門票價格為1,325美元，過去三天下降26%\n• 阿根廷的比賽將於星期三在亞特蘭大舉行，西班牙的比賽則於星期二在達拉斯進行\n• FIFA面對有關門票價格過高的批評，並表示將利用美國法律進行門票轉售",
+    "summaries": {
+      "zh-HK": "• 阿根廷對英格蘭的世界杯半決賽門票價格為2,841美元，過去三天上漲34%\n• 法國對西班牙的半決賽門票價格為1,325美元，過去三天下降26%\n• 阿根廷的比賽將於星期三在亞特蘭大舉行，西班牙的比賽則於星期二在達拉斯進行\n• FIFA面對有關門票價格過高的批評，並表示將利用美國法律進行門票轉售"
+    }
   },
   {
     "url": "https://www.aljazeera.com/news/2026/7/13/ukraine-and-allies-launch-coalition-to-tackle-russias-ballistic-missiles?traffic_source=rss",
@@ -17970,8 +17765,11 @@
     "topic": "General",
     "published": "2026-07-13T20:41:27+00:00",
     "crawled": "2026-07-13T22:59:25.561645+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 烏克蘭於周一與九個歐洲國家宣布成立空中防禦聯盟，以應對來自俄羅斯的彈道導彈威脅，隨後基輔遭到俄羅斯的新一輪彈道導彈攻擊。  \n• 基輔市長克利奇科表示，空中防禦部隊正在試圖抵擋攻擊，並指出霍洛西夫區發生火災。  \n• 此次攻擊是俄羅斯最近幾週加強攻擊的部分，導致烏克蘭和俄羅斯之間的攻擊頻繁，周日的攻擊造成至少九人死亡。  \n• 十個國家及多家防務公司在巴黎會議上討論整合反彈道導彈聯盟，以發展新的反彈道導彈系統，作為美國愛國者系統的替代方案。",
+    "summaries": {
+      "zh-HK": "• 烏克蘭於周一與九個歐洲國家宣布成立空中防禦聯盟，以應對來自俄羅斯的彈道導彈威脅，隨後基輔遭到俄羅斯的新一輪彈道導彈攻擊。  \n• 基輔市長克利奇科表示，空中防禦部隊正在試圖抵擋攻擊，並指出霍洛西夫區發生火災。  \n• 此次攻擊是俄羅斯最近幾週加強攻擊的部分，導致烏克蘭和俄羅斯之間的攻擊頻繁，周日的攻擊造成至少九人死亡。  \n• 十個國家及多家防務公司在巴黎會議上討論整合反彈道導彈聯盟，以發展新的反彈道導彈系統，作為美國愛國者系統的替代方案。"
+    }
   },
   {
     "url": "https://www.npr.org/2026/07/13/nx-s1-5890936/on-foreign-policy-grahams-influence-may-have-been-felt-the-most",
@@ -17984,8 +17782,11 @@
     "topic": "World",
     "published": "2026-07-13T20:05:24+00:00",
     "crawled": "2026-07-13T22:59:26.479904+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 林賽·格雷厄姆在國會任職三十年，對美國外交政策有重大影響 \n• 他是美國軍事力量的主要倡導者之一 \n• 格雷厄姆的影響力遍及國會及全球 \n• 他的外交政策觀點在美國政治中受到廣泛關注",
+    "summaries": {
+      "zh-HK": "• 林賽·格雷厄姆在國會任職三十年，對美國外交政策有重大影響 \n• 他是美國軍事力量的主要倡導者之一 \n• 格雷厄姆的影響力遍及國會及全球 \n• 他的外交政策觀點在美國政治中受到廣泛關注"
+    }
   },
   {
     "url": "https://www.scmp.com/news/china/diplomacy/article/3360363/will-manila-and-hanois-maritime-deal-challenge-beijing-south-china-sea?utm_source=rss_feed",
@@ -18202,8 +18003,11 @@
     "topic": "Politics",
     "published": "2026-07-13T20:59:43+00:00",
     "crawled": "2026-07-13T23:00:00.980068+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 特朗普表示美國將對伊朗的鑿山進行打擊 \n• 此言論是在一次公開活動中發表的，具體時間未提及 \n• 特朗普強調這一行動是為了保護美國的國家安全 \n• 鑿山在伊朗的地理位置和戰略意義尚未詳細說明",
+    "summaries": {
+      "zh-HK": "• 特朗普表示美國將對伊朗的鑿山進行打擊 \n• 此言論是在一次公開活動中發表的，具體時間未提及 \n• 特朗普強調這一行動是為了保護美國的國家安全 \n• 鑿山在伊朗的地理位置和戰略意義尚未詳細說明"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNTZsOUhDOHRqLTNSOUNGM2VMOVhkNXExcjd6Y1lPQlNiNkYxVk40RURyNDBTbW9Wb0kzdUg2Sm5WNFRuYW1oVHhOUk05S0x1aU1tMkVRNnF4Ui1NOFNqZE92UjdFRTZpTkVaOE54Q3hnaUhtcjFsNVhYRkhyUm85QzBUcjg2QXJzczhvSzlLd0lXXzVNOFNrVlJrUC0tM0NSUjFKdDZzNTNlcWdfdjFoQ0JlX3FwM3REZHpB?oc=5",
@@ -18281,8 +18085,11 @@
     "topic": "General",
     "published": "2026-07-13T20:41:40+00:00",
     "crawled": "2026-07-13T23:00:02.400908+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 巴西最高法院禁止參議員特朗普探望其父親  \n• 此禁令是基於特朗普父親的法律問題而作出的決定  \n• 法院於近期作出裁定，具體日期未公開  \n• 特朗普的父親目前面臨法律訴訟，詳細情況尚未披露",
+    "summaries": {
+      "zh-HK": "• 巴西最高法院禁止參議員特朗普探望其父親  \n• 此禁令是基於特朗普父親的法律問題而作出的決定  \n• 法院於近期作出裁定，具體日期未公開  \n• 特朗普的父親目前面臨法律訴訟，詳細情況尚未披露"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc2xNSnUyaHBzVUEwczJ4TjdwUVpfRGhGUzM3YlhNemV5V0syQ2wxbmRab1JtOGpxMXJHeHdDUklWcFI1aXJwNU5ILXdiUFBIa0YwYmRieDNtb1NrTEYzbEhYXzQ1dXNQZmF6UE0zUnByY28tQ3hSTGVDeWUtZml5OWxTU0pmR1RYYXNBZlFoNDFydmR2Z3dEa2NUV1VqLVAyVmVERlBkTXFKOWNIczA5OA?oc=5",
@@ -18323,8 +18130,11 @@
     "topic": "General",
     "published": "2026-07-13T20:52:46+00:00",
     "crawled": "2026-07-13T23:00:04.243205+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 俄羅斯與烏克蘭之間的衝突持續，雙方在多個地區發生激烈交火  \n• 近期，烏克蘭軍隊在東部地區取得了一些戰略性進展  \n• 俄方則加強了對烏克蘭南部地區的攻擊，造成平民傷亡  \n• 國際社會對衝突的關注持續增加，呼籲雙方重啟和平談判",
+    "summaries": {
+      "zh-HK": "• 俄羅斯與烏克蘭之間的衝突持續，雙方在多個地區發生激烈交火  \n• 近期，烏克蘭軍隊在東部地區取得了一些戰略性進展  \n• 俄方則加強了對烏克蘭南部地區的攻擊，造成平民傷亡  \n• 國際社會對衝突的關注持續增加，呼籲雙方重啟和平談判"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMGxRcExncl8xRlVJRHBvdTJDVmVyMkl5RTN4TTcycHdMM2RkZ2pVdTlGbjRoWDd0RFB1anVscGx2dnRSZHY0NkE5MlRaQVpLemVkWFFqV1NQS0J3TjNuSUdIY0pGd0NadmQzY3lLVnF0OWVzLVpRNmR6T0tKbTVxRExkMXl3bE1Qb0FSNjBWeGN6d1o0ZGdROXJGRm9yVEowR3NaYzZxb2ZiN1c3bFFtaW1WMWMzMDdFbDA5ZDVqV2ZIZWVXNHA1SThGS1hMS0Y2QmtUV0RWNUJmdw?oc=5",
@@ -18419,8 +18229,11 @@
     "topic": "Ai",
     "published": "2026-07-13T20:59:10+00:00",
     "crawled": "2026-07-13T23:00:07.170199+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 國防情報局（DIA）擴大其在人工智能（AI）和開源情報（OSINT）方面的努力，以支持網絡情報任務  \n• 此舉旨在提升對潛在網絡威脅的識別和應對能力  \n• DIA表示，這些技術將幫助其更有效地分析和處理大量數據  \n• 擴展計劃包括與私營部門合作，以加強技術的應用和發展",
+    "summaries": {
+      "zh-HK": "• 國防情報局（DIA）擴大其在人工智能（AI）和開源情報（OSINT）方面的努力，以支持網絡情報任務  \n• 此舉旨在提升對潛在網絡威脅的識別和應對能力  \n• DIA表示，這些技術將幫助其更有效地分析和處理大量數據  \n• 擴展計劃包括與私營部門合作，以加強技術的應用和發展"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNT2J2cnZZRDE5UzdfY1FwQ2RhUGNFU2o4OEh2cVZyU2laeGZQUlh2akYxRzdTbWxfeWo2WUNzS2NSVlFpSDhuTHlmOGRjcVVaMndGdGpZMUdEb051WEFyV19MSmFPZE5DU19JN3QtcTRTVTY0bHk0WkcyZXhKd1VWVEl3S0xUWFNmejFZZ01YWVdtUFBSbEY1ZHROWldWbW16SnpJWA?oc=5",
@@ -18433,8 +18246,11 @@
     "topic": "Ai",
     "published": "2026-07-13T19:40:13+00:00",
     "crawled": "2026-07-13T23:00:07.576415+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 一個聊天機器人成功完成了投資銀行家的工作，顯示出人工智能在金融領域的潛力  \n• 該聊天機器人能夠分析市場數據並提供投資建議  \n• 這一事件引發了對人工智能在金融行業應用的討論  \n• 專家指出，雖然聊天機器人能執行某些任務，但人類專業知識仍然不可或缺",
+    "summaries": {
+      "zh-HK": "• 一個聊天機器人成功完成了投資銀行家的工作，顯示出人工智能在金融領域的潛力  \n• 該聊天機器人能夠分析市場數據並提供投資建議  \n• 這一事件引發了對人工智能在金融行業應用的討論  \n• 專家指出，雖然聊天機器人能執行某些任務，但人類專業知識仍然不可或缺"
+    }
   },
   {
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVjRVbUlzVDBiOUZ1QnVKVTdlNko5dTdiWnJraHFDMVROOVNTU2M0TGN1LS1FVTNzcW1DaHJzeXVtZF9sc3EyLTFMeV95SGRuTVNDUHpKdEQwSGJqVXZjUjlNWDZWUDZuRV96MU9GR2c4REdyRHFFMVhKUkJoN1Z5T3dvdmViR25MTk5FR3h6dUZlTUN0U3NDSlhHclJJQ3JscHdXRF9rWEJkdVJNc0RkLTFzTDVXSEpp?oc=5",
@@ -18516,6 +18332,544 @@
     "ai_summary": "• 由於人工智能驅動的「晶片通脹」，電子產品的購買需求減少  \n• 晶片價格上漲影響了消費者的購買決策  \n• 許多電子產品製造商報告銷售下滑，特別是在智能手機和電腦市場  \n• 專家指出，這一趨勢可能會持續影響市場，特別是在高通脹環境下",
     "summaries": {
       "zh-HK": "• 由於人工智能驅動的「晶片通脹」，電子產品的購買需求減少  \n• 晶片價格上漲影響了消費者的購買決策  \n• 許多電子產品製造商報告銷售下滑，特別是在智能手機和電腦市場  \n• 專家指出，這一趨勢可能會持續影響市場，特別是在高通脹環境下"
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-13/gold-holds-decline-on-renewed-hormuz-blockade-and-hawkish-fed",
+    "title": "Gold Holds Decline on Renewed Hormuz Blockade and Hawkish Fed",
+    "summary": "Gold held a decline as escalating hostilities in the Strait of Hormuz and remarks by a US monetary policymaker raised the likelihood of interest-rate hikes to contain inflation.",
+    "full_text": "",
+    "source": "Bloomberg Crypto",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Policy",
+    "published": "2026-07-13T23:49:07+00:00",
+    "crawled": "2026-07-14T00:00:44.880017+00:00",
+    "summarized": true,
+    "ai_summary": "• 黃金價格持續下跌，原因包括霍爾木茲海峽的敵對行動加劇 \n• 美國貨幣政策制定者的言論提高了加息以控制通脹的可能性 \n• 市場對於黃金的需求受到地緣政治和經濟政策影響 \n• 投資者關注未來的利率走向及其對黃金市場的影響",
+    "summaries": {
+      "zh-HK": "• 黃金價格持續下跌，原因包括霍爾木茲海峽的敵對行動加劇 \n• 美國貨幣政策制定者的言論提高了加息以控制通脹的可能性 \n• 市場對於黃金的需求受到地緣政治和經濟政策影響 \n• 投資者關注未來的利率走向及其對黃金市場的影響"
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-13/seidler-is-looking-to-sell-stake-in-139-year-old-baseball-gear-maker-rawlings",
+    "title": "Seidler Equity Is Looking to Sell Stake in 139-Year-Old Baseball Gear Maker Rawlings",
+    "summary": "The private equity owner of Rawlings Sporting Goods Co., one of the oldest makers of baseball apparel and equipment, is exploring the sale of its stake in the company in an effort to tap booming investor demand for sports-related investments.",
+    "full_text": "",
+    "source": "Bloomberg Crypto",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Sports",
+    "published": "2026-07-13T23:31:03+00:00",
+    "crawled": "2026-07-14T00:00:45.295847+00:00",
+    "summarized": true,
+    "ai_summary": "• Seidler Equity 正在考慮出售其在139年歷史的棒球裝備製造商 Rawlings Sporting Goods Co. 的股份  \n• 此舉旨在利用對體育相關投資的強勁需求  \n• Rawlings 是美國最古老的棒球服裝和設備製造商之一  \n• 私募股權公司 Seidler Equity 擁有該公司的所有權",
+    "summaries": {
+      "zh-HK": "• Seidler Equity 正在考慮出售其在139年歷史的棒球裝備製造商 Rawlings Sporting Goods Co. 的股份  \n• 此舉旨在利用對體育相關投資的強勁需求  \n• Rawlings 是美國最古老的棒球服裝和設備製造商之一  \n• 私募股權公司 Seidler Equity 擁有該公司的所有權"
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-13/brazil-s-oncoclinicas-said-to-file-for-out-of-court-debt-rework",
+    "title": "Brazil’s Oncoclinicas Said to File for Out-of-Court Debt Rework",
+    "summary": "Oncoclinicas do Brasil Servicos Medicos SA is preparing to file for an out-of-court debt restructuring, which could come as soon as Monday night, according to people familiar with the matter.",
+    "full_text": "",
+    "source": "Bloomberg Crypto",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Finance",
+    "published": "2026-07-13T23:11:09+00:00",
+    "crawled": "2026-07-14T00:00:45.702919+00:00",
+    "summarized": true,
+    "ai_summary": "• 巴西醫療服務公司Oncoclinicas do Brasil Servicos Medicos SA正準備提交法庭外債務重組申請 \n• 根據知情人士的說法，該申請可能最早於星期一晚上提交 \n• 此舉旨在解決公司面臨的財務困境 \n• Oncoclinicas的債務重組計劃尚未公開詳情",
+    "summaries": {
+      "zh-HK": "• 巴西醫療服務公司Oncoclinicas do Brasil Servicos Medicos SA正準備提交法庭外債務重組申請 \n• 根據知情人士的說法，該申請可能最早於星期一晚上提交 \n• 此舉旨在解決公司面臨的財務困境 \n• Oncoclinicas的債務重組計劃尚未公開詳情"
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-13/shein-s-slowing-growth-risks-weighing-on-hong-kong-ipo-valuation",
+    "title": "Shein’s Slowing Growth Risks Weighing on Hong Kong IPO Valuation",
+    "summary": "Shein has finally won long-awaited Chinese regulatory approval for its planned Hong Kong listing, but slowing business growth threatens to weigh on the valuation it can command in the initial public offering.",
+    "full_text": "",
+    "source": "Bloomberg Crypto",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Finance",
+    "published": "2026-07-13T23:00:40+00:00",
+    "crawled": "2026-07-14T00:00:46.123698+00:00",
+    "summarized": true,
+    "ai_summary": "• Shein獲得中國監管機構對其計劃在香港上市的批准  \n• 公司的業務增長放緩可能影響其首次公開募股的估值  \n• 香港上市的計劃已經等待了一段時間  \n• Shein的上市將對其未來的資金籌集和市場表現產生影響",
+    "summaries": {
+      "zh-HK": "• Shein獲得中國監管機構對其計劃在香港上市的批准  \n• 公司的業務增長放緩可能影響其首次公開募股的估值  \n• 香港上市的計劃已經等待了一段時間  \n• Shein的上市將對其未來的資金籌集和市場表現產生影響"
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-13/india-s-beaten-down-large-caps-set-to-rebound-on-foreign-flows",
+    "title": "India’s Beaten-Down Large Caps Set to Rebound on Foreign Flows",
+    "summary": "India’s large-cap stocks are set to narrow their underperformance to smaller peers, supported by the return of foreign investors, an improving earnings outlook and attractive valuations, according to strategists.",
+    "full_text": "",
+    "source": "Bloomberg Crypto",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Trading",
+    "published": "2026-07-13T23:00:00+00:00",
+    "crawled": "2026-07-14T00:00:46.526596+00:00",
+    "summarized": true,
+    "ai_summary": "• 印度的大型股預計將因外國投資者回流而縮小與小型股的表現差距  \n• 策略師指出，改善的盈利前景和具吸引力的估值將支持大型股的回升  \n• 外國資金流入的回暖被視為推動市場的重要因素  \n• 專家對大型股的未來表現持樂觀態度，認為其將受益於市場環境的改善",
+    "summaries": {
+      "zh-HK": "• 印度的大型股預計將因外國投資者回流而縮小與小型股的表現差距  \n• 策略師指出，改善的盈利前景和具吸引力的估值將支持大型股的回升  \n• 外國資金流入的回暖被視為推動市場的重要因素  \n• 專家對大型股的未來表現持樂觀態度，認為其將受益於市場環境的改善"
+    }
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+    "title": "Video generation startup PixVerse raises $439M, valuation soars past $2B",
+    "summary": "Singapore-based video generation startup PixVerse closed a Series C extension on the strength of 15 million monthly active users, it said.",
+    "full_text": "Singapore-based video generation startup PixVerse said today that it has closed its Series C extension, with a total of $439 million raised in the round. The company told TechCrunch that, with the new tranche of funding, its valuation has crossed over $2 billion. With the cash, the company aims to expand its world model offering and reach customers across geographies.\nThe company closed its initial Series C round in March, led by CDH Investments. While it didn’t disclose the funding amount, Bloomberg reported it to be in the range of $300 million. PixVerse said that investors in the extension round include Alibaba, Lollapalooza Capital, Ivy Capital, Grand Mount Capital, Eastern Bell Capital, Mirae Asset, BlueFocus, and CloudAlpha, joining returning investors iGlobe Partners and OCBC’s LionX Ventures.\nThe company was founded by Wang Changhu and Jaden Xie in 2023. Changhu previously worked at ByteDance on computer vision, and Xie was an executive director at investment firm Lighthouse Capital.\nPixVerse offers multiple models, including a V-Series video model for consumer and API use, a C-Series video model for professional film and commercial workflows, and an R-Series of world models for game development and world building, which was released earlier this year.\nThrough its tool, users can generate videos in up to 4k resolution with audio baked in. The startup said that its consumer product has over 150 million registered users and over 15 million monthly active users. The company declined to specify how many of them are paying users but it offers a competitive rate of $4.80 per minute of generation for image-to-video.\nXie believes that despite the huge opportunity for video generation to succeed only a few companies are making progress in the market.\n“OpenAI exited the business when they shut down Sora 2. Other companies like Meta and Tencent are not able to create high-quality video models. So there are only a few companies that can meet the quality bar,” he told TechCrunch.\nHe said that there is equal opportunity in the consumer and enterprise markets as users are creating videos for fun and also consuming short video content made with AI, while enterprises are using video generation for creative, learning, and marketing use cases.\nHowever, saying that the startup’s model produces a “high-quality” output is hardly a unique qualifier. Xie mentioned that its core strength lies in labeling.\n“We think the key difference is not in data, but how you label it, because data is available everywhere. My co-founder worked at ByteDance, where he built core visual understanding technology behind TikTok using AI. Using this tech, TikTok was able to label data accurately, and build a strong recommendation algorithm. This experience comes in handy when building a video generation platform,” Xie said.\nThe company has big ambitions this year. It wants to expand its enterprise outreach across the globe. The startup already has a deal with its investor Alibaba to deploy the video generation features.\nIn terms of product roll out, it plans to launch a new V-series model for video generation, and release a new version of its world model this year. It has 150 employees across offices in Singapore, Beijing and Shanghai. With the new funding PixVerse aims to hire more researchers and people in go-to-market function.\nDespite its confidence in its own models and products, the video market is heating up. There are players like ByteDance with its Seedance model, former Tencent AI head Dr. Wei Liu’s Video Rebirth and Kling AI from Asia. In the west, there are competitors like Midjourney, Runway and Luma. Multiple companies, including Lann YeCunn and Fei Fei Li’s startups, are building world models.",
+    "source": "TechCrunch",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Tech",
+    "published": "2026-07-14T00:00:00+00:00",
+    "crawled": "2026-07-14T00:01:01.781783+00:00",
+    "summarized": true,
+    "ai_summary": "• 新加坡視頻生成初創公司PixVerse今日宣佈完成其C輪融資擴展，總共籌集了4.39億美元，估值超過20億美元  \n• 該公司於2023年由王長虎和謝建創立，並計劃利用新資金擴展其世界模型產品，服務全球客戶  \n• PixVerse的產品包括V系列、C系列和R系列視頻模型，並擁有超過1.5億註冊用戶和超過1500萬月活躍用戶  \n• 投資者包括阿里巴巴、Lollapalooza Capital、iGlobe Partners及OCBC的LionX Ventures等，該公司希望在消費者和企業市場中擴大影響力",
+    "summaries": {
+      "zh-HK": "• 新加坡視頻生成初創公司PixVerse今日宣佈完成其C輪融資擴展，總共籌集了4.39億美元，估值超過20億美元  \n• 該公司於2023年由王長虎和謝建創立，並計劃利用新資金擴展其世界模型產品，服務全球客戶  \n• PixVerse的產品包括V系列、C系列和R系列視頻模型，並擁有超過1.5億註冊用戶和超過1500萬月活躍用戶  \n• 投資者包括阿里巴巴、Lollapalooza Capital、iGlobe Partners及OCBC的LionX Ventures等，該公司希望在消費者和企業市場中擴大影響力"
+    }
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/13/x-just-tweaked-its-algorithm-to-make-it-more-friendly-less-battleground/",
+    "title": "X just tweaked its algorithm to make it more friendly, less battleground",
+    "summary": "The social media site says it will amplify posts made by users' mutual followers' to give the feed more of a communal feel.",
+    "full_text": "X has made a “tweak” to its algorithm to boost the visibility of posts to users’ “mutuals” — the people they follow who follow them back, head of product, Nikita Bier, said Monday.\n“We noticed this data was missing from the algo and it made your friends appear less in your replies. This resulted in the reply section feeling more like a battleground with people you don’t recognize.”\nThe change may not drastically revamp the site’s user experience, but may make X feel a little bit more like a community rather than a torrent of disparate voices shouting into the digital abyss.\nBier noted that the change would also “help clusters form around interests more easily, which many people have asked for.”\nX has introduced a number of changes lately — many of which seem designed to make the site a bigger hub for creators. Earlier this year, the site changed how it compensates accounts in an effort to incentivize original content rather than mere aggregation, and, earlier this month, it also introduced a video editor designed to make it easier for users to work on the platform.\nThis tweak follows changes that Meta’s Threads has been making to its algorithm aimed at creating communities, largely as a differentiation from its main rival X. For instance, last month Threads rolled out a Your Algo feature which lets users privately control what they see in their feed. It also reached 500 million monthly active users.",
+    "source": "TechCrunch",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Tech",
+    "published": "2026-07-13T23:58:27+00:00",
+    "crawled": "2026-07-14T00:01:01.809241+00:00",
+    "summarized": true,
+    "ai_summary": "• X公司於週一宣佈對其算法進行調整，以提高用戶“互相關注”的帖文可見度，產品負責人Nikita Bier表示。  \n• 調整旨在減少用戶在回覆區域中看到不認識的人的帖文，讓平台感覺更像一個社區。  \n• Bier指出，此變更將有助於根據興趣形成群體，滿足用戶的需求。  \n• 此次調整是X近期多項改變之一，旨在吸引創作者並提升用戶體驗。",
+    "summaries": {
+      "zh-HK": "• X公司於週一宣佈對其算法進行調整，以提高用戶“互相關注”的帖文可見度，產品負責人Nikita Bier表示。  \n• 調整旨在減少用戶在回覆區域中看到不認識的人的帖文，讓平台感覺更像一個社區。  \n• Bier指出，此變更將有助於根據興趣形成群體，滿足用戶的需求。  \n• 此次調整是X近期多項改變之一，旨在吸引創作者並提升用戶體驗。"
+    }
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+    "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+    "summary": "The company is raising at least $75 million, led by Robot, with significant participation from USV and other prominent investors.",
+    "full_text": "Nous Research, the startup behind the open-source Hermes agent, is finalizing a new round of funding led by Robot Ventures, with significant participation from USV and other prominent investors at a $1.5 billion valuation, according to three sources with knowledge of the deal. The company is raising at least $75 million, and fielded a high level of interest from investors, according to the people. The new round is coming less than three months after Nous announced its $50 million Series A.\nNous Research declined to comment. USV and Robot Ventures didn’t respond to our request for comment.\nThe company was founded in 2023 by Jeffrey Quesnelle, Karan Malhotra, Ryan Teknium, Shivani Mitra. Before this round, it had raised a total of $70 million in funding from investors including Paradigm, Robot Ventures, North Island Ventures, OSS Capital, and Balaji Srinivasan, according to Crunchbase.\nBesides Hermes development, Nous Research has a decentralize network to contribute hardware for compute and training. Plus, it has released language models focused coding and math.\nWeeks after Openclaw’s agent went viral, Nous Research released its own competitor called Hermes. OpenClaw is an agent that runs locally on a PC and can perform tasks on behalf of the user. One key difference is that Hermes shipped with built-in “skills,” such as web search, coding and image understanding. Plus, it was designed to automatically learn from people’s usage and build more skills without any intervention required.\nJust like Openclaw, users can automate tasks with Hermes and chat with these agents or receive messages from them in apps like Telegram and Discord. These tools have become increasingly popular as they allow users to run their AI agents remotely and around the clock.\nOpen-source and widely adopted, Hermes has amassed a massive following on GitHub, boasting roughly 214,000 stars and nearly 40,000 forks. Developers can run Hermes on a desktop or on a virtual private server.\nBut Nous Research also offers a cloud-hosted version, which some users may find to be more user-friendly, avoiding any setting up on their own machines. The hosted version is available via various paid tiers ranging from $20-$200 a month.\nSources say the new funding will help to expand Hermes products and business model further.",
+    "source": "TechCrunch",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Science",
+    "published": "2026-07-13T23:31:18+00:00",
+    "crawled": "2026-07-14T00:01:01.839878+00:00",
+    "summarized": true,
+    "ai_summary": "• Nous Research正在進行新一輪融資，估值達15億美元，由Robot Ventures主導，並有USV等投資者參與，目標籌集至少7500萬美元。  \n• 該公司成立於2023年，創始人包括Jeffrey Quesnelle、Karan Malhotra、Ryan Teknium和Shivani Mitra，至今已籌集總額7000萬美元的資金。  \n• Nous Research的Hermes代理具備內建技能，能自動學習並執行用戶任務，並在GitHub上獲得約214,000顆星和近40,000個分支。  \n• 新的融資將有助於擴展Hermes產品及商業模式。",
+    "summaries": {
+      "zh-HK": "• Nous Research正在進行新一輪融資，估值達15億美元，由Robot Ventures主導，並有USV等投資者參與，目標籌集至少7500萬美元。  \n• 該公司成立於2023年，創始人包括Jeffrey Quesnelle、Karan Malhotra、Ryan Teknium和Shivani Mitra，至今已籌集總額7000萬美元的資金。  \n• Nous Research的Hermes代理具備內建技能，能自動學習並執行用戶任務，並在GitHub上獲得約214,000顆星和近40,000個分支。  \n• 新的融資將有助於擴展Hermes產品及商業模式。"
+    }
+  },
+  {
+    "url": "https://arstechnica.com/health/2026/07/us-continues-to-shun-ebola-infected-citizens-second-american-sent-to-germany/",
+    "title": "US continues to shun Ebola-infected citizens; second American sent to Germany",
+    "summary": "The man is said to be doing well in a Frankfurt hospital.",
+    "full_text": "A US citizen doing humanitarian work in the Democratic Republic of Congo has tested positive for Ebola, marking the second American infected amid the DRC’s explosive Ebola outbreak—and the second to be sent for care in Germany rather than the US.\nThe Ebola outbreak, which was first declared on May 15, is already the third largest on record and still growing. As of July 12, the DRC has reported 1,926 cases and 702 deaths in the outbreak, which is caused by the lesser-known Bundibugyo strain of Ebolavirus.\nUnder the Trump administration, the US has adopted a seemingly isolationist approach, implementing stringent and controversial travel restrictions and blocking the repatriation of citizens exposed to or infected with the virus. That’s despite the US having multiple facilities around the country designed to safely monitor and provide high-quality care for Ebola patients in these types of situations.\nThe US is also largely removed from outbreak responses. Upon taking office, Trump moved to withdraw from the World Health Organization, which is helping coordinate the international efforts to halt the spread of the virus—though it is still outpacing health workers.\nOn Monday, WHO Director-General Tedros Adhanom Ghebreyesus said that WHO had provided clinical care for the infected American before the patient was transferred to Germany for follow-up care.\nAmericans infected\nWhile saying such infections among aid workers are not unexpected, Tedros called for more help to curb the virus. “As the outbreak escalates, an accelerated response from local, national, and international partners is urgently needed,” he said on social media Monday. “WHO is working intensively under the government’s leadership and with Africa CDC to bring the outbreak under control as rapidly as possible.”",
+    "source": "ArsTechnica",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Health",
+    "published": "2026-07-13T22:07:34+00:00",
+    "crawled": "2026-07-14T00:01:02.831224+00:00",
+    "summarized": true,
+    "ai_summary": "• 一名美國公民在剛果民主共和國從事人道工作時檢測出埃博拉病毒，成為第二名感染的美國人，並被送往德國接受治療。  \n• 剛果民主共和國的埃博拉疫情自5月15日首次宣佈以來，已成為歷史上第三大疫情，截至7月12日報告1,926宗病例及702宗死亡。  \n• 特朗普政府採取孤立主義的做法，實施嚴格的旅行限制，阻止感染或暴露於病毒的公民回國。  \n• 世界衛生組織總幹事譚德塞呼籲加強國內外合作，以應對疫情的加劇。",
+    "summaries": {
+      "zh-HK": "• 一名美國公民在剛果民主共和國從事人道工作時檢測出埃博拉病毒，成為第二名感染的美國人，並被送往德國接受治療。  \n• 剛果民主共和國的埃博拉疫情自5月15日首次宣佈以來，已成為歷史上第三大疫情，截至7月12日報告1,926宗病例及702宗死亡。  \n• 特朗普政府採取孤立主義的做法，實施嚴格的旅行限制，阻止感染或暴露於病毒的公民回國。  \n• 世界衛生組織總幹事譚德塞呼籲加強國內外合作，以應對疫情的加劇。"
+    }
+  },
+  {
+    "url": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/",
+    "title": "The US government warns that Russia state hackers are coming after your router",
+    "summary": "With residential proxies all the rage, CISA urges router users to be vigilant.",
+    "full_text": "The federal government is warning users of home and small office routers to secure their devices as Russia state hackers continue to mass-compromise them for use in obscuring nefarious actions against sensitive organizations in the public and private sectors.\nBoth the Russian and Chinese governments have been compromising routers for years, sometimes in prolonged tugs-of-war to wrest control of devices the other has already commandeered. The US government has occasionally issued covert commands and taken other steps to disinfect routers. Google and other companies have also worked to disrupt the massive botnets that control compromised routers in lockstep. The actions to date are little more than whack-a-mole exercises as the operators simply replace their botnets with new ones.\nProxy networks: The go-to tool\n“Russian Federal Security Service (FSB) Center 16 cyber actors continue to exploit poorly configured and vulnerable networking devices worldwide, opportunistically compromising multiple critical infrastructure sector networks,” the Cybersecurity and Infrastructure Security Agency said Monday. The hacking groups are tracked under various names, including Berserk Bear, Energetic Bear, Crouching Yeti, Dragonfly, Ghost Blizzard, and Static Tundra. The advisory was co-issued by governments from around the world, including Australia, Denmark, New Zealand, and the UK.\nThe primary means of compromise the agency warned about was hackers scanning IP ranges with active Simple Network Management Protocol (SNMP) agents that accept common or default authentication credentials. These scans are run by the very sorts of router botnets the actors are trying to enroll the targeted device in. By sending malicious traffic from spoofed addresses, the hackers can use the SNMP agent on poorly configured routers to run malware. SNMP allows users to collect and organize information about managed networking devices or to modify that information to change device behavior.",
+    "source": "ArsTechnica",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-13T21:03:07+00:00",
+    "crawled": "2026-07-14T00:01:02.925725+00:00",
+    "summarized": true,
+    "ai_summary": "• 美國聯邦政府警告家庭及小型辦公室路由器用戶加強安全，因俄羅斯國家黑客持續大規模入侵這些設備。  \n• 俄羅斯和中國政府多年來一直在入侵路由器，並在控制權爭奪中互相競爭。  \n• 網絡安全和基礎設施安全局表示，俄羅斯聯邦安全局的黑客正在利用配置不當和脆弱的網絡設備，影響多個關鍵基礎設施行業。  \n• 此次警告由包括澳洲、丹麥、新西蘭及英國在內的多國政府共同發佈，主要針對使用簡單網絡管理協議(SNMP)的設備。",
+    "summaries": {
+      "zh-HK": "• 美國聯邦政府警告家庭及小型辦公室路由器用戶加強安全，因俄羅斯國家黑客持續大規模入侵這些設備。  \n• 俄羅斯和中國政府多年來一直在入侵路由器，並在控制權爭奪中互相競爭。  \n• 網絡安全和基礎設施安全局表示，俄羅斯聯邦安全局的黑客正在利用配置不當和脆弱的網絡設備，影響多個關鍵基礎設施行業。  \n• 此次警告由包括澳洲、丹麥、新西蘭及英國在內的多國政府共同發佈，主要針對使用簡單網絡管理協議(SNMP)的設備。"
+    }
+  },
+  {
+    "url": "https://www.wired.com/story/the-8-best-movies-to-stream-right-now/",
+    "title": "The Best Movies to Stream This Month (July 2026)",
+    "summary": "Project Hail Mary, They Will Kill You, and The Long Walk are among the films deserving of your eyeballs this month.",
+    "full_text": "Summer is firmly here and the temperatures are feeling borderline apocalyptic in much of the northern hemisphere. Why not avoid the angry sun and stay inside where it’s (hopefully) cooler and distract yourself with some of the best movies on streaming right now?\nYour choices are notably rich too. The spring hit sci-fi movie Project Hail Mary, about the global freeze threatening Earth as a result of the sun mysteriously going out, is now on Prime Video, after winning theater audiences over with the help of an adorable pile of pebbles. If, however, you want to embrace the flames, you’ll find some like minds in Avatar: Fire and Ash on Disney+, where a violent new tribe of Na’vi just want to see the world (well, a semi-sentient living moon) burn.\nIf you instead find the heat hellish, then a double bill of Satanic panic might be more fitting. Both Ready or Not 2, also on Disney+, and They Will Kill You on Hulu tap into a previously unexplored yet surprisingly rich subgenre of “estranged sisters with melee weaponry killing murderous cultists”—insert the “weird it happened twice” meme here, but just go with it. Or if you prefer not to switch your brain entirely off for entertainment, there’s also the far more cerebral Archive or the dark dystopia of The Long Walk to take your mind off the unbearable heat.\nHere are WIRED’s picks of the best movies to watch right now.\nProject Hail Mary\nWaking up aboard a spaceship to find himself the only crew member still alive, amnesiac middle school science teacher Ryland Grace (Ryan Gosling) makes for an unlikely astronaut. Even worse, he’s Earth’s last hope for survival, sent out into space in search of a way to stop a strange phenomenon devouring the sun itself—and almost every other star in the sky. It’d be an impossible task solo, but luckily Ryland has back-up in the form of Rocky (James Ortiz), the first alien humanity has ever met, a five-legged stone creature who communicates in song.\nAdapted from the book of the same name by Andy Weir (author of The Martian), Project Hail Mary is a fantastic slice of survival drama and hard science fiction, but the real heart of the movie is Ryland’s and Rocky’s growing friendship. Prepare to fall in love with an excitable rock spider-thing—fist my bump, friends.\nAvatar: Fire and Ash\nPicking up from 2022’s The Way of Water, human-soldier-in-a-Na’vi-body Jake Sully (Sam Worthington) and his family are in mourning following the death of their eldest son Neteyam, leading wife Neytiri (Zoe Saldaña) down a dark path. As the family struggles to stay together, the colonialist human forces led by Miles Quaritch (Stephen Lang) forge a deadly alliance with a warmongering tribe of fire-worshipping Na’vi ruled by the nihilistic Varang (Oona Chaplin)—who aims for destruction to spite the Na’vi’s god, Eywa. James Cameron’s almost inconceivably ambitious saga returns with a visually spectacular outing taking viewers through striking new regions of the lush jungle moon Pandora. Fire and Ash is no jumping on point, but thankfully you can binge the entire trilogy (for now; Avatar 4 and 5 are planned) on Disney+.\nReady or Not 2: Here I Come\nThe first Ready or Not from 2019 was something of a sleeper hit. A gory slasher with a sense of humor, it played with the fears and uncertainties of marriage and joining a new family, with bride-to-be Grace (Samara Weaving) caught in the murderous traditions of her fiance’s clan. This sequel, helmed by returning codirectors Matt Bettinelli-Olpin and Tyler Gillett, picks up right after that first film’s credit roll, leading to Grace’s reunion with her estranged sister Faith (Kathryn Newton)—just in time to be swept into another murder game against a cabal of billionaires and aristocrats looking to fill a power vacuum left by Grace’s almost-inlaws. Schlocky, campy comedy horror, elevated by the presence of Sarah Michelle Gellar in an almost anti-Buffy role, Ready or Not 2 isn’t high art but it’s a hell of a lot of fun.\nThey Will Kill You\nIf Ready or Not 2 is schlock, then They Will Kill You is a step up the ladder—an almost exploitation-level hack-’em-up that takes liberal inspiration from Sam Raimi’s original Evil Dead trilogy and smashes it unapologetically together with Gareth Evans’ one-man-against-a-tower-block action epic The Raid.\nZazie Beetz (Deadpool 2) stars as Asia Reaves, who arrives at an exclusive New York high-rise known as The Virgil posing as a maid—but intent on hunting down her missing younger sister, Maria (Myha’la). Of course, The Virgil is a temple to Satan, its inhabitants are immortal cultists, and Maria is lined up as their next human sacrifice to the dark lord—so, seeing Asia absolutely wreck everything and everyone in her way as she brutally battles her way through the building is all the more satisfying. It’s borderline gonzo in places, but frankly farcical levels of the red stuff and some smart practical effects—shout out to the sentient eyeball—make this a thrilling and often hilarious ride.\nGood Luck, Have Fun, Don’t Die\nA man who looks like he’s been living in a dumpster bursts into an LA diner, brandishes a bomb detonator, and demands a group of the clientele go with him to stop a super-intelligent AI from being created before it takes over the world. This is probably a regular occurrence in parts of LA, but in this case, the nameless man (Sam Rockwell) actually is out to save the world. A time-traveler from a ruined future, he’s convinced that a certain combination of the diner’s customers will help him complete his mission—but despite being on his 117th attempt at the timeloop, he’s reluctant to ever take along the young runaway, Ingrid.\nWhile director Gore Verbinski’s vision of the man’s dark future is bizarre, it’s nothing compared to his snapshot of an exaggerated present day: a world where teenagers are turned into literal zombies on their smartphones, school shootings are so common the victims are cloned and serve ads to their grieving parents to subsidize costs, and people are so addicted to VR worlds they start uploading their consciousness to the cloud. Equal parts cynical, satirical, and weirdly hopeful, Good Luck, Have Fun, Don’t Die is a wild time travel adventure packed with big ideas.\nArchive\nFor a very different look at ideas of AI and consciousness transferal, check out this 2020 British sci-fi outing from director Gavin Rothery. Set in the near future, the married couple George and Jules (Theo James and Stacy Martin) have their lives torn apart when a devastating car crash kills Jules. Uploading her mind to Archive, a service that offers 200 hours of communication with the deceased, George races to build a robot advanced enough to permanently house his wife’s consciousness. Unfortunately, his prototype models don’t like the idea of being replaced or upgraded with the “real” Jules, and the powerful corporation behind Archive doesn’t take kindly to any perceived infringement of its intellectual property. Despite its big ideas, Archive is really a meditation on loss and love, and Rothery brings it all to life with real visual beauty—little surprise, given he was previously concept designer on Duncan Jones’ stark but striking sci-fi Moon.\nHoppers\nMabel Tanaka (Piper Curda) has loved animals and nature her entire life, but she’s about to get a crash course in animal rights and wrongs when she transplants her mind into an advanced robot beaver invented by her college professor. Meeting King George (Bobby Moynihan), a friendly beaver monarch, Mabel ends up caught in a rapidly escalating interspecies conflict between local animals and (human) mayor Jerry (Jon Hamm), who wants to build a massive new road through their habitats, all while hiding her secret identity as a human.\nYes, it’s a madcap concept—one that somewhat inverts writer-director Daniel Chong’s previous work, the slightly surreal We Bare Bears cartoon, which featured three ursine brothers trying to live in the human world. However, the film evolves into a s",
+    "source": "Wired",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Entertainment",
+    "published": "2026-07-13T23:14:30+00:00",
+    "crawled": "2026-07-14T00:01:03.865061+00:00",
+    "summarized": true,
+    "ai_summary": "• 2026年7月，流媒體平台推出多部新片，包括《Project Hail Mary》和《Avatar: Fire and Ash》。  \n• 《Project Hail Mary》講述一名失憶的科學老師在太空中尋找拯救地球的方法，並與外星生物建立友誼。  \n• 《Avatar: Fire and Ash》延續《The Way of Water》的故事，探討人類與Na’vi族之間的衝突及家庭悲劇。  \n• 影片在視覺上呈現壯觀的潘多拉星球新景觀，並探討人性與生存的主題。",
+    "summaries": {
+      "zh-HK": "• 2026年7月，流媒體平台推出多部新片，包括《Project Hail Mary》和《Avatar: Fire and Ash》。  \n• 《Project Hail Mary》講述一名失憶的科學老師在太空中尋找拯救地球的方法，並與外星生物建立友誼。  \n• 《Avatar: Fire and Ash》延續《The Way of Water》的故事，探討人類與Na’vi族之間的衝突及家庭悲劇。  \n• 影片在視覺上呈現壯觀的潘多拉星球新景觀，並探討人性與生存的主題。"
+    }
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-07-13/reeves-to-use-last-city-of-london-outing-to-warn-on-government-spending",
+    "title": "Reeves to Use Last City of London Outing to Warn on Government Spending",
+    "summary": "Rachel Reeves will issue a coded warning to the next Labour government by telling a City of London audience on Tuesday night that plans to boost the economy will only succeed with the support of financial markets.",
+    "full_text": "",
+    "source": "Bloomberg",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Macro",
+    "published": "2026-07-13T23:01:00+00:00",
+    "crawled": "2026-07-14T00:01:05.109393+00:00",
+    "summarized": true,
+    "ai_summary": "• 蘭琪·里夫斯將於週二晚上在倫敦金融城發表演講，向下一屆工黨政府發出警告  \n• 她將強調經濟增長計劃需獲得金融市場的支持才能成功  \n• 此次演講被視為里夫斯在倫敦的最後一次公開活動  \n• 里夫斯的言論旨在引起對政府開支的關注與討論",
+    "summaries": {
+      "zh-HK": "• 蘭琪·里夫斯將於週二晚上在倫敦金融城發表演講，向下一屆工黨政府發出警告  \n• 她將強調經濟增長計劃需獲得金融市場的支持才能成功  \n• 此次演講被視為里夫斯在倫敦的最後一次公開活動  \n• 里夫斯的言論旨在引起對政府開支的關注與討論"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/weather/articles/cvge2zq0zg3o?at_medium=RSS&at_campaign=rss",
+    "title": "No significant rain forecast for at least a week as UK heatwave continues",
+    "summary": "Heat has been this big story of the summer so far but there has also been a lack of wet weather, as Ben Rich explains.",
+    "full_text": "No significant rain forecast for at least a week as UK heatwave continues\n- Published\nHeatwave conditions are set continue in many areas of the UK over the next few days - with some parts on course to have gone almost a month without any measurable wet weather.\nLarge swathes of England have so far recorded 0% of the rainfall they would normally expect in July, with Wisley in Surrey having gone 26 consecutive days without any. Rainfall in Wales and Northern Ireland is also far below average.\nMore than eight million households in England are now living under hosepipe bans while the ongoing dry weather means a continued risk of wildfires, with blazes already in areas including Greater Manchester and Conwy.\nHigh pressure will dominate the UK forecast for at least the next week, with highs of up to 33C possible in southern England, meaning rain will be in very short supply.\nA hot, dry summer so far\nHigh temperatures have been hitting the headlines so far this summer, setting numerous records:\n- New UK June temperature record: 37.7C at Lingwood, Norfolk, surpassing the previous record of 35.6C from 1976 \n- New record for number of days reaching 35C or above: six days this summer so far, surpassing the previous record of five days set in 1976 \n- New record for number of days reaching 34C or above: nine days this summer so far, surpassing the previous record of eight days set in 1976 \nIt is also the first year on record when 35C or above has been reached in three different calendar months - May, June and July.\n- Has the British summer changed beyond recognition? - Published24 August 2025\n \nBut rainfall - or the lack of it - is also a big story of the summer.\nA number of places have had no measurable wet weather for around three weeks or longer.\n- No rain for 26 days: Wisley (Surrey) \n- No rain for 24 days: Herstmonceux (East Sussex) \n- No rain for 20 days: Cardington (Bedfordshire), Wittering (Cambridgeshire), Odiham (Hampshire), Heathrow (London) \nFor context, Wisley would expect to record 49.3mm (1.94in) of rain in a typical July, with Odiham seeing a monthly average of 50.8mm.\nMost areas of Wales have seen less than 10% of the usual July average, and in Northern Ireland the figure varies from 1% to 20%.\nThe one major exception is north-west Scotland where most areas have seen 40% or more of their normal monthly rainfall.\nAultbea (Highland) has already had 95% of its typical rain for July, with over half of the month remaining.\nAt this point in the month sites would have expected to have received 35% of the months total rain.\nWhat is the forecast?\nHigh pressure will remain close to the UK for the rest of this week.\nThis will keep widespread rainfall at bay meaning most areas remain largely, or completely, dry.\nA few showers and thunderstorms are expected but these will be confined to the far south of England - as well as the Channel Islands - and even where these do turn up there will be places that fall between the downpours and stay dry.\nEven further ahead there may be little relief, with some computer models suggesting high pressure is likely to remain in charge throughout next week - and possibly even beyond.\nThe threat of wildfires will continue, especially where dry weather is accompanied by breezy conditions.\nNatural England, external is warning of a \"very high\" or \"exceptional\" risk of fires across much of England - as well as Wales - over the next few days.\nFires are already burning in a number of locations including Derbyshire, Greater Manchester and Conwy.\nDry weather does not, on its own, cause wildfires - there needs to be a source of ignition too, such as a spark from a barbecue or a discarded cigarette.\nHowever, dry conditions remove moisture from vegetation making it more able to burn and act as fuel for blazes to take hold and spread.\nWhen will the heatwave end?\nAfter a slightly fresher start to the week temperatures are set to climb, returning to 32 or 33C (90-91F) in southern England by midweek.\nMany parts of Scotland, Northern Ireland, Wales and England will get into the mid to high-twenties.\nIt means heatwave conditions are likely to continue for several more days in places, probably reaching a total duration of two weeks in a few locations.\nNortherly winds should bring slightly lower temperatures by the weekend - albeit still above the seasonal norm, with a chance that heatwave thresholds could still be met in the south.\nYou can keep an eye on the forecast highs where you are - as well as the all-important chance of rain - by checking the BBC Weather app.\n- Published27 June\n \n- Published3 days ago\n \n- Published5 November 2025",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-13T23:02:25+00:00",
+    "crawled": "2026-07-14T00:01:19.336873+00:00",
+    "summarized": true,
+    "ai_summary": "• 英國多地熱浪持續，預計未來一周內無顯著降雨，部分地區已近一個月未見降水  \n• 英格蘭大部分地區七月降雨量為0%，薩里郡的Wisley已連續26天無降雨  \n• 超過八百萬英國家庭面臨噴灌禁令，乾燥天氣增加野火風險，曼徹斯特大區和康威已發生火災  \n• 英國氣象預報顯示高壓系統將主導天氣，南英格蘭氣溫可達33°C，降雨機會極低",
+    "summaries": {
+      "zh-HK": "• 英國多地熱浪持續，預計未來一周內無顯著降雨，部分地區已近一個月未見降水  \n• 英格蘭大部分地區七月降雨量為0%，薩里郡的Wisley已連續26天無降雨  \n• 超過八百萬英國家庭面臨噴灌禁令，乾燥天氣增加野火風險，曼徹斯特大區和康威已發生火災  \n• 英國氣象預報顯示高壓系統將主導天氣，南英格蘭氣溫可達33°C，降雨機會極低"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c5yzn2g0xw9o?at_medium=RSS&at_campaign=rss",
+    "title": "YouTube still recommending eating disorder videos to teens, research finds",
+    "summary": "The site is continuing to recommend harmful videos despite new rules meant to better protect teenagers in the UK, a study finds.",
+    "full_text": "YouTube still recommending eating disorder videos to teens, research finds\n- Published\nYouTube is still recommending eating disorder videos to teenage users a year after new rules were introduced to curb harmful online content, according to new research.\nThe Centre for Countering Digital Hate (CCDH) set up a simulated account for a 13-year-old girl viewing unsafe diet and body image content for the first time.\nIt found one in 10 videos recommended by YouTube's Up Next algorithm featured thinspiration, extreme calorie restriction or other harmful material, although the situation had improved over the past two years.\nGoogle, which owns YouTube, said it had a \"steadfast\" commitment to stopping the spread of harmful content and the videos highlighted in the report had been removed.\nThe findings come after telecoms regulator Ofcom said YouTube and TikTok were still not doing enough to keep young people safe and called for stronger protections.\nIn July 2025 a key part of the government's Online Safety Act came into force, meaning sites like YouTube now have a legal duty to protect under 18s from dangerous content including videos that encourage or promote suicide, self-harm and eating disorders.\nSites must also consider how their algorithms – the computer code which recommends new content to users – could be harmful to young people and mitigate any risks.\nIf companies do not do this they can be fined up to 10% of their global revenues, which in the case of Google could run into many billions of pounds.\n'I'd be constantly on my phone'\nJazmin Kaur, 22, from Leicester, was diagnosed with anorexia when she was 13 and spent the next six years receiving NHS treatment.\n\"It all started quite innocently,\" she said.\n\"I wanted to get fitter, I wanted to get healthier, so I started going online and took social media very much at face value without understanding the facts.\"\nEating disorders have complex causes, and online content alone can never explain why someone develops the condition.\nJazmin said that some of the material on YouTube and other sites was helpful but \"most of the time it made it a lot worse\".\n\"Every time I left hospital, I'd have my phone with me and I'd constantly be on it,\" she added.\n\"I was fed such extreme content towards the end that I took it for my own vulnerabilities,\" she said.\nAt university Jazmin decided to delete her social media accounts entirely.\nShe is now studying for a master's degree in paediatric nursing while working weekends in an adult mental health unit.\n'One video still too many'\nTo compare YouTube's video recommendations before and after the act came into force the CCDH, a non-profit organisation that researches online harms, created a profile representing a 13-year-old girl in the UK.\nThey viewed 10 potentially harmful videos focused on dieting and body image, mimicking the behaviour of a new user showing interest in that kind of content.\nThen they analysed the next 100 videos suggested by YouTube's Up Next algorithm.\nIn 2026, one in 10 of those recommendations was classified as harmful eating disorder content, an improvement on the one in four identified when the CCDH carried out the same experiment in 2024.\nThe research was repeated using teen profiles in the US and EU, producing similar results.\n- What the Online Safety Act is - and how to keep children safe online - Published24 July 2025\n \n- TikTok and YouTube 'not safe enough' for kids, says Ofcom - Published21 May\n \nAlexandra Johnson, senior research manager at CCDH, said there was \"some hope to be gained\" from the report as it showed regulation does have an impact.\n\"But one video is too many and we don't want any of this content to get through, particularly to vulnerable users, where just a small algorithmic nudge can be enough to push them into a very dangerous situation,\" she said.\nContent still being recommended by YouTube included a \"thinspo\" (short for thinspiration) account showing a compilation of girls idealising extreme thinness; a video which promoted a diet with a daily intake of just 170 calories, far below the healthy level for teens; and a video claiming to help users lose weight subliminally that linked to a document promising \"the most emaciated skeletal dainty body eva\".\nThe study also looked at crisis panels – a blue box on YouTube shown beneath a video on a sensitive topic that can direct users to reputable support services.\nIn 2026, none of the harmful eating disorder videos recommended by YouTube's algorithm triggered a crisis panel, although the warnings did appear on other diet and body image videos the CCDH did not classify as potentially dangerous.\nGoogle said it prohibits YouTube content which encourages or provides instructions on eating disorders \"while enabling people to share stories of recovery\".\nIt has now removed the videos featured in the CCDH report for violating its community guidelines.\n\"The wellbeing of our viewers is our top priority, and we work with experts including the NHS, Mind and the Mix to refine our approach to mental health,\" a YouTube spokeswoman said.\nThe site has launched specially curated videos from experts which appear when a teen account searches for a topic such as depression or eating disorders.\nThe CCDH focused on YouTube for its research because of the site's popularity among children and young people, with Ofcom figures, external showing 88% of 3-17 year olds saying they used it.\nAdvice and support\nExperts describe the relationship between social media and eating disorders as complex.\nSupportive online communities and positive content can help reduce feelings of isolation, particularly at a time when many people are struggling to access NHS treatment, said Victoria Longley, chief executive of the eating disorder charity Beat.\nHowever, she said about 90% of the people the charity speaks to report encountering harmful content online.\nBeat says that users can, external turn off notifications, use apps that limit the time spent online, or select the \"not interested\" option on content they do not want to see.\nAccounts that share harmful material can also be blocked, muted and, where appropriate, reported.\nBut Longley argues that, ultimately, responsibility lies with social media sites to ensure their platforms are safe.\nIn June, the government announced plans to prevent under-16s from accessing major platforms including YouTube, TikTok, Instagram, Snapchat, Facebook and X, with the measures expected to come into force in spring 2027.\nIf you have been affected by the issues raised in this story help and support is available via the BBC Action Line.",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "Science",
+    "published": "2026-07-13T23:05:00+00:00",
+    "crawled": "2026-07-14T00:01:19.370037+00:00",
+    "summarized": true,
+    "ai_summary": "• 根據最新研究，YouTube仍然向青少年用戶推薦飲食失調相關視頻，儘管一年前已經引入新規則以限制有害內容的傳播。  \n• 反對數位仇恨中心（CCDH）模擬了一個13歲女孩的帳戶，發現每10個推薦視頻中就有1個包含極端飲食或其他有害內容。  \n• 谷歌表示已經刪除報告中提到的視頻，並強調其對阻止有害內容傳播的承諾。  \n• 英國通訊管理局Ofcom呼籲加強對年輕人的保護，並指出YouTube和TikTok仍未能充分保護青少年。",
+    "summaries": {
+      "zh-HK": "• 根據最新研究，YouTube仍然向青少年用戶推薦飲食失調相關視頻，儘管一年前已經引入新規則以限制有害內容的傳播。  \n• 反對數位仇恨中心（CCDH）模擬了一個13歲女孩的帳戶，發現每10個推薦視頻中就有1個包含極端飲食或其他有害內容。  \n• 谷歌表示已經刪除報告中提到的視頻，並強調其對阻止有害內容傳播的承諾。  \n• 英國通訊管理局Ofcom呼籲加強對年輕人的保護，並指出YouTube和TikTok仍未能充分保護青少年。"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cg4w6wqye32o?at_medium=RSS&at_campaign=rss",
+    "title": "The secretive crypto firm backed by Farage's biggest donor",
+    "summary": "Tether is a giant in crytocurrency, an industry that Nigel Farage believes the UK should be embracing.",
+    "full_text": "The secretive crypto firm backed by Farage's biggest donor\n- Published\nWho is the biggest purchaser of the world's biggest safe haven asset - gold?\nChina? Japan? One of the Gulf countries, perhaps?\nIn fact, the single biggest buyer of the precious metal last year was a company you've probably never heard of – a crypto firm called Tether\nThe El Salvador-based company runs USDT, the world's biggest stablecoin, which is a form of crypto backed up by hard currency.\nIt serves as a conduit between riskier, volatile cryptocurrencies and the conventional finance system, essentially used as an offshore dollar.\nYet Tether bought more gold last year than anyone, according to European Central Bank data.\nIt keeps it stored in a James Bond-style Swiss former nuclear bunker, according to Tether's boss.\nTether says it also owns as much US Government debt as some G20 nation states, some $135bn (£101bn), which is more than South Korea.\nIt is a huge player, almost taking on the characteristics of a private central bank. Yet it employs just 200 people.\nIt is also, perhaps inadvertently, entangled in the questions around the funding of Nigel Farage's Reform party.\nOne of Tether's significant shareholders is Christopher Harborne.\nLast August, Harborne gave £9m in cash to Farage's Reform party – the biggest party donation in British history. He gave a further £3m to Reform in October and an additional £3m in January. All the donations were declared.\nHarborne had given £5m directly to Farage, a previously undisclosed personal gift which was the subject of parliamentary investigations, before Farage resigned as an MP.\nFarage and Harborne have both said there were no strings attached to the personal gift, nor to the political donations to Reform.\nThe Bank of England's governor Andrew Bailey recently confirmed that Farage raised the issue of cryptocurrency regulation and the related issue of central bank digital currencies with him in September last year.\nHe said Farage made his views \"very clear\", but the \"intervention\" did not change the Bank's policy, and that in general he could spot \"lobbying\" and knew how to discount it.\nThere was a specific issue Farage was concerned about - speculation that the Bank of England would push ahead with a limit on holdings of potential sterling stablecoins of between £10,000 and £20,000.\nThe industry was lobbying hard against it.\nMy understanding is that Farage did not raise Tether specifically with the governor, but he did talk about stablecoin regulation in general.\nIt raises reasonable questions about the precise details of that conversation and the scope for any possible benefit to Tether and its shareholders from shifts in Bank of England policy.\nThe Reform leader had already spoken openly about embracing cryptocurrencies,\n\"Tether is about to be valued as a $500bn company,\" he told LBC presenter Nick Ferrari in September, the day before meeting Bailey\n\"This world is enormous, and I've been urging for years that London should embrace it. We should become a global trading centre for this stuff under proper regulation.\"\nOn the wider conversation, Farage's team say that \"his remarks to Andrew Bailey are consistent with his long-held belief that the UK should be a global hub for regulated cryptocurrency innovation and investment\".\nTo that end, last May when Reform was ahead in the polls, the only piece of draft legislation it had published was its Cryptoassets and Digital Finance Bill.\nIt had a fleeting reference to stablecoins, and no reference to the Bank's existing plan to limit personal holdings.\nI read it and downloaded it.\nIt has since disappeared from the Reform website and from the web generally.\nReform tells the BBC it is still party policy but that it regularly updates the website to highlight latest announcements.\nThree months on from that stablecoin regulation becomes absolutely central to Reform's priority discussions with the Bank of England, Reform says because the official consultation only opened up last November.\nIt's important to note that Bailey is not just the man running the Bank of England.\nHe also chairs the international financial regulation body, the Financial Stability Board. So he is arguably the most important non-American in the world for the regulation of crypto and stablecoins, reporting directly to G7 and G20 summits.\nHe has expressed concern that stablecoins could be destabillising if they are considered to be a form of money without guarantees of holding their value.\nThis industry is extremely sensitive to financial regulation.\nSome context lies across the Atlantic as to why.\nLast July, the Trump administration passed the so-called Genius Act, essentially legitimising stablecoins, under certain regulation in the US.\nOn the back of this, one provider, called Circle, floated in New York, and it surged 10-fold in value in three weeks.\nIn turn, over this period Tether and its advisers prepared for a capital raise valuing the much larger stablecoin at $500bn.\nIn the same month Harborne donated a record £9m to Reform, relaxation of US stablecoin regulation drove up the value of his stake in Tether by several billion dollars.\nThen the following month, Reform referenced Tether by name in public, to the radio station LBC, and raised stablecoins as a priority issue with the UK regulator.\nThe BBC understand that Harborne has no executive role at Tether, nor any control. He has a stake of around 13% in the firm.\nHarborne was also a registered named lobbyist at the European Parliament for the Digital Currencies Governance Group, for which Tether was a founder member, for seven months from September 2020.\nThe DCGG regularly defends Tether by name in its submissions to various regulatory bodies.\nLawyers for Harborne declined to comment.\nA Reform spokesman said that it was \"false\" to make any suggestion that policy development is connected to or influenced by individual donors, and that there was no requirement to discuss the financial interests of party donors at meetings such as with the Bank of England governor.\nThe Bank did row back on some stablecoin restrictions last month, it said because of recommendations from the House of Lords financial committee.\nNone of this contradicts Farage's argument that there were no strings attached to Harborne's personal gifts and political donations.\nBut this is a unique situation where a political party preparing for government has received £15m of donations from one individual over the past year, a clear majority of its registered donations from a single individual.\nIn addition, a year previously, its leader accepted a previously undisclosed £5m personal gift from the same individual.\nThe money flowed at the precise moment that changes to global regulation of stablecoins was transforming the value and prospects of that sector.\nNever before has a table-topping political party been so dependent on donors connected to a narrow sector, which is in turn demonstrably extremely sensitive to live regulatory decisions\nIf there is an early election in the next year, won by Reform, it would then also choose the next governor of the Bank of England, before the expiry of Bailey's term in 2028.\nSir Charlie Bean, a former deputy governor at the Bank of England, told the BBC: \"Stablecoins are only stable if they have the appropriate regulatory environment… . But there is right now an unsurprising regulatory race to the bottom amid the potential for greater profits.\"\nHe added: \"When funds are coming from major shareholders of such large financial institutions, there is a clear potential conflict of interest here, for example, in the appointment of a new Bank of England governor.\n\"Transparency is one solution.\"\nThe questions crystallised by this unusual meeting last September are likely to remain with us.\nRelated topics\n- Published5 days ago\n \n- Published5 days ago",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-13T23:00:59+00:00",
+    "crawled": "2026-07-14T00:01:19.399895+00:00",
+    "summarized": true,
+    "ai_summary": "• 加密貨幣公司Tether在2022年成為全球最大的黃金買家，根據歐洲央行數據顯示，其購買量超過任何其他公司  \n• Tether是位於薩爾瓦多的公司，運營全球最大的穩定幣USDT，並在瑞士的一個前核彈工廠中儲存黃金  \n• Tether的主要股東Christopher Harborne向尼格爾·法拉奇的改革黨捐贈了900萬英鎊，創下英國歷史上最大的政黨捐款  \n• 英國央行行長安德魯·貝利確認法拉奇在去年9月曾與他討論加密貨幣監管，但未具體提及Tether，並表示這些討論未改變央行政策",
+    "summaries": {
+      "zh-HK": "• 加密貨幣公司Tether在2022年成為全球最大的黃金買家，根據歐洲央行數據顯示，其購買量超過任何其他公司  \n• Tether是位於薩爾瓦多的公司，運營全球最大的穩定幣USDT，並在瑞士的一個前核彈工廠中儲存黃金  \n• Tether的主要股東Christopher Harborne向尼格爾·法拉奇的改革黨捐贈了900萬英鎊，創下英國歷史上最大的政黨捐款  \n• 英國央行行長安德魯·貝利確認法拉奇在去年9月曾與他討論加密貨幣監管，但未具體提及Tether，並表示這些討論未改變央行政策"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/c8924433kjyo?at_medium=RSS&at_campaign=rss",
+    "title": "'Easy to create divisions' - Kane says England are 'completely together'",
+    "summary": "England captain Harry Kane says the squad are \"completely together\" before their World Cup semi-final against Argentina.",
+    "full_text": "'Easy to create divisions' - Kane says England are 'completely together'\n- Published\nEngland captain Harry Kane says the squad are \"completely together\" before their World Cup semi-final against Argentina after Jude Bellingham questioned Thomas Tuchel's assessment of their performance against Norway.\nThey secured a place in the final four with a draining 2-1 win against Norway in the Miami heat on Saturday, and now face a match in Atlanta on Wednesday (20:00 BST) against the defending world champions, who saw off Switzerland 3-1.\nSpeaking on the pitch straight after the Norway match, Tuchel said England \"got lucky\", and that he was \"not happy\" with his side's performance in \"every sense\".\nWhen asked about his manager's comments, Bellingham replied: \"Yeah, well, whatever. It's difficult out there - it's a tough shift.\"\nSpeaking to BBC Sport on Monday, Kane said the England camp is far from divided.\n\"When you are playing a game like that and to be asked a question five minutes after the final whistle, and he didn't really know what had been said, what do you want Jude [Bellingham] to say?\" Kane said.\n\"We had just been through a battle. It is easy to try and create this division - it seems like an English thing to do at these major tournaments.\n\"But it is the complete opposite. The group is where we are because of our complete togetherness - not just the players, the coach and the staff. Things sometimes get made out to be more than they are.\"\nTuchel's managerial style is different to that of his predecessor Sir Gareth Southgate, but Kane said that is not a bad thing.\n\"He [Tuchel] wears his heart on his sleeve and people appreciate that. When he talks, it is never scripted. That is what makes him who he is.\n\"When it just comes natural you believe in that, you believe in what he is saying, you believe in his approach. He is one of the best managers in the world for a reason. We understand it. Over the past two years we have got to know him and know what makes him happy.\"\nChance to face Messi once in a lifetime - O'Reilly\nStanding between England and a second World Cup final appearance is Lionel Messi's Argentina, and left-back Nico O'Reilly is relishing the \"once-in-a-lifetime opportunity\" to face the eight-time Ballon d'Or winner.\nIt will be the first time Messi has faced England, and at 39, it could be the last. Manchester City defender O'Reilly has never faced him at club level either.\n\"I can't wait,\" O'Reilly, who will probably have to defend against Messi one-on-one if he starts at left-back, told BBC Radio 5 Live.\n\"It's a once-in-a-lifetime opportunity. He's coming towards the end of his career. For me personally, he's the best player to ever touch a football pitch. And yeah, I can't wait for the challenge.\"\nMessi began the tournament with a hat-trick in a 3-0 win against Algeria as he became the all-time leading goalscorer in World Cup history, equalling Miroslav Klose's record of 16, which had stood since 2014.\nThe Argentina captain has since scored five more to take that record - his total of eight goals putting him joint-first with France's Kylian Mbappe in the Golden Boot race, and taking his career World Cup tally to 21.\nWhile Messi is Argentina's main threat, England goalkeeper Jordan Pickford warned against ignoring the other talents in Lionel Scaloni's side.\n\"He has scored so many goals and contributed to so many over his career. It's great to finally come up against him after so long, and watching him as a kid,\" Pickford told media at England's training base in Kansas on Monday.\n\"We all know how good Messi is but we also know how good Argentina are. We can't solely rely on [stopping] Messi. We've got to focus on their other strengths and the weaknesses we can take advantage of.\"\nThe winner of the semi-final will face either France or Spain - who play each other on Tuesday (20:00 BST) - in the World Cup final at the New York New Jersey Stadium on Sunday, 19 July (20:00 BST).\nRelated topics\n- Published2 days ago\n \n- Published2 July",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-13T22:08:56+00:00",
+    "crawled": "2026-07-14T00:01:19.427163+00:00",
+    "summarized": true,
+    "ai_summary": "• 英格蘭隊長哈利·凱恩表示，球隊在對阿根廷的世界盃半決賽前「完全團結」，儘管朱德·貝林漢對教練圖赫爾的評價提出質疑。  \n• 英格蘭在邁阿密以2-1戰勝挪威，晉級四強，將於星期三在亞特蘭大對陣衛冕冠軍阿根廷。  \n• 圖赫爾賽後表示英格蘭「運氣好」，對球隊的表現不滿，貝林漢回應稱比賽艱難。  \n• 左後衛尼科·奧萊利期待與梅西對決，稱這是「一生一次的機會」，並表示梅西是他心目中最偉大的球員。",
+    "summaries": {
+      "zh-HK": "• 英格蘭隊長哈利·凱恩表示，球隊在對阿根廷的世界盃半決賽前「完全團結」，儘管朱德·貝林漢對教練圖赫爾的評價提出質疑。  \n• 英格蘭在邁阿密以2-1戰勝挪威，晉級四強，將於星期三在亞特蘭大對陣衛冕冠軍阿根廷。  \n• 圖赫爾賽後表示英格蘭「運氣好」，對球隊的表現不滿，貝林漢回應稱比賽艱難。  \n• 左後衛尼科·奧萊利期待與梅西對決，稱這是「一生一次的機會」，並表示梅西是他心目中最偉大的球員。"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/czj8zp9e084o?at_medium=RSS&at_campaign=rss",
+    "title": "How my period is supercharging my ADHD",
+    "summary": "A first-of-its-kind study by UK researchers is looking at the link between menstrual cycles and ADHD.",
+    "full_text": "How my period is supercharging my ADHD\n- Published\nPhone alarms are what get teaching assistant Layla through her day. She has four alarms to wake up, one to get dressed, another to pack her work bag, and so on.\n\"There's a million different ones. Different times of the day,\" says the 30-year-old as she scrolls through the alerts on her phone.\n\"It feels like overkill to a lot of people, but I have these markers that I need to hit,\" says Layla, adding that the process helps keep her ADHD brain focused and establish a routine.\nBut that sense of control evaporates as soon as Layla's period nears - the peak of her menstrual cycle.\n\"It's like you're clinging on, for dear life, onto the ball that is continuing to roll, and sort of cursing yourself and the world the entire time.\"\nADHD is a condition where the brain works differently to a lot of people including difficulties with things like concentrating, regulating emotions and sitting still, according to the NHS.\nConversations are rife on social media and chat forums about women's menstrual cycles exacerbating their ADHD symptoms.\nA first of its kind study by Kings College and Queen Mary University in London is putting that link to the test, by asking 50 women who have ADHD and are taking medication for it, to track their menstrual cycle and the impact it has on their ADHD symptoms, and daily life more broadly.\nRoughly 2.5m people in the UK are thought to have ADHD. Hundreds of thousands of those are waiting for an NHS diagnosis.\nSocial media as well as greater awareness of ADHD - in particular how women live with it - have led to an unprecedented surge in demand for ADHD assessments.\nNHS figures from December last year show a 23% increase in stimulants and drugs prescribed for ADHD, compared to the previous year.\nBut a government taskforce report in November last year found ADHD was still being under-diagnosed and under-treated. The BBC revealed some areas of England are now shutting their NHS waiting lists because they cannot cope with demand.\nNineteen-year-old Héloïse is studying for three university degrees.\nShe calls ritalin - the medication she takes for her ADHD - a lifeline which gives her a three-hour window of focus to study. Héloïse takes the pill, sits in the library and waits for it to kick in.\nBut during her period, she just \"waits and waits\" for a reaction that never comes. \"It feels like losing a walking stick or something you use to support yourself. All of a sudden it's broken,\" she says.\nIt was not until she mapped her symptoms for the Kings College study that she saw the pattern between hormonal changes and her ADHD symptoms.\nOther women taking part in the research used similar language, with some saying they felt \"disabled\" by their symptoms at certain times of the month.\nThe women participating in the project have kept an electronic diary of their hormones and the severity of their ADHD symptoms, including anxiety, depression and impulsive behaviour.\nThe researchers, plotting their cycle alongside how they feel, are investigating whether there's a pattern both in their symptoms and in how effective their medication is at helping manage them.\nMonthly impact\nPsychiatrist Sally Cubbin, a neurodiversity specialist who worked on the Kings College study, believes hormones and ADHD are inextricably linked - and hopes this trial will reflect that.\nShe describes how, at times in a woman's cycle, like just before a period when the hormone oestrogen is low, it affects the dopamine, our body's 'feel-good' hormone, making ADHD symptoms much stronger.\nThose monthly dips in oestrogen do not just negatively affect the ability to focus and manage tasks, Dr Cubbin says.\n\"Women are also more likely to make dodgy decisions and take risks\" which can include binge eating, spending money, \"even not taking contraception\".\nFor Layla, those impulsive decisions are all too familiar. She says she struggles with overeating and cravings during her period.\nFor example, \"I love pickles. I know that if I eat too many pickles I'm gonna feel ill.\" She says it is not because she's hungry; but \"it's this impulse to do it and then once it's in your head it's really difficult to shut it down or turn it off.\"\n'Validating and freeing'\nLead academic on the Kings College project Dr Jessica Agnew-Blais says ADHD in women - especially adults - is an important new area of research. Until the late 90s it was seen as a condition that only affected children, and then mainly boys.\n\"We're seeing increasing numbers of women,\" says Dr Catherine Durkin of the Royal College of Psychiatrists. \"Thanks to increasing awareness of how ADHD symptoms can present in women, more are recognising where they have struggled throughout their lives and are now asking for help.\"\nWomen are interested in the effect the menopause and peri-menopause - major hormonal transitions - have on their ADHD, questions for which Dr Agnew-Blais says her study - which is not fully completed yet - would be a good \"starting point\".\nIt's not about a \"need to change who you are,\" she noted. \"It can help just fit ADHD into your life a little bit better.\"\nLayla says she has always given herself a hard time for not \"coming up to scratch\" but that taking part in the research project has felt \"validating and freeing\".\n\"Understanding that this is something that a lot of women are going through every month for most of their life. It's good to have kind of community and feel like that it's okay, this isn't just me.\"\nRelated topics\n- Published6 November 2025\n \n- Published15 September 2024\n \n- Published5 June 2025",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "Science",
+    "published": "2026-07-13T23:00:58+00:00",
+    "crawled": "2026-07-14T00:01:19.458526+00:00",
+    "summarized": true,
+    "ai_summary": "• 倫敦國王學院和女王瑪麗大學進行一項研究，調查50名服用藥物的女性ADHD患者的月經周期與ADHD症狀之間的關係。  \n• 研究顯示，許多女性在月經期間感受到ADHD症狀的加劇，並形容在這段時間感到「無法行動」。  \n• 英國約有250萬人被認為患有ADHD，需求增加導致NHS的診斷和治療仍然不足。  \n• NHS的數據顯示，去年12月ADHD藥物的處方增加了23%，但某些地區的等待名單已經關閉，無法應對需求。",
+    "summaries": {
+      "zh-HK": "• 倫敦國王學院和女王瑪麗大學進行一項研究，調查50名服用藥物的女性ADHD患者的月經周期與ADHD症狀之間的關係。  \n• 研究顯示，許多女性在月經期間感受到ADHD症狀的加劇，並形容在這段時間感到「無法行動」。  \n• 英國約有250萬人被認為患有ADHD，需求增加導致NHS的診斷和治療仍然不足。  \n• NHS的數據顯示，去年12月ADHD藥物的處方增加了23%，但某些地區的等待名單已經關閉，無法應對需求。"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/ckg8x4vk04vo?at_medium=RSS&at_campaign=rss",
+    "title": "'I don't want to seem tight': How much should you give to the year-end teacher collection?",
+    "summary": "Collecting money for a joint present might overcome the competitive gift-giving, but it can still cause friction.",
+    "full_text": "'I don't want to seem tight': How much should you give to the year-end teacher collection?\n- Published\nParents know the drill: as the end of summer term rolls in it's time to think about thank-yous for the teachers after another year of hard work and tested patience.\nBut just how generous should you be? Is £5 too much? Or too little? And what about support staff like teaching assistants, canteen staff and librarians?\nWith many parents strapped for cash and heading into the holidays, it's an extra expense to budget for and an awkward etiquette to negotiate.\nPlus, what used to be a simple matter of buying chocolate and writing a card has been overtaken by an organisational extravaganza, with class reps sending out a flurry of Whatsapps to drum up contributions, before passing round the collective card, and deciding on flowers, spa days, wine or vouchers.\n'You can't just put a few quid in or you'll seem tight'\nThis can all really add up, as one parent told the BBC.\nAt her South East London primary school, collections have reached as much as £560, which is split between the teacher and teaching assistants. For a class of 30, that works out at more than £18 per child.\nOn top of this, she says there are usually bake sales and ice cream sales in June and July to raise money for the school, as well as collections for support staff who are leaving or members of the PTA.\nThe mother-of-two, who didn't want to share her name, said she and her partner \"were not in an uncomfortable position\" but still \"feel the strain\".\n\"Sometimes you are asked to put money into someone's bank account and there's a lot of pressure there. You can't just put a few quid in or you'll seem tight.\"\nTeacher whip-rounds are a hot topic on the online forum Mumsnet, where they tend to divide opinion.\nIn a recent thread, one parent spoke of the \"insane\" amount they were asked to give, while another said they felt pressured to contribute, especially if there was a class \"Queen Bee\" organising the collection.\nBut others responding online said it was reasonable to give a sizeable amount, with one arguing that teachers were \"woefully underpaid and undervalued\".\nEven if you are contributing £10 each for three members of staff, that costs the same as taking the family out for coffee and pastries, they pointed out.\n'It would be terrible to call someone out'\nMaya, who also did not want to use her real name due to \"the politics of it all\", has taken on the role of organising the whip-round for the past few years at her children's London school.\nThe mother-of-two says a class collection is more affordable than giving individual presents. So she and the other parents agreed on a contribution of £5 per member of staff, making a total of £15 from each child for their teacher and two teaching assistants.\nShe does note that in a year when the teacher \"hasn't been the best\" payouts have been lower, but usually most parents do contribute.\n\"A couple of mums always say, 'we like to do our own thing',\" she says. She is aware there may be good reasons parents or carers can't take part; some of the pupils are in care.\n\"I think it would be terrible to call someone out and be like: why haven't you contributed?\" she says.\nFor families that can't afford extravagant presents a collection can make things easier, says psychologist Cathrine Jansson-Boyd at Anglia Ruskin University.\nBut in fact, all children benefit from a shift away from the \"showing-off culture\" at the school gate at the end of term, which can make them anxious, she says.\n\"It avoids some kids perhaps going: 'Mummy, or Daddy, why didn't we give the teacher 10 bottles of champagne?',\" says Jansson-Boyd.\nShe thinks a £5 contribution from each child adds up to an \"incredibly generous\" gift for staff.\n'Whether a parent has contributed is not relevant'\nBehavioural psychologist Jo Hemmings thinks contributions should be specified in advance, leaving less room for doubt and social pressure - because, after all, you can never be sure your donation will not end up being talked about.\n\"I think everyone should give an equal amount. Probably about £10 per parent, I think the maximum is probably £20,\" she says. She suggests £5 for teaching assistants.\n\"I don't know if that makes me sound very mean or very generous, but I feel that's kind of an affordable level,\" she says.\nShe also thinks the card should be from the class as a whole, regardless of who donated.\n\"Whether a parent has contributed or not is not relevant - the teacher doesn't need to know that.\"\nTim, a teacher at a private school in Cheltenham, says what means the most to him is when students have written a card or a note themselves.\n\"I'm a physics teacher and I've got a terrible sense of humour,\" he confesses, so he particularly likes it if the students pick up on his fondness for corny puns.\nTim, like plenty of teachers, says he doesn't want parents to feel any obligation to give a gift.\nMost schools have rules over the value of gifts teacher can accept, limited to £30 or £50 typically, and discourage cash gifts altogether.\n\"I think it wouldn't be a bad idea for schools to point that out and say, look, if you're going to buy something, make sure you keep below X amount,\" says Tim.\nGet in touch\nWhat’s your biggest money dilemma? Tell us your story.",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-13T23:02:11+00:00",
+    "crawled": "2026-07-14T00:01:19.489675+00:00",
+    "summarized": true,
+    "ai_summary": "• 隨著學年結束，家長們開始考慮對教師的感謝贈禮，金額的選擇引發討論。\n• 在倫敦東南部的一所小學，家長們的集資金額可達560英鎊，平均每名學生超過18英鎊。\n• 網上論壇Mumsnet上，家長們對集資金額的看法存在分歧，有人感到壓力，有人認為應該給予合理的金額以表達對教師的感激。\n• 一位家長提到，集體贈送的方式比個別贈送更經濟，通常每名員工的建議金額為5英鎊。",
+    "summaries": {
+      "zh-HK": "• 隨著學年結束，家長們開始考慮對教師的感謝贈禮，金額的選擇引發討論。\n• 在倫敦東南部的一所小學，家長們的集資金額可達560英鎊，平均每名學生超過18英鎊。\n• 網上論壇Mumsnet上，家長們對集資金額的看法存在分歧，有人感到壓力，有人認為應該給予合理的金額以表達對教師的感激。\n• 一位家長提到，集體贈送的方式比個別贈送更經濟，通常每名員工的建議金額為5英鎊。"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cy8wlplellvo?at_medium=RSS&at_campaign=rss",
+    "title": "Is tracking your food purchases good for your health?",
+    "summary": "Food tracking apps are popular, but are they a good way to make us eat a healthier diet?",
+    "full_text": "Is tracking your food purchases good for your health?\n- Published\nWith a packet of biscuits in one hand and her smartphone in the other in the biscuits sucrées aisle of her local Hyper U supermarket west of Paris, Nathalie sees red. Literally.\n\"Look at that!\" she says showing me her phone. 0/100 is marked in red lettering.\n\"This is one of Malo's [her 12-year-old son's] favourites but it's not only full of sugar and saturated fats, there are four additives as well including one health risk,\" she says.\nNathalie clicks on the additive in question: E450. \"A mineral which, taken in excess, can lead to bone marrow and kidney problems,\" she reads.\n\"Honestly, that they can put this sort of thing in food aimed at children drives me nuts!\" she says.\nWe scan an Italian alternative whose packaging gives you the impression those biscuits have been hand-made by peasant women wearing black shawls.\nThe score is not much better: \"Malo hates shopping with me now,\" says Nathalie. \"You spend ages scanning and he can never have what he wants.\"\nThe app, having activated the red alert, suggests a healthier alternative. It's organic, containing wholewheat, fruit and fibre.\n\"You end up buying a lot more organic stuff so it's more expensive,\" she says.\nNathalie is one of a growing number of people using Yuka, an app developed in France, to shop more healthily. Not just for food but cosmetics and toiletries too.\nDownload it and you can use your phone to scan the barcodes of any one of the six million products on the Yuka database (about 1,200 new ones a day) and it'll tell you immediately – green for good, red for bad, yellow for could be better. If you want to know more, you can delve further. Pages and pages if you want.\nStarted in 2015, Yuka now has 85 million users in 12 countries: numerous European ones plus the US, Canada and Australia.\nThe third-biggest user is the UK with around five million, second is France with six million, but the biggest by a very long way is the US with 28 million.\nYuka has some high-profile fans in the US. For example, Donald Trump's Secretary of Health and Human Services, Robert F Kennedy Jr, says it's his favourite app.\nYuka was founded in France where it still has its headquarters, but three years ago co-founder and CEO Julie Chapon moved to the States because the app was doing so well there.\nShe says the app is more successful in the US because the need is greater. \"I'm thrilled to be in a country where there is still so much progress to be made,\" she says, diplomatically.\nIn France, Yuka is one facet of a wider food-tracking phenomenon.\nIn 2012, a French programmer called Stéphane Gigandet launched a free, online and crowdsourced food product database called Open Food Facts during the Food Revolution Day organised by English chef Jamie Oliver.\nA community-driven non-profit rather than a private company, it now makes available information on over four million food products around the world.\nAlso, two months after Yuka's launch, the French government started its Nutri-Score labeling, external. It's creator was the food researcher Serge Hercberg from Paris' Sorbonne University.\n\"I was inspired in particular by the UK's Traffic Light system which gives green, amber or red lights for sugar, fat, salt, calories... but I wanted something simpler. The Nutri-Score gives a global score. You can tell at a glance whether a product is going to be good or bad for your health,\" he says.\nIntroduced after a bit of an arm-wrestle with the food industry, Nutri-Score is a voluntary front-of-pack label for pre-packaged food. Many big food manufacturers such as Danone and Nestlé have adopted it widely, but some brands – especially where they'd score poorly - simply opt out.\n\"Applications like Yuka and Open Food Facts fill that gap,\" says Hercberg.\nThey also go further than Nutri-Score, giving info, for example, about additives (chemicals added to preserve or colour food for example which are coded as e-numbers) whose presence is a strong indicator that food is ultra-processed.\nThe Yuka drawback? Christian Reynolds, Reader in Food Policy at City St George's University, London says tech is one of a basket of solutions but research shows the limits.\n\"I supported a [British government] review on how people interact with labels, external and information, and the take home from that was that few people have the time, capacity or inclination to engage with shopping and food choices beyond routine.\"\nHercberg see the limitations to food tracking systems as well: \"Unfortunately, they essentially only touch the more privileged section of the population, who are not those most at risk of health problems linked to the way they eat.\"\nHe considers the Nutri-Score labeling system he created and apps like Yuka and Open Food Facts to be allies.\nThey are all about sharing information, which they already do among themselves. Yuka has its own food scientists but replies essentially on academic publications and publicly-available data. It incorporates Nutri-Score data in its product assessments.\nUnlike Nutri-Score and Open Food Facts, Yuka is a private company and profitable says CEO Julie Chapon.\nHowever, she stresses that revenue does not come from advertising, sponsored rankings or product placement.\n\"We have never accepted money from brands to influence our ratings or recommendations. Our revenue comes from users, through the premium version of the app,\" she says.\nThe percentage of Yuka users who pay for premium is tiny but that suffices because the total number of users is so enormous, she adds.\nChapon says there is evidence that Yuka has an impact on shopping habits. In 2024 a company survey of 20,000 users indicated that 94% of them put products back on the shelf when the app showed a red rating.\nAs for evidence of how this app is changing the food produced and sold, the most striking example is probably the French super and hyper-market chain Intermarché, France's third largest with over 2,100 stores.\nIt says it has changed a lot of its own brand product formulations because of their Yuka scores.\n\"Since 2017, we have reformulated over 3,000 recipes and taken out 160 additives… Last year alone, we re-worked the formulations of around 300 products,\" the company said in a statement.\nIn April this year it even started putting products' Yuka scores on its online shopping site.\nMore Technology of Business\n- Published12 June\n \n- Published5 June\n \n- Published9 June",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "Health",
+    "published": "2026-07-13T23:04:58+00:00",
+    "crawled": "2026-07-14T00:01:19.519809+00:00",
+    "summarized": true,
+    "ai_summary": "• 法國開發的Yuka應用程式幫助用戶掃描食品條碼，評估產品健康程度，使用顏色標示（綠色為好，紅色為差，黃色為可改善）  \n• Yuka自2015年推出以來，已在12個國家擁有8500萬用戶，其中美國用戶數量最多，達2800萬  \n• Yuka的共同創辦人兼CEO朱莉·查朋因應該應用在美國的成功而移居美國  \n• 另一個類似的食品追蹤平台Open Food Facts於2012年推出，提供超過400萬種食品的資訊，並由社群驅動運營",
+    "summaries": {
+      "zh-HK": "• 法國開發的Yuka應用程式幫助用戶掃描食品條碼，評估產品健康程度，使用顏色標示（綠色為好，紅色為差，黃色為可改善）  \n• Yuka自2015年推出以來，已在12個國家擁有8500萬用戶，其中美國用戶數量最多，達2800萬  \n• Yuka的共同創辦人兼CEO朱莉·查朋因應該應用在美國的成功而移居美國  \n• 另一個類似的食品追蹤平台Open Food Facts於2012年推出，提供超過400萬種食品的資訊，並由社群驅動運營"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c07y400jlngo?at_medium=RSS&at_campaign=rss",
+    "title": "Andy Serkis defends lack of diversity in Lord of the Rings cast",
+    "summary": "Kate Winslet, Jamie Dornan and Anya Taylor-Joy are among the stars who have been cast so far.",
+    "full_text": "Andy Serkis defends lack of diversity in Lord of the Rings cast\n- Published\nAndy Serkis is the master of motion capture. He is Gollum in the Lord of the Rings trilogy, Caesar in the Planet of Ape series, and Peter Jackson's King Kong.\nSo, it feels kind of appropriate that our interview is happening virtually. He is speaking on a screen from New Zealand, where he is directing and starring in the next Lord of the Rings film, The Hunt for Gollum, which is scheduled to land in cinemas in time for Christmas next year.\n\"It sits absolutely between The Hobbit and The Lord of the Rings trilogies, and books in fact,\" he explains handily, as it can be difficult to keep up with the ever-expanding Tolkienverse.\n\"It is very much a deep dive into the psychology and history of Gollum before he became Gollum, but also with a very burning question from Gandalf about what the potential origin of this ring that Bilbo Baggins has is,\" he reveals.\n\"The hunt takes place in two different dimensions really and that's about as far as I can say at the moment.\"\nSerkis also confirms that he will not be directing the second new Lord of the Rings film, Shadow of the Past, written by the US chat show host Stephen Colbert.\n\"I think that that post has been taken, put it that way,\" says Serkis with a twinkle in his eye, before adding: \"That's going to be a fascinating story too. I know it's something that Stephen's very, very excited about being part of.\"\nThroughout his career, 62-year-old Serkis has been a campaigner for equality. In 2018, he said that being one of the few white actors in Black Panther gave him a new understanding of what it feels like to be the ethnic minority on a film set.\nHowever, the previous Lord of the Rings films, made before colour-blind casting became common, had almost entirely white line-ups, and so far, his film looks like being the same.\nEvery major cast member announcement to date has been white; Jamie Dornan, Anna Taylor-Joy, Kate Winslet, Leo Woodall, as well as the returning stars including Elijah Wood and Sir Ian McKellan. The question is, why?\nSerkis nods his head before answering and it is clear this is a subject he has given a lot of thought: \"Tolkien himself was influenced a lot by Norse mythology, there's a lot of that feeling.\n\"The Shire feels very, very much like a very, a very white, you know…\"\nHe tails off and pauses before continuing, with greater certainty: \"They're not very concerned about what goes on beyond the borders of The Shire, but they know they don't want people coming in.\n\"Yes, there have been criticisms,\" he says, acknowledging arguments that are now almost a quarter of a century old.\n\"This particular film is somewhat acknowledging that. But we don't think we will be doing a politically correct just-casting-for-the sake-of-casting-and-ticking-boxes version of the film. So, it's only where relevant basically.\"\nAlthough several major stars have been cast in The Hunt For Gollum already, further casting announcements are expected in the coming months.\nSerkis is speaking to BBC News ahead of the UK release of the new big-screen animated version of George Orwell's Animal Farm, which he has directed.\nIt comes with an all-star voice cast; Seth Rogen as Napoleon the pig, Woody Harrelson as Boxer the Shire horse and a whole flock of other Hollywood names Kieran Culkin, Jim Parsons, Glenn Close, Kathleen Turner and Steve Buscemi.\nSerkis, who also provides the voice of Randolph the rooster, says the book made a big impression on him as a child.\n\"I remember vividly reading it on the 273 bus to Ealing from my home in Ruislip, when I was about 11 or 12 years old,\" he reminisces.\n\"It was one of the first young adult books that affected me emotionally and made me terribly sad for this utopia that had been created by these animals. It was all going so well and then just gradually falling apart.\"\nThen, 35 years later, while making Rise of the Planet of the Apes, he had the idea to make his own Animal Farm.\n\"I'm playing Caesar in the first film, leading the apes to freedom and rebelling and breaking out of the facility,\" he recalls. \"And I thought, 'there has not been an animated, modern film version of Animal Farm'. That's what sparked it.\"\n'We knew the film would be polarising'\nSerkis is careful to say \"modern film version\", because the first ever full-length British animated film of any kind was 1954's Animal Farm, the version that generations of school children have been shown in class.\nOnly 20 years after its release did it emerge that, unknown to the film's co-directors John Halas and Joy Bachelor, the production had been funded by the CIA.\nThe rights were bought from George Orwell's widow Sonia, by two agents working for the Office of Policy Coordination, a division of the CIA which attempt to battle communism through culture.\nI ask Andy Serkis if he can be sure that his Animal Farm was not also surreptitiously funded by the CIA.\n\"There's absolutely, and I can categorically say, zero chance that our film could have been funded by the CIA,\" he laughs heartily.\n\"And if you look at the American box office, the way our film worked there, you can probably see why.\"\nHe is referring to the fact that his Animal Farm took a tiny $5.5m (£4.4m) from an estimated budget of $35m (£26m ) when it opened in the US in May.\n\"We knew it was going to be polarising, and some people won't like it,\" he says defiantly.\nThis Animal Farm does indeed put certain aspects of the book through a proverbial combine harvester.\nThere is a new protagonist, Lucky the piglet, voiced by Gaten Matarazzo (Dustin in Stranger Things), the allegory is anti-capitalist rather than anti-communist, a whole extra third act comes complete with a happy ending, and there are fart jokes.\n\"Well, everybody loves a good fart joke, regardless of your age,\" Serkis laughs.\n\"We've tested this film with very young kids, down to the age of about six, and it's scored incredibly highly.\"\nSerkis pushes back on bad reviews\nThe new adaptation has not done so well with film critics, however.\nThe New York Times said, external it was \"lost in the mud\", concluding: \"It's drowning in ideological confusion, which wouldn't be such a big deal, except that this is Animal Farm.\"\nThe film \"mucks up Orwell\", according to the Wall Street Journal,, external who surmised: \"As comedy, the movie is feeble, and as allegory for the socioeconomically literate it is heavy-handed.\"\nBut, to keep the farmyard analogies going, Serkis is bullish.\n\"Part of the nature of Orwell was being someone who stirs it up, who makes people think and gets people talking.\n\"We have purposefully gone out of our way to make it a movie that can speak to as broad an audience as possible.\"\nHis main complaint, and what he says does hurt, are those who wrote off his Animal Farm without seeing it.\n\"The problem was that, in the States, it was decided by people watching the trailer.\n\"We had 60 million hits or something ridiculous, most of which were polarised and arguing; each side claiming Orwell for their own individual visions, I suppose, and saying that this wasn't right.\"\nSerkis is certain that George Orwell himself would not have consigned this Animal Farm to Room 101.\n\"We worked very closely with the Orwell estate, and I know for a fact that he would, I think, approve of this version of the story, because it connects with the audience in the way that they are having the, excuse the phrase, wool being pulled over their eyes.\"\nHe pauses before concluding: \"The rest of the world may have a completely different opinion to the US box office figure, which I'm pretty certain will be the case actually.\"\nAnd with that he has to go and return to directing the next instalment in the 10th biggest film franchise of all time.\nJust another day at the farm.\nAnimal Farm opens in UK cinemas on Friday 17 July.",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-13T23:03:02+00:00",
+    "crawled": "2026-07-14T00:01:19.548528+00:00",
+    "summarized": true,
+    "ai_summary": "• 安迪·瑟基斯在新西蘭導演及主演新片《尋找咕嚕》，該片預計於明年聖誕節上映  \n• 瑟基斯表示新片將深入探討咕嚕的心理及歷史，並涉及比爾博·巴金斯的戒指起源問題  \n• 他承認新片的主要演員陣容仍然以白人為主，並解釋這與托爾金的北歐神話影響有關  \n• 瑟基斯強調不會為了政治正確而隨意選角，會根據劇情需要進行選擇",
+    "summaries": {
+      "zh-HK": "• 安迪·瑟基斯在新西蘭導演及主演新片《尋找咕嚕》，該片預計於明年聖誕節上映  \n• 瑟基斯表示新片將深入探討咕嚕的心理及歷史，並涉及比爾博·巴金斯的戒指起源問題  \n• 他承認新片的主要演員陣容仍然以白人為主，並解釋這與托爾金的北歐神話影響有關  \n• 瑟基斯強調不會為了政治正確而隨意選角，會根據劇情需要進行選擇"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c5yzy85px31o?at_medium=RSS&at_campaign=rss",
+    "title": "The Papers:  'New twist in killer hunt' and 'One of a kind Ann'",
+    "summary": "The majority of the papers are dominated by the investigation into the death of Ann Widdecombe.",
+    "full_text": "'New twist in killer hunt' and 'One of a kind Ann'Published3 minutes agoImage caption, The majority of the papers are dominated by the investigation into the death of Ann Widdecombe, which is now being led by counter terrorism police. The Metro calls the shift a \"new twist\" in the hunt for the person who killed the former Conservative minister turned Reform UK spokeswoman.Image caption, \"Terror cops now leading Ann death probe\" declares the Daily Express, reporting that the \"dramatic development\" on Monday occurred after new information and evidence came to light. The front page is one of several that feature a photo of footballer Jude Bellingham, ahead of Wednesday's World Cup semi-final match between England and Argentina.Image caption, According to the Guardian, the decision to treat the Widdecombe inquiry as a terror case meant that the man currently in custody on suspicion of her murder had to be re-arrested - this time, on suspicion of commission, preparation or instigation of acts of terrorism. The paper also carries a photograph of actor Sam Neill, famed for his starring role in Jurassic Park, following his unexpected death on Monday at the age of 78.Image caption, The Daily Mail says treating the murder of Widdecombe as a politically motivated terrorist attack was a \"dramatic escalation\", and marked a significant U-turn from the statements put out by Devon and Cornwall Police. The paper says the change came after police discovered \"items of political ideology\" in their key suspect's home.Image caption, \"Terror police take over Widdecombe murder inquiry\" reads the headline on the Independent, which notes it comes only 24 hours after police told the public that there was \"no sign\" of a political motive.Image caption, The Daily Telegraph suggests that Devon and Cornwall Police are now \"under fire\" for their repeated insistence that Widdecombe's murder was not politically motivated. It includes remarks from Jonathan Hall KC, the government's independent reviewer of terrorism, who said the rhetoric from the force had \"broken one of the golden rules of investigations\".Image caption, In their story on Widdecombe's death, the Times has broken down all the key developments in the case to date. The paper's list includes confirmation from Shabana Mahmood, the home secretary, that the suspect was not known to the Prevent anti-extremism programme, and the revelation that Widdecombe's home had been shown on television \"in extensive detail\" just days before she was found dead.Image caption, The i Paper considers the impact of the case on Reform UK leader Nigel Farage's own security arrangements, reporting he has turned down a state security offer of a bodyguard, car and trained driver, as he believed it to be \"downgraded and inadequate\". The paper says that the state's offer would give Farage a similar level of security as that provided for Conservative leader Kemi Badenoch.Image caption, The front page of the Mirror is dominated by a pixellated CCTV image of what the paper says is the key suspect in Widdecombe's murder being arrested. \"Terror probe\" reads the paper's headline.Image caption, \"Ann cops' terror probe\" reads the headline of the Sun.Image caption, One of the few papers not focusing on the Widdecombe inquiry, the Financial Times instead reports on the aftermath of Iran's formal closure of the Strait of Hormuz. The paper says that a Dubai-based port operator is now planning to build a new terminal on the east coast of the United Arab Emirates, cutting Dubai's dependence on its flagship Jebel Ali hub and allowing ships to bypass the strait entirely.Image caption, \"There's only one No 10\" declares the Star, calling on England to \"back Jude and the lads\" in the semi-final on Wednesday. Bellingham wears the No 10 shirt for the England national team.Sign up for our morning newsletter and get BBC News in your inbox.Related Internet LinksDaily ExpressDaily MailDaily MirrorDaily StarDaily TelegraphFinancial TimesGuardianIndependentMetroSunThe iTimes",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-13T23:57:29+00:00",
+    "crawled": "2026-07-14T00:01:19.712346+00:00",
+    "summarized": true,
+    "ai_summary": "• 安·威迪科姆（Ann Widdecombe）的死亡調查現由反恐警察主導，此舉被稱為「新轉折」 \n• 警方在調查中發現「政治意識形態物品」，因此對一名嫌疑人重新逮捕，懷疑其涉及恐怖主義行為 \n• 此次調查的轉變標誌著德文郡和康沃爾警方的立場發生重大變化，之前曾表示沒有政治動機的跡象 \n• 英國內政部長沙巴娜·馬哈茂德（Shabana Mahmood）確認嫌疑人未曾被納入防範極端主義計劃中",
+    "summaries": {
+      "zh-HK": "• 安·威迪科姆（Ann Widdecombe）的死亡調查現由反恐警察主導，此舉被稱為「新轉折」 \n• 警方在調查中發現「政治意識形態物品」，因此對一名嫌疑人重新逮捕，懷疑其涉及恐怖主義行為 \n• 此次調查的轉變標誌著德文郡和康沃爾警方的立場發生重大變化，之前曾表示沒有政治動機的跡象 \n• 英國內政部長沙巴娜·馬哈茂德（Shabana Mahmood）確認嫌疑人未曾被納入防範極端主義計劃中"
+    }
+  },
+  {
+    "url": "https://www.aljazeera.com/news/2026/7/13/three-palestinians-killed-15-wounded-in-israeli-attacks-across-gaza?traffic_source=rss",
+    "title": "Three Palestinians killed, 15 wounded in Israeli attacks across Gaza",
+    "summary": "Three Palestinians killed and 15 wounded in Israeli attacks across Gaza as ceasefire violations continue.",
+    "full_text": "Three Palestinians killed, 15 wounded in Israeli attacks across Gaza\nThree Palestinians killed and 15 wounded in Israeli attacks across Gaza as ceasefire violations continue.\nAt least three Palestinians have been killed and 15 others wounded in Israeli attacks across the Gaza Strip, medical sources told Al Jazeera, as Israel continues to violate an October ceasefire agreement.\nOne of the dead on Monday was killed in an Israeli drone attack on a motorcycle in southern Gaza City’s Tal al-Hawa neighbourhood. Nine civilians were also injured in the attack, in which two missiles were fired.\nRecommended Stories\nlist of 3 items- list 1 of 3Lindsey Graham’s legacy: Israel advocate, Trump ally, Iran war supporter\n- list 2 of 3Andy Burnham in line to become British PM after securing party support\n- list 3 of 3EU unveils $1bn fund for Gaza war recovery\nAnadolu Agency named the killed man as 28-year-old Osama Naim Shamlakh.\nA separate Israeli attack in northwest Gaza City targeted a police post near the al-Tawam roundabout, wounding four officers, some of them seriously. Anadolu Agency later reported that one of those injured, 36-year-old Thaer Ramzi Fayyad, later died from injuries sustained in the attack.\nThe details of the third person killed are as yet unclear.\nIsrael also conducted a number of other attacks in Gaza on Monday, as it showed no sign of letting up the number of strikes it is conducting on the devastated Palestinian territory.\nIn southern Gaza, an Israeli air raid struck a tent sheltering displaced Palestinians in the al-Mawasi area of Khan Younis. The wounded were taken to Nasser Hospital.\nAnother attack targeted a vehicle on al-Rashid Road in the central Gaza town of az-Zawayda, with casualties transferred to Al-Aqsa Martyrs Hospital in Deir el-Balah.\nA young man was also slightly wounded when an Israeli strike hit an apartment in the Maghazi refugee camp. Israeli military vehicles fired towards homes east of the Bureij refugee camp and near the Halawa displacement camp in eastern Jabalia, but no casualties were reported.\nExpansion of areas under Israeli control\nMeanwhile, Israeli forces continued to expand the territory under their control inside Gaza.\nConcrete blocks that indicate areas under Israeli control were moved to within about 200 metres of Salah al-Din Road, Gaza’s main north-south route, in the Shujayea neighbourhood of Gaza City, raising fears that Palestinians using the road could be targeted.\nThe ceasefire agreed to in October has been repeatedly broken by Israel, which has conducted a genocidal war on Gaza since October 2023, killing more than 73,000 Palestinians.\nUnder the terms of the ceasefire Israel would control areas behind a demarcation line, known as the ‘yellow line’, in the eastern part of the Gaza Strip. The Israeli military indicates that it covers roughly 58 percent of Gaza, but Israel has been gradually expanding it, and Palestinians say that people have been shot and killed for getting too close to the line, even as it regularly shifts.\nGaza’s Ministry of Health says Israeli ceasefire violations have killed 1,108 Palestinians and wounded 3,578 others.",
+    "source": "Al Jazeera",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-13T23:41:32+00:00",
+    "crawled": "2026-07-14T00:01:20.402969+00:00",
+    "summarized": true,
+    "ai_summary": "• 以色列在加沙地帶的攻擊中造成三名巴勒斯坦人死亡，十五人受傷，違反十月的停火協議。  \n• 一名28歲的巴勒斯坦男子奧薩馬·奈姆·沙姆拉赫在南加沙市的摩托車空襲中喪生，另有九名平民受傷。  \n• 以色列在加沙城西北部的攻擊中，四名警察受傷，其中一名36歲的泰爾·拉姆齊·法伊亞德後來因傷重不治。  \n• 以色列軍隊持續擴大在加沙的控制區域，並在多個地點發動攻擊，造成進一步的傷亡。",
+    "summaries": {
+      "zh-HK": "• 以色列在加沙地帶的攻擊中造成三名巴勒斯坦人死亡，十五人受傷，違反十月的停火協議。  \n• 一名28歲的巴勒斯坦男子奧薩馬·奈姆·沙姆拉赫在南加沙市的摩托車空襲中喪生，另有九名平民受傷。  \n• 以色列在加沙城西北部的攻擊中，四名警察受傷，其中一名36歲的泰爾·拉姆齊·法伊亞德後來因傷重不治。  \n• 以色列軍隊持續擴大在加沙的控制區域，並在多個地點發動攻擊，造成進一步的傷亡。"
+    }
+  },
+  {
+    "url": "https://time.com/article/2026/07/13/comet-10p-tempel-2-how-to-see/",
+    "title": "How You Could See a Comet This Week",
+    "summary": "Comet 10P/Tempel 2 is set to be visible from Earth for the first time in years. Here's what to know about it.",
+    "full_text": "If you’ve ever wanted to\n, you could soon have a good opportunity.\nThis week, Comet 10P/Tempel 2 is set to return to the inner solar system, making it visible from Earth for the first time in years.\nHere’s everything you need to know about how to spot it.\nWhat is Comet 10P/Tempel 2?\nA comet is a celestial body that orbits the Sun and is made up of frozen gases, rock, and dust, sometimes being\nto a “dirty snowball.”\n“When frozen, they are the size of a small town,” according to\n. “When a comet’s orbit brings it close to the Sun, it heats up and spews dust and gases into a giant glowing head larger than most planets. The dust and gases form a tail that stretches away from the Sun for millions of miles.”\nComet 10P/Tempel 2, also known as “Tempel 2,” is a large comet with an estimated diameter of 10.6 kilometers, slightly smaller than the well-known Halley’s Comet. Tempel 2 completes its orbit around the Sun roughly every 5.5 years, meaning that we typically have the chance to see it at the same interval when that regular orbit brings it back into the part of the solar system where Earth is located.\n, one of the best times to see Tempel 2 will be around the New Moon on July 14, when moonlight likely won’t interfere with the view as much as it might on other nights.\nthat the comet will reach its peak brightness as it passes even closer to Earth in early August, though, so if you miss your shot at seeing it this week, don’t worry—there will be other nights to catch a glimpse of it before its orbit carries it away again, though it may be harder to spot if you live in the Northern Hemisphere.\nthat they expect that Tempel 2 will be “putting on its best showing since 1967,” so you’ll want to try getting a peak at this celestial phenomenon while you still can. Otherwise, you’ll have to wait another 5.5 years before you can get another shot at it!\nHow can you watch it?\nUnlike some other passing celestial objects, Tempel 2 is not one that you can see with your naked eye alone; for this comet, you’ll need binoculars or a telescope, according to NASA.\nYour best chance to see it is to get out of the city and find a location that has a dark, clear view of the night sky and is far away from light pollution. Wait until the sky is completely dark before looking for the comet; NASA recommends about 45-60 minutes after sunset.\n“Through binoculars or a telescope, find the constellation Capricornus and look for a small fuzzy glow nearby, possibly with a brighter central knot and a short, broad, fan-shaped tail,” NASA advises on its website.",
+    "source": "Time",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-13T22:57:00+00:00",
+    "crawled": "2026-07-14T00:01:33.655242+00:00",
+    "summarized": true,
+    "ai_summary": "• 彗星10P/Tempel 2將於本周返回內太陽系，並可在地球上觀察到，這是多年來首次出現。  \n• Tempel 2的直徑約為10.6公里，約每5.5年繞太陽一周一次。  \n• 觀賞最佳時機為7月14日的新月期間，屆時月光不會干擾觀賞。  \n• 需要使用雙筒望遠鏡或望遠鏡來觀察，建議在遠離城市光污染的地方觀賞。",
+    "summaries": {
+      "zh-HK": "• 彗星10P/Tempel 2將於本周返回內太陽系，並可在地球上觀察到，這是多年來首次出現。  \n• Tempel 2的直徑約為10.6公里，約每5.5年繞太陽一周一次。  \n• 觀賞最佳時機為7月14日的新月期間，屆時月光不會干擾觀賞。  \n• 需要使用雙筒望遠鏡或望遠鏡來觀察，建議在遠離城市光污染的地方觀賞。"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdF9iNjRwdm9pODdabFB6TGd0b0llZjQxY3NDQWktelE1c2NnUERlYUs2TnNPc0JBaFZvWlZhM3VfRUVwTV9MZUFteVh3VlV0QVhfZi1NUGpQdEp3elpuYnFrVE9Yb1BzNmtGLWdiYlJ2THBOT3NrRmppdG5mNWFVRDcyWmFSRHJzWXJyVVpQYy16cVZKb1I1UEh4eFdYN1VURkFtQmNVanhnM2I4Y3JSLXhHTmhOMXBmSTRMZE4xam5CSlN1eGFR?oc=5",
+    "title": "UAE says Iranian missiles struck oil tankers in Strait of Hormuz, one sailor killed - Reuters",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQdF9iNjRwdm9pODdabFB6TGd0b0llZjQxY3NDQWktelE1c2NnUERlYUs2TnNPc0JBaFZvWlZhM3VfRUVwTV9MZUFteVh3VlV0QVhfZi1NUGpQdEp3elpuYnFrVE9Yb1BzNmtGLWdiYlJ2THBOT3NrRmppdG5mNWFVRDcyWmFSRHJzWXJyVVpQYy16cVZKb1I1UEh4eFdYN1VURkFtQmNVanhnM2I4Y3JSLXhHTmhOMXBmSTRMZE4xam5CSlN1eGFR?oc=5\" target=\"_blank\">UAE says Iranian missiles struck oil tankers in Strait of Hormuz, one sailor killed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+    "full_text": "",
+    "source": "Reuters (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-13T23:17:31+00:00",
+    "crawled": "2026-07-14T00:01:54.428475+00:00",
+    "summarized": true,
+    "ai_summary": "• 阿聯酋表示，伊朗導彈在霍爾木茲海峽襲擊了油輪，造成一名水手死亡  \n• 事件發生於當地時間週一，具體時間尚未披露  \n• 阿聯酋當局已展開調查，並強調將保護其海上航運安全  \n• 此次襲擊引發國際社會對該地區安全局勢的關注",
+    "summaries": {
+      "zh-HK": "• 阿聯酋表示，伊朗導彈在霍爾木茲海峽襲擊了油輪，造成一名水手死亡  \n• 事件發生於當地時間週一，具體時間尚未披露  \n• 阿聯酋當局已展開調查，並強調將保護其海上航運安全  \n• 此次襲擊引發國際社會對該地區安全局勢的關注"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORDBNeEIwNUZ4clpyNjBzdzFpY1JoVUlKcmxqTEJxOTdvMG82NkI4UnV1alJCbDlld3g0dmJ4TS1zX3dSQnRiLUZBLVNiNWJ5b1ZNQkx4bkFfcEI2eEZGTWJkRzE5VkZqaWFoY0hsT0hBdTdVbmVWWHhGNVBtVjBjdmppSUtMenJLZXhlXy1vQkxIbElEOWpyR2UxOG9qSmVONEFR?oc=5",
+    "title": "'VARgentina' reach semi-finals under cloud of complaints - Reuters",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxORDBNeEIwNUZ4clpyNjBzdzFpY1JoVUlKcmxqTEJxOTdvMG82NkI4UnV1alJCbDlld3g0dmJ4TS1zX3dSQnRiLUZBLVNiNWJ5b1ZNQkx4bkFfcEI2eEZGTWJkRzE5VkZqaWFoY0hsT0hBdTdVbmVWWHhGNVBtVjBjdmppSUtMenJLZXhlXy1vQkxIbElEOWpyR2UxOG9qSmVONEFR?oc=5\" target=\"_blank\">'VARgentina' reach semi-finals under cloud of complaints</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+    "full_text": "",
+    "source": "Reuters (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-13T19:49:45+00:00",
+    "crawled": "2026-07-14T00:01:54.767474+00:00",
+    "summarized": true,
+    "ai_summary": "• 阿根廷足球隊在2023年國際足總世界盃中晉級四強，並被稱為「VARgentina」  \n• 此次晉級伴隨著多起對裁判判決的投訴，特別是關於視頻助理裁判（VAR）的使用  \n• 阿根廷隊在四強賽中將面對對手，賽事定於2023年12月舉行  \n• 球迷和專家對裁判的爭議表示關注，並呼籲改善裁判的透明度和準確性",
+    "summaries": {
+      "zh-HK": "• 阿根廷足球隊在2023年國際足總世界盃中晉級四強，並被稱為「VARgentina」  \n• 此次晉級伴隨著多起對裁判判決的投訴，特別是關於視頻助理裁判（VAR）的使用  \n• 阿根廷隊在四強賽中將面對對手，賽事定於2023年12月舉行  \n• 球迷和專家對裁判的爭議表示關注，並呼籲改善裁判的透明度和準確性"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDJYb3psSlZ4VUVZYXJFOUtXS0NHSzNMZFZPWmc2UFdzaDNOOUhEaWFWRXE5VmFYNU01VDEzcHBoX0lVdmh3SGRtcHhoT0dEN2RTZXQxZVpEdkVkTHpWNExWV1J0NFB3cERXQWU5UHB1NkN5cF9qTDA0Y3hFQmI1UDc5RFhYbWp5NzE5bmNMNG5UcHlIWjMtLQ?oc=5",
+    "title": "UK police rearrest the suspect in Ann Widdecombe killing on terrorism suspicion - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDJYb3psSlZ4VUVZYXJFOUtXS0NHSzNMZFZPWmc2UFdzaDNOOUhEaWFWRXE5VmFYNU01VDEzcHBoX0lVdmh3SGRtcHhoT0dEN2RTZXQxZVpEdkVkTHpWNExWV1J0NFB3cERXQWU5UHB1NkN5cF9qTDA0Y3hFQmI1UDc5RFhYbWp5NzE5bmNMNG5UcHlIWjMtLQ?oc=5\" target=\"_blank\">UK police rearrest the suspect in Ann Widdecombe killing on terrorism suspicion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-13T12:37:00+00:00",
+    "crawled": "2026-07-14T00:01:56.078629+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSzV3MlVCS3BrZGxnWHZyV2NTS01YTE1kR2plUmxQTXl3M1ZzdG1ORjBCMzJSejNCRUR6LVJhUzdNc2Z3anQ5aExkdmloRWdQbERZdUpkVDZ3aVRDUTcwVEdsTzhlOG1ZcU1nSlR2ZW51UWppRW9Edm5SSTVHbFBuc3lFa3Q2MGtvQ0ZWNWU2c1JSVVd1Y1hvdTBqRWVWSDJPdVU3Y3JB?oc=5",
+    "title": "What to know about the Bangkok bar fire that killed 27 - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPSzV3MlVCS3BrZGxnWHZyV2NTS01YTE1kR2plUmxQTXl3M1ZzdG1ORjBCMzJSejNCRUR6LVJhUzdNc2Z3anQ5aExkdmloRWdQbERZdUpkVDZ3aVRDUTcwVEdsTzhlOG1ZcU1nSlR2ZW51UWppRW9Edm5SSTVHbFBuc3lFa3Q2MGtvQ0ZWNWU2c1JSVVd1Y1hvdTBqRWVWSDJPdVU3Y3JB?oc=5\" target=\"_blank\">What to know about the Bangkok bar fire that killed 27</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-13T10:03:00+00:00",
+    "crawled": "2026-07-14T00:01:56.526611+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWXVYNzhSZHMzMEJkckZVZWhQbGp6aXo1Vy1KZ3U1b1pwRU9PUHNEMUZ2M1lrVkIyTGQyMTdVbGMyOEN0bDJLMVdSRDJuU3BrUHdYaEdWdVBYRFBnaHA0TmdGdVQ1cUt1UW51TFBxUDczcFUzRHozaFltT3JlUHAtNV9TREVGRi1EV0E?oc=5",
+    "title": "UPDATE: Fresno State creates minor in artificial intelligence - EdSource",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPWXVYNzhSZHMzMEJkckZVZWhQbGp6aXo1Vy1KZ3U1b1pwRU9PUHNEMUZ2M1lrVkIyTGQyMTdVbGMyOEN0bDJLMVdSRDJuU3BrUHdYaEdWdVBYRFBnaHA0TmdGdVQ1cUt1UW51TFBxUDczcFUzRHozaFltT3JlUHAtNV9TREVGRi1EV0E?oc=5\" target=\"_blank\">UPDATE: Fresno State creates minor in artificial intelligence</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EdSource</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-13T22:54:04+00:00",
+    "crawled": "2026-07-14T00:01:57.843563+00:00",
+    "summarized": true,
+    "ai_summary": "• 佛雷斯諾州立大學宣布設立人工智能輔修課程，旨在滿足日益增長的科技需求  \n• 此輔修課程將於2024年秋季學期開始提供，為學生提供相關知識和技能  \n• 學校表示，該課程的設立是為了支持學生在科技領域的職業發展  \n• 佛雷斯諾州立大學希望通過此輔修課程，增強學生的就業競爭力和市場適應能力",
+    "summaries": {
+      "zh-HK": "• 佛雷斯諾州立大學宣布設立人工智能輔修課程，旨在滿足日益增長的科技需求  \n• 此輔修課程將於2024年秋季學期開始提供，為學生提供相關知識和技能  \n• 學校表示，該課程的設立是為了支持學生在科技領域的職業發展  \n• 佛雷斯諾州立大學希望通過此輔修課程，增強學生的就業競爭力和市場適應能力"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSWw5WGp0SlRjVFJwb2pUQ1Q5Um94anZrQ19INmxrb2prQVNLR0JKNmRtanU5dGQwcFFvdmp6RmJEaFdzX2xTY2I0NlgxR084aHJFeUtWdnl5b01lZzlpaU5xQ3pEam9DNWMxMGt5dGp4RjR4ckpoS3BYSlBTMHBUaDBOZDhUUEh5ejdjY2hiR3JJejQwVWszRXRkblFQQ3BqelZkNGV6b2tBbDdqazVQWVc0R2FIeXRCYWN5cTdB?oc=5",
+    "title": "DMACC steering committee works to create AI guidelines for use and innovation - Iowa Capital Dispatch",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPSWw5WGp0SlRjVFJwb2pUQ1Q5Um94anZrQ19INmxrb2prQVNLR0JKNmRtanU5dGQwcFFvdmp6RmJEaFdzX2xTY2I0NlgxR084aHJFeUtWdnl5b01lZzlpaU5xQ3pEam9DNWMxMGt5dGp4RjR4ckpoS3BYSlBTMHBUaDBOZDhUUEh5ejdjY2hiR3JJejQwVWszRXRkblFQQ3BqelZkNGV6b2tBbDdqazVQWVc0R2FIeXRCYWN5cTdB?oc=5\" target=\"_blank\">DMACC steering committee works to create AI guidelines for use and innovation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Iowa Capital Dispatch</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "Ai",
+    "published": "2026-07-13T23:08:44+00:00",
+    "crawled": "2026-07-14T00:01:58.185579+00:00",
+    "summarized": true,
+    "ai_summary": "• DMACC的指導委員會正在制定人工智能使用和創新的指導方針  \n• 委員會成員包括教職員和學生，旨在確保AI技術的負責任應用  \n• 會議於近期在愛荷華州舉行，討論相關政策和實踐  \n• 此舉是為了應對人工智能技術快速發展帶來的挑戰和機遇",
+    "summaries": {
+      "zh-HK": "• DMACC的指導委員會正在制定人工智能使用和創新的指導方針  \n• 委員會成員包括教職員和學生，旨在確保AI技術的負責任應用  \n• 會議於近期在愛荷華州舉行，討論相關政策和實踐  \n• 此舉是為了應對人工智能技術快速發展帶來的挑戰和機遇"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVEtHQUVhdjFtTzN1ZFRobWJ1Z3IxLVc3Rk14VTZKZ0hjelF3VDZreE0zRFBpSW1VTnRac2FpQ0lQM0NjSXpROUlwRUFHWDN6cWpzbzVqQmxCcW5hNnJqdXpTODM1cUp6THRoR1lVTFVQYnpBOE1laHVDZ0pnQk1Ud3B6d00wYV9hWVVBdTR6OVRDY0k4?oc=5",
+    "title": "Industrial CEOs: Is AI the Least of Their Worries? - Bain & Company",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNVEtHQUVhdjFtTzN1ZFRobWJ1Z3IxLVc3Rk14VTZKZ0hjelF3VDZreE0zRFBpSW1VTnRac2FpQ0lQM0NjSXpROUlwRUFHWDN6cWpzbzVqQmxCcW5hNnJqdXpTODM1cUp6THRoR1lVTFVQYnpBOE1laHVDZ0pnQk1Ud3B6d00wYV9hWVVBdTR6OVRDY0k4?oc=5\" target=\"_blank\">Industrial CEOs: Is AI the Least of Their Worries?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bain & Company</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "Ai",
+    "published": "2026-07-13T23:03:45+00:00",
+    "crawled": "2026-07-14T00:01:58.551158+00:00",
+    "summarized": true,
+    "ai_summary": "• Bain & Company發佈報告，指出工業企業CEO面臨多重挑戰，人工智能可能不是最迫切的問題  \n• 報告中提到供應鏈問題、成本上升及人力資源短缺等因素對企業運營影響重大  \n• CEO們表示，雖然人工智能有潛力，但當前更關心的是如何應對即時的經濟壓力  \n• 報告強調，企業需優先解決當前挑戰，才能有效利用人工智能技術提升競爭力",
+    "summaries": {
+      "zh-HK": "• Bain & Company發佈報告，指出工業企業CEO面臨多重挑戰，人工智能可能不是最迫切的問題  \n• 報告中提到供應鏈問題、成本上升及人力資源短缺等因素對企業運營影響重大  \n• CEO們表示，雖然人工智能有潛力，但當前更關心的是如何應對即時的經濟壓力  \n• 報告強調，企業需優先解決當前挑戰，才能有效利用人工智能技術提升競爭力"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc0lSQXdxOXBPcTMwU0tVb0RneHNBcUN4SExlZnFrajlDUXd0dGJUVGVXUS0xcnlTUjFDZ21kdlVWOGtLcWxWdVZ3VDlqMjNzQzRpQzdCVU5NV0lTdmppbXZ3OWVXaXgyNU9WQzBFNDFGRzFLTTNXZjZwRHNVWE0tbVh4RW81SFhLbUVLTTB0dFozS3hOc0l2VmxlZ0pwVF9OT09aMGZ3c0s2TlprM0E?oc=5",
+    "title": "AI Adoption Fuels Hiring, Not Layoffs, New Data Shows - PYMNTS.com",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQc0lSQXdxOXBPcTMwU0tVb0RneHNBcUN4SExlZnFrajlDUXd0dGJUVGVXUS0xcnlTUjFDZ21kdlVWOGtLcWxWdVZ3VDlqMjNzQzRpQzdCVU5NV0lTdmppbXZ3OWVXaXgyNU9WQzBFNDFGRzFLTTNXZjZwRHNVWE0tbVh4RW81SFhLbUVLTTB0dFozS3hOc0l2VmxlZ0pwVF9OT09aMGZ3c0s2TlprM0E?oc=5\" target=\"_blank\">AI Adoption Fuels Hiring, Not Layoffs, New Data Shows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PYMNTS.com</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "Ai",
+    "published": "2026-07-13T23:26:15+00:00",
+    "crawled": "2026-07-14T00:01:58.935299+00:00",
+    "summarized": true,
+    "ai_summary": "• 根據最新數據，人工智能的採用促進了招聘，而非裁員  \n• 研究顯示，企業在引入人工智能技術後，員工需求有所增加  \n• 數據顯示，許多行業正在尋求擴大人力資源以支持AI相關項目  \n• 專家指出，AI的發展可能會改變工作性質，但不會直接導致失業",
+    "summaries": {
+      "zh-HK": "• 根據最新數據，人工智能的採用促進了招聘，而非裁員  \n• 研究顯示，企業在引入人工智能技術後，員工需求有所增加  \n• 數據顯示，許多行業正在尋求擴大人力資源以支持AI相關項目  \n• 專家指出，AI的發展可能會改變工作性質，但不會直接導致失業"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUWJMRWdrYXVZRVpyU1VfUDdPRU5ZQ0s2WGltTmVPV2FGWXlyYjZOMDB3Sm52aEU5RmhVS1BNYmg0Umh3Qmc2TDhTQnBtNVlyNHJzUVFQWE1JRzNNR2FvVktFa1o3SVRfWTZSRS1iZGdudHpIcGxZLWNiaFJQLXdGR25hcnVmeFliWEFhZVpwbDZRTHNKRnZQVWoxcVNCZ2tEVlBPcU1VMUZYYlVBTTB30gG0AUFVX3lxTE5VWlVQc0t3QTVkS01mZmlueDJYZXFaSTJNVFR0NWllOEttUmlOQlc3QVY3Q0sxTnNkSVJuaXdpNkttRjdTd3FhX21SNFg0UVdnOEZjTlRqZmVGSzhIdXphZlFwYnlxaDBrN2lhU0lWaEN0aFhsUHVmSnNtdjl5WnFYcXpKQ010bEdXc3BXajhQOGxKZnNfLVpPT2xLLV9DS25vNW4yaWNIRTlrcUgzZmFBenBCZA?oc=5",
+    "title": "Hundreds of experts warn the world must prepare now for AI’s impact - Al Jazeera",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNUWJMRWdrYXVZRVpyU1VfUDdPRU5ZQ0s2WGltTmVPV2FGWXlyYjZOMDB3Sm52aEU5RmhVS1BNYmg0Umh3Qmc2TDhTQnBtNVlyNHJzUVFQWE1JRzNNR2FvVktFa1o3SVRfWTZSRS1iZGdudHpIcGxZLWNiaFJQLXdGR25hcnVmeFliWEFhZVpwbDZRTHNKRnZQVWoxcVNCZ2tEVlBPcU1VMUZYYlVBTTB30gG0AUFVX3lxTE5VWlVQc0t3QTVkS01mZmlueDJYZXFaSTJNVFR0NWllOEttUmlOQlc3QVY3Q0sxTnNkSVJuaXdpNkttRjdTd3FhX21SNFg0UVdnOEZjTlRqZmVGSzhIdXphZlFwYnlxaDBrN2lhU0lWaEN0aFhsUHVmSnNtdjl5WnFYcXpKQ010bEdXc3BXajhQOGxKZnNfLVpPT2xLLV9DS25vNW4yaWNIRTlrcUgzZmFBenBCZA?oc=5\" target=\"_blank\">Hundreds of experts warn the world must prepare now for AI’s impact</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Al Jazeera</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-13T23:54:53+00:00",
+    "crawled": "2026-07-14T00:01:59.261127+00:00",
+    "summarized": true,
+    "ai_summary": "• 數百名專家警告全球必須立即為人工智能的影響做好準備  \n• 專家呼籲政府和企業採取行動，以應對人工智能可能帶來的挑戰  \n• 會議於2023年在倫敦舉行，專家們討論了人工智能的潛在風險和機遇  \n• 報告指出，缺乏準備可能導致社會和經濟的不穩定性",
+    "summaries": {
+      "zh-HK": "• 數百名專家警告全球必須立即為人工智能的影響做好準備  \n• 專家呼籲政府和企業採取行動，以應對人工智能可能帶來的挑戰  \n• 會議於2023年在倫敦舉行，專家們討論了人工智能的潛在風險和機遇  \n• 報告指出，缺乏準備可能導致社會和經濟的不穩定性"
     }
   }
 ]
