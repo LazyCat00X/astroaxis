@@ -183,13 +183,6 @@
       "type": "disaster"
     },
     {
-      "date": "2019-07-14",
-      "title": "A GippsAero GA8 Airvan crashes in Umeå, Sweden, killing all nine aboard.",
-      "desc": "A GippsAero GA8 Airvan crashes in Umeå, Sweden, killing all nine aboard.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2019-04-15",
       "title": "Notre Dame Fire",
       "desc": "Major fire devastates Notre Dame Cathedral in Paris",
@@ -203,6 +196,13 @@
     }
   ],
   "2018": [
+    {
+      "date": "2018-07-15",
+      "title": "France win their second World Cup title, defeating Croatia 4–2.",
+      "desc": "France win their second World Cup title, defeating Croatia 4–2.",
+      "type": "sports",
+      "source": "wikipedia"
+    },
     {
       "date": "2018-06-12",
       "title": "Trump-Kim Summit",
@@ -244,9 +244,9 @@
       "type": "politics"
     },
     {
-      "date": "2016-07-14",
-      "title": "A man ploughs a truck into a Bastille Day celebration in Nice, France, killing 8",
-      "desc": "A man ploughs a truck into a Bastille Day celebration in Nice, France, killing 86 people and injuring another 434 before being shot by police.",
+      "date": "2016-07-15",
+      "title": "Factions of the Turkish Armed Forces attempt a coup.",
+      "desc": "Factions of the Turkish Armed Forces attempt a coup.",
       "type": "general",
       "source": "wikipedia"
     },
@@ -281,13 +281,6 @@
       "title": "Pluto Flyby",
       "desc": "New Horizons completes first flyby of Pluto",
       "type": "science"
-    },
-    {
-      "date": "2015-07-14",
-      "title": "NASA's New Horizons probe performs the first flyby of Pluto, and thus completes ",
-      "desc": "NASA's New Horizons probe performs the first flyby of Pluto, and thus completes the initial survey of the Solar System.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "2014": [
@@ -296,6 +289,13 @@
       "title": "Scottish Independence Vote",
       "desc": "Scotland votes against independence from UK",
       "type": "politics"
+    },
+    {
+      "date": "2014-07-15",
+      "title": "A train derails on the Moscow Metro, killing at least 24 and injuring more than ",
+      "desc": "A train derails on the Moscow Metro, killing at least 24 and injuring more than 160 others.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "2014-06-29",
@@ -318,13 +318,6 @@
       "type": "politics"
     },
     {
-      "date": "2013-07-14",
-      "title": "Dedication of the statue of Rachel Carson, a sculpture of the environmentalist, ",
-      "desc": "Dedication of the statue of Rachel Carson, a sculpture of the environmentalist, in Woods Hole, Massachusetts.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
-    {
       "date": "2013-06-06",
       "title": "Snowden Leaks",
       "desc": "Edward Snowden reveals global surveillance programs",
@@ -343,6 +336,13 @@
       "title": "Mayan Calendar Phenomenon",
       "desc": "Global fascination with predicted 'end of the world'",
       "type": "general"
+    },
+    {
+      "date": "2012-07-15",
+      "title": "South Korean rapper Psy releases his hit single Gangnam Style.",
+      "desc": "South Korean rapper Psy releases his hit single Gangnam Style.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "2012-07-04",
@@ -399,6 +399,20 @@
   ],
   "2009": [
     {
+      "date": "2009-07-15",
+      "title": "Caspian Airlines Flight 7908 crashes near Jannatabad, Qazvin, Iran, killing 168.",
+      "desc": "Caspian Airlines Flight 7908 crashes near Jannatabad, Qazvin, Iran, killing 168.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2009-07-15",
+      "title": "Space Shuttle program: Endeavour is launched on STS-127 to complete assembly of ",
+      "desc": "Space Shuttle program: Endeavour is launched on STS-127 to complete assembly of the International Space Station's Kibō module.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "2009-06-25",
       "title": "Michael Jackson Dies",
       "desc": "King of Pop dies at 50",
@@ -451,6 +465,15 @@
       "type": "tech"
     }
   ],
+  "2006": [
+    {
+      "date": "2006-07-15",
+      "title": "Twitter, later one of the largest social media platforms in the world, is launch",
+      "desc": "Twitter, later one of the largest social media platforms in the world, is launched.",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "2005": [
     {
       "date": "2005-08-25",
@@ -493,6 +516,13 @@
   ],
   "2003": [
     {
+      "date": "2003-07-15",
+      "title": "AOL Time Warner disbands Netscape. The Mozilla Foundation is established on the ",
+      "desc": "AOL Time Warner disbands Netscape. The Mozilla Foundation is established on the same day.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "2003-03-20",
       "title": "Iraq War Begins",
       "desc": "US-led coalition invades Iraq",
@@ -507,10 +537,17 @@
   ],
   "2002": [
     {
-      "date": "2002-07-14",
-      "title": "French president Jacques Chirac escapes an assassination attempt from Maxime Bru",
-      "desc": "French president Jacques Chirac escapes an assassination attempt from Maxime Brunerie during a Bastille Day parade at Champs-Élysées.",
-      "type": "politics",
+      "date": "2002-07-15",
+      "title": "\"American Taliban\" John Walker Lindh pleads guilty to supplying aid to the enemy",
+      "desc": "\"American Taliban\" John Walker Lindh pleads guilty to supplying aid to the enemy and possession of explosives during the commission of a felony.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2002-07-15",
+      "title": "The Anti-Terrorism Court of Pakistan sentences British born Ahmed Omar Saeed She",
+      "desc": "The Anti-Terrorism Court of Pakistan sentences British born Ahmed Omar Saeed Sheikh to death, and three others suspected of murdering The Wall Street Journal reporter Daniel Pearl to life.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -520,20 +557,6 @@
       "title": "9/11 Attacks",
       "desc": "Al-Qaeda terrorists attack World Trade Center and Pentagon",
       "type": "disaster"
-    },
-    {
-      "date": "2001-07-14",
-      "title": "Australian criminal Bradley John Murdoch murders British tourist Peter Falconio ",
-      "desc": "Australian criminal Bradley John Murdoch murders British tourist Peter Falconio and abducts his girlfriend in the Northern Territory.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2001-07-14",
-      "title": "Rus Flight 9633 crashes during takeoff from Chkalovsky Airport, killing all 10 p",
-      "desc": "Rus Flight 9633 crashes during takeoff from Chkalovsky Airport, killing all 10 people on board.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "2001-01-15",
@@ -582,6 +605,13 @@
       "title": "Russian Default",
       "desc": "Russia defaults on domestic debt, ruble collapses",
       "type": "finance"
+    },
+    {
+      "date": "1998-07-15",
+      "title": "Sri Lankan Civil War: Sri Lankan Tamil MP S. Shanmuganathan is killed by a claym",
+      "desc": "Sri Lankan Civil War: Sri Lankan Tamil MP S. Shanmuganathan is killed by a claymore mine.",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "1997": [
@@ -602,6 +632,15 @@
       "title": "Deep Blue Beats Kasparov",
       "desc": "IBM computer defeats world chess champion",
       "type": "tech"
+    }
+  ],
+  "1996": [
+    {
+      "date": "1996-07-15",
+      "title": "A Belgian Air Force C-130 Hercules carrying the Royal Netherlands Army marching ",
+      "desc": "A Belgian Air Force C-130 Hercules carrying the Royal Netherlands Army marching band crashes on landing at Eindhoven Airport.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1995": [
@@ -784,10 +823,17 @@
       "type": "disaster"
     },
     {
-      "date": "1983-07-14",
-      "title": "Mario Bros. is released in Japan, beginning the popular Super Mario Bros franchi",
-      "desc": "Mario Bros. is released in Japan, beginning the popular Super Mario Bros franchise.",
-      "type": "general",
+      "date": "1983-07-15",
+      "title": "An attack at Orly Airport in Paris is launched by Armenian militant organisation",
+      "desc": "An attack at Orly Airport in Paris is launched by Armenian militant organisation ASALA, leaving eight people dead and 55 injured.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1983-07-15",
+      "title": "Nintendo and Sega enter the console market with the respective releases of the F",
+      "desc": "Nintendo and Sega enter the console market with the respective releases of the Famicom and SG-1000 in Japan.",
+      "type": "finance",
       "source": "wikipedia"
     },
     {
@@ -826,6 +872,13 @@
     }
   ],
   "1979": [
+    {
+      "date": "1979-07-15",
+      "title": "U.S. president Jimmy Carter gives his \"malaise speech\".",
+      "desc": "U.S. president Jimmy Carter gives his \"malaise speech\".",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1979-04-01",
       "title": "Iran Islamic Republic",
@@ -883,6 +936,20 @@
   ],
   "1975": [
     {
+      "date": "1975-07-15",
+      "title": "Space Race: Apollo–Soyuz Test Project features the dual launch of an Apollo spac",
+      "desc": "Space Race: Apollo–Soyuz Test Project features the dual launch of an Apollo spacecraft and a Soyuz spacecraft on the first Soviet-United States human-crewed flight. It was the last launch of both an A",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1975-07-15",
+      "title": "Aeroflot Flight E-15 crashes on approach to Batumi International Airport, killin",
+      "desc": "Aeroflot Flight E-15 crashes on approach to Batumi International Airport, killing 40.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1975-04-30",
       "title": "Vietnam War Ends",
       "desc": "Saigon falls, Vietnam War ends",
@@ -901,6 +968,13 @@
       "title": "Nixon Resigns",
       "desc": "Richard Nixon resigns as US president after Watergate",
       "type": "politics"
+    },
+    {
+      "date": "1974-07-15",
+      "title": "In Nicosia, Cyprus, Greek junta-sponsored nationalists launch a coup d'état, dep",
+      "desc": "In Nicosia, Cyprus, Greek junta-sponsored nationalists launch a coup d'état, deposing Makarios III and installing Nikos Sampson as the president of Cyprus.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1974-02-01",
@@ -949,6 +1023,13 @@
       "title": "Bretton Woods Ends",
       "desc": "Nixon ends gold standard, floating exchange rates begin",
       "type": "finance"
+    },
+    {
+      "date": "1971-07-15",
+      "title": "The United Red Army is founded in Japan.",
+      "desc": "The United Red Army is founded in Japan.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1969": [
@@ -1005,19 +1086,21 @@
       "type": "politics"
     }
   ],
+  "1966": [
+    {
+      "date": "1966-07-15",
+      "title": "Vietnam War: The United States and South Vietnam begin Operation Hastings to pus",
+      "desc": "Vietnam War: The United States and South Vietnam begin Operation Hastings to push the North Vietnamese out of the Vietnamese Demilitarized Zone.",
+      "type": "politics",
+      "source": "wikipedia"
+    }
+  ],
   "1965": [
     {
       "date": "1965-08-11",
       "title": "Watts Riots",
       "desc": "Major race riots in Los Angeles",
       "type": "politics"
-    },
-    {
-      "date": "1965-07-14",
-      "title": "Mariner 4 flyby of Mars takes the first close-up photos of another planet. The p",
-      "desc": "Mariner 4 flyby of Mars takes the first close-up photos of another planet. The photographs take approximately six hours to be transmitted back to Earth.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1965-03-07",
@@ -1084,20 +1167,6 @@
   ],
   "1960": [
     {
-      "date": "1960-07-14",
-      "title": "Jane Goodall arrives at the Gombe Stream Reserve in present-day Tanzania to begi",
-      "desc": "Jane Goodall arrives at the Gombe Stream Reserve in present-day Tanzania to begin her study of chimpanzees in the wild.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1960-07-14",
-      "title": "Northwest Orient Airlines Flight 1-11 ditches off Polillo Island in the Philippi",
-      "desc": "Northwest Orient Airlines Flight 1-11 ditches off Polillo Island in the Philippines, killing one person and injuring 44.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1960-05-01",
       "title": "U-2 Incident",
       "desc": "Soviets shoot down US spy plane, Eisenhower embarrassed",
@@ -1124,15 +1193,6 @@
       "type": "politics"
     }
   ],
-  "1958": [
-    {
-      "date": "1958-07-14",
-      "title": "In the 14 July Revolution in Iraq, the monarchy is overthrown by popular forces ",
-      "desc": "In the 14 July Revolution in Iraq, the monarchy is overthrown by popular forces led by Abd al-Karim Qasim, who becomes the nation's new leader.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1957": [
     {
       "date": "1957-12-06",
@@ -1145,13 +1205,6 @@
       "title": "Sputnik Launched",
       "desc": "First artificial satellite, starts Space Age",
       "type": "science"
-    },
-    {
-      "date": "1957-07-14",
-      "title": "Rawya Ateya takes her seat in the National Assembly of Egypt, thereby becoming t",
-      "desc": "Rawya Ateya takes her seat in the National Assembly of Egypt, thereby becoming the first female parliamentarian in the Arab world.",
-      "type": "politics",
-      "source": "wikipedia"
     }
   ],
   "1956": [
@@ -1176,6 +1229,13 @@
       "type": "politics"
     },
     {
+      "date": "1955-07-15",
+      "title": "Eighteen Nobel laureates sign the Mainau Declaration against nuclear weapons, la",
+      "desc": "Eighteen Nobel laureates sign the Mainau Declaration against nuclear weapons, later co-signed by thirty-four others.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1955-05-14",
       "title": "Warsaw Pact",
       "desc": "Eastern Bloc military alliance established",
@@ -1183,6 +1243,13 @@
     }
   ],
   "1954": [
+    {
+      "date": "1954-07-15",
+      "title": "The Boeing 367-80, the prototype for both the Boeing 707 and C-135 series, takes",
+      "desc": "The Boeing 367-80, the prototype for both the Boeing 707 and C-135 series, takes its first flight.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1954-05-17",
       "title": "Brown v. Board",
@@ -1226,13 +1293,6 @@
   ],
   "1951": [
     {
-      "date": "1951-07-14",
-      "title": "Ferrari take their first Formula One grand prix victory at the British Grand Pri",
-      "desc": "Ferrari take their first Formula One grand prix victory at the British Grand Prix at Silverstone.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1951-03-29",
       "title": "Rosenberg Spy Case",
       "desc": "Julius and Ethel Rosenberg convicted of espionage",
@@ -1245,13 +1305,6 @@
       "title": "China Enters Korean War",
       "desc": "Chinese forces engage UN troops in Korea",
       "type": "politics"
-    },
-    {
-      "date": "1950-07-14",
-      "title": "Korean War: beginning of the Battle of Taejon.",
-      "desc": "Korean War: beginning of the Battle of Taejon.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1950-06-28",
@@ -1294,13 +1347,6 @@
       "type": "politics"
     },
     {
-      "date": "1948-07-14",
-      "title": "Palmiro Togliatti, leader of the Italian Communist Party, is shot and wounded ne",
-      "desc": "Palmiro Togliatti, leader of the Italian Communist Party, is shot and wounded near the Italian Parliament.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1948-06-28",
       "title": "Tito-Stalin Split",
       "desc": "Yugoslavia expelled from Soviet bloc",
@@ -1325,6 +1371,15 @@
       "title": "Marshall Plan",
       "desc": "US announces plan to rebuild post-war Europe",
       "type": "finance"
+    }
+  ],
+  "1946": [
+    {
+      "date": "1946-07-15",
+      "title": "The State of North Borneo, now Sabah, Malaysia, is annexed by the United Kingdom",
+      "desc": "The State of North Borneo, now Sabah, Malaysia, is annexed by the United Kingdom.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1945": [
@@ -1367,21 +1422,12 @@
       "type": "politics"
     }
   ],
-  "1943": [
-    {
-      "date": "1943-07-14",
-      "title": "In Diamond, Missouri, the George Washington Carver National Monument becomes the",
-      "desc": "In Diamond, Missouri, the George Washington Carver National Monument becomes the first United States National Monument in honor of an African American.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1942": [
     {
-      "date": "1942-07-14",
-      "title": "In the Wardha session of Congress, the \"Quit India\" resolution is approved, auth",
-      "desc": "In the Wardha session of Congress, the \"Quit India\" resolution is approved, authorising Mahatma Gandhi to campaign for India's independence from Britain.",
-      "type": "tech",
+      "date": "1942-07-15",
+      "title": "The Holocaust: Nazi Germany begins the deportation of 100,000 Jews from the occu",
+      "desc": "The Holocaust: Nazi Germany begins the deportation of 100,000 Jews from the occupied Netherlands to extermination camps.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -1443,20 +1489,6 @@
   ],
   "1933": [
     {
-      "date": "1933-07-14",
-      "title": "In a decree called the Gleichschaltung, Adolf Hitler abolishes all German politi",
-      "desc": "In a decree called the Gleichschaltung, Adolf Hitler abolishes all German political parties except the Nazis.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1933-07-14",
-      "title": "Nazi eugenics programme begins with the proclamation of the Law for the Preventi",
-      "desc": "Nazi eugenics programme begins with the proclamation of the Law for the Prevention of Hereditarily Diseased Offspring requiring the compulsory sterilization of any citizen who suffers from alleged gen",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1933-03-04",
       "title": "FDR Inaugurated",
       "desc": "Franklin D. Roosevelt becomes US president, New Deal begins",
@@ -1499,6 +1531,13 @@
       "type": "general"
     },
     {
+      "date": "1927-07-15",
+      "title": "Massacre of July 15, 1927: Eighty-nine protesters are killed by Austrian police ",
+      "desc": "Massacre of July 15, 1927: Eighty-nine protesters are killed by Austrian police in Vienna.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1927-05-20",
       "title": "Lindbergh Flies Atlantic",
       "desc": "Charles Lindbergh completes first solo transatlantic flight",
@@ -1535,6 +1574,13 @@
       "type": "politics"
     },
     {
+      "date": "1922-07-15",
+      "title": "The Japanese Communist Party is established in Japan.",
+      "desc": "The Japanese Communist Party is established in Japan.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1922-06-28",
       "title": "Irish Civil War Begins",
       "desc": "Irish Civil War starts with shelling of Four Courts",
@@ -1553,6 +1599,15 @@
       "title": "Yugoslav Constitution",
       "desc": "King Alexander I proclaims new Yugoslav constitution",
       "type": "politics"
+    }
+  ],
+  "1920": [
+    {
+      "date": "1920-07-15",
+      "title": "Aftermath of World War I: The Parliament of Poland establishes Silesian Voivodes",
+      "desc": "Aftermath of World War I: The Parliament of Poland establishes Silesian Voivodeship before the Polish-German plebiscite.",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "1919": [
@@ -1577,6 +1632,13 @@
       "type": "politics"
     },
     {
+      "date": "1918-07-15",
+      "title": "World War I: The Second Battle of the Marne begins near the River Marne with a G",
+      "desc": "World War I: The Second Battle of the Marne begins near the River Marne with a German attack.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1918-03-04",
       "title": "Spanish Flu First Case",
       "desc": "First case of deadly pandemic reported in Kansas",
@@ -1599,19 +1661,10 @@
   ],
   "1916": [
     {
-      "date": "1916-07-14",
-      "title": "World War I:   Battle of Delville Wood begins as an action within the Battle of ",
-      "desc": "World War I:   Battle of Delville Wood begins as an action within the Battle of the Somme, lasting until 3 September 1916.",
-      "type": "politics",
-      "source": "wikipedia"
-    }
-  ],
-  "1915": [
-    {
-      "date": "1915-07-14",
-      "title": "Beginning of the McMahon–Hussein Correspondence between Hussein bin Ali, Sharif ",
-      "desc": "Beginning of the McMahon–Hussein Correspondence between Hussein bin Ali, Sharif of Mecca and the British official Henry McMahon concerning the Arab Revolt against the Ottoman Empire.",
-      "type": "tech",
+      "date": "1916-07-15",
+      "title": "In Seattle, Washington, William Boeing and George Conrad Westervelt incorporate ",
+      "desc": "In Seattle, Washington, William Boeing and George Conrad Westervelt incorporate Pacific Aero Products (later renamed Boeing).",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -1651,17 +1704,19 @@
       "type": "politics"
     },
     {
-      "date": "1911-07-14",
-      "title": "Harry Atwood, an exhibition pilot for the Wright brothers, is greeted by preside",
-      "desc": "Harry Atwood, an exhibition pilot for the Wright brothers, is greeted by president William Howard Taft after he lands his aeroplane on the South Lawn of the White House, having flown from Boston.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1911-06-28",
       "title": "Nakhla Meteorite",
       "desc": "Meteorite falls in Egypt, first to suggest signs of water on Mars",
       "type": "science"
+    }
+  ],
+  "1910": [
+    {
+      "date": "1910-07-15",
+      "title": "In his book Clinical Psychiatry, Emil Kraepelin gives a name to Alzheimer's dise",
+      "desc": "In his book Clinical Psychiatry, Emil Kraepelin gives a name to Alzheimer's disease, naming it after his colleague Alois Alzheimer.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1905": [
@@ -1692,22 +1747,6 @@
       "type": "tech"
     }
   ],
-  "1902": [
-    {
-      "date": "1902-07-14",
-      "title": "Peruvian explorer and farmer Agustín Lizárraga discovers Machu Picchu, the \"Lost",
-      "desc": "Peruvian explorer and farmer Agustín Lizárraga discovers Machu Picchu, the \"Lost City of the Incas\".",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1902-07-14",
-      "title": "The Campanile in St Mark's Square, Venice collapses, also demolishing the logget",
-      "desc": "The Campanile in St Mark's Square, Venice collapses, also demolishing the loggetta.",
-      "type": "disaster",
-      "source": "wikipedia"
-    }
-  ],
   "1901": [
     {
       "date": "1901-12-10",
@@ -1728,13 +1767,6 @@
       "title": "Quantum Theory",
       "desc": "Max Planck publishes quantum theory paper",
       "type": "science"
-    },
-    {
-      "date": "1900-07-14",
-      "title": "Armies of the Eight-Nation Alliance capture Tientsin during the Boxer Rebellion.",
-      "desc": "Armies of the Eight-Nation Alliance capture Tientsin during the Boxer Rebellion.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1900-05-14",
