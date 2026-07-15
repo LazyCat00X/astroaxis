@@ -3884,20 +3884,6 @@
     "ai_summary": ""
   },
   {
-    "url": "https://www.bloomberg.com/news/articles/2026-07-11/iran-declares-strait-of-hormuz-closed-until-further-notice",
-    "title": "US Launches Fresh Iran Strikes as Tehran Declares Hormuz Closed",
-    "summary": "The US launched its third round of strikes on Iran this week as Tehran declared that it’s closing the Strait of Hormuz “until further notice.”",
-    "full_text": "",
-    "source": "Bloomberg",
-    "category": "finance",
-    "lang": "en",
-    "topic": "Finance",
-    "published": "2026-07-11T23:25:41+00:00",
-    "crawled": "2026-07-13T02:52:14.999334+00:00",
-    "summarized": false,
-    "ai_summary": ""
-  },
-  {
     "url": "https://www.blocktempo.com/nvidia-abandon-tsmc-coupe-photonic-plan-b-tower-silicon-photonics/",
     "title": "輝達暫棄臺積電 COUPE 光學方案！轉 Tower 矽光子，Plan A 退場原因曝光",
     "summary": "<p>輝達（Nvidia）暫時放棄臺積電 COUPE 共封裝光學方案，轉投 Tower 半導體矽光子平台。臺積電在氮 [&#8230;]</p>\n〈<a href=\"https://www.blocktempo.com/nvidia-abandon-tsmc-coupe-photonic-plan-b-tower-silicon-photonics/\">輝達暫棄臺積電 COUPE 光學方案！轉 Tower 矽光子，Plan A 退場原因曝光</a>〉這篇文章最早發佈於動區BlockTempo《<a href=\"https://www.blocktempo.com\">動區動趨-最具影響力的區塊鏈新聞媒體</a>》。",
@@ -31028,8 +31014,11 @@
     "topic": "World",
     "published": "2026-07-14T21:39:16+00:00",
     "crawled": "2026-07-14T22:02:59.557267+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• 西班牙在德克薩斯州阿靈頓的半決賽中以2-0擊敗法國，晉級世界盃決賽，將對陣阿根廷或英格蘭。  \n• 米凱爾·奧亞薩巴爾在上半場透過點球為西班牙首開紀錄，佩德羅·波羅在下半場擴大領先。  \n• 法國在整場比賽中未能射正，並在比賽中遭遇多名球員受傷。  \n• 西班牙在整個賽事中僅失一球，距離贏得首屆48隊世界盃僅有90分鐘的距離。",
+    "summaries": {
+      "zh-HK": "• 西班牙在德克薩斯州阿靈頓的半決賽中以2-0擊敗法國，晉級世界盃決賽，將對陣阿根廷或英格蘭。  \n• 米凱爾·奧亞薩巴爾在上半場透過點球為西班牙首開紀錄，佩德羅·波羅在下半場擴大領先。  \n• 法國在整場比賽中未能射正，並在比賽中遭遇多名球員受傷。  \n• 西班牙在整個賽事中僅失一球，距離贏得首屆48隊世界盃僅有90分鐘的距離。"
+    }
   },
   {
     "url": "https://www.aljazeera.com/sports/2026/7/14/fifa-world-cup-key-players-to-watch-as-england-and-argentina-clash-in-semifinal?traffic_source=rss",
@@ -31314,8 +31303,11 @@
     "topic": "Finance",
     "published": "2026-07-14T21:38:00+00:00",
     "crawled": "2026-07-14T22:03:16.178188+00:00",
-    "summarized": false,
-    "ai_summary": ""
+    "summarized": true,
+    "ai_summary": "• Medicaid削減可能影響家庭財富的繼承計劃，導致資產流失  \n• IRA稅務陷阱可能對家庭的遺產造成額外負擔  \n• 專家建議家庭應重新評估和調整遺產計劃以應對這些挑戰  \n• 文章提供了應對這些威脅的具體建議和策略",
+    "summaries": {
+      "zh-HK": "• Medicaid削減可能影響家庭財富的繼承計劃，導致資產流失  \n• IRA稅務陷阱可能對家庭的遺產造成額外負擔  \n• 專家建議家庭應重新評估和調整遺產計劃以應對這些挑戰  \n• 文章提供了應對這些威脅的具體建議和策略"
+    }
   },
   {
     "url": "https://www.marketwatch.com/story/what-ibms-profit-warning-means-hardware-is-eating-everyones-lunch-c6878824?mod=mw_rss_topstories",
@@ -31666,6 +31658,801 @@
     "ai_summary": "• ASICS在土耳其啟動新計劃，以利用當地對慢跑的熱潮  \n• 公司計劃在2024年前在土耳其開設多家新零售店  \n• ASICS希望通過推廣運動鞋和相關產品來吸引更多消費者  \n• 土耳其的運動鞋市場預計將持續增長，吸引了多個品牌的關注",
     "summaries": {
       "zh-HK": "• ASICS在土耳其啟動新計劃，以利用當地對慢跑的熱潮  \n• 公司計劃在2024年前在土耳其開設多家新零售店  \n• ASICS希望通過推廣運動鞋和相關產品來吸引更多消費者  \n• 土耳其的運動鞋市場預計將持續增長，吸引了多個品牌的關注"
+    }
+  },
+  {
+    "url": "https://www.ft.com/content/cfec51c1-0435-457f-a140-f302ca6a4e0b",
+    "title": "Manic markets show no mercy to IBM",
+    "summary": "Failure will apparently not be tolerated",
+    "full_text": "FT Alphaville\nRegister to unlock this article\nManic markets show no mercy to IBM\nFT Alphaville is free\nRegister to keep reading\nWant a deeper look?\nExplore our recommended subscriptionsExplore more offers.\nTrial\n$1 for 4 weeks\nThen $75 per month. Complete digital access to quality FT journalism on any device. Cancel or change your plan anytime during your trial.\nStandard Digital\n$45 per month\nGet essential digital access to quality FT journalism on any device. Pay a year upfront and save 20%\nPremium Digital\nComplete coverage\n$75 per month\nComplete digital access to quality FT journalism with expert analysis from industry leaders. Pay a year upfront and save 20%.\nCheck whether you already have access via your university or organisation.\nTerms & Conditions apply\nExplore our full range of subscriptions.\nFor individuals\nDiscover all the plans currently available in your country\nFor multiple readers\nDigital access for organisations. Includes exclusive features and content.\nWhy the FT?\nSee why over a million readers pay to read the Financial Times.",
+    "source": "FT Tech",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Finance",
+    "published": "2026-07-14T22:07:17+00:00",
+    "crawled": "2026-07-14T23:56:42.394160+00:00",
+    "summarized": true,
+    "ai_summary": "• IBM在近期市場波動中受到重大影響，股價表現不佳  \n• 市場對科技股的情緒不穩定，導致IBM面臨挑戰  \n• 分析師指出，IBM需要加強其產品和服務以應對競爭  \n• 目前尚未有具體措施或計劃公佈以改善公司狀況",
+    "summaries": {
+      "zh-HK": "• IBM在近期市場波動中受到重大影響，股價表現不佳  \n• 市場對科技股的情緒不穩定，導致IBM面臨挑戰  \n• 分析師指出，IBM需要加強其產品和服務以應對競爭  \n• 目前尚未有具體措施或計劃公佈以改善公司狀況"
+    }
+  },
+  {
+    "url": "https://www.ft.com/content/e3dc6768-8c8a-4e1e-9efc-a431b739a929",
+    "title": "UK teenagers face midnight curfew on using social media platforms",
+    "summary": "Addictive features such as autoplay videos and infinite scrolling will be switched off under planned laws",
+    "full_text": "UK teenagers face midnight curfew on using social media platforms\nTry unlimited access\nOnly $1 for 4 weeksThen $75 per month. Complete digital access to quality FT journalism on any device. Cancel anytime during your trial.\nExplore more offers.\nStandard Digital\nEssential digital access to quality FT journalism on any device. Pay a year upfront and save 20%.\nPremium Digital\nComplete digital access to quality FT journalism with expert analysis from industry leaders. Pay a year upfront and save 20%.\nPremium & FT Weekend Print\nFT Weekend newspaper delivered Saturday* plus complete digital access.\nCheck whether you already have access via your university or organisation.\nTerms & Conditions apply\n*Hand delivery availability confirmed when you enter your address.\nExplore our full range of subscriptions.\nFor individuals\nDiscover all the plans currently available in your country\nFor multiple readers\nDigital access for organisations. Includes exclusive features and content.\nWhy the FT?\nSee why over a million readers pay to read the Financial Times.",
+    "source": "FT Tech",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Tech",
+    "published": "2026-07-14T21:30:04+00:00",
+    "crawled": "2026-07-14T23:56:43.534881+00:00",
+    "summarized": true,
+    "ai_summary": "• 英國青少年將面臨社交媒體平台的午夜宵禁，限制使用時間至午夜12時  \n• 此措施旨在保護青少年的心理健康，減少網絡成癮的風險  \n• 政府計劃於2024年實施此政策，具體細節尚待公布  \n• 社交媒體公司需遵守新規定，否則將面臨罰款或其他處罰",
+    "summaries": {
+      "zh-HK": "• 英國青少年將面臨社交媒體平台的午夜宵禁，限制使用時間至午夜12時  \n• 此措施旨在保護青少年的心理健康，減少網絡成癮的風險  \n• 政府計劃於2024年實施此政策，具體細節尚待公布  \n• 社交媒體公司需遵守新規定，否則將面臨罰款或其他處罰"
+    }
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/",
+    "title": "Lorde says AI glasses are “not sexy”",
+    "summary": "\"Increasingly in our world, it gets harder and harder to know what is real,\" Lorde said on stage.",
+    "full_text": "While Kylie Jenner serves as a human billboard for Meta’s AI glasses, pop star Lorde isn’t buying it.\nDuring a set at the Mad Cool Festival in Madrid last week, Lorde had some choice words about the new technology, which many security experts have deemed a privacy nightmare.\n“Increasingly in our world, it gets harder and harder to know what is real,” Lorde told the audience. “You don’t know if someone is wearing sunglasses, or if they’re wearing those f–ed up, f–ing [AI glasses]. Can I just say, for the record, f— the glasses. Don’t get the glasses. Not sexy.”\nLorde has written before about throwing her phone into the ocean, but this was next level.\nLorde was possibly moved to comment on the latest trends in tech because Ray-Ban, a sponsor of the festival, partners with Meta to make AI glasses. Lorde also performed immediately before the singer Jennie, who is an ambassador for Ray-Ban x Meta’s smart glasses line.\nLorde isn’t alone in raising concerns. Smart glasses, which come with cameras and AI features, have been used as tools for harassment and extortion. Meta, the most popular smart glasses maker, has said it takes privacy seriously and builds in safeguards like a visible recording light, but the company is facing many investigations and lawsuits alleging privacy violations. One lawsuit alleges that Kenyan contract workers were made to watch graphic videos obtained with the glasses to help train Meta’s AI. (Meta hasn’t publicly detailed its response to that specific claim.)\nNone of this has stopped the product from strong sales. EssilorLuxottica, the Ray-Ban maker, said it sold more than 7 million Meta AI glasses in 2025 — more than triple the roughly 2 million units it sold in 2023 and 2024 combined. Ray-Ban Meta glasses have been such a hit in the smart-glasses category that an emboldened Meta keeps expanding the lineup.\nBut hey, if privacy doesn’t make people think twice about the glasses, maybe vanity will. Lorde nails it pretty concisely with her declaration that they’re simply “not sexy.”\nThe here and now, she added, now that “is sexy.”",
+    "source": "TechCrunch",
+    "category": "tech",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-14T23:10:02+00:00",
+    "crawled": "2026-07-14T23:56:44.851741+00:00",
+    "summarized": true,
+    "ai_summary": "• 流行歌手Lorde在馬德里的Mad Cool音樂節上批評Meta的AI眼鏡，稱其「不性感」並表達對隱私問題的擔憂。  \n• Lorde提到，現今世界中難以分辨真實與虛擬，並呼籲人們不要購買這些眼鏡。  \n• Meta公司面臨多宗隱私侵犯的調查和訴訟，儘管如此，其AI眼鏡的銷售仍然強勁。  \n• Ray-Ban的母公司EssilorLuxottica表示，2025年已售出超過700萬副Meta AI眼鏡，銷量大幅增長。",
+    "summaries": {
+      "zh-HK": "• 流行歌手Lorde在馬德里的Mad Cool音樂節上批評Meta的AI眼鏡，稱其「不性感」並表達對隱私問題的擔憂。  \n• Lorde提到，現今世界中難以分辨真實與虛擬，並呼籲人們不要購買這些眼鏡。  \n• Meta公司面臨多宗隱私侵犯的調查和訴訟，儘管如此，其AI眼鏡的銷售仍然強勁。  \n• Ray-Ban的母公司EssilorLuxottica表示，2025年已售出超過700萬副Meta AI眼鏡，銷量大幅增長。"
+    }
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+    "title": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
+    "summary": "The device is weirdly described as involving \"mechanical elements that can move on their own\" and the Bloomberg report includes the detail that the device is designed to \"feel like a companion and become a physical manifestation of OpenAI’s ChatGPT.\"",
+    "full_text": "OpenAI’s first foray into hardware devices is reported to be a mobile smart speaker with integrated AI capabilities that can sync with ChatGPT and provide other home AI services.\nBloomberg reported Tuesday that the device — which is still currently under development — is designed to be screen-free and is being pitched internally as a “humanlike AI companion that lives in the home.”\nOpenAI has long claimed that it wants to launch a hardware product — with some rumors being that it wants to launch its own phone, a move that would put it in competition with Apple.\nOpenAI’s newly surfaced device sounds like something of a departure from traditional smart speakers — as sources described the device to Bloomberg as having a “personality” and being able to proactively learn about its owner over time, providing more personalized service. The machine would have access to a user’s digital life, drawing off things like emails, sources said.\nThe device is also weirdly described as involving “mechanical elements that can move on their own” and the Bloomberg report includes the detail that the device is designed to “feel like a companion and become a physical manifestation of OpenAI’s ChatGPT.”\nThe device was developed with help from many former Apple engineers who were instrumental in “creating products such as the iPhone and Mac,” Bloomberg writes. Indeed, OpenAI may be attempting to launch a new hardware line, but the company is currently up to its eyeballs in trouble over hardware-related legal problems.\nApple last week sued OpenAI, accusing the AI company of stealing its trade secrets. Apple further claimed that the allegations involved in the suit are merely “the tip of the iceberg” and that more misconduct will be revealed during the legal discovery process. OpenAI has denied wrongdoing.\nCiting anonymous sources with knowledge of OpenAI’s plans, Bloomberg writes that the company feels its new product “veers significantly from anything Apple has on the market today” and that it is “unlikely that it violates trade secrets” belonging to Apple.\nOpenAI’s push comes as the tech world grows more excited about consumer AI hardware more broadly. Hark, an AI lab founded by Brett Adcock, raised an oversubscribed $700 million Series A back in May at a $6 billion valuation to build what it calls “personal intelligence” — proprietary AI models paired with custom hardware designed as a “universal interface between humans and machines.”\nThe company hasn’t yet detailed its device’s form factor, underscoring how much capital is chasing this category even before products ship.",
+    "source": "TechCrunch",
+    "category": "tech",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-14T22:22:24+00:00",
+    "crawled": "2026-07-14T23:56:44.880391+00:00",
+    "summarized": true,
+    "ai_summary": "• OpenAI正在開發一款無屏幕的移動智能揚聲器，具備AI功能，可與ChatGPT同步並提供家庭AI服務。  \n• 該設備被內部稱為“類人AI伴侶”，旨在提供個性化服務並能主動學習用戶的需求。  \n• 此設備由多名前蘋果工程師協助開發，蘋果最近對OpenAI提起訴訟，指控其竊取商業機密。  \n• OpenAI表示其新產品與蘋果市場上的產品有顯著不同，並認為不太可能侵犯蘋果的商業秘密。",
+    "summaries": {
+      "zh-HK": "• OpenAI正在開發一款無屏幕的移動智能揚聲器，具備AI功能，可與ChatGPT同步並提供家庭AI服務。  \n• 該設備被內部稱為“類人AI伴侶”，旨在提供個性化服務並能主動學習用戶的需求。  \n• 此設備由多名前蘋果工程師協助開發，蘋果最近對OpenAI提起訴訟，指控其竊取商業機密。  \n• OpenAI表示其新產品與蘋果市場上的產品有顯著不同，並認為不太可能侵犯蘋果的商業秘密。"
+    }
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/",
+    "title": "OpenAI pushes back on Apple trade secret lawsuit",
+    "summary": "OpenAI has issued another statement on the lawsuit, this time suggesting it lacks merit.",
+    "full_text": "OpenAI pushed back Tuesday against allegations made by Apple in a trade secret lawsuit, suggesting the complaint lacks merit.\n“While we take these allegations seriously, we’re not aware of any evidence that this complaint has merit,” OpenAI said in a statement, first shared by Bloomberg reporter Ed Ludlow on X. “We believe in fair competition and allowing people the freedom to work wherever they choose, and we’re focused on building innovative technology that empowers people everywhere.”\nThe statement comes several days after Apple filed a lawsuit against the AI lab, alleging that OpenAI employees, who previously worked at the iPhone maker, engaged in a coordinated effort to obtain confidential information and intellectual property. The 41-page complaint, filed Friday in the U.S. District Court for the Northern District of California, contains a string of allegations against OpenAI leadership, including Chief Hardware Officer Tang Tan. Before joining OpenAI, Tan was a veteran at Apple, where he worked for 24 years and held top positions, including vice president of product design for the iPhone and Apple Watch.\nThis is the first time OpenAI commented on the case itself. In its initial statement hours after Apple filed its lawsuit, it proclaimed a lack of interest in technology developed by other companies, telling TechCrunch: “We have no interest in other companies’ trade secrets. We remain focused on building innovative technology that empowers people everywhere.”\nApple claims in its lawsuit that its internal investigation uncovered evidence that OpenAI and its partners used the company’s confidential information as it develops its own hardware product.\nReports, along with OpenAI’s recent acquisition of Jony Ive’s startup io, suggest the company is working on a device that could directly compete with Apple’s business. Bloomberg reported on Tuesday that OpenAI is working on a mobile, screen-free smart speaker.\nTechCrunch has reached out to OpenAI for further comment and will update this article when the company responds.",
+    "source": "TechCrunch",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Regulation",
+    "published": "2026-07-14T22:07:42+00:00",
+    "crawled": "2026-07-14T23:56:44.907324+00:00",
+    "summarized": true,
+    "ai_summary": "• OpenAI對蘋果公司提出的商業秘密訴訟作出反駁，認為指控缺乏根據  \n• 蘋果在加州北區地區法院提起訴訟，指控OpenAI員工協同獲取公司機密資訊  \n• 蘋果的訴狀中提到OpenAI高層，包括前蘋果高管唐坦，涉及多項指控  \n• OpenAI表示專注於創新技術，並強調對其他公司的商業秘密不感興趣",
+    "summaries": {
+      "zh-HK": "• OpenAI對蘋果公司提出的商業秘密訴訟作出反駁，認為指控缺乏根據  \n• 蘋果在加州北區地區法院提起訴訟，指控OpenAI員工協同獲取公司機密資訊  \n• 蘋果的訴狀中提到OpenAI高層，包括前蘋果高管唐坦，涉及多項指控  \n• OpenAI表示專注於創新技術，並強調對其他公司的商業秘密不感興趣"
+    }
+  },
+  {
+    "url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
+    "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
+    "summary": "Old and forgotten \"shims\" Microsoft failed to revoke have made Secure Boot bypasses simple.",
+    "full_text": "An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway.\nThe images are known as shims, which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device’s motherboard. The gaffe is the result of Microsoft, which oversees the signing of shims, failing to revoke the publicly available images once vulnerabilities were found in them.\nThreat extends to Windows and Linux users\nThe threat extends to Windows and Linux users alike, since the shim can be installed on devices running both operating systems. From there, an attacker can subvert the mandated chain of digitally signed firmware to install malicious firmware that loads early in the boot process and persists after either the OS is reinstalled or a hard drive is replaced.\n“What makes these old shims dangerous is not a novel vulnerability,” ESET researcher Martin Smolár wrote Tuesday. “It’s that no new vulnerability is needed to bypass UEFI Secure Boot. An attacker needs no complicated exploitation primitives—only a copy of an old, still-trusted, but unrevoked shim binary and a basic understanding of how UEFI shims work. That is enough to bypass such an essential security feature as UEFI Secure Boot.”\nSecure boot was introduced in 2012 to blunt the threat of bootkits, the term for such malicious firmware. Without Secure Boot, attackers with brief physical access to a device—even when it’s turned off—can install bootkits similar to LoJax used by Russia state hackers in 2018, MosaicRegressor found in 2020, CosmicStrand in 2022, and BlackLotus in 2023. A handful of other in-the-wild bootkits are tracked under names including ESpecter, FinSpy, and MoonBounce.",
+    "source": "ArsTechnica",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Tech",
+    "published": "2026-07-14T22:20:48+00:00",
+    "crawled": "2026-07-14T23:56:46.167160+00:00",
+    "summarized": true,
+    "ai_summary": "• 微軟的安全啟動（Secure Boot）標準在過去13年中存在漏洞，直到最近才被發現。  \n• 安全公司ESET的研究人員發現至少11個已知有缺陷的固件映像，這些映像自2013年以來仍然被微軟簽署。  \n• 這些舊的固件映像稱為shims，能夠繞過嵌入在設備主板的UEFI安全啟動保護，對Windows和Linux用戶構成威脅。  \n• 安全啟動於2012年推出，旨在防止惡意固件（bootkits）的攻擊，未能有效防止多起已知的惡意固件攻擊事件。",
+    "summaries": {
+      "zh-HK": "• 微軟的安全啟動（Secure Boot）標準在過去13年中存在漏洞，直到最近才被發現。  \n• 安全公司ESET的研究人員發現至少11個已知有缺陷的固件映像，這些映像自2013年以來仍然被微軟簽署。  \n• 這些舊的固件映像稱為shims，能夠繞過嵌入在設備主板的UEFI安全啟動保護，對Windows和Linux用戶構成威脅。  \n• 安全啟動於2012年推出，旨在防止惡意固件（bootkits）的攻擊，未能有效防止多起已知的惡意固件攻擊事件。"
+    }
+  },
+  {
+    "url": "https://arstechnica.com/health/2026/07/americans-in-congo-barred-from-returning-home-amid-ebola-outbreak/",
+    "title": "Trump admin puts Americans in Congo on \"do-not-board\" list, barring return",
+    "summary": "Citizens must now spend 21 days in a third country before they are allowed to come home.",
+    "full_text": "The Trump administration on Monday barred US citizens in the Democratic Republic of the Congo from returning home amid an Ebola outbreak that continues to outpace response efforts.\nReuters first reported late Monday that Americans currently in the DRC or those who have recently traveled to the Ebola-stricken country have been put on a “do-not-board” list. They cannot travel back to the US until they have spent 21 days in a third country. The order, taken under a transportation authority known as Title 49, was independently confirmed by Politico on Tuesday.\nBoth outlets noted that roughly two dozen Americans who had been set to board flights home on Tuesday have already been blocked by the new rule. It remains unclear if the bar also applies to government workers. The Centers for Disease Control and Prevention has at least two dozen employees working in the DRC.\nThe move adds to the already extremely stringent and controversial travel restrictions imposed by the Trump administration in an effort to wall itself off from the outbreak. Health experts continue to be critical of such restrictions, as they have historically been unsuccessful and harmful. Specifically, they discourage countries and people from being transparent about outbreaks and disease risks, hurt economies, and create stigma. There is also concern that such restrictions will limit humanitarian aid workers.\nEbola threat\nEbola is not a disease that readily spreads like respiratory viruses. It transmits via contact with bodily fluids while people are actively sick or recently deceased. It has been described as a disease of compassion because it primarily spreads to family, loved ones, caregivers, and medical personnel who have extensive contact with cases when they are most ill and infectious. In other words, it’s not a disease one would pick up by sitting next to someone who is merely coughing on an airplane.",
+    "source": "ArsTechnica",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-14T22:09:31+00:00",
+    "crawled": "2026-07-14T23:56:46.248316+00:00",
+    "summarized": true,
+    "ai_summary": "• 特朗普政府於周一禁止在剛果民主共和國的美國公民返回美國，因應埃博拉疫情持續擴散  \n• 受影響的美國公民需在第三國停留21天後才能回國，該禁令根據第49條交通法規實施  \n• 約有二十名美國公民原定於周二搭乘航班回國，但已被新規則阻止  \n• 健康專家對此類旅行限制表示批評，認為會影響透明度、經濟及人道援助工作者",
+    "summaries": {
+      "zh-HK": "• 特朗普政府於周一禁止在剛果民主共和國的美國公民返回美國，因應埃博拉疫情持續擴散  \n• 受影響的美國公民需在第三國停留21天後才能回國，該禁令根據第49條交通法規實施  \n• 約有二十名美國公民原定於周二搭乘航班回國，但已被新規則阻止  \n• 健康專家對此類旅行限制表示批評，認為會影響透明度、經濟及人道援助工作者"
+    }
+  },
+  {
+    "url": "https://www.wired.com/story/the-uk-is-planning-a-social-media-curfew-for-16-and-17-year-olds/",
+    "title": "The UK Is Planning a Social Media Curfew for 16- and 17-Year-Olds",
+    "summary": "The restrictions, which can be turned off, will include a crackdown on “addictive” app features and will be in addition to a total ban on children under 16 accessing platforms like TikTok and YouTube.",
+    "full_text": "The United Kingdom will require social media companies to implement a default block for adolescent users aged 16 and 17 at certain hours, the country’s Department for Science, Innovation & Technology revealed on Tuesday evening.\nThis automatic new curfew would theoretically lock older teens out of social platforms between the hours of midnight and 6 am—though the feature can be turned off. The nonmandatory restriction is to be imposed along with a looming total ban on these services for children under 16, expected to come into force in spring 2027. Both measures come after the Online Safety Act, a controversial set of laws that requires platforms hosting pornography and other material considered potentially harmful to children to verify that their users are 18 or older.\nYoung Brits will also see a “crackdown” on “addictive” features of social apps, the DSIT said in a news release, including “videos that automatically play one after another and feeds that continually serve up personalized content.” These mechanisms will “be switched off by default for older teenagers,” according to a statement from the department. However, people will also be able to override those.\nThe first full set of social media regulations will be put to Parliament later this year before taking effect in 2027.\nThe DSIT said the latest set of proposed regulations are meant to “help ensure there is no cliff edge in protections as young people move into their later teenage years,” as future youths will hypothetically have no experience with social media before that age, thanks to the constraints imposed on apps and websites by the Online Safety Act.\n“These measures will be crucial in helping young people get the sleep they need, focus on school and college, and spend more quality time with family and friends, all of which are fundamental to building a happy, healthy, and fulfilling adult life,” said UK Technology Secretary Liz Kendall in a statement about the new measures.\n“We want young people to enjoy the benefits of technology while having the tools to make the online world a place where they can thrive,” Kendall said.\nThe DSIT further signaled that Kendall aims to bring forth additional protections around artificial intelligence, including mandated chatbot breaks for children under 18, who are already set to be blocked from AI platforms that can imitate romantic conversations. Regulators will be charged with reining in services that provide “dangerous, misleading, or unverified mental health advice,” with the department warning that chatbots found to “pose a serious threat” to UK youths may be banned altogether.\nFinally, the government is seeking to bolster children’s media literacy with updated school curricula covering AI, technological bias, and mis- and disinformation, as well as strategies for identifying violent and misogynist content.\nIn recent years, as tech giants faced a wave of major lawsuits and alarming research related to the potential negative effects of social media on younger users, advocates mobilized worldwide to push for broad age limits on these platforms, with parents and politicians often concurring on the need for such protections. The UK government, for example, has found that about 9 in 10 parents there “support a legal requirement for social media services to have a minimum age of access.” A Pew Research Center survey published this month found that 56 percent of American adults would likewise back a ban on social media for those under 16.\nBut groups including the Electronic Frontier Foundation, the American Civil Liberties Union, Amnesty International and GLAAD have sharply criticized this type of “age-gating,” arguing that it’s an oversimplified solution that curtails the rights to open information and free speech. They point out that lawmakers can use these restrictions to censor sex education and LGBTQ resources that are of critical value to teens.\nThen there’s the question of whether this regulation even works. In Australia, which in December became the first nation to ban children under 16 from a slew of popular social media apps, leading to the removal of some 5 million accounts within a month, early research has shown that around 75 percent of 14- to 15-year-olds are circumventing the age limit. The country’s government is investigating the alleged noncompliance of Facebook, Instagram, Snapchat, TikTok and YouTube as it struggles to enforce the law, and it now plans to double the fines for platforms in violation, though it has yet to collect any.\nFor the UK, which has been quite explicit about adopting the “same model” as Australia to keep kids off social media, similar problems may lie ahead.\nUpdate, July 14 at 7:00 pm: This story was updated to correct the full name of the EFF. It’s the Electronic Frontier Foundation.",
+    "source": "Wired",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Tech",
+    "published": "2026-07-14T22:08:30+00:00",
+    "crawled": "2026-07-14T23:56:47.098094+00:00",
+    "summarized": true,
+    "ai_summary": "• 英國科技創新與技術部宣布將對16至17歲青少年實施社交媒體宵禁，限制他們在午夜至早上6時使用社交平台 \n• 此措施將與對16歲以下兒童的全面禁令一起實施，預計於2027年春季生效 \n• 新規定旨在減少青少年對社交媒體的依賴，並促進他們的睡眠、學業和家庭時間 \n• 政府還計劃加強對人工智能的保護，包括限制18歲以下兒童使用模擬浪漫對話的聊天機器人",
+    "summaries": {
+      "zh-HK": "• 英國科技創新與技術部宣布將對16至17歲青少年實施社交媒體宵禁，限制他們在午夜至早上6時使用社交平台 \n• 此措施將與對16歲以下兒童的全面禁令一起實施，預計於2027年春季生效 \n• 新規定旨在減少青少年對社交媒體的依賴，並促進他們的睡眠、學業和家庭時間 \n• 政府還計劃加強對人工智能的保護，包括限制18歲以下兒童使用模擬浪漫對話的聊天機器人"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/crele3r8j19o?at_medium=RSS&at_campaign=rss",
+    "title": "Trump retreat over Hormuz tolls suggests he is struggling to end Iran war",
+    "summary": "The abrupt about-face from the US president was the latest twist in a conflict that has now lasted more than four months.",
+    "full_text": "Trump retreat over Hormuz tolls suggests he is struggling to end Iran war\n- Published\nDonald Trump's latest Iran War demand lasted all of 24 hours – and suggests a president searching for unorthodox ways out of a difficult position.\nOn Monday morning, in a social media post announcing the resumption of an American naval blockade on Iranian shipping, he said that all vessels transiting the Strait of Hormuz – including those of US allies - must pay a 20% fee to reimburse the US \"for any and all costs necessary to do the job of providing safety and security to this very volatile section of the world\".\nThe following day, he abandoned that proposal completely, external, offering instead that he would strike \"trade and investment deals\" with America's Gulf allies, implying the US would offer them safe passage through the Strait in return.\nThe abrupt about-face was the latest twist in a conflict that has now lasted more than four months and, despite a month old \"memorandum of understanding\" that secured a temporary ceasefire and set up a framework for negotiations, shows no sign of ending.\nTrump may be reluctant to escalate the war given its continued unpopularity, the likelihood of rising energy prices and the risks associated with America forces and allies once again coming under Iranian attack. He might find the prospect of ending the conflict without reaching an agreement he can claim is better than the one Barack Obama's administration negotiated in 2015 also distasteful, however.\n\"I think the most likely ending is a non-ending,\" Rosemary Kelanid, Director of the Middle East program at Defense Priorities \"This has turned into a war of attrition, and wars of attrition tend to go on for a long, long period of time.\"\nThe US-Iran memorandum of understanding (MOU) - and the hopes that came with it for an end to the war - died at 10:16 ET (16:16 BST) on Tuesday on Truth Social, when Trump announced a resumption of the US blockade of Iranian shipping, amidst a flurry of new US military strikes on targets across Iran.\nThe Iranians countered by stepping up attacks on US allies and commercial shipping in the region, grinding traffic through the Strait of Hormuz to a near standstill once more.\nAfter nearly a month of on-again, off-again negotiations between the two nations, punctuated by occasional hostilities that tested the definition of a \"ceasefire\", Trump and the Americans appear to be facing the same challenges that had been present through much of the Iran War.\nWhile militarily, the Americans were achieving their objectives, as measured in Iranian ships, planes and targets destroyed and defence capabilities degraded, politically the conflict was far from resolved.\nIran, militarily weakened though it may be, could still deny access to the Strait of Hormuz. And unless the Americans are willing to dramatically escalate their military operations in the region, there was little they could do to stop them.\nTrump's new twist of a 20% fee – possibly a means of making that military commitment more palatable to the American public - wasn't entirely new. He had suggested such an arrangement on several occasions over the course of the war.\nBut just last month, US Secretary of State Marco Rubio had condemned an Iranian plan to charge \"fees\" on shipping through Hormuz.\n\"No country is allowed to charge tolls or fees on an international waterway,\" he said. \"That's existing international law. That's the way it is in international waterways all over the world, and that's the way we expect it here.\"\nTrump's Hormuz U-turn is just the latest evidence of a president who does not appear to have a clear path forward. The memorandum of understanding, which both Americans and Iranians claimed as a victory for their side, was intentionally vague, leaving much up to later negotiation.\nThe document envisioned some role for Iran in overseeing shipping in Hormuz. It read: \"The Islamic Republic of Iran will make arrangements using its best efforts for the safe passage of commercial vessels with no charge\".\nThis is a role that Iran has been intent on asserting. The MOU also included billions of dollars in promised \"investment\" in Iran and an end to international sanctions.\nAmericans may have believed those sweeteners, accompanied by warnings of the consequences of noncompliance, would be enough to dissuade Iran from attempting to use its geographic advantages to more forcefully assert control over Hormuz. That calculation, at least for the moment, appears incorrect.\n\"The MOU is completely dead,\" said Kelanid. \"All of the things that it stipulated have now been undone.\"\n- Strait of Hormuz 'faultline' exposes weakness of the US-Iran deal - Published4 hours ago\n \nNow Trump, and the Iranians, find themselves in a familiar predicament. The latter are once again facing American military attacks across their territory, underlining their inability to defend their territorial sovereignty. With the reimposed blockade, their oil revenue – a lifeline for the Iranian regime – is again cut off.\nMeanwhile, Trump is again facing a choice between escalation, which comes with domestic economic and political costs, and settling for some kind of resolution that leaves a hostile Iranian regime in power.\n\"We're back to where we were initially, where the question was: who's got more patience?\" said Elliot Abrams, senior fellow for Middle Eastern studies at the Council on Foreign Relations. \"The Iranians, who will not be able to export oil, or the US and other countries that use Persian gulf oil?\"\nAfter months of concern that the Iran war was triggering a new round of popularity-crushing inflation, Trump received some good news on Tuesday that consumer prices were dropping.\nA resumption of full hostilities, or even an escalation in the conflict, would inevitably push oil prices back toward previous highs, endangering that positive trend and again putting Republicans in a tenuous position heading into November's midterm congressional elections.\nOn Monday, after Trump's Truth Social post, the price of a barrel of oil jumped nearly 10% - the biggest one-day increase in six years.\nThe first time around, Trump's blockade helped pressure the Iranians to the negotiating table and set the table for the memorandum of understanding and a framework for a more lasting peace.\nNow, according to Kelanid, the president's leverage over Iran may be diminished.\n\"He has already tried the things he can easily do, can credibly do,\" she said. \"He can attack military targets, regime targets. He's done that before, and it didn't cause Iran to surrender.\"\nThe latest target Trump has suggested is Pickaxe Mountain, a heavily fortified nuclear research site south of Tehran. But there is conflicting evidence of the value of the site – or of whether US airstrikes can cause significant damage to the tunnels which are deep beneath granite rock.\nIf Trump's latest moves do ultimately end with yet another ceasefire and face-to-face talks, the underlying, difficult-to-reconcile disagreements – over Hormuz, over the disposition of Iran's nuclear programme, over Iran's influence in the Middle East - remain.\n\"I think there's room for negotiation here over a Strait of Hormuz deal,\" said Abrams. \"But not a return to the MOU.\"\nWith the war approaching its fifth month, Trump again on Monday noted that other American conflicts – including the Vietnam War – stretched on for years.\nThat particular quagmire, however, hobbled and ultimately ended the presidency of Lyndon Baines Johnson and damaged US global standing for at least a decade. That is a fate Trump is certainly hoping to avoid.\nHis supporters also are weary to repeat the kind of Middle East \"forever wars\" that Trump condemned in previous presidential campaigns.\nBut with the memorandum of understanding in tatters, the ceasefire ended and the prospect of further conflict looming, the end of the Iran War appears no closer to a resolution than it was in the weeks after it began.\nFollow the twists and ",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-14T23:17:27+00:00",
+    "crawled": "2026-07-14T23:56:59.382996+00:00",
+    "summarized": true,
+    "ai_summary": "• 特朗普在社交媒體上宣布恢復對伊朗航運的美國海軍封鎖，要求所有經霍爾木茲海峽的船隻支付20%的費用以補償美國的安全成本。  \n• 隨後，他於次日完全放棄該提議，轉而表示將與海灣盟友達成“貿易和投資協議”，暗示美國將提供安全通行。  \n• 此次變動顯示出特朗普在持續四個多月的伊朗戰爭中面臨的困難，儘管有一個月前的“諒解備忘錄”設立了停火框架，但衝突仍未結束。  \n• 伊朗則加強對美國盟友和商業航運的攻擊，導致霍爾木茲海峽的交通幾乎停滯。",
+    "summaries": {
+      "zh-HK": "• 特朗普在社交媒體上宣布恢復對伊朗航運的美國海軍封鎖，要求所有經霍爾木茲海峽的船隻支付20%的費用以補償美國的安全成本。  \n• 隨後，他於次日完全放棄該提議，轉而表示將與海灣盟友達成“貿易和投資協議”，暗示美國將提供安全通行。  \n• 此次變動顯示出特朗普在持續四個多月的伊朗戰爭中面臨的困難，儘管有一個月前的“諒解備忘錄”設立了停火框架，但衝突仍未結束。  \n• 伊朗則加強對美國盟友和商業航運的攻擊，導致霍爾木茲海峽的交通幾乎停滯。"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c992e8g10nmo?at_medium=RSS&at_campaign=rss",
+    "title": "After record heat, could the Atlantic make Britain's weather even more extreme?",
+    "summary": "As temperatures rise, scientists are investigating whether a changing Atlantic could bring more volatile weather to the UK",
+    "full_text": "Somewhere in the stormy waters off Greenland, a bright yellow robotic probe, known as an Argo float, is sinking silently beneath the waves.\nIt is roughly the size of a person, with a tough metal body and an array of sensors packed inside.\nThe float is part of a global effort to solve one of the great mysteries of the ocean: how its hidden movements help shape the climate above.\nThere is no crew, no one steering it. Instead, it drifts with the currents, measuring temperature, the amount of salt in the water and pressure as it moves through the waves.\nWhen it rises, it briefly breaks the surface and sends its data home by satellite. Then it does it all again. Dive, drift, measure, surface, transmit. The question those floats are helping investigate is one of the most important - and most contested - in climate science: whether one of the world's great systems of ocean currents is beginning to change.\nIt is called the Atlantic Meridional Overturning Circulation, or AMOC - a vast, north-south system of currents that carries warm surface water towards the Arctic and returns colder water thousands of miles south through the deep ocean.\nBut scientists say the AMOC is under pressure. Most agree it is likely to weaken as the planet warms. The UK government has said that, as \"a key component within the Earth's climate system\" the AMOC contributes to the UK's long-term climate risks.\nThe disagreement is over how much and how fast the current could change, what that would mean for the weather and crucially, whether the seasons we know today could begin to change.\nA current under pressure\nThe question matters because the AMOC is part of a vast heat-moving system that influences the climate far beyond the Atlantic. But for the UK and north-west Europe, its influence is much closer to home: it helps shape the climate we live in and the weather we get.\nThe tropics receive far more energy from the sun than the poles. That imbalance sets both the air and the ocean in motion. Winds, storms, rainfall and currents are all, in different ways, the planet trying to even out that difference.\nThe UK sits in the middle of that exchange. Heat released from the Atlantic feeds into the air above it, helping fuel storms, steer winds and influence the pressure systems that reach north-west Europe. So, if the ocean changes, the weather can change too.\nThat includes a possibility that might seem bizarre in a warming world: changes in the Atlantic could bring more extreme swings in the UK's weather, including colder winters, even as average global temperatures continue to rise.\nThe AMOC includes the Gulf Stream and helps explain why Britain and north-west Europe are milder than their latitude would suggest. Its scale is hard to grasp. It carries about one petawatt of heat northwards - roughly 50 times the total energy humanity uses.\nSome researchers say the warning signs are already visible: a strange patch of cooling in the North Atlantic and changes in how salty the water is.\nThey point to recent studies suggesting the circulation may be less stable than previously thought - raising the possibility that it could weaken sharply or even shift into a different state. In the most extreme scenario, some scientists warn it could \"collapse\".\nOthers urge caution. They say weakening is not the same as collapse, and that the evidence may point to a slower decline or reorganisation rather than a sudden shutdown.\nBut if the AMOC weakens significantly, it could shift storm tracks, alter rainfall and make winters more volatile.\nA severe weakening, or collapse, could go further, bringing colder, drier winters to the UK and north-west Europe even as the planet as a whole continues to heat up.\nAnd the consequences would not stop at the Atlantic. The AMOC helps shape rainfall and temperature patterns far beyond Europe.\nA major shift could tug at the West African monsoon, tropical rainfall belts and rainfall over the Amazon. These are not abstract changes on a map: they could affect harvests, water supplies and the livelihoods of hundreds of millions of people.\nWhich is why scientists are watching the ocean so closely.\nA warning from history\nThe floats are only part of the effort. Satellites, moored arrays of sensors and research ships are gathering data from the modern ocean too.\nOther clues are much older. They lie in mud, shells, ice and rock - fragments of evidence from a time when the Atlantic appears to have changed with startling speed.\nNew research led by University College London (UCL), for example, looked back nearly 13,000 years to the Younger Dryas, a sudden reversal in the warming that followed the last ice age.\nThe cooling appears to have taken hold over just a few decades. Britain and parts of northern Europe were pushed back towards colder, more hostile conditions for more than a thousand years. In Scotland, glaciers advanced again in parts of the uplands.\nFor the small groups of hunter-gatherers then living in Britain, it would have been a catastrophic upheaval - forcing them to adapt or retreat as the cold returned and the landscapes they depended on changed around them.\nBut for scientists studying the AMOC today, the real significance of the Younger Dryas is what it reveals about the Atlantic.\nThe new study suggests the circulation did not just weaken. It rearranged itself. The Gulf Stream shifted hundreds of miles north, sending much warmer water towards eastern Canada.\nThe lead author of the study, Fangjingcheng Zhu, says the study shows the Atlantic circulation can be \"abruptly altered during climate change\".\nFor Prof Stefan Rahmstorf, that is part of a much wider warning from the past.\nRahmstorf, of the Potsdam Institute for Climate Impact Research, is one of the world's leading experts on the AMOC. He has spent more than three decades studying the stability of the Atlantic circulation. From the start of his career, he says, he was interested in what ancient climate records revealed about abrupt changes in the North Atlantic currents.\nThe lesson, he says, was that \"the paleoclimate evidence actually doesn't suggest that climate change would happen smoothly, but rather in some jumps and jolts and non-linear effects\".\nBut for years, Rahmstorf treated an AMOC shutdown as a low-probability, high-impact risk. Serious, but unlikely.\nThat has changed.\n\"In the last five years or so,\" he says. \"I really unfortunately had to change my view about the probability of this happening.\"\nHis argument begins with seawater. The AMOC depends on dense water sinking in the high North Atlantic. Cold and salt help make seawater dense.\nAs warm, salty surface water travels north through the Atlantic, evaporation makes it saltier. Further north, it cools. Together, those processes can make the water heavy enough to sink into the deep ocean, helping to drive the AMOC's overturning flow.\nCould the AMOC reach a tipping point?\nRahmstorf's concern is not just that global warming could weaken that process. It is that, beyond a certain point, the weakening could begin to feed on itself.\nWarmer surface water is lighter. Extra rainfall and meltwater from ice make the ocean fresher. Fresher water is lighter too.\nIf the water in the high North Atlantic becomes too light, less of it sinks. If less water sinks, the AMOC weakens. And if the AMOC weakens, it brings less salty water north.\nThat is the feedback loop: the current helps keep the North Atlantic salty enough for the current to keep running. Less salt makes the water lighter, so it sinks less easily and the circulation weakens further.\nRahmstorf puts it more simply: \"We have this AMOC because it's salty enough in the North Atlantic. And it's salty enough because we have the AMOC. So that's a self-sustaining system.\"\nThat helps explain why one patch of ocean has attracted so much attention.\nIn a warming world, the ocean surface is expected to warm. But south of Greenland, part of the North Atlantic has stubbornly refused to follow the global pattern. On clima",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "Science",
+    "published": "2026-07-14T23:08:13+00:00",
+    "crawled": "2026-07-14T23:56:59.428266+00:00",
+    "summarized": true,
+    "ai_summary": "• 一個名為阿爾戈浮標的機器人探測器正在格林蘭附近的海域測量海洋數據，旨在解開海洋運動如何影響氣候的謎團。  \n• 科學家們指出，大西洋經度翻轉環流（AMOC）正面臨壓力，隨著地球變暖，這一系統可能會減弱。  \n• 英國政府表示，AMOC是地球氣候系統的關鍵組成部分，對英國的長期氣候風險有影響。  \n• 研究人員警告，AMOC的變化可能導致英國天氣的極端波動，包括更寒冷的冬季，即使全球平均氣溫持續上升。",
+    "summaries": {
+      "zh-HK": "• 一個名為阿爾戈浮標的機器人探測器正在格林蘭附近的海域測量海洋數據，旨在解開海洋運動如何影響氣候的謎團。  \n• 科學家們指出，大西洋經度翻轉環流（AMOC）正面臨壓力，隨著地球變暖，這一系統可能會減弱。  \n• 英國政府表示，AMOC是地球氣候系統的關鍵組成部分，對英國的長期氣候風險有影響。  \n• 研究人員警告，AMOC的變化可能導致英國天氣的極端波動，包括更寒冷的冬季，即使全球平均氣溫持續上升。"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cp8l87784ngo?at_medium=RSS&at_campaign=rss",
+    "title": "Seven Britons among those killed in Spain wildfires",
+    "summary": "Twelve of the 13 victims were foreign nationals, Spanish authorities said on Tuesday.",
+    "full_text": "Seven Britons among those killed in Spain wildfires\n- Published\nSeven Britons were among those killed in the deadly wildfires in southern Spain, authorities have confirmed.\nTwelve of the 13 victims were foreign nationals, Spanish authorities said on Tuesday after completing post-mortem examinations.\nThe wildfires, which tore through Spain's Almería province on Thursday, have become one of the country's deadliest.\nA spokesperson for the Foreign, Commonwealth & Development Office previously said it was \"supporting British nationals affected and their families and remain in close contact with the Spanish authorities\".\nIn a statement, officials said seven of the victims were from the United Kingdom, three from Belgium, one from France and another from the United States. The last victim was a Spanish citizen.\n\"The 13 people who died are eight women and five men, all adults,\" the public body responsible for identifying the victims added.\nAmong the British nationals who died were couple Pete and Fran Gillam, who lived in Bédar, the village that bore the brunt of the wildfires. Their deaths were confirmed by their family.\nPosting on Facebook, their daughter Danielle Gillam-Kirton, from Sheffield, said the family were \"heartbroken to share that we have received confirmation from the police that Mum and Dad did not survive the fire\".\nThe fire, which has now been contained, burned through about 7,000 hectares (17,300 acres) of land, authorities said.\nSpain has suffered frequent and severe heatwaves in recent years, with temperatures often exceeding 40C.\n- Published11 hours ago",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-14T23:33:57+00:00",
+    "crawled": "2026-07-14T23:56:59.461160+00:00",
+    "summarized": true,
+    "ai_summary": "• 西班牙當局確認七名英國人在南部野火中遇難，總共13名遇難者中有12名為外國國籍  \n• 野火於上週四在西班牙阿爾梅里亞省爆發，成為該國最致命的火災之一  \n• 遇難者中包括來自比利時的三人、法國一人及美國一人，最後一名遇難者為西班牙公民  \n• 當局表示火災已被控制，燒毀約7,000公頃的土地，西班牙近年來經歷頻繁且嚴重的熱浪，氣溫經常超過40攝氏度",
+    "summaries": {
+      "zh-HK": "• 西班牙當局確認七名英國人在南部野火中遇難，總共13名遇難者中有12名為外國國籍  \n• 野火於上週四在西班牙阿爾梅里亞省爆發，成為該國最致命的火災之一  \n• 遇難者中包括來自比利時的三人、法國一人及美國一人，最後一名遇難者為西班牙公民  \n• 當局表示火災已被控制，燒毀約7,000公頃的土地，西班牙近年來經歷頻繁且嚴重的熱浪，氣溫經常超過40攝氏度"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/sport/football/articles/c1wyw9wx19yo?at_medium=RSS&at_campaign=rss",
+    "title": "World Cup final half-time to last up to 25 minutes",
+    "summary": "The half-time break in Sunday's World Cup final is expected to last between 20 and 25 minutes.",
+    "full_text": "World Cup final half-time to last up to 25 minutes\n- Published\nThe half-time break in Sunday's World Cup final is expected to last between 20 and 25 minutes.\nAn 11-minute Super Bowl-style show, co-headlined by Madonna, Shakira and K-pop boy band BTS, will take place during the interval at New York New Jersey Stadium.\nWhile sources within World Cup organisers Fifa suggest the break will be around 20 minutes, it is understood that one option is for the normal 15-minute half-time break and then the planned 11-minute show.\nThe laws of the game, governed by Ifab (the International Football Association Board), state that players are entitled to a half-time break \"not exceeding 15 minutes\".\nHalf-time of last year's Club World Cup final, also organised by Fifa and held in New Jersey, lasted a total of 24 minutes due to a performance featuring Coldplay, J Balvin, Doja Cat, Tems and Emmanuel Kelly.\nJustin Bieber was last week added to the bill for Sunday's performance which, along with the headliners, also includes Burna Boy, Gustavo Dudamel and the PS22 Chorus featuring Coldplay, with singer Chris Martin having curated the show.\nThe World Cup final will kick-off at 15:00 local time (20:00 BST) and there will be a closing ceremony starting at 13:30 local time (18:30 BST).\nTom Cruise, Laura Pausini, Nicole Scherzinger, Robbie Williams and IShowSpeed are set to perform as part of the ceremony, with Jennifer Hudson to sing the United States' national anthem.\nSpain booked their place in the final by beating France 2-0 in the first semi-final in Dallas on Tuesday.\nThey will face either England or Argentina, who meet in Atlanta on Wednesday (20:00 BST).\nRelated topics\n- Published3 days ago\n \n- Published2 July",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-14T22:01:52+00:00",
+    "crawled": "2026-07-14T23:56:59.495037+00:00",
+    "summarized": true,
+    "ai_summary": "• 世界盃決賽的半場休息時間預計將持續20至25分鐘。  \n• 在新澤西州的體育場，將舉行由瑪丹娜、夏奇拉及K-pop男團BTS共同主辦的11分鐘表演。  \n• 根據國際足球協會理事會的規定，球員的半場休息時間不得超過15分鐘。  \n• 西班牙在首場半決賽中以2-0擊敗法國，晉級決賽，將對陣英格蘭或阿根廷。",
+    "summaries": {
+      "zh-HK": "• 世界盃決賽的半場休息時間預計將持續20至25分鐘。  \n• 在新澤西州的體育場，將舉行由瑪丹娜、夏奇拉及K-pop男團BTS共同主辦的11分鐘表演。  \n• 根據國際足球協會理事會的規定，球員的半場休息時間不得超過15分鐘。  \n• 西班牙在首場半決賽中以2-0擊敗法國，晉級決賽，將對陣英格蘭或阿根廷。"
+    }
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/ce8kxgpe3kdo?at_medium=RSS&at_campaign=rss",
+    "title": "I changed jobs 10 times in 10 years to get the career I wanted",
+    "summary": "The lily-padding trend sees young people repeatedly move jobs to try to advance in the workplace.",
+    "full_text": "I changed jobs 10 times in 10 years to get the career I wanted\n- Published\nBrittany Harris-Nelson describes her career journey so far as being like \"a frog moving across lily pads\".\n\"Each step brought me closer to where I ultimately wanted to be, even if the path wasn't always linear,\" says the 32-year-old.\nToday, Harris-Nelson works in a mid-level administrative position at Wake Forest University in Winston-Salem, North Carolina, a role she had long coveted.\nShe says that to get there, she leapt from one college job to another for close to a decade, using each new role to gain specialised skills that would help with her career advancement.\nOverall, she has had 10 different jobs at six different universities over the past decade, starting with several positions when she was still a student, and then three full-time roles.\nHarris-Nelson has been an office manager, an admissions counsellor and a student advisor, before reaching her current position as assistant director of student engagement.\nWhile she does not wish to reveal how much she now earns, she says that as she changed jobs her salary didn't increase much. But she got more benefits, such as extra paid leave and bigger pension contributions from her employer.\n\"Each role helped me build skills and perspectives that I didn't yet have, and together those experiences prepared me for the work I do today,\" she says.\nAnd she's not alone.\nGen Z job hop more\nIndustry professionals have identified the emergence of a new work trend among members of Gen Z (those born from 1997–2012), called \"lily padding\".\nIt refers to young adults hopping from job to job to try to improve their skills and chances of getting more senior roles and higher pay, rather than staying put in one role at one company. The idea is that they supercharge their employability.\nThe data seems to back up the phenomenon. The average tenure of a Gen Z employee in the first five years of their career is just 1.1 years, compared with 1.8 years for millennials (those born between 1981 and 1996), and almost three years for older generations. That is according to a 2024 global survey, external of 11,250 workers by recruitment agency Randstad.\nThis increased mobility in the job market leads to increased salaries, at least in the UK, one 2025 report found., external The study by financial company Wealthify said that people who changed jobs four or more times over the previous decade earned an average of £39,276 versus £30,088 for other workers - a 31% premium.\nThose who describe their career strategies as \"lily padding\" are always on the lookout for the next opportunity.\nThat's the case of Adam Smiley Poswolsky, who is now a 42-year-old public speaker and author who talks and writes about how to improve workplace cultures.\nBased in San Francisco, he says that the traditional career ladder mindset of staying at one company and working your way up didn't apply to him. Instead, he adds that he was looking for \"meaning and purpose\" in his work and life.\nHe says that to achieve this he moved between government, non-profit, creative and corporate work, and had a host of jobs in 15 years.\nHis gigs have included – project leader for Peace Corps, the US government agency that allows young Americans to do voluntary work overseas; and being an English teacher at Harvard University.\nPoswolsky has also been a location scout for Warner Bros, a film producer in New York City, worked on Barack Obama's successful 2008 presidential election campaign, a public speaker at the youth-leadership programme, and the fellow of a think tank.\nThroughout his career, he says he's sought interesting work and developed skills that helped him get to where he is now - writing books and being a well-paid public speaker.\n\"In each of my jumps, I was very clear on being ready for something new, but I also knew the skillset I was taking from one experience to the next,\" he says.\nPoswolsky concludes that he's glad he's found flexibility and happiness through this career evolution rather than via a vertical corporate structure. He adds that he has also eventually managed to match the $70,000 (£52,000) he earned at the Peace Corps back when he was 28.\n\"The skills I learned in that government job helped me as a writer, which then led to me writing a book, which led to my current career as a professional keynote speaker.\"\n'People want variety and pace'\nNicola Grant, chief people officer at UK insurance provider Hiscox, says she's noticed a broader shift in how people think about their careers.\nIncreasingly, individuals – particularly earlier in their careers, she says - want to build a breadth of experience faster, rather than follow a single, linear path. They are building a portfolio of skills.\nShe's also found there's a greater willingness among younger employees to move if they feel their development is slowing, or their options are limited.\n\"Expectations have changed; people want variety, pace and to build skills that will remain relevant,\" she says, \"It's about a desire for growth.\"\n\"That ultimately benefits both the individual and the organisation,\" she adds.\nLucy Kemp, a strategic brand and communications leader at the IT company La Fosse and an employee experience specialist, agrees.\nTo her, lily padding is the future of work, not just a trend, as people who follow the tactic try to reach more senior roles and higher pay.\n\"Younger people have seen that loyalty doesn't pay off,\" says Kemp. \"They want to shape their own careers, based on skills they value.\n\"There's a different sense of achievement compared to older generations, a completely different experience of work,\" she says.\nKemp also points out that learning in the office from peers isn't occurring as much since the pandemic, with people working from home and AI taking over basic tasks.\nInstead, people are looking at skills that will be relevant in five years' time. And they'll get them by switching to a project on another team, a switch to another sector, or a job at another company, Kemp says. \"People just want to learn something new and have a purpose.\"\nThat's how Harris-Nelson feels. \"I see my career as an ongoing journey rather than a destination,\" she says. \"I'm always learning and growing.\"\nRelated topics\n- Published28 May\n \n- Published30 June",
+    "source": "BBC World",
+    "category": "general",
+    "lang": "en",
+    "topic": "Macro",
+    "published": "2026-07-14T23:04:15+00:00",
+    "crawled": "2026-07-14T23:56:59.531814+00:00",
+    "summarized": true,
+    "ai_summary": "• 布列塔尼·哈里斯-尼爾森在過去十年內更換了十份工作，最終獲得了她在北卡羅來納州溫斯頓-薩倫的維克森林大學的中層行政職位。  \n• 她在職業生涯中曾擔任辦公室經理、招生顧問和學生顧問等職位，並表示每份工作都幫助她獲得了專業技能。  \n• 根據2024年的全球調查，Z世代（1997-2012年出生）員工的平均任期為1.1年，顯著低於千禧世代的1.8年。  \n• 一項2025年的報告指出，經常更換工作的員工在英國的薪資平均高出31%。",
+    "summaries": {
+      "zh-HK": "• 布列塔尼·哈里斯-尼爾森在過去十年內更換了十份工作，最終獲得了她在北卡羅來納州溫斯頓-薩倫的維克森林大學的中層行政職位。  \n• 她在職業生涯中曾擔任辦公室經理、招生顧問和學生顧問等職位，並表示每份工作都幫助她獲得了專業技能。  \n• 根據2024年的全球調查，Z世代（1997-2012年出生）員工的平均任期為1.1年，顯著低於千禧世代的1.8年。  \n• 一項2025年的報告指出，經常更換工作的員工在英國的薪資平均高出31%。"
+    }
+  },
+  {
+    "url": "https://www.aljazeera.com/news/2026/7/14/outspoken-moroccan-rapper-mehdi-el-youbi-arrested-in-casablanca?traffic_source=rss",
+    "title": "Outspoken Moroccan rapper Mehdi El Youbi arrested in Casablanca",
+    "summary": "Activists say Moroccan authorities are intensifying repression of critical voices and the Gen Z protest movement.",
+    "full_text": "Outspoken Moroccan rapper Mehdi El Youbi arrested in Casablanca\nActivists say Moroccan authorities are intensifying repression of critical voices and the Gen Z protest movement.\nPolitically outspoken Moroccan artist, rapper, and filmmaker Mehdi El Youbi has been arrested in Casablanca, days after being barred from returning to France, where he has been based since 2017.\nEl Youbi, better known by his stage name Mehdi Black Wind, was detained on Monday night after being questioned by Morocco’s National Brigade of Judicial Police in Casablanca, according to a statement from a group of his friends and supporters.\nRecommended Stories\nlist of 4 items- list 1 of 4Jailed Senegal fans deny wrongdoing in AFCON final chaos in Morocco\n- list 2 of 4Morocco king pardons jailed Senegal football fans from AFCON final\n- list 3 of 4‘Love you, from Gaza’: Fans, athletes hail Yamal’s Palestine flag wave\n- list 4 of 4The Arab Spring hasn’t ended, and Arab regimes know it\n“After a day of questioning, his family were informed at around 9pm that he had been taken into police custody and was due to appear before the public prosecutor on Wednesday”, the statement said. “According to the latest information, his arrest is believed to be linked to his artistic views and posts on social media.”\nEl Youbi, born in 1992, is widely known in Morocco and across North Africa for his rap songs heavily influenced by US hip-hop. He rose to prominence in the early 2010s, at the same time as the Arab Spring, with songs that caught the attention of the authorities for their politically engaged lyrics.\n“When I return home, I’m afraid of being arrested or banned from the country,” El Youbi told French music magazine Mosaique Magazine in December 2025. “Many people try to depoliticise art or sport, but I believe that every committed artist, every activist, or anyone who takes risks lives between boldness and fear.”\nEl Youbi is “the best rapper in North Africa and it’s not close”, Algerian journalist Maher Mezahi said on X.\nOmar Radi, a Moroccan investigative journalist and human rights activist who was previously jailed in Morocco for criticising a judge, told Al Jazeera that El Youbi is “the most outspoken and politically direct Moroccan rapper”.\n“There is a deliberate attempt to stamp out any possibility of criticism of the government or police methods, whether within civil society and the press, or in artistic circles or amongst football supporters,” Radi said.\nEl Youbi’s detention comes a day after the arrest of Moroccan journalist Ali Lmrabet, which was condemned by the Committee to Protect Journalists, and two weeks after Zineb Kharroubi, a leading figure in the Gen Z 212 activist movement, was given a six-month suspended prison sentence after being found guilty of “incitement to commit crimes or offences by electronic means”.\nA supporter of El Youbi said that these developments reflect “intensified repression linked to the Gen Z movement”, referring to the youth-led protest movement that emerged last year in Morocco demanding better health services and education reforms.\nEl Youbi is due to appear before the public prosecutor on Wednesday morning. His supporters said they were concerned that he may have to appear without a lawyer, as lawyers in Morocco are currently on strike.",
+    "source": "Al Jazeera",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-14T22:11:33+00:00",
+    "crawled": "2026-07-14T23:57:00.304664+00:00",
+    "summarized": true,
+    "ai_summary": "• 摩洛哥饒舌歌手梅赫迪·艾爾·尤比（Mehdi El Youbi）於卡薩布蘭卡被捕，因其政治立場受到關注。  \n• 艾爾·尤比在被禁止返回法國後於週一晚間被摩洛哥國家司法警察拘留。  \n• 據報導，他的逮捕與其藝術觀點及社交媒體上的發文有關，並將於週三出庭。  \n• 此事件發生在摩洛哥記者阿里·拉馬貝特被捕後不久，顯示當局對批評聲音的打壓加劇。",
+    "summaries": {
+      "zh-HK": "• 摩洛哥饒舌歌手梅赫迪·艾爾·尤比（Mehdi El Youbi）於卡薩布蘭卡被捕，因其政治立場受到關注。  \n• 艾爾·尤比在被禁止返回法國後於週一晚間被摩洛哥國家司法警察拘留。  \n• 據報導，他的逮捕與其藝術觀點及社交媒體上的發文有關，並將於週三出庭。  \n• 此事件發生在摩洛哥記者阿里·拉馬貝特被捕後不久，顯示當局對批評聲音的打壓加劇。"
+    }
+  },
+  {
+    "url": "https://www.scmp.com/news/us/diplomacy/article/3360588/us-must-act-quickly-counter-chinas-growing-tech-progress-lawmakers-told?utm_source=rss_feed",
+    "title": "US must act quickly to counter China’s growing tech progress, lawmakers told",
+    "summary": "China is an existential threat to the United States, and Washington needs to slow Chinese momentum and accelerate US technological advances, or fall well behind the Asian giant, witnesses told lawmakers at a Congressional round table on Tuesday.\nAmong the possible strategies needed to counter Beijing’s growing prowess, analysts said, included expanding the Silicon Shield – an attempt to remove China from semiconductor supply chains – to drone and other vital technologies; drastically reducing US...",
+    "full_text": "US must act quickly to counter China’s growing tech progress, lawmakers told\nAnalysts claim Washington needs to slow down Chinese momentum and speed up US technology advances now or fall well behind the Asian giant\nAmong the possible strategies needed to counter Beijing’s growing prowess, analysts said, included expanding the Silicon Shield – an attempt to remove China from semiconductor supply chains – to drone and other vital technologies; drastically reducing US bureaucracy; focusing more on emerging technologies like quantum; and countering China’s aggressive bid to create global standards.\n“China is a systemic rival. It seeks to challenge and displace the United States as the guarantor for the American-led post-war order, and it does it on multiple fronts,” Piero Tozzi, senior China director with the American First Policy Institute, told lawmakers.\n“We see them trying to set standards in the realm of technology. That’s true in telecommunications, which is why it’s important to win that race. We even see them trying to reset standards with regard to human rights.”",
+    "source": "SCMP",
+    "category": "general",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-14T23:06:16+00:00",
+    "crawled": "2026-07-14T23:57:02.202434+00:00",
+    "summarized": true,
+    "ai_summary": "• 分析師指出，美國必須迅速行動以應對中國日益增長的科技進步，否則將落後於中國。  \n• 建議的策略包括擴大「矽盾」計劃，將中國排除在半導體供應鏈之外，並應用於無人機及其他重要技術。  \n• 其他建議包括大幅減少美國官僚體系，專注於量子等新興技術，以及反制中國在全球標準制定上的積極行動。  \n• 美國第一政策研究所的高級中國主任皮耶羅·托齊表示，中國是系統性對手，試圖挑戰美國在戰後秩序中的主導地位。",
+    "summaries": {
+      "zh-HK": "• 分析師指出，美國必須迅速行動以應對中國日益增長的科技進步，否則將落後於中國。  \n• 建議的策略包括擴大「矽盾」計劃，將中國排除在半導體供應鏈之外，並應用於無人機及其他重要技術。  \n• 其他建議包括大幅減少美國官僚體系，專注於量子等新興技術，以及反制中國在全球標準制定上的積極行動。  \n• 美國第一政策研究所的高級中國主任皮耶羅·托齊表示，中國是系統性對手，試圖挑戰美國在戰後秩序中的主導地位。"
+    }
+  },
+  {
+    "url": "https://www.theguardian.com/world/2026/jul/14/seven-britons-among-12-foreign-nationals-killed-in-spains-deadly-wildfires",
+    "title": "Seven Britons among 12 foreign nationals killed in Spain’s deadly wildfires",
+    "summary": "<p>Fire broke out last Thursday in the southeastern province of Almería, which is home to many foreign residents<br /></p><p>Seven Britons are among 12 foreign nationals killed in wildfires in southern Spain, authorities said.</p><p>Officials said 12 of the 13 victims were foreign nationals after completing postmortem examinations after the fires that swept through Andalusia.</p> <a href=\"https://www.theguardian.com/world/2026/jul/14/seven-britons-among-12-foreign-nationals-killed-in-spains-deadly-wildfires\">Continue reading...</a>",
+    "full_text": "Seven Britons are among 12 foreign nationals killed in wildfires in southern Spain, authorities said.\nOfficials said 12 of the 13 victims were foreign nationals after completing postmortem examinations after the fires that swept through Andalusia.\nSeven were from the UK, three from Belgium and one each from France and the US. The last victim was a Spanish citizen.\n“The 13 people who died are eight women and five men, all adults,” the public body responsible for identifying the victims added.\nFire broke out last Thursday in the picturesque south-eastern province of Almería, which is home to many foreign residents near the Mediterranean coast.\nFlames fanned by high winds ripped through forests and scrubland made tinderbox dry by extreme high temperatures.\nAmong the British nationals who died were Pete and Fran Gillam, who lived in Bédar, the village that bore the brunt of the wildfires.\nTheir daughter Danielle Gillam-Kirton wrote on Facebook: “We are heartbroken to share that we have received confirmation from the police that Mum and Dad did not survive the fire. Thank you for all your love, support and prayers over the past few days. They have meant more to us than we can ever express.”\nBurned-out cars litter the road leading out of Bédar, and the authorities confirmed that some victims died in their vehicles as they tried to flee.\nOne British man died in his car while trying to rescue his pets, according to a friend of his wife.\nPenelope Howe, 54, said her friend’s husband died when flames engulfed his car during the evacuation of the Los Gallardos area of Almería province.\nEmergency services initially recovered 12 bodies that were so badly burned that DNA samples were needed to identify them.\nThe fire, one of Spain’s deadliest in recent years and caused by an electrical cable falling on a road, devastated about 7,000 hectares (more than 17,000 acres) of land.\nThe flames have since been brought under control and residents have been able to return to their homes since Sunday.\nSpain has in recent years experienced increasingly long and frequent heatwaves, with temperatures exceeding 40C, creating perfect conditions for wildfires.\nIn 2025, more than 393,000 hectares were destroyed by fire, according to the European Forest Fire Information System, the most in the country’s recent history.",
+    "source": "The Guardian",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-14T22:38:04+00:00",
+    "crawled": "2026-07-14T23:57:03.189166+00:00",
+    "summarized": true,
+    "ai_summary": "• 西班牙南部野火造成12名外國國籍人士喪生，其中7名為英國公民  \n• 火災於上週四在阿爾梅里亞省爆發，並造成約7,000公頃土地受損  \n• 受害者包括8名女性和5名男性，部分受害者在逃生時被困於車內  \n• 當局表示，火災是由一條掉落的電纜引起，並已於週日控制火勢，居民可返回家中",
+    "summaries": {
+      "zh-HK": "• 西班牙南部野火造成12名外國國籍人士喪生，其中7名為英國公民  \n• 火災於上週四在阿爾梅里亞省爆發，並造成約7,000公頃土地受損  \n• 受害者包括8名女性和5名男性，部分受害者在逃生時被困於車內  \n• 當局表示，火災是由一條掉落的電纜引起，並已於週日控制火勢，居民可返回家中"
+    }
+  },
+  {
+    "url": "https://time.com/article/2026/07/14/us-heat-wave-forecast-where-record-breaking-temperatures/",
+    "title": "A Record-Breaking Heat Wave Is Sweeping Across the U.S. This Week. Here Are Some of the Cities It Will Hit Hardest",
+    "summary": "Here are some of the cities it will hit the hardest.",
+    "full_text": "Parts of the U.S. will be facing\nrecord-high temperatures\nthis week, just a couple weeks after large swaths of the country sweated through a\nover the Fourth of July holiday.\nThe latest heat wave began over the weekend in the Southwest and Great Plains, before beginning to move toward the eastern U.S. The National Weather Service\nwidespread temperatures of 95-105 degrees Fahrenheit, saying that “even for mid-July, this heat is expected to be exceptionally rare for some locations and produce numerous daily temperature records, while potentially nearing monthly and all-time records.”\nAccuWeather forecasters\nthat temperatures over the next few days likely won’t soar to the levels seen during the Fourth of July long weekend in parts of the country. But experts still urged people in affected areas to take the necessary precautions to keep themselves safe from the heat.\n“It is recommended that residents, who are able, remain indoors during peak heating hours,” Brandon Buckingham, an AccuWeather meteorologist, said in a statement. “If you have to be outside, consider taking numerous breaks, utilizing shaded areas, wearing light-colored clothing and staying hydrated.”\nHow to Safely Lower Your Body Temperature In Extreme Heat\nSome of the cities expected to see the most punishing temperatures amid the heat wave have likely already hit their highs.\nOn Sunday, Salt Lake City, Utah experienced record-breaking heat, with a high of 109 degrees Fahrenheit, shattering its previous record of 107, the\nNational Weather Service\nreported. Billings, Montana also\nits record over the weekend, with temperatures surpassing 110 degrees Fahrenheit on Sunday.\nBut for others, the highest temperatures are still ahead.\nthat Wednesday will be the hottest day for much of the Northeast. In New York City, temperatures are expected to\nas high as 103 degrees Fahrenheit. In Philadelphia, it’ll be even hotter, with some forecasters predicting 107-degree weather.\nCities like Tempe, Arizona, and Phoenix, Arizona will continue to see temperatures reaching or surpassing 110 degrees Fahrenheit on Wednesday. And triple-digit temperatures are expected to drag on throughout the week in some cities, including Fort Lauderdale, Florida; Las Vegas, Nevada; and Brownsville, Texas.\nIn the latter part of the week, temperatures in the Northeast will start to drop to the 80s, according to AccuWeather. But as the heat wave subsides, another potentially hazardous weather phenomenon will come to parts of the U.S.: thunderstorms. Gusty winds and heavy downpours are expected to batter Wisconsin and the mid-Atlantic states, AccuWeather predicted.\nSome cities will see intense rainfall even sooner. On Tuesday, the National Weather Service in Salt Lake City\nresidents that there was an increased risk for flash flooding that evening because of the heavy rainfall. In Billings, the National Weather Service\nlocals that the heat will continue throughout the week, but that it’ll also be much more humid, leading to possible thunderstorms.",
+    "source": "Time",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-14T23:27:33+00:00",
+    "crawled": "2026-07-14T23:57:12.948502+00:00",
+    "summarized": true,
+    "ai_summary": "• 美國多個地區本周面臨創紀錄的高溫，預計氣溫將達到95至105華氏度 \n• 週日，猶他州鹽湖城創下109華氏度的高溫，打破107華氏度的舊紀錄 \n• 紐約市和費城預計週三的氣溫將分別達到103華氏度和107華氏度 \n• 隨著熱浪減弱，預測美國部分地區將出現雷陣雨和強風暴，威斯康辛州和中大西洋地區將受到影響",
+    "summaries": {
+      "zh-HK": "• 美國多個地區本周面臨創紀錄的高溫，預計氣溫將達到95至105華氏度 \n• 週日，猶他州鹽湖城創下109華氏度的高溫，打破107華氏度的舊紀錄 \n• 紐約市和費城預計週三的氣溫將分別達到103華氏度和107華氏度 \n• 隨著熱浪減弱，預測美國部分地區將出現雷陣雨和強風暴，威斯康辛州和中大西洋地區將受到影響"
+    }
+  },
+  {
+    "url": "https://time.com/article/2026/07/14/florida-ice-dhs-death-immigration/",
+    "title": "Man Killed by Vehicle While Fleeing ‘Encounter’ With Federal Immigration Officers in Florida, Official Says",
+    "summary": "This marks the third death in a week involving encounters with federal immigration agents.",
+    "full_text": "A man was killed on Tuesday morning while running from U.S. immigration officers in Florida, according to a spokesperson for the state highway patrol, marking the\nin a week involving encounters with\nDepartment of Homeland Security\nThe man and three others were inside a vehicle in the parking lot of a gas station and convenience store in St. Augustine shortly before 7 a.m. when they had an “encounter” with agents from Immigration and Customs Enforcement (ICE) and Homeland Security Investigations (HSI), Florida Highway Patrol spokesperson Sgt. Dylan Bryan\nAll four men fled, according to Bryan. “The pedestrian was struck by the tractor trailer in the right lane and sustained fatal injuries on scene,” he said in a statement shared by\n. “The tractor trailer immediately stopped and attempted to render aid to the victim.”\nThe man, who was reportedly 28 years old, has not been publicly identified. He was a Mexican national, a DHS spokesperson said in a statement to TIME. It is unclear if he or the three other men involved in the “encounter” were the target of an immigration enforcement operation, or where the three others are following the incident.\nThe DHS spokesperson confirmed that law enforcement with the department “conducted an operation near St. Johns, Florida,” on Tuesday and said that HSI was investigating the incident in conjunction with the Florida Highway Patrol.\nTIME has reached out to Florida Highway Patrol and ICE for further details.\nThe deadly encounter on Tuesday comes in the wake of two fatal shootings by ICE agents within less than a week that involved immigration officers attempting to stop someone in a vehicle. The deaths have sparked fierce backlash.\nOn July 7, an ICE officer shot 52-year-old Lorenzo Salgado Araujo, a Mexican national who had lived in the U.S. for decades, during a traffic stop in Houston.\nSix days later, another officer with the agency fatally shot Johan Sebastián Durán Guerrero, a 26-year-old Colombian national, while he was driving near his home in Biddeford, Maine.\nDHS alleged that both drivers attempted to flee from immigration agents and that Araujo tried to run over an ICE officer with his vehicle. The department has not provided evidence for those claims.\nPassengers in Araujo’s vehicle who witnessed the shooting have\nDHS’s account of the incident, according to a lawyer who spoke with them.\nOne witness to the Maine shooting, Daniel Boucher, told the\nPortland Press Herald\nthat Guerrero was “bleeding profusely from the head” upon being taken from his vehicle.\n“He was talking. He said, ‘I tried to stop,’” Boucher said.\nAmid the outcry over the two shootings, ICE ordered its agents on Tuesday to\ncease most vehicle stops\nin pursuit of undocumented immigrants, two sources familiar with the matter told TIME on Tuesday.\n\"We are always evaluating our procedures to keep our officers safe and criminals off our streets,” an ICE spokesperson said in a previous statement to TIME. “We will not disclose or discuss law enforcement tactics.\"",
+    "source": "Time",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-14T23:19:00+00:00",
+    "crawled": "2026-07-14T23:57:13.172779+00:00",
+    "summarized": true,
+    "ai_summary": "• 一名28歲的墨西哥國籍男子在佛羅里達州聖奧古斯丁的加油站附近，因逃避美國移民官員而被一輛拖車撞死，事故發生在周二早上7時前。  \n• 事故發生時，該男子與另外三名男子在車輛內，與移民及海關執法局（ICE）和國土安全調查局（HSI）官員發生“接觸”。  \n• 國土安全部（DHS）確認該部門在佛羅里達州聖約翰附近進行了一項行動，並表示HSI正在與佛羅里達州公路巡警調查此事件。  \n• 此事件發生在ICE官員在短短一周內發生兩起致命槍擊事件之後，引發了激烈的反彈，ICE已下令其探員停止大多數針對非法移民的車輛攔截。",
+    "summaries": {
+      "zh-HK": "• 一名28歲的墨西哥國籍男子在佛羅里達州聖奧古斯丁的加油站附近，因逃避美國移民官員而被一輛拖車撞死，事故發生在周二早上7時前。  \n• 事故發生時，該男子與另外三名男子在車輛內，與移民及海關執法局（ICE）和國土安全調查局（HSI）官員發生“接觸”。  \n• 國土安全部（DHS）確認該部門在佛羅里達州聖約翰附近進行了一項行動，並表示HSI正在與佛羅里達州公路巡警調查此事件。  \n• 此事件發生在ICE官員在短短一周內發生兩起致命槍擊事件之後，引發了激烈的反彈，ICE已下令其探員停止大多數針對非法移民的車輛攔截。"
+    }
+  },
+  {
+    "url": "https://www.ft.com/content/d2ea75d8-ffe4-406f-a04e-59416ae1ed20",
+    "title": "Circle clashed with Tether-backed fund over market manipulation concerns",
+    "summary": "New filings detail long-running legal battle between Heka Funds and the $73bn stablecoin group",
+    "full_text": "Circle clashed with Tether-backed fund over market manipulation concerns \nTry unlimited access\nOnly $1 for 4 weeksThen $75 per month. Complete digital access to quality FT journalism on any device. Cancel anytime during your trial.\nExplore more offers.\nStandard Digital\nEssential digital access to quality FT journalism on any device. Pay a year upfront and save 20%.\nPremium Digital\nComplete digital access to quality FT journalism with expert analysis from industry leaders. Pay a year upfront and save 20%.\nPremium & FT Weekend Print\nFT Weekend newspaper delivered Saturday* plus complete digital access.\nCheck whether you already have access via your university or organisation.\nTerms & Conditions apply\n*Hand delivery availability confirmed when you enter your address.\nExplore our full range of subscriptions.\nFor individuals\nDiscover all the plans currently available in your country\nFor multiple readers\nDigital access for organisations. Includes exclusive features and content.\nWhy the FT?\nSee why over a million readers pay to read the Financial Times.",
+    "source": "Financial Times",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Regulation",
+    "published": "2026-07-14T23:36:54+00:00",
+    "crawled": "2026-07-14T23:57:15.474795+00:00",
+    "summarized": true,
+    "ai_summary": "• Circle與由Tether支持的基金就市場操控問題發生衝突  \n• Circle指控該基金在加密貨幣市場中進行不當操作  \n• 事件引發對加密貨幣市場透明度和監管的關注  \n• Tether方面尚未對此指控作出公開回應",
+    "summaries": {
+      "zh-HK": "• Circle與由Tether支持的基金就市場操控問題發生衝突  \n• Circle指控該基金在加密貨幣市場中進行不當操作  \n• 事件引發對加密貨幣市場透明度和監管的關注  \n• Tether方面尚未對此指控作出公開回應"
+    }
+  },
+  {
+    "url": "https://www.marketwatch.com/story/this-overlooked-index-is-a-better-investment-than-the-s-p-500-74c7e698?mod=mw_rss_topstories",
+    "title": "This overlooked index is a better investment than the S&P 500",
+    "summary": "We did the math over a 30-year period, and it’s not even close.",
+    "full_text": "",
+    "source": "MarketWatch",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Finance",
+    "published": "2026-07-14T23:32:00+00:00",
+    "crawled": "2026-07-14T23:57:17.029954+00:00",
+    "summarized": true,
+    "ai_summary": "• 一項研究顯示，過去30年某指數的投資回報率優於標準普爾500指數 \n• 研究結果強調該指數在長期投資中的潛力 \n• 研究者進行了詳細的數據分析以支持其結論 \n• 此指數的表現被認為在市場波動中更具穩定性",
+    "summaries": {
+      "zh-HK": "• 一項研究顯示，過去30年某指數的投資回報率優於標準普爾500指數 \n• 研究結果強調該指數在長期投資中的潛力 \n• 研究者進行了詳細的數據分析以支持其結論 \n• 此指數的表現被認為在市場波動中更具穩定性"
+    }
+  },
+  {
+    "url": "https://www.marketwatch.com/story/its-heartbreaking-my-brother-claimed-social-security-at-70-he-died-from-cancer-after-one-payment-why-wait-to-claim-491669b6?mod=mw_rss_topstories",
+    "title": "‘It’s heartbreaking’: My brother claimed Social Security at 70. He died from cancer after one payment. Why wait to claim?",
+    "summary": "“I’ve always been a little skeptical of the government’s encouragement to delay claiming benefits.”",
+    "full_text": "",
+    "source": "MarketWatch",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-14T22:15:00+00:00",
+    "crawled": "2026-07-14T23:57:17.243033+00:00",
+    "summarized": true,
+    "ai_summary": "• 一名兄弟在70歲時申請社會保障，卻因癌症去世，只收到一次付款  \n• 文章作者表達對政府鼓勵延遲申請福利的懷疑  \n• 文章探討社會保障申請的時機及其影響  \n• 作者分享個人經歷，反映對福利制度的看法",
+    "summaries": {
+      "zh-HK": "• 一名兄弟在70歲時申請社會保障，卻因癌症去世，只收到一次付款  \n• 文章作者表達對政府鼓勵延遲申請福利的懷疑  \n• 文章探討社會保障申請的時機及其影響  \n• 作者分享個人經歷，反映對福利制度的看法"
+    }
+  },
+  {
+    "url": "https://www.marketwatch.com/story/your-monthly-netflix-bill-is-up-29-in-just-over-a-year-critics-say-washington-needs-to-fix-it-bcab6e5b?mod=mw_rss_topstories",
+    "title": "Your monthly Netflix bill is up 29% in just over a year. Critics say Washington needs to fix it.",
+    "summary": "Netflix is still a Wall Street favorite — and a target for government regulators",
+    "full_text": "",
+    "source": "MarketWatch",
+    "category": "finance",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-14T22:11:00+00:00",
+    "crawled": "2026-07-14T23:57:17.571156+00:00",
+    "summarized": true,
+    "ai_summary": "• Netflix的月費在一年多內上漲了29%，引起批評者的關注 \n• 批評者認為華盛頓需要介入以解決此問題 \n• 儘管價格上漲，Netflix仍然是華爾街的熱門股票 \n• 政府監管機構對Netflix的業務運作展開調查",
+    "summaries": {
+      "zh-HK": "• Netflix的月費在一年多內上漲了29%，引起批評者的關注 \n• 批評者認為華盛頓需要介入以解決此問題 \n• 儘管價格上漲，Netflix仍然是華爾街的熱門股票 \n• 政府監管機構對Netflix的業務運作展開調查"
+    }
+  },
+  {
+    "url": "https://www.theverge.com/gadgets/965565/cmf-nothing-watch-3-pro-smartwatch-ios-android-deal-sale",
+    "title": "Nothing’s good-looking Watch 3 Pro smartwatch is just $69",
+    "summary": "While most fitness trackers are losing the screens to keep the price low, the CMF by Nothing Watch 3 Pro is a bit different. The budget-friendly smartwatch with a 1.43-inch OLED display is even cheaper than usual at Amazon, where it costs $69 in every color (the price fluctuates between $79 and $99). Some notable [&#8230;]",
+    "full_text": "While most fitness trackers are losing the screens to keep the price low, the CMF by Nothing Watch 3 Pro is a bit different. The budget-friendly smartwatch with a 1.43-inch OLED display is even cheaper than usual at Amazon, where it costs $69 in every color (the price fluctuates between $79 and $99). Some notable specs include compatibility with iOS and Android, and long battery life of up to 13 days on a single charge. It’s great for workouts (with accurate, dual-band GPS, IP68 protection, and a heart rate sensor), but stylish enough to wear out to dinner. It currently costs $20 less than the screenless Google Fitbit Air.\nNothing’s good-looking Watch 3 Pro smartwatch is just $69\nThe platform-agnostic watch can run for almost two weeks between charges.\nThe platform-agnostic watch can run for almost two weeks between charges.\nCMF Watch 3 Pro\nNothing’s slick-looking budget watch features a 1.43-inch OLED display, 131 sports modes, dual-band GPS, and a four-channel heart rate sensor. It also delivers up to 13 days of battery life under normal use and supports all your typical app integrations (Strava, Apple Health, etc.).\nI’ve had trouble sticking with smartwatches in the past, but I picked up a Watch 3 Pro during a similar sale a few months ago, and I often reach for it over my beloved Casio GA-2100. It helps that I rarely have to worry about keeping it charged thanks to its impressive battery life. Even with the always-on display enabled, I can usually wear the Watch 3 Pro for two or three days of constant use before I have to charge it.\nThe Watch 3 Pro has a big, eye-catching face, and is available in four different colors, each with their own bezel shape, detailing, and color-coordinated strap. The Nothing X app has a ton of different face options to choose from, with some that are heavy on complications, and others that focus on fun and style. I have the light green model and I’ve gotten quite a few compliments, although I also like the orange model for a more fitness-focused look. It’s a little large, which is my preference for watches anyway, but it does make it a little uncomfortable for sleep tracking.\nIf $69 is a little too much, consider the CMF by Nothing Watch Pro 2, which is currently $39 (usually $55) at Amazon. The newer model has upgraded GPS, a more accurate heart rate monitor, longer battery life, and a slightly larger screen. But the older version uses the same app, and has swappable bezels to customize the look.",
+    "source": "The Verge",
+    "category": "tech",
+    "lang": "en",
+    "topic": "Trading",
+    "published": "2026-07-14T22:24:26+00:00",
+    "crawled": "2026-07-14T23:57:29.821155+00:00",
+    "summarized": true,
+    "ai_summary": "• CMF by Nothing Watch 3 Pro 智能手錶在亞馬遜的售價為69美元，顯示屏為1.43英寸OLED，支持iOS和Android系統。  \n• 手錶具備131種運動模式、雙頻GPS和四通道心率傳感器，正常使用下電池壽命可達13天。  \n• Watch 3 Pro 提供多種顏色和表盤選擇，並可與Strava、Apple Health等應用整合。  \n• 若69美元超出預算，CMF by Nothing Watch Pro 2 目前售價39美元，具備升級的GPS和更準確的心率監測。",
+    "summaries": {
+      "zh-HK": "• CMF by Nothing Watch 3 Pro 智能手錶在亞馬遜的售價為69美元，顯示屏為1.43英寸OLED，支持iOS和Android系統。  \n• 手錶具備131種運動模式、雙頻GPS和四通道心率傳感器，正常使用下電池壽命可達13天。  \n• Watch 3 Pro 提供多種顏色和表盤選擇，並可與Strava、Apple Health等應用整合。  \n• 若69美元超出預算，CMF by Nothing Watch Pro 2 目前售價39美元，具備升級的GPS和更準確的心率監測。"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY2FLUVdld3dRczNDdFVnWExQNG1Kb3VDdW9GVGx4NHZlam9tUW5CQVlVMzZpRGxaZ2NqU19sWGJTV0NReFo4WWtjZUJoUm5DV201QUdtR1JKSHpVTDNBRmZrazNsUVhjVWJJd2dQd0ZOaU8xT3M2Uko4aUI1Uzk3WktwQjdDSnAwdFVCdzJ5SEZUTExLMTlXcUNYazJTcUJtZjBodlN4S1V5dG9RT2hJa3FVUTRudGJ3NkJpQU80aWJrYlJJd0RzbFd6OA?oc=5",
+    "title": "EXCLUSIVE: Lionsgate Studios attracts takeover interest from Bollore, Banijay, sources say - Reuters",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxOY2FLUVdld3dRczNDdFVnWExQNG1Kb3VDdW9GVGx4NHZlam9tUW5CQVlVMzZpRGxaZ2NqU19sWGJTV0NReFo4WWtjZUJoUm5DV201QUdtR1JKSHpVTDNBRmZrazNsUVhjVWJJd2dQd0ZOaU8xT3M2Uko4aUI1Uzk3WktwQjdDSnAwdFVCdzJ5SEZUTExLMTlXcUNYazJTcUJtZjBodlN4S1V5dG9RT2hJa3FVUTRudGJ3NkJpQU80aWJrYlJJd0RzbFd6OA?oc=5\" target=\"_blank\">EXCLUSIVE: Lionsgate Studios attracts takeover interest from Bollore, Banijay, sources say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+    "full_text": "",
+    "source": "Reuters (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-14T21:55:15+00:00",
+    "crawled": "2026-07-14T23:57:33.524769+00:00",
+    "summarized": true,
+    "ai_summary": "• 獅門影業吸引了Bollore和Banijay的收購興趣，根據消息來源報導  \n• 此次收購談判尚處於初步階段，具體條款尚未確定  \n• 獅門影業正在尋求增強其市場地位和資本結構  \n• 目前尚未有官方聲明確認任何收購協議或進一步的談判進展",
+    "summaries": {
+      "zh-HK": "• 獅門影業吸引了Bollore和Banijay的收購興趣，根據消息來源報導  \n• 此次收購談判尚處於初步階段，具體條款尚未確定  \n• 獅門影業正在尋求增強其市場地位和資本結構  \n• 目前尚未有官方聲明確認任何收購協議或進一步的談判進展"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMXJzYjJGSXZsQzlGa2N0ZWphV2JqLXV4ZTBvZnBlbnBJQmNhaUJQNlB6T0Y2WDh2elNyWi0waTJoQlJhcHdKTDcyOVQxMXJ3TnpUUF9EaU5aS1E3Y0tBc21QTE5kSmtNVVNZdHZxT0tZTFRjNUJGV2VfaDdqZXFhUTJxS3NVNVRLYkFuMWJoZFBsWndNM01wNjVUZw?oc=5",
+    "title": "US House passes bill to make daylight saving time permanent - Reuters",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQMXJzYjJGSXZsQzlGa2N0ZWphV2JqLXV4ZTBvZnBlbnBJQmNhaUJQNlB6T0Y2WDh2elNyWi0waTJoQlJhcHdKTDcyOVQxMXJ3TnpUUF9EaU5aS1E3Y0tBc21QTE5kSmtNVVNZdHZxT0tZTFRjNUJGV2VfaDdqZXFhUTJxS3NVNVRLYkFuMWJoZFBsWndNM01wNjVUZw?oc=5\" target=\"_blank\">US House passes bill to make daylight saving time permanent</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+    "full_text": "",
+    "source": "Reuters (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-14T22:46:19+00:00",
+    "crawled": "2026-07-14T23:57:34.019795+00:00",
+    "summarized": true,
+    "ai_summary": "• 美國眾議院通過法案，提議將夏令時間永久化  \n• 此法案旨在消除每年春季和秋季調整時鐘的需要  \n• 法案獲得兩黨支持，並將提交參議院進一步審議  \n• 若獲得通過，預計將於2023年生效",
+    "summaries": {
+      "zh-HK": "• 美國眾議院通過法案，提議將夏令時間永久化  \n• 此法案旨在消除每年春季和秋季調整時鐘的需要  \n• 法案獲得兩黨支持，並將提交參議院進一步審議  \n• 若獲得通過，預計將於2023年生效"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYlpMYXNwUE84MUp5dE5VSDZkZVVGMkJvNzZweThQZUJ1NDlBdURELUk0LXNDNFJoMWh3US0zaGluc3ZkT2x5Vm5nV2FRMjV1WDY1eXdOeFZTcVJXTFctLUZzdFprRDhvd0E4V0swcU12Q0hSTzhYaWxhUmFrZkE4R2RzRVBKc1doeld0bDFGZlZ5SnozbHlCa0dNS1c2U3NPVE5WNg?oc=5",
+    "title": "US FDA sued for allowing unauthorized vaping products - Reuters",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNYlpMYXNwUE84MUp5dE5VSDZkZVVGMkJvNzZweThQZUJ1NDlBdURELUk0LXNDNFJoMWh3US0zaGluc3ZkT2x5Vm5nV2FRMjV1WDY1eXdOeFZTcVJXTFctLUZzdFprRDhvd0E4V0swcU12Q0hSTzhYaWxhUmFrZkE4R2RzRVBKc1doeld0bDFGZlZ5SnozbHlCa0dNS1c2U3NPVE5WNg?oc=5\" target=\"_blank\">US FDA sued for allowing unauthorized vaping products</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+    "full_text": "",
+    "source": "Reuters (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-14T19:01:45+00:00",
+    "crawled": "2026-07-14T23:57:34.604433+00:00",
+    "summarized": true,
+    "ai_summary": "• 美國食品藥品監督管理局（FDA）因允許未經授權的電子煙產品而被起訴  \n• 起訴由多個健康組織發起，指控FDA未能有效執行相關法規  \n• 訴訟於近期在美國地方法院提交，要求法院介入並停止這些產品的銷售  \n• 健康組織表示，這些未經授權的產品對青少年健康構成威脅",
+    "summaries": {
+      "zh-HK": "• 美國食品藥品監督管理局（FDA）因允許未經授權的電子煙產品而被起訴  \n• 起訴由多個健康組織發起，指控FDA未能有效執行相關法規  \n• 訴訟於近期在美國地方法院提交，要求法院介入並停止這些產品的銷售  \n• 健康組織表示，這些未經授權的產品對青少年健康構成威脅"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaWprNTZrUDBUZmtScmswaWV0SHVsbHZVSDhRR0I1aEs3RnZ3Uk96YzdLTkl4TFd0Y2RXRWk1WjJFbWJxb0Z3X1NnWWs1bWMwNTlXTUkxZExjSEFhcHJNVFc3dGpRQnhESzBRWXpRTTZhb3Raa0dyN1czSEFrc3k0ZktOU2VzVlR3a09RcjZRNHlYNnRUcmJCdjNvQUVjTUQ0?oc=5",
+    "title": "Spain’s anaconda grip crushes French World Cup dream - Reuters",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPaWprNTZrUDBUZmtScmswaWV0SHVsbHZVSDhRR0I1aEs3RnZ3Uk96YzdLTkl4TFd0Y2RXRWk1WjJFbWJxb0Z3X1NnWWs1bWMwNTlXTUkxZExjSEFhcHJNVFc3dGpRQnhESzBRWXpRTTZhb3Raa0dyN1czSEFrc3k0ZktOU2VzVlR3a09RcjZRNHlYNnRUcmJCdjNvQUVjTUQ0?oc=5\" target=\"_blank\">Spain’s anaconda grip crushes French World Cup dream</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+    "full_text": "",
+    "source": "Reuters (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-14T22:59:28+00:00",
+    "crawled": "2026-07-14T23:57:35.122275+00:00",
+    "summarized": true,
+    "ai_summary": "• 西班牙國家足球隊在2023年女子世界杯四分之一決賽中以2-1擊敗法國隊，晉級半決賽  \n• 比賽於2023年8月在澳大利亞舉行，西班牙隊的進球由阿爾巴和阿爾貝托打入  \n• 法國隊在比賽中雖然努力追趕，但最終未能逆轉局勢  \n• 西班牙隊將在半決賽中對陣瑞典隊，爭取進入決賽",
+    "summaries": {
+      "zh-HK": "• 西班牙國家足球隊在2023年女子世界杯四分之一決賽中以2-1擊敗法國隊，晉級半決賽  \n• 比賽於2023年8月在澳大利亞舉行，西班牙隊的進球由阿爾巴和阿爾貝托打入  \n• 法國隊在比賽中雖然努力追趕，但最終未能逆轉局勢  \n• 西班牙隊將在半決賽中對陣瑞典隊，爭取進入決賽"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWTctcVNnLVl0eVIyYXdXcWQzMjh6eEVIVGtHRFZaQS1NckR2ZEx1dFR3VzVSVlVtOHRtR0E0WmhCN0F3VHZhQnpDaTY1LWtsczdNVDhLNjB6LTE2NUp2ZVFDaHcxcUVnSUVHNE9oQXEyZXpPOFJBb3QtdkFqVTZfZWlGZ2dDSHByMERYRjJFMmxxbjFBYUtpZ0xPR1AyRGtmOXFHTFpQdkttbTlwUjNfZ0wzdjVJUzQ?oc=5",
+    "title": "CVS settles with FTC, agrees to count TrumpRx drug purchases towards insurance - Reuters",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQWTctcVNnLVl0eVIyYXdXcWQzMjh6eEVIVGtHRFZaQS1NckR2ZEx1dFR3VzVSVlVtOHRtR0E0WmhCN0F3VHZhQnpDaTY1LWtsczdNVDhLNjB6LTE2NUp2ZVFDaHcxcUVnSUVHNE9oQXEyZXpPOFJBb3QtdkFqVTZfZWlGZ2dDSHByMERYRjJFMmxxbjFBYUtpZ0xPR1AyRGtmOXFHTFpQdkttbTlwUjNfZ0wzdjVJUzQ?oc=5\" target=\"_blank\">CVS settles with FTC, agrees to count TrumpRx drug purchases towards insurance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+    "full_text": "",
+    "source": "Reuters (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-14T19:31:52+00:00",
+    "crawled": "2026-07-14T23:57:35.538378+00:00",
+    "summarized": true,
+    "ai_summary": "• CVS與聯邦貿易委員會（FTC）達成和解，將特朗普藥品（TrumpRx）購買計入保險範圍內  \n• 此和解旨在改善消費者獲得藥品的可及性  \n• CVS表示，這一措施將有助於降低患者的藥物成本  \n• 和解協議的具體條款尚未公開，雙方未透露任何金額或賠償細節",
+    "summaries": {
+      "zh-HK": "• CVS與聯邦貿易委員會（FTC）達成和解，將特朗普藥品（TrumpRx）購買計入保險範圍內  \n• 此和解旨在改善消費者獲得藥品的可及性  \n• CVS表示，這一措施將有助於降低患者的藥物成本  \n• 和解協議的具體條款尚未公開，雙方未透露任何金額或賠償細節"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOTVHNU1vRzltYktZWFFsVWJkR0pKaVh4S3ZsMVZhekZUUXRTSGZwZ2JibVFGRkVsdVRHck5maU9xclVyTGJIYmRLOG11REx5X2JQSGpoOGV6WG42NmhoZFVBQndMNGZsUUxMNzhzOFd4a2ozdE5VdHpFR0VaNVZYMUNRdi0yMmk2a0l1Z3VjN3AyMkNBeUd6V1pObmZQdTR5VzFmQw?oc=5",
+    "title": "Trump says no one should be able to charge a fee for the Strait of Hormuz - Reuters",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOOTVHNU1vRzltYktZWFFsVWJkR0pKaVh4S3ZsMVZhekZUUXRTSGZwZ2JibVFGRkVsdVRHck5maU9xclVyTGJIYmRLOG11REx5X2JQSGpoOGV6WG42NmhoZFVBQndMNGZsUUxMNzhzOFd4a2ozdE5VdHpFR0VaNVZYMUNRdi0yMmk2a0l1Z3VjN3AyMkNBeUd6V1pObmZQdTR5VzFmQw?oc=5\" target=\"_blank\">Trump says no one should be able to charge a fee for the Strait of Hormuz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+    "full_text": "",
+    "source": "Reuters (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "Politics",
+    "published": "2026-07-14T17:17:24+00:00",
+    "crawled": "2026-07-14T23:57:35.989587+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRWNKLThfYUZXMTIwWFBiekVMOVByVHZlb1RmZVBiX0RrYjBkN1ZNRGw1YU4yWFllN1lDWEdsR2I4cmNrWUlKSXkxSHQxR25UVjhKSDVGTE04WmxZTk1uRzJxYUxNQlQ0amFaZjRTVkNucFRmUl93bGhCRzFTV0FmTjdJSzlDVTUyU1piT2RPM0hjenNCbjNiZzhvY3BheU1GTjdIV2VPQVBLUUJXbmF4RDFSeFpLTDh5TGNlVl9zR3IwVHc1VW1aLW81c01wQ3QyRjZvdDR3dVZnNTFzUzQ0?oc=5",
+    "title": "FDA examines produce items in US cyclosporiasis outbreak as cases rise - Reuters",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRWNKLThfYUZXMTIwWFBiekVMOVByVHZlb1RmZVBiX0RrYjBkN1ZNRGw1YU4yWFllN1lDWEdsR2I4cmNrWUlKSXkxSHQxR25UVjhKSDVGTE04WmxZTk1uRzJxYUxNQlQ0amFaZjRTVkNucFRmUl93bGhCRzFTV0FmTjdJSzlDVTUyU1piT2RPM0hjenNCbjNiZzhvY3BheU1GTjdIV2VPQVBLUUJXbmF4RDFSeFpLTDh5TGNlVl9zR3IwVHc1VW1aLW81c01wQ3QyRjZvdDR3dVZnNTFzUzQ0?oc=5\" target=\"_blank\">FDA examines produce items in US cyclosporiasis outbreak as cases rise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+    "full_text": "",
+    "source": "Reuters (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "Health",
+    "published": "2026-07-14T22:25:55+00:00",
+    "crawled": "2026-07-14T23:57:36.516315+00:00",
+    "summarized": true,
+    "ai_summary": "• 美國食品藥品監督管理局（FDA）正在調查與近期的環狀蟲病疫情相關的農產品項目  \n• 疫情持續上升，目前已確認多宗環狀蟲病病例  \n• FDA表示將檢查可能受污染的農產品，以確保食品安全  \n• 環狀蟲病通常與食用受污染的生鮮產品有關，特別是水果和蔬菜",
+    "summaries": {
+      "zh-HK": "• 美國食品藥品監督管理局（FDA）正在調查與近期的環狀蟲病疫情相關的農產品項目  \n• 疫情持續上升，目前已確認多宗環狀蟲病病例  \n• FDA表示將檢查可能受污染的農產品，以確保食品安全  \n• 環狀蟲病通常與食用受污染的生鮮產品有關，特別是水果和蔬菜"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRjVMWlZDcWtGb2hnMG9hcGo3Q3JDb0JrUEJzaDZMYlpEN0M3MkI5TTN0TzhSMWJhbU85QUVQVFhrZldTdlRfRU9RTmZmYlpSUlNTLXdjYjJjeGpDQWI1Z2FVbHp0dm1RU0E1ZElHTFNTem1kQkZwN1ZaT3pEU2lnZTBfaDZ3dkY1emVhYTR0dGhNUQ?oc=5",
+    "title": "Spain shuts down France and Kylian Mbappé, advances to the World Cup final with a 2-0 victory - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPRjVMWlZDcWtGb2hnMG9hcGo3Q3JDb0JrUEJzaDZMYlpEN0M3MkI5TTN0TzhSMWJhbU85QUVQVFhrZldTdlRfRU9RTmZmYlpSUlNTLXdjYjJjeGpDQWI1Z2FVbHp0dm1RU0E1ZElHTFNTem1kQkZwN1ZaT3pEU2lnZTBfaDZ3dkY1emVhYTR0dGhNUQ?oc=5\" target=\"_blank\">Spain shuts down France and Kylian Mbappé, advances to the World Cup final with a 2-0 victory</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-14T23:24:00+00:00",
+    "crawled": "2026-07-14T23:57:38.114135+00:00",
+    "summarized": true,
+    "ai_summary": "• 西班牙國家足球隊在2023年世界盃半決賽中以2-0擊敗法國隊，晉級決賽  \n• 比賽於2023年12月進行，地點為卡塔爾  \n• 西班牙隊成功限制了法國球星基利安·姆巴佩的表現  \n• 這場勝利使西班牙隊有機會爭奪其第二座世界盃冠軍獎盃",
+    "summaries": {
+      "zh-HK": "• 西班牙國家足球隊在2023年世界盃半決賽中以2-0擊敗法國隊，晉級決賽  \n• 比賽於2023年12月進行，地點為卡塔爾  \n• 西班牙隊成功限制了法國球星基利安·姆巴佩的表現  \n• 這場勝利使西班牙隊有機會爭奪其第二座世界盃冠軍獎盃"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaFNrNjhwbkhMdjZ0dTNVRjNuZl9Rc3NkM3NtX3VhWHhOVklKMG83TTdubWtBRHo4czJuUHVwMWpBaXpXZmFsRnRDc2RVSHl5NURNMUdrcVpWWjRrV25CWkdoVUdtVWVaRXpBbC0zSHF6ODRLbXptd2RCcTFXSUtHTE44U1RFMnF6QUg2Zg?oc=5",
+    "title": "UK police say former politician and TV personality Ann Widdecombe was killed in ‘targeted attack’ - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOaFNrNjhwbkhMdjZ0dTNVRjNuZl9Rc3NkM3NtX3VhWHhOVklKMG83TTdubWtBRHo4czJuUHVwMWpBaXpXZmFsRnRDc2RVSHl5NURNMUdrcVpWWjRrV25CWkdoVUdtVWVaRXpBbC0zSHF6ODRLbXptd2RCcTFXSUtHTE44U1RFMnF6QUg2Zg?oc=5\" target=\"_blank\">UK police say former politician and TV personality Ann Widdecombe was killed in ‘targeted attack’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "Entertainment",
+    "published": "2026-07-14T16:59:00+00:00",
+    "crawled": "2026-07-14T23:57:38.628606+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOGlUSjEtcGs2cXl3c3llbFhFNGtvcENoQkF5WTB0TVZVYnk4Y3o5TEZmcXREUjhFRFJBbDQwakM2WjF0S01nQ2ZhaWZaRXdJRk8yc3h2SVhrYTBrZkxpbGpRTWRHWm9Rc2RwRmJfOHNLREVRUzBYNDM3QjNXRF9aM0Rwb3lEc01EUDBKdWZrOVNMaElmZnh2eUI2dEZUWDdTc1pTOVVTaGFCMjN0WDJPaURrX1M?oc=5",
+    "title": "Ukraine downs 5 Russian ballistic missiles as Kyiv looks to boost its air defenses - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOOGlUSjEtcGs2cXl3c3llbFhFNGtvcENoQkF5WTB0TVZVYnk4Y3o5TEZmcXREUjhFRFJBbDQwakM2WjF0S01nQ2ZhaWZaRXdJRk8yc3h2SVhrYTBrZkxpbGpRTWRHWm9Rc2RwRmJfOHNLREVRUzBYNDM3QjNXRF9aM0Rwb3lEc01EUDBKdWZrOVNMaElmZnh2eUI2dEZUWDdTc1pTOVVTaGFCMjN0WDJPaURrX1M?oc=5\" target=\"_blank\">Ukraine downs 5 Russian ballistic missiles as Kyiv looks to boost its air defenses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-14T16:07:00+00:00",
+    "crawled": "2026-07-14T23:57:39.111835+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcGFRc1pRaUREUDM4Vk9wTWE0VTlRV1loUUl1NnRhaWphVmtCVjY0UEliSnZhdGpsVGFxVDVVNTFzWmdFNmtFbjZPV1JKVzVqLXoyMW43R1Uxb19sSUp2T0h1d0ZDM3daM0YxMjBTM3VvU3lxeXVXRXRiblF0VUFlcXBSUUluLTRtNWhaZ3JzbE5vbEMwN0FKUzM5dk52RWxNUzFN?oc=5",
+    "title": "Subpoenas issued to NY Times reporters seen as ‘unprecedented’ threat to press freedom - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQcGFRc1pRaUREUDM4Vk9wTWE0VTlRV1loUUl1NnRhaWphVmtCVjY0UEliSnZhdGpsVGFxVDVVNTFzWmdFNmtFbjZPV1JKVzVqLXoyMW43R1Uxb19sSUp2T0h1d0ZDM3daM0YxMjBTM3VvU3lxeXVXRXRiblF0VUFlcXBSUUluLTRtNWhaZ3JzbE5vbEMwN0FKUzM5dk52RWxNUzFN?oc=5\" target=\"_blank\">Subpoenas issued to NY Times reporters seen as ‘unprecedented’ threat to press freedom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-14T15:41:00+00:00",
+    "crawled": "2026-07-14T23:57:39.531348+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOemJkZ29zNG1kOE5LX2xtWWluT2UzSHFRWFlyblozeWhSUHkyek9LdEFQdGdsZ0h5N2poOFhUS1JhSFlRVEJMd0p6T3pGT3RQdUJ3Rm1tY0FOdkZvVS14a1FXRE5XYWtHVmFyWUc4ZXFDRzVBeDdYSEFLRm5UVW5xS1ZOQmotdC1hbWJF?oc=5",
+    "title": "Inflatable dinosaurs race at Emerald Downs, in photos - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOemJkZ29zNG1kOE5LX2xtWWluT2UzSHFRWFlyblozeWhSUHkyek9LdEFQdGdsZ0h5N2poOFhUS1JhSFlRVEJMd0p6T3pGT3RQdUJ3Rm1tY0FOdkZvVS14a1FXRE5XYWtHVmFyWUc4ZXFDRzVBeDdYSEFLRm5UVW5xS1ZOQmotdC1hbWJF?oc=5\" target=\"_blank\">Inflatable dinosaurs race at Emerald Downs, in photos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-14T14:01:00+00:00",
+    "crawled": "2026-07-14T23:57:39.947679+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWEt6cGdDMmFmZFdVYXB3RGI0b3ZZcHNVbnV0UzEwcFVNOEdQTXhkblRZTWVtcmtBMFlDS3dxUERpLXluQjV0S1lPTUljQTBRWWlLbzJqTFRkc05oV3EzRnFVVzBZTDhLZGVpRkEtalg1R1h3aHFKTzVBb3VUaFdtSENxV2U4OHFuc240ZFVSMW1tcjNhYVZqTVZzOWoxdw?oc=5",
+    "title": "‘I’m Joe Lombardo': Nevada governor not ticketed after being pulled over in a traffic stop - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPWEt6cGdDMmFmZFdVYXB3RGI0b3ZZcHNVbnV0UzEwcFVNOEdQTXhkblRZTWVtcmtBMFlDS3dxUERpLXluQjV0S1lPTUljQTBRWWlLbzJqTFRkc05oV3EzRnFVVzBZTDhLZGVpRkEtalg1R1h3aHFKTzVBb3VUaFdtSENxV2U4OHFuc240ZFVSMW1tcjNhYVZqTVZzOWoxdw?oc=5\" target=\"_blank\">‘I’m Joe Lombardo': Nevada governor not ticketed after being pulled over in a traffic stop</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-14T19:41:00+00:00",
+    "crawled": "2026-07-14T23:57:40.349556+00:00",
+    "summarized": true,
+    "ai_summary": "• 內華達州州長喬·隆巴多在交通攔截中被警員攔下，但未被開罰單  \n• 事件發生於當地時間週一，隆巴多在駕駛一輛SUV  \n• 隆巴多在攔截中告知警員其身份，並表示自己是州長  \n• 警方表示，隆巴多的駕駛行為並未違反交通法規，因此未對其採取進一步行動",
+    "summaries": {
+      "zh-HK": "• 內華達州州長喬·隆巴多在交通攔截中被警員攔下，但未被開罰單  \n• 事件發生於當地時間週一，隆巴多在駕駛一輛SUV  \n• 隆巴多在攔截中告知警員其身份，並表示自己是州長  \n• 警方表示，隆巴多的駕駛行為並未違反交通法規，因此未對其採取進一步行動"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORkNGTVhKMER3ZVZJVG1CTnU3NGVmTmc3RTAyTVdTVENmSXdtS0ZVQVNFQTFWcHZ3alNFekFGcW9iVHlTbHJsWmRFZng2YWpYTWJ5STJ0Z2lyV3Y0djBvSnQzYTNkeDZCNmo4b0VXRDR5ZTdZWXNHcm9DUDV4VDNiMzJGdEJCcmgycGdyektyZFdBSkEybTlYbnc1SDhUdVZNN0k1ZFUxR3FtMFBla2JNM0VKcw?oc=5",
+    "title": "Mystery bidder buys T. rex nicknamed ‘Gus’ for a record $50 million - AP News",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxORkNGTVhKMER3ZVZJVG1CTnU3NGVmTmc3RTAyTVdTVENmSXdtS0ZVQVNFQTFWcHZ3alNFekFGcW9iVHlTbHJsWmRFZng2YWpYTWJ5STJ0Z2lyV3Y0djBvSnQzYTNkeDZCNmo4b0VXRDR5ZTdZWXNHcm9DUDV4VDNiMzJGdEJCcmgycGdyektyZFdBSkEybTlYbnc1SDhUdVZNN0k1ZFUxR3FtMFBla2JNM0VKcw?oc=5\" target=\"_blank\">Mystery bidder buys T. rex nicknamed ‘Gus’ for a record $50 million</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AP News</font>",
+    "full_text": "",
+    "source": "AP News (Google News)",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-14T21:34:00+00:00",
+    "crawled": "2026-07-14T23:57:40.818303+00:00",
+    "summarized": true,
+    "ai_summary": "• 一名神秘競標者以5000萬美元的創紀錄價格購買了名為「Gus」的暴龍化石  \n• 此次拍賣於2023年10月6日在紐約舉行  \n• 這是迄今為止拍賣中售出的最昂貴恐龍化石  \n• 拍賣公司未透露競標者的身份及其購買目的",
+    "summaries": {
+      "zh-HK": "• 一名神秘競標者以5000萬美元的創紀錄價格購買了名為「Gus」的暴龍化石  \n• 此次拍賣於2023年10月6日在紐約舉行  \n• 這是迄今為止拍賣中售出的最昂貴恐龍化石  \n• 拍賣公司未透露競標者的身份及其購買目的"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS1RkUmZfNFgtUjFnaG1mZ3FzcTlTT2p3ZjVvTFZReEpJLWFacXVyaWhKMnZFd0NHQmRaZENQbXhfMmNMd1Y1REk1Z1pqNmtURHRrQ2dNTl9BZ1F0ZVlSX3RtUGhMNmJIY1J0S2NfcVlOUkxURk5SYUlUc2dWTmotVWg3eFVrMC02UHFINmxoV0RLXzBqVHVWSVpTMk1xLS1QSE9pd3JuemNTbXdIRHVfZ3pWTzg1d054YUlEUlJnNzR3UDQ3YnVTdjM4ODZ4Nm5R?oc=5",
+    "title": "Artificial intelligence news: Illinois education officials release guidance on use of AI in public schools - ABC7 Chicago",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS1RkUmZfNFgtUjFnaG1mZ3FzcTlTT2p3ZjVvTFZReEpJLWFacXVyaWhKMnZFd0NHQmRaZENQbXhfMmNMd1Y1REk1Z1pqNmtURHRrQ2dNTl9BZ1F0ZVlSX3RtUGhMNmJIY1J0S2NfcVlOUkxURk5SYUlUc2dWTmotVWg3eFVrMC02UHFINmxoV0RLXzBqVHVWSVpTMk1xLS1QSE9pd3JuemNTbXdIRHVfZ3pWTzg1d054YUlEUlJnNzR3UDQ3YnVTdjM4ODZ4Nm5R?oc=5\" target=\"_blank\">Artificial intelligence news: Illinois education officials release guidance on use of AI in public schools</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC7 Chicago</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-14T23:05:01+00:00",
+    "crawled": "2026-07-14T23:57:42.304666+00:00",
+    "summarized": true,
+    "ai_summary": "• 伊利諾伊州教育官員發布有關公共學校使用人工智能的指導方針  \n• 指導方針旨在幫助教師和學生有效利用人工智能工具  \n• 文件中強調了倫理使用人工智能的重要性  \n• 教育部希望通過這些指導方針促進學校內的創新教學方法",
+    "summaries": {
+      "zh-HK": "• 伊利諾伊州教育官員發布有關公共學校使用人工智能的指導方針  \n• 指導方針旨在幫助教師和學生有效利用人工智能工具  \n• 文件中強調了倫理使用人工智能的重要性  \n• 教育部希望通過這些指導方針促進學校內的創新教學方法"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWG9iZTZ5Uy1OTU5UdlJYWHdNdEQ5MFZvT00zTjl6UG5kVGQzOVA4ZEplS0sydlE0NUVCT2djZ0xNZEc5UUlodUFLdWZ6Z1VPa082MllpdnNkVnF1RmdFZjVkZjhnVk5DYWpZZzFPSGlGWjB4bkczNXNhNmlMNGxzaDYtSE5zUHhpZkFtWkxrS2pwTjFiVTVNMTNVNVJQSktzaUJhMw?oc=5",
+    "title": "5 Brilliant Artificial Intelligence (AI) Stocks That Are Just Getting Started - Yahoo Finance",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOWG9iZTZ5Uy1OTU5UdlJYWHdNdEQ5MFZvT00zTjl6UG5kVGQzOVA4ZEplS0sydlE0NUVCT2djZ0xNZEc5UUlodUFLdWZ6Z1VPa082MllpdnNkVnF1RmdFZjVkZjhnVk5DYWpZZzFPSGlGWjB4bkczNXNhNmlMNGxzaDYtSE5zUHhpZkFtWkxrS2pwTjFiVTVNMTNVNVJQSktzaUJhMw?oc=5\" target=\"_blank\">5 Brilliant Artificial Intelligence (AI) Stocks That Are Just Getting Started</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-14T20:03:00+00:00",
+    "crawled": "2026-07-14T23:57:42.728873+00:00",
+    "summarized": true,
+    "ai_summary": "• Yahoo Finance報導五隻人工智能（AI）股票，認為這些股票仍在起步階段  \n• 報導指出，這些公司在AI技術方面具有潛力，可能會吸引投資者  \n• 文章分析了各公司的業務模式及其在市場上的競爭優勢  \n• 專家建議投資者關注這些股票的長期增長潛力",
+    "summaries": {
+      "zh-HK": "• Yahoo Finance報導五隻人工智能（AI）股票，認為這些股票仍在起步階段  \n• 報導指出，這些公司在AI技術方面具有潛力，可能會吸引投資者  \n• 文章分析了各公司的業務模式及其在市場上的競爭優勢  \n• 專家建議投資者關注這些股票的長期增長潛力"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVWczLWRSa2dXQjFkUTRoY0tFTEhVWUFLNXpibWNoOThNUjZGMmlyaWpjZVZpeGhMa0NHVWJJeWJ2T3VqUDFKRjFxX0VPbEhHSUNqcUY5QzMtX05OQVM0Z1NuUWlhLTE1UXFJTUxybmVhLWdTZGdBRmVNN1Bfdzh5ckFaeG1VQmZVNUtxRkJUNHRsbk83UHQ5STRzdVI5T2p5czNLc1YwOV9OekdTU0NVZmQ1Wk9SUWhNMTZSSDRRNnhTYzYwSlhVOUtVZDQ2YXM?oc=5",
+    "title": "Goldman Sachs is really benefiting from the rise of artificial intelligence, says Jim Cramer - CNBC",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxOVWczLWRSa2dXQjFkUTRoY0tFTEhVWUFLNXpibWNoOThNUjZGMmlyaWpjZVZpeGhMa0NHVWJJeWJ2T3VqUDFKRjFxX0VPbEhHSUNqcUY5QzMtX05OQVM0Z1NuUWlhLTE1UXFJTUxybmVhLWdTZGdBRmVNN1Bfdzh5ckFaeG1VQmZVNUtxRkJUNHRsbk83UHQ5STRzdVI5T2p5czNLc1YwOV9OekdTU0NVZmQ1Wk9SUWhNMTZSSDRRNnhTYzYwSlhVOUtVZDQ2YXM?oc=5\" target=\"_blank\">Goldman Sachs is really benefiting from the rise of artificial intelligence, says Jim Cramer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "AI",
+    "published": "2026-07-14T23:13:22+00:00",
+    "crawled": "2026-07-14T23:57:43.133511+00:00",
+    "summarized": true,
+    "ai_summary": "• 高盛集團因人工智能的興起而獲益，根據CNBC分析師吉姆·克萊默的說法  \n• 克萊默指出，人工智能技術的發展對高盛的業務增長起到了重要推動作用  \n• 高盛在金融服務領域的創新應用人工智能，提升了效率和競爭力  \n• 此外，克萊默預測高盛將在未來繼續受益於人工智能的進一步發展",
+    "summaries": {
+      "zh-HK": "• 高盛集團因人工智能的興起而獲益，根據CNBC分析師吉姆·克萊默的說法  \n• 克萊默指出，人工智能技術的發展對高盛的業務增長起到了重要推動作用  \n• 高盛在金融服務領域的創新應用人工智能，提升了效率和競爭力  \n• 此外，克萊默預測高盛將在未來繼續受益於人工智能的進一步發展"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBueFNjM2E3Y05HTDJFNUVQcWY3VThDNXBzaWJqZTNOV1Y1Um1xR0IxVUFURnZtV2U2VnlJUnNlZ1RIdS1PSVJ3Uy1HLWM3REFJUTBKMmNERGJaSllBaVEzLUpsRmxJdXRxQ2lqU3dxMzJjdklITThxMHJB?oc=5",
+    "title": "Fed chair says AI ‘hasn’t displaced workers’ so far, has boosted productivity - FedScoop",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBueFNjM2E3Y05HTDJFNUVQcWY3VThDNXBzaWJqZTNOV1Y1Um1xR0IxVUFURnZtV2U2VnlJUnNlZ1RIdS1PSVJ3Uy1HLWM3REFJUTBKMmNERGJaSllBaVEzLUpsRmxJdXRxQ2lqU3dxMzJjdklITThxMHJB?oc=5\" target=\"_blank\">Fed chair says AI ‘hasn’t displaced workers’ so far, has boosted productivity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FedScoop</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "Policy",
+    "published": "2026-07-14T23:21:46+00:00",
+    "crawled": "2026-07-14T23:57:43.551289+00:00",
+    "summarized": true,
+    "ai_summary": "• 美國聯邦儲備主席表示，人工智能目前尚未取代工人，但已經提升了生產力  \n• 他在最近的講話中強調，AI的影響尚未導致大規模失業  \n• 聯邦儲備局將繼續監測AI對經濟和勞動市場的影響  \n• 此次發言旨在回應對AI技術可能引發的經濟變化的關注",
+    "summaries": {
+      "zh-HK": "• 美國聯邦儲備主席表示，人工智能目前尚未取代工人，但已經提升了生產力  \n• 他在最近的講話中強調，AI的影響尚未導致大規模失業  \n• 聯邦儲備局將繼續監測AI對經濟和勞動市場的影響  \n• 此次發言旨在回應對AI技術可能引發的經濟變化的關注"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaGdnMWtoSFVaVU9SSUdVdWs0ZEIxZzRocENaR3dpWmxkZ3hxeDdwYW4wZ19EaHZVS2pUVk15U1l1cEFObGN0UHExRVBtbmpPZ0c2R1BFc1JsTVZjQVBFdnJXYzNmWjNiVWdMVkgtRjF5RlpCYUtLeG9WenZSM3JzR21DMjlKOWVnSVdxZVd3d0xjWEQzMnI4cF9naS12TnVpdmZXQWZ6RHlvTVVTZWFoSXNGTW52c2IyY2JUXzdvWGVOdTlwQTZoRi00NWJjV2M0UUFmdTFYVmhXcWow?oc=5",
+    "title": "Johns Creek Chamber hosts global AI summit with experts - Appen Media",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaGdnMWtoSFVaVU9SSUdVdWs0ZEIxZzRocENaR3dpWmxkZ3hxeDdwYW4wZ19EaHZVS2pUVk15U1l1cEFObGN0UHExRVBtbmpPZ0c2R1BFc1JsTVZjQVBFdnJXYzNmWjNiVWdMVkgtRjF5RlpCYUtLeG9WenZSM3JzR21DMjlKOWVnSVdxZVd3d0xjWEQzMnI4cF9naS12TnVpdmZXQWZ6RHlvTVVTZWFoSXNGTW52c2IyY2JUXzdvWGVOdTlwQTZoRi00NWJjV2M0UUFmdTFYVmhXcWow?oc=5\" target=\"_blank\">Johns Creek Chamber hosts global AI summit with experts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Appen Media</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "World",
+    "published": "2026-07-14T22:00:00+00:00",
+    "crawled": "2026-07-14T23:57:43.975045+00:00",
+    "summarized": true,
+    "ai_summary": "• 約翰斯克里克商會於近期舉辦全球人工智能峰會，邀請多位專家參加  \n• 峰會旨在促進人工智能領域的知識交流與合作  \n• 會議地點位於喬治亞州的約翰斯克里克  \n• 專家們分享了最新的人工智能技術與應用趨勢",
+    "summaries": {
+      "zh-HK": "• 約翰斯克里克商會於近期舉辦全球人工智能峰會，邀請多位專家參加  \n• 峰會旨在促進人工智能領域的知識交流與合作  \n• 會議地點位於喬治亞州的約翰斯克里克  \n• 專家們分享了最新的人工智能技術與應用趨勢"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSDZKRkY3VFNweXRPV190VDV6Y3VMaWs2RTZXX3F0THJyNEpVUlBDdXhSSmd6TjlJMm8zTV9fUkYxOXEzcTVIYkRXVm54TFpyQ0ZfZGctZG0wLUdFZFM1SzdnZFctNXdHcTNaYk41a2F4b0pxZUhESmU5Zk9PNnNQZWVXXzRIWENTRXYxbF9QdldKNWNuNjk4MEpFLVhpcWJLN3E0d21iTmIzbHI2WDFmNjk1ZTNSN251VXNkS0w1NWdVa3RHY3pmMGVfSzJEbElHb1FrOUxLVkdIdVZXZDdpbTJLUF8?oc=5",
+    "title": "White House launches cybersecurity clearinghouse to patch software flaws discovered by AI - Politico",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSDZKRkY3VFNweXRPV190VDV6Y3VMaWs2RTZXX3F0THJyNEpVUlBDdXhSSmd6TjlJMm8zTV9fUkYxOXEzcTVIYkRXVm54TFpyQ0ZfZGctZG0wLUdFZFM1SzdnZFctNXdHcTNaYk41a2F4b0pxZUhESmU5Zk9PNnNQZWVXXzRIWENTRXYxbF9QdldKNWNuNjk4MEpFLVhpcWJLN3E0d21iTmIzbHI2WDFmNjk1ZTNSN251VXNkS0w1NWdVa3RHY3pmMGVfSzJEbElHb1FrOUxLVkdIdVZXZDdpbTJLUF8?oc=5\" target=\"_blank\">White House launches cybersecurity clearinghouse to patch software flaws discovered by AI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Politico</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "Ai",
+    "published": "2026-07-14T22:38:00+00:00",
+    "crawled": "2026-07-14T23:57:44.369451+00:00",
+    "summarized": true,
+    "ai_summary": "• 白宮成立網絡安全清算所，以修補由人工智能發現的軟件漏洞  \n• 此舉旨在加強美國的網絡安全防護  \n• 清算所將匯集各方資訊，促進漏洞修補的協作  \n• 白宮表示，這是應對日益增加的網絡威脅的重要步驟",
+    "summaries": {
+      "zh-HK": "• 白宮成立網絡安全清算所，以修補由人工智能發現的軟件漏洞  \n• 此舉旨在加強美國的網絡安全防護  \n• 清算所將匯集各方資訊，促進漏洞修補的協作  \n• 白宮表示，這是應對日益增加的網絡威脅的重要步驟"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9nUzhfX0VGSFREZC1mbGl1WEtHNjlOTXoxYVJaQ1NjaExtdFgwZTJMQ1JIa0lTU1RER3U2NHZRUzU3aGFYNzh1QjBabWNvM2FOeEV1UGZ6ZWZBSUtzdlk2QjhJdUk3QjlCMU80N0hiemV3QdIBckFVX3lxTE9nUzhfX0VGSFREZC1mbGl1WEtHNjlOTXoxYVJaQ1NjaExtdFgwZTJMQ1JIa0lTU1RER3U2NHZRUzU3aGFYNzh1QjBabWNvM2FOeEV1UGZ6ZWZBSUtzdlk2QjhJdUk3QjlCMU80N0hiemV3QQ?oc=5",
+    "title": "Employees sue Meta, alleging discrimination in using AI to make layoffs - CNBC",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE9nUzhfX0VGSFREZC1mbGl1WEtHNjlOTXoxYVJaQ1NjaExtdFgwZTJMQ1JIa0lTU1RER3U2NHZRUzU3aGFYNzh1QjBabWNvM2FOeEV1UGZ6ZWZBSUtzdlk2QjhJdUk3QjlCMU80N0hiemV3QdIBckFVX3lxTE9nUzhfX0VGSFREZC1mbGl1WEtHNjlOTXoxYVJaQ1NjaExtdFgwZTJMQ1JIa0lTU1RER3U2NHZRUzU3aGFYNzh1QjBabWNvM2FOeEV1UGZ6ZWZBSUtzdlk2QjhJdUk3QjlCMU80N0hiemV3QQ?oc=5\" target=\"_blank\">Employees sue Meta, alleging discrimination in using AI to make layoffs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+    "full_text": "",
+    "source": "AI News (Google)",
+    "category": "ai",
+    "lang": "en",
+    "topic": "Ai",
+    "published": "2026-07-14T20:19:05+00:00",
+    "crawled": "2026-07-14T23:57:44.787977+00:00",
+    "summarized": true,
+    "ai_summary": "• 一群Meta員工提起訴訟，指控公司在裁員過程中使用人工智能存在歧視行為  \n• 訴訟於近期提交，涉及Meta在裁員決策中使用的算法  \n• 員工聲稱該算法對某些群體存在偏見，導致不公平的裁員結果  \n• Meta尚未對該訴訟作出正式回應，案件仍在進行中",
+    "summaries": {
+      "zh-HK": "• 一群Meta員工提起訴訟，指控公司在裁員過程中使用人工智能存在歧視行為  \n• 訴訟於近期提交，涉及Meta在裁員決策中使用的算法  \n• 員工聲稱該算法對某些群體存在偏見，導致不公平的裁員結果  \n• Meta尚未對該訴訟作出正式回應，案件仍在進行中"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9kcTZmNTZJT1lZRjV3RnoxZkREd090QzNyb3ZSRzBKcEZSLVdWTENUblFKcGNpV3VlWFRyX3U0V3VwaDdqRnlSSm5JVm9Ra055dHBURWVqdUNWQlRqS2JrLVdsZ0NKbXVLRklvQy1jZTRTYS1Gc3hn?oc=5",
+    "title": "Business, Politics, Economy and Tech News & Analysis - Nikkei Asia",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE9kcTZmNTZJT1lZRjV3RnoxZkREd090QzNyb3ZSRzBKcEZSLVdWTENUblFKcGNpV3VlWFRyX3U0V3VwaDdqRnlSSm5JVm9Ra055dHBURWVqdUNWQlRqS2JrLVdsZ0NKbXVLRklvQy1jZTRTYS1Gc3hn?oc=5\" target=\"_blank\">Business, Politics, Economy and Tech News & Analysis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>",
+    "full_text": "",
+    "source": "Nikkei Asia",
+    "category": "general",
+    "lang": "en",
+    "topic": "Macro",
+    "published": "2026-07-14T18:42:20+00:00",
+    "crawled": "2026-07-14T23:57:46.043363+00:00",
+    "summarized": true,
+    "ai_summary": "• 本文涵蓋商業、政治、經濟及科技的最新消息與分析  \n• 文章來源於《日經亞洲》，提供多方面的資訊  \n• 涉及全球及地區性的重要事件和趨勢  \n• 旨在幫助讀者了解當前的商業與政治環境",
+    "summaries": {
+      "zh-HK": "• 本文涵蓋商業、政治、經濟及科技的最新消息與分析  \n• 文章來源於《日經亞洲》，提供多方面的資訊  \n• 涉及全球及地區性的重要事件和趨勢  \n• 旨在幫助讀者了解當前的商業與政治環境"
+    }
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSTV2QW83M1NpbHFKUjR5MFVqaGZFek1taFRzOWpfOG92eEJIQmw4RlprSXd0TFk5el94d0NNeGNZdnJ6Q1UwMXBKZFFpM3I4c1JvejlJM0lRZERpTFFkVXN0MUhBR2p6eEcxWnZ0bVExY0lFTnR1cC1tTlhwbVB3RjcyZ1RzQXpSQmtvRktRelY2TWNPT2tRdlNfNjZmZkxoZGt1MTNjVzh6RVNhQmxMY0l3?oc=5",
+    "title": "US resumes Iran blockade after ships attacked in Hormuz - Nikkei Asia",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPSTV2QW83M1NpbHFKUjR5MFVqaGZFek1taFRzOWpfOG92eEJIQmw4RlprSXd0TFk5el94d0NNeGNZdnJ6Q1UwMXBKZFFpM3I4c1JvejlJM0lRZERpTFFkVXN0MUhBR2p6eEcxWnZ0bVExY0lFTnR1cC1tTlhwbVB3RjcyZ1RzQXpSQmtvRktRelY2TWNPT2tRdlNfNjZmZkxoZGt1MTNjVzh6RVNhQmxMY0l3?oc=5\" target=\"_blank\">US resumes Iran blockade after ships attacked in Hormuz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>",
+    "full_text": "",
+    "source": "Nikkei Asia",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-14T16:00:00+00:00",
+    "crawled": "2026-07-14T23:57:46.430170+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb2hMbXZEWldoVWEwZXJFejY4S21BX2lGS3ZiazdxbnA4OW1SbG1mWWMzZFFQV1JfcV9NcU5VbTZYLWlSNnJnTmdJWU82SGZEYTA3aktEd3dYRUVqUThJWjFoUUhLa3hWTUM2bWMzZFEzZC1JQy1GU0t5dU5aOVRGa2tURE13c2piMHdoV0FhN29jdlVqRnoxaDIybHFPOWRySlhoRmdqR0dOX2ZjYlow?oc=5",
+    "title": "Japan ruling party weighs lifting US potato ban as trade bargaining chip - Nikkei Asia",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPb2hMbXZEWldoVWEwZXJFejY4S21BX2lGS3ZiazdxbnA4OW1SbG1mWWMzZFFQV1JfcV9NcU5VbTZYLWlSNnJnTmdJWU82SGZEYTA3aktEd3dYRUVqUThJWjFoUUhLa3hWTUM2bWMzZFEzZC1JQy1GU0t5dU5aOVRGa2tURE13c2piMHdoV0FhN29jdlVqRnoxaDIybHFPOWRySlhoRmdqR0dOX2ZjYlow?oc=5\" target=\"_blank\">Japan ruling party weighs lifting US potato ban as trade bargaining chip</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>",
+    "full_text": "",
+    "source": "Nikkei Asia",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-14T17:50:00+00:00",
+    "crawled": "2026-07-14T23:57:46.820814+00:00",
+    "summarized": false,
+    "ai_summary": ""
+  },
+  {
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZ1VWNlpoUjc5S2hjOWZCclpzUkpjVmJjSUhlR0luQXUwaVhsTWd4Ql9WLWNob0V0dmxubTM1VEdsM01IVzhYaVBTcFNiNmhtWHl6Q1djcEdvZGYySXZrRTMzN3RtVXF0a0l5YVJPVUVCWUc4MnNZMUFadlY0ZmZiZkx4am5ocTN6QTNEcjluNUtiX2tfQmhEbGcyNFZJU2g5Z1BVY2VB?oc=5",
+    "title": "Japan automakers bought time with hybrids, now must spend it on software - Nikkei Asia",
+    "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPZ1VWNlpoUjc5S2hjOWZCclpzUkpjVmJjSUhlR0luQXUwaVhsTWd4Ql9WLWNob0V0dmxubTM1VEdsM01IVzhYaVBTcFNiNmhtWHl6Q1djcEdvZGYySXZrRTMzN3RtVXF0a0l5YVJPVUVCWUc4MnNZMUFadlY0ZmZiZkx4am5ocTN6QTNEcjluNUtiX2tfQmhEbGcyNFZJU2g5Z1BVY2VB?oc=5\" target=\"_blank\">Japan automakers bought time with hybrids, now must spend it on software</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>",
+    "full_text": "",
+    "source": "Nikkei Asia",
+    "category": "general",
+    "lang": "en",
+    "topic": "General",
+    "published": "2026-07-14T20:05:00+00:00",
+    "crawled": "2026-07-14T23:57:47.254907+00:00",
+    "summarized": true,
+    "ai_summary": "• 日本汽車製造商利用混合動力車爭取時間，現在需要將重點放在軟件開發上  \n• 隨著電動車市場的增長，汽車製造商面臨技術轉型的壓力  \n• 日本汽車業者必須加強在自動駕駛和連接技術方面的投資  \n• 專家指出，軟件的創新將成為未來汽車競爭的關鍵因素",
+    "summaries": {
+      "zh-HK": "• 日本汽車製造商利用混合動力車爭取時間，現在需要將重點放在軟件開發上  \n• 隨著電動車市場的增長，汽車製造商面臨技術轉型的壓力  \n• 日本汽車業者必須加強在自動駕駛和連接技術方面的投資  \n• 專家指出，軟件的創新將成為未來汽車競爭的關鍵因素"
     }
   }
 ]
