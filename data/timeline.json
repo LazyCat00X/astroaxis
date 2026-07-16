@@ -500,13 +500,6 @@
       "type": "disaster"
     },
     {
-      "date": "2004-07-16",
-      "title": "Millennium Park, considered Chicago's first and most ambitious early 21st-centur",
-      "desc": "Millennium Park, considered Chicago's first and most ambitious early 21st-century architectural project, is opened to the public by Mayor Richard M. Daley.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2004-06-28",
       "title": "Iraq Sovereignty",
       "desc": "Coalition hands sovereignty to interim Iraqi government",
@@ -562,13 +555,6 @@
     }
   ],
   "1999": [
-    {
-      "date": "1999-07-16",
-      "title": "John F. Kennedy Jr., his wife, Carolyn Bessette-Kennedy, and her sister, Lauren ",
-      "desc": "John F. Kennedy Jr., his wife, Carolyn Bessette-Kennedy, and her sister, Lauren Bessette, die when the aircraft he is piloting crashes into the Atlantic Ocean off the coast of Martha's Vineyard.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1999-03-24",
       "title": "Kosovo War",
@@ -1193,13 +1179,6 @@
       "type": "politics"
     },
     {
-      "date": "1956-07-16",
-      "title": "Ringling Bros. and Barnum & Bailey Circus closes its last \"Big Tent\" show in Pit",
-      "desc": "Ringling Bros. and Barnum & Bailey Circus closes its last \"Big Tent\" show in Pittsburgh, Pennsylvania; due to changing economics, all subsequent circus shows will be held in arenas.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1956-06-28",
       "title": "Poznań Protests",
       "desc": "Polish workers protests against communist government",
@@ -1407,13 +1386,6 @@
       "source": "wikipedia"
     },
     {
-      "date": "1945-07-16",
-      "title": "World War II: The heavy cruiser USS Indianapolis leaves San Francisco with parts",
-      "desc": "World War II: The heavy cruiser USS Indianapolis leaves San Francisco with parts for the atomic bomb \"Little Boy\" bound for Tinian Island.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1945-06-28",
       "title": "Poland Government",
       "desc": "Soviet-backed government formed in Poland",
@@ -1455,13 +1427,6 @@
       "title": "Pearl Harbor",
       "desc": "Japan attacks US naval base, US enters WWII",
       "type": "politics"
-    },
-    {
-      "date": "1941-07-16",
-      "title": "Joe DiMaggio hits safely for the 56th consecutive game, a streak that still stan",
-      "desc": "Joe DiMaggio hits safely for the 56th consecutive game, a streak that still stands as an MLB record.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1941-06-22",
