@@ -183,13 +183,6 @@
       "type": "disaster"
     },
     {
-      "date": "2019-07-16",
-      "title": "A 100-year-old building in Mumbai, India, collapses, killing at least 10 people ",
-      "desc": "A 100-year-old building in Mumbai, India, collapses, killing at least 10 people and leaving many others trapped.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2019-04-15",
       "title": "Notre Dame Fire",
       "desc": "Major fire devastates Notre Dame Cathedral in Paris",
@@ -276,10 +269,10 @@
       "type": "science"
     },
     {
-      "date": "2015-07-16",
-      "title": "Four U.S. Marines and a United States Navy Sailor are killed in the a shooting s",
-      "desc": "Four U.S. Marines and a United States Navy Sailor are killed in the a shooting spree targeting military installations in Chattanooga, Tennessee.",
-      "type": "tech",
+      "date": "2015-07-17",
+      "title": "At least 120 people are killed and 130 injured by a suicide bombing in Diyala Go",
+      "desc": "At least 120 people are killed and 130 injured by a suicide bombing in Diyala Governorate, Iraq.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -289,6 +282,27 @@
       "title": "Scottish Independence Vote",
       "desc": "Scotland votes against independence from UK",
       "type": "politics"
+    },
+    {
+      "date": "2014-07-17",
+      "title": "Malaysia Airlines Flight 17, a Boeing 777, crashes near the border of Ukraine an",
+      "desc": "Malaysia Airlines Flight 17, a Boeing 777, crashes near the border of Ukraine and Russia after being shot down. All 298 people on board are killed.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2014-07-17",
+      "title": "A French regional train on the Pau-Bayonne line crashes into a high-speed train ",
+      "desc": "A French regional train on the Pau-Bayonne line crashes into a high-speed train near the town of Denguin, resulting in at least 25 injuries.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2014-07-17",
+      "title": "Eric Garner is killed by police officer Daniel Pantaleo in New York City, after ",
+      "desc": "Eric Garner is killed by police officer Daniel Pantaleo in New York City, after the latter put him in a prohibited chokehold while arresting him.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "2014-06-29",
@@ -309,20 +323,6 @@
       "title": "Nelson Mandela Dies",
       "desc": "Anti-apartheid icon dies at 95",
       "type": "politics"
-    },
-    {
-      "date": "2013-07-16",
-      "title": "As many as 27 children die and 25 others are hospitalized after eating lunch ser",
-      "desc": "As many as 27 children die and 25 others are hospitalized after eating lunch served at their school in eastern India.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2013-07-16",
-      "title": "Syrian civil war: The Battle of Ras al-Ayn resumes between the People's Protecti",
-      "desc": "Syrian civil war: The Battle of Ras al-Ayn resumes between the People's Protection Units (YPG) and Islamist forces, beginning the Rojava–Islamist conflict.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "2013-06-06",
@@ -399,13 +399,6 @@
   ],
   "2009": [
     {
-      "date": "2009-07-16",
-      "title": "Teoh Beng Hock, an aide to a politician in Malaysia is found dead on the rooftop",
-      "desc": "Teoh Beng Hock, an aide to a politician in Malaysia is found dead on the rooftop of a building adjacent to the offices of the Anti-Corruption Commission, sparking an inquest that gains nationwide atte",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2009-06-25",
       "title": "Michael Jackson Dies",
       "desc": "King of Pop dies at 50",
@@ -446,10 +439,10 @@
   ],
   "2007": [
     {
-      "date": "2007-07-16",
-      "title": "An earthquake of magnitude 6.8 and 6.6 aftershock occurs off the Niigata coast o",
-      "desc": "An earthquake of magnitude 6.8 and 6.6 aftershock occurs off the Niigata coast of Japan killing eight people, injuring at least 800 and damaging a nuclear power plant.",
-      "type": "climate",
+      "date": "2007-07-17",
+      "title": "TAM Airlines Flight 3054, an Airbus A320, crashes into a warehouse after landing",
+      "desc": "TAM Airlines Flight 3054, an Airbus A320, crashes into a warehouse after landing too fast and missing the end of the São Paulo–Congonhas Airport runway, killing 199 people.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -465,19 +458,21 @@
       "type": "tech"
     }
   ],
+  "2006": [
+    {
+      "date": "2006-07-17",
+      "title": "The 7.7 Mw Pangandaran tsunami earthquake severely affects the Indonesian island",
+      "desc": "The 7.7 Mw Pangandaran tsunami earthquake severely affects the Indonesian island of Java, killing 668 people, and leaving more than 9,000 injured.",
+      "type": "climate",
+      "source": "wikipedia"
+    }
+  ],
   "2005": [
     {
       "date": "2005-08-25",
       "title": "Hurricane Katrina",
       "desc": "Devastating hurricane hits New Orleans",
       "type": "disaster"
-    },
-    {
-      "date": "2005-07-16",
-      "title": "An Antonov An-24 crashes near Baney in Bioko Norte, Equatorial Guinea, killing 6",
-      "desc": "An Antonov An-24 crashes near Baney in Bioko Norte, Equatorial Guinea, killing 60 people.",
-      "type": "disaster",
-      "source": "wikipedia"
     },
     {
       "date": "2005-07-07",
@@ -548,6 +543,13 @@
       "type": "general"
     },
     {
+      "date": "2000-07-17",
+      "title": "During approach to Lok Nayak Jayaprakash Airport, Alliance Air Flight 7412 sudde",
+      "desc": "During approach to Lok Nayak Jayaprakash Airport, Alliance Air Flight 7412 suddenly crashes into a residential neighborhood in Patna, India, killing 60 people.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "2000-03-10",
       "title": "Dot-Com Bubble Burst",
       "desc": "NASDAQ peaks at 5048 before tech crash",
@@ -580,9 +582,30 @@
       "title": "Russian Default",
       "desc": "Russia defaults on domestic debt, ruble collapses",
       "type": "finance"
+    },
+    {
+      "date": "1998-07-17",
+      "title": "The 7.0 Mw Papua New Guinea earthquake triggers a tsunami that destroys ten vill",
+      "desc": "The 7.0 Mw Papua New Guinea earthquake triggers a tsunami that destroys ten villages in Papua New Guinea, killing up to 2,700 people, and leaving several thousand injured.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1998-07-17",
+      "title": "A diplomatic conference adopts the Rome Statute of the International Criminal Co",
+      "desc": "A diplomatic conference adopts the Rome Statute of the International Criminal Court, establishing the permanent international court in The Hague, to prosecute individuals for genocide, crimes against ",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1997": [
+    {
+      "date": "1997-07-17",
+      "title": "After takeoff from Husein Sastranegara International Airport, Sempati Air Flight",
+      "desc": "After takeoff from Husein Sastranegara International Airport, Sempati Air Flight 304 crashes into a residential neighborhood in Bandung, killing 28 people.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1997-07-01",
       "title": "Hong Kong Handover",
@@ -602,6 +625,15 @@
       "type": "tech"
     }
   ],
+  "1996": [
+    {
+      "date": "1996-07-17",
+      "title": "TWA Flight 800: Off the coast of Long Island, New York, a Paris-bound TWA Boeing",
+      "desc": "TWA Flight 800: Off the coast of Long Island, New York, a Paris-bound TWA Boeing 747 explodes, killing all 230 on board.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1995": [
     {
       "date": "1995-12-14",
@@ -618,10 +650,10 @@
   ],
   "1994": [
     {
-      "date": "1994-07-16",
-      "title": "The comet Shoemaker-Levy 9 is destroyed in a head-on collision with Jupiter.",
-      "desc": "The comet Shoemaker-Levy 9 is destroyed in a head-on collision with Jupiter.",
-      "type": "general",
+      "date": "1994-07-17",
+      "title": "Brazil win their fourth World Cup title, defeating Italy 3–2 on penalties.",
+      "desc": "Brazil win their fourth World Cup title, defeating Italy 3–2 on penalties.",
+      "type": "sports",
       "source": "wikipedia"
     },
     {
@@ -697,20 +729,6 @@
       "title": "Iraq Invades Kuwait",
       "desc": "Iraqi invasion triggers Gulf War",
       "type": "politics"
-    },
-    {
-      "date": "1990-07-16",
-      "title": "The Luzon earthquake strikes the Philippines with an intensity of 7.7, affecting",
-      "desc": "The Luzon earthquake strikes the Philippines with an intensity of 7.7, affecting Benguet, Pangasinan, Nueva Ecija, La Union, Aurora, Bataan, Zambales and Tarlac.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1990-07-16",
-      "title": "The Parliament of the Ukrainian SSR declares state sovereignty over the territor",
-      "desc": "The Parliament of the Ukrainian SSR declares state sovereignty over the territory of the Ukrainian SSR.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1990-04-24",
@@ -803,13 +821,6 @@
       "type": "disaster"
     },
     {
-      "date": "1983-07-16",
-      "title": "Sikorsky S-61 disaster: A helicopter crashes off the Isles of Scilly, causing 20",
-      "desc": "Sikorsky S-61 disaster: A helicopter crashes off the Isles of Scilly, causing 20 fatalities.",
-      "type": "disaster",
-      "source": "wikipedia"
-    },
-    {
       "date": "1983-01-01",
       "title": "Internet Born",
       "desc": "TCP/IP protocol adopted as ARPANET standard",
@@ -830,6 +841,15 @@
       "type": "politics"
     }
   ],
+  "1981": [
+    {
+      "date": "1981-07-17",
+      "title": "A structural failure leads to the collapse of a walkway at the Hyatt Regency in ",
+      "desc": "A structural failure leads to the collapse of a walkway at the Hyatt Regency in Kansas City, Missouri, killing 114 people and injuring more than 200.",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "1980": [
     {
       "date": "1980-09-22",
@@ -845,13 +865,6 @@
     }
   ],
   "1979": [
-    {
-      "date": "1979-07-16",
-      "title": "Iraqi President Ahmed Hassan al-Bakr resigns and is replaced by Saddam Hussein.",
-      "desc": "Iraqi President Ahmed Hassan al-Bakr resigns and is replaced by Saddam Hussein.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
     {
       "date": "1979-04-01",
       "title": "Iran Islamic Republic",
@@ -901,6 +914,20 @@
       "type": "science"
     },
     {
+      "date": "1976-07-17",
+      "title": "East Timor is annexed and becomes the 27th province of Indonesia.",
+      "desc": "East Timor is annexed and becomes the 27th province of Indonesia.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1976-07-17",
+      "title": "The opening of the Summer Olympics in Montreal is marred by 25 African teams boy",
+      "desc": "The opening of the Summer Olympics in Montreal is marred by 25 African teams boycotting the games because of New Zealand's participation. Contrary to rulings by other international sports organization",
+      "type": "sports",
+      "source": "wikipedia"
+    },
+    {
       "date": "1976-06-28",
       "title": "Angola Mercenaries Trial",
       "desc": "US and UK mercenaries sentenced to death in Angola",
@@ -908,6 +935,13 @@
     }
   ],
   "1975": [
+    {
+      "date": "1975-07-17",
+      "title": "Apollo–Soyuz Test Project: An American Apollo and a Soviet Soyuz spacecraft dock",
+      "desc": "Apollo–Soyuz Test Project: An American Apollo and a Soviet Soyuz spacecraft dock with each other in orbit marking the first such link-up between spacecraft from the two nations.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1975-04-30",
       "title": "Vietnam War Ends",
@@ -941,6 +975,13 @@
       "title": "Oil Crisis Begins",
       "desc": "OPEC oil embargo triggers global energy crisis",
       "type": "finance"
+    },
+    {
+      "date": "1973-07-17",
+      "title": "King Mohammed Zahir Shah of Afghanistan, while having surgery in Italy, is depos",
+      "desc": "King Mohammed Zahir Shah of Afghanistan, while having surgery in Italy, is deposed by his cousin Mohammed Daoud Khan.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1973-06-28",
@@ -991,13 +1032,6 @@
       "type": "science"
     },
     {
-      "date": "1969-07-16",
-      "title": "The Apollo 11 lunar landing mission is launched from Cape Kennedy in Florida, US",
-      "desc": "The Apollo 11 lunar landing mission is launched from Cape Kennedy in Florida, USA.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1969-06-28",
       "title": "Stonewall Riots",
       "desc": "Riots in NYC mark start of LGBTQ+ rights movement",
@@ -1010,6 +1044,13 @@
       "title": "Prague Spring",
       "desc": "Soviet-led forces invade Czechoslovakia",
       "type": "politics"
+    },
+    {
+      "date": "1968-07-17",
+      "title": "Abdul Rahman Arif is overthrown and the Ba'ath Party is installed as the governi",
+      "desc": "Abdul Rahman Arif is overthrown and the Ba'ath Party is installed as the governing power in Iraq with Ahmed Hassan al-Bakr as the new Iraqi President.",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "1968-06-05",
@@ -1044,20 +1085,6 @@
       "title": "Watts Riots",
       "desc": "Major race riots in Los Angeles",
       "type": "politics"
-    },
-    {
-      "date": "1965-07-16",
-      "title": "The Mont Blanc Tunnel linking France and Italy opens.",
-      "desc": "The Mont Blanc Tunnel linking France and Italy opens.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1965-07-16",
-      "title": "South Vietnamese Colonel Phạm Ngọc Thảo, a formerly undetected communist spy and",
-      "desc": "South Vietnamese Colonel Phạm Ngọc Thảo, a formerly undetected communist spy and double agent, is hunted down and killed by unknown individuals after being sentenced to death in absentia for a Februar",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1965-03-07",
@@ -1100,6 +1127,13 @@
       "title": "Cuban Missile Crisis",
       "desc": "US-USSR standoff brings world close to nuclear war",
       "type": "politics"
+    },
+    {
+      "date": "1962-07-17",
+      "title": "Nuclear weapons testing: The \"Small Boy\" test shot Little Feller I becomes the l",
+      "desc": "Nuclear weapons testing: The \"Small Boy\" test shot Little Feller I becomes the last atmospheric test detonation at the Nevada National Security Site.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1962-07-10",
@@ -1162,13 +1196,6 @@
       "title": "Sputnik Launched",
       "desc": "First artificial satellite, starts Space Age",
       "type": "science"
-    },
-    {
-      "date": "1957-07-16",
-      "title": "KLM Flight 844 crashes off the Schouten Islands in present day Indonesia (then N",
-      "desc": "KLM Flight 844 crashes off the Schouten Islands in present day Indonesia (then Netherlands New Guinea), killing 58 people.",
-      "type": "disaster",
-      "source": "wikipedia"
     }
   ],
   "1956": [
@@ -1201,6 +1228,13 @@
   ],
   "1954": [
     {
+      "date": "1954-07-17",
+      "title": "First Indochina War: Viet Minh troops successfully ambush the armoured French co",
+      "desc": "First Indochina War: Viet Minh troops successfully ambush the armoured French column 'G.M. 42' in the Battle of Chu Dreh Pass in the Central Highlands. It is the last battle of the war.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1954-05-17",
       "title": "Brown v. Board",
       "desc": "US Supreme Court declares school segregation unconstitutional",
@@ -1214,6 +1248,13 @@
     }
   ],
   "1953": [
+    {
+      "date": "1953-07-17",
+      "title": "The largest number of United States midshipman casualties in a single event resu",
+      "desc": "The largest number of United States midshipman casualties in a single event results from an aircraft crash in Florida, killing 44.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1953-06-02",
       "title": "Elizabeth Coronation",
@@ -1243,20 +1284,6 @@
   ],
   "1951": [
     {
-      "date": "1951-07-16",
-      "title": "King Leopold III of Belgium abdicates in favor of his son, Baudouin of Belgium.",
-      "desc": "King Leopold III of Belgium abdicates in favor of his son, Baudouin of Belgium.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1951-07-16",
-      "title": "J. D. Salinger publishes his popular yet controversial novel, The Catcher in the",
-      "desc": "J. D. Salinger publishes his popular yet controversial novel, The Catcher in the Rye.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1951-03-29",
       "title": "Rosenberg Spy Case",
       "desc": "Julius and Ethel Rosenberg convicted of espionage",
@@ -1269,20 +1296,6 @@
       "title": "China Enters Korean War",
       "desc": "Chinese forces engage UN troops in Korea",
       "type": "politics"
-    },
-    {
-      "date": "1950-07-16",
-      "title": "Chaplain–Medic massacre: American POWs are massacred by North Korean Army.",
-      "desc": "Chaplain–Medic massacre: American POWs are massacred by North Korean Army.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1950-07-16",
-      "title": "Uruguay beats hosts Brazil 2–1 to win the World Cup in a match dubbed as the Mar",
-      "desc": "Uruguay beats hosts Brazil 2–1 to win the World Cup in a match dubbed as the Maracanazo.",
-      "type": "sports",
-      "source": "wikipedia"
     },
     {
       "date": "1950-06-28",
@@ -1325,20 +1338,6 @@
       "type": "politics"
     },
     {
-      "date": "1948-07-16",
-      "title": "Following token resistance, the city of Nazareth, revered by Christians as the h",
-      "desc": "Following token resistance, the city of Nazareth, revered by Christians as the hometown of Jesus, capitulates to Israeli troops during Operation Dekel in the 1948 Arab–Israeli War.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1948-07-16",
-      "title": "The storming of the cockpit of the Miss Macao passenger seaplane, operated by a ",
-      "desc": "The storming of the cockpit of the Miss Macao passenger seaplane, operated by a subsidiary of the Cathay Pacific Airways, marks the first aircraft hijacking of a commercial plane.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1948-06-28",
       "title": "Tito-Stalin Split",
       "desc": "Yugoslavia expelled from Soviet bloc",
@@ -1379,10 +1378,10 @@
       "type": "disaster"
     },
     {
-      "date": "1945-07-16",
-      "title": "Manhattan Project: The Atomic Age begins when the United States successfully det",
-      "desc": "Manhattan Project: The Atomic Age begins when the United States successfully detonates a plutonium-based test nuclear weapon near Alamogordo, New Mexico.",
-      "type": "general",
+      "date": "1945-07-17",
+      "title": "World War II: The main three leaders of the Allied nations, Winston Churchill, H",
+      "desc": "World War II: The main three leaders of the Allied nations, Winston Churchill, Harry S. Truman and Joseph Stalin, hold the Potsdam Conference in the German city of Potsdam to decide the future of a de",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -1406,19 +1405,17 @@
       "type": "politics"
     },
     {
+      "date": "1944-07-17",
+      "title": "Port Chicago disaster: Near the San Francisco Bay, two ships laden with ammuniti",
+      "desc": "Port Chicago disaster: Near the San Francisco Bay, two ships laden with ammunition for the war explode in Port Chicago, California, killing 320.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1944-06-06",
       "title": "D-Day",
       "desc": "Allied forces land in Normandy, liberating Europe",
       "type": "politics"
-    }
-  ],
-  "1942": [
-    {
-      "date": "1942-07-16",
-      "title": "Holocaust: Vel' d'Hiv Roundup (Rafle du Vel' d'Hiv): The government of Vichy Fra",
-      "desc": "Holocaust: Vel' d'Hiv Roundup (Rafle du Vel' d'Hiv): The government of Vichy France orders the mass arrest of 13,152 Jews who are held at the Vélodrome d'Hiver in Paris before deportation to Auschwitz",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1941": [
@@ -1449,6 +1446,15 @@
       "type": "politics"
     }
   ],
+  "1938": [
+    {
+      "date": "1938-07-17",
+      "title": "Douglas Corrigan takes off from Brooklyn to fly the \"wrong way\" to Ireland and b",
+      "desc": "Douglas Corrigan takes off from Brooklyn to fly the \"wrong way\" to Ireland and becomes known as \"Wrong Way\" Corrigan.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1937": [
     {
       "date": "1937-07-07",
@@ -1471,19 +1477,17 @@
       "type": "politics"
     },
     {
+      "date": "1936-07-17",
+      "title": "Spanish Civil War: An Armed Forces rebellion against the recently elected leftis",
+      "desc": "Spanish Civil War: An Armed Forces rebellion against the recently elected leftist Popular Front government of Spain starts the civil war.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1936-06-28",
       "title": "Mengjiang Founded",
       "desc": "Japanese puppet state established in Inner Mongolia",
       "type": "politics"
-    }
-  ],
-  "1935": [
-    {
-      "date": "1935-07-16",
-      "title": "The world's first parking meter is installed in Oklahoma City, Oklahoma.",
-      "desc": "The world's first parking meter is installed in Oklahoma City, Oklahoma.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1933": [
@@ -1500,12 +1504,12 @@
       "type": "politics"
     }
   ],
-  "1931": [
+  "1932": [
     {
-      "date": "1931-07-16",
-      "title": "Emperor Haile Selassie signs the first constitution of Ethiopia.",
-      "desc": "Emperor Haile Selassie signs the first constitution of Ethiopia.",
-      "type": "tech",
+      "date": "1932-07-17",
+      "title": "Altona Bloody Sunday: A riot between the Nazi Party paramilitary forces, the SS ",
+      "desc": "Altona Bloody Sunday: A riot between the Nazi Party paramilitary forces, the SS and SA, and the German Communist Party ensues.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -1537,13 +1541,6 @@
       "title": "The Jazz Singer",
       "desc": "First feature-length 'talkie' film released",
       "type": "general"
-    },
-    {
-      "date": "1927-07-16",
-      "title": "Augusto César Sandino leads a raid on U.S. Marines and Nicaraguan Guardia Nacion",
-      "desc": "Augusto César Sandino leads a raid on U.S. Marines and Nicaraguan Guardia Nacional that had been sent to apprehend him in the village of Ocotal, but is repulsed by one of the first dive-bombing attack",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1927-05-20",
@@ -1604,6 +1601,13 @@
   ],
   "1919": [
     {
+      "date": "1919-07-17",
+      "title": "The form of government in the Republic of Finland is officially confirmed. For t",
+      "desc": "The form of government in the Republic of Finland is officially confirmed. For this reason, July 17 is known as the Day of Democracy (Kansanvallan päivä) in Finland.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1919-06-28",
       "title": "Treaty of Versailles",
       "desc": "Treaty ends WWI, imposes reparations on Germany",
@@ -1624,6 +1628,20 @@
       "type": "politics"
     },
     {
+      "date": "1918-07-17",
+      "title": "Tsar Nicholas II of Russia and his immediate family and retainers are executed b",
+      "desc": "Tsar Nicholas II of Russia and his immediate family and retainers are executed by Bolshevik Chekists at the Ipatiev House in Yekaterinburg, Russia.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1918-07-17",
+      "title": "The RMS Carpathia is sunk off Ireland by the German SM U-55; five lives are lost",
+      "desc": "The RMS Carpathia is sunk off Ireland by the German SM U-55; five lives are lost.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1918-03-04",
       "title": "Spanish Flu First Case",
       "desc": "First case of deadly pandemic reported in Kansas",
@@ -1642,31 +1660,6 @@
       "title": "Greece Enters WWI",
       "desc": "Greece joins Allied powers in World War I",
       "type": "politics"
-    }
-  ],
-  "1916": [
-    {
-      "date": "1916-07-16",
-      "title": "Max Reger's Hebbel Requiem is first performed in a memorial concert for the comp",
-      "desc": "Max Reger's Hebbel Requiem is first performed in a memorial concert for the composer, conducted by Philipp Wolfrum.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
-  "1915": [
-    {
-      "date": "1915-07-16",
-      "title": "Henry James becomes a British citizen to highlight his commitment to Britain dur",
-      "desc": "Henry James becomes a British citizen to highlight his commitment to Britain during the first World War.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1915-07-16",
-      "title": "At Treasure Island on the Delaware River in the United States, the First Order o",
-      "desc": "At Treasure Island on the Delaware River in the United States, the First Order of the Arrow ceremony takes place and the Order of the Arrow is founded to honor American Boy Scouts who best exemplify t",
-      "type": "politics",
-      "source": "wikipedia"
     }
   ],
   "1914": [
@@ -1709,24 +1702,6 @@
       "title": "Nakhla Meteorite",
       "desc": "Meteorite falls in Egypt, first to suggest signs of water on Mars",
       "type": "science"
-    }
-  ],
-  "1910": [
-    {
-      "date": "1910-07-16",
-      "title": "John Robertson Duigan makes the first flight of the Duigan pusher biplane, the f",
-      "desc": "John Robertson Duigan makes the first flight of the Duigan pusher biplane, the first aircraft built in Australia.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
-  "1909": [
-    {
-      "date": "1909-07-16",
-      "title": "Persian Constitutional Revolution: Mohammad Ali Shah Qajar is forced out as Shah",
-      "desc": "Persian Constitutional Revolution: Mohammad Ali Shah Qajar is forced out as Shah of Persia and is replaced by his son Ahmad Shah Qajar.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1905": [
