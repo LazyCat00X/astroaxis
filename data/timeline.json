@@ -183,6 +183,13 @@
       "type": "disaster"
     },
     {
+      "date": "2019-07-18",
+      "title": "A man sets fire to an anime studio in Fushimi-ku, Kyoto, Japan, killing 36 peopl",
+      "desc": "A man sets fire to an anime studio in Fushimi-ku, Kyoto, Japan, killing 36 people and injuring dozens of others.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2019-04-15",
       "title": "Notre Dame Fire",
       "desc": "Major fire devastates Notre Dame Cathedral in Paris",
@@ -267,13 +274,6 @@
       "title": "Pluto Flyby",
       "desc": "New Horizons completes first flyby of Pluto",
       "type": "science"
-    },
-    {
-      "date": "2015-07-17",
-      "title": "At least 120 people are killed and 130 injured by a suicide bombing in Diyala Go",
-      "desc": "At least 120 people are killed and 130 injured by a suicide bombing in Diyala Governorate, Iraq.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "2014": [
@@ -284,23 +284,9 @@
       "type": "politics"
     },
     {
-      "date": "2014-07-17",
-      "title": "Malaysia Airlines Flight 17, a Boeing 777, crashes near the border of Ukraine an",
-      "desc": "Malaysia Airlines Flight 17, a Boeing 777, crashes near the border of Ukraine and Russia after being shot down. All 298 people on board are killed.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2014-07-17",
-      "title": "A French regional train on the Pau-Bayonne line crashes into a high-speed train ",
-      "desc": "A French regional train on the Pau-Bayonne line crashes into a high-speed train near the town of Denguin, resulting in at least 25 injuries.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2014-07-17",
-      "title": "Eric Garner is killed by police officer Daniel Pantaleo in New York City, after ",
-      "desc": "Eric Garner is killed by police officer Daniel Pantaleo in New York City, after the latter put him in a prohibited chokehold while arresting him.",
+      "date": "2014-07-18",
+      "title": "The Islamic State of Iraq and the Levant requires Christians to either accept dh",
+      "desc": "The Islamic State of Iraq and the Levant requires Christians to either accept dhimmi status, emigrate from ISIL lands, or be killed.",
       "type": "general",
       "source": "wikipedia"
     },
@@ -325,6 +311,13 @@
       "type": "politics"
     },
     {
+      "date": "2013-07-18",
+      "title": "The Government of Detroit, with up to $20 billion in debt, files for the largest",
+      "desc": "The Government of Detroit, with up to $20 billion in debt, files for the largest municipal bankruptcy in U.S. history.",
+      "type": "finance",
+      "source": "wikipedia"
+    },
+    {
       "date": "2013-06-06",
       "title": "Snowden Leaks",
       "desc": "Edward Snowden reveals global surveillance programs",
@@ -343,6 +336,13 @@
       "title": "Mayan Calendar Phenomenon",
       "desc": "Global fascination with predicted 'end of the world'",
       "type": "general"
+    },
+    {
+      "date": "2012-07-18",
+      "title": "At least seven people are killed and 32 others are injured after a bomb explodes",
+      "desc": "At least seven people are killed and 32 others are injured after a bomb explodes on an Israeli tour bus at Burgas Airport, Bulgaria.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "2012-07-04",
@@ -439,13 +439,6 @@
   ],
   "2007": [
     {
-      "date": "2007-07-17",
-      "title": "TAM Airlines Flight 3054, an Airbus A320, crashes into a warehouse after landing",
-      "desc": "TAM Airlines Flight 3054, an Airbus A320, crashes into a warehouse after landing too fast and missing the end of the São Paulo–Congonhas Airport runway, killing 199 people.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2007-06-29",
       "title": "iPhone Released",
       "desc": "First iPhone goes on sale, revolutionizes mobile",
@@ -456,15 +449,6 @@
       "title": "iPhone Unveiled",
       "desc": "Steve Jobs introduces the first iPhone",
       "type": "tech"
-    }
-  ],
-  "2006": [
-    {
-      "date": "2006-07-17",
-      "title": "The 7.7 Mw Pangandaran tsunami earthquake severely affects the Indonesian island",
-      "desc": "The 7.7 Mw Pangandaran tsunami earthquake severely affects the Indonesian island of Java, killing 668 people, and leaving more than 9,000 injured.",
-      "type": "climate",
-      "source": "wikipedia"
     }
   ],
   "2005": [
@@ -521,6 +505,15 @@
       "type": "disaster"
     }
   ],
+  "2002": [
+    {
+      "date": "2002-07-18",
+      "title": "A Consolidated PB4Y-2 Privateer crashes near Estes Park, Colorado, killing both ",
+      "desc": "A Consolidated PB4Y-2 Privateer crashes near Estes Park, Colorado, killing both crew members.",
+      "type": "disaster",
+      "source": "wikipedia"
+    }
+  ],
   "2001": [
     {
       "date": "2001-09-11",
@@ -541,13 +534,6 @@
       "title": "Millennium",
       "desc": "World celebrates the turn of the millennium",
       "type": "general"
-    },
-    {
-      "date": "2000-07-17",
-      "title": "During approach to Lok Nayak Jayaprakash Airport, Alliance Air Flight 7412 sudde",
-      "desc": "During approach to Lok Nayak Jayaprakash Airport, Alliance Air Flight 7412 suddenly crashes into a residential neighborhood in Patna, India, killing 60 people.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "2000-03-10",
@@ -582,30 +568,9 @@
       "title": "Russian Default",
       "desc": "Russia defaults on domestic debt, ruble collapses",
       "type": "finance"
-    },
-    {
-      "date": "1998-07-17",
-      "title": "The 7.0 Mw Papua New Guinea earthquake triggers a tsunami that destroys ten vill",
-      "desc": "The 7.0 Mw Papua New Guinea earthquake triggers a tsunami that destroys ten villages in Papua New Guinea, killing up to 2,700 people, and leaving several thousand injured.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1998-07-17",
-      "title": "A diplomatic conference adopts the Rome Statute of the International Criminal Co",
-      "desc": "A diplomatic conference adopts the Rome Statute of the International Criminal Court, establishing the permanent international court in The Hague, to prosecute individuals for genocide, crimes against ",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1997": [
-    {
-      "date": "1997-07-17",
-      "title": "After takeoff from Husein Sastranegara International Airport, Sempati Air Flight",
-      "desc": "After takeoff from Husein Sastranegara International Airport, Sempati Air Flight 304 crashes into a residential neighborhood in Bandung, killing 28 people.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1997-07-01",
       "title": "Hong Kong Handover",
@@ -627,10 +592,17 @@
   ],
   "1996": [
     {
-      "date": "1996-07-17",
-      "title": "TWA Flight 800: Off the coast of Long Island, New York, a Paris-bound TWA Boeing",
-      "desc": "TWA Flight 800: Off the coast of Long Island, New York, a Paris-bound TWA Boeing 747 explodes, killing all 230 on board.",
-      "type": "general",
+      "date": "1996-07-18",
+      "title": "Storms provoke severe flooding on the Saguenay River, beginning one of Quebec's ",
+      "desc": "Storms provoke severe flooding on the Saguenay River, beginning one of Quebec's costliest natural disasters ever.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1996-07-18",
+      "title": "Battle of Mullaitivu: The Liberation Tigers of Tamil Eelam capture the Sri Lanka",
+      "desc": "Battle of Mullaitivu: The Liberation Tigers of Tamil Eelam capture the Sri Lanka Army's base, killing over 1,200 soldiers.",
+      "type": "tech",
       "source": "wikipedia"
     }
   ],
@@ -642,6 +614,13 @@
       "type": "politics"
     },
     {
+      "date": "1995-07-18",
+      "title": "On the Caribbean island of Montserrat, the Soufrière Hills volcano erupts. Over ",
+      "desc": "On the Caribbean island of Montserrat, the Soufrière Hills volcano erupts. Over the course of several years, it devastates the island, destroying the capital, forcing most of the population to flee.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
       "date": "1995-04-19",
       "title": "Oklahoma City Bombing",
       "desc": "Domestic terrorist attack kills 168 in Oklahoma",
@@ -650,10 +629,17 @@
   ],
   "1994": [
     {
-      "date": "1994-07-17",
-      "title": "Brazil win their fourth World Cup title, defeating Italy 3–2 on penalties.",
-      "desc": "Brazil win their fourth World Cup title, defeating Italy 3–2 on penalties.",
-      "type": "sports",
+      "date": "1994-07-18",
+      "title": "The bombing of the Asociación Mutual Israelita Argentina (Argentine Jewish Commu",
+      "desc": "The bombing of the Asociación Mutual Israelita Argentina (Argentine Jewish Community Center) in Buenos Aires kills 85 people (mostly Jewish) and injures 300.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1994-07-18",
+      "title": "Rwandan genocide: The Rwandan Patriotic Front takes control of Gisenyi and north",
+      "desc": "Rwandan genocide: The Rwandan Patriotic Front takes control of Gisenyi and north western Rwanda, forcing the interim government into Zaire and ending the genocide.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -689,6 +675,13 @@
       "title": "First SMS Sent",
       "desc": "First text message sent: 'Merry Christmas'",
       "type": "tech"
+    },
+    {
+      "date": "1992-07-18",
+      "title": "A picture of Les Horribles Cernettes was taken, which became the first ever phot",
+      "desc": "A picture of Les Horribles Cernettes was taken, which became the first ever photo posted to the World Wide Web.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1992-04-29",
@@ -813,6 +806,15 @@
       "type": "politics"
     }
   ],
+  "1984": [
+    {
+      "date": "1984-07-18",
+      "title": "McDonald's massacre in San Ysidro, California: James Oliver Huberty kills 21 peo",
+      "desc": "McDonald's massacre in San Ysidro, California: James Oliver Huberty kills 21 people and injures 19 others before being shot dead by police.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1983": [
     {
       "date": "1983-09-01",
@@ -829,6 +831,13 @@
   ],
   "1982": [
     {
+      "date": "1982-07-18",
+      "title": "Two hundred sixty-eight Guatemalan campesinos (\"peasants\" or \"country people\") a",
+      "desc": "Two hundred sixty-eight Guatemalan campesinos (\"peasants\" or \"country people\") are slain in the Plan de Sánchez massacre.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1982-06-28",
       "title": "Aeroflot Flight 8641",
       "desc": "Plane crash in Belarus kills 132",
@@ -843,9 +852,9 @@
   ],
   "1981": [
     {
-      "date": "1981-07-17",
-      "title": "A structural failure leads to the collapse of a walkway at the Hyatt Regency in ",
-      "desc": "A structural failure leads to the collapse of a walkway at the Hyatt Regency in Kansas City, Missouri, killing 114 people and injuring more than 200.",
+      "date": "1981-07-18",
+      "title": "A Canadair CL-44 and Sukhoi Su-15 collide in mid-air near Yerevan, Armenia, kill",
+      "desc": "A Canadair CL-44 and Sukhoi Su-15 collide in mid-air near Yerevan, Armenia, killing four.",
       "type": "tech",
       "source": "wikipedia"
     }
@@ -865,6 +874,13 @@
     }
   ],
   "1979": [
+    {
+      "date": "1979-07-18",
+      "title": "A landslide occurs on the Iliwerung volcano in Indonesia, triggering a tsunami t",
+      "desc": "A landslide occurs on the Iliwerung volcano in Indonesia, triggering a tsunami that kills over 530 and leaves 700 missing.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
     {
       "date": "1979-04-01",
       "title": "Iran Islamic Republic",
@@ -914,16 +930,9 @@
       "type": "science"
     },
     {
-      "date": "1976-07-17",
-      "title": "East Timor is annexed and becomes the 27th province of Indonesia.",
-      "desc": "East Timor is annexed and becomes the 27th province of Indonesia.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1976-07-17",
-      "title": "The opening of the Summer Olympics in Montreal is marred by 25 African teams boy",
-      "desc": "The opening of the Summer Olympics in Montreal is marred by 25 African teams boycotting the games because of New Zealand's participation. Contrary to rulings by other international sports organization",
+      "date": "1976-07-18",
+      "title": "Nadia Comăneci becomes the first person in Olympic Games history to score a perf",
+      "desc": "Nadia Comăneci becomes the first person in Olympic Games history to score a perfect 10 in gymnastics at the 1976 Summer Olympics.",
       "type": "sports",
       "source": "wikipedia"
     },
@@ -935,13 +944,6 @@
     }
   ],
   "1975": [
-    {
-      "date": "1975-07-17",
-      "title": "Apollo–Soyuz Test Project: An American Apollo and a Soviet Soyuz spacecraft dock",
-      "desc": "Apollo–Soyuz Test Project: An American Apollo and a Soviet Soyuz spacecraft dock with each other in orbit marking the first such link-up between spacecraft from the two nations.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1975-04-30",
       "title": "Vietnam War Ends",
@@ -975,13 +977,6 @@
       "title": "Oil Crisis Begins",
       "desc": "OPEC oil embargo triggers global energy crisis",
       "type": "finance"
-    },
-    {
-      "date": "1973-07-17",
-      "title": "King Mohammed Zahir Shah of Afghanistan, while having surgery in Italy, is depos",
-      "desc": "King Mohammed Zahir Shah of Afghanistan, while having surgery in Italy, is deposed by his cousin Mohammed Daoud Khan.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1973-06-28",
@@ -1018,6 +1013,15 @@
       "type": "finance"
     }
   ],
+  "1970": [
+    {
+      "date": "1970-07-18",
+      "title": "An Antonov An-22 of the Soviet Air Forces crashes into the Atlantic Ocean, killi",
+      "desc": "An Antonov An-22 of the Soviet Air Forces crashes into the Atlantic Ocean, killing all 23 aboard.",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "1969": [
     {
       "date": "1969-08-15",
@@ -1046,10 +1050,10 @@
       "type": "politics"
     },
     {
-      "date": "1968-07-17",
-      "title": "Abdul Rahman Arif is overthrown and the Ba'ath Party is installed as the governi",
-      "desc": "Abdul Rahman Arif is overthrown and the Ba'ath Party is installed as the governing power in Iraq with Ahmed Hassan al-Bakr as the new Iraqi President.",
-      "type": "politics",
+      "date": "1968-07-18",
+      "title": "Intel is founded in Mountain View, California.",
+      "desc": "Intel is founded in Mountain View, California.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -1077,6 +1081,22 @@
       "title": "Six-Day War",
       "desc": "Israel defeats Egypt, Jordan, Syria in six-day war",
       "type": "politics"
+    }
+  ],
+  "1966": [
+    {
+      "date": "1966-07-18",
+      "title": "Human spaceflight: Gemini 10 is launched from Cape Kennedy on a 70-hour mission ",
+      "desc": "Human spaceflight: Gemini 10 is launched from Cape Kennedy on a 70-hour mission that includes docking with an orbiting Agena target vehicle.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1966-07-18",
+      "title": "A racially charged incident in a bar sparks the six-day Hough riots in Cleveland",
+      "desc": "A racially charged incident in a bar sparks the six-day Hough riots in Cleveland, Ohio; 1,700 Ohio National Guard troops intervene to restore order.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1965": [
@@ -1127,13 +1147,6 @@
       "title": "Cuban Missile Crisis",
       "desc": "US-USSR standoff brings world close to nuclear war",
       "type": "politics"
-    },
-    {
-      "date": "1962-07-17",
-      "title": "Nuclear weapons testing: The \"Small Boy\" test shot Little Feller I becomes the l",
-      "desc": "Nuclear weapons testing: The \"Small Boy\" test shot Little Feller I becomes the last atmospheric test detonation at the Nevada National Security Site.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1962-07-10",
@@ -1228,13 +1241,6 @@
   ],
   "1954": [
     {
-      "date": "1954-07-17",
-      "title": "First Indochina War: Viet Minh troops successfully ambush the armoured French co",
-      "desc": "First Indochina War: Viet Minh troops successfully ambush the armoured French column 'G.M. 42' in the Battle of Chu Dreh Pass in the Central Highlands. It is the last battle of the war.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1954-05-17",
       "title": "Brown v. Board",
       "desc": "US Supreme Court declares school segregation unconstitutional",
@@ -1248,13 +1254,6 @@
     }
   ],
   "1953": [
-    {
-      "date": "1953-07-17",
-      "title": "The largest number of United States midshipman casualties in a single event resu",
-      "desc": "The largest number of United States midshipman casualties in a single event results from an aircraft crash in Florida, killing 44.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1953-06-02",
       "title": "Elizabeth Coronation",
@@ -1378,13 +1377,6 @@
       "type": "disaster"
     },
     {
-      "date": "1945-07-17",
-      "title": "World War II: The main three leaders of the Allied nations, Winston Churchill, H",
-      "desc": "World War II: The main three leaders of the Allied nations, Winston Churchill, Harry S. Truman and Joseph Stalin, hold the Potsdam Conference in the German city of Potsdam to decide the future of a de",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1945-06-28",
       "title": "Poland Government",
       "desc": "Soviet-backed government formed in Poland",
@@ -1405,9 +1397,9 @@
       "type": "politics"
     },
     {
-      "date": "1944-07-17",
-      "title": "Port Chicago disaster: Near the San Francisco Bay, two ships laden with ammuniti",
-      "desc": "Port Chicago disaster: Near the San Francisco Bay, two ships laden with ammunition for the war explode in Port Chicago, California, killing 320.",
+      "date": "1944-07-18",
+      "title": "World War II: Hideki Tōjō resigns as Prime Minister of Japan because of numerous",
+      "desc": "World War II: Hideki Tōjō resigns as Prime Minister of Japan because of numerous setbacks in the war effort.",
       "type": "politics",
       "source": "wikipedia"
     },
@@ -1416,6 +1408,22 @@
       "title": "D-Day",
       "desc": "Allied forces land in Normandy, liberating Europe",
       "type": "politics"
+    }
+  ],
+  "1942": [
+    {
+      "date": "1942-07-18",
+      "title": "World War II: During the Beisfjord massacre in Norway, 15 Norwegian paramilitary",
+      "desc": "World War II: During the Beisfjord massacre in Norway, 15 Norwegian paramilitary guards help members of the SS to kill 288 political prisoners from Yugoslavia.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1942-07-18",
+      "title": "The Germans test fly the Messerschmitt Me 262 using its jet engines for the firs",
+      "desc": "The Germans test fly the Messerschmitt Me 262 using its jet engines for the first time.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1941": [
@@ -1446,15 +1454,6 @@
       "type": "politics"
     }
   ],
-  "1938": [
-    {
-      "date": "1938-07-17",
-      "title": "Douglas Corrigan takes off from Brooklyn to fly the \"wrong way\" to Ireland and b",
-      "desc": "Douglas Corrigan takes off from Brooklyn to fly the \"wrong way\" to Ireland and becomes known as \"Wrong Way\" Corrigan.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1937": [
     {
       "date": "1937-07-07",
@@ -1477,13 +1476,6 @@
       "type": "politics"
     },
     {
-      "date": "1936-07-17",
-      "title": "Spanish Civil War: An Armed Forces rebellion against the recently elected leftis",
-      "desc": "Spanish Civil War: An Armed Forces rebellion against the recently elected leftist Popular Front government of Spain starts the civil war.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1936-06-28",
       "title": "Mengjiang Founded",
       "desc": "Japanese puppet state established in Inner Mongolia",
@@ -1502,15 +1494,6 @@
       "title": "Hitler Chancellor",
       "desc": "Adolf Hitler appointed Chancellor of Germany",
       "type": "politics"
-    }
-  ],
-  "1932": [
-    {
-      "date": "1932-07-17",
-      "title": "Altona Bloody Sunday: A riot between the Nazi Party paramilitary forces, the SS ",
-      "desc": "Altona Bloody Sunday: A riot between the Nazi Party paramilitary forces, the SS and SA, and the German Communist Party ensues.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1929": [
@@ -1563,6 +1546,15 @@
       "type": "science"
     }
   ],
+  "1925": [
+    {
+      "date": "1925-07-18",
+      "title": "Adolf Hitler publishes Mein Kampf.",
+      "desc": "Adolf Hitler publishes Mein Kampf.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1924": [
     {
       "date": "1924-01-21",
@@ -1601,13 +1593,6 @@
   ],
   "1919": [
     {
-      "date": "1919-07-17",
-      "title": "The form of government in the Republic of Finland is officially confirmed. For t",
-      "desc": "The form of government in the Republic of Finland is officially confirmed. For this reason, July 17 is known as the Day of Democracy (Kansanvallan päivä) in Finland.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1919-06-28",
       "title": "Treaty of Versailles",
       "desc": "Treaty ends WWI, imposes reparations on Germany",
@@ -1626,20 +1611,6 @@
       "title": "WWI Armistice",
       "desc": "World War I ends at 11th hour of 11th day",
       "type": "politics"
-    },
-    {
-      "date": "1918-07-17",
-      "title": "Tsar Nicholas II of Russia and his immediate family and retainers are executed b",
-      "desc": "Tsar Nicholas II of Russia and his immediate family and retainers are executed by Bolshevik Chekists at the Ipatiev House in Yekaterinburg, Russia.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1918-07-17",
-      "title": "The RMS Carpathia is sunk off Ireland by the German SM U-55; five lives are lost",
-      "desc": "The RMS Carpathia is sunk off Ireland by the German SM U-55; five lives are lost.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1918-03-04",
@@ -1668,6 +1639,13 @@
       "title": "WWI Begins",
       "desc": "Austria-Hungary declares war on Serbia",
       "type": "politics"
+    },
+    {
+      "date": "1914-07-18",
+      "title": "The U.S. Congress forms the Aviation Section, U.S. Signal Corps, giving official",
+      "desc": "The U.S. Congress forms the Aviation Section, U.S. Signal Corps, giving official status to aircraft within the U.S. Army for the first time.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1914-06-28",
