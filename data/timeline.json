@@ -183,13 +183,6 @@
       "type": "disaster"
     },
     {
-      "date": "2019-07-18",
-      "title": "A man sets fire to an anime studio in Fushimi-ku, Kyoto, Japan, killing 36 peopl",
-      "desc": "A man sets fire to an anime studio in Fushimi-ku, Kyoto, Japan, killing 36 people and injuring dozens of others.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2019-04-15",
       "title": "Notre Dame Fire",
       "desc": "Major fire devastates Notre Dame Cathedral in Paris",
@@ -203,6 +196,13 @@
     }
   ],
   "2018": [
+    {
+      "date": "2018-07-19",
+      "title": "The Knesset passes the controversial Nationality Bill, which defines the State o",
+      "desc": "The Knesset passes the controversial Nationality Bill, which defines the State of Israel as the nation-state of the Jewish people.",
+      "type": "crypto",
+      "source": "wikipedia"
+    },
     {
       "date": "2018-06-12",
       "title": "Trump-Kim Summit",
@@ -284,9 +284,9 @@
       "type": "politics"
     },
     {
-      "date": "2014-07-18",
-      "title": "The Islamic State of Iraq and the Levant requires Christians to either accept dh",
-      "desc": "The Islamic State of Iraq and the Levant requires Christians to either accept dhimmi status, emigrate from ISIL lands, or be killed.",
+      "date": "2014-07-19",
+      "title": "Gunmen in Egypt's western desert province of New Valley Governorate attack a mil",
+      "desc": "Gunmen in Egypt's western desert province of New Valley Governorate attack a military checkpoint, killing at least 21 soldiers. Egypt reportedly declares a state of emergency on its border with Sudan.",
       "type": "general",
       "source": "wikipedia"
     },
@@ -311,13 +311,6 @@
       "type": "politics"
     },
     {
-      "date": "2013-07-18",
-      "title": "The Government of Detroit, with up to $20 billion in debt, files for the largest",
-      "desc": "The Government of Detroit, with up to $20 billion in debt, files for the largest municipal bankruptcy in U.S. history.",
-      "type": "finance",
-      "source": "wikipedia"
-    },
-    {
       "date": "2013-06-06",
       "title": "Snowden Leaks",
       "desc": "Edward Snowden reveals global surveillance programs",
@@ -338,10 +331,10 @@
       "type": "general"
     },
     {
-      "date": "2012-07-18",
-      "title": "At least seven people are killed and 32 others are injured after a bomb explodes",
-      "desc": "At least seven people are killed and 32 others are injured after a bomb explodes on an Israeli tour bus at Burgas Airport, Bulgaria.",
-      "type": "tech",
+      "date": "2012-07-19",
+      "title": "Syrian civil war: The People's Protection Units (YPG) capture the city of Kobanî",
+      "desc": "Syrian civil war: The People's Protection Units (YPG) capture the city of Kobanî without resistance, starting the Rojava conflict in Northeast Syria.",
+      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -358,6 +351,13 @@
     }
   ],
   "2011": [
+    {
+      "date": "2011-07-19",
+      "title": "Guinean President Alpha Condé survives an attempted assassination and coup d'éta",
+      "desc": "Guinean President Alpha Condé survives an attempted assassination and coup d'état at his residence in Conakry.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
     {
       "date": "2011-05-02",
       "title": "Bin Laden Killed",
@@ -505,15 +505,6 @@
       "type": "disaster"
     }
   ],
-  "2002": [
-    {
-      "date": "2002-07-18",
-      "title": "A Consolidated PB4Y-2 Privateer crashes near Estes Park, Colorado, killing both ",
-      "desc": "A Consolidated PB4Y-2 Privateer crashes near Estes Park, Colorado, killing both crew members.",
-      "type": "disaster",
-      "source": "wikipedia"
-    }
-  ],
   "2001": [
     {
       "date": "2001-09-11",
@@ -572,6 +563,13 @@
   ],
   "1997": [
     {
+      "date": "1997-07-19",
+      "title": "The Troubles: The Provisional Irish Republican Army resumes a ceasefire to end t",
+      "desc": "The Troubles: The Provisional Irish Republican Army resumes a ceasefire to end their 25-year paramilitary campaign to end British rule in Northern Ireland.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1997-07-01",
       "title": "Hong Kong Handover",
       "desc": "Hong Kong returned to China after 156 years of British rule",
@@ -590,35 +588,12 @@
       "type": "tech"
     }
   ],
-  "1996": [
-    {
-      "date": "1996-07-18",
-      "title": "Storms provoke severe flooding on the Saguenay River, beginning one of Quebec's ",
-      "desc": "Storms provoke severe flooding on the Saguenay River, beginning one of Quebec's costliest natural disasters ever.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1996-07-18",
-      "title": "Battle of Mullaitivu: The Liberation Tigers of Tamil Eelam capture the Sri Lanka",
-      "desc": "Battle of Mullaitivu: The Liberation Tigers of Tamil Eelam capture the Sri Lanka Army's base, killing over 1,200 soldiers.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
   "1995": [
     {
       "date": "1995-12-14",
       "title": "Dayton Agreement",
       "desc": "Peace agreement ends Bosnian War",
       "type": "politics"
-    },
-    {
-      "date": "1995-07-18",
-      "title": "On the Caribbean island of Montserrat, the Soufrière Hills volcano erupts. Over ",
-      "desc": "On the Caribbean island of Montserrat, the Soufrière Hills volcano erupts. Over the course of several years, it devastates the island, destroying the capital, forcing most of the population to flee.",
-      "type": "climate",
-      "source": "wikipedia"
     },
     {
       "date": "1995-04-19",
@@ -629,16 +604,9 @@
   ],
   "1994": [
     {
-      "date": "1994-07-18",
-      "title": "The bombing of the Asociación Mutual Israelita Argentina (Argentine Jewish Commu",
-      "desc": "The bombing of the Asociación Mutual Israelita Argentina (Argentine Jewish Community Center) in Buenos Aires kills 85 people (mostly Jewish) and injures 300.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1994-07-18",
-      "title": "Rwandan genocide: The Rwandan Patriotic Front takes control of Gisenyi and north",
-      "desc": "Rwandan genocide: The Rwandan Patriotic Front takes control of Gisenyi and north western Rwanda, forcing the interim government into Zaire and ending the genocide.",
+      "date": "1994-07-19",
+      "title": "Alas Chiricanas Flight 00901 is destroyed by a bomb after takeoff from Enrique A",
+      "desc": "Alas Chiricanas Flight 00901 is destroyed by a bomb after takeoff from Enrique Adolfo Jiménez Airport in Colón, Panama, killing 21.",
       "type": "tech",
       "source": "wikipedia"
     },
@@ -677,9 +645,9 @@
       "type": "tech"
     },
     {
-      "date": "1992-07-18",
-      "title": "A picture of Les Horribles Cernettes was taken, which became the first ever phot",
-      "desc": "A picture of Les Horribles Cernettes was taken, which became the first ever photo posted to the World Wide Web.",
+      "date": "1992-07-19",
+      "title": "A car bomb kills Judge Paolo Borsellino and five members of his escort.",
+      "desc": "A car bomb kills Judge Paolo Borsellino and five members of his escort.",
       "type": "general",
       "source": "wikipedia"
     },
@@ -738,6 +706,13 @@
       "type": "politics"
     },
     {
+      "date": "1989-07-19",
+      "title": "United Airlines Flight 232 crashes in Sioux City, Iowa, killing 111.",
+      "desc": "United Airlines Flight 232 crashes in Sioux City, Iowa, killing 111.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1989-06-04",
       "title": "Tiananmen Square",
       "desc": "Chinese military suppresses pro-democracy protests",
@@ -794,6 +769,13 @@
   ],
   "1985": [
     {
+      "date": "1985-07-19",
+      "title": "The Val di Stava dam collapses killing 268 people in Val di Stava, Italy.",
+      "desc": "The Val di Stava dam collapses killing 268 people in Val di Stava, Italy.",
+      "type": "disaster",
+      "source": "wikipedia"
+    },
+    {
       "date": "1985-07-13",
       "title": "Live Aid Concert",
       "desc": "Global charity concert raises millions for famine relief",
@@ -806,21 +788,19 @@
       "type": "politics"
     }
   ],
-  "1984": [
-    {
-      "date": "1984-07-18",
-      "title": "McDonald's massacre in San Ysidro, California: James Oliver Huberty kills 21 peo",
-      "desc": "McDonald's massacre in San Ysidro, California: James Oliver Huberty kills 21 people and injures 19 others before being shot dead by police.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1983": [
     {
       "date": "1983-09-01",
       "title": "KAL 007 Shot Down",
       "desc": "Soviet Union shoots down Korean Air Lines Flight 007",
       "type": "disaster"
+    },
+    {
+      "date": "1983-07-19",
+      "title": "The first three-dimensional reconstruction of a human head in a CT is published.",
+      "desc": "The first three-dimensional reconstruction of a human head in a CT is published.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1983-01-01",
@@ -831,10 +811,10 @@
   ],
   "1982": [
     {
-      "date": "1982-07-18",
-      "title": "Two hundred sixty-eight Guatemalan campesinos (\"peasants\" or \"country people\") a",
-      "desc": "Two hundred sixty-eight Guatemalan campesinos (\"peasants\" or \"country people\") are slain in the Plan de Sánchez massacre.",
-      "type": "tech",
+      "date": "1982-07-19",
+      "title": "In one of the first militant attacks by Hezbollah, David S. Dodge, president of ",
+      "desc": "In one of the first militant attacks by Hezbollah, David S. Dodge, president of the American University of Beirut, is kidnapped.",
+      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -852,9 +832,9 @@
   ],
   "1981": [
     {
-      "date": "1981-07-18",
-      "title": "A Canadair CL-44 and Sukhoi Su-15 collide in mid-air near Yerevan, Armenia, kill",
-      "desc": "A Canadair CL-44 and Sukhoi Su-15 collide in mid-air near Yerevan, Armenia, killing four.",
+      "date": "1981-07-19",
+      "title": "In a private meeting with U.S. President Ronald Reagan, French President Françoi",
+      "desc": "In a private meeting with U.S. President Ronald Reagan, French President François Mitterrand reveals the existence of the Farewell Dossier, a collection of documents showing the Soviet Union had been ",
       "type": "tech",
       "source": "wikipedia"
     }
@@ -867,6 +847,13 @@
       "type": "politics"
     },
     {
+      "date": "1980-07-19",
+      "title": "Opening of the Summer Olympics in Moscow.",
+      "desc": "Opening of the Summer Olympics in Moscow.",
+      "type": "sports",
+      "source": "wikipedia"
+    },
+    {
       "date": "1980-05-18",
       "title": "Mount St. Helens Erupts",
       "desc": "Volcanic eruption kills 57 in Washington state",
@@ -875,10 +862,17 @@
   ],
   "1979": [
     {
-      "date": "1979-07-18",
-      "title": "A landslide occurs on the Iliwerung volcano in Indonesia, triggering a tsunami t",
-      "desc": "A landslide occurs on the Iliwerung volcano in Indonesia, triggering a tsunami that kills over 530 and leaves 700 missing.",
-      "type": "climate",
+      "date": "1979-07-19",
+      "title": "The Sandinista rebels overthrow the government of the Somoza family in Nicaragua",
+      "desc": "The Sandinista rebels overthrow the government of the Somoza family in Nicaragua.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1979-07-19",
+      "title": "The oil tanker SS Atlantic Empress collides with another oil tanker, causing the",
+      "desc": "The oil tanker SS Atlantic Empress collides with another oil tanker, causing the largest ever ship-borne oil spill.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -920,6 +914,13 @@
       "title": "Elvis Dies",
       "desc": "Elvis Presley dies at Graceland at age 42",
       "type": "general"
+    },
+    {
+      "date": "1977-07-19",
+      "title": "The world's first Global Positioning System (GPS) signal was transmitted from Na",
+      "desc": "The world's first Global Positioning System (GPS) signal was transmitted from Navigation Technology Satellite 2 (NTS-2) and received at Rockwell Collins in Cedar Rapids, Iowa, at 12:41 a.m. Eastern ti",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1976": [
@@ -930,10 +931,10 @@
       "type": "science"
     },
     {
-      "date": "1976-07-18",
-      "title": "Nadia Comăneci becomes the first person in Olympic Games history to score a perf",
-      "desc": "Nadia Comăneci becomes the first person in Olympic Games history to score a perfect 10 in gymnastics at the 1976 Summer Olympics.",
-      "type": "sports",
+      "date": "1976-07-19",
+      "title": "Sagarmatha National Park in Nepal is created.",
+      "desc": "Sagarmatha National Park in Nepal is created.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -993,6 +994,13 @@
       "type": "disaster"
     },
     {
+      "date": "1972-07-19",
+      "title": "Dhofar Rebellion: British SAS units help the Omani government against Popular Fr",
+      "desc": "Dhofar Rebellion: British SAS units help the Omani government against Popular Front for the Liberation of Oman rebels in the Battle of Mirbat.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1972-02-21",
       "title": "Nixon Visits China",
       "desc": "President Nixon's historic visit to China",
@@ -1013,15 +1021,6 @@
       "type": "finance"
     }
   ],
-  "1970": [
-    {
-      "date": "1970-07-18",
-      "title": "An Antonov An-22 of the Soviet Air Forces crashes into the Atlantic Ocean, killi",
-      "desc": "An Antonov An-22 of the Soviet Air Forces crashes into the Atlantic Ocean, killing all 23 aboard.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
   "1969": [
     {
       "date": "1969-08-15",
@@ -1036,6 +1035,13 @@
       "type": "science"
     },
     {
+      "date": "1969-07-19",
+      "title": "Chappaquiddick incident: U.S. Senator Ted Kennedy crashes his car into a tidal p",
+      "desc": "Chappaquiddick incident: U.S. Senator Ted Kennedy crashes his car into a tidal pond at Chappaquiddick Island, Massachusetts, killing his passenger Mary Jo Kopechne.",
+      "type": "disaster",
+      "source": "wikipedia"
+    },
+    {
       "date": "1969-06-28",
       "title": "Stonewall Riots",
       "desc": "Riots in NYC mark start of LGBTQ+ rights movement",
@@ -1048,13 +1054,6 @@
       "title": "Prague Spring",
       "desc": "Soviet-led forces invade Czechoslovakia",
       "type": "politics"
-    },
-    {
-      "date": "1968-07-18",
-      "title": "Intel is founded in Mountain View, California.",
-      "desc": "Intel is founded in Mountain View, California.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1968-06-05",
@@ -1077,26 +1076,17 @@
       "type": "politics"
     },
     {
-      "date": "1967-06-05",
-      "title": "Six-Day War",
-      "desc": "Israel defeats Egypt, Jordan, Syria in six-day war",
-      "type": "politics"
-    }
-  ],
-  "1966": [
-    {
-      "date": "1966-07-18",
-      "title": "Human spaceflight: Gemini 10 is launched from Cape Kennedy on a 70-hour mission ",
-      "desc": "Human spaceflight: Gemini 10 is launched from Cape Kennedy on a 70-hour mission that includes docking with an orbiting Agena target vehicle.",
+      "date": "1967-07-19",
+      "title": "Piedmont Airlines Flight 22, a Piedmont Airlines Boeing 727-22 and a twin-engine",
+      "desc": "Piedmont Airlines Flight 22, a Piedmont Airlines Boeing 727-22 and a twin-engine Cessna 310 collided over Hendersonville, North Carolina, USA. Both aircraft were destroyed and all passengers and crew ",
       "type": "tech",
       "source": "wikipedia"
     },
     {
-      "date": "1966-07-18",
-      "title": "A racially charged incident in a bar sparks the six-day Hough riots in Cleveland",
-      "desc": "A racially charged incident in a bar sparks the six-day Hough riots in Cleveland, Ohio; 1,700 Ohio National Guard troops intervene to restore order.",
-      "type": "general",
-      "source": "wikipedia"
+      "date": "1967-06-05",
+      "title": "Six-Day War",
+      "desc": "Israel defeats Egypt, Jordan, Syria in six-day war",
+      "type": "politics"
     }
   ],
   "1965": [
@@ -1121,6 +1111,13 @@
       "type": "politics"
     },
     {
+      "date": "1964-07-19",
+      "title": "Vietnam War: At a rally in Saigon, South Vietnamese Prime Minister Nguyễn Khánh ",
+      "desc": "Vietnam War: At a rally in Saigon, South Vietnamese Prime Minister Nguyễn Khánh calls for expanding the war into North Vietnam.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1964-06-28",
       "title": "Malcolm X OAAU",
       "desc": "Malcolm X forms Organization of Afro-American Unity",
@@ -1139,6 +1136,13 @@
       "title": "I Have a Dream",
       "desc": "MLK delivers iconic speech at March on Washington",
       "type": "politics"
+    },
+    {
+      "date": "1963-07-19",
+      "title": "Joe Walker flies a North American X-15 to a record altitude of 106,010 meters (3",
+      "desc": "Joe Walker flies a North American X-15 to a record altitude of 106,010 meters (347,800 feet) on X-15 Flight 90. Exceeding an altitude of 100 km, this flight qualifies as a human spaceflight under inte",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1962": [
@@ -1161,6 +1165,13 @@
       "title": "Berlin Wall Built",
       "desc": "East Germany begins construction of Berlin Wall",
       "type": "politics"
+    },
+    {
+      "date": "1961-07-19",
+      "title": "Tunisia imposes a blockade on the French naval base at Bizerte; the French would",
+      "desc": "Tunisia imposes a blockade on the French naval base at Bizerte; the French would capture the entire town four days later.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1961-04-12",
@@ -1209,6 +1220,13 @@
       "title": "Sputnik Launched",
       "desc": "First artificial satellite, starts Space Age",
       "type": "science"
+    },
+    {
+      "date": "1957-07-19",
+      "title": "The largely autobiographical novel The Ordeal of Gilbert Pinfold by Evelyn Waugh",
+      "desc": "The largely autobiographical novel The Ordeal of Gilbert Pinfold by Evelyn Waugh was published.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1956": [
@@ -1273,6 +1291,13 @@
       "title": "First H-Bomb Test",
       "desc": "US tests first hydrogen bomb (Ivy Mike)",
       "type": "science"
+    },
+    {
+      "date": "1952-07-19",
+      "title": "Opening of the Summer Olympics in Helsinki, Finland.",
+      "desc": "Opening of the Summer Olympics in Helsinki, Finland.",
+      "type": "sports",
+      "source": "wikipedia"
     },
     {
       "date": "1952-02-06",
@@ -1357,6 +1382,20 @@
       "type": "politics"
     },
     {
+      "date": "1947-07-19",
+      "title": "Prime Minister of the shadow Burmese government, Bogyoke Aung San and eight othe",
+      "desc": "Prime Minister of the shadow Burmese government, Bogyoke Aung San and eight others are assassinated.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1947-07-19",
+      "title": "Korean politician Lyuh Woon-hyung is assassinated.",
+      "desc": "Korean politician Lyuh Woon-hyung is assassinated.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1947-06-05",
       "title": "Marshall Plan",
       "desc": "US announces plan to rebuild post-war Europe",
@@ -1397,32 +1436,27 @@
       "type": "politics"
     },
     {
-      "date": "1944-07-18",
-      "title": "World War II: Hideki Tōjō resigns as Prime Minister of Japan because of numerous",
-      "desc": "World War II: Hideki Tōjō resigns as Prime Minister of Japan because of numerous setbacks in the war effort.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1944-06-06",
       "title": "D-Day",
       "desc": "Allied forces land in Normandy, liberating Europe",
       "type": "politics"
     }
   ],
+  "1943": [
+    {
+      "date": "1943-07-19",
+      "title": "World War II: Rome is heavily bombed by more than 500 Allied aircraft, inflictin",
+      "desc": "World War II: Rome is heavily bombed by more than 500 Allied aircraft, inflicting thousands of casualties.",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "1942": [
     {
-      "date": "1942-07-18",
-      "title": "World War II: During the Beisfjord massacre in Norway, 15 Norwegian paramilitary",
-      "desc": "World War II: During the Beisfjord massacre in Norway, 15 Norwegian paramilitary guards help members of the SS to kill 288 political prisoners from Yugoslavia.",
+      "date": "1942-07-19",
+      "title": "World War II: The Second Happy Time of Hitler's submarines comes to an end, as t",
+      "desc": "World War II: The Second Happy Time of Hitler's submarines comes to an end, as the increasingly effective American convoy system compels them to return to the central Atlantic.",
       "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1942-07-18",
-      "title": "The Germans test fly the Messerschmitt Me 262 using its jet engines for the firs",
-      "desc": "The Germans test fly the Messerschmitt Me 262 using its jet engines for the first time.",
-      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -1438,6 +1472,29 @@
       "title": "Operation Barbarossa",
       "desc": "Germany invades Soviet Union",
       "type": "politics"
+    }
+  ],
+  "1940": [
+    {
+      "date": "1940-07-19",
+      "title": "World War II: Battle of Cape Spada: The Royal Navy and the Regia Marina clash; t",
+      "desc": "World War II: Battle of Cape Spada: The Royal Navy and the Regia Marina clash; the Italian light cruiser Bartolomeo Colleoni sinks, with 121 casualties.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1940-07-19",
+      "title": "Field Marshal Ceremony: First occasion in World War II that Adolf Hitler appoint",
+      "desc": "Field Marshal Ceremony: First occasion in World War II that Adolf Hitler appoints field marshals due to military achievements.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1940-07-19",
+      "title": "World War II: Army order 112 forms the Intelligence Corps of the British Army.",
+      "desc": "World War II: Army order 112 forms the Intelligence Corps of the British Army.",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "1939": [
@@ -1470,6 +1527,13 @@
   ],
   "1936": [
     {
+      "date": "1936-07-19",
+      "title": "Spanish Civil War: The CNT and UGT call a general strike in Spain – mobilizing w",
+      "desc": "Spanish Civil War: The CNT and UGT call a general strike in Spain – mobilizing workers' militias against the Nationalist forces. People's Olympiad of Barcelona cancelled.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1936-07-17",
       "title": "Spanish Civil War",
       "desc": "Nationalist forces rebel against Spanish Republic",
@@ -1480,6 +1544,15 @@
       "title": "Mengjiang Founded",
       "desc": "Japanese puppet state established in Inner Mongolia",
       "type": "politics"
+    }
+  ],
+  "1934": [
+    {
+      "date": "1934-07-19",
+      "title": "The rigid airship USS Macon surprised the USS Houston near Clipperton Island wit",
+      "desc": "The rigid airship USS Macon surprised the USS Houston near Clipperton Island with a mail delivery for President Franklin D. Roosevelt, demonstrating its potential for tracking ships at sea.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1933": [
@@ -1544,15 +1617,6 @@
       "title": "First Liquid Fuel Rocket",
       "desc": "Robert Goddard launches first liquid-fueled rocket",
       "type": "science"
-    }
-  ],
-  "1925": [
-    {
-      "date": "1925-07-18",
-      "title": "Adolf Hitler publishes Mein Kampf.",
-      "desc": "Adolf Hitler publishes Mein Kampf.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1924": [
@@ -1633,19 +1697,21 @@
       "type": "politics"
     }
   ],
+  "1916": [
+    {
+      "date": "1916-07-19",
+      "title": "World War I: Battle of Fromelles: British and Australian troops attack German tr",
+      "desc": "World War I: Battle of Fromelles: British and Australian troops attack German trenches as part of the Battle of the Somme.",
+      "type": "politics",
+      "source": "wikipedia"
+    }
+  ],
   "1914": [
     {
       "date": "1914-07-28",
       "title": "WWI Begins",
       "desc": "Austria-Hungary declares war on Serbia",
       "type": "politics"
-    },
-    {
-      "date": "1914-07-18",
-      "title": "The U.S. Congress forms the Aviation Section, U.S. Signal Corps, giving official",
-      "desc": "The U.S. Congress forms the Aviation Section, U.S. Signal Corps, giving official status to aircraft within the U.S. Army for the first time.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1914-06-28",
@@ -1704,6 +1770,13 @@
       "type": "science"
     },
     {
+      "date": "1903-07-19",
+      "title": "Maurice Garin wins the first Tour de France.",
+      "desc": "Maurice Garin wins the first Tour de France.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1903-06-16",
       "title": "Ford Motor Company",
       "desc": "Henry Ford and investors found Ford Motor Company",
@@ -1730,6 +1803,13 @@
       "title": "Quantum Theory",
       "desc": "Max Planck publishes quantum theory paper",
       "type": "science"
+    },
+    {
+      "date": "1900-07-19",
+      "title": "The first line of the Paris Metro opens for operation.",
+      "desc": "The first line of the Paris Metro opens for operation.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1900-05-14",
