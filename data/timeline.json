@@ -770,8 +770,8 @@
   "1985": [
     {
       "date": "1985-07-19",
-      "title": "The Val di Stava dam collapses killing 268 people in Val di Stava, Italy.",
-      "desc": "The Val di Stava dam collapses killing 268 people in Val di Stava, Italy.",
+      "title": "The Val di Stava dam collapses, killing 268 people in Val di Stava, Italy.",
+      "desc": "The Val di Stava dam collapses, killing 268 people in Val di Stava, Italy.",
       "type": "disaster",
       "source": "wikipedia"
     },
@@ -917,8 +917,8 @@
     },
     {
       "date": "1977-07-19",
-      "title": "The world's first Global Positioning System (GPS) signal was transmitted from Na",
-      "desc": "The world's first Global Positioning System (GPS) signal was transmitted from Navigation Technology Satellite 2 (NTS-2) and received at Rockwell Collins in Cedar Rapids, Iowa, at 12:41 a.m. Eastern ti",
+      "title": "The world's first Global Positioning System (GPS) signal is transmitted from Nav",
+      "desc": "The world's first Global Positioning System (GPS) signal is transmitted from Navigation Technology Satellite 2 (NTS-2) and received at Rockwell Collins in Cedar Rapids, Iowa, at 12:41 a.m. Eastern tim",
       "type": "tech",
       "source": "wikipedia"
     }
@@ -1077,8 +1077,8 @@
     },
     {
       "date": "1967-07-19",
-      "title": "Piedmont Airlines Flight 22, a Piedmont Airlines Boeing 727-22 and a twin-engine",
-      "desc": "Piedmont Airlines Flight 22, a Piedmont Airlines Boeing 727-22 and a twin-engine Cessna 310 collided over Hendersonville, North Carolina, USA. Both aircraft were destroyed and all passengers and crew ",
+      "title": "Piedmont Airlines Flight 22, a Piedmont Airlines Boeing 727-22, and a twin-engin",
+      "desc": "Piedmont Airlines Flight 22, a Piedmont Airlines Boeing 727-22, and a twin-engine Cessna 310 collide over Hendersonville, North Carolina, USA. Both aircraft are destroyed and all passengers and crew a",
       "type": "tech",
       "source": "wikipedia"
     },
@@ -1224,7 +1224,7 @@
     {
       "date": "1957-07-19",
       "title": "The largely autobiographical novel The Ordeal of Gilbert Pinfold by Evelyn Waugh",
-      "desc": "The largely autobiographical novel The Ordeal of Gilbert Pinfold by Evelyn Waugh was published.",
+      "desc": "The largely autobiographical novel The Ordeal of Gilbert Pinfold by Evelyn Waugh is published.",
       "type": "general",
       "source": "wikipedia"
     }
@@ -1549,8 +1549,8 @@
   "1934": [
     {
       "date": "1934-07-19",
-      "title": "The rigid airship USS Macon surprised the USS Houston near Clipperton Island wit",
-      "desc": "The rigid airship USS Macon surprised the USS Houston near Clipperton Island with a mail delivery for President Franklin D. Roosevelt, demonstrating its potential for tracking ships at sea.",
+      "title": "The rigid airship USS Macon surprises the USS Houston near Clipperton Island wit",
+      "desc": "The rigid airship USS Macon surprises the USS Houston near Clipperton Island with a mail delivery for President Franklin D. Roosevelt, demonstrating its potential for tracking ships at sea.",
       "type": "tech",
       "source": "wikipedia"
     }
