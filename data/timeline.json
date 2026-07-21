@@ -33,6 +33,13 @@
       "type": "crypto"
     },
     {
+      "date": "2025-07-21",
+      "title": "A Bangladesh Air Force Chengdu FT-7BGI crashes shortly after takeoff into Milest",
+      "desc": "A Bangladesh Air Force Chengdu FT-7BGI crashes shortly after takeoff into Milestone School campus in Dhaka, Bangladesh, killing 35 people and injuring 173.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "2025-06-15",
       "title": "USMCA Renegotiation",
       "desc": "North American trade deal renegotiation begins",
@@ -65,6 +72,13 @@
       "type": "climate"
     },
     {
+      "date": "2024-07-21",
+      "title": "U.S. President Joe Biden announces he will no longer seek a second term and with",
+      "desc": "U.S. President Joe Biden announces he will no longer seek a second term and withdraws from the 2024 election, endorsing Vice President Kamala Harris as she launches her own presidential campaign.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "2024-03-15",
       "title": "EU AI Act Passed",
       "desc": "European Parliament passes landmark AI regulation",
@@ -83,6 +97,13 @@
       "title": "Israel-Gaza War",
       "desc": "Hamas attack triggers major conflict",
       "type": "politics"
+    },
+    {
+      "date": "2023-07-21",
+      "title": "The Barbenheimer phenomenon begins as two major motion pictures, Greta Gerwig's ",
+      "desc": "The Barbenheimer phenomenon begins as two major motion pictures, Greta Gerwig's fantasy comedy Barbie and Christopher Nolan's epic biographical thriller Oppenheimer, are released in theaters on the sa",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "2023-07-19",
@@ -143,13 +164,6 @@
       "type": "politics"
     },
     {
-      "date": "2021-07-20",
-      "title": "American businessman Jeff Bezos flies to space aboard New Shepard NS-16 operated",
-      "desc": "American businessman Jeff Bezos flies to space aboard New Shepard NS-16 operated by his private spaceflight company Blue Origin.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2021-02-18",
       "title": "Mars Landing",
       "desc": "NASA Perseverance rover lands on Mars",
@@ -190,9 +204,9 @@
       "type": "disaster"
     },
     {
-      "date": "2019-07-20",
-      "title": "Soyuz MS-13 is launched to the International Space Station on the 50th anniversa",
-      "desc": "Soyuz MS-13 is launched to the International Space Station on the 50th anniversary of the Apollo 11 moon landing.",
+      "date": "2019-07-21",
+      "title": "Yuen Long attack or \"721 incident\" in Hong Kong. Triad members indiscriminately ",
+      "desc": "Yuen Long attack or \"721 incident\" in Hong Kong. Triad members indiscriminately beat civilians returning from protests while police failed to take action.",
       "type": "tech",
       "source": "wikipedia"
     },
@@ -235,13 +249,6 @@
       "title": "Bitcoin China Ban",
       "desc": "China orders closure of all crypto exchanges",
       "type": "crypto"
-    },
-    {
-      "date": "2017-07-20",
-      "title": "O. J. Simpson is granted parole to be released from prison after serving nine ye",
-      "desc": "O. J. Simpson is granted parole to be released from prison after serving nine years of a 33-year sentence after being convicted of armed robbery in Las Vegas.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "2017-06-01",
@@ -288,20 +295,6 @@
       "title": "Pluto Flyby",
       "desc": "New Horizons completes first flyby of Pluto",
       "type": "science"
-    },
-    {
-      "date": "2015-07-20",
-      "title": "A huge explosion in the mostly Kurdish border town of Suruç, Turkey, targeting t",
-      "desc": "A huge explosion in the mostly Kurdish border town of Suruç, Turkey, targeting the Socialist Youth Associations Federation, kills at least 31 people and injures over 100.",
-      "type": "disaster",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2015-07-20",
-      "title": "The United States and Cuba resume full diplomatic relations after five decades.",
-      "desc": "The United States and Cuba resume full diplomatic relations after five decades.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "2014": [
@@ -332,20 +325,6 @@
       "type": "politics"
     },
     {
-      "date": "2013-07-20",
-      "title": "Seventeen government soldiers are killed in an attack by FARC revolutionaries in",
-      "desc": "Seventeen government soldiers are killed in an attack by FARC revolutionaries in the Colombian department of Arauca.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2013-07-20",
-      "title": "Syrian civil war: The Battle of Ras al-Ayn ends with the expulsion of Islamist f",
-      "desc": "Syrian civil war: The Battle of Ras al-Ayn ends with the expulsion of Islamist forces from the city by the People's Protection Units (YPG).",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "2013-06-06",
       "title": "Snowden Leaks",
       "desc": "Edward Snowden reveals global surveillance programs",
@@ -366,17 +345,10 @@
       "type": "general"
     },
     {
-      "date": "2012-07-20",
-      "title": "James Holmes opened fire at a movie theater in Aurora, Colorado, killing 12 and ",
-      "desc": "James Holmes opened fire at a movie theater in Aurora, Colorado, killing 12 and injuring 70 others.",
+      "date": "2012-07-21",
+      "title": "Erden Eruç completes the first solo human-powered circumnavigation of the world.",
+      "desc": "Erden Eruç completes the first solo human-powered circumnavigation of the world.",
       "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2012-07-20",
-      "title": "Syrian civil war: The People's Protection Units (YPG) capture the cities of Amud",
-      "desc": "Syrian civil war: The People's Protection Units (YPG) capture the cities of Amuda and Efrîn without resistance.",
-      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -393,6 +365,13 @@
     }
   ],
   "2011": [
+    {
+      "date": "2011-07-21",
+      "title": "NASA's Space Shuttle program ends with the landing of Space Shuttle Atlantis on ",
+      "desc": "NASA's Space Shuttle program ends with the landing of Space Shuttle Atlantis on mission STS-135 at NASA's Kennedy Space Center.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "2011-05-02",
       "title": "Bin Laden Killed",
@@ -413,6 +392,13 @@
     }
   ],
   "2010": [
+    {
+      "date": "2010-07-21",
+      "title": "U.S. President Barack Obama signs the Dodd–Frank Wall Street Reform and Consumer",
+      "desc": "U.S. President Barack Obama signs the Dodd–Frank Wall Street Reform and Consumer Protection Act.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
     {
       "date": "2010-05-06",
       "title": "Flash Crash",
@@ -470,6 +456,13 @@
       "title": "Lehman Brothers Collapse",
       "desc": "Investment bank fails, triggering global financial crisis",
       "type": "finance"
+    },
+    {
+      "date": "2008-07-21",
+      "title": "Ram Baran Yadav is declared the first President of Nepal.",
+      "desc": "Ram Baran Yadav is declared the first President of Nepal.",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "2007": [
@@ -494,10 +487,10 @@
       "type": "disaster"
     },
     {
-      "date": "2005-07-20",
-      "title": "The Civil Marriage Act legalizes same-sex marriage in Canada.",
-      "desc": "The Civil Marriage Act legalizes same-sex marriage in Canada.",
-      "type": "general",
+      "date": "2005-07-21",
+      "title": "Four attempted bomb attacks by Islamist extremists disrupt part of London's publ",
+      "desc": "Four attempted bomb attacks by Islamist extremists disrupt part of London's public transport system.",
+      "type": "sports",
       "source": "wikipedia"
     },
     {
@@ -555,6 +548,13 @@
       "type": "disaster"
     },
     {
+      "date": "2001-07-21",
+      "title": "At the conclusion of a fireworks display on Okura Beach in Akashi, Hyōgo, Japan,",
+      "desc": "At the conclusion of a fireworks display on Okura Beach in Akashi, Hyōgo, Japan, 11 people are killed and more than 120 are injured when a pedestrian footbridge connecting the beach to JR Asagiri Stat",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2001-01-15",
       "title": "Wikipedia Launched",
       "desc": "Wikipedia goes live as a free online encyclopedia",
@@ -576,13 +576,6 @@
     }
   ],
   "1999": [
-    {
-      "date": "1999-07-20",
-      "title": "The Chinese Communist Party begins a persecution campaign against Falun Gong, ar",
-      "desc": "The Chinese Communist Party begins a persecution campaign against Falun Gong, arresting thousands nationwide.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1999-03-24",
       "title": "Kosovo War",
@@ -612,13 +605,6 @@
   ],
   "1997": [
     {
-      "date": "1997-07-20",
-      "title": "The fully restored USS Constitution (a.k.a. Old Ironsides) celebrates its 200th ",
-      "desc": "The fully restored USS Constitution (a.k.a. Old Ironsides) celebrates its 200th birthday by setting sail for the first time in 116 years.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1997-07-01",
       "title": "Hong Kong Handover",
       "desc": "Hong Kong returned to China after 156 years of British rule",
@@ -643,6 +629,13 @@
       "title": "Dayton Agreement",
       "desc": "Peace agreement ends Bosnian War",
       "type": "politics"
+    },
+    {
+      "date": "1995-07-21",
+      "title": "Third Taiwan Strait Crisis: The People's Liberation Army begins firing missiles ",
+      "desc": "Third Taiwan Strait Crisis: The People's Liberation Army begins firing missiles into the waters north of Taiwan.",
+      "type": "finance",
+      "source": "wikipedia"
     },
     {
       "date": "1995-04-19",
@@ -687,20 +680,6 @@
       "type": "tech"
     },
     {
-      "date": "1992-07-20",
-      "title": "Václav Havel resigns as president of Czechoslovakia.",
-      "desc": "Václav Havel resigns as president of Czechoslovakia.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1992-07-20",
-      "title": "A Tupolev Tu-154 crashes during takeoff from Tbilisi International Airport, kill",
-      "desc": "A Tupolev Tu-154 crashes during takeoff from Tbilisi International Airport, killing all 24 aboard and four more people on the ground.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1992-04-29",
       "title": "LA Riots",
       "desc": "Riots erupt after Rodney King verdict",
@@ -741,6 +720,13 @@
       "type": "politics"
     },
     {
+      "date": "1990-07-21",
+      "title": "Taiwan's military police forces mainland Chinese illegal immigrants into sealed ",
+      "desc": "Taiwan's military police forces mainland Chinese illegal immigrants into sealed holds of a fishing boat Min Ping Yu No. 5540 for repatriation to Fujian, causing 25 people to die from suffocation.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1990-04-24",
       "title": "Hubble Launched",
       "desc": "Hubble Space Telescope launched into orbit",
@@ -753,13 +739,6 @@
       "title": "Berlin Wall Falls",
       "desc": "East Germany opens borders, Berlin Wall falls",
       "type": "politics"
-    },
-    {
-      "date": "1989-07-20",
-      "title": "Burma's ruling junta puts opposition leader Aung San Suu Kyi under house arrest.",
-      "desc": "Burma's ruling junta puts opposition leader Aung San Suu Kyi under house arrest.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1989-06-04",
@@ -818,13 +797,6 @@
   ],
   "1985": [
     {
-      "date": "1985-07-20",
-      "title": "The government of Aruba passes legislation to secede from the Netherlands Antill",
-      "desc": "The government of Aruba passes legislation to secede from the Netherlands Antilles.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1985-07-13",
       "title": "Live Aid Concert",
       "desc": "Global charity concert raises millions for famine relief",
@@ -845,6 +817,13 @@
       "type": "disaster"
     },
     {
+      "date": "1983-07-21",
+      "title": "The world's lowest temperature in an inhabited location is recorded at Vostok St",
+      "desc": "The world's lowest temperature in an inhabited location is recorded at Vostok Station, Antarctica at −89.2 °C (−128.6 °F).",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
       "date": "1983-01-01",
       "title": "Internet Born",
       "desc": "TCP/IP protocol adopted as ARPANET standard",
@@ -852,13 +831,6 @@
     }
   ],
   "1982": [
-    {
-      "date": "1982-07-20",
-      "title": "Hyde Park and Regent's Park bombings: The Provisional IRA detonates two bombs in",
-      "desc": "Hyde Park and Regent's Park bombings: The Provisional IRA detonates two bombs in Hyde Park and Regent's Park in central London, killing eight soldiers, wounding forty-seven people, and leading to the ",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1982-06-28",
       "title": "Aeroflot Flight 8641",
@@ -870,15 +842,6 @@
       "title": "Falklands War",
       "desc": "Argentina invades Falkland Islands, war with UK begins",
       "type": "politics"
-    }
-  ],
-  "1981": [
-    {
-      "date": "1981-07-20",
-      "title": "Somali Airlines Flight 40 crashes in Balad, Somalia, killing 50 people.",
-      "desc": "Somali Airlines Flight 40 crashes in Balad, Somalia, killing 50 people.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1980": [
@@ -896,6 +859,13 @@
     }
   ],
   "1979": [
+    {
+      "date": "1979-07-21",
+      "title": "Jay Silverheels, a Mohawk actor, becomes the first Native American to have a sta",
+      "desc": "Jay Silverheels, a Mohawk actor, becomes the first Native American to have a star commemorated in the Hollywood Walk of Fame.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1979-04-01",
       "title": "Iran Islamic Republic",
@@ -937,40 +907,26 @@
       "type": "general"
     },
     {
-      "date": "1977-07-20",
-      "title": "The Central Intelligence Agency releases documents under the Freedom of Informat",
-      "desc": "The Central Intelligence Agency releases documents under the Freedom of Information Act revealing it had engaged in mind-control experiments.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1977-07-20",
-      "title": "The Johnstown flood of 1977 kills 84 people and causes millions of dollars in da",
-      "desc": "The Johnstown flood of 1977 kills 84 people and causes millions of dollars in damages.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1977-07-20",
-      "title": "Aeroflot Flight B-2 crashes after takeoff from Vitim Airport in the Sakha Republ",
-      "desc": "Aeroflot Flight B-2 crashes after takeoff from Vitim Airport in the Sakha Republic, killing 39.",
-      "type": "tech",
+      "date": "1977-07-21",
+      "title": "The start of the four-day-long Libyan–Egyptian War.",
+      "desc": "The start of the four-day-long Libyan–Egyptian War.",
+      "type": "politics",
       "source": "wikipedia"
     }
   ],
   "1976": [
     {
+      "date": "1976-07-21",
+      "title": "Christopher Ewart-Biggs, the British ambassador to the Republic of Ireland, is a",
+      "desc": "Christopher Ewart-Biggs, the British ambassador to the Republic of Ireland, is assassinated by the Provisional IRA.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1976-07-20",
       "title": "Viking 1 Lands on Mars",
       "desc": "First US spacecraft to successfully land on Mars",
       "type": "science"
-    },
-    {
-      "date": "1976-07-20",
-      "title": "The American Viking 1 lander successfully lands on Mars.",
-      "desc": "The American Viking 1 lander successfully lands on Mars.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1976-06-28",
@@ -1001,13 +957,6 @@
       "type": "politics"
     },
     {
-      "date": "1974-07-20",
-      "title": "Turkish invasion of Cyprus: Forces from Turkey invade Cyprus after a coup d'état",
-      "desc": "Turkish invasion of Cyprus: Forces from Turkey invade Cyprus after a coup d'état, organized by the dictator of Greece, against president Makarios.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1974-02-01",
       "title": "Brazil Oil Crisis",
       "desc": "First oil shock hits Brazil, triggering economic changes",
@@ -1022,6 +971,13 @@
       "type": "finance"
     },
     {
+      "date": "1973-07-21",
+      "title": "In Lillehammer, Norway, Mossad agents kill a waiter whom they mistakenly thought",
+      "desc": "In Lillehammer, Norway, Mossad agents kill a waiter whom they mistakenly thought was involved in the 1972 Munich Olympics Massacre.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1973-06-28",
       "title": "NI Assembly Elections",
       "desc": "Northern Ireland Assembly elections held",
@@ -1034,6 +990,13 @@
       "title": "Munich Massacre",
       "desc": "Palestinian terrorists kill Israeli athletes at Olympics",
       "type": "disaster"
+    },
+    {
+      "date": "1972-07-21",
+      "title": "The Troubles: Bloody Friday: The Provisional IRA detonate 22 bombs in central Be",
+      "desc": "The Troubles: Bloody Friday: The Provisional IRA detonate 22 bombs in central Belfast, Northern Ireland, United Kingdom in the space of 80 minutes, killing nine and injuring 130.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1972-02-21",
@@ -1056,6 +1019,15 @@
       "type": "finance"
     }
   ],
+  "1970": [
+    {
+      "date": "1970-07-21",
+      "title": "After 11 years of construction, the Aswan High Dam in Egypt is completed.",
+      "desc": "After 11 years of construction, the Aswan High Dam in Egypt is completed.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1969": [
     {
       "date": "1969-08-15",
@@ -1064,24 +1036,17 @@
       "type": "general"
     },
     {
-      "date": "1969-07-20",
-      "title": "Moon Landing",
-      "desc": "Apollo 11: first humans walk on the Moon",
-      "type": "science"
-    },
-    {
-      "date": "1969-07-20",
-      "title": "Apollo program: Apollo 11's crew successfully makes the first human landing on t",
-      "desc": "Apollo program: Apollo 11's crew successfully makes the first human landing on the Moon in the Sea of Tranquility. Americans Neil Armstrong and Buzz Aldrin become the first humans to walk on the Moon ",
+      "date": "1969-07-21",
+      "title": "Apollo program: At 02:56 UTC, astronaut Neil Armstrong becomes the first person ",
+      "desc": "Apollo program: At 02:56 UTC, astronaut Neil Armstrong becomes the first person to walk on the Moon, followed 19 minutes later by Edwin \"Buzz\" Aldrin.",
       "type": "general",
       "source": "wikipedia"
     },
     {
       "date": "1969-07-20",
-      "title": "A cease fire is announced between Honduras and El Salvador, six days after the b",
-      "desc": "A cease fire is announced between Honduras and El Salvador, six days after the beginning of the \"Football War\".",
-      "type": "politics",
-      "source": "wikipedia"
+      "title": "Moon Landing",
+      "desc": "Apollo 11: first humans walk on the Moon",
+      "type": "science"
     },
     {
       "date": "1969-06-28",
@@ -1096,13 +1061,6 @@
       "title": "Prague Spring",
       "desc": "Soviet-led forces invade Czechoslovakia",
       "type": "politics"
-    },
-    {
-      "date": "1968-07-20",
-      "title": "The first International Special Olympics Summer Games are held at Soldier Field ",
-      "desc": "The first International Special Olympics Summer Games are held at Soldier Field in Chicago, with about 1,000 athletes with intellectual disabilities.",
-      "type": "sports",
-      "source": "wikipedia"
     },
     {
       "date": "1968-06-05",
@@ -1153,10 +1111,10 @@
       "type": "politics"
     },
     {
-      "date": "1964-07-20",
-      "title": "Vietnam War: Viet Cong forces attack the capital of Định Tường Province, Cái Bè,",
-      "desc": "Vietnam War: Viet Cong forces attack the capital of Định Tường Province, Cái Bè, killing 11 South Vietnamese military personnel and 40 civilians (30 of whom are children).",
-      "type": "politics",
+      "date": "1964-07-21",
+      "title": "A series of racial riots break out in Singapore. In the next six weeks, 23 die w",
+      "desc": "A series of racial riots break out in Singapore. In the next six weeks, 23 die with 454 others injured.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -1202,10 +1160,17 @@
       "type": "politics"
     },
     {
-      "date": "1961-07-20",
-      "title": "French military forces break the Tunisian siege of Bizerte.",
-      "desc": "French military forces break the Tunisian siege of Bizerte.",
-      "type": "general",
+      "date": "1961-07-21",
+      "title": "Mercury program: Mercury-Redstone 4 Mission: Gus Grissom piloting Liberty Bell 7",
+      "desc": "Mercury program: Mercury-Redstone 4 Mission: Gus Grissom piloting Liberty Bell 7 becomes the second American to go into space (in a suborbital mission).",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1961-07-21",
+      "title": "Alaska Airlines Flight 779 crashes near Shemya Air Force Base in Shemya, Alaska ",
+      "desc": "Alaska Airlines Flight 779 crashes near Shemya Air Force Base in Shemya, Alaska killing six.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -1217,9 +1182,9 @@
   ],
   "1960": [
     {
-      "date": "1960-07-20",
-      "title": "The Polaris missile is successfully launched from a submarine, the USS George Wa",
-      "desc": "The Polaris missile is successfully launched from a submarine, the USS George Washington, for the first time.",
+      "date": "1960-07-21",
+      "title": "Sirimavo Bandaranaike is sworn in as prime minister of Ceylon, becoming the worl",
+      "desc": "Sirimavo Bandaranaike is sworn in as prime minister of Ceylon, becoming the world's first democratically elected female head of government.",
       "type": "tech",
       "source": "wikipedia"
     },
@@ -1242,6 +1207,20 @@
       "title": "Kitchen Debate",
       "desc": "Nixon-Khrushchev debate at US exhibition in Moscow",
       "type": "politics"
+    },
+    {
+      "date": "1959-07-21",
+      "title": "NS Savannah, the first nuclear-powered cargo-passenger ship, is launched as a sh",
+      "desc": "NS Savannah, the first nuclear-powered cargo-passenger ship, is launched as a showcase for Dwight D. Eisenhower's \"Atoms for Peace\" initiative.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1959-07-21",
+      "title": "Elijah Jerry \"Pumpsie\" Green becomes the first African-American to play for the ",
+      "desc": "Elijah Jerry \"Pumpsie\" Green becomes the first African-American to play for the Boston Red Sox, the last team to integrate. He came in as a pinch runner for Vic Wertz and stayed in as shortstop in a 2",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1959-01-01",
@@ -1294,10 +1273,10 @@
   ],
   "1954": [
     {
-      "date": "1954-07-20",
-      "title": "Germany: Otto John, head of West Germany's secret service, defects to East Germa",
-      "desc": "Germany: Otto John, head of West Germany's secret service, defects to East Germany.",
-      "type": "general",
+      "date": "1954-07-21",
+      "title": "First Indochina War: The Geneva Conference partitions Vietnam into North Vietnam",
+      "desc": "First Indochina War: The Geneva Conference partitions Vietnam into North Vietnam and South Vietnam.",
+      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -1335,6 +1314,13 @@
       "type": "science"
     },
     {
+      "date": "1952-07-21",
+      "title": "The 7.3 Mw Kern County earthquake strikes Southern California with a maximum Mer",
+      "desc": "The 7.3 Mw Kern County earthquake strikes Southern California with a maximum Mercalli intensity of XI (Extreme), killing 12 and injuring hundreds.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
       "date": "1952-02-06",
       "title": "Elizabeth Queen",
       "desc": "Princess Elizabeth becomes Queen after father's death",
@@ -1343,10 +1329,10 @@
   ],
   "1951": [
     {
-      "date": "1951-07-20",
-      "title": "King Abdullah I of Jordan is assassinated by a Palestinian while attending Frida",
-      "desc": "King Abdullah I of Jordan is assassinated by a Palestinian while attending Friday prayers in Jerusalem.",
-      "type": "general",
+      "date": "1951-07-21",
+      "title": "Canadian Pacific Air Lines Flight 3505 disappears while flying from Vancouver to",
+      "desc": "Canadian Pacific Air Lines Flight 3505 disappears while flying from Vancouver to Tokyo. The aircraft and its 37 occupants are never found.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -1362,20 +1348,6 @@
       "title": "China Enters Korean War",
       "desc": "Chinese forces engage UN troops in Korea",
       "type": "politics"
-    },
-    {
-      "date": "1950-07-20",
-      "title": "Cold War: In Philadelphia, Harry Gold pleads guilty to spying for the Soviet Uni",
-      "desc": "Cold War: In Philadelphia, Harry Gold pleads guilty to spying for the Soviet Union by passing secrets from atomic scientist Klaus Fuchs.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1950-07-20",
-      "title": "After a month-long campaign, the majority of North Korea's Air Force was destroy",
-      "desc": "After a month-long campaign, the majority of North Korea's Air Force was destroyed by anti-communist forces.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1950-06-28",
@@ -1404,9 +1376,9 @@
       "type": "science"
     },
     {
-      "date": "1949-07-20",
-      "title": "The Israel–Syria Mixed Armistice Commission brokers the last of four ceasefire a",
-      "desc": "The Israel–Syria Mixed Armistice Commission brokers the last of four ceasefire agreements to end the 1948 Arab–Israeli War.",
+      "date": "1949-07-21",
+      "title": "The United States Senate ratifies the North Atlantic Treaty.",
+      "desc": "The United States Senate ratifies the North Atlantic Treaty.",
       "type": "politics",
       "source": "wikipedia"
     },
@@ -1479,17 +1451,24 @@
   ],
   "1944": [
     {
+      "date": "1944-07-21",
+      "title": "World War II: Battle of Guam: American troops land on Guam, starting a battle th",
+      "desc": "World War II: Battle of Guam: American troops land on Guam, starting a battle that will end on August 10.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1944-07-21",
+      "title": "World War II: Claus von Stauffenberg and four fellow conspirators are executed f",
+      "desc": "World War II: Claus von Stauffenberg and four fellow conspirators are executed for the July 20 plot to assassinate Adolf Hitler.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1944-07-20",
       "title": "Hitler Assassination Attempt",
       "desc": "Operation Valkyrie: von Stauffenberg tries to kill Hitler",
       "type": "politics"
-    },
-    {
-      "date": "1944-07-20",
-      "title": "World War II: Adolf Hitler survives an assassination attempt led by German Army ",
-      "desc": "World War II: Adolf Hitler survives an assassination attempt led by German Army Colonel Claus von Stauffenberg.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1944-06-06",
@@ -1506,33 +1485,10 @@
       "type": "politics"
     },
     {
-      "date": "1941-07-20",
-      "title": "Soviet leader Joseph Stalin consolidates the Commissariats of Home Affairs and N",
-      "desc": "Soviet leader Joseph Stalin consolidates the Commissariats of Home Affairs and National Security to form the NKVD and names Lavrentiy Beria its chief.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1941-06-22",
       "title": "Operation Barbarossa",
       "desc": "Germany invades Soviet Union",
       "type": "politics"
-    }
-  ],
-  "1940": [
-    {
-      "date": "1940-07-20",
-      "title": "Denmark leaves the League of Nations.",
-      "desc": "Denmark leaves the League of Nations.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1940-07-20",
-      "title": "California opens its first freeway, the Arroyo Seco Parkway.",
-      "desc": "California opens its first freeway, the Arroyo Seco Parkway.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1939": [
@@ -1547,15 +1503,6 @@
       "title": "Molotov-Ribbentrop Pact",
       "desc": "Germany and USSR sign non-aggression pact",
       "type": "politics"
-    }
-  ],
-  "1938": [
-    {
-      "date": "1938-07-20",
-      "title": "The United States Department of Justice files suit in New York City against the ",
-      "desc": "The United States Department of Justice files suit in New York City against the motion picture industry charging violations of the Sherman Antitrust Act in regards to the studio system.  The case woul",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1937": [
@@ -1574,10 +1521,10 @@
   ],
   "1936": [
     {
-      "date": "1936-07-20",
-      "title": "The Montreux Convention is signed in Switzerland, authorizing Turkey to fortify ",
-      "desc": "The Montreux Convention is signed in Switzerland, authorizing Turkey to fortify the Dardanelles and Bosphorus but guaranteeing free passage to ships of all nations in peacetime.",
-      "type": "politics",
+      "date": "1936-07-21",
+      "title": "Spanish Civil War: The Central Committee of Antifascist Militias of Catalonia is",
+      "desc": "Spanish Civil War: The Central Committee of Antifascist Militias of Catalonia is constituted, establishing an anarcho-syndicalist economy in Catalonia.",
+      "type": "finance",
       "source": "wikipedia"
     },
     {
@@ -1593,31 +1540,6 @@
       "type": "politics"
     }
   ],
-  "1935": [
-    {
-      "date": "1935-07-20",
-      "title": "Switzerland: A Royal Dutch Airlines plane en route from Milan to Frankfurt crash",
-      "desc": "Switzerland: A Royal Dutch Airlines plane en route from Milan to Frankfurt crashes into a Swiss mountain, killing thirteen.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
-  "1934": [
-    {
-      "date": "1934-07-20",
-      "title": "Labor unrest in the U.S.: Police in Minneapolis fire upon striking truck drivers",
-      "desc": "Labor unrest in the U.S.: Police in Minneapolis fire upon striking truck drivers, during the Minneapolis Teamsters Strike of 1934, killing two and wounding sixty-seven.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1934-07-20",
-      "title": "West Coast waterfront strike: In Seattle, police fire tear gas on and club 2,000",
-      "desc": "West Coast waterfront strike: In Seattle, police fire tear gas on and club 2,000 striking longshoremen. The governor of Oregon calls out the National Guard to break a strike on the Portland docks.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1933": [
     {
       "date": "1933-03-04",
@@ -1630,15 +1552,6 @@
       "title": "Hitler Chancellor",
       "desc": "Adolf Hitler appointed Chancellor of Germany",
       "type": "politics"
-    }
-  ],
-  "1932": [
-    {
-      "date": "1932-07-20",
-      "title": "In the Preußenschlag, German President Hindenburg places Prussia directly under ",
-      "desc": "In the Preußenschlag, German President Hindenburg places Prussia directly under the rule of the national government.",
-      "type": "politics",
-      "source": "wikipedia"
     }
   ],
   "1929": [
@@ -1691,6 +1604,22 @@
       "type": "science"
     }
   ],
+  "1925": [
+    {
+      "date": "1925-07-21",
+      "title": "Scopes Trial: In Dayton, Tennessee, high school biology teacher John T. Scopes i",
+      "desc": "Scopes Trial: In Dayton, Tennessee, high school biology teacher John T. Scopes is found guilty of teaching human evolution in class and fined $100.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1925-07-21",
+      "title": "Malcolm Campbell becomes the first man to exceed 150 mph (241 km/h) on land. At ",
+      "desc": "Malcolm Campbell becomes the first man to exceed 150 mph (241 km/h) on land. At Pendine Sands in Wales, he drives Sunbeam 350HP built by Sunbeam at a two-way average speed of 150.33 mph (242 km/h).",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1924": [
     {
       "date": "1924-01-21",
@@ -1705,13 +1634,6 @@
       "title": "USSR Founded",
       "desc": "Soviet Union officially established",
       "type": "politics"
-    },
-    {
-      "date": "1922-07-20",
-      "title": "The League of Nations awards mandates of Togoland to France and Tanganyika to th",
-      "desc": "The League of Nations awards mandates of Togoland to France and Tanganyika to the United Kingdom.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1922-06-28",
@@ -1736,14 +1658,21 @@
   ],
   "1920": [
     {
-      "date": "1920-07-20",
-      "title": "The Greek Army takes control of Silivri after Greece is awarded the city by the ",
-      "desc": "The Greek Army takes control of Silivri after Greece is awarded the city by the Paris Peace Conference; by 1923 Greece effectively lost control to the Turks.",
-      "type": "politics",
+      "date": "1920-07-21",
+      "title": "The \"Belfast Pogrom\" begins two years of violence with the expulsion of thousand",
+      "desc": "The \"Belfast Pogrom\" begins two years of violence with the expulsion of thousands of Catholic shipyard, factory and linen mill workers from their jobs.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
   "1919": [
+    {
+      "date": "1919-07-21",
+      "title": "The dirigible Wingfoot Air Express crashes into the Illinois Trust and Savings B",
+      "desc": "The dirigible Wingfoot Air Express crashes into the Illinois Trust and Savings Building in Chicago, killing 12 people.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1919-06-28",
       "title": "Treaty of Versailles",
@@ -1777,13 +1706,6 @@
       "title": "Russian Revolution",
       "desc": "Bolsheviks seize power in October Revolution",
       "type": "politics"
-    },
-    {
-      "date": "1917-07-20",
-      "title": "World War I: The Corfu Declaration, which leads to the creation of the post-war ",
-      "desc": "World War I: The Corfu Declaration, which leads to the creation of the post-war Kingdom of Yugoslavia, is signed by the Yugoslav Committee and Kingdom of Serbia.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1917-06-28",
@@ -1834,12 +1756,12 @@
       "type": "science"
     }
   ],
-  "1906": [
+  "1907": [
     {
-      "date": "1906-07-20",
-      "title": "In Finland, a new electoral law is ratified, guaranteeing the country the first ",
-      "desc": "In Finland, a new electoral law is ratified, guaranteeing the country the first and equal right to vote in the world. Finnish women are the first in Europe to receive the right to vote.",
-      "type": "politics",
+      "date": "1907-07-21",
+      "title": "The passenger steamer SS Columbia sinks after colliding with the steam schooner ",
+      "desc": "The passenger steamer SS Columbia sinks after colliding with the steam schooner San Pedro off Shelter Cove, California, killing 88 people.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -1857,19 +1779,21 @@
       "type": "science"
     }
   ],
+  "1904": [
+    {
+      "date": "1904-07-21",
+      "title": "Louis Rigolly, a Frenchman, becomes the first man to break the 100 mph (161 km/h",
+      "desc": "Louis Rigolly, a Frenchman, becomes the first man to break the 100 mph (161 km/h) barrier on land. He drove a 15-liter Gobron-Brillié in Ostend, Belgium.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1903": [
     {
       "date": "1903-12-17",
       "title": "First Flight",
       "desc": "Wright Brothers make first powered flight at Kitty Hawk",
       "type": "science"
-    },
-    {
-      "date": "1903-07-20",
-      "title": "The Ford Motor Company ships its first automobile.",
-      "desc": "The Ford Motor Company ships its first automobile.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1903-06-16",
