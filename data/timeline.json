@@ -33,13 +33,6 @@
       "type": "crypto"
     },
     {
-      "date": "2025-07-21",
-      "title": "A Bangladesh Air Force Chengdu FT-7BGI crashes shortly after takeoff into Milest",
-      "desc": "A Bangladesh Air Force Chengdu FT-7BGI crashes shortly after takeoff into Milestone School campus in Dhaka, Bangladesh, killing 35 people and injuring 173.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2025-06-15",
       "title": "USMCA Renegotiation",
       "desc": "North American trade deal renegotiation begins",
@@ -72,13 +65,6 @@
       "type": "climate"
     },
     {
-      "date": "2024-07-21",
-      "title": "U.S. President Joe Biden announces he will no longer seek a second term and with",
-      "desc": "U.S. President Joe Biden announces he will no longer seek a second term and withdraws from the 2024 election, endorsing Vice President Kamala Harris as she launches her own presidential campaign.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2024-03-15",
       "title": "EU AI Act Passed",
       "desc": "European Parliament passes landmark AI regulation",
@@ -97,13 +83,6 @@
       "title": "Israel-Gaza War",
       "desc": "Hamas attack triggers major conflict",
       "type": "politics"
-    },
-    {
-      "date": "2023-07-21",
-      "title": "The Barbenheimer phenomenon begins as two major motion pictures, Greta Gerwig's ",
-      "desc": "The Barbenheimer phenomenon begins as two major motion pictures, Greta Gerwig's fantasy comedy Barbie and Christopher Nolan's epic biographical thriller Oppenheimer, are released in theaters on the sa",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "2023-07-19",
@@ -204,9 +183,9 @@
       "type": "disaster"
     },
     {
-      "date": "2019-07-21",
-      "title": "Yuen Long attack or \"721 incident\" in Hong Kong. Triad members indiscriminately ",
-      "desc": "Yuen Long attack or \"721 incident\" in Hong Kong. Triad members indiscriminately beat civilians returning from protests while police failed to take action.",
+      "date": "2019-07-22",
+      "title": "Chandrayaan-2, the second lunar exploration mission developed by Indian Space Re",
+      "desc": "Chandrayaan-2, the second lunar exploration mission developed by Indian Space Research Organisation after Chandrayaan-1 is launched from Satish Dhawan Space Centre in a GSLV Mark III M1. It consists o",
       "type": "tech",
       "source": "wikipedia"
     },
@@ -325,6 +304,13 @@
       "type": "politics"
     },
     {
+      "date": "2013-07-22",
+      "title": "Dingxi earthquakes: A series of earthquakes in Dingxi, China, kills at least 89 ",
+      "desc": "Dingxi earthquakes: A series of earthquakes in Dingxi, China, kills at least 89 people and injures more than 500 others.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
       "date": "2013-06-06",
       "title": "Snowden Leaks",
       "desc": "Edward Snowden reveals global surveillance programs",
@@ -345,10 +331,10 @@
       "type": "general"
     },
     {
-      "date": "2012-07-21",
-      "title": "Erden Eruç completes the first solo human-powered circumnavigation of the world.",
-      "desc": "Erden Eruç completes the first solo human-powered circumnavigation of the world.",
-      "type": "general",
+      "date": "2012-07-22",
+      "title": "Syrian civil war: The People's Protection Units (YPG) captured the cities of Ser",
+      "desc": "Syrian civil war: The People's Protection Units (YPG) captured the cities of Serê Kaniyê and Dirbêsiyê, during clashes with pro-government forces in Al-Hasakah.",
+      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -366,10 +352,10 @@
   ],
   "2011": [
     {
-      "date": "2011-07-21",
-      "title": "NASA's Space Shuttle program ends with the landing of Space Shuttle Atlantis on ",
-      "desc": "NASA's Space Shuttle program ends with the landing of Space Shuttle Atlantis on mission STS-135 at NASA's Kennedy Space Center.",
-      "type": "tech",
+      "date": "2011-07-22",
+      "title": "Norway attacks: A bomb explodes, targeted at government buildings in central Osl",
+      "desc": "Norway attacks: A bomb explodes, targeted at government buildings in central Oslo, followed by a massacre at a youth camp on the island of Utøya.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -392,13 +378,6 @@
     }
   ],
   "2010": [
-    {
-      "date": "2010-07-21",
-      "title": "U.S. President Barack Obama signs the Dodd–Frank Wall Street Reform and Consumer",
-      "desc": "U.S. President Barack Obama signs the Dodd–Frank Wall Street Reform and Consumer Protection Act.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
     {
       "date": "2010-05-06",
       "title": "Flash Crash",
@@ -456,13 +435,6 @@
       "title": "Lehman Brothers Collapse",
       "desc": "Investment bank fails, triggering global financial crisis",
       "type": "finance"
-    },
-    {
-      "date": "2008-07-21",
-      "title": "Ram Baran Yadav is declared the first President of Nepal.",
-      "desc": "Ram Baran Yadav is declared the first President of Nepal.",
-      "type": "politics",
-      "source": "wikipedia"
     }
   ],
   "2007": [
@@ -487,10 +459,10 @@
       "type": "disaster"
     },
     {
-      "date": "2005-07-21",
-      "title": "Four attempted bomb attacks by Islamist extremists disrupt part of London's publ",
-      "desc": "Four attempted bomb attacks by Islamist extremists disrupt part of London's public transport system.",
-      "type": "sports",
+      "date": "2005-07-22",
+      "title": "Jean Charles de Menezes is killed by police as the hunt begins for the London Bo",
+      "desc": "Jean Charles de Menezes is killed by police as the hunt begins for the London Bombers responsible for the 7 July 2005 London bombings and the 21 July 2005 London bombings.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -528,6 +500,13 @@
   ],
   "2003": [
     {
+      "date": "2003-07-22",
+      "title": "Iraq War: Members of 101st Airborne of the United States, aided by Special Force",
+      "desc": "Iraq War: Members of 101st Airborne of the United States, aided by Special Forces, attack a compound in Iraq, killing Saddam Hussein's sons Uday and Qusay, along with Mustapha Hussein, Qusay's 14-year",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "2003-03-20",
       "title": "Iraq War Begins",
       "desc": "US-led coalition invades Iraq",
@@ -546,13 +525,6 @@
       "title": "9/11 Attacks",
       "desc": "Al-Qaeda terrorists attack World Trade Center and Pentagon",
       "type": "disaster"
-    },
-    {
-      "date": "2001-07-21",
-      "title": "At the conclusion of a fireworks display on Okura Beach in Akashi, Hyōgo, Japan,",
-      "desc": "At the conclusion of a fireworks display on Okura Beach in Akashi, Hyōgo, Japan, 11 people are killed and more than 120 are injured when a pedestrian footbridge connecting the beach to JR Asagiri Stat",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "2001-01-15",
@@ -605,6 +577,13 @@
   ],
   "1997": [
     {
+      "date": "1997-07-22",
+      "title": "The second Blue Water Bridge opens between Port Huron, Michigan and Sarnia, Onta",
+      "desc": "The second Blue Water Bridge opens between Port Huron, Michigan and Sarnia, Ontario.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1997-07-01",
       "title": "Hong Kong Handover",
       "desc": "Hong Kong returned to China after 156 years of British rule",
@@ -631,13 +610,6 @@
       "type": "politics"
     },
     {
-      "date": "1995-07-21",
-      "title": "Third Taiwan Strait Crisis: The People's Liberation Army begins firing missiles ",
-      "desc": "Third Taiwan Strait Crisis: The People's Liberation Army begins firing missiles into the waters north of Taiwan.",
-      "type": "finance",
-      "source": "wikipedia"
-    },
-    {
       "date": "1995-04-19",
       "title": "Oklahoma City Bombing",
       "desc": "Domestic terrorist attack kills 168 in Oklahoma",
@@ -660,6 +632,13 @@
   ],
   "1993": [
     {
+      "date": "1993-07-22",
+      "title": "Great Flood of 1993: Levees near Kaskaskia, Illinois rupture, forcing the entire",
+      "desc": "Great Flood of 1993: Levees near Kaskaskia, Illinois rupture, forcing the entire town to evacuate by barges operated by the Army Corps of Engineers.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
       "date": "1993-02-26",
       "title": "World Trade Center Bombing",
       "desc": "Islamist terrorists bomb WTC for the first time",
@@ -678,6 +657,13 @@
       "title": "First SMS Sent",
       "desc": "First text message sent: 'Merry Christmas'",
       "type": "tech"
+    },
+    {
+      "date": "1992-07-22",
+      "title": "Near Medellín, Colombian drug lord Pablo Escobar escapes from his luxury prison ",
+      "desc": "Near Medellín, Colombian drug lord Pablo Escobar escapes from his luxury prison fearing extradition to the United States.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1992-04-29",
@@ -720,10 +706,10 @@
       "type": "politics"
     },
     {
-      "date": "1990-07-21",
-      "title": "Taiwan's military police forces mainland Chinese illegal immigrants into sealed ",
-      "desc": "Taiwan's military police forces mainland Chinese illegal immigrants into sealed holds of a fishing boat Min Ping Yu No. 5540 for repatriation to Fujian, causing 25 people to die from suffocation.",
-      "type": "tech",
+      "date": "1990-07-22",
+      "title": "Greg LeMond, an American road racing cyclist, wins his third Tour de France afte",
+      "desc": "Greg LeMond, an American road racing cyclist, wins his third Tour de France after leading the majority of the race. It was LeMond's second consecutive Tour de France victory.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -817,10 +803,10 @@
       "type": "disaster"
     },
     {
-      "date": "1983-07-21",
-      "title": "The world's lowest temperature in an inhabited location is recorded at Vostok St",
-      "desc": "The world's lowest temperature in an inhabited location is recorded at Vostok Station, Antarctica at −89.2 °C (−128.6 °F).",
-      "type": "climate",
+      "date": "1983-07-22",
+      "title": "Martial law in Poland is officially revoked.",
+      "desc": "Martial law in Poland is officially revoked.",
+      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -844,6 +830,15 @@
       "type": "politics"
     }
   ],
+  "1981": [
+    {
+      "date": "1981-07-22",
+      "title": "The first game of the 1981 South Africa rugby union tour of New Zealand and the ",
+      "desc": "The first game of the 1981 South Africa rugby union tour of New Zealand and the United States is held in Gisborne, New Zealand.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1980": [
     {
       "date": "1980-09-22",
@@ -859,13 +854,6 @@
     }
   ],
   "1979": [
-    {
-      "date": "1979-07-21",
-      "title": "Jay Silverheels, a Mohawk actor, becomes the first Native American to have a sta",
-      "desc": "Jay Silverheels, a Mohawk actor, becomes the first Native American to have a star commemorated in the Hollywood Walk of Fame.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1979-04-01",
       "title": "Iran Islamic Republic",
@@ -907,18 +895,18 @@
       "type": "general"
     },
     {
-      "date": "1977-07-21",
-      "title": "The start of the four-day-long Libyan–Egyptian War.",
-      "desc": "The start of the four-day-long Libyan–Egyptian War.",
-      "type": "politics",
+      "date": "1977-07-22",
+      "title": "Chinese leader Deng Xiaoping is restored to power.",
+      "desc": "Chinese leader Deng Xiaoping is restored to power.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
   "1976": [
     {
-      "date": "1976-07-21",
-      "title": "Christopher Ewart-Biggs, the British ambassador to the Republic of Ireland, is a",
-      "desc": "Christopher Ewart-Biggs, the British ambassador to the Republic of Ireland, is assassinated by the Provisional IRA.",
+      "date": "1976-07-22",
+      "title": "Japan completes its last reparation to the Philippines for war crimes committed ",
+      "desc": "Japan completes its last reparation to the Philippines for war crimes committed during imperial Japan's conquest of the country in the Second World War.",
       "type": "politics",
       "source": "wikipedia"
     },
@@ -971,9 +959,9 @@
       "type": "finance"
     },
     {
-      "date": "1973-07-21",
-      "title": "In Lillehammer, Norway, Mossad agents kill a waiter whom they mistakenly thought",
-      "desc": "In Lillehammer, Norway, Mossad agents kill a waiter whom they mistakenly thought was involved in the 1972 Munich Olympics Massacre.",
+      "date": "1973-07-22",
+      "title": "Pan Am Flight 816 crashes after takeoff from Faa'a International Airport in Pape",
+      "desc": "Pan Am Flight 816 crashes after takeoff from Faa'a International Airport in Papeete, French Polynesia, killing 78.",
       "type": "tech",
       "source": "wikipedia"
     },
@@ -990,13 +978,6 @@
       "title": "Munich Massacre",
       "desc": "Palestinian terrorists kill Israeli athletes at Olympics",
       "type": "disaster"
-    },
-    {
-      "date": "1972-07-21",
-      "title": "The Troubles: Bloody Friday: The Provisional IRA detonate 22 bombs in central Be",
-      "desc": "The Troubles: Bloody Friday: The Provisional IRA detonate 22 bombs in central Belfast, Northern Ireland, United Kingdom in the space of 80 minutes, killing nine and injuring 130.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1972-02-21",
@@ -1019,28 +1000,12 @@
       "type": "finance"
     }
   ],
-  "1970": [
-    {
-      "date": "1970-07-21",
-      "title": "After 11 years of construction, the Aswan High Dam in Egypt is completed.",
-      "desc": "After 11 years of construction, the Aswan High Dam in Egypt is completed.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1969": [
     {
       "date": "1969-08-15",
       "title": "Woodstock",
       "desc": "Iconic music festival draws 400,000 to New York farm",
       "type": "general"
-    },
-    {
-      "date": "1969-07-21",
-      "title": "Apollo program: At 02:56 UTC, astronaut Neil Armstrong becomes the first person ",
-      "desc": "Apollo program: At 02:56 UTC, astronaut Neil Armstrong becomes the first person to walk on the Moon, followed 19 minutes later by Edwin \"Buzz\" Aldrin.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1969-07-20",
@@ -1111,13 +1076,6 @@
       "type": "politics"
     },
     {
-      "date": "1964-07-21",
-      "title": "A series of racial riots break out in Singapore. In the next six weeks, 23 die w",
-      "desc": "A series of racial riots break out in Singapore. In the next six weeks, 23 die with 454 others injured.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1964-06-28",
       "title": "Malcolm X OAAU",
       "desc": "Malcolm X forms Organization of Afro-American Unity",
@@ -1136,6 +1094,13 @@
       "title": "I Have a Dream",
       "desc": "MLK delivers iconic speech at March on Washington",
       "type": "politics"
+    },
+    {
+      "date": "1963-07-22",
+      "title": "Crown Colony of Sarawak gains self-governance.",
+      "desc": "Crown Colony of Sarawak gains self-governance.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1962": [
@@ -1144,6 +1109,13 @@
       "title": "Cuban Missile Crisis",
       "desc": "US-USSR standoff brings world close to nuclear war",
       "type": "politics"
+    },
+    {
+      "date": "1962-07-22",
+      "title": "Mariner program: Mariner 1 spacecraft flies erratically several minutes after la",
+      "desc": "Mariner program: Mariner 1 spacecraft flies erratically several minutes after launch and has to be destroyed.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1962-07-10",
@@ -1160,20 +1132,6 @@
       "type": "politics"
     },
     {
-      "date": "1961-07-21",
-      "title": "Mercury program: Mercury-Redstone 4 mission: Gus Grissom piloting Liberty Bell 7",
-      "desc": "Mercury program: Mercury-Redstone 4 mission: Gus Grissom piloting Liberty Bell 7 becomes the second American to go into space (in a suborbital mission).",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1961-07-21",
-      "title": "Alaska Airlines Flight 779 crashes near Shemya Air Force Base in Shemya, Alaska,",
-      "desc": "Alaska Airlines Flight 779 crashes near Shemya Air Force Base in Shemya, Alaska, killing six.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1961-04-12",
       "title": "First Human in Space",
       "desc": "Yuri Gagarin becomes first person to orbit Earth",
@@ -1181,13 +1139,6 @@
     }
   ],
   "1960": [
-    {
-      "date": "1960-07-21",
-      "title": "Sirimavo Bandaranaike is sworn in as prime minister of Ceylon, becoming the worl",
-      "desc": "Sirimavo Bandaranaike is sworn in as prime minister of Ceylon, becoming the world's first democratically elected female head of government.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1960-05-01",
       "title": "U-2 Incident",
@@ -1207,20 +1158,6 @@
       "title": "Kitchen Debate",
       "desc": "Nixon-Khrushchev debate at US exhibition in Moscow",
       "type": "politics"
-    },
-    {
-      "date": "1959-07-21",
-      "title": "NS Savannah, the first nuclear-powered cargo-passenger ship, is launched as a sh",
-      "desc": "NS Savannah, the first nuclear-powered cargo-passenger ship, is launched as a showcase for Dwight D. Eisenhower's \"Atoms for Peace\" initiative.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1959-07-21",
-      "title": "Elijah Jerry \"Pumpsie\" Green becomes the first African-American to play for the ",
-      "desc": "Elijah Jerry \"Pumpsie\" Green becomes the first African-American to play for the Boston Red Sox, the last team to integrate. He came in as a pinch runner for Vic Wertz and stayed in as shortstop in a 2",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1959-01-01",
@@ -1273,13 +1210,6 @@
   ],
   "1954": [
     {
-      "date": "1954-07-21",
-      "title": "First Indochina War: The Geneva Conference partitions Vietnam into North Vietnam",
-      "desc": "First Indochina War: The Geneva Conference partitions Vietnam into North Vietnam and South Vietnam.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1954-05-17",
       "title": "Brown v. Board",
       "desc": "US Supreme Court declares school segregation unconstitutional",
@@ -1314,13 +1244,6 @@
       "type": "science"
     },
     {
-      "date": "1952-07-21",
-      "title": "The 7.3 Mw Kern County earthquake strikes Southern California with a maximum Mer",
-      "desc": "The 7.3 Mw Kern County earthquake strikes Southern California with a maximum Mercalli intensity of XI (Extreme), killing 12 and injuring hundreds.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
-    {
       "date": "1952-02-06",
       "title": "Elizabeth Queen",
       "desc": "Princess Elizabeth becomes Queen after father's death",
@@ -1329,9 +1252,9 @@
   ],
   "1951": [
     {
-      "date": "1951-07-21",
-      "title": "Canadian Pacific Air Lines Flight 3505 disappears while flying from Vancouver to",
-      "desc": "Canadian Pacific Air Lines Flight 3505 disappears while flying from Vancouver to Tokyo. The aircraft and its 37 occupants are never found.",
+      "date": "1951-07-22",
+      "title": "Soviet space dogs: Dezik and Tsygan were launched into a sub-orbital spaceflight",
+      "desc": "Soviet space dogs: Dezik and Tsygan were launched into a sub-orbital spaceflight from Kapustin Yar and became the first dogs to fly in space and the first to safely return.",
       "type": "tech",
       "source": "wikipedia"
     },
@@ -1376,13 +1299,6 @@
       "type": "science"
     },
     {
-      "date": "1949-07-21",
-      "title": "The United States Senate ratifies the North Atlantic Treaty.",
-      "desc": "The United States Senate ratifies the North Atlantic Treaty.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1949-04-04",
       "title": "NATO Founded",
       "desc": "North Atlantic Treaty Organization established",
@@ -1423,6 +1339,15 @@
       "type": "finance"
     }
   ],
+  "1946": [
+    {
+      "date": "1946-07-22",
+      "title": "King David Hotel bombing: A Zionist underground organisation, the Irgun, bombs t",
+      "desc": "King David Hotel bombing: A Zionist underground organisation, the Irgun, bombs the King David Hotel in Jerusalem, site of the civil administration and military headquarters for Mandatory Palestine, re",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1945": [
     {
       "date": "1945-09-02",
@@ -1451,17 +1376,10 @@
   ],
   "1944": [
     {
-      "date": "1944-07-21",
-      "title": "World War II: Battle of Guam: American troops land on Guam, starting a battle th",
-      "desc": "World War II: Battle of Guam: American troops land on Guam, starting a battle that will end on August 10.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1944-07-21",
-      "title": "World War II: Claus von Stauffenberg and four fellow conspirators are executed f",
-      "desc": "World War II: Claus von Stauffenberg and four fellow conspirators are executed for the July 20 plot to assassinate Adolf Hitler.",
-      "type": "politics",
+      "date": "1944-07-22",
+      "title": "The Polish Committee of National Liberation publishes its manifesto, starting th",
+      "desc": "The Polish Committee of National Liberation publishes its manifesto, starting the period of Communist rule in Poland.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -1475,6 +1393,38 @@
       "title": "D-Day",
       "desc": "Allied forces land in Normandy, liberating Europe",
       "type": "politics"
+    }
+  ],
+  "1943": [
+    {
+      "date": "1943-07-22",
+      "title": "World War II: Allied forces capture Palermo during the Allied invasion of Sicily",
+      "desc": "World War II: Allied forces capture Palermo during the Allied invasion of Sicily.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1943-07-22",
+      "title": "World War II: Axis occupation forces violently disperse a massive protest in Ath",
+      "desc": "World War II: Axis occupation forces violently disperse a massive protest in Athens, killing 22.",
+      "type": "politics",
+      "source": "wikipedia"
+    }
+  ],
+  "1942": [
+    {
+      "date": "1942-07-22",
+      "title": "The United States government begins compulsory civilian gasoline rationing due t",
+      "desc": "The United States government begins compulsory civilian gasoline rationing due to the wartime demands.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1942-07-22",
+      "title": "Grossaktion Warsaw: The systematic deportation of Jews from the Warsaw ghetto be",
+      "desc": "Grossaktion Warsaw: The systematic deportation of Jews from the Warsaw ghetto begins.",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "1941": [
@@ -1507,6 +1457,13 @@
   ],
   "1937": [
     {
+      "date": "1937-07-22",
+      "title": "New Deal: The United States Senate votes down President Franklin D. Roosevelt's ",
+      "desc": "New Deal: The United States Senate votes down President Franklin D. Roosevelt's proposal to add more justices to the Supreme Court of the United States.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1937-07-07",
       "title": "Marco Polo Bridge",
       "desc": "Full-scale war between China and Japan begins",
@@ -1521,10 +1478,10 @@
   ],
   "1936": [
     {
-      "date": "1936-07-21",
-      "title": "Spanish Civil War: The Central Committee of Antifascist Militias of Catalonia is",
-      "desc": "Spanish Civil War: The Central Committee of Antifascist Militias of Catalonia is constituted, establishing an anarcho-syndicalist economy in Catalonia.",
-      "type": "finance",
+      "date": "1936-07-22",
+      "title": "Spanish Civil War: The Popular Executive Committee of Valencia takes power in th",
+      "desc": "Spanish Civil War: The Popular Executive Committee of Valencia takes power in the Valencian Community.",
+      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -1541,6 +1498,13 @@
     }
   ],
   "1933": [
+    {
+      "date": "1933-07-22",
+      "title": "Aviator Wiley Post returns to Floyd Bennett Field in New York City, completing t",
+      "desc": "Aviator Wiley Post returns to Floyd Bennett Field in New York City, completing the first solo flight around the world in seven days, 18 hours and 49 minutes.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1933-03-04",
       "title": "FDR Inaugurated",
@@ -1604,22 +1568,6 @@
       "type": "science"
     }
   ],
-  "1925": [
-    {
-      "date": "1925-07-21",
-      "title": "Scopes Trial: In Dayton, Tennessee, high school biology teacher John T. Scopes i",
-      "desc": "Scopes Trial: In Dayton, Tennessee, high school biology teacher John T. Scopes is found guilty of teaching human evolution in class and fined $100.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1925-07-21",
-      "title": "Malcolm Campbell becomes the first man to exceed 150 mph (241 km/h) on land. At ",
-      "desc": "Malcolm Campbell becomes the first man to exceed 150 mph (241 km/h) on land. At Pendine Sands in Wales, he drives Sunbeam 350HP built by Sunbeam at a two-way average speed of 150.33 mph (242 km/h).",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1924": [
     {
       "date": "1924-01-21",
@@ -1644,6 +1592,13 @@
   ],
   "1921": [
     {
+      "date": "1921-07-22",
+      "title": "Rif War: The Spanish Army suffers its worst military defeat in modern times to t",
+      "desc": "Rif War: The Spanish Army suffers its worst military defeat in modern times to the Berbers of the Rif region of Spanish Morocco.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1921-07-01",
       "title": "Chinese Communist Party",
       "desc": "CCP founded in Shanghai",
@@ -1656,23 +1611,7 @@
       "type": "politics"
     }
   ],
-  "1920": [
-    {
-      "date": "1920-07-21",
-      "title": "The \"Belfast Pogrom\" begins two years of violence with the expulsion of thousand",
-      "desc": "The \"Belfast Pogrom\" begins two years of violence with the expulsion of thousands of Catholic shipyard, factory and linen mill workers from their jobs.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1919": [
-    {
-      "date": "1919-07-21",
-      "title": "The dirigible Wingfoot Air Express crashes into the Illinois Trust and Savings B",
-      "desc": "The dirigible Wingfoot Air Express crashes into the Illinois Trust and Savings Building in Chicago, killing 12 people.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1919-06-28",
       "title": "Treaty of Versailles",
@@ -1712,6 +1651,15 @@
       "title": "Greece Enters WWI",
       "desc": "Greece joins Allied powers in World War I",
       "type": "politics"
+    }
+  ],
+  "1916": [
+    {
+      "date": "1916-07-22",
+      "title": "Preparedness Day Bombing: In San Francisco, a bomb explodes on Market Street dur",
+      "desc": "Preparedness Day Bombing: In San Francisco, a bomb explodes on Market Street during a parade, killing ten and injuring 40.",
+      "type": "finance",
+      "source": "wikipedia"
     }
   ],
   "1914": [
@@ -1756,15 +1704,6 @@
       "type": "science"
     }
   ],
-  "1907": [
-    {
-      "date": "1907-07-21",
-      "title": "The passenger steamer SS Columbia sinks after colliding with the steam schooner ",
-      "desc": "The passenger steamer SS Columbia sinks after colliding with the steam schooner San Pedro off Shelter Cove, California, killing 88 people.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1905": [
     {
       "date": "1905-09-05",
@@ -1777,15 +1716,6 @@
       "title": "Einstein Relativity",
       "desc": "Einstein publishes special theory of relativity",
       "type": "science"
-    }
-  ],
-  "1904": [
-    {
-      "date": "1904-07-21",
-      "title": "Louis Rigolly, a Frenchman, becomes the first man to break the 100 mph (161 km/h",
-      "desc": "Louis Rigolly, a Frenchman, becomes the first man to break the 100 mph (161 km/h) barrier on land. He drove a 15-liter Gobron-Brillié in Ostend, Belgium.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1903": [
