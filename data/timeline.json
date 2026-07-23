@@ -183,13 +183,6 @@
       "type": "disaster"
     },
     {
-      "date": "2019-07-22",
-      "title": "Chandrayaan-2, the second lunar exploration mission developed by Indian Space Re",
-      "desc": "Chandrayaan-2, the second lunar exploration mission developed by Indian Space Research Organisation after Chandrayaan-1 is launched from Satish Dhawan Space Centre in a GSLV Mark III M1. It consists o",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2019-04-15",
       "title": "Notre Dame Fire",
       "desc": "Major fire devastates Notre Dame Cathedral in Paris",
@@ -203,6 +196,13 @@
     }
   ],
   "2018": [
+    {
+      "date": "2018-07-23",
+      "title": "A wildfire in East Attica kills at least 102 people. It is the deadliest wildfir",
+      "desc": "A wildfire in East Attica kills at least 102 people. It is the deadliest wildfire in the history of Greece.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
     {
       "date": "2018-06-12",
       "title": "Trump-Kim Summit",
@@ -274,6 +274,13 @@
       "title": "Pluto Flyby",
       "desc": "New Horizons completes first flyby of Pluto",
       "type": "science"
+    },
+    {
+      "date": "2015-07-23",
+      "title": "NASA announces discovery of Kepler-452b by the Kepler space telescope.",
+      "desc": "NASA announces discovery of Kepler-452b by the Kepler space telescope.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "2014": [
@@ -282,6 +289,13 @@
       "title": "Scottish Independence Vote",
       "desc": "Scotland votes against independence from UK",
       "type": "politics"
+    },
+    {
+      "date": "2014-07-23",
+      "title": "TransAsia Airways Flight 222 crashes in Xixi village near Huxi, Penghu, during a",
+      "desc": "TransAsia Airways Flight 222 crashes in Xixi village near Huxi, Penghu, during approach to Penghu Airport. Forty-eight of the 58 people on board are killed and five more people on the ground are injur",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "2014-06-29",
@@ -304,13 +318,6 @@
       "type": "politics"
     },
     {
-      "date": "2013-07-22",
-      "title": "Dingxi earthquakes: A series of earthquakes in Dingxi, China, kills at least 89 ",
-      "desc": "Dingxi earthquakes: A series of earthquakes in Dingxi, China, kills at least 89 people and injures more than 500 others.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
-    {
       "date": "2013-06-06",
       "title": "Snowden Leaks",
       "desc": "Edward Snowden reveals global surveillance programs",
@@ -331,10 +338,10 @@
       "type": "general"
     },
     {
-      "date": "2012-07-22",
-      "title": "Syrian civil war: The People's Protection Units (YPG) captured the cities of Ser",
-      "desc": "Syrian civil war: The People's Protection Units (YPG) captured the cities of Serê Kaniyê and Dirbêsiyê, during clashes with pro-government forces in Al-Hasakah.",
-      "type": "politics",
+      "date": "2012-07-23",
+      "title": "The Solar storm of 2012 was an unusually large coronal mass ejection that was em",
+      "desc": "The Solar storm of 2012 was an unusually large coronal mass ejection that was emitted by the Sun which barely missed the Earth by nine days. If it hit, it would have caused up to US$2.6 trillion in da",
+      "type": "climate",
       "source": "wikipedia"
     },
     {
@@ -352,10 +359,10 @@
   ],
   "2011": [
     {
-      "date": "2011-07-22",
-      "title": "Norway attacks: A bomb explodes, targeted at government buildings in central Osl",
-      "desc": "Norway attacks: A bomb explodes, targeted at government buildings in central Oslo, followed by a massacre at a youth camp on the island of Utøya.",
-      "type": "general",
+      "date": "2011-07-23",
+      "title": "A high-speed train rear-ends another on a viaduct on the Yongtaiwen railway line",
+      "desc": "A high-speed train rear-ends another on a viaduct on the Yongtaiwen railway line in Wenzhou, Zhejiang province, China, resulting in 40 deaths.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -378,6 +385,13 @@
     }
   ],
   "2010": [
+    {
+      "date": "2010-07-23",
+      "title": "The English-Irish boy band One Direction were formed while auditioning for the 2",
+      "desc": "The English-Irish boy band One Direction were formed while auditioning for the 2010 series of the British singing competition The X Factor.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "2010-05-06",
       "title": "Flash Crash",
@@ -459,9 +473,9 @@
       "type": "disaster"
     },
     {
-      "date": "2005-07-22",
-      "title": "Jean Charles de Menezes is killed by police as the hunt begins for the London Bo",
-      "desc": "Jean Charles de Menezes is killed by police as the hunt begins for the London Bombers responsible for the 7 July 2005 London bombings and the 21 July 2005 London bombings.",
+      "date": "2005-07-23",
+      "title": "Three bombs explode in the Naama Bay area of Sharm El Sheikh, Egypt, killing 88 ",
+      "desc": "Three bombs explode in the Naama Bay area of Sharm El Sheikh, Egypt, killing 88 people.",
       "type": "general",
       "source": "wikipedia"
     },
@@ -500,13 +514,6 @@
   ],
   "2003": [
     {
-      "date": "2003-07-22",
-      "title": "Iraq War: Members of 101st Airborne of the United States, aided by Special Force",
-      "desc": "Iraq War: Members of 101st Airborne of the United States, aided by Special Forces, attack a compound in Iraq, killing Saddam Hussein's sons Uday and Qusay, along with Mustapha Hussein, Qusay's 14-year",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2003-03-20",
       "title": "Iraq War Begins",
       "desc": "US-led coalition invades Iraq",
@@ -525,6 +532,13 @@
       "title": "9/11 Attacks",
       "desc": "Al-Qaeda terrorists attack World Trade Center and Pentagon",
       "type": "disaster"
+    },
+    {
+      "date": "2001-07-23",
+      "title": "Megawati Sukarnoputri was sworn in as the first female president of Indonesia fo",
+      "desc": "Megawati Sukarnoputri was sworn in as the first female president of Indonesia following her predecessor's impeachment.",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "2001-01-15",
@@ -548,6 +562,20 @@
     }
   ],
   "1999": [
+    {
+      "date": "1999-07-23",
+      "title": "ANA Flight 61 is hijacked in Tokyo, Japan by Yuji Nishizawa.",
+      "desc": "ANA Flight 61 is hijacked in Tokyo, Japan by Yuji Nishizawa.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1999-07-23",
+      "title": "Space Shuttle Columbia launches on STS-93, with Eileen Collins becoming the firs",
+      "desc": "Space Shuttle Columbia launches on STS-93, with Eileen Collins becoming the first female space shuttle commander. The shuttle also carried and deployed the Chandra X-ray Observatory.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1999-03-24",
       "title": "Kosovo War",
@@ -577,10 +605,10 @@
   ],
   "1997": [
     {
-      "date": "1997-07-22",
-      "title": "The second Blue Water Bridge opens between Port Huron, Michigan and Sarnia, Onta",
-      "desc": "The second Blue Water Bridge opens between Port Huron, Michigan and Sarnia, Ontario.",
-      "type": "general",
+      "date": "1997-07-23",
+      "title": "Digital Equipment Corporation files antitrust charges against chipmaker Intel.",
+      "desc": "Digital Equipment Corporation files antitrust charges against chipmaker Intel.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -610,6 +638,13 @@
       "type": "politics"
     },
     {
+      "date": "1995-07-23",
+      "title": "Comet Hale–Bopp is discovered; it becomes visible to the naked eye on Earth near",
+      "desc": "Comet Hale–Bopp is discovered; it becomes visible to the naked eye on Earth nearly a year later.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1995-04-19",
       "title": "Oklahoma City Bombing",
       "desc": "Domestic terrorist attack kills 168 in Oklahoma",
@@ -632,10 +667,10 @@
   ],
   "1993": [
     {
-      "date": "1993-07-22",
-      "title": "Great Flood of 1993: Levees near Kaskaskia, Illinois rupture, forcing the entire",
-      "desc": "Great Flood of 1993: Levees near Kaskaskia, Illinois rupture, forcing the entire town to evacuate by barges operated by the Army Corps of Engineers.",
-      "type": "climate",
+      "date": "1993-07-23",
+      "title": "China Northwest Airlines Flight 2119 crashes during takeoff from Yinchuan Xihuay",
+      "desc": "China Northwest Airlines Flight 2119 crashes during takeoff from Yinchuan Xihuayuan Airport in Yinchuan, Ningxia, China, killing 55 people.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -659,9 +694,16 @@
       "type": "tech"
     },
     {
-      "date": "1992-07-22",
-      "title": "Near Medellín, Colombian drug lord Pablo Escobar escapes from his luxury prison ",
-      "desc": "Near Medellín, Colombian drug lord Pablo Escobar escapes from his luxury prison fearing extradition to the United States.",
+      "date": "1992-07-23",
+      "title": "A Vatican commission, led by Cardinal Joseph Ratzinger, establishes that limitin",
+      "desc": "A Vatican commission, led by Cardinal Joseph Ratzinger, establishes that limiting certain rights of homosexual people and non-married couples is not equivalent to discrimination on grounds of race or ",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1992-07-23",
+      "title": "Abkhazia declares independence from Georgia.",
+      "desc": "Abkhazia declares independence from Georgia.",
       "type": "general",
       "source": "wikipedia"
     },
@@ -706,13 +748,6 @@
       "type": "politics"
     },
     {
-      "date": "1990-07-22",
-      "title": "Greg LeMond, an American road racing cyclist, wins his third Tour de France afte",
-      "desc": "Greg LeMond, an American road racing cyclist, wins his third Tour de France after leading the majority of the race. It was LeMond's second consecutive Tour de France victory.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1990-04-24",
       "title": "Hubble Launched",
       "desc": "Hubble Space Telescope launched into orbit",
@@ -751,6 +786,13 @@
       "title": "Morris Worm",
       "desc": "First major internet worm infects 6000 computers",
       "type": "tech"
+    },
+    {
+      "date": "1988-07-23",
+      "title": "General Ne Win, effective ruler of Burma since 1962, resigns after pro-democracy",
+      "desc": "General Ne Win, effective ruler of Burma since 1962, resigns after pro-democracy protests.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1987": [
@@ -803,10 +845,17 @@
       "type": "disaster"
     },
     {
-      "date": "1983-07-22",
-      "title": "Martial law in Poland is officially revoked.",
-      "desc": "Martial law in Poland is officially revoked.",
-      "type": "politics",
+      "date": "1983-07-23",
+      "title": "Thirteen Sri Lanka Army soldiers are killed after a deadly ambush by the militan",
+      "desc": "Thirteen Sri Lanka Army soldiers are killed after a deadly ambush by the militant Liberation Tigers of Tamil Eelam.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1983-07-23",
+      "title": "Gimli Glider: Air Canada Flight 143 runs out of fuel and makes a deadstick landi",
+      "desc": "Gimli Glider: Air Canada Flight 143 runs out of fuel and makes a deadstick landing at Gimli, Manitoba.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -817,6 +866,13 @@
     }
   ],
   "1982": [
+    {
+      "date": "1982-07-23",
+      "title": "Outside Santa Clarita, California, actor Vic Morrow and two children are killed ",
+      "desc": "Outside Santa Clarita, California, actor Vic Morrow and two children are killed when a helicopter crashes onto them while shooting a scene from Twilight Zone: The Movie.",
+      "type": "disaster",
+      "source": "wikipedia"
+    },
     {
       "date": "1982-06-28",
       "title": "Aeroflot Flight 8641",
@@ -830,21 +886,19 @@
       "type": "politics"
     }
   ],
-  "1981": [
-    {
-      "date": "1981-07-22",
-      "title": "The first game of the 1981 South Africa rugby union tour of New Zealand and the ",
-      "desc": "The first game of the 1981 South Africa rugby union tour of New Zealand and the United States is held in Gisborne, New Zealand.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1980": [
     {
       "date": "1980-09-22",
       "title": "Iran-Iraq War Begins",
       "desc": "Longest conventional war of 20th century starts",
       "type": "politics"
+    },
+    {
+      "date": "1980-07-23",
+      "title": "Phạm Tuân becomes the first Vietnamese citizen and the first Asian in space when",
+      "desc": "Phạm Tuân becomes the first Vietnamese citizen and the first Asian in space when he flies aboard the Soyuz 37 mission as an Intercosmos Research Cosmonaut.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1980-05-18",
@@ -893,23 +947,9 @@
       "title": "Elvis Dies",
       "desc": "Elvis Presley dies at Graceland at age 42",
       "type": "general"
-    },
-    {
-      "date": "1977-07-22",
-      "title": "Chinese leader Deng Xiaoping is restored to power.",
-      "desc": "Chinese leader Deng Xiaoping is restored to power.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1976": [
-    {
-      "date": "1976-07-22",
-      "title": "Japan completes its last reparation to the Philippines for war crimes committed ",
-      "desc": "Japan completes its last reparation to the Philippines for war crimes committed during imperial Japan's conquest of the country in the Second World War.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
     {
       "date": "1976-07-20",
       "title": "Viking 1 Lands on Mars",
@@ -945,6 +985,13 @@
       "type": "politics"
     },
     {
+      "date": "1974-07-23",
+      "title": "The Greek military junta collapses, and former Prime Minister Konstantinos Karam",
+      "desc": "The Greek military junta collapses, and former Prime Minister Konstantinos Karamanlis is invited to lead the new government, beginning Greece's metapolitefsi era.",
+      "type": "disaster",
+      "source": "wikipedia"
+    },
+    {
       "date": "1974-02-01",
       "title": "Brazil Oil Crisis",
       "desc": "First oil shock hits Brazil, triggering economic changes",
@@ -959,13 +1006,6 @@
       "type": "finance"
     },
     {
-      "date": "1973-07-22",
-      "title": "Pan Am Flight 816 crashes after takeoff from Faa'a International Airport in Pape",
-      "desc": "Pan Am Flight 816 crashes after takeoff from Faa'a International Airport in Papeete, French Polynesia, killing 78.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1973-06-28",
       "title": "NI Assembly Elections",
       "desc": "Northern Ireland Assembly elections held",
@@ -978,6 +1018,13 @@
       "title": "Munich Massacre",
       "desc": "Palestinian terrorists kill Israeli athletes at Olympics",
       "type": "disaster"
+    },
+    {
+      "date": "1972-07-23",
+      "title": "The United States launches Landsat 1, the first Earth-resources satellite.",
+      "desc": "The United States launches Landsat 1, the first Earth-resources satellite.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1972-02-21",
@@ -998,6 +1045,15 @@
       "title": "Bretton Woods Ends",
       "desc": "Nixon ends gold standard, floating exchange rates begin",
       "type": "finance"
+    }
+  ],
+  "1970": [
+    {
+      "date": "1970-07-23",
+      "title": "Qaboos bin Said al Said becomes Sultan of Oman after overthrowing his father, Sa",
+      "desc": "Qaboos bin Said al Said becomes Sultan of Oman after overthrowing his father, Said bin Taimur initiating massive reforms, modernization programs and end to a decade long civil war.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1969": [
@@ -1028,6 +1084,20 @@
       "type": "politics"
     },
     {
+      "date": "1968-07-23",
+      "title": "Glenville shootout: In Cleveland, Ohio, a violent shootout between a Black Milit",
+      "desc": "Glenville shootout: In Cleveland, Ohio, a violent shootout between a Black Militant organization and the Cleveland Police Department occurs. During the shootout, a riot begins and lasts for five days.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1968-07-23",
+      "title": "The only successful hijacking of an El Al aircraft takes place when a Boeing 707",
+      "desc": "The only successful hijacking of an El Al aircraft takes place when a Boeing 707 carrying ten crew and 38 passengers is taken over by three members of the Popular Front for the Liberation of Palestine",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1968-06-05",
       "title": "RFK Assassinated",
       "desc": "Robert F. Kennedy shot after winning California primary",
@@ -1046,6 +1116,13 @@
       "title": "Che Guevara Killed",
       "desc": "Revolutionary Che Guevara executed in Bolivia",
       "type": "politics"
+    },
+    {
+      "date": "1967-07-23",
+      "title": "Detroit Riots: In Detroit, one of the worst riots in United States history begin",
+      "desc": "Detroit Riots: In Detroit, one of the worst riots in United States history begins on 12th Street in the predominantly African American inner city. It ultimately kills 43 people, injures 342 and burns ",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1967-06-05",
@@ -1094,13 +1171,6 @@
       "title": "I Have a Dream",
       "desc": "MLK delivers iconic speech at March on Washington",
       "type": "politics"
-    },
-    {
-      "date": "1963-07-22",
-      "title": "Crown Colony of Sarawak gains self-governance.",
-      "desc": "Crown Colony of Sarawak gains self-governance.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1962": [
@@ -1111,10 +1181,24 @@
       "type": "politics"
     },
     {
-      "date": "1962-07-22",
-      "title": "Mariner program: Mariner 1 spacecraft flies erratically several minutes after la",
-      "desc": "Mariner program: Mariner 1 spacecraft flies erratically several minutes after launch and has to be destroyed.",
-      "type": "tech",
+      "date": "1962-07-23",
+      "title": "Telstar relays the first publicly transmitted, live trans-Atlantic television pr",
+      "desc": "Telstar relays the first publicly transmitted, live trans-Atlantic television program, featuring Walter Cronkite.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1962-07-23",
+      "title": "The International Agreement on the Neutrality of Laos is signed.",
+      "desc": "The International Agreement on the Neutrality of Laos is signed.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1962-07-23",
+      "title": "Jackie Robinson becomes the first African American to be inducted into the Natio",
+      "desc": "Jackie Robinson becomes the first African American to be inducted into the National Baseball Hall of Fame.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -1130,6 +1214,13 @@
       "title": "Berlin Wall Built",
       "desc": "East Germany begins construction of Berlin Wall",
       "type": "politics"
+    },
+    {
+      "date": "1961-07-23",
+      "title": "The Sandinista National Liberation Front is founded in Nicaragua.",
+      "desc": "The Sandinista National Liberation Front is founded in Nicaragua.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1961-04-12",
@@ -1244,6 +1335,13 @@
       "type": "science"
     },
     {
+      "date": "1952-07-23",
+      "title": "General Muhammad Naguib leads the Free Officers Movement (formed by Gamal Abdel ",
+      "desc": "General Muhammad Naguib leads the Free Officers Movement (formed by Gamal Abdel Nasser, the real power behind the coup) in overthrowing King Farouk of Egypt.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1952-02-06",
       "title": "Elizabeth Queen",
       "desc": "Princess Elizabeth becomes Queen after father's death",
@@ -1251,13 +1349,6 @@
     }
   ],
   "1951": [
-    {
-      "date": "1951-07-22",
-      "title": "Soviet space dogs: Dezik and Tsygan were launched into a sub-orbital spaceflight",
-      "desc": "Soviet space dogs: Dezik and Tsygan were launched into a sub-orbital spaceflight from Kapustin Yar and became the first dogs to fly in space and the first to safely return.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1951-03-29",
       "title": "Rosenberg Spy Case",
@@ -1339,15 +1430,6 @@
       "type": "finance"
     }
   ],
-  "1946": [
-    {
-      "date": "1946-07-22",
-      "title": "King David Hotel bombing: A Zionist underground organisation, the Irgun, bombs t",
-      "desc": "King David Hotel bombing: A Zionist underground organisation, the Irgun, bombs the King David Hotel in Jerusalem, site of the civil administration and military headquarters for Mandatory Palestine, re",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1945": [
     {
       "date": "1945-09-02",
@@ -1360,6 +1442,13 @@
       "title": "Hiroshima Bombed",
       "desc": "US drops atomic bomb on Hiroshima",
       "type": "disaster"
+    },
+    {
+      "date": "1945-07-23",
+      "title": "The post-war legal processes against Philippe Pétain begin.",
+      "desc": "The post-war legal processes against Philippe Pétain begin.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1945-06-28",
@@ -1376,13 +1465,6 @@
   ],
   "1944": [
     {
-      "date": "1944-07-22",
-      "title": "The Polish Committee of National Liberation publishes its manifesto, starting th",
-      "desc": "The Polish Committee of National Liberation publishes its manifesto, starting the period of Communist rule in Poland.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1944-07-20",
       "title": "Hitler Assassination Attempt",
       "desc": "Operation Valkyrie: von Stauffenberg tries to kill Hitler",
@@ -1397,33 +1479,33 @@
   ],
   "1943": [
     {
-      "date": "1943-07-22",
-      "title": "World War II: Allied forces capture Palermo during the Allied invasion of Sicily",
-      "desc": "World War II: Allied forces capture Palermo during the Allied invasion of Sicily.",
-      "type": "politics",
+      "date": "1943-07-23",
+      "title": "The Rayleigh bath chair murder occurred in Rayleigh, Essex, England.",
+      "desc": "The Rayleigh bath chair murder occurred in Rayleigh, Essex, England.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
-      "date": "1943-07-22",
-      "title": "World War II: Axis occupation forces violently disperse a massive protest in Ath",
-      "desc": "World War II: Axis occupation forces violently disperse a massive protest in Athens, killing 22.",
+      "date": "1943-07-23",
+      "title": "World War II: The British destroyers HMS Eclipse and HMS Laforey sink the Italia",
+      "desc": "World War II: The British destroyers HMS Eclipse and HMS Laforey sink the Italian submarine Ascianghi in the Mediterranean after she torpedoes the cruiser HMS Newfoundland.",
       "type": "politics",
       "source": "wikipedia"
     }
   ],
   "1942": [
     {
-      "date": "1942-07-22",
-      "title": "The United States government begins compulsory civilian gasoline rationing due t",
-      "desc": "The United States government begins compulsory civilian gasoline rationing due to the wartime demands.",
+      "date": "1942-07-23",
+      "title": "World War II: The German offensives Operation Edelweiss and Operation Braunschwe",
+      "desc": "World War II: The German offensives Operation Edelweiss and Operation Braunschweig begin on the Eastern Front.",
       "type": "politics",
       "source": "wikipedia"
     },
     {
-      "date": "1942-07-22",
-      "title": "Grossaktion Warsaw: The systematic deportation of Jews from the Warsaw ghetto be",
-      "desc": "Grossaktion Warsaw: The systematic deportation of Jews from the Warsaw ghetto begins.",
-      "type": "politics",
+      "date": "1942-07-23",
+      "title": "Bulgarian poet and Communist leader Nikola Vaptsarov is executed by firing squad",
+      "desc": "Bulgarian poet and Communist leader Nikola Vaptsarov is executed by firing squad.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -1439,6 +1521,15 @@
       "title": "Operation Barbarossa",
       "desc": "Germany invades Soviet Union",
       "type": "politics"
+    }
+  ],
+  "1940": [
+    {
+      "date": "1940-07-23",
+      "title": "The United States' Under Secretary of State Sumner Welles issues a declaration o",
+      "desc": "The United States' Under Secretary of State Sumner Welles issues a declaration on the U.S. non-recognition policy of the Soviet annexation and incorporation of three Baltic states: Estonia, Latvia and",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1939": [
@@ -1457,13 +1548,6 @@
   ],
   "1937": [
     {
-      "date": "1937-07-22",
-      "title": "New Deal: The United States Senate votes down President Franklin D. Roosevelt's ",
-      "desc": "New Deal: The United States Senate votes down President Franklin D. Roosevelt's proposal to add more justices to the Supreme Court of the United States.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1937-07-07",
       "title": "Marco Polo Bridge",
       "desc": "Full-scale war between China and Japan begins",
@@ -1478,10 +1562,10 @@
   ],
   "1936": [
     {
-      "date": "1936-07-22",
-      "title": "Spanish Civil War: The Popular Executive Committee of Valencia takes power in th",
-      "desc": "Spanish Civil War: The Popular Executive Committee of Valencia takes power in the Valencian Community.",
-      "type": "politics",
+      "date": "1936-07-23",
+      "title": "In Catalonia, Spain, the Unified Socialist Party of Catalonia is founded through",
+      "desc": "In Catalonia, Spain, the Unified Socialist Party of Catalonia is founded through the merger of Socialist and Communist parties.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -1498,13 +1582,6 @@
     }
   ],
   "1933": [
-    {
-      "date": "1933-07-22",
-      "title": "Aviator Wiley Post returns to Floyd Bennett Field in New York City, completing t",
-      "desc": "Aviator Wiley Post returns to Floyd Bennett Field in New York City, completing the first solo flight around the world in seven days, 18 hours and 49 minutes.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1933-03-04",
       "title": "FDR Inaugurated",
@@ -1548,6 +1625,13 @@
       "type": "general"
     },
     {
+      "date": "1927-07-23",
+      "title": "The first station of the Indian Broadcasting Company goes on the air in Bombay.",
+      "desc": "The first station of the Indian Broadcasting Company goes on the air in Bombay.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1927-05-20",
       "title": "Lindbergh Flies Atlantic",
       "desc": "Charles Lindbergh completes first solo transatlantic flight",
@@ -1555,6 +1639,13 @@
     }
   ],
   "1926": [
+    {
+      "date": "1926-07-23",
+      "title": "Fox Film buys the patents of the Movietone sound system for recording sound onto",
+      "desc": "Fox Film buys the patents of the Movietone sound system for recording sound onto film.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1926-06-28",
       "title": "Mercedes-Benz Formed",
@@ -1592,9 +1683,9 @@
   ],
   "1921": [
     {
-      "date": "1921-07-22",
-      "title": "Rif War: The Spanish Army suffers its worst military defeat in modern times to t",
-      "desc": "Rif War: The Spanish Army suffers its worst military defeat in modern times to the Berbers of the Rif region of Spanish Morocco.",
+      "date": "1921-07-23",
+      "title": "The Chinese Communist Party (CCP) is established at the founding National Congre",
+      "desc": "The Chinese Communist Party (CCP) is established at the founding National Congress.",
       "type": "politics",
       "source": "wikipedia"
     },
@@ -1612,6 +1703,13 @@
     }
   ],
   "1919": [
+    {
+      "date": "1919-07-23",
+      "title": "Prince Regent Aleksander Karađorđević signs the decree establishing the Universi",
+      "desc": "Prince Regent Aleksander Karađorđević signs the decree establishing the University of Ljubljana",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1919-06-28",
       "title": "Treaty of Versailles",
@@ -1653,21 +1751,19 @@
       "type": "politics"
     }
   ],
-  "1916": [
-    {
-      "date": "1916-07-22",
-      "title": "Preparedness Day Bombing: In San Francisco, a bomb explodes on Market Street dur",
-      "desc": "Preparedness Day Bombing: In San Francisco, a bomb explodes on Market Street during a parade, killing ten and injuring 40.",
-      "type": "finance",
-      "source": "wikipedia"
-    }
-  ],
   "1914": [
     {
       "date": "1914-07-28",
       "title": "WWI Begins",
       "desc": "Austria-Hungary declares war on Serbia",
       "type": "politics"
+    },
+    {
+      "date": "1914-07-23",
+      "title": "July Crisis: Austria-Hungary issues a series of demands in an ultimatum to the K",
+      "desc": "July Crisis: Austria-Hungary issues a series of demands in an ultimatum to the Kingdom of Serbia demanding Serbia to allow the Austrians to determine who assassinated Archduke Franz Ferdinand. Serbia ",
+      "type": "finance",
+      "source": "wikipedia"
     },
     {
       "date": "1914-06-28",
@@ -1704,6 +1800,24 @@
       "type": "science"
     }
   ],
+  "1908": [
+    {
+      "date": "1908-07-23",
+      "title": "The Second Constitution accepted by the Ottomans.",
+      "desc": "The Second Constitution accepted by the Ottomans.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
+  "1906": [
+    {
+      "date": "1906-07-23",
+      "title": "The Amsden Building collapse in Framingham, Massachusetts, U.S., claimed 12 live",
+      "desc": "The Amsden Building collapse in Framingham, Massachusetts, U.S., claimed 12 lives.",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "1905": [
     {
       "date": "1905-09-05",
@@ -1724,6 +1838,13 @@
       "title": "First Flight",
       "desc": "Wright Brothers make first powered flight at Kitty Hawk",
       "type": "science"
+    },
+    {
+      "date": "1903-07-23",
+      "title": "The Ford Motor Company sells its first car.",
+      "desc": "The Ford Motor Company sells its first car.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1903-06-16",
@@ -1752,6 +1873,13 @@
       "title": "Quantum Theory",
       "desc": "Max Planck publishes quantum theory paper",
       "type": "science"
+    },
+    {
+      "date": "1900-07-23",
+      "title": "Pressed by expanding immigration, Canada closes its doors to paupers and crimina",
+      "desc": "Pressed by expanding immigration, Canada closes its doors to paupers and criminals.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1900-05-14",
