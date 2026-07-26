@@ -183,13 +183,6 @@
       "type": "disaster"
     },
     {
-      "date": "2019-07-25",
-      "title": "National extreme heat records set this day in the UK, Belgium, The Netherlands a",
-      "desc": "National extreme heat records set this day in the UK, Belgium, The Netherlands and Germany during the July 2019 European heat wave.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2019-04-15",
       "title": "Notre Dame Fire",
       "desc": "Major fire devastates Notre Dame Cathedral in Paris",
@@ -203,13 +196,6 @@
     }
   ],
   "2018": [
-    {
-      "date": "2018-07-25",
-      "title": "As-Suwayda attacks: Coordinated attacks occur in Syria.",
-      "desc": "As-Suwayda attacks: Coordinated attacks occur in Syria.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "2018-06-12",
       "title": "Trump-Kim Summit",
@@ -249,6 +235,27 @@
       "title": "Trump Elected",
       "desc": "Donald Trump wins US presidential election",
       "type": "politics"
+    },
+    {
+      "date": "2016-07-26",
+      "title": "The Sagamihara stabbings occur in Kanagawa Prefecture in Japan. Nineteen people ",
+      "desc": "The Sagamihara stabbings occur in Kanagawa Prefecture in Japan. Nineteen people are killed.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2016-07-26",
+      "title": "Hillary Clinton becomes the first female nominee for president of the United Sta",
+      "desc": "Hillary Clinton becomes the first female nominee for president of the United States by a major political party at the Democratic National Convention in Philadelphia.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2016-07-26",
+      "title": "Solar Impulse 2 becomes the first solar-powered aircraft to circumnavigate the E",
+      "desc": "Solar Impulse 2 becomes the first solar-powered aircraft to circumnavigate the Earth.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "2016-06-23",
@@ -345,6 +352,13 @@
   ],
   "2011": [
     {
+      "date": "2011-07-26",
+      "title": "A Royal Moroccan Air Force Lockheed C-130 Hercules crashes near Guelmim Airport ",
+      "desc": "A Royal Moroccan Air Force Lockheed C-130 Hercules crashes near Guelmim Airport in Guelmim, Morocco. All 80 people on board are killed.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "2011-05-02",
       "title": "Bin Laden Killed",
       "desc": "US Navy SEALs kill Osama bin Laden in Pakistan",
@@ -365,13 +379,6 @@
   ],
   "2010": [
     {
-      "date": "2010-07-25",
-      "title": "WikiLeaks publishes classified documents about the War in Afghanistan, one of th",
-      "desc": "WikiLeaks publishes classified documents about the War in Afghanistan, one of the largest leaks in U.S. military history.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "2010-05-06",
       "title": "Flash Crash",
       "desc": "Dow Jones drops 1000 points in minutes",
@@ -391,6 +398,13 @@
     }
   ],
   "2009": [
+    {
+      "date": "2009-07-26",
+      "title": "The militant Nigerian Islamist group Boko Haram attacks a police station in Bauc",
+      "desc": "The militant Nigerian Islamist group Boko Haram attacks a police station in Bauchi, leading to reprisals by the Nigeria Police Force and four days of violence across multiple cities.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "2009-06-25",
       "title": "Michael Jackson Dies",
@@ -428,16 +442,16 @@
       "title": "Lehman Brothers Collapse",
       "desc": "Investment bank fails, triggering global financial crisis",
       "type": "finance"
+    },
+    {
+      "date": "2008-07-26",
+      "title": "Fifty-six people are killed and over 200 people are injured, in the Ahmedabad bo",
+      "desc": "Fifty-six people are killed and over 200 people are injured, in the Ahmedabad bombings in India.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "2007": [
-    {
-      "date": "2007-07-25",
-      "title": "Pratibha Patil is sworn in as India's first female president.",
-      "desc": "Pratibha Patil is sworn in as India's first female president.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
     {
       "date": "2007-06-29",
       "title": "iPhone Released",
@@ -457,6 +471,20 @@
       "title": "Hurricane Katrina",
       "desc": "Devastating hurricane hits New Orleans",
       "type": "disaster"
+    },
+    {
+      "date": "2005-07-26",
+      "title": "Space Shuttle program: STS-114 Mission: Launch of Discovery, NASA's first schedu",
+      "desc": "Space Shuttle program: STS-114 Mission: Launch of Discovery, NASA's first scheduled flight mission after the Columbia Disaster in 2003.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2005-07-26",
+      "title": "Mumbai, India receives 99.5cm of rain (39.17 inches) within 24 hours, resulting ",
+      "desc": "Mumbai, India receives 99.5cm of rain (39.17 inches) within 24 hours, resulting in floods killing over 5,000 people.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "2005-07-07",
@@ -513,13 +541,6 @@
       "type": "disaster"
     },
     {
-      "date": "2001-07-25",
-      "title": "Phoolan Devi, a serving Member of Parliament, is assassinated by shooting in New",
-      "desc": "Phoolan Devi, a serving Member of Parliament, is assassinated by shooting in New Delhi, India.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "2001-01-15",
       "title": "Wikipedia Launched",
       "desc": "Wikipedia goes live as a free online encyclopedia",
@@ -534,13 +555,6 @@
       "type": "general"
     },
     {
-      "date": "2000-07-25",
-      "title": "Concorde Air France Flight 4590 crashes outside of Paris shortly after taking of",
-      "desc": "Concorde Air France Flight 4590 crashes outside of Paris shortly after taking off at Charles de Gaulle Airport, killing 113 people.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2000-03-10",
       "title": "Dot-Com Bubble Burst",
       "desc": "NASDAQ peaks at 5048 before tech crash",
@@ -548,6 +562,13 @@
     }
   ],
   "1999": [
+    {
+      "date": "1999-07-26",
+      "title": "Kargil conflict officially comes to an end. The Indian Army announces the comple",
+      "desc": "Kargil conflict officially comes to an end. The Indian Army announces the complete eviction of Pakistani intruders.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1999-03-24",
       "title": "Kosovo War",
@@ -595,28 +616,12 @@
       "type": "tech"
     }
   ],
-  "1996": [
-    {
-      "date": "1996-07-25",
-      "title": "In a military coup in Burundi, Pierre Buyoya deposes Sylvestre Ntibantunganya.",
-      "desc": "In a military coup in Burundi, Pierre Buyoya deposes Sylvestre Ntibantunganya.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1995": [
     {
       "date": "1995-12-14",
       "title": "Dayton Agreement",
       "desc": "Peace agreement ends Bosnian War",
       "type": "politics"
-    },
-    {
-      "date": "1995-07-25",
-      "title": "A gas bottle explodes in Saint Michel station of line B of the RER (Paris region",
-      "desc": "A gas bottle explodes in Saint Michel station of line B of the RER (Paris regional train network). Eight are killed and 80 wounded.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1995-04-19",
@@ -626,13 +631,6 @@
     }
   ],
   "1994": [
-    {
-      "date": "1994-07-25",
-      "title": "Israel and Jordan sign the Washington Declaration, that formally ends the state ",
-      "desc": "Israel and Jordan sign the Washington Declaration, that formally ends the state of war that had existed between the nations since 1948.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
     {
       "date": "1994-05-10",
       "title": "Mandela President",
@@ -648,16 +646,9 @@
   ],
   "1993": [
     {
-      "date": "1993-07-25",
-      "title": "Israel launches a massive attack against Lebanon in what the Israelis call Opera",
-      "desc": "Israel launches a massive attack against Lebanon in what the Israelis call Operation Accountability, and the Lebanese call the Seven-Day War.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1993-07-25",
-      "title": "The Saint James Church massacre occurs in Kenilworth, Cape Town, South Africa.",
-      "desc": "The Saint James Church massacre occurs in Kenilworth, Cape Town, South Africa.",
+      "date": "1993-07-26",
+      "title": "Asiana Airlines Flight 733 crashes into a ridge on Mt. Ungeo on its third attemp",
+      "desc": "Asiana Airlines Flight 733 crashes into a ridge on Mt. Ungeo on its third attempt to land at Mokpo Airport, South Korea. Sixty-eight of the 116 people on board are killed.",
       "type": "tech",
       "source": "wikipedia"
     },
@@ -722,6 +713,13 @@
       "type": "politics"
     },
     {
+      "date": "1990-07-26",
+      "title": "The Americans with Disabilities Act of 1990 is signed into law by President Geor",
+      "desc": "The Americans with Disabilities Act of 1990 is signed into law by President George H. W. Bush.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1990-04-24",
       "title": "Hubble Launched",
       "desc": "Hubble Space Telescope launched into orbit",
@@ -734,6 +732,13 @@
       "title": "Berlin Wall Falls",
       "desc": "East Germany opens borders, Berlin Wall falls",
       "type": "politics"
+    },
+    {
+      "date": "1989-07-26",
+      "title": "A federal grand jury indicts Cornell University student Robert T. Morris, Jr. fo",
+      "desc": "A federal grand jury indicts Cornell University student Robert T. Morris, Jr. for releasing the Morris worm, thus becoming the first person to be prosecuted under the 1986 Computer Fraud and Abuse Act",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1989-06-04",
@@ -804,28 +809,12 @@
       "type": "politics"
     }
   ],
-  "1984": [
-    {
-      "date": "1984-07-25",
-      "title": "Salyut 7 cosmonaut Svetlana Savitskaya becomes the first woman to perform a spac",
-      "desc": "Salyut 7 cosmonaut Svetlana Savitskaya becomes the first woman to perform a space walk.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
   "1983": [
     {
       "date": "1983-09-01",
       "title": "KAL 007 Shot Down",
       "desc": "Soviet Union shoots down Korean Air Lines Flight 007",
       "type": "disaster"
-    },
-    {
-      "date": "1983-07-25",
-      "title": "Black July: Thirty-seven Tamil political prisoners at the Welikada high security",
-      "desc": "Black July: Thirty-seven Tamil political prisoners at the Welikada high security prison in Colombo are massacred by the fellow Sinhalese prisoners.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1983-01-01",
@@ -864,13 +853,6 @@
   ],
   "1979": [
     {
-      "date": "1979-07-25",
-      "title": "In accord with the Egypt–Israel peace treaty, Israel begins its withdrawal from ",
-      "desc": "In accord with the Egypt–Israel peace treaty, Israel begins its withdrawal from the Sinai Peninsula.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1979-04-01",
       "title": "Iran Islamic Republic",
       "desc": "Iran becomes Islamic Republic after referendum",
@@ -891,20 +873,6 @@
       "type": "science"
     },
     {
-      "date": "1978-07-25",
-      "title": "Puerto Rican police shoot two nationalists in the Cerro Maravilla murders.",
-      "desc": "Puerto Rican police shoot two nationalists in the Cerro Maravilla murders.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1978-07-25",
-      "title": "Birth of Louise Joy Brown, the first human to have been born after conception by",
-      "desc": "Birth of Louise Joy Brown, the first human to have been born after conception by in vitro fertilisation, or IVF.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1978-06-28",
       "title": "Bakke Decision",
       "desc": "US Supreme Court rules on affirmative action",
@@ -923,16 +891,16 @@
       "title": "Elvis Dies",
       "desc": "Elvis Presley dies at Graceland at age 42",
       "type": "general"
+    },
+    {
+      "date": "1977-07-26",
+      "title": "The National Assembly of Quebec imposes the use of French as the official langua",
+      "desc": "The National Assembly of Quebec imposes the use of French as the official language of the provincial government.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1976": [
-    {
-      "date": "1976-07-25",
-      "title": "Viking program: Viking 1 takes the famous Face on Mars photo.",
-      "desc": "Viking program: Viking 1 takes the famous Face on Mars photo.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1976-07-20",
       "title": "Viking 1 Lands on Mars",
@@ -968,6 +936,13 @@
       "type": "politics"
     },
     {
+      "date": "1974-07-26",
+      "title": "Greek Prime Minister Konstantinos Karamanlis forms the country's first civil gov",
+      "desc": "Greek Prime Minister Konstantinos Karamanlis forms the country's first civil government after seven years of military rule.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1974-02-01",
       "title": "Brazil Oil Crisis",
       "desc": "First oil shock hits Brazil, triggering economic changes",
@@ -980,13 +955,6 @@
       "title": "Oil Crisis Begins",
       "desc": "OPEC oil embargo triggers global energy crisis",
       "type": "finance"
-    },
-    {
-      "date": "1973-07-25",
-      "title": "Soviet Mars 5 space probe is launched.",
-      "desc": "Soviet Mars 5 space probe is launched.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1973-06-28",
@@ -1023,10 +991,10 @@
       "type": "finance"
     },
     {
-      "date": "1971-07-25",
-      "title": "The Sohagpur massacre is perpetrated by the Pakistan Army.",
-      "desc": "The Sohagpur massacre is perpetrated by the Pakistan Army.",
-      "type": "general",
+      "date": "1971-07-26",
+      "title": "Apollo program: Launch of Apollo 15 on the first Apollo \"J-Mission\", and first u",
+      "desc": "Apollo program: Launch of Apollo 15 on the first Apollo \"J-Mission\", and first use of a Lunar Roving Vehicle.",
+      "type": "tech",
       "source": "wikipedia"
     }
   ],
@@ -1036,13 +1004,6 @@
       "title": "Woodstock",
       "desc": "Iconic music festival draws 400,000 to New York farm",
       "type": "general"
-    },
-    {
-      "date": "1969-07-25",
-      "title": "Vietnam War: U.S. President Richard Nixon declares the Nixon Doctrine, stating t",
-      "desc": "Vietnam War: U.S. President Richard Nixon declares the Nixon Doctrine, stating that the United States now expects its Asian allies to take care of their own military defense. This is the start of the ",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1969-07-20",
@@ -1063,6 +1024,13 @@
       "title": "Prague Spring",
       "desc": "Soviet-led forces invade Czechoslovakia",
       "type": "politics"
+    },
+    {
+      "date": "1968-07-26",
+      "title": "Vietnam War: South Vietnamese opposition leader Trương Đình Dzu is sentenced to ",
+      "desc": "Vietnam War: South Vietnamese opposition leader Trương Đình Dzu is sentenced to five years hard labor for advocating the formation of a coalition government as a way to move toward an end to the war.",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "1968-06-05",
@@ -1099,13 +1067,6 @@
       "type": "politics"
     },
     {
-      "date": "1965-07-25",
-      "title": "Bob Dylan goes electric at the Newport Folk Festival, signaling a major change i",
-      "desc": "Bob Dylan goes electric at the Newport Folk Festival, signaling a major change in folk and rock music.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1965-03-07",
       "title": "Bloody Sunday",
       "desc": "Civil rights marchers attacked on Edmund Pettus Bridge",
@@ -1138,6 +1099,27 @@
       "title": "I Have a Dream",
       "desc": "MLK delivers iconic speech at March on Washington",
       "type": "politics"
+    },
+    {
+      "date": "1963-07-26",
+      "title": "Syncom 2, the world's first geosynchronous satellite, is launched from Cape Cana",
+      "desc": "Syncom 2, the world's first geosynchronous satellite, is launched from Cape Canaveral on a Delta B booster.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1963-07-26",
+      "title": "An earthquake in Skopje, Yugoslavia (present-day North Macedonia) leaves 1,100 d",
+      "desc": "An earthquake in Skopje, Yugoslavia (present-day North Macedonia) leaves 1,100 dead.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1963-07-26",
+      "title": "The Organisation for Economic Co-operation and Development votes to admit Japan.",
+      "desc": "The Organisation for Economic Co-operation and Development votes to admit Japan.",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "1962": [
@@ -1160,13 +1142,6 @@
       "title": "Berlin Wall Built",
       "desc": "East Germany begins construction of Berlin Wall",
       "type": "politics"
-    },
-    {
-      "date": "1961-07-25",
-      "title": "Cold War: In a speech John F. Kennedy emphasizes that any attack on Berlin is an",
-      "desc": "Cold War: In a speech John F. Kennedy emphasizes that any attack on Berlin is an attack on NATO.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1961-04-12",
@@ -1205,10 +1180,10 @@
   ],
   "1958": [
     {
-      "date": "1958-07-25",
-      "title": "The African Regroupment Party holds its first congress in Cotonou.",
-      "desc": "The African Regroupment Party holds its first congress in Cotonou.",
-      "type": "politics",
+      "date": "1958-07-26",
+      "title": "Explorer program: Explorer 4 is launched.",
+      "desc": "Explorer program: Explorer 4 is launched.",
+      "type": "tech",
       "source": "wikipedia"
     }
   ],
@@ -1226,10 +1201,10 @@
       "type": "science"
     },
     {
-      "date": "1957-07-25",
-      "title": "The Tunisian King Muhammad VIII al-Amin is replaced by President Habib Bourguiba",
-      "desc": "The Tunisian King Muhammad VIII al-Amin is replaced by President Habib Bourguiba.",
-      "type": "politics",
+      "date": "1957-07-26",
+      "title": "Carlos Castillo Armas, dictator of Guatemala, is assassinated.",
+      "desc": "Carlos Castillo Armas, dictator of Guatemala, is assassinated.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -1241,9 +1216,9 @@
       "type": "politics"
     },
     {
-      "date": "1956-07-25",
-      "title": "Forty-five miles south of Nantucket Island, the Italian ocean liner SS Andrea Do",
-      "desc": "Forty-five miles south of Nantucket Island, the Italian ocean liner SS Andrea Doria collides with the MS Stockholm in heavy fog and sinks the next day, killing 51.",
+      "date": "1956-07-26",
+      "title": "Following the World Bank's refusal to fund building the Aswan Dam, Egyptian lead",
+      "desc": "Following the World Bank's refusal to fund building the Aswan Dam, Egyptian leader Gamal Abdel Nasser nationalizes the Suez Canal, sparking international condemnation.",
       "type": "finance",
       "source": "wikipedia"
     },
@@ -1284,6 +1259,27 @@
   ],
   "1953": [
     {
+      "date": "1953-07-26",
+      "title": "Cold War: Fidel Castro leads an unsuccessful attack on the Moncada Barracks, thu",
+      "desc": "Cold War: Fidel Castro leads an unsuccessful attack on the Moncada Barracks, thus beginning the Cuban Revolution. The movement took the name of the date: 26th of July Movement",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1953-07-26",
+      "title": "Arizona Governor John Howard Pyle orders an anti-polygamy law enforcement crackd",
+      "desc": "Arizona Governor John Howard Pyle orders an anti-polygamy law enforcement crackdown on residents of Short Creek, Arizona, which becomes known as the Short Creek raid.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1953-07-26",
+      "title": "Soldiers from the 2nd Battalion, Royal Australian Regiment repel a number of Chi",
+      "desc": "Soldiers from the 2nd Battalion, Royal Australian Regiment repel a number of Chinese assaults against a key position known as The Hook during the Battle of the Samichon River, just hours before the Ar",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1953-06-02",
       "title": "Elizabeth Coronation",
       "desc": "Queen Elizabeth II crowned at Westminster Abbey",
@@ -1304,6 +1300,13 @@
       "type": "science"
     },
     {
+      "date": "1952-07-26",
+      "title": "King Farouk of Egypt abdicates in favor of his son Fuad.",
+      "desc": "King Farouk of Egypt abdicates in favor of his son Fuad.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1952-02-06",
       "title": "Elizabeth Queen",
       "desc": "Princess Elizabeth becomes Queen after father's death",
@@ -1311,6 +1314,13 @@
     }
   ],
   "1951": [
+    {
+      "date": "1951-07-26",
+      "title": "Walt Disney's 13th animated film, Alice in Wonderland, premieres in London, Engl",
+      "desc": "Walt Disney's 13th animated film, Alice in Wonderland, premieres in London, England, United Kingdom.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1951-03-29",
       "title": "Rosenberg Spy Case",
@@ -1366,6 +1376,13 @@
       "type": "politics"
     },
     {
+      "date": "1948-07-26",
+      "title": "U.S. president Harry S. Truman signs Executive Order 9981, desegregating the mil",
+      "desc": "U.S. president Harry S. Truman signs Executive Order 9981, desegregating the military of the United States.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1948-06-28",
       "title": "Tito-Stalin Split",
       "desc": "Yugoslavia expelled from Soviet bloc",
@@ -1386,6 +1403,13 @@
       "type": "politics"
     },
     {
+      "date": "1947-07-26",
+      "title": "Cold War: U.S. president Harry S. Truman signs the National Security Act of 1947",
+      "desc": "Cold War: U.S. president Harry S. Truman signs the National Security Act of 1947 into United States law creating the Central Intelligence Agency, United States Department of Defense, United States Air",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1947-06-05",
       "title": "Marshall Plan",
       "desc": "US announces plan to rebuild post-war Europe",
@@ -1394,10 +1418,10 @@
   ],
   "1946": [
     {
-      "date": "1946-07-25",
-      "title": "The Crossroads Baker device is the first underwater nuclear weapon test.",
-      "desc": "The Crossroads Baker device is the first underwater nuclear weapon test.",
-      "type": "general",
+      "date": "1946-07-26",
+      "title": "Aloha Airlines begins service from Honolulu International Airport.",
+      "desc": "Aloha Airlines begins service from Honolulu International Airport.",
+      "type": "tech",
       "source": "wikipedia"
     }
   ],
@@ -1415,6 +1439,34 @@
       "type": "disaster"
     },
     {
+      "date": "1945-07-26",
+      "title": "The Labour Party wins the United Kingdom general election of July 5 by a landsli",
+      "desc": "The Labour Party wins the United Kingdom general election of July 5 by a landslide, removing Winston Churchill from power.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1945-07-26",
+      "title": "World War II: The Potsdam Declaration is signed in Potsdam, Germany.",
+      "desc": "World War II: The Potsdam Declaration is signed in Potsdam, Germany.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1945-07-26",
+      "title": "World War II: HMS Vestal is the last British Royal Navy ship to be sunk in the w",
+      "desc": "World War II: HMS Vestal is the last British Royal Navy ship to be sunk in the war.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1945-07-26",
+      "title": "World War II: The USS Indianapolis arrives at Tinian with components and enriche",
+      "desc": "World War II: The USS Indianapolis arrives at Tinian with components and enriched uranium for the Little Boy nuclear bomb.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1945-06-28",
       "title": "Poland Government",
       "desc": "Soviet-backed government formed in Poland",
@@ -1429,10 +1481,10 @@
   ],
   "1944": [
     {
-      "date": "1944-07-25",
-      "title": "World War II: Operation Spring near Caen is one of the bloodiest days for the Fi",
-      "desc": "World War II: Operation Spring near Caen is one of the bloodiest days for the First Canadian Army during the war.",
-      "type": "politics",
+      "date": "1944-07-26",
+      "title": "World War II: The Red Army enters Lviv, a major city in western Ukraine, capturi",
+      "desc": "World War II: The Red Army enters Lviv, a major city in western Ukraine, capturing it from the Nazis. Only 300 Jews survive out of 160,000 living in Lviv prior to occupation.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -1448,31 +1500,6 @@
       "type": "politics"
     }
   ],
-  "1943": [
-    {
-      "date": "1943-07-25",
-      "title": "World War II: Benito Mussolini is forced out of office by the King (encouraged b",
-      "desc": "World War II: Benito Mussolini is forced out of office by the King (encouraged by the Grand Council of Fascism) and is replaced by Pietro Badoglio.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1943-07-25",
-      "title": "World War II: 136 Greek civilians are murdered by soldiers of the German 1st Mou",
-      "desc": "World War II: 136 Greek civilians are murdered by soldiers of the German 1st Mountain Division in the village of Mousiotitsa, Greece.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
-  "1942": [
-    {
-      "date": "1942-07-25",
-      "title": "The Norwegian Manifesto calls for nonviolent resistance to the German occupation",
-      "desc": "The Norwegian Manifesto calls for nonviolent resistance to the German occupation.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1941": [
     {
       "date": "1941-12-07",
@@ -1481,19 +1508,24 @@
       "type": "politics"
     },
     {
+      "date": "1941-07-26",
+      "title": "World War II: Battle of Grand Harbour, British forces on Malta destroy an attack",
+      "desc": "World War II: Battle of Grand Harbour, British forces on Malta destroy an attack by the Italian Decima Flottiglia MAS. Fort St Elmo Bridge covering the harbour is demolished in the process.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1941-07-26",
+      "title": "World War II: In response to the Japanese occupation of French Indochina, the Un",
+      "desc": "World War II: In response to the Japanese occupation of French Indochina, the United States, Britain and the Netherlands freeze all Japanese assets and cut off oil shipments.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1941-06-22",
       "title": "Operation Barbarossa",
       "desc": "Germany invades Soviet Union",
       "type": "politics"
-    }
-  ],
-  "1940": [
-    {
-      "date": "1940-07-25",
-      "title": "General Henri Guisan orders the Swiss Army to resist German invasion and makes s",
-      "desc": "General Henri Guisan orders the Swiss Army to resist German invasion and makes surrender illegal.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1939": [
@@ -1512,6 +1544,13 @@
   ],
   "1937": [
     {
+      "date": "1937-07-26",
+      "title": "Spanish Civil War: End of the Battle of Brunete with the Nationalist victory.",
+      "desc": "Spanish Civil War: End of the Battle of Brunete with the Nationalist victory.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1937-07-07",
       "title": "Marco Polo Bridge",
       "desc": "Full-scale war between China and Japan begins",
@@ -1526,6 +1565,20 @@
   ],
   "1936": [
     {
+      "date": "1936-07-26",
+      "title": "Spanish Civil War: Germany and Italy decide to intervene in the war in support f",
+      "desc": "Spanish Civil War: Germany and Italy decide to intervene in the war in support for Francisco Franco and the Nationalist faction.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1936-07-26",
+      "title": "King Edward VIII, in one of his few official duties before he abdicates the thro",
+      "desc": "King Edward VIII, in one of his few official duties before he abdicates the throne, officially unveils the Canadian National Vimy Memorial.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1936-07-17",
       "title": "Spanish Civil War",
       "desc": "Nationalist forces rebel against Spanish Republic",
@@ -1536,15 +1589,6 @@
       "title": "Mengjiang Founded",
       "desc": "Japanese puppet state established in Inner Mongolia",
       "type": "politics"
-    }
-  ],
-  "1934": [
-    {
-      "date": "1934-07-25",
-      "title": "The Nazis assassinate Austrian Chancellor Engelbert Dollfuss in a failed coup at",
-      "desc": "The Nazis assassinate Austrian Chancellor Engelbert Dollfuss in a failed coup attempt.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1933": [
@@ -1611,15 +1655,6 @@
       "type": "science"
     }
   ],
-  "1925": [
-    {
-      "date": "1925-07-25",
-      "title": "Telegraph Agency of the Soviet Union (TASS) is established.",
-      "desc": "Telegraph Agency of the Soviet Union (TASS) is established.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1924": [
     {
       "date": "1924-01-21",
@@ -1678,6 +1713,13 @@
       "type": "politics"
     },
     {
+      "date": "1918-07-26",
+      "title": "Emmy Noether's paper, which became known as Noether's theorem was presented at G",
+      "desc": "Emmy Noether's paper, which became known as Noether's theorem was presented at Göttingen, Germany, from which  conservation laws are deduced for symmetries of angular momentum, linear momentum, and en",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1918-03-04",
       "title": "Spanish Flu First Case",
       "desc": "First case of deadly pandemic reported in Kansas",
@@ -1692,33 +1734,10 @@
       "type": "politics"
     },
     {
-      "date": "1917-07-25",
-      "title": "Sir Robert Borden introduces the first income tax in Canada as a \"temporary\" mea",
-      "desc": "Sir Robert Borden introduces the first income tax in Canada as a \"temporary\" measure (lowest bracket is 4% and highest is 25%).",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1917-06-28",
       "title": "Greece Enters WWI",
       "desc": "Greece joins Allied powers in World War I",
       "type": "politics"
-    }
-  ],
-  "1915": [
-    {
-      "date": "1915-07-25",
-      "title": "The British capture Nasiriyah from the Ottomans during the Mesopotamian campaign",
-      "desc": "The British capture Nasiriyah from the Ottomans during the Mesopotamian campaign.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1915-07-25",
-      "title": "RFC Captain Lanoe Hawker becomes the first British pursuit aviator to earn the V",
-      "desc": "RFC Captain Lanoe Hawker becomes the first British pursuit aviator to earn the Victoria Cross.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1914": [
@@ -1763,28 +1782,12 @@
       "type": "science"
     }
   ],
-  "1909": [
-    {
-      "date": "1909-07-25",
-      "title": "Louis Blériot makes the first flight across the English Channel in a heavier-tha",
-      "desc": "Louis Blériot makes the first flight across the English Channel in a heavier-than-air machine from Calais to Dover, England, United Kingdom in 37 minutes.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1909-07-25",
-      "title": "Begin of the Tragic Week in Barcelona in response to troop mobilisations for the",
-      "desc": "Begin of the Tragic Week in Barcelona in response to troop mobilisations for the Rif War.",
-      "type": "politics",
-      "source": "wikipedia"
-    }
-  ],
   "1908": [
     {
-      "date": "1908-07-25",
-      "title": "Ajinomoto is founded. Kikunae Ikeda of the Tokyo Imperial University discovers t",
-      "desc": "Ajinomoto is founded. Kikunae Ikeda of the Tokyo Imperial University discovers that a key ingredient in kombu soup stock is monosodium glutamate (MSG), and patents a process for manufacturing it.",
-      "type": "finance",
+      "date": "1908-07-26",
+      "title": "United States Attorney General Charles Joseph Bonaparte issues an order to immed",
+      "desc": "United States Attorney General Charles Joseph Bonaparte issues an order to immediately staff the Office of the Chief Examiner (later renamed the Federal Bureau of Investigation).",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
