@@ -117,6 +117,13 @@
       "type": "politics"
     },
     {
+      "date": "2022-07-28",
+      "title": "Catastrophic floods devastate Eastern Kentucky, resulting in 45 fatalities and c",
+      "desc": "Catastrophic floods devastate Eastern Kentucky, resulting in 45 fatalities and causing damage to thousands of homes and businesses.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
       "date": "2022-02-24",
       "title": "Russia Invades Ukraine",
       "desc": "Full-scale invasion begins, major European conflict",
@@ -197,6 +204,13 @@
   ],
   "2018": [
     {
+      "date": "2018-07-28",
+      "title": "Australian Wendy Tuck becomes the first female skipper to win the Clipper Round ",
+      "desc": "Australian Wendy Tuck becomes the first female skipper to win the Clipper Round the World Yacht Race.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2018-06-12",
       "title": "Trump-Kim Summit",
       "desc": "First US-North Korea summit in Singapore",
@@ -221,6 +235,13 @@
       "title": "Bitcoin China Ban",
       "desc": "China orders closure of all crypto exchanges",
       "type": "crypto"
+    },
+    {
+      "date": "2017-07-28",
+      "title": "Nawaz Sharif was disqualified from office for life by Supreme Court of Pakistan ",
+      "desc": "Nawaz Sharif was disqualified from office for life by Supreme Court of Pakistan after finding him guilty of corruption charges.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "2017-06-01",
@@ -267,13 +288,6 @@
       "title": "Pluto Flyby",
       "desc": "New Horizons completes first flyby of Pluto",
       "type": "science"
-    },
-    {
-      "date": "2015-07-27",
-      "title": "Seven people are killed and many injured after gunmen attack an Indian police st",
-      "desc": "Seven people are killed and many injured after gunmen attack an Indian police station in Punjab.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "2014": [
@@ -338,6 +352,13 @@
   ],
   "2011": [
     {
+      "date": "2011-07-28",
+      "title": "While flying from Seoul, South Korea to Shanghai, China, Asiana Airlines Flight ",
+      "desc": "While flying from Seoul, South Korea to Shanghai, China, Asiana Airlines Flight 991 develops an in-flight fire in the cargo hold. The Boeing 747-400F freighter attempts to divert to Jeju International",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "2011-05-02",
       "title": "Bin Laden Killed",
       "desc": "US Navy SEALs kill Osama bin Laden in Pakistan",
@@ -357,6 +378,13 @@
     }
   ],
   "2010": [
+    {
+      "date": "2010-07-28",
+      "title": "Airblue Flight 202 crashes into the Margalla Hills north of Islamabad, Pakistan,",
+      "desc": "Airblue Flight 202 crashes into the Margalla Hills north of Islamabad, Pakistan, killing all 152 people aboard. It is the deadliest aviation accident in Pakistan history and the first involving an Air",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "2010-05-06",
       "title": "Flash Crash",
@@ -438,6 +466,13 @@
       "type": "disaster"
     },
     {
+      "date": "2005-07-28",
+      "title": "The Provisional Irish Republican Army calls an end to its thirty-year-long armed",
+      "desc": "The Provisional Irish Republican Army calls an end to its thirty-year-long armed campaign against British rule in Northern Ireland.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "2005-07-07",
       "title": "London Bombings",
       "desc": "Suicide bombers attack London transport system",
@@ -486,9 +521,16 @@
   ],
   "2002": [
     {
-      "date": "2002-07-27",
-      "title": "Ukraine airshow disaster: A Sukhoi Su-27 fighter crashes during an air show at L",
-      "desc": "Ukraine airshow disaster: A Sukhoi Su-27 fighter crashes during an air show at Lviv, Ukraine killing 77 and injuring more than 500 others, making it the deadliest air show disaster in history.",
+      "date": "2002-07-28",
+      "title": "Nine coal miners trapped in the flooded Quecreek Mine in Somerset County, Pennsy",
+      "desc": "Nine coal miners trapped in the flooded Quecreek Mine in Somerset County, Pennsylvania, are rescued after 77 hours underground.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2002-07-28",
+      "title": "Pulkovo Aviation Enterprise Flight 9560 crashes after takeoff from Sheremetyevo ",
+      "desc": "Pulkovo Aviation Enterprise Flight 9560 crashes after takeoff from Sheremetyevo International Airport in Moscow, Russia, killing 14 of the 16 people on board.",
       "type": "tech",
       "source": "wikipedia"
     }
@@ -499,6 +541,13 @@
       "title": "9/11 Attacks",
       "desc": "Al-Qaeda terrorists attack World Trade Center and Pentagon",
       "type": "disaster"
+    },
+    {
+      "date": "2001-07-28",
+      "title": "Australian Ian Thorpe becomes the first swimmer to win six gold medals at a sing",
+      "desc": "Australian Ian Thorpe becomes the first swimmer to win six gold medals at a single World Championship meeting.",
+      "type": "sports",
+      "source": "wikipedia"
     },
     {
       "date": "2001-01-15",
@@ -551,13 +600,6 @@
   ],
   "1997": [
     {
-      "date": "1997-07-27",
-      "title": "About 50 people are killed in the Si Zerrouk massacre in Algeria.",
-      "desc": "About 50 people are killed in the Si Zerrouk massacre in Algeria.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1997-07-01",
       "title": "Hong Kong Handover",
       "desc": "Hong Kong returned to China after 156 years of British rule",
@@ -578,10 +620,10 @@
   ],
   "1996": [
     {
-      "date": "1996-07-27",
-      "title": "In Atlanta, United States, a pipe bomb explodes at Centennial Olympic Park durin",
-      "desc": "In Atlanta, United States, a pipe bomb explodes at Centennial Olympic Park during the 1996 Summer Olympics.",
-      "type": "sports",
+      "date": "1996-07-28",
+      "title": "The remains of a prehistoric man are discovered near Kennewick, Washington. Such",
+      "desc": "The remains of a prehistoric man are discovered near Kennewick, Washington. Such remains will be known as the Kennewick Man.",
+      "type": "tech",
       "source": "wikipedia"
     }
   ],
@@ -591,13 +633,6 @@
       "title": "Dayton Agreement",
       "desc": "Peace agreement ends Bosnian War",
       "type": "politics"
-    },
-    {
-      "date": "1995-07-27",
-      "title": "The Korean War Veterans Memorial is dedicated in Washington, D.C.",
-      "desc": "The Korean War Veterans Memorial is dedicated in Washington, D.C.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1995-04-19",
@@ -682,13 +717,6 @@
       "type": "politics"
     },
     {
-      "date": "1990-07-27",
-      "title": "The Jamaat al Muslimeen attempt a coup d'état in Trinidad and Tobago.",
-      "desc": "The Jamaat al Muslimeen attempt a coup d'état in Trinidad and Tobago.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1990-04-24",
       "title": "Hubble Launched",
       "desc": "Hubble Space Telescope launched into orbit",
@@ -701,13 +729,6 @@
       "title": "Berlin Wall Falls",
       "desc": "East Germany opens borders, Berlin Wall falls",
       "type": "politics"
-    },
-    {
-      "date": "1989-07-27",
-      "title": "While attempting to land at Tripoli International Airport in Libya, Korean Air F",
-      "desc": "While attempting to land at Tripoli International Airport in Libya, Korean Air Flight 803 crashes just short of the runway. Seventy-five of the 199 passengers and crew and four people on the ground ar",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1989-06-04",
@@ -778,19 +799,21 @@
       "type": "politics"
     }
   ],
+  "1984": [
+    {
+      "date": "1984-07-28",
+      "title": "Olympic Games: Games of the XXIII Olympiad: The summer Olympics were opened in L",
+      "desc": "Olympic Games: Games of the XXIII Olympiad: The summer Olympics were opened in Los Angeles.",
+      "type": "sports",
+      "source": "wikipedia"
+    }
+  ],
   "1983": [
     {
       "date": "1983-09-01",
       "title": "KAL 007 Shot Down",
       "desc": "Soviet Union shoots down Korean Air Lines Flight 007",
       "type": "disaster"
-    },
-    {
-      "date": "1983-07-27",
-      "title": "Black July: Eighteen Tamil political prisoners at the Welikada high security pri",
-      "desc": "Black July: Eighteen Tamil political prisoners at the Welikada high security prison in Colombo are massacred by Sinhalese prisoners, the second such massacre in two days.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1983-01-01",
@@ -811,15 +834,6 @@
       "title": "Falklands War",
       "desc": "Argentina invades Falkland Islands, war with UK begins",
       "type": "politics"
-    }
-  ],
-  "1981": [
-    {
-      "date": "1981-07-27",
-      "title": "While landing at Chihuahua International Airport, Aeromexico Flight 230 overshoo",
-      "desc": "While landing at Chihuahua International Airport, Aeromexico Flight 230 overshoots the runway. Thirty-two of the 66 passengers and crew on board the DC-9 are killed.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1980": [
@@ -880,6 +894,13 @@
   ],
   "1976": [
     {
+      "date": "1976-07-28",
+      "title": "The Tangshan earthquake measuring between 7.8 and 8.2 moment magnitude flattens ",
+      "desc": "The Tangshan earthquake measuring between 7.8 and 8.2 moment magnitude flattens Tangshan in the People's Republic of China, killing 242,769 and injuring 164,851.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
       "date": "1976-07-20",
       "title": "Viking 1 Lands on Mars",
       "desc": "First US spacecraft to successfully land on Mars",
@@ -893,13 +914,6 @@
     }
   ],
   "1975": [
-    {
-      "date": "1975-07-27",
-      "title": "Mayor of Jaffna and former MP Alfred Duraiappah is shot dead.",
-      "desc": "Mayor of Jaffna and former MP Alfred Duraiappah is shot dead.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1975-04-30",
       "title": "Vietnam War Ends",
@@ -921,10 +935,10 @@
       "type": "politics"
     },
     {
-      "date": "1974-07-27",
-      "title": "Watergate scandal: The House of Representatives Judiciary Committee votes 27 to ",
-      "desc": "Watergate scandal: The House of Representatives Judiciary Committee votes 27 to 11 to recommend the first article of impeachment (for obstruction of justice) against President Richard Nixon.",
-      "type": "tech",
+      "date": "1974-07-28",
+      "title": "Spetsgruppa A, Russia's elite special force, was formed.",
+      "desc": "Spetsgruppa A, Russia's elite special force, was formed.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -940,6 +954,13 @@
       "title": "Oil Crisis Begins",
       "desc": "OPEC oil embargo triggers global energy crisis",
       "type": "finance"
+    },
+    {
+      "date": "1973-07-28",
+      "title": "Summer Jam at Watkins Glen: Nearly 600,000 people attend a rock festival at the ",
+      "desc": "Summer Jam at Watkins Glen: Nearly 600,000 people attend a rock festival at the Watkins Glen International Raceway.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1973-06-28",
@@ -1038,6 +1059,13 @@
       "type": "politics"
     },
     {
+      "date": "1965-07-28",
+      "title": "Vietnam War: U.S. president Lyndon B. Johnson announces his order to increase th",
+      "desc": "Vietnam War: U.S. president Lyndon B. Johnson announces his order to increase the number of United States troops in South Vietnam from 75,000 to 125,000.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1965-03-07",
       "title": "Bloody Sunday",
       "desc": "Civil rights marchers attacked on Edmund Pettus Bridge",
@@ -1050,13 +1078,6 @@
       "title": "Gulf of Tonkin",
       "desc": "US Congress passes resolution escalating Vietnam War",
       "type": "politics"
-    },
-    {
-      "date": "1964-07-27",
-      "title": "Vietnam War: Five thousand more American military advisers are sent to South Vie",
-      "desc": "Vietnam War: Five thousand more American military advisers are sent to South Vietnam bringing the total number of United States forces in Vietnam to 21,000.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1964-06-28",
@@ -1077,13 +1098,6 @@
       "title": "I Have a Dream",
       "desc": "MLK delivers iconic speech at March on Washington",
       "type": "politics"
-    },
-    {
-      "date": "1963-07-27",
-      "title": "The Puijo observation tower is opened to the general public at Puijo Hill in Kuo",
-      "desc": "The Puijo observation tower is opened to the general public at Puijo Hill in Kuopio, Finland.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1962": [
@@ -1092,6 +1106,13 @@
       "title": "Cuban Missile Crisis",
       "desc": "US-USSR standoff brings world close to nuclear war",
       "type": "politics"
+    },
+    {
+      "date": "1962-07-28",
+      "title": "Beginning of the 8th World Festival of Youth and Students.",
+      "desc": "Beginning of the 8th World Festival of Youth and Students.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1962-07-10",
@@ -1116,6 +1137,13 @@
   ],
   "1960": [
     {
+      "date": "1960-07-28",
+      "title": "The German Volkswagen Act comes into force.",
+      "desc": "The German Volkswagen Act comes into force.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1960-05-01",
       "title": "U-2 Incident",
       "desc": "Soviets shoot down US spy plane, Eisenhower embarrassed",
@@ -1129,13 +1157,6 @@
     }
   ],
   "1959": [
-    {
-      "date": "1959-07-27",
-      "title": "The Continental League is announced as baseball's \"third major league\" in the Un",
-      "desc": "The Continental League is announced as baseball's \"third major league\" in the United States.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1959-07-24",
       "title": "Kitchen Debate",
@@ -1161,6 +1182,13 @@
       "title": "Sputnik Launched",
       "desc": "First artificial satellite, starts Space Age",
       "type": "science"
+    },
+    {
+      "date": "1957-07-28",
+      "title": "Heavy rain and a mudslide in Isahaya, western Kyushu, Japan, kills 992.",
+      "desc": "Heavy rain and a mudslide in Isahaya, western Kyushu, Japan, kills 992.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1956": [
@@ -1185,20 +1213,6 @@
       "type": "politics"
     },
     {
-      "date": "1955-07-27",
-      "title": "The Austrian State Treaty restores Austrian sovereignty.",
-      "desc": "The Austrian State Treaty restores Austrian sovereignty.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1955-07-27",
-      "title": "El Al Flight 402 is shot down by two fighter jets after straying into Bulgarian ",
-      "desc": "El Al Flight 402 is shot down by two fighter jets after straying into Bulgarian air space. All 58 people on board are killed.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1955-05-14",
       "title": "Warsaw Pact",
       "desc": "Eastern Bloc military alliance established",
@@ -1220,13 +1234,6 @@
     }
   ],
   "1953": [
-    {
-      "date": "1953-07-27",
-      "title": "Korean War: Cessation of hostilities is achieved when the United States, China, ",
-      "desc": "Korean War: Cessation of hostilities is achieved when the United States, China, and North Korea sign an armistice agreement. Syngman Rhee, President of South Korea, refuses to sign but pledges to obse",
-      "type": "politics",
-      "source": "wikipedia"
-    },
     {
       "date": "1953-06-02",
       "title": "Elizabeth Coronation",
@@ -1296,13 +1303,6 @@
       "type": "science"
     },
     {
-      "date": "1949-07-27",
-      "title": "Initial flight of the de Havilland Comet, the first jet-powered airliner.",
-      "desc": "Initial flight of the de Havilland Comet, the first jet-powered airliner.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1949-04-04",
       "title": "NATO Founded",
       "desc": "North Atlantic Treaty Organization established",
@@ -1337,13 +1337,6 @@
       "type": "politics"
     },
     {
-      "date": "1947-07-27",
-      "title": "In Vatican City, Rome, canonization of Catherine Labouré, the saint whose appari",
-      "desc": "In Vatican City, Rome, canonization of Catherine Labouré, the saint whose apparitions of the Virgin Mary originated the worldwide distribution of the Miraculous Medal.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1947-06-05",
       "title": "Marshall Plan",
       "desc": "US announces plan to rebuild post-war Europe",
@@ -1362,6 +1355,13 @@
       "title": "Hiroshima Bombed",
       "desc": "US drops atomic bomb on Hiroshima",
       "type": "disaster"
+    },
+    {
+      "date": "1945-07-28",
+      "title": "A U.S. Army B-25 bomber crashes into the 79th floor of the Empire State Building",
+      "desc": "A U.S. Army B-25 bomber crashes into the 79th floor of the Empire State Building killing 14 and injuring 26.",
+      "type": "disaster",
+      "source": "wikipedia"
     },
     {
       "date": "1945-06-28",
@@ -1390,11 +1390,20 @@
       "type": "politics"
     }
   ],
+  "1943": [
+    {
+      "date": "1943-07-28",
+      "title": "World War II: Operation Gomorrah: The Royal Air Force bombs Hamburg, Germany cau",
+      "desc": "World War II: Operation Gomorrah: The Royal Air Force bombs Hamburg, Germany causing a firestorm that kills 42,000 German civilians.",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "1942": [
     {
-      "date": "1942-07-27",
-      "title": "World War II: Allied forces successfully halt the final Axis advance into Egypt.",
-      "desc": "World War II: Allied forces successfully halt the final Axis advance into Egypt.",
+      "date": "1942-07-28",
+      "title": "World War II: Soviet leader Joseph Stalin issues Order No. 227. In response to a",
+      "desc": "World War II: Soviet leader Joseph Stalin issues Order No. 227. In response to alarming German advances, all those who retreat or otherwise leave their positions without orders to do so are to be trie",
       "type": "politics",
       "source": "wikipedia"
     }
@@ -1413,15 +1422,6 @@
       "type": "politics"
     }
   ],
-  "1940": [
-    {
-      "date": "1940-07-27",
-      "title": "The animated short A Wild Hare is released, introducing the character of Bugs Bu",
-      "desc": "The animated short A Wild Hare is released, introducing the character of Bugs Bunny.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1939": [
     {
       "date": "1939-09-01",
@@ -1434,6 +1434,22 @@
       "title": "Molotov-Ribbentrop Pact",
       "desc": "Germany and USSR sign non-aggression pact",
       "type": "politics"
+    },
+    {
+      "date": "1939-07-28",
+      "title": "The Sutton Hoo helmet is discovered.",
+      "desc": "The Sutton Hoo helmet is discovered.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
+  "1938": [
+    {
+      "date": "1938-07-28",
+      "title": "Hawaii Clipper disappears between Guam and Manila as the first loss of an airlin",
+      "desc": "Hawaii Clipper disappears between Guam and Manila as the first loss of an airliner in trans-Pacific China Clipper service.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1937": [
@@ -1464,6 +1480,15 @@
       "type": "politics"
     }
   ],
+  "1935": [
+    {
+      "date": "1935-07-28",
+      "title": "First flight of the Boeing B-17 Flying Fortress.",
+      "desc": "First flight of the Boeing B-17 Flying Fortress.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1933": [
     {
       "date": "1933-03-04",
@@ -1478,19 +1503,21 @@
       "type": "politics"
     }
   ],
+  "1932": [
+    {
+      "date": "1932-07-28",
+      "title": "During the Great Depression, U.S. president Herbert Hoover orders the United Sta",
+      "desc": "During the Great Depression, U.S. president Herbert Hoover orders the United States Army to forcibly evict the \"Bonus Army\" of World War I veterans gathered in Washington, D.C.",
+      "type": "politics",
+      "source": "wikipedia"
+    }
+  ],
   "1929": [
     {
       "date": "1929-10-29",
       "title": "Wall Street Crash",
       "desc": "Stock market crash triggers Great Depression",
       "type": "finance"
-    },
-    {
-      "date": "1929-07-27",
-      "title": "The Geneva Convention of 1929, dealing with treatment of prisoners-of-war, is si",
-      "desc": "The Geneva Convention of 1929, dealing with treatment of prisoners-of-war, is signed by 53 nations.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1929-02-14",
@@ -1559,13 +1586,6 @@
   ],
   "1921": [
     {
-      "date": "1921-07-27",
-      "title": "Researchers at the University of Toronto, led by biochemist Frederick Banting, p",
-      "desc": "Researchers at the University of Toronto, led by biochemist Frederick Banting, prove that the hormone insulin regulates blood sugar.",
-      "type": "science",
-      "source": "wikipedia"
-    },
-    {
       "date": "1921-07-01",
       "title": "Chinese Communist Party",
       "desc": "CCP founded in Shanghai",
@@ -1579,13 +1599,6 @@
     }
   ],
   "1919": [
-    {
-      "date": "1919-07-27",
-      "title": "The Chicago Race Riot erupts after a racial incident occurred on a South Side be",
-      "desc": "The Chicago Race Riot erupts after a racial incident occurred on a South Side beach, leading to 38 fatalities and 537 injuries over a five-day period.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1919-06-28",
       "title": "Treaty of Versailles",
@@ -1621,10 +1634,10 @@
       "type": "politics"
     },
     {
-      "date": "1917-07-27",
-      "title": "World War I: The Allies reach the Yser Canal at the Battle of Passchendaele.",
-      "desc": "World War I: The Allies reach the Yser Canal at the Battle of Passchendaele.",
-      "type": "politics",
+      "date": "1917-07-28",
+      "title": "Anti-lynching movement: The Silent Parade takes place in New York City, in prote",
+      "desc": "Anti-lynching movement: The Silent Parade takes place in New York City, in protest against murders, lynchings, and other violence directed towards African Americans.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -1634,12 +1647,28 @@
       "type": "politics"
     }
   ],
+  "1915": [
+    {
+      "date": "1915-07-28",
+      "title": "The United States begins a 19-year occupation of Haiti.",
+      "desc": "The United States begins a 19-year occupation of Haiti.",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "1914": [
     {
       "date": "1914-07-28",
       "title": "WWI Begins",
       "desc": "Austria-Hungary declares war on Serbia",
       "type": "politics"
+    },
+    {
+      "date": "1914-07-28",
+      "title": "World War I: In the culmination of the July Crisis, Austria-Hungary declares war",
+      "desc": "World War I: In the culmination of the July Crisis, Austria-Hungary declares war on the Kingdom of Serbia and begins the Great War.",
+      "type": "finance",
+      "source": "wikipedia"
     },
     {
       "date": "1914-06-28",
@@ -1668,6 +1697,13 @@
       "title": "Xinhai Revolution",
       "desc": "Chinese revolution overthrows Qing dynasty",
       "type": "politics"
+    },
+    {
+      "date": "1911-07-28",
+      "title": "The Australasian Antarctic Expedition began as the SY Aurora departed London.",
+      "desc": "The Australasian Antarctic Expedition began as the SY Aurora departed London.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1911-06-28",
@@ -1724,13 +1760,6 @@
       "title": "Quantum Theory",
       "desc": "Max Planck publishes quantum theory paper",
       "type": "science"
-    },
-    {
-      "date": "1900-07-27",
-      "title": "Kaiser Wilhelm II makes a speech comparing Germans to Huns; for years afterwards",
-      "desc": "Kaiser Wilhelm II makes a speech comparing Germans to Huns; for years afterwards, \"Hun\" would be a disparaging name for Germans.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1900-05-14",
