@@ -1400,6 +1400,13 @@
       "type": "politics"
     },
     {
+      "date": "1947-07-29",
+      "title": "- A gas explosion in Harrisonburg, Virginia kills 11 and injures 30.",
+      "desc": "- A gas explosion in Harrisonburg, Virginia kills 11 and injures 30.",
+      "type": "disaster",
+      "source": "wikipedia"
+    },
+    {
       "date": "1947-06-05",
       "title": "Marshall Plan",
       "desc": "US announces plan to rebuild post-war Europe",
