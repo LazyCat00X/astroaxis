@@ -59,6 +59,13 @@
       "type": "politics"
     },
     {
+      "date": "2024-07-29",
+      "title": "Three children are stabbed to death and 10 other people injured at a dance studi",
+      "desc": "Three children are stabbed to death and 10 other people injured at a dance studio in Southport, England. This incident, coupled with widespread online misinformation, leads to various racially motivat",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2024-07-21",
       "title": "Global Heatwave Record",
       "desc": "Hottest day on record globally",
@@ -117,13 +124,6 @@
       "type": "politics"
     },
     {
-      "date": "2022-07-28",
-      "title": "Catastrophic floods devastate Eastern Kentucky, resulting in 45 fatalities and c",
-      "desc": "Catastrophic floods devastate Eastern Kentucky, resulting in 45 fatalities and causing damage to thousands of homes and businesses.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
-    {
       "date": "2022-02-24",
       "title": "Russia Invades Ukraine",
       "desc": "Full-scale invasion begins, major European conflict",
@@ -148,6 +148,13 @@
       "title": "Taliban Take Kabul",
       "desc": "Taliban seizes Afghan capital, US withdrawal ends",
       "type": "politics"
+    },
+    {
+      "date": "2021-07-29",
+      "title": "The International Space Station temporarily spins out of control, moving the ISS",
+      "desc": "The International Space Station temporarily spins out of control, moving the ISS 45 degrees out of attitude, following an engine malfunction of Russian module Nauka.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "2021-02-18",
@@ -190,6 +197,13 @@
       "type": "disaster"
     },
     {
+      "date": "2019-07-29",
+      "title": "The 2019 Altamira prison riot between rival Brazilian drug gangs leaves 62 dead.",
+      "desc": "The 2019 Altamira prison riot between rival Brazilian drug gangs leaves 62 dead.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2019-04-15",
       "title": "Notre Dame Fire",
       "desc": "Major fire devastates Notre Dame Cathedral in Paris",
@@ -203,13 +217,6 @@
     }
   ],
   "2018": [
-    {
-      "date": "2018-07-28",
-      "title": "Australian Wendy Tuck becomes the first female skipper to win the Clipper Round ",
-      "desc": "Australian Wendy Tuck becomes the first female skipper to win the Clipper Round the World Yacht Race.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "2018-06-12",
       "title": "Trump-Kim Summit",
@@ -235,13 +242,6 @@
       "title": "Bitcoin China Ban",
       "desc": "China orders closure of all crypto exchanges",
       "type": "crypto"
-    },
-    {
-      "date": "2017-07-28",
-      "title": "Nawaz Sharif was disqualified from office for life by Supreme Court of Pakistan ",
-      "desc": "Nawaz Sharif was disqualified from office for life by Supreme Court of Pakistan after finding him guilty of corruption charges.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "2017-06-01",
@@ -288,6 +288,13 @@
       "title": "Pluto Flyby",
       "desc": "New Horizons completes first flyby of Pluto",
       "type": "science"
+    },
+    {
+      "date": "2015-07-29",
+      "title": "The first piece of suspected debris from Malaysia Airlines Flight 370 is discove",
+      "desc": "The first piece of suspected debris from Malaysia Airlines Flight 370 is discovered on Réunion Island.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "2014": [
@@ -316,6 +323,13 @@
       "title": "Nelson Mandela Dies",
       "desc": "Anti-apartheid icon dies at 95",
       "type": "politics"
+    },
+    {
+      "date": "2013-07-29",
+      "title": "Two passenger trains collide in the Swiss municipality of Granges-près-Marnand n",
+      "desc": "Two passenger trains collide in the Swiss municipality of Granges-près-Marnand near Lausanne injuring 25 people.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "2013-06-06",
@@ -352,13 +366,6 @@
   ],
   "2011": [
     {
-      "date": "2011-07-28",
-      "title": "While flying from Seoul, South Korea to Shanghai, China, Asiana Airlines Flight ",
-      "desc": "While flying from Seoul, South Korea to Shanghai, China, Asiana Airlines Flight 991 develops an in-flight fire in the cargo hold. The Boeing 747-400F freighter attempts to divert to Jeju International",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2011-05-02",
       "title": "Bin Laden Killed",
       "desc": "US Navy SEALs kill Osama bin Laden in Pakistan",
@@ -379,9 +386,9 @@
   ],
   "2010": [
     {
-      "date": "2010-07-28",
-      "title": "Airblue Flight 202 crashes into the Margalla Hills north of Islamabad, Pakistan,",
-      "desc": "Airblue Flight 202 crashes into the Margalla Hills north of Islamabad, Pakistan, killing all 152 people aboard. It is the deadliest aviation accident in Pakistan history and the first involving an Air",
+      "date": "2010-07-29",
+      "title": "An overloaded passenger ferry capsizes on the Kasai River in Bandundu Province, ",
+      "desc": "An overloaded passenger ferry capsizes on the Kasai River in Bandundu Province, Democratic Republic of the Congo, resulting in at least 80 deaths.",
       "type": "tech",
       "source": "wikipedia"
     },
@@ -466,10 +473,10 @@
       "type": "disaster"
     },
     {
-      "date": "2005-07-28",
-      "title": "The Provisional Irish Republican Army calls an end to its thirty-year-long armed",
-      "desc": "The Provisional Irish Republican Army calls an end to its thirty-year-long armed campaign against British rule in Northern Ireland.",
-      "type": "tech",
+      "date": "2005-07-29",
+      "title": "Astronomers announce their discovery of the dwarf planet Eris.",
+      "desc": "Astronomers announce their discovery of the dwarf planet Eris.",
+      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -519,35 +526,12 @@
       "type": "disaster"
     }
   ],
-  "2002": [
-    {
-      "date": "2002-07-28",
-      "title": "Nine coal miners trapped in the flooded Quecreek Mine in Somerset County, Pennsy",
-      "desc": "Nine coal miners trapped in the flooded Quecreek Mine in Somerset County, Pennsylvania, are rescued after 77 hours underground.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2002-07-28",
-      "title": "Pulkovo Aviation Enterprise Flight 9560 crashes after takeoff from Sheremetyevo ",
-      "desc": "Pulkovo Aviation Enterprise Flight 9560 crashes after takeoff from Sheremetyevo International Airport in Moscow, Russia, killing 14 of the 16 people on board.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
   "2001": [
     {
       "date": "2001-09-11",
       "title": "9/11 Attacks",
       "desc": "Al-Qaeda terrorists attack World Trade Center and Pentagon",
       "type": "disaster"
-    },
-    {
-      "date": "2001-07-28",
-      "title": "Australian Ian Thorpe becomes the first swimmer to win six gold medals at a sing",
-      "desc": "Australian Ian Thorpe becomes the first swimmer to win six gold medals at a single World Championship meeting.",
-      "type": "sports",
-      "source": "wikipedia"
     },
     {
       "date": "2001-01-15",
@@ -620,10 +604,10 @@
   ],
   "1996": [
     {
-      "date": "1996-07-28",
-      "title": "The remains of a prehistoric man are discovered near Kennewick, Washington. Such",
-      "desc": "The remains of a prehistoric man are discovered near Kennewick, Washington. Such remains will be known as the Kennewick Man.",
-      "type": "tech",
+      "date": "1996-07-29",
+      "title": "The child protection portion of the Communications Decency Act is struck down by",
+      "desc": "The child protection portion of the Communications Decency Act is struck down by a U.S. federal court as too broad.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -656,6 +640,13 @@
     }
   ],
   "1993": [
+    {
+      "date": "1993-07-29",
+      "title": "The Supreme Court of Israel acquits alleged Nazi death camp guard John Demjanjuk",
+      "desc": "The Supreme Court of Israel acquits alleged Nazi death camp guard John Demjanjuk of all charges and he is set free.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1993-02-26",
       "title": "World Trade Center Bombing",
@@ -765,6 +756,20 @@
       "type": "finance"
     },
     {
+      "date": "1987-07-29",
+      "title": "British Prime Minister Margaret Thatcher and President of France François Mitter",
+      "desc": "British Prime Minister Margaret Thatcher and President of France François Mitterrand sign the agreement to build a tunnel under the English Channel (Channel Tunnel).",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1987-07-29",
+      "title": "Prime Minister of India Rajiv Gandhi and President of Sri Lanka J. R. Jayewarden",
+      "desc": "Prime Minister of India Rajiv Gandhi and President of Sri Lanka J. R. Jayewardene sign the Indo-Sri Lanka Accord on ethnic issues.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1987-06-28",
       "title": "Chiang Kai-shek Dies",
       "desc": "Former Chinese leader dies at age 79",
@@ -787,6 +792,13 @@
   ],
   "1985": [
     {
+      "date": "1985-07-29",
+      "title": "Space Shuttle Challenger launches on STS-51-F. The shuttle ends up in a lower or",
+      "desc": "Space Shuttle Challenger launches on STS-51-F. The shuttle ends up in a lower orbit than planned due to an engine failure during ascent.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1985-07-13",
       "title": "Live Aid Concert",
       "desc": "Global charity concert raises millions for famine relief",
@@ -797,15 +809,6 @@
       "title": "Gorbachev Leader",
       "desc": "Mikhail Gorbachev becomes leader of Soviet Union",
       "type": "politics"
-    }
-  ],
-  "1984": [
-    {
-      "date": "1984-07-28",
-      "title": "Olympic Games: Games of the XXIII Olympiad: The summer Olympics were opened in L",
-      "desc": "Olympic Games: Games of the XXIII Olympiad: The summer Olympics were opened in Los Angeles.",
-      "type": "sports",
-      "source": "wikipedia"
     }
   ],
   "1983": [
@@ -836,12 +839,35 @@
       "type": "politics"
     }
   ],
+  "1981": [
+    {
+      "date": "1981-07-29",
+      "title": "A worldwide television audience of around 750 million people watch the wedding o",
+      "desc": "A worldwide television audience of around 750 million people watch the wedding of Charles, Prince of Wales, and Lady Diana Spencer at St Paul's Cathedral in London.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1981-07-29",
+      "title": "After impeachment on June 21, Abolhassan Banisadr flees with Massoud Rajavi to P",
+      "desc": "After impeachment on June 21, Abolhassan Banisadr flees with Massoud Rajavi to Paris, in an Iranian Air Force Boeing 707, piloted by Colonel Behzad Moezzi, to form the National Council of Resistance o",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "1980": [
     {
       "date": "1980-09-22",
       "title": "Iran-Iraq War Begins",
       "desc": "Longest conventional war of 20th century starts",
       "type": "politics"
+    },
+    {
+      "date": "1980-07-29",
+      "title": "Iran adopts a new \"holy\" flag after the Islamic Revolution.",
+      "desc": "Iran adopts a new \"holy\" flag after the Islamic Revolution.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1980-05-18",
@@ -894,10 +920,10 @@
   ],
   "1976": [
     {
-      "date": "1976-07-28",
-      "title": "The Tangshan earthquake measuring between 7.8 and 8.2 moment magnitude flattens ",
-      "desc": "The Tangshan earthquake measuring between 7.8 and 8.2 moment magnitude flattens Tangshan in the People's Republic of China, killing 242,769 and injuring 164,851.",
-      "type": "climate",
+      "date": "1976-07-29",
+      "title": "In New York City, David Berkowitz (a.k.a. the \"Son of Sam\") kills one person and",
+      "desc": "In New York City, David Berkowitz (a.k.a. the \"Son of Sam\") kills one person and seriously wounds another in the first of a series of attacks.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -935,13 +961,6 @@
       "type": "politics"
     },
     {
-      "date": "1974-07-28",
-      "title": "Spetsgruppa A, Russia's elite special force, was formed.",
-      "desc": "Spetsgruppa A, Russia's elite special force, was formed.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1974-02-01",
       "title": "Brazil Oil Crisis",
       "desc": "First oil shock hits Brazil, triggering economic changes",
@@ -956,10 +975,17 @@
       "type": "finance"
     },
     {
-      "date": "1973-07-28",
-      "title": "Summer Jam at Watkins Glen: Nearly 600,000 people attend a rock festival at the ",
-      "desc": "Summer Jam at Watkins Glen: Nearly 600,000 people attend a rock festival at the Watkins Glen International Raceway.",
-      "type": "general",
+      "date": "1973-07-29",
+      "title": "Greeks vote to abolish the monarchy, beginning the first period of the Metapolit",
+      "desc": "Greeks vote to abolish the monarchy, beginning the first period of the Metapolitefsi.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1973-07-29",
+      "title": "Driver Roger Williamson is killed during the Dutch Grand Prix, after a suspected",
+      "desc": "Driver Roger Williamson is killed during the Dutch Grand Prix, after a suspected tire failure causes his car to pitch into the barriers at high speed.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -975,6 +1001,13 @@
       "title": "Munich Massacre",
       "desc": "Palestinian terrorists kill Israeli athletes at Olympics",
       "type": "disaster"
+    },
+    {
+      "date": "1972-07-29",
+      "title": "Two Avianca Douglas DC-3 airliners collide over Colombia, killing 38.",
+      "desc": "Two Avianca Douglas DC-3 airliners collide over Colombia, killing 38.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1972-02-21",
@@ -1045,6 +1078,20 @@
       "type": "politics"
     },
     {
+      "date": "1967-07-29",
+      "title": "Vietnam War: Off the coast of North Vietnam the USS Forrestal catches on fire in",
+      "desc": "Vietnam War: Off the coast of North Vietnam the USS Forrestal catches on fire in the worst U.S. naval disaster since World War II, killing 134.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1967-07-29",
+      "title": "During the fourth day of celebrating its 400th anniversary, the city of Caracas,",
+      "desc": "During the fourth day of celebrating its 400th anniversary, the city of Caracas, Venezuela is shaken by an earthquake, leaving approximately 500 dead.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
       "date": "1967-06-05",
       "title": "Six-Day War",
       "desc": "Israel defeats Egypt, Jordan, Syria in six-day war",
@@ -1059,10 +1106,10 @@
       "type": "politics"
     },
     {
-      "date": "1965-07-28",
-      "title": "Vietnam War: U.S. president Lyndon B. Johnson announces his order to increase th",
-      "desc": "Vietnam War: U.S. president Lyndon B. Johnson announces his order to increase the number of United States troops in South Vietnam from 75,000 to 125,000.",
-      "type": "politics",
+      "date": "1965-07-29",
+      "title": "Vietnam War: The first 4,000 101st Airborne Division paratroopers arrive in Viet",
+      "desc": "Vietnam War: The first 4,000 101st Airborne Division paratroopers arrive in Vietnam, landing at Cam Ranh Bay.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -1108,13 +1155,6 @@
       "type": "politics"
     },
     {
-      "date": "1962-07-28",
-      "title": "Beginning of the 8th World Festival of Youth and Students.",
-      "desc": "Beginning of the 8th World Festival of Youth and Students.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1962-07-10",
       "title": "Telstar Launched",
       "desc": "First communications satellite transmits TV signals",
@@ -1137,13 +1177,6 @@
   ],
   "1960": [
     {
-      "date": "1960-07-28",
-      "title": "The German Volkswagen Act comes into force.",
-      "desc": "The German Volkswagen Act comes into force.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1960-05-01",
       "title": "U-2 Incident",
       "desc": "Soviets shoot down US spy plane, Eisenhower embarrassed",
@@ -1158,6 +1191,13 @@
   ],
   "1959": [
     {
+      "date": "1959-07-29",
+      "title": "First United States Congress elections in Hawaii as a state of the Union.",
+      "desc": "First United States Congress elections in Hawaii as a state of the Union.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1959-07-24",
       "title": "Kitchen Debate",
       "desc": "Nixon-Khrushchev debate at US exhibition in Moscow",
@@ -1168,6 +1208,15 @@
       "title": "Cuban Revolution",
       "desc": "Fidel Castro's forces overthrow Batista government",
       "type": "politics"
+    }
+  ],
+  "1958": [
+    {
+      "date": "1958-07-29",
+      "title": "U.S. President Dwight D. Eisenhower signs into law the National Aeronautics and ",
+      "desc": "U.S. President Dwight D. Eisenhower signs into law the National Aeronautics and Space Act, which creates the National Aeronautics and Space Administration (NASA).",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1957": [
@@ -1184,10 +1233,17 @@
       "type": "science"
     },
     {
-      "date": "1957-07-28",
-      "title": "Heavy rain and a mudslide in Isahaya, western Kyushu, Japan, kills 992.",
-      "desc": "Heavy rain and a mudslide in Isahaya, western Kyushu, Japan, kills 992.",
-      "type": "tech",
+      "date": "1957-07-29",
+      "title": "The International Atomic Energy Agency is established.",
+      "desc": "The International Atomic Energy Agency is established.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1957-07-29",
+      "title": "Tonight Starring Jack Paar premieres on NBC with Jack Paar beginning the modern ",
+      "desc": "Tonight Starring Jack Paar premieres on NBC with Jack Paar beginning the modern day talk show.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -1277,6 +1333,13 @@
       "type": "politics"
     },
     {
+      "date": "1950-07-29",
+      "title": "Korean War: After four days, the No Gun Ri Massacre ends when the US Army 7th Ca",
+      "desc": "Korean War: After four days, the No Gun Ri Massacre ends when the US Army 7th Cavalry Regiment is withdrawn.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1950-06-28",
       "title": "Korean War Massacres",
       "desc": "Communist sympathizers executed as Seoul falls",
@@ -1315,6 +1378,13 @@
       "title": "Universal Declaration",
       "desc": "UN adopts Universal Declaration of Human Rights",
       "type": "politics"
+    },
+    {
+      "date": "1948-07-29",
+      "title": "Olympic Games: The Games of the XIV Olympiad: After a hiatus of 12 years caused ",
+      "desc": "Olympic Games: The Games of the XIV Olympiad: After a hiatus of 12 years caused by World War II, the first Summer Olympics to be held since the 1936 Summer Olympics in Berlin, open in London.",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "1948-06-28",
@@ -1357,10 +1427,10 @@
       "type": "disaster"
     },
     {
-      "date": "1945-07-28",
-      "title": "A U.S. Army B-25 bomber crashes into the 79th floor of the Empire State Building",
-      "desc": "A U.S. Army B-25 bomber crashes into the 79th floor of the Empire State Building killing 14 and injuring 26.",
-      "type": "disaster",
+      "date": "1945-07-29",
+      "title": "The BBC Light Programme radio station is launched for mainstream light entertain",
+      "desc": "The BBC Light Programme radio station is launched for mainstream light entertainment and music.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -1390,24 +1460,6 @@
       "type": "politics"
     }
   ],
-  "1943": [
-    {
-      "date": "1943-07-28",
-      "title": "World War II: Operation Gomorrah: The Royal Air Force bombs Hamburg, Germany cau",
-      "desc": "World War II: Operation Gomorrah: The Royal Air Force bombs Hamburg, Germany causing a firestorm that kills 42,000 German civilians.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
-  "1942": [
-    {
-      "date": "1942-07-28",
-      "title": "World War II: Soviet leader Joseph Stalin issues Order No. 227. In response to a",
-      "desc": "World War II: Soviet leader Joseph Stalin issues Order No. 227. In response to alarming German advances, all those who retreat or otherwise leave their positions without orders to do so are to be trie",
-      "type": "politics",
-      "source": "wikipedia"
-    }
-  ],
   "1941": [
     {
       "date": "1941-12-07",
@@ -1434,25 +1486,16 @@
       "title": "Molotov-Ribbentrop Pact",
       "desc": "Germany and USSR sign non-aggression pact",
       "type": "politics"
-    },
-    {
-      "date": "1939-07-28",
-      "title": "The Sutton Hoo helmet is discovered.",
-      "desc": "The Sutton Hoo helmet is discovered.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
-  "1938": [
-    {
-      "date": "1938-07-28",
-      "title": "Hawaii Clipper disappears between Guam and Manila as the first loss of an airlin",
-      "desc": "Hawaii Clipper disappears between Guam and Manila as the first loss of an airliner in trans-Pacific China Clipper service.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1937": [
+    {
+      "date": "1937-07-29",
+      "title": "Tongzhou mutiny: In Tongzhou, China, the East Hebei Army attacks Japanese troops",
+      "desc": "Tongzhou mutiny: In Tongzhou, China, the East Hebei Army attacks Japanese troops and civilians.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1937-07-07",
       "title": "Marco Polo Bridge",
@@ -1480,15 +1523,6 @@
       "type": "politics"
     }
   ],
-  "1935": [
-    {
-      "date": "1935-07-28",
-      "title": "First flight of the Boeing B-17 Flying Fortress.",
-      "desc": "First flight of the Boeing B-17 Flying Fortress.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1933": [
     {
       "date": "1933-03-04",
@@ -1505,9 +1539,9 @@
   ],
   "1932": [
     {
-      "date": "1932-07-28",
-      "title": "During the Great Depression, U.S. president Herbert Hoover orders the United Sta",
-      "desc": "During the Great Depression, U.S. president Herbert Hoover orders the United States Army to forcibly evict the \"Bonus Army\" of World War I veterans gathered in Washington, D.C.",
+      "date": "1932-07-29",
+      "title": "Great Depression: In Washington, D.C., troops disperse the last of the \"Bonus Ar",
+      "desc": "Great Depression: In Washington, D.C., troops disperse the last of the \"Bonus Army\" of World War I veterans using arson, bayonets, sabers, tanks, tear gas, and vomit gas.",
       "type": "politics",
       "source": "wikipedia"
     }
@@ -1586,6 +1620,13 @@
   ],
   "1921": [
     {
+      "date": "1921-07-29",
+      "title": "Adolf Hitler becomes leader of the National Socialist German Workers' Party.",
+      "desc": "Adolf Hitler becomes leader of the National Socialist German Workers' Party.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1921-07-01",
       "title": "Chinese Communist Party",
       "desc": "CCP founded in Shanghai",
@@ -1596,6 +1637,15 @@
       "title": "Yugoslav Constitution",
       "desc": "King Alexander I proclaims new Yugoslav constitution",
       "type": "politics"
+    }
+  ],
+  "1920": [
+    {
+      "date": "1920-07-29",
+      "title": "Construction of the Link River Dam begins as part of the Klamath Reclamation Pro",
+      "desc": "Construction of the Link River Dam begins as part of the Klamath Reclamation Project.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1919": [
@@ -1634,41 +1684,25 @@
       "type": "politics"
     },
     {
-      "date": "1917-07-28",
-      "title": "Anti-lynching movement: The Silent Parade takes place in New York City, in prote",
-      "desc": "Anti-lynching movement: The Silent Parade takes place in New York City, in protest against murders, lynchings, and other violence directed towards African Americans.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1917-06-28",
       "title": "Greece Enters WWI",
       "desc": "Greece joins Allied powers in World War I",
       "type": "politics"
     }
   ],
-  "1915": [
-    {
-      "date": "1915-07-28",
-      "title": "The United States begins a 19-year occupation of Haiti.",
-      "desc": "The United States begins a 19-year occupation of Haiti.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
   "1914": [
+    {
+      "date": "1914-07-29",
+      "title": "The Cape Cod Canal opened.",
+      "desc": "The Cape Cod Canal opened.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1914-07-28",
       "title": "WWI Begins",
       "desc": "Austria-Hungary declares war on Serbia",
       "type": "politics"
-    },
-    {
-      "date": "1914-07-28",
-      "title": "World War I: In the culmination of the July Crisis, Austria-Hungary declares war",
-      "desc": "World War I: In the culmination of the July Crisis, Austria-Hungary declares war on the Kingdom of Serbia and begins the Great War.",
-      "type": "finance",
-      "source": "wikipedia"
     },
     {
       "date": "1914-06-28",
@@ -1699,17 +1733,28 @@
       "type": "politics"
     },
     {
-      "date": "1911-07-28",
-      "title": "The Australasian Antarctic Expedition began as the SY Aurora departed London.",
-      "desc": "The Australasian Antarctic Expedition began as the SY Aurora departed London.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1911-06-28",
       "title": "Nakhla Meteorite",
       "desc": "Meteorite falls in Egypt, first to suggest signs of water on Mars",
       "type": "science"
+    }
+  ],
+  "1910": [
+    {
+      "date": "1910-07-29",
+      "title": "The two-day Slocum massacre commences in Texas, a race riot in which more than 1",
+      "desc": "The two-day Slocum massacre commences in Texas, a race riot in which more than 100 African Americans are murdered.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
+  "1907": [
+    {
+      "date": "1907-07-29",
+      "title": "Sir Robert Baden-Powell sets up the Brownsea Island Scout camp in Poole Harbour ",
+      "desc": "Sir Robert Baden-Powell sets up the Brownsea Island Scout camp in Poole Harbour on the south coast of England. The camp runs from August 1 to August 9 and is regarded as the foundation of the Scouting",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1905": [
@@ -1748,6 +1793,13 @@
       "type": "science"
     },
     {
+      "date": "1901-07-29",
+      "title": "Land lottery begins in Oklahoma.",
+      "desc": "Land lottery begins in Oklahoma.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1901-01-01",
       "title": "Australian Federation",
       "desc": "Six colonies federate as Commonwealth of Australia",
@@ -1760,6 +1812,13 @@
       "title": "Quantum Theory",
       "desc": "Max Planck publishes quantum theory paper",
       "type": "science"
+    },
+    {
+      "date": "1900-07-29",
+      "title": "In Italy, King Umberto I of Italy is assassinated by the anarchist Gaetano Bresc",
+      "desc": "In Italy, King Umberto I of Italy is assassinated by the anarchist Gaetano Bresci. His son, Victor Emmanuel III, 31 years old, succeeds to the throne.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1900-05-14",
