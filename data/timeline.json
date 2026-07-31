@@ -33,13 +33,6 @@
       "type": "crypto"
     },
     {
-      "date": "2025-07-30",
-      "title": "A magnitude 8.8 earthquake hits Russia, causing tsunamis over the Pacific Ocean.",
-      "desc": "A magnitude 8.8 earthquake hits Russia, causing tsunamis over the Pacific Ocean.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
-    {
       "date": "2025-06-15",
       "title": "USMCA Renegotiation",
       "desc": "North American trade deal renegotiation begins",
@@ -64,13 +57,6 @@
       "title": "US Presidential Election",
       "desc": "2024 United States presidential election",
       "type": "politics"
-    },
-    {
-      "date": "2024-07-30",
-      "title": "A series of landslides occurs in Kerala, India, causing over 420 fatalities.",
-      "desc": "A series of landslides occurs in Kerala, India, causing over 420 fatalities.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "2024-07-21",
@@ -170,13 +156,6 @@
     }
   ],
   "2020": [
-    {
-      "date": "2020-07-30",
-      "title": "NASA's Mars 2020 mission is launched on an Atlas V rocket from Cape Canaveral Ai",
-      "desc": "NASA's Mars 2020 mission is launched on an Atlas V rocket from Cape Canaveral Air Force Station.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "2020-03-11",
       "title": "COVID-19 Pandemic",
@@ -298,10 +277,10 @@
       "type": "politics"
     },
     {
-      "date": "2014-07-30",
-      "title": "Twenty killed and 150 are trapped after a landslide in Maharashtra, India.",
-      "desc": "Twenty killed and 150 are trapped after a landslide in Maharashtra, India.",
-      "type": "general",
+      "date": "2014-07-31",
+      "title": "Gas explosions in the southern Taiwanese city of Kaohsiung kill at least 20 peop",
+      "desc": "Gas explosions in the southern Taiwanese city of Kaohsiung kill at least 20 people and injure more than 270.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -345,17 +324,10 @@
       "type": "general"
     },
     {
-      "date": "2012-07-30",
-      "title": "A train fire kills 32 passengers and injures 27 on the Tamil Nadu Express in And",
-      "desc": "A train fire kills 32 passengers and injures 27 on the Tamil Nadu Express in Andhra Pradesh, India.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2012-07-30",
-      "title": "A power grid failure in Delhi leaves more than 300 million people without power ",
-      "desc": "A power grid failure in Delhi leaves more than 300 million people without power in northern India.",
-      "type": "tech",
+      "date": "2012-07-31",
+      "title": "Michael Phelps breaks the record set in 1964 by Larisa Latynina for the most med",
+      "desc": "Michael Phelps breaks the record set in 1964 by Larisa Latynina for the most medals won at the Olympics.",
+      "type": "sports",
       "source": "wikipedia"
     },
     {
@@ -372,13 +344,6 @@
     }
   ],
   "2011": [
-    {
-      "date": "2011-07-30",
-      "title": "Marriage of Queen Elizabeth II's eldest granddaughter Zara Phillips to former ru",
-      "desc": "Marriage of Queen Elizabeth II's eldest granddaughter Zara Phillips to former rugby union footballer Mike Tindall.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "2011-05-02",
       "title": "Bin Laden Killed",
@@ -456,9 +421,23 @@
       "title": "Lehman Brothers Collapse",
       "desc": "Investment bank fails, triggering global financial crisis",
       "type": "finance"
+    },
+    {
+      "date": "2008-07-31",
+      "title": "East Coast Jets Flight 81 crashes near Owatonna Degner Regional Airport in Owato",
+      "desc": "East Coast Jets Flight 81 crashes near Owatonna Degner Regional Airport in Owatonna, Minnesota, killing all eight people on board.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "2007": [
+    {
+      "date": "2007-07-31",
+      "title": "Operation Banner, the presence of the British Army in Northern Ireland, and the ",
+      "desc": "Operation Banner, the presence of the British Army in Northern Ireland, and the longest-running British Army operation ever, comes to an end.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "2007-06-29",
       "title": "iPhone Released",
@@ -474,17 +453,10 @@
   ],
   "2006": [
     {
-      "date": "2006-07-30",
-      "title": "The world's longest running music show Top of the Pops is broadcast for the last",
-      "desc": "The world's longest running music show Top of the Pops is broadcast for the last time on BBC Two. The show had aired for 42 years.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2006-07-30",
-      "title": "An Israeli airstrike kills 28 Lebanese civilians, including 16 children.",
-      "desc": "An Israeli airstrike kills 28 Lebanese civilians, including 16 children.",
-      "type": "tech",
+      "date": "2006-07-31",
+      "title": "Fidel Castro hands over power to his brother, Raúl.",
+      "desc": "Fidel Castro hands over power to his brother, Raúl.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -530,20 +502,6 @@
   ],
   "2003": [
     {
-      "date": "2003-07-30",
-      "title": "In Mexico, the last 'old style' Volkswagen Beetle rolls off the assembly line.",
-      "desc": "In Mexico, the last 'old style' Volkswagen Beetle rolls off the assembly line.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2003-07-30",
-      "title": "Three years after the death of the last Pyrenean ibex, Celia, a clone of her is ",
-      "desc": "Three years after the death of the last Pyrenean ibex, Celia, a clone of her is born only to subsequently die from lung defects. Within minutes, the Pyrenean ibex becomes the first and so far only spe",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2003-03-20",
       "title": "Iraq War Begins",
       "desc": "US-led coalition invades Iraq",
@@ -586,6 +544,13 @@
   ],
   "1999": [
     {
+      "date": "1999-07-31",
+      "title": "Discovery Program: Lunar Prospector: NASA intentionally crashes the spacecraft i",
+      "desc": "Discovery Program: Lunar Prospector: NASA intentionally crashes the spacecraft into the Moon, thus ending its mission to detect frozen water on the Moon's surface.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1999-03-24",
       "title": "Kosovo War",
       "desc": "NATO begins bombing campaign against Yugoslavia",
@@ -613,6 +578,13 @@
     }
   ],
   "1997": [
+    {
+      "date": "1997-07-31",
+      "title": "FedEx Express Flight 14 crashes at Newark International Airport, injuring five.",
+      "desc": "FedEx Express Flight 14 crashes at Newark International Airport, injuring five.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1997-07-01",
       "title": "Hong Kong Handover",
@@ -682,6 +654,34 @@
       "type": "tech"
     },
     {
+      "date": "1992-07-31",
+      "title": "The nation of Georgia joins the United Nations.",
+      "desc": "The nation of Georgia joins the United Nations.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1992-07-31",
+      "title": "Thai Airways International Flight 311 crashes into a mountain north of Kathmandu",
+      "desc": "Thai Airways International Flight 311 crashes into a mountain north of Kathmandu, Nepal killing all 113 people on board.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1992-07-31",
+      "title": "China General Aviation Flight 7552 crashes during takeoff from Nanjing Dajiaocha",
+      "desc": "China General Aviation Flight 7552 crashes during takeoff from Nanjing Dajiaochang Airport, killing 108.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1992-07-31",
+      "title": "Space Shuttle program: Atlantis is launched on STS-46 to deploy the European Ret",
+      "desc": "Space Shuttle program: Atlantis is launched on STS-46 to deploy the European Retrievable Carrier and the Tethered Satellite System.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1992-04-29",
       "title": "LA Riots",
       "desc": "Riots erupt after Rodney King verdict",
@@ -702,6 +702,13 @@
       "type": "tech"
     },
     {
+      "date": "1991-07-31",
+      "title": "The United States and Soviet Union both sign the START I Strategic Arms Reductio",
+      "desc": "The United States and Soviet Union both sign the START I Strategic Arms Reduction Treaty, the first to reduce (with verification) both countries' stockpiles.",
+      "type": "finance",
+      "source": "wikipedia"
+    },
+    {
       "date": "1991-02-28",
       "title": "Gulf War Ends",
       "desc": "US-led coalition forces liberate Kuwait",
@@ -720,13 +727,6 @@
       "title": "Iraq Invades Kuwait",
       "desc": "Iraqi invasion triggers Gulf War",
       "type": "politics"
-    },
-    {
-      "date": "1990-07-30",
-      "title": "Ian Gow, Conservative Member of Parliament, is assassinated at his home by the I",
-      "desc": "Ian Gow, Conservative Member of Parliament, is assassinated at his home by the IRA in a car bombing after he assured the group that the British government would never surrender to them.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1990-04-24",
@@ -767,6 +767,13 @@
       "title": "Morris Worm",
       "desc": "First major internet worm infects 6000 computers",
       "type": "tech"
+    },
+    {
+      "date": "1988-07-31",
+      "title": "Thirty-two people are killed and 1,674 injured when a bridge at the Sultan Abdul",
+      "desc": "Thirty-two people are killed and 1,674 injured when a bridge at the Sultan Abdul Halim ferry terminal collapses in Butterworth, Penang, Malaysia.",
+      "type": "disaster",
+      "source": "wikipedia"
     }
   ],
   "1987": [
@@ -775,6 +782,13 @@
       "title": "Black Monday",
       "desc": "Global stock market crash, Dow drops 22.6%",
       "type": "finance"
+    },
+    {
+      "date": "1987-07-31",
+      "title": "A tornado occurs in Edmonton, Alberta, killing 27 people.",
+      "desc": "A tornado occurs in Edmonton, Alberta, killing 27 people.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1987-06-28",
@@ -839,35 +853,12 @@
       "type": "politics"
     }
   ],
-  "1981": [
-    {
-      "date": "1981-07-30",
-      "title": "As many as 50,000 demonstrators, mostly women and children, take to the streets ",
-      "desc": "As many as 50,000 demonstrators, mostly women and children, take to the streets in Łódź to protest food ration shortages in Communist Poland.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1980": [
     {
       "date": "1980-09-22",
       "title": "Iran-Iraq War Begins",
       "desc": "Longest conventional war of 20th century starts",
       "type": "politics"
-    },
-    {
-      "date": "1980-07-30",
-      "title": "Vanuatu gains independence.",
-      "desc": "Vanuatu gains independence.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1980-07-30",
-      "title": "Israel's Knesset passes the Jerusalem Law.",
-      "desc": "Israel's Knesset passes the Jerusalem Law.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1980-05-18",
@@ -891,13 +882,6 @@
     }
   ],
   "1978": [
-    {
-      "date": "1978-07-30",
-      "title": "The 730: Okinawa Prefecture changes its traffic on the right-hand side of the ro",
-      "desc": "The 730: Okinawa Prefecture changes its traffic on the right-hand side of the road to the left-hand side.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1978-07-25",
       "title": "First IVF Baby",
@@ -941,10 +925,10 @@
   ],
   "1975": [
     {
-      "date": "1975-07-30",
-      "title": "Jimmy Hoffa disappears from the parking lot of the Machus Red Fox restaurant in ",
-      "desc": "Jimmy Hoffa disappears from the parking lot of the Machus Red Fox restaurant in Bloomfield Hills, Michigan, a suburb of Detroit, at about 2:30 p.m. He is never seen or heard from again.",
-      "type": "tech",
+      "date": "1975-07-31",
+      "title": "The Troubles: Three members of a popular cabaret band and two gunmen are killed ",
+      "desc": "The Troubles: Three members of a popular cabaret band and two gunmen are killed during a botched paramilitary attack in Northern Ireland.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -968,13 +952,6 @@
       "type": "politics"
     },
     {
-      "date": "1974-07-30",
-      "title": "Watergate scandal: U.S. President Richard Nixon releases subpoenaed White House ",
-      "desc": "Watergate scandal: U.S. President Richard Nixon releases subpoenaed White House recordings after being ordered to do so by the Supreme Court of the United States.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1974-02-01",
       "title": "Brazil Oil Crisis",
       "desc": "First oil shock hits Brazil, triggering economic changes",
@@ -989,6 +966,13 @@
       "type": "finance"
     },
     {
+      "date": "1973-07-31",
+      "title": "A Delta Air Lines jetliner, flight DL 723 crashes while landing in fog at Logan ",
+      "desc": "A Delta Air Lines jetliner, flight DL 723 crashes while landing in fog at Logan International Airport, Boston, Massachusetts killing 89.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1973-06-28",
       "title": "NI Assembly Elections",
       "desc": "Northern Ireland Assembly elections held",
@@ -1001,6 +985,13 @@
       "title": "Munich Massacre",
       "desc": "Palestinian terrorists kill Israeli athletes at Olympics",
       "type": "disaster"
+    },
+    {
+      "date": "1972-07-31",
+      "title": "The Troubles: In Operation Motorman, the British Army re-takes the urban no-go a",
+      "desc": "The Troubles: In Operation Motorman, the British Army re-takes the urban no-go areas of Northern Ireland. It is the biggest British military operation since the Suez Crisis of 1956, and the biggest in",
+      "type": "finance",
+      "source": "wikipedia"
     },
     {
       "date": "1972-02-21",
@@ -1023,17 +1014,19 @@
       "type": "finance"
     },
     {
-      "date": "1971-07-30",
-      "title": "Apollo program: On Apollo 15, David Scott and James Irwin in the Apollo Lunar Mo",
-      "desc": "Apollo program: On Apollo 15, David Scott and James Irwin in the Apollo Lunar Module Falcon land on the Moon with the first Lunar Rover.",
+      "date": "1971-07-31",
+      "title": "Apollo program: the Apollo 15 astronauts become the first to ride in a lunar rov",
+      "desc": "Apollo program: the Apollo 15 astronauts become the first to ride in a lunar rover.",
       "type": "general",
       "source": "wikipedia"
-    },
+    }
+  ],
+  "1970": [
     {
-      "date": "1971-07-30",
-      "title": "An All Nippon Airways Boeing 727 and a Japanese Air Force F-86 collide over Mori",
-      "desc": "An All Nippon Airways Boeing 727 and a Japanese Air Force F-86 collide over Morioka, Iwate, Japan, killing 162.",
-      "type": "tech",
+      "date": "1970-07-31",
+      "title": "Black Tot Day: The last day of the officially sanctioned rum ration in the Royal",
+      "desc": "Black Tot Day: The last day of the officially sanctioned rum ration in the Royal Navy.",
+      "type": "politics",
       "source": "wikipedia"
     }
   ],
@@ -1043,13 +1036,6 @@
       "title": "Woodstock",
       "desc": "Iconic music festival draws 400,000 to New York farm",
       "type": "general"
-    },
-    {
-      "date": "1969-07-30",
-      "title": "Vietnam War: U.S. president Richard Nixon makes an unscheduled visit to South Vi",
-      "desc": "Vietnam War: U.S. president Richard Nixon makes an unscheduled visit to South Vietnam and meets with President Nguyễn Văn Thiệu and U.S. military commanders.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1969-07-20",
@@ -1100,10 +1086,10 @@
   ],
   "1966": [
     {
-      "date": "1966-07-30",
-      "title": "England defeats West Germany to win the FIFA World Cup at Wembley Stadium 4–2 af",
-      "desc": "England defeats West Germany to win the FIFA World Cup at Wembley Stadium 4–2 after extra time.",
-      "type": "sports",
+      "date": "1966-07-31",
+      "title": "The pleasure cruiser MV Darlwyne disappeared off the Cornwall coast with the los",
+      "desc": "The pleasure cruiser MV Darlwyne disappeared off the Cornwall coast with the loss of all 31 aboard.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -1113,13 +1099,6 @@
       "title": "Watts Riots",
       "desc": "Major race riots in Los Angeles",
       "type": "politics"
-    },
-    {
-      "date": "1965-07-30",
-      "title": "U.S. president Lyndon B. Johnson signs the Social Security Act of 1965 into law,",
-      "desc": "U.S. president Lyndon B. Johnson signs the Social Security Act of 1965 into law, establishing Medicare and Medicaid.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1965-03-07",
@@ -1134,6 +1113,13 @@
       "title": "Gulf of Tonkin",
       "desc": "US Congress passes resolution escalating Vietnam War",
       "type": "politics"
+    },
+    {
+      "date": "1964-07-31",
+      "title": "Ranger program: Ranger 7 sends back the first close-up photographs of the moon, ",
+      "desc": "Ranger program: Ranger 7 sends back the first close-up photographs of the moon, with images 1,000 times clearer than anything ever seen from earth-bound telescopes.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1964-06-28",
@@ -1162,13 +1148,6 @@
       "title": "Cuban Missile Crisis",
       "desc": "US-USSR standoff brings world close to nuclear war",
       "type": "politics"
-    },
-    {
-      "date": "1962-07-30",
-      "title": "The Trans-Canada Highway, the then-longest national highway in the world, is off",
-      "desc": "The Trans-Canada Highway, the then-longest national highway in the world, is officially opened.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1962-07-10",
@@ -1239,13 +1218,6 @@
       "title": "Hungarian Revolution",
       "desc": "Anti-Soviet uprising in Hungary",
       "type": "politics"
-    },
-    {
-      "date": "1956-07-30",
-      "title": "A joint resolution of the U.S. Congress is signed by President Dwight D. Eisenho",
-      "desc": "A joint resolution of the U.S. Congress is signed by President Dwight D. Eisenhower, authorizing In God We Trust as the U.S. national motto.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1956-06-28",
@@ -1366,6 +1338,20 @@
       "type": "politics"
     },
     {
+      "date": "1948-07-31",
+      "title": "At Idlewild Field in New York, New York International Airport (later renamed Joh",
+      "desc": "At Idlewild Field in New York, New York International Airport (later renamed John F. Kennedy International Airport) is dedicated.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1948-07-31",
+      "title": "USS Nevada is sunk by an aerial torpedo after surviving hits from two atomic bom",
+      "desc": "USS Nevada is sunk by an aerial torpedo after surviving hits from two atomic bombs (as part of post-war tests) and being used for target practice by three other ships.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1948-06-28",
       "title": "Tito-Stalin Split",
       "desc": "Yugoslavia expelled from Soviet bloc",
@@ -1406,10 +1392,10 @@
       "type": "disaster"
     },
     {
-      "date": "1945-07-30",
-      "title": "World War II: Japanese submarine I-58 sinks the USS Indianapolis, killing 883 se",
-      "desc": "World War II: Japanese submarine I-58 sinks the USS Indianapolis, killing 883 seamen. Most die during the following four days, until an aircraft notices the survivors.",
-      "type": "tech",
+      "date": "1945-07-31",
+      "title": "Pierre Laval, the fugitive former leader of Vichy France, surrenders to Allied s",
+      "desc": "Pierre Laval, the fugitive former leader of Vichy France, surrenders to Allied soldiers in Austria.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -1447,6 +1433,20 @@
       "type": "politics"
     },
     {
+      "date": "1941-07-31",
+      "title": "The Holocaust: Under instructions from Adolf Hitler, Nazi official Hermann Görin",
+      "desc": "The Holocaust: Under instructions from Adolf Hitler, Nazi official Hermann Göring orders SS General Reinhard Heydrich to \"submit to me as soon as possible a general plan of the administrative material",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1941-07-31",
+      "title": "World War II: The Battle of Smolensk concludes with Germany capturing about 300,",
+      "desc": "World War II: The Battle of Smolensk concludes with Germany capturing about 300,000 Soviet Red Army prisoners.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1941-06-22",
       "title": "Operation Barbarossa",
       "desc": "Germany invades Soviet Union",
@@ -1465,6 +1465,22 @@
       "title": "Molotov-Ribbentrop Pact",
       "desc": "Germany and USSR sign non-aggression pact",
       "type": "politics"
+    }
+  ],
+  "1938": [
+    {
+      "date": "1938-07-31",
+      "title": "Bulgaria signs a non-aggression pact with Greece and other states of Balkan Anta",
+      "desc": "Bulgaria signs a non-aggression pact with Greece and other states of Balkan Antanti (Turkey, Romania, Yugoslavia).",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1938-07-31",
+      "title": "Archaeologists discover engraved gold and silver plates from King Darius the Gre",
+      "desc": "Archaeologists discover engraved gold and silver plates from King Darius the Great in Persepolis.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1937": [
@@ -1511,19 +1527,10 @@
   ],
   "1932": [
     {
-      "date": "1932-07-30",
-      "title": "Premiere of Walt Disney's Flowers and Trees, the first cartoon short to use Tech",
-      "desc": "Premiere of Walt Disney's Flowers and Trees, the first cartoon short to use Technicolor and the first Academy Award winning cartoon short.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
-  "1930": [
-    {
-      "date": "1930-07-30",
-      "title": "In Montevideo, Uruguay wins the first FIFA World Cup by beating Argentina.",
-      "desc": "In Montevideo, Uruguay wins the first FIFA World Cup by beating Argentina.",
-      "type": "sports",
+      "date": "1932-07-31",
+      "title": "The NSDAP (Nazi Party) wins more than 38% of the vote in German elections.",
+      "desc": "The NSDAP (Nazi Party) wins more than 38% of the vote in German elections.",
+      "type": "politics",
       "source": "wikipedia"
     }
   ],
@@ -1649,19 +1656,17 @@
       "type": "politics"
     },
     {
+      "date": "1917-07-31",
+      "title": "World War I: The Battle of Passchendaele begins near Ypres in West Flanders, Bel",
+      "desc": "World War I: The Battle of Passchendaele begins near Ypres in West Flanders, Belgium.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1917-06-28",
       "title": "Greece Enters WWI",
       "desc": "Greece joins Allied powers in World War I",
       "type": "politics"
-    }
-  ],
-  "1916": [
-    {
-      "date": "1916-07-30",
-      "title": "The Black Tom explosion in New York Harbor kills four and destroys some $20,000,",
-      "desc": "The Black Tom explosion in New York Harbor kills four and destroys some $20,000,000 worth of military goods.",
-      "type": "disaster",
-      "source": "wikipedia"
     }
   ],
   "1914": [
@@ -1679,13 +1684,6 @@
     }
   ],
   "1912": [
-    {
-      "date": "1912-07-30",
-      "title": "Japan's Emperor Meiji dies and is succeeded by his son Yoshihito, who is now kno",
-      "desc": "Japan's Emperor Meiji dies and is succeeded by his son Yoshihito, who is now known as the Emperor Taishō.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1912-04-15",
       "title": "Titanic Sinks",
@@ -1725,6 +1723,15 @@
       "title": "Einstein Relativity",
       "desc": "Einstein publishes special theory of relativity",
       "type": "science"
+    }
+  ],
+  "1904": [
+    {
+      "date": "1904-07-31",
+      "title": "Russo-Japanese War: Battle of Hsimucheng: Units of the Imperial Japanese Army de",
+      "desc": "Russo-Japanese War: Battle of Hsimucheng: Units of the Imperial Japanese Army defeat units of the Imperial Russian Army in a strategic confrontation.",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "1903": [
