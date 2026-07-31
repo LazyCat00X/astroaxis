@@ -670,7 +670,7 @@
     {
       "date": "1992-07-31",
       "title": "Thai Airways International Flight 311 crashes into a mountain north of Kathmandu",
-      "desc": "Thai Airways International Flight 311 crashes into a mountain north of Kathmandu, Nepal killing all 113 people on board.",
+      "desc": "Thai Airways International Flight 311 crashes into a mountain north of Kathmandu, Nepal, killing all 113 people on board.",
       "type": "tech",
       "source": "wikipedia"
     },
@@ -974,8 +974,8 @@
     },
     {
       "date": "1973-07-31",
-      "title": "A Delta Air Lines jetliner, flight DL 723 crashes while landing in fog at Logan ",
-      "desc": "A Delta Air Lines jetliner, flight DL 723 crashes while landing in fog at Logan International Airport, Boston, Massachusetts killing 89.",
+      "title": "A Delta Air Lines jetliner, flight DL 723, crashes while landing in fog at Logan",
+      "desc": "A Delta Air Lines jetliner, flight DL 723, crashes while landing in fog at Logan International Airport, Boston, Massachusetts, killing 89.",
       "type": "tech",
       "source": "wikipedia"
     },
@@ -1022,8 +1022,8 @@
     },
     {
       "date": "1971-07-31",
-      "title": "Apollo program: the Apollo 15 astronauts become the first to ride in a lunar rov",
-      "desc": "Apollo program: the Apollo 15 astronauts become the first to ride in a lunar rover.",
+      "title": "Apollo program: The Apollo 15 astronauts become the first to ride in a lunar rov",
+      "desc": "Apollo program: The Apollo 15 astronauts become the first to ride in a lunar rover.",
       "type": "general",
       "source": "wikipedia"
     }
@@ -1094,8 +1094,8 @@
   "1966": [
     {
       "date": "1966-07-31",
-      "title": "The pleasure cruiser MV Darlwyne disappeared off the Cornwall coast with the los",
-      "desc": "The pleasure cruiser MV Darlwyne disappeared off the Cornwall coast with the loss of all 31 aboard.",
+      "title": "The pleasure cruiser MV Darlwyne disappears off the Cornwall coast with the loss",
+      "desc": "The pleasure cruiser MV Darlwyne disappears off the Cornwall coast with the loss of all 31 aboard.",
       "type": "general",
       "source": "wikipedia"
     }
