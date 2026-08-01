@@ -85,6 +85,13 @@
       "type": "politics"
     },
     {
+      "date": "2023-08-01",
+      "title": "Former US President Donald Trump is indicted for his role in the January 6 Unite",
+      "desc": "Former US President Donald Trump is indicted for his role in the January 6 United States Capitol attack, his third indictment in 2023.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "2023-07-19",
       "title": "Global Temperature Record",
       "desc": "Hottest month ever recorded globally",
@@ -157,13 +164,6 @@
   ],
   "2020": [
     {
-      "date": "2020-07-31",
-      "title": "A De Havilland Canada DHC-2 Beaver and Piper PA-12 Super Cruiser collide over So",
-      "desc": "A De Havilland Canada DHC-2 Beaver and Piper PA-12 Super Cruiser collide over Soldotna, Alaska, killing all seven people on board both aircraft, including state representative Gary Knopp.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2020-03-11",
       "title": "COVID-19 Pandemic",
       "desc": "WHO declares COVID-19 a global pandemic",
@@ -230,6 +230,13 @@
       "type": "crypto"
     },
     {
+      "date": "2017-08-01",
+      "title": "A suicide attack on a mosque in Herat, Afghanistan kills 20 people.",
+      "desc": "A suicide attack on a mosque in Herat, Afghanistan kills 20 people.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2017-06-01",
       "title": "US Withdraws Paris Accord",
       "desc": "Trump announces US withdrawal from climate agreement",
@@ -284,13 +291,6 @@
       "type": "politics"
     },
     {
-      "date": "2014-07-31",
-      "title": "Gas explosions in the southern Taiwanese city of Kaohsiung kill at least 20 peop",
-      "desc": "Gas explosions in the southern Taiwanese city of Kaohsiung kill at least 20 people and injure more than 270.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2014-06-29",
       "title": "ISIS Caliphate Declared",
       "desc": "ISIS declares Islamic caliphate in Iraq and Syria",
@@ -329,13 +329,6 @@
       "title": "Mayan Calendar Phenomenon",
       "desc": "Global fascination with predicted 'end of the world'",
       "type": "general"
-    },
-    {
-      "date": "2012-07-31",
-      "title": "Michael Phelps breaks the record set in 1964 by Larisa Latynina for the most med",
-      "desc": "Michael Phelps breaks the record set in 1964 by Larisa Latynina for the most medals won at the Olympics.",
-      "type": "sports",
-      "source": "wikipedia"
     },
     {
       "date": "2012-07-04",
@@ -430,19 +423,26 @@
       "type": "finance"
     },
     {
-      "date": "2008-07-31",
-      "title": "East Coast Jets Flight 81 crashes near Owatonna Degner Regional Airport in Owato",
-      "desc": "East Coast Jets Flight 81 crashes near Owatonna Degner Regional Airport in Owatonna, Minnesota, killing all eight people on board.",
+      "date": "2008-08-01",
+      "title": "The Beijing–Tianjin Intercity Railway begins operation as the fastest commuter r",
+      "desc": "The Beijing–Tianjin Intercity Railway begins operation as the fastest commuter rail system in the world.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2008-08-01",
+      "title": "Eleven mountaineers from international expeditions died on K2, the second-highes",
+      "desc": "Eleven mountaineers from international expeditions died on K2, the second-highest mountain on Earth, in the worst single accident in the history of K2 mountaineering.",
       "type": "tech",
       "source": "wikipedia"
     }
   ],
   "2007": [
     {
-      "date": "2007-07-31",
-      "title": "Operation Banner, the presence of the British Army in Northern Ireland, and the ",
-      "desc": "Operation Banner, the presence of the British Army in Northern Ireland, and the longest-running British Army operation ever, comes to an end.",
-      "type": "general",
+      "date": "2007-08-01",
+      "title": "The I-35W Mississippi River bridge spanning the Mississippi River in Minneapolis",
+      "desc": "The I-35W Mississippi River bridge spanning the Mississippi River in Minneapolis, Minnesota, collapses during the evening rush hour, killing 13 people and injuring 145.",
+      "type": "disaster",
       "source": "wikipedia"
     },
     {
@@ -456,15 +456,6 @@
       "title": "iPhone Unveiled",
       "desc": "Steve Jobs introduces the first iPhone",
       "type": "tech"
-    }
-  ],
-  "2006": [
-    {
-      "date": "2006-07-31",
-      "title": "Fidel Castro hands over power to his brother, Raúl.",
-      "desc": "Fidel Castro hands over power to his brother, Raúl.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "2005": [
@@ -493,6 +484,13 @@
       "title": "Indian Ocean Tsunami",
       "desc": "Massive tsunami kills 230K across 14 countries",
       "type": "disaster"
+    },
+    {
+      "date": "2004-08-01",
+      "title": "A supermarket fire kills 424 people and injures 360 others in Asunción, Paraguay",
+      "desc": "A supermarket fire kills 424 people and injures 360 others in Asunción, Paraguay.",
+      "type": "finance",
+      "source": "wikipedia"
     },
     {
       "date": "2004-06-28",
@@ -551,13 +549,6 @@
   ],
   "1999": [
     {
-      "date": "1999-07-31",
-      "title": "Discovery Program: Lunar Prospector: NASA intentionally crashes the spacecraft i",
-      "desc": "Discovery Program: Lunar Prospector: NASA intentionally crashes the spacecraft into the Moon, thus ending its mission to detect frozen water on the Moon's surface.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1999-03-24",
       "title": "Kosovo War",
       "desc": "NATO begins bombing campaign against Yugoslavia",
@@ -582,16 +573,16 @@
       "title": "Russian Default",
       "desc": "Russia defaults on domestic debt, ruble collapses",
       "type": "finance"
+    },
+    {
+      "date": "1998-08-01",
+      "title": "Puntland, an autonomous state in northeastern Somalia, was officially establishe",
+      "desc": "Puntland, an autonomous state in northeastern Somalia, was officially established following a constitutional conference in Garowe, Issims and tribal chiefs agreed to create a self-declared government ",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1997": [
-    {
-      "date": "1997-07-31",
-      "title": "FedEx Express Flight 14 crashes at Newark International Airport, injuring five.",
-      "desc": "FedEx Express Flight 14 crashes at Newark International Airport, injuring five.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1997-07-01",
       "title": "Hong Kong Handover",
@@ -641,6 +632,13 @@
   ],
   "1993": [
     {
+      "date": "1993-08-01",
+      "title": "The Great Mississippi and Missouri Rivers Flood of 1993 comes to a peak.",
+      "desc": "The Great Mississippi and Missouri Rivers Flood of 1993 comes to a peak.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
       "date": "1993-02-26",
       "title": "World Trade Center Bombing",
       "desc": "Islamist terrorists bomb WTC for the first time",
@@ -659,34 +657,6 @@
       "title": "First SMS Sent",
       "desc": "First text message sent: 'Merry Christmas'",
       "type": "tech"
-    },
-    {
-      "date": "1992-07-31",
-      "title": "The nation of Georgia joins the United Nations.",
-      "desc": "The nation of Georgia joins the United Nations.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1992-07-31",
-      "title": "Thai Airways International Flight 311 crashes into a mountain north of Kathmandu",
-      "desc": "Thai Airways International Flight 311 crashes into a mountain north of Kathmandu, Nepal, killing all 113 people on board.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1992-07-31",
-      "title": "China General Aviation Flight 7552 crashes during takeoff from Nanjing Dajiaocha",
-      "desc": "China General Aviation Flight 7552 crashes during takeoff from Nanjing Dajiaochang Airport, killing 108.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1992-07-31",
-      "title": "Space Shuttle program: Atlantis is launched on STS-46 to deploy the European Ret",
-      "desc": "Space Shuttle program: Atlantis is launched on STS-46 to deploy the European Retrievable Carrier and the Tethered Satellite System.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1992-04-29",
@@ -709,13 +679,6 @@
       "type": "tech"
     },
     {
-      "date": "1991-07-31",
-      "title": "The United States and Soviet Union both sign the START I Strategic Arms Reductio",
-      "desc": "The United States and Soviet Union both sign the START I Strategic Arms Reduction Treaty, the first to reduce (with verification) both countries' stockpiles.",
-      "type": "finance",
-      "source": "wikipedia"
-    },
-    {
       "date": "1991-02-28",
       "title": "Gulf War Ends",
       "desc": "US-led coalition forces liberate Kuwait",
@@ -734,6 +697,13 @@
       "title": "Iraq Invades Kuwait",
       "desc": "Iraqi invasion triggers Gulf War",
       "type": "politics"
+    },
+    {
+      "date": "1990-08-01",
+      "title": "A plane crash in the Karabakh Range kills 46 people.",
+      "desc": "A plane crash in the Karabakh Range kills 46 people.",
+      "type": "disaster",
+      "source": "wikipedia"
     },
     {
       "date": "1990-04-24",
@@ -776,10 +746,10 @@
       "type": "tech"
     },
     {
-      "date": "1988-07-31",
-      "title": "Thirty-two people are killed and 1,674 injured when a bridge at the Sultan Abdul",
-      "desc": "Thirty-two people are killed and 1,674 injured when a bridge at the Sultan Abdul Halim ferry terminal collapses in Butterworth, Penang, Malaysia.",
-      "type": "disaster",
+      "date": "1988-08-01",
+      "title": "A British soldier was killed in the Inglis Barracks bombing in London, England.",
+      "desc": "A British soldier was killed in the Inglis Barracks bombing in London, England.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -789,13 +759,6 @@
       "title": "Black Monday",
       "desc": "Global stock market crash, Dow drops 22.6%",
       "type": "finance"
-    },
-    {
-      "date": "1987-07-31",
-      "title": "A tornado occurs in Edmonton, Alberta, killing 27 people.",
-      "desc": "A tornado occurs in Edmonton, Alberta, killing 27 people.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1987-06-28",
@@ -832,6 +795,15 @@
       "type": "politics"
     }
   ],
+  "1984": [
+    {
+      "date": "1984-08-01",
+      "title": "Commercial peat-cutters discover the preserved bog body of a man, called Lindow ",
+      "desc": "Commercial peat-cutters discover the preserved bog body of a man, called Lindow Man, at Lindow Moss, Cheshire, England.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1983": [
     {
       "date": "1983-09-01",
@@ -860,12 +832,35 @@
       "type": "politics"
     }
   ],
+  "1981": [
+    {
+      "date": "1981-08-01",
+      "title": "MTV begins broadcasting in the United States and airs its first video, \"Video Ki",
+      "desc": "MTV begins broadcasting in the United States and airs its first video, \"Video Killed the Radio Star\" by The Buggles.",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "1980": [
     {
       "date": "1980-09-22",
       "title": "Iran-Iraq War Begins",
       "desc": "Longest conventional war of 20th century starts",
       "type": "politics"
+    },
+    {
+      "date": "1980-08-01",
+      "title": "Vigdís Finnbogadóttir is elected President of Iceland and becomes the world's fi",
+      "desc": "Vigdís Finnbogadóttir is elected President of Iceland and becomes the world's first democratically elected female head of state.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1980-08-01",
+      "title": "A train crash kills 18 people and injures over 170 more in County Cork, Ireland.",
+      "desc": "A train crash kills 18 people and injures over 170 more in County Cork, Ireland.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1980-05-18",
@@ -918,6 +913,13 @@
   ],
   "1976": [
     {
+      "date": "1976-08-01",
+      "title": "Niki Lauda has a severe accident that almost claims his life at the German Grand",
+      "desc": "Niki Lauda has a severe accident that almost claims his life at the German Grand Prix at Nürburgring.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1976-07-20",
       "title": "Viking 1 Lands on Mars",
       "desc": "First US spacecraft to successfully land on Mars",
@@ -932,9 +934,9 @@
   ],
   "1975": [
     {
-      "date": "1975-07-31",
-      "title": "The Troubles: Three members of a popular cabaret band and two gunmen are killed ",
-      "desc": "The Troubles: Three members of a popular cabaret band and two gunmen are killed during a botched paramilitary attack in Northern Ireland.",
+      "date": "1975-08-01",
+      "title": "The final act of the CSCE meeting is signed in Helsinki, Finland.",
+      "desc": "The final act of the CSCE meeting is signed in Helsinki, Finland.",
       "type": "general",
       "source": "wikipedia"
     },
@@ -959,6 +961,13 @@
       "type": "politics"
     },
     {
+      "date": "1974-08-01",
+      "title": "Cyprus dispute: The United Nations Security Council authorizes the UNFICYP to cr",
+      "desc": "Cyprus dispute: The United Nations Security Council authorizes the UNFICYP to create the \"Green Line\", dividing Cyprus into two zones.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1974-02-01",
       "title": "Brazil Oil Crisis",
       "desc": "First oil shock hits Brazil, triggering economic changes",
@@ -973,13 +982,6 @@
       "type": "finance"
     },
     {
-      "date": "1973-07-31",
-      "title": "A Delta Air Lines jetliner, flight DL 723, crashes while landing in fog at Logan",
-      "desc": "A Delta Air Lines jetliner, flight DL 723, crashes while landing in fog at Logan International Airport, Boston, Massachusetts, killing 89.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1973-06-28",
       "title": "NI Assembly Elections",
       "desc": "Northern Ireland Assembly elections held",
@@ -992,13 +994,6 @@
       "title": "Munich Massacre",
       "desc": "Palestinian terrorists kill Israeli athletes at Olympics",
       "type": "disaster"
-    },
-    {
-      "date": "1972-07-31",
-      "title": "The Troubles: In Operation Motorman, the British Army re-takes the urban no-go a",
-      "desc": "The Troubles: In Operation Motorman, the British Army re-takes the urban no-go areas of Northern Ireland. It is the biggest British military operation since the Suez Crisis of 1956, and the biggest in",
-      "type": "finance",
-      "source": "wikipedia"
     },
     {
       "date": "1972-02-21",
@@ -1021,19 +1016,10 @@
       "type": "finance"
     },
     {
-      "date": "1971-07-31",
-      "title": "Apollo program: The Apollo 15 astronauts become the first to ride in a lunar rov",
-      "desc": "Apollo program: The Apollo 15 astronauts become the first to ride in a lunar rover.",
+      "date": "1971-08-01",
+      "title": "The Concert for Bangladesh, organized by former Beatle George Harrison, is held ",
+      "desc": "The Concert for Bangladesh, organized by former Beatle George Harrison, is held at Madison Square Garden in New York City.",
       "type": "general",
-      "source": "wikipedia"
-    }
-  ],
-  "1970": [
-    {
-      "date": "1970-07-31",
-      "title": "Black Tot Day: The last day of the officially sanctioned rum ration in the Royal",
-      "desc": "Black Tot Day: The last day of the officially sanctioned rum ration in the Royal Navy.",
-      "type": "politics",
       "source": "wikipedia"
     }
   ],
@@ -1065,6 +1051,13 @@
       "type": "politics"
     },
     {
+      "date": "1968-08-01",
+      "title": "The coronation of Hassanal Bolkiah, the 29th Sultan of Brunei, is held.",
+      "desc": "The coronation of Hassanal Bolkiah, the 29th Sultan of Brunei, is held.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1968-06-05",
       "title": "RFK Assassinated",
       "desc": "Robert F. Kennedy shot after winning California primary",
@@ -1093,9 +1086,16 @@
   ],
   "1966": [
     {
-      "date": "1966-07-31",
-      "title": "The pleasure cruiser MV Darlwyne disappears off the Cornwall coast with the loss",
-      "desc": "The pleasure cruiser MV Darlwyne disappears off the Cornwall coast with the loss of all 31 aboard.",
+      "date": "1966-08-01",
+      "title": "Charles Whitman kills 15 people at the University of Texas at Austin before bein",
+      "desc": "Charles Whitman kills 15 people at the University of Texas at Austin before being killed by the police.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1966-08-01",
+      "title": "Purges of intellectuals and imperialists becomes official China policy at the be",
+      "desc": "Purges of intellectuals and imperialists becomes official China policy at the beginning of the Cultural Revolution.",
       "type": "general",
       "source": "wikipedia"
     }
@@ -1106,6 +1106,13 @@
       "title": "Watts Riots",
       "desc": "Major race riots in Los Angeles",
       "type": "politics"
+    },
+    {
+      "date": "1965-08-01",
+      "title": "Frank Herbert's novel, Dune was published for the first time. It was named as th",
+      "desc": "Frank Herbert's novel, Dune was published for the first time. It was named as the world's best-selling science fiction novel in 2003.",
+      "type": "science",
+      "source": "wikipedia"
     },
     {
       "date": "1965-03-07",
@@ -1122,9 +1129,9 @@
       "type": "politics"
     },
     {
-      "date": "1964-07-31",
-      "title": "Ranger program: Ranger 7 sends back the first close-up photographs of the moon, ",
-      "desc": "Ranger program: Ranger 7 sends back the first close-up photographs of the moon, with images 1,000 times clearer than anything ever seen from earth-bound telescopes.",
+      "date": "1964-08-01",
+      "title": "The former Belgian Congo is renamed the Democratic Republic of the Congo.",
+      "desc": "The former Belgian Congo is renamed the Democratic Republic of the Congo.",
       "type": "general",
       "source": "wikipedia"
     },
@@ -1171,6 +1178,13 @@
       "type": "politics"
     },
     {
+      "date": "1961-08-01",
+      "title": "U.S. Defense Secretary Robert McNamara orders the creation of the Defense Intell",
+      "desc": "U.S. Defense Secretary Robert McNamara orders the creation of the Defense Intelligence Agency (DIA), the nation's first centralized military espionage organization.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1961-04-12",
       "title": "First Human in Space",
       "desc": "Yuri Gagarin becomes first person to orbit Earth",
@@ -1178,6 +1192,20 @@
     }
   ],
   "1960": [
+    {
+      "date": "1960-08-01",
+      "title": "Dahomey (later renamed Benin) declares independence from France.",
+      "desc": "Dahomey (later renamed Benin) declares independence from France.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1960-08-01",
+      "title": "Islamabad is declared the federal capital of the Government of Pakistan.",
+      "desc": "Islamabad is declared the federal capital of the Government of Pakistan.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1960-05-01",
       "title": "U-2 Incident",
@@ -1217,6 +1245,13 @@
       "title": "Sputnik Launched",
       "desc": "First artificial satellite, starts Space Age",
       "type": "science"
+    },
+    {
+      "date": "1957-08-01",
+      "title": "The United States and Canada form the North American Aerospace Defense Command (",
+      "desc": "The United States and Canada form the North American Aerospace Defense Command (NORAD).",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1956": [
@@ -1305,6 +1340,13 @@
       "type": "politics"
     },
     {
+      "date": "1950-08-01",
+      "title": "Guam is organized as an unincorporated territory of the United States as the Pre",
+      "desc": "Guam is organized as an unincorporated territory of the United States as the President Harry S. Truman signs the Guam Organic Act.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1950-06-28",
       "title": "Korean War Massacres",
       "desc": "Communist sympathizers executed as Seoul falls",
@@ -1345,20 +1387,6 @@
       "type": "politics"
     },
     {
-      "date": "1948-07-31",
-      "title": "At Idlewild Field in New York, New York International Airport (later renamed Joh",
-      "desc": "At Idlewild Field in New York, New York International Airport (later renamed John F. Kennedy International Airport) is dedicated.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1948-07-31",
-      "title": "USS Nevada is sunk by an aerial torpedo after surviving hits from two atomic bom",
-      "desc": "USS Nevada is sunk by an aerial torpedo after surviving hits from two atomic bombs (as part of post-war tests) and being used for target practice by three other ships.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1948-06-28",
       "title": "Tito-Stalin Split",
       "desc": "Yugoslavia expelled from Soviet bloc",
@@ -1385,6 +1413,15 @@
       "type": "finance"
     }
   ],
+  "1946": [
+    {
+      "date": "1946-08-01",
+      "title": "Leaders of the Russian Liberation Army, a force of Russian prisoners of war that",
+      "desc": "Leaders of the Russian Liberation Army, a force of Russian prisoners of war that collaborated with Nazi Germany, are executed in Moscow, Soviet Union for treason.",
+      "type": "politics",
+      "source": "wikipedia"
+    }
+  ],
   "1945": [
     {
       "date": "1945-09-02",
@@ -1397,13 +1434,6 @@
       "title": "Hiroshima Bombed",
       "desc": "US drops atomic bomb on Hiroshima",
       "type": "disaster"
-    },
-    {
-      "date": "1945-07-31",
-      "title": "Pierre Laval, the fugitive former leader of Vichy France, surrenders to Allied s",
-      "desc": "Pierre Laval, the fugitive former leader of Vichy France, surrenders to Allied soldiers in Austria.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1945-06-28",
@@ -1420,6 +1450,13 @@
   ],
   "1944": [
     {
+      "date": "1944-08-01",
+      "title": "World War II: The Warsaw Uprising against the Nazi German occupation breaks out ",
+      "desc": "World War II: The Warsaw Uprising against the Nazi German occupation breaks out in Warsaw, Poland.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1944-07-20",
       "title": "Hitler Assassination Attempt",
       "desc": "Operation Valkyrie: von Stauffenberg tries to kill Hitler",
@@ -1432,26 +1469,21 @@
       "type": "politics"
     }
   ],
+  "1943": [
+    {
+      "date": "1943-08-01",
+      "title": "World War II: Operation Tidal Wave, also known as \"Black Sunday\", was a failed A",
+      "desc": "World War II: Operation Tidal Wave, also known as \"Black Sunday\", was a failed American attempt to destroy Romanian oil fields.",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "1941": [
     {
       "date": "1941-12-07",
       "title": "Pearl Harbor",
       "desc": "Japan attacks US naval base, US enters WWII",
       "type": "politics"
-    },
-    {
-      "date": "1941-07-31",
-      "title": "The Holocaust: Under instructions from Adolf Hitler, Nazi official Hermann Görin",
-      "desc": "The Holocaust: Under instructions from Adolf Hitler, Nazi official Hermann Göring orders SS General Reinhard Heydrich to \"submit to me as soon as possible a general plan of the administrative material",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1941-07-31",
-      "title": "World War II: The Battle of Smolensk concludes with Germany capturing about 300,",
-      "desc": "World War II: The Battle of Smolensk concludes with Germany capturing about 300,000 Soviet Red Army prisoners.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1941-06-22",
@@ -1474,23 +1506,14 @@
       "type": "politics"
     }
   ],
-  "1938": [
+  "1937": [
     {
-      "date": "1938-07-31",
-      "title": "Bulgaria signs a non-aggression pact with Greece and other states of Balkan Anta",
-      "desc": "Bulgaria signs a non-aggression pact with Greece and other states of Balkan Antanti (Turkey, Romania, Yugoslavia).",
-      "type": "general",
+      "date": "1937-08-01",
+      "title": "Josip Broz Tito reads the resolution \"Manifesto of constitutional congress of KP",
+      "desc": "Josip Broz Tito reads the resolution \"Manifesto of constitutional congress of KPH\" to the constitutive congress of KPH (Croatian Communist Party) in woods near Samobor.",
+      "type": "politics",
       "source": "wikipedia"
     },
-    {
-      "date": "1938-07-31",
-      "title": "Archaeologists discover engraved gold and silver plates from King Darius the Gre",
-      "desc": "Archaeologists discover engraved gold and silver plates from King Darius the Great in Persepolis.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
-  "1937": [
     {
       "date": "1937-07-07",
       "title": "Marco Polo Bridge",
@@ -1506,6 +1529,13 @@
   ],
   "1936": [
     {
+      "date": "1936-08-01",
+      "title": "The Olympics opened in Berlin with a ceremony presided over by Adolf Hitler.",
+      "desc": "The Olympics opened in Berlin with a ceremony presided over by Adolf Hitler.",
+      "type": "sports",
+      "source": "wikipedia"
+    },
+    {
       "date": "1936-07-17",
       "title": "Spanish Civil War",
       "desc": "Nationalist forces rebel against Spanish Republic",
@@ -1520,6 +1550,13 @@
   ],
   "1933": [
     {
+      "date": "1933-08-01",
+      "title": "Anti-Fascist activists Bruno Tesch, Walter Möller, Karl Wolff and August Lütgens",
+      "desc": "Anti-Fascist activists Bruno Tesch, Walter Möller, Karl Wolff and August Lütgens are executed by the Nazi regime in Altona.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1933-03-04",
       "title": "FDR Inaugurated",
       "desc": "Franklin D. Roosevelt becomes US president, New Deal begins",
@@ -1530,15 +1567,6 @@
       "title": "Hitler Chancellor",
       "desc": "Adolf Hitler appointed Chancellor of Germany",
       "type": "politics"
-    }
-  ],
-  "1932": [
-    {
-      "date": "1932-07-31",
-      "title": "The NSDAP (Nazi Party) wins more than 38% of the vote in German elections.",
-      "desc": "The NSDAP (Nazi Party) wins more than 38% of the vote in German elections.",
-      "type": "politics",
-      "source": "wikipedia"
     }
   ],
   "1929": [
@@ -1569,6 +1597,13 @@
       "title": "The Jazz Singer",
       "desc": "First feature-length 'talkie' film released",
       "type": "general"
+    },
+    {
+      "date": "1927-08-01",
+      "title": "The Nanchang Uprising marks the first significant battle in the Chinese Civil Wa",
+      "desc": "The Nanchang Uprising marks the first significant battle in the Chinese Civil War between the Kuomintang and Chinese Communist Party. This day is commemorated as the anniversary of the founding of the",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "1927-05-20",
@@ -1663,20 +1698,36 @@
       "type": "politics"
     },
     {
-      "date": "1917-07-31",
-      "title": "World War I: The Battle of Passchendaele begins near Ypres in West Flanders, Bel",
-      "desc": "World War I: The Battle of Passchendaele begins near Ypres in West Flanders, Belgium.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1917-06-28",
       "title": "Greece Enters WWI",
       "desc": "Greece joins Allied powers in World War I",
       "type": "politics"
     }
   ],
+  "1915": [
+    {
+      "date": "1915-08-01",
+      "title": "Patrick Pearse gives his famous speech \"Ireland unfree shall never be at peace\" ",
+      "desc": "Patrick Pearse gives his famous speech \"Ireland unfree shall never be at peace\" at O'Donovan Rossa's funeral in Dublin.",
+      "type": "politics",
+      "source": "wikipedia"
+    }
+  ],
   "1914": [
+    {
+      "date": "1914-08-01",
+      "title": "World War I: The German Empire declares war on the Russian Empire.",
+      "desc": "World War I: The German Empire declares war on the Russian Empire.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1914-08-01",
+      "title": "World War I: The Swiss Army mobilizes because of World War I.",
+      "desc": "World War I: The Swiss Army mobilizes because of World War I.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
     {
       "date": "1914-07-28",
       "title": "WWI Begins",
@@ -1712,10 +1763,26 @@
       "type": "politics"
     },
     {
+      "date": "1911-08-01",
+      "title": "Harriet Quimby takes her pilot's test and becomes the first U.S. woman to earn a",
+      "desc": "Harriet Quimby takes her pilot's test and becomes the first U.S. woman to earn an Aero Club of America aviator's certificate.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1911-06-28",
       "title": "Nakhla Meteorite",
       "desc": "Meteorite falls in Egypt, first to suggest signs of water on Mars",
       "type": "science"
+    }
+  ],
+  "1907": [
+    {
+      "date": "1907-08-01",
+      "title": "The start of the first Scout camp on Brownsea Island, the origin of the worldwid",
+      "desc": "The start of the first Scout camp on Brownsea Island, the origin of the worldwide Scouting movement.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1905": [
@@ -1730,15 +1797,6 @@
       "title": "Einstein Relativity",
       "desc": "Einstein publishes special theory of relativity",
       "type": "science"
-    }
-  ],
-  "1904": [
-    {
-      "date": "1904-07-31",
-      "title": "Russo-Japanese War: Battle of Hsimucheng: Units of the Imperial Japanese Army de",
-      "desc": "Russo-Japanese War: Battle of Hsimucheng: Units of the Imperial Japanese Army defeat units of the Imperial Russian Army in a strategic confrontation.",
-      "type": "politics",
-      "source": "wikipedia"
     }
   ],
   "1903": [
