@@ -85,13 +85,6 @@
       "type": "politics"
     },
     {
-      "date": "2023-08-03",
-      "title": "Major floods hit parts of Slovenia.",
-      "desc": "Major floods hit parts of Slovenia.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
-    {
       "date": "2023-07-19",
       "title": "Global Temperature Record",
       "desc": "Hottest month ever recorded globally",
@@ -164,6 +157,13 @@
   ],
   "2020": [
     {
+      "date": "2020-08-04",
+      "title": "Beirut Port explosion: At least 220 people are killed and over 5,000 are wounded",
+      "desc": "Beirut Port explosion: At least 220 people are killed and over 5,000 are wounded when 2,700 tons of ammonium nitrate explodes in Beirut, Lebanon.",
+      "type": "disaster",
+      "source": "wikipedia"
+    },
+    {
       "date": "2020-03-11",
       "title": "COVID-19 Pandemic",
       "desc": "WHO declares COVID-19 a global pandemic",
@@ -190,16 +190,9 @@
       "type": "disaster"
     },
     {
-      "date": "2019-08-03",
-      "title": "Six hundred protesters, including opposition leader Lyubov Sobol, are arrested i",
-      "desc": "Six hundred protesters, including opposition leader Lyubov Sobol, are arrested in an election protest in Moscow, Russia.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2019-08-03",
-      "title": "Twenty-three people are killed and 22 injured in a mass shooting at a Walmart in",
-      "desc": "Twenty-three people are killed and 22 injured in a mass shooting at a Walmart in El Paso, Texas.",
+      "date": "2019-08-04",
+      "title": "Nine people are killed and 26 injured in a shooting in Dayton, Ohio. This comes ",
+      "desc": "Nine people are killed and 26 injured in a shooting in Dayton, Ohio. This comes only 13 hours after another mass shooting in El Paso, Texas, where 23 people were killed.",
       "type": "general",
       "source": "wikipedia"
     },
@@ -218,10 +211,17 @@
   ],
   "2018": [
     {
-      "date": "2018-08-03",
-      "title": "Two burka-clad men kill 29 people and injure more than 80 in a suicide attack on",
-      "desc": "Two burka-clad men kill 29 people and injure more than 80 in a suicide attack on a Shia mosque in eastern Afghanistan.",
-      "type": "general",
+      "date": "2018-08-04",
+      "title": "Syrian civil war: The Syrian Democratic Forces (SDF) expel the Islamic State of ",
+      "desc": "Syrian civil war: The Syrian Democratic Forces (SDF) expel the Islamic State of Iraq and the Levant (ISIL) from the Iraq–Syria border, concluding the second phase of the Deir ez-Zor campaign.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2018-08-04",
+      "title": "Crisis in Venezuela: Seven people are injured when two drones detonate explosive",
+      "desc": "Crisis in Venezuela: Seven people are injured when two drones detonate explosives on Avenida Bolívar, Caracas while president Nicolás Maduro is giving a speech to the Venezuelan National Guard.",
+      "type": "finance",
       "source": "wikipedia"
     },
     {
@@ -305,20 +305,6 @@
       "type": "politics"
     },
     {
-      "date": "2014-08-03",
-      "title": "A 6.1 magnitude earthquake kills at least 617 people and injures more than 2,400",
-      "desc": "A 6.1 magnitude earthquake kills at least 617 people and injures more than 2,400 in Yunnan, China.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2014-08-03",
-      "title": "The genocide of Yazidis by ISIL begins.",
-      "desc": "The genocide of Yazidis by ISIL begins.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2014-06-29",
       "title": "ISIS Caliphate Declared",
       "desc": "ISIS declares Islamic caliphate in Iraq and Syria",
@@ -393,13 +379,6 @@
   ],
   "2010": [
     {
-      "date": "2010-08-03",
-      "title": "Widespread rioting erupts in Karachi, Pakistan, after the assassination of a loc",
-      "desc": "Widespread rioting erupts in Karachi, Pakistan, after the assassination of a local politician, leaving at least 85 dead and at least 17 billion Pakistani rupees (US$200 million) in damage.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2010-05-06",
       "title": "Flash Crash",
       "desc": "Dow Jones drops 1000 points in minutes",
@@ -460,10 +439,10 @@
   ],
   "2007": [
     {
-      "date": "2007-08-03",
-      "title": "Former deputy director of the Chilean secret police Raúl Iturriaga is captured a",
-      "desc": "Former deputy director of the Chilean secret police Raúl Iturriaga is captured after having been on the run following a conviction for kidnapping.",
-      "type": "science",
+      "date": "2007-08-04",
+      "title": "NASA's Phoenix Mars lander is launched.",
+      "desc": "NASA's Phoenix Mars lander is launched.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -479,19 +458,21 @@
       "type": "tech"
     }
   ],
+  "2006": [
+    {
+      "date": "2006-08-04",
+      "title": "A massacre is carried out by Sri Lankan government forces, killing 17 employees ",
+      "desc": "A massacre is carried out by Sri Lankan government forces, killing 17 employees of the French INGO Action Against Hunger (known internationally as Action Contre la Faim, or ACF).",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "2005": [
     {
       "date": "2005-08-25",
       "title": "Hurricane Katrina",
       "desc": "Devastating hurricane hits New Orleans",
       "type": "disaster"
-    },
-    {
-      "date": "2005-08-03",
-      "title": "President of Mauritania Maaouya Ould Sid'Ahmed Taya is overthrown in a military ",
-      "desc": "President of Mauritania Maaouya Ould Sid'Ahmed Taya is overthrown in a military coup while attending the funeral of King Fahd in Saudi Arabia.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "2005-07-07",
@@ -512,13 +493,6 @@
       "title": "Indian Ocean Tsunami",
       "desc": "Massive tsunami kills 230K across 14 countries",
       "type": "disaster"
-    },
-    {
-      "date": "2004-08-03",
-      "title": "The pedestal of the Statue of Liberty reopens after being closed since the Septe",
-      "desc": "The pedestal of the Statue of Liberty reopens after being closed since the September 11 attacks.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "2004-06-28",
@@ -605,20 +579,6 @@
   ],
   "1997": [
     {
-      "date": "1997-08-03",
-      "title": "Oued El-Had and Mezouara massacre in Algeria: A total of 116 villagers killed, 4",
-      "desc": "Oued El-Had and Mezouara massacre in Algeria: A total of 116 villagers killed, 40 in Oued El-Had and 76 in Mezouara.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1997-08-03",
-      "title": "Sky Tower in downtown Auckland, New Zealand opens after two-and-a-half years of ",
-      "desc": "Sky Tower in downtown Auckland, New Zealand opens after two-and-a-half years of construction, becoming the tallest free-standing structure in the Southern Hemisphere at the time.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1997-07-01",
       "title": "Hong Kong Handover",
       "desc": "Hong Kong returned to China after 156 years of British rule",
@@ -643,6 +603,13 @@
       "title": "Dayton Agreement",
       "desc": "Peace agreement ends Bosnian War",
       "type": "politics"
+    },
+    {
+      "date": "1995-08-04",
+      "title": "Operation Storm, the last major battle of the Croatian War of Independence begin",
+      "desc": "Operation Storm, the last major battle of the Croatian War of Independence begins.",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "1995-04-19",
@@ -775,6 +742,13 @@
       "type": "finance"
     },
     {
+      "date": "1987-08-04",
+      "title": "The Federal Communications Commission rescinds the Fairness Doctrine which had r",
+      "desc": "The Federal Communications Commission rescinds the Fairness Doctrine which had required radio and television stations to give equal time to opposing views.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1987-06-28",
       "title": "Chiang Kai-shek Dies",
       "desc": "Former Chinese leader dies at age 79",
@@ -809,12 +783,35 @@
       "type": "politics"
     }
   ],
+  "1984": [
+    {
+      "date": "1984-08-04",
+      "title": "The Republic of Upper Volta changes its name to Burkina Faso.",
+      "desc": "The Republic of Upper Volta changes its name to Burkina Faso.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1984-08-04",
+      "title": "The Ariane 3 rocket is launched for the first time, carrying the Eutelsat I F-2 ",
+      "desc": "The Ariane 3 rocket is launched for the first time, carrying the Eutelsat I F-2 and Télécom 1A satellites into geosynchronous transfer orbit.",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "1983": [
     {
       "date": "1983-09-01",
       "title": "KAL 007 Shot Down",
       "desc": "Soviet Union shoots down Korean Air Lines Flight 007",
       "type": "disaster"
+    },
+    {
+      "date": "1983-08-04",
+      "title": "Jean-Baptiste Ouédraogo, president of the military government of Upper Volta, is",
+      "desc": "Jean-Baptiste Ouédraogo, president of the military government of Upper Volta, is ousted from power in a coup d'état led by Captain Thomas Sankara.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1983-01-01",
@@ -835,15 +832,6 @@
       "title": "Falklands War",
       "desc": "Argentina invades Falkland Islands, war with UK begins",
       "type": "politics"
-    }
-  ],
-  "1981": [
-    {
-      "date": "1981-08-03",
-      "title": "Senegalese opposition parties, under the leadership of Mamadou Dia, launch the A",
-      "desc": "Senegalese opposition parties, under the leadership of Mamadou Dia, launch the Antiimperialist Action Front – Suxxali Reew Mi.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1980": [
@@ -902,10 +890,10 @@
       "type": "general"
     },
     {
-      "date": "1977-08-03",
-      "title": "Tandy Corporation announces the TRS-80, one of the world's first mass-produced p",
-      "desc": "Tandy Corporation announces the TRS-80, one of the world's first mass-produced personal computers.",
-      "type": "tech",
+      "date": "1977-08-04",
+      "title": "U.S. President Jimmy Carter signs legislation creating the United States Departm",
+      "desc": "U.S. President Jimmy Carter signs legislation creating the United States Department of Energy.",
+      "type": "politics",
       "source": "wikipedia"
     }
   ],
@@ -925,9 +913,9 @@
   ],
   "1975": [
     {
-      "date": "1975-08-03",
-      "title": "A privately chartered Boeing 707 strikes a mountain peak and crashes near Agadir",
-      "desc": "A privately chartered Boeing 707 strikes a mountain peak and crashes near Agadir, Morocco, killing 188.",
+      "date": "1975-08-04",
+      "title": "The Japanese Red Army takes more than 50 hostages at the AIA Building housing se",
+      "desc": "The Japanese Red Army takes more than 50 hostages at the AIA Building housing several embassies in Kuala Lumpur, Malaysia. The hostages include the U.S. consul and the Swedish Chargé d'affaires. The g",
       "type": "tech",
       "source": "wikipedia"
     },
@@ -950,6 +938,13 @@
       "title": "Nixon Resigns",
       "desc": "Richard Nixon resigns as US president after Watergate",
       "type": "politics"
+    },
+    {
+      "date": "1974-08-04",
+      "title": "A bomb explodes in the Italicus Express train at San Benedetto Val di Sambro, It",
+      "desc": "A bomb explodes in the Italicus Express train at San Benedetto Val di Sambro, Italy, killing 12 people and wounding 22.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1974-02-01",
@@ -980,9 +975,9 @@
       "type": "disaster"
     },
     {
-      "date": "1972-08-03",
-      "title": "The United States Senate ratifies the Anti-Ballistic Missile Treaty.",
-      "desc": "The United States Senate ratifies the Anti-Ballistic Missile Treaty.",
+      "date": "1972-08-04",
+      "title": "Ugandan President Idi Amin announces that Uganda is no longer responsible for th",
+      "desc": "Ugandan President Idi Amin announces that Uganda is no longer responsible for the care of British subjects of Asian origin, beginning the expulsions of Ugandan Asians.",
       "type": "politics",
       "source": "wikipedia"
     },
@@ -1013,6 +1008,13 @@
       "title": "Woodstock",
       "desc": "Iconic music festival draws 400,000 to New York farm",
       "type": "general"
+    },
+    {
+      "date": "1969-08-04",
+      "title": "Vietnam War: At the apartment of French intermediary Jean Sainteny in Paris, Ame",
+      "desc": "Vietnam War: At the apartment of French intermediary Jean Sainteny in Paris, American representative Henry Kissinger and North Vietnamese representative Xuân Thuỷ begin secret peace negotiations. The ",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1969-07-20",
@@ -1069,6 +1071,13 @@
       "type": "politics"
     },
     {
+      "date": "1965-08-04",
+      "title": "The Constitution of the Cook Islands comes into force, giving the Cook Islands s",
+      "desc": "The Constitution of the Cook Islands comes into force, giving the Cook Islands self-governing status within New Zealand.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1965-03-07",
       "title": "Bloody Sunday",
       "desc": "Civil rights marchers attacked on Edmund Pettus Bridge",
@@ -1081,6 +1090,20 @@
       "title": "Gulf of Tonkin",
       "desc": "US Congress passes resolution escalating Vietnam War",
       "type": "politics"
+    },
+    {
+      "date": "1964-08-04",
+      "title": "Civil rights movement: Civil rights workers Michael Schwerner, Andrew Goodman an",
+      "desc": "Civil rights movement: Civil rights workers Michael Schwerner, Andrew Goodman and James Chaney are found dead in Mississippi after disappearing on June 21.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1964-08-04",
+      "title": "Second Gulf of Tonkin Incident: U.S. destroyers USS Maddox and USS Turner Joy mi",
+      "desc": "Second Gulf of Tonkin Incident: U.S. destroyers USS Maddox and USS Turner Joy mistakenly report coming under attack in the Gulf of Tonkin.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1964-06-28",
@@ -1133,13 +1156,6 @@
   ],
   "1960": [
     {
-      "date": "1960-08-03",
-      "title": "Niger gains independence from France.",
-      "desc": "Niger gains independence from France.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1960-05-01",
       "title": "U-2 Incident",
       "desc": "Soviets shoot down US spy plane, Eisenhower embarrassed",
@@ -1154,13 +1170,6 @@
   ],
   "1959": [
     {
-      "date": "1959-08-03",
-      "title": "Portugal's state police force PIDE fires upon striking workers in Bissau, Portug",
-      "desc": "Portugal's state police force PIDE fires upon striking workers in Bissau, Portuguese Guinea, killing over 50 people.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1959-07-24",
       "title": "Kitchen Debate",
       "desc": "Nixon-Khrushchev debate at US exhibition in Moscow",
@@ -1171,15 +1180,6 @@
       "title": "Cuban Revolution",
       "desc": "Fidel Castro's forces overthrow Batista government",
       "type": "politics"
-    }
-  ],
-  "1958": [
-    {
-      "date": "1958-08-03",
-      "title": "The world's first nuclear submarine, the USS Nautilus, becomes the first vessel ",
-      "desc": "The world's first nuclear submarine, the USS Nautilus, becomes the first vessel to complete a submerged transit of the geographical North Pole.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1957": [
@@ -1308,13 +1308,6 @@
       "type": "science"
     },
     {
-      "date": "1949-08-03",
-      "title": "The Basketball Association of America and the National Basketball League finaliz",
-      "desc": "The Basketball Association of America and the National Basketball League finalize the merger that would create the National Basketball Association.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1949-04-04",
       "title": "NATO Founded",
       "desc": "North Atlantic Treaty Organization established",
@@ -1327,13 +1320,6 @@
       "title": "Universal Declaration",
       "desc": "UN adopts Universal Declaration of Human Rights",
       "type": "politics"
-    },
-    {
-      "date": "1948-08-03",
-      "title": "Whittaker Chambers accuses Alger Hiss of being a communist and a spy for the Sov",
-      "desc": "Whittaker Chambers accuses Alger Hiss of being a communist and a spy for the Soviet Union.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1948-06-28",
@@ -1356,6 +1342,13 @@
       "type": "politics"
     },
     {
+      "date": "1947-08-04",
+      "title": "The Supreme Court of Japan is established.",
+      "desc": "The Supreme Court of Japan is established.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1947-06-05",
       "title": "Marshall Plan",
       "desc": "US announces plan to rebuild post-war Europe",
@@ -1364,10 +1357,10 @@
   ],
   "1946": [
     {
-      "date": "1946-08-03",
-      "title": "Santa Claus Land, the world's first themed amusement park, opens in Santa Claus,",
-      "desc": "Santa Claus Land, the world's first themed amusement park, opens in Santa Claus, Indiana, United States.",
-      "type": "general",
+      "date": "1946-08-04",
+      "title": "An earthquake of magnitude 8.0 hits northern Dominican Republic. One hundred are",
+      "desc": "An earthquake of magnitude 8.0 hits northern Dominican Republic. One hundred are killed and 20,000 are left homeless.",
+      "type": "climate",
       "source": "wikipedia"
     }
   ],
@@ -1399,6 +1392,20 @@
   ],
   "1944": [
     {
+      "date": "1944-08-04",
+      "title": "The Holocaust: A tip from a Dutch informer leads the Gestapo to a sealed-off are",
+      "desc": "The Holocaust: A tip from a Dutch informer leads the Gestapo to a sealed-off area in an Amsterdam warehouse, where they find and arrest Jewish diarist Anne Frank, her family, and four others.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1944-08-04",
+      "title": "Under the state of emergency law, the Finnish Parliament elects Marshal C. G. E.",
+      "desc": "Under the state of emergency law, the Finnish Parliament elects Marshal C. G. E. Mannerheim as the President of Finland to replace the resigned Risto Ryti.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1944-07-20",
       "title": "Hitler Assassination Attempt",
       "desc": "Operation Valkyrie: von Stauffenberg tries to kill Hitler",
@@ -1423,15 +1430,6 @@
       "title": "Operation Barbarossa",
       "desc": "Germany invades Soviet Union",
       "type": "politics"
-    }
-  ],
-  "1940": [
-    {
-      "date": "1940-08-03",
-      "title": "World War II: Italian forces begin the invasion of British Somaliland.",
-      "desc": "World War II: Italian forces begin the invasion of British Somaliland.",
-      "type": "politics",
-      "source": "wikipedia"
     }
   ],
   "1939": [
@@ -1464,17 +1462,10 @@
   ],
   "1936": [
     {
-      "date": "1936-08-03",
-      "title": "Jesse Owens wins the 100 metre dash, defeating Ralph Metcalfe, at the Berlin Oly",
-      "desc": "Jesse Owens wins the 100 metre dash, defeating Ralph Metcalfe, at the Berlin Olympics.",
-      "type": "sports",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1936-08-03",
-      "title": "A fire wipes out Kursha-2 in the Meshchera Lowlands, Ryazan Oblast, Russia, kill",
-      "desc": "A fire wipes out Kursha-2 in the Meshchera Lowlands, Ryazan Oblast, Russia, killing 1,200 and leaving only 20 survivors.",
-      "type": "general",
+      "date": "1936-08-04",
+      "title": "Prime Minister of Greece Ioannis Metaxas suspends parliament and the Constitutio",
+      "desc": "Prime Minister of Greece Ioannis Metaxas suspends parliament and the Constitution and establishes the 4th of August Regime.",
+      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -1556,6 +1547,13 @@
   ],
   "1924": [
     {
+      "date": "1924-08-04",
+      "title": "Diplomatic relations between Mexico and the Soviet Union are established.",
+      "desc": "Diplomatic relations between Mexico and the Soviet Union are established.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1924-01-21",
       "title": "Lenin Dies",
       "desc": "Vladimir Lenin dies, Stalin begins rise to power",
@@ -1570,6 +1568,13 @@
       "type": "politics"
     },
     {
+      "date": "1922-08-04",
+      "title": "Enver Pasha dies in a skirmish between the Bolshevik Red Army and Basmachi troop",
+      "desc": "Enver Pasha dies in a skirmish between the Bolshevik Red Army and Basmachi troops, to whom he had defected earlier.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1922-06-28",
       "title": "Irish Civil War Begins",
       "desc": "Irish Civil War starts with shelling of Four Courts",
@@ -1578,9 +1583,9 @@
   ],
   "1921": [
     {
-      "date": "1921-08-03",
-      "title": "Major League Baseball Commissioner Kenesaw Mountain Landis confirms the ban of t",
-      "desc": "Major League Baseball Commissioner Kenesaw Mountain Landis confirms the ban of the eight Chicago Black Sox, the day after they were acquitted by a Chicago court.",
+      "date": "1921-08-04",
+      "title": "Bolshevik–Makhnovist conflict: Mikhail Frunze declares victory over the Makhnovs",
+      "desc": "Bolshevik–Makhnovist conflict: Mikhail Frunze declares victory over the Makhnovshchina.",
       "type": "tech",
       "source": "wikipedia"
     },
@@ -1639,12 +1644,21 @@
       "type": "politics"
     }
   ],
+  "1915": [
+    {
+      "date": "1915-08-04",
+      "title": "World War I: The German 12th Army occupies Warsaw during the Gorlice–Tarnów Offe",
+      "desc": "World War I: The German 12th Army occupies Warsaw during the Gorlice–Tarnów Offensive and the Great Retreat of 1915.",
+      "type": "politics",
+      "source": "wikipedia"
+    }
+  ],
   "1914": [
     {
-      "date": "1914-08-03",
-      "title": "World War I: Germany declares war against France, while Romania declares its neu",
-      "desc": "World War I: Germany declares war against France, while Romania declares its neutrality.",
-      "type": "tech",
+      "date": "1914-08-04",
+      "title": "World War I: In response to the German invasion of Belgium, Belgium and the Brit",
+      "desc": "World War I: In response to the German invasion of Belgium, Belgium and the British Empire declare war on Germany. The United States declares its neutrality.",
+      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -1688,15 +1702,6 @@
       "type": "science"
     }
   ],
-  "1907": [
-    {
-      "date": "1907-08-03",
-      "title": "Judge Kenesaw Mountain Landis fines Standard Oil of Indiana a record $29.4 milli",
-      "desc": "Judge Kenesaw Mountain Landis fines Standard Oil of Indiana a record $29.4 million for illegal rebating to freight carriers; the conviction and fine are later reversed on appeal.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
   "1905": [
     {
       "date": "1905-09-05",
@@ -1717,13 +1722,6 @@
       "title": "First Flight",
       "desc": "Wright Brothers make first powered flight at Kitty Hawk",
       "type": "science"
-    },
-    {
-      "date": "1903-08-03",
-      "title": "Macedonian rebels in Kruševo proclaim the Kruševo Republic, which exists for onl",
-      "desc": "Macedonian rebels in Kruševo proclaim the Kruševo Republic, which exists for only ten days before Ottoman Turks lay waste to the town.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1903-06-16",
@@ -1752,13 +1750,6 @@
       "title": "Quantum Theory",
       "desc": "Max Planck publishes quantum theory paper",
       "type": "science"
-    },
-    {
-      "date": "1900-08-03",
-      "title": "The Firestone Tire and Rubber Company is founded.",
-      "desc": "The Firestone Tire and Rubber Company is founded.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1900-05-14",
