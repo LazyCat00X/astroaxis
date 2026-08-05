@@ -258,6 +258,13 @@
       "type": "politics"
     },
     {
+      "date": "2016-08-05",
+      "title": "The 31st modern Olympic Games took place in Rio de Janiero, lasting until August",
+      "desc": "The 31st modern Olympic Games took place in Rio de Janiero, lasting until August 21.",
+      "type": "sports",
+      "source": "wikipedia"
+    },
+    {
       "date": "2016-06-23",
       "title": "Brexit Vote",
       "desc": "UK votes to leave the European Union",
@@ -1360,8 +1367,8 @@
     },
     {
       "date": "1949-08-05",
-      "title": "In Montana, 12 smokejumper firefighters and 1 US Forest Service fire guard are k",
-      "desc": "In Montana, 12 smokejumper firefighters and 1 US Forest Service fire guard are killed in the Mann Gulch Fire.",
+      "title": "In Montana, 12 smokejumper firefighters and a US Forest Service fire guard are k",
+      "desc": "In Montana, 12 smokejumper firefighters and a US Forest Service fire guard are killed in the Mann Gulch Fire.",
       "type": "general",
       "source": "wikipedia"
     },
