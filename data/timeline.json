@@ -59,13 +59,6 @@
       "type": "politics"
     },
     {
-      "date": "2024-08-05",
-      "title": "Following the non-cooperation movement against the government of Bangladesh, Ban",
-      "desc": "Following the non-cooperation movement against the government of Bangladesh, Bangladeshi prime minister Sheikh Hasina resigns and flees the country, ending her rule of 15 consecutive years and a total",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2024-07-21",
       "title": "Global Heatwave Record",
       "desc": "Hottest day on record globally",
@@ -150,13 +143,6 @@
       "type": "politics"
     },
     {
-      "date": "2021-08-05",
-      "title": "Australia's second most populous state Victoria enters its sixth COVID-19 lockdo",
-      "desc": "Australia's second most populous state Victoria enters its sixth COVID-19 lockdown, enacting stage four restrictions statewide in reaction to six new COVID-19 cases recorded that morning.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2021-02-18",
       "title": "Mars Landing",
       "desc": "NASA Perseverance rover lands on Mars",
@@ -195,13 +181,6 @@
       "title": "COVID-19 First Cases",
       "desc": "First cases of novel coronavirus detected in Wuhan",
       "type": "disaster"
-    },
-    {
-      "date": "2019-08-05",
-      "title": "The revocation of the special status of Jammu and Kashmir (state) occurred and t",
-      "desc": "The revocation of the special status of Jammu and Kashmir (state) occurred and the state was bifurcated into two union territories (Jammu and Kashmir (union territory) and Ladakh).",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "2019-04-15",
@@ -290,10 +269,10 @@
       "type": "science"
     },
     {
-      "date": "2015-08-05",
-      "title": "The Environmental Protection Agency at Gold King Mine waste water spill releases",
-      "desc": "The Environmental Protection Agency at Gold King Mine waste water spill releases three million gallons of heavy metal toxin tailings and waste water into the Animas River in Colorado.",
-      "type": "tech",
+      "date": "2015-08-06",
+      "title": "A suicide bomb attack kills at least 15 people at a mosque in the Saudi city of ",
+      "desc": "A suicide bomb attack kills at least 15 people at a mosque in the Saudi city of Abha.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -345,9 +324,9 @@
       "type": "general"
     },
     {
-      "date": "2012-08-05",
-      "title": "The Wisconsin Sikh temple shooting took place in Oak Creek, Wisconsin, killing s",
-      "desc": "The Wisconsin Sikh temple shooting took place in Oak Creek, Wisconsin, killing six victims; the perpetrator committed suicide after being wounded by police.",
+      "date": "2012-08-06",
+      "title": "NASA's Curiosity rover lands on the surface of Mars.",
+      "desc": "NASA's Curiosity rover lands on the surface of Mars.",
       "type": "general",
       "source": "wikipedia"
     },
@@ -365,6 +344,13 @@
     }
   ],
   "2011": [
+    {
+      "date": "2011-08-06",
+      "title": "War in Afghanistan: A United States military helicopter is shot down, killing 30",
+      "desc": "War in Afghanistan: A United States military helicopter is shot down, killing 30 American special forces members and a working dog, seven Afghan soldiers, and one Afghan civilian. It was the deadliest",
+      "type": "politics",
+      "source": "wikipedia"
+    },
     {
       "date": "2011-05-02",
       "title": "Bin Laden Killed",
@@ -386,17 +372,10 @@
   ],
   "2010": [
     {
-      "date": "2010-08-05",
-      "title": "The Copiapó mining accident occurs, trapping 33 Chilean miners approximately 2,3",
-      "desc": "The Copiapó mining accident occurs, trapping 33 Chilean miners approximately 2,300 ft (700 m) below the ground for 69 days.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2010-08-05",
-      "title": "Ten members of International Assistance Mission Nuristan Eye Camp team are kille",
-      "desc": "Ten members of International Assistance Mission Nuristan Eye Camp team are killed by persons unknown in Kuran wa Munjan District of Badakhshan Province, Afghanistan.",
-      "type": "general",
+      "date": "2010-08-06",
+      "title": "Flash floods across a large part of Jammu and Kashmir, India, damages 71 towns a",
+      "desc": "Flash floods across a large part of Jammu and Kashmir, India, damages 71 towns and kills at least 255 people.",
+      "type": "climate",
       "source": "wikipedia"
     },
     {
@@ -458,10 +437,10 @@
       "type": "finance"
     },
     {
-      "date": "2008-08-05",
-      "title": "The New England Revolution win the 2008 North American SuperLiga final against t",
-      "desc": "The New England Revolution win the 2008 North American SuperLiga final against the Houston Dynamo.",
-      "type": "tech",
+      "date": "2008-08-06",
+      "title": "A military junta led by Mohamed Ould Abdel Aziz stages a coup d'état in Mauritan",
+      "desc": "A military junta led by Mohamed Ould Abdel Aziz stages a coup d'état in Mauritania, overthrowing president Sidi Ould Cheikh Abdallahi.",
+      "type": "politics",
       "source": "wikipedia"
     }
   ],
@@ -521,13 +500,6 @@
   ],
   "2003": [
     {
-      "date": "2003-08-05",
-      "title": "A car bomb explodes in the Indonesian capital of Jakarta outside the Marriott Ho",
-      "desc": "A car bomb explodes in the Indonesian capital of Jakarta outside the Marriott Hotel killing 12 and injuring 150.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2003-03-20",
       "title": "Iraq War Begins",
       "desc": "US-led coalition invades Iraq",
@@ -546,6 +518,13 @@
       "title": "9/11 Attacks",
       "desc": "Al-Qaeda terrorists attack World Trade Center and Pentagon",
       "type": "disaster"
+    },
+    {
+      "date": "2001-08-06",
+      "title": "Erwadi fire incident: Twenty-eight mentally ill persons tied to a chain are burn",
+      "desc": "Erwadi fire incident: Twenty-eight mentally ill persons tied to a chain are burnt to death at a faith based institution at Erwadi, Tamil Nadu.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "2001-01-15",
@@ -598,6 +577,13 @@
   ],
   "1997": [
     {
+      "date": "1997-08-06",
+      "title": "Korean Air Flight 801 crashed at Nimitz Hill, Guam, killing 229 of the 254 peopl",
+      "desc": "Korean Air Flight 801 crashed at Nimitz Hill, Guam, killing 229 of the 254 people on board.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1997-07-01",
       "title": "Hong Kong Handover",
       "desc": "Hong Kong returned to China after 156 years of British rule",
@@ -616,19 +602,21 @@
       "type": "tech"
     }
   ],
+  "1996": [
+    {
+      "date": "1996-08-06",
+      "title": "NASA announces that the ALH 84001 meteorite, thought to originate from Mars, con",
+      "desc": "NASA announces that the ALH 84001 meteorite, thought to originate from Mars, contains evidence of primitive life-forms.",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "1995": [
     {
       "date": "1995-12-14",
       "title": "Dayton Agreement",
       "desc": "Peace agreement ends Bosnian War",
       "type": "politics"
-    },
-    {
-      "date": "1995-08-05",
-      "title": "Yugoslav Wars: The city of Knin, Croatia, a significant Serb stronghold, is take",
-      "desc": "Yugoslav Wars: The city of Knin, Croatia, a significant Serb stronghold, is taken by Croatian forces during Operation Storm. The date is celebrated in Croatia as Victory Day.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1995-04-19",
@@ -693,6 +681,20 @@
       "type": "tech"
     },
     {
+      "date": "1991-08-06",
+      "title": "Tim Berners-Lee releases files describing his idea for the World Wide Web. WWW m",
+      "desc": "Tim Berners-Lee releases files describing his idea for the World Wide Web. WWW makes its first appearance as a publicly available service on the Internet.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1991-08-06",
+      "title": "Takako Doi, chair of the Social Democratic Party, becomes Japan's first female s",
+      "desc": "Takako Doi, chair of the Social Democratic Party, becomes Japan's first female speaker of the House of Representatives.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1991-02-28",
       "title": "Gulf War Ends",
       "desc": "US-led coalition forces liberate Kuwait",
@@ -705,6 +707,13 @@
       "title": "German Reunification",
       "desc": "East and West Germany reunify",
       "type": "politics"
+    },
+    {
+      "date": "1990-08-06",
+      "title": "Gulf War: The United Nations Security Council orders a global trade embargo agai",
+      "desc": "Gulf War: The United Nations Security Council orders a global trade embargo against Iraq in response to Iraq's invasion of Kuwait.",
+      "type": "finance",
+      "source": "wikipedia"
     },
     {
       "date": "1990-08-02",
@@ -769,6 +778,13 @@
   ],
   "1986": [
     {
+      "date": "1986-08-06",
+      "title": "A low-pressure system that redeveloped off the New South Wales coast dumps a rec",
+      "desc": "A low-pressure system that redeveloped off the New South Wales coast dumps a record 328 millimeters (13 inches) of rain in a day on Sydney, New South Wales, Australia.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1986-04-26",
       "title": "Chernobyl Disaster",
       "desc": "Nuclear reactor explodes in Ukraine, worst nuclear accident",
@@ -793,15 +809,6 @@
       "title": "Gorbachev Leader",
       "desc": "Mikhail Gorbachev becomes leader of Soviet Union",
       "type": "politics"
-    }
-  ],
-  "1984": [
-    {
-      "date": "1984-08-05",
-      "title": "A Biman Bangladesh Airlines Fokker F27 Friendship crashes on approach to Zia Int",
-      "desc": "A Biman Bangladesh Airlines Fokker F27 Friendship crashes on approach to Zia International Airport, in Dhaka, Bangladesh, killing all 49 people on board.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1983": [
@@ -832,15 +839,6 @@
       "type": "politics"
     }
   ],
-  "1981": [
-    {
-      "date": "1981-08-05",
-      "title": "President Ronald Reagan fires 11,359 striking air-traffic controllers who ignore",
-      "desc": "President Ronald Reagan fires 11,359 striking air-traffic controllers who ignored his order for them to return to work.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
   "1980": [
     {
       "date": "1980-09-22",
@@ -856,13 +854,6 @@
     }
   ],
   "1979": [
-    {
-      "date": "1979-08-05",
-      "title": "In Afghanistan, Maoists undertake the Bala Hissar uprising against the Leninist ",
-      "desc": "In Afghanistan, Maoists undertake the Bala Hissar uprising against the Leninist government.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1979-04-01",
       "title": "Iran Islamic Republic",
@@ -940,13 +931,6 @@
       "type": "politics"
     },
     {
-      "date": "1974-08-05",
-      "title": "Watergate scandal: President Richard Nixon, under orders of the US Supreme Court",
-      "desc": "Watergate scandal: President Richard Nixon, under orders of the US Supreme Court, releases the \"Smoking Gun\" tape, recorded on June 23, 1972, clearly revealing his actions in covering up and interferi",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1974-02-01",
       "title": "Brazil Oil Crisis",
       "desc": "First oil shock hits Brazil, triggering economic changes",
@@ -959,13 +943,6 @@
       "title": "Oil Crisis Begins",
       "desc": "OPEC oil embargo triggers global energy crisis",
       "type": "finance"
-    },
-    {
-      "date": "1973-08-05",
-      "title": "Mars 6 is launched from the USSR.",
-      "desc": "Mars 6 is launched from the USSR.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1973-06-28",
@@ -1000,13 +977,6 @@
       "title": "Bretton Woods Ends",
       "desc": "Nixon ends gold standard, floating exchange rates begin",
       "type": "finance"
-    },
-    {
-      "date": "1971-08-05",
-      "title": "The first Pacific Islands Forum (then known as the \"South Pacific Forum\") is hel",
-      "desc": "The first Pacific Islands Forum (then known as the \"South Pacific Forum\") is held in Wellington, New Zealand, with the aim of enhancing cooperation between the independent countries of the Pacific Oce",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1969": [
@@ -1015,13 +985,6 @@
       "title": "Woodstock",
       "desc": "Iconic music festival draws 400,000 to New York farm",
       "type": "general"
-    },
-    {
-      "date": "1969-08-05",
-      "title": "The Lonesome Cowboys police raid occurs in Atlanta, Georgia, leading to the crea",
-      "desc": "The Lonesome Cowboys police raid occurs in Atlanta, Georgia, leading to the creation of the Georgia Gay Liberation Front.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1969-07-20",
@@ -1070,15 +1033,6 @@
       "type": "politics"
     }
   ],
-  "1966": [
-    {
-      "date": "1966-08-05",
-      "title": "A group of red guards at Experimental High in Beijing, including Deng Rong and L",
-      "desc": "A group of red guards at Experimental High in Beijing, including Deng Rong and Liu Pingping, daughters of Deng Xiaoping and Liu Shaoqi respectively, beat the deputy vice principal, Bian Zhongyun, to d",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1965": [
     {
       "date": "1965-08-11",
@@ -1087,9 +1041,9 @@
       "type": "politics"
     },
     {
-      "date": "1965-08-05",
-      "title": "The Indo-Pakistani war of 1965 begins as Pakistani soldiers cross the Line of Co",
-      "desc": "The Indo-Pakistani war of 1965 begins as Pakistani soldiers cross the Line of Control dressed as locals.",
+      "date": "1965-08-06",
+      "title": "US President Lyndon B. Johnson signs the Voting Rights Act of 1965 into law.",
+      "desc": "US President Lyndon B. Johnson signs the Voting Rights Act of 1965 into law.",
       "type": "politics",
       "source": "wikipedia"
     },
@@ -1106,13 +1060,6 @@
       "title": "Gulf of Tonkin",
       "desc": "US Congress passes resolution escalating Vietnam War",
       "type": "politics"
-    },
-    {
-      "date": "1964-08-05",
-      "title": "Vietnam War: Operation Pierce Arrow: American aircraft from carriers USS Ticonde",
-      "desc": "Vietnam War: Operation Pierce Arrow: American aircraft from carriers USS Ticonderoga and USS Constellation bomb North Vietnam in retaliation for strikes against U.S. destroyers in the Gulf of Tonkin.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1964-06-28",
@@ -1133,13 +1080,6 @@
       "title": "I Have a Dream",
       "desc": "MLK delivers iconic speech at March on Washington",
       "type": "politics"
-    },
-    {
-      "date": "1963-08-05",
-      "title": "Cold War: The United States, the United Kingdom, and the Soviet Union sign the P",
-      "desc": "Cold War: The United States, the United Kingdom, and the Soviet Union sign the Partial Nuclear Test Ban Treaty.",
-      "type": "politics",
-      "source": "wikipedia"
     }
   ],
   "1962": [
@@ -1150,17 +1090,10 @@
       "type": "politics"
     },
     {
-      "date": "1962-08-05",
-      "title": "Apartheid: Nelson Mandela is jailed. He would not be released until 1990.",
-      "desc": "Apartheid: Nelson Mandela is jailed. He would not be released until 1990.",
+      "date": "1962-08-06",
+      "title": "Jamaica becomes independent from the United Kingdom.",
+      "desc": "Jamaica becomes independent from the United Kingdom.",
       "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1962-08-05",
-      "title": "American actress Marilyn Monroe is found dead at her home from a drug overdose.",
-      "desc": "American actress Marilyn Monroe is found dead at her home from a drug overdose.",
-      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -1186,9 +1119,9 @@
   ],
   "1960": [
     {
-      "date": "1960-08-05",
-      "title": "Burkina Faso, then known as Upper Volta, becomes independent from France.",
-      "desc": "Burkina Faso, then known as Upper Volta, becomes independent from France.",
+      "date": "1960-08-06",
+      "title": "Cuban Revolution: Cuba nationalizes American and foreign-owned property in the n",
+      "desc": "Cuban Revolution: Cuba nationalizes American and foreign-owned property in the nation.",
       "type": "general",
       "source": "wikipedia"
     },
@@ -1219,6 +1152,15 @@
       "type": "politics"
     }
   ],
+  "1958": [
+    {
+      "date": "1958-08-06",
+      "title": "Law of Permanent Defense of Democracy, outlawing the Communist Party of Chile an",
+      "desc": "Law of Permanent Defense of Democracy, outlawing the Communist Party of Chile and banning 26,650 persons from the electoral lists, is repealed in Chile.",
+      "type": "politics",
+      "source": "wikipedia"
+    }
+  ],
   "1957": [
     {
       "date": "1957-12-06",
@@ -1231,13 +1173,6 @@
       "title": "Sputnik Launched",
       "desc": "First artificial satellite, starts Space Age",
       "type": "science"
-    },
-    {
-      "date": "1957-08-05",
-      "title": "American Bandstand, a show dedicated to the teenage \"baby-boomers\" by playing th",
-      "desc": "American Bandstand, a show dedicated to the teenage \"baby-boomers\" by playing the songs and showing popular dances of the time, debuts on the ABC television network.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1956": [
@@ -1246,6 +1181,13 @@
       "title": "Hungarian Revolution",
       "desc": "Anti-Soviet uprising in Hungary",
       "type": "politics"
+    },
+    {
+      "date": "1956-08-06",
+      "title": "After going bankrupt in 1955, the American broadcaster DuMont Television Network",
+      "desc": "After going bankrupt in 1955, the American broadcaster DuMont Television Network makes its final broadcast, a boxing match from St. Nicholas Arena in New York in the Boxing from St. Nicholas Arena ser",
+      "type": "finance",
+      "source": "wikipedia"
     },
     {
       "date": "1956-06-28",
@@ -1352,20 +1294,6 @@
       "type": "science"
     },
     {
-      "date": "1949-08-05",
-      "title": "In Ecuador, an earthquake destroys 50 towns and kills more than 6,000.",
-      "desc": "In Ecuador, an earthquake destroys 50 towns and kills more than 6,000.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1949-08-05",
-      "title": "In Montana, 12 smokejumper firefighters and a US Forest Service fire guard are k",
-      "desc": "In Montana, 12 smokejumper firefighters and a US Forest Service fire guard are killed in the Mann Gulch Fire.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1949-04-04",
       "title": "NATO Founded",
       "desc": "North Atlantic Treaty Organization established",
@@ -1420,6 +1348,13 @@
       "type": "disaster"
     },
     {
+      "date": "1945-08-06",
+      "title": "World War II: Hiroshima, Japan is devastated when the atomic bomb \"Little Boy\" i",
+      "desc": "World War II: Hiroshima, Japan is devastated when the atomic bomb \"Little Boy\" is dropped by the United States B-29 Enola Gay. Around 70,000 people are killed instantly, and some tens of thousands die",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1945-06-28",
       "title": "Poland Government",
       "desc": "Soviet-backed government formed in Poland",
@@ -1434,27 +1369,6 @@
   ],
   "1944": [
     {
-      "date": "1944-08-05",
-      "title": "World War II: At least 1,104 Japanese POWs in Australia attempt to escape from a",
-      "desc": "World War II: At least 1,104 Japanese POWs in Australia attempt to escape from a camp at Cowra, New South Wales; 545 temporarily succeed but are later either killed, commit suicide, or are recaptured.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1944-08-05",
-      "title": "World War II: Polish insurgents liberate a German labor camp (Gęsiówka) in Warsa",
-      "desc": "World War II: Polish insurgents liberate a German labor camp (Gęsiówka) in Warsaw, freeing 348 Jewish prisoners.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1944-08-05",
-      "title": "World War II: The Nazis begin a week-long massacre of between 40,000 and 50,000 ",
-      "desc": "World War II: The Nazis begin a week-long massacre of between 40,000 and 50,000 civilians and prisoners of war in Wola, Poland.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1944-07-20",
       "title": "Hitler Assassination Attempt",
       "desc": "Operation Valkyrie: von Stauffenberg tries to kill Hitler",
@@ -1465,6 +1379,15 @@
       "title": "D-Day",
       "desc": "Allied forces land in Normandy, liberating Europe",
       "type": "politics"
+    }
+  ],
+  "1942": [
+    {
+      "date": "1942-08-06",
+      "title": "Queen Wilhelmina of the Netherlands becomes the first reigning queen to address ",
+      "desc": "Queen Wilhelmina of the Netherlands becomes the first reigning queen to address a joint session of the United States Congress.",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "1941": [
@@ -1483,10 +1406,10 @@
   ],
   "1940": [
     {
-      "date": "1940-08-05",
-      "title": "World War II: The Soviet Union formally annexes Latvia.",
-      "desc": "World War II: The Soviet Union formally annexes Latvia.",
-      "type": "politics",
+      "date": "1940-08-06",
+      "title": "Estonia is annexed by the Soviet Union.",
+      "desc": "Estonia is annexed by the Soviet Union.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -1502,13 +1425,6 @@
       "title": "Molotov-Ribbentrop Pact",
       "desc": "Germany and USSR sign non-aggression pact",
       "type": "politics"
-    },
-    {
-      "date": "1939-08-05",
-      "title": "The Thirteen Roses: Thirteen female members of the Unified Socialist Youth are e",
-      "desc": "The Thirteen Roses: Thirteen female members of the Unified Socialist Youth are executed by Francoist forces in Madrid, Spain.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1937": [
@@ -1553,15 +1469,6 @@
       "type": "politics"
     }
   ],
-  "1931": [
-    {
-      "date": "1931-08-05",
-      "title": "Judge and Nazi Party member Werner Best drews the Boxheim Documents, which descr",
-      "desc": "Judge and Nazi Party member Werner Best drews the Boxheim Documents, which described a violent takeover of the government by the NSDAP.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1929": [
     {
       "date": "1929-10-29",
@@ -1600,9 +1507,16 @@
   ],
   "1926": [
     {
-      "date": "1926-08-05",
-      "title": "Harry Houdini performs his greatest feat, spending 91 minutes underwater in a se",
-      "desc": "Harry Houdini performs his greatest feat, spending 91 minutes underwater in a sealed tank before escaping.",
+      "date": "1926-08-06",
+      "title": "Gertrude Ederle becomes the first woman to swim across the English Channel.",
+      "desc": "Gertrude Ederle becomes the first woman to swim across the English Channel.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1926-08-06",
+      "title": "First public screening using the Vitaphone process",
+      "desc": "First public screening using the Vitaphone process",
       "type": "general",
       "source": "wikipedia"
     },
@@ -1617,15 +1531,6 @@
       "title": "First Liquid Fuel Rocket",
       "desc": "Robert Goddard launches first liquid-fueled rocket",
       "type": "science"
-    }
-  ],
-  "1925": [
-    {
-      "date": "1925-08-05",
-      "title": "Plaid Cymru is formed with the aim of disseminating knowledge of the Welsh langu",
-      "desc": "Plaid Cymru is formed with the aim of disseminating knowledge of the Welsh language that is at the time in danger of dying out.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1924": [
@@ -1700,41 +1605,41 @@
       "type": "politics"
     },
     {
+      "date": "1917-08-06",
+      "title": "World War I: Battle of Mărășești between the Romanian and German armies begins.",
+      "desc": "World War I: Battle of Mărășești between the Romanian and German armies begins.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1917-06-28",
       "title": "Greece Enters WWI",
       "desc": "Greece joins Allied powers in World War I",
       "type": "politics"
     }
   ],
-  "1916": [
+  "1915": [
     {
-      "date": "1916-08-05",
-      "title": "World War I: Battle of Romani: Allied forces, under the command of Archibald Mur",
-      "desc": "World War I: Battle of Romani: Allied forces, under the command of Archibald Murray, defeat an attacking Ottoman army under the command of Friedrich Freiherr Kress von Kressenstein, securing the Suez ",
+      "date": "1915-08-06",
+      "title": "World War I: Battle of Sari Bair: The Allies mount a diversionary attack timed t",
+      "desc": "World War I: Battle of Sari Bair: The Allies mount a diversionary attack timed to coincide with a major Allied landing of reinforcements at Suvla Bay.",
       "type": "tech",
       "source": "wikipedia"
     }
   ],
   "1914": [
     {
-      "date": "1914-08-05",
-      "title": "World War I: The German minelayer SS Königin Luise lays a minefield about 40 mil",
-      "desc": "World War I: The German minelayer SS Königin Luise lays a minefield about 40 miles (64 km) off the Thames Estuary (Lowestoft). She is intercepted and sunk by the British light-cruiser HMS Amphion.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1914-08-05",
-      "title": "World War I: The guns of Point Nepean fort at Port Phillip Heads in Victoria (Au",
-      "desc": "World War I: The guns of Point Nepean fort at Port Phillip Heads in Victoria (Australia) fire across the bows of the Norddeutscher Lloyd steamer SS Pfalz which is attempting to leave the Port of Melbo",
+      "date": "1914-08-06",
+      "title": "World War I: U-boat campaign: Two days after the United Kingdom had declared war",
+      "desc": "World War I: U-boat campaign: Two days after the United Kingdom had declared war on Germany over the German invasion of Belgium, ten German U-boats leave their base in Heligoland to attack Royal Navy ",
       "type": "tech",
       "source": "wikipedia"
     },
     {
-      "date": "1914-08-05",
-      "title": "In Cleveland, Ohio, the first electric traffic light is installed.",
-      "desc": "In Cleveland, Ohio, the first electric traffic light is installed.",
-      "type": "general",
+      "date": "1914-08-06",
+      "title": "World War I: Serbia declares war on Germany; Austria declares war on Russia.",
+      "desc": "World War I: Serbia declares war on Germany; Austria declares war on Russia.",
+      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -1778,15 +1683,6 @@
       "type": "science"
     }
   ],
-  "1906": [
-    {
-      "date": "1906-08-05",
-      "title": "Persian Constitutional Revolution: Mozaffar ad-Din Shah Qajar, King of Iran, agr",
-      "desc": "Persian Constitutional Revolution: Mozaffar ad-Din Shah Qajar, King of Iran, agrees to convert the government to a constitutional monarchy.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1905": [
     {
       "date": "1905-09-05",
@@ -1823,9 +1719,9 @@
       "type": "science"
     },
     {
-      "date": "1901-08-05",
-      "title": "Peter O'Connor sets the first World Athletics recognised long jump world record ",
-      "desc": "Peter O'Connor sets the first World Athletics recognised long jump world record of 24 ft 11.75 in (7.6137 m), a record that would stand for 20 years.",
+      "date": "1901-08-06",
+      "title": "Kiowa land in Oklahoma is opened for white settlement, effectively dissolving th",
+      "desc": "Kiowa land in Oklahoma is opened for white settlement, effectively dissolving the contiguous reservation.",
       "type": "general",
       "source": "wikipedia"
     },
