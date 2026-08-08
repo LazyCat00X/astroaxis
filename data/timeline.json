@@ -59,6 +59,13 @@
       "type": "politics"
     },
     {
+      "date": "2024-08-08",
+      "title": "Nobel laureate Muhammad Yunus takes oath as Chief Adviser to form an interim gov",
+      "desc": "Nobel laureate Muhammad Yunus takes oath as Chief Adviser to form an interim government in Bangladesh.",
+      "type": "science",
+      "source": "wikipedia"
+    },
+    {
       "date": "2024-07-21",
       "title": "Global Heatwave Record",
       "desc": "Hottest day on record globally",
@@ -83,6 +90,13 @@
       "title": "Israel-Gaza War",
       "desc": "Hamas attack triggers major conflict",
       "type": "politics"
+    },
+    {
+      "date": "2023-08-08",
+      "title": "Hawaii wildfires: Seventeen thousand acres of land are burned and at least 101 p",
+      "desc": "Hawaii wildfires: Seventeen thousand acres of land are burned and at least 101 people are killed, with two others missing, when a series of wildfires break out on the island of Maui in Hawaii.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "2023-07-19",
@@ -115,6 +129,13 @@
       "title": "Queen Elizabeth II Dies",
       "desc": "Longest-reigning British monarch dies at 96",
       "type": "politics"
+    },
+    {
+      "date": "2022-08-08",
+      "title": "The Federal Bureau of Investigation (FBI) executes a search warrant at former pr",
+      "desc": "The Federal Bureau of Investigation (FBI) executes a search warrant at former president Donald Trump's residence in Mar-a-Lago, Palm Beach, Florida.",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "2022-02-24",
@@ -157,13 +178,6 @@
   ],
   "2020": [
     {
-      "date": "2020-08-07",
-      "title": "Air India Express Flight 1344 overshoots the runway at Calicut International Air",
-      "desc": "Air India Express Flight 1344 overshoots the runway at Calicut International Airport in the Malappuram district of Kerala, India, and crashes, killing 21 of the 190 people on board.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2020-03-11",
       "title": "COVID-19 Pandemic",
       "desc": "WHO declares COVID-19 a global pandemic",
@@ -188,6 +202,13 @@
       "title": "COVID-19 First Cases",
       "desc": "First cases of novel coronavirus detected in Wuhan",
       "type": "disaster"
+    },
+    {
+      "date": "2019-08-08",
+      "title": "An explosion at the State Central Navy Testing Range in Nyonoksa, Russia, kills ",
+      "desc": "An explosion at the State Central Navy Testing Range in Nyonoksa, Russia, kills five people.",
+      "type": "disaster",
+      "source": "wikipedia"
     },
     {
       "date": "2019-04-15",
@@ -244,6 +265,13 @@
       "type": "politics"
     },
     {
+      "date": "2016-08-08",
+      "title": "Terrorists attack a government hospital in Quetta, Pakistan with a suicide blast",
+      "desc": "Terrorists attack a government hospital in Quetta, Pakistan with a suicide blast and shooting, killing between 70 and 94 people, and injuring around 130 others.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2016-06-23",
       "title": "Brexit Vote",
       "desc": "UK votes to leave the European Union",
@@ -274,6 +302,13 @@
       "title": "Pluto Flyby",
       "desc": "New Horizons completes first flyby of Pluto",
       "type": "science"
+    },
+    {
+      "date": "2015-08-08",
+      "title": "Eight people are killed in a shooting in Harris County, Texas.",
+      "desc": "Eight people are killed in a shooting in Harris County, Texas.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "2014": [
@@ -302,6 +337,13 @@
       "title": "Nelson Mandela Dies",
       "desc": "Anti-apartheid icon dies at 95",
       "type": "politics"
+    },
+    {
+      "date": "2013-08-08",
+      "title": "A suicide bombing at a funeral in the Pakistani city of Quetta kills at least 31",
+      "desc": "A suicide bombing at a funeral in the Pakistani city of Quetta kills at least 31 people.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "2013-06-06",
@@ -358,6 +400,13 @@
   ],
   "2010": [
     {
+      "date": "2010-08-08",
+      "title": "China Floods: A mudslide in Zhugqu County, Gansu, China, kills more than 1,400 p",
+      "desc": "China Floods: A mudslide in Zhugqu County, Gansu, China, kills more than 1,400 people.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
       "date": "2010-05-06",
       "title": "Flash Crash",
       "desc": "Dow Jones drops 1000 points in minutes",
@@ -377,6 +426,13 @@
     }
   ],
   "2009": [
+    {
+      "date": "2009-08-08",
+      "title": "A Eurocopter AS350 Écureuil and Piper PA-32R collide over the Hudson River, kill",
+      "desc": "A Eurocopter AS350 Écureuil and Piper PA-32R collide over the Hudson River, killing nine people.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "2009-06-25",
       "title": "Michael Jackson Dies",
@@ -416,19 +472,33 @@
       "type": "finance"
     },
     {
-      "date": "2008-08-07",
-      "title": "The start of the Russo-Georgian War over the territory of South Ossetia.",
-      "desc": "The start of the Russo-Georgian War over the territory of South Ossetia.",
-      "type": "politics",
+      "date": "2008-08-08",
+      "title": "A EuroCity express train en route from Kraków, Poland to Prague, Czech Republic ",
+      "desc": "A EuroCity express train en route from Kraków, Poland to Prague, Czech Republic strikes a part of a motorway bridge that had fallen onto the railroad track near Studénka railway station in the Czech R",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2008-08-08",
+      "title": "The 29th modern summer Olympic Games took place in Beijing, China until August 2",
+      "desc": "The 29th modern summer Olympic Games took place in Beijing, China until August 24.",
+      "type": "sports",
       "source": "wikipedia"
     }
   ],
   "2007": [
     {
-      "date": "2007-08-07",
-      "title": "At AT&T Park, Barry Bonds hits his 756th career home run to surpass Hank Aaron's",
-      "desc": "At AT&T Park, Barry Bonds hits his 756th career home run to surpass Hank Aaron's 33-year-old record.",
+      "date": "2007-08-08",
+      "title": "An EF2 tornado touches down in Kings County and Richmond County, New York, the m",
+      "desc": "An EF2 tornado touches down in Kings County and Richmond County, New York, the most powerful tornado in New York to date and the first in Brooklyn since 1889.",
       "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2007-08-08",
+      "title": "Space Shuttle program: STS-118 Mission: Endeavour takes off on a mission to the ",
+      "desc": "Space Shuttle program: STS-118 Mission: Endeavour takes off on a mission to the International Space Station.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -472,6 +542,13 @@
       "type": "disaster"
     },
     {
+      "date": "2004-08-08",
+      "title": "A tour bus belonging to the Dave Matthews Band dumps approximately 800 pounds of",
+      "desc": "A tour bus belonging to the Dave Matthews Band dumps approximately 800 pounds of human waste onto a boat full of passengers.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2004-06-28",
       "title": "Iraq Sovereignty",
       "desc": "Coalition hands sovereignty to interim Iraqi government",
@@ -506,6 +583,13 @@
       "type": "disaster"
     },
     {
+      "date": "2001-08-08",
+      "title": "Albanian rebels ambush a convoy of the Army of the Republic of Macedonia near Te",
+      "desc": "Albanian rebels ambush a convoy of the Army of the Republic of Macedonia near Tetovo, killing 10 soldiers.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2001-01-15",
       "title": "Wikipedia Launched",
       "desc": "Wikipedia goes live as a free online encyclopedia",
@@ -520,6 +604,13 @@
       "type": "general"
     },
     {
+      "date": "2000-08-08",
+      "title": "Confederate submarine H.L. Hunley is raised to the surface after 136 years on th",
+      "desc": "Confederate submarine H.L. Hunley is raised to the surface after 136 years on the ocean floor and 30 years after its discovery by undersea explorer E. Lee Spence.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "2000-03-10",
       "title": "Dot-Com Bubble Burst",
       "desc": "NASDAQ peaks at 5048 before tech crash",
@@ -527,13 +618,6 @@
     }
   ],
   "1999": [
-    {
-      "date": "1999-08-07",
-      "title": "The Chechnya-based Islamic International Brigade invades neighboring Dagestan.",
-      "desc": "The Chechnya-based Islamic International Brigade invades neighboring Dagestan.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1999-03-24",
       "title": "Kosovo War",
@@ -561,28 +645,14 @@
       "type": "finance"
     },
     {
-      "date": "1998-08-07",
-      "title": "Bombings at United States embassies in Dar es Salaam, Tanzania and Nairobi, Keny",
-      "desc": "Bombings at United States embassies in Dar es Salaam, Tanzania and Nairobi, Kenya kill approximately 212 people.",
+      "date": "1998-08-08",
+      "title": "Iranian consulate in Mazar-i-Sharif, Afghanistan is raided by Taliban leading to",
+      "desc": "Iranian consulate in Mazar-i-Sharif, Afghanistan is raided by Taliban leading to the deaths of ten Iranian diplomats and a journalist.",
       "type": "tech",
       "source": "wikipedia"
     }
   ],
   "1997": [
-    {
-      "date": "1997-08-07",
-      "title": "Space Shuttle Program: The Space Shuttle Discovery launches on STS-85 from the K",
-      "desc": "Space Shuttle Program: The Space Shuttle Discovery launches on STS-85 from the Kennedy Space Center in Cape Canaveral, Florida.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1997-08-07",
-      "title": "Fine Air Flight 101 crashes after takeoff from Miami International Airport, kill",
-      "desc": "Fine Air Flight 101 crashes after takeoff from Miami International Airport, killing five people.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1997-07-01",
       "title": "Hong Kong Handover",
@@ -610,13 +680,6 @@
       "type": "politics"
     },
     {
-      "date": "1995-08-07",
-      "title": "The Chilean government declares state of emergency in the southern half of the c",
-      "desc": "The Chilean government declares state of emergency in the southern half of the country in response to an event of intense, cold, wind, rain and snowfall known as the White Earthquake.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1995-04-19",
       "title": "Oklahoma City Bombing",
       "desc": "Domestic terrorist attack kills 168 in Oklahoma",
@@ -639,10 +702,10 @@
   ],
   "1993": [
     {
-      "date": "1993-08-07",
-      "title": "Ada Deer, a Menominee activist, is sworn in as the head of the Bureau of Indian ",
-      "desc": "Ada Deer, a Menominee activist, is sworn in as the head of the Bureau of Indian Affairs.",
-      "type": "tech",
+      "date": "1993-08-08",
+      "title": "The 7.8 Mw Guam earthquake shakes the island with a maximum Mercalli intensity o",
+      "desc": "The 7.8 Mw Guam earthquake shakes the island with a maximum Mercalli intensity of IX (Violent), causing around $250 million in damage and injuring up to 71 people.",
+      "type": "climate",
       "source": "wikipedia"
     },
     {
@@ -680,6 +743,13 @@
       "type": "politics"
     },
     {
+      "date": "1991-08-08",
+      "title": "The Warsaw radio mast, then the tallest construction ever built, collapses.",
+      "desc": "The Warsaw radio mast, then the tallest construction ever built, collapses.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1991-08-06",
       "title": "World Wide Web Launched",
       "desc": "Tim Berners-Lee announces the World Wide Web",
@@ -700,10 +770,10 @@
       "type": "politics"
     },
     {
-      "date": "1990-08-07",
-      "title": "First American soldiers arrive in Saudi Arabia as part of the Gulf War.",
-      "desc": "First American soldiers arrive in Saudi Arabia as part of the Gulf War.",
-      "type": "politics",
+      "date": "1990-08-08",
+      "title": "Iraq occupies Kuwait and the state is annexed to Iraq. This would lead to the Gu",
+      "desc": "Iraq occupies Kuwait and the state is annexed to Iraq. This would lead to the Gulf War shortly afterward.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -727,17 +797,10 @@
       "type": "politics"
     },
     {
-      "date": "1989-08-07",
-      "title": "U.S. Congressman Mickey Leland (D-TX) and 15 others die in a plane crash in Ethi",
-      "desc": "U.S. Congressman Mickey Leland (D-TX) and 15 others die in a plane crash in Ethiopia.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1989-08-07",
-      "title": "The National Cold Fusion Institute opened in Salt Lake City.",
-      "desc": "The National Cold Fusion Institute opened in Salt Lake City.",
-      "type": "general",
+      "date": "1989-08-08",
+      "title": "Space Shuttle program: STS-28 Mission: Space Shuttle Columbia takes off on a sec",
+      "desc": "Space Shuttle program: STS-28 Mission: Space Shuttle Columbia takes off on a secret five-day military mission.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -765,6 +828,20 @@
       "title": "Morris Worm",
       "desc": "First major internet worm infects 6000 computers",
       "type": "tech"
+    },
+    {
+      "date": "1988-08-08",
+      "title": "The 8888 Uprising begins in Rangoon (Yangon), Burma (Myanmar). Led by students, ",
+      "desc": "The 8888 Uprising begins in Rangoon (Yangon), Burma (Myanmar). Led by students, hundreds of thousands join in nationwide protests against the one-party regime. On September 18, the demonstrations end ",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1988-08-08",
+      "title": "The first night baseball game in the history of Chicago's Wrigley Field (game wa",
+      "desc": "The first night baseball game in the history of Chicago's Wrigley Field (game was rained out in the fourth inning).",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1987": [
@@ -773,13 +850,6 @@
       "title": "Black Monday",
       "desc": "Global stock market crash, Dow drops 22.6%",
       "type": "finance"
-    },
-    {
-      "date": "1987-08-07",
-      "title": "Cold War: Lynne Cox becomes the first person to swim from the United States to t",
-      "desc": "Cold War: Lynne Cox becomes the first person to swim from the United States to the Soviet Union, crossing the Bering Strait from Little Diomede Island in Alaska to Big Diomede in the Soviet Union.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1987-06-28",
@@ -803,13 +873,6 @@
     }
   ],
   "1985": [
-    {
-      "date": "1985-08-07",
-      "title": "Takao Doi, Mamoru Mohri and Chiaki Mukai are chosen to be Japan's first astronau",
-      "desc": "Takao Doi, Mamoru Mohri and Chiaki Mukai are chosen to be Japan's first astronauts.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1985-07-13",
       "title": "Live Aid Concert",
@@ -851,15 +914,6 @@
       "type": "politics"
     }
   ],
-  "1981": [
-    {
-      "date": "1981-08-07",
-      "title": "The Washington Star ceases all operations after 128 years of publication.",
-      "desc": "The Washington Star ceases all operations after 128 years of publication.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1980": [
     {
       "date": "1980-09-22",
@@ -890,13 +944,6 @@
   ],
   "1978": [
     {
-      "date": "1978-08-07",
-      "title": "U.S. President Jimmy Carter declares a federal emergency at Love Canal due to to",
-      "desc": "U.S. President Jimmy Carter declares a federal emergency at Love Canal due to toxic waste that had been disposed of negligently.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1978-07-25",
       "title": "First IVF Baby",
       "desc": "Louise Brown, first test-tube baby, born",
@@ -924,13 +971,6 @@
     }
   ],
   "1976": [
-    {
-      "date": "1976-08-07",
-      "title": "Viking program: Viking 2 enters orbit around Mars.",
-      "desc": "Viking program: Viking 2 enters orbit around Mars.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1976-07-20",
       "title": "Viking 1 Lands on Mars",
@@ -966,10 +1006,10 @@
       "type": "politics"
     },
     {
-      "date": "1974-08-07",
-      "title": "Philippe Petit performs a high wire act between the Twin Towers of the World Tra",
-      "desc": "Philippe Petit performs a high wire act between the Twin Towers of the World Trade Center 1,368 feet (417 m) in the air.",
-      "type": "finance",
+      "date": "1974-08-08",
+      "title": "President Richard Nixon, in a nationwide television address, announces his resig",
+      "desc": "President Richard Nixon, in a nationwide television address, announces his resignation from the office of the President of the United States effective noon the next day.",
+      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -985,6 +1025,13 @@
       "title": "Oil Crisis Begins",
       "desc": "OPEC oil embargo triggers global energy crisis",
       "type": "finance"
+    },
+    {
+      "date": "1973-08-08",
+      "title": "Kim Dae-jung, a South Korean politician and later president of South Korea, is k",
+      "desc": "Kim Dae-jung, a South Korean politician and later president of South Korea, is kidnapped.",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "1973-06-28",
@@ -1021,15 +1068,6 @@
       "type": "finance"
     }
   ],
-  "1970": [
-    {
-      "date": "1970-08-07",
-      "title": "California judge Harold Haley is taken hostage in his courtroom and killed durin",
-      "desc": "California judge Harold Haley is taken hostage in his courtroom and killed during an effort to free George Jackson from police custody.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1969": [
     {
       "date": "1969-08-15",
@@ -1038,9 +1076,9 @@
       "type": "general"
     },
     {
-      "date": "1969-08-07",
-      "title": "Richard Nixon appoints Luis R. Bruce, a Mohawk-Oglala Sioux and co-founder of th",
-      "desc": "Richard Nixon appoints Luis R. Bruce, a Mohawk-Oglala Sioux and co-founder of the National Congress of American Indians, as the new commissioner of the Bureau of Indian Affairs.",
+      "date": "1969-08-08",
+      "title": "At a zebra crossing in London, photographer Iain Macmillan takes the iconic phot",
+      "desc": "At a zebra crossing in London, photographer Iain Macmillan takes the iconic photo that becomes the cover image of the Beatles' album Abbey Road.",
       "type": "tech",
       "source": "wikipedia"
     },
@@ -1085,6 +1123,13 @@
       "type": "politics"
     },
     {
+      "date": "1967-08-08",
+      "title": "The Association of Southeast Asian Nations (ASEAN) is founded by Indonesia, Mala",
+      "desc": "The Association of Southeast Asian Nations (ASEAN) is founded by Indonesia, Malaysia, the Philippines, Singapore and Thailand.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1967-06-05",
       "title": "Six-Day War",
       "desc": "Israel defeats Egypt, Jordan, Syria in six-day war",
@@ -1113,13 +1158,6 @@
       "type": "politics"
     },
     {
-      "date": "1964-08-07",
-      "title": "Vietnam War: The U.S. Congress passes the Gulf of Tonkin Resolution giving U.S. ",
-      "desc": "Vietnam War: The U.S. Congress passes the Gulf of Tonkin Resolution giving U.S. President Lyndon B. Johnson broad war powers to deal with North Vietnamese attacks on American forces.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1964-06-28",
       "title": "Malcolm X OAAU",
       "desc": "Malcolm X forms Organization of Afro-American Unity",
@@ -1138,6 +1176,20 @@
       "title": "I Have a Dream",
       "desc": "MLK delivers iconic speech at March on Washington",
       "type": "politics"
+    },
+    {
+      "date": "1963-08-08",
+      "title": "Great Train Robbery: In England, a gang of 15 train robbers steal £2.6 million i",
+      "desc": "Great Train Robbery: In England, a gang of 15 train robbers steal £2.6 million in bank notes.",
+      "type": "finance",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1963-08-08",
+      "title": "The Zimbabwe African National Union (ZANU), the current ruling party of Zimbabwe",
+      "desc": "The Zimbabwe African National Union (ZANU), the current ruling party of Zimbabwe, is formed by a split from the Zimbabwe African People's Union.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1962": [
@@ -1146,13 +1198,6 @@
       "title": "Cuban Missile Crisis",
       "desc": "US-USSR standoff brings world close to nuclear war",
       "type": "politics"
-    },
-    {
-      "date": "1962-08-07",
-      "title": "Canadian-born American pharmacologist Frances Oldham Kelsey is awarded the U.S. ",
-      "desc": "Canadian-born American pharmacologist Frances Oldham Kelsey is awarded the U.S. President's Award for Distinguished Federal Civilian Service for her refusal to authorize thalidomide.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1962-07-10",
@@ -1177,13 +1222,6 @@
   ],
   "1960": [
     {
-      "date": "1960-08-07",
-      "title": "Ivory Coast becomes independent from France.",
-      "desc": "Ivory Coast becomes independent from France.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1960-05-01",
       "title": "U-2 Incident",
       "desc": "Soviets shoot down US spy plane, Eisenhower embarrassed",
@@ -1197,13 +1235,6 @@
     }
   ],
   "1959": [
-    {
-      "date": "1959-08-07",
-      "title": "Explorer program: Explorer 6 launches from the Atlantic Missile Range in Cape Ca",
-      "desc": "Explorer program: Explorer 6 launches from the Atlantic Missile Range in Cape Canaveral, Florida.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1959-07-24",
       "title": "Kitchen Debate",
@@ -1237,6 +1268,13 @@
       "title": "Hungarian Revolution",
       "desc": "Anti-Soviet uprising in Hungary",
       "type": "politics"
+    },
+    {
+      "date": "1956-08-08",
+      "title": "Marcinelle mining disaster in Belgium. 262 coal miners, including a substantial ",
+      "desc": "Marcinelle mining disaster in Belgium. 262 coal miners, including a substantial number of Italian migrant workers, were killed in one of the largest mining accidents in Belgian history.",
+      "type": "disaster",
+      "source": "wikipedia"
     },
     {
       "date": "1956-06-28",
@@ -1377,20 +1415,6 @@
       "type": "politics"
     },
     {
-      "date": "1947-08-07",
-      "title": "Thor Heyerdahl's balsa wood raft, the Kon-Tiki, smashes into the reef at Raroia ",
-      "desc": "Thor Heyerdahl's balsa wood raft, the Kon-Tiki, smashes into the reef at Raroia in the Tuamotu Islands after a 101-day, 7,000 kilometres (4,300 mi) journey across the Pacific Ocean in an attempt to pr",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1947-08-07",
-      "title": "The Bombay Municipal Corporation formally takes over the Bombay Electric Supply ",
-      "desc": "The Bombay Municipal Corporation formally takes over the Bombay Electric Supply and Transport (BEST).",
-      "type": "sports",
-      "source": "wikipedia"
-    },
-    {
       "date": "1947-06-05",
       "title": "Marshall Plan",
       "desc": "US announces plan to rebuild post-war Europe",
@@ -1399,10 +1423,10 @@
   ],
   "1946": [
     {
-      "date": "1946-08-07",
-      "title": "The government of the Soviet Union presented a note to its Turkish counterparts ",
-      "desc": "The government of the Soviet Union presented a note to its Turkish counterparts which refuted the latter's sovereignty over the Turkish Straits, thus beginning the Turkish Straits crisis.",
-      "type": "finance",
+      "date": "1946-08-08",
+      "title": "First flight of the nuclear capable Convair B-36, heaviest mass-produced piston-",
+      "desc": "First flight of the nuclear capable Convair B-36, heaviest mass-produced piston-engined aircraft at the time.",
+      "type": "tech",
       "source": "wikipedia"
     }
   ],
@@ -1412,6 +1436,20 @@
       "title": "WWII Ends",
       "desc": "Japan surrenders, ending World War II",
       "type": "politics"
+    },
+    {
+      "date": "1945-08-08",
+      "title": "The London Charter is signed by France, the United Kingdom, the Soviet Union and",
+      "desc": "The London Charter is signed by France, the United Kingdom, the Soviet Union and the United States, establishing the laws and procedures for the Nuremberg trials.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1945-08-08",
+      "title": "World War II:  The Soviet Union declares war on Japan.",
+      "desc": "World War II:  The Soviet Union declares war on Japan.",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "1945-08-06",
@@ -1434,13 +1472,6 @@
   ],
   "1944": [
     {
-      "date": "1944-08-07",
-      "title": "IBM dedicates the first program-controlled calculator, the Automatic Sequence Co",
-      "desc": "IBM dedicates the first program-controlled calculator, the Automatic Sequence Controlled Calculator (known best as the Harvard Mark I).",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1944-07-20",
       "title": "Hitler Assassination Attempt",
       "desc": "Operation Valkyrie: von Stauffenberg tries to kill Hitler",
@@ -1455,10 +1486,10 @@
   ],
   "1942": [
     {
-      "date": "1942-08-07",
-      "title": "World War II: The Battle of Guadalcanal begins as the United States Marines init",
-      "desc": "World War II: The Battle of Guadalcanal begins as the United States Marines initiate the first American offensive of the war with landings on Guadalcanal and Tulagi in the Solomon Islands.",
-      "type": "politics",
+      "date": "1942-08-08",
+      "title": "Quit India Movement is launched in India against the British rule in response to",
+      "desc": "Quit India Movement is launched in India against the British rule in response to Mohandas Gandhi's call for swaraj or complete independence.",
+      "type": "tech",
       "source": "wikipedia"
     }
   ],
@@ -1474,6 +1505,15 @@
       "title": "Operation Barbarossa",
       "desc": "Germany invades Soviet Union",
       "type": "politics"
+    }
+  ],
+  "1940": [
+    {
+      "date": "1940-08-08",
+      "title": "The \"Aufbau Ost\" directive for the mobilization of German forces for the invasio",
+      "desc": "The \"Aufbau Ost\" directive for the mobilization of German forces for the invasion of the Soviet Union is signed by Wilhelm Keitel.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1939": [
@@ -1520,13 +1560,6 @@
   ],
   "1933": [
     {
-      "date": "1933-08-07",
-      "title": "The Kingdom of Iraq slaughters over 3,000 Assyrians in the village of Simele. Th",
-      "desc": "The Kingdom of Iraq slaughters over 3,000 Assyrians in the village of Simele. This date is recognized as Martyrs Day or National Day of Mourning by the Assyrian community in memory of the Simele massa",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1933-03-04",
       "title": "FDR Inaugurated",
       "desc": "Franklin D. Roosevelt becomes US president, New Deal begins",
@@ -1539,21 +1572,19 @@
       "type": "politics"
     }
   ],
-  "1930": [
-    {
-      "date": "1930-08-07",
-      "title": "The last confirmed lynching of black people in the Northern United States occurs",
-      "desc": "The last confirmed lynching of black people in the Northern United States occurs in Marion, Indiana; two men, Thomas Shipp and Abram Smith, are murdered.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1929": [
     {
       "date": "1929-10-29",
       "title": "Wall Street Crash",
       "desc": "Stock market crash triggers Great Depression",
       "type": "finance"
+    },
+    {
+      "date": "1929-08-08",
+      "title": "The German airship Graf Zeppelin begins a round-the-world flight.",
+      "desc": "The German airship Graf Zeppelin begins a round-the-world flight.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1929-02-14",
@@ -1578,13 +1609,6 @@
       "type": "general"
     },
     {
-      "date": "1927-08-07",
-      "title": "The Peace Bridge opens between Fort Erie, Ontario and Buffalo, New York.",
-      "desc": "The Peace Bridge opens between Fort Erie, Ontario and Buffalo, New York.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1927-05-20",
       "title": "Lindbergh Flies Atlantic",
       "desc": "Charles Lindbergh completes first solo transatlantic flight",
@@ -1592,13 +1616,6 @@
     }
   ],
   "1926": [
-    {
-      "date": "1926-08-07",
-      "title": "The first British Grand Prix was held at Brooklands.",
-      "desc": "The first British Grand Prix was held at Brooklands.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1926-06-28",
       "title": "Mercedes-Benz Formed",
@@ -1650,6 +1667,13 @@
   ],
   "1919": [
     {
+      "date": "1919-08-08",
+      "title": "The Anglo-Afghan Treaty of 1919 is signed. It establishes peaceful relations bet",
+      "desc": "The Anglo-Afghan Treaty of 1919 is signed. It establishes peaceful relations between Afghanistan and the UK, and confirms the Durand line as the mutual border. In return, the UK is no longer obligated",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1919-06-28",
       "title": "Treaty of Versailles",
       "desc": "Treaty ends WWI, imposes reparations on Germany",
@@ -1668,6 +1692,13 @@
       "title": "WWI Armistice",
       "desc": "World War I ends at 11th hour of 11th day",
       "type": "politics"
+    },
+    {
+      "date": "1918-08-08",
+      "title": "World War I: The Battle of Amiens begins a string of almost continuous Allied vi",
+      "desc": "World War I: The Battle of Amiens begins a string of almost continuous Allied victories with a push through the German front lines (Hundred Days Offensive).",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "1918-03-04",
@@ -1732,11 +1763,11 @@
       "type": "science"
     }
   ],
-  "1909": [
+  "1908": [
     {
-      "date": "1909-08-07",
-      "title": "Alice Huyler Ramsey and three friends become the first women to complete a trans",
-      "desc": "Alice Huyler Ramsey and three friends become the first women to complete a transcontinental auto trip, taking 59 days to travel from New York, New York to San Francisco, California.",
+      "date": "1908-08-08",
+      "title": "Wilbur Wright makes the Wright Brothers' first public flight, at a racecourse at",
+      "desc": "Wilbur Wright makes the Wright Brothers' first public flight, at a racecourse at Le Mans, France.",
       "type": "general",
       "source": "wikipedia"
     }
@@ -1761,6 +1792,13 @@
       "title": "First Flight",
       "desc": "Wright Brothers make first powered flight at Kitty Hawk",
       "type": "science"
+    },
+    {
+      "date": "1903-08-08",
+      "title": "Black Saturday occurs, killing 12 in a stadium collapse in Philadelphia.",
+      "desc": "Black Saturday occurs, killing 12 in a stadium collapse in Philadelphia.",
+      "type": "disaster",
+      "source": "wikipedia"
     },
     {
       "date": "1903-06-16",
