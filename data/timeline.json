@@ -59,10 +59,10 @@
       "type": "politics"
     },
     {
-      "date": "2024-08-09",
-      "title": "Voepass Linhas Aéreas Flight 2283 crashes near Vinhedo, São Paulo, killing all 6",
-      "desc": "Voepass Linhas Aéreas Flight 2283 crashes near Vinhedo, São Paulo, killing all 62 people on board.",
-      "type": "disaster",
+      "date": "2024-08-10",
+      "title": "Israel strikes Al-Tabaeen school in eastern Gaza City, killing at least 80 Pales",
+      "desc": "Israel strikes Al-Tabaeen school in eastern Gaza City, killing at least 80 Palestinians.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -150,13 +150,6 @@
       "type": "politics"
     },
     {
-      "date": "2021-08-09",
-      "title": "The Tampere light rail officially starts operating.",
-      "desc": "The Tampere light rail officially starts operating.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2021-02-18",
       "title": "Mars Landing",
       "desc": "NASA Perseverance rover lands on Mars",
@@ -170,6 +163,13 @@
     }
   ],
   "2020": [
+    {
+      "date": "2020-08-10",
+      "title": "Derecho in Iowa becomes the most costly thunderstorm disaster in U.S. history.",
+      "desc": "Derecho in Iowa becomes the most costly thunderstorm disaster in U.S. history.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
     {
       "date": "2020-03-11",
       "title": "COVID-19 Pandemic",
@@ -197,6 +197,20 @@
       "type": "disaster"
     },
     {
+      "date": "2019-08-10",
+      "title": "Thirty-two are killed and one million are evacuated as Typhoon Lekima makes land",
+      "desc": "Thirty-two are killed and one million are evacuated as Typhoon Lekima makes landfall in Zhejiang, China. Earlier it had caused flooding in the Philippines.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2019-08-10",
+      "title": "Philip Manshaus shoots his stepsister and attacks a mosque in the Bærum mosque s",
+      "desc": "Philip Manshaus shoots his stepsister and attacks a mosque in the Bærum mosque shooting.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2019-04-15",
       "title": "Notre Dame Fire",
       "desc": "Major fire devastates Notre Dame Cathedral in Paris",
@@ -210,6 +224,20 @@
     }
   ],
   "2018": [
+    {
+      "date": "2018-08-10",
+      "title": "Horizon Air employee Richard Russell hijacks and performs an unauthorized takeof",
+      "desc": "Horizon Air employee Richard Russell hijacks and performs an unauthorized takeoff on a Horizon Air Bombardier Dash 8 Q400 plane at Seattle–Tacoma International Airport in Washington, flying it for mor",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2018-08-10",
+      "title": "An anti-government rally turns into a riot when members of the Romanian Gendarme",
+      "desc": "An anti-government rally turns into a riot when members of the Romanian Gendarmerie attack the 100,000 people protesting in front of the Victoria Palace, leading to 452 recorded injuries. The authorit",
+      "type": "politics",
+      "source": "wikipedia"
+    },
     {
       "date": "2018-06-12",
       "title": "Trump-Kim Summit",
@@ -291,10 +319,10 @@
       "type": "politics"
     },
     {
-      "date": "2014-08-09",
-      "title": "Michael Brown, an 18-year-old African American male in Ferguson, Missouri, is sh",
-      "desc": "Michael Brown, an 18-year-old African American male in Ferguson, Missouri, is shot and killed by a Ferguson police officer after reportedly assaulting the officer and attempting to steal his weapon, s",
-      "type": "general",
+      "date": "2014-08-10",
+      "title": "Forty people are killed when Sepahan Airlines Flight 5915 crashes at Tehran's Me",
+      "desc": "Forty people are killed when Sepahan Airlines Flight 5915 crashes at Tehran's Mehrabad International Airport.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -318,13 +346,6 @@
       "type": "politics"
     },
     {
-      "date": "2013-08-09",
-      "title": "Gunmen open fire at a Sunni mosque in the city of Quetta killing at least ten pe",
-      "desc": "Gunmen open fire at a Sunni mosque in the city of Quetta killing at least ten people and injuring 30.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2013-06-06",
       "title": "Snowden Leaks",
       "desc": "Edward Snowden reveals global surveillance programs",
@@ -345,9 +366,9 @@
       "type": "general"
     },
     {
-      "date": "2012-08-09",
-      "title": "Shannon Eastin becomes the first woman to officiate an NFL game.",
-      "desc": "Shannon Eastin becomes the first woman to officiate an NFL game.",
+      "date": "2012-08-10",
+      "title": "The Marikana massacre begins near Rustenburg, South Africa, resulting in the dea",
+      "desc": "The Marikana massacre begins near Rustenburg, South Africa, resulting in the deaths of 47 people.",
       "type": "general",
       "source": "wikipedia"
     },
@@ -406,6 +427,13 @@
   ],
   "2009": [
     {
+      "date": "2009-08-10",
+      "title": "Twenty people are killed in Handlová, Trenčín Region, in the deadliest mining di",
+      "desc": "Twenty people are killed in Handlová, Trenčín Region, in the deadliest mining disaster in Slovakia's history.",
+      "type": "disaster",
+      "source": "wikipedia"
+    },
+    {
       "date": "2009-06-25",
       "title": "Michael Jackson Dies",
       "desc": "King of Pop dies at 50",
@@ -446,13 +474,6 @@
   ],
   "2007": [
     {
-      "date": "2007-08-09",
-      "title": "Air Moorea Flight 1121 crashes after takeoff from Moorea Airport in French Polyn",
-      "desc": "Air Moorea Flight 1121 crashes after takeoff from Moorea Airport in French Polynesia, killing all 20 people on board.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2007-06-29",
       "title": "iPhone Released",
       "desc": "First iPhone goes on sale, revolutionizes mobile",
@@ -463,15 +484,6 @@
       "title": "iPhone Unveiled",
       "desc": "Steve Jobs introduces the first iPhone",
       "type": "tech"
-    }
-  ],
-  "2006": [
-    {
-      "date": "2006-08-09",
-      "title": "At least 21 suspected terrorists are arrested in the 2006 transatlantic aircraft",
-      "desc": "At least 21 suspected terrorists are arrested in the 2006 transatlantic aircraft plot that happened in the United Kingdom. The arrests are made in London, Birmingham, and High Wycombe in an overnight ",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "2005": [
@@ -516,6 +528,13 @@
   ],
   "2003": [
     {
+      "date": "2003-08-10",
+      "title": "The Okinawa Urban Monorail is opened in Naha, Okinawa.",
+      "desc": "The Okinawa Urban Monorail is opened in Naha, Okinawa.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "2003-03-20",
       "title": "Iraq War Begins",
       "desc": "US-led coalition invades Iraq",
@@ -534,6 +553,20 @@
       "title": "9/11 Attacks",
       "desc": "Al-Qaeda terrorists attack World Trade Center and Pentagon",
       "type": "disaster"
+    },
+    {
+      "date": "2001-08-10",
+      "title": "The 2001 Angola train attack occurs, causing 252 deaths.",
+      "desc": "The 2001 Angola train attack occurs, causing 252 deaths.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2001-08-10",
+      "title": "Space Shuttle program: The Space Shuttle Discovery is launched on STS-105 to the",
+      "desc": "Space Shuttle program: The Space Shuttle Discovery is launched on STS-105 to the International Space Station, carrying the astronauts of Expedition 3 to replace the crew of Expedition 2.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "2001-01-15",
@@ -558,10 +591,10 @@
   ],
   "1999": [
     {
-      "date": "1999-08-09",
-      "title": "Russian president Boris Yeltsin fires his prime minister, Sergei Stepashin, and ",
-      "desc": "Russian president Boris Yeltsin fires his prime minister, Sergei Stepashin, and for the fourth time fires his entire cabinet.",
-      "type": "politics",
+      "date": "1999-08-10",
+      "title": "One person is killed and five people are injured in the Los Angeles Jewish Commu",
+      "desc": "One person is killed and five people are injured in the Los Angeles Jewish Community Center shooting.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -589,9 +622,23 @@
       "title": "Russian Default",
       "desc": "Russia defaults on domestic debt, ruble collapses",
       "type": "finance"
+    },
+    {
+      "date": "1998-08-10",
+      "title": "HRH Prince Al-Muhtadee Billah is proclaimed the crown prince of Brunei with a Ro",
+      "desc": "HRH Prince Al-Muhtadee Billah is proclaimed the crown prince of Brunei with a Royal Proclamation.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1997": [
+    {
+      "date": "1997-08-10",
+      "title": "Sixteen people are killed when Formosa Airlines Flight 7601 crashes near Beigan ",
+      "desc": "Sixteen people are killed when Formosa Airlines Flight 7601 crashes near Beigan Airport in the Matsu Islands of Taiwan.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1997-07-01",
       "title": "Hong Kong Handover",
@@ -619,10 +666,10 @@
       "type": "politics"
     },
     {
-      "date": "1995-08-09",
-      "title": "Aviateca Flight 901 crashes into the San Vicente volcano in El Salvador, killing",
-      "desc": "Aviateca Flight 901 crashes into the San Vicente volcano in El Salvador, killing all 65 people on board.",
-      "type": "climate",
+      "date": "1995-08-10",
+      "title": "Oklahoma City bombing: Timothy McVeigh and Terry Nichols are indicted for the bo",
+      "desc": "Oklahoma City bombing: Timothy McVeigh and Terry Nichols are indicted for the bombing. Michael Fortier pleads guilty in a plea-bargain for his testimony.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -648,10 +695,10 @@
   ],
   "1993": [
     {
-      "date": "1993-08-09",
-      "title": "The Liberal Democratic Party of Japan loses a 38-year hold on national leadershi",
-      "desc": "The Liberal Democratic Party of Japan loses a 38-year hold on national leadership.",
-      "type": "general",
+      "date": "1993-08-10",
+      "title": "Two earthquakes affect New Zealand. A 7.0 Mw shock (intensity VI (Strong)) in th",
+      "desc": "Two earthquakes affect New Zealand. A 7.0 Mw shock (intensity VI (Strong)) in the South Island was followed nine hours later by a 6.4 Mw event (intensity VII (Very strong)) in the North Island.",
+      "type": "climate",
       "source": "wikipedia"
     },
     {
@@ -689,13 +736,6 @@
       "type": "politics"
     },
     {
-      "date": "1991-08-09",
-      "title": "The Italian prosecuting magistrate Antonino Scopelliti is murdered by the 'Ndran",
-      "desc": "The Italian prosecuting magistrate Antonino Scopelliti is murdered by the 'Ndrangheta on behalf of the Sicilian Mafia while preparing the government's case in the final appeal of the Maxi Trial.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1991-08-06",
       "title": "World Wide Web Launched",
       "desc": "Tim Berners-Lee announces the World Wide Web",
@@ -714,6 +754,13 @@
       "title": "German Reunification",
       "desc": "East and West Germany reunify",
       "type": "politics"
+    },
+    {
+      "date": "1990-08-10",
+      "title": "The Magellan space probe reaches Venus.",
+      "desc": "The Magellan space probe reaches Venus.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1990-08-02",
@@ -760,6 +807,13 @@
       "title": "Morris Worm",
       "desc": "First major internet worm infects 6000 computers",
       "type": "tech"
+    },
+    {
+      "date": "1988-08-10",
+      "title": "Japanese American internment: U.S. President Ronald Reagan signs the Civil Liber",
+      "desc": "Japanese American internment: U.S. President Ronald Reagan signs the Civil Liberties Act of 1988, providing $20,000 payments to Japanese Americans who were either interned in or relocated by the Unite",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "1987": [
@@ -832,6 +886,15 @@
       "type": "politics"
     }
   ],
+  "1981": [
+    {
+      "date": "1981-08-10",
+      "title": "Murder of Adam Walsh: The head of John Walsh's son is found. This inspires the c",
+      "desc": "Murder of Adam Walsh: The head of John Walsh's son is found. This inspires the creation of the television series America's Most Wanted and the National Center for Missing & Exploited Children.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1980": [
     {
       "date": "1980-09-22",
@@ -848,13 +911,6 @@
   ],
   "1979": [
     {
-      "date": "1979-08-09",
-      "title": "Female workers of YH Trading in South Korea hold a sit-in protest in response to",
-      "desc": "Female workers of YH Trading in South Korea hold a sit-in protest in response to the company's unilateral shutdown.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1979-04-01",
       "title": "Iran Islamic Republic",
       "desc": "Iran becomes Islamic Republic after referendum",
@@ -868,6 +924,13 @@
     }
   ],
   "1978": [
+    {
+      "date": "1978-08-10",
+      "title": "Three members of the Ulrich family are killed in an accident. This leads to the ",
+      "desc": "Three members of the Ulrich family are killed in an accident. This leads to the Ford Pinto litigation.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1978-07-25",
       "title": "First IVF Baby",
@@ -893,6 +956,13 @@
       "title": "Elvis Dies",
       "desc": "Elvis Presley dies at Graceland at age 42",
       "type": "general"
+    },
+    {
+      "date": "1977-08-10",
+      "title": "In Yonkers, New York, 24-year-old postal employee David Berkowitz (\"Son of Sam\")",
+      "desc": "In Yonkers, New York, 24-year-old postal employee David Berkowitz (\"Son of Sam\") is arrested for a series of killings in the New York City area over the period of one year.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1976": [
@@ -931,13 +1001,6 @@
       "type": "politics"
     },
     {
-      "date": "1974-08-09",
-      "title": "As a direct result of the Watergate scandal, Richard Nixon becomes the first pre",
-      "desc": "As a direct result of the Watergate scandal, Richard Nixon becomes the first president of the United States to resign from office. Vice President Gerald Ford becomes president.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1974-02-01",
       "title": "Brazil Oil Crisis",
       "desc": "First oil shock hits Brazil, triggering economic changes",
@@ -950,13 +1013,6 @@
       "title": "Oil Crisis Begins",
       "desc": "OPEC oil embargo triggers global energy crisis",
       "type": "finance"
-    },
-    {
-      "date": "1973-08-09",
-      "title": "Mars 7 is launched from the USSR.",
-      "desc": "Mars 7 is launched from the USSR.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1973-06-28",
@@ -993,19 +1049,10 @@
       "type": "finance"
     },
     {
-      "date": "1971-08-09",
-      "title": "The Troubles: In Northern Ireland, the British authorities launch Operation Deme",
-      "desc": "The Troubles: In Northern Ireland, the British authorities launch Operation Demetrius. The operation involves the mass arrest and internment without trial of individuals suspected of being affiliated ",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
-  "1970": [
-    {
-      "date": "1970-08-09",
-      "title": "LANSA Flight 502 crashes after takeoff from Alejandro Velasco Astete Internation",
-      "desc": "LANSA Flight 502 crashes after takeoff from Alejandro Velasco Astete International Airport in Cusco, Peru, killing 99 of the 100 people on board, as well as two people on the ground.",
-      "type": "tech",
+      "date": "1971-08-10",
+      "title": "The Society for American Baseball Research is founded in Cooperstown, New York.",
+      "desc": "The Society for American Baseball Research is founded in Cooperstown, New York.",
+      "type": "science",
       "source": "wikipedia"
     }
   ],
@@ -1017,10 +1064,10 @@
       "type": "general"
     },
     {
-      "date": "1969-08-09",
-      "title": "Tate–LaBianca murders: Followers of Charles Manson murder pregnant actress Sharo",
-      "desc": "Tate–LaBianca murders: Followers of Charles Manson murder pregnant actress Sharon Tate (wife of Roman Polanski), coffee heiress Abigail Folger, Polish actor Wojciech Frykowski, men's hairstylist Jay S",
-      "type": "tech",
+      "date": "1969-08-10",
+      "title": "A day after murdering actress Sharon Tate and four others, members of Charles Ma",
+      "desc": "A day after murdering actress Sharon Tate and four others, members of Charles Manson's cult kill Leno and Rosemary LaBianca.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -1070,19 +1117,21 @@
       "type": "politics"
     }
   ],
+  "1966": [
+    {
+      "date": "1966-08-10",
+      "title": "The Heron Road Bridge collapses while being built, killing nine workers in the d",
+      "desc": "The Heron Road Bridge collapses while being built, killing nine workers in the deadliest construction accident in both Ottawa and Ontario.",
+      "type": "disaster",
+      "source": "wikipedia"
+    }
+  ],
   "1965": [
     {
       "date": "1965-08-11",
       "title": "Watts Riots",
       "desc": "Major race riots in Los Angeles",
       "type": "politics"
-    },
-    {
-      "date": "1965-08-09",
-      "title": "The State of Singapore separates from the Malaysian federation due to a heated i",
-      "desc": "The State of Singapore separates from the Malaysian federation due to a heated ideological conflict between their ruling parties.[citation needed][needs copy edit]",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1965-03-07",
@@ -1141,6 +1190,13 @@
       "type": "politics"
     },
     {
+      "date": "1961-08-10",
+      "title": "Vietnam War: The U.S. Army begins Operation Ranch Hand, spraying an estimated 20",
+      "desc": "Vietnam War: The U.S. Army begins Operation Ranch Hand, spraying an estimated 20 million US gallons (76,000 m3) of defoliants and herbicides over rural areas of South Vietnam in an attempt to deprive ",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1961-04-12",
       "title": "First Human in Space",
       "desc": "Yuri Gagarin becomes first person to orbit Earth",
@@ -1148,13 +1204,6 @@
     }
   ],
   "1960": [
-    {
-      "date": "1960-08-09",
-      "title": "South Kasai secedes from the Congo.",
-      "desc": "South Kasai secedes from the Congo.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1960-05-01",
       "title": "U-2 Incident",
@@ -1226,6 +1275,13 @@
   ],
   "1954": [
     {
+      "date": "1954-08-10",
+      "title": "At Massena, New York, the groundbreaking ceremony for the Saint Lawrence Seaway ",
+      "desc": "At Massena, New York, the groundbreaking ceremony for the Saint Lawrence Seaway is held.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1954-05-17",
       "title": "Brown v. Board",
       "desc": "US Supreme Court declares school segregation unconstitutional",
@@ -1239,6 +1295,13 @@
     }
   ],
   "1953": [
+    {
+      "date": "1953-08-10",
+      "title": "First Indochina War: The French Union withdraws its forces from Operation Camarg",
+      "desc": "First Indochina War: The French Union withdraws its forces from Operation Camargue against the Viet Minh in central Vietnam.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1953-06-02",
       "title": "Elizabeth Coronation",
@@ -1308,6 +1371,13 @@
       "type": "science"
     },
     {
+      "date": "1949-08-10",
+      "title": "An amendment to the National Security Act of 1947 enhances the authority of the ",
+      "desc": "An amendment to the National Security Act of 1947 enhances the authority of the United States Secretary of Defense over the Army, Navy and Air Force, and replaces the National Military Establishment w",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1949-04-04",
       "title": "NATO Founded",
       "desc": "North Atlantic Treaty Organization established",
@@ -1320,6 +1390,13 @@
       "title": "Universal Declaration",
       "desc": "UN adopts Universal Declaration of Human Rights",
       "type": "politics"
+    },
+    {
+      "date": "1948-08-10",
+      "title": "Candid Camera makes its television debut after being on radio for a year as The ",
+      "desc": "Candid Camera makes its television debut after being on radio for a year as The Candid Microphone.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1948-06-28",
@@ -1356,17 +1433,10 @@
       "type": "politics"
     },
     {
-      "date": "1945-08-09",
-      "title": "World War II: Nagasaki is devastated when an atomic bomb, Fat Man, is dropped by",
-      "desc": "World War II: Nagasaki is devastated when an atomic bomb, Fat Man, is dropped by the United States B-29 Bockscar. Thirty-five thousand people are killed outright, including 23,200–28,200 Japanese war ",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1945-08-09",
-      "title": "World War II:  The Red Army invades Japanese-occupied Manchuria.",
-      "desc": "World War II:  The Red Army invades Japanese-occupied Manchuria.",
-      "type": "politics",
+      "date": "1945-08-10",
+      "title": "The Japanese government announced that a message had been sent to the Allies acc",
+      "desc": "The Japanese government announced that a message had been sent to the Allies accepting the terms of the Potsdam Declaration provided that it \"does not comprise any demand that prejudices the prerogati",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -1390,17 +1460,17 @@
   ],
   "1944": [
     {
-      "date": "1944-08-09",
-      "title": "The United States Forest Service and the Wartime Advertising Council release pos",
-      "desc": "The United States Forest Service and the Wartime Advertising Council release posters featuring Smokey Bear for the first time.",
+      "date": "1944-08-10",
+      "title": "World War II: The Battle of Guam in the Pacific comes to an effective end.",
+      "desc": "World War II: The Battle of Guam in the Pacific comes to an effective end.",
       "type": "politics",
       "source": "wikipedia"
     },
     {
-      "date": "1944-08-09",
-      "title": "World War II: Continuation War: The Vyborg–Petrozavodsk Offensive, the largest o",
-      "desc": "World War II: Continuation War: The Vyborg–Petrozavodsk Offensive, the largest offensive launched by Soviet Union against Finland during the Second World War, ends to a strategic stalemate. Both Finni",
-      "type": "tech",
+      "date": "1944-08-10",
+      "title": "World War II: The Battle of Narva on the Eastern Front ends with a defensive Ger",
+      "desc": "World War II: The Battle of Narva on the Eastern Front ends with a defensive German victory.",
+      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -1414,22 +1484,6 @@
       "title": "D-Day",
       "desc": "Allied forces land in Normandy, liberating Europe",
       "type": "politics"
-    }
-  ],
-  "1942": [
-    {
-      "date": "1942-08-09",
-      "title": "World War II: Battle of Savo Island: Allied naval forces protecting their amphib",
-      "desc": "World War II: Battle of Savo Island: Allied naval forces protecting their amphibious forces during the initial stages of the Battle of Guadalcanal are surprised and defeated by an Imperial Japanese Na",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1942-08-09",
-      "title": "Dmitri Shostakovich's 7th symphony premieres in a besieged Leningrad.",
-      "desc": "Dmitri Shostakovich's 7th symphony premieres in a besieged Leningrad.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1941": [
@@ -1462,6 +1516,13 @@
   ],
   "1937": [
     {
+      "date": "1937-08-10",
+      "title": "Spanish Civil War: The Regional Defence Council of Aragon is dissolved by the Se",
+      "desc": "Spanish Civil War: The Regional Defence Council of Aragon is dissolved by the Second Spanish Republic.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1937-07-07",
       "title": "Marco Polo Bridge",
       "desc": "Full-scale war between China and Japan begins",
@@ -1475,13 +1536,6 @@
     }
   ],
   "1936": [
-    {
-      "date": "1936-08-09",
-      "title": "Summer Olympics: Jesse Owens wins his fourth gold medal at the games.",
-      "desc": "Summer Olympics: Jesse Owens wins his fourth gold medal at the games.",
-      "type": "sports",
-      "source": "wikipedia"
-    },
     {
       "date": "1936-07-17",
       "title": "Spanish Civil War",
@@ -1559,15 +1613,6 @@
       "type": "science"
     }
   ],
-  "1925": [
-    {
-      "date": "1925-08-09",
-      "title": "A train robbery takes place in Kakori, near Lucknow, India, by the Indian indepe",
-      "desc": "A train robbery takes place in Kakori, near Lucknow, India, by the Indian independence revolutionaries, against the British government.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
   "1924": [
     {
       "date": "1924-01-21",
@@ -1602,6 +1647,15 @@
       "title": "Yugoslav Constitution",
       "desc": "King Alexander I proclaims new Yugoslav constitution",
       "type": "politics"
+    }
+  ],
+  "1920": [
+    {
+      "date": "1920-08-10",
+      "title": "World War I: Ottoman sultan Mehmed VI's representatives sign the Treaty of Sèvre",
+      "desc": "World War I: Ottoman sultan Mehmed VI's representatives sign the Treaty of Sèvres that divides up the Ottoman Empire between the Allies.",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "1919": [
@@ -1660,6 +1714,15 @@
       "type": "politics"
     }
   ],
+  "1913": [
+    {
+      "date": "1913-08-10",
+      "title": "Second Balkan War: Delegates from Bulgaria, Romania, Serbia, Montenegro, and Gre",
+      "desc": "Second Balkan War: Delegates from Bulgaria, Romania, Serbia, Montenegro, and Greece sign the Treaty of Bucharest, ending the war.",
+      "type": "politics",
+      "source": "wikipedia"
+    }
+  ],
   "1912": [
     {
       "date": "1912-04-15",
@@ -1688,15 +1751,6 @@
       "type": "science"
     }
   ],
-  "1907": [
-    {
-      "date": "1907-08-09",
-      "title": "The first Boy Scout encampment concludes at Brownsea Island in southern England.",
-      "desc": "The first Boy Scout encampment concludes at Brownsea Island in southern England.",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1905": [
     {
       "date": "1905-09-05",
@@ -1705,10 +1759,26 @@
       "type": "politics"
     },
     {
+      "date": "1905-08-10",
+      "title": "Russo-Japanese War: Peace negotiations begin in Portsmouth, New Hampshire.",
+      "desc": "Russo-Japanese War: Peace negotiations begin in Portsmouth, New Hampshire.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1905-06-15",
       "title": "Einstein Relativity",
       "desc": "Einstein publishes special theory of relativity",
       "type": "science"
+    }
+  ],
+  "1904": [
+    {
+      "date": "1904-08-10",
+      "title": "Russo-Japanese War: The Battle of the Yellow Sea between the Russian and Japanes",
+      "desc": "Russo-Japanese War: The Battle of the Yellow Sea between the Russian and Japanese battleship fleets takes place.",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "1903": [
@@ -1725,21 +1795,19 @@
       "type": "tech"
     }
   ],
-  "1902": [
-    {
-      "date": "1902-08-09",
-      "title": "Edward VII and Alexandra of Denmark are crowned King and Queen of the United Kin",
-      "desc": "Edward VII and Alexandra of Denmark are crowned King and Queen of the United Kingdom of Great Britain and Ireland.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
   "1901": [
     {
       "date": "1901-12-10",
       "title": "First Nobel Prizes",
       "desc": "First Nobel Prizes awarded in Stockholm",
       "type": "science"
+    },
+    {
+      "date": "1901-08-10",
+      "title": "The U.S. Steel recognition strike by the Amalgamated Association of Iron and Ste",
+      "desc": "The U.S. Steel recognition strike by the Amalgamated Association of Iron and Steel Workers begins.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1901-01-01",
