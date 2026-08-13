@@ -143,13 +143,6 @@
       "type": "politics"
     },
     {
-      "date": "2021-08-12",
-      "title": "Six people, five victims and the perpetrator are killed in Keyham, Plymouth in t",
-      "desc": "Six people, five victims and the perpetrator are killed in Keyham, Plymouth in the worst mass shooting in the UK since 2010.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2021-02-18",
       "title": "Mars Landing",
       "desc": "NASA Perseverance rover lands on Mars",
@@ -163,6 +156,13 @@
     }
   ],
   "2020": [
+    {
+      "date": "2020-08-13",
+      "title": "Israel–United Arab Emirates relations are formally established.",
+      "desc": "Israel–United Arab Emirates relations are formally established.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "2020-03-11",
       "title": "COVID-19 Pandemic",
@@ -204,13 +204,6 @@
   ],
   "2018": [
     {
-      "date": "2018-08-12",
-      "title": "Thirty-nine civilians, including a dozen children, are killed in an explosion at",
-      "desc": "Thirty-nine civilians, including a dozen children, are killed in an explosion at a weapons depot in Sarmada, Syria.",
-      "type": "disaster",
-      "source": "wikipedia"
-    },
-    {
       "date": "2018-06-12",
       "title": "Trump-Kim Summit",
       "desc": "First US-North Korea summit in Singapore",
@@ -237,13 +230,6 @@
       "type": "crypto"
     },
     {
-      "date": "2017-08-12",
-      "title": "The Unite the Right rally occurs in Charlottesville, Virginia, leading to three ",
-      "desc": "The Unite the Right rally occurs in Charlottesville, Virginia, leading to three deaths and injuring nearly 50 more.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2017-06-01",
       "title": "US Withdraws Paris Accord",
       "desc": "Trump announces US withdrawal from climate agreement",
@@ -256,13 +242,6 @@
       "title": "Trump Elected",
       "desc": "Donald Trump wins US presidential election",
       "type": "politics"
-    },
-    {
-      "date": "2016-08-12",
-      "title": "Syrian civil war: The Syrian Democratic Forces (SDF) capture the city of Manbij ",
-      "desc": "Syrian civil war: The Syrian Democratic Forces (SDF) capture the city of Manbij from the Islamic State of Iraq and the Levant (ISIL).",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "2016-06-23",
@@ -297,10 +276,10 @@
       "type": "science"
     },
     {
-      "date": "2015-08-12",
-      "title": "At least two massive explosions kill 173 people and injure nearly 800 more in Ti",
-      "desc": "At least two massive explosions kill 173 people and injure nearly 800 more in Tianjin, China.",
-      "type": "disaster",
+      "date": "2015-08-13",
+      "title": "At least 76 people are killed and 212 others are wounded in a truck bombing in B",
+      "desc": "At least 76 people are killed and 212 others are wounded in a truck bombing in Baghdad, Iraq.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -310,6 +289,13 @@
       "title": "Scottish Independence Vote",
       "desc": "Scotland votes against independence from UK",
       "type": "politics"
+    },
+    {
+      "date": "2014-08-13",
+      "title": "A Cessna Citation Excel crashes in Santos, São Paulo, Brazil killing all seven p",
+      "desc": "A Cessna Citation Excel crashes in Santos, São Paulo, Brazil killing all seven people aboard, including Brazilian Socialist Party presidential candidate Eduardo Campos.",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "2014-06-29",
@@ -442,6 +428,13 @@
       "title": "Lehman Brothers Collapse",
       "desc": "Investment bank fails, triggering global financial crisis",
       "type": "finance"
+    },
+    {
+      "date": "2008-08-13",
+      "title": "Russo-Georgian War: Russian units occupy the Georgian city of Gori.",
+      "desc": "Russo-Georgian War: Russian units occupy the Georgian city of Gori.",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "2007": [
@@ -484,6 +477,13 @@
       "title": "Indian Ocean Tsunami",
       "desc": "Massive tsunami kills 230K across 14 countries",
       "type": "disaster"
+    },
+    {
+      "date": "2004-08-13",
+      "title": "One hundred fifty-six Congolese Tutsi refugees are massacred at the Gatumba refu",
+      "desc": "One hundred fifty-six Congolese Tutsi refugees are massacred at the Gatumba refugee camp in Burundi.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "2004-06-28",
@@ -532,13 +532,6 @@
       "title": "Millennium",
       "desc": "World celebrates the turn of the millennium",
       "type": "general"
-    },
-    {
-      "date": "2000-08-12",
-      "title": "The Russian Navy submarine Kursk explodes and sinks in the Barents Sea during a ",
-      "desc": "The Russian Navy submarine Kursk explodes and sinks in the Barents Sea during a military exercise, killing her entire 118-man crew.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "2000-03-10",
@@ -611,13 +604,6 @@
   ],
   "1994": [
     {
-      "date": "1994-08-12",
-      "title": "Major League Baseball players go on strike, eventually forcing the cancellation ",
-      "desc": "Major League Baseball players go on strike, eventually forcing the cancellation of the 1994 World Series.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1994-05-10",
       "title": "Mandela President",
       "desc": "Nelson Mandela inaugurated as first Black president of South Africa",
@@ -650,13 +636,6 @@
       "title": "First SMS Sent",
       "desc": "First text message sent: 'Merry Christmas'",
       "type": "tech"
-    },
-    {
-      "date": "1992-08-12",
-      "title": "Canada, Mexico and the United States announce completion of negotiations for the",
-      "desc": "Canada, Mexico and the United States announce completion of negotiations for the North American Free Trade Agreement (NAFTA).",
-      "type": "finance",
-      "source": "wikipedia"
     },
     {
       "date": "1992-04-29",
@@ -693,10 +672,10 @@
       "type": "politics"
     },
     {
-      "date": "1990-08-12",
-      "title": "Sue, the largest and most complete Tyrannosaurus rex skeleton found to date, is ",
-      "desc": "Sue, the largest and most complete Tyrannosaurus rex skeleton found to date, is discovered by Sue Hendrickson in South Dakota.",
-      "type": "general",
+      "date": "1990-08-13",
+      "title": "A mainland Chinese fishing boat Min Ping Yu No. 5202 is hit by a Taiwanese naval",
+      "desc": "A mainland Chinese fishing boat Min Ping Yu No. 5202 is hit by a Taiwanese naval vessel and sinks in a repatriation operation of mainland Chinese immigrants, resulting in 21 deaths. This is the second",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -776,13 +755,6 @@
   ],
   "1985": [
     {
-      "date": "1985-08-12",
-      "title": "Japan Air Lines Flight 123, a Boeing 747, crashes into Osutaka ridge in Gunma Pr",
-      "desc": "Japan Air Lines Flight 123, a Boeing 747, crashes into Osutaka ridge in Gunma Prefecture, Japan, killing 520, becoming the worst single-plane air disaster.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1985-07-13",
       "title": "Live Aid Concert",
       "desc": "Global charity concert raises millions for famine relief",
@@ -793,15 +765,6 @@
       "title": "Gorbachev Leader",
       "desc": "Mikhail Gorbachev becomes leader of Soviet Union",
       "type": "politics"
-    }
-  ],
-  "1984": [
-    {
-      "date": "1984-08-12",
-      "title": "An infamous brawl takes place at the Atlanta-Fulton County Stadium between the A",
-      "desc": "An infamous brawl takes place at the Atlanta-Fulton County Stadium between the Atlanta Braves and San Diego Padres.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1983": [
@@ -830,15 +793,6 @@
       "title": "Falklands War",
       "desc": "Argentina invades Falkland Islands, war with UK begins",
       "type": "politics"
-    }
-  ],
-  "1981": [
-    {
-      "date": "1981-08-12",
-      "title": "The IBM Personal Computer is released.",
-      "desc": "The IBM Personal Computer is released.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1980": [
@@ -871,6 +825,13 @@
   ],
   "1978": [
     {
+      "date": "1978-08-13",
+      "title": "One hundred fifty Palestinians in Beirut are killed in a terrorist attack during",
+      "desc": "One hundred fifty Palestinians in Beirut are killed in a terrorist attack during the second phase of the Lebanese Civil War.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1978-07-25",
       "title": "First IVF Baby",
       "desc": "Louise Brown, first test-tube baby, born",
@@ -897,28 +858,14 @@
       "type": "general"
     },
     {
-      "date": "1977-08-12",
-      "title": "The first free flight of the Space Shuttle Enterprise.",
-      "desc": "The first free flight of the Space Shuttle Enterprise.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1977-08-12",
-      "title": "The Sri Lanka Riots, targeting the minority Sri Lankan Tamils, begin, less than ",
-      "desc": "The Sri Lanka Riots, targeting the minority Sri Lankan Tamils, begin, less than a month after the United National Party came to power. Over 300 Tamils are killed.",
+      "date": "1977-08-13",
+      "title": "Members of the British National Front (NF) clash with anti-NF demonstrators in L",
+      "desc": "Members of the British National Front (NF) clash with anti-NF demonstrators in Lewisham, London, resulting in 214 arrests and at least 111 injuries.",
       "type": "general",
       "source": "wikipedia"
     }
   ],
   "1976": [
-    {
-      "date": "1976-08-12",
-      "title": "Between 1,000 and 3,500 Palestinians are killed in the Tel al-Zaatar massacre, o",
-      "desc": "Between 1,000 and 3,500 Palestinians are killed in the Tel al-Zaatar massacre, one of the bloodiest events of the Lebanese Civil War.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
     {
       "date": "1976-07-20",
       "title": "Viking 1 Lands on Mars",
@@ -968,6 +915,13 @@
       "type": "finance"
     },
     {
+      "date": "1973-08-13",
+      "title": "Aviaco Flight 118 crashes on approach to A Coruña Airport in A Coruña, Spain, ki",
+      "desc": "Aviaco Flight 118 crashes on approach to A Coruña Airport in A Coruña, Spain, killing all 85 people on the plane and one other one the ground.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1973-06-28",
       "title": "NI Assembly Elections",
       "desc": "Northern Ireland Assembly elections held",
@@ -1010,10 +964,10 @@
       "type": "general"
     },
     {
-      "date": "1969-08-12",
-      "title": "Violence erupts after the Apprentice Boys of Derry march in Derry, Northern Irel",
-      "desc": "Violence erupts after the Apprentice Boys of Derry march in Derry, Northern Ireland, resulting in a three-day communal riot known as the Battle of the Bogside.",
-      "type": "general",
+      "date": "1969-08-13",
+      "title": "The Apollo 11 astronauts enjoy a ticker-tape parade in New York City. That eveni",
+      "desc": "The Apollo 11 astronauts enjoy a ticker-tape parade in New York City. That evening, at a state dinner in Los Angeles, they are awarded the Presidential Medal of Freedom by U.S. President Richard Nixon",
+      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -1037,6 +991,13 @@
       "type": "politics"
     },
     {
+      "date": "1968-08-13",
+      "title": "Alexandros Panagoulis attempts to assassinate the Greek dictator Colonel Georgio",
+      "desc": "Alexandros Panagoulis attempts to assassinate the Greek dictator Colonel Georgios Papadopoulos in Varkiza, Athens.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1968-06-05",
       "title": "RFK Assassinated",
       "desc": "Robert F. Kennedy shot after winning California primary",
@@ -1055,6 +1016,13 @@
       "title": "Che Guevara Killed",
       "desc": "Revolutionary Che Guevara executed in Bolivia",
       "type": "politics"
+    },
+    {
+      "date": "1967-08-13",
+      "title": "Two young women became the first fatal victims of grizzly bear attacks in the 57",
+      "desc": "Two young women became the first fatal victims of grizzly bear attacks in the 57-year history of Montana's Glacier National Park in separate incidents.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1967-06-05",
@@ -1079,10 +1047,10 @@
   ],
   "1964": [
     {
-      "date": "1964-08-12",
-      "title": "South Africa is banned from the Olympic Games due to the country's racist polici",
-      "desc": "South Africa is banned from the Olympic Games due to the country's racist policies.",
-      "type": "sports",
+      "date": "1964-08-13",
+      "title": "Peter Allen and Gwynne Evans are hanged for the murder of John Alan West becomin",
+      "desc": "Peter Allen and Gwynne Evans are hanged for the murder of John Alan West becoming the last people executed in the United Kingdom.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -1134,6 +1102,13 @@
       "type": "politics"
     },
     {
+      "date": "1961-08-13",
+      "title": "Cold War: East Germany closes the border between the eastern and western sectors",
+      "desc": "Cold War: East Germany closes the border between the eastern and western sectors of Berlin to thwart its inhabitants' attempts to escape to the West, and construction of the Berlin Wall is started. Th",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1961-04-12",
       "title": "First Human in Space",
       "desc": "Yuri Gagarin becomes first person to orbit Earth",
@@ -1142,10 +1117,10 @@
   ],
   "1960": [
     {
-      "date": "1960-08-12",
-      "title": "Echo 1A, NASA's first successful communications satellite, is launched.",
-      "desc": "Echo 1A, NASA's first successful communications satellite, is launched.",
-      "type": "tech",
+      "date": "1960-08-13",
+      "title": "The Central African Republic declares independence from France.",
+      "desc": "The Central African Republic declares independence from France.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -1219,6 +1194,13 @@
   ],
   "1954": [
     {
+      "date": "1954-08-13",
+      "title": "Radio Pakistan broadcasts the \"Qaumī Tarāna\", the national anthem of Pakistan fo",
+      "desc": "Radio Pakistan broadcasts the \"Qaumī Tarāna\", the national anthem of Pakistan for the first time.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1954-05-17",
       "title": "Brown v. Board",
       "desc": "US Supreme Court declares school segregation unconstitutional",
@@ -1232,20 +1214,6 @@
     }
   ],
   "1953": [
-    {
-      "date": "1953-08-12",
-      "title": "Thermonuclear bomb testing: The Soviet atomic bomb project continues with the de",
-      "desc": "Thermonuclear bomb testing: The Soviet atomic bomb project continues with the detonation of \"RDS-6s\" (Joe 4) using a \"layered\" scheme.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1953-08-12",
-      "title": "The 7.2 Ms Ionian earthquake shakes the southern Ionian Islands with a maximum M",
-      "desc": "The 7.2 Ms Ionian earthquake shakes the southern Ionian Islands with a maximum Mercalli intensity of X (Extreme). Between 445 and 800 people are killed.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
     {
       "date": "1953-06-02",
       "title": "Elizabeth Coronation",
@@ -1265,13 +1233,6 @@
       "title": "First H-Bomb Test",
       "desc": "US tests first hydrogen bomb (Ivy Mike)",
       "type": "science"
-    },
-    {
-      "date": "1952-08-12",
-      "title": "The Night of the Murdered Poets: Thirteen prominent Jewish intellectuals are mur",
-      "desc": "The Night of the Murdered Poets: Thirteen prominent Jewish intellectuals are murdered in Moscow, Russia, Soviet Union.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1952-02-06",
@@ -1294,13 +1255,6 @@
       "title": "China Enters Korean War",
       "desc": "Chinese forces engage UN troops in Korea",
       "type": "politics"
-    },
-    {
-      "date": "1950-08-12",
-      "title": "Korean War: Bloody Gulch massacre: Seventy-five American POWs are massacred by t",
-      "desc": "Korean War: Bloody Gulch massacre: Seventy-five American POWs are massacred by the North Korean Army.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1950-06-28",
@@ -1341,13 +1295,6 @@
       "title": "Universal Declaration",
       "desc": "UN adopts Universal Declaration of Human Rights",
       "type": "politics"
-    },
-    {
-      "date": "1948-08-12",
-      "title": "Between 15 and 150 unarmed members of the Khudai Khidmatgar movement are killed ",
-      "desc": "Between 15 and 150 unarmed members of the Khudai Khidmatgar movement are killed by Pakistani police.",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1948-06-28",
@@ -1404,23 +1351,9 @@
   ],
   "1944": [
     {
-      "date": "1944-08-12",
-      "title": "World War II:  Waffen-SS troops massacre 560 people in Sant'Anna di Stazzema.",
-      "desc": "World War II:  Waffen-SS troops massacre 560 people in Sant'Anna di Stazzema.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1944-08-12",
-      "title": "World War II:  Nazi German troops end the week-long Wola massacre, during which ",
-      "desc": "World War II:  Nazi German troops end the week-long Wola massacre, during which at least 40,000 people are killed indiscriminately or in mass executions.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1944-08-12",
-      "title": "World War II:  Alençon is liberated by General Philippe Leclerc de Hauteclocque,",
-      "desc": "World War II:  Alençon is liberated by General Philippe Leclerc de Hauteclocque, becoming the first city in France to be liberated from the Nazis by French forces.",
+      "date": "1944-08-13",
+      "title": "World War II: German troops begin the pillage and razing of Anogeia in Crete tha",
+      "desc": "World War II: German troops begin the pillage and razing of Anogeia in Crete that would continue until September 5.",
       "type": "politics",
       "source": "wikipedia"
     },
@@ -1437,6 +1370,15 @@
       "type": "politics"
     }
   ],
+  "1942": [
+    {
+      "date": "1942-08-13",
+      "title": "Major General Eugene Reybold of the U.S. Army Corps of Engineers authorizes the ",
+      "desc": "Major General Eugene Reybold of the U.S. Army Corps of Engineers authorizes the construction of facilities that would house the \"Development of Substitute Materials\" project, better known as the Manha",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1941": [
     {
       "date": "1941-12-07",
@@ -1449,6 +1391,15 @@
       "title": "Operation Barbarossa",
       "desc": "Germany invades Soviet Union",
       "type": "politics"
+    }
+  ],
+  "1940": [
+    {
+      "date": "1940-08-13",
+      "title": "World War II: The German Luftwaffe launches an air operation, codenamed Adlertag",
+      "desc": "World War II: The German Luftwaffe launches an air operation, codenamed Adlertag, during the Battle of Britain in an attempt to destroy the British Royal Air Force.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1939": [
@@ -1466,6 +1417,13 @@
     }
   ],
   "1937": [
+    {
+      "date": "1937-08-13",
+      "title": "Second Sino-Japanese War: The Battle of Shanghai begins.",
+      "desc": "Second Sino-Japanese War: The Battle of Shanghai begins.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1937-07-07",
       "title": "Marco Polo Bridge",
@@ -1593,6 +1551,15 @@
       "type": "politics"
     }
   ],
+  "1920": [
+    {
+      "date": "1920-08-13",
+      "title": "Polish–Soviet War: The Battle of Warsaw begins and will last till August 25. The",
+      "desc": "Polish–Soviet War: The Battle of Warsaw begins and will last till August 25. The Red Army is defeated.",
+      "type": "politics",
+      "source": "wikipedia"
+    }
+  ],
   "1919": [
     {
       "date": "1919-06-28",
@@ -1613,6 +1580,20 @@
       "title": "WWI Armistice",
       "desc": "World War I ends at 11th hour of 11th day",
       "type": "politics"
+    },
+    {
+      "date": "1918-08-13",
+      "title": "Women enlist in the United States Marine Corps for the first time. Opha May John",
+      "desc": "Women enlist in the United States Marine Corps for the first time. Opha May Johnson is the first woman to enlist.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1918-08-13",
+      "title": "Bayerische Motoren Werke AG (BMW) is established as a public company in Germany.",
+      "desc": "Bayerische Motoren Werke AG (BMW) is established as a public company in Germany.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1918-03-04",
@@ -1637,20 +1618,6 @@
   ],
   "1914": [
     {
-      "date": "1914-08-12",
-      "title": "World War I:  France, the United Kingdom and the British Empire declare war on A",
-      "desc": "World War I:  France, the United Kingdom and the British Empire declare war on Austria-Hungary.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1914-08-12",
-      "title": "World War I: The Battle of Halen a.k.a. Battle of the Silver Helmets, a clash be",
-      "desc": "World War I: The Battle of Halen a.k.a. Battle of the Silver Helmets, a clash between large Belgian and German cavalry formations at Halen, Belgium.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1914-07-28",
       "title": "WWI Begins",
       "desc": "Austria-Hungary declares war on Serbia",
@@ -1661,6 +1628,15 @@
       "title": "Archduke Franz Ferdinand Assassinated",
       "desc": "Assassination triggers outbreak of World War I",
       "type": "politics"
+    }
+  ],
+  "1913": [
+    {
+      "date": "1913-08-13",
+      "title": "First production in the UK of stainless steel by Harry Brearley.",
+      "desc": "First production in the UK of stainless steel by Harry Brearley.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1912": [
@@ -1691,12 +1667,28 @@
       "type": "science"
     }
   ],
+  "1906": [
+    {
+      "date": "1906-08-13",
+      "title": "The all black infantrymen of the U.S. Army's 25th Infantry Regiment are accused ",
+      "desc": "The all black infantrymen of the U.S. Army's 25th Infantry Regiment are accused of killing a white bartender and wounding a white police officer in Brownsville, Texas, despite exculpatory evidence; al",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1905": [
     {
       "date": "1905-09-05",
       "title": "Treaty of Portsmouth",
       "desc": "Ends Russo-Japanese War, Japan becomes major power",
       "type": "politics"
+    },
+    {
+      "date": "1905-08-13",
+      "title": "Norwegians vote to end the union with Sweden.",
+      "desc": "Norwegians vote to end the union with Sweden.",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "1905-06-15",
@@ -1739,6 +1731,13 @@
       "title": "Quantum Theory",
       "desc": "Max Planck publishes quantum theory paper",
       "type": "science"
+    },
+    {
+      "date": "1900-08-13",
+      "title": "The steamer Deutschland of Hamburg America Lines sets a new record for the eastw",
+      "desc": "The steamer Deutschland of Hamburg America Lines sets a new record for the eastward passage when it docks in Plymouth, England, five days, 11 hours and 45 minutes after sailing from New York, breaking",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1900-05-14",
