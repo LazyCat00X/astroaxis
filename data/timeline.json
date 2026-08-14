@@ -85,6 +85,13 @@
       "type": "politics"
     },
     {
+      "date": "2023-08-14",
+      "title": "Former U.S. president Donald Trump is charged in Georgia along with 18 others in",
+      "desc": "Former U.S. president Donald Trump is charged in Georgia along with 18 others in attempting to overturn the results of the 2020 election in that state, his fourth indictment of 2023.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "2023-07-19",
       "title": "Global Temperature Record",
       "desc": "Hottest month ever recorded globally",
@@ -117,6 +124,13 @@
       "type": "politics"
     },
     {
+      "date": "2022-08-14",
+      "title": "An explosion destroys a market in Armenia, killing six people and injuring dozen",
+      "desc": "An explosion destroys a market in Armenia, killing six people and injuring dozens.",
+      "type": "finance",
+      "source": "wikipedia"
+    },
+    {
       "date": "2022-02-24",
       "title": "Russia Invades Ukraine",
       "desc": "Full-scale invasion begins, major European conflict",
@@ -143,6 +157,13 @@
       "type": "politics"
     },
     {
+      "date": "2021-08-14",
+      "title": "A magnitude 7.2 earthquake strikes southwestern Haiti, killing at least 2,248 pe",
+      "desc": "A magnitude 7.2 earthquake strikes southwestern Haiti, killing at least 2,248 people and causing a humanitarian crisis.",
+      "type": "finance",
+      "source": "wikipedia"
+    },
+    {
       "date": "2021-02-18",
       "title": "Mars Landing",
       "desc": "NASA Perseverance rover lands on Mars",
@@ -156,13 +177,6 @@
     }
   ],
   "2020": [
-    {
-      "date": "2020-08-13",
-      "title": "Israel–United Arab Emirates relations are formally established.",
-      "desc": "Israel–United Arab Emirates relations are formally established.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "2020-03-11",
       "title": "COVID-19 Pandemic",
@@ -203,6 +217,13 @@
     }
   ],
   "2018": [
+    {
+      "date": "2018-08-14",
+      "title": "The collapse of the Ponte Morandi bridge in Genoa, Italy, left 16 people injured",
+      "desc": "The collapse of the Ponte Morandi bridge in Genoa, Italy, left 16 people injured and 43 people killed.",
+      "type": "disaster",
+      "source": "wikipedia"
+    },
     {
       "date": "2018-06-12",
       "title": "Trump-Kim Summit",
@@ -276,9 +297,9 @@
       "type": "science"
     },
     {
-      "date": "2015-08-13",
-      "title": "At least 76 people are killed and 212 others are wounded in a truck bombing in B",
-      "desc": "At least 76 people are killed and 212 others are wounded in a truck bombing in Baghdad, Iraq.",
+      "date": "2015-08-14",
+      "title": "The U.S. Embassy in Havana, Cuba re-opens after 54 years of being closed when Cu",
+      "desc": "The U.S. Embassy in Havana, Cuba re-opens after 54 years of being closed when Cuba–United States relations were broken off.",
       "type": "general",
       "source": "wikipedia"
     }
@@ -289,13 +310,6 @@
       "title": "Scottish Independence Vote",
       "desc": "Scotland votes against independence from UK",
       "type": "politics"
-    },
-    {
-      "date": "2014-08-13",
-      "title": "A Cessna Citation Excel crashes in Santos, São Paulo, Brazil killing all seven p",
-      "desc": "A Cessna Citation Excel crashes in Santos, São Paulo, Brazil killing all seven people aboard, including Brazilian Socialist Party presidential candidate Eduardo Campos.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "2014-06-29",
@@ -316,6 +330,20 @@
       "title": "Nelson Mandela Dies",
       "desc": "Anti-apartheid icon dies at 95",
       "type": "politics"
+    },
+    {
+      "date": "2013-08-14",
+      "title": "Egypt declares a state of emergency as security forces kill hundreds of demonstr",
+      "desc": "Egypt declares a state of emergency as security forces kill hundreds of demonstrators supporting former president Mohamed Morsi.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2013-08-14",
+      "title": "UPS Airlines Flight 1354 crashes short of the runway at Birmingham–Shuttlesworth",
+      "desc": "UPS Airlines Flight 1354 crashes short of the runway at Birmingham–Shuttlesworth International Airport, killing both crew members on board.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "2013-06-06",
@@ -428,16 +456,16 @@
       "title": "Lehman Brothers Collapse",
       "desc": "Investment bank fails, triggering global financial crisis",
       "type": "finance"
-    },
-    {
-      "date": "2008-08-13",
-      "title": "Russo-Georgian War: Russian units occupy the Georgian city of Gori.",
-      "desc": "Russo-Georgian War: Russian units occupy the Georgian city of Gori.",
-      "type": "politics",
-      "source": "wikipedia"
     }
   ],
   "2007": [
+    {
+      "date": "2007-08-14",
+      "title": "The Kahtaniya bombings kill at least 500 people.",
+      "desc": "The Kahtaniya bombings kill at least 500 people.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "2007-06-29",
       "title": "iPhone Released",
@@ -451,12 +479,35 @@
       "type": "tech"
     }
   ],
+  "2006": [
+    {
+      "date": "2006-08-14",
+      "title": "Lebanon War: A ceasefire takes effect three days after the United Nations Securi",
+      "desc": "Lebanon War: A ceasefire takes effect three days after the United Nations Security Council's approval of United Nations Security Council Resolution 1701, formally ending hostilities between Lebanon an",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2006-08-14",
+      "title": "Sri Lankan Civil War: Sixty-one schoolgirls killed in Chencholai bombing by Sri ",
+      "desc": "Sri Lankan Civil War: Sixty-one schoolgirls killed in Chencholai bombing by Sri Lanka Air Force air strike.",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "2005": [
     {
       "date": "2005-08-25",
       "title": "Hurricane Katrina",
       "desc": "Devastating hurricane hits New Orleans",
       "type": "disaster"
+    },
+    {
+      "date": "2005-08-14",
+      "title": "Helios Airways Flight 522, en route from Larnaca, Cyprus to Prague, Czech Republ",
+      "desc": "Helios Airways Flight 522, en route from Larnaca, Cyprus to Prague, Czech Republic via Athens, crashes in the hills near Grammatiko, Greece, killing 121 passengers and crew.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "2005-07-07",
@@ -479,13 +530,6 @@
       "type": "disaster"
     },
     {
-      "date": "2004-08-13",
-      "title": "One hundred fifty-six Congolese Tutsi refugees are massacred at the Gatumba refu",
-      "desc": "One hundred fifty-six Congolese Tutsi refugees are massacred at the Gatumba refugee camp in Burundi.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2004-06-28",
       "title": "Iraq Sovereignty",
       "desc": "Coalition hands sovereignty to interim Iraqi government",
@@ -499,6 +543,13 @@
     }
   ],
   "2003": [
+    {
+      "date": "2003-08-14",
+      "title": "A widescale power blackout affects the northeast United States and Canada.",
+      "desc": "A widescale power blackout affects the northeast United States and Canada.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "2003-03-20",
       "title": "Iraq War Begins",
@@ -588,6 +639,15 @@
       "type": "tech"
     }
   ],
+  "1996": [
+    {
+      "date": "1996-08-14",
+      "title": "Greek Cypriot refugee Solomos Solomou is shot and killed by a Turkish security o",
+      "desc": "Greek Cypriot refugee Solomos Solomou is shot and killed by a Turkish security officer while trying to climb a flagpole in order to remove a Turkish flag from its mast in the United Nations Buffer Zon",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1995": [
     {
       "date": "1995-12-14",
@@ -603,6 +663,13 @@
     }
   ],
   "1994": [
+    {
+      "date": "1994-08-14",
+      "title": "Ilich Ramírez Sánchez, also known as \"Carlos the Jackal\", is captured.",
+      "desc": "Ilich Ramírez Sánchez, also known as \"Carlos the Jackal\", is captured.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1994-05-10",
       "title": "Mandela President",
@@ -670,13 +737,6 @@
       "title": "German Reunification",
       "desc": "East and West Germany reunify",
       "type": "politics"
-    },
-    {
-      "date": "1990-08-13",
-      "title": "A mainland Chinese fishing boat Min Ping Yu No. 5202 is hit by a Taiwanese naval",
-      "desc": "A mainland Chinese fishing boat Min Ping Yu No. 5202 is hit by a Taiwanese naval vessel and sinks in a repatriation operation of mainland Chinese immigrants, resulting in 21 deaths. This is the second",
-      "type": "tech",
-      "source": "wikipedia"
     },
     {
       "date": "1990-08-02",
@@ -803,6 +863,13 @@
       "type": "politics"
     },
     {
+      "date": "1980-08-14",
+      "title": "Lech Wałęsa leads strikes at the Gdańsk, Poland shipyards.",
+      "desc": "Lech Wałęsa leads strikes at the Gdańsk, Poland shipyards.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1980-05-18",
       "title": "Mount St. Helens Erupts",
       "desc": "Volcanic eruption kills 57 in Washington state",
@@ -824,13 +891,6 @@
     }
   ],
   "1978": [
-    {
-      "date": "1978-08-13",
-      "title": "One hundred fifty Palestinians in Beirut are killed in a terrorist attack during",
-      "desc": "One hundred fifty Palestinians in Beirut are killed in a terrorist attack during the second phase of the Lebanese Civil War.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
     {
       "date": "1978-07-25",
       "title": "First IVF Baby",
@@ -856,13 +916,6 @@
       "title": "Elvis Dies",
       "desc": "Elvis Presley dies at Graceland at age 42",
       "type": "general"
-    },
-    {
-      "date": "1977-08-13",
-      "title": "Members of the British National Front (NF) clash with anti-NF demonstrators in L",
-      "desc": "Members of the British National Front (NF) clash with anti-NF demonstrators in Lewisham, London, resulting in 214 arrests and at least 111 injuries.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1976": [
@@ -895,6 +948,13 @@
   ],
   "1974": [
     {
+      "date": "1974-08-14",
+      "title": "Turkey launches the second phase of the invasion of Cyprus, which eventually res",
+      "desc": "Turkey launches the second phase of the invasion of Cyprus, which eventually resulted in the Turkish occupation of 37% of Cyprus.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1974-08-09",
       "title": "Nixon Resigns",
       "desc": "Richard Nixon resigns as US president after Watergate",
@@ -915,13 +975,6 @@
       "type": "finance"
     },
     {
-      "date": "1973-08-13",
-      "title": "Aviaco Flight 118 crashes on approach to A Coruña Airport in A Coruña, Spain, ki",
-      "desc": "Aviaco Flight 118 crashes on approach to A Coruña Airport in A Coruña, Spain, killing all 85 people on the plane and one other one the ground.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1973-06-28",
       "title": "NI Assembly Elections",
       "desc": "Northern Ireland Assembly elections held",
@@ -934,6 +987,13 @@
       "title": "Munich Massacre",
       "desc": "Palestinian terrorists kill Israeli athletes at Olympics",
       "type": "disaster"
+    },
+    {
+      "date": "1972-08-14",
+      "title": "An Ilyushin Il-62 airliner crashes near Königs Wusterhausen, East Germany killin",
+      "desc": "An Ilyushin Il-62 airliner crashes near Königs Wusterhausen, East Germany killing 156 people.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1972-02-21",
@@ -954,6 +1014,13 @@
       "title": "Bretton Woods Ends",
       "desc": "Nixon ends gold standard, floating exchange rates begin",
       "type": "finance"
+    },
+    {
+      "date": "1971-08-14",
+      "title": "Bahrain declares independence from Britain.",
+      "desc": "Bahrain declares independence from Britain.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1969": [
@@ -964,10 +1031,10 @@
       "type": "general"
     },
     {
-      "date": "1969-08-13",
-      "title": "The Apollo 11 astronauts enjoy a ticker-tape parade in New York City. That eveni",
-      "desc": "The Apollo 11 astronauts enjoy a ticker-tape parade in New York City. That evening, at a state dinner in Los Angeles, they are awarded the Presidential Medal of Freedom by U.S. President Richard Nixon",
-      "type": "politics",
+      "date": "1969-08-14",
+      "title": "The Troubles: British troops are deployed in Northern Ireland as political and s",
+      "desc": "The Troubles: British troops are deployed in Northern Ireland as political and sectarian violence breaks out, marking the start of the 37-year Operation Banner.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -991,13 +1058,6 @@
       "type": "politics"
     },
     {
-      "date": "1968-08-13",
-      "title": "Alexandros Panagoulis attempts to assassinate the Greek dictator Colonel Georgio",
-      "desc": "Alexandros Panagoulis attempts to assassinate the Greek dictator Colonel Georgios Papadopoulos in Varkiza, Athens.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1968-06-05",
       "title": "RFK Assassinated",
       "desc": "Robert F. Kennedy shot after winning California primary",
@@ -1018,9 +1078,9 @@
       "type": "politics"
     },
     {
-      "date": "1967-08-13",
-      "title": "Two young women became the first fatal victims of grizzly bear attacks in the 57",
-      "desc": "Two young women became the first fatal victims of grizzly bear attacks in the 57-year history of Montana's Glacier National Park in separate incidents.",
+      "date": "1967-08-14",
+      "title": "UK Marine Broadcasting Offences Act 1967 declares participation in offshore pira",
+      "desc": "UK Marine Broadcasting Offences Act 1967 declares participation in offshore pirate radio illegal.",
       "type": "general",
       "source": "wikipedia"
     },
@@ -1046,13 +1106,6 @@
     }
   ],
   "1964": [
-    {
-      "date": "1964-08-13",
-      "title": "Peter Allen and Gwynne Evans are hanged for the murder of John Alan West becomin",
-      "desc": "Peter Allen and Gwynne Evans are hanged for the murder of John Alan West becoming the last people executed in the United Kingdom.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1964-08-07",
       "title": "Gulf of Tonkin",
@@ -1102,13 +1155,6 @@
       "type": "politics"
     },
     {
-      "date": "1961-08-13",
-      "title": "Cold War: East Germany closes the border between the eastern and western sectors",
-      "desc": "Cold War: East Germany closes the border between the eastern and western sectors of Berlin to thwart its inhabitants' attempts to escape to the West, and construction of the Berlin Wall is started. Th",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1961-04-12",
       "title": "First Human in Space",
       "desc": "Yuri Gagarin becomes first person to orbit Earth",
@@ -1116,13 +1162,6 @@
     }
   ],
   "1960": [
-    {
-      "date": "1960-08-13",
-      "title": "The Central African Republic declares independence from France.",
-      "desc": "The Central African Republic declares independence from France.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1960-05-01",
       "title": "U-2 Incident",
@@ -1137,6 +1176,13 @@
     }
   ],
   "1959": [
+    {
+      "date": "1959-08-14",
+      "title": "Founding and first official meeting of the American Football League.",
+      "desc": "Founding and first official meeting of the American Football League.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1959-07-24",
       "title": "Kitchen Debate",
@@ -1193,13 +1239,6 @@
     }
   ],
   "1954": [
-    {
-      "date": "1954-08-13",
-      "title": "Radio Pakistan broadcasts the \"Qaumī Tarāna\", the national anthem of Pakistan fo",
-      "desc": "Radio Pakistan broadcasts the \"Qaumī Tarāna\", the national anthem of Pakistan for the first time.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1954-05-17",
       "title": "Brown v. Board",
@@ -1297,6 +1336,13 @@
       "type": "politics"
     },
     {
+      "date": "1948-08-14",
+      "title": "An Idaho Department of Fish and Game program to relocate beavers known as Beaver",
+      "desc": "An Idaho Department of Fish and Game program to relocate beavers known as Beaver drop occurred. This program relocated beavers from Northwestern Idaho to Central Idaho by airplane and then parachuting",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1948-06-28",
       "title": "Tito-Stalin Split",
       "desc": "Yugoslavia expelled from Soviet bloc",
@@ -1315,6 +1361,13 @@
       "title": "India Independence",
       "desc": "India gains independence from British rule",
       "type": "politics"
+    },
+    {
+      "date": "1947-08-14",
+      "title": "Pakistan gains independence from the British Empire as the Dominion of Pakistan,",
+      "desc": "Pakistan gains independence from the British Empire as the Dominion of Pakistan, due to the partition of India.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1947-06-05",
@@ -1351,13 +1404,6 @@
   ],
   "1944": [
     {
-      "date": "1944-08-13",
-      "title": "World War II: German troops begin the pillage and razing of Anogeia in Crete tha",
-      "desc": "World War II: German troops begin the pillage and razing of Anogeia in Crete that would continue until September 5.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1944-07-20",
       "title": "Hitler Assassination Attempt",
       "desc": "Operation Valkyrie: von Stauffenberg tries to kill Hitler",
@@ -1370,15 +1416,6 @@
       "type": "politics"
     }
   ],
-  "1942": [
-    {
-      "date": "1942-08-13",
-      "title": "Major General Eugene Reybold of the U.S. Army Corps of Engineers authorizes the ",
-      "desc": "Major General Eugene Reybold of the U.S. Army Corps of Engineers authorizes the construction of facilities that would house the \"Development of Substitute Materials\" project, better known as the Manha",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1941": [
     {
       "date": "1941-12-07",
@@ -1387,19 +1424,17 @@
       "type": "politics"
     },
     {
+      "date": "1941-08-14",
+      "title": "World War II: Winston Churchill and Franklin D. Roosevelt sign the Atlantic Char",
+      "desc": "World War II: Winston Churchill and Franklin D. Roosevelt sign the Atlantic Charter of war stating postwar aims.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1941-06-22",
       "title": "Operation Barbarossa",
       "desc": "Germany invades Soviet Union",
       "type": "politics"
-    }
-  ],
-  "1940": [
-    {
-      "date": "1940-08-13",
-      "title": "World War II: The German Luftwaffe launches an air operation, codenamed Adlertag",
-      "desc": "World War II: The German Luftwaffe launches an air operation, codenamed Adlertag, during the Battle of Britain in an attempt to destroy the British Royal Air Force.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1939": [
@@ -1418,13 +1453,6 @@
   ],
   "1937": [
     {
-      "date": "1937-08-13",
-      "title": "Second Sino-Japanese War: The Battle of Shanghai begins.",
-      "desc": "Second Sino-Japanese War: The Battle of Shanghai begins.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1937-07-07",
       "title": "Marco Polo Bridge",
       "desc": "Full-scale war between China and Japan begins",
@@ -1439,6 +1467,13 @@
   ],
   "1936": [
     {
+      "date": "1936-08-14",
+      "title": "Rainey Bethea is hanged in Owensboro, Kentucky in the last known public executio",
+      "desc": "Rainey Bethea is hanged in Owensboro, Kentucky in the last known public execution in the United States.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1936-07-17",
       "title": "Spanish Civil War",
       "desc": "Nationalist forces rebel against Spanish Republic",
@@ -1451,7 +1486,23 @@
       "type": "politics"
     }
   ],
+  "1935": [
+    {
+      "date": "1935-08-14",
+      "title": "Franklin D. Roosevelt signs the Social Security Act, creating a government pensi",
+      "desc": "Franklin D. Roosevelt signs the Social Security Act, creating a government pension system for the retired.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1933": [
+    {
+      "date": "1933-08-14",
+      "title": "Loggers cause a forest fire in the Coast Range of Oregon, later known as the fir",
+      "desc": "Loggers cause a forest fire in the Coast Range of Oregon, later known as the first forest fire of the Tillamook Burn;  destroying 240,000 acres (970 km2) of land.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1933-03-04",
       "title": "FDR Inaugurated",
@@ -1539,6 +1590,13 @@
   ],
   "1921": [
     {
+      "date": "1921-08-14",
+      "title": "Tannu Uriankhai, later Tuvan People's Republic is established as a completely in",
+      "desc": "Tannu Uriankhai, later Tuvan People's Republic is established as a completely independent country (which is supported by Soviet Russia).",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1921-07-01",
       "title": "Chinese Communist Party",
       "desc": "CCP founded in Shanghai",
@@ -1553,10 +1611,10 @@
   ],
   "1920": [
     {
-      "date": "1920-08-13",
-      "title": "Polish–Soviet War: The Battle of Warsaw begins and will last till August 25. The",
-      "desc": "Polish–Soviet War: The Battle of Warsaw begins and will last till August 25. The Red Army is defeated.",
-      "type": "politics",
+      "date": "1920-08-14",
+      "title": "The 1920 Summer Olympics, having started four months earlier, officially open in",
+      "desc": "The 1920 Summer Olympics, having started four months earlier, officially open in Antwerp, Belgium, with the newly adopted Olympic flag and the Olympic oath being raised and taken at the Opening Ceremo",
+      "type": "tech",
       "source": "wikipedia"
     }
   ],
@@ -1582,20 +1640,6 @@
       "type": "politics"
     },
     {
-      "date": "1918-08-13",
-      "title": "Women enlist in the United States Marine Corps for the first time. Opha May John",
-      "desc": "Women enlist in the United States Marine Corps for the first time. Opha May Johnson is the first woman to enlist.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1918-08-13",
-      "title": "Bayerische Motoren Werke AG (BMW) is established as a public company in Germany.",
-      "desc": "Bayerische Motoren Werke AG (BMW) is established as a public company in Germany.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1918-03-04",
       "title": "Spanish Flu First Case",
       "desc": "First case of deadly pandemic reported in Kansas",
@@ -1610,6 +1654,13 @@
       "type": "politics"
     },
     {
+      "date": "1917-08-14",
+      "title": "World War I: The Republic of China, which had heretofore been shipping labourers",
+      "desc": "World War I: The Republic of China, which had heretofore been shipping labourers to Europe to assist in the war effort, officially declares war on the Central Powers, although it will continue to send",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1917-06-28",
       "title": "Greece Enters WWI",
       "desc": "Greece joins Allied powers in World War I",
@@ -1617,6 +1668,13 @@
     }
   ],
   "1914": [
+    {
+      "date": "1914-08-14",
+      "title": "World War I: Start of the Battle of Lorraine, an unsuccessful French offensive.",
+      "desc": "World War I: Start of the Battle of Lorraine, an unsuccessful French offensive.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1914-07-28",
       "title": "WWI Begins",
@@ -1628,15 +1686,6 @@
       "title": "Archduke Franz Ferdinand Assassinated",
       "desc": "Assassination triggers outbreak of World War I",
       "type": "politics"
-    }
-  ],
-  "1913": [
-    {
-      "date": "1913-08-13",
-      "title": "First production in the UK of stainless steel by Harry Brearley.",
-      "desc": "First production in the UK of stainless steel by Harry Brearley.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1912": [
@@ -1667,28 +1716,12 @@
       "type": "science"
     }
   ],
-  "1906": [
-    {
-      "date": "1906-08-13",
-      "title": "The all black infantrymen of the U.S. Army's 25th Infantry Regiment are accused ",
-      "desc": "The all black infantrymen of the U.S. Army's 25th Infantry Regiment are accused of killing a white bartender and wounding a white police officer in Brownsville, Texas, despite exculpatory evidence; al",
-      "type": "general",
-      "source": "wikipedia"
-    }
-  ],
   "1905": [
     {
       "date": "1905-09-05",
       "title": "Treaty of Portsmouth",
       "desc": "Ends Russo-Japanese War, Japan becomes major power",
       "type": "politics"
-    },
-    {
-      "date": "1905-08-13",
-      "title": "Norwegians vote to end the union with Sweden.",
-      "desc": "Norwegians vote to end the union with Sweden.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1905-06-15",
@@ -1719,6 +1752,13 @@
       "type": "science"
     },
     {
+      "date": "1901-08-14",
+      "title": "The first claimed powered flight, by Gustave Whitehead in his Number 21.",
+      "desc": "The first claimed powered flight, by Gustave Whitehead in his Number 21.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1901-01-01",
       "title": "Australian Federation",
       "desc": "Six colonies federate as Commonwealth of Australia",
@@ -1733,9 +1773,9 @@
       "type": "science"
     },
     {
-      "date": "1900-08-13",
-      "title": "The steamer Deutschland of Hamburg America Lines sets a new record for the eastw",
-      "desc": "The steamer Deutschland of Hamburg America Lines sets a new record for the eastward passage when it docks in Plymouth, England, five days, 11 hours and 45 minutes after sailing from New York, breaking",
+      "date": "1900-08-14",
+      "title": "Battle of Peking: The Eight-Nation Alliance occupies Beijing, China, in a campai",
+      "desc": "Battle of Peking: The Eight-Nation Alliance occupies Beijing, China, in a campaign to end the bloody Boxer Rebellion in China.",
       "type": "tech",
       "source": "wikipedia"
     },
