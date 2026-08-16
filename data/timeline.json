@@ -33,13 +33,6 @@
       "type": "crypto"
     },
     {
-      "date": "2025-08-15",
-      "title": "US president Donald Trump meets with Russian president Vladimir Putin in Alaska,",
-      "desc": "US president Donald Trump meets with Russian president Vladimir Putin in Alaska, the first such summit since the 2022 Russian invasion of Ukraine.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2025-06-15",
       "title": "USMCA Renegotiation",
       "desc": "North American trade deal renegotiation begins",
@@ -150,13 +143,6 @@
       "type": "politics"
     },
     {
-      "date": "2021-08-15",
-      "title": "Kabul falls into the hands of the Taliban as Ashraf Ghani flees Afghanistan alon",
-      "desc": "Kabul falls into the hands of the Taliban as Ashraf Ghani flees Afghanistan along with local residents and foreign nationals, effectively reestablishing the Islamic Emirate of Afghanistan.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2021-02-18",
       "title": "Mars Landing",
       "desc": "NASA Perseverance rover lands on Mars",
@@ -171,10 +157,10 @@
   ],
   "2020": [
     {
-      "date": "2020-08-15",
-      "title": "Russia begins production on the Sputnik V COVID-19 vaccine.",
-      "desc": "Russia begins production on the Sputnik V COVID-19 vaccine.",
-      "type": "science",
+      "date": "2020-08-16",
+      "title": "The August Complex fire in California burns more than one million acres of land.",
+      "desc": "The August Complex fire in California burns more than one million acres of land.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -290,10 +276,17 @@
       "type": "science"
     },
     {
-      "date": "2015-08-15",
-      "title": "North Korea moves its clock back half an hour to introduce Pyongyang Time, 81⁄2 ",
-      "desc": "North Korea moves its clock back half an hour to introduce Pyongyang Time, 81⁄2 hours ahead of UTC.",
-      "type": "general",
+      "date": "2015-08-16",
+      "title": "More than 96 people are killed and hundreds injured following a series of air-ra",
+      "desc": "More than 96 people are killed and hundreds injured following a series of air-raids by the Syrian Arab Air Force on the rebel-held market town of Douma.",
+      "type": "finance",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2015-08-16",
+      "title": "Trigana Air Flight 267, an ATR 42, crashes in Oksibil, Bintang Mountains Regency",
+      "desc": "Trigana Air Flight 267, an ATR 42, crashes in Oksibil, Bintang Mountains Regency, killing all 54 people on board.",
+      "type": "tech",
       "source": "wikipedia"
     }
   ],
@@ -325,17 +318,10 @@
       "type": "politics"
     },
     {
-      "date": "2013-08-15",
-      "title": "At least 27 people are killed and 226 injured in an explosion in southern Beirut",
-      "desc": "At least 27 people are killed and 226 injured in an explosion in southern Beirut near a complex used by Lebanon's militant group Hezbollah in Lebanon. A previously unknown Syrian Sunni group claims re",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2013-08-15",
-      "title": "The Smithsonian announces the discovery of the olinguito, the first new carnivor",
-      "desc": "The Smithsonian announces the discovery of the olinguito, the first new carnivorous species found in the Americas in 35 years.",
-      "type": "science",
+      "date": "2013-08-16",
+      "title": "The ferry St. Thomas Aquinas collides with a cargo ship and sinks at Cebu, Phili",
+      "desc": "The ferry St. Thomas Aquinas collides with a cargo ship and sinks at Cebu, Philippines, killing 61 people with 59 others missing.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -357,6 +343,13 @@
       "title": "Mayan Calendar Phenomenon",
       "desc": "Global fascination with predicted 'end of the world'",
       "type": "general"
+    },
+    {
+      "date": "2012-08-16",
+      "title": "South African police fatally shoot 34 miners and wound 78 more during an industr",
+      "desc": "South African police fatally shoot 34 miners and wound 78 more during an industrial dispute at Marikana near Rustenburg.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "2012-07-04",
@@ -392,6 +385,13 @@
     }
   ],
   "2010": [
+    {
+      "date": "2010-08-16",
+      "title": "AIRES Flight 8250 crashes at Gustavo Rojas Pinilla International Airport in San ",
+      "desc": "AIRES Flight 8250 crashes at Gustavo Rojas Pinilla International Airport in San Andrés, San Andrés y Providencia, Colombia, killing two people.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "2010-05-06",
       "title": "Flash Crash",
@@ -449,16 +449,16 @@
       "title": "Lehman Brothers Collapse",
       "desc": "Investment bank fails, triggering global financial crisis",
       "type": "finance"
+    },
+    {
+      "date": "2008-08-16",
+      "title": "The Trump International Hotel and Tower in Chicago is topped off at 1,389 feet (",
+      "desc": "The Trump International Hotel and Tower in Chicago is topped off at 1,389 feet (423 m), at the time becoming the world's highest residence above ground-level.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "2007": [
-    {
-      "date": "2007-08-15",
-      "title": "An 8.0-magnitude earthquake off the Pacific coast devastates Ica and various reg",
-      "desc": "An 8.0-magnitude earthquake off the Pacific coast devastates Ica and various regions of Peru, killing 514 and injuring 1,090.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
     {
       "date": "2007-06-29",
       "title": "iPhone Released",
@@ -480,17 +480,10 @@
       "type": "disaster"
     },
     {
-      "date": "2005-08-15",
-      "title": "Israel's unilateral disengagement plan to evict all Israelis from the Gaza Strip",
-      "desc": "Israel's unilateral disengagement plan to evict all Israelis from the Gaza Strip and from four settlements in the northern West Bank begins.",
-      "type": "finance",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2005-08-15",
-      "title": "The Helsinki Agreement between the Free Aceh Movement and the Government of Indo",
-      "desc": "The Helsinki Agreement between the Free Aceh Movement and the Government of Indonesia is signed, ending almost three decades of fighting.",
-      "type": "politics",
+      "date": "2005-08-16",
+      "title": "West Caribbean Airways Flight 708, a McDonnell Douglas MD-82, crashes in Machiqu",
+      "desc": "West Caribbean Airways Flight 708, a McDonnell Douglas MD-82, crashes in Machiques, Venezuela, killing all 160 people on board.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -570,13 +563,6 @@
   ],
   "1999": [
     {
-      "date": "1999-08-15",
-      "title": "Beni Ounif massacre in Algeria: Some 29 people are killed at a false roadblock n",
-      "desc": "Beni Ounif massacre in Algeria: Some 29 people are killed at a false roadblock near the Moroccan border, leading to temporary tensions with Morocco.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1999-03-24",
       "title": "Kosovo War",
       "desc": "NATO begins bombing campaign against Yugoslavia",
@@ -601,20 +587,6 @@
       "title": "Russian Default",
       "desc": "Russia defaults on domestic debt, ruble collapses",
       "type": "finance"
-    },
-    {
-      "date": "1998-08-15",
-      "title": "Northern Ireland: Omagh bombing takes place; 29 people (including a woman pregna",
-      "desc": "Northern Ireland: Omagh bombing takes place; 29 people (including a woman pregnant with twins) killed and some 220 others injured.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1998-08-15",
-      "title": "Apple introduces the iMac computer.",
-      "desc": "Apple introduces the iMac computer.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1997": [
@@ -643,20 +615,6 @@
       "title": "Dayton Agreement",
       "desc": "Peace agreement ends Bosnian War",
       "type": "politics"
-    },
-    {
-      "date": "1995-08-15",
-      "title": "In South Carolina, Shannon Faulkner becomes the first female cadet matriculated ",
-      "desc": "In South Carolina, Shannon Faulkner becomes the first female cadet matriculated at The Citadel (she drops out less than a week later).",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1995-08-15",
-      "title": "Tomiichi Murayama, Prime Minister of Japan, releases the Murayama Statement, whi",
-      "desc": "Tomiichi Murayama, Prime Minister of Japan, releases the Murayama Statement, which formally expresses remorse for Japanese war crimes committed during World War II.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1995-04-19",
@@ -715,6 +673,13 @@
       "type": "politics"
     },
     {
+      "date": "1991-08-16",
+      "title": "Indian Airlines Flight 257, a Boeing 737-200, crashes during approach to Imphal ",
+      "desc": "Indian Airlines Flight 257, a Boeing 737-200, crashes during approach to Imphal Airport, killing all 69 people on board.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1991-08-06",
       "title": "World Wide Web Launched",
       "desc": "Tim Berners-Lee announces the World Wide Web",
@@ -755,10 +720,10 @@
       "type": "politics"
     },
     {
-      "date": "1989-08-15",
-      "title": "China Eastern Airlines Flight 5510 crashes after takeoff from Shanghai Hongqiao ",
-      "desc": "China Eastern Airlines Flight 5510 crashes after takeoff from Shanghai Hongqiao International Airport, killing 34 of the 40 people on board.",
-      "type": "tech",
+      "date": "1989-08-16",
+      "title": "A solar particle event affects computers at the Toronto Stock Exchange, forcing ",
+      "desc": "A solar particle event affects computers at the Toronto Stock Exchange, forcing a halt to trading.",
+      "type": "finance",
       "source": "wikipedia"
     },
     {
@@ -796,6 +761,13 @@
       "type": "finance"
     },
     {
+      "date": "1987-08-16",
+      "title": "Northwest Airlines Flight 255, a McDonnell Douglas MD-82, crashes after takeoff ",
+      "desc": "Northwest Airlines Flight 255, a McDonnell Douglas MD-82, crashes after takeoff in Detroit, Michigan, killing 154 of the 155 on board, plus two people on the ground.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1987-06-28",
       "title": "Chiang Kai-shek Dies",
       "desc": "Former Chinese leader dies at age 79",
@@ -803,6 +775,13 @@
     }
   ],
   "1986": [
+    {
+      "date": "1986-08-16",
+      "title": "A Sudan Airways Fokker F27 Friendship is shot down near Malakal in present day S",
+      "desc": "A Sudan Airways Fokker F27 Friendship is shot down near Malakal in present day South Sudan, killing 60.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1986-04-26",
       "title": "Chernobyl Disaster",
@@ -818,13 +797,6 @@
   ],
   "1985": [
     {
-      "date": "1985-08-15",
-      "title": "Signing of the Assam Accord, an agreement between representatives of the Governm",
-      "desc": "Signing of the Assam Accord, an agreement between representatives of the Government of India and the leaders of the Assam Movement to end the movement.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
       "date": "1985-07-13",
       "title": "Live Aid Concert",
       "desc": "Global charity concert raises millions for famine relief",
@@ -835,15 +807,6 @@
       "title": "Gorbachev Leader",
       "desc": "Mikhail Gorbachev becomes leader of Soviet Union",
       "type": "politics"
-    }
-  ],
-  "1984": [
-    {
-      "date": "1984-08-15",
-      "title": "The Kurdistan Workers' Party in Turkey starts a campaign of armed attacks upon t",
-      "desc": "The Kurdistan Workers' Party in Turkey starts a campaign of armed attacks upon the Turkish Armed Forces with an attack on police and gendarmerie bases in Şemdinli and Eruh.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1983": [
@@ -928,23 +891,9 @@
       "title": "Elvis Dies",
       "desc": "Elvis Presley dies at Graceland at age 42",
       "type": "general"
-    },
-    {
-      "date": "1977-08-15",
-      "title": "The Big Ear, a radio telescope operated by Ohio State University as part of the ",
-      "desc": "The Big Ear, a radio telescope operated by Ohio State University as part of the SETI project, receives a radio signal from deep space; the event is named the \"Wow! signal\" from the notation made by a ",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1976": [
-    {
-      "date": "1976-08-15",
-      "title": "SAETA Flight 011 crashes into the Chimborazo volcano in Ecuador, killing all 59 ",
-      "desc": "SAETA Flight 011 crashes into the Chimborazo volcano in Ecuador, killing all 59 people on board; the wreckage is not discovered until 2002.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
     {
       "date": "1976-07-20",
       "title": "Viking 1 Lands on Mars",
@@ -960,17 +909,10 @@
   ],
   "1975": [
     {
-      "date": "1975-08-15",
-      "title": "Bangladeshi leader Sheikh Mujibur Rahman is killed along with most members of hi",
-      "desc": "Bangladeshi leader Sheikh Mujibur Rahman is killed along with most members of his family during a military coup.",
+      "date": "1975-08-16",
+      "title": "Australian Prime Minister Gough Whitlam symbolically hands over land to the Guri",
+      "desc": "Australian Prime Minister Gough Whitlam symbolically hands over land to the Gurindji people after the eight-year Wave Hill walk-off, a landmark event in the history of Indigenous land rights in Austra",
       "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1975-08-15",
-      "title": "Takeo Miki makes the first official pilgrimage to Yasukuni Shrine by an incumben",
-      "desc": "Takeo Miki makes the first official pilgrimage to Yasukuni Shrine by an incumbent prime minister on the anniversary of the end of World War II.",
-      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -987,13 +929,6 @@
     }
   ],
   "1974": [
-    {
-      "date": "1974-08-15",
-      "title": "Yuk Young-soo, First Lady of South Korea, is killed during an apparent assassina",
-      "desc": "Yuk Young-soo, First Lady of South Korea, is killed during an apparent assassination attempt upon President Park Chung Hee.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
     {
       "date": "1974-08-09",
       "title": "Nixon Resigns",
@@ -1015,13 +950,6 @@
       "type": "finance"
     },
     {
-      "date": "1973-08-15",
-      "title": "Vietnam War: The US Air Force bombing of Cambodia ends.",
-      "desc": "Vietnam War: The US Air Force bombing of Cambodia ends.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1973-06-28",
       "title": "NI Assembly Elections",
       "desc": "Northern Ireland Assembly elections held",
@@ -1034,6 +962,13 @@
       "title": "Munich Massacre",
       "desc": "Palestinian terrorists kill Israeli athletes at Olympics",
       "type": "disaster"
+    },
+    {
+      "date": "1972-08-16",
+      "title": "In an unsuccessful coup d'état attempt, the Royal Moroccan Air Force fires upon ",
+      "desc": "In an unsuccessful coup d'état attempt, the Royal Moroccan Air Force fires upon Hassan II of Morocco's plane while he is traveling back to Rabat.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1972-02-21",
@@ -1054,29 +989,6 @@
       "title": "Bretton Woods Ends",
       "desc": "Nixon ends gold standard, floating exchange rates begin",
       "type": "finance"
-    },
-    {
-      "date": "1971-08-15",
-      "title": "President Richard Nixon completes the break from the gold standard by ending con",
-      "desc": "President Richard Nixon completes the break from the gold standard by ending convertibility of the United States dollar into gold by foreign investors.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1971-08-15",
-      "title": "Bahrain gains independence from the United Kingdom.",
-      "desc": "Bahrain gains independence from the United Kingdom.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
-  "1970": [
-    {
-      "date": "1970-08-15",
-      "title": "Patricia Palinkas becomes the first woman to play professionally in an American ",
-      "desc": "Patricia Palinkas becomes the first woman to play professionally in an American football game.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1969": [
@@ -1085,13 +997,6 @@
       "title": "Woodstock",
       "desc": "Iconic music festival draws 400,000 to New York farm",
       "type": "general"
-    },
-    {
-      "date": "1969-08-15",
-      "title": "The Woodstock Music & Art Fair opens in Bethel, New York, featuring some of the ",
-      "desc": "The Woodstock Music & Art Fair opens in Bethel, New York, featuring some of the top rock musicians of the era.",
-      "type": "finance",
-      "source": "wikipedia"
     },
     {
       "date": "1969-07-20",
@@ -1140,14 +1045,16 @@
       "type": "politics"
     }
   ],
-  "1965": [
+  "1966": [
     {
-      "date": "1965-08-15",
-      "title": "The Beatles play to nearly 60,000 fans at Shea Stadium in New York City, an even",
-      "desc": "The Beatles play to nearly 60,000 fans at Shea Stadium in New York City, an event later regarded as the birth of stadium rock.",
-      "type": "general",
+      "date": "1966-08-16",
+      "title": "Vietnam War: The House Un-American Activities Committee begins investigations of",
+      "desc": "Vietnam War: The House Un-American Activities Committee begins investigations of Americans who have aided the Viet Cong. The committee intends to introduce legislation making these activities illegal.",
+      "type": "tech",
       "source": "wikipedia"
-    },
+    }
+  ],
+  "1965": [
     {
       "date": "1965-08-11",
       "title": "Watts Riots",
@@ -1162,6 +1069,13 @@
     }
   ],
   "1964": [
+    {
+      "date": "1964-08-16",
+      "title": "Vietnam War: A coup d'état replaces Dương Văn Minh with General Nguyễn Khánh as ",
+      "desc": "Vietnam War: A coup d'état replaces Dương Văn Minh with General Nguyễn Khánh as President of South Vietnam. A new constitution is established with aid from the U.S. Embassy.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1964-08-07",
       "title": "Gulf of Tonkin",
@@ -1187,20 +1101,6 @@
       "title": "I Have a Dream",
       "desc": "MLK delivers iconic speech at March on Washington",
       "type": "politics"
-    },
-    {
-      "date": "1963-08-15",
-      "title": "Execution of Henry John Burnett, the last man to be hanged in Scotland.",
-      "desc": "Execution of Henry John Burnett, the last man to be hanged in Scotland.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1963-08-15",
-      "title": "President Fulbert Youlou is overthrown in the Republic of the Congo, after a thr",
-      "desc": "President Fulbert Youlou is overthrown in the Republic of the Congo, after a three-day uprising in the capital.",
-      "type": "politics",
-      "source": "wikipedia"
     }
   ],
   "1962": [
@@ -1211,13 +1111,6 @@
       "type": "politics"
     },
     {
-      "date": "1962-08-15",
-      "title": "James Joseph Dresnok defects to North Korea after running across the Korean Demi",
-      "desc": "James Joseph Dresnok defects to North Korea after running across the Korean Demilitarized Zone. Dresnok died in 2016.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1962-07-10",
       "title": "Telstar Launched",
       "desc": "First communications satellite transmits TV signals",
@@ -1225,13 +1118,6 @@
     }
   ],
   "1961": [
-    {
-      "date": "1961-08-15",
-      "title": "Border guard Conrad Schumann flees from East Germany while on duty guarding the ",
-      "desc": "Border guard Conrad Schumann flees from East Germany while on duty guarding the construction of the Berlin Wall.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1961-08-13",
       "title": "Berlin Wall Built",
@@ -1247,10 +1133,17 @@
   ],
   "1960": [
     {
-      "date": "1960-08-15",
-      "title": "Republic of the Congo (Brazzaville) becomes independent from France.",
-      "desc": "Republic of the Congo (Brazzaville) becomes independent from France.",
-      "type": "general",
+      "date": "1960-08-16",
+      "title": "Cyprus gains its independence from the United Kingdom.",
+      "desc": "Cyprus gains its independence from the United Kingdom.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1960-08-16",
+      "title": "Joseph Kittinger parachutes from a balloon over New Mexico, United States, at 10",
+      "desc": "Joseph Kittinger parachutes from a balloon over New Mexico, United States, at 102,800 feet (31,300 m), setting three records that held until 2012: High-altitude jump, free fall, and highest speed by a",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -1267,13 +1160,6 @@
     }
   ],
   "1959": [
-    {
-      "date": "1959-08-15",
-      "title": "American Airlines Flight 514, a Boeing 707, crashes near the Calverton Executive",
-      "desc": "American Airlines Flight 514, a Boeing 707, crashes near the Calverton Executive Airpark in Calverton, New York, killing all five people on board.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1959-07-24",
       "title": "Kitchen Debate",
@@ -1331,10 +1217,10 @@
   ],
   "1954": [
     {
-      "date": "1954-08-15",
-      "title": "Alfredo Stroessner begins his dictatorship in Paraguay.",
-      "desc": "Alfredo Stroessner begins his dictatorship in Paraguay.",
-      "type": "general",
+      "date": "1954-08-16",
+      "title": "The first issue of Sports Illustrated is published.",
+      "desc": "The first issue of Sports Illustrated is published.",
+      "type": "sports",
       "source": "wikipedia"
     },
     {
@@ -1372,13 +1258,6 @@
       "type": "science"
     },
     {
-      "date": "1952-08-15",
-      "title": "A flash flood devastates the town of Lynmouth, England, killing 34 people.",
-      "desc": "A flash flood devastates the town of Lynmouth, England, killing 34 people.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
-    {
       "date": "1952-02-06",
       "title": "Elizabeth Queen",
       "desc": "Princess Elizabeth becomes Queen after father's death",
@@ -1399,13 +1278,6 @@
       "title": "China Enters Korean War",
       "desc": "Chinese forces engage UN troops in Korea",
       "type": "politics"
-    },
-    {
-      "date": "1950-08-15",
-      "title": "Measuring Mw 8.6, the largest earthquake on land occurs in the Assam-Tibet-Myanm",
-      "desc": "Measuring Mw 8.6, the largest earthquake on land occurs in the Assam-Tibet-Myanmar border, killing 4,800.",
-      "type": "climate",
-      "source": "wikipedia"
     },
     {
       "date": "1950-06-28",
@@ -1448,13 +1320,6 @@
       "type": "politics"
     },
     {
-      "date": "1948-08-15",
-      "title": "The First Republic of Korea (South Korea) is established in the southern half of",
-      "desc": "The First Republic of Korea (South Korea) is established in the southern half of the peninsula.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1948-06-28",
       "title": "Tito-Stalin Split",
       "desc": "Yugoslavia expelled from Soviet bloc",
@@ -1475,24 +1340,26 @@
       "type": "politics"
     },
     {
-      "date": "1947-08-15",
-      "title": "India gains independence from British rule after nearly 190 years of British com",
-      "desc": "India gains independence from British rule after nearly 190 years of British company and crown rule and joins the Commonwealth of Nations.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1947-08-15",
-      "title": "Founder of Pakistan Muhammad Ali Jinnah is sworn in as first Governor-General of",
-      "desc": "Founder of Pakistan Muhammad Ali Jinnah is sworn in as first Governor-General of Pakistan in Karachi.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1947-06-05",
       "title": "Marshall Plan",
       "desc": "US announces plan to rebuild post-war Europe",
       "type": "finance"
+    }
+  ],
+  "1946": [
+    {
+      "date": "1946-08-16",
+      "title": "Mass riots in Kolkata begin; more than 4,000 people would be killed in 72 hours.",
+      "desc": "Mass riots in Kolkata begin; more than 4,000 people would be killed in 72 hours.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1946-08-16",
+      "title": "The All Hyderabad Trade Union Congress is founded in Secunderabad.",
+      "desc": "The All Hyderabad Trade Union Congress is founded in Secunderabad.",
+      "type": "finance",
+      "source": "wikipedia"
     }
   ],
   "1945": [
@@ -1503,10 +1370,10 @@
       "type": "politics"
     },
     {
-      "date": "1945-08-15",
-      "title": "Emperor Hirohito broadcasts his declaration of surrender following the effective",
-      "desc": "Emperor Hirohito broadcasts his declaration of surrender following the effective surrender of Japan in World War II; Korea gains independence from the Empire of Japan.",
-      "type": "tech",
+      "date": "1945-08-16",
+      "title": "The National Representatives' Congress, the precursor of the current National As",
+      "desc": "The National Representatives' Congress, the precursor of the current National Assembly of Vietnam, convenes in Sơn Dương.",
+      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -1530,9 +1397,9 @@
   ],
   "1944": [
     {
-      "date": "1944-08-15",
-      "title": "World War II: Operation Dragoon: Allied forces land in southern France.",
-      "desc": "World War II: Operation Dragoon: Allied forces land in southern France.",
+      "date": "1944-08-16",
+      "title": "First flight of a jet with forward-swept wings, the Junkers Ju 287.",
+      "desc": "First flight of a jet with forward-swept wings, the Junkers Ju 287.",
       "type": "politics",
       "source": "wikipedia"
     },
@@ -1551,18 +1418,18 @@
   ],
   "1943": [
     {
-      "date": "1943-08-15",
-      "title": "World War II:  Battle of Trahili: Superior German forces surround Cretan partisa",
-      "desc": "World War II:  Battle of Trahili: Superior German forces surround Cretan partisans, who manage to escape against all odds.",
+      "date": "1943-08-16",
+      "title": "World War II: 317 Greek civilians are murdered by soldiers of the German 1st Mou",
+      "desc": "World War II: 317 Greek civilians are murdered by soldiers of the German 1st Mountain Division in the village of Kommeno, Greece.",
       "type": "tech",
       "source": "wikipedia"
     }
   ],
   "1942": [
     {
-      "date": "1942-08-15",
-      "title": "World War II: Operation Pedestal: The oil tanker SS Ohio reaches the island of M",
-      "desc": "World War II: Operation Pedestal: The oil tanker SS Ohio reaches the island of Malta barely afloat carrying vital fuel supplies for the island's defenses.",
+      "date": "1942-08-16",
+      "title": "World War II: US Navy L-class blimp L-8 drifts in from the Pacific and eventuall",
+      "desc": "World War II: US Navy L-class blimp L-8 drifts in from the Pacific and eventually crashes in Daly City, California. The two-man crew cannot be found.",
       "type": "politics",
       "source": "wikipedia"
     }
@@ -1575,26 +1442,10 @@
       "type": "politics"
     },
     {
-      "date": "1941-08-15",
-      "title": "Corporal Josef Jakobs is executed by firing squad for espionage at the Tower of ",
-      "desc": "Corporal Josef Jakobs is executed by firing squad for espionage at the Tower of London at 07:12, making him the last person to be executed at the Tower.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1941-06-22",
       "title": "Operation Barbarossa",
       "desc": "Germany invades Soviet Union",
       "type": "politics"
-    }
-  ],
-  "1940": [
-    {
-      "date": "1940-08-15",
-      "title": "An Italian submarine torpedoes and sinks the Greek cruiser Elli at Tinos harbor ",
-      "desc": "An Italian submarine torpedoes and sinks the Greek cruiser Elli at Tinos harbor during peacetime, marking the most serious Italian provocation prior to the outbreak of the Greco-Italian War in October",
-      "type": "politics",
-      "source": "wikipedia"
     }
   ],
   "1939": [
@@ -1609,20 +1460,6 @@
       "title": "Molotov-Ribbentrop Pact",
       "desc": "Germany and USSR sign non-aggression pact",
       "type": "politics"
-    },
-    {
-      "date": "1939-08-15",
-      "title": "Twenty-six Junkers Ju 87 bombers commanded by Walter Sigel meet unexpected groun",
-      "desc": "Twenty-six Junkers Ju 87 bombers commanded by Walter Sigel meet unexpected ground fog during a dive-bombing demonstration for Luftwaffe generals at Neuhammer. Thirteen of them crash and burn.",
-      "type": "disaster",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1939-08-15",
-      "title": "The Wizard of Oz premieres at Grauman's Chinese Theater in Los Angeles, Californ",
-      "desc": "The Wizard of Oz premieres at Grauman's Chinese Theater in Los Angeles, California.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1937": [
@@ -1653,16 +1490,14 @@
       "type": "politics"
     }
   ],
-  "1935": [
-    {
-      "date": "1935-08-15",
-      "title": "Will Rogers and Wiley Post are killed after their aircraft develops engine probl",
-      "desc": "Will Rogers and Wiley Post are killed after their aircraft develops engine problems during takeoff in Barrow, Alaska.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
   "1933": [
+    {
+      "date": "1933-08-16",
+      "title": "Christie Pits riot takes place in Toronto, Ontario.",
+      "desc": "Christie Pits riot takes place in Toronto, Ontario.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "1933-03-04",
       "title": "FDR Inaugurated",
@@ -1676,12 +1511,35 @@
       "type": "politics"
     }
   ],
+  "1930": [
+    {
+      "date": "1930-08-16",
+      "title": "The first color sound cartoon, Fiddlesticks, is released by Ub Iwerks.",
+      "desc": "The first color sound cartoon, Fiddlesticks, is released by Ub Iwerks.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1930-08-16",
+      "title": "The first British Empire Games are opened in Hamilton, Ontario, by the Governor ",
+      "desc": "The first British Empire Games are opened in Hamilton, Ontario, by the Governor General of Canada, the Viscount Willingdon.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1929": [
     {
       "date": "1929-10-29",
       "title": "Wall Street Crash",
       "desc": "Stock market crash triggers Great Depression",
       "type": "finance"
+    },
+    {
+      "date": "1929-08-16",
+      "title": "The 1929 Palestine riots break out in Mandatory Palestine between Palestinian Ar",
+      "desc": "The 1929 Palestine riots break out in Mandatory Palestine between Palestinian Arabs and Jews and continue until the end of the month. In total, 133 Jews and 116 Arabs are killed.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1929-02-14",
@@ -1704,6 +1562,13 @@
       "title": "The Jazz Singer",
       "desc": "First feature-length 'talkie' film released",
       "type": "general"
+    },
+    {
+      "date": "1927-08-16",
+      "title": "The Dole Air Race begins from Oakland, California, to Honolulu, Hawaii, during w",
+      "desc": "The Dole Air Race begins from Oakland, California, to Honolulu, Hawaii, during which six out of the eight participating planes crash or disappear.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1927-05-20",
@@ -1732,6 +1597,15 @@
       "title": "Lenin Dies",
       "desc": "Vladimir Lenin dies, Stalin begins rise to power",
       "type": "politics"
+    }
+  ],
+  "1923": [
+    {
+      "date": "1923-08-16",
+      "title": "The United Kingdom gives the name \"Ross Dependency\" to part of its claimed Antar",
+      "desc": "The United Kingdom gives the name \"Ross Dependency\" to part of its claimed Antarctic territory and makes the Governor-General of the Dominion of New Zealand its administrator.",
+      "type": "tech",
+      "source": "wikipedia"
     }
   ],
   "1922": [
@@ -1764,9 +1638,23 @@
   ],
   "1920": [
     {
-      "date": "1920-08-15",
-      "title": "Polish–Soviet War: Battle of Warsaw, so-called Miracle at the Vistula.",
-      "desc": "Polish–Soviet War: Battle of Warsaw, so-called Miracle at the Vistula.",
+      "date": "1920-08-16",
+      "title": "Ray Chapman of the Cleveland Indians is hit on the head by a fastball thrown by ",
+      "desc": "Ray Chapman of the Cleveland Indians is hit on the head by a fastball thrown by Carl Mays of the New York Yankees. Next day, Chapman will become the second player to die from injuries sustained in a M",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1920-08-16",
+      "title": "The congress of the Communist Party of Bukhara opens. The congress would call fo",
+      "desc": "The congress of the Communist Party of Bukhara opens. The congress would call for armed revolution.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1920-08-16",
+      "title": "Polish–Soviet War: The Battle of Radzymin concludes; the Soviet Red Army is forc",
+      "desc": "Polish–Soviet War: The Battle of Radzymin concludes; the Soviet Red Army is forced to turn away from Warsaw.",
       "type": "politics",
       "source": "wikipedia"
     }
@@ -1793,6 +1681,13 @@
       "type": "politics"
     },
     {
+      "date": "1918-08-16",
+      "title": "The Battle of Lake Baikal is fought between the Czechoslovak Legion and the Red ",
+      "desc": "The Battle of Lake Baikal is fought between the Czechoslovak Legion and the Red Army.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1918-03-04",
       "title": "Spanish Flu First Case",
       "desc": "First case of deadly pandemic reported in Kansas",
@@ -1813,44 +1708,23 @@
       "type": "politics"
     }
   ],
-  "1915": [
+  "1916": [
     {
-      "date": "1915-08-15",
-      "title": "A story in the New York World newspaper reveals that the Imperial German governm",
-      "desc": "A story in the New York World newspaper reveals that the Imperial German government had purchased excess phenol from Thomas Edison that could be used to make explosives for the war effort and diverted",
+      "date": "1916-08-16",
+      "title": "The Migratory Bird Treaty between Canada and the United States is signed.",
+      "desc": "The Migratory Bird Treaty between Canada and the United States is signed.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1916-08-16",
+      "title": "German admiral Wilhelm Souchon hands over the two warships under his command to ",
+      "desc": "German admiral Wilhelm Souchon hands over the two warships under his command to the Ottomans and becomes commander of the Turkish navy, leading later to the entry of the Ottoman Empire in World War I.",
       "type": "politics",
       "source": "wikipedia"
     }
   ],
   "1914": [
-    {
-      "date": "1914-08-15",
-      "title": "A servant of American architect, Frank Lloyd Wright, sets fire to the living qua",
-      "desc": "A servant of American architect, Frank Lloyd Wright, sets fire to the living quarters of Wright's Wisconsin home, Taliesin, and murders seven people there.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1914-08-15",
-      "title": "The Panama Canal opens to traffic with the transit of the cargo ship SS Ancon.",
-      "desc": "The Panama Canal opens to traffic with the transit of the cargo ship SS Ancon.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1914-08-15",
-      "title": "World War I: The First Russian Army, led by Paul von Rennenkampf, enters East Pr",
-      "desc": "World War I: The First Russian Army, led by Paul von Rennenkampf, enters East Prussia.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1914-08-15",
-      "title": "World War I: Beginning of the Battle of Cer, the first Allied victory of World W",
-      "desc": "World War I: Beginning of the Battle of Cer, the first Allied victory of World War I.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
     {
       "date": "1914-07-28",
       "title": "WWI Begins",
@@ -1862,6 +1736,22 @@
       "title": "Archduke Franz Ferdinand Assassinated",
       "desc": "Assassination triggers outbreak of World War I",
       "type": "politics"
+    }
+  ],
+  "1913": [
+    {
+      "date": "1913-08-16",
+      "title": "Tōhoku Imperial University of Japan (modern day Tohoku University) becomes the f",
+      "desc": "Tōhoku Imperial University of Japan (modern day Tohoku University) becomes the first university in Japan to admit female students.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1913-08-16",
+      "title": "Completion of the Royal Navy battlecruiser HMS Queen Mary.",
+      "desc": "Completion of the Royal Navy battlecruiser HMS Queen Mary.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1912": [
@@ -1892,12 +1782,12 @@
       "type": "science"
     }
   ],
-  "1907": [
+  "1906": [
     {
-      "date": "1907-08-15",
-      "title": "Ordination in Constantinople of Fr. Raphael Morgan, the first African-American O",
-      "desc": "Ordination in Constantinople of Fr. Raphael Morgan, the first African-American Orthodox priest, \"Priest-Apostolic\" to America and the West Indies.",
-      "type": "general",
+      "date": "1906-08-16",
+      "title": "The 8.2 Mw Valparaíso earthquake hits central Chile, killing 3,882 people.",
+      "desc": "The 8.2 Mw Valparaíso earthquake hits central Chile, killing 3,882 people.",
+      "type": "climate",
       "source": "wikipedia"
     }
   ],
@@ -1949,6 +1839,13 @@
       "title": "Quantum Theory",
       "desc": "Max Planck publishes quantum theory paper",
       "type": "science"
+    },
+    {
+      "date": "1900-08-16",
+      "title": "The Battle of Elands River during the Second Boer War ends after a 13-day siege ",
+      "desc": "The Battle of Elands River during the Second Boer War ends after a 13-day siege is lifted by the British. The battle had begun when a force of between 2,000 and 3,000 Boers had surrounded a force of 5",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "1900-05-14",
