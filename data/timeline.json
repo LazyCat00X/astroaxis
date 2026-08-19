@@ -183,13 +183,6 @@
       "type": "disaster"
     },
     {
-      "date": "2019-08-18",
-      "title": "One hundred activists, officials, and other concerned citizens in Iceland hold a",
-      "desc": "One hundred activists, officials, and other concerned citizens in Iceland hold a funeral for Okjökull glacier, which has completely melted after having once covered six square miles (15.5 km2).",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2019-04-15",
       "title": "Notre Dame Fire",
       "desc": "Major fire devastates Notre Dame Cathedral in Paris",
@@ -230,9 +223,9 @@
       "type": "crypto"
     },
     {
-      "date": "2017-08-18",
-      "title": "The Turku terror attack occurs in Finland when a knifeman kills two and injures ",
-      "desc": "The Turku terror attack occurs in Finland when a knifeman kills two and injures eight.",
+      "date": "2017-08-19",
+      "title": "Tens of thousands of farmed non-native Atlantic salmon are accidentally released",
+      "desc": "Tens of thousands of farmed non-native Atlantic salmon are accidentally released into the wild in Washington waters in the 2017 Cypress Island Atlantic salmon pen break.",
       "type": "general",
       "source": "wikipedia"
     },
@@ -311,6 +304,13 @@
       "type": "politics"
     },
     {
+      "date": "2013-08-19",
+      "title": "The Dhamara Ghat train accident kills at least 37 people in the Indian state of ",
+      "desc": "The Dhamara Ghat train accident kills at least 37 people in the Indian state of Bihar.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "2013-06-06",
       "title": "Snowden Leaks",
       "desc": "Edward Snowden reveals global surveillance programs",
@@ -345,13 +345,6 @@
   ],
   "2011": [
     {
-      "date": "2011-08-18",
-      "title": "A terrorist attack on Israel's Highway 12 near the Egyptian border kills 16 and ",
-      "desc": "A terrorist attack on Israel's Highway 12 near the Egyptian border kills 16 and injures 40.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "2011-05-02",
       "title": "Bin Laden Killed",
       "desc": "US Navy SEALs kill Osama bin Laden in Pakistan",
@@ -372,6 +365,13 @@
   ],
   "2010": [
     {
+      "date": "2010-08-19",
+      "title": "Operation Iraqi Freedom ends, with the last of the United States brigade combat ",
+      "desc": "Operation Iraqi Freedom ends, with the last of the United States brigade combat teams crossing the border to Kuwait.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "2010-05-06",
       "title": "Flash Crash",
       "desc": "Dow Jones drops 1000 points in minutes",
@@ -391,6 +391,13 @@
     }
   ],
   "2009": [
+    {
+      "date": "2009-08-19",
+      "title": "A series of bombings in Baghdad, Iraq, kills 101 and injures 565 others.",
+      "desc": "A series of bombings in Baghdad, Iraq, kills 101 and injures 565 others.",
+      "type": "general",
+      "source": "wikipedia"
+    },
     {
       "date": "2009-06-25",
       "title": "Michael Jackson Dies",
@@ -428,20 +435,6 @@
       "title": "Lehman Brothers Collapse",
       "desc": "Investment bank fails, triggering global financial crisis",
       "type": "finance"
-    },
-    {
-      "date": "2008-08-18",
-      "title": "The President of Pakistan, Pervez Musharraf, resigns under threat of impeachment",
-      "desc": "The President of Pakistan, Pervez Musharraf, resigns under threat of impeachment.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2008-08-18",
-      "title": "War of Afghanistan: The Uzbin Valley ambush occurs.",
-      "desc": "War of Afghanistan: The Uzbin Valley ambush occurs.",
-      "type": "politics",
-      "source": "wikipedia"
     }
   ],
   "2007": [
@@ -466,10 +459,10 @@
       "type": "disaster"
     },
     {
-      "date": "2005-08-18",
-      "title": "A massive power blackout hits the Indonesian island of Java; affecting almost 10",
-      "desc": "A massive power blackout hits the Indonesian island of Java; affecting almost 100 million people, it is one of the largest and most widespread power outages in history.",
-      "type": "general",
+      "date": "2005-08-19",
+      "title": "The first-ever joint military exercise between Russia and China, called Peace Mi",
+      "desc": "The first-ever joint military exercise between Russia and China, called Peace Mission 2005 begins.",
+      "type": "politics",
       "source": "wikipedia"
     },
     {
@@ -493,6 +486,13 @@
       "type": "disaster"
     },
     {
+      "date": "2004-08-19",
+      "title": "Google Inc. has its initial public offering on Nasdaq.",
+      "desc": "Google Inc. has its initial public offering on Nasdaq.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2004-06-28",
       "title": "Iraq Sovereignty",
       "desc": "Coalition hands sovereignty to interim Iraqi government",
@@ -507,10 +507,17 @@
   ],
   "2003": [
     {
-      "date": "2003-08-18",
-      "title": "One-year-old Zachary Turner is murdered in Newfoundland by his mother, who was a",
-      "desc": "One-year-old Zachary Turner is murdered in Newfoundland by his mother, who was awarded custody despite facing trial for the murder of Zachary's father. The case was documented in the film Dear Zachary",
-      "type": "tech",
+      "date": "2003-08-19",
+      "title": "A truck-bomb attack on United Nations headquarters in Iraq kills the agency's to",
+      "desc": "A truck-bomb attack on United Nations headquarters in Iraq kills the agency's top envoy Sérgio Vieira de Mello and 21 other employees.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2003-08-19",
+      "title": "Shmuel HaNavi bus bombing: A suicide attack on a bus in Jerusalem, planned by Ha",
+      "desc": "Shmuel HaNavi bus bombing: A suicide attack on a bus in Jerusalem, planned by Hamas, kills 23 Israelis, seven of them children.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -524,6 +531,15 @@
       "title": "Columbia Disaster",
       "desc": "Space Shuttle Columbia disintegrates on re-entry",
       "type": "disaster"
+    }
+  ],
+  "2002": [
+    {
+      "date": "2002-08-19",
+      "title": "Khankala Mi-26 crash: A Russian Mil Mi-26 helicopter carrying troops is hit by a",
+      "desc": "Khankala Mi-26 crash: A Russian Mil Mi-26 helicopter carrying troops is hit by a Chechen missile outside Grozny, killing 118 soldiers.",
+      "type": "disaster",
+      "source": "wikipedia"
     }
   ],
   "2001": [
@@ -555,6 +571,13 @@
     }
   ],
   "1999": [
+    {
+      "date": "1999-08-19",
+      "title": "In Belgrade, Yugoslavia, tens of thousands of Serbians rally to demand the resig",
+      "desc": "In Belgrade, Yugoslavia, tens of thousands of Serbians rally to demand the resignation of Federal Republic of Yugoslavia President Slobodan Milošević.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
     {
       "date": "1999-03-24",
       "title": "Kosovo War",
@@ -632,13 +655,6 @@
   ],
   "1993": [
     {
-      "date": "1993-08-18",
-      "title": "American International Airways Flight 808 crashes at Leeward Point Field at Guan",
-      "desc": "American International Airways Flight 808 crashes at Leeward Point Field at Guantanamo Bay Naval Base in Guantánamo Bay, Cuba, injuring the three crew members.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1993-02-26",
       "title": "World Trade Center Bombing",
       "desc": "Islamist terrorists bomb WTC for the first time",
@@ -671,6 +687,20 @@
       "title": "Soviet Union Dissolved",
       "desc": "USSR officially dissolved, ending Cold War",
       "type": "politics"
+    },
+    {
+      "date": "1991-08-19",
+      "title": "Dissolution of the Soviet Union: The August Coup begins when Soviet President Mi",
+      "desc": "Dissolution of the Soviet Union: The August Coup begins when Soviet President Mikhail Gorbachev is placed under house arrest while on holiday in the town of Foros, Ukraine.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1991-08-19",
+      "title": "Crown Heights riot in New York City begins.",
+      "desc": "Crown Heights riot in New York City begins.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1991-08-06",
@@ -713,10 +743,17 @@
       "type": "politics"
     },
     {
-      "date": "1989-08-18",
-      "title": "Leading presidential hopeful Luis Carlos Galán is assassinated near Bogotá in Co",
-      "desc": "Leading presidential hopeful Luis Carlos Galán is assassinated near Bogotá in Colombia.",
+      "date": "1989-08-19",
+      "title": "Polish president Wojciech Jaruzelski nominates Solidarity activist Tadeusz Mazow",
+      "desc": "Polish president Wojciech Jaruzelski nominates Solidarity activist Tadeusz Mazowiecki to be the first non-communist prime minister in 42 years.",
       "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1989-08-19",
+      "title": "Several hundred East Germans cross the frontier between Hungary and Austria duri",
+      "desc": "Several hundred East Germans cross the frontier between Hungary and Austria during the Pan-European Picnic, part of the events that began the process of the Fall of the Berlin Wall.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -752,6 +789,13 @@
       "title": "Black Monday",
       "desc": "Global stock market crash, Dow drops 22.6%",
       "type": "finance"
+    },
+    {
+      "date": "1987-08-19",
+      "title": "Hungerford massacre: In the United Kingdom, Michael Ryan kills sixteen people wi",
+      "desc": "Hungerford massacre: In the United Kingdom, Michael Ryan kills sixteen people with a semi-automatic rifle and then commits suicide.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1987-06-28",
@@ -796,13 +840,6 @@
       "type": "disaster"
     },
     {
-      "date": "1983-08-18",
-      "title": "Hurricane Alicia hits the Texas coast, killing 21 people and causing over US$1 b",
-      "desc": "Hurricane Alicia hits the Texas coast, killing 21 people and causing over US$1 billion in damage (1983 dollars).",
-      "type": "climate",
-      "source": "wikipedia"
-    },
-    {
       "date": "1983-01-01",
       "title": "Internet Born",
       "desc": "TCP/IP protocol adopted as ARPANET standard",
@@ -823,12 +860,35 @@
       "type": "politics"
     }
   ],
+  "1981": [
+    {
+      "date": "1981-08-19",
+      "title": "Gulf of Sidra Incident: United States F-14A Tomcat fighters intercept and shoot ",
+      "desc": "Gulf of Sidra Incident: United States F-14A Tomcat fighters intercept and shoot down two Libyan Sukhoi Su-22 fighter jets over the Gulf of Sidra.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1980": [
     {
       "date": "1980-09-22",
       "title": "Iran-Iraq War Begins",
       "desc": "Longest conventional war of 20th century starts",
       "type": "politics"
+    },
+    {
+      "date": "1980-08-19",
+      "title": "Saudia Flight 163, a Lockheed L-1011 TriStar burns after making an emergency lan",
+      "desc": "Saudia Flight 163, a Lockheed L-1011 TriStar burns after making an emergency landing at Riyadh International Airport in Riyadh, Saudi Arabia, killing 301 people.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1980-08-19",
+      "title": "Otłoczyn railway accident: In Poland's worst post-war railway accident, 67 peopl",
+      "desc": "Otłoczyn railway accident: In Poland's worst post-war railway accident, 67 people lose their lives and a further 62 are injured.",
+      "type": "tech",
+      "source": "wikipedia"
     },
     {
       "date": "1980-05-18",
@@ -853,6 +913,13 @@
   ],
   "1978": [
     {
+      "date": "1978-08-19",
+      "title": "In Iran, the Cinema Rex fire causes more than 300 deaths.",
+      "desc": "In Iran, the Cinema Rex fire causes more than 300 deaths.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1978-07-25",
       "title": "First IVF Baby",
       "desc": "Louise Brown, first test-tube baby, born",
@@ -873,13 +940,6 @@
       "type": "science"
     },
     {
-      "date": "1977-08-18",
-      "title": "Steve Biko is arrested at a police roadblock under Terrorism Act No. 83 of 1967 ",
-      "desc": "Steve Biko is arrested at a police roadblock under Terrorism Act No. 83 of 1967 in King William's Town, South Africa. He later dies from injuries sustained during this arrest, bringing attention to So",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1977-08-16",
       "title": "Elvis Dies",
       "desc": "Elvis Presley dies at Graceland at age 42",
@@ -887,20 +947,6 @@
     }
   ],
   "1976": [
-    {
-      "date": "1976-08-18",
-      "title": "The Korean axe murder incident in Panmunjom results in the deaths of two US Army",
-      "desc": "The Korean axe murder incident in Panmunjom results in the deaths of two US Army officers.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1976-08-18",
-      "title": "The Soviet Union's robotic probe Luna 24 successfully lands on the Moon.",
-      "desc": "The Soviet Union's robotic probe Luna 24 successfully lands on the Moon.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1976-07-20",
       "title": "Viking 1 Lands on Mars",
@@ -950,13 +996,6 @@
       "type": "finance"
     },
     {
-      "date": "1973-08-18",
-      "title": "Aeroflot Flight A-13 crashes after takeoff from Baku-Bina International Airport ",
-      "desc": "Aeroflot Flight A-13 crashes after takeoff from Baku-Bina International Airport in Azerbaijan, killing 56 people and injuring eight.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1973-06-28",
       "title": "NI Assembly Elections",
       "desc": "Northern Ireland Assembly elections held",
@@ -983,13 +1022,6 @@
       "title": "UAE Founded",
       "desc": "United Arab Emirates established",
       "type": "politics"
-    },
-    {
-      "date": "1971-08-18",
-      "title": "Vietnam War: Australia and New Zealand decide to withdraw their troops from Viet",
-      "desc": "Vietnam War: Australia and New Zealand decide to withdraw their troops from Vietnam.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1971-08-15",
@@ -1052,20 +1084,11 @@
       "type": "politics"
     }
   ],
-  "1966": [
-    {
-      "date": "1966-08-18",
-      "title": "Vietnam War: The Battle of Long Tan ensues after a patrol from the 6th Battalion",
-      "desc": "Vietnam War: The Battle of Long Tan ensues after a patrol from the 6th Battalion, Royal Australian Regiment clashes with a Viet Cong force in Phước Tuy Province.",
-      "type": "politics",
-      "source": "wikipedia"
-    }
-  ],
   "1965": [
     {
-      "date": "1965-08-18",
-      "title": "Vietnam War: Operation Starlite begins: United States Marines destroy a Viet Con",
-      "desc": "Vietnam War: Operation Starlite begins: United States Marines destroy a Viet Cong stronghold on the Van Tuong peninsula in the first major American ground battle of the war.",
+      "date": "1965-08-19",
+      "title": "Japanese prime minister Eisaku Satō becomes the first post-World War II sitting ",
+      "desc": "Japanese prime minister Eisaku Satō becomes the first post-World War II sitting prime minister to visit Okinawa Prefecture.",
       "type": "politics",
       "source": "wikipedia"
     },
@@ -1083,6 +1106,13 @@
     }
   ],
   "1964": [
+    {
+      "date": "1964-08-19",
+      "title": "Syncom 3, the first geostationary communication satellite, is launched. Two mont",
+      "desc": "Syncom 3, the first geostationary communication satellite, is launched. Two months later, it would enable live coverage of the 1964 Summer Olympics.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1964-08-07",
       "title": "Gulf of Tonkin",
@@ -1108,13 +1138,6 @@
       "title": "I Have a Dream",
       "desc": "MLK delivers iconic speech at March on Washington",
       "type": "politics"
-    },
-    {
-      "date": "1963-08-18",
-      "title": "Civil rights movement: James Meredith becomes the first African American to grad",
-      "desc": "Civil rights movement: James Meredith becomes the first African American to graduate from the University of Mississippi.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1962": [
@@ -1147,6 +1170,20 @@
   ],
   "1960": [
     {
+      "date": "1960-08-19",
+      "title": "Cold War: In Moscow, Russia, Soviet Union, downed American U-2 pilot Francis Gar",
+      "desc": "Cold War: In Moscow, Russia, Soviet Union, downed American U-2 pilot Francis Gary Powers is sentenced to ten years imprisonment by the Soviet Union for espionage.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1960-08-19",
+      "title": "Sputnik program: Korabl-Sputnik 2: The Soviet Union launches the satellite with ",
+      "desc": "Sputnik program: Korabl-Sputnik 2: The Soviet Union launches the satellite with the dogs Belka and Strelka, 40 mice, two rats and a variety of plants.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1960-05-01",
       "title": "U-2 Incident",
       "desc": "Soviets shoot down US spy plane, Eisenhower embarrassed",
@@ -1171,22 +1208,6 @@
       "title": "Cuban Revolution",
       "desc": "Fidel Castro's forces overthrow Batista government",
       "type": "politics"
-    }
-  ],
-  "1958": [
-    {
-      "date": "1958-08-18",
-      "title": "Vladimir Nabokov's controversial novel Lolita is published in the United States.",
-      "desc": "Vladimir Nabokov's controversial novel Lolita is published in the United States.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1958-08-18",
-      "title": "Brojen Das from Bangladesh swims across the English Channel in a competition as ",
-      "desc": "Brojen Das from Bangladesh swims across the English Channel in a competition as the first Bengali and the first Asian to do so, placing first among the 39 competitors.",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1957": [
@@ -1225,6 +1246,13 @@
       "type": "politics"
     },
     {
+      "date": "1955-08-19",
+      "title": "In the Northeast United States, severe flooding caused by Hurricane Diane, claim",
+      "desc": "In the Northeast United States, severe flooding caused by Hurricane Diane, claims 200 lives.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1955-05-14",
       "title": "Warsaw Pact",
       "desc": "Eastern Bloc military alliance established",
@@ -1246,6 +1274,13 @@
     }
   ],
   "1953": [
+    {
+      "date": "1953-08-19",
+      "title": "Cold War: The CIA and MI6 help to overthrow the government of Mohammad Mosaddegh",
+      "desc": "Cold War: The CIA and MI6 help to overthrow the government of Mohammad Mosaddegh in Iran and reinstate the Shah Mohammad Reza Pahlavi.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
     {
       "date": "1953-06-02",
       "title": "Elizabeth Coronation",
@@ -1289,13 +1324,6 @@
       "type": "politics"
     },
     {
-      "date": "1950-08-18",
-      "title": "Julien Lahaut, the chairman of the Communist Party of Belgium, is assassinated. ",
-      "desc": "Julien Lahaut, the chairman of the Communist Party of Belgium, is assassinated. The Party newspaper blames royalists and Rexists.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "1950-06-28",
       "title": "Korean War Massacres",
       "desc": "Communist sympathizers executed as Seoul falls",
@@ -1320,13 +1348,6 @@
       "title": "First Soviet A-Bomb",
       "desc": "Soviet Union successfully tests atomic bomb",
       "type": "science"
-    },
-    {
-      "date": "1949-08-18",
-      "title": "Kemi strike: Two protesters die in the scuffle between the police and the strike",
-      "desc": "Kemi strike: Two protesters die in the scuffle between the police and the strikers' protest procession in Kemi, Finland.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1949-04-04",
@@ -1377,17 +1398,10 @@
       "type": "politics"
     },
     {
-      "date": "1945-08-18",
-      "title": "Sukarno takes office as the first president of Indonesia, following the country'",
-      "desc": "Sukarno takes office as the first president of Indonesia, following the country's declaration of independence the previous day.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1945-08-18",
-      "title": "Soviet-Japanese War: Battle of Shumshu: Soviet forces land at Takeda Beach on Sh",
-      "desc": "Soviet-Japanese War: Battle of Shumshu: Soviet forces land at Takeda Beach on Shumshu Island and launch the Battle of Shumshu; the Soviet Union's Invasion of the Kuril Islands commences.",
-      "type": "tech",
+      "date": "1945-08-19",
+      "title": "August Revolution: Viet Minh led by Ho Chi Minh take power in Hanoi, Vietnam.",
+      "desc": "August Revolution: Viet Minh led by Ho Chi Minh take power in Hanoi, Vietnam.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -1411,6 +1425,13 @@
   ],
   "1944": [
     {
+      "date": "1944-08-19",
+      "title": "World War II: Liberation of Paris: Paris, France rises against German occupation",
+      "desc": "World War II: Liberation of Paris: Paris, France rises against German occupation with the help of Allied troops.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1944-07-20",
       "title": "Hitler Assassination Attempt",
       "desc": "Operation Valkyrie: von Stauffenberg tries to kill Hitler",
@@ -1423,12 +1444,28 @@
       "type": "politics"
     }
   ],
+  "1942": [
+    {
+      "date": "1942-08-19",
+      "title": "World War II: Operation Jubilee (The Dieppe Raid): The 2nd Canadian Infantry Div",
+      "desc": "World War II: Operation Jubilee (The Dieppe Raid): The 2nd Canadian Infantry Division leads an amphibious assault by allied forces on Dieppe, France and fails.",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "1941": [
     {
       "date": "1941-12-07",
       "title": "Pearl Harbor",
       "desc": "Japan attacks US naval base, US enters WWII",
       "type": "politics"
+    },
+    {
+      "date": "1941-08-19",
+      "title": "Germany and Romania sign the Tiraspol Agreement, rendering the region of Transni",
+      "desc": "Germany and Romania sign the Tiraspol Agreement, rendering the region of Transnistria under control of the latter.",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "1941-06-22",
@@ -1439,10 +1476,10 @@
   ],
   "1940": [
     {
-      "date": "1940-08-18",
-      "title": "World War II: The Hardest Day air battle, part of the Battle of Britain, takes p",
-      "desc": "World War II: The Hardest Day air battle, part of the Battle of Britain, takes place. At that point, it is the largest aerial engagement in history with heavy losses sustained on both sides.",
-      "type": "tech",
+      "date": "1940-08-19",
+      "title": "First flight of the B-25 Mitchell medium bomber.",
+      "desc": "First flight of the B-25 Mitchell medium bomber.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -1460,23 +1497,7 @@
       "type": "politics"
     }
   ],
-  "1938": [
-    {
-      "date": "1938-08-18",
-      "title": "The Thousand Islands Bridge, connecting New York, United States, with Ontario, C",
-      "desc": "The Thousand Islands Bridge, connecting New York, United States, with Ontario, Canada, over the Saint Lawrence River, is dedicated by U.S. President Franklin D. Roosevelt.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
   "1937": [
-    {
-      "date": "1937-08-18",
-      "title": "A lightning strike starts the Blackwater Fire of 1937 in Shoshone National Fores",
-      "desc": "A lightning strike starts the Blackwater Fire of 1937 in Shoshone National Forest, killing 15 firefighters within three days and prompting the United States Forest Service to develop their smokejumper",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1937-07-07",
       "title": "Marco Polo Bridge",
@@ -1492,6 +1513,13 @@
   ],
   "1936": [
     {
+      "date": "1936-08-19",
+      "title": "The Great Purge of the Soviet Union begins when the first of the Moscow Trials i",
+      "desc": "The Great Purge of the Soviet Union begins when the first of the Moscow Trials is convened.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1936-07-17",
       "title": "Spanish Civil War",
       "desc": "Nationalist forces rebel against Spanish Republic",
@@ -1504,14 +1532,23 @@
       "type": "politics"
     }
   ],
-  "1933": [
+  "1934": [
     {
-      "date": "1933-08-18",
-      "title": "The Volksempfänger is first presented to the German public at a radio exhibition",
-      "desc": "The Volksempfänger is first presented to the German public at a radio exhibition; the presiding Nazi Minister of Propaganda, Joseph Goebbels, delivers an accompanying speech heralding the radio as the",
+      "date": "1934-08-19",
+      "title": "The first All-American Soap Box Derby is held in Dayton, Ohio.",
+      "desc": "The first All-American Soap Box Derby is held in Dayton, Ohio.",
       "type": "general",
       "source": "wikipedia"
     },
+    {
+      "date": "1934-08-19",
+      "title": "The German referendum of 1934 approves Adolf Hitler's appointment as head of sta",
+      "desc": "The German referendum of 1934 approves Adolf Hitler's appointment as head of state with the title of Führer.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
+  "1933": [
     {
       "date": "1933-03-04",
       "title": "FDR Inaugurated",
@@ -1555,6 +1592,13 @@
       "type": "general"
     },
     {
+      "date": "1927-08-19",
+      "title": "Patriarch Sergius of Moscow proclaims the declaration of loyalty of the Russian ",
+      "desc": "Patriarch Sergius of Moscow proclaims the declaration of loyalty of the Russian Orthodox Church to the Soviet Union.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1927-05-20",
       "title": "Lindbergh Flies Atlantic",
       "desc": "Charles Lindbergh completes first solo transatlantic flight",
@@ -1581,15 +1625,6 @@
       "title": "Lenin Dies",
       "desc": "Vladimir Lenin dies, Stalin begins rise to power",
       "type": "politics"
-    }
-  ],
-  "1923": [
-    {
-      "date": "1923-08-18",
-      "title": "The first British Track and Field championships for women are held in London, Gr",
-      "desc": "The first British Track and Field championships for women are held in London, Great Britain.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1922": [
@@ -1622,9 +1657,9 @@
   ],
   "1920": [
     {
-      "date": "1920-08-18",
-      "title": "The Nineteenth Amendment to the United States Constitution is ratified, guarante",
-      "desc": "The Nineteenth Amendment to the United States Constitution is ratified, guaranteeing women's suffrage.",
+      "date": "1920-08-19",
+      "title": "The Tambov Rebellion breaks out, in response to the Bolshevik policy of Prodrazv",
+      "desc": "The Tambov Rebellion breaks out, in response to the Bolshevik policy of Prodrazvyorstka.",
       "type": "general",
       "source": "wikipedia"
     }
@@ -1663,13 +1698,6 @@
       "title": "Russian Revolution",
       "desc": "Bolsheviks seize power in October Revolution",
       "type": "politics"
-    },
-    {
-      "date": "1917-08-18",
-      "title": "A Great Fire in Thessaloniki, Greece, destroys 32% of the city leaving 70,000 in",
-      "desc": "A Great Fire in Thessaloniki, Greece, destroys 32% of the city leaving 70,000 individuals homeless.",
-      "type": "general",
-      "source": "wikipedia"
     },
     {
       "date": "1917-06-28",
@@ -1720,6 +1748,15 @@
       "type": "science"
     }
   ],
+  "1909": [
+    {
+      "date": "1909-08-19",
+      "title": "The Indianapolis Motor Speedway opens for automobile racing. William Bourque and",
+      "desc": "The Indianapolis Motor Speedway opens for automobile racing. William Bourque and his mechanic are killed during the first day's events.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1905": [
     {
       "date": "1905-09-05",
@@ -1742,10 +1779,10 @@
       "type": "science"
     },
     {
-      "date": "1903-08-18",
-      "title": "German engineer Karl Jatho allegedly flies his self-made, motored gliding airpla",
-      "desc": "German engineer Karl Jatho allegedly flies his self-made, motored gliding airplane four months before the first flight of the Wright brothers.",
-      "type": "tech",
+      "date": "1903-08-19",
+      "title": "The Transfiguration Uprising breaks out in East Thrace, resulting in the establi",
+      "desc": "The Transfiguration Uprising breaks out in East Thrace, resulting in the establishment of the Strandzha Commune.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
