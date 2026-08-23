@@ -85,6 +85,20 @@
       "type": "politics"
     },
     {
+      "date": "2023-08-23",
+      "title": "Chandrayaan-3 mission initiates first Moon landing in Indian history.",
+      "desc": "Chandrayaan-3 mission initiates first Moon landing in Indian history.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2023-08-23",
+      "title": "A business jet carrying key leadership members of the Russian private military c",
+      "desc": "A business jet carrying key leadership members of the Russian private military company Wagner Group crashes, killing all ten people on board.",
+      "type": "disaster",
+      "source": "wikipedia"
+    },
+    {
       "date": "2023-07-19",
       "title": "Global Temperature Record",
       "desc": "Hottest month ever recorded globally",
@@ -297,6 +311,13 @@
       "type": "politics"
     },
     {
+      "date": "2013-08-23",
+      "title": "A riot at the Palmasola prison complex in Santa Cruz, Bolivia kills 31 people.",
+      "desc": "A riot at the Palmasola prison complex in Santa Cruz, Bolivia kills 31 people.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "2013-06-06",
       "title": "Snowden Leaks",
       "desc": "Edward Snowden reveals global surveillance programs",
@@ -317,10 +338,10 @@
       "type": "general"
     },
     {
-      "date": "2012-08-22",
-      "title": "Ethnic clashes over grazing rights for cattle in Kenya's Tana River District res",
-      "desc": "Ethnic clashes over grazing rights for cattle in Kenya's Tana River District result in more than 52 deaths.",
-      "type": "general",
+      "date": "2012-08-23",
+      "title": "A hot-air balloon crashes near the Slovenian capital of Ljubljana, killing six p",
+      "desc": "A hot-air balloon crashes near the Slovenian capital of Ljubljana, killing six people and injuring 28 others.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -337,6 +358,20 @@
     }
   ],
   "2011": [
+    {
+      "date": "2011-08-23",
+      "title": "A magnitude 5.8 (class: moderate) earthquake occurs in Virginia. Damage occurs t",
+      "desc": "A magnitude 5.8 (class: moderate) earthquake occurs in Virginia. Damage occurs to monuments and structures in Washington, D.C. and the resulted damage is estimated at 200 million–300 million USD.",
+      "type": "climate",
+      "source": "wikipedia"
+    },
+    {
+      "date": "2011-08-23",
+      "title": "Libyan leader Muammar Gaddafi is overthrown after the National Transitional Coun",
+      "desc": "Libyan leader Muammar Gaddafi is overthrown after the National Transitional Council forces take control of Bab al-Azizia compound during the Libyan Civil War.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
     {
       "date": "2011-05-02",
       "title": "Bin Laden Killed",
@@ -357,6 +392,13 @@
     }
   ],
   "2010": [
+    {
+      "date": "2010-08-23",
+      "title": "The Manila hostage crisis occurs near the Quirino Grandstand in Manila, Philippi",
+      "desc": "The Manila hostage crisis occurs near the Quirino Grandstand in Manila, Philippines, killing 9 people including the perpetrator while injuring 9 others.",
+      "type": "finance",
+      "source": "wikipedia"
+    },
     {
       "date": "2010-05-06",
       "title": "Flash Crash",
@@ -418,10 +460,10 @@
   ],
   "2007": [
     {
-      "date": "2007-08-22",
-      "title": "The Texas Rangers defeat the Baltimore Orioles 30–3, the most runs scored by a t",
-      "desc": "The Texas Rangers defeat the Baltimore Orioles 30–3, the most runs scored by a team in modern Major League Baseball history.",
-      "type": "general",
+      "date": "2007-08-23",
+      "title": "The skeletal remains of Russia's last royal family members Alexei Nikolaevich, T",
+      "desc": "The skeletal remains of Russia's last royal family members Alexei Nikolaevich, Tsarevich of Russia, and his sister Grand Duchess Anastasia are discovered near Yekaterinburg, Russia.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -439,17 +481,10 @@
   ],
   "2006": [
     {
-      "date": "2006-08-22",
-      "title": "Pulkovo Aviation Enterprise Flight 612 crashes near the Russian border over east",
-      "desc": "Pulkovo Aviation Enterprise Flight 612 crashes near the Russian border over eastern Ukraine, killing all 170 people on board.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
-      "date": "2006-08-22",
-      "title": "Grigori Perelman is awarded the Fields Medal for his proof of the Poincaré conje",
-      "desc": "Grigori Perelman is awarded the Fields Medal for his proof of the Poincaré conjecture in mathematics but refuses to accept the medal.",
-      "type": "politics",
+      "date": "2006-08-23",
+      "title": "Natascha Kampusch, who had been abducted at the age of ten, escapes from her cap",
+      "desc": "Natascha Kampusch, who had been abducted at the age of ten, escapes from her captor Wolfgang Přiklopil, after eight years of captivity.",
+      "type": "general",
       "source": "wikipedia"
     }
   ],
@@ -481,13 +516,6 @@
       "type": "disaster"
     },
     {
-      "date": "2004-08-22",
-      "title": "Versions of The Scream and Madonna, two paintings by Edvard Munch, are stolen at",
-      "desc": "Versions of The Scream and Madonna, two paintings by Edvard Munch, are stolen at gunpoint from a museum in Oslo, Norway.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
-    {
       "date": "2004-06-28",
       "title": "Iraq Sovereignty",
       "desc": "Coalition hands sovereignty to interim Iraqi government",
@@ -501,13 +529,6 @@
     }
   ],
   "2003": [
-    {
-      "date": "2003-08-22",
-      "title": "Chief Justice of the Supreme Court of Alabama Roy Moore is suspended after refus",
-      "desc": "Chief Justice of the Supreme Court of Alabama Roy Moore is suspended after refusing to comply with a federal court order to remove a rock inscribed with the Ten Commandments from the lobby of the Alab",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "2003-03-20",
       "title": "Iraq War Begins",
@@ -543,6 +564,13 @@
       "type": "general"
     },
     {
+      "date": "2000-08-23",
+      "title": "Gulf Air Flight 072 crashes into the Persian Gulf near Manama, Bahrain, killing ",
+      "desc": "Gulf Air Flight 072 crashes into the Persian Gulf near Manama, Bahrain, killing 143.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "2000-03-10",
       "title": "Dot-Com Bubble Burst",
       "desc": "NASDAQ peaks at 5048 before tech crash",
@@ -550,13 +578,6 @@
     }
   ],
   "1999": [
-    {
-      "date": "1999-08-22",
-      "title": "China Airlines Flight 642 crashes at Hong Kong International Airport, killing th",
-      "desc": "China Airlines Flight 642 crashes at Hong Kong International Airport, killing three people and injuring 208 more.",
-      "type": "tech",
-      "source": "wikipedia"
-    },
     {
       "date": "1999-03-24",
       "title": "Kosovo War",
@@ -620,6 +641,13 @@
   ],
   "1994": [
     {
+      "date": "1994-08-23",
+      "title": "Eugene Bullard, the only African American pilot in World War I, is posthumously ",
+      "desc": "Eugene Bullard, the only African American pilot in World War I, is posthumously commissioned as Second Lieutenant in the United States Air Force.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1994-05-10",
       "title": "Mandela President",
       "desc": "Nelson Mandela inaugurated as first Black president of South Africa",
@@ -654,13 +682,6 @@
       "type": "tech"
     },
     {
-      "date": "1992-08-22",
-      "title": "FBI sniper Lon Horiuchi shoots and kills Vicki Weaver during an 11-day siege at ",
-      "desc": "FBI sniper Lon Horiuchi shoots and kills Vicki Weaver during an 11-day siege at her home at Ruby Ridge, Idaho.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1992-04-29",
       "title": "LA Riots",
       "desc": "Riots erupt after Rodney King verdict",
@@ -675,9 +696,9 @@
       "type": "politics"
     },
     {
-      "date": "1991-08-22",
-      "title": "Iceland is the first nation in the world to recognize the independence of the Ba",
-      "desc": "Iceland is the first nation in the world to recognize the independence of the Baltic states.",
+      "date": "1991-08-23",
+      "title": "The World Wide Web is opened to the public.",
+      "desc": "The World Wide Web is opened to the public.",
       "type": "general",
       "source": "wikipedia"
     },
@@ -702,6 +723,27 @@
       "type": "politics"
     },
     {
+      "date": "1990-08-23",
+      "title": "Saddam Hussein appears on Iraqi state television with a number of Western \"guest",
+      "desc": "Saddam Hussein appears on Iraqi state television with a number of Western \"guests\" (actually hostages) to try to prevent the Gulf War.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1990-08-23",
+      "title": "Armenia declares its independence from the Soviet Union.",
+      "desc": "Armenia declares its independence from the Soviet Union.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1990-08-23",
+      "title": "West and East Germany announce that they will reunite on October 3.",
+      "desc": "West and East Germany announce that they will reunite on October 3.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1990-08-02",
       "title": "Iraq Invades Kuwait",
       "desc": "Iraqi invasion triggers Gulf War",
@@ -722,9 +764,9 @@
       "type": "politics"
     },
     {
-      "date": "1989-08-22",
-      "title": "Nolan Ryan strikes out Rickey Henderson to become the first Major League Basebal",
-      "desc": "Nolan Ryan strikes out Rickey Henderson to become the first Major League Baseball pitcher to record 5,000 strikeouts.",
+      "date": "1989-08-23",
+      "title": "Singing Revolution: Two million people from Estonia, Latvia and Lithuania stand ",
+      "desc": "Singing Revolution: Two million people from Estonia, Latvia and Lithuania stand on the Vilnius–Tallinn road, holding hands.",
       "type": "general",
       "source": "wikipedia"
     },
@@ -785,10 +827,10 @@
   ],
   "1985": [
     {
-      "date": "1985-08-22",
-      "title": "British Airtours Flight 28M suffers an engine fire during takeoff at Manchester ",
-      "desc": "British Airtours Flight 28M suffers an engine fire during takeoff at Manchester Airport. The pilots abort but due to inefficient evacuation procedures 55 people are killed, mostly from smoke inhalatio",
-      "type": "tech",
+      "date": "1985-08-23",
+      "title": "Hans Tiedge, top counter-spy of West Germany, defects to East Germany.",
+      "desc": "Hans Tiedge, top counter-spy of West Germany, defects to East Germany.",
+      "type": "general",
       "source": "wikipedia"
     },
     {
@@ -832,15 +874,6 @@
       "type": "politics"
     }
   ],
-  "1981": [
-    {
-      "date": "1981-08-22",
-      "title": "Far Eastern Air Transport Flight 103 disintegrates in mid-air and crashes in San",
-      "desc": "Far Eastern Air Transport Flight 103 disintegrates in mid-air and crashes in Sanyi Township, Miaoli County, Taiwan. All 110 people on board are killed.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
   "1980": [
     {
       "date": "1980-09-22",
@@ -870,20 +903,6 @@
     }
   ],
   "1978": [
-    {
-      "date": "1978-08-22",
-      "title": "Nicaraguan Revolution: The FSLN seizes the National Congress of Nicaragua, along",
-      "desc": "Nicaraguan Revolution: The FSLN seizes the National Congress of Nicaragua, along with over a thousand hostages.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1978-08-22",
-      "title": "The District of Columbia Voting Rights Amendment is passed by the U.S. Congress,",
-      "desc": "The District of Columbia Voting Rights Amendment is passed by the U.S. Congress, although it is never ratified by a sufficient number of states.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
     {
       "date": "1978-07-25",
       "title": "First IVF Baby",
@@ -927,6 +946,20 @@
   ],
   "1975": [
     {
+      "date": "1975-08-23",
+      "title": "The start of the Wave Hill walk-off by Gurindji people in Australia, lasting eig",
+      "desc": "The start of the Wave Hill walk-off by Gurindji people in Australia, lasting eight years, a landmark event in the history of Indigenous land rights in Australia, commemorated in a 1991 Paul Kelly song",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1975-08-23",
+      "title": "The Pontiac Silverdome opens in Pontiac, Michigan, 30 miles (48 km) northwest of",
+      "desc": "The Pontiac Silverdome opens in Pontiac, Michigan, 30 miles (48 km) northwest of Detroit, Michigan.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1975-04-30",
       "title": "Vietnam War Ends",
       "desc": "Saigon falls, Vietnam War ends",
@@ -961,10 +994,10 @@
       "type": "finance"
     },
     {
-      "date": "1973-08-22",
-      "title": "The Congress of Chile votes in favour of a resolution condemning President Salva",
-      "desc": "The Congress of Chile votes in favour of a resolution condemning President Salvador Allende's government and demands that he resign or else be unseated through force and new elections.",
-      "type": "politics",
+      "date": "1973-08-23",
+      "title": "A bank robbery gone wrong in Stockholm, Sweden, turns into a hostage crisis; ove",
+      "desc": "A bank robbery gone wrong in Stockholm, Sweden, turns into a hostage crisis; over the next five days the hostages begin to sympathise with their captors, leading to the term \"Stockholm syndrome\".",
+      "type": "finance",
       "source": "wikipedia"
     },
     {
@@ -982,13 +1015,6 @@
       "type": "disaster"
     },
     {
-      "date": "1972-08-22",
-      "title": "Rhodesia is expelled by the IOC for its racist policies.",
-      "desc": "Rhodesia is expelled by the IOC for its racist policies.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1972-02-21",
       "title": "Nixon Visits China",
       "desc": "President Nixon's historic visit to China",
@@ -1003,17 +1029,19 @@
       "type": "politics"
     },
     {
-      "date": "1971-08-22",
-      "title": "J. Edgar Hoover and John Mitchell announce the arrest of 20 of the Camden 28.",
-      "desc": "J. Edgar Hoover and John Mitchell announce the arrest of 20 of the Camden 28.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
       "date": "1971-08-15",
       "title": "Bretton Woods Ends",
       "desc": "Nixon ends gold standard, floating exchange rates begin",
       "type": "finance"
+    }
+  ],
+  "1970": [
+    {
+      "date": "1970-08-23",
+      "title": "Organized by Mexican American labor union leader César Chávez, the Salad Bowl st",
+      "desc": "Organized by Mexican American labor union leader César Chávez, the Salad Bowl strike, the largest farm worker strike in U.S. history, begins.",
+      "type": "general",
+      "source": "wikipedia"
     }
   ],
   "1969": [
@@ -1037,13 +1065,6 @@
     }
   ],
   "1968": [
-    {
-      "date": "1968-08-22",
-      "title": "Pope Paul VI arrives in Bogotá, Colombia. It is the first visit of a pope to Lat",
-      "desc": "Pope Paul VI arrives in Bogotá, Colombia. It is the first visit of a pope to Latin America.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1968-08-21",
       "title": "Prague Spring",
@@ -1079,21 +1100,14 @@
   ],
   "1966": [
     {
-      "date": "1966-08-22",
-      "title": "Labor movements NFWA and AWOC merge to become the United Farm Workers Organizing",
-      "desc": "Labor movements NFWA and AWOC merge to become the United Farm Workers Organizing Committee (UFWOC), the predecessor of the United Farm Workers.",
+      "date": "1966-08-23",
+      "title": "Lunar Orbiter 1 takes the first photograph of Earth from orbit around the Moon.",
+      "desc": "Lunar Orbiter 1 takes the first photograph of Earth from orbit around the Moon.",
       "type": "general",
       "source": "wikipedia"
     }
   ],
   "1965": [
-    {
-      "date": "1965-08-22",
-      "title": "Juan Marichal, pitcher for the San Francisco Giants, strikes John Roseboro, catc",
-      "desc": "Juan Marichal, pitcher for the San Francisco Giants, strikes John Roseboro, catcher for the Los Angeles Dodgers, on the head with a bat, sparking a 14-minute brawl, one of the most violent on-field in",
-      "type": "sports",
-      "source": "wikipedia"
-    },
     {
       "date": "1965-08-11",
       "title": "Watts Riots",
@@ -1133,13 +1147,6 @@
       "title": "I Have a Dream",
       "desc": "MLK delivers iconic speech at March on Washington",
       "type": "politics"
-    },
-    {
-      "date": "1963-08-22",
-      "title": "X-15 Flight 91 reaches the highest altitude of the X-15 program (107.96 km (67.0",
-      "desc": "X-15 Flight 91 reaches the highest altitude of the X-15 program (107.96 km (67.08 mi) (354,200 feet)).",
-      "type": "general",
-      "source": "wikipedia"
     }
   ],
   "1962": [
@@ -1148,13 +1155,6 @@
       "title": "Cuban Missile Crisis",
       "desc": "US-USSR standoff brings world close to nuclear war",
       "type": "politics"
-    },
-    {
-      "date": "1962-08-22",
-      "title": "The OAS attempts to assassinate French president Charles de Gaulle.",
-      "desc": "The OAS attempts to assassinate French president Charles de Gaulle.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1962-07-10",
@@ -1205,6 +1205,15 @@
       "type": "politics"
     }
   ],
+  "1958": [
+    {
+      "date": "1958-08-23",
+      "title": "Chinese Civil War: The Second Taiwan Strait Crisis begins with the People's Libe",
+      "desc": "Chinese Civil War: The Second Taiwan Strait Crisis begins with the People's Liberation Army's bombardment of Quemoy.",
+      "type": "finance",
+      "source": "wikipedia"
+    }
+  ],
   "1957": [
     {
       "date": "1957-12-06",
@@ -1249,6 +1258,20 @@
   ],
   "1954": [
     {
+      "date": "1954-08-23",
+      "title": "The first flight of the Lockheed C-130 multi-role aircraft takes place.",
+      "desc": "The first flight of the Lockheed C-130 multi-role aircraft takes place.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1954-08-23",
+      "title": "The Cruise of the Kings, a royal cruise organised by the Queen Consort of Greece",
+      "desc": "The Cruise of the Kings, a royal cruise organised by the Queen Consort of Greece, Frederica of Hanover, departs from Marseille, France.",
+      "type": "general",
+      "source": "wikipedia"
+    },
+    {
       "date": "1954-05-17",
       "title": "Brown v. Board",
       "desc": "US Supreme Court declares school segregation unconstitutional",
@@ -1262,13 +1285,6 @@
     }
   ],
   "1953": [
-    {
-      "date": "1953-08-22",
-      "title": "The penal colony on Devil's Island is permanently closed.",
-      "desc": "The penal colony on Devil's Island is permanently closed.",
-      "type": "general",
-      "source": "wikipedia"
-    },
     {
       "date": "1953-06-02",
       "title": "Elizabeth Coronation",
@@ -1338,13 +1354,6 @@
       "type": "science"
     },
     {
-      "date": "1949-08-22",
-      "title": "The Queen Charlotte earthquake is Canada's strongest since the 1700 Cascadia ear",
-      "desc": "The Queen Charlotte earthquake is Canada's strongest since the 1700 Cascadia earthquake.",
-      "type": "climate",
-      "source": "wikipedia"
-    },
-    {
       "date": "1949-04-04",
       "title": "NATO Founded",
       "desc": "North Atlantic Treaty Organization established",
@@ -1357,6 +1366,13 @@
       "title": "Universal Declaration",
       "desc": "UN adopts Universal Declaration of Human Rights",
       "type": "politics"
+    },
+    {
+      "date": "1948-08-23",
+      "title": "The World Council of Churches is formed by 147 churches from 44 countries.",
+      "desc": "The World Council of Churches is formed by 147 churches from 44 countries.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1948-06-28",
@@ -1385,12 +1401,28 @@
       "type": "finance"
     }
   ],
+  "1946": [
+    {
+      "date": "1946-08-23",
+      "title": "Ordinance No. 46 of the British Military Government constitutes the German Lände",
+      "desc": "Ordinance No. 46 of the British Military Government constitutes the German Länder (states) of Hanover and Schleswig-Holstein.",
+      "type": "general",
+      "source": "wikipedia"
+    }
+  ],
   "1945": [
     {
       "date": "1945-09-02",
       "title": "WWII Ends",
       "desc": "Japan surrenders, ending World War II",
       "type": "politics"
+    },
+    {
+      "date": "1945-08-23",
+      "title": "World War II: Soviet–Japanese War: The USSR State Defense Committee issues Decre",
+      "desc": "World War II: Soviet–Japanese War: The USSR State Defense Committee issues Decree no. 9898cc \"About Receiving, Accommodation, and Labor Utilization of the Japanese Army Prisoners of War\".",
+      "type": "politics",
+      "source": "wikipedia"
     },
     {
       "date": "1945-08-06",
@@ -1413,10 +1445,24 @@
   ],
   "1944": [
     {
-      "date": "1944-08-22",
-      "title": "World War II: Holocaust of Kedros in Crete by German forces.",
-      "desc": "World War II: Holocaust of Kedros in Crete by German forces.",
+      "date": "1944-08-23",
+      "title": "World War II: Marseille is liberated by the Allied forces.",
+      "desc": "World War II: Marseille is liberated by the Allied forces.",
       "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1944-08-23",
+      "title": "World War II: King Michael of Romania dismisses the pro-Nazi government of Marsh",
+      "desc": "World War II: King Michael of Romania dismisses the pro-Nazi government of Marshal Antonescu, who is later arrested. Romania switches sides from the Axis to the Allies.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1944-08-23",
+      "title": "Freckleton air disaster: A United States Army Air Forces B-24 Liberator bomber c",
+      "desc": "Freckleton air disaster: A United States Army Air Forces B-24 Liberator bomber crashes into a school in Freckleton, England, killing 61 people.",
+      "type": "tech",
       "source": "wikipedia"
     },
     {
@@ -1432,11 +1478,20 @@
       "type": "politics"
     }
   ],
+  "1943": [
+    {
+      "date": "1943-08-23",
+      "title": "World War II: Kharkiv is liberated by the Soviet Red Army for the second time af",
+      "desc": "World War II: Kharkiv is liberated by the Soviet Red Army for the second time after the Battle of Kursk.",
+      "type": "politics",
+      "source": "wikipedia"
+    }
+  ],
   "1942": [
     {
-      "date": "1942-08-22",
-      "title": "Brazil declares war on Germany, Japan and Italy.",
-      "desc": "Brazil declares war on Germany, Japan and Italy.",
+      "date": "1942-08-23",
+      "title": "World War II: Beginning of the Battle of Stalingrad.",
+      "desc": "World War II: Beginning of the Battle of Stalingrad.",
       "type": "politics",
       "source": "wikipedia"
     }
@@ -1467,6 +1522,13 @@
       "title": "Molotov-Ribbentrop Pact",
       "desc": "Germany and USSR sign non-aggression pact",
       "type": "politics"
+    },
+    {
+      "date": "1939-08-23",
+      "title": "World War II: Nazi Germany and the Soviet Union sign the Molotov–Ribbentrop Pact",
+      "desc": "World War II: Nazi Germany and the Soviet Union sign the Molotov–Ribbentrop Pact. In a secret protocol to the pact, Poland, Finland, Estonia, Latvia, Lithuania, and Romania are divided into German and",
+      "type": "politics",
+      "source": "wikipedia"
     }
   ],
   "1937": [
@@ -1497,15 +1559,6 @@
       "type": "politics"
     }
   ],
-  "1934": [
-    {
-      "date": "1934-08-22",
-      "title": "Bill Woodfull of Australia becomes the only test cricket captain to twice regain",
-      "desc": "Bill Woodfull of Australia becomes the only test cricket captain to twice regain The Ashes.",
-      "type": "tech",
-      "source": "wikipedia"
-    }
-  ],
   "1933": [
     {
       "date": "1933-03-04",
@@ -1528,6 +1581,13 @@
       "type": "finance"
     },
     {
+      "date": "1929-08-23",
+      "title": "Hebron Massacre during the 1929 Palestine riots: Arab attacks on the Jewish comm",
+      "desc": "Hebron Massacre during the 1929 Palestine riots: Arab attacks on the Jewish community in Hebron in the British Mandate of Palestine occur, continuing until the next day, resulting in the death of 65–6",
+      "type": "tech",
+      "source": "wikipedia"
+    },
+    {
       "date": "1929-02-14",
       "title": "St. Valentine's Massacre",
       "desc": "Al Capone's gang kills rivals in Chicago",
@@ -1548,6 +1608,13 @@
       "title": "The Jazz Singer",
       "desc": "First feature-length 'talkie' film released",
       "type": "general"
+    },
+    {
+      "date": "1927-08-23",
+      "title": "Italian anarchists Sacco and Vanzetti are executed after a lengthy, controversia",
+      "desc": "Italian anarchists Sacco and Vanzetti are executed after a lengthy, controversial trial.",
+      "type": "general",
+      "source": "wikipedia"
     },
     {
       "date": "1927-05-20",
@@ -1578,19 +1645,21 @@
       "type": "politics"
     }
   ],
+  "1923": [
+    {
+      "date": "1923-08-23",
+      "title": "Captain Lowell Smith and Lieutenant John P. Richter perform the first mid-air re",
+      "desc": "Captain Lowell Smith and Lieutenant John P. Richter perform the first mid-air refueling on De Havilland DH-4B, setting an endurance flight record of 37 hours.",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "1922": [
     {
       "date": "1922-12-30",
       "title": "USSR Founded",
       "desc": "Soviet Union officially established",
       "type": "politics"
-    },
-    {
-      "date": "1922-08-22",
-      "title": "Michael Collins, Commander-in-chief of the Irish Free State Army, is shot dead i",
-      "desc": "Michael Collins, Commander-in-chief of the Irish Free State Army, is shot dead in an ambush during the Irish Civil War.",
-      "type": "politics",
-      "source": "wikipedia"
     },
     {
       "date": "1922-06-28",
@@ -1600,6 +1669,13 @@
     }
   ],
   "1921": [
+    {
+      "date": "1921-08-23",
+      "title": "British airship R-38 experiences structural failure over Hull in England and cra",
+      "desc": "British airship R-38 experiences structural failure over Hull in England and crashes in the Humber Estuary; of her 49 British and American training crew, only four survive.",
+      "type": "tech",
+      "source": "wikipedia"
+    },
     {
       "date": "1921-07-01",
       "title": "Chinese Communist Party",
@@ -1657,6 +1733,20 @@
   ],
   "1914": [
     {
+      "date": "1914-08-23",
+      "title": "World War I: The British Expeditionary Force and the French Fifth Army begin the",
+      "desc": "World War I: The British Expeditionary Force and the French Fifth Army begin their Great Retreat before the German Army.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
+      "date": "1914-08-23",
+      "title": "World War I: Japan declares war on Germany.",
+      "desc": "World War I: Japan declares war on Germany.",
+      "type": "politics",
+      "source": "wikipedia"
+    },
+    {
       "date": "1914-07-28",
       "title": "WWI Begins",
       "desc": "Austria-Hungary declares war on Serbia",
@@ -1711,6 +1801,15 @@
       "type": "science"
     }
   ],
+  "1904": [
+    {
+      "date": "1904-08-23",
+      "title": "The automobile tire chain is patented.",
+      "desc": "The automobile tire chain is patented.",
+      "type": "tech",
+      "source": "wikipedia"
+    }
+  ],
   "1903": [
     {
       "date": "1903-12-17",
@@ -1723,29 +1822,6 @@
       "title": "Ford Motor Company",
       "desc": "Henry Ford and investors found Ford Motor Company",
       "type": "tech"
-    }
-  ],
-  "1902": [
-    {
-      "date": "1902-08-22",
-      "title": "The Cadillac Motor Company is founded.",
-      "desc": "The Cadillac Motor Company is founded.",
-      "type": "general",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1902-08-22",
-      "title": "Theodore Roosevelt becomes the first President of the United States to make a pu",
-      "desc": "Theodore Roosevelt becomes the first President of the United States to make a public appearance in an automobile.",
-      "type": "politics",
-      "source": "wikipedia"
-    },
-    {
-      "date": "1902-08-22",
-      "title": "At least 6,000 people are killed by the magnitude 7.7 Kashgar earthquake in the ",
-      "desc": "At least 6,000 people are killed by the magnitude 7.7 Kashgar earthquake in the Tien Shan mountains.",
-      "type": "tech",
-      "source": "wikipedia"
     }
   ],
   "1901": [
